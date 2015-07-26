@@ -254,5 +254,21 @@ voisi poimia omaan sarakkeeseen tiedon jos dokumentti on "Obl"?
 
 Animations
 
+------
 
+Kenttä 650y.651y muuttui alkuperäisestä versiosta, funktiot
+hajosi. Pitäisi kirjoittaa uudet funktiot vuosilukujen ja topiccien
+poimimiseksi tästä kentästä. See also function inst/extras/misc.R ->
+polish.650y
+
+print("Subject timespan")
+df$subject.begin <- sapply(strsplit(as.character(df.orig[["650y.651y"]]), ";"), function (x) {min(na.omit(as.numeric(x)))})
+df$subject.end <- sapply(strsplit(as.character(df.orig[["650y.651y"]]), ";"), function (x) {max(na.omit(as.numeric(x)))})
+df$subject.begin[is.infinite(df$subject.begin)] <- NA
+df$subject.end[is.infinite(df$subject.end)] <- NA
+# Correct typos manually
+df$subject.begin <- as.numeric(gsub("17600", "1600", df$subject.begin))
+df$subject.end <- as.numeric(gsub("17600", "1600", df$subject.end))
+df$subject.begin <- as.numeric(gsub("7600", "1600", df$subject.begin))
+df$subject.end <- as.numeric(gsub("7600", "1600", df$subject.end))
 

@@ -76,17 +76,6 @@ print("Subject geographic places")
 df$subject.geography <- polish_geography(df.orig[["650z.651a.651z"]])
 df[which(df$subject.geography == "NA"), "subject.geography"] <- NA
 
-print("Subject timespan")
-df$subject.begin <- sapply(strsplit(as.character(df.orig[["650y.651y"]]), ";"), function (x) {min(na.omit(as.numeric(x)))})
-df$subject.end <- sapply(strsplit(as.character(df.orig[["650y.651y"]]), ";"), function (x) {max(na.omit(as.numeric(x)))})
-df$subject.begin[is.infinite(df$subject.begin)] <- NA
-df$subject.end[is.infinite(df$subject.end)] <- NA
-# Correct typos manually
-df$subject.begin <- as.numeric(gsub("17600", "1600", df$subject.begin))
-df$subject.end <- as.numeric(gsub("17600", "1600", df$subject.end))
-df$subject.begin <- as.numeric(gsub("7600", "1600", df$subject.begin))
-df$subject.end <- as.numeric(gsub("7600", "1600", df$subject.end))
-
 print("Publisher")
 # TODO make the output a nice data frame instead of a list
 res <- polish_publisher(df.orig[["260b"]])
