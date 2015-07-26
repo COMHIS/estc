@@ -1,0 +1,17 @@
+citHeader("Kindly cite the estc R package as follows:")
+
+citEntry(entry="misc",
+         title = "estc: R Toolkit for ESTC Data Collection",
+         author = personList(
+	   person(given ="Leo", family="Lahti", email = "leo.lahti@iki.fi"),
+	   person(given ="Niko", family="Ilomaki"),
+	   person(given ="Mikko", family="Tolonen")
+         ),
+	 year = "2014",
+         textVersion =
+         paste("(C) Leo Lahti, Niko Ilomaki, Mikko Tolonen",
+               "estc: R Toolkit for ESTC Data Collection",
+	       "URL: http://github.com/ropengov/estc",
+               sep=" ")
+         )
+

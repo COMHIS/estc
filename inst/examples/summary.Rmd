@@ -1,0 +1,568 @@
+---
+title: "Preprocessing Summary"
+author: "Leo Lahti"
+date: "16/05/2015"
+output: markdown_document
+---
+
+# Summary of the preprocessed ESTC data
+
+```{r summaryinit, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+library(stringr)
+library(bibliographica)
+library(estc)
+df <- read.csv(file = "estc.csv", sep = "|")
+
+# Order the levels where necessary
+df$document.dimension.gatherings.original <- order_gatherings(df$document.dimension.gatherings.original)
+df$document.dimension.gatherings.estimated <- order_gatherings(df$document.dimension.gatherings.estimated)
+df.preprocessed <- df
+```
+
+## Annotated documents
+
+Fraction of documents with entries for each annotation field (final preprocessed data).
+
+```{r summaryannotations, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=7}
+library(dplyr)
+library(ggplot2)
+missing <- 100*apply(df, 2, function (x) {mean(is.na(x))})
+df3 <- data.frame(list(missing = missing, field = names(missing)))
+df3$field <- factor(df3$field, levels = df3$field[rev(order(df3$missing))])
+theme_set(theme_bw(15))
+p <- ggplot(df3, aes(x = field, y = 100 - missing))
+p <- p + geom_bar(stat = "identity")
+p <- p + coord_flip()
+p <- p + ylab("")
+p <- p + xlab("")
+p <- p + ggtitle("Documents with data (%)")
+print(p)
+```
+
+
+## Topics
+
+```{r summarytopics, echo=FALSE, message=FALSE, warning=FALSE}
+# List all topics
+spl <- strsplit(na.omit(as.character(df$subject.topic)), ";")
+
+# Topics per document
+# hist(sapply(spl, length))
+
+# Documents per topic
+tab <- sort(table(unlist(spl)))
+tab <- tab[!names(tab) == "NA"]
+tab <- rev(sort(tab)) 
+```
+
+```{r summarytopics2, echo=FALSE, message=FALSE, warning=FALSE}
+# Write to file
+f <- "output.tables/subjecttopics.tab"
+print(paste("Complete subject topic counts in file:", f))
+write.table(cbind(Topic = sort(names(tab))), file = f, sep = "\t", quote = F, row.names = F)
+ntop <- 50
+```
+
+Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$subject.topic))` unique topics and `r sum(!is.na(df$subject.topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$subject.topic)))`).
+
+```{r summarytopics22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+p <- top_plot(df, "subject.topic", ntop)
+p <- p + ggtitle(paste("Most common topics"))
+p <- p + ylab("Documents")
+print(p)
+```
+
+
+## Authors
+
+Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are `r length(unique(df$author.unique))` unique authors and `r sum(!is.na(df$author.unique))` documents with unambiguous author information (`r round(100*mean(!is.na(df$author.name)))`%).
+
+```{r summaryauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12}
+p <- top_plot(df, "author.unique", ntop)
+p <- p + ggtitle(paste("Top authors"))
+p <- p + ylab("Documents")
+print(p)
+```
+
+
+### Gender
+
+Gender distribution for authors over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
+
+```{r summarygender, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- table(df$author.gender)
+round(tab/sum(tab), 3)
+```
+
+```{r summarygendertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+dfd <- df %>% group_by(publication.decade) %>% summarize(n.male = sum(author.gender == "male", na.rm = T), n.female = sum(author.gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
+dfy <- df %>% group_by(publication.year) %>% summarize(n.male = sum(author.gender == "male", na.rm = T), n.female = sum(author.gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
+library(sorvi)
+p <- regression_plot(p.female ~ publication.decade, dfd, main = "Female authors proportion")
+p <- p + ylab("Female authors (%)")
+print(p)
+```
+
+### Ambiguous authors
+
+Authors with ambiguous living year information - can we spot here
+cases where these are clearly known identical or distinct authors?
+Should also add living year information from supporting sources later.
+
+```{r summaryambiguousauthor, echo=FALSE, message=FALSE, warning=FALSE}
+# Pick authors who do not have unique ID yet
+dfs <- df %>% filter(is.na(author.unique) & !is.na(author.name))
+
+# Authors with many birth years
+births <- lapply(split(dfs$author.birth, dfs$author.name), unique)
+many.births <- lapply(births[names(which(sapply(births, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
+
+# Authors with many death years
+deaths <- lapply(split(dfs$author.death, dfs$author.name), unique)
+many.deaths <- lapply(deaths[names(which(sapply(deaths, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
+
+dfs <- subset(dfs, author.name %in% union(names(many.births), names(many.deaths)))
+dfs <- dfs[, c("author.name", "author.birth", "author.death")]
+dfs <- dfs[!duplicated(dfs),]
+dfs <- dfs[order(dfs$author.name), ]
+kable(dfs, caption = "Authors with ambiguous life years")
+```
+```{r summaryambiguourauthor2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=25}
+#Ambiguous authors life spans visualized
+#p <- ggplot(dfs)
+#p <- p + geom_segment(aes(y = author.name, yend = author.name, x = author.birth, xend = author.death), #size = 2) 
+#p <- p + theme(axis.text.y = element_text(size = 9))
+#p <- p + xlab("Ambiguous author life span (year)") + ylab("")
+#print(p)
+```
+
+
+### Life span of uniquely identified top authors
+
+Ordered by productivity (number of documents))
+
+```{r, summaryauthorslife, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+a <- rev(rev(sort(table(df$author.unique)))[1:ntop])
+dfa <- df[, c("author.unique", "author.birth", "author.death")]
+dfa <- filter(dfa, !is.na(author.unique) & (author.unique %in% names(a)))
+dfa <- dfa[!duplicated(dfa), ]
+dfa <- dfa[match(names(a), dfa$author.unique),]
+dfa <- arrange(dfa, author.birth)
+# Order authors by birth year
+dfa$author.unique <- factor(dfa$author.unique, levels = dfa$author.unique)
+dfa$index <- 1:nrow(dfa)
+
+p <- ggplot(dfa)
+p <- p + geom_segment(aes(y = author.unique, yend = author.unique, x = author.birth, xend = author.death), size = 2) 
+p <- p + theme(axis.text.y = element_text(size = 9))
+p <- p + xlab("Author life span (year)") + ylab("")
+print(p)
+```
+
+### Publication timeline for top-10 authors
+
+Title count
+
+```{r summaryTop10authorstimeline, fig.height=30, fig.width=10, echo=FALSE}
+top10 <- names(sort(table(df$author.unique), decreasing = TRUE))[1:10]
+dfs <- filter(df, author.unique %in% top10)
+dfs <- group_by(dfs, author.unique, publication.year) %>% summarize(ndoc = n())
+p <- ggplot(dfs, aes(x = publication.year, y = ndoc)) 
+p <- p + geom_bar(stat = "identity") 
+p <- p + facet_grid(author.unique ~ .)
+p <- p + ggtitle("Number of documents per year for top-10 titlecount authors")
+print(p)
+#publications.annual <- tapply(df$unity, list(df$publication.year, df$publication.place), sum)
+#publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
+#dfm.annual <- melt(publications.annual) 
+#names(dfm.annual) <- c("Time", "Place", "Documents")
+#?Daniel Defoe
+#?Julius Caesar
+#?Buchanan
+```
+
+
+Paper consumption
+
+```{r summaryTop10authorstimelinepaper, fig.height=30, fig.width=10, echo=FALSE}
+# Calculate paper consumption for authors
+df2 <- df %>%
+    group_by(author.unique) %>%
+    summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+# Pick top-10 paper authors
+top10 <- names(sort(df2$paper.consumption.km2, decreasing = TRUE))[1:10]
+dfs <- filter(df, author.unique %in% top10)
+dfs <- group_by(dfs, author.unique, publication.year) %>%
+    summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+p <- ggplot(dfs, aes(x = publication.year, y = paper.consumption.km2)) 
+p <- p + geom_bar(stat = "identity") 
+p <- p + facet_grid(author.unique ~ .)
+p <- p + ggtitle("Paper comsumption per year for top-10 paper authors")
+print(p)
+```
+
+
+### Publication timeline for top-10 publishers
+
+Title count
+
+```{r summaryTop10publisherstimeline, fig.height=30, fig.width=10, echo=FALSE}
+top10 <- names(sort(table(df$publication.publisher), decreasing = TRUE))[1:10]
+dfs <- filter(df, publication.publisher %in% top10)
+dfs <- group_by(dfs, publication.publisher, publication.year) %>% summarize(ndoc = n())
+p <- ggplot(dfs, aes(x = publication.year, y = ndoc)) 
+p <- p + geom_bar(stat = "identity") 
+p <- p + facet_grid(publication.publisher ~ .)
+p <- p + ggtitle("Number of documents per year for top-10 titlecount publishers")
+print(p)
+```
+
+
+Paper consumption
+
+```{r summaryTop10publisherstimelinepaper, fig.height=30, fig.width=10, echo=FALSE}
+# Calculate paper consumption for publishers
+df2 <- df %>%
+    group_by(publication.publisher) %>%
+    summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+# Pick top-10 paper publishers
+o <- order(df2$paper.consumption.km2, decreasing = TRUE)[1:10]
+top10 <- df2$publication.publisher[o]
+dfs <- filter(df, publication.publisher %in% top10)
+dfs <- group_by(dfs, publication.publisher, publication.year) %>%
+    summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+p <- ggplot(dfs, aes(x = publication.year, y = paper.consumption.km2)) 
+p <- p + geom_bar(stat = "identity") 
+p <- p + facet_grid(publication.publisher ~ .)
+p <- p + ggtitle("Paper consumption per year for top-10 paper publishers")
+print(p)
+```
+
+## Document Subject
+
+### Subject historical time spans
+
+Retrieved time span for the document subjects is available for `r sum(rowSums(!is.na(df[, c("subject.begin", "subject.end")])) == 2)` documents. In some cases the time span has a gap in the middle, we will need to check this again as there were changes in raw data processing. We can later add these and visualize also the gaps if needed but this preprocessing is now done to simplify the analysis. Documents with no full time span have been removed. Ordered by time span averages.
+
+```{r summarytimespan, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+theme_set(theme_bw(20))
+dfa <- df[, c("subject.begin", "subject.end")]
+dfa <- dfa[rowSums(is.na(dfa)) == 0,]
+dfa <- dfa[order(rowMeans(dfa)), ]
+dfa$index <- 1:nrow(dfa)
+dfa$span <- dfa$subject.begin - dfa$subject.end
+
+p <- ggplot(dfa)
+p <- p + geom_segment(aes(y = index, yend = index, x = subject.begin, xend = subject.end)) 
+p <- p + xlab("Subject time span (year)")
+p <- p + ylab("Document index")
+p <- p + ggtitle("Document subject time spans")
+print(p)
+```
+
+
+### Subject geographical places
+
+```{r summarygeo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+tab <- rev(sort(table(unlist(strsplit(as.character(df$subject.geography), ";")))))
+```
+
+Top-`r ntop` geographical places that the documents are associated with. Geography information is available for `r sum(!is.na(df$subject.geography))` documents (`r round(100*mean(!is.na(df$subject.geography)))`%). There are `r length(tab)` unique geographical places.
+
+```{r summarygeo2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+p <- top_plot(df, "subject.geography", ntop)
+p <- p + ggtitle(paste("Top geographic places associated with the texts"))
+p <- p + scale_y_log10()
+p <- p + ylab("Documents")
+print(p)
+```
+
+```{r summarygeo3, echo=FALSE, message=FALSE, warning=FALSE}
+f <- "output.tables/geoplaces.csv"
+print(paste("Complete counts in file:", f))
+write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
+```
+
+
+## Publication 
+
+### Publication places
+
+Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication.place))` documents (`r round(100*mean(!is.na(df$publication.place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication.place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+
+```{r summaryplace, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+p <- top_plot(df, "publication.place", ntop)
+p <- p + ggtitle(paste("Top publication places"))
+p <- p + scale_y_log10()
+p <- p + ylab("Documents")
+print(p)
+```
+
+```{r summaryplace2, echo=FALSE, message=FALSE, warning=FALSE}
+f <- "output.tables/publicationplaces.csv"
+print(paste("Complete counts in file:", f))
+write.table(cbind(Place = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
+
+f <- "output.tables/publicationcountries.csv"
+print(paste("Complete counts in file:", f))
+tab <- rev(sort(table(as.character(df$publication.country))))
+write.table(cbind(Country = names(tab), Documents = tab), file = f, sep = ",", quote = F, row.names = F)
+```
+
+```{r summaryplace3, echo=FALSE, results='asis'}
+kable(data.frame(n = rev(sort(table(df$publication.country)))), caption = "Publication country counts")
+```
+
+```{r summaryplacemissinggeo, echo=FALSE, results='asis'}
+inds <- is.na(df$latitude) & is.na(df$longitude)
+p <- top_plot(df[inds, ], "publication.place")
+p <- p + ggtitle(paste("Publication places with missing geocoordinates (", sum(inds), "docs)",sep = ""))
+p <- p + xlab("Documents")
+print(p)
+```
+
+### Publishers
+
+```{r summarypublisher, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- rev(sort(table(str_trim(unlist(df$publication.publisher)))))
+```
+
+The `r ntop` most common publishers are shown with the number of documents. Publisher information is available for `r sum(!is.na(df$publication.publisher))` documents (`r round(100*mean(!is.na(df$publication.publisher)))`%). There are `r length(tab)` unique publisher names (some may be synonymes, though).
+
+
+```{r summarypublisher2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10}
+p <- top_plot(df, "publication.publisher", ntop)
+p <- p + ggtitle(paste("Top publishers"))
+p <- p + scale_y_log10()
+p <- p + ylab("Documents")
+print(p)
+```
+
+
+```{r summarypublisher22, echo=FALSE, message=FALSE, warning=FALSE}
+f <- "output.tables/publishers.csv"
+print(paste("Complete counts in file:", f))
+write.table(cbind(Publisher = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
+```
+
+
+### Publication year
+
+Publication year is available for `r sum(!is.na(df$publication.year))` documents (`r round(100*mean(!is.na(df$publication.year)))`%). The publication years span `r paste(range(na.omit(df$publication.year)), collapse = "-")`
+
+```{r summarypublicationyear, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+p <- ggplot(df, aes(x = publication.year)) 
+p <- p + geom_histogram(binwidth = 5)
+p <- p + ggtitle("Publication year")
+print(p)
+```
+
+
+### Titles
+
+Top-`r ntop` titles are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication.title))` documents (`r round(100*mean(!is.na(df$publication.title)))`%). There are `r length(unique(df$publication.title))` unique titles.
+
+```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+tab <- rev(sort(table(df$publication.title)))
+p <- top_plot(df, "publication.title", ntop)
+p <- p + ggtitle(paste("Top titles"))
+p <- p + scale_y_log10()
+p <- p + ylab("Documents")
+print(p)
+```
+
+```{r summarytitle2, echo=FALSE}
+f <- "output.tables/titles.csv"
+print(paste("Complete counts in file:", f))
+write.table(cbind(Title = sort(names(tab))), file = f, sep = "|", quote = F, row.names = F)
+```
+
+## Language
+
+The `r length(unique(df$language))` unique languages are shown together with the number of documents. This info is available for `r sum(!is.na(df$language))` documents (`r round(100*mean(!is.na(df$language)))`%). 
+
+```{r summarylang, echo=FALSE, message=FALSE, warning=FALSE, fig.width=7, fig.height=6}
+tab <- sort(table(df$language))
+par(mar = c(5, 20, 3, 1))
+tab <- log10(tab)
+tab[is.infinite(tab)] <- 0 # These are somewhere in original material, check
+
+p <- top_plot(df, "language", ntop)
+p <- p + ggtitle(paste("Top languages"))
+p <- p + scale_y_log10()
+p <- p + ylab("Documents")
+print(p)
+```
+
+```{r summarylang2, echo=FALSE}
+f <- "output.tables/languages.csv"
+print(paste("Complete counts in file:", f))
+write.table(cbind(Language = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
+```
+
+
+## Document size comparisons
+
+Document size (area) info in cm2 is available for `r sum(!is.na(df$document.dimension.cm2))` documents (`r round(100*mean(!is.na(df$document.dimension.cm2)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$document.dimension.gatherings.estimated))` documents (`r round(100*mean(!is.na(df$document.dimension.gatherings.estimated)))`%). 
+
+```{r summarysize, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+df <- df.preprocessed
+p <- ggplot(df, aes(x = document.dimension.gatherings.estimated)) 
+p <- p + geom_bar()
+n <- nchar(max(na.omit(table(df$document.dimension.gatherings.estimated))))
+p <- p + scale_y_log10(breaks=10^(0:n))
+p <- p + ggtitle("Document size (gatherings)")
+p <- p + xlab("Size (gatherings)")
+p <- p + ylab("Document count")
+p <- p + coord_flip()
+print(p)
+```
+
+Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
+
+```{r summarysizecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+dfs <- select(df, starts_with("document.dimension")) %>% filter(!is.na(document.dimension.cm2) & !is.na(document.dimension.gatherings.original))
+dfs <- dfs[, c("document.dimension.gatherings.original", "document.dimension.cm2")]
+dfm <- melt(table(dfs))
+names(dfm) <- c("gatherings", "cm2", "documents")
+dfm$gatherings <- factor(dfm$gatherings, levels = levels(df$document.dimension.gatherings.original))
+p <- ggplot(dfm, aes(x = gatherings, y = cm2)) 
+p <- p + scale_y_continuous(trans = "log2")
+p <- p + geom_point(aes(size = documents))
+p <- p + scale_size(trans="log10")
+p <- p + ggtitle("Document size distribution: gatherings vs. cm2")
+p <- p + xlab("Size (gatherings)")
+p <- p + ylab("Size (cm2)")
+p <- p + coord_flip()
+print(p)
+```
+
+Compare gatherings and page counts. Page count information is estimated for `r sum(!is.na(df$document.pages.total.orig)) - sum(!is.na(df$document.pages.total))` documents and updated (changed) for `r sum(!df$document.pages.total.orig == df$document.pages.total, na.rm = T)` documents. 
+
+```{r summarypagecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
+dfs <- select(df, document.pages.total, document.dimension.gatherings.estimated) 
+dfs$document.pages.total <- as.numeric(gsub(" pages", "", dfs$document.pages.total))
+dfs <- dfs %>% filter(!is.na(document.pages.total) & !is.na(document.dimension.gatherings.estimated))
+dfg <- group_by(dfs, document.pages.total, document.dimension.gatherings.estimated) %>% tally()
+names(dfg) <- c("pages", "gatherings", "documents")
+dfg$gatherings <- factor(dfg$gatherings, levels = levels(df$document.dimension.gatherings.original))
+ylims <- range(dfg$pages)
+p <- ggplot(dfg, aes(x = gatherings, y = pages)) 
+#p <- p + scale_y_continuous(trans = "log10")
+n <- nchar(max(na.omit(table(dfg$pages))))
+ylim <- ylim(ylims)
+p <- p + scale_y_log10(breaks=10^(0:n))
+p <- p + geom_point(aes(size = documents))
+p <- p + scale_size(trans="log10")
+p <- p + ggtitle(paste("gatherings vs. estimated and original pages (n=", sum(dfg$documents), ")", sep = ""))
+p <- p + xlab("Size (gatherings)")
+p <- p + ylab("Pages (original and estimated)")
+p <- p + coord_flip()
+p1 <- p
+
+dfs <- df
+dfs$document.pages.total.orig <- as.numeric(as.character(gsub(" pages", "", dfs$document.pages.total.orig)))
+p <- ggplot(dfs, aes(x = document.pages.total.orig, y = document.pages.total)) 
+p <- p + geom_point()
+p <- p + scale_x_log10()
+p <- p + scale_y_log10()
+p <- p + ggtitle("Original vs. Estimated pages (when original is not NA)")
+p <- p + xlab("Original pages")
+p <- p + ylab("Estimated pages")
+p2 <- p
+
+library(gridExtra)
+grid.arrange(p1, p2, nrow = 1)
+```
+
+Compare original gatherings and original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
+
+```{r summarysizevalidation, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+# Compare given dimensions to gatherings
+# (not so much data with width so skip that)
+df2 <- filter(df, !is.na(document.dimension.height.original) | !is.na(document.dimension.width.original))
+df2 <- df2[!is.na(as.character(df2$document.dimension.gatherings.original)),]
+df3 <- filter(df2, !is.na(document.dimension.height.original))
+ss <- sheet_sizes()
+df3$gathering.height.estimate <- ss[match(df3$document.dimension.gatherings.original, ss$gatherings),"height"]
+df4 <- df3 %>% group_by(document.dimension.gatherings.original, document.dimension.height.original) %>% tally()
+p <- ggplot(df4, aes(x = document.dimension.gatherings.original, y = document.dimension.height.original))
+p <- p + geom_point(aes(size = n))
+p <- p + geom_point(data = unique(df3), aes(x = document.dimension.gatherings.original, y = gathering.height.estimate), color = "red")
+p <- p + xlab("Gatherings (original)") + ylab("Height (original)") 
+p <- p + ggtitle("Height comparison")
+print(p)
+```
+
+## Average page counts 
+
+Multi-volume documents average page counts are given per volume.
+
+```{r summarypagecountsmulti, echo=FALSE, message=FALSE, warning=FALSE}
+output.folder <- "output.tables/"
+mean.pagecounts <- read.csv(paste(output.folder, "estimated_page_counts.csv", sep = ""))
+mean.pagecounts$doc.dimension <- order_gatherings(mean.pagecounts$doc.dimension)
+
+kable(mean.pagecounts, caption = "Average page counts")
+```
+
+
+```{r summarypagecountsmulti2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=6}
+p <- ggplot(melt(mean.pagecounts[, c("median.pages.multivol", "median.pages.singlevol", "median.pages.issue", "doc.dimension")]), aes(fill = variable, y = value, x = doc.dimension)) 
+p <- p + geom_bar(stat = "identity", position = "dodge")
+p <- p + ylab("Pages")
+p <- p + xlab("")
+p <- p + coord_flip()
+p <- p + ggtitle("Median page counts")
+p1 <- p
+
+p <- ggplot(melt(mean.pagecounts[, c("mean.pages.multivol", "mean.pages.singlevol", "mean.pages.issue", "doc.dimension")]), aes(fill = variable, y = value, x = doc.dimension)) 
+p <- p + geom_bar(stat = "identity", position = "dodge")
+p <- p + ylab("Pages")
+p <- p + xlab("")
+p <- p + coord_flip()
+p <- p + ggtitle("Mean page counts")
+p2 <- p
+
+library(gridExtra)
+grid.arrange(p1, p2, nrow = 1)
+```
+
+
+## Average document dimensions 
+
+```{r summaryavedimstime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+df2 <- filter(df, !is.na(document.dimension.gatherings.original) & (!is.na(document.dimension.height.original) | !is.na(document.dimension.width.original))) %>% group_by(document.dimension.gatherings.original, publication.decade) %>% 
+  summarize(mean.height = mean(document.dimension.height.original, na.rm = T),
+    	    mean.width = mean(document.dimension.width.original, na.rm = T), n = n())
+
+p <- ggplot(df2, aes(x = publication.decade, y = mean.height, group = document.dimension.gatherings.original, color = document.dimension.gatherings.original))
+p <- p + geom_point(aes(size = n))
+p <- p + geom_line(method = "loess")
+p <- p + ggtitle("Height")
+print(p)
+```
+
+
+```{r summaryavedims, echo=FALSE, message=FALSE, warning=FALSE}
+df2 <- filter(df, !is.na(document.dimension.gatherings.original) & (!is.na(document.dimension.height.original) | !is.na(document.dimension.width.original))) %>% group_by(document.dimension.gatherings.original) %>% 
+  summarize(mean.height = mean(document.dimension.height.original, na.rm = T),
+	    median.height = mean(document.dimension.height.original, na.rm = T),
+    	    mean.width = mean(document.dimension.width.original, na.rm = T), 
+	    median.width = mean(document.dimension.width.original, na.rm = T), 
+	    n = n()) %>%
+  filter(n > 10 & !is.na(as.character(document.dimension.gatherings.original)))
+mean.dimensions <- as.data.frame(df2)
+kable(mean.dimensions, caption = "Average document dimensions")
+```
+
+<!--
+### Testing rCharts example - perhaps only in HTML with knit2html
+```{r, echo=FALSE,results='asis',comment=NA}
+library(rCharts)
+hair_eye_male <- subset(as.data.frame(HairEyeColor), Sex == "Male")
+n1 <- nPlot(Freq ~ Hair, group = "Eye", data = hair_eye_male, type = "multiBarChart")
+n1$show('iframesrc',cdn=TRUE)
+```
+-->
+

@@ -1,0 +1,308 @@
+---
+title: "Scotland"
+author: "Leo Lahti"
+date: "`r Sys.Date()`"
+output: markdown_document
+---
+
+
+# Scotland publishing summaries
+
+Read the preprocessed ESTC data table and load tools:
+
+```{r ScotlandInit, echo=FALSE, message=FALSE}
+# Load libraries
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(reshape)
+library(estc)
+library(bibliographica)
+```
+
+
+```{r ScotlandRead, echo=FALSE}
+# Complete data
+df <- df.preprocessed
+
+# Pick Scotland documents only
+country <- "Scotland"
+df <- filter(df, publication.country == country)
+```
+
+We have `r nrow(df)` documents from `r country`.
+
+
+## Most common authors from `r country`
+
+```{r ScotlandTopAuth, echo=FALSE}
+p <- top_plot(df, "author.unique", 20)
+p <- p + ggtitle(paste("Most common authors from", country))
+p <- p + ylab("Documents") + xlab("")
+print(p)
+```
+
+
+## Publication timeline for top-10 authors
+
+```{r ScotlandTop10authors, fig.height=30, fig.width=10, echo=FALSE}
+df <- filter(dfo, publication.country == country)
+top10 <- names(sort(table(df$author.unique), decreasing = TRUE))[1:10]
+dfs <- filter(df, author.unique %in% top10)
+dfs <- group_by(dfs, author.unique, publication.year) %>% summarize(ndoc = n())
+p <- ggplot(dfs, aes(x = publication.year, y = ndoc)) 
+p <- p + geom_bar(stat = "identity") 
+p <- p + facet_grid(author.unique ~ .)
+p <- p + ggtitle("Number of documents per year for top-10 authors")
+print(p)
+#publications.annual <- tapply(df$unity, list(df$publication.year, df$publication.place), sum)
+#publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
+#dfm.annual <- melt(publications.annual) 
+#names(dfm.annual) <- c("Time", "Place", "Documents")
+```
+
+
+## Most common publication places in `r country`
+
+```{r Scotlandtopplaces, echo=FALSE}
+p <- top_plot(df, "publication.place", 20)
+p <- p + ggtitle(paste("Most common publication places in", country))
+p <- p + ylab("Documents") + xlab("")
+print(p)
+```
+
+
+## Top titles 
+
+```{r Scotlandtoptitles, fig.width=10, fig.height=10, echo=FALSE}
+p <- top_plot(df, "publication.title", 20)
+p <- p + ggtitle(paste("Most common titles from", country))
+p <- p + ylab("Documents") + xlab("")
+print(p)
+```
+
+
+## Authors born before 500AD
+
+ * Ennen 500AD syntyneiden kirjoittajien julkaisujen esiintymat koko aikajanalla, painomaarat per vuosi, kaikki julkaisupaikat.
+ * Ennen 500AD syntyneiden kirjoittajien julkaisujen esiintymat koko aikajanalla, painomaarat per vuosi Skotlannissa.
+
+
+```{r Scotlandad500, echo=FALSE, fig.width=20, fig.height=10}
+year <- 500
+dfs <- filter(df, author.birth < year)
+tab <- table(dfs$author.unique); 
+tab <- sort(tab[tab>0])
+print(tab)
+```
+
+We have `r nrow(dfs)` documents from `r length(tab)` unique
+authors born before `r year` AD who have published in `r country`.
+
+
+
+## Historical publication volumes for all publication places in `r country`
+
+Average annual output for each decade are indicated by lines, the annual document counts are shown by points. 
+
+```{r Scotlandaveout, echo=FALSE, fig.width=12, fig.height=8}
+df <- filter(dfo, publication.country == country)
+df$publication.place <- droplevels(df$publication.place)
+
+publications <- tapply(df$unity, list(df$publication.decade, df$publication.place), sum)
+publications[is.na(publications)] <- 0 # Set NAs to 0
+publications <- publications/10 # Instead of decadal sum, use average annual output 
+
+publications.annual <- tapply(df$unity, list(df$publication.year, df$publication.place), sum)
+publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
+
+dfm <- melt(publications) 
+names(dfm) <- c("Time", "Place", "Documents")
+
+dfm.annual <- melt(publications.annual) 
+names(dfm.annual) <- c("Time", "Place", "Documents")
+
+theme_set(theme_bw(20))
+p <- ggplot(dfm, aes(x = Time, y = Documents, color = Place))
+#p <- ggplot(dfm, aes(x = Time, y = Documents))
+p <- p + geom_line() + geom_point()
+p <- p + xlab("Year") + ylab("Publications per year")
+p <- p + ggtitle(paste("Publication activity ", min(dfm$Time), "-", max(dfm$Time), sep = ""))
+#p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
+p <- p + geom_point(data = dfm.annual, aes(x = Time, y = Documents, color = Place))
+print(p)
+```
+
+
+## Historical publication volumes for top-5 publication places in `r country`
+
+Average annual output for each decade are indicated by lines, the annual document counts are shown by points. 
+
+```{r Scotlandaveout2, echo=FALSE, fig.width=12, fig.height=8}
+df <- filter(dfo, publication.country == country)
+publications <- tapply(df$unity, list(df$publication.decade, df$publication.place), sum)
+publications[is.na(publications)] <- 0 # Set NAs to 0
+publications <- publications/10 # Instead of decadal sum, use average annual output 
+publications.annual <- tapply(df$unity, list(df$publication.year, df$publication.place), sum)
+publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
+
+# Keep only top-5 publication places (w.r.t. total volume)
+top.places <- names(rev(sort(colSums(publications)))[1:5])
+publications <- publications[, top.places]
+publications.annual <- publications.annual[, top.places]
+
+dfm <- melt(publications) 
+names(dfm) <- c("Time", "Place", "Documents")
+
+dfm.annual <- melt(publications.annual) 
+names(dfm.annual) <- c("Time", "Place", "Documents")
+
+theme_set(theme_bw(20))
+p <- ggplot(dfm, aes(x = Time, y = Documents, color = Place))
+p <- p + geom_line() + geom_point()
+p <- p + xlab("Year") + ylab("Publications per year")
+p <- p + ggtitle(paste("Publication activity ", min(dfm$Time), "-", max(dfm$Time), sep = ""))
+p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
+p <- p + geom_point(data = dfm.annual, aes(x = Time, y = Documents, color = Place))
+print(p)
+
+
+skip <- TRUE
+if (!skip) {
+# Interactive plots
+require(rCharts)
+rPlot(Documents ~ Time, data = dfm.annual, color = 'Place', type = 'point')
+
+# Standard economics longitudinal chart
+df <- transform(dfm.annual, date = as.character(Time))
+dfs <- spread(df, Place, Documents)
+dfs$date <- as.numeric(as.character(dfs$date))
+#m1 <- mPlot(x = 'date', y = c('Edinburgh', 'Glasgow'), type = 'Line', data = dfs)
+m1 <- mPlot(x = 'date', y = c('Edinburgh'), type = 'Line', data = dfs)
+m1$set(pointSize = 0, lineWidth = 1)
+m1$publish('Scatterplot', host = 'gist') 
+#print(m1)
+}
+```
+
+
+## Publishing in Scotland versus London 1700 
+
+```{r Scotlandpub1700, echo=FALSE}
+# Pick Scotland and London documents
+dfo <- filter(df.preprocessed, publication.country %in% c("Scotland", "England"))
+df1700 <- filter(dfo, publication.year >= 1700 & publication.year <= 1800) 
+df.scotland <- filter(df1700, publication.country == "Scotland")
+df.london <- filter(df1700, publication.place == "London")
+```
+
+We have `r nrow(df.scotland)` documents from Scotland and `r nrow(df.london)` documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+
+```{r Scotlandpub1700b, echo=FALSE, fig.width=15, fig.height=7}
+df.london$publication.place2 <- droplevels(df.london$publication.place)
+df.scotland$publication.place2 <- droplevels(df.scotland$publication.country)
+df <- rbind(df.london, df.scotland)
+# use average annual output therefore divide by 10
+dfm <- df %>% group_by(publication.decade, publication.place2) %>% summarize(paper = sum(paper.consumption.km2, na.rm = T)/10, n = n()/10)
+
+theme_set(theme_bw(20))
+p <- ggplot(dfm, aes(x = publication.decade, y = n, color = publication.place2))
+p <- p + geom_point()
+p <- p + geom_smooth(method = "loess")
+p <- p + xlab("Year") + ylab("Publications per year (n)")
+p <- p + ggtitle("Published documents")
+p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
+p <- p + guides(color = guide_legend(title="Publication place"))
+print(p)
+
+
+theme_set(theme_bw(20))
+p <- ggplot(dfm, aes(x = publication.decade, y = paper, color = publication.place2))
+p <- p + geom_point()
+p <- p + geom_smooth(method = "loess")
+p <- p + xlab("Year") + ylab("Annual paper consumption (km2)")
+p <- p + ggtitle("Paper consumption")
+p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
+p <- p + guides(color = guide_legend(title="Publication place"))
+print(p)
+```
+
+
+
+
+## Comparing selected authors
+
+```{r Scotlandselectedauthors, echo=FALSE, fig.width=15, fig.height=7}
+
+authors <- c("hume, david (1711-1776)", "robertson, william (1721-1793)", "gibbon, edward (1737-1794)")
+cols <- c("red", "blue", "darkgreen"); names(cols) <- authors
+dfa <- filter(dfo, author.unique %in% authors) 
+lims <- range(dfa$publication.year)
+#df <- filter(dfa, publication.country == "Scotland")
+
+dfs <- group_by(dfa, author.unique, publication.year) %>% summarize(ndoc = n())
+p <- ggplot(dfs, aes(x = publication.year, y = ndoc, col = author.unique)) 
+p <- p + geom_line() + geom_point()
+p <- p + scale_color_manual(values=cols[levels(dfs$author.unique)])
+p <- p + ylab("Documents")
+p <- p + ggtitle("Documents from selected authors (all places)")
+p <- p + xlim(limits = lims)
+print(p)
+
+for (ctr in c("Scotland", "USA")) {
+  dfs <- dfa %>% filter(publication.country == ctr) %>% 
+    group_by(author.unique, publication.year) %>% 
+    summarize(ndoc = n())
+  p <- ggplot(dfs, aes(x = publication.year, y = ndoc, col = author.unique)) 
+  p <- p + geom_line() + geom_point()
+  p <- p + scale_color_manual(values=cols[levels(dfs$author.unique)])
+  p <- p + ylab("Documents")
+  p <- p + ggtitle(paste("Documents from selected authors (", ctr, ")"))
+  p <- p + xlim(limits = lims)
+  print(p)
+}
+
+ctr <- "London"
+  dfs <- dfa %>% filter(publication.place == ctr) %>% 
+    group_by(author.unique, publication.year) %>% 
+    summarize(ndoc = n())
+  p <- ggplot(dfs, aes(x = publication.year, y = ndoc, col = author.unique)) 
+  p <- p + geom_line() + geom_point()
+  p <- p + scale_color_manual(values=cols[levels(dfs$author.unique)])
+  p <- p + ylab("Documents")
+  p <- p + ggtitle(paste("Documents from selected authors (", ctr, ")"))
+  p <- p + xlim(limits = lims)
+  print(p)
+```
+
+## Authors from different periods publishing in 1750-1799
+
+
+```{r Scotlandselectedperiods, echo=FALSE, fig.width=15, fig.height=7}
+df <- dfo %>% filter(publication.year >= 1750 & publication.year <= 1799)
+lims <- range(df$publication.year)
+df$author.birth.period <- cut(df$author.birth, breaks = c(-Inf, 501, 1500, 1600, 1650, 1700, 1730), right = FALSE, labels = c("-500AD", "501-1500", "1501-1600", "1601-1650", "1651-1700", "1701-1730"))
+dfs <- filter(df, !is.na(author.birth.period))
+df <- group_by(dfs, author.birth.period, publication.year) %>% summarize(ndoc = n())
+p <- ggplot(df, aes(x = publication.year, y = ndoc, col = author.birth.period)) 
+p <- p + geom_line() + geom_point()
+p <- p + ylab("Documents")
+p <- p + xlab("Publication Year")
+p <- p + ggtitle("Documents from authors from different periods (all places)")
+p <- p + xlim(limits = lims)
+p <- p + guides(col = guide_legend(reverse=TRUE))
+print(p)
+
+country <- "Scotland"
+df <- filter(dfs, publication.country == country)
+df <- group_by(df, author.birth.period, publication.year) %>% summarize(ndoc = n())
+p <- ggplot(df, aes(x = publication.year, y = ndoc, fill = author.birth.period)) 
+#p <- p + geom_line() + geom_point()
+p <- p + geom_bar(stat = "identity", position = "stack")
+p <- p + ylab("Documents")
+p <- p + xlab("Publication Year")
+p <- p + ggtitle(paste("Documents from authors from different periods (", country, ")", sep = ""))
+p <- p + xlim(limits = lims)
+p <- p + guides(fill = guide_legend(reverse=TRUE))
+print(p)
+```
