@@ -259,7 +259,7 @@ Animations
 Kenttä 650y.651y muuttui alkuperäisestä versiosta, funktiot
 hajosi. Pitäisi kirjoittaa uudet funktiot vuosilukujen ja topiccien
 poimimiseksi tästä kentästä. See also function inst/extras/misc.R ->
-polish.650y
+polish.650y and inst/extras/misc.Rmd -> subject.begin / subject.end
 
 print("Subject timespan")
 df$subject.begin <- sapply(strsplit(as.character(df.orig[["650y.651y"]]), ";"), function (x) {min(na.omit(as.numeric(x)))})

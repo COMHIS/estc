@@ -238,27 +238,6 @@ p <- p + ggtitle("Paper consumption per year for top-10 paper publishers")
 print(p)
 ```
 
-## Document Subject
-
-### Subject historical time spans
-
-Retrieved time span for the document subjects is available for `r sum(rowSums(!is.na(df[, c("subject.begin", "subject.end")])) == 2)` documents. In some cases the time span has a gap in the middle, we will need to check this again as there were changes in raw data processing. We can later add these and visualize also the gaps if needed but this preprocessing is now done to simplify the analysis. Documents with no full time span have been removed. Ordered by time span averages.
-
-```{r summarytimespan, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-theme_set(theme_bw(20))
-dfa <- df[, c("subject.begin", "subject.end")]
-dfa <- dfa[rowSums(is.na(dfa)) == 0,]
-dfa <- dfa[order(rowMeans(dfa)), ]
-dfa$index <- 1:nrow(dfa)
-dfa$span <- dfa$subject.begin - dfa$subject.end
-
-p <- ggplot(dfa)
-p <- p + geom_segment(aes(y = index, yend = index, x = subject.begin, xend = subject.end)) 
-p <- p + xlab("Subject time span (year)")
-p <- p + ylab("Document index")
-p <- p + ggtitle("Document subject time spans")
-print(p)
-```
 
 
 ### Subject geographical places
