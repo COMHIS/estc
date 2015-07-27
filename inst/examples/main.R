@@ -17,6 +17,7 @@ dir.create(output.folder)
 print("Read raw data")
 df.orig <- read_bibliographic_metadata(source.data.file)
 
+
 # Preprocess the raw data
 source("preprocessing.R")
 

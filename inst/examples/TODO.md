@@ -10,6 +10,18 @@ Publication year: 1764[1765] Näissä tapauksissa mun tulkinta olisi että hakas
 1770[1776]
 MDCCXXIII-MDCCXXV. [1723-17125].
 
+---------------------------------------
+
+Make a separate field indicating if the author is a likely pseudonyme. At least this list may be useful,
+see also extdata/names/pseudo
+f <- system.file("extdata/stopwords_pseudonymes.csv", package = "bibliographica")
+stopwords.pseudonymes <- as.character(read.csv(f, sep = "\t")[,1])
+
+# combine synonymous authors and recognize pseudonymes 
+
+# For author life years: for some author we can possibly pick this
+# information from other entries of the same author ?
+
 ----------------------------------------
 
 Video with folio vs. octavo and balls are publication places, sizes

@@ -1,12 +1,6 @@
 # TODO make a tidy cleanup function to shorten the code here
 
-# Different authors may have same name. Use the life years to
-# distinguish unique authors. Finally, use synonyme table to combine
-# synonymous identifiers
-
 print("Polish author life years")
-# TODO: for some author we can possibly pick this information from other entries
-# of the same author ?
 df$author.birth <- polish_years(df.orig[, "100d"])
 df$author.death <- polish_years(df.orig[, "100d"])
 
@@ -22,6 +16,7 @@ print("Author birth")
 births <- lapply(split(df$author.birth, df$author.name), unique)
 # Authors with unique birth year (some entries may be NAs)
 unique.birth <- names(which(sapply(births, function (x) {length(unique(na.omit(x)))}) == 1))
+
 # For authors with a unique birth, use this birth year also for documents where
 # birth year not given in the raw data
 dfs <- df[, c("author.name", "author.birth")]
