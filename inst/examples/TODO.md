@@ -1,9 +1,5 @@
 # TODO
 
-Josko Fennican lukufunktiosta saisi geneerisemmän version bibliographicaan?
-https://github.com/rOpenGov/fennica/blob/master/R/data.R
--> Pitäis muuttaa kenttänimet koko koodista samalla
-
 Publication year: 1764[1765] Näissä tapauksissa mun tulkinta olisi että hakasulkeissa on vuosi jolloin kirja on julkaistu ja edellä on vuosi joka on merkitty kirjan kanteen. 
 1647[8]
 1727[1728]                     
@@ -34,32 +30,17 @@ jotain dimensiotietoja oli. hyödyllistä nähdä onko näitä paljon vai
 vähän ja missä menee pieleen. Ehkä alun summaryplottiin tieto
 monellako dokkarilla mitäkin näistä
 
+---------------------------------------
+
+laske sheet-size keskiarvo niistä joille mitat tiedossa. käytä sitten
+keskiarvoa (ei taulukkoarvoa) loppujen estimointiin -> tehdään vasta
+kun koko ESTC käytossa, jos näytekoko riittävä.
+
 -------------------------------
 
-Suhteellinen tärkeysmittari 1-100:
-- auktoreille
-- dokumenteille
-- topiceille
-- jne.
+Yhteinen automatisoitu summary-dokumenttikoodi (fennica - estc - kungliga - ym)
 
-Levinneisyys aikajanalla: toimisko Shannon-diversiteetti, range tms. 
-
-Historiallisten aineistojen viitetietojärjestelmän puuttuessa hieno
-mittari.
-
-Eli mitä suurempi julkaisumäärä (oli kyseessä yksittäinen auktori,
-topic tai mikä vaan) ja mitä suurempi levinneisyys aikajanalla, niin
-sitä merkittävämpi juttu (yleensä). pitäisi keksiä hyvä kerroin miten
-laskea tuo voluumi*spread*sivumäärä (suoraan yks yhteen se ei voi
-olla)
-
-n(docs) * 'levinneisyys aikajanalla'? * pages 
-
------------------------------
-
-Author Richness and Diversity (w.r.t. documents) across time ?
-
--------------------
+................................
 
 muutamien erikseen valittujen “most common topics” koko aineiston
 summarysta laittaminen aikajanalle. Tietysti jos helpoin toteuttaa on
@@ -97,26 +78,45 @@ samojen paikkojen yhdistäminen, mutta ei nyt ykkös todo.
 
 .................................
 
-auktori kentässä (100) nyt myös mukana tyyppejä kentästä 700.
-
-Esim. Newcomb, Thomas,$d-1691$b-1691,$eprinter 
-
-joskus sinne 700 kenttään on lisäilty nimiä jotka mukana
-kirjaproduktiossa. Erityisesti näitä kirjapainajia. Näitä on ainakin
-muutama siinä epäselvien auktoreiden kentässä. Periaatteen kuitenkin
-pitäisi olla toki että auktori tulee auktorikentästä (100). 600 kenttä
-liittyy kyllä näköjään suoraan auktoriin. 700 menee myös muihin mukana
-olleisiin.
-
------------
-
-Paperin hinta vs. painomäärät?
-
----------------
-
 Try rOpenSci/GenderizeR R package and also [babynames package](https://github.com/hadley/babynames)
 
 ------------------------------------
+
+
+Suhteellinen tärkeysmittari 1-100:
+- auktoreille
+- dokumenteille
+- topiceille
+- jne.
+
+Levinneisyys aikajanalla: toimisko Shannon-diversiteetti, range tms. 
+
+Historiallisten aineistojen viitetietojärjestelmän puuttuessa hieno
+mittari.
+
+Eli mitä suurempi julkaisumäärä (oli kyseessä yksittäinen auktori,
+topic tai mikä vaan) ja mitä suurempi levinneisyys aikajanalla, niin
+sitä merkittävämpi juttu (yleensä). pitäisi keksiä hyvä kerroin miten
+laskea tuo voluumi*spread*sivumäärä (suoraan yks yhteen se ei voi
+olla)
+
+n(docs) * 'levinneisyys aikajanalla'? * pages 
+
+-----------------------------
+
+Author Richness and Diversity (w.r.t. documents) across time ?
+
+-------------------
+
+
+df2$publication.publisher 
+-> Käytetäänkö printed for, printed by, vai molemmat tässä kohtaa ?
+-> Tai molempia erikseen?
+-> printed by/for the author -> poimi author nimi author-kentästä
+   postprocessing-steppinä
+- Tsekkaa tulostetaulukot ja keksi vähän lisää siistimisiä niitten nojalla
+- Tsekkaa lopulliset taulut ihan livenä Mikon kanssa
+
 
 ## Published for 
 
@@ -199,20 +199,6 @@ Nämä jostain syystä pdf, mutta varmaan saa myös spread sheet muodossa.
 
 "for the author" ja "printed for the author" tapauksessa on hyvä juttu ottaa se nimi sieltä auktorikentästä. Näistä jo itsessään saa mielenkiintoista tietoa. Tuo auktorin osallistuminen julkaisemiseen on sinänsä todella mielenkiintoinen ilmiö tarkasteltavana ajanjaksona. Tekisi mieli pyytää sieltä British Librarysta haku jossa haetaan kaikki tapaukset joissa "author" termi esiintyy tuossa imprint-kentässä. Mutta jätetään tämä kaikkia julkaisuja koskeva tutkimus siihen kun lähdetään skaalaamaan ESTCtä. Pidetään vain siinä vaiheessa mielessä, että tutkimalla tätä kirjoittajan osallisuutta julkaisemiseen tällä meidän tavalla, niin käsillä on sellainen aihe josta saadaan helposti irti mielenkiintoista uutta tietoa mm. mahdollisiin suhteellisiin muutoksiin mitä tässä tapahtuu 1470-1800, joka kertoo julkaisemistoiminnasta ja kirjan historiasta paljon. Mutta jos jossain vaiheessa tarvitsee testailla kuinka hyvin tätä "history"-tutkimusta varten tehty parsiminen soveltuu toisiin vastaaviin hakuihin, niin sitten tuo "author" julkaisijakentässä koko aikavälillä voisi olla sopiva pikku testi.
 
-------------------------------------------
-
-df2$publication.publisher 
--> Käytetäänkö printed for, printed by, vai molemmat tässä kohtaa ?
--> Tai molempia erikseen?
--> printed by/for the author -> poimi author nimi author-kentästä
-   postprocessing-steppinä
-- Tsekkaa tulostetaulukot ja keksi vähän lisää siistimisiä niitten nojalla
-- Tsekkaa lopulliset taulut ihan livenä Mikon kanssa
-
----------------------------------------
-
-Yhteinen automatisoitu summary-dokumenttikoodi (fennica - estc - kungliga - ym)
-
 #--------------------------------------------------------------------
 
 Ja pitäiskö kentät 650z, 651a, 651z erotella jo lähtökohtaisesti parsinnassa
@@ -247,12 +233,6 @@ myöhemmin voidaan tehdä muita sana-ryhmittelyjä liittyen otsikoihin, näiden 
 
 kategorisoida myös kaikki lehdenomaiset yhteen (poimittuna osa): gazette, chronicle, courant, intelligencer, advertiser, star, post, magazine, monthly, miscellany, monitor, news-letter, register, daily, mercurius, rambler, intelligence, guide, evening, mercury, craftsman, examiner, chronologist, oracle, observer, review, (journal). Näistä ”journal” on hankala koska pitää sisällään myös paljon muuta. Lisäksi tämän joukon ulkopuolella on myös muita lehtiä, mutta niiden blokkaaminen voidaan hoitaa sitten jälkeenpäin.
 
----------------------------------------
-
-laske sheet-size keskiarvo niistä joille mitat tiedossa. käytä sitten
-keskiarvoa (ei taulukkoarvoa) loppujen estimointiin -> tehdään vasta
-kun koko ESTC käytossa, jos näytekoko riittävä.
-
 ------------------
 
 Subject classes -> Which one to select?
@@ -270,6 +250,10 @@ http://en.wikipedia.org/wiki/Wikipedia:Persondata (From the XML dump)
 wikipediasta voisi periaatteessa ottaa yhdestä datadumpista kaikki henkilödatan joka pitää kaiketi sisällään kaikki wikipedian henkilöt? Ideaalitilanne jokaisesta henkilöstä voitaisiin vetää linkki wikipediaan ja vastavuoroisesti sieltä meidän systeemeihin. kun lopulta syntyvää kirjastojärjestelmää käytetään hyväksi muuhun kuin tilastollisiin juttuihin.
 
 -----
+
+Paperin hinta vs. painomäärät?
+
+---------------
 
 voisi poimia omaan sarakkeeseen tiedon jos dokumentti on "Obl"?
 
