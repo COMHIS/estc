@@ -18,8 +18,6 @@
 #' @keywords utilities
 polish_publisher <- function (x) {
 
-  # x <- df.orig[["260b"]]		 
-
   x <- as.character(x)
   xorig <- x
   x <- gsub("\\[", "", x)
@@ -46,8 +44,6 @@ polish_publisher <- function (x) {
   xrest <- x
   xrest[which(!is.na(xfor) | !is.na(xby))] <- NA
 
-  res <- list(original = xorig, printedfor = xfor, printedby = xby, rest = xrest)
-
-  res
+  data.frame(list(original = xorig, printedfor = xfor, printedby = xby, rest = xrest))
  
 }

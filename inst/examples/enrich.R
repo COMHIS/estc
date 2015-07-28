@@ -21,6 +21,9 @@ df$publication.country <- get_country(df$publication.place)$country
 print("Write missing country mappings to file")
 write.table(rev(sort(table(df$publication.place[is.na(df$publication.country)]))), file = paste(output.folder, "missingcountry.csv", sep = ""), quote = F, row.names = F, sep = "\t")
 
+print("Estimate the number of physical items for each document")
+df$document.items <- estimate_document_items(df) # # "Physical items per document"
+
 print("add manually checked pages for some documents") 
 source("add.manual.pagecounts.R")
 

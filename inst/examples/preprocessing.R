@@ -36,47 +36,24 @@ print("Publication place")
 df$publication_place <- polish_place(df.orig$publication_place,
 					remove.unknown = TRUE)
 
-# ---------------------------------------
-
 print("Augment missing document dimensions") 
-# Fill in the missing entries and area where estimates can be obtained
-# area, width, height, gatherins (estimated+original)
+# Fill in missing entries where estimates can be obtained:
+# area, width, height, gatherins (also keep pure originals before fill in)
 df <- cbind(df, polish_dimensions(df.orig$physical_dimension, fill = TRUE)) 
 
-
-print("Polish doc sizes")
-tmp <- estimate_document_parts(df)
-df$document.pages.parts <- tmp$pages
-df$document.parts <- tmp$parts
-df$document.items <- estimate_document_items(df) # # "Physical items per document"
+print("Estimate number of separate parts in a document")
+# parts, pages_per_part
+df <- cbind(df, estimate_document_parts(df.orig))
 
 print("Publisher")
-# TODO make the output a nice data frame instead of a list
-res <- polish_publisher(df.orig[["260b"]])
-df$publication.publisher <- res$printedby
-df$publication.publisher.printedby <- res$printedby
-df$publication.publisher.printedfor <- res$printedfor
-df$publication.publisher <- df$publication.publisher.printedby
-print("Count, sort and write to table")
-tmp <- write_xtable(res$printedby, paste(output.folder, "PublisherPrintedBy.csv", sep = ""))
-tmp <- write_xtable(res$printedfor, paste(output.folder, "PublisherPrintedFor.csv", sep = ""))
-tmp <- write_xtable(res$rest, paste(output.folder, "PublisherPrintedOther.csv", sep = ""))
+res <- polish_publisher(df.orig$publisher)
+df$publisher <- res$printedby
+df$publisher.printedfor <- res$printedfor
 
-
-# Skipped for now
-#print("Subject geographic places")
-#df$subject.geography <- polish_geography(df.orig[["650z.651a.651z"]])
-#df[which(df$subject.geography == "NA"), "subject.geography"] <- NA
-
-
-print("Write full correspondence table")
-filename <- paste(output.folder, "PublisherPrintedFull.csv", sep = "")
-message(paste("Writing", filename))
-names(res) <- c("PrintedFor", "PrintedBy", "NotConsidered", "Original")
-write.table(as.data.frame(res), file = filename, quote = FALSE, sep = "\t", row.names = FALSE)  
-
-
-
+print("Write table")
+filename <- paste(output.folder, "Publisher.csv", sep = "")
+names(res) <- c("PrintedFor", "PrintedBy", "Ignored", "Original")
+write_xtable(as.data.frame(res), file = filename)
 
 # ---------------------------------------
 

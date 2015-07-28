@@ -21,7 +21,6 @@ Depends:
 Imports:
     ggplot2,
     dplyr,
-    gender,
     sorvi
 Suggests:
     knitr,

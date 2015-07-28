@@ -213,6 +213,15 @@ df2$publication.publisher
 
 Yhteinen automatisoitu summary-dokumenttikoodi (fennica - estc - kungliga - ym)
 
+#--------------------------------------------------------------------
+
+Ja pitäiskö kentät 650z, 651a, 651z erotella jo lähtökohtaisesti parsinnassa
+
+# Skipped for now
+#print("Subject geographic places")
+#df$subject.geography <- polish_geography(df.orig[["650z.651a.651z"]])
+#df[which(df$subject.geography == "NA"), "subject.geography"] <- NA
+
 ------------------------------------------
 
 jos jotenkin keksitään miten blokataan kaikesta materiaalista ensimmäiset editiot ja voidaan tarkastella niitä omana yksikkönään. Käytännössä tarkoittaisi ehkä, että kun löytyy samannimisiä julkaisuja (title) samalta kirjoittajalta (author), niin niistä indikoitaisiin aikaisimmin julkaistu. Ei mikään ensimmäisenä tehtävä asia, mutta kirjahistorian kannalta relevantti kysymys analyysiosuuteen.
