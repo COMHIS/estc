@@ -1,5 +1,5 @@
 print("Arrange author first and last names in a table")
-tmp <- polish_author(df.orig$author_name, stopwords)
+tmp <- polish_author(df.orig$author_name)
 
 # Add full author name (Last, First) to our data
 df$author_name <- tmp$names$full
