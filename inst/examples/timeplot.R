@@ -33,6 +33,31 @@ pdf("timeline.pdf", width = 10, height = 6)
 print(p)
 dev.off()
 
+#---------------------------------------
+
+library(reshape)
+dfm <- melt(dff, id = c("year", "decade"))
+dfi <- aggregate(dfm[, "value"], by = dfm[, c("variable", "decade")], sum)
+dfi$documents.total <- dfi$x
+dfi$documents.annual <- dfi$x/10
+theme_set(theme_bw(20))
+#p <- ggplot(dfi, aes(x = decade, y = documents.annual, color = variable, shape = variable))
+#p <- ggplot(dfm, aes(x = year, y = value, shape = variable))
+p <- ggplot(dfi, aes(x = decade, y = x, shape = variable))
+p <- p + geom_point(size = 4) + geom_smooth(size = 1, color = "black")
+p <- p + xlab("Year") + ylab("Publications per decade")
+p <- p + ggtitle("Publication activity 1470-1800")
+p <- p + scale_color_manual(values=c("#CC6666", "#9999CC"))
+#p <- p + geom_point(data= dfm, aes(x = year, y = value, color = variable))
+p <- p + guides(shape = "none", color = "none")
+p2 <- p
+print(p2)
+
+pdf("timeline2.pdf", width = 8, height = 6)
+print(p)
+dev.off()
+
+
 # ------------------------------------------------------------------
 
 
