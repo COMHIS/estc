@@ -1,8 +1,14 @@
 # TODO make a tidy cleanup function to shorten the code here
 
 print("Polish author life years")
-df$author.birth <- polish_years(df.orig$author_date)
-df$author.death <- polish_years(df.orig$author_date)
+tmp <- polish_years(df.orig$author_date)
+df$author.birth <- tmp$start
+df$author.death <- tmp$end
+
+print("Write unrecognized author life years to file together count stats")
+tmp <- write_xtable(unname(unlist(df.orig[which(is.na(df$author.birth) & is.na(df$author.death)),]$author_date)), paste(output.folder, "discarded_author_life.csv", sep = ""))
+
+# ------------------------------
 
 print("Remove suspicious cases (very few) where birth is later than death.")
 # In practice this concerns cases such as 1635-71 which should be 1635-1671
@@ -60,4 +66,6 @@ na.death <- names(which(is.na(deaths)))
 deaths <- lapply(split(df$author.death, df$author.name), unique)
 many.deaths <- lapply(deaths[names(which(sapply(deaths, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
 
-# --------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+
+
