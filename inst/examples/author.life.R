@@ -1,8 +1,8 @@
 # TODO make a tidy cleanup function to shorten the code here
 
 print("Polish author life years")
-df$author.birth <- polish_years(df.orig[, "100d"])
-df$author.death <- polish_years(df.orig[, "100d"])
+df$author.birth <- polish_years(df.orig$author_date)
+df$author.death <- polish_years(df.orig$author_date)
 
 print("Remove suspicious cases (very few) where birth is later than death.")
 # In practice this concerns cases such as 1635-71 which should be 1635-1671

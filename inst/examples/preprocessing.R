@@ -24,7 +24,6 @@ print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
 # Generic handling
-stop("test")
 x <- polish_pages(x, verbose = FALSE)$total.pages
 # was document.pages.total
 df$pagecount <- x
@@ -54,7 +53,7 @@ df$publisher.printedfor <- res$printedfor
 print("Write table")
 filename <- paste(output.folder, "Publisher.csv", sep = "")
 names(res) <- c("PrintedFor", "PrintedBy", "Ignored", "Original")
-write_xtable(as.data.frame(res), file = filename)
+tmp <- write_xtable(as.data.frame(res), filename = filename)
 
 # ---------------------------------------
 
