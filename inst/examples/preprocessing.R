@@ -24,6 +24,7 @@ print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
 # Generic handling
+stop("test")
 x <- polish_pages(x, verbose = FALSE)$total.pages
 # was document.pages.total
 df$pagecount <- x
