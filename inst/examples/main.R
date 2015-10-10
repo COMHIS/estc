@@ -3,7 +3,6 @@
 library(estc)
 library(ggplot2)
 library(knitr)
-#library(plyr)
 library(dplyr)
 
 # Define here the input file and output folder
@@ -16,7 +15,6 @@ dir.create(output.folder)
 
 print("Read raw data")
 df.orig <- read_bibliographic_metadata(source.data.file)
-
 
 # Preprocess the raw data
 source("preprocessing.R")

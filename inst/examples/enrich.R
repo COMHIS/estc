@@ -14,9 +14,9 @@ df$publication.country <- get_country(df$publication.place)$country
 # We could standardize country names but problem is that e.g. England, Scotland
 # etc are not mapped (as UK). But is potentially useful later.
 #devtools::install_github("dsself/standardizecountries")
-#library(standard)
-#df$publication.country2 <- country_name(df$publication.country)
-#df$publication.country.code <- country_code(df$publication.country, "country", "iso3c")
+# library(standard)
+# df$publication.country2 <- country_name(df$publication.country)
+# df$publication.country.code <- country_code(df$publication.country, "country", "iso3c")
 
 print("Write missing country mappings to file")
 write.table(rev(sort(table(df$publication.place[is.na(df$publication.country)]))), file = paste(output.folder, "missingcountry.csv", sep = ""), quote = F, row.names = F, sep = "\t")
