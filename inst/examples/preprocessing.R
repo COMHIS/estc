@@ -96,6 +96,9 @@ dftmp <- df
 
 # Polish the final data frame; Filter out years 1800- 
 # (mostly errors and printing techniques change dramatically)
-df <- df[-which(df$publication.year >= 1800),]
+rmv <- which(df$publication.year >= 1800)
+df <- df[-rmv,]
+df.orig <- df.orig[-rmv,]
+
 
 
