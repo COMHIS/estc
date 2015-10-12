@@ -1,6 +1,6 @@
-nas <- sapply(split(df$document.pages.total, df$document.dimension.gatherings.estimated), function (x) {mean(is.na(x))})
+nas <- sapply(split(df$pagecount, df$gatherings), function (x) {mean(is.na(x))})
 
-gatherings <- as.character(levels(df$document.dimension.gatherings.estimated))
+gatherings <- as.character(levels(df$gatherings))
 
 for (g in gatherings) {
 
@@ -12,7 +12,7 @@ for (g in gatherings) {
     pc$document.pages.total <- as.numeric(gsub(" p\\.", "", pc$document.pages.total))
 
     for (i in 1:nrow(pc)) {
-        inds <- which(as.character(df$document.dimension.gatherings.estimated) == g)
+        inds <- which(as.character(df$gatherings) == g)
         for (varname in colnames(pc)[1:2]) {
 	  # Keep only those docs that match at every field
 	  inds2 <- which(df[[varname]] == as.character(pc[i, varname]))
@@ -20,15 +20,15 @@ for (g in gatherings) {
 	}
 	# Just keep unique inds where estimated page count is NA
 	inds <- unique(inds)
-	inds <- inds[is.na(df[inds, "document.pages.total"])]
+	inds <- inds[is.na(df[inds, "pagecount"])]
 	if (length(inds) > 0) {
-  	  df[inds, "document.pages.total"] <- pc[i, "document.pages.total"]
+  	  df[inds, "pagecount"] <- pc[i, "document.pages.total"]
 	}
      } 
   }
 }
 
-nas2 <- sapply(split(df$document.pages.total, df$document.dimension.gatherings.estimated), function (x) {mean(is.na(x))})
+nas2 <- sapply(split(df$pagecount, df$gatherings), function (x) {mean(is.na(x))})
 
 # Compare missing page counts before and after this operation
 print(cbind(nas, nas2))

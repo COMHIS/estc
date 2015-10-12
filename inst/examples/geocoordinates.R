@@ -13,7 +13,7 @@ geon <- synonyme_list2df(gs, sep = ",", include.lowercase = TRUE)
 # Otherwise too many mismatches with identical city names from different
 # continents
 
-places <- sort(as.character(unique(df$publication.place)))
+places <- sort(as.character(unique(df$publication_place)))
 
 places.geonames <- c()
 
@@ -59,7 +59,7 @@ rownames(geocoordinates) <- places
 # TODO investigate opportunities to have identifiers for all major cities
 # Fill in manually the largest publication places that could not be uniquely matched to a location
 # and are hence still missing the coordinates
-#top <- rev(sort(table(subset(df, publication.place %in% names(which(is.na(places.geonames)))$publication.place)))
+#top <- rev(sort(table(subset(df, publication_place %in% names(which(is.na(places.geonames)))$publication_place)))
 #top[1:20]
 #      London          Dublin Philadelphia Pa          Boston          Oxford 
 #          34628            3276            1296            1035             913 
@@ -165,7 +165,7 @@ place <- "Baltimore Md"
 f <- filter(geonames, asciiname == "Baltimore")
 geocoordinates[place,] <- f
 
-# Read custom mappings from file
+print("Read custom mappings from file")
 # FIXME integrate all into a single place - country - geocoordinates file
 # that will be used in place - country and place - coordinate mappings
 # systematically
@@ -176,18 +176,13 @@ rownames(geotab) <- geotab$place
 coms <- intersect(geotab$place, rownames(geocoordinates))
 geocoordinates[coms, c("latitude", "longitude")] <- geotab[coms, c("latitude", "longitude")]
 
-# Not found
-#place <- "Grenada" 
-#geocoordinates[place,] <- c()
-
-# FIXME move to tidy data principles ie. geographic info are in their
-# own data frames..
-df$latitude <- as.numeric(as.character(geocoordinates[as.character(df$publication.place), "latitude"]))
-df$longitude <- as.numeric(as.character(geocoordinates[as.character(df$publication.place), "longitude"]))
+print("FIXME move to tidy data principles ie. geographic info are in their own data frames..")
+df$latitude <- as.numeric(as.character(geocoordinates[as.character(df$publication_place), "latitude"]))
+df$longitude <- as.numeric(as.character(geocoordinates[as.character(df$publication_place), "longitude"]))
 
 # Then use our custom synonyme lists for matching if match was not found
 # tmp <- harmonize_place(geon$name)
-#match(unique(df[is.na(idx), "publication.place"]), as.character(tmp$Region))
+#match(unique(df[is.na(idx), "publication_place"]), as.character(tmp$Region))
 # Manually add some entries to geonames synonymes to retrieve locations for our places
 #geon <- rbind(geon, c("Philadelphia", "Philadelphia Pa"))
 #geon <- rbind(geon, c("New York", "New York N.Y"))
@@ -230,7 +225,7 @@ if (length(hits) > 0) {
 
 
 print("Write places with missing geolocation to file")
-tab <- rev(sort(table(df$publication.place[df$publication.place %in% absent])))
+tab <- rev(sort(table(df$publication_place[df$publication_place %in% absent])))
 tab <- tab[tab > 0]
 tab <- cbind(names(tab), tab)
 colnames(tab) <- c("name", "count")

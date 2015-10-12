@@ -71,12 +71,6 @@ indsb <- inds
 df[inds, "document.pages.total"] <- 1 * pages.per.vol
 
 
-#--------------------------------------------------------------------------------------------
-# Fraction of missing pages in each size category
-#tab <- table(df[unique(c(indsa, indsb)), "document.dimension.gatherings.estimated"])
-#tab2 <- table(df[, "document.dimension.gatherings.estimated"])
-#tabr <- tab[names(tab2)]/tab2
-#barplot(100*tabr, horiz = T, main = "Fraction of missing pages for each size", xlab = "Missing (%)", las = 1)
 # Known page counts before estimation
 #pdf("~/tmp/knownsizes.pdf"); ggplot(df %>% select(document.pages.total.orig, document.dimension.gatherings.estimated) %>% group_by(document.pages.total.orig, document.dimension.gatherings.estimated) %>% tally(), aes(x = document.dimension.gatherings.estimated, y = document.pages.total.orig, size = n)) + geom_point() + scale_y_log10() + coord_flip(); dev.off()
 

@@ -1,8 +1,9 @@
 print("Cases where pages could not be estimated")
 # Filter out those where it clearly cannot be estimated (not available)
-estimates <- unlist(pages$estimated.pages)
-originals <- unlist(pages$raw.pages)
-discarded <- unlist(originals)[is.na(unlist(estimates))]
+#estimates <- unlist(pages$estimated.pages)
+#originals <- unlist(pages$raw.pages)
+#discarded <- unlist(originals)[is.na(unlist(estimates))]
+discarded <- df.orig$physical_extent[is.na(df$pagecount)]
 
 # volume, dimension, and other information where it is clear that 
 # page numbers cannot be estimated

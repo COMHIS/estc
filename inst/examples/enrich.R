@@ -9,17 +9,17 @@ print("Enrich geo info: Geocoordinates")
 source("geocoordinates.R")
 
 print("Add publication country")
-df$publication.country <- get_country(df$publication.place)$country
+df$publication_country <- get_country(df$publication_place)$country
 
 # We could standardize country names but problem is that e.g. England, Scotland
 # etc are not mapped (as UK). But is potentially useful later.
 #devtools::install_github("dsself/standardizecountries")
 # library(standard)
-# df$publication.country2 <- country_name(df$publication.country)
-# df$publication.country.code <- country_code(df$publication.country, "country", "iso3c")
+# df$publication_country2 <- country_name(df$publication_country)
+# df$publication_country.code <- country_code(df$publication_country, "country", "iso3c")
 
 print("Write missing country mappings to file")
-write.table(rev(sort(table(df$publication.place[is.na(df$publication.country)]))), file = paste(output.folder, "missingcountry.csv", sep = ""), quote = F, row.names = F, sep = "\t")
+write.table(rev(sort(table(df$publication_place[is.na(df$publication_country)]))), file = paste(output.folder, "missingcountry.csv", sep = ""), quote = F, row.names = F, sep = "\t")
 
 print("Estimate the number of physical items for each document")
 df$document.items <- estimate_document_items(df) # # "Physical items per document"
