@@ -1,7 +1,3 @@
-
-
-
-
 #' @title mean_pagecounts_issue
 #' @description Estimate page counts for issues
 #'
@@ -17,16 +13,16 @@
 #' @keywords utilities
 mean_pagecounts_issue <- function (df) {
 
-  document.items <- document.volnumber <- document.parts <- document.volcount <- document.dimension.gatherings.estimated <- document.pages.total <- NULL
+  items <- volnumber <- parts <- volcount <- gatherings <- pagecount <- NULL
 
   pagecounts <- filter(df, 
-  	     document.volcount == 1 & 
-	     document.pages.total >= 8 & 
-	     document.pages.total <= 50) %>% 
-	     group_by(document.dimension.gatherings.estimated) %>% 
+  	     volcount == 1 & 
+	     pagecount >= 8 & 
+	     pagecount <= 50) %>% 
+	     group_by(gatherings) %>% 
 	     summarize(
-	  mean.pages.per.vol = mean(document.pages.total/document.volcount, na.rm = T), 
-	  median.pages.per.vol = median(document.pages.total/document.volcount, na.rm = T), 
+	  mean.pages.per.vol = mean(pagecount/volcount, na.rm = T), 
+	  median.pages.per.vol = median(pagecount/volcount, na.rm = T), 
 	  n = n())
 
   colnames(pagecounts) <- c("doc.dimension", "mean.pages.issue", "median.pages.issue", "n.issue")
@@ -51,23 +47,22 @@ mean_pagecounts_issue <- function (df) {
 #' @keywords utilities
 mean_pagecounts_multivol <- function (df) {
 
-  document.items <- document.volnumber <- document.parts <- document.volcount <- document.dimension.gatherings.estimated <- document.pages.total <- NULL
+  items <- volnumber <- parts <- volcount <- gatherings <- pagecount <- NULL
   
-  # Include only those document.items that have multiple volumes
+  # Include only those items that have multiple volumes
   #    (multi-volume books tend to have more pages)
   #    and calculate pages per volume
   #    we ignore the fact that in some cases volumes have multiple parts
-  #    ie. document.parts may be different from document.volcount
-  #    Also: "449 v., plates :" -> pages.total = 4; ignore these
+  #    ie. parts may be different from volcount
+  #    Also: "449 v., plates :" -> pagecount = 4; ignore these
   pagecounts <- filter(df, 
-  		(document.volcount > 1 | 
-		(document.items == 1 & !is.na(document.volnumber))) &
-		document.pages.total > 10
+  		(volcount > 1 | !is.na(volnumber)) &
+		pagecount > 10
 		) %>% 
-		group_by(document.dimension.gatherings.estimated) %>% 
+		group_by(gatherings) %>% 
 		summarize(
-  mean.pages.per.vol = mean(na.omit(document.pages.total/document.volcount)),
-  median.pages.per.vol = median(na.omit(document.pages.total/document.volcount)),
+  mean.pages.per.vol = mean(na.omit(pagecount/volcount)),
+  median.pages.per.vol = median(na.omit(pagecount/volcount)),
   n = n())
   colnames(pagecounts) <- c("doc.dimension", "mean.pages.multivol", "median.pages.multivol", "n.multivol")
 
@@ -91,17 +86,17 @@ mean_pagecounts_multivol <- function (df) {
 #' @keywords utilities
 mean_pagecounts_univol <- function (df) {
 
-  document.items <- document.volnumber <- document.parts <- document.volcount <- document.dimension.gatherings.estimated <- document.pages.total <- NULL
+  items <- volnumber <- parts <- volcount <- gatherings <- pagecount <- NULL
 
   # Ensure that
   # Include only docs that have a single volume in one part
   # (multi-volume books tend to have more pages)
   pagecounts <- filter(df, 
-		document.items == 1 & is.na(document.volnumber)) %>% 
-		group_by(document.dimension.gatherings.estimated) %>% 
+		is.na(volnumber)) %>% 
+		group_by(gatherings) %>% 
 		summarize(
-	mean.pages.per.vol = mean(na.omit(document.pages.total)), 
- 	median.pages.per.vol = median(na.omit(document.pages.total)), 
+	mean.pages.per.vol = mean(na.omit(pagecount)), 
+ 	median.pages.per.vol = median(na.omit(pagecount)), 
 		n = n())
   colnames(pagecounts) <- c("doc.dimension", "mean.pages.singlevol", "median.pages.singlevol", "n.singlevol")
 

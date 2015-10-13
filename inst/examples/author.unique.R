@@ -1,7 +1,7 @@
 # Unique author identifier by combining name, birth and death years
-inds <- (!df$author.name %in% union(many.births, many.deaths) & !is.na(df$author.name))
+inds <- (!df$author_name %in% union(many.births, many.deaths) & !is.na(df$author_name))
 df$author.unique <- rep(NA, nrow(df))
-df$author.unique[inds] <- apply(df[inds, c("author.name", "author.birth", "author.death")], 1, function (x) {paste(x[[1]], " (", x[[2]], "-", x[[3]], ")", sep = "")})
+df$author.unique[inds] <- apply(df[inds, c("author_name", "author_birth", "author_death")], 1, function (x) {paste(x[[1]], " (", x[[2]], "-", x[[3]], ")", sep = "")})
 
 # Read author synonyme table for ambiguous authors
 authors <- df$author.unique
@@ -19,8 +19,8 @@ years <- gsub("\\)", "", dfs$years)
 years <- sapply(years, function (x) {if (length(grep("-", unlist(strsplit(x, "")))) == 1) {return(strsplit(x, "-"))} else {return(strsplit(x, " "))}})
 birth <- as.numeric(gsub("-$", "", sapply(years, function (x) {x[[1]]})))
 death <- as.numeric(sapply(years, function (x) {if (length(x) >=2) x[[2]] else NA}))
-df$author.birth[inds] <- birth
-df$author.death[inds] <- death
+df$author_birth[inds] <- birth
+df$author_death[inds] <- death
 
 # Matrix with discarded author names
 discarded.authors <- as.character(na.omit(df.orig[["100a"]][is.na(df$author.unique)]))
