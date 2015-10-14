@@ -47,7 +47,8 @@ print("Add estimated paper consumption")
 # One m2 is 100 * 100 cm2 = 1e4 cm2
 # One km2 is 1000 * 1000 m2 = 1e6 m2 = 1e10 cm2
 # Estimated average print run per document: 1000
-df <- mutate(df, paper.consumption.km2 = document.dimension.cm2 * df$document.pages.total/2 * (1/1e10) * 1000)
+printrun <- 1000
+df <- mutate(df, paper.consumption.km2 = width * height * pagecount/2 * (1/1e10) * printrun)
 
 
 

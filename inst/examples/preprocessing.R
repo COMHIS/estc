@@ -38,8 +38,9 @@ df$publication_place <- polish_place(df.orig$publication_place,
 
 print("Augment missing document dimensions") 
 # Fill in missing entries where estimates can be obtained:
-# area, width, height, gatherins (also keep pure originals before fill in)
-df <- cbind(df, polish_dimensions(df.orig$physical_dimension, fill = TRUE)) 
+# area, width, height, gatherings (also keep pure originals before fill in)
+tmp <- polish_dimensions(df.orig$physical_dimension, fill = TRUE)
+df <- cbind(df, tmp) 
 
 print("Estimate number of separate parts in a document")
 # parts, pages_per_part
