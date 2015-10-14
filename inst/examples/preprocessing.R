@@ -44,7 +44,8 @@ df <- cbind(df, tmp)
 
 print("Estimate number of separate parts in a document")
 # parts, pages_per_part
-df <- cbind(df, estimate_document_parts(df.orig))
+tmp <- estimate_document_parts(df.orig)
+df <- cbind(df, tmp)
 
 print("Publisher")
 res <- polish_publisher(df.orig$publisher)
