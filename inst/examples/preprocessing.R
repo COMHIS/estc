@@ -59,36 +59,19 @@ tmp <- write_xtable(as.data.frame(res), filename = filename)
 
 # ---------------------------------------
 
-# USE same function (by NVI) both of these cases:
-
 source("author.life.R")
 
-# TODO move the functions from fennica to bibliographica
 print("Publication year")
-library(fennica)
-dftmp <- df.orig
-dftmp$publication_time <- as.character(dftmp$publication_time)
-dftmp2 <- df
-dftmp2 <- fix_pubtill(dftmp, dftmp2)
-dftmp2 <- fix_pubfrom(dftmp, dftmp2)
-dftmp2 <- fix_pubwhen(dftmp, dftmp2)
-tab <- as.data.frame(cbind(orig = dftmp$publication_time, year = dftmp2$published_in, from = dftmp2$published_from, till = dftmp2$published_till))
-tab$year <- as.numeric(as.character(tab$year))
-tab$from <- as.numeric(as.character(tab$from))
-tab$till <- as.numeric(as.character(tab$till))
-inds <- which(is.na(tab$year))
-tab[inds, "year"] <- round(rowMeans(tab[inds, c("from", "till")], na.rm = TRUE))
-tab$year[tab$year > 2000] <- NA
-df$publication.year <- tab$year
+tab <- polish_years(df.orig$publication_time)
+df$publication_year <- tab$from
+df$publication_year[df$publication_year > 2000] <- NA
 
 # Conversion statistics in a file
 # (successfull conversions and the count for each)
-tmp <- cbind(original = df.orig$publication_time,
-             final = as.character(df$publication.year))
-tmp <- tmp[which(!is.na(as.numeric(tmp[, "final"]))),]	     
-tmp2 <- write_xtable(tmp, file = "output.tables/publication_year.csv")
+tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
+
 # Failed conversions
-x <- as.character(df.orig[which(is.na(df$publication.year)), "260c"])
+x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
 tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
 
 # -----------------------------
