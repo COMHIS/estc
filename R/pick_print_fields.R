@@ -1,4 +1,4 @@
-#' @title pick_print_fields
+1#' @title pick_print_fields
 #' @description Pick print fields
 #'
 #' @param x A vector
@@ -6,7 +6,7 @@
 #' @return fields
 #'
 #' @export
-#' @importFrom bibliographica condense_spaces
+#' @importFrom sorvi condense_spaces
 #' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")

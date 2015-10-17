@@ -5,7 +5,7 @@
 #' @return Polished vector
 #'
 #' @export
-#' @importFrom bibliographica condense_spaces
+#' @importFrom sorvi condense_spaces
 #' @importFrom bibliographica harmonize_print_statements
 #' @importFrom sorvi harmonize_names
 #' @details Polish publisher field. As a side operation, write the
