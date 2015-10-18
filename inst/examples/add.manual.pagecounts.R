@@ -4,7 +4,7 @@ gatherings <- as.character(levels(df$gatherings))
 
 for (g in gatherings) {
 
-  f <- system.file(paste("extdata/pagecounts/MissingPages-", g, ".csv", sep = ""), package = "estc")
+  f <- system.file(paste("extdata/pagecount/MissingPages-", g, ".csv", sep = ""), package = "estc")
   if (!f == "") {
     pc <- read.csv(f, header = TRUE, sep = "\t")
     library(dplyr)

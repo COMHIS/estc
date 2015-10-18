@@ -5,6 +5,7 @@ Abingdon	2657780	Abingdon	Abingdon	51.67109	-1.28278	GB	ENG	K2	38UE		37192	Europ
 Albany N.Y	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Aldermanbury	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Alexandria Va	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Alnwick	2657438	Alnwick	Alnwick	55.41318	-1.70563	GB	ENG	J6	00EM008		7940	Europe/London
 Altmore	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Altona	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 America	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -14,9 +15,12 @@ Amsterdam	2759794	Amsterdam	Amsterdam	52.37403	4.88969	NL	07	0363			741636	Europ
 Andover Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Annapolis Md	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Antwerp	5145848	Antwerp	Antwerp	41.18144	-84.74051	US	OH	125			1736	America/New_York
+Augusta Ga	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Augusta Me	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Ayr	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Baltimore Md	4347778	Baltimore	Baltimore	39.29038	-76.61219	US	MD	510			620961	America/New_York
 Banbury	2656406	Banbury	Banbury	52.0632	-1.34222	GB	ENG	K2	38UB		46075	Europe/London
+Basel	2661604	Basel	Basel	47.55839	7.57327	CH	BS	1200	2701		164488	Europe/Zurich
 Bath	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Belfast	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Bennington Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -48,16 +52,16 @@ Burlington Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Burnley	2654264	Burnley	Burnley	53.8	-2.23333	GB	ENG	H2	30UD		73480	Europe/London
 Bury	2654187	Bury	Bury	53.6	-2.3	GB	ENG	C1			61044	Europe/London
 Caen	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Caernarfon	2654092	Caernarfon	Caernarfon	53.14126	-4.27016	GB	WLS	Y2			9836	Europe/London
 Calcutta	5148883	Calcutta	Calcutta	40.6734	-80.57646	US	OH	029			3742	America/New_York
 Cambridge	2653941	Cambridge	Cambridge	52.2	0.11667	GB	ENG	C3	12UB		128488	Europe/London
 Cambridge Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Campbeltown	2653915	Campbeltown	Campbeltown	55.42583	-5.60764	GB	SCT	T8			4939	Europe/London
 Canterbury	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Cap Haitien	3728474	Okap	Okap	19.75938	-72.19815	HT	09				134815	America/Port-au-Prince
+Carlisle	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Carlisle Pa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Carlow	2965768	Carlow	Carlow	52.84083	-6.92611	IE	L	01			20055	Europe/Dublin
 Carmarthen	2653755	Carmarthen	Carmarthen	51.85552	-4.30535	GB	WLS	X7	00NU006		15244	Europe/London
-Cashel	2965664	Cashel	Cashel	52.51583	-7.88556	IE	M	26			2798	Europe/Dublin
 Chambersburg Pa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Charleston S.C	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Charlestown Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -70,7 +74,6 @@ Chester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Chesterfield	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Cincinnati Oh	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Cirencester	2652995	Cirencester	Cirencester	51.71927	-1.97145	GB	ENG	E6	23UC		16214	Europe/London
-Clonmel	2965353	Cluain Meala	Cluain Meala	52.355	-7.70389	IE	M	26			17394	Europe/Dublin
 Colchester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Cologne	5021807	Cologne	Cologne	50.93333	6.95	US	MN	019			1519	America/Chicago
 Columbia S.C	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -122,7 +125,6 @@ Fredericton	5957776	Fredericton	Fredericton	45.94541	-66.66558	CA	04				52337	Am
 Fredicksburg Va	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Fryeburg Me	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Gainsborough	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Galway	2964180	Gaillimh	Gaillimh	53.27194	-9.04889	IE	C	10			70686	Europe/Dublin
 Gateshead	10103929	Gateshead	Gateshead	-32.98208	151.69188	AU	02	14650			3574	Australia/Sydney
 Gaunt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Gdansk	3099434	Gdańsk	Gdansk	54.35205	18.64637	PL	82	2261	226101		461865	Europe/Warsaw
@@ -138,6 +140,7 @@ Gothenburg	5695743	Gothenburg	Gothenburg	57.70716	11.96679	US	NE	047			3574	Amer
 Gouda	2755420	Gouda	Gouda	52.01667	4.70833	NL	11	0513			71952	Europe/Amsterdam
 Grantham	5086792	Grantham	Grantham	43.48952	-72.13759	US	NH	019			2308	America/New_York
 Gravesend	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Greenfield Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Greenock	5192000	Greenock	Greenock	55.94838	-4.76121	US	PA	003			2195	America/New_York
 Grenada	4428539	Grenada	Grenada	33.769	-89.80842	US	MS	043			13092	America/Chicago
 Guernesey	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -156,12 +159,14 @@ Heidelberg	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Hereford	5523074	Hereford	Hereford	34.81521	-102.39932	US	TX	117			15370	America/Chicago
 Hertford	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Hillsborough N.C	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Horncastle	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Houghton Park	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Howden	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Hull	2645425	Hull	Hull	53.7446	-0.33525	GB	ENG	G6			302296	Europe/London
 Inverlochie	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Ipswich	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Kelso	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Kendal	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Kilkenny	2963398	Kilkenny	Kilkenny	52.65417	-7.25222	IE	L	13			21589	Europe/Dublin
 Kilmarnock	2645605	Kilmarnock	Kilmarnock	55.61171	-4.49581	GB	SCT	U4			42904	Europe/London
 King's Lynn	2645456	King's Lynn	King's Lynn	52.75172	0.39516	GB	ENG	I9	33UE		34564	Europe/London
@@ -174,12 +179,14 @@ Knoxville Tn	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Koningsberg	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 La Rochelle	3006787	La Rochelle	La Rochelle	46.16667	-1.15	FR	B7	17	173	17300	76810	Europe/Paris
 Lancaster Pa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Lausanne	2659994	Lausanne	Lausanne	46.516	6.63282	CH	VD	2225	5586		116751	Europe/Zurich
 Leeds	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Leeuwarden	2751792	Leeuwarden	Leeuwarden	53.20139	5.80859	NL	02	0080			91424	Europe/Amsterdam
 Leicester	2644668	Leicester	Leicester	52.6386	-1.13169	GB	ENG	H4	31UC		339239	Europe/London
 Leiden	2751773	Leiden	Leiden	52.15833	4.49306	NL	11	0546			119713	Europe/Amsterdam
 Leipzig	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Leominster Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Lewes	2644559	Lewes	Lewes	50.8742	0.00772	GB	ENG	E2	21UF		16479	Europe/London
 Lexington Ky	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Liege	2792413	Liège	Liege	50.63373	5.56749	BE	WAL	WLG	62	62063	182597	Europe/Brussels
 Lille	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -197,6 +204,7 @@ Madras India	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Maidstone	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Manchester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Margate	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Marlborough	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Martinsburg Va	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Mechelen	2791537	Mechelen	Mechelen	51.02574	4.47762	BE	VLG	VAN	12	12025	77530	Europe/Brussels
 Medford Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -218,7 +226,9 @@ Newark N.J	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Newbury Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Newbury Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Newburyport Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Newcastle	6695976	Newcastle	Newcastle	54.21804	-5.88979	GB	NIR	R9			7444	Europe/London
 Newfield Ct	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Newport Isle of Wight	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Newry	2641581	Newry	Newry	54.17841	-6.33739	GB	NIR	S9			27757	Europe/London
 Niagara	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Norfolk Va	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -230,6 +240,7 @@ Norwich	2641181	Norwich	Norwich	52.62783	1.29834	GB	ENG	I9	33UG		177636	Europe/L
 Norwich Ct	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Nottingham	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Oxford	5130319	Oxford	Oxford	51.75222	-1.25596	US	NY	017			1450	America/New_York
+Paisley	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Paris	2988507	Paris	Paris	48.85341	2.3488	FR	A8	75	751	75056	2138551	Europe/Paris
 Paris Ky	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Pembroke Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -241,6 +252,7 @@ Philadelphia Pa	4560349	Philadelphia	Philadelphia	39.95233	-75.16379	US	PA	101		
 Plymouth	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Poole	2640101	Poole	Poole	50.71429	-1.98458	GB	ENG	K5			150092	Europe/London
 Portland Me	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Portsmouth	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Portsmouth N.H	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Preston	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Providence R.I	NA	NA	NA	41.8384163	-71.4256989	NA	NA	NA	NA	NA	NA	NA
@@ -255,21 +267,36 @@ Rochdale	2639272	Rochdale	Rochdale	53.61766	-2.1552	GB	ENG	L2	30UM		97550	Europe
 Rochester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rodborough	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rome	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Roscrea	2961730	Roscrea	Roscrea	52.95111	-7.80167	IE	M	26			5403	Europe/Dublin
+Romsey	2639189	Romsey	Romsey	50.98906	-1.49989	GB	ENG	F2	24UN		17773	Europe/London
 Roseau Dominica	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rotterdam	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rouen	2982652	Rouen	Rouen	49.44313	1.09932	FR	A7	76	763	76540	112787	Europe/Paris
 Rutland Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Saarbrucken	3076084	Grygov	Grygov	58.34194	26.31472	EE	18	0605			1072	Europe/Tallinn
+Salamanca	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Salem Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Salisbury	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Salisbury Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Salisbury N.C	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Savannah Ga	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Sheffield	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Shelburne Nova Scotia	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Sherborne	2636713	Stratford-upon-Avon	Stratford-upon-Avon	51.06931	-1.79569	GB	ENG	P8	00HY261		45600	Europe/London
+Shiffnal	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Shrewsbury	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Siena	3166548	Siena	Siena	43.31822	11.33064	IT	16	SI	052032		42867	Europe/Rome
+Sligo	2961423	Sligo	Sligo	54.26969	-8.46943	IE	C	25			20228	Europe/Dublin
 South Shields	2636713	Stratford-upon-Avon	Stratford-upon-Avon	51.06931	-1.79569	GB	ENG	P8	00HY261		45600	Europe/London
 Southampton	5139030	Southampton	Southampton	50.90395	-1.40428	US	NY	103			3109	America/New_York
 Spanish Town Jamaica	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Springfield Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+St. Albans	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 St. Andrews	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+St. Augustine Fl	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+St. Eustatius	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+St. Helier	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+St. John New Brunswick	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+St. Omer	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 St. Pierre Martinique	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Stafford	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Stamford	5139428	Stamford	Stamford	52.65	-0.48333	US	NY	025			1119	America/New_York
@@ -297,15 +324,16 @@ Vergennes Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Vevey	2658145	Vevey	Vevey	46.46299	6.84345	CH	VD	2230	5890		15812	Europe/Zurich
 Vienna	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Walpole N.H	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Walsall	2634308	Weston-super-Mare	Weston-super-Mare	51.5489	-0.48211	GB	ENG	GLA	F9		0	Europe/London
 Waltham	4954380	Waltham	Waltham	42.37649	-71.23561	US	MA	017			60632	America/New_York
 Warrington	4177465	Warrington	Warrington	53.39254	-2.58024	US	FL	033			14531	America/Chicago
 Warwick	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Washington Pa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Waterford	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Watertown Ma	4954611	Watertown	Watertown	42.37093	-71.18283	US	MA	017			31915	America/New_York
+Wesel	3076084	Grygov	Grygov	58.34194	26.31472	EE	18	0605			1072	Europe/Tallinn
 West Springfield Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Westminster Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Wexford	2960964	Loch Garman	Loch Garman	52.33417	-6.4575	IE	L	30			19913	Europe/Dublin
 Weymouth	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Whitehaven	2634096	Whitehaven	Whitehaven	54.54897	-3.58412	GB	ENG	C9	16UE		24803	Europe/London
 Wigan	2633948	Wigan	Wigan	53.53333	-2.61667	GB	ENG	P7			80788	Europe/London
@@ -320,12 +348,13 @@ Windsor Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Winterthur	2657970	Winterthur	Winterthur	47.50564	8.72413	CH	ZH	110	230		91908	Europe/Zurich
 Winton	5410144	Winton	Winton	54.4833	-2.3333	US	CA	047			10613	America/Los_Angeles
 Wisbech	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Wokingham	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Wolverhampton	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Woodbridge N.J	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Worcester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Worcester Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Wrexham	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Yarmouth	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Yeovil	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 York	2642189	Morley	Morley	53.74013	-1.59877	GB	ENG	H3	00DA030		57385	Europe/London
 York Pa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-Newcastle	6695976	Newcastle	Newcastle	54.21804	-5.88979	GB	NIR	R9			7444	Europe/London

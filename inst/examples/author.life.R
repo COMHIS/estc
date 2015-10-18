@@ -1,8 +1,8 @@
 # TODO make a tidy cleanup function to shorten the code here
 print("Polish author life years")
 tmp <- polish_years(df.orig$author_date)
-df$author_birth <- tmp$start
-df$author_death <- tmp$end
+df$author_birth <- tmp$from
+df$author_death <- tmp$till
 
 print("Write unrecognized author life years to file together count stats")
 tmp <- write_xtable(unname(unlist(df.orig[which(is.na(df$author_birth) & is.na(df$author_death)),]$author_date)), paste(output.folder, "discarded_author_life.csv", sep = ""))

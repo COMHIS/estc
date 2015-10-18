@@ -71,6 +71,7 @@ df$publication_year[df$publication_year > 2000] <- NA
 tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
 
 # Failed conversions
+# TODO can be improved considerably
 x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
 tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
 
@@ -81,7 +82,7 @@ dftmp <- df
 
 # Polish the final data frame; Filter out years 1800- 
 # (mostly errors and printing techniques change dramatically)
-rmv <- which(df$publication.year >= 1800)
+rmv <- which(df$publication_year >= 1800)
 df <- df[-rmv,]
 df.orig <- df.orig[-rmv,]
 

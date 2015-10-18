@@ -1,37 +1,37 @@
 print("Summarize page conversions")
 tab <- cbind(
-	     pages.parts = df$document.pages.parts, 
-	     pages.total = df$document.pages.total, 
-	     pages.original = as.character(df.orig[["300a"]])
+	     #pages.parts = df$document.pages.parts, 
+	     pages.total = df$pagecount, 
+	     pages.original = as.character(df.orig$physical_extent)
 	     )
 tmp <- write_xtable(tab, paste(output.folder, "documentpages-estimated.csv", sep = ""))
 
 print("Summarize item counts")
 tab <- cbind(
-	     volumes = df$document.volcount, 
-             parts = df$document.parts, 
-             items = df$document.items, 
+	     volumes = df$volcount, 
+             parts = df$parts, 
+             # items = df$document.items, 
 	     pages.original = as.character(df.orig[["300a"]])
 	     )
 tmp <- write_xtable(tab, paste(output.folder, "document-items-estimated.csv", sep = ""))
 
 
 print("Summarize page and size conversions in a file")
-tab <- cbind(gatherings = df$document.dimension.gatherings.original,
-	     gatherings.estimated = df$document.dimension.gatherings.estimated,
+tab <- cbind(gatherings = df$gatherings.original,
+	     gatherings = df$gatherings,
 
-       	     width = df$document.dimension.width.original,
-	     width.estimated = df$document.dimension.width.estimated,
+       	     width = df$width.original,
+	     width = df$width,
 
-       	     height = df$document.dimension.height.original,
-	     height.estimated = df$document.dimension.height.estimated,
+       	     height = df$height.original,
+	     height = df$height,
 
-	     area = df$document.dimension.cm2,
+	     area = df$area,
 
-	     volumes = df$document.volcount, 
-             parts = df$document.parts, 
-	     pages.parts = df$document.pages.parts, 
-	     pages.total = df$document.pages.total, 
+	     volumes = df$volcount, 
+             parts = df$parts, 
+	     pages.parts = df$pages_per_part, 
+	     pages.total = df$pagecount, 
 
 	     pages.original = as.character(df.orig[["300a"]]),
 	     dimensions.original = as.character(dimension.table$original)
@@ -40,6 +40,6 @@ tab <- cbind(gatherings = df$document.dimension.gatherings.original,
 tmp <- write_xtable(tab, paste(output.folder, "documentsizes-estimated.csv", sep = ""))
 
 # Summarize data in file
-discarded <- df.orig[["300c"]][is.na(df$document.dimension.cm2)]
+discarded <- df.orig[["300c"]][is.na(df$area)]
 tab <- write_xtable(discarded, paste(output.folder, "documentdimensions-discarded.csv", sep = ""))
 

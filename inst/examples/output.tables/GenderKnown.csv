@@ -1,23 +1,23 @@
 name	gender	count
-NA	NA	32011
-john	male	2644
-william	male	1741
-thomas	male	1337
-richard	male	585
+NA	NA	32049
+john	male	2646
+william	male	1742
+thomas	male	1338
+richard	male	586
 george	male	544
 james	male	541
-robert	male	535
+robert	male	536
 edward	male	397
 henry	male	368
 samuel	male	320
 joseph	male	265
-charles	male	255
-francis	male	236
+charles	male	254
+francis	male	237
 david	male	228
 edmund	male	221
 oliver	male	188
 daniel	male	178
-benjamin	male	137
+benjamin	male	139
 gilbert	male	134
 peter	male	133
 alexander	male	127
@@ -37,8 +37,8 @@ anthony	male	63
 giovanni paolo	male	62
 arthur	male	60
 r	NA	57
-christopher	male	57
 stephen	male	56
+christopher	male	56
 andrew	male	56
 julius	male	55
 walter	male	53
@@ -170,6 +170,7 @@ nathan	male	10
 matthew robinson-morris	male	10
 mathias	male	10
 joel	male	10
+h h	NA	10
 gregorio	male	10
 g	NA	10
 conyers	NA	10
@@ -193,7 +194,6 @@ james graham	male	9
 horace	male	9
 herbert	male	9
 harbottle	NA	9
-h h	NA	9
 giles	male	9
 edward russell	male	9
 e	NA	9
@@ -217,7 +217,6 @@ gerard	male	8
 george villiers	male	8
 fabian	male	8
 edmond	male	8
-donald	male	8
 delariviere	NA	8
 charles kendal	male	8
 caleb	male	8
@@ -253,6 +252,7 @@ elkanah	male	7
 eliza fowler	female	7
 edward somerset	male	7
 duncan	male	7
+donald	male	7
 bryan	male	7
 brian	male	7
 balthazar	male	7
@@ -676,7 +676,6 @@ jean jacques	female	2
 jános	NA	2
 jan janszoon	male	2
 jan janszn	male	2
-james wilson	male	2
 james maitland	male	2
 james erskine	male	2
 james digges	male	2
@@ -1131,6 +1130,7 @@ jas	male	1
 jared	male	1
 jaques-antoine	NA	1
 james-brown	NA	1
+james wilson	male	1
 james solas	male	1
 james m	male	1
 james jones	male	1

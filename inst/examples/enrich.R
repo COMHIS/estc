@@ -1,6 +1,6 @@
 print("Add some useful fields")
 df$unity <- rep(1, nrow(df))
-df$publication.decade <- floor(df$publication.year/10) * 10 # 1790: 1790-1799
+df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
 
 print("Publication country")
 # TODO we can probably add here some more countries from geonames
@@ -41,7 +41,7 @@ source("author.unique.R")
 source("author.gender.R")
 
 print("Approximate publication year where missing (c. 395 entries)")
-df$publication.year <- approximate_pubyear(df)
+df$publication_year <- approximate_pubyear(df)
 
 print("Add estimated paper consumption")
 # One m2 is 100 * 100 cm2 = 1e4 cm2
