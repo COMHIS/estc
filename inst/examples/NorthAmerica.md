@@ -20,7 +20,11 @@ country <- "USA"
 df <- filter(df, publication.country == country)
 ```
 
-We have 3488 documents from USA.
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
+```
+
+We have 50281 documents from USA.
 
 
 ## Most common authors from USA
@@ -41,6 +45,13 @@ print(p)
 
 ```r
 p <- top_plot(df, "publication.title", 20)
+```
+
+```
+## Error in dfs[1:ntop, ]: incorrect number of dimensions
+```
+
+```r
 p <- p + ggtitle(paste("Most common titles from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
@@ -54,7 +65,58 @@ print(p)
 
 Average annual output for each decade is shown by lines, the actual annual document counts are shown by points. 
 
-![plot of chunk NApubvols](figure/NApubvols-1.png) 
+
+```
+## Error in tapply(df$unity, list(df$publication.decade, df$publication.place), : arguments must have same length
+```
+
+```
+## Error in publications[is.na(publications)] <- 0: object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
+## Error in tapply(df$unity, list(df$publication.year, df$publication.place), : arguments must have same length
+```
+
+```
+## Error in publications.annual[is.na(publications.annual)] <- 0: object 'publications.annual' not found
+```
+
+```
+## Error in is.data.frame(x): object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications.annual' not found
+```
+
+```
+## Error in melt(publications): object 'publications' not found
+```
+
+```
+## Error in melt(publications.annual): object 'publications.annual' not found
+```
+
+```
+## Error in names(dfm.annual) <- c("Time", "Place", "Documents"): object 'dfm.annual' not found
+```
+
+```
+## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dfm.annual' not found
+```
+
+```
+## Error: Continuous value supplied to discrete scale
+```
 
 
 

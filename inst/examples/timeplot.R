@@ -4,9 +4,9 @@ library(gdata)
 pubstat <- read.xls("data/Copy\ of\ simons-ESTC-1477-1800.xlsx")
 
 # Remove duplicated titles
-tmp <- df[, c("publication.year", "publication.title")]
+tmp <- df[, c("publication_year", "title")]
 tmp <- tmp[!duplicated(tmp), ]
-pubyears.history <- table(tmp$publication.year)
+pubyears.history <- table(tmp$publication_year)
 
 years <- 1470:1799
 dff <- data.frame(list(year = years, 
@@ -68,10 +68,10 @@ dev.off()
 dfc <- data.frame(list(year = years))
 dfc$decade <- round(dfc$year, -1) 
 for (ctr in c("England", "Scotland", "USA")) {
-  dfs <- subset(df, publication.country == ctr)
-  tmp <- dfs[, c("publication.year", "publication.title")]
+  dfs <- subset(df, publication_country == ctr)
+  tmp <- dfs[, c("publication_year", "title")]
   tmp <- tmp[!duplicated(tmp), ]
-  dfc[[paste(ctr, "annual", sep = "-")]] <- table(tmp$publication.year)[as.character(years)]
+  dfc[[paste(ctr, "annual", sep = "-")]] <- table(tmp$publication_year)[as.character(years)]
 }
 dfcm <- melt(dfc, id = c("year", "decade"))
 
@@ -88,8 +88,6 @@ p <- ggplot(mydf, aes(x = decade, y = documents.annual, color = variable))
 p <- p + geom_line() + geom_point()
 p <- p + xlab("Year") + ylab("Publications per year")
 p <- p + ggtitle("Publication activity 1470-1800")
-#p <- p + scale_color_manual(values=c("#CC6666", "#9999CC"))
-#p <- p + geom_point(data= dfm, aes(x = year, y = value, color = variable))
 pdf("timeline2.pdf", width = 10, height = 6)
 print(p)
 dev.off()

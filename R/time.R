@@ -13,20 +13,24 @@
 #' @keywords utilities
 approximate_pubyear <- function (df) {
 
-  author.name <- NULL
+  author_name <- NULL
 
   # Approximate publication year where it is missing (c. 395 entries)
-  inds <- which(is.na(df$publication.year))
-  appr <- df$publication.year
+  inds <- which(is.na(df$publication_year))
+  appr <- df$publication_year
   for (i in inds) {
     # Get all docs by this author
     # and take median of the publication years
-    author <- df[i, "author.name"]
-    subset(df, author.name == author)$publication.year
-    approximated.pubyear <- median(na.omit(subset(df, author.name == author)$publication.year))
+    author <- df[i, "author_name"]
+    subset(df, author_name == author)$publication_year
+    approximated.pubyear <- median(na.omit(subset(df, author_name == author)$publication_year))
     appr[[i]] <- approximated.pubyear
   }
+
+  appr <- round(appr)
+
   appr
+
 }
 
 

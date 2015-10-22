@@ -62,6 +62,7 @@ Carlisle	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Carlisle Pa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Carlow	2965768	Carlow	Carlow	52.84083	-6.92611	IE	L	01			20055	Europe/Dublin
 Carmarthen	2653755	Carmarthen	Carmarthen	51.85552	-4.30535	GB	WLS	X7	00NU006		15244	Europe/London
+Cashel	2965664	Cashel	Cashel	52.51583	-7.88556	IE	M	26			2798	Europe/Dublin
 Chambersburg Pa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Charleston S.C	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Charlestown Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -74,6 +75,7 @@ Chester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Chesterfield	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Cincinnati Oh	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Cirencester	2652995	Cirencester	Cirencester	51.71927	-1.97145	GB	ENG	E6	23UC		16214	Europe/London
+Clonmel	2965353	Cluain Meala	Cluain Meala	52.355	-7.70389	IE	M	26			17394	Europe/Dublin
 Colchester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Cologne	5021807	Cologne	Cologne	50.93333	6.95	US	MN	019			1519	America/Chicago
 Columbia S.C	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -125,6 +127,7 @@ Fredericton	5957776	Fredericton	Fredericton	45.94541	-66.66558	CA	04				52337	Am
 Fredicksburg Va	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Fryeburg Me	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Gainsborough	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Galway	2964180	Gaillimh	Gaillimh	53.27194	-9.04889	IE	C	10			70686	Europe/Dublin
 Gateshead	10103929	Gateshead	Gateshead	-32.98208	151.69188	AU	02	14650			3574	Australia/Sydney
 Gaunt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Gdansk	3099434	Gdańsk	Gdansk	54.35205	18.64637	PL	82	2261	226101		461865	Europe/Warsaw
@@ -268,6 +271,7 @@ Rochester	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rodborough	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rome	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Romsey	2639189	Romsey	Romsey	50.98906	-1.49989	GB	ENG	F2	24UN		17773	Europe/London
+Roscrea	2961730	Roscrea	Roscrea	52.95111	-7.80167	IE	M	26			5403	Europe/Dublin
 Roseau Dominica	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rotterdam	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Rouen	2982652	Rouen	Rouen	49.44313	1.09932	FR	A7	76	763	76540	112787	Europe/Paris
@@ -334,6 +338,7 @@ Watertown Ma	4954611	Watertown	Watertown	42.37093	-71.18283	US	MA	017			31915	Am
 Wesel	3076084	Grygov	Grygov	58.34194	26.31472	EE	18	0605			1072	Europe/Tallinn
 West Springfield Ma	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Westminster Vt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Wexford	2960964	Loch Garman	Loch Garman	52.33417	-6.4575	IE	L	30			19913	Europe/Dublin
 Weymouth	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 Whitehaven	2634096	Whitehaven	Whitehaven	54.54897	-3.58412	GB	ENG	C9	16UE		24803	Europe/London
 Wigan	2633948	Wigan	Wigan	53.53333	-2.61667	GB	ENG	P7			80788	Europe/London

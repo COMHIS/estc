@@ -14,8 +14,8 @@ library(estc)
 df <- read.csv(file = "estc.csv", sep = "|")
 
 # Order the levels where necessary
-df$document.dimension.gatherings.original <- order_gatherings(df$document.dimension.gatherings.original)
-df$document.dimension.gatherings.estimated <- order_gatherings(df$document.dimension.gatherings.estimated)
+df$gatherings.original <- order_gatherings(df$gatherings.original)
+df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
 ```
 
@@ -90,13 +90,13 @@ print(p)
 Gender distribution for authors over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
 
 ```{r summarygender, echo=FALSE, message=FALSE, warning=FALSE}
-tab <- table(df$author.gender)
+tab <- table(df$author_gender)
 round(tab/sum(tab), 3)
 ```
 
 ```{r summarygendertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-dfd <- df %>% group_by(publication.decade) %>% summarize(n.male = sum(author.gender == "male", na.rm = T), n.female = sum(author.gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
-dfy <- df %>% group_by(publication.year) %>% summarize(n.male = sum(author.gender == "male", na.rm = T), n.female = sum(author.gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
+dfd <- df %>% group_by(publication.decade) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
+dfy <- df %>% group_by(publication_year) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
 library(sorvi)
 p <- regression_plot(p.female ~ publication.decade, dfd, main = "Female authors proportion")
 p <- p + ylab("Female authors (%)")
@@ -166,13 +166,13 @@ Title count
 ```{r summaryTop10authorstimeline, fig.height=30, fig.width=10, echo=FALSE}
 top10 <- names(sort(table(df$author.unique), decreasing = TRUE))[1:10]
 dfs <- filter(df, author.unique %in% top10)
-dfs <- group_by(dfs, author.unique, publication.year) %>% summarize(ndoc = n())
-p <- ggplot(dfs, aes(x = publication.year, y = ndoc)) 
+dfs <- group_by(dfs, author.unique, publication_year) %>% summarize(ndoc = n())
+p <- ggplot(dfs, aes(x = publication_year, y = ndoc)) 
 p <- p + geom_bar(stat = "identity") 
 p <- p + facet_grid(author.unique ~ .)
 p <- p + ggtitle("Number of documents per year for top-10 titlecount authors")
 print(p)
-#publications.annual <- tapply(df$unity, list(df$publication.year, df$publication.place), sum)
+#publications.annual <- tapply(df$unity, list(df$publication_year, df$publication.place), sum)
 #publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
 #dfm.annual <- melt(publications.annual) 
 #names(dfm.annual) <- c("Time", "Place", "Documents")
@@ -192,9 +192,9 @@ df2 <- df %>%
 # Pick top-10 paper authors
 top10 <- names(sort(df2$paper.consumption.km2, decreasing = TRUE))[1:10]
 dfs <- filter(df, author.unique %in% top10)
-dfs <- group_by(dfs, author.unique, publication.year) %>%
+dfs <- group_by(dfs, author.unique, publication_year) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(dfs, aes(x = publication.year, y = paper.consumption.km2)) 
+p <- ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)) 
 p <- p + geom_bar(stat = "identity") 
 p <- p + facet_grid(author.unique ~ .)
 p <- p + ggtitle("Paper comsumption per year for top-10 paper authors")
@@ -209,8 +209,8 @@ Title count
 ```{r summaryTop10publisherstimeline, fig.height=30, fig.width=10, echo=FALSE}
 top10 <- names(sort(table(df$publication.publisher), decreasing = TRUE))[1:10]
 dfs <- filter(df, publication.publisher %in% top10)
-dfs <- group_by(dfs, publication.publisher, publication.year) %>% summarize(ndoc = n())
-p <- ggplot(dfs, aes(x = publication.year, y = ndoc)) 
+dfs <- group_by(dfs, publication.publisher, publication_year) %>% summarize(ndoc = n())
+p <- ggplot(dfs, aes(x = publication_year, y = ndoc)) 
 p <- p + geom_bar(stat = "identity") 
 p <- p + facet_grid(publication.publisher ~ .)
 p <- p + ggtitle("Number of documents per year for top-10 titlecount publishers")
@@ -229,9 +229,9 @@ df2 <- df %>%
 o <- order(df2$paper.consumption.km2, decreasing = TRUE)[1:10]
 top10 <- df2$publication.publisher[o]
 dfs <- filter(df, publication.publisher %in% top10)
-dfs <- group_by(dfs, publication.publisher, publication.year) %>%
+dfs <- group_by(dfs, publication.publisher, publication_year) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(dfs, aes(x = publication.year, y = paper.consumption.km2)) 
+p <- ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)) 
 p <- p + geom_bar(stat = "identity") 
 p <- p + facet_grid(publication.publisher ~ .)
 p <- p + ggtitle("Paper consumption per year for top-10 paper publishers")
@@ -327,10 +327,10 @@ write.table(cbind(Publisher = names(tab), Documents = tab), file = f, sep = "|",
 
 ### Publication year
 
-Publication year is available for `r sum(!is.na(df$publication.year))` documents (`r round(100*mean(!is.na(df$publication.year)))`%). The publication years span `r paste(range(na.omit(df$publication.year)), collapse = "-")`
+Publication year is available for `r sum(!is.na(df$publication_year))` documents (`r round(100*mean(!is.na(df$publication_year)))`%). The publication years span `r paste(range(na.omit(df$publication_year)), collapse = "-")`
 
 ```{r summarypublicationyear, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
-p <- ggplot(df, aes(x = publication.year)) 
+p <- ggplot(df, aes(x = publication_year)) 
 p <- p + geom_histogram(binwidth = 5)
 p <- p + ggtitle("Publication year")
 print(p)
@@ -382,13 +382,13 @@ write.table(cbind(Language = names(tab), Documents = tab), file = f, sep = "|", 
 
 ## Document size comparisons
 
-Document size (area) info in cm2 is available for `r sum(!is.na(df$document.dimension.cm2))` documents (`r round(100*mean(!is.na(df$document.dimension.cm2)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$document.dimension.gatherings.estimated))` documents (`r round(100*mean(!is.na(df$document.dimension.gatherings.estimated)))`%). 
+Document size (area) info in cm2 is available for `r sum(!is.na(df$cm2))` documents (`r round(100*mean(!is.na(df$cm2)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$gatherings))` documents (`r round(100*mean(!is.na(df$gatherings)))`%). 
 
 ```{r summarysize, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 df <- df.preprocessed
-p <- ggplot(df, aes(x = document.dimension.gatherings.estimated)) 
+p <- ggplot(df, aes(x = gatherings)) 
 p <- p + geom_bar()
-n <- nchar(max(na.omit(table(df$document.dimension.gatherings.estimated))))
+n <- nchar(max(na.omit(table(df$gatherings))))
 p <- p + scale_y_log10(breaks=10^(0:n))
 p <- p + ggtitle("Document size (gatherings)")
 p <- p + xlab("Size (gatherings)")
@@ -400,11 +400,11 @@ print(p)
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
 ```{r summarysizecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
-dfs <- select(df, starts_with("document.dimension")) %>% filter(!is.na(document.dimension.cm2) & !is.na(document.dimension.gatherings.original))
-dfs <- dfs[, c("document.dimension.gatherings.original", "document.dimension.cm2")]
+dfs <- select(df, starts_with("document.dimension")) %>% filter(!is.na(cm2) & !is.na(gatherings.original))
+dfs <- dfs[, c("gatherings.original", "cm2")]
 dfm <- melt(table(dfs))
 names(dfm) <- c("gatherings", "cm2", "documents")
-dfm$gatherings <- factor(dfm$gatherings, levels = levels(df$document.dimension.gatherings.original))
+dfm$gatherings <- factor(dfm$gatherings, levels = levels(df$gatherings.original))
 p <- ggplot(dfm, aes(x = gatherings, y = cm2)) 
 p <- p + scale_y_continuous(trans = "log2")
 p <- p + geom_point(aes(size = documents))
@@ -416,15 +416,15 @@ p <- p + coord_flip()
 print(p)
 ```
 
-Compare gatherings and page counts. Page count information is estimated for `r sum(!is.na(df$document.pages.total.orig)) - sum(!is.na(df$document.pages.total))` documents and updated (changed) for `r sum(!df$document.pages.total.orig == df$document.pages.total, na.rm = T)` documents. 
+Compare gatherings and page counts. Page count information is estimated for `r sum(!is.na(df$pagecount.orig)) - sum(!is.na(df$pagecount))` documents and updated (changed) for `r sum(!df$pagecount.orig == df$pagecount, na.rm = T)` documents. 
 
 ```{r summarypagecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
-dfs <- select(df, document.pages.total, document.dimension.gatherings.estimated) 
-dfs$document.pages.total <- as.numeric(gsub(" pages", "", dfs$document.pages.total))
-dfs <- dfs %>% filter(!is.na(document.pages.total) & !is.na(document.dimension.gatherings.estimated))
-dfg <- group_by(dfs, document.pages.total, document.dimension.gatherings.estimated) %>% tally()
+dfs <- select(df, pagecount, gatherings) 
+dfs$pagecount <- as.numeric(gsub(" pages", "", dfs$pagecount))
+dfs <- dfs %>% filter(!is.na(pagecount) & !is.na(gatherings))
+dfg <- group_by(dfs, pagecount, gatherings) %>% tally()
 names(dfg) <- c("pages", "gatherings", "documents")
-dfg$gatherings <- factor(dfg$gatherings, levels = levels(df$document.dimension.gatherings.original))
+dfg$gatherings <- factor(dfg$gatherings, levels = levels(df$gatherings.original))
 ylims <- range(dfg$pages)
 p <- ggplot(dfg, aes(x = gatherings, y = pages)) 
 #p <- p + scale_y_continuous(trans = "log10")
@@ -440,8 +440,8 @@ p <- p + coord_flip()
 p1 <- p
 
 dfs <- df
-dfs$document.pages.total.orig <- as.numeric(as.character(gsub(" pages", "", dfs$document.pages.total.orig)))
-p <- ggplot(dfs, aes(x = document.pages.total.orig, y = document.pages.total)) 
+dfs$pagecount.orig <- as.numeric(as.character(gsub(" pages", "", dfs$pagecount.orig)))
+p <- ggplot(dfs, aes(x = pagecount.orig, y = pagecount)) 
 p <- p + geom_point()
 p <- p + scale_x_log10()
 p <- p + scale_y_log10()
@@ -459,15 +459,15 @@ Compare original gatherings and original heights where both are available. The p
 ```{r summarysizevalidation, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
 # Compare given dimensions to gatherings
 # (not so much data with width so skip that)
-df2 <- filter(df, !is.na(document.dimension.height.original) | !is.na(document.dimension.width.original))
-df2 <- df2[!is.na(as.character(df2$document.dimension.gatherings.original)),]
-df3 <- filter(df2, !is.na(document.dimension.height.original))
+df2 <- filter(df, !is.na(height.original) | !is.na(width.original))
+df2 <- df2[!is.na(as.character(df2$gatherings.original)),]
+df3 <- filter(df2, !is.na(height.original))
 ss <- sheet_sizes()
-df3$gathering.height.estimate <- ss[match(df3$document.dimension.gatherings.original, ss$gatherings),"height"]
-df4 <- df3 %>% group_by(document.dimension.gatherings.original, document.dimension.height.original) %>% tally()
-p <- ggplot(df4, aes(x = document.dimension.gatherings.original, y = document.dimension.height.original))
+df3$gathering.height.estimate <- ss[match(df3$gatherings.original, ss$gatherings),"height"]
+df4 <- df3 %>% group_by(gatherings.original, height.original) %>% tally()
+p <- ggplot(df4, aes(x = gatherings.original, y = height.original))
 p <- p + geom_point(aes(size = n))
-p <- p + geom_point(data = unique(df3), aes(x = document.dimension.gatherings.original, y = gathering.height.estimate), color = "red")
+p <- p + geom_point(data = unique(df3), aes(x = gatherings.original, y = gathering.height.estimate), color = "red")
 p <- p + xlab("Gatherings (original)") + ylab("Height (original)") 
 p <- p + ggtitle("Height comparison")
 print(p)
@@ -511,11 +511,11 @@ grid.arrange(p1, p2, nrow = 1)
 ## Average document dimensions 
 
 ```{r summaryavedimstime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-df2 <- filter(df, !is.na(document.dimension.gatherings.original) & (!is.na(document.dimension.height.original) | !is.na(document.dimension.width.original))) %>% group_by(document.dimension.gatherings.original, publication.decade) %>% 
-  summarize(mean.height = mean(document.dimension.height.original, na.rm = T),
-    	    mean.width = mean(document.dimension.width.original, na.rm = T), n = n())
+df2 <- filter(df, !is.na(gatherings.original) & (!is.na(height.original) | !is.na(width.original))) %>% group_by(gatherings.original, publication.decade) %>% 
+  summarize(mean.height = mean(height.original, na.rm = T),
+    	    mean.width = mean(width.original, na.rm = T), n = n())
 
-p <- ggplot(df2, aes(x = publication.decade, y = mean.height, group = document.dimension.gatherings.original, color = document.dimension.gatherings.original))
+p <- ggplot(df2, aes(x = publication.decade, y = mean.height, group = gatherings.original, color = gatherings.original))
 p <- p + geom_point(aes(size = n))
 p <- p + geom_line(method = "loess")
 p <- p + ggtitle("Height")
@@ -524,13 +524,13 @@ print(p)
 
 
 ```{r summaryavedims, echo=FALSE, message=FALSE, warning=FALSE}
-df2 <- filter(df, !is.na(document.dimension.gatherings.original) & (!is.na(document.dimension.height.original) | !is.na(document.dimension.width.original))) %>% group_by(document.dimension.gatherings.original) %>% 
-  summarize(mean.height = mean(document.dimension.height.original, na.rm = T),
-	    median.height = mean(document.dimension.height.original, na.rm = T),
-    	    mean.width = mean(document.dimension.width.original, na.rm = T), 
-	    median.width = mean(document.dimension.width.original, na.rm = T), 
+df2 <- filter(df, !is.na(gatherings.original) & (!is.na(height.original) | !is.na(width.original))) %>% group_by(gatherings.original) %>% 
+  summarize(mean.height = mean(height.original, na.rm = T),
+	    median.height = mean(height.original, na.rm = T),
+    	    mean.width = mean(width.original, na.rm = T), 
+	    median.width = mean(width.original, na.rm = T), 
 	    n = n()) %>%
-  filter(n > 10 & !is.na(as.character(document.dimension.gatherings.original)))
+  filter(n > 10 & !is.na(as.character(gatherings.original)))
 mean.dimensions <- as.data.frame(df2)
 kable(mean.dimensions, caption = "Average document dimensions")
 ```
