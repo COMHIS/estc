@@ -291,12 +291,12 @@ Each point represents a decade. Loess smoothing.
 df2 <- df %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
 p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
-p <- p + geom_point(size = 5)
+p <- p + geom_point(size = 4)
 p <- p + geom_smooth(method = "loess", size = 1, color = "black")
 p <- p + ggtitle("Paper consumption in time by gatherings")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
-p <- p + guides(fill = guide_legend(keywidth = 3, keyheight = 1))
+p <- p + guides(fill = guide_legend(keywidth = 5, keyheight = 1))
 print(p)
 ```
 
@@ -330,7 +330,7 @@ p <- ggplot(dfs, aes(x = folio, y = octavo)) +
        scale_color_manual(values = c("darkgray", "black")) +
        xlim(-21,max(dfs$folio) + 8) +
        scale_size(range = c(4,7))
-#p <- p + scale_x_continuous(breaks = c(0, 20, 40), labels = c(0, 20, 40))       
+p <- p + scale_x_continuous(breaks = c(0, 20, 40), labels = c(0, 20, 40))       
 print(p)
 ```
 
