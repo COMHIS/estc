@@ -168,7 +168,7 @@ print(p)
 
 
 ```{r 20150611paris-places4, message=FALSE, fig.height=4, fig.width=8, echo=FALSE}
-theme_set(theme_bw(15))
+theme_set(theme_bw(20))
 df2 <- df %>%
     filter(!is.na(publication_country)) %>%
     group_by(publication_country) %>%
@@ -185,7 +185,9 @@ grid.arrange(p1, p2, nrow = 1)
 
 
 
-```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=12, fig.height=7}
+Overall publication activity in the complete ESTC (balls) and History documents (triangles):
+
+```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=5}
 # Compare to overall publication stats
 # 1470 - 1790
 library(gdata)
@@ -212,13 +214,13 @@ p <- p + geom_point(size = 4) + geom_smooth(size = 1, color = "black")
 p <- p + xlab("Year") + ylab("Publications per decade")
 p <- p + ggtitle("Publication activity 1470-1800")
 p <- p + scale_color_manual(values=c("#CC6666", "#9999CC"))
-p <- p + guides(color = "none")
+p <- p + guides(color = "none", shape = "none")
 p2 <- p
 print(p2)
 ```
 
 
-```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=8}
+```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 library(sorvi)
 dfs <- df %>% filter(publication_year >= 1470) %>% 
          group_by(publication_year) %>%
@@ -232,7 +234,7 @@ p1 <- p1 + guides(fill = "none", alpha = "none")
 print(p1)
 ```
 
-```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=8}
+```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 p2 <- regression_plot(paper ~ publication_year, data = dfs) +
        xlab("Publication Year") +
        ylab("Paper Consumption (km2)") 
@@ -252,7 +254,6 @@ dfs <- df %>% filter(publication_year >= 1470) %>%
 
 p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
        geom_line() + geom_point() +
-       #geom_bar(stat = "identity") +
        xlab("Publication Year") + ylab("Paper per document")
 
 print(p)
@@ -283,10 +284,9 @@ Each point represents a decade. Loess smoothing.
 ```{r 20151023LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=7}
 df2 <- df %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
-p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, group = gatherings, color = gatherings))
-#p <- p + ylim(c(0, 1))
-p <- p + geom_point(aes(shape = gatherings), size = 3)
-p <- p + geom_smooth(aes(linetype = gatherings), method = "loess", size = 1)
+p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+p <- p + geom_point(size = 3)
+p <- p + geom_smooth(method = "loess", size = 1, color = "black")
 p <- p + ggtitle("Paper consumption in time by gatherings")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
@@ -294,11 +294,9 @@ print(p)
 ```
 
 
-
-```{r 20151023LIBER-3b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=7, fig.width=7}
+```{r 20151023LIBER-3b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=7}
 library(tidyr)
 dfs <- df
-
 top <- names(rev(sort(table(df$author_unique))))[1:20]
 top <- c(top, "hume, david (1560-1630)")
 top <- setdiff(top, "caesar, julius (NA-NA)")
@@ -323,8 +321,9 @@ p <- ggplot(dfs, aes(x = folio, y = octavo)) +
        xlab("Folio") + ylab("Octavo") +
        guides(color = "none", size = "none") + 
        scale_color_manual(values = c("darkgray", "black")) +
-       xlim(-20,max(dfs$folio) + 8) +
-       scale_size(range = c(4,7))       
+       xlim(-21,max(dfs$folio) + 8) +
+       scale_size(range = c(4,7))
+#p <- p + scale_x_continuous(breaks = c(0, 20, 40), labels = c(0, 20, 40))       
 print(p)
 ```
 
@@ -332,7 +331,7 @@ print(p)
 
 
 
-```{r 20151023LIBER-Edinburgh, echo=FALSE, fig.width=12, fig.height=5}
+```{r 20151023LIBER-Edinburgh, echo=FALSE, warning=FALSE, fig.width=11, fig.height=4.5}
 # Scotland publishing summaries
 library(ggplot2)
 library(tidyr)
