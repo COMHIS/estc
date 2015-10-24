@@ -76,10 +76,6 @@ print(p)
 
 ## 
 
-![datanewbacon](databacon.png)
-
-## 
-
 ![ecosystem](pics2/omat/CompSocSci/ecosystem.png)
 
 
