@@ -296,7 +296,7 @@ p <- p + geom_smooth(method = "loess", size = 1, color = "black")
 p <- p + ggtitle("Paper consumption in time by gatherings")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
-p <- p + guides(linetype = guide_legend(keywidth = 3, keyheight = 1))
+p <- p + guides(linetype = guide_legend(keywidth = 3), shape = guide_legend(keywidth = 3))
 print(p)
 ```
 
