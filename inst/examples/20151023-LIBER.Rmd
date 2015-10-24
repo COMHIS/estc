@@ -1,4 +1,21 @@
-# LIBER publication materials 10/2015
+---
+title: "LIBER"
+author: "Leo Lahti"
+date: "23/10/2015"
+output: markdown_document
+---
+
+```{r summaryinit, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+library(stringr)
+library(bibliographica)
+library(estc)
+df <- read.csv(file = "estc.csv", sep = "|")
+
+# Order the levels where necessary
+df$gatherings.original <- order_gatherings(df$gatherings.original)
+df$gatherings <- order_gatherings(df$gatherings)
+df.preprocessed <- df
+```
 
 ```{r, echo=FALSE, message=FALSE}
 library(rmarkdown)
