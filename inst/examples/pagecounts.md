@@ -218,7 +218,7 @@ print(p)
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.year'
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
 ```
 
 ```

@@ -20,6 +20,9 @@ print("Volume count")
 # was document.volcount
 df$volcount <- unname(polish_volumecount(df.orig$physical_extent))
 
+print("Author info")
+source("author.names.R")
+
 print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
@@ -27,9 +30,6 @@ x <- harmonize_pages_specialcases(df.orig$physical_extent)
 x <- polish_pages(x, verbose = TRUE)$total.pages
 # was document.pages.total
 df$pagecount <- x
-
-print("Author info")
-source("author.names.R")
 
 print("Publication place")
 # was: publication.place

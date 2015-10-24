@@ -32,12 +32,21 @@ We have 50280 documents from USA.
 
 ```r
 p <- top_plot(df, "author.unique", 20)
+```
+
+```
+## Error in dfs[1:ntop, ]: incorrect number of dimensions
+```
+
+```r
 p <- p + ggtitle(paste("Most common authors from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
 
-![plot of chunk NAtopauth](figure/NAtopauth-1.png) 
+```
+## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+```
 
 
 ## Top titles 
@@ -57,7 +66,9 @@ p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
 
-![plot of chunk NAtoptitles](figure/NAtoptitles-1.png) 
+```
+## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+```
 
 
 

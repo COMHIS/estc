@@ -1,7 +1,7 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2015-10-23"
+date: "2015-10-24"
 output: markdown_document
 ---
 

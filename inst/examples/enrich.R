@@ -53,7 +53,3 @@ printrun <- 1000
 df <- mutate(df, paper.consumption.km2 = width * height * pagecount/2 * (1/1e10) * printrun)
 
 
-
-
-
-

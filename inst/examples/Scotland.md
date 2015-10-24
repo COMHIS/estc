@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2015-10-23"
+date: "2015-10-24"
 output: markdown_document
 ---
 
@@ -20,12 +20,30 @@ We have 2841 documents from Scotland.
 
 ## Most common authors from Scotland
 
-![plot of chunk ScotlandTopAuth](figure/ScotlandTopAuth-1.png) 
+
+```
+## Error in dfs[1:ntop, ]: incorrect number of dimensions
+```
+
+```
+## Error: Continuous value supplied to discrete scale
+```
 
 
 ## Publication timeline for top-10 authors
 
-![plot of chunk ScotlandTop10authors](figure/ScotlandTop10authors-1.png) 
+
+```
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
+```
+
+```
+## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
+```
 
 
 ## Most common publication places in Scotland
@@ -55,30 +73,10 @@ We have 2841 documents from Scotland.
 ```
 
 ```
-## 
-##       henderson, alexander (1583-1646) 
-##                                      3 
-##            arbuthnot, john (1667-1735) 
-##                                      5 
-##            burnet, gilbert (1643-1715) 
-##                                      5 
-## cromarty, george mackenzie (1630-1714) 
-##                                      5 
-##    belhaven, john hamilton (1656-1708) 
-##                                      6 
-##                 caesar, julius (NA-NA) 
-##                                      6 
-##              defoe, daniel (1661-1731) 
-##                                      6 
-##      castellion, sébastien (1515-1563) 
-##                                      8 
-##           buchanan, george (1506-1582) 
-##                                     10 
-##             kirkton, james (1628-1699) 
-##                                     10
+## integer(0)
 ```
 
-We have 64 documents from 10 unique
+We have 660 documents from 0 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -171,7 +169,42 @@ We have 1334 documents from Scotland and 10878 documents from London during 1700
 
 ## Comparing selected authors
 
-![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png) ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png) ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png) ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png) 
+
+```
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'dfa' not found
+```
+
+```
+## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfa' not found
+```
+
+```
+## Error in limits(c(...), "x"): object 'lims' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_year' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'dfa' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'dfa' not found
+```
+
+```
+## Error in limits(c(...), "x"): object 'lims' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_year' not found
+```
 
 ## Authors from different periods publishing in 1750-1799
 

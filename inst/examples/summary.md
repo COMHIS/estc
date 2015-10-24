@@ -37,7 +37,12 @@ Top-50 topics and number of documents for each. In total, there are 0 unique top
 
 ## Authors
 
-Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6396 unique authors and 18233 documents with unambiguous author information (NaN%).
+Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 0 unique authors and 0 documents with unambiguous author information (NaN%).
+
+
+```
+## Error in dfs[1:ntop, ]: incorrect number of dimensions
+```
 
 ![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
 
@@ -72,7 +77,7 @@ Should also add living year information from supporting sources later.
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'author.name' not found
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
 ```
 
 ```
@@ -6542,14 +6547,41 @@ Ordered by productivity (number of documents))
 
 Title count
 
-![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png) 
+
+```
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
+```
+
+```
+## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
+```
 
 
 Paper consumption
 
 
 ```
-## Error in `[.data.frame`(base, names(rows)): undefined columns selected
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
+```
+
+```
+## Error in sort(df2$paper.consumption.km2, decreasing = TRUE): object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
+```
+
+```
+## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
 ```
 
 
@@ -6576,6 +6608,14 @@ Paper consumption
 
 ```
 ## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
+```
+
+```
+## Error in order(df2$paper.consumption.km2, decreasing = TRUE): object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'df2' not found
 ```
 
 ```
@@ -6746,7 +6786,7 @@ Compare gatherings and cm2 sizes as a quality check. This includes all data; the
 ## Error in eval(expr, envir, enclos): object 'documents' not found
 ```
 
-Compare gatherings and page counts. Page count information is estimated for 0 documents and updated (changed) for 0 documents. 
+Compare gatherings and page counts. Page count information is estimated for -1555 documents and updated (changed) for 1093 documents. 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
 
@@ -6849,21 +6889,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart2aba5dd34e4a&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart12c06e21ca22&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart2aba5dd34e4a()
+      drawchart12c06e21ca22()
     });
-    function drawchart2aba5dd34e4a(){  
+    function drawchart12c06e21ca22(){  
       var opts = {
- &quot;dom&quot;: &quot;chart2aba5dd34e4a&quot;,
+ &quot;dom&quot;: &quot;chart12c06e21ca22&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart2aba5dd34e4a&quot; 
+&quot;id&quot;: &quot;chart12c06e21ca22&quot; 
 },
         data = [
  {
@@ -7014,7 +7054,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart2aba5dd34e4a'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart12c06e21ca22'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

@@ -91,13 +91,15 @@ p2
 ```{r 20151023LIBER-3b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=7, fig.width=7}
 library(tidyr)
 dfs <- df
-# 2long/2fo/2small -> folio; 8vo -> octavo
-dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
-	       	  		from = "Standard", to = "Name")$name
 
 top <- names(rev(sort(table(df$author.unique))))[1:20]
 top <- c(top, "hume, david (1560-1630)")
-top <- setdiff(top, "caesar, julius (-100- -44)")
+top <- setdiff(top, "caesar, julius (NA-NA)")
+topa <- top
+
+# 2long/2fo/2small -> folio; 8vo -> octavo
+dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
+	       	  		from = "Standard", to = "Name")$name
 
 dfs <- dfs %>% filter(author.unique %in% top &
 	        gatherings %in% c("folio", "octavo")) %>%
@@ -126,8 +128,10 @@ theme_set(theme_bw(20))
 dfs <- df
 #dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 #	       	  		  from = "Standard", to = "Name")$name
-#dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo") &
-dfs <- dfs %>% filter(as.character(author.unique) %in% top) %>%
+#dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo"))
+dfs <- dfs %>% filter(author.unique %in% topa) %>%
+       	   filter(!is.na(author_birth) & !is.na(author_death))
+dfs <- dfs %>%
        	        group_by(author.unique) %>%
 	        summarize(titles = n(),
 	        paper = sum(paper.consumption.km2, na.rm = T))
@@ -138,7 +142,7 @@ p <- p + geom_text(aes(label = author.unique))
 p <- p + scale_color_manual(values = c("darkgray", "black")) 
 p <- p + guides(color = "none") 
 p <- p + xlim(c(-50, 180)) 
-p <- p + xlab("Title Count") 
+p <- p + xlab("Title count") 
 p <- p + ylab("Paper consumption (km2)")
        
 print(p)	 
@@ -154,7 +158,7 @@ dfs <- dfs[-c(grep("jean", dfs$author.unique), grep("pierre", dfs$author.unique)
 p <- top_plot(dfs, "author.unique", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
-p <- p + ylab("Title Count")
+p <- p + ylab("Title count")
 print(p)	 
 ```
 
@@ -165,7 +169,7 @@ theme_set(theme_bw(20))
 p <- top_plot(df, "publication_place", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
-p <- p + ylab("Title Count")
+p <- p + ylab("Title count (Log scale)")
 p <- p + scale_y_log10()
 print(p)	 
 ```
@@ -200,6 +204,7 @@ p1 <- regression_plot(titles ~ publication_year, data = dfs)
 p1 <- p1 + xlab("Publication Year") + ylab("Title Count") 
 p1 <- p1 + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15))
 p1 <- p1 + theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+p1 <- p1 + guides(fill = "none", alpha = "none")
 print(p1)
 ```
 
@@ -209,7 +214,7 @@ p2 <- regression_plot(paper ~ publication_year, data = dfs) +
        ylab("Paper Consumption (km2)") 
 p2 <- p2 + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15))
 p2 <- p2 + theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
-
+p2 <- p2 + guides(fill = "none", alpha = "none")
 print(p2)
 ```
 
@@ -225,7 +230,7 @@ p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
        geom_line() + geom_point() +
        #geom_bar(stat = "identity") +
        xlab("Publication Year") + ylab("Paper per document")
-       
+
 print(p)
 ```
 
