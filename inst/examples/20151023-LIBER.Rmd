@@ -231,18 +231,19 @@ dfs <- df %>% filter(publication_year >= 1470) %>%
 	 
 p1 <- regression_plot(titles ~ publication_year, data = dfs)
 p1 <- p1 + xlab("Publication Year") + ylab("Title Count") 
-p1 <- p1 + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15))
-p1 <- p1 + theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+p1 <- p1 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
+p1 <- p1 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
 p1 <- p1 + guides(fill = "none", alpha = "none")
 print(p1)
 ```
+
 
 ```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 p2 <- regression_plot(paper ~ publication_year, data = dfs) +
        xlab("Publication Year") +
        ylab("Paper Consumption (km2)") 
-p2 <- p2 + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15))
-p2 <- p2 + theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+p2 <- p2 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
+p2 <- p2 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
 p2 <- p2 + guides(fill = "none", alpha = "none")
 print(p2)
 ```

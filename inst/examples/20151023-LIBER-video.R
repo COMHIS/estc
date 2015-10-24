@@ -4,7 +4,9 @@ df2 <- df %>%
 	 group_by(publication_year, publication_place, latitude, longitude) %>%
 	 arrange(publication_year) %>%
 	 tally() %>%
-         filter(!is.na(latitude) & !is.na(longitude) & n > 0 & !is.na(publication_year))
+         filter(!is.na(latitude) & !is.na(longitude) & n > 0 & !is.na(publication_year) & publication_year >= 1470)
+
+
 
 # Remove London for clarity (10x bigger than other publication places)
 mapdata <- df2
