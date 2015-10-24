@@ -100,7 +100,6 @@ topa <- top
 # 2long/2fo/2small -> folio; 8vo -> octavo
 dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 	       	  		from = "Standard", to = "Name")$name
-
 dfs <- dfs %>% filter(author_unique %in% top &
 	        gatherings %in% c("folio", "octavo")) %>%
 	 group_by(author_unique, gatherings) %>%
@@ -139,7 +138,7 @@ dfs$highlight <- rep("darkgray", nrow(dfs))
 dfs$highlight[dfs$author_unique %in% selected.authors] <- "black"
 p <- ggplot(dfs, aes(x = titles, y = paper, color = highlight)) 
 p <- p + geom_text(aes(label = author_unique)) 
-p <- p + scale_color_manual(values = c("darkgray", "black")) 
+p <- p + scale_color_manual(values = rev(c("darkgray", "black")))
 p <- p + guides(color = "none") 
 p <- p + xlim(c(-50, 180)) 
 p <- p + xlab("Title count") 
@@ -317,7 +316,6 @@ p <- p + scale_color_manual(values=c("#CC6666", "#9999CC"))
 p <- p + guides(shape = "none", color = "none")
 p2 <- p
 print(p2)
-print(p)
 ```
 
 
