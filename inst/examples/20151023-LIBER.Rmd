@@ -190,7 +190,7 @@ grid.arrange(p1, p2, nrow = 1)
 
 Overall publication activity in the complete ESTC (balls) and History documents (triangles):
 
-```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
+```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4}
 # Compare to overall publication stats
 # 1470 - 1790
 library(gdata)
@@ -215,7 +215,7 @@ theme_set(theme_bw(20))
 p <- ggplot(dfi, aes(x = decade, y = x, shape = variable))
 p <- p + geom_point(size = 4) + geom_smooth(size = 1, color = "black")
 p <- p + xlab("Year") + ylab("Publications per decade")
-p <- p + ggtitle("Publication activity 1470-1800")
+#p <- p + ggtitle("History versus all publishing 1470-1800")
 p <- p + scale_color_manual(values=c("#CC6666", "#9999CC"))
 p <- p + guides(color = "none", shape = "none")
 p2 <- p
