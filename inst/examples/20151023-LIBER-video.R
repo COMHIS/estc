@@ -43,8 +43,9 @@ print("Select region")
 #mymap <- get_map(location=geobox(region), color = "color", source="google", maptype="terrain")
 #mymap <- get_map(location=geobox(region), color = "color", source="osm", maptype="hybrid")
 #mymap <- get_map(location=geobox(region), color = "color", source="osm")
+mymap <- get_map(location=geobox(region), color = "bw", source="osm", maptype="hybrid")
+#mymap <- get_map(location=geobox(region), color = "bw", source="osm")
 #mymap <- get_map(location=geobox(region), source="stamen",  maptype="toner-lite")
-mymap <- get_map(location=geobox(region), source="osm",  maptype="toner-lite")
 #mymap <- get_map(location=geobox(region), source="google",  maptype="satellite")
 # Map options:
 # source: "google", "osm", "stamen", "cloudmade"

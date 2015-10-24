@@ -190,7 +190,7 @@ grid.arrange(p1, p2, nrow = 1)
 
 Overall publication activity in the complete ESTC (balls) and History documents (triangles):
 
-```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4}
+```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
 # Compare to overall publication stats
 # 1470 - 1790
 library(gdata)
@@ -223,7 +223,7 @@ print(p2)
 ```
 
 
-```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 library(sorvi)
 dfs <- df %>% filter(publication_year >= 1470) %>% 
          group_by(publication_year) %>%
@@ -237,7 +237,7 @@ p1 <- p1 + guides(fill = "none", alpha = "none")
 print(p1)
 ```
 
-```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 p2 <- regression_plot(paper ~ publication_year, data = dfs) +
        xlab("Publication Year") +
        ylab("Paper Consumption (km2)") 
@@ -248,7 +248,7 @@ print(p2)
 ```
 
 
-```{r 20151023LIBER-11, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+```{r 20151023LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 theme_set(theme_bw(20))
 library(sorvi)
 dfs <- df %>% filter(publication_year >= 1470) %>% 
@@ -264,7 +264,9 @@ print(p)
 
 ## How does publishing change ?
 
-```{r 20151023LIBER-12, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=9}
+Comparison of books (balls) and pamphlets (triangles)
+
+```{r 20151023LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=9}
 df2 <- df
 df2$document.type <- rep(NA, nrow(df2))
 df2$document.type[df2$pagecount > 32] <- "book"
@@ -279,6 +281,7 @@ p <- p + ggtitle("Paper consumption per document type")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
 p <- p + scale_color_manual(values=c("black", "darkgray"))
+p <- p + guides(shape = "none")
 print(p)
 ```
 
@@ -288,11 +291,12 @@ Each point represents a decade. Loess smoothing.
 df2 <- df %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
 p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
-p <- p + geom_point(size = 3)
+p <- p + geom_point(size = 5)
 p <- p + geom_smooth(method = "loess", size = 1, color = "black")
 p <- p + ggtitle("Paper consumption in time by gatherings")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
+p <- p + guides(fill = guide_legend(keywidth = 3, keyheight = 1))
 print(p)
 ```
 
@@ -329,9 +333,6 @@ p <- ggplot(dfs, aes(x = folio, y = octavo)) +
 #p <- p + scale_x_continuous(breaks = c(0, 20, 40), labels = c(0, 20, 40))       
 print(p)
 ```
-
-
-
 
 
 ```{r 20151023LIBER-Edinburgh, echo=FALSE, warning=FALSE, fig.width=11, fig.height=4.5}
