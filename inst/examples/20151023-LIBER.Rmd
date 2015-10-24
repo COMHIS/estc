@@ -17,7 +17,7 @@ df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
 ```
 
-```{r, echo=FALSE, message=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(rmarkdown)
 library(knitr)
 library(ggplot2)
@@ -32,7 +32,7 @@ df <- df[-which(df$publication_year < 1470),]
 ```
 
 
-```{r 20151023LIBER-1, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=6}
+```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=6}
 library(ggplot2)
 library(dplyr)
 theme_set(theme_bw(50))
@@ -48,7 +48,7 @@ p <- p + scale_fill_manual(values = c("darkgray", "black"))
 print(p)
 ```
 
-```{r 20151023LIBER-2, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=7}
+```{r 20151023LIBER-2, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=7}
 theme_set(theme_bw(20))
 dfa <- dfs[, c("author_name", "author_unique", "author_birth", "author_death")]
 dfa <- dfa[!duplicated(dfa), ]
@@ -88,7 +88,7 @@ p2
 ```
 
 
-```{r 20151023LIBER-4, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=6}
+```{r 20151023LIBER-4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=6}
 theme_set(theme_bw(20))
 dfs <- df
 #dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
@@ -114,7 +114,7 @@ print(p)
 ```
 
 
-```{r 20151023LIBER-5, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=5}
+```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=5}
 theme_set(theme_bw(20))
 dfs <- df %>% filter(author_gender == "female")
 dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique)),]
@@ -141,7 +141,8 @@ dfs <- df
 p <- top_plot(dfs, "publication_place", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
-p <- p + ylab("Title count")
+p <- p + ylab("Title count (Log10 scale)")
+p <- p + scale_y_log10()
 print(p)	 
 ```
 
@@ -166,7 +167,7 @@ print(p)
 
 
 
-```{r 20150611paris-places4, message=FALSE, fig.height=5, fig.width=10}
+```{r 20150611paris-places4, message=FALSE, fig.height=4, fig.width=8, echo=FALSE}
 theme_set(theme_bw(15))
 df2 <- df %>%
     filter(!is.na(publication_country)) %>%

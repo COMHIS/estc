@@ -24,7 +24,7 @@ dfo <- df.preprocessed
 # Pick Scotland documents only
 selected.place <- "Edinburgh"
 country <- "Scotland"
-df <- filter(dfo, publication.country == country)
+df <- filter(dfo, publication_country == country)
 ```
 
 
@@ -51,9 +51,9 @@ print(p)
 # ------------------------------------------------------------
 
 # Use 5 year intervals
-df <- filter(dfo, publication.country == country)
+df <- filter(dfo, publication_country == country)
 timeinterval <- 5
-df$publication.timeunit <- round(df$publication.year/timeinterval)*timeinterval 
+df$publication.timeunit <- round(df$publication_year/timeinterval)*timeinterval 
 publications <- tapply(df$unity, list(df$publication.timeunit, df$publication.place), sum)
 publications[is.na(publications)] <- 0 # Set NAs to 0
 publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
@@ -98,11 +98,11 @@ print(p)
 
 # -----------------------------------------------------------------------
 
-highlight.years <- c(1642:1651, 1660, 1688:1689, 1706:1707, 1776)
-df$highlight <- df$publication.year %in% highlight.years
+highlight_years <- c(1642:1651, 1660, 1688:1689, 1706:1707, 1776)
+df$highlight <- df$publication_year %in% highlight_years
 hits <- c()
 for (i in 1:nrow(dfs)) {
-  hits[[i]] <- any((dfs$date[[i]] - round(timeinterval/2)):(dfs$date[[i]] + round(timeinterval/2)) %in% highlight.years)
+  hits[[i]] <- any((dfs$date[[i]] - round(timeinterval/2)):(dfs$date[[i]] + round(timeinterval/2)) %in% highlight_years)
 }
 dfs$highlight <- hits
 

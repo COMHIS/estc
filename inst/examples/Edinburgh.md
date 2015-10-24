@@ -7,9 +7,6 @@ output: markdown_document
 
 
 
-```
-## Error in eval(expr, envir, enclos): object 'publication.country' not found
-```
 
 
 
@@ -36,15 +33,7 @@ output: markdown_document
 ![plot of chunk EdinburghPubs](figure/EdinburghPubs-1.png) 
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.country' not found
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "publication.timeunit", value = numeric(0)): replacement has 0 rows, data has 660
-```
-
-```
-## Error in split.default(X, group): first argument must be a vector
+## Error in tapply(df$unity, list(df$publication.timeunit, df$publication.place), : arguments must have same length
 ```
 
 ```
@@ -74,10 +63,6 @@ output: markdown_document
 
 ```
 ## Error: Discrete value supplied to continuous scale
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "highlight", value = logical(0)): replacement has 0 rows, data has 660
 ```
 
 ![plot of chunk EdinburghPubs](figure/EdinburghPubs-2.png) 
