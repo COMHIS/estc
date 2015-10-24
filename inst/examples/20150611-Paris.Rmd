@@ -357,6 +357,10 @@ df2 <- df %>%
 	      docs = n()) %>%
     arrange(desc(docs)) %>%
     filter(publication_country %in% c("Scotland", "Ireland", "USA"))
+
+p1 <- ggplot(df2, aes(x = publication_country, y = docs)) + geom_bar(stat = "identity") + ggtitle("Title count")
+p2 <- ggplot(df2, aes(x = publication_country, y = paper)) + geom_bar(stat = "identity") + ggtitle("Paper consumption")
+grid.arrange(p1, p2, nrow = 1)
 ```        
 
 ## **Where** was history published ?
