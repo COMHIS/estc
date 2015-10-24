@@ -236,7 +236,7 @@ df2 <- df
 df2$document.type <- rep(NA, nrow(df2))
 df2$document.type[df2$pagecount > 32] <- "book"
 df2$document.type[df2$pagecount <= 32] <- "pamphlet"
-df2 <- df2 %>% filter(df2, !is.na(document.type))
+df2 <- df2[which(!is.na(document.type)),]
 df2$document.type <- factor(df2$document.type)
 df2 <- df2 %>% group_by(publication_year, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2, group = document.type, color = document.type))
