@@ -296,7 +296,7 @@ p <- p + geom_smooth(method = "loess", size = 1, color = "black")
 p <- p + ggtitle("Paper consumption in time by gatherings")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
-p <- p + guides(linetype = guide_legend(keywidth = 3), shape = guide_legend(keywidth = 3))
+p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
 print(p)
 ```
 
@@ -330,7 +330,7 @@ p <- ggplot(dfs, aes(x = folio, y = octavo)) +
        scale_color_manual(values = c("darkgray", "black")) +
        xlim(-21,max(dfs$folio) + 8) +
        scale_size(range = c(4,7))
-p <- p + scale_x_continuous(breaks = c(-20, 0, 20, 40), labels = c("", "0", "20", "40"))       
+p <- p + scale_x_continuous(breaks = c(-20, 0, 20, 40), labels = c("", "0", "20", "40"), limits = c(-20, 40))       
 print(p)
 ```
 
