@@ -7,7 +7,7 @@ geobox <- function (region) {
     bbox <- c(-15, 35, 30.5, 70) # Europe
   } else if (length(region) == 1 && region == "UK") {
     #bbox <- c(-10.5, 49.5, 2.5, 59) # UK
-    bbox <- c(-10.7, 49.7, 2.3, 59.2) # UK      
+    bbox <- c(-10.7, 49.7, 2.3, 59) # UK      
   } else if (length(region) == 1 && region == "West") {
     bbox <- c(-120, 25, 30.5, 70) # West  
   } else if (length(region) == 1 && region == "World") {

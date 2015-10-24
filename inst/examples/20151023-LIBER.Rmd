@@ -225,11 +225,12 @@ print(p2)
 
 ```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 library(sorvi)
-dfs <- df %>% filter(publication_year >= 1470) %>% 
+dfs <- df.preprocessed %>% filter(publication_year >= 1470) %>% 
          group_by(publication_year) %>%
          summarize(titles = n(), paper = sum(paper.consumption.km2, na.rm = T))
-	 
-p1 <- regression_plot(titles ~ publication_year, data = dfs)
+#p1 <- regression_plot(titles ~ publication_year, data = dfs)
+p1 <- ggplot(dfs, aes(y = titles, x = publication_year))
+p1 <- p1 + geom_smooth(color = "black") + geom_point()
 p1 <- p1 + xlab("Publication Year") + ylab("Title Count") 
 p1 <- p1 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p1 <- p1 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
@@ -239,9 +240,12 @@ print(p1)
 
 
 ```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
-p2 <- regression_plot(paper ~ publication_year, data = dfs) +
+#p2 <- regression_plot(paper ~ publication_year, data = dfs) +
+p2 <- ggplot(dfs, aes(y = paper, x = publication_year))
+p2 <- p2 + geom_smooth(color = "black") + geom_point() +
        xlab("Publication Year") +
-       ylab("Paper Consumption (km2)") 
+       ylab("Paper Consumption (km2)")
+       
 p2 <- p2 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2 <- p2 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
 p2 <- p2 + guides(fill = "none", alpha = "none")
