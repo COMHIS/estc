@@ -37,11 +37,11 @@ library(ggplot2)
 library(dplyr)
 theme_set(theme_bw(50))
 selected.authors <- c("prynne, william (1600-1669)", "defoe, daniel (1661-1731)", "hume, david (1711-1776)", "hume, david (1560-1630)")
-top <- names(rev(sort(table(df$author_unique))))[1:20]
+top <- names(rev(sort(table(df$author.unique))))[1:20]
 top <- c(top, "hume, david (1560-1630)")
 top <- setdiff(top, "caesar, julius (-100- -44)")
-dfs <- filter(df, author_unique %in% top)
-p <- top_plot(dfs, "author_unique", ntop = 30, highlight = selected.authors)
+dfs <- filter(df, author.unique %in% top)
+p <- top_plot(dfs, "author.unique", ntop = 30, highlight = selected.authors)
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
 p <- p + scale_fill_manual(values = c("darkgray", "black"))
@@ -50,7 +50,7 @@ print(p)
 
 ```{r 20151023LIBER-2, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=7}
 theme_set(theme_bw(20))
-dfa <- dfs[, c("author_name", "author_unique", "author_birth", "author_death")]
+dfa <- dfs[, c("author_name", "author.unique", "author_birth", "author_death")]
 dfa <- dfa[!duplicated(dfa), ]
 #dfa <- dfa[match(names(a), dfa$author_name),]
 dfa <- arrange(dfa, author_birth)
@@ -58,7 +58,7 @@ dfa <- arrange(dfa, author_birth)
 dfa$author_name <- factor(dfa$author_name, levels = unique(dfa$author_name))
 dfa$index <- sample(factor(1:nrow(dfa)))
 dfa$fill <- rep("black", nrow(dfa))
-dfa$fill[dfa$author_unique %in% selected.authors] <- "red"
+dfa$fill[dfa$author.unique %in% selected.authors] <- "red"
 
 p <- ggplot(dfa)
 p <- p + geom_segment(aes(y = author_name, yend = author_name, x = author_birth, xend = author_death, color = fill), size = 2) 
@@ -73,14 +73,14 @@ print(p)
 ```{r 20151023LIBER-3, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=10}
 theme_set(theme_bw(20))
 dfs <- df %>%
-         filter(author_unique %in% selected.authors) %>%
-	 group_by(author_unique, publication_year) %>%
+         filter(author.unique %in% selected.authors) %>%
+	 group_by(author.unique, publication_year) %>%
 	 tally() %>%
 	 arrange(publication_year)
 theme_set(theme_bw(20))
 
 # Barplot version
-p2 <- ggplot(dfs, aes(x = publication_year, y = n, fill = author_unique)) +
+p2 <- ggplot(dfs, aes(x = publication_year, y = n, fill = author.unique)) +
        geom_bar(stat = "identity", position = "stack") +
        xlab("Publication Year") +
        ylab("Title Count")       
@@ -95,23 +95,23 @@ dfs <- df
 dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 	       	  		from = "Standard", to = "Name")$name
 
-top <- names(rev(sort(table(df$author_unique))))[1:20]
+top <- names(rev(sort(table(df$author.unique))))[1:20]
 top <- c(top, "hume, david (1560-1630)")
 top <- setdiff(top, "caesar, julius (-100- -44)")
 
-dfs <- dfs %>% filter(author_unique %in% top &
+dfs <- dfs %>% filter(author.unique %in% top &
 	        gatherings %in% c("folio", "octavo")) %>%
-	 group_by(author_unique, gatherings) %>%
+	 group_by(author.unique, gatherings) %>%
 	 tally() %>%
 	 spread(gatherings, n)
-dfs$highlight <- dfs$author_unique %in% c(selected.authors, "burke, edmund (1729-1797)")
+dfs$highlight <- dfs$author.unique %in% c(selected.authors, "burke, edmund (1729-1797)")
 dfs[is.na(dfs)] <- 0
-dfs[dfs$author_unique == "hume, david (1560-1630)","highlight"] <- FALSE
+dfs[dfs$author.unique == "hume, david (1560-1630)","highlight"] <- FALSE
 dfs$size <- 2 + 1*as.numeric(dfs$highlight)
 
 theme_set(theme_bw(20))
 p <- ggplot(dfs, aes(x = folio, y = octavo)) +
-       geom_text(aes(label = author_unique, color = highlight, size = size)) +       
+       geom_text(aes(label = author.unique, color = highlight, size = size)) +       
        xlab("Folio") + ylab("Octavo") +
        guides(color = "none", size = "none") + 
        scale_color_manual(values = c("darkgray", "black")) +
@@ -127,14 +127,14 @@ dfs <- df
 #dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 #	       	  		  from = "Standard", to = "Name")$name
 #dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo") &
-dfs <- dfs %>% filter(as.character(author_unique) %in% top) %>%
-       	        group_by(author_unique) %>%
+dfs <- dfs %>% filter(as.character(author.unique) %in% top) %>%
+       	        group_by(author.unique) %>%
 	        summarize(titles = n(),
 	        paper = sum(paper.consumption.km2, na.rm = T))
 dfs$highlight <- rep("darkgray", nrow(dfs))
-dfs$highlight[dfs$author_unique %in% selected.authors] <- "black"
+dfs$highlight[dfs$author.unique %in% selected.authors] <- "black"
 p <- ggplot(dfs, aes(x = titles, y = paper, color = highlight)) 
-p <- p + geom_text(aes(label = author_unique)) 
+p <- p + geom_text(aes(label = author.unique)) 
 p <- p + scale_color_manual(values = c("darkgray", "black")) 
 p <- p + guides(color = "none") 
 p <- p + xlim(c(-50, 180)) 
@@ -150,8 +150,8 @@ print(p)
 ```{r 20151023LIBER-5, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=5}
 theme_set(theme_bw(20))
 dfs <- df %>% filter(author_gender == "female")
-dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique)),]
-p <- top_plot(dfs, "author_unique", ntop = 20)
+dfs <- dfs[-c(grep("jean", dfs$author.unique), grep("pierre", dfs$author.unique)),]
+p <- top_plot(dfs, "author.unique", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title Count")
