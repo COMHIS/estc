@@ -1,4 +1,5 @@
 library(dplyr)
+df <- df.preprocessed
 df2 <- df %>%
 	 group_by(publication_year, publication_place, latitude, longitude) %>%
 	 arrange(publication_year) %>%
