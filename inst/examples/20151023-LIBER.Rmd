@@ -1,3 +1,4 @@
+# LIBER publication materials 10/2015
 
 ```{r 20151023LIBER-1, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=6}
 library(ggplot2)
@@ -192,5 +193,23 @@ p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
        #geom_bar(stat = "identity") +
        xlab("Publication Year") + ylab("Paper per document")
        
+print(p)
+```
+
+## How does publishing change ?
+
+```{r 20151023LIBER-12, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=7}
+df$document.type <- rep(NA, nrow(df))
+df$document.type[df$pagecount > 32] <- "book"
+df$document.type[df$pagecount <= 32] <- "pamphlet"
+df$document.type <- factor(df$document.type)
+
+df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2, group = document.type, color = document.type))
+p <- p + geom_point()
+p <- p + geom_smooth(method = "loess")
+p <- p + ggtitle("Paper consumption per document document.type")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption (km2)")
 print(p)
 ```
