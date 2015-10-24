@@ -170,7 +170,7 @@ print(p)
 
 
 
-```{r 20150611paris-places4, message=FALSE, fig.height=4, fig.width=8, echo=FALSE}
+```{r 20150611paris-places4, message=FALSE, fig.height=5, fig.width=10, echo=FALSE}
 theme_set(theme_bw(20))
 df2 <- df %>%
     filter(!is.na(publication_country)) %>%
@@ -190,7 +190,7 @@ grid.arrange(p1, p2, nrow = 1)
 
 Overall publication activity in the complete ESTC (balls) and History documents (triangles):
 
-```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=5}
+```{r 20151023LIBER-14, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4}
 # Compare to overall publication stats
 # 1470 - 1790
 library(gdata)
