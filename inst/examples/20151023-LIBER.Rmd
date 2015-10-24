@@ -82,18 +82,9 @@ p <- ggplot(dfs, aes(x = folio, y = octavo)) +
        xlab("Folio") + ylab("Octavo") +
        guides(color = "none", size = "none") + 
        scale_color_manual(values = c("darkgray", "black")) +
-       xlim(-12,max(dfs$folio) + 8) +
+       xlim(-20,max(dfs$folio) + 8) +
        scale_size(range = c(4,7))       
 print(p)
-
-
-dfs <- df %>% filter(author_unique %in% selected.authors) %>%
-	 group_by(author_unique, publication_year) %>%
-	 tally() 
-theme_set(theme_bw(11))
-p <- ggplot(dfs, aes(x = publication_year, y = n, fill = author_unique))
-p <- p + geom_bar(stat = "identity")
-print(p)	 
 ```
 
 
