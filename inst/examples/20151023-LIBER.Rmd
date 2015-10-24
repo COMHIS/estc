@@ -182,14 +182,15 @@ p <- ggplot(dfs, aes(x = log10(titles), y = log10(paper)))
 p <- p + geom_text(aes(label = publication_place, color = usa), size = 5)
 p <- p + xlim(c(1.2, log10(max(na.omit(dfs$titles[!is.infinite(dfs$titles)])))))
 p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
-p <- p + scale_color_manual(values = c("darkgray", "black"))       
+p <- p + scale_color_manual(values = c("darkgray", "black"))
+p <- p + guides(color = "none")
 print(p)	 
 ```
 
 
 
 
-```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=7}
+```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=8}
 library(sorvi)
 dfs <- df %>% filter(publication_year >= 1470) %>% 
          group_by(publication_year) %>%
@@ -202,7 +203,7 @@ p1 <- p1 + theme(axis.title.x = element_text(size = 15), axis.title.y = element_
 print(p1)
 ```
 
-```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=7}
+```{r 20151023LIBER-10b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=8}
 p2 <- regression_plot(paper ~ publication_year, data = dfs) +
        xlab("Publication Year") +
        ylab("Paper Consumption (km2)") 
@@ -230,24 +231,23 @@ print(p)
 
 ## How does publishing change ?
 
-```{r 20151023LIBER-12, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=7}
-df$document.type <- rep(NA, nrow(df))
-df$document.type[df$pagecount > 32] <- "book"
-df$document.type[df$pagecount <= 32] <- "pamphlet"
-df$document.type <- factor(df$document.type)
-
-df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+```{r 20151023LIBER-12, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=9}
+df2 <- df
+df2$document.type <- rep(NA, nrow(df2))
+df2$document.type[df2$pagecount > 32] <- "book"
+df2$document.type[df2$pagecount <= 32] <- "pamphlet"
+df2 <- df2 %>% filter(df2, !is.na(document.type))
+df2$document.type <- factor(df2$document.type)
+df2 <- df2 %>% group_by(publication_year, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2, group = document.type, color = document.type))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess")
-p <- p + ggtitle("Paper consumption per document document.type")
+p <- p + ggtitle("Paper consumption per document type")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
 print(p)
 ```
 
-
-Estimated paper consumption by document size
 
 ```{r 20151023LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=7}
 df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
