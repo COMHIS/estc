@@ -99,18 +99,16 @@ print(p)
 
 ```{r 20151023LIBER-4, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=6}
 theme_set(theme_bw(20))
-
 dfs <- df
-dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
-	       	  		from = "Standard", to = "Name")$name
-dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo") &
-                author_unique %in% top) %>%
+#dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
+#	       	  		  from = "Standard", to = "Name")$name
+#dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo") &
+dfs <- dfs %>% filter(as.character(author_unique) %in% top) %>%
        	        group_by(author_unique) %>%
 	        summarize(titles = n(),
 	        paper = sum(paper.consumption.km2, na.rm = T))
 dfs$highlight <- rep("darkgray", nrow(dfs))
 dfs$highlight[dfs$author_unique %in% selected.authors] <- "black"
-dfs <- dfs %>% filter(author_unique %in% top)
 p <- ggplot(dfs, aes(x = titles, y = paper, color = highlight)) 
 p <- p + geom_text(aes(label = author_unique)) 
 p <- p + scale_color_manual(values = c("darkgray", "black")) 
@@ -150,16 +148,6 @@ print(p)
 
 
 
-```{r 20151023LIBER-7, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=8}
-dfs <- df %>% filter(country == "Scotland")
-p <- top_plot(dfs, "author_unique", ntop = 20, highlight = selected.authors)
-p <- p + scale_fill_manual(values = c("darkgray", "black"))
-p <- p + ylab("Title count")
-p <- p + guides(fill = "none")
-print(p)
-```
-
-
 ```{r 20151023LIBER-8, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=8}
 theme_set(theme_bw(20))
 top <- names(rev(sort(table(df$publication_place))))[1:50]
@@ -176,25 +164,11 @@ print(p)
 
 
 
-```{r 20151023LIBER-9, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
-dfs <- df %>% filter(topic == "Broadsides" & !is.na(publication_year) & publication_year > 1470) %>%
-	 group_by(publication_year) %>%
-	 tally() %>%
-	 arrange(publication_year)
-theme_set(theme_bw(20))
-p <- ggplot(dfs, aes(x = publication_year, y = n)) +
-       geom_point() +
-       geom_line() +       
-       xlab("Publication Year") +
-       ylab("Title Count")
-print(p)	 
-```
-
-
 
 ```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=7}
 library(sorvi)
-dfs <- df %>% group_by(publication_year) %>%
+dfs <- df %>% filter(publication_year >= 1470) %>% 
+         group_by(publication_year) %>%
          summarize(titles = n(), paper = sum(paper.consumption.km2, na.rm = T))
 	 
 p1 <- regression_plot(titles ~ publication_year, data = dfs)
@@ -218,7 +192,8 @@ print(p2)
 ```{r 20151023LIBER-11, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 theme_set(theme_bw(20))
 library(sorvi)
-dfs <- df %>% group_by(publication_year) %>%
+dfs <- df %>% filter(publication_year >= 1470) %>% 
+         group_by(publication_year) %>%
          summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
 
 p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
