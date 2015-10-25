@@ -467,3 +467,10 @@ p <- p + ylab("Documents / Year")
 print(p)
 ```
 
+## Session info
+
+This document was created with the following versions:
+
+```{r sessioninfo, message=FALSE, warning=FALSE}
+sessionInfo()
+```
