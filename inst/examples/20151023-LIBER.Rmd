@@ -20,7 +20,7 @@ df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
 ```
 
-This document provides a reproducible summary of the ESTC history data set ```r nrow(df.preprocessed)``` as prepared for our LIBER conference article ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions.
+This document provides a reproducible summary of the ESTC history data set (```r nrow(df.preprocessed)``` documents) as prepared for our LIBER conference article ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions.
 
 ### Reproducing the analyses
 
