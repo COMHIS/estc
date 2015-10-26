@@ -1,5 +1,15 @@
 # TODO 
 
+------------
+
+Antique authors are missing life years, probably a bug in polish_years ?
+
+Josephus, Flavius, 37 – c. 100
+
+Caesar, Julius, 100 BC – 44 BC
+
+..............
+
 Publication year: 1764[1765] Näissä tapauksissa mun tulkinta olisi että hakasulkeissa on vuosi jolloin kirja on julkaistu ja edellä on vuosi joka on merkitty kirjan kanteen. 
 1647[8]
 1727[1728]                     

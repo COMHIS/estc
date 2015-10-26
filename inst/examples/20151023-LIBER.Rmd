@@ -20,7 +20,7 @@ df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
 ```
 
-This document provides a reproducible summary of the ESTC history data set (the preprocessed data set covers ```r nrow(df.preprocessed)``` documents) as prepared for our LIBER conference article ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions.
+This document provides a reproducible summary of the ESTC history data set (the preprocessed data set covers ```r nrow(df.preprocessed)``` documents) as prepared for our [Liber Quarterly article](http://liber.library.uu.nl/index.php/lq) ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions.
 
 ### Reproducing the analyses
 
@@ -50,21 +50,26 @@ df <- df[-which(df$publication_year < 1470),]
 
 ## Who wrote history ?
 
-### Authors who published the most titles on history according to the ESTC catalogue data. Specific authors are highlighted
+### Authors who published the most history titles according to the ESTC
+
+Specific authors are highlighted:
 
 ```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=6}
 library(ggplot2)
 library(dplyr)
+dfs <- filter(df, !is.na(author_birth) & !is.na(author_death))
 theme_set(theme_bw(50))
 selected.authors <- c("prynne, william (1600-1669)", "defoe, daniel (1661-1731)", "hume, david (1711-1776)", "hume, david (1560-1630)")
-top <- names(rev(sort(table(df$author_unique))))[1:20]
+top <- names(rev(sort(table(dfs$author_unique))))[1:20]
 top <- c(top, "hume, david (1560-1630)")
-top <- setdiff(top, "caesar, julius (-100- -44)")
-dfs <- filter(df, author_unique %in% top)
+#top <- setdiff(top, "caesar, julius (-100- -44)")
+#top <- setdiff(top, "caesar, julius (NA-NA)")
+dfs <- filter(dfs, author_unique %in% top)
 p <- top_plot(dfs, "author_unique", ntop = 30, highlight = selected.authors)
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
 p <- p + scale_fill_manual(values = c("darkgray", "black"))
+p <- p + ggtitle("Top history authors in ESTC")
 print(p)
 ```
 
@@ -91,6 +96,7 @@ p <- p + theme(axis.text.y = element_text(size = 14))
 p <- p + xlab("Author life span (year)") + ylab("")
 p <- p + guides(color = FALSE)
 p <- p + scale_color_manual(values = c("darkgray", "black"))
+p <- p + ggtitle("Top author life spans")
 print(p)
 ```
 
@@ -101,16 +107,22 @@ print(p)
 theme_set(theme_bw(20))
 dfs <- df %>%
          filter(author_unique %in% selected.authors) %>%
-	 group_by(author_unique, publication_year) %>%
+	 group_by(author_unique, publication_decade) %>%
 	 tally() %>%
-	 arrange(publication_year)
+	 arrange(publication_decade)
+
+# Rearrange author levels
+dfs$author_unique <- factor(dfs$author_unique, levels = c("prynne, william (1600-1669)", "hume, david (1560-1630)", "defoe, daniel (1661-1731)", "hume, david (1711-1776)"))
 theme_set(theme_bw(20))
 
 # Barplot version
-p2 <- ggplot(dfs, aes(x = publication_year, y = n, fill = author_unique)) +
-       geom_bar(stat = "identity", position = "stack") +
+p2 <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author_unique)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
        xlab("Publication Year") +
-       ylab("Title Count")       
+       ylab("Title Count")
+p2 <- p2 + scale_fill_manual(values = c("black", "darkgray", "lightgray", "white"))
+p2 <- p2 + guides(fill = guide_legend("Author"))
+p2 <- p2 + ggtitle("Title counts over time for selected authors")
 p2
 ```
 
@@ -144,6 +156,7 @@ p <- p + guides(color = "none")
 p <- p + xlim(c(-50, 180)) 
 p <- p + xlab("Title count") 
 p <- p + ylab("Paper consumption (km2)")
+p <- p + ggtitle("Title count versus paper consumption (authors)")
 print(p)	 
 ```
 
@@ -155,11 +168,14 @@ The gender is inferred automatically from the first names
 ```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=5}
 theme_set(theme_bw(20))
 dfs <- df %>% filter(author_gender == "female")
-dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique)),]
+dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique), grep("capriata", dfs$author_unique), grep("mesurier", dfs$author_unique)),]
+#Pier Giovanni Capriata is male
+#Le Mesurier, Havilland is male 
 p <- top_plot(dfs, "author_unique", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
+p <- p + ggtitle("Top female authors")
 print(p)	 
 ```
 
@@ -173,15 +189,12 @@ The UK map was generated by taking a screencapture of a video produced with:
 source("20151023-LIBER-video.R")
 ```
 
-The circle diameter corresponds to the logarithm (log10) of the title count. You can also [download and view the full video]().
+The circle diameter corresponds to the logarithm (log10) of the title count. You can also [download and view the full video](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/liber.mp4).
 
 ![UK1700](uk1700.png)
 
 
-
-
-
-### The top publication places in Britain and North America ranked by the title count
+### The top publication places ranked by the title count
 
 ```{r 20151023LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=5}
 theme_set(theme_bw(20))
@@ -191,6 +204,7 @@ p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count (Log10 scale)")
 p <- p + scale_y_log10()
+p <- p + ggtitle("Top publication places")
 print(p)	 
 ```
 
@@ -212,6 +226,7 @@ p <- p + xlim(c(1.2, log10(max(na.omit(dfs$titles[!is.infinite(dfs$titles)])))))
 p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
 p <- p + scale_color_manual(values = c("darkgray", "black"))
 p <- p + guides(color = "none")
+p <- p + ggtitle("Title count versus paper consumption (places)")
 print(p)	 
 ```
 
@@ -239,7 +254,7 @@ grid.arrange(p1, p2, nrow = 1)
 
 ## How does publishing change ?
 
-### Overall publication activity in the complete ESTC (balls) and History documents (triangles)
+### Publishing activity among all ESTC documents (balls) and History documents (triangles)
 
 A comparison between the title count for history publications and for all documents in the ESTC catalogue, 1470-1800.
 
@@ -268,7 +283,7 @@ theme_set(theme_bw(20))
 p <- ggplot(dfi, aes(x = decade, y = x, shape = variable))
 p <- p + geom_point(size = 4) + geom_smooth(size = 1, color = "black")
 p <- p + xlab("Year") + ylab("Publications per decade")
-#p <- p + ggtitle("History versus all publishing 1470-1800")
+p <- p + ggtitle("History versus all publishing 1470-1800")
 p <- p + scale_color_manual(values=c("#CC6666", "#9999CC"))
 p <- p + guides(color = "none", shape = "none")
 p2 <- p
@@ -290,6 +305,7 @@ p1 <- p1 + xlab("Publication Year") + ylab("Title Count")
 p1 <- p1 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p1 <- p1 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
 p1 <- p1 + guides(fill = "none", alpha = "none")
+p1 <- p1 + ggtitle("History publications 1470-1800: title count")
 print(p1)
 ```
 
@@ -305,6 +321,7 @@ p2 <- p2 + geom_smooth(color = "black") + geom_point() +
 p2 <- p2 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2 <- p2 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
 p2 <- p2 + guides(fill = "none", alpha = "none")
+p2 <- p2 + ggtitle("History publications 1470-1800: paper consumption")
 print(p2)
 ```
 
@@ -321,7 +338,7 @@ dfs <- df %>% filter(publication_year >= 1470) %>%
 p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
        geom_line() + geom_point() +
        xlab("Publication Year") + ylab("Paper per document")
-
+p <- p + ggtitle("Average paper consumption per document")
 print(p)
 ```
 
@@ -346,11 +363,12 @@ p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
 p <- p + scale_color_manual(values=c("black", "darkgray"))
 p <- p + guides(shape = "none")
+p <- p + ggtitle("Books versus pamphlets: paper consumption 1470-1800")
 print(p)
 ```
 
 
-### Paper consumption for different book formats over time.
+### Paper consumption for different document formats over time
 
 Each point represents a decade. Loess smoothing.
 
@@ -364,6 +382,7 @@ p <- p + ggtitle("Paper consumption in time by gatherings")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption (km2)")
 p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
+p <- p + ggtitle("Paper consumption for different document formats")
 print(p)
 ```
 
@@ -399,6 +418,7 @@ p <- ggplot(dfs, aes(x = folio, y = octavo)) +
        xlim(-21,max(dfs$folio) + 8) +
        scale_size(range = c(4,7))
 p <- p + scale_x_continuous(breaks = c(-20, 0, 20, 40), labels = c("", "0", "20", "40"), limits = c(-20, 40))       
+p <- p + ggtitle("Octavo vs Folio paper consumption among top authors")
 print(p)
 ```
 
@@ -465,6 +485,7 @@ p <- p + geom_point(data = dfs, aes(x = date, y = varname), col = "black")
 p <- p + scale_x_continuous(breaks=seq(min(dfs$date), max(dfs$date), 20))
 p <- p + ggtitle(paste("Publishing activity in ", selected_place))
 p <- p + ylab("Documents / Year")
+p <- p + ggtitle("History publishing in Edinburgh 1470-1800")
 print(p)
 ```
 
