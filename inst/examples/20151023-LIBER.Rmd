@@ -12,7 +12,8 @@ output: markdown_document
 library(stringr)
 library(bibliographica)
 library(estc)
-df <- read.csv(file = "estc.csv", sep = "|")
+#df <- read.csv(file = "estc.csv", sep = "|")
+df <- read.csv(file = "estc-LIBER20151023-backup.csv", sep = "|")
 
 # Order the levels where necessary
 df$gatherings.original <- order_gatherings(df$gatherings.original)
@@ -57,7 +58,7 @@ Specific authors are highlighted:
 ```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=6}
 library(ggplot2)
 library(dplyr)
-dfs <- filter(df, !is.na(author_birth) & !is.na(author_death))
+dfs <- filter(df.preprocessed, !is.na(author_birth) & !is.na(author_death))
 theme_set(theme_bw(50))
 selected.authors <- c("prynne, william (1600-1669)", "defoe, daniel (1661-1731)", "hume, david (1711-1776)", "hume, david (1560-1630)")
 top <- names(rev(sort(table(dfs$author_unique))))[1:20]
