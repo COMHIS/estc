@@ -149,10 +149,10 @@ dfs <- dfs %>%
 dfs$highlight <- rep("darkgray", nrow(dfs))
 dfs$highlight[dfs$author_unique %in% selected.authors] <- "black"
 p <- ggplot(dfs, aes(x = titles, y = paper, color = highlight)) 
-p <- p + geom_text(aes(label = author_unique), size = 5) 
+p <- p + geom_text(aes(label = author_unique), size = 7) 
 p <- p + scale_color_manual(values = rev(c("darkgray", "black")))
 p <- p + guides(color = "none") 
-p <- p + xlim(c(-50, 180)) 
+p <- p + xlim(c(-50, 190)) 
 p <- p + xlab("Title count") 
 p <- p + ylab("Paper consumption (km2)")
 p <- p + ggtitle("Title count versus paper (authors)")
