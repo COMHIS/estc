@@ -181,7 +181,7 @@ p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
 p <- p + ggtitle("Top female authors")
-p <- p + theme(axis.text.x = element_text(size = 35), axis.text.y = element_text(size = 35), axis.title.x = element_text(size = 35), axis.title.y = element_text(size = 35))
+p <- p + theme(axis.text.x = element_text(size = 25), axis.text.y = element_text(size = 25), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 25))
 print(p)	 
 ```
 
