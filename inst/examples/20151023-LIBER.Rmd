@@ -55,7 +55,7 @@ df <- df.preprocessed <- df[-which(df$publication_year < 1470),]
 
 Specific authors are highlighted:
 
-```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7}
+```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7.5}
 library(ggplot2)
 library(dplyr)
 dfs <- filter(df.preprocessed, !is.na(author_birth) & !is.na(author_death))
@@ -79,7 +79,7 @@ print(p)
 
 The visualization also reveals ambiguities arising from authors having the same name but living at different times (e.g. David Hume)
 
-```{r 20151023LIBER-2, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=7}
+```{r 20151023LIBER-2, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=7.5}
 theme_set(theme_bw(20))
 dfa <- dfs[, c("author_name", "author_unique", "author_birth", "author_death")]
 dfa <- dfa[!duplicated(dfa), ]
@@ -167,9 +167,11 @@ The gender is inferred automatically from the first names
 
 ```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7}
 theme_set(theme_bw(20))
-dfs <- df %>% filter(author_gender == "female")
+dfs <- df.preprocessed %>% filter(author_gender == "female")
 dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique), grep("capriata", dfs$author_unique), grep("mesurier", dfs$author_unique), grep("bouhours", dfs$author_unique)),]
-dfs$author_unique <- gsub("whitrowe, joan (NA-NA)", "whitrowe, joan (1630-1707)", dfs$author_unique)
+
+dfs$author_unique <- gsub("whitrowe, joan \\(NA-NA\\)", "whitrowe, joan (1630-1707)", dfs$author_unique)
+
 # Withrow, Joan (1630-1707)
 # bouhours is male
 #Pier Giovanni Capriata is male
@@ -179,7 +181,7 @@ p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
 p <- p + ggtitle("Top female authors")
-p <- p + theme(axis.text.x = element_text(size = 30), axis.text.y = element_text(size = 30), axis.title.x = element_text(size = 30), axis.title.y = element_text(size = 30))
+p <- p + theme(axis.text.x = element_text(size = 35), axis.text.y = element_text(size = 35), axis.title.x = element_text(size = 35), axis.title.y = element_text(size = 35))
 print(p)	 
 ```
 
