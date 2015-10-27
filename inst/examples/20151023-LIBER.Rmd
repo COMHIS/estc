@@ -203,7 +203,7 @@ The circle diameter corresponds to the logarithm (log10) of the title count. You
 ### The top publication places ranked by the title count
 
 ```{r 20151023LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=5}
-theme_set(theme_bw(20))
+theme_set(theme_bw(25))
 dfs <- df
 p <- top_plot(dfs, "publication_place", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
