@@ -165,7 +165,7 @@ print(p)
 
 The gender is inferred automatically from the first names
 
-```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7}
+```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7.5}
 theme_set(theme_bw(20))
 dfs <- df.preprocessed %>% filter(author_gender == "female")
 dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique), grep("capriata", dfs$author_unique), grep("mesurier", dfs$author_unique), grep("bouhours", dfs$author_unique)),]
@@ -181,7 +181,7 @@ p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
 p <- p + ggtitle("Top female authors")
-p <- p + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 25))
+p <- p + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 25), title = element_text(size = 25))
 print(p)	 
 ```
 
