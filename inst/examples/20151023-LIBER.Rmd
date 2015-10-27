@@ -153,7 +153,7 @@ p <- p + geom_text(aes(label = author_unique), size = 7)
 p <- p + scale_color_manual(values = rev(c("darkgray", "black")))
 p <- p + guides(color = "none") 
 p <- p + xlim(c(-68, 210)) 
-p <- p + scale_x_continuous(breaks = c(-70, 0, 50, 100, 150), labels = c("", "0", "50", "100", "150"), limits = c(-70, 200))       
+p <- p + scale_x_continuous(breaks = c(-70, 0, 50, 100, 150), labels = c("", "0", "50", "100", "150"), limits = c(-70, 210))       
 p <- p + xlab("Title count") 
 p <- p + ylab("Paper consumption (km2)")
 p <- p + ggtitle("Title count versus paper (authors)")
@@ -234,10 +234,9 @@ print(p)
 
 ### Title count and paper consumption in Ireland, Scotland and the USA
 
-
 ```{r 20150611paris-places4, message=FALSE, fig.height=5, fig.width=10, echo=FALSE}
 theme_set(theme_bw(20))
-df2 <- df %>%
+df2 <- df.preprocessed %>%
     filter(!is.na(publication_country)) %>%
     group_by(publication_country) %>%
     summarize(paper = sum(paper.consumption.km2, na.rm = TRUE),
