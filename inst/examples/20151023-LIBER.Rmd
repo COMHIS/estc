@@ -55,7 +55,7 @@ df <- df.preprocessed <- df[-which(df$publication_year < 1470),]
 
 Specific authors are highlighted:
 
-```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7.5}
+```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
 library(ggplot2)
 library(dplyr)
 dfs <- filter(df.preprocessed, !is.na(author_birth) & !is.na(author_death))
