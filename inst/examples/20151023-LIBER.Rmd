@@ -70,7 +70,7 @@ p <- top_plot(dfs, "author_unique", ntop = 30, highlight = selected.authors)
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
 p <- p + scale_fill_manual(values = c("darkgray", "black"))
-p <- p + ggtitle("Top history authors in ESTC")
+p <- p + ggtitle("Top early modern history authors in ESTC")
 print(p)
 ```
 
@@ -97,7 +97,7 @@ p <- p + theme(axis.text.y = element_text(size = 14))
 p <- p + xlab("Author life span (year)") + ylab("")
 p <- p + guides(color = FALSE)
 p <- p + scale_color_manual(values = c("darkgray", "black"))
-p <- p + ggtitle("Top author life spans")
+p <- p + ggtitle("Top early modern author life span")
 print(p)
 ```
 
@@ -168,7 +168,10 @@ The gender is inferred automatically from the first names
 ```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7}
 theme_set(theme_bw(20))
 dfs <- df %>% filter(author_gender == "female")
-dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique), grep("capriata", dfs$author_unique), grep("mesurier", dfs$author_unique)),]
+dfs <- dfs[-c(grep("jean", dfs$author_unique), grep("pierre", dfs$author_unique), grep("capriata", dfs$author_unique), grep("mesurier", dfs$author_unique), grep("bouhours", dfs$author_unique)),]
+dfs$author_unique <- gsub("whitrowe, joan (NA-NA)", "whitrowe, joan (1630-1707)", dfs$author_unique)
+# Withrow, Joan (1630-1707)
+# bouhours is male
 #Pier Giovanni Capriata is male
 #Le Mesurier, Havilland is male 
 p <- top_plot(dfs, "author_unique", ntop = 20)

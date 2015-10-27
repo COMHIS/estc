@@ -67,4 +67,9 @@ many.deaths <- lapply(deaths[names(which(sapply(deaths, function (x) {length(uni
 
 # ---------------------------------------------------------------------------
 
+# Add missing author life years
+# TODO make this a table
+inds <- which(df$author_name == "whitrowe, joan")
+df$author_birth[inds] <- 1630
+df$author_death[inds] <- 1707
 
