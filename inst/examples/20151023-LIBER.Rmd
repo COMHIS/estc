@@ -202,7 +202,7 @@ The circle diameter corresponds to the logarithm (log10) of the title count. You
 
 ### The top publication places ranked by the title count
 
-```{r 20151023LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=5}
+```{r 20151023LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=6}
 theme_set(theme_bw(30))
 dfs <- df
 p <- top_plot(dfs, "publication_place", ntop = 20)
@@ -332,8 +332,8 @@ print(p2)
 
 ### Average paper consumption per document in history publications, 1470-1800
 
-```{r 20151023LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
-theme_set(theme_bw(20))
+```{r 20151023LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9}
+theme_set(theme_bw(25))
 library(sorvi)
 dfs <- df %>% filter(publication_year >= 1470) %>% 
          group_by(publication_year) %>%
