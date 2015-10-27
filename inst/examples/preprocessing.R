@@ -31,6 +31,9 @@ x <- polish_pages(x, verbose = TRUE)$total.pages
 # was document.pages.total
 df$pagecount <- x
 
+
+
+
 print("Publication place")
 # was: publication.place
 df$publication_place <- polish_place(df.orig$publication_place,

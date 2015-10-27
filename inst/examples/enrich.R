@@ -26,8 +26,7 @@ df$document.items <- estimate_document_items(df) # # "Physical items per documen
 
 print("add manually checked pages for some documents") 
 source("add.manual.pagecounts.R")
-
-print("Before summarizing the discarded fields into a table, remove")
+print("List discarded pages")
 source("list.discarded.pages.R")
 
 print("Calculate average page counts based on available data")
