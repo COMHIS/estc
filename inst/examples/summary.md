@@ -6808,10 +6808,12 @@ Multi-volume documents average page counts are given per volume.
 |2small        |             2.000000|                      2|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |4long         |             3.000000|                      2|          10|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |4to           |            43.552127|                     12|       16625|            411.6667|              439.0000|         27|         15.87098|                  8|   12192|
-|8vo           |           142.897519|                     68|       11652|            406.3343|              413.3333|        181|         28.39906|                 28|    3844|
-|12long        |            45.333333|                     24|          15|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
-|12mo          |           183.881307|                    162|        3027|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
-|16mo          |           159.654321|                    112|          83|                  NA|                    NA|         NA|         30.46154|                 24|      13|
+|8long         |             2.000000|                      2|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|8vo           |           143.376409|                     68|       11609|            406.3343|              413.3333|        181|         28.45869|                 28|    3813|
+|12long        |            48.428571|                     24|          14|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
+|12mo          |           184.079578|                    162|        3024|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
+|16long        |             2.000000|                      2|           3|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|16mo          |           155.357143|                    106|          86|                  NA|                    NA|         NA|         28.50000|                 24|      16|
 |18mo          |           150.564103|                    146|          39|            172.0000|              172.0000|          1|         41.00000|                 41|       2|
 |24long        |           244.000000|                    244|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |24mo          |           193.525000|                    181|          43|                  NA|                    NA|          2|         23.27273|                 24|      11|
@@ -6819,7 +6821,7 @@ Multi-volume documents average page counts are given per volume.
 |48mo          |           128.000000|                    128|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |84to          |             4.000000|                      4|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|NA            |            16.474305|                      2|        2400|                  NA|                    NA|         NA|         18.65753|                 14|     365|
+|NA            |            16.492525|                      2|        2435|                  NA|                    NA|         NA|         18.83715|                 15|     393|
 
 
 
@@ -6888,21 +6890,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart4eee2cc2ed84&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart6ece5bdaf5a7&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart4eee2cc2ed84()
+      drawchart6ece5bdaf5a7()
     });
-    function drawchart4eee2cc2ed84(){  
+    function drawchart6ece5bdaf5a7(){  
       var opts = {
- &quot;dom&quot;: &quot;chart4eee2cc2ed84&quot;,
+ &quot;dom&quot;: &quot;chart6ece5bdaf5a7&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart4eee2cc2ed84&quot; 
+&quot;id&quot;: &quot;chart6ece5bdaf5a7&quot; 
 },
         data = [
  {
@@ -7053,7 +7055,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart4eee2cc2ed84'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart6ece5bdaf5a7'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

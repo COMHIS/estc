@@ -1,3 +1,4 @@
+
 # Unique author identifier by combining name, birth and death years
 inds <- (!df$author_name %in% union(many.births, many.deaths) & !is.na(df$author_name))
 df$author_unique <- rep(NA, nrow(df))

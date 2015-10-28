@@ -1708,11 +1708,11 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 17	15	12	180	1	NA	211	2	1 sheet	1/16⁰.	2
 7	26	22	572	1	NA	211	2	1 sheet	26 x 22 cm.	2
 3	56	44	2464	1	NA	211	2	1 sheet	56 x 44 cm.	2
-12	16	11	176	1	NA	211	2	1 sheet	11 x 16 cm.	2
+26	16	11	176	1	NA	211	2	1 sheet	11 x 16 cm.	2
 4	43	31	1333	1	NA	211	2	1 sheet	43 x 31 cm.	2
 4	45	30	1350	1	NA	429	4	[2],2p.	2⁰.	2
 26	38	32	1216	1	NA	211	2	1 sheet	38 x 32 cm.	2
-12	16	11	176	1	NA	68	12	12p.	16 cm.	2
+26	16	11	176	1	NA	68	12	12p.	16 cm.	2
 4	42	17	714	1	NA	211	2	1 sheet	42 x 17 cm.	2
 7	29	23	667	1	NA	211	2	1 sheet	29 x 23 cm.	2
 18	18	11	198	1	NA	211	2	1 sheet	11 x 18 cm.	2
@@ -1738,7 +1738,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	28	22	616	1	NA	68	12	10,[2]p.	4⁰.	2
 4	36	19	684	1	NA	211	2	1 sheet	36 x 19 cm.	2
 12	19	13	247	1	NA	775	80	iv,76p.	8⁰.	2
-12	17	12	204	1	NA	157	16	15,[1]p.	17 cm.	2
+26	17	12	204	1	NA	157	16	15,[1]p.	17 cm.	2
 4	42	27	1134	1	NA	211	2	1 sheet	42 x 27 cm.	2
 26	30	18	540	1	NA	211	2	1 sheet	30 x 18 cm.	2
 12	19	13	247	1	NA	115	14	13, [1] p.	8⁰.	2
@@ -1794,9 +1794,9 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 15	19	12.5	237.5	1	NA	256	24	[24] p.	12⁰.	2
 12	19	13	247	1	NA	345	32	[4],ii,25,[1]p.	8⁰.	2
 4	33	22	726	1	NA	429	4	[4]p.	33 cm.	2
-15	18	13	234	1	NA	211	2	1 sheet	18 x 13 cm.	2
+26	18	13	234	1	NA	211	2	1 sheet	18 x 13 cm.	2
 7	22	17	374	1	NA	211	2	1 sheet	22 x 17 cm.	2
-12	16	11	176	1	NA	212	20	19,[1]p.	16 cm.	2
+26	16	11	176	1	NA	212	20	19,[1]p.	16 cm.	2
 26	51	20	1020	1	NA	211	2	1 sheet	51 x 20 cm.	2
 4	36	25	900	1	NA	211	2	1 sheet	36 x 25 cm.	2
 7	28	22	616	1	NA	366	34	33,[1]p.	4⁰.	2
@@ -3897,7 +3897,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 26	NA	NA	NA	1	NA	521	5	v.	4 ⁰.	1
 12	19	13	247	1	NA	775	80	78 [2] p.	8⁰.	1
 15	19	12.5	237.5	1	NA	362	336	[8], 328 p.	12⁰.	1
-15	12	NA	NA	1	NA	211	2	1 sheet ([1] p.)	12⁰ (12 x 12 cm)	1
+15	17.5	12	210	1	NA	211	2	1 sheet ([1] p.)	12⁰ (12 x 12 cm)	1
 4	35	23	805	1	NA	211	2	1 sheet ([1] p.)	1/2⁰ (35 x 23 cm)	1
 4	31	18	558	1	NA	211	2	1 sheet ([1] p.)	1/2⁰ (31 x 18 cm)	1
 12	19	13	247	1	NA	325	302	v, [1], 296 p.	8⁰.	1
@@ -3943,7 +3943,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	20	17	340	1	NA	158	160	[14], 132, [8], 7-12, [2], 88 p., [1] folded leaf	20 cm. 4⁰	1
 26	NA	NA	NA	1	NA	429	4	3, [1] p.	NA	1
 7	28	22	616	1	NA	541	52	[12], 40 p.	4⁰.	1
-26	15	12	180	1	NA	430	40	[2], 36, [2] p.	15 cm.	1
+17	15	12	180	1	NA	430	40	[2], 36, [2] p.	15 cm.	1
 4	32	21	672	1	NA	429	4	3, [1] p.	32 cm. 2⁰	1
 4	38	27	1026	1	NA	211	2	1 sheet ([1] p.)	38 x 27 cm.	1
 7	28	22	616	1	NA	301	28	[4], 24 p.	4⁰	1
@@ -3971,9 +3971,9 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	501	48	[10], 38 p.	8⁰	1
 12	14	10	140	1	NA	680	68	67, [1] p.	14 cm. 8⁰	1
 12	15	11	165	1	NA	274	256	254, [2] p.	15 cm. 8⁰.	1
-15	14	9.5	133	1	NA	872	96	[10], 86, 12 p.	14 cm. 12⁰	1
+15	14	10	140	1	NA	872	96	[10], 86, 12 p.	14 cm. 12⁰	1
 12	19	13	247	1	NA	541	52	[8], 44 p.	8⁰	1
-12	17	12	204	1	NA	157	16	16 p.	17 cm.	1
+26	17	12	204	1	NA	157	16	16 p.	17 cm.	1
 4	45	30	1350	1	NA	208	197	p. [1], 156-157, 190-196	2⁰	1
 4	45	30	1350	1	NA	612	6	p. 151-155, [1]	2⁰	1
 4	45	30	1350	1	NA	345	32	p. 119-150	2⁰	1
@@ -4001,7 +4001,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	45	37	1665	1	NA	211	2	1 sheet	45 x 37 cm.	1
 6	36	31	1116	1	NA	211	2	1 sheet	36 x 31 cm.	1
 26	19	15	285	1	NA	211	2	1 sheet	19 x 15 cm.	1
-12	15	11	165	1	NA	211	2	1 sheet	15 x 11 cm.	1
+26	15	11	165	1	NA	211	2	1 sheet	15 x 11 cm.	1
 26	NA	NA	NA	1	NA	322	30	[25]-54p.	?.	1
 26	NA	NA	NA	1	NA	157	16	[9]-24p.	?.	1
 12	19	13	247	1	NA	345	32	xxxii p.	8⁰.	1
@@ -4009,7 +4009,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	45	15	675	1	NA	211	2	1 sheet	45 x 15 cm.	1
 3	52	42	2184	1	NA	211	2	1 sheet	52 x 42 cm.	1
 4	44	19	836	1	NA	211	2	1 sheet	44 x 19 cm.	1
-12	26	14	364	1	NA	211	2	1 sheet	26 x 14 cm.	1
+11	26	14	364	1	NA	211	2	1 sheet	26 x 14 cm.	1
 26	19	13	247	1	NA	256	24	24p.	19 cm.	1
 15	19	12.5	237.5	1	NA	872	96	[2],94p.	12⁰.	1
 26	18	12	216	1	NA	429	4	4p.	18 cm.	1
@@ -4017,8 +4017,8 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	46	113	[3],6-108,[1],79,[1]p.	8⁰.	1
 7	28	22	616	1	NA	211	2	1 sheet	28 x 22 cm.	1
 26	NA	NA	NA	1	NA	387	36	35,[1]p.	?⁰.	1
-12	20	13	260	1	NA	774	8	7,[1]p.	20 cm.	1
-12	16	11	176	1	NA	774	8	8p.	16 cm.	1
+26	20	13	260	1	NA	774	8	7,[1]p.	20 cm.	1
+26	16	11	176	1	NA	774	8	8p.	16 cm.	1
 12	19	13	247	1	NA	297	276	276p.	8⁰.	1
 4	47	38	1786	1	NA	211	2	1 sheet	47 x 38 cm.	1
 26	15	9	135	1	NA	211	2	1 sheet	15 x 9 cm.	1
@@ -4047,7 +4047,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	345	32	19,[1],xii p.	8⁰.	1
 15	19	12.5	237.5	1	NA	186	180	xii,136,[4],162,[2]p.	12⁰.	1
 7	28	22	616	1	NA	203	192	192p.	4⁰.	1
-12	20	13	260	1	NA	345	32	32p.	20 cm. (4to & 8vo)	1
+26	20	13	260	1	NA	345	32	32p.	20 cm. (4to & 8vo)	1
 15	19	12.5	237.5	1	NA	775	80	vii, [4], 12-80 p.	12⁰.	1
 15	19	12.5	237.5	1	NA	186	180	viii, [1], 10-177, [3] p.	12⁰.	1
 7	28	22	616	1	NA	387	36	[9],4-30p.	4⁰.	1
@@ -4077,7 +4077,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	542	520	[4], 7-519, [3] p.	8⁰.	1
 26	19	13	247	1	NA	800	84	83,[1]p.	19 cm.	1
 12	19	13	247	1	NA	541	52	48p., [1]leaf of plates	8⁰.	1
-12	16	11	176	1	NA	438	41	39,[1],23,[1]p.	16 cm.	1
+26	16	11	176	1	NA	438	41	39,[1],23,[1]p.	16 cm.	1
 12	19	13	247	1	NA	522	50	[6], 41, [3] p.	8⁰.	1
 12	19	13	247	1	NA	256	24	ii,3-23,[1]p.	8⁰.	1
 12	19	13	247	1	NA	646	64	[6],56,[2]p.	8⁰.	1
@@ -4106,21 +4106,21 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	22	15	330	1	NA	774	8	7,[1]p.	22 cm.	1
 7	28	22	616	1	NA	366	34	[4], 30 + p.	4⁰.	1
 26	18	12	216	1	NA	157	16	15,[1]p.	18 cm.	1
-12	16	11	176	1	NA	429	4	4p.	16 cm.	1
-12	17	12	204	1	NA	484	46	45,[1]p.	17 cm.	1
+26	16	11	176	1	NA	429	4	4p.	16 cm.	1
+26	17	12	204	1	NA	484	46	45,[1]p.	17 cm.	1
 7	23	19	437	1	NA	211	2	1 sheet	23 x 19 cm.	1
 4	43	23	989	1	NA	211	2	1 sheet	43 x 23 cm.	1
 12	19	13	247	1	NA	430	40	vi,[1],8-40p.	8⁰.	1
 12	19	13	247	1	NA	579	56	xv,36,[5]p.	8⁰.	1
 12	19	13	247	1	NA	774	8	8p.	8⁰	1
-17	16	13	208	1	NA	211	2	1 sheet	13 x 16 cm.	1
+26	16	13	208	1	NA	211	2	1 sheet	13 x 16 cm.	1
 12	19	13	247	1	NA	90	129	[2],vi,118,[2],iv,49,[1]p.	8⁰.	1
 12	19	13	247	1	NA	560	54	xv,36,[3]p.	8⁰.	1
 15	19	12.5	237.5	1	NA	800	84	xxii,55,[7]p.	12⁰.	1
 12	19	13	247	1	NA	646	64	xvi,40,[8]p.	8⁰.	1
 12	19	13	247	1	NA	775	80	[22],51,[7]p.	8⁰.	1
 12	19	13	247	1	NA	872	96	[26],64,[6]p.	8⁰.	1
-12	20	13	260	1	NA	2	10	9,[1]p.	20 cm.	1
+26	20	13	260	1	NA	2	10	9,[1]p.	20 cm.	1
 7	23	18	414	1	NA	256	24	[4],ii,17,[1]p.	23 cm.	1
 4	43	35	1505	1	NA	211	2	1 sheet	43 x 35 cm.	1
 4	39	24.5	955.5	1	NA	211	2	1 sheet	39 x 24.5 cm.	1
@@ -4200,13 +4200,13 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	41	24	984	1	NA	211	2	1 sheet	41 x 24 cm.	1
 12	19	13	247	1	NA	179	176	[8],165,[3]p.	8⁰.	1
 26	21	14	294	1	NA	429	4	[4]p.	21 cm.	1
-12	20	13	260	1	NA	68	12	12p.	20 cm.	1
-26	23	13	299	1	NA	211	2	1 sheet	13 x 23 cm.	1
+26	20	13	260	1	NA	68	12	12p.	20 cm.	1
+11	23	13	299	1	NA	211	2	1 sheet	13 x 23 cm.	1
 4	45	30	1350	1	NA	322	30	6p., [12]folded leaves	2⁰.	1
 15	19	12.5	237.5	1	NA	325	302	[2],viii,[1],10-293,[3]p., [1]leaf of plates	12⁰.	1
 15	19	12.5	237.5	1	NA	392	364	iv,356p., [2]folded leaves of plates	12⁰.	1
 15	19	12.5	237.5	1	NA	396	368	viii,356p., [2]folded leaves of plates	12⁰.	1
-12	20	13	260	1	NA	429	4	3,[1]p.	20 cm.	1
+26	20	13	260	1	NA	429	4	3,[1]p.	20 cm.	1
 12	19	13	247	1	NA	597	580	[2],ii,576p.	8⁰.	1
 26	NA	NA	NA	1	NA	612	6	[1],4-8p.	?⁰.	1
 15	19	12.5	237.5	1	NA	711	72	[2],70p.	12⁰.	1
@@ -4218,7 +4218,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	45	30	1350	1	NA	484	46	[2], 44 p.	2⁰.	1
 4	45	30	1350	1	NA	816	86	86 p.	2⁰.	1
 12	19	13	247	1	NA	579	56	[6],50p.	8⁰.	1
-12	17	12	204	1	NA	234	22	22p.	17 cm.	1
+26	17	12	204	1	NA	234	22	22p.	17 cm.	1
 26	21	14	294	1	NA	387	36	36p.	21 cm.	1
 7	28	22	616	1	NA	345	32	30[i.e., 31],[1]p.	4⁰.	1
 12	19	13	247	1	NA	429	4	3,[1]p.	obl. 8⁰.	1
@@ -4242,7 +4242,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	362	336	332, [4] p.	8⁰.	1
 12	19	13	247	1	NA	297	276	[4],xiv,[2],256p.	8⁰.	1
 26	48	40	1920	1	NA	211	2	1 sheet	48 x 40 cm.	1
-12	17	12	204	1	NA	774	8	8p.	17 cm.	1
+26	17	12	204	1	NA	774	8	8p.	17 cm.	1
 12	19	13	247	1	NA	469	44	[2],42,14p.	8⁰.	1
 4	42	32	1344	1	NA	211	2	1 sheet	42 x 32 cm.	1
 26	27	19	513	1	NA	211	2	1 sheet	27 x 19 cm.	1
@@ -4357,7 +4357,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	101	134	[2], v, [2], vi-xiii, [1], 111, [1] p., [2] folded leaves of plates	8⁰.	1
 12	19	13	247	1	NA	234	22	[2],20p.	8⁰.	1
 12	19	13	247	1	NA	301	28	iii,[1],5-28p.	8⁰.	1
-12	17	12	204	1	NA	68	12	12p.	17 cm.	1
+26	17	12	204	1	NA	68	12	12p.	17 cm.	1
 12	19	13	247	1	NA	788	82	81, [1] p.	8⁰.	1
 12	19	13	247	1	NA	479	452	iv, [1], 6-445 [i.e., 6-447], [1] p., [2] leaves of plates (1 folded)	8⁰.	1
 12	19	13	247	1	NA	774	8	p. 105-112	8⁰.	1
@@ -4432,17 +4432,17 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	45	30	1350	1	NA	211	2	p. 665-[666]	2⁰.	1
 4	45	30	1350	1	NA	211	2	p. 499-500	2⁰.	1
 4	45	30	1350	1	NA	68	12	p. 425-436	2⁰.	1
-12	20	13	260	1	NA	774	8	8p.	20 cm.	1
+26	20	13	260	1	NA	774	8	8p.	20 cm.	1
 26	18	17	306	1	NA	211	2	1 sheet	17 x 18 cm.	1
 15	19	12.5	237.5	1	NA	325	302	[4], 298 p.	12⁰.	1
-26	15	12	180	1	NA	68	12	10,[2]p.	15 cm.	1
+17	15	12	180	1	NA	68	12	10,[2]p.	15 cm.	1
 4	45	30	1350	1	NA	211	2	p. 305-[306]	2⁰.	1
 4	45	30	1350	1	NA	211	2	p. 297-298	2⁰.	1
 26	28	20	560	1	NA	211	2	1 sheet	28 x 20 cm.	1
 7	25	22	550	1	NA	211	2	1 sheet	22 x 25 cm.	1
 4	41	13	533	1	NA	211	2	1 sheet	41 x 13 cm.	1
 7	27	22	594	1	NA	211	2	1 sheet	22 x 27 cm.	1
-12	26	15	390	1	NA	211	2	1 sheet	15 x 26 cm.	1
+11	26	15	390	1	NA	211	2	1 sheet	15 x 26 cm.	1
 7	24	19	456	1	NA	211	2	1 sheet	24 x 19 cm.	1
 3	52	19	988	1	NA	211	2	1 sheet	52 x 19 cm.	1
 26	23	17	391	1	NA	211	2	1 sheet	23 x 17 cm.	1
@@ -4465,7 +4465,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 18	17	8	136	1	NA	211	2	1 sheet	17 x 8 cm.	1
 26	NA	NA	NA	1	NA	121	142	[2],xi,[1],128p.	?⁰.	1
 26	30	13	390	1	NA	211	2	1 sheet	30 x 13 cm.	1
-12	17	12	204	1	NA	541	52	iv,5-52p.	17 cm.	1
+26	17	12	204	1	NA	541	52	iv,5-52p.	17 cm.	1
 26	19	13	247	1	NA	430	40	40p.	19 cm.	1
 15	19	12.5	237.5	1	NA	219	206	206p.	12⁰.	1
 4	45	30	1350	1	NA	647	640	[4],14,631,[1]p., [1]leaf of plates	2⁰.	1
@@ -4494,13 +4494,13 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 15	19	12.5	237.5	1	NA	426	396	[3], 6-394 p., [1] leaf of plates	12⁰.	1
 4	45	30	1350	1	NA	281	262	[4],6,[2],256p.	2⁰.	1
 4	40	23	920	1	NA	211	2	1 sheet	40 x 23 cm.	1
-12	16	11	176	1	NA	157	16	16p.	16 cm.	1
+26	16	11	176	1	NA	157	16	16p.	16 cm.	1
 15	19	12.5	237.5	1	NA	775	80	80+ p.	12⁰.	1
 26	31	21	651	1	NA	211	2	1 sheet	31 x 21 cm.	1
 7	28	22	616	1	NA	449	42	iv,37,[1]p.	4⁰.	1
 15	19	12.5	237.5	1	NA	256	24	[24]p.	12⁰.	1
 4	37	30	1110	1	NA	211	2	1 sheet	37 x 30 cm.	1
-12	26	15	390	1	NA	211	2	1 sheet	26 x 15 cm.	1
+11	26	15	390	1	NA	211	2	1 sheet	26 x 15 cm.	1
 26	NA	NA	NA	1	NA	322	30	26p., 2folded leaves of plates	?⁰.	1
 26	17	15	255	1	NA	211	2	1 sheet	15 x 17 cm.	1
 7	21	16	336	1	NA	211	2	1 sheet	21 x 16 cm.	1
@@ -4525,7 +4525,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	28	22	616	1	NA	68	12	p. [2],93-102	4⁰.	1
 7	28	22	616	1	NA	185	18	p. [2],105-120	4⁰.	1
 7	28	22	616	1	NA	322	30	iv,5-30p.	4⁰.	1
-26	15	12	180	1	NA	613	60	iv,[5]-58,[2]p.	15 cm.	1
+17	15	12	180	1	NA	613	60	iv,[5]-58,[2]p.	15 cm.	1
 12	19	13	247	1	NA	631	62	vi,[1],8-62p.	8⁰.	1
 26	NA	NA	NA	1	NA	301	28	[4],ii,21,[1]p.	?⁰.	1
 5	25	17	425	1	NA	211	2	1 sheet	25 x 17 cm.	1
@@ -4572,7 +4572,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 26	27	20	540	1	NA	157	16	15,[1]p.	27 cm.	1
 12	19	13	247	1	NA	774	8	p. 25-31,[1]	8⁰.	1
 12	19	13	247	1	NA	774	8	p. 49-56	8⁰.	1
-12	17	12	204	1	NA	301	28	28p.	17 cm.	1
+26	17	12	204	1	NA	301	28	28p.	17 cm.	1
 7	28	22	616	1	NA	366	34	[4],29,[1]p.	4⁰.	1
 12	19	13	247	1	NA	212	20	[4],16p.	8⁰.	1
 26	18	12	216	1	NA	211	2	1 sheet	12 x 18 cm.	1
@@ -4598,7 +4598,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 26	18	12	216	1	NA	68	12	12p.	18 cm.	1
 26	NA	NA	NA	1	NA	211	2	1 sheet	broadside.	1
 12	19	13	247	1	NA	284	265	xvi, [6], 9, [1], 241, [1] p.	8⁰.	1
-12	20	13	260	1	NA	256	24	23,[1]p.	20 cm.	1
+26	20	13	260	1	NA	256	24	23,[1]p.	20 cm.	1
 12	19	13	247	1	NA	211	2	1 sheet	8⁰.	1
 12	19	13	247	1	NA	157	16	[1],ii,13p.	8⁰.	1
 12	19	13	247	1	NA	89	128	126,[2]p.	8⁰.	1
@@ -4627,14 +4627,14 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	28	22	616	1	NA	301	28	28+ p.	4⁰.	1
 26	NA	NA	NA	1	NA	774	8	8p. 21cm. (8vo)	?⁰.	1
 4	40	31	1240	1	NA	211	2	1 sheet	40 x 31 cm.	1
-12	20	13	260	1	NA	211	2	1 sheet	20 x 13 cm.	1
+26	20	13	260	1	NA	211	2	1 sheet	20 x 13 cm.	1
 26	21	14	294	1	NA	211	2	1 sheet	21 x 14 cm.	1
 15	19	12.5	237.5	1	NA	256	24	iv,[1],6-24p.	12⁰.	1
 26	NA	NA	NA	1	NA	301	28	28p.	?⁰.	1
 15	19	12.5	237.5	1	NA	69	120	112,[8]p.	12⁰.	1
 26	21	20	420	1	NA	211	2	1 sheet	21 x 20 cm.	1
 15	19	12.5	237.5	1	NA	680	68	[2], 61, [1], 22 p., [1] leaf of plates	12⁰.	1
-26	15	12	180	1	NA	774	8	8p.	15 cm.	1
+17	15	12	180	1	NA	774	8	8p.	15 cm.	1
 4	42	23	966	1	NA	211	2	1 sheet	42 x 23 cm.	1
 15	19	12.5	237.5	1	NA	278	26	26p.	12⁰.	1
 7	28	22	616	1	NA	212	20	18,[2]p.	4⁰.	1
@@ -4659,7 +4659,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	28	22	616	1	NA	501	48	28,48p.	4⁰.	1
 26	26	17	442	1	NA	211	2	1 sheet	26 x 17 cm.	1
 26	30	20	600	1	NA	704	71	iv,49,[1],4,[2],64p.	30 cm.	1
-12	16	11	176	1	NA	157	16	15,[1]p.	16 cm.	1
+26	16	11	176	1	NA	157	16	15,[1]p.	16 cm.	1
 26	21	14	294	1	NA	256	24	24p.	21 cm.	1
 4	45	30	1350	1	NA	469	44	42,[2]p.	2⁰.	1
 12	19	13	247	1	NA	22	104	124[i.e., 104]p.	8⁰.	1
@@ -4725,7 +4725,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	596	58	[4],i,[1],51,[1]p.	8⁰.	1
 12	19	13	247	1	NA	345	32	xiv,[1],16-31,[1]p.	8⁰.	1
 7	28	22	616	1	NA	775	80	xxix,30-80p.	4⁰.	1
-12	20	13	260	1	NA	115	14	14p.	20 cm.	1
+26	20	13	260	1	NA	115	14	14p.	20 cm.	1
 7	20	17	340	1	NA	256	24	24p.	20 cm. (4to?)	1
 7	28	22	616	1	NA	58	116	[2],111,[3]p.	4⁰.	1
 26	NA	NA	NA	1	NA	212	20	17,[3]p.	?⁰.	1
@@ -4736,16 +4736,16 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 15	19	12.5	237.5	1	NA	827	88	87,[1]p.	12⁰.	1
 12	19	13	247	1	NA	775	80	[2], 77, [1] p.	8⁰.	1
 7	28	22	616	1	NA	89	128	126,[2]p.	4⁰.	1
-15	17	13	221	1	NA	211	2	1 sheet	13 x 17 cm.	1
+16	17	13	221	1	NA	211	2	1 sheet	13 x 17 cm.	1
 12	19	13	247	1	NA	345	32	xii,20p.	8⁰.	1
 7	28	22	616	1	NA	301	28	[2],ii,24p.	4⁰.	1
 7	23	18	414	1	NA	612	6	6p.	23 cm.	1
 12	19	13	247	1	NA	889	68	1v. (various pagings)	8⁰.	1
 26	NA	NA	NA	1	NA	157	16	[2],ii,12p.	?⁰.	1
-12	16	11	176	1	NA	157	16	vi,[1],8-16p.	16 cm.	1
+26	16	11	176	1	NA	157	16	vi,[1],8-16p.	16 cm.	1
 15	19	12.5	237.5	1	NA	212	20	20 p.	12⁰.	1
 12	19	13	247	1	NA	235	220	[12], 198, [2] p., [4] leaves of plates	8⁰.	1
-15	18	14	252	1	NA	211	2	1 sheet	14 x 18 cm.	1
+16	18	14	252	1	NA	211	2	1 sheet	14 x 18 cm.	1
 12	19	13	247	1	NA	501	48	42,[2]p., [1]folded leaf of plates	8⁰.	1
 15	19	12.5	237.5	1	NA	345	32	iv,[1],6-31,[1]p.	12⁰.	1
 26	14	14	196	1	NA	211	2	1 sheet	14 x 14 cm.	1
@@ -4797,7 +4797,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	257	240	[10],220,[2],vi,76,[2]p.	8⁰.	1
 15	19	12.5	237.5	1	NA	256	24	vii,[2],10-24p.	12⁰.	1
 12	19	13	247	1	NA	501	48	xii,[1],14-48p.	8⁰.	1
-12	20	13	260	1	NA	2	10	10p.	20 cm.	1
+26	20	13	260	1	NA	2	10	10p.	20 cm.	1
 26	18	12	216	1	NA	522	50	50p.	18 cm.	1
 12	19	13	247	1	NA	138	148	146, [2] p.	8⁰.	1
 12	19	13	247	1	NA	50	114	[2], ii, 108, [2] p.	8⁰.	1
@@ -4837,7 +4837,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 26	NA	NA	NA	1	NA	22	104	104p.	?⁰.	1
 12	19	13	247	1	NA	775	80	viii,[1],10-80p.	8⁰.	1
 4	42	25	1050	1	NA	211	2	1 sheet	42 x 25 cm.	1
-12	16	11	176	1	NA	430	40	39,[1]p.	16 cm.	1
+26	16	11	176	1	NA	430	40	39,[1]p.	16 cm.	1
 12	19	13	247	3	NA	889	1240	3vol.	8⁰.	1
 12	19	13	247	1	NA	385	358	[18],332,[8]p.	8⁰.	1
 4	45	30	1350	1	NA	726	735	vi,[1],8-264,269-700,703-723,[5]p., [60]leaves of plates (1folded)	2⁰.	1
@@ -4861,7 +4861,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 15	19	12.5	237.5	1	NA	256	24	[2],20,[2]p.	12⁰.	1
 6	35	30	1050	1	NA	211	2	1 sheet	35 x 30 cm.	1
 26	10	10	100	1	NA	211	2	1 sheet	10 x 10 cm.	1
-12	20	13	260	1	NA	484	46	[2], 43, [1] p.	20 cm.	1
+26	20	13	260	1	NA	484	46	[2], 43, [1] p.	20 cm.	1
 15	19	12.5	237.5	1	NA	484	46	44,[2]p.	12⁰.	1
 4	34	22	748	1	NA	211	2	1 sheet	34 cm.	1
 6	36	29	1044	1	NA	211	2	1 sheet	36 x 29 cm.	1
@@ -4872,7 +4872,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	646	64	59,[5]p.	8⁰.	1
 12	19	13	247	2	NA	889	826.666666666667	2v. in 10parts	8⁰.	1
 7	23	18	414	1	NA	596	58	58p.	23 cm.	1
-26	19	10	190	1	NA	211	2	1 sheet	19 x 10 cm.	1
+15	19	10	190	1	NA	211	2	1 sheet	19 x 10 cm.	1
 15	19	12.5	237.5	1	NA	163	164	163, [1] p.	12⁰.	1
 26	NA	NA	NA	1	NA	387	36	34,[2]p.	?⁰.	1
 26	19	13	247	1	NA	322	30	29,[1]p.	19 cm.	1
@@ -4902,7 +4902,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	45	30	1350	1	NA	760	78	[1],4-79,[1]p.	2⁰.	1
 4	45	30	1350	1	NA	484	46	[1],4-47,[1]p.	2⁰.	1
 26	14	11	154	1	NA	322	30	29,[1]p.	14 cm.	1
-12	20	13	260	1	NA	301	28	28p.	20 cm.	1
+26	20	13	260	1	NA	301	28	28p.	20 cm.	1
 4	45	30	1350	1	NA	429	4	p. 129-132	2⁰.	1
 26	31	25	775	1	NA	211	2	1 sheet	31 x 25 cm.	1
 18	18	10	180	1	NA	211	2	1 sheet	10 x 18 cm.	1
@@ -4921,11 +4921,11 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	880	98	[4],93,[1]p.	8⁰.	1
 26	21	14	294	1	NA	430	40	40p.	21 cm.	1
 15	19	12.5	237.5	1	NA	596	58	57, [1] p.	12⁰.	1
-12	17	12	204	1	NA	501	48	48p.	17 cm.	1
+26	17	12	204	1	NA	501	48	48p.	17 cm.	1
 12	19	13	247	1	NA	541	52	[8], 38, [2] p., [1] leaf of plates	8⁰.	1
 4	45	25	1125	1	NA	211	2	1 sheet	45 x 25 cm.	1
 4	48	35	1680	1	NA	211	2	1 sheet	35 x 48 cm.	1
-12	16	11	176	1	NA	430	40	[4],35,[1]p.	16 cm.	1
+26	16	11	176	1	NA	430	40	[4],35,[1]p.	16 cm.	1
 12	19	13	247	1	NA	22	104	[6],98p.	8⁰.	1
 26	NA	NA	NA	1	NA	212	20	[2],17,[1]p.	?⁰.	1
 26	42	35	1470	1	NA	211	2	1 sheet	35 x 42 cm.	1
@@ -4934,7 +4934,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 26	39	33	1287	1	NA	211	2	1 sheet	39 x 33 cm.	1
 4	42	31	1302	1	NA	211	2	1 sheet	42 x 31 cm.	1
 6	36	27	972	1	NA	211	2	1 sheet	36 x 27 cm.	1
-14	17	11	187	1	NA	211	2	1 sheet	17 x 11 cm.	1
+26	17	11	187	1	NA	211	2	1 sheet	17 x 11 cm.	1
 4	49	35	1715	1	NA	211	2	1 sheet	49 x 35 cm.	1
 4	45	30	1350	1	NA	774	8	p. 19-25,[1]	2⁰.	1
 26	18	12	216	1	NA	579	56	56p.	18 cm.	1
@@ -5017,7 +5017,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	842	9	p. [1],41-48	8⁰.	1
 12	19	13	247	1	NA	774	8	p. [1],10-16	8⁰.	1
 4	43	12	516	1	NA	211	2	1 sheet	43 x 12 cm.	1
-12	20	13	260	1	NA	774	8	8p.	20cm.	1
+26	20	13	260	1	NA	774	8	8p.	20cm.	1
 7	28	22	616	18	NA	1	1	v,6-23,[1]p.	4⁰.	1
 12	19	13	247	1	NA	774	8	p. [4],555-557,[1]	8⁰.	1
 4	45	30	1350	1	NA	429	4	[4]p.	2⁰	1
@@ -5032,7 +5032,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	256	24	xi,12-21,[3]p.	8⁰.	1
 18	16	10	160	1	NA	215	202	xxii,[1],24-195,[3]p., [1]leaf of plates	18⁰.	1
 15	19	12.5	237.5	100	NA	321	3	v,6-105,[3]p.	12⁰.	1
-26	23	12	276	1	NA	211	2	1 sheet	23 x 12 cm.	1
+11	23	12	276	1	NA	211	2	1 sheet	23 x 12 cm.	1
 4	45	30	1350	1	NA	715	724	[12],694,[18]p.	2⁰.	1
 12	19	13	247	1	NA	297	276	276 p.	8⁰.	1
 17	15	12	180	1	NA	412	382	90,381,[1],34,84,4p.	16⁰.	1
@@ -5099,7 +5099,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	22	15	330	1	NA	211	2	1 sheet	15 x 22 cm.	1
 12	19	13	247	1	NA	256	24	[2],ii,19,[1]p.	8⁰.	1
 4	50	20	1000	1	NA	211	2	1 sheet	50 x 20 cm.	1
-26	17	14	238	1	NA	211	2	1 sheet	14 x 17 cm.	1
+16	17	14	238	1	NA	211	2	1 sheet	14 x 17 cm.	1
 4	33	21	693	1	NA	211	2	1 sheet	21 x 33 cm.	1
 4	50	40	2000	1	NA	211	2	1 sheet	50 x 40 cm.	1
 26	43	36	1548	1	NA	211	2	1 sheet	43 x 36 cm.	1
@@ -5123,7 +5123,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	50	24	1200	1	NA	211	2	1 sheet	50 x 24 cm.	1
 4	49	19	931	1	NA	211	2	1 sheet	49 x 19 cm.	1
 14	22	14	308	1	NA	211	2	1 sheet	22 x 14 cm.	1
-26	23	14	322	1	NA	211	2	1 sheet	23 x 14 cm.	1
+11	23	14	322	1	NA	211	2	1 sheet	23 x 14 cm.	1
 26	43	41	1763	1	NA	211	2	1 sheet	41 x 43 cm.	1
 12	19	13	247	1	NA	631	62	vi,55,[1]p.	8⁰.	1
 26	51	41	2091	1	NA	211	2	1 sheet	51 x 41 cm.	1
@@ -9604,7 +9604,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	121	142	[1], 129, [6] leaves	8⁰.	1
 7	28	22	616	1	NA	574	554	[4], 308, 313-316, 309-312, 317-549, [1] p.	4⁰.	1
 4	45	30	1350	1	NA	251	235	[4], [4], 7, [1], 202, [2], 218 p., [3] leaves of plates (1 folded)	2⁰.	1
-15	14	9.5	133	1	NA	115	14	[14] p.	14 cm (12⁰)	1
+15	14	10	140	1	NA	115	14	[14] p.	14 cm (12⁰)	1
 1	90	60	5400	1	NA	429	4	2 sheets (versos blank)	1.	1
 1	90	60	5400	1	NA	211	2	1 sheet ([1] p.]	1⁰.	1
 4	45	30	1350	1	NA	68	12	3 leaves ([6] p.)	1/2⁰.	1
@@ -9636,7 +9636,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	28	22	616	1	NA	612	6	[6]p.	4⁰.	1
 4	45	30	1350	1	NA	234	22	[11] leaves	2⁰.	1
 12	19	13	247	1	NA	483	458	[8], 71, 68-449, [1]p.	8⁰.	1
-15	14	9.5	133	1	NA	774	8	[8] p.	14 cm (12⁰)	1
+15	14	10	140	1	NA	774	8	[8] p.	14 cm (12⁰)	1
 7	28	22	616	1	NA	267	25	[7], 16, [1] leaves	4⁰.	1
 7	28	22	616	1	NA	22	104	[4], 100 p	4⁰.	1
 12	19	13	247	1	NA	254	238	[238] p.	8⁰.	1
@@ -11550,7 +11550,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	28	22	616	1	NA	560	54	48, 51-54 p.	4⁰.	1
 4	45	30	1350	1	NA	68	12	p. [2], 441-450	2⁰.	1
 15	19	12.5	237.5	1	NA	207	196	[8] 182, 12, [2] 48 p., [1] leaf of plates	12⁰.	1
-15	15	10	150	1	NA	207	196	[8], 175, [9] p., [2] leaves of plates	10 cm (12⁰)	1
+15	14	10	140	1	NA	207	196	[8], 175, [9] p., [2] leaves of plates	10 cm (12⁰)	1
 26	NA	NA	NA	1	NA	409	38	[8], 30 p.	NA	1
 15	19	12.5	237.5	1	NA	203	192	[8], 180, [4] p.	12⁰.	1
 7	28	22	616	1	NA	366	34	[2], 30, [2] p.	4⁰.	1
@@ -13597,7 +13597,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	285	266	[8], 256, [2] p.	8⁰.	1
 4	45	30	1350	1	NA	469	44	[2], 23 [i.e. 40], [2] p.	2⁰.	1
 7	28	22	616	1	NA	211	2	1 broadside.	4⁰.	1
-20	NA	NA	NA	1	NA	261	244	[8], 226, [6] p., [2] leaves of plates	long 24⁰.	1
+20	14	9.5	133	1	NA	261	244	[8], 226, [6] p., [2] leaves of plates	long 24⁰.	1
 26	NA	NA	NA	1	NA	889	28	[4], 24 p. ;4⁰.	NA	1
 7	28	22	616	1	NA	889	144	[16], 55, [1]; [4], 64, [4] p.	4⁰.	1
 15	19	12.5	237.5	1	NA	283	264	[12], 250, [2] p.	12⁰.	1
@@ -14645,7 +14645,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	429	4	1 v., plates (some fold.)	8⁰.	1
 7	22	18	396	1	NA	387	36	1 v.([4],32,22[i.e.24],16 p.)	22 cm (4⁰)	1
 7	27	21	567	1	NA	429	4	v., plates	27 cm (4⁰)	1
-12	16	11	176	1	NA	521	5	v.	16 cm.	1
+26	16	11	176	1	NA	521	5	v.	16 cm.	1
 4	36	24	864	1	NA	521	5	v.	36 cm (2⁰)	1
 7	33	26	858	1	NA	429	4	v., plates	33 cm (4⁰)	1
 4	30	20	600	3	NA	889	2148	3 v.	30 cm (1/2⁰)	1
@@ -14709,7 +14709,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	45	30	1350	1	NA	521	5	v.	40-51 cm (2⁰)	1
 26	NA	NA	NA	1	NA	889	2	v. ; 42 cm (2⁾	NA	1
 4	39	26	1014	1	NA	521	5	v.	39 cm (2⁾.	1
-12	20	13	260	1	NA	889	68	1 v.	20 cm.	1
+26	20	13	260	1	NA	889	2	1 v.	20 cm.	1
 12	24	15	360	5	NA	889	2066.66666666667	5 v.	24 cm (8⁰)	1
 7	25	19	475	26	NA	221	208	26 v.,(208 p.)	25 cm (4⁰)	1
 26	NA	NA	NA	1	NA	521	5	v.	21-23 cm.	1
@@ -14740,12 +14740,12 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	21	14	294	10	NA	889	4133.33333333333	10 v.	21 cm. (8⁰)	1
 12	21	14	294	69	NA	429	4	69 v.,plates	21 cm. (8⁰)	1
 12	20	13	260	5	NA	429	2066.66666666667	5 v., plates	20 cm. (8⁰)	1
-15	15	10	150	1	NA	889	162	v., plate (fol.)	15 cm (12⁰)	1
-15	17	13	221	1	NA	521	5	v.	17 cm (12⁰)	1
+15	15	11	165	1	NA	889	162	v., plate (fol.)	15 cm (12⁰)	1
+15	17	12	204	1	NA	521	5	v.	17 cm (12⁰)	1
 12	18	12	216	1	NA	889	68	1 v.	18 cm (8⁰)	1
 6	30	23	690	1	NA	521	5	v.	30 cm (long 1/4⁰)	1
-26	NA	NA	NA	104	NA	889	1456	104 v.	20-22 cm.	1
-15	16	10.5	168	1	NA	889	162	1 v.	16 cm (12⁰)	1
+26	NA	NA	NA	104	NA	889	1560	104 v.	20-22 cm.	1
+15	16	11.5	184	1	NA	889	162	1 v.	16 cm (12⁰)	1
 12	20	13	260	92	NA	889	2576	92 v.	20 cm (8⁰)	1
 4	37	25	925	1	NA	521	5	v.	37cm (2⁰)	1
 7	21	17	357	27	NA	889	216	27 v.	21 cm (4⁰)	1
@@ -14776,7 +14776,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 7	25	19	475	1	NA	521	5	v.	25 cm. (4⁰)	1
 4	30	20	600	15	NA	889	180	15 v.	30 cm. (2⁰)	1
 12	19	13	247	6	NA	429	2480	6 v., plates	20-21 cm (8⁰)	1
-26	21	14	294	15	NA	889	210	15 v.	21 cm. (8)	1
+26	21	14	294	15	NA	889	225	15 v.	21 cm. (8)	1
 26	NA	NA	NA	1	NA	521	5	v.	NA	1
 7	32	25	800	105	NA	889	840	105 v.	4⁰ (32 cm.).	1
 12	23	15	345	1	NA	429	4	v., plates	23 cm. (8⁰)	1
@@ -14802,7 +14802,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	6	NA	889	2480	6 v.	19 cm. (8⁰)	1
 12	19	13	247	1	NA	276	258	1 v. ([2],256p.)	19 cm. (8⁰)	1
 4	34	22	748	21	NA	889	252	21 v.	1/2⁰ (34 cm.)	1
-15	16	10.5	168	3	NA	889	633	3 v.	(16 cm.) 12⁰	1
+15	16	11.5	184	3	NA	889	633	3 v.	(16 cm.) 12⁰	1
 4	49	31	1519	1	NA	521	5	v.	2⁰ (49 cm.)	1
 12	19	13	247	1	NA	429	4	v., plates (some fold)	8⁰.	1
 7	28	22	616	1	NA	521	5	v.	4⁰..	1
@@ -14862,7 +14862,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	19	13	247	1	NA	429	4	v., plates, (some fold.)	8⁰.	1
 26	NA	NA	NA	1	NA	521	5	v.	8⁰; 4⁰.	1
 12	19	13	247	22	NA	889	616	22 v.	8⁰.	1
-26	NA	NA	NA	449	NA	889	6286	449 v.	2⁰; 1⁰.	1
+26	NA	NA	NA	449	NA	889	6735	449 v.	2⁰; 1⁰.	1
 12	19	13	247	7	NA	889	2893.33333333333	7 v.	8⁰.	1
 3	53	30	1590	27	NA	889	621	27 v.	sm. 2⁰.	1
 12	20	13	260	5	NA	889	2066.66666666667	5 v. (36 no.)	20 cm (8⁰)	1
@@ -15122,7 +15122,7 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 12	21	14	294	1	NA	652	646	1 v. ([2],2,450,453-459,640-484p.), plates	21 cm (8⁰)	1
 12	19	13	247	6	NA	429	2480	6 v., plates (some fold., col.)	8⁰.	1
 4	45	30	1350	58	NA	889	696	58 v.	1/2⁰.	1
-15	18	13	234	1	NA	521	5	v.	18 cm (12⁰)	1
+15	18	12	216	1	NA	521	5	v.	18 cm (12⁰)	1
 4	45	30	1350	31	NA	889	372	31 v.	1/2⁰.	1
 12	22	15	330	1	NA	429	4	v., plates	22 cm (8⁰)	1
 4	35	23	805	1	NA	521	5	v.	35 cm. (1/2⁰)	1
@@ -15138,11 +15138,11 @@ gatherings	width	height	area	volumes	parts	pages.parts	pages.total	pages.origina
 4	37	25	925	2	NA	889	1432	2 v.	37 cm. (2⁰)	1
 4	45	30	1350	1	NA	521	5	v.	39-41 cm. (2⁰)	1
 12	22	15	330	1	NA	521	5	v.	22 cm. (8⁰)	1
-15	16	10.5	168	3	NA	889	633	3 v.	16 cm (12⁰)	1
+15	16	11.5	184	3	NA	889	633	3 v.	16 cm (12⁰)	1
 12	24	15	360	1	NA	429	4	v., plates	24 cm. (8⁰)	1
 4	41	27	1107	1	NA	521	5	v.	41 cm. (2⁰)	1
-15	17.5	13	227.5	1	NA	429	4	v., plates	13 cm (12⁰)	1
-15	15	10	150	1	NA	429	4	v., plates (some fold.)	15 cm (12⁰)	1
+15	20	13	260	1	NA	429	4	v., plates	13 cm (12⁰)	1
+15	15	11	165	1	NA	429	4	v., plates (some fold.)	15 cm (12⁰)	1
 4	45	29	1305	1	NA	521	5	v.	45 cm. (2⁰)	1
 12	21	14	294	2	NA	429	826.666666666667	2 v., plates (some col.)	21 cm (8⁰)	1
 7	23	18	414	3	NA	889	24	3 v.	23 cm. (4⁰)	1
