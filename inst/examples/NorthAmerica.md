@@ -45,8 +45,14 @@ print(p)
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Warning: Removed 2 rows containing missing values (geom_point).
 ```
+
+```
+## Warning: Removed 2 rows containing missing values (geom_path).
+```
+
+![plot of chunk NAtopauth](figure/NAtopauth-1.png) 
 
 
 ## Top titles 
@@ -67,8 +73,14 @@ print(p)
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Warning: Removed 2 rows containing missing values (geom_point).
 ```
+
+```
+## Warning: Removed 2 rows containing missing values (geom_path).
+```
+
+![plot of chunk NAtoptitles](figure/NAtoptitles-1.png) 
 
 
 
@@ -82,14 +94,6 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
-## Error in publications[is.na(publications)] <- 0: object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
 ## Error in tapply(df$unity, list(df$publication.year, df$publication.place), : arguments must have same length
 ```
 
@@ -98,19 +102,7 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
-## Error in is.data.frame(x): object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
 ## Error in eval(expr, envir, enclos): object 'publications.annual' not found
-```
-
-```
-## Error in melt(publications): object 'publications' not found
 ```
 
 ```
@@ -125,9 +117,7 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dfm.annual' not found
 ```
 
-```
-## Error: Continuous value supplied to discrete scale
-```
+![plot of chunk NApubvols](figure/NApubvols-1.png) 
 
 
 

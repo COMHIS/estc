@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2015-10-24"
+date: "2015-10-28"
 output: markdown_document
 ---
 
@@ -25,9 +25,7 @@ We have 2841 documents from Scotland.
 ## Error in dfs[1:ntop, ]: incorrect number of dimensions
 ```
 
-```
-## Error: Continuous value supplied to discrete scale
-```
+![plot of chunk ScotlandTopAuth](figure/ScotlandTopAuth-1.png) 
 
 
 ## Publication timeline for top-10 authors
@@ -76,7 +74,7 @@ We have 2841 documents from Scotland.
 ## integer(0)
 ```
 
-We have 660 documents from 0 unique
+We have 49 documents from 0 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -90,21 +88,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ## Error in tapply(df$unity, list(df$publication.decade, df$publication_place), : arguments must have same length
 ```
 
-```
-## Error in publications[is.na(publications)] <- 0: object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
-## Error in melt(publications): object 'publications' not found
-```
-
-```
-## Error: Discrete value supplied to continuous scale
-```
+![plot of chunk Scotlandaveout](figure/Scotlandaveout-1.png) 
 
 
 ## Historical publication volumes for top-5 publication places in Scotland
@@ -116,33 +100,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ## Error in tapply(df$unity, list(df$publication.decade, df$publication_place), : arguments must have same length
 ```
 
-```
-## Error in publications[is.na(publications)] <- 0: object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
-## Error in is.data.frame(x): object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'top_places' not found
-```
-
-```
-## Error in melt(publications): object 'publications' not found
-```
-
-```
-## Error: Continuous value supplied to discrete scale
-```
+![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png) 
 
 
 ## Publishing in Scotland versus London 1700 
