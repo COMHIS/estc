@@ -382,6 +382,9 @@ write.table(cbind(Language = names(tab), Documents = tab), file = f, sep = "|", 
 
 ## Document size comparisons
 
+[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentdimensions-discarded.csv)
+
+
 Document size (area) info in cm2 is available for `r sum(!is.na(df$cm2))` documents (`r round(100*mean(!is.na(df$cm2)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$gatherings))` documents (`r round(100*mean(!is.na(df$gatherings)))`%). 
 
 ```{r summarysize, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
@@ -474,6 +477,7 @@ print(p)
 ```
 
 ## Average page counts 
+
 
 Multi-volume documents average page counts are given per volume.
 

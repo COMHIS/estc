@@ -27,9 +27,9 @@ print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
 # Generic handling
-x <- polish_pages(x, verbose = TRUE)$total.pages
+x2 <- polish_pages(x, verbose = TRUE)$total.pages
 # was document.pages.total
-df$pagecount <- x
+df$pagecount <- x2
 
 
 print("Publication place")
