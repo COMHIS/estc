@@ -39,8 +39,6 @@ print("Enrich author info")
 source("author.unique.R")
 source("author.gender.R")
 
-
-
 print("Approximate publication year where missing (c. 395 entries)")
 df$publication_year <- approximate_pubyear(df)
 
