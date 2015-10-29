@@ -1,14 +1,10 @@
 #' @title handle_special_cases
 #' @description Handle special cases in preprocessing
-#'
 #' @param x vector
 #' @return polished vector
-#'
 #' @export
-#' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples \dontrun{x2 <- handle_special_cases(x)}
 #' @keywords utilities
 handle_special_cases <- function (x) {

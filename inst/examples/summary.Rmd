@@ -269,6 +269,15 @@ write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|",
 
 Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication.place))` documents (`r round(100*mean(!is.na(df$publication.place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication.place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
+[Publication place counts](output.tables/publicationplaces.csv)
+
+[Publication country counts](output.tables/publicationcountries.csv)
+
+[Discarded publication places](output.tables/discarded_place.csv)
+
+[Discarded publication places](output.tables/missingcountry.csv)
+
+
 ```{r summaryplace, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 p <- top_plot(df, "publication.place", ntop)
 p <- p + ggtitle(paste("Top publication places"))
@@ -380,9 +389,19 @@ write.table(cbind(Language = names(tab), Documents = tab), file = f, sep = "|", 
 ```
 
 
+## Page counts
+
+[Converted pages](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversins.csv)
+
+[Discarded page info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentpages-discarded.csv)
+
+
+
 ## Document size comparisons
 
-[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentdimensions-discarded.csv)
+[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentdimensions_discarded.csv)
+
+[Converted dimensions](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversins.csv)
 
 
 Document size (area) info in cm2 is available for `r sum(!is.na(df$cm2))` documents (`r round(100*mean(!is.na(df$cm2)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$gatherings))` documents (`r round(100*mean(!is.na(df$gatherings)))`%). 
@@ -477,7 +496,6 @@ print(p)
 ```
 
 ## Average page counts 
-
 
 Multi-volume documents average page counts are given per volume.
 

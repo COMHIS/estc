@@ -19,10 +19,10 @@ df$publication_country <- get_country(df$publication_place)$country
 # df$publication_country.code <- country_code(df$publication_country, "country", "iso3c")
 
 print("Write missing country mappings to file")
-write.table(rev(sort(table(df$publication_place[is.na(df$publication_country)]))), file = paste(output.folder, "missingcountry.csv", sep = ""), quote = F, row.names = F, sep = "\t")
+write.table(rev(sort(table(as.character(df$publication_place)[is.na(df$publication_country)]))), file = paste(output.folder, "missingcountry.csv", sep = ""), quote = F, row.names = F, sep = "\t")
 
 print("Estimate the number of physical items for each document")
-df$document.items <- estimate_document_items(df) # # "Physical items per document"
+df$document.items <- estimate_document_items(df) # "Physical items per document"
 
 print("add manually checked pages for some documents") 
 source("add.manual.pagecounts.R")

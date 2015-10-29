@@ -1,19 +1,12 @@
 #' @title polish_publisher
 #' @description Polish publisher field
-#'
 #' @param x vector
 #' @return Polished vector
-#'
 #' @export
-#' @importFrom sorvi condense_spaces
 #' @importFrom bibliographica harmonize_print_statements
-#' @importFrom sorvi harmonize_names
-#' @details Polish publisher field. As a side operation, write the
-#' 	    polished summary data in a file
-#' 
+#' @details Polish publisher field. As a side operation, write the polished summary data in a file 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples # polish_publisher("printed and sold by R. Marchbank")
 #' @keywords utilities
 polish_publisher <- function (x) {

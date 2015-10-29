@@ -1,15 +1,11 @@
 #' @title estimate_document_parts
 #' @description Estimate document parts
-#'
 #' @param df data frame
 #' @return Vector of estimated number of parts for each document.
-#'
 #' @importFrom bibliographica polish_pages
 #' @export
-#'
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples # x <- estimate_document_parts(df)
 #' @keywords utilities
 estimate_document_parts <- function (df) {

@@ -24,14 +24,18 @@ tab <- cbind(gatherings = df$gatherings,
 	     area = df$area,
 	     volumes = df$volcount, 
              parts = df$parts, 
-	     pages.parts = df$pages_per_part, 
+	     dimensions.original = as.character(df.orig$physical_dimension)
+	     )
+tmp <- write_xtable(tab, paste(output.folder, "dimension_conversions.csv", sep = ""))
+
+tab <- cbind(
 	     pages.total = df$pagecount, 
 	     pages.original = as.character(df.orig$physical_extent),
 	     dimensions.original = as.character(df.orig$physical_dimension)
 	     )
-tmp <- write_xtable(tab, paste(output.folder, "documentsizes-estimated.csv", sep = ""))
+tmp <- write_xtable(tab, paste(output.folder, "page_conversions.csv", sep = ""))
 
 # Summarize data in file
 discarded <- as.character(df.orig$physical_dimension)[is.na(df$area)]
-tab <- write_xtable(discarded, paste(output.folder, "documentdimensions-discarded.csv", sep = ""))
+tab <- write_xtable(discarded, paste(output.folder, "documentdimensions_discarded.csv", sep = ""))
 

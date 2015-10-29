@@ -1,14 +1,10 @@
 #' @title estimate_document_items
 #' @description Estimate number of physical items for a document
-#'
 #' @param df data frame
 #' @return Vector of estimated number of items for each document.
-#'
 #' @export
-#'
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples # x <- estimate_document_items(df)
 #' @keywords utilities
 estimate_document_items <- function (df) {
