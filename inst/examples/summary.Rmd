@@ -292,8 +292,7 @@ print(paste("Complete counts in file:", f))
 write.table(cbind(Place = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
 
 f <- "output.tables/publicationcountries.csv"
-print(paste("Complete counts in file:", f))
-tab <- rev(sort(table(as.character(df$publication.country))))
+tab <- rev(sort(table(as.character(df$publication_country))))
 write.table(cbind(Country = names(tab), Documents = tab), file = f, sep = ",", quote = F, row.names = F)
 ```
 
