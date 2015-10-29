@@ -6939,6 +6939,15 @@ Top-50 geographical places that the documents are associated with. Geography inf
 
 Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 93.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
+[Publication place counts](output.tables/publicationplaces.csv)
+
+[Publication country counts](output.tables/publicationcountries.csv)
+
+[Discarded publication places](output.tables/discarded_place.csv)
+
+[Discarded publication places](output.tables/missingcountry.csv)
+
+
 
 ```
 ## Error in dfs[1:ntop, ]: incorrect number of dimensions
@@ -7037,9 +7046,19 @@ The 21 unique languages are shown together with the number of documents. This in
 ```
 
 
+## Page counts
+
+[Converted pages](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversins.csv)
+
+[Discarded page info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentpages-discarded.csv)
+
+
+
 ## Document size comparisons
 
-[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentdimensions-discarded.csv)
+[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentdimensions_discarded.csv)
+
+[Converted dimensions](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversins.csv)
 
 
 Document size (area) info in cm2 is available for 0 documents (NaN%). Estimates of document size (area) info in gatherings system are available for 50280 documents (100%). 
@@ -7079,7 +7098,6 @@ Compare original gatherings and original heights where both are available. The p
 
 ## Average page counts 
 
-
 Multi-volume documents average page counts are given per volume.
 
 
@@ -7087,25 +7105,22 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
 |1to           |             2.482848|                      2|        4238|                  NA|                    NA|         NA|         10.43590|                  8|      39|
 |bs            |             2.000000|                      2|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|2long         |             3.739130|                      2|          24|                  NA|                    NA|         NA|         23.00000|                 23|       1|
+|2long         |             7.714286|                      5|           8|                  NA|                    NA|         NA|         23.00000|                 23|       1|
 |2fo           |            59.664904|                      4|       11951|            724.6260|              716.0000|         46|         16.84833|                 12|    1945|
-|2small        |             2.000000|                      2|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4long         |             3.000000|                      2|          10|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|4long         |             5.000000|                      5|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |4to           |            43.552127|                     12|       16625|            411.6667|              439.0000|         27|         15.87098|                  8|   12192|
 |8long         |             2.000000|                      2|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |8vo           |           143.376409|                     68|       11609|            406.3343|              413.3333|        181|         28.45869|                 28|    3813|
-|12long        |            48.428571|                     24|          14|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
+|12long        |            52.000000|                     24|          13|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
 |12mo          |           184.079578|                    162|        3024|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
-|16long        |             2.000000|                      2|           3|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|16mo          |           155.357143|                    106|          86|                  NA|                    NA|         NA|         28.50000|                 24|      16|
-|18mo          |           150.564103|                    146|          39|            172.0000|              172.0000|          1|         41.00000|                 41|       2|
+|16mo          |           147.842697|                     91|          91|                  NA|                    NA|         NA|         28.58824|                 24|      17|
+|18mo          |           146.850000|                    145|          40|            172.0000|              172.0000|          1|         41.00000|                 41|       2|
 |24long        |           244.000000|                    244|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |24mo          |           193.525000|                    181|          43|                  NA|                    NA|          2|         23.27273|                 24|      11|
 |32mo          |           179.333333|                    193|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |48mo          |           128.000000|                    128|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|84to          |             4.000000|                      4|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|NA            |            16.492525|                      2|        2435|                  NA|                    NA|         NA|         18.83715|                 15|     393|
+|NA            |            16.304151|                      2|        2460|                  NA|                    NA|         NA|         18.80867|                 15|     392|
 
 
 
@@ -7174,21 +7189,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart9144fb6e683&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart64565effff1c&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart9144fb6e683()
+      drawchart64565effff1c()
     });
-    function drawchart9144fb6e683(){  
+    function drawchart64565effff1c(){  
       var opts = {
- &quot;dom&quot;: &quot;chart9144fb6e683&quot;,
+ &quot;dom&quot;: &quot;chart64565effff1c&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart9144fb6e683&quot; 
+&quot;id&quot;: &quot;chart64565effff1c&quot; 
 },
         data = [
  {
@@ -7339,7 +7354,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart9144fb6e683'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart64565effff1c'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
