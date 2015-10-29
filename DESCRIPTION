@@ -17,11 +17,11 @@ URL: http://ropengov.github.com/estc
 Depends:
     R (>= 3.0.2),
     stringr,
-    bibliographica
+    bibliographica,
+    sorvi
 Imports:
     ggplot2,
-    dplyr,
-    sorvi
+    dplyr
 Suggests:
     knitr,
     rmarkdown

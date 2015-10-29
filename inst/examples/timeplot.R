@@ -1,7 +1,7 @@
 # Compare to overall publication stats
 # 1470 - 1790
 library(gdata)
-pubstat <- read.xls("data/Copy\ of\ simons-ESTC-1477-1800.xlsx")
+pubstat <- read.xls("data/Simons-ESTC-1477-1800.xlsx")
 
 # Remove duplicated titles
 tmp <- df[, c("publication_year", "title")]

@@ -1,11 +1,5 @@
 # Download geonames data (city coordinates etc)
 geonames <- get_geonames("cities1000", tempdir())
-geon <- geonames[, c("name", "asciiname", "alternatenames")]
-gs <- geonames[, c("asciiname", "alternatenames")]
-names(gs) <- c("name", "synonymes")
-source("funcs.R")
-geon <- synonyme_list2df(gs, sep = ",", include.lowercase = TRUE)
-
 
 # Match publication places to geonames
 # First match all based on asciiname, then name, only then synonymes.

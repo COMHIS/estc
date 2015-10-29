@@ -6,6 +6,7 @@
 #'
 #' @export
 #' @importFrom sorvi harmonize_names
+#' @importFrom sorvi check_synonymes
 #' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
@@ -14,6 +15,11 @@
 #' @keywords utilities
 match_geonames <- function (places, geonames) {
 
+  gs <- geonames[, c("asciiname", "alternatenames")]
+  names(gs) <- c("name", "synonymes")
+  geon <- synonyme_list2df(gs, sep = ",", include.lowercase = TRUE)
+  #geon <- geonames[, c("name", "asciiname", "alternatenames")]
+  
   places.geonames <- c()
 
   for (place in places) {
@@ -52,3 +58,33 @@ match_geonames <- function (places, geonames) {
   places.geonames
 
 }
+
+
+
+synonyme_list2df <- function (synonyme.list, sep = ",", include.lowercase = FALSE) { 
+
+  require(sorvi)
+
+  # conversion function that can convert comma separated synonyme lists into data frame
+
+  # synonyme.list is a data.frame with two fields:
+  # name: proper name
+  # synonymes: synonymes separated by the sep argument
+  
+  # Generate a synonyme list for synonyme.list 
+  alternates <- lapply(as.character(synonyme.list$synonymes), function (x) {strsplit(x, split = sep)})
+  names(alternates) <- as.character(synonyme.list$name)
+  
+  sdf <- do.call("rbind", sapply(names(alternates), function (nam) {
+      	   cbind(rep(nam, length(unlist(alternates[[nam]]))), unlist(alternates[[nam]]))}))
+  sdf <- unique(sdf)
+
+  colnames(sdf) <- c("name", "synonyme")
+  sdf <- as.data.frame(sdf)
+  
+  # Polish the synonyme list (remove duplicates, add self-synonymes etc.)
+  sdf <- check_synonymes(sdf, include.lowercase = include.lowercase)
+
+  sdf
+}
+
