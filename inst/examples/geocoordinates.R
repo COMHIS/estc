@@ -12,6 +12,7 @@ geon <- synonyme_list2df(gs, sep = ",", include.lowercase = TRUE)
 # Otherwise too many mismatches with identical city names from different
 # continents
 places <- sort(as.character(unique(df$publication_place)))
+library(estc)
 places.geonames <- match_geonames(places)
 save(places.geonames, file = "places.geonames.RData")
 
