@@ -105,7 +105,9 @@ Should also add living year information from supporting sources later.
 |         |first                       |last                                                 |years                    |
 |:--------|:---------------------------|:----------------------------------------------------|:------------------------|
 |1        |bollan                      |william                                              |1776-1776)               |
+|2        |NA (1741-1810)              |NA                                                   |NA                       |
 |3        |calonne                     |charles alexandre de                                 |1734-1802)               |
+|3.1      |NA (NA-NA)                  |NA                                                   |NA                       |
 |1.1      |davila                      |arrigo caterino                                      |1576-1631)               |
 |3.2      |benson                      |george                                               |1699-1762)               |
 |3.3      |cobbett                     |william                                              |1763-1835)               |
@@ -115,11 +117,13 @@ Should also add living year information from supporting sources later.
 |3.7      |arbuthnot                   |john                                                 |1667-1735)               |
 |3.8      |gibbon                      |edward                                               |1737-1794)               |
 |3.9      |curtius                     |marcus                                               |NA-NA)                   |
+|3.14     |NA (1625-1625)              |NA                                                   |NA                       |
 |3.18     |dummer                      |jeremiah                                             |1681-1739)               |
 |3.19     |washington                  |george                                               |1732-1799)               |
 |1.3      |stuart                      |gilbert                                              |1742-1786)               |
 |3.25     |robinson                    |john                                                 |1650-1723)               |
 |3.26     |staal                       |marguerite-jeanne                                    |1684-1750)               |
+|3.27     |NA (1673-1742)              |NA                                                   |NA                       |
 |4.2      |dumouriez                   |charles françois du périer                           |1739-1823)               |
 |3.28     |ramsay                      |james                                                |1733-1789)               |
 |1.4      |king                        |william                                              |1685-1763)               |
@@ -146,11 +150,14 @@ Should also add living year information from supporting sources later.
 |1.10     |clark                       |james                                                |1660-1723)               |
 |3.62     |davenant                    |charles                                              |1656-1714)               |
 |3.64     |justinus                    |marcus junianus                                      |NA-NA)                   |
+|4.6      |NA (NA-  30)                |NA                                                   |NA                       |
 |3.66     |wylie                       |robert                                               |NA-NA)                   |
 |3.68     |tone                        |william henry                                        |1802-1802)               |
 |3.69     |budgell                     |eustace                                              |1686-1737)               |
+|4.7      |NA (1694-1778)              |NA                                                   |NA                       |
 |3.71     |sprat                       |thomas                                               |1635-1713)               |
 |4.8      |wesley                      |john                                                 |1703-1791)               |
+|7        |NA (1537-1553)              |NA                                                   |NA                       |
 |3.72     |bentley                     |thomas                                               |1775-1819)               |
 |3.74     |brecknock                   |timothy                                              |1786-1786)               |
 |1.14     |humphreys                   |david                                                |1752-1818)               |
@@ -172,6 +179,7 @@ Should also add living year information from supporting sources later.
 |1.20     |relhan                      |anthony                                              |1715-1776)               |
 |3.90     |moody                       |james                                                |1744-1809)               |
 |3.91     |gillan                      |john                                                 |1735-1735)               |
+|9        |NA (1685-1740)              |NA                                                   |NA                       |
 |3.95     |haywood                     |eliza fowler                                         |1693-1756)               |
 |4.10     |price                       |richard                                              |1723-1791)               |
 |3.96     |guibert                     |jacques antoine hippolyte                            |1743-1790)               |
@@ -184,15 +192,20 @@ Should also add living year information from supporting sources later.
 |3.104    |johnson                     |william                                              |1760-1845)               |
 |3.106    |loftus                      |smyth                                                |1707-1707)               |
 |3.108    |coke                        |edward                                               |1552-1634)               |
+|3.109    |NA (1713-1796)              |NA                                                   |NA                       |
 |1.23     |almon                       |john                                                 |1737-1805)               |
+|3.117    |NA (1651-1705)              |NA                                                   |NA                       |
 |3.119    |wagstaffe                   |william                                              |1685-1725)               |
 |1.24     |beaver                      |john                                                 |NA-NA)                   |
+|3.122    |NA (1712-1786)              |NA                                                   |NA                       |
 |3.125    |hill                        |rowland                                              |1744-1833)               |
 |3.126    |adamson                     |j                                                    |NA-NA)                   |
 |4.13     |buchanan                    |george                                               |1506-1582)               |
 |10       |fox                         |charles james                                        |1749-1806)               |
 |10.1     |jones                       |william                                              |1726-1800)               |
 |3.135    |orr                         |robert                                               |NA-NA)                   |
+|3.138    |NA (1754-1793)              |NA                                                   |NA                       |
+|5.8      |NA (1664-1721)              |NA                                                   |NA                       |
 |3.141    |robinson                    |christopher                                          |1713-1713)               |
 |5.9      |james                       |elinor                                               |1645-1719)               |
 |3.142    |ceva                        |tommaso                                              |1648-1737)               |
@@ -237,11 +250,13 @@ Should also add living year information from supporting sources later.
 |3.208    |whitefield                  |george                                               |1714-1770)               |
 |3.210    |rolt                        |richard                                              |1725-1770)               |
 |1.37     |price                       |francis                                              |1753-1753)               |
+|3.212    |NA (1749-1800)              |NA                                                   |NA                       |
 |4.29     |penn                        |william                                              |1644-1718)               |
 |3.214    |berkeley                    |george                                               |1685-1753)               |
 |3.216    |caldwell                    |james                                                |1784-1784)               |
 |3.217    |lunardi                     |vincent                                              |1759-1806)               |
 |3.218    |kennett                     |white                                                |1660-1728)               |
+|3.220    |NA (1755-1793)              |NA                                                   |NA                       |
 |3.223    |hancocke                    |john                                                 |1728-1728)               |
 |3.224    |watson                      |richard                                              |1737-1816)               |
 |3.226    |tone                        |theobald wolfe                                       |1763-1798)               |
@@ -267,6 +282,7 @@ Should also add living year information from supporting sources later.
 |1.54     |playfair                    |william                                              |1759-1823)               |
 |3.267    |stuart                      |c                                                    |1794-1794)               |
 |4.42     |blair                       |hugh                                                 |1718-1800)               |
+|4.43     |NA (1632-1725)              |NA                                                   |NA                       |
 |4.44     |clarke                      |john                                                 |1755-1798)               |
 |3.268    |robertson                   |william                                              |1721-1793)               |
 |3.272    |priestley                   |joseph                                               |1733-1804)               |
@@ -284,6 +300,7 @@ Should also add living year information from supporting sources later.
 |4.55     |savage                      |james                                                |1767-1845)               |
 |4.56     |hume                        |david                                                |1560-1630)               |
 |1.59     |kirkton                     |james                                                |1628-1699)               |
+|4.57     |NA (1655-1735)              |NA                                                   |NA                       |
 |3.289    |cunningham                  |t                                                    |1789-1789)               |
 |3.290    |charlevoix                  |pierre-françois-xavier de                            |1682-1761)               |
 |3.293    |bigot de sainte-croix       |louis claude                                         |1744-1803)               |
@@ -312,6 +329,8 @@ Should also add living year information from supporting sources later.
 |4.67     |jones                       |john                                                 |active during 1786-1827) |
 |3.341    |sewel                       |william                                              |1653-1720)               |
 |6.79     |clarke                      |samuel                                               |1599-1682)               |
+|4.68     |NA (1755-1794)              |NA                                                   |NA                       |
+|4.69     |NA (1714-1794)              |NA                                                   |NA                       |
 |6.80     |wright                      |james                                                |1643-1713)               |
 |3.348    |hare                        |francis                                              |1671-1740)               |
 |3.349    |robe                        |james                                                |1688-1753)               |
@@ -342,6 +361,7 @@ Should also add living year information from supporting sources later.
 |3.377    |kennett                     |basil                                                |1674-1715)               |
 |3.382    |pictet                      |françois pierre                                      |NA-NA)                   |
 |3.384    |necker                      |jacques                                              |1732-1804)               |
+|4.78     |NA (1663-1719)              |NA                                                   |NA                       |
 |4.80     |campe                       |joachim heinrich                                     |1746-1818)               |
 |3.386    |jenings                     |edmund                                               |1731-1819)               |
 |3.393    |burgoyne                    |john                                                 |1722-1792)               |
@@ -359,6 +379,7 @@ Should also add living year information from supporting sources later.
 |1.76     |williams                    |joseph                                               |NA-NA)                   |
 |3.417    |johnston                    |robert                                               |1567-1639)               |
 |3.419    |chabannes                   |joseph-gaspard-gilbert de                            |1702-1767)               |
+|3.421    |NA (1748-1789)              |NA                                                   |NA                       |
 |3.422    |christie                    |thomas                                               |1761-1796)               |
 |1.78     |cameron                     |andrew                                               |NA-NA)                   |
 |4.85     |lockman                     |john                                                 |1698-1771)               |
@@ -375,6 +396,7 @@ Should also add living year information from supporting sources later.
 |3.445    |smith                       |matthew                                              |1696-1696)               |
 |3.447    |rhudd                       |john                                                 |NA-NA)                   |
 |3.448    |noble                       |daniel                                               |1729-1783)               |
+|3.451    |NA (1649-1733)              |NA                                                   |NA                       |
 |3.461    |huske                       |ellis                                                |1700-1755)               |
 |3.462    |williams                    |john                                                 |1791-1791)               |
 |3.463    |ferguson                    |adam                                                 |1723-1816)               |
@@ -388,6 +410,7 @@ Should also add living year information from supporting sources later.
 |1.90     |burney                      |charles                                              |1726-1814)               |
 |3.479    |mathison                    |thomas                                               |1721-1760)               |
 |3.481    |stevenson                   |william                                              |1683-1760)               |
+|3.484    |NA (1759-1809)              |NA                                                   |NA                       |
 |5.26     |swift                       |jonathan                                             |1667-1745)               |
 |1.91     |cleeve                      |bourchier                                            |1715-1760)               |
 |3.487    |thom                        |william                                              |1710-1790)               |
@@ -403,6 +426,7 @@ Should also add living year information from supporting sources later.
 |4.102    |shakespeare                 |william                                              |1564-1616)               |
 |3.502    |manstein                    |cristof hermann                                      |1711-1757)               |
 |4.107    |linguet                     |simon nicolas henri                                  |1736-1794)               |
+|4.108    |NA (1670-1730)              |NA                                                   |NA                       |
 |3.503    |post                        |christian frederick                                  |1710-1785)               |
 |3.504    |anquetil                    |louis-pierre                                         |1723-1806)               |
 |3.505    |wraxall                     |nathaniel william                                    |1751-1831)               |
@@ -416,7 +440,10 @@ Should also add living year information from supporting sources later.
 |3.513    |lally-tolendal              |trophime-gérard                                      |1751-1830)               |
 |3.514    |speke                       |hugh                                                 |1656-1724)               |
 |3.515    |shaveblock                  |pasquin                                              |NA-NA)                   |
+|3.517    |NA (1744-1818)              |NA                                                   |NA                       |
 |3.518    |bassi                       |m                                                    |NA-NA)                   |
+|3.520    |NA ( 331- 363)              |NA                                                   |NA                       |
+|3.521    |NA (1740-1800)              |NA                                                   |NA                       |
 |3.522    |ivernois                    |francis d'                                           |1757-1842)               |
 |3.527    |gifford                     |john                                                 |1758-1818)               |
 |3.531    |malcolm                     |alexander                                            |1685-1763)               |
@@ -449,6 +476,7 @@ Should also add living year information from supporting sources later.
 |3.571    |oriel                       |john foster                                          |1740-1828)               |
 |6.92     |atterbury                   |francis                                              |1662-1732)               |
 |1.105    |awbrey                      |timothy                                              |1674-1674)               |
+|4.122    |NA (1639-1692)              |NA                                                   |NA                       |
 |3.572    |smedley                     |jonathan                                             |1671-1729)               |
 |1.106    |stephens                    |henry                                                |1673-1739)               |
 |3.574    |gordon                      |thomas                                               |1750-1750)               |
@@ -456,6 +484,7 @@ Should also add living year information from supporting sources later.
 |3.581    |meanwell                    |j                                                    |NA-NA)                   |
 |3.582    |ashe                        |george                                               |1658-1718)               |
 |3.586    |broome                      |ralph                                                |1805-1805)               |
+|3.588    |NA (1745-1833)              |NA                                                   |NA                       |
 |4.125    |otway                       |thomas                                               |1652-1685)               |
 |3.593    |boissy d'anglas             |françois antoine                                     |1756-1826)               |
 |3.605    |shippen                     |william                                              |1673-1743)               |
@@ -466,6 +495,7 @@ Should also add living year information from supporting sources later.
 |3.614    |murray                      |james                                                |1732-1782)               |
 |4.127    |barbé-marbois               |françois                                             |1745-1837)               |
 |3.616    |crull                       |j                                                    |1713-1713)               |
+|3.617    |NA (1803-1803)              |NA                                                   |NA                       |
 |3.618    |renwick                     |william                                              |1740-1814)               |
 |3.621    |erskine                     |john                                                 |1721-1803)               |
 |3.625    |shipley                     |jonathan                                             |1714-1788)               |
@@ -484,10 +514,12 @@ Should also add living year information from supporting sources later.
 |1.116    |black                       |william                                              |1745-1745)               |
 |4.136    |bussy                       |roger de rabutin                                     |1618-1693)               |
 |3.666    |fleetwood                   |william                                              |1656-1723)               |
+|3.667    |NA (1607-1686)              |NA                                                   |NA                       |
 |3.670    |pinkerton                   |john                                                 |1758-1826)               |
 |3.671    |carter                      |landon                                               |1710-1778)               |
 |3.673    |smith                       |william                                              |NA-NA)                   |
 |3.674    |blackburn                   |j                                                    |1762-1762)               |
+|6.97     |NA (1661-1725)              |NA                                                   |NA                       |
 |3.679    |oates                       |titus                                                |1649-1705)               |
 |6.99     |ware                        |james                                                |1594-1666)               |
 |3.683    |morgan                      |thomas                                               |1743-1743)               |
@@ -520,6 +552,7 @@ Should also add living year information from supporting sources later.
 |3.747    |chauvet                     |d                                                    |NA-NA)                   |
 |3.748    |varlo                       |charles                                              |1795-1795)               |
 |3.750    |grenville                   |william wyndham                                      |1759-1834)               |
+|3.751    |NA (1799-1799)              |NA                                                   |NA                       |
 |3.752    |mountmorres of castlemorres |hervey redmond morres                                |1746-1797)               |
 |3.753    |pulteney                    |william                                              |1684-1764)               |
 |4.153    |rogers                      |robert                                               |1731-1795)               |
@@ -551,6 +584,7 @@ Should also add living year information from supporting sources later.
 |4.167    |sancho                      |ignatius                                             |1729-1780)               |
 |4.168    |collyer                     |mary                                                 |1763-1763)               |
 |3.802    |leland                      |john                                                 |1691-1766)               |
+|3.804    |NA (1737-1807)              |NA                                                   |NA                       |
 |3.807    |bligh                       |reginald                                             |NA-NA)                   |
 |1.135    |addison                     |joseph                                               |1672-1719)               |
 |3.808    |chandler                    |edward                                               |1668-1750)               |
@@ -575,6 +609,7 @@ Should also add living year information from supporting sources later.
 |4.188    |whatley                     |stephen                                              |1712-1741)               |
 |3.852    |boulainvilliers             |henri                                                |1658-1722)               |
 |3.854    |guiscard                    |antoine                                              |1658-1711)               |
+|4.191    |NA (1749-1814)              |NA                                                   |NA                       |
 |1.143    |cambridge                   |richard owen                                         |1717-1802)               |
 |6.123    |keating                     |geoffrey                                             |1570-1644)               |
 |3.859    |m'mahon                     |thomas o'brien                                       |NA-NA)                   |
@@ -587,6 +622,7 @@ Should also add living year information from supporting sources later.
 |3.878    |stephens                    |william                                              |1671-1753)               |
 |3.879    |townsend                    |horatio                                              |1793-1793)               |
 |3.880    |sykes                       |arthur ashley                                        |1684-1756)               |
+|3.882    |NA (1726-1785)              |NA                                                   |NA                       |
 |4.196    |frowde                      |philip                                               |1738-1738)               |
 |4.197    |ussher                      |james                                                |1720-1772)               |
 |4.200    |castellion                  |sébastien                                            |1515-1563)               |
@@ -594,6 +630,7 @@ Should also add living year information from supporting sources later.
 |3.894    |lewis                       |john                                                 |1675-1747)               |
 |4.201    |luckombe                    |philip                                               |1803-1803)               |
 |3.895    |danican                     |auguste                                              |1764-1848)               |
+|3.896    |NA (1670-1742)              |NA                                                   |NA                       |
 |3.898    |harris                      |john                                                 |1667-1719)               |
 |3.899    |notcutt                     |william                                              |1672-1756)               |
 |3.900    |châlons                     |vincent-claude                                       |1642-1694)               |
@@ -611,6 +648,7 @@ Should also add living year information from supporting sources later.
 |4.210    |vertot                      |abbé de                                              |1655-1735)               |
 |1.159    |mascov                      |johann jakob                                         |1689-1761)               |
 |3.930    |ellis                       |john                                                 |1768-1768)               |
+|4.212    |NA (1690-1757)              |NA                                                   |NA                       |
 |3.933    |hunter                      |john                                                 |1738-1821)               |
 |4.214    |dilworth                    |w h                                                  |NA-NA)                   |
 |6.141    |tindal                      |n                                                    |1687-1774)               |
@@ -626,6 +664,7 @@ Should also add living year information from supporting sources later.
 |1.163    |arniston                    |robert dundas                                        |1713-1787)               |
 |3.953    |watson-taylor               |george                                               |1841-1841)               |
 |4.223    |newton                      |john                                                 |1725-1807)               |
+|4.224    |NA (1635-1719)              |NA                                                   |NA                       |
 |6.147    |gibson                      |edmund                                               |1669-1748)               |
 |4.225    |adams                       |john                                                 |1735-1826)               |
 |3.971    |taaffe                      |dennis                                               |1743-1813)               |
@@ -645,6 +684,7 @@ Should also add living year information from supporting sources later.
 |1.171    |dalrymple                   |john                                                 |1726-1810)               |
 |4.232    |fairfax                     |thomas                                               |1612-1671)               |
 |4.233    |welwood                     |james                                                |1652-1727)               |
+|3.987    |NA (1744-1836)              |NA                                                   |NA                       |
 |3.988    |bushe                       |charles kendal                                       |1767-1843)               |
 |3.990    |kames                       |henry home                                           |1696-1782)               |
 |3.994    |gilbert                     |thomas                                               |1720-1798)               |
@@ -709,6 +749,7 @@ Should also add living year information from supporting sources later.
 |3.1123   |cooper                      |myles                                                |1737-1785)               |
 |1.202    |dirom                       |alexander                                            |1830-1830)               |
 |3.1132   |louvet de couvray           |jean-baptiste                                        |1760-1797)               |
+|3.1140   |NA (1727-1775)              |NA                                                   |NA                       |
 |1.204    |lowth                       |thomas henry                                         |1754-1778)               |
 |3.1142   |titus                       |silius                                               |1623-1704)               |
 |3.1145   |collis                      |thomas                                               |1679-1745)               |
@@ -717,6 +758,7 @@ Should also add living year information from supporting sources later.
 |3.1149   |blanch                      |john                                                 |1650-1650)               |
 |6.170    |monson                      |william                                              |1569-1643)               |
 |3.1150   |cockings                    |george                                               |1802-1802)               |
+|6.171    |NA (1614-1687)              |NA                                                   |NA                       |
 |3.1154   |tindal                      |matthew                                              |1653-1733)               |
 |16.1     |steel                       |david                                                |NA-NA)                   |
 |1.211    |findlater                   |william                                              |NA-NA)                   |
@@ -730,6 +772,7 @@ Should also add living year information from supporting sources later.
 |1.215    |whately                     |thomas                                               |1772-1772)               |
 |4.308    |challoner                   |richard                                              |1691-1781)               |
 |3.1183   |newcastle                   |thomas pelham-holles                                 |1693-1768)               |
+|3.1184   |NA (1763-1763)              |NA                                                   |NA                       |
 |1.219    |gill                        |john                                                 |1697-1771)               |
 |4.313    |allen                       |charles                                              |1793-1793)               |
 |4.316    |arnold                      |charles henry                                        |NA-NA)                   |
@@ -776,11 +819,13 @@ Should also add living year information from supporting sources later.
 |3.1294   |muncaster                   |john pennington                                      |1737-1813)               |
 |3.1295   |northcote                   |william                                              |1783-1783)               |
 |6.275    |mulford                     |samuel                                               |NA-NA)                   |
+|1.236    |NA (1720-1788)              |NA                                                   |NA                       |
 |3.1297   |nicholls                    |william                                              |1664-1712)               |
 |1.239    |macallester                 |oliver                                               |NA-NA)                   |
 |5.77     |reede-ginckel               |godard                                               |1644-1703)               |
 |3.1301   |cumberland                  |richard                                              |1732-1811)               |
 |1.240    |trent                       |william                                              |1715-1787)               |
+|3.1305   |NA (1790-1791)              |NA                                                   |NA                       |
 |3.1306   |colborne                    |robert                                               |1753-1753)               |
 |3.1309   |tennent                     |john                                                 |1710-1748)               |
 |3.1311   |buckingham                  |john sheffield                                       |1721-1721)               |
@@ -819,6 +864,7 @@ Should also add living year information from supporting sources later.
 |4.383    |johnstone                   |george                                               |1730-1787)               |
 |3.1433   |grange                      |james erskine                                        |1679-1754)               |
 |1.268    |smith                       |thomas                                               |1638-1710)               |
+|1.269    |NA (1754-1833)              |NA                                                   |NA                       |
 |3.1436   |russell                     |william                                              |1741-1793)               |
 |1.270    |warren                      |robert                                               |1680-1740)               |
 |1.271    |warner                      |ferdinando                                           |1703-1768)               |
@@ -838,6 +884,7 @@ Should also add living year information from supporting sources later.
 |4.386    |smith                       |charlotte turner                                     |1749-1806)               |
 |3.1471   |boyse                       |samuel                                               |1708-1749)               |
 |1.279    |ferguson                    |robert                                               |1714-1714)               |
+|4.391    |NA (1746-1792)              |NA                                                   |NA                       |
 |4.392    |troughton                   |thomas                                               |NA-NA)                   |
 |1.280    |collinson                   |john                                                 |1757-1793)               |
 |4.394    |thomas                      |simon                                                |1743-1743)               |
@@ -866,6 +913,7 @@ Should also add living year information from supporting sources later.
 |5.103    |sacheverell                 |henry                                                |1674-1724)               |
 |3.1531   |polesworth                  |humphry                                              |NA-NA)                   |
 |3.1532   |henry                       |robert                                               |1718-1790)               |
+|3.1534   |NA ( 673- 735)              |NA                                                   |NA                       |
 |1.292    |bower                       |archibald                                            |1686-1766)               |
 |10.63    |bernard                     |edward                                               |1638-1696)               |
 |3.1538   |berthollet                  |claude-louis                                         |1748-1822)               |
@@ -883,6 +931,8 @@ Should also add living year information from supporting sources later.
 |1.295    |pegge                       |samuel                                               |1704-1796)               |
 |3.1575   |burchett                    |josiah                                               |1666-1746)               |
 |4.419    |crouch                      |nathaniel                                            |1632-1725)               |
+|3.1578   |NA (1762-1762)              |NA                                                   |NA                       |
+|9.11     |NA (1745-1745)              |NA                                                   |NA                       |
 |6.378    |russel                      |william augustus                                     |NA-NA)                   |
 |7.2      |dyke                        |joseph                                               |NA-NA)                   |
 |5.113    |beilby                      |ralph                                                |1744-1817)               |
@@ -941,6 +991,7 @@ Should also add living year information from supporting sources later.
 |3.1609   |houstoun                    |james                                                |1690-1690)               |
 |1.308    |barbaro                     |daniel                                               |1514-1570)               |
 |9.58     |dibdin                      |charles                                              |1745-1814)               |
+|5.208    |NA (1653-1708)              |NA                                                   |NA                       |
 |5.215    |rowley                      |joshua                                               |1730-1790)               |
 |1.310    |dennis                      |john                                                 |1657-1734)               |
 |3.1612   |collins                     |arthur                                               |1682-1760)               |
@@ -960,9 +1011,11 @@ Should also add living year information from supporting sources later.
 |1.586    |abbot                       |george                                               |1562-1633)               |
 |1.587    |gray                        |william                                              |1649-1649)               |
 |3.1738   |bate                        |george                                               |1608-1669)               |
+|1.591    |NA (1619-1682)              |NA                                                   |NA                       |
 |3.1740   |woofe                       |abraham                                              |NA-NA)                   |
 |6.705    |mather                      |cotton                                               |1663-1728)               |
 |4.454    |barrow                      |isaac                                                |1630-1677)               |
+|1.595    |NA (1613-1703)              |NA                                                   |NA                       |
 |6.706    |ingelo                      |nathaniel                                            |1621-1683)               |
 |1.599    |mountrath                   |charles coote                                        |1610-1661)               |
 |3.1741   |aickin                      |joseph                                               |NA-NA)                   |
@@ -970,10 +1023,13 @@ Should also add living year information from supporting sources later.
 |6.707    |strada                      |famiano                                              |1572-1649)               |
 |3.1743   |northleigh                  |john                                                 |1657-1705)               |
 |6.708    |charleton                   |walter                                               |1619-1707)               |
+|4.455    |NA (1633-1701)              |NA                                                   |NA                       |
 |3.1745   |leti                        |gregorio                                             |1630-1701)               |
 |1.604    |monmouth                    |james scott                                          |1649-1685)               |
 |6.710    |hawles                      |john                                                 |1645-1716)               |
+|1.607    |NA (1648-1648)              |NA                                                   |NA                       |
 |1.609    |bristol                     |george digby                                         |1612-1677)               |
+|6.711    |NA (1629-1696)              |NA                                                   |NA                       |
 |3.1746   |rapin                       |rené                                                 |1621-1687)               |
 |1.611    |bagshaw                     |edward                                               |1662-1662)               |
 |1.612    |ram                         |robert                                               |1657-1657)               |
@@ -1027,9 +1083,11 @@ Should also add living year information from supporting sources later.
 |6.729    |vega                        |garcilaso de la                                      |1539-1616)               |
 |6.731    |bedloe                      |william                                              |1650-1680)               |
 |1.708    |harley                      |edward                                               |1624-1700)               |
+|4.462    |NA (  39-  65)              |NA                                                   |NA                       |
 |1.712    |bishop                      |george                                               |1668-1668)               |
 |1.715    |leicester                   |robert sidney                                        |1595-1677)               |
 |1.717    |eustace                     |sir maurice                                          |1590-1661)               |
+|1.718    |NA (1689-1689)              |NA                                                   |NA                       |
 |1.719    |robinson                    |john                                                 |???NA-NA)                |
 |1.720    |jordan                      |thomas                                               |1612-1685)               |
 |1.724    |mackenzie                   |george                                               |1636-1691)               |
@@ -1054,6 +1112,7 @@ Should also add living year information from supporting sources later.
 |1.764    |holland                     |henry rich                                           |1590-1649)               |
 |1.771    |morgan                      |edward                                               |1642-1642)               |
 |1.772    |jameson                     |william                                              |1689-1720)               |
+|4.465    |NA ( 450- 450)              |NA                                                   |NA                       |
 |1.774    |shadforth                   |thomas                                               |NA-NA)                   |
 |1.775    |avery                       |j                                                    |NA-NA)                   |
 |1.777    |browne                      |thomas                                               |NA-NA)                   |
@@ -1085,6 +1144,7 @@ Should also add living year information from supporting sources later.
 |1.846    |ley                         |john                                                 |1583-1662)               |
 |5.336    |thun und hohenstein         |frantz siegmund                                      |1639-1702)               |
 |1.849    |bennet                      |isaac                                                |NA-NA)                   |
+|3.1768   |NA (1600-1649)              |NA                                                   |NA                       |
 |3.1769   |leigh                       |edward                                               |1602-1671)               |
 |3.1770   |maimbourg                   |louis                                                |1610-1686)               |
 |1.858    |jenkins                     |david                                                |1582-1663)               |
@@ -1170,6 +1230,7 @@ Should also add living year information from supporting sources later.
 |1.1041   |harrison                    |john                                                 |1698-1698)               |
 |1.1043   |percy                       |henry                                                |1659-1659)               |
 |3.1792   |coke                        |roger                                                |1696-1696)               |
+|3.1793   |NA (1683-1683)              |NA                                                   |NA                       |
 |1.1048   |hannay                      |robert                                               |NA-NA)                   |
 |1.1049   |bristol                     |john digby                                           |1580-1654)               |
 |1.1050   |coleman                     |thomas                                               |1598-1647)               |
@@ -1182,12 +1243,14 @@ Should also add living year information from supporting sources later.
 |3.1796   |martin                      |                                                     |1719-1719)               |
 |1.1063   |price                       |john                                                 |???NA-NA)                |
 |1.1069   |castlemaine                 |roger palmer                                         |1634-1705)               |
+|3.1799   |NA (1147-1147)              |NA                                                   |NA                       |
 |1.1071   |griffith                    |alexander                                            |1690-1690)               |
 |1.1073   |holles                      |denzil                                               |1599-1680)               |
 |6.796    |king                        |daniel                                               |1664-1664)               |
 |6.797    |sanders                     |jonathan                                             |NA-NA)                   |
 |1.1086   |cokayne                     |john                                                 |NA-NA)                   |
 |1.1088   |blount                      |charles                                              |1654-1693)               |
+|3.1801   |NA (1639-1723)              |NA                                                   |NA                       |
 |1.1095   |browne                      |john                                                 |1580-1659)               |
 |3.1802   |doddridge                   |john                                                 |1555-1628)               |
 |1.1096   |vaughan                     |robert                                               |1592-1667)               |
@@ -1240,6 +1303,7 @@ Should also add living year information from supporting sources later.
 |1.1213   |dey                         |richard                                              |NA-NA)                   |
 |1.1215   |richards                    |jacob                                                |1660-1701)               |
 |6.816    |argyll                      |archibald campbell                                   |1598-1661)               |
+|6.817    |NA (1611-1689)              |NA                                                   |NA                       |
 |1.1231   |fenwicke                    |john                                                 |1670-1670)               |
 |1.1235   |byfield                     |adoniram                                             |1660-1660)               |
 |3.1816   |guillet de saint-georges    |georges                                              |1625-1705)               |
@@ -1281,6 +1345,7 @@ Should also add living year information from supporting sources later.
 |1.1325   |canne                       |john                                                 |1667-1667)               |
 |1.1326   |kem                         |samuel                                               |1604-1670)               |
 |1.1333   |hughes                      |george                                               |1603-1667)               |
+|3.1832   |NA ( 340- 340)              |NA                                                   |NA                       |
 |1.1340   |burrough                    |edward                                               |1634-1662)               |
 |6.834    |hughes                      |john                                                 |1677-1720)               |
 |1.1345   |monmouth                    |henry carey                                          |1596-1661)               |
@@ -1293,6 +1358,7 @@ Should also add living year information from supporting sources later.
 |1.1360   |browne                      |john                                                 |NA-NA)                   |
 |3.1837   |flecknoe                    |richard                                              |1678-1678)               |
 |1.1367   |parsons                     |ralph                                                |NA-NA)                   |
+|3.1839   |NA (1634-1706)              |NA                                                   |NA                       |
 |3.1840   |ludlow                      |edmund                                               |1617-1692)               |
 |5.380    |carlisle                    |james hay                                            |1612-1660)               |
 |1.1376   |marshall                    |stephen                                              |1594-1655)               |
@@ -1337,6 +1403,7 @@ Should also add living year information from supporting sources later.
 |1.1473   |mather                      |richard                                              |1596-1669)               |
 |1.1477   |hooker                      |thomas                                               |1586-1647)               |
 |1.1479   |meldrum                     |john                                                 |1645-1645)               |
+|3.1853   |NA ( 373- 463)              |NA                                                   |NA                       |
 |208.13   |courtilz de sandras         |gatien                                               |1644-1712)               |
 |3.1854   |ricraft                     |josiah                                               |1645-1679)               |
 |1.1489   |middleton                   |john                                                 |1619-1674)               |
@@ -1428,6 +1495,7 @@ Should also add living year information from supporting sources later.
 |1.1729   |andrews                     |thomas                                               |NA-NA)                   |
 |6.902    |ogilby                      |john                                                 |1600-1676)               |
 |1.1733   |burgine                     |darby                                                |NA-NA)                   |
+|1.1735   |NA (1653-1653)              |NA                                                   |NA                       |
 |1.1736   |bowen                       |william                                              |NA-NA)                   |
 |1.1739   |goring                      |george                                               |1608-1657)               |
 |1.1740   |massy                       |isaac                                                |1586-1586)               |
@@ -1447,6 +1515,7 @@ Should also add living year information from supporting sources later.
 |6.909    |stanley                     |thomas                                               |1625-1678)               |
 |6.910    |gell                        |robert                                               |1595-1665)               |
 |1.1784   |basill                      |william                                              |NA-NA)                   |
+|3.1895   |NA (1675-1754)              |NA                                                   |NA                       |
 |1.1788   |fagel                       |gaspar                                               |1634-1688)               |
 |4.482    |torshell                    |samuel                                               |1604-1650)               |
 |3.1897   |sheridan                    |thomas                                               |1688-1688)               |
@@ -1471,15 +1540,18 @@ Should also add living year information from supporting sources later.
 |6.914    |marvell                     |andrew                                               |1621-1678)               |
 |1.1842   |case                        |thomas                                               |1598-1682)               |
 |1.1845   |ollyffe                     |john                                                 |1647-1717)               |
+|3.1901   |NA (1694-1694)              |NA                                                   |NA                       |
 |1.1847   |webster                     |john                                                 |1610-1682)               |
 |1.1848   |anderson                    |george                                               |NA-NA)                   |
 |1.1849   |godefroy                    |jacques                                              |1587-1652)               |
+|1.1850   |NA (1566-1625)              |NA                                                   |NA                       |
 |1.1853   |grascome                    |samuel                                               |1641-1708)               |
 |1.1854   |strong                      |leonard                                              |NA-NA)                   |
 |1.1855   |strutton                    |richard                                              |NA-NA)                   |
 |1.1856   |darcy                       |patrick                                              |1598-1668)               |
 |1.1860   |wagstaffe                   |thomas                                               |1645-1712)               |
 |315.4    |gailhard                    |j                                                    |NA-NA)                   |
+|3.1902   |NA ( 122- 122)              |NA                                                   |NA                       |
 |1.1863   |salwey                      |arthur                                               |1606-1606)               |
 |1.1866   |belwood                     |thomas                                               |NA-NA)                   |
 |6.916    |savile                      |henry                                                |1642-1687)               |
@@ -1489,9 +1561,11 @@ Should also add living year information from supporting sources later.
 |3.1904   |palmer                      |thomas                                               |1620-1620)               |
 |1.1891   |wallis                      |ralph                                                |1669-1669)               |
 |3.1906   |beaumont                    |john                                                 |NA-NA)                   |
+|1.1896   |NA (1625-1680)              |NA                                                   |NA                       |
 |6.920    |travers                     |jacob                                                |NA-NA)                   |
 |208.15   |chevalier                   |pierre                                               |NA-NA)                   |
 |1.1916   |strickland                  |robert                                               |1600-1670)               |
+|3.1908   |NA (1604-1657)              |NA                                                   |NA                       |
 |1.1927   |mcward                      |robert                                               |1633-1687)               |
 |6.922    |rycaut                      |paul                                                 |1628-1700)               |
 |1.1936   |whitelocke                  |james                                                |1570-1632)               |
@@ -1501,6 +1575,7 @@ Should also add living year information from supporting sources later.
 |1.1951   |beckham                     |edward                                               |1638-1714)               |
 |1.1953   |marsh                       |john                                                 |1742-1821)               |
 |1.1954   |walker                      |george                                               |1645-1690)               |
+|1.1955   |NA (1609-1669)              |NA                                                   |NA                       |
 |6.927    |sprigg                      |joshua                                               |1618-1684)               |
 |10.157   |hamilton                    |william                                              |1616-1651)               |
 |1.1957   |newcomen                    |matthew                                              |1610-1669)               |
@@ -1546,6 +1621,7 @@ Should also add living year information from supporting sources later.
 |1.2053   |douglas                     |robert                                               |1594-1674)               |
 |6.948    |mariana                     |juan de                                              |1536-1624)               |
 |1.2067   |bethel                      |slingsby                                             |1617-1697)               |
+|10.162   |NA (1650-1702)              |NA                                                   |NA                       |
 |1.2080   |penington                   |isaac                                                |1616-1679)               |
 |1.2081   |collier                     |jeremy                                               |1650-1726)               |
 |1.2083   |robinson                    |william                                              |NA-NA)                   |
@@ -1600,8 +1676,10 @@ Should also add living year information from supporting sources later.
 |6.972    |boys                        |william                                              |1735-1803)               |
 |1.2274   |mocket                      |thomas                                               |1602-1670)               |
 |1.2277   |braddon                     |laurence                                             |1724-1724)               |
+|1.2279   |NA (1584-1647)              |NA                                                   |NA                       |
 |1.2281   |buchanan                    |david                                                |1595-1652)               |
 |1.2282   |smith                       |john                                                 |NA-NA)                   |
+|4.490    |NA ( 320- 320)              |NA                                                   |NA                       |
 |1.2284   |benningfield                |w                                                    |NA-NA)                   |
 |3.1936   |stubbe                      |henry                                                |1632-1676)               |
 |1.2287   |johnson                     |richard                                              |1573-1659)               |
@@ -1681,6 +1759,7 @@ Should also add living year information from supporting sources later.
 |1.2535   |cotton                      |john                                                 |1584-1652)               |
 |6.1010   |petty                       |william                                              |1623-1687)               |
 |6.1011   |greene                      |richard                                              |NA-NA)                   |
+|208.22   |NA (1553-1615)              |NA                                                   |NA                       |
 |1.2542   |ogle                        |thomas                                               |1671-1671)               |
 |1.2545   |wardlace                    |james                                                |NA-NA)                   |
 |1.2548   |pickering                   |robert                                               |NA-NA)                   |
@@ -1747,9 +1826,11 @@ Should also add living year information from supporting sources later.
 |1.2806   |montrose                    |james graham                                         |1612-1650)               |
 |3.1984   |vincent                     |thomas                                               |1634-1678)               |
 |1.2809   |philips                     |robert                                               |1650-1650)               |
+|3.1986   |NA (1680-1702)              |NA                                                   |NA                       |
 |1.2820   |alured                      |thomas                                               |NA-NA)                   |
 |6.1040   |denton                      |william                                              |1605-1691)               |
 |3.1988   |ainsworth                   |william                                              |1671-1671)               |
+|6.1041   |NA (1660-1660)              |NA                                                   |NA                       |
 |3.1990   |dellon                      |gabriel                                              |1649-1649)               |
 |1.2841   |hales                       |john                                                 |1584-1656)               |
 |1.2843   |martin                      |richard                                              |1570-1618)               |
@@ -1784,6 +1865,7 @@ Should also add living year information from supporting sources later.
 |1.2918   |waller                      |edmund                                               |1606-1687)               |
 |6.1049   |lisola                      |françois paul                                        |1613-1674)               |
 |1.2921   |forbes                      |alexander                                            |1672-1672)               |
+|3.2002   |NA (1624-1696)              |NA                                                   |NA                       |
 |1.2928   |comber                      |thomas                                               |1645-1699)               |
 |1.2933   |cooke                       |edward                                               |1684-1684)               |
 |1.2934   |barkstead                   |john                                                 |1662-1662)               |
@@ -1797,6 +1879,7 @@ Should also add living year information from supporting sources later.
 |1.2974   |herbert                     |thomas                                               |1597-1642)               |
 |1.2981   |farmer                      |jacob                                                |NA-NA)                   |
 |1.2987   |udall                       |ephraim                                              |1647-1647)               |
+|3.2005   |NA (1155-1237)              |NA                                                   |NA                       |
 |1.3006   |saywell                     |william                                              |1643-1701)               |
 |4.518    |brooks                      |francis                                              |NA-NA)                   |
 |1.3008   |rogers                      |nathaniel                                            |1598-1655)               |
@@ -1849,6 +1932,7 @@ Should also add living year information from supporting sources later.
 |1.3141   |barber                      |edward                                               |1674-1674)               |
 |1.3142   |behn                        |aphra                                                |1640-1689)               |
 |1.3143   |bell                        |john                                                 |1763-1820)               |
+|1.3144   |NA ( 430- 430)              |NA                                                   |NA                       |
 |1.3146   |chudleigh                   |james                                                |1643-1643)               |
 |258.26   |comenius                    |johann amos                                          |1592-1670)               |
 |3.2030   |touchet                     |anselm                                               |1689-1689)               |
@@ -1872,6 +1956,7 @@ Should also add living year information from supporting sources later.
 |1.3197   |danforth                    |samuel                                               |1626-1674)               |
 |3.2043   |hennepin                    |louis                                                |NA-NA)                   |
 |1.3206   |backhouse                   |robert                                               |1645-1645)               |
+|3.2046   |NA (1607-1607)              |NA                                                   |NA                       |
 |1.3221   |fairfax                     |henry                                                |1634-1702)               |
 |6.1113   |rouse                       |john                                                 |1683-1683)               |
 |3.2048   |bos                         |lambert van den                                      |1610-1698)               |
@@ -1881,6 +1966,7 @@ Should also add living year information from supporting sources later.
 |1.3234   |paget                       |thomas                                               |1660-1660)               |
 |4.528    |allington                   |john                                                 |1682-1682)               |
 |1.3237   |home                        |james                                                |1666-1666)               |
+|1.3239   |NA (1595-1675)              |NA                                                   |NA                       |
 |6.1118   |devonshire                  |william cavendish                                    |1640-1707)               |
 |4.530    |garencières                 |theophilus                                           |1610-1680)               |
 |1.3252   |lovelace                    |francis                                              |1594-1664)               |
@@ -1907,6 +1993,7 @@ Should also add living year information from supporting sources later.
 |1.3292   |battie                      |john                                                 |NA-NA)                   |
 |4.533    |scot                        |philip                                               |NA-NA)                   |
 |1.3298   |keith                       |george                                               |1639-1716)               |
+|1.3319   |NA (1630-1685)              |NA                                                   |NA                       |
 |3.2064   |colet                       |john                                                 |1467-1519)               |
 |6.1131   |cox                         |richard                                              |1650-1733)               |
 |1.3326   |winyard                     |thomas                                               |NA-NA)                   |
@@ -1925,6 +2012,7 @@ Should also add living year information from supporting sources later.
 |15.48    |heydon                      |j                                                    |NA-NA)                   |
 |1.3379   |beale                       |thomas                                               |NA-NA)                   |
 |3.2070   |barlow                      |thomas                                               |1607-1691)               |
+|1.3383   |NA (1646-1699)              |NA                                                   |NA                       |
 |6.1138   |cobb                        |samuel                                               |1675-1713)               |
 |1.3395   |conset                      |john                                                 |1673-1673)               |
 |1.3399   |ashhurst                    |william                                              |1617-1680)               |
@@ -1946,7 +2034,9 @@ Should also add living year information from supporting sources later.
 |1.3491   |cockburn                    |john                                                 |1652-1729)               |
 |258.37   |copley                      |lionel                                               |NA-NA)                   |
 |1.3495   |du moulin                   |peter                                                |1601-1684)               |
+|1.3517   |NA (1620-1688)              |NA                                                   |NA                       |
 |1.3518   |goodwin                     |john                                                 |1594-1665)               |
+|4.547    |NA (1640-1640)              |NA                                                   |NA                       |
 |4.548    |heinsius                    |daniel                                               |1580-1655)               |
 |3.2099   |rich                        |jeremiah                                             |1660-1660)               |
 |3.2100   |hooper                      |george                                               |1640-1727)               |
@@ -1991,6 +2081,7 @@ Should also add living year information from supporting sources later.
 |4.555    |préchac                     |jean de                                              |1647-1720)               |
 |1.3662   |gerbier                     |balthazar                                            |1592-1667)               |
 |1.3663   |le white                    |thomas                                               |NA-NA)                   |
+|1.3665   |NA (1665-1665)              |NA                                                   |NA                       |
 |1.3667   |marten                      |henry                                                |1602-1680)               |
 |258.46   |melish                      |stephen                                              |NA-NA)                   |
 |258.47   |spanheim                    |friedrich                                            |1632-1701)               |
@@ -1999,6 +2090,7 @@ Should also add living year information from supporting sources later.
 |1.3676   |clift                       |samuel                                               |NA-NA)                   |
 |1.3677   |bury                        |john                                                 |NA-NA)                   |
 |1.3700   |wilson                      |h                                                    |NA-NA)                   |
+|1.3706   |NA (1636-1700)              |NA                                                   |NA                       |
 |15.76    |dowdall                     |henry                                                |NA-NA)                   |
 |5.606    |d'urfey                     |thomas                                               |1653-1723)               |
 |1.3740   |fowke                       |john                                                 |1662-1662)               |
@@ -2016,6 +2108,7 @@ Should also add living year information from supporting sources later.
 |1.3812   |hunton                      |samuel                                               |NA-NA)                   |
 |4.564    |garbutt                     |richard                                              |NA-NA)                   |
 |6.1213   |gibbon                      |john                                                 |1629-1718)               |
+|1.3817   |NA (1640-1712)              |NA                                                   |NA                       |
 |15.85    |gilbert                     |thomas                                               |1613-1694)               |
 |1.3828   |manby                       |peter                                                |1697-1697)               |
 |3.2138   |price                       |john                                                 |1625-1691)               |
@@ -2047,6 +2140,7 @@ Should also add living year information from supporting sources later.
 |1.3921   |bisbie                      |nathaniel                                            |1635-1695)               |
 |1.3925   |byron                       |john                                                 |1599-1652)               |
 |6.1241   |congreve                    |william                                              |1670-1729)               |
+|1.3926   |NA (1640-1705)              |NA                                                   |NA                       |
 |3.2162   |rutherford                  |samuel                                               |1600-1661)               |
 |1.3936   |wray                        |john                                                 |1586-1655)               |
 |15.97    |wright                      |william                                              |1659-1659)               |
@@ -2140,6 +2234,7 @@ Should also add living year information from supporting sources later.
 |1.4239   |milward                     |matthias                                             |1603-1641)               |
 |1.4247   |browne                      |richard                                              |1602-1669)               |
 |6.1301   |dugdale                     |stephen                                              |1640-1683)               |
+|1.4254   |NA (1608-1657)              |NA                                                   |NA                       |
 |1.4268   |dallison                    |charles                                              |1669-1669)               |
 |1.4270   |glapthorne                  |henry                                                |NA-NA)                   |
 |1.4274   |damon                       |john                                                 |NA-NA)                   |
@@ -2165,6 +2260,7 @@ Should also add living year information from supporting sources later.
 |4.593    |deageant                    |guichard                                             |1645-1645)               |
 |1.4330   |creamor                     |thomas                                               |NA-NA)                   |
 |1.4332   |andrewes                    |r                                                    |NA-NA)                   |
+|4.594    |NA (1478-1535)              |NA                                                   |NA                       |
 |1.4342   |berkshire                   |charles howard                                       |1615-1679)               |
 |6.1321   |montanus                    |arnoldus                                             |1625-1683)               |
 |258.70   |proast                      |jonas                                                |NA-NA)                   |
@@ -2194,6 +2290,7 @@ Should also add living year information from supporting sources later.
 |6.1338   |chauncy                     |henry                                                |1632-1719)               |
 |3.2243   |burton                      |william                                              |1609-1657)               |
 |6.1341   |suckling                    |john                                                 |1609-1642)               |
+|4.598    |NA (1660-1694)              |NA                                                   |NA                       |
 |6.1343   |d'anvers                    |alicia                                               |NA-NA)                   |
 |6.1348   |smith                       |francis                                              |1657-1689)               |
 |1.4446   |du moulin                   |pierre                                               |1568-1658)               |
@@ -2221,6 +2318,7 @@ Should also add living year information from supporting sources later.
 |1.4521   |weldon                      |anthony                                              |1649-1649)               |
 |1.4522   |warren                      |george                                               |NA-NA)                   |
 |1.4526   |carre                       |james                                                |NA-NA)                   |
+|1.4529   |NA ( 230- 230)              |NA                                                   |NA                       |
 |10.300   |saunders                    |thomas                                               |NA-NA)                   |
 |3.2265   |abercromby                  |david                                                |1702-1702)               |
 |3.2266   |priolo                      |benjamin                                             |1602-1667)               |
@@ -2242,6 +2340,7 @@ Should also add living year information from supporting sources later.
 |1.4633   |swanley                     |richard                                              |1650-1650)               |
 |6.1387   |thomas                      |john                                                 |NA-NA)                   |
 |1.4646   |raleigh                     |george                                               |1600-1600)               |
+|4.603    |NA ( 516- 570)              |NA                                                   |NA                       |
 |1.4652   |sadler                      |anthony                                              |1610-1610)               |
 |1.4655   |baltimore                   |george calvert                                       |1580-1632)               |
 |1.4658   |owen                        |william                                              |NA-NA)                   |
@@ -2283,16 +2382,19 @@ Should also add living year information from supporting sources later.
 |6.1419   |russell                     |william                                              |1639-1683)               |
 |1.4807   |farrar                      |richard                                              |NA-NA)                   |
 |1.4813   |loyd                        |morgan                                               |NA-NA)                   |
+|3.2301   |NA (1634-1693)              |NA                                                   |NA                       |
 |1.4822   |crawford                    |ludovic lindsay                                      |1600-1652)               |
 |6.1424   |scheffer                    |johannes                                             |1621-1679)               |
 |1.4829   |beamount                    |thomas                                               |NA-NA)                   |
 |1.4832   |stewart                     |william                                              |1647-1647)               |
 |1.4837   |geree                       |stephen                                              |1594-1656)               |
+|1.4839   |NA (1649-1649)              |NA                                                   |NA                       |
 |5.758    |poseley                     |m                                                    |NA-NA)                   |
 |1.4850   |praed                       |john                                                 |NA-NA)                   |
 |6.1428   |halifax                     |charles montagu                                      |1661-1715)               |
 |1.4854   |nutt                        |thomas                                               |NA-NA)                   |
 |1.4857   |gayton                      |edmund                                               |1608-1666)               |
+|3.2305   |NA (1604-1698)              |NA                                                   |NA                       |
 |1.4865   |butler                      |samuel                                               |1612-1680)               |
 |1.4870   |gorges                      |ferdinando                                           |1556-1647)               |
 |3.2307   |langbaine                   |gerard                                               |1656-1692)               |
@@ -2359,6 +2461,7 @@ Should also add living year information from supporting sources later.
 |1.5142   |bedford                     |samuel                                               |NA-NA)                   |
 |1.5148   |hopkinson                   |james                                                |1645-1645)               |
 |1.5156   |lluelyn                     |martin                                               |1616-1682)               |
+|1.5158   |NA (1615-1648)              |NA                                                   |NA                       |
 |1.5175   |browne                      |thomas                                               |1604-1673)               |
 |1.5180   |laugharne                   |rowland                                              |1676-1676)               |
 |1.5198   |thompson                    |william                                              |1649-1649)               |
@@ -2391,6 +2494,7 @@ Should also add living year information from supporting sources later.
 |5.801    |musgrave                    |mary                                                 |1636-1664)               |
 |1.5394   |grenville                   |richard                                              |1600-1658)               |
 |1.5406   |burrell                     |andrewes                                             |NA-NA)                   |
+|4.620    |NA (1500-1558)              |NA                                                   |NA                       |
 |1.5409   |hansard                     |william                                              |NA-NA)                   |
 |1.5417   |benbrigge                   |john                                                 |NA-NA)                   |
 |1.5427   |webbe                       |thomas                                               |NA-NA)                   |
@@ -2578,6 +2682,7 @@ Should also add living year information from supporting sources later.
 |1.6944   |fisher                      |peter                                                |1648-1648)               |
 |1.6953   |jones                       |robert                                               |NA-NA)                   |
 |1.6960   |maynard                     |john                                                 |1602-1690)               |
+|1.6973   |NA (1660-1685)              |NA                                                   |NA                       |
 |1.6984   |el                          |m                                                    |1648-1648)               |
 |1.6988   |burdet                      |john                                                 |NA-NA)                   |
 |1.7037   |hyde                        |henry                                                |1606-1651)               |
@@ -2590,6 +2695,7 @@ Should also add living year information from supporting sources later.
 |1.7102   |hewit                       |john                                                 |1614-1658)               |
 |1.7110   |jurin                       |john                                                 |NA-NA)                   |
 |1.7156   |calver                      |edward                                               |1649-1649)               |
+|1.7173   |NA (1573-1652)              |NA                                                   |NA                       |
 |1.7188   |culmer                      |richard                                              |1662-1662)               |
 |1.7191   |awdeley                     |lewis                                                |NA-NA)                   |
 |1.7198   |adis                        |henry                                                |NA-NA)                   |
@@ -2615,6 +2721,7 @@ Should also add living year information from supporting sources later.
 |1.7459   |hill                        |miles                                                |NA-NA)                   |
 |1.7476   |chidley                     |samuel                                               |NA-NA)                   |
 |9.87     |strange                     |jacob                                                |NA-NA)                   |
+|1.7489   |NA (1626-1689)              |NA                                                   |NA                       |
 |1.7490   |lardner                     |james                                                |1670-1670)               |
 |1.7493   |cowling                     |nicholas                                             |NA-NA)                   |
 |1.7504   |hartley                     |william                                              |NA-NA)                   |
@@ -2690,12 +2797,14 @@ Should also add living year information from supporting sources later.
 |1.8002   |williamson                  |r                                                    |1653-1653)               |
 |1.8005   |sá                           |pantaleão                                             |1654-1654)               |
 |1.8006   |clarke                      |frances                                              |NA-NA)                   |
+|1.8009   |NA (1609-1670)              |NA                                                   |NA                       |
 |1.8010   |harrington                  |james                                                |1611-1677)               |
 |1.8011   |penruddock                  |john                                                 |1619-1655)               |
 |1.8016   |waller                      |hardress                                             |1604-1666)               |
 |1.8019   |fielder                     |john                                                 |NA-NA)                   |
 |1.8031   |shapcott                    |robert                                               |NA-NA)                   |
 |1.8038   |heaman                      |roger                                                |NA-NA)                   |
+|1.8043   |NA (1666-1666)              |NA                                                   |NA                       |
 |1.8046   |croke                       |unton                                                |NA-NA)                   |
 |1.8057   |crisp                       |henry                                                |NA-NA)                   |
 |1.8058   |howsegoe                    |thomas                                               |NA-NA)                   |
@@ -2711,6 +2820,7 @@ Should also add living year information from supporting sources later.
 |1.8119   |gery                        |william                                              |NA-NA)                   |
 |1.8143   |tichborne                   |robert                                               |1682-1682)               |
 |1.8152   |cranwell                    |luke                                                 |1628-1683)               |
+|1.8171   |NA (1622-1660)              |NA                                                   |NA                       |
 |1.8191   |brégy                       |charlotte saumaise de chazan                         |1619-1693)               |
 |10.370   |whetham                     |nathaniel                                            |1694-1694)               |
 |3.2411   |wharton                     |george                                               |1596-1672)               |
@@ -2726,9 +2836,11 @@ Should also add living year information from supporting sources later.
 |3.2426   |apollonius                  |willem                                               |1603-1657)               |
 |3.2427   |spanheim                    |friedrich                                            |1600-1649)               |
 |1.8250   |smith                       |william                                              |1660-1686)               |
+|4.645    |NA (1617-1617)              |NA                                                   |NA                       |
 |3.2429   |postlethwaite               |walter                                               |1671-1671)               |
 |3.2430   |martini                     |martino                                              |1614-1661)               |
 |1.8256   |cooper                      |thomas                                               |NA-NA)                   |
+|3.2434   |NA (1492-1549)              |NA                                                   |NA                       |
 |3.2435   |channel                     |elinor                                               |NA-NA)                   |
 |1.8262   |bramstone                   |j                                                    |NA-NA)                   |
 |1.8264   |leach                       |edmund                                               |NA-NA)                   |
@@ -2766,6 +2878,7 @@ Should also add living year information from supporting sources later.
 |1.8332   |fary                        |john                                                 |NA-NA)                   |
 |3.2498   |clerke                      |gilbert                                              |1626-1697)               |
 |3.2499   |dauncey                     |john                                                 |1633-1633)               |
+|5.890    |NA (1665-1714)              |NA                                                   |NA                       |
 |1.8339   |scudder                     |henry                                                |1659-1659)               |
 |1.8346   |church                      |thomas                                               |1639-1718)               |
 |1.8349   |bridges                     |w                                                    |1600-1670)               |
@@ -2842,6 +2955,7 @@ Should also add living year information from supporting sources later.
 |5.1692   |caddy                       |william                                              |NA-NA)                   |
 |5.1702   |philpot                     |thomas                                               |NA-NA)                   |
 |5.1706   |dendy                       |edward                                               |NA-NA)                   |
+|10.688   |NA ( 466- 511)              |NA                                                   |NA                       |
 |5.1708   |rupert                      |count palatine                                       |1619-1682)               |
 |5.1713   |barker                      |john                                                 |1708-1748)               |
 |5.1715   |starbuck                    |william                                              |NA-NA)                   |
@@ -2854,6 +2968,7 @@ Should also add living year information from supporting sources later.
 |1.8434   |charleton                   |job                                                  |1614-1697)               |
 |5.1810   |waersegger                  |abraham                                              |NA-NA)                   |
 |1.8439   |purefoy                     |george                                               |NA-NA)                   |
+|1.8446   |NA (1645-1645)              |NA                                                   |NA                       |
 |5.1830   |herbert of cherbury         |edward                                               |1633-1678)               |
 |1.8453   |innes                       |james                                                |NA-NA)                   |
 |1.8456   |vaughan                     |charles                                              |NA-NA)                   |
@@ -2899,6 +3014,7 @@ Should also add living year information from supporting sources later.
 |10.792   |cosin                       |john                                                 |1594-1672)               |
 |1.8701   |millington                  |edward                                               |1703-1703)               |
 |5.1974   |eliot                       |george                                               |NA-NA)                   |
+|5.1976   |NA (1642-1693)              |NA                                                   |NA                       |
 |6.1904   |carew                       |george                                               |NA-NA)                   |
 |5.1978   |richards                    |james                                                |1685-1685)               |
 |1.8721   |cole                        |william                                              |1616-1698)               |
@@ -2916,6 +3032,7 @@ Should also add living year information from supporting sources later.
 |9.102    |thompson                    |henry                                                |NA-NA)                   |
 |3.2548   |feyens                      |jean                                                 |1585-1585)               |
 |5.2002   |guillims                    |george                                               |NA-NA)                   |
+|10.839   |NA (1533-1603)              |NA                                                   |NA                       |
 |10.843   |williams                    |roger                                                |???NA-NA)                |
 |1.8776   |gardener                    |henry                                                |1629-1629)               |
 |5.2026   |geōrgarinēs                   |iōsēph                                                 |NA-NA)                   |
@@ -2945,6 +3062,7 @@ Should also add living year information from supporting sources later.
 |1.8855   |hedworth                    |john                                                 |NA-NA)                   |
 |1.8856   |elmeston                    |john                                                 |NA-NA)                   |
 |1.8857   |lloyd                       |lodowick                                             |1573-1610)               |
+|15.119   |NA (1503-1566)              |NA                                                   |NA                       |
 |6.1961   |ramsay                      |thomas                                               |1631-1631)               |
 |1.8867   |jacob                       |john                                                 |1598-1666)               |
 |5.2048   |taubman                     |matthew                                              |1690-1690)               |
@@ -2956,6 +3074,7 @@ Should also add living year information from supporting sources later.
 |1.8891   |harold                      |thomas                                               |NA-NA)                   |
 |3.2579   |raymond                     |george                                               |NA-NA)                   |
 |4.715    |sheppard                    |william                                              |1675-1675)               |
+|6.1972   |NA (1596-1667)              |NA                                                   |NA                       |
 |3.2583   |pontier                     |gédéon                                                 |1709-1709)               |
 |6.1977   |marsham                     |john                                                 |1602-1685)               |
 |1.8910   |ross                        |alexander                                            |1647-1720)               |
@@ -3039,6 +3158,7 @@ Should also add living year information from supporting sources later.
 |10.965   |derby                       |william george richard stanley                       |1655-1702)               |
 |4.769    |graile                      |edmond                                               |1577-1577)               |
 |1.9368   |gardiner                    |robert                                               |1649-1649)               |
+|4.770    |NA (1705-1705)              |NA                                                   |NA                       |
 |3.2663   |groeneveldt                 |jan                                                  |1647-1710)               |
 |3.2664   |grybius                     |johannes                                             |NA-NA)                   |
 |1.9373   |ryck                        |de                                                   |NA-NA)                   |
@@ -3107,6 +3227,7 @@ Should also add living year information from supporting sources later.
 |5.2504   |pierson                     |t                                                    |NA-NA)                   |
 |15.166   |poyntz                      |john                                                 |1606-1606)               |
 |6.2284   |tavernier                   |jean-baptiste                                        |1605-1689)               |
+|3.2748   |NA (1610-1693)              |NA                                                   |NA                       |
 |3.2749   |watson                      |john                                                 |1597-1597)               |
 |1.9674   |willes                      |john                                                 |1647-1700)               |
 |1.9679   |baston                      |samuel                                               |NA-NA)                   |
@@ -3115,6 +3236,7 @@ Should also add living year information from supporting sources later.
 |258.108  |claridge                    |richard                                              |1649-1723)               |
 |1.9707   |clement                     |simon                                                |NA-NA)                   |
 |1.9714   |borfet                      |abiel                                                |NA-NA)                   |
+|10.1311  |NA (1656-1656)              |NA                                                   |NA                       |
 |15.176   |bromley                     |richard                                              |NA-NA)                   |
 |1.9736   |duckett                     |thomas                                               |NA-NA)                   |
 |6.2310   |eames                       |john                                                 |NA-NA)                   |
@@ -3122,6 +3244,7 @@ Should also add living year information from supporting sources later.
 |6.2311   |jones                       |james                                                |1683-1684)               |
 |10.1369  |killigrew                   |william                                              |1606-1695)               |
 |6.2313   |leech                       |benjamin                                             |NA-NA)                   |
+|6.2318   |NA (1727-1727)              |NA                                                   |NA                       |
 |6.2326   |mathew                      |john                                                 |NA-NA)                   |
 |1.9765   |baudouin                    |françois                                              |1520-1573)               |
 |1.9771   |owen                        |david                                                |1623-1623)               |
@@ -3203,6 +3326,7 @@ Should also add living year information from supporting sources later.
 |6.2452   |argyll                      |archibald campbell earl of                           |1629-1685)               |
 |3.2848   |barbaro                     |francesco                                            |1398-1454)               |
 |3.2849   |glanius                     |w                                                    |NA-NA)                   |
+|15.400   |NA (1567-1622)              |NA                                                   |NA                       |
 |1.10074  |holdsworth                  |richard                                              |1590-1649)               |
 |1.10095  |shaftesbury                 |anthony ashly cooper                                 |1621-1683)               |
 |5.2778   |mcgrigor                    |evan                                                 |NA-NA)                   |
@@ -3267,6 +3391,7 @@ Should also add living year information from supporting sources later.
 |1.10421  |munday                      |anthony                                              |1553-1633)               |
 |5.3092   |burhams                     |john                                                 |NA-NA)                   |
 |6.2644   |lothian                     |robert kerr                                          |1636-1703)               |
+|6.2648   |NA (1610-1691)              |NA                                                   |NA                       |
 |1.10462  |barlow                      |william                                              |1613-1613)               |
 |1.10481  |delme                       |jean                                                 |NA-NA)                   |
 |5.3127   |robinson                    |tancred                                              |1748-1748)               |
@@ -3274,6 +3399,7 @@ Should also add living year information from supporting sources later.
 |5.3130   |lane                        |thomas                                               |1652-1709)               |
 |320.9    |leslie                      |john                                                 |1527-1596)               |
 |1.10533  |cassini                     |giovanni domenico                                    |1625-1712)               |
+|1.10542  |NA (1698-1698)              |NA                                                   |NA                       |
 |1.10545  |harr                        |jo                                                   |NA-NA)                   |
 |10.2051  |davis                       |nicolas                                              |NA-NA)                   |
 |10.2063  |morton                      |robert                                               |1670-1670)               |
@@ -3300,6 +3426,7 @@ Should also add living year information from supporting sources later.
 |1.10783  |lambert                     |thomas                                               |1616-1694)               |
 |6.2757   |hatt                        |martha arundel                                       |NA-NA)                   |
 |5.3239   |hamilton                    |richard                                              |1717-1717)               |
+|1.10798  |NA (1226-1286)              |NA                                                   |NA                       |
 |10.2197  |cobb                        |william                                              |1628-1695)               |
 |10.2198  |dutton                      |richard                                              |1694-1694)               |
 |5.3248   |fleetwood                   |richard                                              |NA-NA)                   |
@@ -3334,6 +3461,7 @@ Should also add living year information from supporting sources later.
 |10.2276  |waite                       |thomas                                               |NA-NA)                   |
 |3.2999   |wadsworth                   |james                                                |1572-1623)               |
 |5.3320   |waddel                      |john                                                 |NA-NA)                   |
+|5.3328   |NA (1666-1732)              |NA                                                   |NA                       |
 |1.10883  |gogh                        |michiel van                                          |NA-NA)                   |
 |5.3334   |vaughan                     |thomas                                               |1669-1696)               |
 |3.3005   |tyso                        |john                                                 |1700-1700)               |
@@ -3368,10 +3496,13 @@ Should also add living year information from supporting sources later.
 |1.11019  |scarlet                     |philip                                               |1627-1685)               |
 |5.3498   |savery                      |isaac                                                |NA-NA)                   |
 |5.3499   |sandys                      |samuel                                               |NA-NA)                   |
+|5.3501   |NA (1691-1691)              |NA                                                   |NA                       |
 |10.2415  |sabrin                      |syl                                                  |NA-NA)                   |
+|1.11023  |NA (1646-1646)              |NA                                                   |NA                       |
 |10.2430  |pakington                   |john                                                 |1621-1680)               |
 |1.11028  |russell                     |thomas                                               |1642-1642)               |
 |5.3522   |rowland                     |t                                                    |NA-NA)                   |
+|10.2432  |NA (1643-1643)              |NA                                                   |NA                       |
 |6.2834   |rich                        |john                                                 |1661-1661)               |
 |25.24    |rhodes                      |samuel                                               |NA-NA)                   |
 |3.3030   |reynell                     |carew                                                |1636-1690)               |
@@ -3400,6 +3531,7 @@ Should also add living year information from supporting sources later.
 |5.3620   |bassa                       |calvin                                               |NA-NA)                   |
 |15.601   |moret                       |francois                                             |NA-NA)                   |
 |10.2502  |morden                      |john                                                 |1623-1708)               |
+|4.924    |NA (1650-1700)              |NA                                                   |NA                       |
 |10.2504  |mitchel                     |edward                                               |1674-1674)               |
 |10.2505  |prinn                       |john                                                 |NA-NA)                   |
 |5.3629   |miles                       |john                                                 |1684-1684)               |
@@ -3410,18 +3542,22 @@ Should also add living year information from supporting sources later.
 |1.11121  |manlove                     |edward                                               |1667-1667)               |
 |5.3644   |lynam                       |margaret                                             |1697-1697)               |
 |10.2511  |long                        |richard                                              |NA-NA)                   |
+|5.3652   |NA (1638-1715)              |NA                                                   |NA                       |
 |5.3663   |lineall                     |john                                                 |NA-NA)                   |
 |4.930    |lindsay                     |david                                                |1490-1555)               |
 |1.11132  |limborch                    |philippus van                                        |1633-1712)               |
+|3.3052   |NA (1470-1492)              |NA                                                   |NA                       |
 |1.11134  |leyburn                     |george                                               |1593-1677)               |
 |5.3678   |thököly                     |imre                                                 |1657-1705)               |
 |4.933    |le ragois                   |claude                                               |NA-NA)                   |
+|5.3694   |NA (1652-1688)              |NA                                                   |NA                       |
 |1.11161  |kaye                        |william                                              |NA-NA)                   |
 |1.11164  |killigrew                   |henry                                                |NA-NA)                   |
 |1.11167  |ker                         |gilbert                                              |NA-NA)                   |
 |1.11168  |jackson                     |richard                                              |1621-1671)               |
 |1.11175  |jephson                     |michael                                              |NA-NA)                   |
 |5.3706   |ronquillo                   |pedro                                                |1635-1635)               |
+|1.11187  |NA (1615-1700)              |NA                                                   |NA                       |
 |6.2900   |hamilton                    |basil                                                |1671-1701)               |
 |1.11199  |ibeson                      |james                                                |NA-NA)                   |
 |5.3725   |hyde                        |thomas                                               |1636-1703)               |
@@ -3460,6 +3596,7 @@ Should also add living year information from supporting sources later.
 |1.11484  |edmonds                     |hugh                                                 |NA-NA)                   |
 |5.3881   |donne                       |john                                                 |1604-1662)               |
 |5.3884   |lamplugh                    |thomas                                               |1615-1691)               |
+|6.3021   |NA (1671-1671)              |NA                                                   |NA                       |
 |1.11497  |deloney                     |thomas                                               |1543-1600)               |
 |1.11503  |damon                       |william                                              |1642-1642)               |
 |1.11504  |dakins                      |thomas                                               |NA-NA)                   |
@@ -3556,6 +3693,7 @@ Should also add living year information from supporting sources later.
 |3.3145   |serres                      |jean de                                              |1540-1598)               |
 |1.11924  |aske                        |james                                                |NA-NA)                   |
 |1.11925  |ascham                      |roger                                                |1515-1568)               |
+|3.3147   |NA (1543-1592)              |NA                                                   |NA                       |
 |1.11934  |penry                       |john                                                 |1559-1593)               |
 |1.11936  |stirling                    |william alexander                                    |1568-1640)               |
 |4.994    |ryves                       |thomas                                               |1583-1652)               |
@@ -3567,9 +3705,11 @@ Should also add living year information from supporting sources later.
 |3.3154   |standish                    |john                                                 |1507-1570)               |
 |3.3155   |shaw                        |john                                                 |1559-1625)               |
 |1.11954  |windebank                   |francis                                              |1582-1646)               |
+|4.995    |NA (1582-1582)              |NA                                                   |NA                       |
 |3.3162   |proctor                     |john                                                 |1521-1584)               |
 |3.3163   |barnaud                     |nicholas                                             |1539-1539)               |
 |3.3164   |nichols                     |josias                                               |1555-1639)               |
+|1.11962  |NA (1573-1642)              |NA                                                   |NA                       |
 |3.3167   |granvelle                   |antoine perrenot de                                  |1517-1586)               |
 |1.11968  |aureli                      |giovan battista                                      |1538-1597)               |
 |3.3168   |renniger                    |michael                                              |1530-1609)               |
@@ -3599,6 +3739,7 @@ Should also add living year information from supporting sources later.
 |1.12026  |fulbecke                    |william                                              |1560-1603)               |
 |5.4117   |droeshout                   |john                                                 |NA-NA)                   |
 |1.12028  |neville                     |alexander                                            |1544-1614)               |
+|1.12029  |NA (1612-1640)              |NA                                                   |NA                       |
 |6.3361   |parker                      |matthew                                              |1504-1575)               |
 |1.12031  |sempill                     |robert                                               |1530-1595)               |
 |1.12039  |leslie                      |henry                                                |1580-1661)               |
@@ -3610,15 +3751,19 @@ Should also add living year information from supporting sources later.
 |3.3182   |newton                      |thomas                                               |1542-1607)               |
 |1.12049  |scot                        |patrick                                              |NA-NA)                   |
 |3.3183   |speed                       |john                                                 |1552-1629)               |
+|3.3184   |NA (1555-1555)              |NA                                                   |NA                       |
 |3.3185   |goodman                     |christopher                                          |1520-1603)               |
 |1.12052  |trigge                      |francis                                              |1547-1606)               |
 |1.12053  |huntly                      |george gordon                                        |1649-1649)               |
 |1.12054  |gordon                      |john                                                 |1544-1619)               |
 |3.3186   |grafton                     |richard                                              |1572-1572)               |
 |1.12057  |norden                      |john                                                 |1548-1625)               |
+|1.12058  |NA (1554-1623)              |NA                                                   |NA                       |
 |1.12061  |guevara                     |antonio de                                           |1545-1545)               |
+|3.3190   |NA (1595-1595)              |NA                                                   |NA                       |
 |1.12062  |martelière                   |pierre de                                            |1631-1631)               |
 |3.3193   |whitaker                    |william                                              |1548-1595)               |
+|3.3194   |NA ( 636- 636)              |NA                                                   |NA                       |
 |3.3197   |hardyng                     |john                                                 |1378-1465)               |
 |3.3199   |harrison                    |james                                                |1547-1547)               |
 |1.12065  |hart                        |william                                              |1713-1784)               |
@@ -3627,6 +3772,7 @@ Should also add living year information from supporting sources later.
 |3.3205   |hubert                      |francis                                              |1629-1629)               |
 |3.3207   |morison                     |richard                                              |1556-1556)               |
 |1.12090  |hurault                     |michel                                               |1592-1592)               |
+|1.12095  |NA (1626-1626)              |NA                                                   |NA                       |
 |1.12101  |isselt                      |michael von                                          |1597-1597)               |
 |1.12103  |blandie                     |william                                              |NA-NA)                   |
 |3.3210   |saint german                |christopher                                          |1460-1540)               |
@@ -3642,6 +3788,7 @@ Should also add living year information from supporting sources later.
 |1.12117  |powel                       |gabriel                                              |1576-1611)               |
 |1.12119  |crompton                    |richard                                              |1573-1599)               |
 |1.12120  |daunce                      |edward                                               |NA-NA)                   |
+|3.3217   |NA (1583-1583)              |NA                                                   |NA                       |
 |1.12122  |dekker                      |thomas                                               |1572-1632)               |
 |3.3220   |du nesme                    |jean                                                 |NA-NA)                   |
 |3.3223   |elder                       |john                                                 |1555-1555)               |
@@ -3657,6 +3804,8 @@ Should also add living year information from supporting sources later.
 |3.3234   |tymme                       |thomas                                               |1620-1620)               |
 |3.3236   |bradshaw                    |william                                              |1571-1618)               |
 |3.3238   |diggs                       |thomas                                               |NA-NA)                   |
+|1.12155  |NA (1118-1118)              |NA                                                   |NA                       |
+|3.3239   |NA (1533-1584)              |NA                                                   |NA                       |
 |1.12156  |hariot                      |thomas                                               |1560-1621)               |
 |6.3371   |dee                         |john                                                 |1527-1608)               |
 |1.12161  |broughton                   |hugh                                                 |1549-1612)               |
@@ -3667,7 +3816,9 @@ Should also add living year information from supporting sources later.
 |3.3242   |bullinger                   |heinrich                                             |1504-1575)               |
 |6.3376   |hugo                        |herman                                               |1588-1629)               |
 |6.3377   |boece                       |hector                                               |1465-1536)               |
+|1.12171  |NA (1602-1602)              |NA                                                   |NA                       |
 |6.3379   |bunny                       |edmund                                               |1540-1619)               |
+|6.3387   |NA (1617-1680)              |NA                                                   |NA                       |
 |6.3391   |dallington                  |robert                                               |1561-1637)               |
 |1.12173  |cambini                     |andrea                                               |1527-1527)               |
 |1.12175  |thornborough                |john                                                 |1551-1641)               |
@@ -3713,17 +3864,23 @@ Should also add living year information from supporting sources later.
 |3.3287   |becon                       |thomas                                               |1512-1567)               |
 |1.12272  |jonson                      |ben                                                  |1573-1637)               |
 |1.12273  |danett                      |thomas                                               |1566-1601)               |
+|1.12278  |NA (1170-1240)              |NA                                                   |NA                       |
 |1.12281  |laudonnière                  |rené goulaine de                                      |NA-NA)                   |
 |1.12287  |lodge                       |thomas                                               |1558-1625)               |
+|6.3403   |NA (1314-1314)              |NA                                                   |NA                       |
 |1.12291  |de dominis                  |marco antonio                                        |1560-1624)               |
 |1.12293  |dowriche                    |anne                                                 |1589-1589)               |
 |3.3291   |churchson                   |john                                                 |NA-NA)                   |
 |1.12296  |marten                      |anthony                                              |1597-1597)               |
 |1.12298  |middleton                   |thomas                                               |1627-1627)               |
 |1.12300  |nelson                      |thomas                                               |1580-1580)               |
+|3.3295   |NA (1491-1547)              |NA                                                   |NA                       |
 |1.12308  |peele                       |george                                               |1556-1596)               |
 |3.3296   |barnes                      |robert                                               |1495-1540)               |
 |1.12309  |bradford                    |william                                              |1588-1657)               |
+|3.3297   |NA (1587-1587)              |NA                                                   |NA                       |
+|1.12310  |NA (1590-1590)              |NA                                                   |NA                       |
+|1.12313  |NA (1585-1616)              |NA                                                   |NA                       |
 |1.12315  |abell                       |thomas                                               |1540-1540)               |
 |3.3301   |cancellar                   |james                                                |1564-1564)               |
 |3.3302   |samuel                      |william                                              |1551-1569)               |
@@ -3738,6 +3895,7 @@ Should also add living year information from supporting sources later.
 |1.12339  |cranmer                     |thomas                                               |1489-1556)               |
 |3.3313   |cecil                       |john                                                 |1588-1626)               |
 |3.3314   |faber                       |johannes                                             |1478-1541)               |
+|3.3316   |NA (1217-1274)              |NA                                                   |NA                       |
 |1.12346  |warner                      |william                                              |1558-1609)               |
 |1.12347  |waterhouse                  |edward                                               |NA-NA)                   |
 |3.3317   |bibliander                  |theodorus                                            |1504-1564)               |
@@ -3757,10 +3915,14 @@ Should also add living year information from supporting sources later.
 |3.3335   |valera                      |cipriano de                                          |1532-1625)               |
 |3.3337   |gentillet                   |innocent                                             |1595-1595)               |
 |3.3338   |bradford                    |john                                                 |NA-NA)                   |
+|1.12378  |NA (1581-1581)              |NA                                                   |NA                       |
+|1.12379  |NA (1592-1597)              |NA                                                   |NA                       |
 |3.3341   |fulke                       |william                                              |1538-1589)               |
 |1.12380  |batman                      |stephen                                              |1584-1584)               |
+|1.12381  |NA (1432-1481)              |NA                                                   |NA                       |
 |1.12383  |milton                      |richard                                              |NA-NA)                   |
 |3.3343   |carr                        |nicholas                                             |1524-1568)               |
+|3.3347   |NA (1549-1608)              |NA                                                   |NA                       |
 |3.3348   |hooper                      |john                                                 |1555-1555)               |
 |6.3424   |hall                        |edward                                               |1547-1547)               |
 |1.12395  |nettles                     |stephen                                              |NA-NA)                   |
@@ -3786,7 +3948,9 @@ Should also add living year information from supporting sources later.
 |1.12453  |farley                      |henry                                                |NA-NA)                   |
 |3.3375   |thomson                     |george                                               |NA-NA)                   |
 |3.3380   |potter                      |christopher                                          |1591-1646)               |
+|3.3381   |NA (1100-1154)              |NA                                                   |NA                       |
 |1.12466  |powel                       |daniel                                               |NA-NA)                   |
+|1.12467  |NA (1578-1637)              |NA                                                   |NA                       |
 |1.12472  |bagshaw                     |christopher                                          |1625-1625)               |
 |4.1013   |puteanus                    |erycius                                              |1574-1646)               |
 |1.12474  |sully                       |maximilien de béthune                                 |1559-1641)               |
@@ -3795,7 +3959,9 @@ Should also add living year information from supporting sources later.
 |3.3393   |carliell                    |robert                                               |1622-1622)               |
 |6.3463   |richardson                  |gabriel                                              |1642-1642)               |
 |1.12489  |spilbergen                  |joris van                                            |1568-1620)               |
+|1.12490  |NA (1613-1613)              |NA                                                   |NA                       |
 |1.12492  |cotton                      |roger                                                |NA-NA)                   |
+|1.12505  |NA (1553-1610)              |NA                                                   |NA                       |
 |3.3404   |góis                         |damião de                                             |1502-1574)               |
 |1.12509  |white                       |andrew                                               |1579-1656)               |
 |1.12515  |schwarzenberg               |georg ludwig                                         |1586-1646)               |
@@ -3805,6 +3971,7 @@ Should also add living year information from supporting sources later.
 |3.3412   |gascoigne                   |george                                               |1542-1577)               |
 |10.3114  |awdelay                     |john                                                 |1559-1577)               |
 |3.3415   |balmford                    |james                                                |1556-1556)               |
+|1.12565  |NA (1621-1621)              |NA                                                   |NA                       |
 |6.3473   |slatyer                     |william                                              |1587-1647)               |
 |1.12568  |pendryck                    |william                                              |1583-1650)               |
 |1.12571  |soranzo                     |lazzaro                                              |NA-NA)                   |
@@ -3827,6 +3994,9 @@ Should also add living year information from supporting sources later.
 |1.12630  |beringer                    |joachim                                              |NA-NA)                   |
 |3.3438   |southwell                   |robert                                               |1561-1595)               |
 |1.12634  |hall                        |arthur                                               |1539-1605)               |
+|1.12637  |NA (1588-1588)              |NA                                                   |NA                       |
+|3.3446   |NA ( 505- 505)              |NA                                                   |NA                       |
+|3.3447   |NA (1545-1592)              |NA                                                   |NA                       |
 |3.3449   |alba                        |fernando alvarez de toledo                           |1507-1582)               |
 |1.12648  |loper                       |christian                                            |NA-NA)                   |
 |10.3117  |kirkham                     |william                                              |NA-NA)                   |
@@ -3857,6 +4027,7 @@ Should also add living year information from supporting sources later.
 |6.3513   |fumée                        |martin                                               |1590-1590)               |
 |6.3514   |popelinière                 |lancelot-voisin                                      |1541-1608)               |
 |6.3521   |fougasses                   |thomas de                                            |NA-NA)                   |
+|6.3529   |NA (1124-1124)              |NA                                                   |NA                       |
 |3.3486   |studley                     |christopher                                          |NA-NA)                   |
 |1.12766  |ofwod                       |stephen                                              |NA-NA)                   |
 |10.3159  |elderton                    |william                                              |1592-1592)               |
@@ -3883,18 +4054,22 @@ Should also add living year information from supporting sources later.
 |1.12824  |forbes                      |john                                                 |1593-1648)               |
 |6.3564   |llwyd                       |humphrey                                             |1527-1568)               |
 |15.676   |rastell                     |william                                              |1508-1565)               |
+|1.12918  |NA (1601-1643)              |NA                                                   |NA                       |
 |3.3516   |barnaud                     |nicolas                                              |1539-1539)               |
 |1.12919  |throckmorton                |job                                                  |1545-1601)               |
 |3.3517   |neve                        |john                                                 |1626-1626)               |
+|362      |NA (1546-1546)              |NA                                                   |NA                       |
 |15.682   |carter                      |richard                                              |NA-NA)                   |
 |1.12921  |helwys                      |gervase                                              |1561-1615)               |
 |1.12923  |cipriano                    |giovanni                                             |NA-NA)                   |
 |3.3519   |melanchthon                 |philipp                                              |1497-1560)               |
 |1.12932  |browne                      |robert                                               |1550-1633)               |
+|15.687   |NA (1129-1164)              |NA                                                   |NA                       |
 |1.12935  |bilbrough                   |john                                                 |NA-NA)                   |
 |366      |lindsay                     |david                                                |1641-1641)               |
 |15.695   |lingham                     |john                                                 |NA-NA)                   |
 |15.720   |traheron                    |bartholomew                                          |1510-1558)               |
+|3.3528   |NA (1604-1639)              |NA                                                   |NA                       |
 |5.4174   |caddell                     |peter                                                |NA-NA)                   |
 |1.12945  |norris                      |sylvester                                            |1572-1630)               |
 |3.3532   |langley                     |thomas                                               |NA-NA)                   |
@@ -3903,6 +4078,7 @@ Should also add living year information from supporting sources later.
 |5.4179   |bargrave                    |john                                                 |NA-NA)                   |
 |10.3278  |wolsey                      |thomas                                               |1475-1530)               |
 |1.12962  |trolloppe                   |thomas                                               |NA-NA)                   |
+|313.125  |NA (1495-1566)              |NA                                                   |NA                       |
 |15.759   |jones                       |william                                              |???NA-NA)                |
 |1.12973  |gurth                       |alexander                                            |NA-NA)                   |
 |3.3539   |jewel                       |john                                                 |1522-1571)               |
@@ -3931,6 +4107,7 @@ Should also add living year information from supporting sources later.
 |3.3543   |teixera                     |josé                                                  |1543-1620)               |
 |5.4194   |heywood                     |john                                                 |1497-1580)               |
 |6.3602   |holinshead                  |raphael                                              |1580-1580)               |
+|10.3368  |NA (1386-1456)              |NA                                                   |NA                       |
 |362.2    |anderton                    |james                                                |1624-1624)               |
 |1.12982  |leicester                   |robert dudley                                        |1532-1588)               |
 |15.1047  |peckham                     |john                                                 |1292-1292)               |
@@ -3960,6 +4137,7 @@ Should also add living year information from supporting sources later.
 |9.221    |fliegen                     |eve                                                  |1575-1575)               |
 |10.3497  |deye                        |william                                              |NA-NA)                   |
 |4.1032   |bennet                      |henry                                                |NA-NA)                   |
+|3.3611   |NA (1193-1280)              |NA                                                   |NA                       |
 |3.3612   |plowden                     |edmund                                               |1518-1585)               |
 |187.1    |udall                       |william                                              |NA-NA)                   |
 |24.45    |godet                       |giles                                                |NA-NA)                   |
@@ -4034,6 +4212,7 @@ Should also add living year information from supporting sources later.
 |3.3738   |withers                     |john                                                 |1669-1729)               |
 |6.3721   |kenrick                     |w                                                    |1725-1779)               |
 |3.3740   |heckforth                   |reymer                                               |NA-NA)                   |
+|3.3741   |NA (1788-1788)              |NA                                                   |NA                       |
 |6.3722   |chippendale                 |thomas                                               |1718-1779)               |
 |3.3747   |chandler                    |samuel                                               |1693-1766)               |
 |3.3748   |osgood                      |david                                                |1747-1822)               |
@@ -4076,6 +4255,7 @@ Should also add living year information from supporting sources later.
 |3.3846   |finch                       |thomas                                               |NA-NA)                   |
 |3.3853   |harper                      |william                                              |NA-NA)                   |
 |1.13360  |roberts                     |john                                                 |1785-1785)               |
+|3.3861   |NA (1193-1193)              |NA                                                   |NA                       |
 |3.3862   |hilliard                    |samuel                                               |1676-1742)               |
 |3.3864   |hall-stevenson              |john                                                 |1718-1785)               |
 |3.3865   |ged                         |william                                              |1690-1749)               |
@@ -4137,6 +4317,7 @@ Should also add living year information from supporting sources later.
 |3.4014   |hutchinson                  |william                                              |1732-1814)               |
 |1.13390  |dowsing                     |william                                              |1596-1679)               |
 |3.4033   |walker                      |hovenden                                             |1656-1728)               |
+|3.4034   |NA (1793-1793)              |NA                                                   |NA                       |
 |3.4040   |venn                        |richard                                              |1691-1740)               |
 |3.4045   |billingsley                 |john                                                 |1657-1722)               |
 |3.4048   |burney                      |fanny                                                |1752-1840)               |
@@ -4151,6 +4332,7 @@ Should also add living year information from supporting sources later.
 |3.4082   |thompson                    |william                                              |1730-1800)               |
 |3.4087   |trydell                     |john                                                 |NA-NA)                   |
 |3.4088   |jackson                     |william                                              |1730-1803)               |
+|3.4089   |NA (1798-1798)              |NA                                                   |NA                       |
 |3.4099   |rokeby                      |matthew robinson-morris                              |1713-1800)               |
 |3.4102   |morgann                     |maurice                                              |1726-1802)               |
 |3.4106   |dulany                      |daniel                                               |1722-1797)               |
@@ -4183,6 +4365,7 @@ Should also add living year information from supporting sources later.
 |3.4207   |young                       |arthur                                               |1741-1820)               |
 |1.13427  |denina                      |carlo                                                |1731-1813)               |
 |9.230    |tatham                      |edward                                               |1749-1834)               |
+|4.1106   |NA (1672-1680)              |NA                                                   |NA                       |
 |3.4218   |misson                      |maximilien                                           |1650-1722)               |
 |3.4220   |owen                        |charles                                              |1746-1746)               |
 |1.13432  |oldys                       |william                                              |1696-1761)               |
@@ -4198,11 +4381,13 @@ Should also add living year information from supporting sources later.
 |3.4233   |irwin                       |eyles                                                |1751-1817)               |
 |3.4250   |stoughton                   |william                                              |1718-1718)               |
 |1.13436  |bruce                       |lewis                                                |NA-NA)                   |
+|1.13438  |NA (1688-1766)              |NA                                                   |NA                       |
 |4.1111   |smith                       |william                                              |1728-1793)               |
 |1.13439  |ellis                       |john                                                 |1710-1776)               |
 |3.4257   |platts                      |john                                                 |1716-1719)               |
 |3.4258   |suckling                    |george                                               |NA-NA)                   |
 |1.13444  |costansó                     |miguel                                               |NA-NA)                   |
+|3.4260   |NA (1747-1823)              |NA                                                   |NA                       |
 |6.3754   |salmon                      |n                                                    |1675-1742)               |
 |1.13445  |throsby                     |john                                                 |1740-1803)               |
 |4.1112   |kincaid                     |alexander                                            |NA-NA)                   |
@@ -4225,6 +4410,7 @@ Should also add living year information from supporting sources later.
 |3.4304   |malouet                     |pierre-victor                                        |1740-1814)               |
 |3.4306   |heathcote                   |ralph                                                |1721-1795)               |
 |3.4311   |jesse                       |william                                              |1737-1814)               |
+|1.13466  |NA (1794-1794)              |NA                                                   |NA                       |
 |3.4323   |hughes                      |rice                                                 |NA-NA)                   |
 |3.4328   |massie                      |j                                                    |1784-1784)               |
 |3.4333   |abingdon                    |willoughby bertie                                    |1740-1799)               |
@@ -4237,6 +4423,7 @@ Should also add living year information from supporting sources later.
 |4.1129   |millar                      |john                                                 |1735-1801)               |
 |3.4365   |penn                        |john                                                 |1760-1834)               |
 |3.4372   |matthisson                  |friedrich von                                        |NA-NA)                   |
+|3.4383   |NA (1761-1852)              |NA                                                   |NA                       |
 |3.4385   |gaynam                      |j                                                    |NA-NA)                   |
 |3.4388   |turreau de garambouville    |louis-marie                                          |1756-1816)               |
 |3.4395   |trenck                      |franz                                                |1711-1749)               |
@@ -4256,6 +4443,7 @@ Should also add living year information from supporting sources later.
 |3.4432   |still                       |john                                                 |1795-1795)               |
 |3.4435   |montagu                     |matthew                                              |1762-1831)               |
 |3.4436   |nott                        |job                                                  |NA-NA)                   |
+|3.4439   |NA (1743-1743)              |NA                                                   |NA                       |
 |1.13482  |palmer                      |samuel                                               |1732-1732)               |
 |3.4453   |acres                       |joseph                                               |1667-1746)               |
 |3.4467   |thrum                       |tam                                                  |NA-NA)                   |
@@ -4315,6 +4503,7 @@ Should also add living year information from supporting sources later.
 |3.4600   |cappe                       |newcome                                              |1733-1800)               |
 |1.13524  |finch                       |leopold william                                      |1663-1702)               |
 |3.4604   |odier                       |louis                                                |1748-1817)               |
+|1.13526  |NA (1737-1812)              |NA                                                   |NA                       |
 |1.13527  |nugent                      |nicholas                                             |1813-1813)               |
 |3.4613   |gibbs                       |philip                                               |1715-1740)               |
 |3.4614   |moore                       |george                                               |NA-NA)                   |
@@ -4333,6 +4522,7 @@ Should also add living year information from supporting sources later.
 |3.4625   |gamble                      |robert                                               |NA-NA)                   |
 |3.4629   |jefferys                    |thomas                                               |1771-1771)               |
 |3.4633   |kennedy                     |matthew                                              |NA-NA)                   |
+|3.4634   |NA (1753-1815)              |NA                                                   |NA                       |
 |3.4635   |jortin                      |john                                                 |1698-1770)               |
 |3.4636   |strachey                    |henry                                                |1736-1810)               |
 |3.4637   |caius                       |thomas                                               |1572-1572)               |
@@ -4357,6 +4547,7 @@ Should also add living year information from supporting sources later.
 |1.13553  |barnard                     |thomas                                               |1728-1806)               |
 |3.4683   |mayer                       |charles-joseph                                       |1825-1825)               |
 |3.4686   |lioy                        |félix                                                |NA-NA)                   |
+|4.1165   |NA (1719-1776)              |NA                                                   |NA                       |
 |4.1166   |chevrières                  |jean-guillaume de                                    |NA-NA)                   |
 |3.4689   |goodwin                     |r                                                    |NA-NA)                   |
 |3.4692   |coote                       |charles                                              |1761-1835)               |
@@ -4365,6 +4556,7 @@ Should also add living year information from supporting sources later.
 |3.4697   |malmesbury                  |james harris                                         |1746-1820)               |
 |4.1169   |mairobert                   |mathieu françois pidanzat de                          |1727-1779)               |
 |3.4704   |mackintosh                  |james                                                |1765-1832)               |
+|4.1172   |NA (1714-1788)              |NA                                                   |NA                       |
 |4.1173   |panciroli                   |guido                                                |1523-1599)               |
 |1.13559  |shaw                        |lachlan                                              |1692-1777)               |
 |4.1175   |mason                       |william                                              |1719-1791)               |
@@ -4380,6 +4572,7 @@ Should also add living year information from supporting sources later.
 |4.1187   |hooper                      |jacob                                                |NA-NA)                   |
 |3.4799   |webster                     |h                                                    |NA-NA)                   |
 |4.1188   |motte                       |jeanne de saint-rémy de valois                       |1756-1791)               |
+|3.4802   |NA (1214-1284)              |NA                                                   |NA                       |
 |4.1189   |rogers                      |nathan                                               |1668-1708)               |
 |3.4808   |sadler                      |ralph                                                |1507-1587)               |
 |3.4814   |lejeune                     |j                                                    |NA-NA)                   |
@@ -4390,9 +4583,11 @@ Should also add living year information from supporting sources later.
 |3.4844   |paulden                     |thomas                                               |1710-1710)               |
 |6.3832   |thurloe                     |john                                                 |1616-1668)               |
 |4.1200   |griffiths                   |ralph                                                |1720-1803)               |
+|4.1201   |NA (1711-1797)              |NA                                                   |NA                       |
 |3.4882   |antraigues                  |emmanuel-louis-henri-alexandre de launay             |1754-1812)               |
 |1.13572  |rooke                       |hayman                                               |1722-1806)               |
 |3.4902   |mason                       |john monck                                           |1726-1809)               |
+|3.4912   |NA (1756-1819)              |NA                                                   |NA                       |
 |3.4913   |montlosier                  |françois-dominique de reynaud                        |1755-1838)               |
 |5.4328   |wharton                     |philip                                               |1698-1731)               |
 |3.4915   |young                       |matthew                                              |1750-1800)               |
@@ -4412,21 +4607,27 @@ Should also add living year information from supporting sources later.
 |381      |bemetzrieder                |anton                                                |1743-1817)               |
 |4.1238   |comerford                   |t                                                    |NA-NA)                   |
 |3.5003   |mauvillon                   |éléazar de                                           |1712-1779)               |
+|4.1241   |NA (1698-1776)              |NA                                                   |NA                       |
 |4.1243   |valabregue                  |israël-bernard de                                    |NA-NA)                   |
 |3.5018   |haighton                    |john                                                 |1755-1823)               |
+|3.5022   |NA (1751-1775)              |NA                                                   |NA                       |
 |3.5028   |béraud                      |paul-emilien                                         |1751-1836)               |
+|3.5029   |NA (1677-1766)              |NA                                                   |NA                       |
 |3.5038   |coigly                      |james                                                |1762-1798)               |
 |1.13589  |crusius                     |lewis                                                |1701-1775)               |
+|3.5059   |NA (1747-1819)              |NA                                                   |NA                       |
 |3.5060   |elder                       |john                                                 |1692-1779)               |
 |3.5063   |bicknell                    |john                                                 |NA-NA)                   |
 |3.5067   |meredith                    |william                                              |1725-1790)               |
 |3.5073   |boisguillebert              |pierre le pesant                                     |1646-1714)               |
 |3.5078   |bradney                     |joseph                                               |NA-NA)                   |
+|3.5079   |NA (1741-1790)              |NA                                                   |NA                       |
 |3.5090   |publicola                   |horatius                                             |NA-NA)                   |
 |1.13592  |macbride                    |john                                                 |1651-1718)               |
 |3.5094   |ker                         |john                                                 |1673-1726)               |
 |3.5095   |throckmorton                |john                                                 |1753-1819)               |
 |3.5098   |ramkins                     |alexander                                            |1672-1719)               |
+|4.1271   |NA (1704-1771)              |NA                                                   |NA                       |
 |4.1273   |cayley                      |cornelius                                            |1729-1780)               |
 |3.5106   |baine                       |james                                                |1710-1790)               |
 |3.5111   |brown                       |andrew                                               |active 1679-1706)        |
@@ -4453,6 +4654,7 @@ Should also add living year information from supporting sources later.
 |4.1310   |mairobert                   |mathieu françois pidanzat de                         |1727-1779)               |
 |15.1085  |radclyffe                   |m                                                    |NA-NA)                   |
 |1.13617  |madden                      |samuel                                               |1686-1765)               |
+|3.5203   |NA (1790-1790)              |NA                                                   |NA                       |
 |3.5204   |bousfield                   |benjamin                                             |NA-NA)                   |
 |4.1318   |berington                   |thomas                                               |NA-NA)                   |
 |3.5214   |stevens                     |william                                              |1732-1807)               |
@@ -4500,6 +4702,7 @@ Should also add living year information from supporting sources later.
 |3.5363   |campbell                    |john                                                 |NA-NA)                   |
 |3.5365   |lynch                       |john                                                 |1673-1673)               |
 |1.13642  |clarendon                   |r v                                                  |NA-NA)                   |
+|3.5374   |NA (1672-1725)              |NA                                                   |NA                       |
 |7.36     |chapman                     |thomas                                               |1790-1803)               |
 |3.5383   |cawthorne                   |joseph                                               |NA-NA)                   |
 |3.5389   |greer                       |john                                                 |NA-NA)                   |
@@ -4507,6 +4710,7 @@ Should also add living year information from supporting sources later.
 |6.3865   |jessop                      |william                                              |1745-1814)               |
 |1.13647  |douglas                     |basil william                                        |1763-1794)               |
 |3.5393   |destutt de tracy            |antoine louis claude                                 |1754-1836)               |
+|3.5395   |NA (1741-1820)              |NA                                                   |NA                       |
 |6.3868   |geminiani                   |francesco                                            |1687-1762)               |
 |1.13650  |macmahon                    |hugh                                                 |1737-1737)               |
 |3.5400   |roe                         |robert                                               |NA-NA)                   |
@@ -4559,21 +4763,25 @@ Should also add living year information from supporting sources later.
 |4.1474   |maxwel                      |hugh                                                 |1682-1751)               |
 |3.5557   |parisot                     |pierre-curel                                         |1679-1769)               |
 |1.13688  |bullingbrooke               |edward                                               |NA-NA)                   |
+|1.13690  |NA (1162-1231)              |NA                                                   |NA                       |
 |3.5571   |raymond                     |anthony                                              |1675-1675)               |
 |3.5575   |polhill                     |charles                                              |NA-NA)                   |
 |3.5580   |adams                       |john                                                 |1750-1814)               |
 |6.3892   |scott                       |david                                                |1675-1742)               |
 |3.5586   |bruce                       |william                                              |1630-1710)               |
+|3.5589   |NA (1068-1148)              |NA                                                   |NA                       |
 |1.13693  |orme                        |robert                                               |1728-1801)               |
 |1.13696  |o'halloran                  |sylvester                                            |1728-1807)               |
 |3.5596   |beatson                     |robert                                               |1742-1818)               |
 |7.37     |riley                       |george                                               |NA-NA)                   |
 |4.1492   |macbean                     |william                                              |NA-NA)                   |
 |3.5604   |hay                         |george                                               |1729-1811)               |
+|4.1495   |NA (1685-1745)              |NA                                                   |NA                       |
 |5.4392   |cahal                       |philip                                               |1666-1666)               |
 |3.5616   |cockburne                   |robert                                               |NA-NA)                   |
 |6.3895   |ralph                       |james                                                |1762-1762)               |
 |382      |boreman                     |thomas                                               |1730-1743)               |
+|4.1501   |NA (1717-1799)              |NA                                                   |NA                       |
 |3.5636   |beauvais                    |bertrand poirier de                                  |1755-1827)               |
 |6.3899   |ashburton                   |charles alfred                                       |NA-NA)                   |
 |6.3902   |haldane                     |george cockburn                                      |1729-1799)               |
@@ -4582,6 +4790,7 @@ Should also add living year information from supporting sources later.
 |1.13705  |buccleuch                   |henry scott                                          |1746-1812)               |
 |1.13707  |baker                       |james                                                |NA-NA)                   |
 |3.5663   |scott                       |alexander                                            |NA-NA)                   |
+|4.1519   |NA (1734-1806)              |NA                                                   |NA                       |
 |1.13711  |douglas                     |anne jean                                            |NA-NA)                   |
 |3.5671   |l'isle                      |evrard de                                            |1741-1823)               |
 |6.3906   |mountague                   |william henry                                        |NA-NA)                   |
@@ -4596,6 +4805,7 @@ Should also add living year information from supporting sources later.
 |3.5700   |stith                       |william                                              |1707-1755)               |
 |3.5706   |mordaunt                    |john                                                 |1697-1780)               |
 |1.13725  |grieve                      |john                                                 |NA-NA)                   |
+|3.5710   |NA (1751-1841)              |NA                                                   |NA                       |
 |1.13730  |arnot                       |james                                                |NA-NA)                   |
 |3.5713   |dermody                     |thomas                                               |1775-1802)               |
 |4.1534   |bellamy                     |d                                                    |1687-1687)               |
@@ -4616,6 +4826,7 @@ Should also add living year information from supporting sources later.
 |1.13738  |ford                        |emanuel                                              |NA-NA)                   |
 |3.5765   |trusler                     |john                                                 |1735-1820)               |
 |6.3949   |boisgelin de cucé           |jean de dieu-raymond de                              |1732-1804)               |
+|1.13742  |NA (1787-1787)              |NA                                                   |NA                       |
 |4.1563   |goguet                      |antoine-yves                                         |1716-1758)               |
 |5.4453   |abercromby                  |james                                                |1747-1747)               |
 |1.13747  |caraccioli                  |charles alexander                                    |NA-NA)                   |
@@ -4710,6 +4921,7 @@ Should also add living year information from supporting sources later.
 |4.1664   |dodsworth                   |william                                              |1792-1814)               |
 |4.1665   |shrubsole                   |william                                              |1729-1797)               |
 |3.6139   |cardale                     |paul                                                 |1705-1775)               |
+|3.6140   |NA (1736-1815)              |NA                                                   |NA                       |
 |3.6142   |duppa                       |richard                                              |1770-1831)               |
 |6.4002   |rowe                        |nicholas                                             |1674-1718)               |
 |3.6151   |de grey                     |amabel hume-campbell                                 |1751-1833)               |
@@ -4720,6 +4932,7 @@ Should also add living year information from supporting sources later.
 |3.6163   |macneven                    |william james                                        |1763-1841)               |
 |3.6164   |sclater                     |william                                              |1638-1717)               |
 |1.13819  |rodney                      |george brydges                                       |1727-1811)               |
+|8.31     |NA (1762-1830)              |NA                                                   |NA                       |
 |3.6178   |paterson                    |samuel                                               |1728-1802)               |
 |1.13822  |milner                      |john                                                 |1752-1826)               |
 |3.6181   |milner                      |joseph                                               |1744-1797)               |
@@ -4743,6 +4956,7 @@ Should also add living year information from supporting sources later.
 |3.6259   |dameto                      |juan bautista                                        |1554-1633)               |
 |3.6260   |abernethy                   |john                                                 |1680-1740)               |
 |3.6261   |lovelass                    |peter                                                |1786-1812)               |
+|1.13841  |NA (1686-1743)              |NA                                                   |NA                       |
 |3.6265   |barker                      |thomas                                               |1722-1809)               |
 |3.6269   |coxe                        |william                                              |1747-1828)               |
 |3.6270   |harrison                    |david                                                |NA-NA)                   |
@@ -4755,6 +4969,7 @@ Should also add living year information from supporting sources later.
 |1.13844  |porterfield                 |james                                                |NA-NA)                   |
 |1.13846  |baxter                      |john                                                 |NA-NA)                   |
 |4.1696   |brunet                      |jean louis                                           |1688-1747)               |
+|3.6293   |NA (1748-1748)              |NA                                                   |NA                       |
 |1.13851  |forbes                      |duncan                                               |1685-1747)               |
 |3.6295   |lloyd                       |henry                                                |1720-1783)               |
 |3.6303   |macaulay                    |aulay                                                |1758-1819)               |
@@ -4772,6 +4987,7 @@ Should also add living year information from supporting sources later.
 |3.6388   |adolphus                    |john                                                 |1768-1845)               |
 |3.6391   |fall                        |robert                                               |NA-NA)                   |
 |1.13939  |hutchesson                  |mann                                                 |NA-NA)                   |
+|3.6393   |NA (1711-1785)              |NA                                                   |NA                       |
 |3.6395   |berington                   |simon                                                |1680-1755)               |
 |3.6416   |brett                       |thomas                                               |1667-1744)               |
 |3.6420   |spencer                     |joshua                                               |NA-NA)                   |
@@ -4801,6 +5017,7 @@ Should also add living year information from supporting sources later.
 |3.6521   |postlethwayt                |malachy                                              |1707-1767)               |
 |3.6527   |shepherd                    |r                                                    |1732-1809)               |
 |1.13970  |dunsford                    |martin                                               |1807-1807)               |
+|6.4018   |NA (1688-1744)              |NA                                                   |NA                       |
 |3.6530   |glas                        |john                                                 |1695-1773)               |
 |1.13971  |brewster                    |john                                                 |1753-1842)               |
 |3.6535   |sallo desvarennes           |michel armand                                        |1802-1802)               |
@@ -4811,6 +5028,7 @@ Should also add living year information from supporting sources later.
 |3.6569   |osborn                      |sarah                                                |1714-1796)               |
 |3.6574   |finch                       |william                                              |1747-1810)               |
 |4.1764   |macaulay                    |kenneth                                              |1723-1779)               |
+|3.6583   |NA (1756-1820)              |NA                                                   |NA                       |
 |3.6592   |sullivan                    |john                                                 |1749-1839)               |
 |3.6596   |hearne                      |thomas                                               |1678-1735)               |
 |3.6600   |calvert                     |matthias                                             |NA-NA)                   |
@@ -4845,7 +5063,9 @@ Should also add living year information from supporting sources later.
 |1.14034  |duncan                      |william                                              |NA-NA)                   |
 |4.1783   |brown                       |john                                                 |1722-1787)               |
 |3.6724   |marat                       |jean paul                                            |1743-1793)               |
+|3.6728   |NA (1766-1817)              |NA                                                   |NA                       |
 |3.6731   |burrish                     |onslow                                               |NA-NA)                   |
+|3.6732   |NA (1697-1781)              |NA                                                   |NA                       |
 |3.6740   |sénac de meilhan            |gabriel                                              |1736-1803)               |
 |6.4036   |hunt                        |isaac                                                |1742-1809)               |
 |3.6750   |perronet                    |vincent                                              |1693-1785)               |
@@ -4878,6 +5098,7 @@ Should also add living year information from supporting sources later.
 |1.14129  |cottle                      |joseph                                               |1770-1853)               |
 |3.6931   |snodgrass                   |john                                                 |1744-1797)               |
 |3.6932   |scott                       |john                                                 |1730-1783)               |
+|3.6936   |NA (1765-1837)              |NA                                                   |NA                       |
 |4.1840   |lawrence                    |john                                                 |1753-1839)               |
 |3.6946   |horn                        |john                                                 |NA-NA)                   |
 |3.6948   |ducrest                     |charles-louis                                        |1747-1824)               |
@@ -4900,6 +5121,7 @@ Should also add living year information from supporting sources later.
 |3.7031   |atkinson                    |benjamin andrewes                                    |1680-1765)               |
 |6.4057   |nash                        |treadway russell                                     |NA-NA)                   |
 |3.7045   |butler                      |alban                                                |1711-1773)               |
+|3.7047   |NA (1795-1795)              |NA                                                   |NA                       |
 |4.1863   |ayloffe                     |w                                                    |NA-NA)                   |
 |3.7057   |lowth                       |simon                                                |1630-1720)               |
 |4.1864   |atkins                      |john                                                 |1685-1757)               |
@@ -4924,6 +5146,7 @@ Should also add living year information from supporting sources later.
 |3.7124   |retz                        |jean françois paul de gondi de                       |1613-1679)               |
 |3.7126   |grosley                     |pierre jean                                          |1718-1785)               |
 |4.1874   |creuz                       |friedrich karl casimir                               |1724-1770)               |
+|4.1878   |NA (1627-1693)              |NA                                                   |NA                       |
 |3.7132   |larkins                     |william                                              |NA-NA)                   |
 |1.14175  |bateman                     |edmund                                               |1704-1751)               |
 |3.7134   |craufurd                    |q                                                    |1743-1819)               |
@@ -4956,9 +5179,11 @@ Should also add living year information from supporting sources later.
 |3.7221   |pechel                      |samuel                                               |NA-NA)                   |
 |3.7224   |axford                      |john                                                 |NA-NA)                   |
 |3.7225   |secker                      |thomas                                               |1693-1768)               |
+|1.14191  |NA (1727-1790)              |NA                                                   |NA                       |
 |3.7226   |kilner                      |dorothy                                              |1755-1836)               |
 |1.14192  |dow                         |alexander                                            |1779-1779)               |
 |3.7228   |muir                        |david                                                |1708-1780)               |
+|3.7229   |NA ( 748- 823)              |NA                                                   |NA                       |
 |1.14197  |williams                    |john                                                 |1783-1783)               |
 |4.1921   |klopstock                   |friedrich gottlieb                                   |1724-1803)               |
 |3.7240   |bristol                     |frederick william hervey                             |1769-1859)               |
@@ -4982,6 +5207,7 @@ Should also add living year information from supporting sources later.
 |3.7279   |rawlins                     |gershom                                              |NA-NA)                   |
 |3.7282   |rabadan                     |muhammad                                             |1603-1603)               |
 |4.1941   |williams                    |william                                              |1717-1791)               |
+|3.7302   |NA (1718-1718)              |NA                                                   |NA                       |
 |3.7306   |jackson                     |william                                              |1737-1795)               |
 |3.7307   |marriott                    |james                                                |1730-1803)               |
 |1.14210  |james                       |thomas                                               |1782-1782)               |
@@ -5027,6 +5253,7 @@ Should also add living year information from supporting sources later.
 |3.7403   |seytfort                    |c g                                                  |NA-NA)                   |
 |3.7406   |philpot                     |charles                                              |1760-1823)               |
 |6.4085   |fischer von erlach          |johann bernhard                                      |1656-1723)               |
+|3.7410   |NA (1621-1696)              |NA                                                   |NA                       |
 |3.7411   |french                      |george                                               |NA-NA)                   |
 |3.7416   |payba                       |abraham                                              |NA-NA)                   |
 |3.7418   |reck                        |philipp georg friedrich von                          |1710-1798)               |
@@ -5052,6 +5279,7 @@ Should also add living year information from supporting sources later.
 |3.7477   |maddock                     |henry                                                |1824-1824)               |
 |3.7481   |molyneux                    |william                                              |1656-1698)               |
 |3.7482   |anburey                     |thomas                                               |NA-NA)                   |
+|3.7486   |NA (1753-1777)              |NA                                                   |NA                       |
 |4.1979   |maurice                     |matthias                                             |1684-1738)               |
 |3.7493   |auld                        |william                                              |NA-NA)                   |
 |3.7495   |gill                        |jeremiah                                             |1668-1709)               |
@@ -5073,6 +5301,7 @@ Should also add living year information from supporting sources later.
 |3.7542   |saint-pierre                |charles irénée castel de                             |1658-1743)               |
 |4.1983   |saint pierre                |charles irénée castel de                             |1658-1743)               |
 |3.7545   |montagu                     |edward wortley                                       |1713-1776)               |
+|3.7551   |NA (1780-1780)              |NA                                                   |NA                       |
 |3.7553   |uring                       |nathaniel                                            |NA-NA)                   |
 |3.7554   |smith                       |george                                               |NA-NA)                   |
 |3.7555   |thorold                     |john                                                 |1703-1775)               |
@@ -5091,6 +5320,7 @@ Should also add living year information from supporting sources later.
 |6.4108   |majendie                    |lewis                                                |1833-1833)               |
 |3.7591   |massey                      |charles                                              |1695-1766)               |
 |3.7602   |owen                        |john                                                 |1766-1822)               |
+|4.1997   |NA (  18-  18)              |NA                                                   |NA                       |
 |3.7603   |bedford                     |arthur                                               |1668-1745)               |
 |3.7604   |hurtley                     |thomas                                               |NA-NA)                   |
 |3.7605   |hutchinson                  |francis                                              |1661-1739)               |
@@ -5141,6 +5371,7 @@ Should also add living year information from supporting sources later.
 |3.7748   |sayre                       |stephen                                              |1736-1818)               |
 |3.7750   |dundonald                   |archibald cochrane                                   |1749-1831)               |
 |3.7753   |fowler                      |john                                                 |1774-1774)               |
+|3.7754   |NA (1770-1770)              |NA                                                   |NA                       |
 |3.7759   |stone                       |francis                                              |1738-1813)               |
 |1.14320  |tresham                     |henry                                                |1749-1814)               |
 |3.7766   |dubos                       |abbé                                                 |1670-1742)               |
@@ -5233,6 +5464,7 @@ Should also add living year information from supporting sources later.
 |3.7980   |du roveray                  |jaques-antoine                                       |1747-1814)               |
 |1.14376  |bristol                     |augustus john hervey                                 |1724-1779)               |
 |3.8003   |raimbert                    |m                                                    |NA-NA)                   |
+|3.8005   |NA (1752-1824)              |NA                                                   |NA                       |
 |1.14381  |long                        |charles                                              |1761-1838)               |
 |3.8017   |short                       |j                                                    |NA-NA)                   |
 |3.8024   |archdall                    |n                                                    |NA-NA)                   |
@@ -5255,6 +5487,7 @@ Should also add living year information from supporting sources later.
 |4.2095   |stewart                     |george                                               |1787-1787)               |
 |3.8099   |russell                     |thomas                                               |1767-1803)               |
 |3.8105   |ramel                       |jean-pierre                                          |1768-1815)               |
+|3.8108   |NA (1744-1817)              |NA                                                   |NA                       |
 |4.2100   |gibbes                      |philip                                               |1731-1815)               |
 |3.8112   |ferguson                    |c                                                    |NA-NA)                   |
 |3.8114   |somerville                  |thomas                                               |1741-1830)               |
@@ -5280,14 +5513,17 @@ Should also add living year information from supporting sources later.
 |3.8175   |proctor                     |william                                              |NA-NA)                   |
 |4.2125   |gorgy                       |jean-claude                                          |1753-1795)               |
 |1.14406  |roscoe                      |william                                              |1753-1831)               |
+|3.8181   |NA (1709-1785)              |NA                                                   |NA                       |
 |3.8185   |hodge                       |john                                                 |1767-1767)               |
 |3.8196   |o'keeffe                    |j a                                                  |NA-NA)                   |
 |3.8203   |surville                    |louis-charles de hautefort                           |1658-1721)               |
 |3.8206   |oakes                       |henry                                                |1756-1827)               |
 |4.2134   |orem                        |william                                              |NA-NA)                   |
 |1.14418  |englefield                  |henry                                                |1752-1822)               |
+|3.8214   |NA (1614-1614)              |NA                                                   |NA                       |
 |3.8215   |turner                      |david                                                |NA-NA)                   |
 |3.8216   |walpole                     |horatio                                              |1678-1757)               |
+|3.8221   |NA (1726-1773)              |NA                                                   |NA                       |
 |6.4175   |le neve                     |john                                                 |1679-1741)               |
 |3.8223   |hody                        |humphrey                                             |1659-1707)               |
 |1.14421  |stuart                      |james                                                |1793-1793)               |
@@ -5316,6 +5552,7 @@ Should also add living year information from supporting sources later.
 |3.8263   |artis                       |gabriel d'                                           |1730-1730)               |
 |6.4186   |gordon                      |john                                                 |1715-1775)               |
 |4.2152   |denis                       |jean-baptiste                                        |1676-1676)               |
+|3.8273   |NA (1768-1768)              |NA                                                   |NA                       |
 |3.8274   |pezron                      |paul                                                 |1639-1706)               |
 |4.2159   |blair                       |john                                                 |1782-1782)               |
 |1.14443  |de saumarez                 |henry                                                |1655-1655)               |
@@ -5327,6 +5564,8 @@ Should also add living year information from supporting sources later.
 |3.8291   |dalrymple                   |james                                                |1714-1714)               |
 |4.2167   |warburton                   |john                                                 |NA-NA)                   |
 |4.2171   |fontenelle                  |bernard le bovier de                                 |1657-1757)               |
+|3.8299   |NA (1744-1744)              |NA                                                   |NA                       |
+|4.2172   |NA (1711-1780)              |NA                                                   |NA                       |
 |4.2174   |shuttleworth                |humphrey                                             |1735-1812)               |
 |1.14448  |gordon                      |john                                                 |???NA-NA)                |
 |5.4496   |hall                        |jacob                                                |NA-NA)                   |
@@ -5343,12 +5582,15 @@ Should also add living year information from supporting sources later.
 |3.8342   |burton                      |philip                                               |1792-1792)               |
 |3.8343   |gravina                     |gianvincenzo                                         |1664-1718)               |
 |1.14462  |turretin                    |jean-alphonse                                        |1671-1737)               |
+|4.2187   |NA (1658-1733)              |NA                                                   |NA                       |
 |4.2188   |devérité                    |louis-alexandre                                      |1746-1818)               |
 |1.14464  |forster                     |nathaniel                                            |1727-1790)               |
 |3.8356   |mottraye                    |aubry de                                             |1674-1743)               |
 |3.8357   |oldfield                    |t h b                                                |1755-1822)               |
+|3.8358   |NA (1552-1552)              |NA                                                   |NA                       |
 |1.14468  |langwith                    |benjamin                                             |1684-1743)               |
 |3.8369   |turner                      |john                                                 |1660-1720)               |
+|4.2193   |NA (1436-1506)              |NA                                                   |NA                       |
 |6.4197   |jones                       |edward                                               |1752-1824)               |
 |3.8372   |boucher                     |jonathan                                             |1738-1804)               |
 |3.8375   |biscoe                      |richard                                              |1670-1748)               |
@@ -5387,6 +5629,7 @@ Should also add living year information from supporting sources later.
 |3.8441   |buonamici                   |castruccio                                           |1710-1761)               |
 |3.8446   |minucius felix              |marcus                                               |NA-NA)                   |
 |1.14493  |heath                       |benjamin                                             |1704-1766)               |
+|3.8452   |NA (1688-1688)              |NA                                                   |NA                       |
 |3.8455   |villette                    |john                                                 |1799-1799)               |
 |3.8462   |bickerstaff                 |isaac                                                |NA-NA)                   |
 |6.4201   |venner                      |samuel                                               |NA-NA)                   |
@@ -5403,6 +5646,7 @@ Should also add living year information from supporting sources later.
 |4.2213   |armstrong                   |john                                                 |1758-1758)               |
 |4.2214   |crossman                    |henry                                                |1711-1792)               |
 |3.8502   |minot                       |laurence                                             |1300-1352)               |
+|6.4206   |NA (1709-1709)              |NA                                                   |NA                       |
 |6.4207   |colcott                     |george                                               |NA-NA)                   |
 |1.14510  |rowley                      |william                                              |1742-1806)               |
 |4.2225   |turner                      |r                                                    |1753-1788)               |
@@ -5421,6 +5665,7 @@ Should also add living year information from supporting sources later.
 |1.14522  |allen                       |richard                                              |1640-1717)               |
 |3.8561   |willis                      |william                                              |1748-1827)               |
 |4.2261   |dickson                     |william steel                                        |1744-1824)               |
+|3.8574   |NA ( 407- 407)              |NA                                                   |NA                       |
 |3.8583   |baird                       |john                                                 |1804-1804)               |
 |1.14527  |kearney                     |michael                                              |1733-1814)               |
 |3.8595   |pigott                      |charles                                              |1794-1794)               |
@@ -5431,6 +5676,7 @@ Should also add living year information from supporting sources later.
 |3.8626   |maistre                     |joseph marie                                         |1753-1821)               |
 |3.8641   |gray                        |john                                                 |1724-1811)               |
 |3.8644   |fry                         |thomas                                               |1769-1769)               |
+|3.8649   |NA (1774-1774)              |NA                                                   |NA                       |
 |3.8652   |short                       |thomas                                               |1690-1772)               |
 |6.4219   |manton                      |thomas                                               |NA-NA)                   |
 |1.14537  |mante                       |thomas                                               |1772-1772)               |
@@ -5473,6 +5719,7 @@ Should also add living year information from supporting sources later.
 |3.8796   |zimmermann                  |eberhard august wilhelm von                          |1743-1815)               |
 |3.8804   |telltruth                   |jonathan                                             |NA-NA)                   |
 |6.4284   |marsh                       |henry                                                |1720-1720)               |
+|1.14556  |NA (1457-1509)              |NA                                                   |NA                       |
 |3.8817   |milliken                    |john                                                 |NA-NA)                   |
 |3.8829   |walter                      |john                                                 |1739-1812)               |
 |3.8832   |savage                      |john                                                 |1673-1747)               |
@@ -5501,6 +5748,7 @@ Should also add living year information from supporting sources later.
 |1.14579  |astle                       |thomas                                               |1735-1803)               |
 |3.8945   |hearn                       |thomas                                               |NA-NA)                   |
 |4.2352   |jacob                       |joseph                                               |1667-1722)               |
+|3.8960   |NA (1260-1300)              |NA                                                   |NA                       |
 |3.8962   |fermin                      |philippe                                             |1720-1790)               |
 |3.8963   |saunders                    |samuel                                               |NA-NA)                   |
 |3.8966   |harvey                      |gideon                                               |1640-1700)               |
@@ -5513,8 +5761,10 @@ Should also add living year information from supporting sources later.
 |3.8976   |ely                         |thomas                                               |1711-1716)               |
 |3.8977   |turner                      |sharon                                               |1768-1847)               |
 |3.8980   |pagès                       |françois xavier                                      |1745-1802)               |
+|3.8993   |NA (1757-1820)              |NA                                                   |NA                       |
 |3.8995   |pinto                       |isaac de                                             |1715-1787)               |
 |1.14590  |dalzel                      |archibald                                            |NA-NA)                   |
+|3.9016   |NA (1707-1782)              |NA                                                   |NA                       |
 |3.9018   |fréret                      |nicolas                                              |1688-1749)               |
 |3.9019   |hamilton                    |charles                                              |1753-1792)               |
 |4.2368   |wetherall                   |john                                                 |NA-NA)                   |
@@ -5539,10 +5789,12 @@ Should also add living year information from supporting sources later.
 |3.9095   |nimmo                       |william                                              |NA-NA)                   |
 |3.9097   |nisbett                     |n                                                    |NA-NA)                   |
 |3.9102   |burney                      |charles                                              |1757-1817)               |
+|6.4309   |NA (1673-1723)              |NA                                                   |NA                       |
 |4.2411   |denholm                     |james                                                |1772-1818)               |
 |3.9111   |horsmanden                  |daniel                                               |1694-1778)               |
 |8.57     |kirk                        |robert                                               |NA-NA)                   |
 |1.14629  |noorthouck                  |john                                                 |1746-1816)               |
+|3.9121   |NA (1725-1797)              |NA                                                   |NA                       |
 |3.9140   |sharp                       |thomas                                               |1693-1758)               |
 |3.9141   |richardson                  |william                                              |1743-1814)               |
 |3.9142   |jackson                     |john                                                 |1686-1763)               |
@@ -5573,6 +5825,7 @@ Should also add living year information from supporting sources later.
 |3.9232   |albin                       |john                                                 |1791-1800)               |
 |3.9234   |killingworth                |grantham                                             |1699-1778)               |
 |1.14658  |savonarola                  |girolamo                                             |1452-1498)               |
+|6.4341   |NA ( 635- 735)              |NA                                                   |NA                       |
 |1.14660  |raphson                     |joseph                                               |1716-1716)               |
 |1.14661  |darwall                     |john                                                 |1732-1828)               |
 |3.9252   |triveth                     |nicolaus                                             |NA-NA)                   |
@@ -5586,6 +5839,7 @@ Should also add living year information from supporting sources later.
 |3.9273   |southey                     |robert                                               |1774-1843)               |
 |3.9279   |hughes                      |michael                                              |NA-NA)                   |
 |1.14671  |raspe                       |rudolf erich                                         |1737-1794)               |
+|3.9295   |NA (1754-1808)              |NA                                                   |NA                       |
 |1.14673  |smith                       |john                                                 |1700-1700)               |
 |3.9299   |neal                        |daniel                                               |1678-1743)               |
 |1.14674  |richards                    |george                                               |1767-1837)               |
@@ -5599,6 +5853,7 @@ Should also add living year information from supporting sources later.
 |1.14678  |cunningham                  |alexander                                            |NA-NA)                   |
 |4.2467   |pascal                      |blaise                                               |1623-1662)               |
 |3.9331   |johnson                     |john                                                 |1662-1725)               |
+|4.2468   |NA (1775-1775)              |NA                                                   |NA                       |
 |3.9335   |sliford                     |william                                              |NA-NA)                   |
 |3.9341   |graverol                    |jean                                                 |1647-1718)               |
 |3.9353   |ostervald                   |jean frédéric                                        |1663-1747)               |
@@ -5616,6 +5871,7 @@ Should also add living year information from supporting sources later.
 |3.9440   |reynolds                    |george                                               |1700-1769)               |
 |3.9441   |coleridge                   |samuel taylor                                        |1772-1834)               |
 |1.14709  |clavigero                   |francesco saverio                                    |1731-1787)               |
+|3.9442   |NA (1765-1765)              |NA                                                   |NA                       |
 |3.9443   |patten                      |robert                                               |1715-1715)               |
 |6.4385   |phipps                      |constantine                                          |1656-1723)               |
 |3.9447   |osório                      |jerónimo                                             |1506-1580)               |
@@ -5659,7 +5915,9 @@ Should also add living year information from supporting sources later.
 |1.14763  |henshall                    |samuel                                               |1764-1807)               |
 |4.2545   |lemoine                     |henry                                                |1756-1812)               |
 |1.14766  |hardwicke                   |philip yorke                                         |1720-1790)               |
+|1.14767  |NA (1551-1602)              |NA                                                   |NA                       |
 |3.9581   |groome                      |john                                                 |1679-1760)               |
+|3.9583   |NA (1473-1513)              |NA                                                   |NA                       |
 |1.14769  |howgrave                    |francis                                              |NA-NA)                   |
 |3.9584   |schomberg                   |alexander crowcher                                   |1756-1792)               |
 |1.14771  |taylor                      |henry                                                |1711-1785)               |
@@ -5674,11 +5932,13 @@ Should also add living year information from supporting sources later.
 |3.9619   |jefferson                   |thomas                                               |1743-1826)               |
 |3.9623   |walker                      |patrick                                              |1666-1745)               |
 |3.9625   |soulès                      |françois                                             |NA-NA)                   |
+|3.9627   |NA (1603-1663)              |NA                                                   |NA                       |
 |3.9629   |belle-isle                  |charles louis auguste de fouquet                     |1684-1761)               |
 |1.14781  |north                       |roger                                                |1653-1734)               |
 |3.9631   |baron                       |richard                                              |1720-1768)               |
 |3.9636   |moryson                     |fynes                                                |1566-1630)               |
 |3.9642   |müller                      |johannes von                                         |1752-1809)               |
+|1.14785  |NA (1733-1759)              |NA                                                   |NA                       |
 |4.2551   |stanhope                    |myles                                                |NA-NA)                   |
 |4.2554   |beaufort                    |louis de                                             |1703-1795)               |
 |3.9666   |beckmann                    |johann                                               |1739-1811)               |
@@ -5698,6 +5958,7 @@ Should also add living year information from supporting sources later.
 |3.9730   |crookshanks                 |john                                                 |1708-1795)               |
 |1.14809  |burscough                   |william                                              |1676-1755)               |
 |3.9745   |boothe                      |nathaniel                                            |1662-1662)               |
+|3.9747   |NA (1350-1350)              |NA                                                   |NA                       |
 |3.9766   |haggitt                     |john                                                 |1794-1794)               |
 |1.14814  |rich                        |robert                                               |1717-1785)               |
 |16.22    |young                       |w a                                                  |NA-NA)                   |
@@ -5730,6 +5991,7 @@ Should also add living year information from supporting sources later.
 |1.14833  |clagett                     |nicholas                                             |1746-1746)               |
 |1.14838  |webb                        |philip carteret                                      |1700-1770)               |
 |3.9871   |sempill                     |hugh                                                 |1758-1830)               |
+|1.14840  |NA (1760-1760)              |NA                                                   |NA                       |
 |3.9903   |jackson                     |randle                                               |1757-1837)               |
 |3.9904   |rouse-boughton              |charles william                                      |1821-1821)               |
 |1.14846  |george                      |william                                              |1697-1756)               |
@@ -5739,6 +6001,7 @@ Should also add living year information from supporting sources later.
 |3.9919   |reckitt                     |william                                              |1706-1769)               |
 |6.4462   |carstairs                   |william                                              |1649-1715)               |
 |3.9941   |kersaint                    |armand-guy                                           |1742-1793)               |
+|3.9956   |NA (1364-1440)              |NA                                                   |NA                       |
 |3.9967   |keeling                     |bartholomew                                          |1720-1778)               |
 |3.9968   |thirlby                     |styan                                                |1686-1753)               |
 |3.9971   |evans                       |abel                                                 |1679-1737)               |
@@ -5753,6 +6016,7 @@ Should also add living year information from supporting sources later.
 |3.10027  |grundy                      |john                                                 |1797-1797)               |
 |6.4471   |campbell                    |john                                                 |1733-1733)               |
 |5.4518   |thomson                     |thomas                                               |1703-1703)               |
+|5.4520   |NA (1769-1769)              |NA                                                   |NA                       |
 |6.4474   |cooksey                     |richard                                              |NA-NA)                   |
 |5.4524   |harrington                  |william stanhope                                     |1690-1756)               |
 |3.10056  |dickens                     |charles                                              |1719-1793)               |
@@ -5783,6 +6047,7 @@ Should also add living year information from supporting sources later.
 |462      |dyson                       |john                                                 |1742-1828)               |
 |6.4478   |hopkins                     |stephen                                              |1707-1785)               |
 |404.2    |hopkinson                   |francis                                              |1737-1791)               |
+|3.10079  |NA (1738-1758)              |NA                                                   |NA                       |
 |3.10080  |mercer                      |john francis                                         |1759-1821)               |
 |416.1    |horrocks                    |james                                                |1734-1772)               |
 |3.10081  |keatinge                    |george                                               |1811-1811)               |
@@ -5880,11 +6145,14 @@ Should also add living year information from supporting sources later.
 |3.10223  |bicheno                     |j                                                    |1831-1831)               |
 |3.10225  |forbes                      |eli                                                  |1726-1804)               |
 |3.10226  |hodgkinson                  |john                                                 |1767-1805)               |
+|4.2650   |NA (1730-1810)              |NA                                                   |NA                       |
 |4.2651   |devotion                    |john                                                 |1730-1802)               |
 |1.14931  |tennent                     |gilbert                                              |1703-1764)               |
 |1.14932  |murray                      |john                                                 |1742-1793)               |
 |1.14933  |williams                    |samuel                                               |1743-1817)               |
 |3.10230  |birch                       |thomas ledlie                                        |1808-1808)               |
+|3.10231  |NA (1750-1794)              |NA                                                   |NA                       |
+|3.10239  |NA (1693-1747)              |NA                                                   |NA                       |
 |3.10240  |whitaker                    |nathaniel                                            |1732-1795)               |
 |388.63   |blagge                      |benjamin                                             |NA-NA)                   |
 |3.10247  |wharton                     |samuel                                               |1732-1800)               |
@@ -5919,6 +6187,7 @@ Should also add living year information from supporting sources later.
 |3.10298  |plessis                     |joseph octave                                        |1763-1825)               |
 |3.10300  |berry                       |edward                                               |1768-1831)               |
 |3.10301  |brackenridge                |h h                                                  |1748-1816)               |
+|4.2670   |NA (1838-1838)              |NA                                                   |NA                       |
 |521      |bradford                    |cornelius                                            |NA-NA)                   |
 |4.2671   |johnson                     |john i                                               |NA-NA)                   |
 |4.2672   |stiles                      |ezra                                                 |1727-1795)               |
@@ -6024,6 +6293,7 @@ Should also add living year information from supporting sources later.
 |4.2725   |gardiner                    |john sylvester john                                  |1765-1830)               |
 |3.10512  |cadwalader                  |john                                                 |1742-1786)               |
 |3.10516  |davies                      |william                                              |1814-1814)               |
+|4.2727   |NA (1826-1826)              |NA                                                   |NA                       |
 |1.15015  |cleaveland                  |john                                                 |1722-1799)               |
 |3.10548  |findley                     |william                                              |1742-1821)               |
 |3.10554  |grey                        |isaac                                                |NA-NA)                   |
@@ -6119,6 +6389,7 @@ Should also add living year information from supporting sources later.
 |388.490  |pickering                   |timothy                                              |1745-1829)               |
 |3.10737  |reading                     |philip                                               |1720-1778)               |
 |3.10738  |arscott                     |alexander                                            |1676-1737)               |
+|3.10739  |NA (1729-1729)              |NA                                                   |NA                       |
 |1.15065  |sherman                     |roger                                                |1721-1793)               |
 |5.4705   |plant                       |thomas                                               |NA-NA)                   |
 |3.10752  |buckminster                 |joseph                                               |1751-1812)               |
@@ -6234,6 +6505,7 @@ Should also add living year information from supporting sources later.
 |428.3    |brown                       |andrew                                               |1744-1797)               |
 |6.4690   |howell                      |isaac                                                |1722-1797)               |
 |3.10975  |foster                      |william                                              |1740-1780)               |
+|398.23   |NA (1762-1824)              |NA                                                   |NA                       |
 |1.15133  |stearns                     |josiah                                               |1732-1788)               |
 |1.15134  |powers                      |peter                                                |1728-1800)               |
 |3.10979  |higginson                   |john                                                 |1616-1708)               |
@@ -6246,6 +6518,7 @@ Should also add living year information from supporting sources later.
 |1.15140  |stearns                     |william                                              |1749-1783)               |
 |4.2851   |paley                       |william                                              |1743-1805)               |
 |3.10996  |saint-pierre                |bernardin de                                         |1737-1814)               |
+|1.15144  |NA (1736-1812)              |NA                                                   |NA                       |
 |1.15145  |drowne                      |solomon                                              |1753-1834)               |
 |1.15149  |brooks                      |john                                                 |1752-1825)               |
 |1.15150  |mouradgea d'ohsson          |ignatius                                             |1740-1807)               |
@@ -6292,6 +6565,7 @@ Should also add living year information from supporting sources later.
 |3.11144  |woods                       |leonard                                              |1774-1854)               |
 |3.11175  |church                      |benjamin                                             |1639-1718)               |
 |3.11176  |pike                        |joseph                                               |1657-1729)               |
+|4.2885   |NA (1732-1785)              |NA                                                   |NA                       |
 |4.2886   |argenson                    |rené-louis de voyer                                  |1694-1757)               |
 |3.11179  |leaming                     |jeremiah                                             |1717-1804)               |
 |3.11182  |cooper                      |william                                              |1694-1743)               |
@@ -6407,6 +6681,7 @@ Should also add living year information from supporting sources later.
 |5.4880   |rochead                     |thomas                                               |NA-NA)                   |
 |1.15270  |norton                      |jone                                                 |NA-NA)                   |
 |5.4886   |meidel                      |c                                                    |NA-NA)                   |
+|3.11407  |NA (1759-1837)              |NA                                                   |NA                       |
 |3.11408  |sanat                       |de                                                   |NA-NA)                   |
 |3.11410  |outremont                   |anselme d'                                           |1746-1822)               |
 |3.11413  |glenn                       |john                                                 |NA-NA)                   |
@@ -6421,6 +6696,8 @@ Should also add living year information from supporting sources later.
 |258.185  |coote                       |eyre                                                 |1726-1783)               |
 |6.4817   |argentré                    |bertrand d'                                          |1519-1590)               |
 |6.4818   |freher                      |marquard                                             |1565-1614)               |
+|3.11420  |NA (1070-1132)              |NA                                                   |NA                       |
+|3.11421  |NA (1115-1183)              |NA                                                   |NA                       |
 |3.11422  |draud                       |georg                                                |1573-1635)               |
 |3.11423  |sweerts                     |pierre françois                                      |1567-1629)               |
 |6.4820   |du chesne                   |andré                                                |1584-1640)               |
@@ -6437,6 +6714,7 @@ Should also add living year information from supporting sources later.
 |3.11444  |behn                        |friedrich daniel                                     |1733-1804)               |
 |3.11446  |sully                       |maximilien de bthune                                 |1559-1641)               |
 |1.15306  |roye                        |jean de                                              |NA-NA)                   |
+|3.11450  |NA (1785-1785)              |NA                                                   |NA                       |
 |3.11453  |herries                     |john                                                 |NA-NA)                   |
 |1.15310  |arckenholtz                 |johan                                                |1695-1777)               |
 |6.4851   |fernández navarrete          |domingo                                              |1689-1689)               |
@@ -6495,6 +6773,8 @@ Should also add living year information from supporting sources later.
 |3.11619  |cox                         |daniel                                               |1759-1759)               |
 |4.3036   |johnson                     |james                                                |NA-NA)                   |
 |4.3038   |scot                        |george                                               |1776-1776)               |
+|3.11626  |NA (1682-1712)              |NA                                                   |NA                       |
+|3.11631  |NA (1691-1765)              |NA                                                   |NA                       |
 |1.15542  |keyser                      |jan                                                  |NA-NA)                   |
 |1.15543  |dell                        |jonas                                                |1665-1665)               |
 |1.15549  |thorne                      |tom                                                  |1792-1792)               |
@@ -6759,6 +7039,9 @@ The 21 unique languages are shown together with the number of documents. This in
 
 ## Document size comparisons
 
+[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentdimensions-discarded.csv)
+
+
 Document size (area) info in cm2 is available for 0 documents (NaN%). Estimates of document size (area) info in gatherings system are available for 50280 documents (100%). 
 
 ![plot of chunk summarysize](figure/summarysize-1.png) 
@@ -6795,6 +7078,7 @@ Compare original gatherings and original heights where both are available. The p
 ![plot of chunk summarysizevalidation](figure/summarysizevalidation-1.png) 
 
 ## Average page counts 
+
 
 Multi-volume documents average page counts are given per volume.
 
@@ -6890,21 +7174,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart6ece5bdaf5a7&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart9144fb6e683&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart6ece5bdaf5a7()
+      drawchart9144fb6e683()
     });
-    function drawchart6ece5bdaf5a7(){  
+    function drawchart9144fb6e683(){  
       var opts = {
- &quot;dom&quot;: &quot;chart6ece5bdaf5a7&quot;,
+ &quot;dom&quot;: &quot;chart9144fb6e683&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart6ece5bdaf5a7&quot; 
+&quot;id&quot;: &quot;chart9144fb6e683&quot; 
 },
         data = [
  {
@@ -7055,7 +7339,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart6ece5bdaf5a7'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart9144fb6e683'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
