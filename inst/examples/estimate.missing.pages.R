@@ -34,6 +34,7 @@ inds <- which(((df$volcount > 1 & df$volcount <= 10) |
 	    (df$pagecount <= 10 | is.na(df$pagecount)) & 
                !is.na(df$gatherings) & 
 	       !df$gatherings %in% c("1to", "2small", "2to", "2long", "4small", "4long", "4to"))
+
 g <- df$gatherings[inds]
 v <- df$volcount[inds] # number of vols
 p <- df$pagecount[inds]
