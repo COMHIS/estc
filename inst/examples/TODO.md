@@ -1,5 +1,8 @@
 # TODO 
 
+
+tapaukset (jos sellaisia on), jossa 1to merkinnässä on enemmän kuin 1 sivua, niin nämä voisi laittaa 2fo kokoon. Tämä perusteluna sille, että 1to on sheet sellaisenaan, jos se on taiteltu, niin sitten siitä tulee folio.
+
 ------------
 
 Antique authors are missing life years, probably a bug in polish_years ?
