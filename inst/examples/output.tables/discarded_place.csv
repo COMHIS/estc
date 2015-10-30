@@ -1,47 +1,352 @@
 Name	Count
-c("A Londres, et se trouve a Paris", "Loldon [sic]", "St. Christopher", "Lodon [sic]", "[S.l.", "[Port-au-Prince]", "Belfast : reprinted for William Mitchell", "[Coventry? :bs.n.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Burtons Coffee-House London", "[S.l.", "Basseterre (St. Christopher) [i.e. St.Kitts-Nevis]]", "[New York, N.Y.]", "New-Brunswick [N.J.]", "Lansingburgh [N.Y.]", "Shepherd's-Town [W. Va.]", "Newton, (State of New-Jersey)", "New-Windsor, (Orange County [N.Y.])", 
-"New York [N.Y.]", "Montego-Bay, Jamaica", "Bury St. Edmunds [England]", "[Bury St. Edmunds, England]", "[Bury St. Edmunds, England]", "[Dorchester. England]", "St. Ives in Huntingdonshire [England]", "St. Ives in Huntingdonshire [England]", "Dublin [Ireland] : printed by T[homas]. Walsh, in Skinner-Row; where advertisements are taken in, and all manner of printing work perform'd, at reasonable rates", "Dublin [Ireland] : printed by Thomas Walsh, at Dick's Coffee-House in Skinner-Row, where printing work is done", 
-"St. George's [Saint George] Bermuda", "Reading, Berks. [England]", "Gateside [Gateshead, Co. Durham, England]", "Montego-Bay [Jamaica]", "Publié à Londres", "Portsmouth [N. H.]", "New York [N.Y.]", "[Oxf]ord [England]", "St. Edmunds-Bury [Bury St. Edmunds, England]", "[Printed by J. and T. Dormer, in Black and White Court in the Old Baily, where advertisements and letters are taken in ].", "[Basseterre, St. Christopher's [i.e. St.Kitts-Nevis]]", "Basseterre, St. Christopher [i.e. St.Kitts-Nevis]", 
-"[Basseterre, St. Christopher [St.Kitts-Nevis]", "Basseterre, St. Christopher [St.Kitts-Nevis]", "[Basseterre, St. Christopher [St.Kitts-Nevis]]", "Newburgh (Ulster County )[N.Y.]", "Frederick-Town: (state of Maryland)", "St. John's in Antigua", "St. John's in Antigua", "Woodbridge, in New Jersey", "New York [N.Y.]", "[New-York, N.Y", "Charlestown [Charleston, S.C.]", "[New York, N.Y.", "[New York, N.Y.]", "New York [N.Y.]", "Charleston [S.C.]", "Commonwealth of Massachusetts: Boston", "[Concord, N.H.]", 
-"[Geneva, N.Y.]", "[Concord, N.H.]", "City of Washington [D.C.]", "[S.l.", "[Washington, D.C.]", "[Concord, N.H.]", "[Concord, N.H.]", "New Brunswick [N.J.]", "New-York (N.Y.)", "Bath, County of Steuben, State of New-York", "Bridge-Town [Barbados]", "Schenectady, (State of New-York)", "Basseterre, in St. Christopher's [St.Kitts-Nevis]", "Bury St. Edmunds [England]", "[New York, N.Y.]", "Scipio (Onondaga County, S.N.Y.)", "Mount Pleasant [i.e. Ossining, N.Y.]", "[New York, N.Y.]", "Newburgh (Orange County) [N.Y.]", 
-"[New York, [N.Y.]]", "New-York [N.Y.]", "[Bridgeton, N.J.]", "[Haverhill, N.H.]", "[Concord, N.H.]", "Charleston [S.C.]", "[St. Johns?] Antigua", "St. George's Town [Grenada]", "[Savanna-la-Mar] Jamaica", "St. George's [Grenada]", "St. George's [Grenada]", "Boston in New-England", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "London ,i [sic]", "[London]January, 2", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[Dublin] London: printed and re-printed", "Lonkon [sic]", "Lonkon [sic]", 
-"[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "Boston in New-England", "[S.l.]", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "Boston in New-England", "[S.l.", "Doublin [sic]", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.]", "[S.n.]", "[S.l.]", "Printed at Waterford in Ireland", "[Londo]n", "[S.l.", "Lomdon [sic]", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "Imprinted at Yorke, and now reprinted at London", 
-"[S.l.", "Printed at Waterford in Ireland", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "Lon[don]", "[S.l.]", "[S.l.", "[S.l.", "Londoni [sic]", "[S.l.", "Boston in New-England", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "Lonon [sic]", "[S.l.", "[S.l. : s.n.", "[London] imprinted", "[S.l.", "Boston in New-England", "Juxta emplar [sic], Londini", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[s.l.]", "Oxford [and London]", "Nunc demum typis excusa Londinii", "[S.l.", 
-"[S.l.]", "[S.l.", "Printed by His Majesties command at Oxford [i.e. London], February 24. By Leonard Lichfield, printer to the university.", "[S.l.", "[London] : Printed for Tom Tell-troth at the sign of the Old Kings Head in Axe-yard in King street, Westminster", "[S.l.", "Imprinted at Dublin, and now reprinted at London", "[S.l.", "[S.l.", "[S.l.", "[s.l.", "[s.l.", "[S.l.", "[S.l.", "And reprinted at London", "[S.l.", "[S.l.", "Londgn [sic]", "Printed at London, to prevent mis-information", "Lonon [sic]", 
-"[S.l.", "Londn [sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "Lodnon[sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "London: London [sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Lonon [sic]", "Loudon [sic]", "[S.l.", "[S.l.]", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "Lodnon [sic]", "[S.l.", "[S.l.", "[S.l.", "Imprinted by London", "[S.l.", "Printed at Loydon [sic]", "[S.l.", "Printed at Paris, cum privilegio", 
-"[S.l.", "[S.l.", "[S.l.", "Loudon [sic]", "[S.l.", "[S.n.", "[S.l.", "[S.l.]", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "Londom [sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Boston in N.E.", "[S.l.", "[S.l.", "[S.l.", "Londini excussum", "[S.l.", "[S.l.", "And re-printed at Dublin", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "Gedruckt zu Londen in Engelland", "Imprimé a Londres", "[S.l.", "[S.l.", "By order re-printed at Edinburgh", "London in Engelland", "[S.l.", "[S.l.", "[S.l.", "[S.l.", 
-"[S.l.", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "A Francefort, [Et à Londres]", "Ediburgh [sic]", "[London] White-Hall, St. Barnabas's Festival", "Nunc demum typis excusa Londinii", "[S.l.", "Se vend à Londres", "[S.l.", "[S.l.", "Stampata in Dublino", "In's Graven-Hage", "[S.l.", "[S.l.", "Gedrukt tot Edenburg in Schotland", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l", "Gedrukt zu Edenburg in Schottland", 
-"Printed at Paris, cum privilegio", "[London] :bPrinted for Edward Husband, printer to the Honorable House of Commons", "[S.l.", "[S.l.", "Impressum Londini", "Printed at London, and re-printed at Edinburgh", "[S.l.", "[S.l.", "[S.l.", "[Printed at Amsterdam in the year 1688", "Boston in New-England", "Imprinted first at London and reprinted at Edinburgh", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[[S.l.", "[S.l.", "[S.l.", "[S.l.", "Boston in New England", "[S.l.", "[S.l.", "[S.l.", "[S.l.", 
-"Loudon [sic]", "Dublin reprinted", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.]", "Boston in New-England", "[S.l.", "[S.l.", "Imprimee a Edenburg", "[S.l.]", "Holy-Rood-House [Edinburgh]", "[S.l]", "Londgn [sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Lonodn [sic]", "[S.l.", "Lond[ini].", "[S.l.", "[S.l.", "[s.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[London] In the Savoy", "[S.l.", "[S.l.", "[S.l.", "Lond[on]", "[S.l.]", "[S.l", "[S.l.", "[S.l.]", 
-"[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Imprinted at York by Robert Barker", "Londom [sic]", "[S.l", "[S.l.", "[S.l.", "[S.l.]", "[S.l", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[London] In the Savoy", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "London :printed by T. Moore in White-Fryers", "[S.l.", "[S.l.", "[S.l.", "[S.l.", 
-"[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Lodon [sic]", "[S.l.", "[S.l.", "[S.l.", "[London :bs.n.", "[London :bs.n.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Printed first at London, and now re-printed at Edinburgh", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[Edinburgh] Printed at London, and re-printed at Edinburgh", "[S.l.", "Printed at London, and re-printed at Edinburgh", "[Edinburgh] Printed at London, and re-printed at Edinburgh", "[Edinburgh] Printed at London, and re-printed at Edinburgh", 
-"[S.l.", "[Edinburgh] Printed at London, and re-printed at Edinburgh", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", NA, "Edinburgh :bprinted by the heir of Andrew Anderson, printer to His most Sacred Majesty", "[Edinburgh] Printed at Dublin, and re-printed at Edinburgh", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[Glasgow] London printed, and re-printed at Glasgow", 
-"[Edinburgh] London printed, and re-printed at Edinburgh", "[S.l.", "[London] In the Savoy", "[S.l.", "[S.l.", "Oxoford [sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Printed at London, and re-printed at Edinburgh", "[S.l.", "[Edinburgh] Printed at London, and re-printed at Edinburgh", "[S.l.", "[S.l.]", "[S.l.", "Printed at St. Germans", "Dondon [sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Nondon [sic]", "[Lo]ndon", "[S.l.", "[Edinburgh] Printed at London, and re-printed at Edinburgh", 
-"[Edinburgh] London printed, Edinburgh re-printed", "[S.l.", "[S.l", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[Printed at London, and re-printed at Aberdene", "By order, re-printed at Edinburgh", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Printed at London, and re-printed at Edinburgh", "Printed at Oxford, and reprinted at Shrewsbury", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l", "Printed at London, and re-printed at Edinburgh", "[S.l.]", "[S.l.", 
-"[S.l.", "Printed at Oxford, and reprinted at Shrewsbury", "[S.l.", "[S.l.", "Printed at London, and reprinted at Dublin", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[Edinburgh] Re-printed at Edinburgh", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Printed and sold in York", "[S.l.", "Imprimé a Dublin", "[S.l.", "[S.l.", "[S.l.", "Printed at London, and re-printed at Edinburgh", "[n.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l", "[S.l.", 
-"Printed at London, and re-printed at Leith", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[Dublin reprinted", "Sur l'imprimeà́ Londres", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Boston in New-England", "[S.l.", "[Imprynted at London in Temstrete ouer agaynste the stiliardes, at the signe of the dobbel hood", "[S.l.", "Imprime a Londres", "At S. Omers", "Imprimè a Londres", "Na de copye, Gedruckt tot Edinburgh", "Imprinted in London", "Impressum Londini", "[Excussum [sic] Londini", 
-"Londoni [sic]", "[Emprented in ye famous cite of Andwarpe", "Impressum Londini", "[St. Omer", "Impressum Londini", "Translated out of the High-Dutch, and printed at London", "[Enpre[n]tyd in the Duchye of Braband in the towne of Andewarpe", "Impressum Londini", "Midddelburgh[sic]", "[Impressu[s] Londonijs", "[Impressa in Londre", "[Imprinted in Londo[n]", "Impressum Londini", "[At Edinburgh ye 17. day of July", "At S. Omers", "Printed at Cullen [i.e. Mechlin] with licence", "Stampata in Londra", 
-"Imprinted in Aberdene", "[Excusum Lonini", "[Emprynted at westmynstre", "[Enprynted by me William Caxton in thabbey of Westme[n]stre by london, fynysshed, and accomplysshed the, viij, day of October, the yere of the incatnacyon of our lord God, M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth", "Londidi [sic]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.]", "[S.l.]", "[S.l.", "[S.l.", "[Wesel?] imprinted", "Imprinted in London", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", 
-"[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "Imprinted in the Cathedrall Church of the blessed Trinitie Dublin", "In't Nederduyts over-gheset na't ghedruckte exemplaer van Londen", "[S.l.", "Imprimé à Londres", "[S.l.", "[S.l.", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.]", "[S.l.]", "[S.l.]", "[S.l.", "Imprinted at London in Povvles Churchyarde", "Imprinted at London in Powles Churchyarde", "Imprinted at London in Powles Churchyarde", "Imprinted at London in Powles Churchyarde", 
-"[S.l.]", "[S.l.]", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "Imprimè a Londres", "Imprimé à Londres", "[S.l.", "Oxoniæ excudebant", "And imprentit [in Edinburgh", "[S.l.", "[S.l.", "[S.l.", "Imprimé à Londres par Richard Field, sur les copies impriméez à Tours & à la Rochelle", "Printed in Aeerdene [sic]", "[Excvsvm Londini", "[Imprynted at London in Powles church yarde by Rycharde Iugge and Iohn Cawood printers to the Quenes Maiestie. Cum priuilegio Regiæ Maiestatis]", "[S.l.", "Impressum Londini", 
-"Imprinted at London in Fleetstreete", "[Impr]inted at Lon[don", "[S.l.", "[S.l.", "[S.l.", "Edinbugh [sic]", "[London? :bs.n.", "[London? :bs.n.", "[Port-au-Prince]", "[Bury St. Edmunds?]", "Burton-Upon-Trent", "[Dubl]in", "Bury St. Edmund's", "Basseterre in St. Christopher", "London-Derry", "London-Derry", "Londres, et se trouve à Paris", "Caer-Grawnt", "[Bury St. Edmund's", "[S.l.", "[Exeter, N.H.", "Poughkeepsie [N.Y.]", "[Amherst, N.H.]", "[Portsmouth, N.H.", "[Newport, R.I.", "Keene: state of New-Hampshire", 
-"[Charleston, S.C.", "[Charleston, S.C.", "[Charleston, S.C.", "[Portsmouth, N.H.", "Newport, Rhode-Island", "[Newport, R.I.]", "[Exeter, N.H.", "[Exeter, N.H.", "[Newport, R.I.?", "State of Massachusetts-Bay. Boston", "New-Brunswick [N.J.]", "Schenectady [N.Y.]", "Newport [R.I.]", "[Burlington, N.J.?", "Newark, New-Jersey", "Charlestown [i.e., Charleston, S.C.]", "[Dresden, Vt.; i.e., Hanover, N.H.", "Dresden [Vt., i.e., Hanover, N.H.]", "[Halifax, N.C.?", "[Charleston, S.C.?", "Burlington [N.J.]", 
-"Salem [Mass.]: N.E.", "Hagers-Town [Md.]", "Newport, Rhode-Island", "Salem [Mass.]: N.E.", "Newport [R.I.]", "Massachusetts-Bay: Worcester", "[Newport, R.I.]", "[Portsmouth, N.H.]", "Newport, Rhode-Island", "York-town [Pa.]", "Newbern [N.C.]", "Newbury-Port, New-England", "Boston, in New-England", "[Newport, R.I.]", "[Fishkill, N.Y.", "[Albany, N.Y.", "[Exeter, N.H.?", "Newbury-Port [Mass.]", "Newport [R.I.]", "[Portsmouth, N.H.]", "Exeter [N.H.]", "Halifax [N.S.]", "Charleston [S.C.]", "Amherst, (New-Hampshire)", 
-"Haverhill, (New-Hampshire)", "[Newport, R.I.", "Salem, N.E.", "[Portsmouth, N.H.]", "[Portsmouth, N.H.?", "[Fishkill, N.Y.?", "[Poughkeepsie, N.Y.", "[Fishkill, N.Y.", "[Fishkill, N.Y.", "[Fishkill, N.Y.", "[Poughkeepsie, N.Y.", "Poughkeepsie [N.Y.]", "Poughkeepsie [N.Y.]", "[Hudson, N.Y.]", "Nova-Scotia", "[Halifax, N.S.?", "Halifax [N.S.]", "[Concord, N.H.]", "York-town [Penn.]", "Fish-Kill [N.Y.]", "A Newport [R.I.]", "[Portsmouth, N.H.?", "[Newbern, N.C.", "Newport, Rhode-Island", "[Portsmouth, N.H.?", 
-"Lansingburgh [N.Y.]", "Boston, in New-England", "[Newbern, N.C.?]", "[Newbern, N.C.?]", "Exeter [N.H.]", "[Exeter, N.H.]", "[Exeter, N.H.", "[Exeter, N.H.", "[Newport, R.I.?", "[Woodbridge, N.J.", "[Burlington, N.J.", "[Burlington, N.J.", "[Burlington, N.J.", "Newbern [N.C.]", "Newbern [N.C.]", "Printed in Hudson [N.Y.]", "[Newport, R.I.", "Lancaster [N.J.]", "Warren (R.I.)", "[Burlington, N.J.", "[Newport, R.I.", "Keene (New-Hampshire:)", "Fish-Kill [N.Y.]", "Boston in New-England", "Burlington, in New-Jersey", 
-"Trenton [N.J.]", "Burlington, New-Jersey", "Newbury-Port [Mass.]", "Boston in New-England", "[Portsmouth, N.H.]", "[Newport, R.I.]", "[Exeter, N.H.]", "[Fishkill, N.Y.", "[Fishkill, N.Y.", "[Exeter, N.H.?", "Fish-kill [N.Y.]", "Fish-kill [N.Y.]", "[Newburgh, N.Y.?", "Boston: in N.E.", "A Charleston [S.C.]", "Poughkeepsie, [N.Y.]", "[Charleston, S.C.?", "[Trenton, N.J.]", "Georgia. Savannah", "Neo-Eboraci", "Newbury-port [Mass.]", "Boston, in America", "Newport (Rhode-Island)", "Newport, Rhode-Island", 
-"Boston in N.E.", "Philadelpaia [sic]", "Hudson [N.Y.]", "Hudson [N.Y.]", "Newbury-Port: [Mass.]", "Newport [R.I.]", "[Newport, R.I.]", "Charleston [S.C.]", "[Annapolis] North-America", "Newbern [N.C.]", "Providence, in New-England", "Providence, in New-England", "Providence, in New-England", "[Lansingburgh, N.Y.]", "A Philadelphie, et se trouve à Paris", "Newport [R.I.]", "New-Brunswick [N.J.]", "[Charleston, S.C.]", "York-Town [Pa.]", "York-Town [Pa.]", "Fish-Kill [N.Y.]", "York-Town [Pa.]", "York-Town [Pa.]", 
-"York-Town [Pa.]", "York-Town [Pa.]", "Printed at Exeter [N.H.]", "[Portsmouth, N.H.", "Newport [R.I.]", "[Poughkeepsie, N.Y.", "Charlestown [S.C.]", "[Fishkill, N.Y.", "Newbern [N.C.]", "Newport [R.I.]", "[Charleston, S.C.", "[Amherst, N.H.]", "[Mount Holly, N.J.]", "[Charleston, S.C.]", "Burlington [N.J.]", "Providence, in New-England", "Newport [R.I.]", "[Newport, R.I.", "[New Bern, N.C.", "Portsmouth: N.H.", "Chatham [N.J.]", "[Newport, R.I.]", "New-Windsor [N.Y.]", "Massachusetts-Bay: Worcester", 
-"America: Printed at Providence (R. Island)", "[Newport, R.I.", "[Newport, R.I.", "Baltimore-Town", "[Newark, N.J.]", "[Newport, R.I.]", "[Newport, R.I.]", "[Newport, R.I.]", "[Newport, R.I.", "[Newport, R.I.", "[Newport, R.I.", "[Newport, R.I.", "[Newport, R.I.]", "[Newport, R.I.]", "[Newport, R.I.]", "Philadelpaia [sic]", "[Newbern, N.C.", "[Newport, R.I.", "[Newbern, N.C.?", "[Newbern, N.C.", "Lansingburgh [N.Y.]", "Hudson [N.Y.]", "Concord [N.H.]", "[Halifax, N.C.", "[Portsmouth, N.H.?", "Charleston [S.C.]", 
-"Portsmouth [N.H.]", "Portsmouth [N.H.]", "Woodbridge, in New-Jersey", "Charles-town [S.C.]", "Hanover [N.H.]", "Charles-Town [i.e., Charleston, S.C.]", "Halifax [N.C.]", "Rome [N.Y.]", "Trenton [N.J.]", "New-Brunswick [N.J.]", "[Exeter, N.H.", "Printed at Exeter, [N.H.]", "[Exeter, N.H.", "[Exeter, N.H.", "[Exeter, N.H.?", "[Exeter, N.H.?", "[Exeter, N.H.", "[Portsmouth, N.H.", "Portsmouth [N.H.]", "[Portsmouth, N.H.", "[Newport, R.I.", "[Newport, R.I.?", "Charles-Town [S.C.]", "[Exeter, N.H.", 
-"[Newbern, N.C.", "[Newport, R.I.", "Charles-Town [S.C.]", "Charles-Town [S.C.]", "Charlestown [S.C.]", "[Charleston, S.C.?", "[Newport, R.I.]", "Newburgh [N.Y.]", "Portsmouth: N.H.", "[Newport, R.I.]", "Charleston [S.C.]", "[Charleston, S.C.?", "[Newport, R.I.", "[Portsmouth, N.H.?", "[Portsmouth, N.H.?", "[Newport, R.I.]", "[Newport, R.I.", "Newport [R.I.]", "Boston: in N.E.", "[Exeter, N.H.", "[Poughkeepsie, N.Y.]", "[Charleston. S.C.", "[Charleston, S.C.]", "Warren (Rhode-Island)", "[Portsmouth, N.H.?", 
-"[Exeter, N.H.", "[Albany, N.Y.", "Poughkeepsie, Dutchess County [N.Y.]", "Danvers [Mass.], near Salem", "[Fishkill, N.Y.", "Newport, Rhode-Island", "Newbury-Port [Mass.]", "Newport [R.I.]", "Newport [R.I.]", "[Charleston, S.C.]", "[Newport, R.I.", "Boston, in New-England", "Albany [N.Y.]", "Charles-Town [S.C.]", "Boston, in N.E.", "[Poughkeepsie, N.Y.", "York-town [Pa.]", "Newport, Rhode-Island", "Salem [Mass.]: N.E.", "[Portsmouth, N.H.]", "[Burlington, N.J.", "Massachusetts-Bay: Worcester", "[Newport, R.I.?", 
-"Charles-Town, South-Carolina", "Newbury-Port [Mass.]", "Newbury-Port [Mass.]", "[Dresden, Vt., i.e., Hanover, N.H.]", "Burlington [N.J.]", "Monmouth (N.J.)", "United States. [Philadelphia?", "Trenton [N.J.]", "[Exeter, N.H.?", "[Portsmouth, N.H.", "Charlestown [S.C.]", "Shepherd's-Town [Va.]", "Danvers [Mass.], near Boston", "[Woodbridge N.J.]", "[Charleston, S.C.", "Newport [R.I.]", "Charles-Town [i.e., Charleston, S.C.]", "Charleston [S.C.]", "Charleston [S.C.]", "Charleston [S.C.]", "Charleston [S.C.]", 
-"[Charleston, S.C.", "[Charleston, S.C.", "[Charleston, S.C.", "[Halifax, N.C.?", "[Jacksonburgh, S.C.]", "[Charleston, S.C.", "[Charleston, S.C.", "[Charleston, S.C.?", "[Charleston, S.C.", "[Jacksonburgh, S.C.", "[Jacksonburgh, S.C.", "[Charleston, S.C.", "South-Carolina: Charles-Town", "St. Augustine, East-Florida", "[Burlington, N.J.", "[Fishkill, N.Y.", "[Fishkill, N.Y.", "[Fishkill, N.Y.", "Newbury-Port [Mass.]", "[Newport, R.I.]", "Charlestown [S.C.]", "Boston in New-England", "[Fishkill, N.Y.", 
-"[Exeter, N.H.", "Salem [Mass.]: N.E.", "Salem [Mass.]: N.E.", "[Newport, R.I.", "[Portsmouth, N.H.", "Printed in Hudson [N.Y.]", "[Newport, R.I.?", "[Trenton, N.J.", "Poughkeepsie [N.Y.]", "[Fishkill, N.Y.", "[Exeter, N.H.", "Newport, Rhode-Island", "[Charleston, S.C.", "[Woodbridge, N.J.?", "[Newport, R.I.]", "[Albany, N.Y.?", "[Newport, R.I.", "Newport [R.I.]", "[Keene, N.H.]", "Newport [R.I.]", "[Exeter, N.H.", "[Dresden, Vt., i.e., Hanover, N.H.", "Poughkeepsie [N.Y.]", "Boston in New-England", 
-"[Newport, R.I.", "[Woodbridge, N.J.?", "Poughkeepsie [N.Y.]", "[Fishkill, N.Y.?", "[Newport, R.I.", "[Exeter, N.H.", "[Newport, R.I.", "Newport [R.I.]", "Newport [R.I.]", "Portsmouth [N.H.]", "[Newport, R.I.", "Danvers, near Boston", "[Newark, N.J.", "[Newport, R.I.", "Newport [R.I.]", "Exeter [N.H.]", "[Exeter, N.H.]", "Charles-Town [S.C.]", "[Fishkill, N.Y.", "Elizabeth-Town [N.J.]", "[Newbern, N.C.", "Chatham [N.J.]", "[Charleston, S.C.", "[Raleigh, N.C.?", "Printed at Exeter [N.H.]", "Portsmouth [N.H.]", 
-"Warren (Rhode-Island)", "Newbury-Port: [Mass.]", "Massachusetts-Bay: Worcester", "Massachusetts-Bay: Worcester", "Boston in New-England", "Commonwealth of Massachusetts: Boston", "Charleston [S.C.]", "Newport [R.I.]", "Salem [Mass.], N.E.", "[Newport, R.I.]", "[Newport, R.I.]", "[Poughkeepsie, N.Y.?", "[Halifax, N.S.?", "[Fishkill, N.Y.", "Dover [N.H.]", "[Charleston, S.C.]", "[Elizabeth, N.J.?", "Printed at Poughkeepsie [N.Y.]", "Newbury-Port [Mass.]", "[Burlington, N.J.", "[Charleston, S.C.", 
-"[Charleston, S.C.", "[Charleston, S.C.", "[Charleston, S.C.", "Charles-Town [S.C.]", "[Charleston, S.C.", "[Charleston, S.C.", "[Charleston, S.C.", "[S.C.", "[Charleston, S.C.]", "[Charleston, S.C.]", "[Charleston, S.C.", "[Charleston, S.C.]", "[Charleston, S.C.", "[Charleston, S.C.]", "[Charleston, S.C.]", "[Charleston, S.C.", "[Charleston, S.C.]", "[Charleston, S.C.", "[Charleston, S.C.?", "[Portsmouth, N.H.]", "[Burlington, N.J.?", "[Portsmouth, N.H.", "[Burlington, N.J.?", "Burlington [N.J.]", 
-"[Burlington, N.J.?", "[Burlington, N.J.?", "[Burlington, N.J.?", "Newbury-Port", "Boston in New-England", "[Boston in New-England", "Boston in New-England.", "Boston in New England.", "Boston in N.E.", "Boston in New-England", "Boston in New-England", "Boston, in N.E.", "[St. Mary's, Md.]", "Printed at Boston in New-England", "[Parr-Town", "St. John", "Charlotte-Town", "[Charlotte-Town", "[St. John", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[S.l.", "[Portsmouth, N.H.", "[S.l.", "Boston in New-England", 
-"[S.l.", "[S.l.", "[S.l.", "[S.l.", "[New York, N.Y.", "Paris :b chez Nicolas Buon, rue S. Jacques a l'Enseigne Sainct Claude, & de l'homme Sauvage", "[New York, N.Y.", "[New York, N.Y.", "[New York, N.Y.", "[New York, N.Y.?", "New York, [N.Y.]", "[New York, N.Y.", "[Poughkeepsie, N.Y.", "Pointe-A-Pitre, [Guadeloupe]", "[A la Point-à-Pitre", "[Point-à-Pitre, Guadeloupe?", "A Amsterdam et a Leipzig", "New-Brunswick", "[London] In the Savoy", "[Poughkeepsie [N.Y.]", "Te Londen", "[S.l.", "[Dover, N.H.", 
-"Boston in New-England", "Boston in New-England", "[S.l.", "[London : printed for Iohn Field for Edward Husband, to the Parliament of England", "Stamford : printed by Newcomb and Peat; and sold for the benefit of the charity", "[S.l.", "[[London] In the Savoy")	1
+[S.l.	424
+York	80
+[S.l.]	45
+Printed at York	36
+Imprinted at York	19
+Boston in New-England	19
+[York]	15
+[Fishkill, N.Y.	15
+[York?	10
+[York	10
+[Portsmouth, N.H.	9
+York [England]	8
+Newport, Rhode-Island	8
+[S.l	8
+Newbury-Port [Mass.]	7
+Impressum Londini	7
+[Portsmouth, N.H.?	7
+[Burlington, N.J.	7
+Yorke	6
+York-Town [Pa.]	6
+Printed at London, and re-printed at Edinburgh	6
+Poughkeepsie [N.Y.]	6
+Charles-Town [S.C.]	6
+[Portsmouth, N.H.]	6
+[Edinburgh] Printed at London, and re-printed at Edinburgh	6
+[Concord, N.H.]	6
+[Burlington, N.J.?	6
+Printed at Yorke	5
+Portsmouth [N.H.]	5
+Newbern [N.C.]	5
+Massachusetts-Bay: Worcester	5
+[York, England]	5
+[Poughkeepsie, N.Y.	5
+[Newbern, N.C.	5
+Providence, in New-England	4
+New-Brunswick [N.J.]	4
+Charlestown [S.C.]	4
+Burlington [N.J.]	4
+[York, Pa.	4
+[London] In the Savoy	4
+Trenton [N.J.]	3
+Loudon [sic]	3
+Lonon [sic]	3
+Lansingburgh [N.Y.]	3
+Imprinted at London in Powles Churchyarde	3
+Fish-Kill [N.Y.]	3
+Boston, in New-England	3
+Boston in N.E.	3
+[s.l.	3
+York-town [Pa.]	2
+Warren (Rhode-Island)	2
+St. John's in Antigua	2
+St. Ives in Huntingdonshire [England]	2
+St. George's [Grenada]	2
+Printed at Waterford in Ireland	2
+Printed at Paris, cum privilegio	2
+Printed at Oxford, and reprinted at Shrewsbury	2
+Portsmouth: N.H.	2
+Philadelpaia [sic]	2
+Nunc demum typis excusa Londinii	2
+Newbury-Port: [Mass.]	2
+Lonkon [sic]	2
+Londoni [sic]	2
+London-Derry	2
+Londom [sic]	2
+Londgn [sic]	2
+Lodon [sic]	2
+Imprinted in London	2
+Imprimè a Londres	2
+Imprimé à Londres	2
+Halifax [N.S.]	2
+Fish-kill [N.Y.]	2
+Commonwealth of Massachusetts: Boston	2
+Chatham [N.J.]	2
+Bury St. Edmunds [England]	2
+Boston: in N.E.	2
+Boston, in N.E.	2
+At S. Omers	2
+[Woodbridge, N.J.?	2
+[Port-au-Prince]	2
+[Newbern, N.C.?]	2
+[London? :bs.n.	2
+[Jacksonburgh, S.C.	2
+[Halifax, N.S.?	2
+[Fishkill, N.Y.?	2
+[Bury St. Edmunds, England]	2
+[Amherst, N.H.]	2
+[Albany, N.Y.	2
+York-town [Penn.]	1
+York-Town [i.e., York, Pa.]	1
+Yeovil [England]	1
+Yarmouth	1
+Woodbridge, in New-Jersey	1
+Woodbridge, in New Jersey	1
+Warren (R.I.)	1
+United States. [Philadelphia?	1
+Translated out of the High-Dutch, and printed at London	1
+Te Londen	1
+Sur l'imprimeà́ Londres	1
+State of Massachusetts-Bay. Boston	1
+Stampata in Londra	1
+Stampata in Dublino	1
+Stamford : printed by Newcomb and Peat; and sold for the benefit of the charity	1
+St. John	1
+St. George's Town [Grenada]	1
+St. George's [Saint George] Bermuda	1
+St. Edmunds-Bury [Bury St. Edmunds, England]	1
+St. Christopher	1
+St. Augustine, East-Florida	1
+South-Carolina: Charles-Town	1
+Shepherd's-Town [W. Va.]	1
+Shepherd's-Town [Va.]	1
+Se vend à Londres	1
+Scipio (Onondaga County, S.N.Y.)	1
+Schenectady, (State of New-York)	1
+Schenectady [N.Y.]	1
+Salem, N.E.	1
+Rome [N.Y.]	1
+Reading, Berks. [England]	1
+Re-printed at York	1
+Publié à Londres	1
+Printed in Aeerdene [sic]	1
+Printed first at London, and now re-printed at Edinburgh	1
+Printed by His Majesties command at Oxford [i.e. London], February 24. By Leonard Lichfield, printer to the university.	1
+Printed at St. Germans	1
+Printed at Poughkeepsie [N.Y.]	1
+Printed at Loydon [sic]	1
+Printed at London, to prevent mis-information	1
+Printed at London, and reprinted at Dublin	1
+Printed at London, and re-printed at Leith	1
+Printed at Cullen [i.e. Mechlin] with licence	1
+Printed at Boston in New-England	1
+Printed and sold in York	1
+Poughkeepsie, Dutchess County [N.Y.]	1
+Poughkeepsie, [N.Y.]	1
+Portsmouth [N. H.]	1
+Pointe-A-Pitre, [Guadeloupe]	1
+Paris :b chez Nicolas Buon, rue S. Jacques a l'Enseigne Sainct Claude, & de l'homme Sauvage	1
+Oxoniæ excudebant	1
+Oxoford [sic]	1
+Oxford [and London]	1
+Nova-Scotia	1
+Nondon [sic]	1
+Newton, (State of New-Jersey)	1
+Newport (Rhode-Island)	1
+Newbury-Port, New-England	1
+Newbury-port [Mass.]	1
+Newbury-Port	1
+Newburgh [N.Y.]	1
+Newburgh (Ulster County )[N.Y.]	1
+Newburgh (Orange County) [N.Y.]	1
+Newark, New-Jersey	1
+New-Windsor, (Orange County [N.Y.])	1
+New-Windsor [N.Y.]	1
+New-Brunswick	1
+New Brunswick [N.J.]	1
+Neo-Eboraci	1
+Na de copye, Gedruckt tot Edinburgh	1
+Mount Pleasant [i.e. Ossining, N.Y.]	1
+Montego-Bay, Jamaica	1
+Montego-Bay [Jamaica]	1
+Monmouth (N.J.)	1
+Midddelburgh[sic]	1
+Lonodn [sic]	1
+Londres, et se trouve à Paris	1
+London: London [sic]	1
+London in Engelland	1
+London [i.e. York]	1
+London :printed by T. Moore in White-Fryers	1
+London ,i [sic]	1
+Londn [sic]	1
+Londini excussum	1
+Londidi [sic]	1
+Lond[on]	1
+Lond[ini].	1
+Lon[don]	1
+Lomdon [sic]	1
+Loldon [sic]	1
+Lodnon[sic]	1
+Lodnon [sic]	1
+Lancaster [N.J.]	1
+Keene: state of New-Hampshire	1
+Keene (New-Hampshire:)	1
+Juxta emplar [sic], Londini	1
+In't Nederduyts over-gheset na't ghedruckte exemplaer van Londen	1
+In's Graven-Hage	1
+Imprinted in the Cathedrall Church of the blessed Trinitie Dublin	1
+Imprinted in Aberdene	1
+Imprinted first at London and reprinted at Edinburgh	1
+Imprinted by London	1
+Imprinted at Yorke, and now reprinted at London	1
+Imprinted at York by Robert Barker	1
+Imprinted at London in Povvles Churchyarde	1
+Imprinted at London in Fleetstreete	1
+Imprinted at Dublin, and now reprinted at London	1
+Imprimee a Edenburg	1
+Imprimé à Londres par Richard Field, sur les copies impriméez à Tours & à la Rochelle	1
+Imprimé a Londres	1
+Imprime a Londres	1
+Imprimé a Dublin	1
+Holy-Rood-House [Edinburgh]	1
+Haverhill, (New-Hampshire)	1
+Hanover [N.H.]	1
+Hagers-Town [Md.]	1
+Georgia. Savannah	1
+Gedrukt zu Edenburg in Schottland	1
+Gedrukt tot Edenburg in Schotland	1
+Gedruckt zu Londen in Engelland	1
+Gateside [Gateshead, Co. Durham, England]	1
+Frederick-Town: (state of Maryland)	1
+Elizabeth-Town [N.J.]	1
+Edinburgh :bprinted by the heir of Andrew Anderson, printer to His most Sacred Majesty	1
+Edinbugh [sic]	1
+Ediburgh [sic]	1
+Dublin reprinted	1
+Dublin [Ireland] : printed by Thomas Walsh, at Dick's Coffee-House in Skinner-Row, where printing work is done	1
+Dublin [Ireland] : printed by T[homas]. Walsh, in Skinner-Row; where advertisements are taken in, and all manner of printing work perform'd, at reasonable rates	1
+Dresden [Vt., i.e., Hanover, N.H.]	1
+Dover [N.H.]	1
+Doublin [sic]	1
+Dondon [sic]	1
+Danvers, near Boston	1
+Danvers [Mass.], near Salem	1
+Danvers [Mass.], near Boston	1
+Concord [N.H.]	1
+City of Washington [D.C.]	1
+Charlotte-Town	1
+Charlestown [Charleston, S.C.]	1
+Charles-Town, South-Carolina	1
+Charles-town [S.C.]	1
+Caer-Grawnt	1
+By order, re-printed at Edinburgh	1
+By order re-printed at Edinburgh	1
+Bury St. Edmund's	1
+Burtons Coffee-House London	1
+Burton-Upon-Trent	1
+Burlington, New-Jersey	1
+Burlington, in New-Jersey	1
+Bridge-Town [Barbados]	1
+Boston, in America	1
+Boston in New-England.	1
+Boston in New England.	1
+Boston in New England	1
+Belfast : reprinted for William Mitchell	1
+Bath, County of Steuben, State of New-York	1
+Basseterre, St. Christopher [St.Kitts-Nevis]	1
+Basseterre, St. Christopher [i.e. St.Kitts-Nevis]	1
+Basseterre, in St. Christopher's [St.Kitts-Nevis]	1
+Basseterre in St. Christopher	1
+Basseterre (St. Christopher) [i.e. St.Kitts-Nevis]]	1
+Baltimore-Town	1
+At York	1
+And reprinted at London	1
+And re-printed at Dublin	1
+And imprentit [in Edinburgh	1
+Amherst, (New-Hampshire)	1
+America: Printed at Providence (R. Island)	1
+Albany [N.Y.]	1
+A Philadelphie, et se trouve à Paris	1
+A Londres, et se trouve a Paris	1
+A Francefort, [Et à Londres]	1
+A Amsterdam et a Leipzig	1
+[York?]	1
+[York, Pa.]	1
+[York, England	1
+[Woodbridge, N.J.	1
+[Woodbridge N.J.]	1
+[Wesel?] imprinted	1
+[Washington, D.C.]	1
+[Trenton, N.J.]	1
+[Trenton, N.J.	1
+[St. Omer	1
+[St. Mary's, Md.]	1
+[St. Johns?] Antigua	1
+[St. John	1
+[Savanna-la-Mar] Jamaica	1
+[S.n.]	1
+[S.n.	1
+[S.l]	1
+[s.l.]	1
+[S.l. : s.n.	1
+[S.C.	1
+[Raleigh, N.C.?	1
+[Printed by J. and T. Dormer, in Black and White Court in the Old Baily, where advertisements and letters are taken in ].	1
+[Printed at London, and re-printed at Aberdene	1
+[Printed at Amsterdam in the year 1688	1
+[Poughkeepsie, N.Y.]	1
+[Poughkeepsie, N.Y.?	1
+[Poughkeepsie [N.Y.]	1
+[Point-à-Pitre, Guadeloupe?	1
+[Oxf]ord [England]	1
+[Newburgh, N.Y.?	1
+[Newbern, N.C.?	1
+[New Bern, N.C.	1
+[n.l.	1
+[Mount Holly, N.J.]	1
+[London]January, 2	1
+[London] White-Hall, St. Barnabas's Festival	1
+[London] imprinted	1
+[London] :bPrinted for Edward Husband, printer to the Honorable House of Commons	1
+[London] : Printed for Tom Tell-troth at the sign of the Old Kings Head in Axe-yard in King street, Westminster	1
+[London :bs.n.]	1
+[London :bs.n.	1
+[London : printed for Iohn Field for Edward Husband, to the Parliament of England	1
+[Londo]n	1
+[Lo]ndon	1
+[Lansingburgh, N.Y.]	1
+[Keene, N.H.]	1
+[Jacksonburgh, S.C.]	1
+[Imprynted at London in Temstrete ouer agaynste the stiliardes, at the signe of the dobbel hood	1
+[Imprynted at London in Powles church yarde by Rycharde Iugge and Iohn Cawood printers to the Quenes Maiestie. Cum priuilegio Regiæ Maiestatis]	1
+[Imprinted in Londo[n]	1
+[Imprinted at York	1
+[Impressu[s] Londonijs	1
+[Impressa in Londre	1
+[Impr]inted at Lon[don	1
+[Glasgow] London printed, and re-printed at Glasgow	1
+[Geneva, N.Y.]	1
+[Excvsvm Londini	1
+[Excussum [sic] Londini	1
+[Enprynted by me William Caxton in thabbey of Westme[n]stre by london, fynysshed, and accomplysshed the, viij, day of October, the yere of the incatnacyon of our lord God, M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth	1
+[Enpre[n]tyd in the Duchye of Braband in the towne of Andewarpe	1
+[Emprented in ye famous cite of Andwarpe	1
+[Elizabeth, N.J.?	1
+[Edinburgh] Re-printed at Edinburgh	1
+[Edinburgh] Printed at Dublin, and re-printed at Edinburgh	1
+[Edinburgh] London printed, Edinburgh re-printed	1
+[Edinburgh] London printed, and re-printed at Edinburgh	1
+[Dublin] London: printed and re-printed	1
+[Dublin reprinted	1
+[Dubl]in	1
+[Dresden, Vt.; i.e., Hanover, N.H.	1
+[Dresden, Vt., i.e., Hanover, N.H.]	1
+[Dresden, Vt., i.e., Hanover, N.H.	1
+[Dover, N.H.	1
+[Dorchester. England]	1
+[Coventry? :bs.n.	1
+[Charlotte-Town	1
+[Bury St. Edmunds?]	1
+[Bury St. Edmund's	1
+[Bridgeton, N.J.]	1
+[Boston in New-England	1
+[Basseterre, St. Christopher's [i.e. St.Kitts-Nevis]]	1
+[Basseterre, St. Christopher [St.Kitts-Nevis]]	1
+[Basseterre, St. Christopher [St.Kitts-Nevis]	1
+[At Edinburgh ye 17. day of July	1
+[Annapolis] North-America	1
+[Albany, N.Y.?	1
+[A la Point-à-Pitre	1
+[[S.l.	1
+[[London] In the Savoy	1

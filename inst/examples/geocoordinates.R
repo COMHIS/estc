@@ -6,9 +6,11 @@ geonames <- get_geonames("cities1000", tempdir())
 # Otherwise too many mismatches with identical city names from different
 # continents
 places <- sort(as.character(unique(df$publication_place)))
-#places.geonames <- estc::match_geonames(places, geonames)
-#save(places.geonames, file = "places.geonames.RData")
 load("places.geonames.RData") # places.geonames
+if (!length(places.geonames) == length(places)) {
+  places.geonames <- estc::match_geonames(places, geonames)
+  save(places.geonames, file = "places.geonames.RData")
+}
 
 print("Match to geonames")
 geocoordinates <- geonames[match(places.geonames, geonames$asciiname), ]
