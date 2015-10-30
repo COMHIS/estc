@@ -239,30 +239,6 @@ print(p)
 ```
 
 
-
-### Subject geographical places
-
-```{r summarygeo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-tab <- rev(sort(table(unlist(strsplit(as.character(df$subject.geography), ";")))))
-```
-
-Top-`r ntop` geographical places that the documents are associated with. Geography information is available for `r sum(!is.na(df$subject.geography))` documents (`r round(100*mean(!is.na(df$subject.geography)))`%). There are `r length(tab)` unique geographical places.
-
-```{r summarygeo2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-p <- top_plot(df, "subject.geography", ntop)
-p <- p + ggtitle(paste("Top geographic places associated with the texts"))
-p <- p + scale_y_log10()
-p <- p + ylab("Documents")
-print(p)
-```
-
-```{r summarygeo3, echo=FALSE, message=FALSE, warning=FALSE}
-f <- "output.tables/geoplaces.csv"
-print(paste("Complete counts in file:", f))
-write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
-```
-
-
 ## Publication 
 
 ### Publication places
