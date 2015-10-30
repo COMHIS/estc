@@ -18,12 +18,11 @@ tmp <- write_xtable(tab, paste(output.folder, "document-items-estimated.csv", se
 
 
 print("Summarize page and size conversions in a file")
-tab <- cbind(gatherings = df$gatherings,
-	     width = df$width,
-	     height = df$height,
-	     area = df$area,
-	     volumes = df$volcount, 
-             parts = df$parts, 
+tab <- cbind(gatherings = as.character(df$gatherings),
+	     width = as.character(df$width),
+	     height = as.character(df$height),
+	     volumes = as.character(df$volcount), 
+             parts = as.character(df$parts), 
 	     dimensions.original = as.character(df.orig$physical_dimension)
 	     )
 tmp <- write_xtable(tab, paste(output.folder, "dimension_conversions.csv", sep = ""))

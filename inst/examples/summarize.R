@@ -9,4 +9,7 @@ print("Write unique names to file, together with count statistics")
 summaries.author <- write_xtable(df$author_name, file = paste(output.folder, "NamesAcceptedComplete.csv", sep = ""))
 
 print("Write unrecognized place names to file")
-tmp <- write_xtable(df.orig[which(is.na(df$publication_place)),]$publication_place, paste(output.folder, "discarded_place.csv", sep = ""))
+original <- as.character(df.orig[which(is.na(df$publication_place)),]$publication_place)
+polished <- as.character(polish_place(original))
+#tmp <- write_xtable(cbind(original = original, polished = polished), paste(output.folder, "discarded_place.csv", sep = ""))
+tmp <- write_xtable(polished, paste(output.folder, "discarded_place.csv", sep = ""))

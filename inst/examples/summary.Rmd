@@ -103,6 +103,8 @@ p <- p + ylab("Female authors (%)")
 print(p)
 ```
 
+
+
 ### Ambiguous authors
 
 Authors with ambiguous living year information - can we spot here

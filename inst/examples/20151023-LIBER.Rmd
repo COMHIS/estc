@@ -256,6 +256,32 @@ grid.arrange(p1, p2, nrow = 1)
 ```        
 
 
+Estimated gatherings per country:
+
+```{r 20151023LIBER-docsizecomp1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+dfs <- df %>% select(gatherings, publication_country) %>% group_by(gatherings, publication_country) %>% tally() %>% filter(publication_country %in% c("Scotland", "Ireland", "USA"))
+p <- ggplot(dfs, aes(x = gatherings, y = publication_country, size = n)) +
+     geom_point()
+print(p)
+```
+
+Estimated pagecounts per country:
+
+```{r 20151023LIBER-docsizecomp2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+dfs <- df %>% select(pagecount, publication_country) %>% filter(publication_country %in% c("Scotland", "Ireland", "USA"))
+p <- ggplot(dfs, aes(x = pagecount)) +
+     geom_histogram() + facet_grid(publication_country ~ .) + scale_x_log10()
+print(p)
+```
+
+Gatherings vs. pagecounts per country
+
+```{r 20151023LIBER-docsizecomp3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+dfs <- df %>% select(pagecount, gatherings, publication_country) %>% filter(publication_country %in% c("Scotland", "Ireland", "USA")) %>% group_by(pagecount, gatherings, publication_country) %>% tally()
+p <- ggplot(dfs, aes(x = pagecount, y = gatherings, size = n)) +
+     geom_point() + facet_grid(publication_country ~ .) + scale_x_log10()
+print(p)
+```
 
 ## How does publishing change ?
 
