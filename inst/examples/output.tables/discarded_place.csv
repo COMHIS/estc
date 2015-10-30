@@ -1,49 +1,31 @@
 Name	Count
 [S.l.	424
-York	80
 [S.l.]	45
-Printed at York	36
-Imprinted at York	19
 Boston in New-England	19
-[York]	15
 [Fishkill, N.Y.	15
-[York?	10
-[York	10
-[Portsmouth, N.H.	9
-York [England]	8
 Newport, Rhode-Island	8
 [S.l	8
 Newbury-Port [Mass.]	7
-[Portsmouth, N.H.?	7
-[Burlington, N.J.	7
-Yorke	6
+Impressum Londini	7
 York-Town [Pa.]	6
 Printed at London, and re-printed at Edinburgh	6
 Poughkeepsie [N.Y.]	6
 Charles-Town [S.C.]	6
-[Portsmouth, N.H.]	6
 [Edinburgh] Printed at London, and re-printed at Edinburgh	6
 [Concord, N.H.]	6
-[Burlington, N.J.?	6
-Printed at Yorke	5
-Portsmouth [N.H.]	5
 Newbern [N.C.]	5
 Massachusetts-Bay: Worcester	5
-[York, England]	5
 [Poughkeepsie, N.Y.	5
 [Newbern, N.C.	5
 Providence, in New-England	4
 New-Brunswick [N.J.]	4
 Charlestown [S.C.]	4
-Burlington [N.J.]	4
-[York, Pa.	4
 [London] In the Savoy	4
 Trenton [N.J.]	3
 Lansingburgh [N.Y.]	3
 Imprinted at London in Powles Churchyarde	3
 Fish-Kill [N.Y.]	3
 Boston, in New-England	3
-Boston in N.E.	3
 [s.l.	3
 York-town [Pa.]	2
 Warren (Rhode-Island)	2
@@ -53,18 +35,17 @@ St. George's [Grenada]	2
 Printed at Waterford in Ireland	2
 Printed at Paris, cum privilegio	2
 Printed at Oxford, and reprinted at Shrewsbury	2
-Portsmouth: N.H.	2
 Nunc demum typis excusa Londinii	2
 Newbury-Port: [Mass.]	2
 London-Derry	2
 Imprinted in London	2
+Imprimè a Londres	2
+Imprimé à Londres	2
 Halifax [N.S.]	2
 Fish-kill [N.Y.]	2
 Commonwealth of Massachusetts: Boston	2
 Chatham [N.J.]	2
 Bury St. Edmunds [England]	2
-Boston: in N.E.	2
-Boston, in N.E.	2
 At S. Omers	2
 [Woodbridge, N.J.?	2
 [Port-au-Prince]	2
@@ -77,9 +58,6 @@ At S. Omers	2
 [Amherst, N.H.]	2
 [Albany, N.Y.	2
 York-town [Penn.]	1
-York-Town [i.e., York, Pa.]	1
-Yeovil [England]	1
-Yarmouth	1
 Woodbridge, in New-Jersey	1
 Woodbridge, in New Jersey	1
 Warren (R.I.)	1
@@ -87,6 +65,8 @@ United States. [Philadelphia?	1
 Translated out of the High-Dutch, and printed at London	1
 Sur l'imprimeà́ Londres	1
 State of Massachusetts-Bay. Boston	1
+Stampata in Londra	1
+Stampata in Dublino	1
 Stamford : printed by Newcomb and Peat; and sold for the benefit of the charity	1
 St. John	1
 St. George's Town [Grenada]	1
@@ -104,7 +84,7 @@ Schenectady [N.Y.]	1
 Salem, N.E.	1
 Rome [N.Y.]	1
 Reading, Berks. [England]	1
-Re-printed at York	1
+Publié à Londres	1
 Printed first at London, and now re-printed at Edinburgh	1
 Printed by His Majesties command at Oxford [i.e. London], February 24. By Leonard Lichfield, printer to the university.	1
 Printed at St. Germans	1
@@ -117,7 +97,6 @@ Printed at Boston in New-England	1
 Printed and sold in York	1
 Poughkeepsie, Dutchess County [N.Y.]	1
 Poughkeepsie, [N.Y.]	1
-Portsmouth [N. H.]	1
 Pointe-A-Pitre, [Guadeloupe]	1
 Paris :b chez Nicolas Buon, rue S. Jacques a l'Enseigne Sainct Claude, & de l'homme Sauvage	1
 Oxoniæ excudebant	1
@@ -145,7 +124,6 @@ Monmouth (N.J.)	1
 Midddelburgh[sic]	1
 Londres, et se trouve à Paris	1
 London in Engelland	1
-London [i.e. York]	1
 London :printed by T. Moore in White-Fryers	1
 London ,i [sic]	1
 Londini excussum	1
@@ -167,7 +145,11 @@ Imprinted at York by Robert Barker	1
 Imprinted at London in Povvles Churchyarde	1
 Imprinted at London in Fleetstreete	1
 Imprinted at Dublin, and now reprinted at London	1
+Imprimee a Edenburg	1
 Imprimé à Londres par Richard Field, sur les copies impriméez à Tours & à la Rochelle	1
+Imprimé a Londres	1
+Imprime a Londres	1
+Imprimé a Dublin	1
 Holy-Rood-House [Edinburgh]	1
 Haverhill, (New-Hampshire)	1
 Hanover [N.H.]	1
@@ -215,7 +197,6 @@ Basseterre, in St. Christopher's [St.Kitts-Nevis]	1
 Basseterre in St. Christopher	1
 Basseterre (St. Christopher) [i.e. St.Kitts-Nevis]]	1
 Baltimore-Town	1
-At York	1
 And reprinted at London	1
 And re-printed at Dublin	1
 And imprentit [in Edinburgh	1
@@ -226,9 +207,6 @@ A Philadelphie, et se trouve à Paris	1
 A Londres, et se trouve a Paris	1
 A Francefort, [Et à Londres]	1
 A Amsterdam et a Leipzig	1
-[York?]	1
-[York, Pa.]	1
-[York, England	1
 [Woodbridge, N.J.	1
 [Woodbridge N.J.]	1
 [Wesel?] imprinted	1
@@ -276,7 +254,8 @@ A Amsterdam et a Leipzig	1
 [Imprynted at London in Temstrete ouer agaynste the stiliardes, at the signe of the dobbel hood	1
 [Imprynted at London in Powles church yarde by Rycharde Iugge and Iohn Cawood printers to the Quenes Maiestie. Cum priuilegio Regiæ Maiestatis]	1
 [Imprinted in Londo[n]	1
-[Imprinted at York	1
+[Impressu[s] Londonijs	1
+[Impressa in Londre	1
 [Impr]inted at Lon[don	1
 [Glasgow] London printed, and re-printed at Glasgow	1
 [Geneva, N.Y.]	1

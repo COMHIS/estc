@@ -6915,7 +6915,7 @@ Paper consumption
 
 ### Publication places
 
-Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 93.7% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 92.3% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication place counts](output.tables/publicationplaces.csv)
 
@@ -6983,7 +6983,7 @@ The 50 most common publishers are shown with the number of documents. Publisher 
 
 ### Publication year
 
-Publication year is available for 49472 documents (98%). The publication years span 1-1799
+Publication year is available for 49471 documents (98%). The publication years span 1-1799
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
 
@@ -7077,10 +7077,10 @@ Multi-volume documents average page counts are given per volume.
 
 |doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|1to           |             2.482848|                      2|        4238|                  NA|                    NA|         NA|         10.43590|                  8|      39|
+|1to           |             2.482620|                      2|        4240|                  NA|                    NA|         NA|         10.43590|                  8|      39|
 |bs            |             2.000000|                      2|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |2long         |             7.714286|                      5|           8|                  NA|                    NA|         NA|         23.00000|                 23|       1|
-|2fo           |            59.664904|                      4|       11951|            724.6260|              716.0000|         46|         16.84833|                 12|    1945|
+|2fo           |            59.768113|                      4|       11930|            724.6260|              716.0000|         46|         16.84833|                 12|    1945|
 |4long         |             5.000000|                      5|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |4to           |            43.552127|                     12|       16625|            411.6667|              439.0000|         27|         15.87098|                  8|   12192|
 |8long         |             2.000000|                      2|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
@@ -7094,7 +7094,7 @@ Multi-volume documents average page counts are given per volume.
 |32mo          |           179.333333|                    193|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |48mo          |           128.000000|                    128|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|NA            |            16.304151|                      2|        2460|                  NA|                    NA|         NA|         18.80867|                 15|     392|
+|NA            |            16.194535|                      2|        2479|                  NA|                    NA|         NA|         18.80867|                 15|     392|
 
 
 
@@ -7163,21 +7163,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart263e5ca90d22&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart469013501ac0&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart263e5ca90d22()
+      drawchart469013501ac0()
     });
-    function drawchart263e5ca90d22(){  
+    function drawchart469013501ac0(){  
       var opts = {
- &quot;dom&quot;: &quot;chart263e5ca90d22&quot;,
+ &quot;dom&quot;: &quot;chart469013501ac0&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart263e5ca90d22&quot; 
+&quot;id&quot;: &quot;chart469013501ac0&quot; 
 },
         data = [
  {
@@ -7328,7 +7328,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart263e5ca90d22'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart469013501ac0'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

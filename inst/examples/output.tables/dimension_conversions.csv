@@ -282,7 +282,7 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 4	32	22	704	1	NA	32 x 22 cm.	2
 7	22	18	396	1	NA	18 x 22 cm.	2
 7	23	18	414	1	NA	18 x 23 cm.	2
-4	50	19	950	1	NA	50 x 19 cm.	2
+28	50	19	950	1	NA	50 x 19 cm.	2
 4	37	23	851	1	NA	37 x 23 cm.	2
 4	36	13	468	1	NA	36 x 13 cm.	2
 4	45	27	1215	1	NA	45 x 27 cm.	2
@@ -432,7 +432,7 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 12	15	11	165	1	NA	15 cm. 8⁰.	1
 15	14	10	140	1	NA	14 cm. 12⁰	1
 4	27	17	459	1	NA	27 cm. 2⁰	1
-4	49	32	1568	1	NA	49.3 x 32.5 cm.	1
+28	49	32	1568	1	NA	49.3 x 32.5 cm.	1
 28	27	15	405	1	NA	27 x 15 cm.	1
 28	17	16	272	1	NA	17 x 16 cm.	1
 28	NA	NA	NA	1	NA	ill. (relief cuts)	1
@@ -447,7 +447,7 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 4	44	19	836	1	NA	44 x 19 cm.	1
 11	26	14	364	1	NA	26 x 14 cm.	1
 7	28	22	616	1	NA	28 x 22 cm.	1
-4	47	38	1786	1	NA	47 x 38 cm.	1
+28	47	38	1786	1	NA	47 x 38 cm.	1
 28	15	9	135	1	NA	15 x 9 cm.	1
 7	21	18	378	1	NA	21 x 18 cm.	1
 28	52	22	1144	1	NA	52 x 22 cm.	1
@@ -457,8 +457,8 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 28	55	47	2585	1	NA	55 x 47 cm.	1
 28	20	13	260	1	NA	20 cm. (4to & 8vo)	1
 22	12	7	84	1	NA	1/32⁰.	1
-28	58	44	2552	1	NA	58 x 44 cm.	1
-4	49	37	1813	1	NA	49 x 37 cm.	1
+1	58	44	2552	1	NA	58 x 44 cm.	1
+28	49	37	1813	1	NA	49 x 37 cm.	1
 4	36	24	864	1	NA	36 x 24 cm.	1
 14	20	14	280	1	NA	14 x 20 cm.	1
 4	41	27	1107	1	NA	41 x 27 cm.	1
@@ -476,14 +476,14 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 28	52	40	2080	1	NA	52 x 40 cm.	1
 4	43	29	1247	1	NA	43x29cm.	1
 28	21	15	315	1	NA	15 x 21 cm.	1
-4	47	37	1739	1	NA	47 x 37 cm.	1
+28	47	37	1739	1	NA	47 x 37 cm.	1
 4	32	20	640	1	NA	2⁰; 32 x 20 cm.	1
 28	27	25	675	1	NA	27 x 25 cm.	1
 4	36	14	504	1	NA	36 x 14 cm.	1
 4	33	9	297	1	NA	33 x 9 cm.	1
-4	49	36	1764	1	NA	49 x 36 cm.	1
+28	49	36	1764	1	NA	49 x 36 cm.	1
 7	21	19	399	1	NA	19 x 21 cm.	1
-4	46	36	1656	1	NA	46 x 36 cm.	1
+28	46	36	1656	1	NA	46 x 36 cm.	1
 28	22	21	462	1	NA	21 x 22 cm.	1
 28	29	21	609	1	NA	29 x 21 cm.	1
 2	33	25	825	1	NA	33 x 25 cm. broadside.	1
@@ -526,7 +526,7 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 28	55	27	1485	1	NA	55 x 27 cm.	1
 28	34	25	850	1	NA	34 x 25 cm.	1
 4	39	18	702	1	NA	39 x 18 cm.	1
-4	46	17	782	1	NA	46 x 17 cm.	1
+28	46	17	782	1	NA	46 x 17 cm.	1
 4	40	27	1080	1	NA	40 x 27 cm.	1
 12	21	14	294	1	NA	(21 cm. 8vo)	1
 28	25	18	450	1	NA	25 x 18 cm.	1
@@ -539,7 +539,7 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 28	30	21	630	1	NA	21 x 30 cm.	1
 4	42	15	630	1	NA	42 x 15 cm.	1
 4	42	27	1134	1	NA	42 cm.	1
-4	50	37	1850	1	NA	50 x 37 cm.	1
+28	50	37	1850	1	NA	50 x 37 cm.	1
 28	32	24	768	1	NA	32 x 24 cm.	1
 4	44	18	792	1	NA	44 x 18 cm.	1
 4	40	23	920	1	NA	40 x 23 cm.	1
@@ -571,16 +571,16 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 4	45	30	1350	1	NA	1/2⁰(?)	1
 4	36	24	864	1	NA	36 cm.	1
 4	32	13	416	1	NA	32 x 13 cm.	1
-28	56	22	1232	1	NA	22 x 56 cm.	1
+1	56	22	1232	1	NA	22 x 56 cm.	1
 7	20	17	340	1	NA	20 cm. (4to?)	1
 28	17	13	221	1	NA	13 x 17 cm.	1
 28	18	14	252	1	NA	14 x 18 cm.	1
 28	14	14	196	1	NA	14 x 14 cm.	1
 28	26	18	468	1	NA	26 x 18 cm.	1
-4	48	33	1584	1	NA	48 x 33 cm.	1
+28	48	33	1584	1	NA	48 x 33 cm.	1
 28	51	42	2142	1	NA	42 x 51 cm.	1
 28	18	12	216	1	NA	18cm.	1
-4	49	20	980	1	NA	49 x 20 cm.	1
+28	49	20	980	1	NA	49 x 20 cm.	1
 4	42	25	1050	1	NA	42 x 25 cm.	1
 7	28	23	644	1	NA	28 x 23 cm.	1
 28	35	30	1050	1	NA	35 x 30 cm.	1
@@ -602,16 +602,16 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 28	29	13	377	1	NA	29 x 13 cm.	1
 28	56	45	2520	1	NA	56 x 45 cm.	1
 4	45	25	1125	1	NA	45 x 25 cm.	1
-4	48	35	1680	1	NA	35 x 48 cm.	1
+28	48	35	1680	1	NA	35 x 48 cm.	1
 28	42	35	1470	1	NA	35 x 42 cm.	1
 4	38	22	836	1	NA	38 x 22 cm.	1
 28	39	33	1287	1	NA	39 x 33 cm.	1
 4	42	31	1302	1	NA	42 x 31 cm.	1
 28	36	27	972	1	NA	36 x 27 cm.	1
 28	17	11	187	1	NA	17 x 11 cm.	1
-4	49	35	1715	1	NA	49 x 35 cm.	1
+28	49	35	1715	1	NA	49 x 35 cm.	1
 28	47	40	1880	1	NA	47 x 40 cm.	1
-4	49	30	1470	1	NA	49 x 30 cm.	1
+28	49	30	1470	1	NA	49 x 30 cm.	1
 28	28	16	448	1	NA	28 x 16 cm.	1
 28	21	14	294	1	NA	21 cm. (4to and 8vo)	1
 18	16	5	80	1	NA	16 x 5 cm.	1
@@ -625,13 +625,13 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 4	37	25	925	1	NA	37 cm.	1
 4	44	29	1276	1	NA	44 x 29 cm.	1
 12	22	15	330	1	NA	15 x 22 cm.	1
-4	50	20	1000	1	NA	50 x 20 cm.	1
+28	50	20	1000	1	NA	50 x 20 cm.	1
 28	17	14	238	1	NA	14 x 17 cm.	1
 4	33	21	693	1	NA	21 x 33 cm.	1
-4	50	40	2000	1	NA	50 x 40 cm.	1
+28	50	40	2000	1	NA	50 x 40 cm.	1
 28	43	36	1548	1	NA	43 x 36 cm.	1
 4	40	24	960	1	NA	40 x 24 cm.	1
-4	50	38	1900	1	NA	50 x 38 cm.	1
+28	50	38	1900	1	NA	50 x 38 cm.	1
 7	22	17	374	1	NA	17 x 22 cm.	1
 28	32	23	736	1	NA	32 x 23 cm.	1
 4	44	32	1408	1	NA	44 x 32 cm.	1
@@ -642,8 +642,8 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 4	33	15	495	1	NA	33 x 15 cm.	1
 28	52	39	2028	1	NA	52 x 39 cm.	1
 28	19	13	247	1	NA	13 x 19 cm.	1
-4	50	24	1200	1	NA	50 x 24 cm.	1
-4	49	19	931	1	NA	49 x 19 cm.	1
+28	50	24	1200	1	NA	50 x 24 cm.	1
+28	49	19	931	1	NA	49 x 19 cm.	1
 28	22	14	308	1	NA	22 x 14 cm.	1
 11	23	14	322	1	NA	23 x 14 cm.	1
 28	43	41	1763	1	NA	41 x 43 cm.	1
@@ -770,7 +770,7 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 4	43	28	1204	20	NA	43 cm (2⁰)	1
 28	NA	NA	NA	1	NA	28-44 cm (4⁰; 2⁰)	1
 4	45	29	1305	1	NA	45 cm (2)	1
-4	49	31	1519	1	NA	49 cm.	1
+28	49	31	1519	1	NA	49 cm.	1
 4	45	30	1350	1	NA	40; 34; 42 cm (2⁰; 1/2⁰; 2⁰)	1
 4	45	30	1350	1	NA	32-36 cm (2⁰)	1
 12	20	13	260	27	NA	20 cm (8⁰)	1
@@ -939,7 +939,7 @@ gatherings	width	height	area	volumes	parts	dimensions.original	count
 12	19	13	247	102	NA	8⁰.	1
 12	21	14	294	22	NA	8⁰ (21 cm.).	1
 12	21	14	294	18	NA	8⁰ (21 cm.).	1
-3	53	30	1590	1	NA	30 cm (sm. 2⁰)	1
+3	46.5	30	1395	1	NA	30 cm (sm. 2⁰)	1
 4	45	30	1350	1	NA	2⁰ (2 half-sheets)	1
 12	21	14	294	2	NA	8⁰ (21 cm.).	1
 12	20	13	260	1	NA	8⁰ (20 cm.).	1
