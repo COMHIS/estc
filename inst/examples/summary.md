@@ -6917,7 +6917,7 @@ Paper consumption
 
 ### Publication places
 
-Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 91.8% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 92.5% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication place counts](output.tables/publicationplaces.csv)
 
@@ -6985,7 +6985,7 @@ The 50 most common publishers are shown with the number of documents. Publisher 
 
 ### Publication year
 
-Publication year is available for 49472 documents (98%). The publication years span 1-1799
+Publication year is available for 49473 documents (98%). The publication years span 1-1799
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
 
@@ -7079,12 +7079,12 @@ Multi-volume documents average page counts are given per volume.
 
 |doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|1to           |             2.482164|                      2|        4247|                  NA|                    NA|         NA|         10.43590|                  8|      39|
+|1to           |             2.481936|                      2|        4249|                  NA|                    NA|         NA|         10.43590|                  8|      39|
 |2long         |             7.714286|                      5|           8|                  NA|                    NA|         NA|         23.00000|                 23|       1|
-|2fo           |            61.791457|                      4|       11531|            724.6260|              716.0000|         46|         16.84833|                 12|    1945|
+|2fo           |            61.780882|                      4|       11533|            724.6260|              716.0000|         46|         16.84833|                 12|    1945|
 |4long         |             5.000000|                      5|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4to           |            43.781546|                     12|       16525|            411.6667|              439.0000|         27|         15.86796|                  8|   12186|
-|8vo           |           143.453570|                     68|       11599|            406.3343|              413.3333|        181|         28.47323|                 28|    3810|
+|4to           |            43.774868|                     12|       16528|            411.6667|              439.0000|         27|         15.86700|                  8|   12188|
+|8vo           |           143.449982|                     68|       11600|            406.3343|              413.3333|        181|         28.47323|                 28|    3810|
 |12long        |            67.000000|                     50|          10|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
 |12mo          |           184.145765|                    162|        3023|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
 |16mo          |           163.645570|                    116|          81|                  NA|                    NA|         NA|         30.46154|                 24|      13|
@@ -7094,7 +7094,7 @@ Multi-volume documents average page counts are given per volume.
 |32mo          |           179.333333|                    193|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |48mo          |           128.000000|                    128|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|NA            |            14.055984|                      2|        3010|                  NA|                    NA|         NA|         18.82716|                 15|     405|
+|NA            |            14.048067|                      2|        3002|                  NA|                    NA|         NA|         18.87097|                 15|     403|
 
 
 
@@ -7163,21 +7163,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart41b349b7840&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart98612885019&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart41b349b7840()
+      drawchart98612885019()
     });
-    function drawchart41b349b7840(){  
+    function drawchart98612885019(){  
       var opts = {
- &quot;dom&quot;: &quot;chart41b349b7840&quot;,
+ &quot;dom&quot;: &quot;chart98612885019&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart41b349b7840&quot; 
+&quot;id&quot;: &quot;chart98612885019&quot; 
 },
         data = [
  {
@@ -7328,7 +7328,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart41b349b7840'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart98612885019'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
