@@ -1,11 +1,11 @@
 Country,Documents
-England,38452
+England,38468
 Ireland,3495
-Scotland,2842
-USA,2581
-Netherlands,305
+USA,3318
+Scotland,2844
+Netherlands,307
 France,299
-Germany,57
+Germany,58
 Canada,52
 Switzerland,45
 India,40
@@ -15,6 +15,7 @@ Northern,10
 Barbados,10
 Italy,9
 Bahamas,6
+Saint,5
 Dominica,4
 Denmark,3
 Sweden,2

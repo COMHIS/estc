@@ -1,5 +1,7 @@
 # Download geonames data (city coordinates etc)
-geonames <- get_geonames("cities1000", tempdir())
+#geonames <- get_geonames("cities1000", tempdir())
+#save(geonames, file = "geonames.RData")
+load("geonames.RData")
 
 # Match publication places to geonames
 # First match all based on asciiname, then name, only then synonymes.

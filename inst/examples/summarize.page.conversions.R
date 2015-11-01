@@ -1,21 +1,3 @@
-Tässä näyttäisi "3 vol. plates" teos saavan arvion 1240 sivua; "10 v." teos 4133.3333 sivua; "10 v." teos 80 sivua ja sitten "18 v. teos" hyvin vähän sivuja.
-
-1240 3 NA 3 v., plates 5
-4133.33333333333 10 NA 10 v. 5
-80 10 NA 10 v. 5
-168 21 NA 21 v. 5
-4 18 NA 18 v., plates 5
-64 8 NA 8 v. 5
-
-240 20 NA 20 v. 4
-6444 9 NA 9 v. 4
-216 18 NA 18 v. 4
-180 15 NA 15 v. 4
-3720 9 NA 9 v. 4
-72 9 NA 9 v. 4
-
-
-
 
 print("Summarize page conversions")
 tab <- cbind(
