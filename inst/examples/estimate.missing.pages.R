@@ -2,8 +2,8 @@ df$pagecount.orig <- df$pagecount
 
 # ------------------------------------------------------
 
-# Documents with missing page information and dimension 1to-4to (any
-# number of vols) or >8to (with >10 vols) are assumed to be 'issues'
+# Gatherings 1to-4to (any number of vols) or >8to (with >10 vols)
+# with missing page information are assumed to be 'issues'
 # and we apply different estimated page count for them
 inds <- which(is.na(df$pagecount) & ((df$gatherings %in% c("1to", "2small", "2to", "2long", "4small", "4to", "4long")) | (!df$gatherings %in% c("1to", "2small", "2to", "2long", "4small", "4to", "4long") & df$volcount > 10)))
 g <- df$gatherings[inds]
@@ -75,8 +75,10 @@ df[inds, "pagecount"] <- 1 * pages.per.vol
 # Known page counts before estimation
 #pdf("~/tmp/knownsizes.pdf"); ggplot(df %>% select(pagecount.orig, gatherings) %>% group_by(pagecount.orig, gatherings) %>% tally(), aes(x = gatherings, y = pagecount.orig, size = n)) + geom_point() + scale_y_log10() + coord_flip(); dev.off()
 
+# -----------------------------------------------------
 
-
-
-
-
+# 1to pitäisi aina olla tasan 2 sivua.
+# Eli yksi sheet, broardside tai 1to (kutsutaan millä tahansa nimellä),
+# mutta siinä on aina yksi lehti (ja siten kaksi sivua).
+# Näin ollen kaikki merkinnät joissa >2 sivua voisi siirtää 2fo kategoriaan.
+df[which(df$gatherings == "1to" & df$pagecount > 2), "gatherings"] <- "2fo"
