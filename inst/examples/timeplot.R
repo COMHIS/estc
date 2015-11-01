@@ -50,8 +50,6 @@ p <- p + ggtitle("Publication activity 1470-1800")
 p <- p + scale_color_manual(values=c("#CC6666", "#9999CC"))
 #p <- p + geom_point(data= dfm, aes(x = year, y = value, color = variable))
 p <- p + guides(shape = "none", color = "none")
-p2 <- p
-print(p2)
 
 pdf("timeline2.pdf", width = 8, height = 6)
 print(p)
