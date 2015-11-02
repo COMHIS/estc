@@ -6921,7 +6921,9 @@ Top-50 publication places are shown together with the number of documents. This 
 
 [Publication place counts](output.tables/publicationplaces.csv)
 
-[Publication country counts](output.tables/publicationcountries.csv)
+[Publication country counts](output.tables/country_accepted.csv)
+
+[Publication country missing](output.tables/country_missing.csv)
 
 [Discarded publication places](output.tables/discarded_place.csv)
 
@@ -7163,21 +7165,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart5ace48736434&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart758d2fa1662b&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart5ace48736434()
+      drawchart758d2fa1662b()
     });
-    function drawchart5ace48736434(){  
+    function drawchart758d2fa1662b(){  
       var opts = {
- &quot;dom&quot;: &quot;chart5ace48736434&quot;,
+ &quot;dom&quot;: &quot;chart758d2fa1662b&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart5ace48736434&quot; 
+&quot;id&quot;: &quot;chart758d2fa1662b&quot; 
 },
         data = [
  {
@@ -7328,7 +7330,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart5ace48736434'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart758d2fa1662b'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
