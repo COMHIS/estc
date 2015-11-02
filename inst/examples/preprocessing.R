@@ -52,7 +52,6 @@ print("Publisher")
 res <- polish_publisher(df.orig$publisher)
 df$publisher <- res$printedby
 df$publisher.printedfor <- res$printedfor
-
 print("Write table")
 filename <- paste(output.folder, "Publisher.csv", sep = "")
 names(res) <- c("PrintedFor", "PrintedBy", "Ignored", "Original")

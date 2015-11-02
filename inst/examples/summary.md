@@ -6919,15 +6919,20 @@ Paper consumption
 
 Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 94.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
-[Publication place counts](output.tables/publicationplaces.csv)
-
-[Publication country counts](output.tables/country_accepted.csv)
+[Publication countries](output.tables/country_accepted.csv)
 
 [Publication country missing](output.tables/country_missing.csv)
 
-[Discarded publication places](output.tables/discarded_place.csv)
 
-[Discarded publication places](output.tables/missingcountry.csv)
+[Publication places](output.tables/publication_place_accepted.csv)
+
+[Discarded publication places](output.tables/publication_place_missing.csv)
+
+[Publication place conversions](output.tables/publication_place_conversions.csv)
+
+
+
+
 
 
 
@@ -6939,10 +6944,6 @@ Top-50 publication places are shown together with the number of documents. This 
 ## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
 ```
 
-
-```
-## [1] "Complete counts in file: output.tables/publicationplaces.csv"
-```
 
 
 |  n|
@@ -6980,9 +6981,8 @@ The 50 most common publishers are shown with the number of documents. Publisher 
 
 
 
-```
-## [1] "Complete counts in file: output.tables/publishers.csv"
-```
+
+
 
 
 ### Publication year
@@ -7018,10 +7018,6 @@ The 21 unique languages are shown together with the number of documents. This in
 
 ![plot of chunk summarylang](figure/summarylang-1.png) 
 
-
-```
-## [1] "Complete counts in file: output.tables/languages.csv"
-```
 
 
 ## Page counts
@@ -7165,21 +7161,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart7d186a442d3a&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;charta1e2a95c7ab&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart7d186a442d3a()
+      drawcharta1e2a95c7ab()
     });
-    function drawchart7d186a442d3a(){  
+    function drawcharta1e2a95c7ab(){  
       var opts = {
- &quot;dom&quot;: &quot;chart7d186a442d3a&quot;,
+ &quot;dom&quot;: &quot;charta1e2a95c7ab&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart7d186a442d3a&quot; 
+&quot;id&quot;: &quot;charta1e2a95c7ab&quot; 
 },
         data = [
  {
@@ -7330,7 +7326,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart7d186a442d3a'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-charta1e2a95c7ab'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

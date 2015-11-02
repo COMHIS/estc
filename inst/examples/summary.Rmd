@@ -247,15 +247,20 @@ print(p)
 
 Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication.place))` documents (`r round(100*mean(!is.na(df$publication.place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication.place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
-[Publication place counts](output.tables/publicationplaces.csv)
-
-[Publication country counts](output.tables/country_accepted.csv)
+[Publication countries](output.tables/country_accepted.csv)
 
 [Publication country missing](output.tables/country_missing.csv)
 
-[Discarded publication places](output.tables/discarded_place.csv)
 
-[Discarded publication places](output.tables/missingcountry.csv)
+[Publication places](output.tables/publication_place_accepted.csv)
+
+[Discarded publication places](output.tables/publication_place_missing.csv)
+
+[Publication place conversions](output.tables/publication_place_conversions.csv)
+
+
+
+
 
 
 ```{r summaryplace, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
@@ -266,15 +271,6 @@ p <- p + ylab("Documents")
 print(p)
 ```
 
-```{r summaryplace2, echo=FALSE, message=FALSE, warning=FALSE}
-f <- "output.tables/publicationplaces.csv"
-print(paste("Complete counts in file:", f))
-write.table(cbind(Place = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
-
-f <- "output.tables/publicationcountries.csv"
-tab <- rev(sort(table(as.character(df$publication_country))))
-write.table(cbind(Country = names(tab), Documents = tab), file = f, sep = ",", quote = F, row.names = F)
-```
 
 ```{r summaryplace3, echo=FALSE, results='asis'}
 kable(data.frame(n = rev(sort(table(df$publication.country)))), caption = "Publication country counts")
@@ -306,11 +302,9 @@ print(p)
 ```
 
 
-```{r summarypublisher22, echo=FALSE, message=FALSE, warning=FALSE}
-f <- "output.tables/publishers.csv"
-print(paste("Complete counts in file:", f))
-write.table(cbind(Publisher = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
-```
+
+
+
 
 
 ### Publication year
@@ -349,23 +343,14 @@ write.table(cbind(Title = sort(names(tab))), file = f, sep = "|", quote = F, row
 The `r length(unique(df$language))` unique languages are shown together with the number of documents. This info is available for `r sum(!is.na(df$language))` documents (`r round(100*mean(!is.na(df$language)))`%). 
 
 ```{r summarylang, echo=FALSE, message=FALSE, warning=FALSE, fig.width=7, fig.height=6}
-tab <- sort(table(df$language))
-par(mar = c(5, 20, 3, 1))
-tab <- log10(tab)
-tab[is.infinite(tab)] <- 0 # These are somewhere in original material, check
-
 p <- top_plot(df, "language", ntop)
 p <- p + ggtitle(paste("Top languages"))
 p <- p + scale_y_log10()
 p <- p + ylab("Documents")
+p <- p + guides(color = "none")
 print(p)
 ```
 
-```{r summarylang2, echo=FALSE}
-f <- "output.tables/languages.csv"
-print(paste("Complete counts in file:", f))
-write.table(cbind(Language = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
-```
 
 
 ## Page counts

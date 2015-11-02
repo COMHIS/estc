@@ -11,6 +11,9 @@ summaries.author <- write_xtable(df$author_name, file = paste(output.folder, "Na
 print("Write unrecognized place names to file")
 original <- as.character(df.orig[which(is.na(df$publication_place)),]$publication_place)
 polished <- as.character(polish_place(original))
-#tmp <- write_xtable(cbind(original = original, polished = polished), paste(output.folder, "discarded_place.csv", sep = ""))
-tmp <- write_xtable(polished, paste(output.folder, "discarded_place.csv", sep = ""))
-tmp <- write_xtable(polished, paste(output.folder, "publication_place_conversions.csv", sep = ""))
+tmp <- write_xtable(cbind(original = original, polished = polished), paste(output.folder, "publication_place_conversions.csv", sep = ""))
+tmp <- write_xtable(polished, paste(output.folder, "publication_place_missing.csv", sep = ""))
+tmp <- write_xtable(df$publication_place, file = "publication_place_accepted.csv")
+
+
+write_xtable(df$publisher, file = "publisher_accepted.csv")
