@@ -249,7 +249,9 @@ Top-`r ntop` publication places are shown together with the number of documents.
 
 [Publication place counts](output.tables/publicationplaces.csv)
 
-[Publication country counts](output.tables/publicationcountries.csv)
+[Publication country counts](output.tables/country_accepted.csv)
+
+[Publication country missing](output.tables/country_missing.csv)
 
 [Discarded publication places](output.tables/discarded_place.csv)
 
