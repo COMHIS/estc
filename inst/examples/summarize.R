@@ -13,3 +13,4 @@ original <- as.character(df.orig[which(is.na(df$publication_place)),]$publicatio
 polished <- as.character(polish_place(original))
 #tmp <- write_xtable(cbind(original = original, polished = polished), paste(output.folder, "discarded_place.csv", sep = ""))
 tmp <- write_xtable(polished, paste(output.folder, "discarded_place.csv", sep = ""))
+tmp <- write_xtable(polished, paste(output.folder, "publication_place_conversions.csv", sep = ""))
