@@ -6917,7 +6917,7 @@ Paper consumption
 
 ### Publication places
 
-Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 93.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 94.1% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication place counts](output.tables/publicationplaces.csv)
 
@@ -7163,21 +7163,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart44c23628a372&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart5ace48736434&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart44c23628a372()
+      drawchart5ace48736434()
     });
-    function drawchart44c23628a372(){  
+    function drawchart5ace48736434(){  
       var opts = {
- &quot;dom&quot;: &quot;chart44c23628a372&quot;,
+ &quot;dom&quot;: &quot;chart5ace48736434&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart44c23628a372&quot; 
+&quot;id&quot;: &quot;chart5ace48736434&quot; 
 },
         data = [
  {
@@ -7328,7 +7328,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart44c23628a372'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart5ace48736434'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
