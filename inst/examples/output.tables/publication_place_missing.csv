@@ -1,312 +1,180 @@
 original	polished	count
 [S.l.	NA	424
-Londres [i.e. Paris?]	londres e paris	117
 [S.l.]	NA	45
-Oxford [i.e. London]	oxford e london	38
-Londres [i.e. Paris]	londres e paris	28
-A Londres [i.e. Paris?]	londres e paris	20
-Londres [i.e. Amsterdam?]	londres e amsterdam	16
-Printed at Oxford [i.e. London]	oxford e london	16
-[Oxford, i.e. London]	oxford e london	12
-A Londres [i.e. Paris]	londres e paris	8
+[Newport, R.I.	newport	24
+[Imprynted at London	imprynted london	23
+[Newport, R.I.]	newport	19
+Newport [R.I.]	newport	18
+[Fishkill, N.Y.	fishkill	15
+Imprynted at London	imprynted london	8
+Imprentit at Edinburgh	imprentit edinburgh	8
 [S.l	NA	8
-N. London [i.e., New London, Conn.]	n london e new london conn	7
-Philadelphie [i.e. Paris?]	philadelphie e paris	6
-Hague [i.e. London]	hague e london	6
-In the Savoy [i.e. London]	savoy e london	6
-Edinburgh [i.e. London?]	edinburgh e london	6
-A Londres [i.e. Amsterdam?]	londres e amsterdam	5
-Londres [i.e. The Hague]	londres e the hague	5
-Londres [i.e. The Hague?]	londres e the hague	5
-Londini [i.e. Amsterdam]	londini e amsterdam	5
-London [i.e. Dublin]	london e dublin	4
-Printed at Vtrech [i.e. London	vtrech e london	4
-Dublin [i.e. London]	dublin e london	4
-Londres [i.e. Hamburg?]	londres e hamburg	3
-Brussels [i.e. London?]	brussels e london	3
-Paris [i.e. London?]	paris e london	3
-Paris [i.e. London]	paris e london	3
-Londres [i.e. Amsterdam]	londres e amsterdam	3
-Middleburg [i.e. London]	middleburg e london	3
-Imprinted at Edinburgh [i.e. London]	edinburgh e london	3
-A Edimbourg [i.e. Paris]	edimbourg e paris	3
+Charles-Town [S.C.]	charles town	6
+Poughkeepsie [N.Y.]	poughkeepsie	6
+[Concord, N.H.]	concord	6
+Printed at London, and re-printed at Edinburgh	london re edinburgh	6
+Printed by His Majesties command at Oxford	majesties command oxford	6
+[Edinburgh] Printed at London, and re-printed at Edinburgh	edinburgh london re edinburgh	6
+[Poughkeepsie, N.Y.	poughkeepsie	5
+[Newbern, N.C.	newbern	5
+[Newport, R.I.?	newport	5
+Newbern [N.C.]	newbern	5
+[Enprynted at London	enprynted london	5
+Charlestown [S.C.]	charlestown	4
+Providence, in New-England	providence new england	4
+Hudson [N.Y.]	hudson	3
+Lansingburgh [N.Y.]	lansingburgh	3
+Fish-Kill [N.Y.]	fish kill	3
+Imprentit at Sanctandrois	imprentit sanctandrois	3
+Printed by his Majesties speciall command at Cambridge	majesties speciall command cambridge	3
 [s.l.	NA	3
-Londini [i.e. Utrecht]	londini e utrecht	3
-London [i.e. Dublin?]	london e dublin	2
-Londres [i.e. Amsterdam	londres e amsterdam	2
-Londini [i.e. Germany]	londini e germany	2
-Charles-Town [i.e., Charleston, S.C.]	charles town e charleston s c	2
-Corte [i.e. London?]	corte e london	2
-London [i.e. Gainsborough]	london e gainsborough	2
-A Londres [i.e. Basle?]	londres e basle	2
-Londra [i.e. Venice?]	londra e venice	2
-Londra[i.e. Venice]	londra e venice	2
-Londres [i.e. Brussels?]	londres e brussels	2
-Londini [i.e. Paris]	londini e paris	2
-Hambourg [i.e. London]	hambourg e london	2
-Londres [i.e. Berlin]	londres e berlin	2
-Londres [i.e. Winterthur	londres e winterthur	2
-London [i.e. The Hague]	london e the hague	2
-At Oxford [i.e. London]	oxford e london	2
-Printed in Elisium [i.e. London]	elisium e london	2
-Printed at Vtrecht [i.e. London	vtrecht e london	2
-Printed in Elisium [i.e. London	elisium e london	2
-Lutetiæ Parisiorum [i.e. London]	lutetiæ parisiorum e london	2
-Printed at London [i.e. Holland	london e holland	2
-At Delft [i.e. London	delft e london	2
-Printed at Rotterdam [i.e. London?]	rotterdam e london	2
-Printed by His Majesties command at Oxford [i.e. London]	oxford e london	2
-Edinburgh [i.e. London]	edinburgh e london	2
-[Oxford, i.e. London?]	oxford e london	2
-Holy-Rood-House [i.e. Edinburgh]	holy rood house e edinburgh	2
-In the Savoy [i.e., London]	savoy e london	2
-Printed at Oxford [i.e. London?]	oxford e london	2
-Nod-nol [i.e. London]	nod nol e london	2
-Londen [sic] [i.e. Cologne?]	londen e cologne	2
-Hagæ-Comitis [i.e. London]	hagæ comitis e london	2
-York [i.e. London]	york e london	2
-Oxford [i.e. London	oxford e london	2
-Oxford [i.e., London]	oxford e london	2
-Europe [i.e. London]	europe e london	2
-Imprinted at Yondon [i.e. London]	yondon e london	2
-Printed at Oxford [i.e. London	oxford e london	2
-Oxford [i.e. London?]	oxford e london	2
-Printed at Edinburgh [i.e. London]	edinburgh e london	2
-Londres[i.e. Paris?]	londres e paris	2
-A Londres [i.e. The Hague]	londres e the hague	1
-A Paris [i.e. Dublin?]	paris e dublin	1
-London [i.e. Danzig, i.e. Gdansk]	london e danzig e gdansk	1
-Philadelphia [i.e. Berlin	philadelphia e berlin	1
-A Philadelphie [i.e. Lausanne]	philadelphie e lausanne	1
-London [i.e. Berlin	london e berlin	1
-Londra [i.e. Florence	londra e florence	1
-Londres [i.e. Bern?]	londres e bern	1
-Evrope [i.e. London?]	evrope e london	1
-Cambridg [i.e., Cambridge, Mass.]	cambridg e cambridge mass	1
-Mushauwomuk [i.e. Boston]	mushauwomuk e boston	1
-Philadelphie [i.e. Paris	philadelphie e paris	1
-York-Town [i.e., York, Pa.]	york town e york pa	1
-[Dresden, Vt., i.e., Hanover, N.H.	dresden vt e hanover n h	1
-[Dresden, Vt., i.e., Hanover, N.H.]	dresden vt e hanover n h	1
-America [i.e., Boston]	america e boston	1
-London [i.e. New York]	london e new york	1
-N. London, [i.e., New London, Conn.]	n london e new london conn	1
-Dresden [Vt., i.e., Hanover, N.H.]	dresden vt e hanover n h	1
-Charlestown [i.e., Charleston, S.C.]	charlestown e charleston s c	1
-Boston [i.e. Berne]	boston e berne	1
-[Amsterdam [i.e. London?]	amsterdam e london	1
-A Londres [i.e. Liepzig?]	londres e liepzig	1
-London [i.e. York]	london e york	1
-A Londres [i.e. Geneva?]	londres e geneva	1
-Londra [i.e. Florence?]	londra e florence	1
-A Basle [i.e. London?	basle e london	1
-A Londres [i.e. Brussels]	londres e brussels	1
-A Londres [i.e. Paris	londres e paris	1
-A Londres [i.e. The Hague?]	londres e the hague	1
-Londres [i.e. Basel]	londres e basel	1
-Cambrigde [i.e. Cambridge]	cambrigde e cambridge	1
-Wimbledon [i.e. Paris?]	wimbledon e paris	1
-Édimbourg [i.e. Paris?]	édimbourg e paris	1
-A Londres [i.e. Dresden]	londres e dresden	1
-Basle [i.e. London?]	basle e london	1
-A Londres [i.e. Netherlands?]	londres e netherlands	1
-London [i.e. Edinburgh?]	london e edinburgh	1
-Bublin [i.e. Dublin?]	bublin e dublin	1
-Londres, Philadelphie [i.e. Paris]	londres philadelphie e paris	1
-[Londres, i.e. Paris]	londres e paris	1
-Charles-Town, South-Carolina [i.e. London?]	charles town south carolina e london	1
-Augusta [i.e. London]	augusta e london	1
-London [i.e. Berne]	london e berne	1
-Brussels [i.e. London]	brussels e london	1
-Londra [i.e. Paris?]	londra e paris	1
-Dubiiu [i.e. Dublin]	dubiiu e dublin	1
-Londres [i.e Amsterdam?]	londres e amsterdam	1
-London [i.e. Amsterdam?]	london e amsterdam	1
-Londres [i.e. Rotterdam?]	londres e rotterdam	1
-A Londres [i.e. Hamburg?]	londres e hamburg	1
-Londra [i.e. Venice]	londra e venice	1
-[Londres i.e. Paris?]	londres e paris	1
-Londre [sic] [i.e. Paris?]	londre e paris	1
-Londres [i.e. Frankfurt]	londres e frankfurt	1
-London [i.e. Frankfurt]	london e frankfurt	1
-Berlin [i.e. London?]	berlin e london	1
-A Londres [i.e. Paris?	londres e paris	1
-Londres[i.e.Antwerp?]	londres e antwerp	1
-[London i.e. Paris?]	london e paris	1
-Londres [i.e.Paris?]	londres e paris	1
-Londres [i.e. Frankfurt?]	londres e frankfurt	1
-Londres [i.e. Frankfurt	londres e frankfurt	1
-Londres [i.e. Geneva?]	londres e geneva	1
-Londres [i.e. Geneva]	londres e geneva	1
-Londres [i.e. Leipzig]	londres e leipzig	1
-Williamsburgh [i.e. London?]	williamsburgh e london	1
-Londini [i.e.Geneva?]	londini e geneva	1
-Printed at Andwerpe [i.e. Paris?	andwerpe e paris	1
-Imprime à Basle [i.e. London]	basle e london	1
-Wt Londen [i.e. Netherlands]	wt londen e netherlands	1
-Printed at the Hage [i.e. London?]	hage e london	1
-At Middleburgh [i.e. London]	middleburgh e london	1
-Imprime à Basle [i.e. La Rochelle]	basle e la rochelle	1
-Printed at Edinburgh [i.e. Leiden]	edinburgh e leiden	1
-A Paris [i.e. London	paris e london	1
-In't Nederduyts over-gheset na't ghedruckte exemplaer van Londen	in't nederduyts over gheset na't e exemplaer van londen	1
-Ghedruckt tot Londen [i.e. Netherlands]	londen e netherlands	1
-Printed at Roan [i.e. Dublin]	roan e dublin	1
-Ghedruckt tot Londen [i.e. The Netherlands]	londen e the netherlands	1
-Londini [i.e. Amsterdam?]	londini e amsterdam	1
-[Pomadie i.e. London?	pomadie e london	1
-at. Dort [i.e. London]	dort e london	1
-Printed at Mackline [i.e. Mechlin]	mackline e mechlin	1
-Printed at Midelburge [i.e. London]	midelburge e london	1
-Imprinted at the Hage [i.e. London]	hage e london	1
-Printed at Altmore [i.e. London]	altmore e london	1
-Imprentit at Striuiling [i.e. London]	striuiling e london	1
-Printed at Amsterdam [i.e. England?]	amsterdam e england	1
-Printed at Prague [i.e London]	prague e london	1
-Anuersa [i.e. London	anuersa e london	1
-Edimburgi [i.e. Basel	edimburgi e basel	1
-Printed at the Hayf [sic, i.e. London]	hayf e london	1
-Printed at the Hage [i.e. London	hage e london	1
-Printed in Aberdene [i.e. Edinburgh]	aberdene e edinburgh	1
-Printed at Cullen [i.e. Mechlin] with licence	cullen e mechlin with licence	1
-Imprinted at London [i.e. Wesel?]	london e wesel	1
-Printed at Vtrecht [i.e. France?]	vtrecht e france	1
-Printed at Goricom [Gorinchem, i.e. London]	goricom gorinchem e london	1
-Printed at the Hage [i.e. London]	hage e london	1
-Printed at Dort [i.e. London	dort e london	1
-From Roane [i.e. London?]	roane e london	1
-Rothomagi [i.e. London]	rothomagi e london	1
-Printed in Elesium [sic] [i.e. London]	elesium e london	1
-[Imprinted at Basil [i.e. Emden]	basil e emden	1
-Impresso en Leon [i.e. London	impresso en leon e london	1
-Edinburgh [i.e. Amsterdam]	edinburgh e amsterdam	1
-A Londres [i.e. France?]	londres e france	1
-Edinburgh [i.e Amsterdam]	edinburgh e amsterdam	1
-Impresso en Paris [i.e. Oxford]	impresso en paris e oxford	1
-Gedruct tot Noortwitz [i.e. Norwich, actually Leeuwarden	gedruct tot noortwitz e norwich actually leeuwarden	1
-In Piacenza [i.e. London]	piacenza e london	1
-[Printed at Basill [i.e. Antwerp]	basill e antwerp	1
-[From Wittonburge [i.e. London?]	wittonburge e london	1
-[Imprinted at Luneberge [i.e. Antwerp]	luneberge e antwerp	1
-Printed at Antwerpe [i.e. London	antwerpe e london	1
-[Impressum Romae [i.e. Cologne]	romae e cologne	1
-Printed at Rochel [i.e. London	rochel e london	1
-[Londen [i.e. Antwerp?]	londen e antwerp	1
-At Striveling in Scotlande [i.e. London	striveling in scotlande e london	1
-Edimburgi [i.e. London	edimburgi e london	1
-Printed at Amsterdam [i.e. London	amsterdam e london	1
-In s'Graven Haghe [i.e. London?]	s'graven haghe e london	1
-Impryntid at London [i.e. Strasbourg]	london e strasbourg	1
-Colloniæ [i.e. Paris	colloniæ e paris	1
-Europe [i.e. London?]	europe e london	1
-Imprimées a La Haye, [i.e. London	imprimees a la haye e london	1
-A Whitehall [i.e. Holland?]	whitehall e holland	1
-Lodnon [i.e. London]	lodnon e london	1
-Oxonii [i.e. Amsterdam]	oxonii e amsterdam	1
-Genevah [i.e. Newcastle?]	genevah e newcastle	1
-London [i.e. Oxford?]	london e oxford	1
-Imprinted at Oxford [i.e. London]	oxford e london	1
-Maybol [i.e. Edinburgh?]	maybol e edinburgh	1
-Eleutheropoli [i.e. Amsterdam?]	eleutheropoli e amsterdam	1
-Lonon [sic, i.e. London]	lonon e london	1
-At Doway [i.e. Douai]	doway e douai	1
-Printed at Edingborough [i.e. London	edingborough e london	1
-[In the Savoy, i.e. London]	savoy e london	1
+[Fishkill, N.Y.?	fishkill	2
+Printed in Hudson [N.Y.]	hudson	2
+[Jacksonburgh, S.C.	jacksonburgh	2
+[Amherst, N.H.]	amherst	2
+Fish-kill [N.Y.]	fish kill	2
+[Newbern, N.C.?]	newbern	2
+[London? :bs.n.	london bs	2
+[Imprentit at Edinburgh	imprentit edinburgh	2
+Jmprinted at London	jmprinted london	2
+Imprented at Edinburgh	imprented edinburgh	2
+[Cambridge and London]	cambridge london	2
+Prynted at London	prynted london	2
+Printed at Oxford, and reprinted at Shrewsbury	oxford shrewsbury	2
+[London and Oxford]	london oxford	2
+St. John's in Antigua	st john's antigua	2
+St. Ives in Huntingdonshire [England]	st ives huntingdonshire england	2
+[Poughkeepsie [N.Y.]	poughkeepsie	1
+A Amsterdam et a Leipzig	amsterdam leipzig	1
+[Point-à-Pitre, Guadeloupe?	point pitre guadeloupe	1
+[A la Point-à-Pitre	la point pitre	1
+Pointe-A-Pitre, [Guadeloupe]	pointe pitre guadeloupe	1
+Paris :b chez Nicolas Buon, rue S. Jacques a l'Enseigne Sainct Claude, & de l'homme Sauvage	paris b chez rue s jacques l'enseigne sainct claude de l'homme sauvage	1
+[S.C.	NA	1
+Printed at Poughkeepsie [N.Y.]	poughkeepsie	1
+[Elizabeth, N.J.?	elizabeth	1
+[Poughkeepsie, N.Y.?	poughkeepsie	1
+[Raleigh, N.C.?	raleigh	1
+Elizabeth-Town [N.J.]	elizabeth town	1
+[Keene, N.H.]	keene	1
+[Jacksonburgh, S.C.]	jacksonburgh	1
+Poughkeepsie, Dutchess County [N.Y.]	poughkeepsie dutchess county	1
+[Poughkeepsie, N.Y.]	poughkeepsie	1
+Newburgh [N.Y.]	newburgh	1
+Charles-town [S.C.]	charles town	1
+Concord [N.H.]	concord	1
+[Newbern, N.C.?	newbern	1
+New-Windsor [N.Y.]	new windsor	1
+[New Bern, N.C.	new bern	1
+[Mount Holly, N.J.]	mount holly	1
+A Philadelphie, et se trouve à Paris	philadelphie se trouve paris	1
+[Lansingburgh, N.Y.]	lansingburgh	1
+Poughkeepsie, [N.Y.]	poughkeepsie	1
+[Newburgh, N.Y.?	newburgh	1
+Warren (R.I.)	warren	1
+A Newport [R.I.]	newport	1
+[Hudson, N.Y.]	hudson	1
+Salem, N.E.	salem	1
+Schenectady [N.Y.]	schenectady	1
+Keene: state of New-Hampshire	keene state new hampshire	1
+Londres, et se trouve à Paris	londres se trouve paris	1
+[Hamburg and London]	hamburg london	1
+Basseterre in St. Christopher	basseterre st christopher	1
+London and Francfort	london francfort	1
+Londres [The Hague?]	londres hague	1
+[Dubl]in	dubl	1
+[Impr]inted at Lon[don	inted lon don	1
+[Imprintit at Edinburgh	imprintit edinburgh	1
+[Imprynted at London in Powles church yarde by Rycharde Iugge and Iohn Cawood printers to the Quenes Maiestie. Cum priuilegio Regiæ Maiestatis]	imprynted london powles church yarde rycharde iugge quenes maiestie cum priuilegio regiæ maiestatis	1
+Imprimé à Londres par Richard Field, sur les copies impriméez à Tours & à la Rochelle	londres par sur les copies impriméez tours la rochelle	1
+Imprented at Striviling	imprented striviling	1
+Imprintit at Striviling	imprintit striviling	1
+And imprentit [in Edinburgh	imprentit edinburgh	1
+Imprentit at Striuiling	imprentit striuiling	1
+In't Nederduyts over-gheset na't ghedruckte exemplaer van Londen	in't nederduyts over gheset na't exemplaer van londen	1
+Imprinted in the Cathedrall Church of the blessed Trinitie Dublin	cathedrall church blessed trinitie dublin	1
+[Imprynted at Londo[n]	imprynted london	1
+[Imprinted at Roan by Martin Mesgissier, the kinges printer. 1585. With priuiledge. And imprinted at London	roan kinges priuiledge london	1
+[Enprynted by me William Caxton in thabbey of Westme[n]stre by london, fynysshed, and accomplysshed the, viij, day of October, the yere of the incatnacyon of our lord God, M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth	enprynted me thabbey westmenstre london fynysshed accomplysshed viij day yere incatnacyon our lord m cccc lxxxij xxii yere regne fourth	1
+Prentyd at London	prentyd london	1
+[Emprynted at westmynstre	emprynted westmynstre	1
+[[Imprynted at London	imprynted london	1
+Imprynted at Ca[n]terbury	imprynted canterbury	1
+Prynted at Canterbury	prynted canterbury	1
+[At Edinburgh ye 17. day of July	edinburgh ye day	1
+[Enprynted in London	enprynted london	1
+[Imprintyd at London	imprintyd london	1
+[Enpre[n]tyd in the Duchye of Braband in the towne of Andewarpe	enprentyd duchye braband towne andewarpe	1
+Translated out of the High-Dutch, and printed at London	translated out high dutch london	1
+[Enprynted at Londo[n]	enprynted london	1
+[Emprented in ye famous cite of Andwarpe	emprented ye famous cite andwarpe	1
+[Imprynted at Lo[n]don	imprynted london	1
+[Imprynted at London in Temstrete ouer agaynste the stiliardes, at the signe of the dobbel hood	imprynted london temstrete ouer agaynste stiliardes signe dobbel hood	1
+Printed, by His Majesties command, at Oxford	majesties command oxford	1
+Printed at London, and re-printed at Leith	london re leith	1
+[n.l.	NA	1
+[Edinburgh] Re-printed at Edinburgh	edinburgh re edinburgh	1
+Printed at London, and reprinted at Dublin	london dublin	1
+By order, re-printed at Edinburgh	re edinburgh	1
+[Printed at London, and re-printed at Aberdene	london re aberdene	1
+[Edinburgh] London printed, Edinburgh re-printed	edinburgh london edinburgh re	1
+[Edinburgh] London printed, and re-printed at Edinburgh	edinburgh london re edinburgh	1
+[Glasgow] London printed, and re-printed at Glasgow	glasgow london re glasgow	1
+[Edinburgh] Printed at Dublin, and re-printed at Edinburgh	edinburgh dublin re edinburgh	1
+Edinburgh :bprinted by the heir of Andrew Anderson, printer to His most Sacred Majesty	edinburgh bprinted heir his most sacred majesty	1
 NA	NA	1
-London [i.e. Holland?	london e holland	1
-Printed ad the Haghe [i.e. Hague]	ad the haghe e hague	1
-Edinburg [i.e. Edinburgh]	edinburg e edinburgh	1
-Londo [i.e., London]	londo e london	1
-Re-printed at Cologne [i.e. London	cologne e london	1
+Printed first at London, and now re-printed at Edinburgh	london now re edinburgh	1
+[London :bs.n.]	london bs	1
+[London :bs.n.	london bs	1
+London :printed by T. Moore in White-Fryers	london moore white fryers	1
+Jmprinted at Dublin	jmprinted dublin	1
 [S.l]	NA	1
-Eleutheropoli [i.e. London]	eleutheropoli e london	1
-Muscovia [i.e. London?]	muscovia e london	1
-[Paganopoli [i.e. London]	paganopoli e london	1
 [[S.l.	NA	1
-Printed at Edinburgh [i.e. London?]	edinburgh e london	1
-Anwerpe [i.e. Antwerp]	anwerpe e antwerp	1
-[Amsterdam, i.e. London]	amsterdam e london	1
-Printed by His Majesties command at Oxford, [i.e. London]	oxford e london	1
-Londor [i.e. London]	londor e london	1
-[Printed at Cockenay [i.e. Edinburgh]	cockenay e edinburgh	1
-A Londres [i.e. Netherlands]	londres e netherlands	1
-Printed by His Majesties command at Oxford [i.e. London] Decemb. 15.	oxford e london	1
-Parisiis [i.e. Dublin]	parisiis e dublin	1
-Haghe [i.e. The Hague]	haghe e the hague	1
-[Oxford (i.e. London?)]	oxford e london	1
-Oxford [i.e. London?	oxford e london	1
-Eirenopoli [i.e. Edinburgh	eirenopoli e edinburgh	1
+Hagh [The Hague]	hagh hague	1
+Imprinted first at London and reprinted at Edinburgh	london edinburgh	1
+[London] :bPrinted for Edward Husband, printer to the Honorable House of Commons	london bprinted honorable house commons	1
+Printed by His Majesties command, at Oxford, Ianuary 5.	majesties command oxford	1
+By order re-printed at Edinburgh	re edinburgh	1
+Printed by His Majesties command at Oxford, March 25	majesties command oxford	1
+Londini excussum	londini excussum	1
+Printed by His Majesties command at Oxford, Decemb. 21	majesties command oxford	1
 [S.n.	NA	1
-Londoa [sic, i.e. London]	londoa e london	1
-Amidst the Babylonians [i.e. London or Edinburgh]	amidst the babylonians e london or edinburgh	1
-Printed by His Maiesties command, at Oxford [i.e. London]	oxford e london	1
-Tot Londen [i.e. the Netherlands]	londen e the netherlands	1
-Eleutheropoli [i.e. London?]	eleutheropoli e london	1
-Anwerp [i.e. Antwerp]	anwerp e antwerp	1
-Printed at the Hague [i.e. London]	hague e london	1
-Edenburgi [i.e. London	edenburgi e london	1
-t'Amsterdam [i.e. Amsterdam]	t'amsterdam e amsterdam	1
-At Paris, [i.e. London]	paris e london	1
-Printed at New-Munster [i.e. London	new munster e london	1
-Imprinted at Londs [i.e. London]	londs e london	1
-Londod [i.e. London]	londod e london	1
-Printed, at Mongomery, heretofore called Oxford [i.e. London	mongomery heretofore called oxford e london	1
-Caen [i.e. London]	caen e london	1
-Trajecti [i.e. London?	trajecti e london	1
-Printed at Madrid [i.e. London	madrid e london	1
-Londini [i.e. London]	londini e london	1
-Printed at Oxford [i.e. London?	oxford e london	1
-Imprinted at Attalia [i.e. London	attalia e london	1
-Londo n [i.e. London]	londo n e london	1
-A Londres [i.e. the Hague]	londres e the hague	1
-[Oxford i.e. London]	oxford e london	1
-[Imprinted at Dublin [i.e. London]	dublin e london	1
-Printed by His Majesties command at Oxford [i.e. London], February 24. By Leonard Lichfield, printer to the university.	oxford e london by to the university	1
-Londn [sic, i.e. London]	londn e london	1
-London [i.e. Amsterdam?	london e amsterdam	1
+Printed by his Majesties command, at Oxford	majesties command oxford	1
+Printed at London, to prevent mis-information	london prevent mis information	1
+Imprinnted [sic] at London	imprinnted london	1
+Imprinted at Dublin, and now reprinted at London	dublin now london	1
+[London] : Printed for Tom Tell-troth at the sign of the Old Kings Head in Axe-yard in King street, Westminster	london tom tell troth sign old kings head axe yard king street westminster	1
+Printed by His Majesties command at Oxford [i.e. London], February 24. By Leonard Lichfield, printer to the university.	london university	1
+Oxford [and London]	oxford london	1
 [s.l.]	NA	1
-Printed at York [i.e. London]	york e london	1
-[London, i.e. Oxford	london e oxford	1
-Oxoniæ [i.e. London]	oxoniæ e london	1
-Dicæopoli [i.e. London]	dicæopoli e london	1
-Londini [i.e., Gouda?]	londini e gouda	1
 [S.l. : s.n.	NA	1
-Published at Paris [i.e. London]	paris e london	1
-Amsterdam [i.e. London	amsterdam e london	1
-[Printed at Oxford [i.e. London?]	oxford e london	1
-Neapoli sive Augustæ Trinobantûm [i.e. London]	neapoli sive augustæ trinobantûm e london	1
-[Oxford [i.e. London]	oxford e london	1
-Printed at Edingborough [i.e. London]	edingborough e london	1
-Printed by His Majesties command, at Oxfokd [sic, i.e. London], Janur. 5.	oxfokd e london	1
-Lond. [i.e. London]	lond e london	1
-Oxford [i.e.London]	oxford e london	1
+Imprinted at Yorke, and now reprinted at London	yorke now london	1
+[Londo]n	londo	1
 [S.n.]	NA	1
-Lindon [i.e. London]	lindon e london	1
-Londini [i.e. Gouda?]	londini e gouda	1
-Yorke, [i.e. London]	yorke e london	1
-[Printed at Oxford [i.e. London]	oxford e london	1
-Loneon [i.e. London]	loneon e london	1
-ondon [i.e. London]	ondon e london	1
-St. Jago de la Vega [i.e. Spanish Town], Jamaica]	st jago de la vega e spanish town jamaica	1
-Quebec [i.e. Quebec City, Canada]	quebec e quebec city canada	1
-Mount Pleasant [i.e. Ossining, N.Y.]	mount pleasant e ossining n y	1
-Hartford [i.e. Hertford, England]	hartford e hertford england	1
-Basseterre, St. Christopher [i.e. St.Kitts-Nevis]	basseterre st christopher e st kitts nevis	1
-[Basseterre, St. Christopher's [i.e. St.Kitts-Nevis]]	basseterre st christopher's e st kitts nevis	1
-Tripilo [i.e. Dublin, Ireland]	tripilo e dublin ireland	1
-[Printed by J. and T. Dormer, in Black and White Court in the Old Baily, where advertisements and letters are taken in ].	t dormer in black and white court in the old baily where advertisements and letters are taken in	1
-Mancheester [i.e. Manchester, England]	mancheester e manchester england	1
-Sarum [i.e. Salisbury, England]	sarum e salisbury england	1
-Fort St. George [i.e. Madras, India]	fort st george e madras india	1
-Basseterre (St. Christopher) [i.e. St.Kitts-Nevis]]	basseterre st christopher e st kitts nevis	1
-[Amelot [i.e. London?]	amelot e london	1
-Londres [i.e. Hamburg	londres e hamburg	1
-Dubln[i.e.Dublin]	dubln e dublin	1
-Londres [i.e. Abbeville]	londres e abbeville	1
-Londres [i.e. Liége?]	londres e liége	1
-Londres [i.e. Paris	londres e paris	1
-Londres [i.e. Bouillon]	londres e bouillon	1
-Londres [i.e. Rouen]	londres e rouen	1
-Londres [i.e.Paris]	londres e paris	1
-Londres [i.e. Trevoux]	londres e trevoux	1
-Londres[i.e. Paris]	londres e paris	1
+Printed by His Majesties command at Oxford, Novemb.18.	majesties command oxford	1
+Printed by His Maiesties command at Oxford	maiesties command oxford	1
+[Dublin] London: printed and re-printed	dublin london re	1
+Printed by His Majesty command at Oxford	majesty command oxford	1
+[Haverhill, N.H.]	haverhill	1
+Portland (District of Maine)	portland district maine	1
+[Bridgeton, N.J.]	bridgeton	1
+Newburgh (Orange County) [N.Y.]	newburgh orange county	1
+Mount Pleasant [i.e. Ossining, N.Y.]	ossining	1
+Scipio (Onondaga County, S.N.Y.)	scipio onondaga county	1
+Basseterre, in St. Christopher's [St.Kitts-Nevis]	basseterre st christopher's st kitts nevis	1
+Schenectady, (State of New-York)	schenectady state new york	1
+Bath, County of Steuben, State of New-York	bath county steuben state new york	1
+[Washington, D.C.]	washington	1
+City of Washington [D.C.]	city washington	1
+Charlestown [Charleston, S.C.]	charlestown charleston	1
+Frederick-Town: (state of Maryland)	frederick town state maryland	1
+Newburgh (Ulster County )[N.Y.]	newburgh ulster county	1
+London [and Birmingham, England]	london birmingham england	1
+[Printed by J. and T. Dormer, in Black and White Court in the Old Baily, where advertisements and letters are taken in ].	dormer black white court old baily where advertisements letters are taken	1
+Calcutta [India] :bprinted by James White	calcutta india bprinted	1
+Dublin [Ireland] : printed by Thomas Walsh, at Dick's Coffee-House in Skinner-Row, where printing work is done	dublin ireland dick's coffee house skinner row where printing work is done	1
+Dublin [Ireland] : printed by T[homas]. Walsh, in Skinner-Row; where advertisements are taken in, and all manner of printing work perform'd, at reasonable rates	dublin ireland homas walsh skinner row	1
+New-Windsor, (Orange County [N.Y.])	new windsor orange county	1
+Newton, (State of New-Jersey)	newton state new jersey	1
+[Coventry? :bs.n.	coventry bs	1
+A Londres, et se trouve a Paris	londres se trouve paris	1
