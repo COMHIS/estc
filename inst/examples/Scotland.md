@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2015-11-02"
+date: "2015-11-03"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 2866 documents from Scotland.
+We have 2858 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -107,7 +107,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 1335 documents from Scotland and 10892 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 1334 documents from Scotland and 10868 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
@@ -141,6 +141,10 @@ We have 1335 documents from Scotland and 10892 documents from London during 1700
 ```
 
 ```
+## Error in limits(c(...), "x"): object 'lims' not found
+```
+
+```
 ## Error in eval(expr, envir, enclos): object 'publication_year' not found
 ```
 
@@ -150,6 +154,10 @@ We have 1335 documents from Scotland and 10892 documents from London during 1700
 
 ```
 ## Error in eval(expr, envir, enclos): object 'dfa' not found
+```
+
+```
+## Error in limits(c(...), "x"): object 'lims' not found
 ```
 
 ```
