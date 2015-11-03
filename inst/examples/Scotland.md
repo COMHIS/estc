@@ -141,10 +141,6 @@ We have 1335 documents from Scotland and 10892 documents from London during 1700
 ```
 
 ```
-## Error in limits(c(...), "x"): object 'lims' not found
-```
-
-```
 ## Error in eval(expr, envir, enclos): object 'publication_year' not found
 ```
 
@@ -154,10 +150,6 @@ We have 1335 documents from Scotland and 10892 documents from London during 1700
 
 ```
 ## Error in eval(expr, envir, enclos): object 'dfa' not found
-```
-
-```
-## Error in limits(c(...), "x"): object 'lims' not found
 ```
 
 ```

@@ -6851,7 +6851,7 @@ Paper consumption
 ```
 
 ```
-## Error in sort(df2$paper.consumption.km2, decreasing = TRUE): object 'df2' not found
+## Warning in is.na(x): is.na() applied to non-(list or vector) of type 'NULL'
 ```
 
 ```
@@ -6893,11 +6893,11 @@ Paper consumption
 ```
 
 ```
-## Error in order(df2$paper.consumption.km2, decreasing = TRUE): object 'df2' not found
+## Error in order(df2$paper.consumption.km2, decreasing = TRUE): argument 1 is not a vector
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'df2' not found
+## Error in eval(expr, envir, enclos): object 'o' not found
 ```
 
 ```
@@ -7043,23 +7043,11 @@ Compare gatherings and cm2 sizes as a quality check. This includes all data; the
 
 
 ```
-## Error in eval(expr, envir, enclos): could not find function "melt"
+## Error in data.frame(indices, value = values): arguments imply differing number of rows: 4, 0
 ```
 
 ```
-## Error in names(dfm) <- c("gatherings", "cm2", "documents"): object 'dfm' not found
-```
-
-```
-## Error in factor(dfm$gatherings, levels = levels(df$gatherings.original)): object 'dfm' not found
-```
-
-```
-## Error in ggplot(dfm, aes(x = gatherings, y = cm2)): object 'dfm' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'documents' not found
+## Error in Math.factor(x, base): 'log' not meaningful for factors
 ```
 
 Compare gatherings and page counts. Page count information is estimated for -1557 documents and updated (changed) for 1095 documents. 
@@ -7094,15 +7082,6 @@ Multi-volume documents average page counts are given per volume.
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |NA            |            14.048067|                      2|        3002|                  NA|                    NA|         NA|         18.87097|                 15|     403|
 
-
-
-```
-## Error in ggplot(melt(mean.pagecounts[, c("median.pages.multivol", "median.pages.singlevol", : could not find function "melt"
-```
-
-```
-## Error in ggplot(melt(mean.pagecounts[, c("mean.pages.multivol", "mean.pages.singlevol", : could not find function "melt"
-```
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png) 
 
@@ -7161,21 +7140,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart2e30623bb7&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart2e3044ec9532&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart2e30623bb7()
+      drawchart2e3044ec9532()
     });
-    function drawchart2e30623bb7(){  
+    function drawchart2e3044ec9532(){  
       var opts = {
- &quot;dom&quot;: &quot;chart2e30623bb7&quot;,
+ &quot;dom&quot;: &quot;chart2e3044ec9532&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart2e30623bb7&quot; 
+&quot;id&quot;: &quot;chart2e3044ec9532&quot; 
 },
         data = [
  {
@@ -7326,7 +7305,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart2e30623bb7'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart2e3044ec9532'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
