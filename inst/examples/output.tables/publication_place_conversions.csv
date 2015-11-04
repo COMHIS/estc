@@ -93,7 +93,7 @@ Printed at Boston	Boston	25
 [Cambridge]	Cambridge	23
 Boston, New-England	Boston Ma	23
 Boston: N.E.	Boston Ma	23
-[Imprynted at London	NA	23
+[Imprynted at London	London	23
 Printed at Leith	Edinburgh	23
 Paris	Paris	21
 [Williamsburg, Va.	Williamsburg Va	21
@@ -205,8 +205,8 @@ Ipswich	Ipswich	8
 Colchester	Colchester	8
 Corke	Cork	8
 Oxon	Oxford	8
-Imprynted at London	NA	8
-Imprentit at Edinburgh	NA	8
+Imprynted at London	London	8
+Imprentit at Edinburgh	Edinburgh	8
 [Cambridge, England	Cambridge	8
 [Scotland	Edinburgh	8
 [S.l	NA	8
@@ -280,7 +280,7 @@ Printed at London, and re-printed at Edinburgh	NA	6
 Rotterdam	Rotterdam	6
 [Leith?	Edinburgh	6
 Dvblin	Dublin	6
-Printed by His Majesties command at Oxford	NA	6
+Printed by His Majesties command at Oxford	Oxford	6
 [Edinburgh] Printed at London, and re-printed at Edinburgh	NA	6
 [[London?]	London	6
 Edinburgh [i.e. London?]	London	6
@@ -330,7 +330,7 @@ Printed at Amsterdam	Amsterdam	5
 At Edinburgh	Edinburgh	5
 [Hague	The Hague	5
 [Imprinted at Edinburgh	Edinburgh	5
-[Enprynted at London	NA	5
+[Enprynted at London	London	5
 Printed at Waterford	Waterford	5
 Printed at Yorke	York	5
 Printed at the Hague	The Hague	5
@@ -494,7 +494,7 @@ London.	London	3
 Middleburg [i.e. London]	London	3
 Imprinted at Edinburgh [i.e. London]	London	3
 Imprinted at London in Powles Churchyarde	London	3
-Imprentit at Sanctandrois	NA	3
+Imprentit at Sanctandrois	St. Andrews	3
 Tot Londen	London	3
 [Imprinted at Londo[n]	London	3
 A Edimbourg [i.e. Paris]	Paris	3
@@ -662,7 +662,7 @@ Maidstone	Maidstone	2
 [London? :bs.n.	London	2
 [Belfast?]	Belfast	2
 London [i.e. The Hague]	The Hague	2
-[Imprentit at Edinburgh	NA	2
+[Imprentit at Edinburgh	Edinburgh	2
 At Oxford [i.e. London]	London	2
 [Cologne	Cologne	2
 Printed at Delph	Delft	2
@@ -671,9 +671,9 @@ Lugduni Batavorum	Leiden	2
 London [	London	2
 Imprimé à Londres	London	2
 Imprimè a Londres	London	2
-Jmprinted at London	NA	2
+Jmprinted at London	London	2
 Imprinted at Newcastle	Newcastle	2
-Imprented at Edinburgh	NA	2
+Imprented at Edinburgh	Edinburgh	2
 Ghedruckt tot Londen	London	2
 Imprinted in London	London	2
 Printed in Elisium [i.e. London]	London	2
@@ -688,7 +688,7 @@ Printed at London [i.e. Holland	Amsterdam	2
 [Emden	Emden	2
 At S. Omers	St. Omer	2
 Printed in Aberdene	Aberdeen	2
-Prynted at London	NA	2
+Prynted at London	London	2
 [Wesel?	Wesel	2
 Louanii	London	2
 At Delft [i.e. London	London	2
@@ -849,7 +849,7 @@ London :;Hartford	London	1
 Londres [i.e. Bern?]	Bern	1
 A Amsterdam et a Leipzig	NA	1
 [Inverlochie]	Inverlochie	1
-[Point-à-Pitre, Guadeloupe?	NA	1
+[Point-à-Pitre, Guadeloupe?	Pointe-A-Pitre	1
 [A la Point-à-Pitre	NA	1
 Pointe-A-Pitre, [Guadeloupe]	NA	1
 [Bahamas]	Nassau	1
@@ -1350,7 +1350,7 @@ Imprimé à Londres par Richard Field, sur les copies impriméez à Tours & à l
 Imprime à Basle [i.e. London]	London	1
 Wt Londen [i.e. Netherlands]	Amsterdam	1
 [Printed at Amsterdam	Amsterdam	1
-Imprented at Striviling	NA	1
+Imprented at Striviling	Stirling	1
 Printed at the Hage [i.e. London?]	London	1
 At Middleburgh [i.e. London]	London	1
 From Altmore	Altmore	1
@@ -1360,7 +1360,7 @@ Printed at Edinbvrgh	Edinburgh	1
 [Lancaster?	Lancaster Pa	1
 Imprintit at Striviling	NA	1
 Imprime à Basle [i.e. La Rochelle]	La Rochelle	1
-And imprentit [in Edinburgh	NA	1
+And imprentit [in Edinburgh	Edinburgh	1
 Oxoniæ excudebant	Oxford	1
 Printed at Edinburgh [i.e. Leiden]	Leiden	1
 Printed at Midelburge	Middelburg	1
@@ -1369,7 +1369,7 @@ A Verdun	Verdun	1
 Imprinted at Leyden	Leiden	1
 Imprinted at London in Povvles Churchyarde	London	1
 [Netherlands	Amsterdam	1
-Imprentit at Striuiling	NA	1
+Imprentit at Striuiling	Stirling	1
 [Strassburg	Strasbourg	1
 In't Nederduyts over-gheset na't ghedruckte exemplaer van Londen	NA	1
 Ghedruckt to London	London	1
@@ -1386,7 +1386,7 @@ Ghedruckt tot Londen [i.e. The Netherlands]	Amsterdam	1
 [Westminister	London	1
 Londini [i.e. Amsterdam?]	Amsterdam	1
 Printid at Lyons	Lyon	1
-[Imprynted at Londo[n]	NA	1
+[Imprynted at Londo[n]	London	1
 [Ghent]	Ghent	1
 [Pomadie i.e. London?	London	1
 At Lyons	Lyon	1
@@ -1436,9 +1436,9 @@ Printed at Dort [i.e. London	London	1
 Printed at Antvverp	Antwerp	1
 From Roane [i.e. London?]	London	1
 [[Imprinted at Londo[n]	London	1
-[[Imprynted at London	NA	1
-Imprynted at Ca[n]terbury	NA	1
-Prynted at Canterbury	NA	1
+[[Imprynted at London	London	1
+Imprynted at Ca[n]terbury	Canterbury	1
+Prynted at Canterbury	Canterbury	1
 Rothomagi [i.e. London]	London	1
 Printed in Elesium [sic] [i.e. London]	London	1
 [At Edinburgh ye 17. day of July	NA	1
@@ -1450,7 +1450,7 @@ Impresso en Leon [i.e. London	London	1
 Edinburgh [i.e. Amsterdam]	Amsterdam	1
 [Impressa in Londre	London	1
 Middleborrow	Middelburg	1
-[Enprynted in London	NA	1
+[Enprynted in London	London	1
 [Dort?	Dort	1
 Excudebat Londini	London	1
 A Londres [i.e. France?]	Paris	1
@@ -1478,7 +1478,7 @@ Translated out of the High-Dutch, and printed at London	NA	1
 At Doway	Douai	1
 [St. Omer	St. Omer	1
 Printed at Rochel [i.e. London	London	1
-[Enprynted at Londo[n]	NA	1
+[Enprynted at Londo[n]	London	1
 [Sanctus albanus	St. Albans	1
 [Strasbourg	Strasbourg	1
 [Antwerp?	Antwerp	1
@@ -1491,7 +1491,7 @@ Printed at Amsterdam [i.e. London	London	1
 In s'Graven Haghe [i.e. London?]	London	1
 Printed at Delft	Delft	1
 At Delph	Delft	1
-[Imprynted at Lo[n]don	NA	1
+[Imprynted at Lo[n]don	London	1
 [Excussum [sic] Londini	London	1
 Impryntid at London [i.e. Strasbourg]	Strasbourg	1
 Printed at Geneua	Geneva	1
@@ -1513,7 +1513,7 @@ Anno. 1563. Imprinted at London	London	1
 An. Do. 1555. Londini	London	1
 Europe [i.e. London?]	London	1
 Printed at Edenburgh	Edinburgh	1
-Printed, by His Majesties command, at Oxford	NA	1
+Printed, by His Majesties command, at Oxford	Oxford	1
 Sur l'imprimeà́ Londres	London	1
 [Dublin reprinted	Dublin	1
 [Leiden]	Leiden	1
@@ -1603,7 +1603,7 @@ Londo [i.e., London]	London	1
 Lond[on]	London	1
 Re-printed at Cologne [i.e. London	London	1
 Oxon.	Oxford	1
-Jmprinted at Dublin	NA	1
+Jmprinted at Dublin	Dublin	1
 Edinburgh :;And re-printed at London	Edinburgh	1
 Lond[ini].	London	1
 Lonodn [sic]	London	1
@@ -1671,7 +1671,7 @@ A Londres [i.e. Netherlands]	Amsterdam	1
 Printed by His Majesties command at Oxford [i.e. London] Decemb. 15.	London	1
 [Printed at Kilkenny	Kilkenny	1
 At the Hague	The Hague	1
-Printed by His Majesties command, at Oxford, Ianuary 5.	NA	1
+Printed by His Majesties command, at Oxford, Ianuary 5.	Oxford	1
 Parisiis [i.e. Dublin]	Dublin	1
 London[	London	1
 London in Engelland	London	1
@@ -1682,15 +1682,15 @@ Imprimé a Londres	London	1
 [Oxford (i.e. London?)]	London	1
 Gedruckt zu Londen in Engelland	London	1
 Printed at Boston in New-England [and London]	Boston Ma	1
-Printed by His Majesties command at Oxford, March 25	NA	1
+Printed by His Majesties command at Oxford, March 25	Oxford	1
 And re-printed at Dublin	Dublin	1
 Londini excussum	NA	1
 Printed to [sic] Leyden	Leiden	1
-Printed by His Majesties command at Oxford, Decemb. 21	NA	1
+Printed by His Majesties command at Oxford, Decemb. 21	Oxford	1
 Oxford [i.e. London?	London	1
 Eirenopoli [i.e. Edinburgh	Edinburgh	1
 [S.n.	NA	1
-Printed by his Majesties command, at Oxford	NA	1
+Printed by his Majesties command, at Oxford	Oxford	1
 Londoa [sic, i.e. London]	London	1
 May 17. London	London	1
 Amidst the Babylonians [i.e. London or Edinburgh]	London	1
@@ -1796,7 +1796,7 @@ Oxford [i.e.London]	London	1
 [S.n.]	NA	1
 Prinetd at London	London	1
 Doublin [sic]	Dublin	1
-Printed by His Majesties command at Oxford, Novemb.18.	NA	1
+Printed by His Majesties command at Oxford, Novemb.18.	Oxford	1
 Lindon [i.e. London]	London	1
 Londini [i.e. Gouda?]	Gouda	1
 Printed at Aberdeen	Aberdeen	1

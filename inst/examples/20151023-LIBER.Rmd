@@ -137,6 +137,11 @@ The visualization reveals the nature of the author’s publications, distinguish
 ```{r 20151023LIBER-4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7}
 theme_set(theme_bw(20))
 dfs <- df.preprocessed
+top <- names(rev(sort(table(dfs$author_unique))))[1:20]
+top <- c(top, "hume, david (1560-1630)")
+top <- setdiff(top, "caesar, julius (NA-NA)")
+topa <- top
+
 #dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 #	       	  		  from = "Standard", to = "Name")$name
 #dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo"))
@@ -421,10 +426,6 @@ print(p)
 ```{r 20151023LIBER-3b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=7}
 library(tidyr)
 dfs <- df
-top <- names(rev(sort(table(df$author_unique))))[1:20]
-top <- c(top, "hume, david (1560-1630)")
-top <- setdiff(top, "caesar, julius (NA-NA)")
-topa <- top
 
 # 2long/2fo/2small -> folio; 8vo -> octavo
 dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),

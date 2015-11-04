@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 2831 documents from Scotland.
+We have 2849 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -74,7 +74,7 @@ We have 2831 documents from Scotland.
 ## integer(0)
 ```
 
-We have 48 documents from 0 unique
+We have 49 documents from 0 unique
 authors born before 500 AD who have published in Scotland.
 
 

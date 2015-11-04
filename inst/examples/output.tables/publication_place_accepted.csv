@@ -1,10 +1,10 @@
 Name	Count
-London	34893
-Dublin	3296
-Edinburgh	2423
+London	34938
+Dublin	3297
+Edinburgh	2436
 Philadelphia Pa	1297
 Boston	1039
-Oxford	903
+Oxford	915
 New York N.Y	724
 Paris	273
 Glasgow	256
@@ -52,9 +52,9 @@ Coventry	30
 Belfast	29
 Newburyport Ma	27
 Liverpool	27
+Canterbury	27
 Antwerp	27
 Kilkenny	25
-Canterbury	25
 Richmond	23
 Chester	23
 Perth	22
@@ -148,6 +148,7 @@ Berlin	5
 Augusta Ga	5
 Windham Ct	4
 Walpole N.H	4
+St. Andrews	4
 St George's grenada	4
 Rutland Vt	4
 Roseau Dominica	4
@@ -175,6 +176,7 @@ Tewkesbury	3
 Taunton	3
 Sunderland	3
 Strasbourg	3
+Stirling	3
 St. Pierre Martinique	3
 St. John's Antiqua	3
 St. Augustine Fl	3
@@ -282,13 +284,11 @@ unknown	1
 Trevoux	1
 Trefeca	1
 Stockton	1
-Stirling	1
 St. Mary's Md	1
 St. John New Brunswick	1
 St. Helier	1
 St. Germans	1
 St. Eustatius	1
-St. Andrews	1
 St. Albans	1
 Spanish Town Jamaica	1
 South Shields	1
@@ -312,6 +312,7 @@ Rodborough	1
 Rochdale	1
 Reims	1
 Raleigh N.C	1
+Pointe-A-Pitre	1
 Penrith	1
 Pembroke Ma	1
 Parr-Town	1
