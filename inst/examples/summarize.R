@@ -15,9 +15,9 @@ tmp <- write_xtable(cbind(original = original, polished = polished), paste(outpu
 
 original <- as.character(df.orig$publication_place)
 polished <- as.character(df$publication_place)
-tmp <- write_xtable(polished, paste(output.folder, "publication_place_conversions.csv", sep = ""))
+tmp <- write_xtable(cbind(original = original, polished = polished), paste(output.folder, "publication_place_conversions.csv", sep = ""))
 
 tmp <- write_xtable(df$publication_place, file = paste(output.folder, "publication_place_accepted.csv", sep = ""))
 
-
+# Publisher
 tmp <- write_xtable(df$publisher, file = paste(output.folder, "publisher_accepted.csv", sep = ""))

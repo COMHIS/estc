@@ -39,7 +39,7 @@ knit("Scotland.Rmd")
 knit("Princeton.Rmd")
 knit("pagecounts.Rmd")
 #knit("20150624-LIBER.Rmd") # For conference
-#knit("20151023-LIBER.Rmd") # For journal
+knit("20151023-LIBER.Rmd") # For journal
 #knit("20150611-Paris.Rmd") # For workshop
 
 system("git add figure/*.png")
