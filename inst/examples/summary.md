@@ -152,7 +152,6 @@ Should also add living year information from supporting sources later.
 |1.10     |clark                       |james                                                |1660-1723)               |
 |3.62     |davenant                    |charles                                              |1656-1714)               |
 |3.64     |justinus                    |marcus junianus                                      |NA-NA)                   |
-|4.6      |NA (NA-  30)                |NA                                                   |NA                       |
 |3.66     |wylie                       |robert                                               |NA-NA)                   |
 |3.68     |tone                        |william henry                                        |1802-1802)               |
 |3.69     |budgell                     |eustace                                              |1686-1737)               |
@@ -5322,7 +5321,6 @@ Should also add living year information from supporting sources later.
 |6.4108   |majendie                    |lewis                                                |1833-1833)               |
 |3.7591   |massey                      |charles                                              |1695-1766)               |
 |3.7602   |owen                        |john                                                 |1766-1822)               |
-|4.1997   |NA (  18-  18)              |NA                                                   |NA                       |
 |3.7603   |bedford                     |arthur                                               |1668-1745)               |
 |3.7604   |hurtley                     |thomas                                               |NA-NA)                   |
 |3.7605   |hutchinson                  |francis                                              |1661-1739)               |
@@ -6917,7 +6915,7 @@ Paper consumption
 
 ### Publication places
 
-Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 94.2% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 94.1% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication countries](output.tables/country_accepted.csv)
 
@@ -6987,7 +6985,7 @@ The 50 most common publishers are shown with the number of documents. Publisher 
 
 ### Publication year
 
-Publication year is available for 49413 documents (98%). The publication years span 1-1799
+Publication year is available for 49358 documents (98%). The publication years span 1-1799
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
 
@@ -7161,21 +7159,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart56802e3f6894&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart672279ddd069&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart56802e3f6894()
+      drawchart672279ddd069()
     });
-    function drawchart56802e3f6894(){  
+    function drawchart672279ddd069(){  
       var opts = {
- &quot;dom&quot;: &quot;chart56802e3f6894&quot;,
+ &quot;dom&quot;: &quot;chart672279ddd069&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart56802e3f6894&quot; 
+&quot;id&quot;: &quot;chart672279ddd069&quot; 
 },
         data = [
  {
@@ -7326,7 +7324,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart56802e3f6894'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart672279ddd069'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
