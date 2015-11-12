@@ -11,7 +11,7 @@ for (field in setdiff(names(df), "row.index")) {
   print(field)
 
   print("Accepted entries in the preprocessed data")
-  s <- write_xtable(df[[field]], file = paste(output.folder, paste(field, "_accepted.csv", sep = ""), sep = ""), count = TRUE)
+  s <- write_xtable(df[[field]], file = paste(output.folder, field, "_accepted.csv", sep = ""), count = TRUE)
 
   print("Discarded entries")
   if ((field %in% names(df)) && (field %in% names(df.orig))) {

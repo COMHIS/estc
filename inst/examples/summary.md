@@ -7,6 +7,16 @@ output: markdown_document
 
 # Summary of the preprocessed ESTC data
 
+## Field conversions
+
+This document links to files that summarize the conversions from raw data to the final preprocessed version (accepted, discarded, conversions). Only some of the key tables are explicitly linked below. The complete list of those summary tables is available [here](output.tables/).
+
+
+
+
+
+
+
 
 
 ## Annotated documents
@@ -14,6 +24,46 @@ output: markdown_document
 Fraction of documents with entries for each annotation field (final preprocessed data).
 
 ![plot of chunk summaryannotations](figure/summaryannotations-1.png) 
+
+Number of documents with NA entries and number of unique entries for each field:
+
+
+|                      | available| unique|
+|:---------------------|---------:|------:|
+|parts                 |         0|      1|
+|volnumber             |       156|     15|
+|publisher.printedfor  |       476|    234|
+|width.original        |       673|     50|
+|height.original       |      1787|     55|
+|publisher             |      2351|    995|
+|author_birth          |     16698|    404|
+|author_death          |     16731|    392|
+|author_gender         |     16903|      3|
+|author_name           |     18235|   6097|
+|topic                 |     21967|   7066|
+|latitude              |     47401|    136|
+|longitude             |     47401|    136|
+|paper.consumption.km2 |     48060|   2816|
+|width                 |     48098|     52|
+|height                |     48098|     47|
+|area                  |     48098|    299|
+|pages_per_part        |     48108|    888|
+|pagecount.orig        |     48681|    941|
+|publication_decade    |     49062|     43|
+|original              |     49151|    758|
+|publication_year      |     49307|    350|
+|publication_place     |     49699|    413|
+|publication_country   |     49699|     34|
+|volcount              |     50127|    109|
+|pagecount             |     50235|   1001|
+|language              |     50276|     21|
+|row.index             |     50283|  50283|
+|title                 |     50283|  41293|
+|gatherings.original   |     50283|     16|
+|gatherings            |     50283|     16|
+|obl                   |     50283|      2|
+|unity                 |     50283|      1|
+|author_unique         |     50283|   6764|
 
 
 ## Topics
@@ -39,17 +89,25 @@ Top-50 topics and number of documents for each. In total, there are 0 unique top
 
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 0 unique authors and 0 documents with unambiguous author information (NaN%).
 
-
-```
-## Error in dfs[1:ntop, ]: incorrect number of dimensions
-```
-
 ![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
+
+[Discarded author names](output.tables/author_name_discarded.csv)
+
+[Discarded author first names](output.tables/author_name_discarded_first.csv)
+
+[Discarded author last names](output.tables/author_name_discarded_last.csv)
 
 
 ### Gender
 
 Gender distribution for authors over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
+
+[Author genders](output.tables/author_gender_accepted.csv)
+
+[Full name-gender mappings](output.tables/gender_known.csv)
+
+[Names with missing gender](output.tables/gender_unknown.csv)
+
 
 
 ```
@@ -76,6 +134,10 @@ Gender distribution for authors over time. Note that the name-gender mappings ch
 Authors with ambiguous living year information - can we spot here
 cases where these are clearly known identical or distinct authors?
 Should also add living year information from supporting sources later.
+
+[Authors with ambiguous life years](output.tables/author_life_ambiguous.csv)
+
+[Authors with discarded life years](output.tables/author_life_discarded.csv)
 
 
 ```
@@ -634,6 +696,8 @@ Ordered by productivity (number of documents))
 ## Error in eval(expr, envir, enclos): object 'author.birth' not found
 ```
 
+[Authors with missing life years](output.tables/author_birth_unknown.csv)
+
 ### Publication timeline for top-10 authors
 
 Title count
@@ -722,6 +786,8 @@ Paper consumption
 ```
 
 
+
+
 ## Publication 
 
 ### Publication places
@@ -732,16 +798,11 @@ Top-50 publication places are shown together with the number of documents. This 
 
 [Publication country missing](output.tables/country_missing.csv)
 
-
-[Publication places](output.tables/publication_place_accepted.csv)
-
-[Discarded publication places](output.tables/publication_place_missing.csv)
+[Discarded publication places](output.tables/publication_place_discarded.csv)
 
 [Publication place conversions](output.tables/publication_place_conversions.csv)
 
-
-
-
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
 
@@ -789,6 +850,9 @@ The 50 most common publishers are shown with the number of documents. Publisher 
 ```
 
 
+[Publishers accepted](output.tables/publisher_accepted.csv)
+
+[Publishers discarded](output.tables/publisher_discarded.csv)
 
 
 
@@ -800,10 +864,20 @@ Publication year is available for 49307 documents (98%). The publication years s
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
 
+[Publication year conversions](output.tables/publication_year.csv)
+
+[Publication year discarded](output.tables/publication_year_failed.csv)
+
 
 ### Titles
 
 Top-50 titles are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique titles.
+
+[Publication titles](output.tables/title_accepted.csv)
+
+[Publication titles discarded](output.tables/title_discarded.csv)
+
+[Title harmonization table](output.tables/title_conversions.csv)
 
 
 ```
@@ -831,7 +905,7 @@ The 21 unique languages are shown together with the number of documents. This in
 
 ## Page counts
 
-[Converted pages](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversins.csv)
+[Converted pages](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pages_accepted.csv)
 
 [Discarded page info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentpages-discarded.csv)
 
@@ -839,9 +913,9 @@ The 21 unique languages are shown together with the number of documents. This in
 
 ## Document size comparisons
 
-[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentdimensions_discarded.csv)
+[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)
 
-[Converted dimensions](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversins.csv)
+[Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversions.csv)
 
 
 Document size (area) info in cm2 is available for 0 documents (NaN%). Estimates of document size (area) info in gatherings system are available for 50283 documents (100%). 
@@ -870,6 +944,17 @@ Compare gatherings and cm2 sizes as a quality check. This includes all data; the
 ```
 ## Error in eval(expr, envir, enclos): object 'documents' not found
 ```
+
+Document dimension histogram (surface area). Few document sizes dominate publishing.
+
+
+```
+## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
+```
+
+![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png) 
+
+
 
 Compare gatherings and page counts. Page count information is estimated for -1554 documents and updated (changed) for 1098 documents. 
 
@@ -937,6 +1022,27 @@ Multi-volume documents average page counts are given per volume.
 |12mo                |    14.83333|      14.83333|   12.00000|     12.00000|  13|
 |NA                  |    31.71315|      31.71315|   22.31177|     22.31177| 817|
 
+## Histograms of all entries for numeric variables
+
+![plot of chunk summary-histograms](figure/summary-histograms-1.png) ![plot of chunk summary-histograms](figure/summary-histograms-2.png) ![plot of chunk summary-histograms](figure/summary-histograms-3.png) ![plot of chunk summary-histograms](figure/summary-histograms-4.png) ![plot of chunk summary-histograms](figure/summary-histograms-5.png) ![plot of chunk summary-histograms](figure/summary-histograms-6.png) ![plot of chunk summary-histograms](figure/summary-histograms-7.png) ![plot of chunk summary-histograms](figure/summary-histograms-8.png) ![plot of chunk summary-histograms](figure/summary-histograms-9.png) ![plot of chunk summary-histograms](figure/summary-histograms-10.png) ![plot of chunk summary-histograms](figure/summary-histograms-11.png) ![plot of chunk summary-histograms](figure/summary-histograms-12.png) ![plot of chunk summary-histograms](figure/summary-histograms-13.png) 
+
+## Histograms of the top entries for factor variables
+
+![plot of chunk summary-bars](figure/summary-bars-1.png) ![plot of chunk summary-bars](figure/summary-bars-2.png) ![plot of chunk summary-bars](figure/summary-bars-3.png) ![plot of chunk summary-bars](figure/summary-bars-4.png) ![plot of chunk summary-bars](figure/summary-bars-5.png) ![plot of chunk summary-bars](figure/summary-bars-6.png) ![plot of chunk summary-bars](figure/summary-bars-7.png) ![plot of chunk summary-bars](figure/summary-bars-8.png) ![plot of chunk summary-bars](figure/summary-bars-9.png) ![plot of chunk summary-bars](figure/summary-bars-10.png) ![plot of chunk summary-bars](figure/summary-bars-11.png) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--
 ### Testing rCharts example - perhaps only in HTML with knit2html
 <iframe srcdoc=' &lt;!doctype HTML&gt;
@@ -970,21 +1076,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart356a6c1e4e8d&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart141054e56e61&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart356a6c1e4e8d()
+      drawchart141054e56e61()
     });
-    function drawchart356a6c1e4e8d(){  
+    function drawchart141054e56e61(){  
       var opts = {
- &quot;dom&quot;: &quot;chart356a6c1e4e8d&quot;,
+ &quot;dom&quot;: &quot;chart141054e56e61&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart356a6c1e4e8d&quot; 
+&quot;id&quot;: &quot;chart141054e56e61&quot; 
 },
         data = [
  {
@@ -1135,7 +1241,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart356a6c1e4e8d'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart141054e56e61'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
