@@ -19,3 +19,12 @@ geobox <- function (region) {
   bbox
 }
 
+
+
+
+
+
+
+
+
+

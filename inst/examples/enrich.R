@@ -18,10 +18,6 @@ df$publication_country <- get_country(df$publication_place)$country
 # df$publication_country2 <- country_name(df$publication_country)
 # df$publication_country.code <- country_code(df$publication_country, "country", "iso3c")
 
-print("Write missing country mappings to file")
-write_xtable(as.character(df$publication_place)[is.na(df$publication_country)], file = paste(output.folder, "country_missing.csv", sep = ""))
-write_xtable(as.character(df$publication_country), file = paste(output.folder, "country_accepted.csv", sep = ""))
-
 print("Estimate the number of physical items for each document")
 df$document.items <- estimate_document_items(df) # "Physical items per document"
 

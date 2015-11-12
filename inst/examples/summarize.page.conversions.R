@@ -1,4 +1,3 @@
-
 print("Summarize page conversions")
 tab <- cbind(
 	     #pages.parts = df$document.pages.parts, 
@@ -8,7 +7,7 @@ tab <- cbind(
 	     gatherings = as.character(df$gatherings),
 	     pages.original = as.character(df.orig$physical_extent)
 	     )
-tmp <- write_xtable(tab, paste(output.folder, "documentpages-estimated.csv", sep = ""))
+tmp <- write_xtable(tab, paste(output.folder, "pages_accepted.csv", sep = ""))
 
 
 print("Summarize item counts")
@@ -18,7 +17,7 @@ tab <- cbind(
              # items = df$document.items, 
 	     pages.original = as.character(df.orig$physical_extent)
 	     )
-tmp <- write_xtable(tab, paste(output.folder, "document-items-estimated.csv", sep = ""))
+tmp <- write_xtable(tab, paste(output.folder, "items_accepted.csv", sep = ""))
 
 
 print("Summarize page and size conversions in a file")
@@ -38,5 +37,5 @@ tmp <- write_xtable(tab, paste(output.folder, "page_conversions.csv", sep = ""))
 
 # Summarize data in file
 discarded <- as.character(df.orig$physical_dimension)[is.na(df$area)]
-tab <- write_xtable(discarded, paste(output.folder, "documentdimensions_discarded.csv", sep = ""))
+tab <- write_xtable(discarded, paste(output.folder, "dimensions_discarded.csv", sep = ""))
 

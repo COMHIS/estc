@@ -5,34 +5,35 @@ print("Language")
 df$language <- df.orig$language 
 
 print("Publication title")
-# was publication.title
 df$title <- polish_title(df.orig$title)
 
 print("Subject topic")
-# was subject.topic
 df$topic <- polish.topic(df.orig$subject_topic)
 
 print("Volume number") # which issue this is from a multi-volume series
-# was document.volnumber
 df$volnumber <- unname(polish_volumenumber(df.orig$physical_extent))
 
 print("Volume count")
-# was document.volcount
 df$volcount <- unname(polish_volumecount(df.orig$physical_extent))
 
-print("Author info")
-source("author.names.R")
+print("Arrange author first and last names in a table")
+tmp <- polish_author(df.orig$author_name)
+# Add full author name (Last, First) to our data
+df$author_name <- tmp$names$full
+
+# Write invalid author names to file for a later check
+for (db in c("first", "last")) {
+  fnam <- paste(output.folder, "author_name_discarded_", db, ".csv", sep = "")
+  write.table(tmp$invalid[[db]], file = fnam, quote = FALSE, sep = "\t", row.names = FALSE)
+}
 
 print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
-# Generic handling
-x2 <- polish_pages(x, verbose = TRUE)$total.pages
-# was document.pages.total
-df$pagecount <- x2
+# Generic handling + assign to the data matrix
+df$pagecount <- polish_pages(x, verbose = TRUE)$total.pages
 
 print("Publication place")
-# was: publication.place
 df$publication_place <- polish_place(df.orig$publication_place,
 					remove.unknown = TRUE)
 
@@ -51,28 +52,29 @@ print("Publisher")
 res <- polish_publisher(df.orig$publisher)
 df$publisher <- res$printedby
 df$publisher.printedfor <- res$printedfor
-print("Write table")
-filename <- paste(output.folder, "Publisher.csv", sep = "")
 names(res) <- c("PrintedFor", "PrintedBy", "Ignored", "Original")
-tmp <- write_xtable(as.data.frame(res), filename = filename)
+
+print("Write table")
+tmp <- write_xtable(as.data.frame(res), filename = paste(output.folder, "publisher_table.csv", sep = ""))
 
 # ---------------------------------------
 
-source("author.life.R")
+# TODO make a tidy cleanup function to shorten the code here
+print("Polish author life years")
+tmp <- polish_years(df.orig$author_date, check = TRUE)
+df$author_birth <- tmp$from
+df$author_death <- tmp$till
+
+# ----------------------------------------------------
 
 print("Publication year")
-tab <- polish_years(df.orig$publication_time)
+tab <- polish_years(df.orig$publication_time, check = TRUE)
 df$publication_year <- tab$from
 df$publication_year[df$publication_year > 2000] <- NA
 
 # Conversion statistics in a file
 # (successfull conversions and the count for each)
 tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
-
-# Failed conversions
-# TODO can be improved considerably
-x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
-tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
 
 # -----------------------------
 

@@ -7,14 +7,13 @@
 #' @references See citation("estc")
 #' @examples aa <- ambiguous_authors_table()
 #' @keywords utilities
-
 ambiguous_authors_table <- function (...) {
 
   # Read author synonymes for ambiguous authors
   f <- system.file("extdata/ambiguous-authors.csv", package = "estc")
-  aa <- readLines(f)
+  aa <- readLines(f)[-1]
   aa <- lapply(aa, function (x) {unlist(strsplit(x, ";"))})
-  names(aa) <- sapply(aa, function (x) {x[[1]]})
+  names(aa) <- sapply(aa, function (x) {rev(x)[[1]]})
   map <- NULL
   for (nam in names(aa)) {
     map <- rbind(map, cbind(rep(nam, length(aa[[nam]])), aa[[nam]]))
