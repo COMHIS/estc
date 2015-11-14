@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 2869 documents from Scotland.
+We have 2870 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -133,17 +133,15 @@ We have 1265 documents from Scotland and 10723 documents from London during 1700
 ```
 
 ```
-## Warning in min(x, na.rm = na.rm): no non-missing arguments to min;
-## returning Inf
+## Error in eval(expr, envir, enclos): object 'dfa' not found
 ```
 
 ```
-## Warning in max(x, na.rm = na.rm): no non-missing arguments to max;
-## returning -Inf
+## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfa' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_year'
+## Error in limits(c(...), "x"): object 'lims' not found
 ```
 
 ```
@@ -151,11 +149,15 @@ We have 1265 documents from Scotland and 10723 documents from London during 1700
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_year'
+## Error in eval(expr, envir, enclos): object 'dfa' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_year'
+## Error in eval(expr, envir, enclos): object 'dfa' not found
+```
+
+```
+## Error in limits(c(...), "x"): object 'lims' not found
 ```
 
 ```

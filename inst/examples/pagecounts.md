@@ -72,7 +72,19 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in df2$na[df2$na == 0] <- NA: object 'df2' not found
+```
+
+```
+## Error in ggplot(df2, aes(x = publication.decade, y = document.dimension.gatherings.estimated, : object 'df2' not found
+```
+
+```
+## Error in na.omit(df2$na): object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 ```
@@ -92,7 +104,7 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 
@@ -106,23 +118,19 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ```
 
 ```
-## Error: All select() inputs must resolve to integer column positions.
-## The following do not:
-## *  IV
+## Error in regression_plot(paper.consumption.km2 ~ publication.year, df2): object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 ```
-## Error: All select() inputs must resolve to integer column positions.
-## The following do not:
-## *  IV
+## Error in regression_plot(n ~ publication.year, df2): object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 
@@ -131,11 +139,23 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in filter_(.data, .dots = lazyeval::lazy_dots(...)): object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in ggplot(df2, aes(y = paper.consumption.km2, x = publication.year, : object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
+```
+
+```
+## Error in ggplot(df2, aes(y = n, x = publication.year, group = document.dimension.gatherings.estimated, : object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 ```
@@ -143,11 +163,23 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in filter_(.data, .dots = lazyeval::lazy_dots(...)): object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in ggplot(df2, aes(x = publication.year, fill = document.dimension.gatherings.estimated)): object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
+```
+
+```
+## Error in ggplot(df2, aes(x = publication.year, fill = document.dimension.gatherings.estimated)): object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 p <- ggplot(df2, aes(y = n, x = publication.year, group = document.dimension.gatherings.estimated, color = document.dimension.gatherings.estimated))
@@ -167,7 +199,11 @@ print(p)
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in ggplot(df2, aes(x = publication.year, y = paper.consumption.km2/n)): object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 
@@ -180,11 +216,19 @@ print(p)
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in ggplot(df2, aes(x = publication.year, y = paper.consumption.km2, : object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
+```
+
+```
+## Error in ggplot(df2, aes(x = publication.year, y = n, group = document.type, : object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 
@@ -198,11 +242,19 @@ print(p)
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in ggplot(df2, aes(x = publication.decade, y = paper.consumption.km2, : object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
+```
+
+```
+## Error in ggplot(df2, aes(x = publication.decade, y = n, group = document.length, : object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 
@@ -214,11 +266,19 @@ print(p)
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in ggplot(df2, aes(x = publication.year, y = paper.consumption.km2, : object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
+```
+
+```
+## Error in ggplot(df2, aes(x = publication.year, y = n, group = author.unique, : object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 
@@ -234,7 +294,15 @@ Estimated paper consumption by document size
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in filter_(.data, .dots = lazyeval::lazy_dots(...)): object 'df2' not found
+```
+
+```
+## Error in ggplot(df2, aes(y = paper.consumption.km2, x = publication.year, : object 'df2' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 

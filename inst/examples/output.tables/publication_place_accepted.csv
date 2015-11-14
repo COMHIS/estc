@@ -1,10 +1,10 @@
 Name	Count
-Total count: 	n=49805 (100% non-NA values)
-London	34975
-Dublin	 3302
-Edinburgh	 2452
+Total count: 	n=49801 (100% non-NA values)
+London	34970
+Dublin	 3304
+Edinburgh	 2453
 Philadelphia Pa	 1299
-Boston	 1039
+Boston	 1032
 Oxford	  920
 New York N.Y	  724
 Paris	  274
@@ -13,7 +13,7 @@ York	  203
 Cambridge	  178
 Providence R.I	  164
 Amsterdam	  161
-Boston Ma	  151
+Boston Ma	  158
 Hartford Ct	  145
 Bristol	   98
 Newcastle	   95
@@ -50,11 +50,11 @@ Basel	   31
 Quebec	   30
 Exeter N.H	   30
 Coventry	   30
-Belfast	   29
 Antwerp	   29
+Belfast	   28
 Newburyport Ma	   27
 Liverpool	   27
-Canterbury	   27
+Canterbury	   26
 Kilkenny	   25
 Richmond	   23
 Chester	   23
@@ -140,6 +140,7 @@ Madras India	    5
 Knoxville Tn	    5
 Kelso	    5
 Hereford	    5
+Hanover N.H	    5
 Glocester	    5
 Geneva	    5
 Doncaster	    5
@@ -165,7 +166,6 @@ Leominster Ma	    4
 Lansingburgh N.Y	    4
 Kingston N.Y	    4
 Kingston	    4
-Hanover N.H	    4
 Hanover	    4
 Halifax N.C	    4
 Dort	    4
@@ -261,7 +261,6 @@ Edenton N.C	    2
 Dumfries Va	    2
 Dumfries	    2
 Drogheda	    2
-Dresden	    2
 Downpatrick	    2
 Dover N.H	    2
 Dover	    2
@@ -371,6 +370,7 @@ Egham	    1
 Easton Md	    1
 East Molesey	    1
 Dunbar	    1
+Dresden	    1
 Dorchester	    1
 Devizes	    1
 Deptford	    1

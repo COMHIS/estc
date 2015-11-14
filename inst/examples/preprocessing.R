@@ -53,7 +53,8 @@ tmp <- estimate_document_parts(df.orig)
 df <- cbind(df, tmp)
 
 print("Publisher")
-df$publisher <- polish_publisher(df.orig$publisher)$name
+pub <- polish_publisher(df.orig$publisher)
+df$publisher <- pub$name
 
 # ---------------------------------------
 
