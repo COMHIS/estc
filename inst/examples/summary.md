@@ -35,23 +35,24 @@ Number of documents with NA entries and number of unique entries for each field:
 |:---------------------|---------:|------:|
 |parts                 |         0|      1|
 |volnumber             |       156|     15|
+|publisher             |      2367|    997|
 |author_birth          |     15335|    348|
 |author_death          |     15950|    370|
 |author_gender         |     16903|      3|
 |author_name           |     18236|   6098|
-|publication_place     |     21431|      2|
-|latitude              |     21431|      2|
-|longitude             |     21431|      2|
-|publication_country   |     21431|      2|
 |topic                 |     21973|   7067|
+|latitude              |     47485|    137|
+|longitude             |     47485|    137|
 |publication_decade    |     48032|     39|
-|paper.consumption.km2 |     48075|   2817|
-|width                 |     48109|     52|
-|height                |     48109|     47|
-|area                  |     48109|    299|
+|paper.consumption.km2 |     48074|   2817|
+|width                 |     48108|     52|
+|height                |     48108|     47|
+|area                  |     48108|    299|
 |pages_per_part        |     48118|    888|
 |pagecount.orig        |     48691|    941|
 |publication_year      |     48776|    305|
+|publication_place     |     49805|    416|
+|publication_country   |     49805|     34|
 |volcount              |     50139|    109|
 |pagecount             |     50251|   1000|
 |language              |     50288|     21|
@@ -689,7 +690,7 @@ Paper consumption
 
 ### Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 42.6% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 94.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication countries](output.tables/country_accepted.csv)
 
@@ -865,7 +866,7 @@ Compare original gatherings and original heights where both are available. The p
 ```
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, "gathering.height.estimate", value = numeric(0)): replacement has 0 rows, data has 29
+## Error in `$<-.data.frame`(`*tmp*`, "gathering.height.estimate", value = numeric(0)): replacement has 0 rows, data has 30
 ```
 
 ```
@@ -894,7 +895,7 @@ Multi-volume documents average page counts are given per volume.
 |4to           |            43.791068|                     12|       16529|            411.6667|              439.0000|         27|         15.87012|                  8|   12188|
 |8vo           |           143.460685|                     68|       11607|            406.3343|              413.3333|        181|         28.47323|                 28|    3810|
 |12long        |            67.000000|                     50|          10|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
-|12mo          |           184.081729|                    162|        3027|            260.5657|              211.0000|         47|         26.31478|                 24|     521|
+|12mo          |           184.089753|                    162|        3026|            260.5657|              211.0000|         47|         26.31478|                 24|     521|
 |16mo          |           163.645570|                    116|          81|                  NA|                    NA|         NA|         30.46154|                 24|      13|
 |18mo          |           177.575758|                    158|          33|            172.0000|              172.0000|          1|         41.00000|                 41|       2|
 |24long        |           244.000000|                    244|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
@@ -902,7 +903,7 @@ Multi-volume documents average page counts are given per volume.
 |32mo          |           179.333333|                    193|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |48mo          |           128.000000|                    128|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|NA            |            14.045027|                      2|        3003|                  NA|                    NA|         NA|         18.87097|                 15|     403|
+|NA            |            14.094726|                      2|        3004|                  NA|                    NA|         NA|         18.87097|                 15|     403|
 
 
 
@@ -950,21 +951,17 @@ Multi-volume documents average page counts are given per volume.
 
 ## Histograms of all entries for numeric variables
 
-![plot of chunk summary-histograms](figure/summary-histograms-1.png) ![plot of chunk summary-histograms](figure/summary-histograms-2.png) ![plot of chunk summary-histograms](figure/summary-histograms-3.png) ![plot of chunk summary-histograms](figure/summary-histograms-4.png) ![plot of chunk summary-histograms](figure/summary-histograms-5.png) ![plot of chunk summary-histograms](figure/summary-histograms-6.png) ![plot of chunk summary-histograms](figure/summary-histograms-7.png) ![plot of chunk summary-histograms](figure/summary-histograms-8.png) ![plot of chunk summary-histograms](figure/summary-histograms-9.png) ![plot of chunk summary-histograms](figure/summary-histograms-10.png) ![plot of chunk summary-histograms](figure/summary-histograms-11.png) 
-
-```
-## Error in exists(name, envir = env, mode = mode): argument "env" is missing, with no default
-```
+![plot of chunk summary-histograms](figure/summary-histograms-1.png) ![plot of chunk summary-histograms](figure/summary-histograms-2.png) ![plot of chunk summary-histograms](figure/summary-histograms-3.png) ![plot of chunk summary-histograms](figure/summary-histograms-4.png) ![plot of chunk summary-histograms](figure/summary-histograms-5.png) ![plot of chunk summary-histograms](figure/summary-histograms-6.png) ![plot of chunk summary-histograms](figure/summary-histograms-7.png) ![plot of chunk summary-histograms](figure/summary-histograms-8.png) ![plot of chunk summary-histograms](figure/summary-histograms-9.png) ![plot of chunk summary-histograms](figure/summary-histograms-10.png) ![plot of chunk summary-histograms](figure/summary-histograms-11.png) ![plot of chunk summary-histograms](figure/summary-histograms-12.png) ![plot of chunk summary-histograms](figure/summary-histograms-13.png) 
 
 ## Histograms of the top entries for factor variables
 
-![plot of chunk summary-bars](figure/summary-bars-1.png) ![plot of chunk summary-bars](figure/summary-bars-2.png) ![plot of chunk summary-bars](figure/summary-bars-3.png) ![plot of chunk summary-bars](figure/summary-bars-4.png) 
+![plot of chunk summary-bars](figure/summary-bars-1.png) ![plot of chunk summary-bars](figure/summary-bars-2.png) ![plot of chunk summary-bars](figure/summary-bars-3.png) ![plot of chunk summary-bars](figure/summary-bars-4.png) ![plot of chunk summary-bars](figure/summary-bars-5.png) 
 
 ```
 ## Error in dfs[1:ntop, ]: incorrect number of dimensions
 ```
 
-![plot of chunk summary-bars](figure/summary-bars-5.png) 
+![plot of chunk summary-bars](figure/summary-bars-6.png) 
 
 
 
@@ -1012,21 +1009,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart374257aba64b&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart41382919458d&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart374257aba64b()
+      drawchart41382919458d()
     });
-    function drawchart374257aba64b(){  
+    function drawchart41382919458d(){  
       var opts = {
- &quot;dom&quot;: &quot;chart374257aba64b&quot;,
+ &quot;dom&quot;: &quot;chart41382919458d&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart374257aba64b&quot; 
+&quot;id&quot;: &quot;chart41382919458d&quot; 
 },
         data = [
  {
@@ -1177,7 +1174,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart374257aba64b'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart41382919458d'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

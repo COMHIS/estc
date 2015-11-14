@@ -53,7 +53,10 @@ tmp <- estimate_document_parts(df.orig)
 df <- cbind(df, tmp)
 
 print("Publisher")
-df$publisher <- polish_publisher(df.orig$publisher)$name
+publisher <- polish_publisher(df.orig$publisher)
+df$publisher <- publisher$printedby
+df$publisher[is.na(df$publisher)] <- publisher$printedby[is.na(df$publisher)]
+df$publisher[is.na(df$publisher)] <- publisher$rest[is.na(df$publisher)]
 
 # ---------------------------------------
 
