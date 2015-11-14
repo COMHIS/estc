@@ -28,7 +28,7 @@ source("enrich.R")
 
 # Summarize the data and discarded entries
 source("summarize.R")
-save.image()
+save.image(file = "tmp.RData")
 
 # Analyze the preprocessed data
 source("analysis.R")
