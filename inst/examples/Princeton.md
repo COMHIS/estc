@@ -1,7 +1,7 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2015-11-12"
+date: "2015-11-13"
 output: markdown_document
 ---
 
@@ -26,10 +26,6 @@ Read the preprocessed ESTC data table and load tools:
 ```
 
 
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.country' not found
-```
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.country' not found

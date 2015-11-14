@@ -23,6 +23,9 @@ df <- read.csv(file = "estc.csv", sep = "|")
 df$gatherings.original <- order_gatherings(df$gatherings.original)
 df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
+
+ntop <- 20
+
 ```
 
 
@@ -74,13 +77,6 @@ tab <- tab[!names(tab) == "NA"]
 tab <- rev(sort(tab)) 
 ```
 
-```{r summarytopics2, echo=FALSE, message=FALSE, warning=FALSE}
-# Write to file
-f <- "output.tables/subjecttopics.tab"
-print(paste("Complete subject topic counts in file:", f))
-write.table(cbind(Topic = sort(names(tab))), file = f, sep = "\t", quote = F, row.names = F)
-ntop <- 50
-```
 
 Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$subject.topic))` unique topics and `r sum(!is.na(df$subject.topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$subject.topic)))`).
 
@@ -380,11 +376,6 @@ p <- p + ylab("Documents")
 print(p)
 ```
 
-```{r summarytitle2, echo=FALSE}
-f <- "output.tables/titles.csv"
-print(paste("Complete counts in file:", f))
-write.table(cbind(Title = sort(names(tab))), file = f, sep = "|", quote = F, row.names = F)
-```
 
 ## Language
 

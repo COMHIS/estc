@@ -24,7 +24,7 @@ df <- filter(df, publication.country == country)
 ## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
-We have 50283 documents from USA.
+We have 50295 documents from USA.
 
 
 ## Most common authors from USA
@@ -42,14 +42,6 @@ p <- top_plot(df, "author.unique", 20)
 p <- p + ggtitle(paste("Most common authors from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
-```
-
-```
-## Warning: Removed 3 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 3 rows containing missing values (geom_path).
 ```
 
 ![plot of chunk NAtopauth](figure/NAtopauth-1.png) 
@@ -70,14 +62,6 @@ p <- top_plot(df, "publication.title", 20)
 p <- p + ggtitle(paste("Most common titles from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
-```
-
-```
-## Warning: Removed 3 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 3 rows containing missing values (geom_path).
 ```
 
 ![plot of chunk NAtoptitles](figure/NAtoptitles-1.png) 
@@ -102,7 +86,15 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
+## Error in publications[, top.places]: subscript out of bounds
+```
+
+```
 ## Error in eval(expr, envir, enclos): object 'publications.annual' not found
+```
+
+```
+## Error in data.frame(indices, value = values): arguments imply differing number of rows: 2, 0
 ```
 
 ```
@@ -111,6 +103,14 @@ Average annual output for each decade is shown by lines, the actual annual docum
 
 ```
 ## Error in names(dfm.annual) <- c("Time", "Place", "Documents"): object 'dfm.annual' not found
+```
+
+```
+## Warning in min(dfm$Time): no non-missing arguments to min; returning Inf
+```
+
+```
+## Warning in max(dfm$Time): no non-missing arguments to max; returning -Inf
 ```
 
 ```

@@ -1,6 +1,9 @@
 print("Start collecting variables to a polished data frame")
 df <- data.frame(list(row.index = 1:nrow(df.orig)))
 
+print("Entry identifier to match back to the originals")
+df$original_row <- df.orig$original_row
+
 print("Language")
 df$language <- df.orig$language 
 
@@ -41,6 +44,7 @@ print("Augment missing document dimensions")
 # Fill in missing entries where estimates can be obtained:
 # area, width, height, gatherings (also keep pure originals before fill in)
 tmp <- polish_dimensions(df.orig$physical_dimension, fill = TRUE, verbose = TRUE)
+tmp <- tmp[, -grep("original", names(tmp))] # Remove the 'original' fields
 df <- cbind(df, tmp) 
 
 print("Estimate number of separate parts in a document")
@@ -49,13 +53,7 @@ tmp <- estimate_document_parts(df.orig)
 df <- cbind(df, tmp)
 
 print("Publisher")
-res <- polish_publisher(df.orig$publisher)
-df$publisher <- res$printedby
-df$publisher.printedfor <- res$printedfor
-names(res) <- c("PrintedFor", "PrintedBy", "Ignored", "Original")
-
-print("Write table")
-tmp <- write_xtable(as.data.frame(res), filename = paste(output.folder, "publisher_table.csv", sep = ""))
+df$publisher <- polish_publisher(df.orig$publisher)$name
 
 # ---------------------------------------
 
@@ -74,7 +72,7 @@ df$publication_year[df$publication_year > 2000] <- NA
 
 # Conversion statistics in a file
 # (successfull conversions and the count for each)
-tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
+tmp <- write_xtable(tab, file = paste(output.folder, "publication_year_conversion_table.csv", sep = ""))
 
 # -----------------------------
 

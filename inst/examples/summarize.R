@@ -6,7 +6,7 @@ print("Print summary tables of page count and volume count conversions")
 source("summarize.page.conversions.R")
 
 print("Write summaries of field entries and count stats for all fields")
-for (field in setdiff(names(df), "row.index")) {
+for (field in setdiff(names(df), c("row.index", "latitude", "longitude", "page", "item", "parts", "pages_per_part", "paper.consumption.km2", "publication_decade", "publication_year", "publisher.printedfor", "unity"))) {
 
   print(field)
 
@@ -20,13 +20,15 @@ for (field in setdiff(names(df), "row.index")) {
     tmp <- write_xtable(original, paste(output.folder, field, "_discarded.csv", sep = ""), count = TRUE)
   }
 
-  print("Successful conversions")
-  if ((field %in% names(df)) && (field %in% names(df.orig))) {
+  print("Successful nontrivial conversions")
+  if (field %in% names(df) && (field %in% names(df.orig)) && !field == "dimension") {
     inds <- which(!is.na(df[[field]]))
     original <- as.character(df.orig[[field]][inds])
     polished <- as.character(df[[field]][inds])
     tab <- cbind(original = original, polished = polished)
-    tmp <- write_xtable(tab, paste(output.folder, field, "_conversions.csv", sep = ""))
+    # Exclude trivial cases (original == polished)
+    tab <- tab[!tab[, "original"] == tab[, "polished"], ]
+    tmp <- write_xtable(tab, paste(output.folder, field, "_conversions_nontrivial.csv", sep = ""), count = TRUE)
   }
 }
 
@@ -44,15 +46,14 @@ write.table(dfs, paste(output.folder, "author_life_ambiguous.csv", sep = ""), qu
 
 print("Publication time: Failed conversions")
 x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
-tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
+tmp2 <- write_xtable(x, file = paste(output.folder, "publication_year_failed.csv", sep = ""))
 
 print("Write unrecognized author life years to file together count stats")
 tmp <- write_xtable(unname(unlist(df.orig[which(is.na(df$author_birth) & is.na(df$author_death)),]$author_date)), paste(output.folder, "author_life_discarded.csv", sep = ""))
 
 print("Write missing country mappings to file")
-write_xtable(as.character(df$publication_place)[is.na(df$publication_country)], file = paste(output.folder, "country_missing.csv", sep = ""))
-write_xtable(as.character(df$publication_country), file = paste(output.folder, "country_accepted.csv", sep = ""))
+write_xtable(as.character(df$publication_place)[is.na(df$publication_country)], file = paste(output.folder, "publication_country_discarded.csv", sep = ""))
 
 print("Matrix with discarded author names")
 discarded.authors <- as.character(na.omit(df.orig[["author_name"]][is.na(df$author_unique)]))
-discarded.authors <- write_xtable(discarded.authors, file = "output.tables/author_unique_discarded.csv")
+discarded.authors <- write_xtable(discarded.authors, file = paste(output.folder, "author_unique_discarded.csv", sep = ""))

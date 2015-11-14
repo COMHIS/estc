@@ -17,7 +17,7 @@ mean.pagecounts <- read.csv(paste(output.folder, "estimated_page_counts.csv", se
 
 # Order the levels where necessary
 mean.pagecounts$doc.dimension <- order_gatherings(mean.pagecounts$doc.dimension)
-df$gatherings.original <- order_gatherings(df$gatherings.original)
+#df$gatherings.original <- order_gatherings(df$gatherings.original)
 df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
 
