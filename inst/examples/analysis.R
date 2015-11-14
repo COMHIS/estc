@@ -34,13 +34,19 @@ source("timeplot.R")
 
 library(knitr)
 knit("Edinburgh.Rmd")
+
 knit("NorthAmerica.Rmd")
 knit("Scotland.Rmd")
 knit("Princeton.Rmd")
 knit("pagecounts.Rmd")
+
+if ("publisher.printedfor" %in% names(df.preprocessed)) {stop("CHECK4")}
+
 #knit("20150624-LIBER.Rmd") # For conference
 knit("20151023-LIBER.Rmd") # For journal
 #knit("20150611-Paris.Rmd") # For workshop
+
+if ("publisher.printedfor" %in% names(df.preprocessed)) {stop("CHECK5")}
 
 system("git add figure/*.png")
 system("git commit -a -m'Rmd update'")

@@ -12,8 +12,8 @@ output: markdown_document
 library(stringr)
 library(bibliographica)
 library(estc)
-#df <- read.csv(file = "estc.csv", sep = "|")
-df <- read.csv(file = "estc-LIBER20151023-backup.csv", sep = "|")
+df <- read.csv(file = "estc.csv", sep = "|")
+#df <- read.csv(file = "estc-LIBER20151023-backup.csv", sep = "|")
 
 # Order the levels where necessary
 df$gatherings.original <- order_gatherings(df$gatherings.original)

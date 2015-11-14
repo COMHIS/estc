@@ -28,6 +28,7 @@ source("enrich.R")
 
 # Summarize the data and discarded entries
 source("summarize.R")
+save.image()
 
 # Analyze the preprocessed data
 source("analysis.R")
