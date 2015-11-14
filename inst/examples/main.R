@@ -21,12 +21,10 @@ df.orig <- read_bibliographic_metadata(source.data.file)
 
 # Preprocess the raw data
 source("preprocessing.R")
-save.image()
 
 # Enrich the data
 # (add missing information and augment with external data)
 source("enrich.R")
-save.image()
 
 # Summarize the data and discarded entries
 source("summarize.R")
