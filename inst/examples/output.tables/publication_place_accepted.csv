@@ -1,23 +1,22 @@
 Name	Count
-Total count: 	n=49806 (100% non-NA values)
-London	34975
-Dublin	 3303
+Total count: 	n=48999 (100% non-NA values)
+London	34971
+Dublin	 3302
 Edinburgh	 2453
-Philadelphia Pa	 1298
+Philadelphia Pa	 1277
 Boston	 1032
 Oxford	  920
-New York N.Y	  724
 Paris	  274
 Glasgow	  257
 York	  203
 Cambridge	  178
 Providence R.I	  164
 Amsterdam	  161
-Boston Ma	  158
 Hartford Ct	  145
+Boston Ma	  131
 Bristol	   98
-Newcastle	   95
 Norwich	   94
+Newcastle	   94
 Aberdeen	   92
 Watertown Ma	   86
 Cork	   86
@@ -30,7 +29,7 @@ Baltimore Md	   67
 Salem Ma	   65
 Exeter	   65
 Lancaster Pa	   61
-Bath	   59
+Bath	   58
 New Haven Ma	   56
 Williamsburg Va	   54
 Annapolis Md	   53
@@ -45,7 +44,6 @@ Litchfield Ct	   35
 Albany N.Y	   33
 Nottingham	   32
 Calcutta	   32
-Worcester Ma	   31
 Basel	   31
 Quebec	   30
 Exeter N.H	   30
@@ -59,6 +57,7 @@ Kilkenny	   25
 Richmond	   23
 Chester	   23
 Perth	   22
+New York N.Y	   22
 Fishkill N.Y	   22
 Burlington N.J	   20
 Waterford	   19
@@ -66,7 +65,6 @@ Rotterdam	   19
 Whitehaven	   18
 Middelburg	   18
 Hamburg	   18
-Worcester	   17
 Sherborne	   17
 Poughkeepsie N.Y	   17
 Kingston Jamaica	   17
@@ -127,6 +125,7 @@ Douai	    6
 Chelmsford Ma	    6
 Carlisle Pa	    6
 Bolton	    6
+Worcester Ma	    5
 Wesel	    5
 Venice	    5
 Utrecht	    5
@@ -144,11 +143,11 @@ Hanover N.H	    5
 Glocester	    5
 Geneva	    5
 Doncaster	    5
-Cologne	    5
 Chelmsford	    5
 Brussels	    5
 Berlin	    5
 Augusta Ga	    5
+Worcester	    4
 Windham Ct	    4
 Westminster Vt	    4
 Walpole N.H	    4
@@ -159,7 +158,6 @@ Rutland Vt	    4
 Roseau Dominica	    4
 Portland Me	    4
 Newburgh N.Y	    4
-Montrose	    4
 Louvain	    4
 Lexington Ky	    4
 Leominster Ma	    4
@@ -220,7 +218,6 @@ Staunton Va	    2
 Stafford	    2
 St. Ives	    2
 Springfield Ma	    2
-Spanish Town Jamaica	    2
 Sligo	    2
 Shepherdstown Va	    2
 Schenectady N.Y	    2
@@ -236,6 +233,7 @@ Newbury Vt	    2
 Newbury Ma	    2
 New Windsor N.Y	    2
 New Bedford Ms	    2
+Montrose	    2
 Montego Bay	    2
 Mechelen	    2
 Ludlow	    2
@@ -295,6 +293,7 @@ St. Helier	    1
 St. Germans	    1
 St. Eustatius	    1
 St. Albans	    1
+Spanish Town Jamaica	    1
 South Shields	    1
 Siena	    1
 Shiffnal	    1
@@ -335,11 +334,10 @@ Martinsburg Va	    1
 Marlborough	    1
 Margate	    1
 Lille	    1
-Liege	    1
+Liège	    1
 Lewes	    1
 Leeuwarden	    1
 Lancaster N.J	    1
-Koningsberg	    1
 Knaresborough	    1
 Kirkcudbright	    1
 Kendal	    1
@@ -378,8 +376,6 @@ Dedham Ma	    1
 Daventry	    1
 Danbury Ct	    1
 Concord Ma	    1
-Cincinnati Oh	    1
-Chillicothe Oh	    1
 Chesire Ct	    1
 Chatham	    1
 Charlottesville Va	    1
