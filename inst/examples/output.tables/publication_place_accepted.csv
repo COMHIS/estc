@@ -1,16 +1,17 @@
 Name	Count
-Total count: 	n=48999 (100% non-NA values)
-London	34971
-Dublin	 3302
+Total count: 	n=49738 (100% non-NA values)
+London	34970
+Dublin	 3303
 Edinburgh	 2453
-Philadelphia Pa	 1277
+Philadelphia Pa	 1278
 Boston	 1032
 Oxford	  920
+New York NY	  724
 Paris	  274
 Glasgow	  257
 York	  203
 Cambridge	  178
-Providence R.I	  164
+Providence RI	  164
 Amsterdam	  161
 Hartford Ct	  145
 Boston Ma	  131
@@ -20,8 +21,8 @@ Newcastle	   94
 Aberdeen	   92
 Watertown Ma	   86
 Cork	   86
-Charleston S.C	   79
-Newport R.I	   76
+Charleston SC	   79
+Newport RI	   76
 United States	   73
 The Hague	   73
 New London Ct	   69
@@ -38,15 +39,16 @@ Birmingham	   51
 Shrewsbury	   45
 Manchester	   45
 Salisbury	   38
-Portsmouth N.H	   38
+Portsmouth NH	   38
 Cambridge Ma	   38
 Litchfield Ct	   35
-Albany N.Y	   33
+Albany NY	   33
 Nottingham	   32
 Calcutta	   32
+Worcester MA	   31
 Basel	   31
 Quebec	   30
-Exeter N.H	   30
+Exeter NH	   30
 Coventry	   30
 Belfast	   29
 Antwerp	   29
@@ -57,24 +59,24 @@ Kilkenny	   25
 Richmond	   23
 Chester	   23
 Perth	   22
-New York N.Y	   22
-Fishkill N.Y	   22
-Burlington N.J	   20
+Fishkill NY	   22
+Burlington NJ	   20
 Waterford	   19
 Rotterdam	   19
 Whitehaven	   18
 Middelburg	   18
 Hamburg	   18
+Worcester	   17
 Sherborne	   17
-Poughkeepsie N.Y	   17
+Poughkeepsie NY	   17
 Kingston Jamaica	   17
 Wilmington De	   16
 New Orleans La	   16
 Hull	   16
 York Pa	   15
 Savannah Ga	   15
-New Bern N.C	   15
-St. Omer	   14
+New Bern NC	   15
+St Omer	   14
 Sheffield	   14
 Limerick	   14
 Leeds	   14
@@ -86,7 +88,7 @@ Ipswich	   13
 Eton	   13
 Darlington	   13
 Germantown Pa	   12
-Woodbridge N.J	   11
+Woodbridge NJ	   11
 Paisley	   11
 Leiden	   11
 Leicester	   11
@@ -97,11 +99,11 @@ King's Lynn	   10
 Bridgetown Barbados	   10
 Derby	    9
 Danvers Ma	    9
-Newark N.J	    8
-Halifax N.S	    8
+Newark NJ	    8
+Halifax NS	    8
 Frankfurt	    8
-Concord N.H	    8
-Bury St. Edmunds	    8
+Concord NH	    8
+Bury St Edmunds	    8
 Basseterre Saint Kitts	    8
 Stamford	    7
 Southampton	    7
@@ -118,20 +120,19 @@ Stockbridge Ma	    6
 Richmond Va	    6
 Preston	    6
 Plymouth	    6
-New Brunswick N.J	    6
+New Brunswick NJ	    6
 Nassau	    6
-Hudson N.Y	    6
+Hudson NY	    6
 Douai	    6
 Chelmsford Ma	    6
 Carlisle Pa	    6
 Bolton	    6
-Worcester Ma	    5
 Wesel	    5
 Venice	    5
 Utrecht	    5
 Tunbridge Wells	    5
-Trenton N.J	    5
-St. John's Antiqua	    5
+Trenton NJ	    5
+St John's Antiqua	    5
 Rouen	    5
 Newark	    5
 Montreal	    5
@@ -139,56 +140,55 @@ Madras India	    5
 Knoxville Tn	    5
 Kelso	    5
 Hereford	    5
-Hanover N.H	    5
+Hanover NH	    5
 Glocester	    5
 Geneva	    5
 Doncaster	    5
+Cologne	    5
 Chelmsford	    5
 Brussels	    5
 Berlin	    5
 Augusta Ga	    5
-Worcester	    4
 Windham Ct	    4
 Westminster Vt	    4
-Walpole N.H	    4
+Walpole NH	    4
 Stirling	    4
-St. Andrews	    4
-St George's grenada	    4
+St Andrews	    4
 Rutland Vt	    4
 Roseau Dominica	    4
 Portland Me	    4
-Newburgh N.Y	    4
+Newburgh NY	    4
 Louvain	    4
 Lexington Ky	    4
 Leominster Ma	    4
-Lansingburgh N.Y	    4
-Kingston N.Y	    4
+Lansingburgh NY	    4
+Kingston NY	    4
 Kingston	    4
 Hanover	    4
-Halifax N.C	    4
+Halifax NC	    4
 Dort	    4
 Cirencester	    4
 Chambersburg Pa	    4
 Ayr	    4
-Amherst N.H	    4
+Amherst NH	    4
 Wolverhampton	    3
 Windsor Vt	    3
-Warren R.I	    3
+Warren RI	    3
 Twickenham	    3
 Tewkesbury	    3
 Taunton	    3
 Sunderland	    3
 Strasbourg	    3
-St. Pierre Martinique	    3
-St. Augustine Fl	    3
+St Pierre Martinique	    3
+St Augustine Fl	    3
 Pointe-A-Pitre	    3
 Northampton Ma	    3
 Maidstone	    3
 Macclesfield	    3
 Lyon	    3
 Leipzig	    3
-Keene N.H	    3
-Jacksonburgh S.C	    3
+Keene NH	    3
+Jacksonburgh SC	    3
 Hertford	    3
 Hagerstown Md	    3
 Gouda	    3
@@ -208,19 +208,19 @@ Banbury	    3
 Wisbech	    2
 Winterthur	    2
 Windsor	    2
-Wilmington N.C	    2
-Washington D.C	    2
+Wilmington NC	    2
+Washington DC	    2
 Vienna	    2
 Vevey	    2
 Sudbury	    2
 Strabane	    2
 Staunton Va	    2
 Stafford	    2
-St. Ives	    2
+St Ives	    2
 Springfield Ma	    2
 Sligo	    2
 Shepherdstown Va	    2
-Schenectady N.Y	    2
+Schenectady NY	    2
 Regensburg	    2
 Reading Pa	    2
 Portsmouth	    2
@@ -231,8 +231,7 @@ Peterborough	    2
 Newry	    2
 Newbury Vt	    2
 Newbury Ma	    2
-New Windsor N.Y	    2
-New Bedford Ms	    2
+New Windsor NY	    2
 Montrose	    2
 Montego Bay	    2
 Mechelen	    2
@@ -242,28 +241,27 @@ Lausanne	    2
 La Rochelle	    2
 Kilmarnock	    2
 Howden	    2
-Hillsborough N.C	    2
-Haverhill N.H	    2
+Hillsborough NC	    2
+Haverhill NH	    2
 Harrisburgh Pa	    2
 Haarlem	    2
 Gravesend	    2
 Gothenburg	    2
 Gloucester	    2
-Gateshead	    2
 Fryeburg Me	    2
 Fredicksburg Va	    2
 Frederick Md	    2
 Florence	    2
 Elizabethtown Md	    2
-Edenton N.C	    2
+Edenton NC	    2
 Dumfries Va	    2
 Dumfries	    2
 Drogheda	    2
 Downpatrick	    2
-Dover N.H	    2
+Dover NH	    2
 Dover	    2
-Columbia S.C	    2
-Chatham N.J	    2
+Columbia SC	    2
+Chatham NJ	    2
 Charlottetown Pe	    2
 Caen	    2
 Bombay	    2
@@ -283,50 +281,49 @@ Waltham	    1
 Walsall	    1
 Vergennes Vt	    1
 Verdun	    1
-unknown	    1
 Trevoux	    1
 Trefeca	    1
 Stockton	    1
-St. Mary's Md	    1
-St. John New Brunswick	    1
-St. Helier	    1
-St. Germans	    1
-St. Eustatius	    1
-St. Albans	    1
+St Mary's Md	    1
+St John New Brunswick	    1
+St Helier	    1
+St Germans	    1
+St Eustatius	    1
+St Albans	    1
 Spanish Town Jamaica	    1
 South Shields	    1
 Siena	    1
 Shiffnal	    1
 Shelburne Nova Scotia	    1
-Scipio N.Y	    1
+Scipio NY	    1
 Savanna-la-Mar Jamaica	    1
-Salisbury N.C	    1
+Salisbury NC	    1
 Salisbury Ma	    1
-Salem N.Y	    1
+Salem NY	    1
 Salamanca	    1
 Saarbrucken	    1
 Roscrea	    1
 Romsey	    1
-Rome N.Y	    1
+Rome NY	    1
 Rome	    1
 Rodborough	    1
 Rochdale	    1
 Reims	    1
-Raleigh N.C	    1
+Raleigh NC	    1
 Penrith	    1
 Pembroke Ma	    1
 Parr-Town	    1
 Paris Ky	    1
-Ossining N.Y	    1
+Ossining NY	    1
 Northallerton	    1
 North Shields	    1
 Niagara	    1
-Newton N.J	    1
+Newton NJ	    1
 Newport Isle Wight	    1
 Newfield Ct	    1
 New Bedford Ma	    1
-Mount Holly N.J	    1
-Monmouth N.J	    1
+Mount Holly NJ	    1
+Monmouth NJ	    1
 Monmouth	    1
 Minorca	    1
 Medford Ma	    1
@@ -337,10 +334,11 @@ Lille	    1
 Liège	    1
 Lewes	    1
 Leeuwarden	    1
-Lancaster N.J	    1
+Lancaster NJ	    1
 Knaresborough	    1
 Kirkcudbright	    1
 Kendal	    1
+Kaliningrad	    1
 Inverlochie	    1
 Houghton Park	    1
 Horncastle	    1
@@ -354,16 +352,16 @@ Greenock	    1
 Greenfield Ma	    1
 Grantham	    1
 Goa	    1
-Glocester Ma	    1
 Ghent	    1
-Geneva N.Y	    1
+Geneva NY	    1
 Gdansk	    1
 Gaunt	    1
+Gateshead	    1
 Fredericton	    1
 Evesham	    1
 Europe	    1
 Ennis	    1
-Elizabeth N.J	    1
+Elizabeth NJ	    1
 Egham	    1
 Easton Md	    1
 East Molesey	    1
@@ -392,7 +390,7 @@ Bungay	    1
 Buckden	    1
 Brookfield Ma	    1
 Bridgnorth	    1
-Bridgeton N.J	    1
+Bridgeton NJ	    1
 Brentford	    1
 Brattleborough Vt	    1
 Boulogne	    1
@@ -401,7 +399,7 @@ Bottisham	    1
 Blackburn	    1
 Birstall	    1
 Beverley	    1
-Bath N.Y	    1
+Bath NY	    1
 Augusta Me	    1
 Ampthill	    1
 America	    1
