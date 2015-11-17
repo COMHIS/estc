@@ -24,7 +24,7 @@ df <- filter(df, publication.country == country)
 ## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
-We have 50276 documents from USA.
+We have 50277 documents from USA.
 
 
 ## Most common authors from USA
