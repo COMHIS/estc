@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2015-11-16"
+date: "2015-11-17"
 output: markdown_document
 ---
 
@@ -107,7 +107,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 1330 documents from Scotland and 10905 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 1333 documents from Scotland and 10934 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```

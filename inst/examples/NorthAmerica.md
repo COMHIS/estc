@@ -24,7 +24,7 @@ df <- filter(df, publication.country == country)
 ## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
-We have 50287 documents from USA.
+We have 50283 documents from USA.
 
 
 ## Most common authors from USA
@@ -45,11 +45,11 @@ print(p)
 ```
 
 ```
-## Warning: Removed 3 rows containing missing values (geom_point).
+## Warning: Removed 2 rows containing missing values (geom_point).
 ```
 
 ```
-## Warning: Removed 3 rows containing missing values (geom_path).
+## Warning: Removed 2 rows containing missing values (geom_path).
 ```
 
 ![plot of chunk NAtopauth](figure/NAtopauth-1.png) 
@@ -73,11 +73,11 @@ print(p)
 ```
 
 ```
-## Warning: Removed 3 rows containing missing values (geom_point).
+## Warning: Removed 2 rows containing missing values (geom_point).
 ```
 
 ```
-## Warning: Removed 3 rows containing missing values (geom_path).
+## Warning: Removed 2 rows containing missing values (geom_path).
 ```
 
 ![plot of chunk NAtoptitles](figure/NAtoptitles-1.png) 

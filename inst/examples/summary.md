@@ -15,7 +15,7 @@ This document links to files that summarize the conversions from raw data to the
 
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, "gatherings.original", value = structure(integer(0), .Label = c("1to", : replacement has 0 rows, data has 50287
+## Error in `$<-.data.frame`(`*tmp*`, "gatherings.original", value = structure(integer(0), .Label = c("1to", : replacement has 0 rows, data has 50283
 ```
 
 
@@ -35,34 +35,34 @@ Number of documents with NA entries and number of unique entries for each field:
 |:---------------------|---------:|------:|
 |parts                 |         0|      1|
 |volnumber             |       156|     15|
-|author_birth          |     15333|    348|
-|author_death          |     15955|    370|
-|author_gender         |     16900|      3|
-|author_name           |     18232|   6097|
-|topic                 |     21971|   7066|
-|latitude              |     46547|    137|
-|longitude             |     46547|    137|
-|paper.consumption.km2 |     48061|   2819|
-|width                 |     48099|     52|
-|height                |     48099|     47|
-|area                  |     48099|    299|
-|pages_per_part        |     48113|    888|
-|pagecount.orig        |     48686|    941|
-|publication_country   |     49074|     32|
-|publisher             |     49376|  22267|
-|publication_decade    |     49530|     45|
-|publication_year      |     49663|    326|
-|publication_place     |     49738|    410|
-|volcount              |     50131|    109|
-|pagecount             |     50239|   1000|
-|language              |     50280|     21|
-|row.index             |     50287|  50287|
-|original_row          |     50287|  50287|
-|title                 |     50287|  41298|
-|gatherings            |     50287|     16|
-|obl                   |     50287|      2|
-|unity                 |     50287|      1|
-|author_unique         |     50287|   6754|
+|author_birth          |     15331|    348|
+|author_death          |     15953|    370|
+|author_gender         |     16899|      3|
+|author_name           |     18231|   6097|
+|topic                 |     21970|   7065|
+|latitude              |     44951|    133|
+|longitude             |     44951|    133|
+|paper.consumption.km2 |     48061|   2822|
+|width                 |     48096|     52|
+|height                |     48096|     47|
+|area                  |     48096|    299|
+|pages_per_part        |     48110|    888|
+|publication_country   |     48293|     32|
+|pagecount.orig        |     48682|    941|
+|publisher             |     49372|  22261|
+|publication_decade    |     49690|     39|
+|publication_year      |     49754|    312|
+|publication_place     |     49755|    412|
+|volcount              |     50127|    109|
+|pagecount             |     50238|    999|
+|language              |     50276|     21|
+|row.index             |     50283|  50283|
+|original_row          |     50283|  50283|
+|title                 |     50283|  41294|
+|gatherings            |     50283|     16|
+|obl                   |     50283|      2|
+|unity                 |     50283|      1|
+|author_unique         |     50283|   6754|
 
 
 ## Topics
@@ -690,7 +690,7 @@ Paper consumption
 
 ### Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 92.6% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication countries](output.tables/country_accepted.csv)
 
@@ -758,7 +758,7 @@ The 20 most common publishers are shown with the number of documents. Publisher 
 
 ### Publication year
 
-Publication year is available for 49663 documents (99%). The publication years span 0-1799
+Publication year is available for 49754 documents (99%). The publication years span 4-1799
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
 
@@ -787,7 +787,7 @@ Top-20 titles are shown together with the number of documents. This info is avai
 
 ## Language
 
-The 21 unique languages are shown together with the number of documents. This info is available for 50280 documents (100%). 
+The 21 unique languages are shown together with the number of documents. This info is available for 50276 documents (100%). 
 
 ![plot of chunk summarylang](figure/summarylang-1.png) 
 
@@ -808,7 +808,7 @@ The 21 unique languages are shown together with the number of documents. This in
 [Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversions.csv)
 
 
-Document size (area) info in cm2 is available for 0 documents (NaN%). Estimates of document size (area) info in gatherings system are available for 50287 documents (100%). 
+Document size (area) info in cm2 is available for 0 documents (NaN%). Estimates of document size (area) info in gatherings system are available for 50283 documents (100%). 
 
 ![plot of chunk summarysize](figure/summarysize-1.png) 
 
@@ -846,7 +846,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 
 
 
-Compare gatherings and page counts. Page count information is estimated for -1553 documents and updated (changed) for 1094 documents. 
+Compare gatherings and page counts. Page count information is estimated for -1556 documents and updated (changed) for 1095 documents. 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
 
@@ -890,10 +890,10 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
 |1to           |             2.481936|                      2|        4249|                  NA|                    NA|         NA|         10.43590|                  8|      39|
 |2long         |             7.714286|                      5|           8|                  NA|                    NA|         NA|         23.00000|                 23|       1|
-|2fo           |            61.798621|                      4|       11535|            724.6260|              716.0000|         46|         16.84833|                 12|    1945|
+|2fo           |            61.802493|                      4|       11534|            724.6260|              716.0000|         46|         16.84774|                 12|    1944|
 |4long         |             5.000000|                      5|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |4to           |            43.774757|                     12|       16528|            411.6667|              439.0000|         27|         15.87012|                  8|   12188|
-|8vo           |           143.422531|                     68|       11602|            406.3343|              413.3333|        181|         28.46812|                 28|    3811|
+|8vo           |           143.424518|                     68|       11600|            406.3343|              413.3333|        181|         28.46812|                 28|    3811|
 |12long        |            67.000000|                     50|          10|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
 |12mo          |           184.095636|                    162|        3023|            260.5657|              211.0000|         47|         26.31478|                 24|     521|
 |16mo          |           163.645570|                    116|          81|                  NA|                    NA|         NA|         30.46154|                 24|      13|
@@ -903,7 +903,7 @@ Multi-volume documents average page counts are given per volume.
 |32mo          |           179.333333|                    193|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |48mo          |           128.000000|                    128|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|NA            |            14.106112|                      2|        3005|                  NA|                    NA|         NA|         18.94307|                 15|     404|
+|NA            |            14.094726|                      2|        3004|                  NA|                    NA|         NA|         18.87097|                 15|     403|
 
 
 
@@ -1009,21 +1009,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart42c03edd7b63&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart53663c6fc636&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart42c03edd7b63()
+      drawchart53663c6fc636()
     });
-    function drawchart42c03edd7b63(){  
+    function drawchart53663c6fc636(){  
       var opts = {
- &quot;dom&quot;: &quot;chart42c03edd7b63&quot;,
+ &quot;dom&quot;: &quot;chart53663c6fc636&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart42c03edd7b63&quot; 
+&quot;id&quot;: &quot;chart53663c6fc636&quot; 
 },
         data = [
  {
@@ -1174,7 +1174,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart42c03edd7b63'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart53663c6fc636'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
