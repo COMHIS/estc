@@ -69,6 +69,10 @@ df$author_death <- tmp$till
 print("Publication year")
 tab <- polish_years(df.orig$publication_time, check = TRUE)
 df$publication_year <- tab$from
+# If from year not available, then use till year
+inds <- which(is.na(df$publication_year))
+df$publication_year[inds] <- tab$till[inds]
+
 df$publication_year[df$publication_year > 2000] <- NA
 
 # Conversion statistics in a file

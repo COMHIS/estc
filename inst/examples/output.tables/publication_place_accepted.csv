@@ -1,8 +1,8 @@
 Name	Count
-Total count: 	n=49755 (100% non-NA values)
-London	34969
+Total count: 	n=49783 (100% non-NA values)
+London	34971
 Dublin	 3302
-Edinburgh	 2453
+Edinburgh	 2452
 Philadelphia PA	 1298
 Boston	 1074
 Oxford	  920
@@ -21,12 +21,12 @@ Newcastle	   94
 Aberdeen	   92
 Watertown MA	   86
 Cork	   86
+Charleston SC	   79
 Newport RI	   76
 United States	   73
 The Hague	   73
 New London CT	   69
-Charleston SC	   68
-Baltimore Md	   67
+Baltimore Md	   66
 Exeter	   65
 Lancaster PA	   61
 Bath	   58
@@ -59,6 +59,7 @@ Kilkenny	   25
 Richmond	   23
 Chester	   23
 Perth	   22
+Fishkill NY	   22
 Burlington NJ	   20
 Waterford	   19
 Rotterdam	   19
@@ -67,14 +68,14 @@ Middelburg	   18
 Hamburg	   18
 Worcester	   17
 Sherborne	   17
+Poughkeepsie NY	   17
 Kingston Jamaica	   17
-Fishkill NY	   17
-Wilmington De	   16
-Poughkeepsie NY	   16
 New Orleans La	   16
 Hull	   16
 York PA	   15
+Wilmington De	   15
 Savannah Ga	   15
+New Bern NC	   15
 St Omer	   14
 Sheffield	   14
 Limerick	   14
@@ -158,6 +159,7 @@ St Andrews	    4
 Rutland Vt	    4
 Roseau Dominica	    4
 Portland Me	    4
+Newburgh NY	    4
 Louvain	    4
 Lexington Ky	    4
 Leominster MA	    4
@@ -183,7 +185,6 @@ Strasbourg	    3
 St Pierre Martinique	    3
 St Augustine Fl	    3
 Pointe-A-Pitre	    3
-Northampton MA	    3
 New Bedford MA	    3
 Maidstone	    3
 Macclesfield	    3
@@ -210,6 +211,7 @@ Banbury	    3
 Wisbech	    2
 Winterthur	    2
 Wilmington NC	    2
+Washington DC	    2
 Vienna	    2
 Vevey	    2
 Sudbury	    2
@@ -218,7 +220,6 @@ Staunton VA	    2
 Stafford	    2
 St Ives	    2
 Springfield MA	    2
-Sligo	    2
 Shepherdstown VA	    2
 Schenectady NY	    2
 Regensburg	    2
@@ -228,11 +229,10 @@ Port-au-Prince	    2
 Poole	    2
 Petersburg VA	    2
 Peterborough	    2
+Northampton MA	    2
 Newry	    2
 Newbury Vt	    2
 Newbury MA	    2
-Newburgh NY	    2
-New Bern NC	    2
 Montrose	    2
 Montego Bay	    2
 Mechelen	    2
@@ -275,7 +275,6 @@ Wigan	    1
 Weymouth	    1
 Wexford	    1
 West Springfield MA	    1
-Washington DC	    1
 Warwick	    1
 Waltham	    1
 Walsall	    1
@@ -285,13 +284,13 @@ Trevoux	    1
 Trefeca	    1
 Stockton	    1
 St Marys Md	    1
-St John New Brunswick	    1
 St Helier	    1
 St Germans	    1
 St Eustatius	    1
 St Albans	    1
 Spanish Town Jamaica	    1
 South Shields	    1
+Sligo	    1
 Siena	    1
 Shiffnal	    1
 Shelburne Nova Scotia	    1
@@ -304,7 +303,6 @@ Salamanca	    1
 Saarbrucken	    1
 Roscrea	    1
 Romsey	    1
-Rome NY	    1
 Rome	    1
 Rodborough	    1
 Rochdale	    1
@@ -366,7 +364,6 @@ Elizabethtown Md	    1
 Elizabeth NJ	    1
 Egham	    1
 Easton Md	    1
-East Molesey	    1
 Dunbar	    1
 Dresden	    1
 Dorchester	    1
@@ -376,6 +373,7 @@ Dedham MA	    1
 Daventry	    1
 Danbury CT	    1
 Concord MA	    1
+Cincinnati OH	    1
 Chesire CT	    1
 Chatham	    1
 Charlottesville VA	    1
