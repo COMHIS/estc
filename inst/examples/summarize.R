@@ -10,7 +10,7 @@ print("Print summary tables of page count and volume count conversions")
 source("summarize.page.conversions.R")
 
 print("Write summaries of field entries and count stats for all fields")
-for (field in setdiff(names(df), c("row.index", "latitude", "longitude", "page", "item", "parts", "pages_per_part", "paper.consumption.km2", "publication_decade", "publication_year", "publisher.printedfor", "unity", "pagecount.orig", "pagecount", "original_row"))) {
+for (field in setdiff(names(df), c("row.index", "latitude", "longitude", "page", "item", "paper.consumption.km2", "publication_decade", "publication_year", "publisher.printedfor", "unity", "pagecount.orig", "pagecount", "original_row"))) {
 
   print(field)
 

@@ -3,7 +3,7 @@ tab <- cbind(
 	     #pages.parts = df$document.pages.parts, 
 	     pages.total = df$pagecount,
 	     volumes = as.character(df$volcount), 
-             parts = as.character(df$parts),
+             # parts = as.character(df$parts),
 	     gatherings = as.character(df$gatherings),
 	     pages.original = as.character(df.orig$physical_extent),
 	     dimensions.original = as.character(df.orig$physical_dimension)	     
@@ -21,7 +21,7 @@ tmp <- write_xtable(tab, paste(output.folder, "page_conversion_table_brief.csv",
 print("Summarize item counts")
 tab <- cbind(
 	     volumes = df$volcount, 
-             parts = df$parts, 
+             # parts = df$parts, 
              # items = df$document.items, 
 	     pages.original = as.character(df.orig$physical_extent)
 	     )

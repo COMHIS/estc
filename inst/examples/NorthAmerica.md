@@ -44,14 +44,6 @@ p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
 
-```
-## Warning: Removed 1 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (geom_path).
-```
-
 ![plot of chunk NAtopauth](figure/NAtopauth-1.png) 
 
 
@@ -70,14 +62,6 @@ p <- top_plot(df, "publication.title", 20)
 p <- p + ggtitle(paste("Most common titles from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
-```
-
-```
-## Warning: Removed 1 rows containing missing values (geom_point).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (geom_path).
 ```
 
 ![plot of chunk NAtoptitles](figure/NAtoptitles-1.png) 

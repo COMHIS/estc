@@ -34,7 +34,7 @@ print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
 # Generic handling + assign to the data matrix
-df$pagecount <- polish_pages(x, verbose = TRUE)$total.pages
+df$pagecount <- polish_pages(x, verbose = TRUE)
 
 print("Publication place")
 df$publication_place <- polish_place(df.orig$publication_place,
@@ -49,8 +49,8 @@ df <- cbind(df, tmp)
 
 print("Estimate number of separate parts in a document")
 # parts, pages_per_part
-tmp <- estimate_document_parts(df.orig)
-df <- cbind(df, tmp)
+# tmp <- estimate_document_parts(df.orig)
+# df <- cbind(df, tmp)
 
 print("Publisher")
 pub <- polish_publisher(df.orig$publisher)

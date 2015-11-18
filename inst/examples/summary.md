@@ -33,28 +33,26 @@ Number of documents with NA entries and number of unique entries for each field:
 
 |                      | available| unique|
 |:---------------------|---------:|------:|
-|parts                 |         0|      1|
 |volnumber             |       156|     15|
-|author_birth          |     15337|    350|
+|author_birth          |     15338|    351|
 |author_death          |     15953|    370|
 |author_gender         |     16899|      3|
 |author_name           |     18231|   6097|
 |topic                 |     21965|   7065|
 |latitude              |     44951|    133|
 |longitude             |     44951|    133|
-|paper.consumption.km2 |     48055|   2843|
-|width                 |     48090|     52|
-|height                |     48090|     47|
-|area                  |     48090|    299|
-|pages_per_part        |     48105|    894|
-|publication_country   |     48292|     32|
-|pagecount.orig        |     48677|    949|
+|paper.consumption.km2 |     48056|   2816|
+|width                 |     48091|     52|
+|height                |     48091|     47|
+|area                  |     48091|    299|
+|publication_country   |     48291|     32|
+|pagecount.orig        |     48677|    939|
 |publisher             |     49366|  22256|
-|publication_decade    |     49756|     47|
-|publication_place     |     49784|    410|
-|publication_year      |     49802|    333|
+|publication_place     |     49784|    411|
+|publication_decade    |     49888|     43|
+|publication_year      |     49913|    327|
 |volcount              |     50121|    109|
-|pagecount             |     50232|   1007|
+|pagecount             |     50232|    998|
 |language              |     50270|     21|
 |row.index             |     50277|  50277|
 |original_row          |     50277|  50277|
@@ -62,7 +60,7 @@ Number of documents with NA entries and number of unique entries for each field:
 |gatherings            |     50277|     16|
 |obl                   |     50277|      2|
 |unity                 |     50277|      1|
-|author_unique         |     50277|   6755|
+|author_unique         |     50277|   6756|
 
 
 ## Topics
@@ -758,7 +756,7 @@ The 20 most common publishers are shown with the number of documents. Publisher 
 
 ### Publication year
 
-Publication year is available for 49802 documents (99%). The publication years span 0-1799
+Publication year is available for 49913 documents (99%). The publication years span 0-1799
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
 
@@ -846,7 +844,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 
 
 
-Compare gatherings and page counts. Page count information is estimated for -1555 documents and updated (changed) for 1095 documents. 
+Compare gatherings and page counts. Page count information is estimated for -1555 documents and updated (changed) for 1093 documents. 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
 
@@ -866,7 +864,7 @@ Compare original gatherings and original heights where both are available. The p
 ```
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, "gathering.height.estimate", value = numeric(0)): replacement has 0 rows, data has 30
+## Error in `$<-.data.frame`(`*tmp*`, "gathering.height.estimate", value = numeric(0)): replacement has 0 rows, data has 28
 ```
 
 ```
@@ -890,20 +888,20 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
 |1to           |             2.481936|                      2|        4249|                  NA|                    NA|         NA|         10.43590|                  8|      39|
 |2long         |             7.714286|                      5|           8|                  NA|                    NA|         NA|         23.00000|                 23|       1|
-|2fo           |            62.782190|                      4|       11531|            724.3333|              716.0000|         46|         16.86164|                 12|    1937|
+|2fo           |            61.819404|                      4|       11532|            724.6260|              716.0000|         46|         16.83934|                 12|    1942|
 |4long         |             5.000000|                      5|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4to           |            43.958261|                     12|       16528|            427.0000|              439.0000|         27|         15.87080|                  8|   12183|
-|8vo           |           144.038108|                     68|       11599|            408.0843|              420.3333|        181|         28.46889|                 28|    3809|
+|4to           |            43.761757|                     12|       16528|            412.8611|              439.0000|         27|         15.87323|                  8|   12187|
+|8vo           |           143.591194|                     68|       11599|            406.7586|              413.3333|        181|         28.46772|                 28|    3810|
 |12long        |            67.000000|                     50|          10|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
-|12mo          |           184.286286|                    162|        3021|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
+|12mo          |           184.148054|                    162|        3021|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
 |16mo          |           163.645570|                    116|          81|                  NA|                    NA|         NA|         30.46154|                 24|      13|
 |18mo          |           177.575758|                    158|          33|            172.0000|              172.0000|          1|         41.00000|                 41|       2|
 |24long        |           244.000000|                    244|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |24mo          |           193.525000|                    181|          43|                  NA|                    NA|          2|         23.27273|                 24|      11|
-|32mo          |           179.333333|                    193|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|32mo          |           182.000000|                    193|           6|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |48mo          |           128.000000|                    128|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|NA            |            14.196507|                      2|        3004|                  NA|                    NA|         NA|         18.92556|                 15|     403|
+|NA            |            14.083557|                      2|        3003|                  NA|                    NA|         NA|         18.87593|                 15|     403|
 
 
 
@@ -1009,21 +1007,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart71851f653525&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart2b6231754267&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart71851f653525()
+      drawchart2b6231754267()
     });
-    function drawchart71851f653525(){  
+    function drawchart2b6231754267(){  
       var opts = {
- &quot;dom&quot;: &quot;chart71851f653525&quot;,
+ &quot;dom&quot;: &quot;chart2b6231754267&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart71851f653525&quot; 
+&quot;id&quot;: &quot;chart2b6231754267&quot; 
 },
         data = [
  {
@@ -1174,7 +1172,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart71851f653525'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart2b6231754267'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
