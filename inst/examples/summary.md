@@ -14,9 +14,6 @@ This document links to files that summarize the conversions from raw data to the
 
 
 
-```
-## Error in `$<-.data.frame`(`*tmp*`, "gatherings.original", value = structure(integer(0), .Label = c("1to", : replacement has 0 rows, data has 50277
-```
 
 
 
@@ -138,11 +135,15 @@ Should also add living year information from supporting sources later.
 ```
 
 ```
-## Error in split.default(dfs$author.birth, dfs$author.name): first argument must be a vector
+## Error in split(dfs$author.birth, dfs$author.name): object 'dfs' not found
 ```
 
 ```
-## Error in split.default(dfs$author.death, dfs$author.name): first argument must be a vector
+## Error in lapply(births[names(which(sapply(births, function(x) {: object 'births' not found
+```
+
+```
+## Error in split(dfs$author.death, dfs$author.name): object 'dfs' not found
 ```
 
 ```
@@ -150,404 +151,24 @@ Should also add living year information from supporting sources later.
 ```
 
 ```
-## Error in match(x, table, nomatch = 0L): object 'author.name' not found
+## Error in subset(dfs, author.name %in% union(names(many.births), names(many.deaths))): object 'dfs' not found
 ```
 
 ```
-## Error in `[.data.frame`(dfs, , c("author.name", "author.birth", "author.death")): undefined columns selected
+## Error in eval(expr, envir, enclos): object 'dfs' not found
 ```
 
 ```
-## Error in order(dfs$author.name): argument 1 is not a vector
+## Error in eval(expr, envir, enclos): object 'dfs' not found
 ```
 
+```
+## Error in eval(expr, envir, enclos): object 'dfs' not found
+```
 
-
-|     |author_name                                          |author_birth |author_death |
-|:----|:----------------------------------------------------|:------------|:------------|
-|1    |Adams, John                                          |1735         |1826         |
-|5    |Adams, John                                          |1750         |1814         |
-|8    |Allen, John                                          |1741         |1774         |
-|15   |Allen, John                                          |1763         |1812         |
-|16   |Allen, John                                          |NA           |NA           |
-|17   |Anderson, James                                      |1589         |NA           |
-|18   |Anderson, James                                      |1662         |1728         |
-|20   |Anderson, James                                      |1680         |1739         |
-|33   |Anderson, James                                      |1739         |1808         |
-|38   |Antraigues, Emmanuel-louis-henri-alexandre De Launay |1753         |1812         |
-|39   |Antraigues, Emmanuel-louis-henri-alexandre De Launay |1754         |1812         |
-|41   |Argyll, Archibald Campbell                           |1598         |1661         |
-|57   |Argyll, Archibald Campbell                           |1629         |1685         |
-|58   |Atholl, John Murray                                  |1660         |1724         |
-|60   |Atholl, John Murray                                  |1729         |1774         |
-|61   |Brown, Andrew                                        |1679         |1706         |
-|62   |Brown, Andrew                                        |1744         |1797         |
-|63   |Brown, Andrew                                        |1763         |1834         |
-|64   |Brown, John                                          |1610         |1679         |
-|66   |Brown, John                                          |1715         |1766         |
-|69   |Brown, John                                          |1722         |1787         |
-|73   |Brown, John                                          |1735         |1788         |
-|74   |Brown, John                                          |NA           |NA           |
-|75   |Brown, Thomas                                        |1663         |1704         |
-|80   |Brown, Thomas                                        |1740         |NA           |
-|83   |Browne, John                                         |1580         |1659         |
-|84   |Browne, John                                         |1642         |1700         |
-|85   |Browne, John                                         |NA           |NA           |
-|88   |Browne, Thomas                                       |1604         |1673         |
-|89   |Browne, Thomas                                       |1605         |1682         |
-|90   |Browne, Thomas                                       |1654         |1741         |
-|91   |Browne, Thomas                                       |NA           |NA           |
-|92   |Buckingham, George Villiers                          |1592         |1628         |
-|93   |Buckingham, George Villiers                          |1628         |1687         |
-|100  |Burnet, Gilbert                                      |1643         |1715         |
-|197  |Burnet, Gilbert                                      |1690         |1726         |
-|201  |Burnet, Thomas                                       |1635         |1715         |
-|202  |Burnet, Thomas                                       |1694         |1753         |
-|211  |Burney, Charles                                      |1726         |1814         |
-|215  |Burney, Charles                                      |1757         |1817         |
-|216  |Calamy, Edmund                                       |1600         |1666         |
-|226  |Calamy, Edmund                                       |1671         |1732         |
-|233  |Camm, John                                           |1604         |1656         |
-|234  |Camm, John                                           |1779         |NA           |
-|237  |Cellier, Elizabeth                                   |1650         |NA           |
-|238  |Cellier, Elizabeth                                   |1680         |NA           |
-|240  |Chaloner, Thomas                                     |1521         |1565         |
-|242  |Chaloner, Thomas                                     |1595         |1661         |
-|244  |Checkley, Samuel                                     |1696         |1769         |
-|245  |Checkley, Samuel                                     |1723         |1768         |
-|246  |Church, Benjamin                                     |1639         |1718         |
-|247  |Church, Benjamin                                     |1734         |1778         |
-|255  |Clarke, John                                         |1596         |1658         |
-|257  |Clarke, John                                         |1609         |1676         |
-|259  |Clarke, John                                         |1755         |1798         |
-|269  |Clarke, John                                         |1791         |NA           |
-|270  |Clarke, Samuel                                       |1599         |1682         |
-|285  |Clarke, Samuel                                       |1675         |1729         |
-|288  |Clarke, Samuel                                       |1721         |NA           |
-|293  |Clarke, William                                      |1696         |1771         |
-|295  |Clarke, William                                      |1709         |1760         |
-|297  |Cooke, Edward                                        |1658         |1670         |
-|298  |Cooke, Edward                                        |1755         |1820         |
-|310  |Cooke, Edward                                        |NA           |1684         |
-|311  |Cooke, Edward                                        |NA           |NA           |
-|314  |Cotton, John                                         |1584         |1652         |
-|322  |Cotton, John                                         |1640         |1699         |
-|324  |Cotton, John                                         |1712         |1789         |
-|327  |Cox, Richard                                         |1650         |1733         |
-|332  |Cox, Richard                                         |1702         |1766         |
-|335  |Dauncey, John                                        |1633         |NA           |
-|336  |Dauncey, John                                        |1663         |NA           |
-|341  |Davies, John                                         |1569         |1626         |
-|353  |Davies, John                                         |1625         |1693         |
-|357  |Dickinson, Jonathan                                  |1663         |1722         |
-|358  |Dickinson, Jonathan                                  |1688         |1747         |
-|366  |Disney, John                                         |1677         |1730         |
-|367  |Disney, John                                         |1746         |1816         |
-|368  |Downes, John                                         |1661         |1719         |
-|369  |Downes, John                                         |1666         |NA           |
-|370  |Downes, John                                         |1691         |1760         |
-|372  |Edwards, Thomas                                      |1599         |1647         |
-|383  |Edwards, Thomas                                      |1693         |1699         |
-|384  |Edwards, Thomas                                      |1699         |1757         |
-|387  |Edwards, Thomas                                      |1729         |1785         |
-|388  |Edwards, Thomas                                      |1776         |1810         |
-|389  |Elder, John                                          |1555         |NA           |
-|391  |Elder, John                                          |1692         |1779         |
-|392  |Eliot, John                                          |1592         |1632         |
-|393  |Eliot, John                                          |1604         |1690         |
-|399  |Ellis, John                                          |1606         |1681         |
-|400  |Ellis, John                                          |1689         |1768         |
-|402  |Ellis, John                                          |1710         |1776         |
-|403  |Essex, Robert Devereux                               |1566         |1601         |
-|407  |Essex, Robert Devereux                               |1591         |1646         |
-|430  |Evelyn, John                                         |1620         |1706         |
-|439  |Evelyn, John                                         |1655         |1699         |
-|440  |Fitch, John                                          |1698         |NA           |
-|441  |Fitch, John                                          |1743         |1798         |
-|444  |Fleetwood, William                                   |1535         |1594         |
-|445  |Fleetwood, William                                   |1656         |1723         |
-|454  |Fleming, Robert                                      |1630         |1694         |
-|456  |Fleming, Robert                                      |1660         |1716         |
-|461  |Forbes, Duncan                                       |1644         |1704         |
-|463  |Forbes, Duncan                                       |1685         |1747         |
-|468  |Foulis, Henry                                        |1608         |1643         |
-|469  |Foulis, Henry                                        |1635         |1669         |
-|471  |Fox, William                                         |1736         |1826         |
-|472  |Fox, William                                         |1791         |1813         |
-|497  |Fox, William                                         |NA           |NA           |
-|498  |Gage, Thomas                                         |1603         |1656         |
-|499  |Gage, Thomas                                         |1721         |1787         |
-|502  |Gerbier, Balthazar                                   |1562         |1667         |
-|503  |Gerbier, Balthazar                                   |1592         |1667         |
-|509  |Gilbert, Thomas                                      |1613         |1694         |
-|511  |Gilbert, Thomas                                      |1720         |1798         |
-|513  |Goodwin, Thomas                                      |1587         |1642         |
-|516  |Goodwin, Thomas                                      |1600         |1680         |
-|518  |Goodwin, Thomas                                      |1650         |1716         |
-|519  |Gordon, Alexander                                    |1669         |1752         |
-|520  |Gordon, Alexander                                    |1692         |1754         |
-|522  |Gordon, John                                         |1544         |1619         |
-|523  |Gordon, John                                         |1715         |1775         |
-|524  |Gordon, John                                         |1717         |1790         |
-|525  |Gordon, John                                         |NA           |NA           |
-|526  |Greene, Robert                                       |1558         |1592         |
-|528  |Greene, Robert                                       |1678         |1730         |
-|529  |Hales, Edward                                        |1576         |1654         |
-|530  |Hales, Edward                                        |1670         |1690         |
-|531  |Hamilton, Charles                                    |1738         |1800         |
-|532  |Hamilton, Charles                                    |1753         |1792         |
-|533  |Hamilton, William                                    |1616         |1651         |
-|535  |Hamilton, William                                    |1730         |1803         |
-|536  |Hamilton, William                                    |NA           |NA           |
-|537  |Harrington, James                                    |1611         |1677         |
-|539  |Harrington, James                                    |1664         |1693         |
-|541  |Harris, John                                         |1647         |NA           |
-|542  |Harris, John                                         |1667         |1719         |
-|547  |Harris, John                                         |1670         |NA           |
-|548  |Harris, John                                         |1680         |1738         |
-|549  |Harris, John                                         |1690         |NA           |
-|551  |Harris, John                                         |NA           |NA           |
-|556  |Hartley, David                                       |1705         |1757         |
-|558  |Hartley, David                                       |1731         |1813         |
-|570  |Herbert Of Cherbury, Edward                          |1583         |1648         |
-|581  |Herbert Of Cherbury, Edward                          |1633         |1678         |
-|582  |Hollingworth, Richard                                |1607         |1656         |
-|584  |Hollingworth, Richard                                |1639         |1701         |
-|585  |Hume, David                                          |1560         |1630         |
-|591  |Hume, David                                          |1711         |1776         |
-|653  |Humphreys, David                                     |1689         |1740         |
-|654  |Humphreys, David                                     |1752         |1818         |
-|663  |Hurrion, John                                        |1676         |1731         |
-|664  |Hurrion, John                                        |1705         |1750         |
-|665  |Hutchinson, William                                  |1676         |1679         |
-|666  |Hutchinson, William                                  |1732         |1814         |
-|670  |Jackson, John                                        |1651         |1657         |
-|671  |Jackson, John                                        |1686         |1763         |
-|672  |Jackson, John                                        |1742         |NA           |
-|675  |Jackson, John                                        |1795         |1810         |
-|677  |Jackson, William                                     |1730         |1803         |
-|680  |Jackson, William                                     |1737         |1795         |
-|681  |Jenkins, Joseph                                      |1702         |1736         |
-|682  |Jenkins, Joseph                                      |1743         |1819         |
-|683  |Johnson, R                                           |1734         |1793         |
-|704  |Johnson, R                                           |1772         |NA           |
-|705  |Johnson, Samuel                                      |1649         |1703         |
-|713  |Johnson, Samuel                                      |1696         |1772         |
-|714  |Johnson, Samuel                                      |1709         |1784         |
-|722  |Johnson, William                                     |1715         |1774         |
-|724  |Johnson, William                                     |1760         |1845         |
-|731  |Johnson, William                                     |NA           |NA           |
-|732  |Johnston, James                                      |1643         |1737         |
-|733  |Johnston, James                                      |1655         |1737         |
-|734  |Jones, David                                         |1676         |1720         |
-|735  |Jones, David                                         |1736         |1820         |
-|736  |Jones, Edward                                        |1752         |1824         |
-|737  |Jones, Edward                                        |1771         |1831         |
-|738  |Jones, John                                          |1645         |1709         |
-|741  |Jones, John                                          |1700         |1770         |
-|742  |Jones, John                                          |1786         |1827         |
-|746  |Jones, William                                       |1631         |1682         |
-|747  |Jones, William                                       |1726         |1800         |
-|761  |Jones, William                                       |1746         |1794         |
-|764  |Jones, William                                       |NA           |NA           |
-|766  |King, William                                        |1650         |1729         |
-|776  |King, William                                        |1663         |1712         |
-|782  |King, William                                        |1685         |1763         |
-|785  |Knox, John                                           |1514         |1572         |
-|792  |Knox, John                                           |1720         |1790         |
-|793  |Knox, John                                           |NA           |1778         |
-|794  |L'estrange, Hamon                                    |1583         |1654         |
-|795  |L'estrange, Hamon                                    |1605         |1660         |
-|799  |Langbaine, Gerard                                    |1609         |1658         |
-|804  |Langbaine, Gerard                                    |1656         |1692         |
-|806  |Leland, John                                         |1691         |1766         |
-|816  |Leland, John                                         |1754         |1841         |
-|820  |Littleton, Edward                                    |1589         |1645         |
-|823  |Littleton, Edward                                    |1626         |NA           |
-|828  |Marsh, Henry                                         |1663         |1664         |
-|833  |Marsh, Henry                                         |1720         |NA           |
-|834  |Mason, William                                       |1672         |1709         |
-|837  |Mason, William                                       |1719         |1791         |
-|839  |Mason, William                                       |1725         |1797         |
-|840  |May, Thomas                                          |1595         |1650         |
-|861  |May, Thomas                                          |1645         |1718         |
-|867  |Maynard, John                                        |1592         |1658         |
-|868  |Maynard, John                                        |1602         |1690         |
-|873  |Melville, James                                      |1535         |1617         |
-|877  |Melville, James                                      |1556         |1614         |
-|878  |Middleton, John                                      |1619         |1674         |
-|879  |Middleton, John                                      |1680         |1744         |
-|880  |Morgan, J                                            |1739         |NA           |
-|883  |Morgan, J                                            |1752         |NA           |
-|884  |Norton, John                                         |1606         |1663         |
-|885  |Norton, John                                         |1715         |1778         |
-|886  |Ormonde, James Butler                                |1610         |1688         |
-|902  |Ormonde, James Butler                                |1665         |1745         |
-|905  |Owen, John                                           |1616         |1683         |
-|909  |Owen, John                                           |1766         |1822         |
-|910  |Owen, John                                           |NA           |NA           |
-|911  |Parkinson, James                                     |1653         |1722         |
-|912  |Parkinson, James                                     |1755         |1824         |
-|914  |Patten, William                                      |1548         |1580         |
-|915  |Patten, William                                      |1763         |1839         |
-|916  |Pemberton, Israel                                    |1685         |1754         |
-|917  |Pemberton, Israel                                    |1715         |1779         |
-|918  |Penn, William                                        |1644         |1718         |
-|948  |Penn, William                                        |1776         |1845         |
-|949  |Phillips, John                                       |1570         |1591         |
-|950  |Phillips, John                                       |1631         |1706         |
-|959  |Pitt, William                                        |1708         |1778         |
-|967  |Pitt, William                                        |1759         |1806         |
-|971  |Poyntz, John                                         |1606         |NA           |
-|973  |Poyntz, John                                         |1647         |1650         |
-|975  |Preston, Thomas                                      |1537         |1598         |
-|976  |Preston, Thomas                                      |1563         |1640         |
-|977  |Preston, William                                     |1742         |1818         |
-|980  |Preston, William                                     |1753         |1807         |
-|985  |Price, John                                          |1502         |1555         |
-|987  |Price, John                                          |1625         |1691         |
-|989  |Price, John                                          |NA           |NA           |
-|1003 |Prynne, William                                      |1600         |1669         |
-|1143 |Prynne, William                                      |1660         |1669         |
-|1144 |Richards, George                                     |1755         |1814         |
-|1145 |Richards, George                                     |1767         |1837         |
-|1146 |Richardson, William                                  |1743         |1814         |
-|1148 |Richardson, William                                  |1778         |1815         |
-|1149 |Roberts, John                                        |1712         |1772         |
-|1150 |Roberts, John                                        |1785         |NA           |
-|1151 |Roberts, William                                     |1673         |NA           |
-|1152 |Roberts, William                                     |1763         |NA           |
-|1153 |Robertson, William                                   |1721         |1793         |
-|1226 |Robertson, William                                   |1740         |1803         |
-|1228 |Robinson, John                                       |1650         |1723         |
-|1232 |Robinson, John                                       |1672         |NA           |
-|1233 |Robinson, John                                       |NA           |NA           |
-|1235 |Rogers, John                                         |1560         |1580         |
-|1238 |Rogers, John                                         |1627         |1665         |
-|1246 |Rogers, John                                         |1679         |1729         |
-|1248 |Ross, Alexander                                      |1591         |1654         |
-|1249 |Ross, Alexander                                      |1647         |1720         |
-|1250 |Ross, Alexander                                      |NA           |NA           |
-|1251 |Ruggles, Thomas                                      |1704         |1770         |
-|1252 |Ruggles, Thomas                                      |1737         |1813         |
-|1253 |Russell, William                                     |1639         |1683         |
-|1256 |Russell, William                                     |1741         |1793         |
-|1266 |Ryland, John                                         |1723         |1792         |
-|1267 |Ryland, John                                         |1753         |1825         |
-|1268 |Salmon, Thomas                                       |1648         |1706         |
-|1271 |Salmon, Thomas                                       |1679         |1767         |
-|1282 |Sclater, William                                     |1575         |1626         |
-|1283 |Sclater, William                                     |1609         |1661         |
-|1284 |Sclater, William                                     |1638         |1717         |
-|1285 |Scott, John                                          |1639         |1695         |
-|1286 |Scott, John                                          |1730         |1783         |
-|1287 |Sewell, John                                         |1734         |1802         |
-|1289 |Sewell, John                                         |1793         |NA           |
-|1290 |Shaw, John                                           |1559         |1625         |
-|1292 |Shaw, John                                           |1614         |1689         |
-|1293 |Sheridan, Thomas                                     |1646         |1688         |
-|1294 |Sheridan, Thomas                                     |1719         |1788         |
-|1295 |Shirley, William                                     |1694         |1771         |
-|1300 |Shirley, William                                     |1739         |1780         |
-|1301 |Skinner, John                                        |1624         |NA           |
-|1307 |Skinner, John                                        |1721         |1807         |
-|1309 |Smith, Charles                                       |1715         |1762         |
-|1318 |Smith, Charles                                       |1768         |1808         |
-|1319 |Smith, George                                        |1603         |1658         |
-|1326 |Smith, George                                        |1693         |1756         |
-|1328 |Smith, George                                        |NA           |NA           |
-|1329 |Smith, John                                          |1580         |1631         |
-|1343 |Smith, John                                          |1700         |NA           |
-|1344 |Smith, John                                          |NA           |NA           |
-|1348 |Smith, Samuel                                        |1620         |1698         |
-|1349 |Smith, Samuel                                        |1720         |1776         |
-|1350 |Smith, Samuel                                        |NA           |NA           |
-|1351 |Smith, Thomas                                        |1558         |1625         |
-|1353 |Smith, Thomas                                        |1638         |1710         |
-|1356 |Smith, Thomas                                        |NA           |NA           |
-|1357 |Smith, William                                       |1651         |1735         |
-|1358 |Smith, William                                       |1660         |1686         |
-|1359 |Smith, William                                       |1727         |1803         |
-|1384 |Smith, William                                       |1728         |1793         |
-|1393 |Smith, William                                       |1754         |1821         |
-|1394 |Smith, William                                       |NA           |1673         |
-|1399 |Smith, William                                       |NA           |NA           |
-|1408 |Southwell, Robert                                    |1561         |1595         |
-|1409 |Southwell, Robert                                    |1635         |1702         |
-|1410 |Sower, Christopher                                   |1695         |1758         |
-|1412 |Sower, Christopher                                   |1754         |1799         |
-|1413 |Spanheim, Friedrich                                  |1600         |1649         |
-|1414 |Spanheim, Friedrich                                  |1632         |1701         |
-|1415 |Stennett, Joseph                                     |1663         |1713         |
-|1421 |Stennett, Joseph                                     |1692         |1758         |
-|1422 |Still, John                                          |1761         |1839         |
-|1423 |Still, John                                          |1795         |NA           |
-|1424 |Stoughton, William                                   |1584         |NA           |
-|1426 |Stoughton, William                                   |1632         |1702         |
-|1427 |Stoughton, William                                   |NA           |1718         |
-|1428 |Taylor, John                                         |1580         |1653         |
-|1456 |Taylor, John                                         |1704         |1766         |
-|1457 |Taylor, John                                         |NA           |1808         |
-|1458 |Taylor, John                                         |NA           |NA           |
-|1459 |Thomas, John                                         |1691         |1766         |
-|1460 |Thomas, John                                         |1736         |1769         |
-|1461 |Thomas, John                                         |NA           |NA           |
-|1463 |Trumbull, John                                       |1750         |1831         |
-|1477 |Trumbull, John                                       |1756         |1843         |
-|1478 |Ussher, James                                        |1581         |1656         |
-|1506 |Ussher, James                                        |1720         |1772         |
-|1508 |Vernon, Edward                                       |1669         |1743         |
-|1509 |Vernon, Edward                                       |1684         |1757         |
-|1521 |Wall, John                                           |1588         |1666         |
-|1522 |Wall, John                                           |1620         |1679         |
-|1523 |Waller, Edmund                                       |1606         |1687         |
-|1532 |Waller, Edmund                                       |1699         |1771         |
-|1534 |Watson, John                                         |1597         |1783         |
-|1535 |Watson, John                                         |1725         |1783         |
-|1537 |Watson, Richard                                      |1612         |1685         |
-|1543 |Watson, Richard                                      |1737         |1816         |
-|1593 |Webster, Samuel                                      |1718         |1796         |
-|1595 |Webster, Samuel                                      |1743         |1777         |
-|1596 |Wharton, George                                      |1596         |1672         |
-|1597 |Wharton, George                                      |1617         |1681         |
-|1615 |Wharton, Philip                                      |1613         |1696         |
-|1617 |Wharton, Philip                                      |1698         |1731         |
-|1619 |White, John                                          |1575         |1648         |
-|1620 |White, John                                          |1590         |1645         |
-|1622 |White, John                                          |1685         |1755         |
-|1624 |Whitehead, John                                      |1630         |1696         |
-|1625 |Whitehead, John                                      |1740         |1804         |
-|1626 |Willard, Joseph                                      |1738         |1804         |
-|1627 |Willard, Joseph                                      |1741         |1828         |
-|1628 |Williams, John                                       |1664         |1729         |
-|1636 |Williams, John                                       |1783         |NA           |
-|1637 |Williams, John                                       |NA           |1791         |
-|1638 |Williams, John                                       |NA           |NA           |
-|1639 |Williams, Roger                                      |1540         |1595         |
-|1641 |Williams, Roger                                      |1604         |1683         |
-|1644 |Williams, Roger                                      |NA           |NA           |
-|1645 |Williams, William                                    |1613         |NA           |
-|1646 |Williams, William                                    |1634         |1700         |
-|1649 |Williams, William                                    |1665         |1741         |
-|1650 |Williams, William                                    |1717         |1791         |
-|1651 |Williams, William                                    |1731         |1811         |
-|1652 |Williams, William                                    |NA           |1785         |
-|1653 |Williams, William                                    |NA           |NA           |
-|1654 |Wilson, John                                         |1588         |1667         |
-|1655 |Wilson, John                                         |1626         |1696         |
-|1657 |Wilson, John                                         |1654         |1719         |
-|1658 |Wilson, John                                         |NA           |NA           |
-|1659 |Wilson, William                                      |1690         |1741         |
-|1661 |Wilson, William                                      |1762         |1800         |
-|1662 |Wishart, George                                      |1599         |1671         |
-|1671 |Wishart, George                                      |1703         |1785         |
-|1673 |Wood, William                                        |1629         |1635         |
-|1677 |Wood, William                                        |1688         |NA           |
-|1678 |Wright, Thomas                                       |1707         |1754         |
-|1679 |Wright, Thomas                                       |1758         |1812         |
-|1680 |Wright, Thomas                                       |NA           |NA           |
-|1682 |Young, William                                       |1725         |1788         |
-|1686 |Young, William                                       |1749         |1815         |
+```
+## Error in is.data.frame(x): object 'dfs' not found
+```
 
 
 
@@ -604,7 +225,11 @@ Title count
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'author.unique'
+## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
+```
+
+```
+## Error in ggplot(dfs, aes(x = publication_year, y = ndoc)): object 'dfs' not found
 ```
 
 ```
@@ -628,7 +253,11 @@ Paper consumption
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'author.unique'
+## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
+```
+
+```
+## Error in ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)): object 'dfs' not found
 ```
 
 ```
@@ -646,7 +275,11 @@ Title count
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
+## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
+```
+
+```
+## Error in ggplot(dfs, aes(x = publication_year, y = ndoc)): object 'dfs' not found
 ```
 
 ```
@@ -674,7 +307,11 @@ Paper consumption
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
+## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
+```
+
+```
+## Error in ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)): object 'dfs' not found
 ```
 
 ```
@@ -1007,21 +644,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart2b6231754267&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart148d19e6bf40&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart2b6231754267()
+      drawchart148d19e6bf40()
     });
-    function drawchart2b6231754267(){  
+    function drawchart148d19e6bf40(){  
       var opts = {
- &quot;dom&quot;: &quot;chart2b6231754267&quot;,
+ &quot;dom&quot;: &quot;chart148d19e6bf40&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart2b6231754267&quot; 
+&quot;id&quot;: &quot;chart148d19e6bf40&quot; 
 },
         data = [
  {
@@ -1172,7 +809,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart2b6231754267'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart148d19e6bf40'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

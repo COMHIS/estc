@@ -20,7 +20,6 @@ library(estc)
 df <- read.csv(file = "estc.csv", sep = "|")
 
 # Order the levels where necessary
-df$gatherings.original <- order_gatherings(df$gatherings.original)
 df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
 
