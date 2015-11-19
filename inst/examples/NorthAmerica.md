@@ -81,26 +81,6 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ## Error in tapply(df$unity, list(df$publication.year, df$publication.place), : arguments must have same length
 ```
 
-```
-## Error in publications.annual[is.na(publications.annual)] <- 0: object 'publications.annual' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications.annual' not found
-```
-
-```
-## Error in melt(publications.annual): object 'publications.annual' not found
-```
-
-```
-## Error in names(dfm.annual) <- c("Time", "Place", "Documents"): object 'dfm.annual' not found
-```
-
-```
-## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dfm.annual' not found
-```
-
 ![plot of chunk NApubvols](figure/NApubvols-1.png) 
 
 

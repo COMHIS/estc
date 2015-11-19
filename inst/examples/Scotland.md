@@ -133,15 +133,17 @@ We have 1340 documents from Scotland and 10957 documents from London during 1700
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dfa' not found
+## Warning in min(x, na.rm = na.rm): no non-missing arguments to min;
+## returning Inf
 ```
 
 ```
-## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfa' not found
+## Warning in max(x, na.rm = na.rm): no non-missing arguments to max;
+## returning -Inf
 ```
 
 ```
-## Error in limits(c(...), "x"): object 'lims' not found
+## Error in eval(expr, envir, enclos): unknown column 'publication_year'
 ```
 
 ```
@@ -149,15 +151,11 @@ We have 1340 documents from Scotland and 10957 documents from London during 1700
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dfa' not found
+## Error in eval(expr, envir, enclos): unknown column 'publication_year'
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dfa' not found
-```
-
-```
-## Error in limits(c(...), "x"): object 'lims' not found
+## Error in eval(expr, envir, enclos): unknown column 'publication_year'
 ```
 
 ```

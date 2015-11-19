@@ -135,7 +135,7 @@ Should also add living year information from supporting sources later.
 ```
 
 ```
-## Error in split(dfs$author.birth, dfs$author.name): object 'dfs' not found
+## Error in split.default(dfs$author.birth, dfs$author.name): first argument must be a vector
 ```
 
 ```
@@ -143,7 +143,7 @@ Should also add living year information from supporting sources later.
 ```
 
 ```
-## Error in split(dfs$author.death, dfs$author.name): object 'dfs' not found
+## Error in split.default(dfs$author.death, dfs$author.name): first argument must be a vector
 ```
 
 ```
@@ -151,24 +151,70 @@ Should also add living year information from supporting sources later.
 ```
 
 ```
-## Error in subset(dfs, author.name %in% union(names(many.births), names(many.deaths))): object 'dfs' not found
+## Error in match(x, table, nomatch = 0L): object 'author.name' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dfs' not found
+## Error in `[.data.frame`(dfs, , c("author.name", "author.birth", "author.death")): undefined columns selected
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dfs' not found
+## Error in order(dfs$author.name): argument 1 is not a vector
 ```
 
-```
-## Error in eval(expr, envir, enclos): object 'dfs' not found
-```
 
-```
-## Error in is.data.frame(x): object 'dfs' not found
-```
+
+| Time| date| Edinburgh| varname|
+|----:|----:|---------:|-------:|
+| 1540| 1540|       0.2|     0.2|
+| 1560| 1560|       0.8|     0.8|
+| 1565| 1565|       0.2|     0.2|
+| 1570| 1570|       1.6|     1.6|
+| 1575| 1575|       1.8|     1.8|
+| 1580| 1580|       0.8|     0.8|
+| 1585| 1585|       0.4|     0.4|
+| 1595| 1595|       1.8|     1.8|
+| 1600| 1600|       1.2|     1.2|
+| 1605| 1605|       1.2|     1.2|
+| 1610| 1610|       0.6|     0.6|
+| 1615| 1615|       0.2|     0.2|
+| 1620| 1620|       0.2|     0.2|
+| 1625| 1625|       1.2|     1.2|
+| 1630| 1630|       1.8|     1.8|
+| 1635| 1635|       1.2|     1.2|
+| 1640| 1640|      17.8|    17.8|
+| 1645| 1645|      22.6|    22.6|
+| 1650| 1650|      27.2|    27.2|
+| 1655| 1655|      13.8|    13.8|
+| 1660| 1660|      20.2|    20.2|
+| 1665| 1665|       9.4|     9.4|
+| 1670| 1670|       5.6|     5.6|
+| 1675| 1675|       6.8|     6.8|
+| 1680| 1680|      20.8|    20.8|
+| 1685| 1685|      22.0|    22.0|
+| 1690| 1690|      58.2|    58.2|
+| 1695| 1695|      26.0|    26.0|
+| 1700| 1700|      23.8|    23.8|
+| 1705| 1705|      33.4|    33.4|
+| 1710| 1710|      10.6|    10.6|
+| 1715| 1715|       8.4|     8.4|
+| 1720| 1720|       4.6|     4.6|
+| 1725| 1725|       4.2|     4.2|
+| 1730| 1730|       3.2|     3.2|
+| 1735| 1735|       6.6|     6.6|
+| 1740| 1740|       7.2|     7.2|
+| 1745| 1745|       8.0|     8.0|
+| 1750| 1750|       9.6|     9.6|
+| 1755| 1755|       6.0|     6.0|
+| 1760| 1760|       9.4|     9.4|
+| 1765| 1765|      10.4|    10.4|
+| 1770| 1770|       8.0|     8.0|
+| 1775| 1775|      12.4|    12.4|
+| 1780| 1780|      11.2|    11.2|
+| 1785| 1785|       8.0|     8.0|
+| 1790| 1790|      12.4|    12.4|
+| 1795| 1795|      12.6|    12.6|
+| 1800| 1800|       4.6|     4.6|
 
 
 
@@ -182,31 +228,11 @@ Ordered by productivity (number of documents))
 ```
 
 ```
-## Error in filter_(.data, .dots = lazyeval::lazy_dots(...)): object 'dfa' not found
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dfa' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dfa' not found
-```
-
-```
-## Error in arrange_(.data, .dots = lazyeval::lazy_dots(...)): object 'dfa' not found
-```
-
-```
-## Error in factor(dfa$author.unique, levels = dfa$author.unique): object 'dfa' not found
-```
-
-```
-## Error in nrow(dfa): object 'dfa' not found
-```
-
-```
-## Error in ggplot(dfa): object 'dfa' not found
+## Error in `$<-.data.frame`(`*tmp*`, "index", value = c(1L, 0L)): replacement has 2 rows, data has 0
 ```
 
 ```
@@ -225,11 +251,7 @@ Title count
 ```
 
 ```
-## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
-```
-
-```
-## Error in ggplot(dfs, aes(x = publication_year, y = ndoc)): object 'dfs' not found
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
 ```
 
 ```
@@ -245,19 +267,11 @@ Paper consumption
 ```
 
 ```
-## Error in sort(df2$paper.consumption.km2, decreasing = TRUE): object 'df2' not found
-```
-
-```
 ## Error in eval(expr, envir, enclos): object 'author.unique' not found
 ```
 
 ```
-## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
-```
-
-```
-## Error in ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)): object 'dfs' not found
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
 ```
 
 ```
@@ -275,11 +289,7 @@ Title count
 ```
 
 ```
-## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
-```
-
-```
-## Error in ggplot(dfs, aes(x = publication_year, y = ndoc)): object 'dfs' not found
+## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
 ```
 
 ```
@@ -295,23 +305,11 @@ Paper consumption
 ```
 
 ```
-## Error in order(df2$paper.consumption.km2, decreasing = TRUE): object 'df2' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'df2' not found
-```
-
-```
 ## Error in eval(expr, envir, enclos): object 'publication.publisher' not found
 ```
 
 ```
-## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
-```
-
-```
-## Error in ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)): object 'dfs' not found
+## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
 ```
 
 ```
@@ -451,23 +449,11 @@ Compare gatherings and cm2 sizes as a quality check. This includes all data; the
 
 
 ```
-## Error in eval(expr, envir, enclos): could not find function "melt"
+## Error in data.frame(indices, value = values): arguments imply differing number of rows: 4, 0
 ```
 
 ```
-## Error in names(dfm) <- c("gatherings", "cm2", "documents"): object 'dfm' not found
-```
-
-```
-## Error in factor(dfm$gatherings, levels = levels(df$gatherings.original)): object 'dfm' not found
-```
-
-```
-## Error in ggplot(dfm, aes(x = gatherings, y = cm2)): object 'dfm' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'documents' not found
+## Error in Math.factor(x, base): 'log' not meaningful for factors
 ```
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
@@ -490,18 +476,6 @@ Compare original gatherings and original heights where both are available. The p
 
 ```
 ## Error in eval(expr, envir, enclos): object 'height.original' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'df2' not found
-```
-
-```
-## Error in filter_(.data, .dots = lazyeval::lazy_dots(...)): object 'df2' not found
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "gathering.height.estimate", value = numeric(0)): replacement has 0 rows, data has 28
 ```
 
 ```
@@ -541,18 +515,7 @@ Multi-volume documents average page counts are given per volume.
 |NA            |            14.083557|                      2|        3003|                  NA|                    NA|         NA|         18.87593|                 15|     403|
 
 
-
-```
-## Error in ggplot(melt(mean.pagecounts[, c("median.pages.multivol", "median.pages.singlevol", : could not find function "melt"
-```
-
-```
-## Error in ggplot(melt(mean.pagecounts[, c("mean.pages.multivol", "mean.pages.singlevol", : could not find function "melt"
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'gatherings.original' not found
-```
+![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png) 
 
 
 ## Average document dimensions 
@@ -563,11 +526,7 @@ Multi-volume documents average page counts are given per volume.
 ```
 
 ```
-## Error in ggplot(df2, aes(x = publication.decade, y = mean.height, group = gatherings.original, : object 'df2' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'gatherings.original' not found
+## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
 
 
@@ -576,13 +535,10 @@ Multi-volume documents average page counts are given per volume.
 ## Error in eval(expr, envir, enclos): object 'gatherings.original' not found
 ```
 
-```
-## Error in as.data.frame(df2): object 'df2' not found
-```
 
-```
-## Error in is.data.frame(x): object 'mean.dimensions' not found
-```
+
+| publication_decade|gatherings | paper.consumption.km2|  n|
+|------------------:|:----------|---------------------:|--:|
 
 ## Histograms of all entries for numeric variables
 
@@ -644,21 +600,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart148d19e6bf40&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart148dfb9798f&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart148d19e6bf40()
+      drawchart148dfb9798f()
     });
-    function drawchart148d19e6bf40(){  
+    function drawchart148dfb9798f(){  
       var opts = {
- &quot;dom&quot;: &quot;chart148d19e6bf40&quot;,
+ &quot;dom&quot;: &quot;chart148dfb9798f&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart148d19e6bf40&quot; 
+&quot;id&quot;: &quot;chart148dfb9798f&quot; 
 },
         data = [
  {
@@ -809,7 +765,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart148d19e6bf40'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart148dfb9798f'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
