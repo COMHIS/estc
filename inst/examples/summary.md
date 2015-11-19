@@ -35,6 +35,7 @@ Number of documents with NA entries and number of unique entries for each field:
 |author_death          |     15953|    370|
 |author_gender         |     16899|      3|
 |author_name           |     18231|   6097|
+|author_unique         |     19421|   6756|
 |topic                 |     21965|   7065|
 |latitude              |     44951|    133|
 |longitude             |     44951|    133|
@@ -57,7 +58,6 @@ Number of documents with NA entries and number of unique entries for each field:
 |gatherings            |     50277|     16|
 |obl                   |     50277|      2|
 |unity                 |     50277|      1|
-|author_unique         |     50277|   6756|
 
 
 ## Topics
@@ -65,19 +65,14 @@ Number of documents with NA entries and number of unique entries for each field:
 
 
 
-Top-20 topics and number of documents for each. In total, there are 0 unique topics and 0 documents assigned to one or more topics (NaN).
-
-
-```
-## Error in dfs[1:ntop, ]: incorrect number of dimensions
-```
+Top-20 topics and number of documents for each. In total, there are 7065 unique topics and 21965 documents assigned to one or more topics (44).
 
 ![plot of chunk summarytopics22](figure/summarytopics22-1.png) 
 
 
 ## Authors
 
-Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 0 unique authors and 0 documents with unambiguous author information (NaN%).
+Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6756 unique authors and 19421 documents with unambiguous author information (36%).
 
 ![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
 
@@ -106,15 +101,6 @@ Gender distribution for authors over time. Note that the name-gender mappings ch
 ##  0.028  0.972
 ```
 
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'publication.decade'
-```
-
-```
-## Error in regression_plot(p.female ~ publication.decade, dfd, main = "Female authors proportion"): object 'dfd' not found
-```
-
 ![plot of chunk summarygendertime](figure/summarygendertime-1.png) 
 
 
@@ -130,91 +116,8 @@ Should also add living year information from supporting sources later.
 [Authors with discarded life years](output.tables/author_life_discarded.csv)
 
 
-```
-## Error in eval(expr, envir, enclos): object 'author.unique' not found
-```
-
-```
-## Error in split.default(dfs$author.birth, dfs$author.name): first argument must be a vector
-```
-
-```
-## Error in lapply(births[names(which(sapply(births, function(x) {: object 'births' not found
-```
-
-```
-## Error in split.default(dfs$author.death, dfs$author.name): first argument must be a vector
-```
-
-```
-## Error in lapply(deaths[names(which(sapply(deaths, function(x) {: object 'deaths' not found
-```
-
-```
-## Error in match(x, table, nomatch = 0L): object 'author.name' not found
-```
-
-```
-## Error in `[.data.frame`(dfs, , c("author.name", "author.birth", "author.death")): undefined columns selected
-```
-
-```
-## Error in order(dfs$author.name): argument 1 is not a vector
-```
-
-
-
-| Time| date| Edinburgh| varname|
-|----:|----:|---------:|-------:|
-| 1540| 1540|       0.2|     0.2|
-| 1560| 1560|       0.8|     0.8|
-| 1565| 1565|       0.2|     0.2|
-| 1570| 1570|       1.6|     1.6|
-| 1575| 1575|       1.8|     1.8|
-| 1580| 1580|       0.8|     0.8|
-| 1585| 1585|       0.4|     0.4|
-| 1595| 1595|       1.8|     1.8|
-| 1600| 1600|       1.2|     1.2|
-| 1605| 1605|       1.2|     1.2|
-| 1610| 1610|       0.6|     0.6|
-| 1615| 1615|       0.2|     0.2|
-| 1620| 1620|       0.2|     0.2|
-| 1625| 1625|       1.2|     1.2|
-| 1630| 1630|       1.8|     1.8|
-| 1635| 1635|       1.2|     1.2|
-| 1640| 1640|      17.8|    17.8|
-| 1645| 1645|      22.6|    22.6|
-| 1650| 1650|      27.2|    27.2|
-| 1655| 1655|      13.8|    13.8|
-| 1660| 1660|      20.2|    20.2|
-| 1665| 1665|       9.4|     9.4|
-| 1670| 1670|       5.6|     5.6|
-| 1675| 1675|       6.8|     6.8|
-| 1680| 1680|      20.8|    20.8|
-| 1685| 1685|      22.0|    22.0|
-| 1690| 1690|      58.2|    58.2|
-| 1695| 1695|      26.0|    26.0|
-| 1700| 1700|      23.8|    23.8|
-| 1705| 1705|      33.4|    33.4|
-| 1710| 1710|      10.6|    10.6|
-| 1715| 1715|       8.4|     8.4|
-| 1720| 1720|       4.6|     4.6|
-| 1725| 1725|       4.2|     4.2|
-| 1730| 1730|       3.2|     3.2|
-| 1735| 1735|       6.6|     6.6|
-| 1740| 1740|       7.2|     7.2|
-| 1745| 1745|       8.0|     8.0|
-| 1750| 1750|       9.6|     9.6|
-| 1755| 1755|       6.0|     6.0|
-| 1760| 1760|       9.4|     9.4|
-| 1765| 1765|      10.4|    10.4|
-| 1770| 1770|       8.0|     8.0|
-| 1775| 1775|      12.4|    12.4|
-| 1780| 1780|      11.2|    11.2|
-| 1785| 1785|       8.0|     8.0|
-| 1790| 1790|      12.4|    12.4|
-| 1795| 1795|      12.6|    12.6|
-| 1800| 1800|       4.6|     4.6|
+|author_name | author_birth| author_death|
+|:-----------|------------:|------------:|
 
 
 
@@ -222,22 +125,7 @@ Should also add living year information from supporting sources later.
 
 Ordered by productivity (number of documents))
 
-
-```
-## Error in `[.data.frame`(df, , c("author.unique", "author.birth", "author.death")): undefined columns selected
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'author.unique' not found
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "index", value = c(1L, 0L)): replacement has 2 rows, data has 0
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'author.birth' not found
-```
+![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png) 
 
 [Authors with missing life years](output.tables/author_birth_unknown.csv)
 
@@ -245,37 +133,14 @@ Ordered by productivity (number of documents))
 
 Title count
 
-
-```
-## Error in eval(expr, envir, enclos): object 'author.unique' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'author.unique'
-```
-
-```
-## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
-```
+![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png) 
 
 
 Paper consumption
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'author.unique'
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'author.unique' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'author.unique'
-```
-
-```
-## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
+## Error in `[.data.frame`(base, names(rows)): undefined columns selected
 ```
 
 
@@ -285,36 +150,48 @@ Title count
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.publisher' not found
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
 ```
-## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
+![plot of chunk summaryTop10publisherstimeline](figure/summaryTop10publisherstimeline-1.png) 
 
 
 Paper consumption
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.publisher' not found
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.publisher'
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
 ```
-## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
+![plot of chunk summaryTop10publisherstimelinepaper](figure/summaryTop10publisherstimelinepaper-1.png) 
 
 
 
@@ -341,9 +218,7 @@ Top-20 publication places are shown together with the number of documents. This 
 ## Error in dfs[1:ntop, ]: incorrect number of dimensions
 ```
 
-```
-## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
-```
+![plot of chunk summaryplace](figure/summaryplace-1.png) 
 
 
 
@@ -361,24 +236,75 @@ Top-20 publication places are shown together with the number of documents. This 
 ```
 
 ```
-## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
+## Warning: Stacking not well defined when ymin != 0
 ```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
+```
+## Warning: Stacking not well defined when ymin != 0
+```
+
+![plot of chunk summaryplacemissinggeo](figure/summaryplacemissinggeo-1.png) 
 
 ### Publishers
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 0 documents (NaN%). There are 0 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 49366 documents (98%). There are 22255 unique publisher names (some may be synonymes, though).
 
 
-
-```
-## Error in dfs[1:ntop, ]: incorrect number of dimensions
-```
-
-```
-## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
-```
+![plot of chunk summarypublisher2](figure/summarypublisher2-1.png) 
 
 
 [Publishers accepted](output.tables/publisher_accepted.csv)
@@ -402,18 +328,13 @@ Publication year is available for 49913 documents (99%). The publication years s
 
 ### Titles
 
-Top-20 titles are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique titles.
+Top-20 titles are shown together with the number of documents. This info is available for 50277 documents (100%). There are 41289 unique titles.
 
 [Publication titles](output.tables/title_accepted.csv)
 
 [Publication titles discarded](output.tables/title_discarded.csv)
 
 [Title harmonization table](output.tables/title_conversions.csv)
-
-
-```
-## Error in dfs[1:ntop, ]: incorrect number of dimensions
-```
 
 ![plot of chunk summarytitle](figure/summarytitle-1.png) 
 
@@ -449,11 +370,23 @@ Compare gatherings and cm2 sizes as a quality check. This includes all data; the
 
 
 ```
-## Error in data.frame(indices, value = values): arguments imply differing number of rows: 4, 0
+## Error in eval(expr, envir, enclos): could not find function "melt"
 ```
 
 ```
-## Error in Math.factor(x, base): 'log' not meaningful for factors
+## Error in names(dfm) <- c("gatherings", "cm2", "documents"): object 'dfm' not found
+```
+
+```
+## Error in factor(dfm$gatherings, levels = levels(df$gatherings)): object 'dfm' not found
+```
+
+```
+## Error in ggplot(dfm, aes(x = gatherings, y = cm2)): object 'dfm' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'documents' not found
 ```
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
@@ -473,22 +406,7 @@ Compare gatherings and page counts. Page count information is estimated for -155
 
 Compare original gatherings and original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
 
-
-```
-## Error in eval(expr, envir, enclos): object 'height.original' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'gatherings.original'
-```
-
-```
-## Error in ggplot(df4, aes(x = gatherings.original, y = height.original)): object 'df4' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'gatherings.original' not found
-```
+![plot of chunk summarysizevalidation](figure/summarysizevalidation-1.png) 
 
 ## Average page counts 
 
@@ -515,30 +433,35 @@ Multi-volume documents average page counts are given per volume.
 |NA            |            14.083557|                      2|        3003|                  NA|                    NA|         NA|         18.87593|                 15|     403|
 
 
+
+```
+## Error in ggplot(melt(mean.pagecounts[, c("median.pages.multivol", "median.pages.singlevol", : could not find function "melt"
+```
+
+```
+## Error in ggplot(melt(mean.pagecounts[, c("mean.pages.multivol", "mean.pages.singlevol", : could not find function "melt"
+```
+
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png) 
 
 
 ## Average document dimensions 
 
-
-```
-## Error in eval(expr, envir, enclos): object 'gatherings.original' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
-```
+![plot of chunk summaryavedimstime](figure/summaryavedimstime-1.png) 
 
 
 
-```
-## Error in eval(expr, envir, enclos): object 'gatherings.original' not found
-```
-
-
-
-| publication_decade|gatherings | paper.consumption.km2|  n|
-|------------------:|:----------|---------------------:|--:|
+|gatherings | mean.height| median.height| mean.width| median.width|     n|
+|:----------|-----------:|-------------:|----------:|------------:|-----:|
+|1to        |    59.97152|      59.97152|   89.95575|     89.95575|  3616|
+|2fo        |    31.37527|      31.37527|   47.09737|     47.09737| 12170|
+|4to        |    21.91628|      21.91628|   27.87294|     27.87294| 16543|
+|8vo        |    13.01510|      13.01510|   19.02952|     19.02952| 11719|
+|12mo       |    12.49440|      12.49440|   18.98666|     18.98666|  3035|
+|16mo       |    12.00000|      12.00000|   15.00000|     15.00000|    81|
+|18mo       |    10.00000|      10.00000|   16.00000|     16.00000|    33|
+|24mo       |     8.50000|       8.50000|   12.50000|     12.50000|    45|
+|NA         |    20.98898|      20.98898|   31.65239|     31.65239|   817|
 
 ## Histograms of all entries for numeric variables
 
@@ -600,21 +523,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart148dfb9798f&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart1ca323b22ff6&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart148dfb9798f()
+      drawchart1ca323b22ff6()
     });
-    function drawchart148dfb9798f(){  
+    function drawchart1ca323b22ff6(){  
       var opts = {
- &quot;dom&quot;: &quot;chart148dfb9798f&quot;,
+ &quot;dom&quot;: &quot;chart1ca323b22ff6&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart148dfb9798f&quot; 
+&quot;id&quot;: &quot;chart1ca323b22ff6&quot; 
 },
         data = [
  {
@@ -765,7 +688,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart148dfb9798f'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1ca323b22ff6'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

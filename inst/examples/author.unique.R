@@ -17,7 +17,9 @@ df$author_death[inds] <- info[match(df$author_name[inds], info$author_name), "au
 
 print("Harmonize ambiguous authors")
 df$author_unique <- harmonize_names(df$author_unique, ambiguous_authors_table())$name
-df$author_unique <- gsub("NA (NA-NA)", NA, df$author_unique)
+# Is this needed?
+#df$author_unique[which(df$author_unique == "NA (NA-NA)")] <- NA
+df$author_unique[which(df$author_unique == "NA")] <- NA
 
 print("Correct author living years using the ones from the final harmonized version")
 library(tidyr)

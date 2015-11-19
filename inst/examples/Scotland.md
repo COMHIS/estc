@@ -143,7 +143,7 @@ We have 1340 documents from Scotland and 10957 documents from London during 1700
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_year'
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
 ```
 
 ```
@@ -151,11 +151,11 @@ We have 1340 documents from Scotland and 10957 documents from London during 1700
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_year'
+## Error in eval(expr, envir, enclos): object 'publication_country' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_year'
+## Error in eval(expr, envir, enclos): object 'publication_place' not found
 ```
 
 ```

@@ -72,6 +72,10 @@ Page count: distribution of document sizes
 ```
 
 ```
+## Error in `$<-.data.frame`(`*tmp*`, "na", value = logical(0)): replacement has 0 rows, data has 9
+```
+
+```
 ## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
 
@@ -106,9 +110,7 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ```
 
 ```
-## Error: All select() inputs must resolve to integer column positions.
-## The following do not:
-## *  IV
+## Error in eval(expr, envir, enclos): incorrect size (1), expecting : 9
 ```
 
 ```
@@ -116,9 +118,7 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ```
 
 ```
-## Error: All select() inputs must resolve to integer column positions.
-## The following do not:
-## *  IV
+## Error in eval(expr, envir, enclos): incorrect size (1), expecting : 9
 ```
 
 ```
@@ -131,6 +131,10 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ```
 
 ```
+## Error in eval(expr, envir, enclos): object 'document.dimension.gatherings.estimated' not found
+```
+
+```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
 
@@ -140,6 +144,10 @@ Note: there are 0 documents that have some dimensions information but sheet area
 
 ```
 ## Error in eval(expr, envir, enclos): unknown column 'publication.year'
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'document.dimension.gatherings.estimated' not found
 ```
 
 ```
@@ -231,6 +239,10 @@ Estimated paper consumption by document size
 
 ```
 ## Error in eval(expr, envir, enclos): unknown column 'publication.year'
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'document.dimension.gatherings.estimated' not found
 ```
 
 ```

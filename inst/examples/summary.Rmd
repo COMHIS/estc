@@ -22,9 +22,7 @@ df <- read.csv(file = "estc.csv", sep = "|")
 # Order the levels where necessary
 df$gatherings <- order_gatherings(df$gatherings)
 df.preprocessed <- df
-
 ntop <- 20
-
 ```
 
 
@@ -65,10 +63,7 @@ kable(tab)
 
 ```{r summarytopics, echo=FALSE, message=FALSE, warning=FALSE}
 # List all topics
-spl <- strsplit(na.omit(as.character(df$subject.topic)), ";")
-
-# Topics per document
-# hist(sapply(spl, length))
+spl <- strsplit(na.omit(as.character(df$topic)), ";")
 
 # Documents per topic
 tab <- sort(table(unlist(spl)))
@@ -77,10 +72,10 @@ tab <- rev(sort(tab))
 ```
 
 
-Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$subject.topic))` unique topics and `r sum(!is.na(df$subject.topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$subject.topic)))`).
+Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$topic))` unique topics and `r sum(!is.na(df$topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$topic)))`).
 
 ```{r summarytopics22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-p <- top_plot(df, "subject.topic", ntop)
+p <- top_plot(df, "topic", ntop)
 p <- p + ggtitle(paste("Most common topics"))
 p <- p + ylab("Documents")
 print(p)
@@ -89,7 +84,7 @@ print(p)
 
 ## Authors
 
-Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are `r length(unique(df$author.unique))` unique authors and `r sum(!is.na(df$author.unique))` documents with unambiguous author information (`r round(100*mean(!is.na(df$author.name)))`%).
+Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are `r length(unique(df$author_unique))` unique authors and `r sum(!is.na(df$author_unique))` documents with unambiguous author information (`r round(100*mean(!is.na(df$author_name)))`%).
 
 ```{r summaryauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12}
 p <- top_plot(df, "author_unique", ntop)
@@ -122,10 +117,10 @@ round(tab/sum(tab), 3)
 ```
 
 ```{r summarygendertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-dfd <- df %>% group_by(publication.decade) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
+dfd <- df %>% group_by(publication_decade) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
 dfy <- df %>% group_by(publication_year) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
 library(sorvi)
-p <- regression_plot(p.female ~ publication.decade, dfd, main = "Female authors proportion")
+p <- regression_plot(p.female ~ publication_decade, dfd, main = "Female authors proportion")
 p <- p + ylab("Female authors (%)")
 print(p)
 ```
@@ -144,26 +139,26 @@ Should also add living year information from supporting sources later.
 
 ```{r summaryambiguousauthor, echo=FALSE, message=FALSE, warning=FALSE}
 # Pick authors who do not have unique ID yet
-dfs <- df %>% filter(is.na(author.unique) & !is.na(author.name))
+dfs <- df %>% filter(is.na(author_unique) & !is.na(author_name))
 
 # Authors with many birth years
-births <- lapply(split(dfs$author.birth, dfs$author.name), unique)
-many.births <- lapply(births[names(which(sapply(births, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
+births <- lapply(split(dfs$author_birth, dfs$author_name), unique)
+many_births <- lapply(births[names(which(sapply(births, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
 
 # Authors with many death years
-deaths <- lapply(split(dfs$author.death, dfs$author.name), unique)
-many.deaths <- lapply(deaths[names(which(sapply(deaths, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
+deaths <- lapply(split(dfs$author_death, dfs$author_name), unique)
+many_deaths <- lapply(deaths[names(which(sapply(deaths, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
 
-dfs <- subset(dfs, author.name %in% union(names(many.births), names(many.deaths)))
-dfs <- dfs[, c("author.name", "author.birth", "author.death")]
+dfs <- subset(dfs, author_name %in% union(names(many_births), names(many_deaths)))
+dfs <- dfs[, c("author_name", "author_birth", "author_death")]
 dfs <- dfs[!duplicated(dfs),]
-dfs <- dfs[order(dfs$author.name), ]
+dfs <- dfs[order(dfs$author_name), ]
 kable(dfs, caption = "Authors with ambiguous life years")
 ```
 ```{r summaryambiguourauthor2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=25}
 #Ambiguous authors life spans visualized
 #p <- ggplot(dfs)
-#p <- p + geom_segment(aes(y = author.name, yend = author.name, x = author.birth, xend = author.death), #size = 2) 
+#p <- p + geom_segment(aes(y = author_name, yend = author_name, x = author_birth, xend = author_death), #size = 2) 
 #p <- p + theme(axis.text.y = element_text(size = 9))
 #p <- p + xlab("Ambiguous author life span (year)") + ylab("")
 #print(p)
@@ -175,18 +170,18 @@ kable(dfs, caption = "Authors with ambiguous life years")
 Ordered by productivity (number of documents))
 
 ```{r, summaryauthorslife, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-a <- rev(rev(sort(table(df$author.unique)))[1:ntop])
-dfa <- df[, c("author.unique", "author.birth", "author.death")]
-dfa <- filter(dfa, !is.na(author.unique) & (author.unique %in% names(a)))
+a <- rev(rev(sort(table(df$author_unique)))[1:ntop])
+dfa <- df[, c("author_unique", "author_birth", "author_death")]
+dfa <- filter(dfa, !is.na(author_unique) & (author_unique %in% names(a)))
 dfa <- dfa[!duplicated(dfa), ]
-dfa <- dfa[match(names(a), dfa$author.unique),]
-dfa <- arrange(dfa, author.birth)
+dfa <- dfa[match(names(a), dfa$author_unique),]
+dfa <- arrange(dfa, author_birth)
 # Order authors by birth year
-dfa$author.unique <- factor(dfa$author.unique, levels = dfa$author.unique)
+dfa$author_unique <- factor(dfa$author_unique, levels = dfa$author_unique)
 dfa$index <- 1:nrow(dfa)
 
 p <- ggplot(dfa)
-p <- p + geom_segment(aes(y = author.unique, yend = author.unique, x = author.birth, xend = author.death), size = 2) 
+p <- p + geom_segment(aes(y = author_unique, yend = author_unique, x = author_birth, xend = author_death), size = 2) 
 p <- p + theme(axis.text.y = element_text(size = 9))
 p <- p + xlab("Author life span (year)") + ylab("")
 print(p)
@@ -199,15 +194,15 @@ print(p)
 Title count
 
 ```{r summaryTop10authorstimeline, fig.height=30, fig.width=10, echo=FALSE}
-top10 <- names(sort(table(df$author.unique), decreasing = TRUE))[1:10]
-dfs <- filter(df, author.unique %in% top10)
-dfs <- group_by(dfs, author.unique, publication_year) %>% summarize(ndoc = n())
+top10 <- names(sort(table(df$author_unique), decreasing = TRUE))[1:10]
+dfs <- filter(df, author_unique %in% top10)
+dfs <- group_by(dfs, author_unique, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(dfs, aes(x = publication_year, y = ndoc)) 
 p <- p + geom_bar(stat = "identity") 
-p <- p + facet_grid(author.unique ~ .)
+p <- p + facet_grid(author_unique ~ .)
 p <- p + ggtitle("Number of documents per year for top-10 titlecount authors")
 print(p)
-#publications.annual <- tapply(df$unity, list(df$publication_year, df$publication.place), sum)
+#publications.annual <- tapply(df$unity, list(df$publication_year, df$place), sum)
 #publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
 #dfm.annual <- melt(publications.annual) 
 #names(dfm.annual) <- c("Time", "Place", "Documents")
@@ -222,16 +217,16 @@ Paper consumption
 ```{r summaryTop10authorstimelinepaper, fig.height=30, fig.width=10, echo=FALSE}
 # Calculate paper consumption for authors
 df2 <- df %>%
-    group_by(author.unique) %>%
+    group_by(author_unique) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 # Pick top-10 paper authors
 top10 <- names(sort(df2$paper.consumption.km2, decreasing = TRUE))[1:10]
-dfs <- filter(df, author.unique %in% top10)
-dfs <- group_by(dfs, author.unique, publication_year) %>%
+dfs <- filter(df, author_unique %in% top10)
+dfs <- group_by(dfs, author_unique, publication_year) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 p <- ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)) 
 p <- p + geom_bar(stat = "identity") 
-p <- p + facet_grid(author.unique ~ .)
+p <- p + facet_grid(author_unique ~ .)
 p <- p + ggtitle("Paper comsumption per year for top-10 paper authors")
 print(p)
 ```
@@ -242,12 +237,12 @@ print(p)
 Title count
 
 ```{r summaryTop10publisherstimeline, fig.height=30, fig.width=10, echo=FALSE}
-top10 <- names(sort(table(df$publication.publisher), decreasing = TRUE))[1:10]
-dfs <- filter(df, publication.publisher %in% top10)
-dfs <- group_by(dfs, publication.publisher, publication_year) %>% summarize(ndoc = n())
+top10 <- names(sort(table(df$publisher), decreasing = TRUE))[1:10]
+dfs <- filter(df, publisher %in% top10)
+dfs <- group_by(dfs, publisher, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(dfs, aes(x = publication_year, y = ndoc)) 
 p <- p + geom_bar(stat = "identity") 
-p <- p + facet_grid(publication.publisher ~ .)
+p <- p + facet_grid(publisher ~ .)
 p <- p + ggtitle("Number of documents per year for top-10 titlecount publishers")
 print(p)
 ```
@@ -258,17 +253,17 @@ Paper consumption
 ```{r summaryTop10publisherstimelinepaper, fig.height=30, fig.width=10, echo=FALSE}
 # Calculate paper consumption for publishers
 df2 <- df %>%
-    group_by(publication.publisher) %>%
+    group_by(publisher) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 # Pick top-10 paper publishers
 o <- order(df2$paper.consumption.km2, decreasing = TRUE)[1:10]
-top10 <- df2$publication.publisher[o]
-dfs <- filter(df, publication.publisher %in% top10)
-dfs <- group_by(dfs, publication.publisher, publication_year) %>%
+top10 <- df2$publisher[o]
+dfs <- filter(df, publisher %in% top10)
+dfs <- group_by(dfs, publisher, publication_year) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 p <- ggplot(dfs, aes(x = publication_year, y = paper.consumption.km2)) 
 p <- p + geom_bar(stat = "identity") 
-p <- p + facet_grid(publication.publisher ~ .)
+p <- p + facet_grid(publisher ~ .)
 p <- p + ggtitle("Paper consumption per year for top-10 paper publishers")
 print(p)
 ```
@@ -280,7 +275,7 @@ print(p)
 
 ### Publication places
 
-Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication.place))` documents (`r round(100*mean(!is.na(df$publication.place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication.place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$place))` documents (`r round(100*mean(!is.na(df$place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication countries](output.tables/country_accepted.csv)
 
@@ -294,7 +289,7 @@ Top-`r ntop` publication places are shown together with the number of documents.
 
 
 ```{r summaryplace, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-p <- top_plot(df, "publication.place", ntop)
+p <- top_plot(df, "place", ntop)
 p <- p + ggtitle(paste("Top publication places"))
 p <- p + scale_y_log10()
 p <- p + ylab("Documents")
@@ -303,12 +298,12 @@ print(p)
 
 
 ```{r summaryplace3, echo=FALSE, results='asis'}
-kable(data.frame(n = rev(sort(table(df$publication.country)))), caption = "Publication country counts")
+kable(data.frame(n = rev(sort(table(df$country)))), caption = "Publication country counts")
 ```
 
 ```{r summaryplacemissinggeo, echo=FALSE, results='asis'}
 inds <- is.na(df$latitude) & is.na(df$longitude)
-p <- top_plot(df[inds, ], "publication.place")
+p <- top_plot(df[inds, ], "place")
 p <- p + ggtitle(paste("Publication places with missing geocoordinates (", sum(inds), "docs)",sep = ""))
 p <- p + xlab("Documents")
 print(p)
@@ -317,14 +312,14 @@ print(p)
 ### Publishers
 
 ```{r summarypublisher, echo=FALSE, message=FALSE, warning=FALSE}
-tab <- rev(sort(table(str_trim(unlist(df$publication.publisher)))))
+tab <- rev(sort(table(str_trim(unlist(df$publisher)))))
 ```
 
-The `r ntop` most common publishers are shown with the number of documents. Publisher information is available for `r sum(!is.na(df$publication.publisher))` documents (`r round(100*mean(!is.na(df$publication.publisher)))`%). There are `r length(tab)` unique publisher names (some may be synonymes, though).
+The `r ntop` most common publishers are shown with the number of documents. Publisher information is available for `r sum(!is.na(df$publisher))` documents (`r round(100*mean(!is.na(df$publisher)))`%). There are `r length(tab)` unique publisher names (some may be synonymes, though).
 
 
 ```{r summarypublisher2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10}
-p <- top_plot(df, "publication.publisher", ntop)
+p <- top_plot(df, "publisher", ntop)
 p <- p + ggtitle(paste("Top publishers"))
 p <- p + scale_y_log10()
 p <- p + ylab("Documents")
@@ -358,7 +353,7 @@ print(p)
 
 ### Titles
 
-Top-`r ntop` titles are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication.title))` documents (`r round(100*mean(!is.na(df$publication.title)))`%). There are `r length(unique(df$publication.title))` unique titles.
+Top-`r ntop` titles are shown together with the number of documents. This info is available for `r sum(!is.na(df$title))` documents (`r round(100*mean(!is.na(df$title)))`%). There are `r length(unique(df$title))` unique titles.
 
 [Publication titles](output.tables/title_accepted.csv)
 
@@ -367,8 +362,8 @@ Top-`r ntop` titles are shown together with the number of documents. This info i
 [Title harmonization table](output.tables/title_conversions.csv)
 
 ```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-tab <- rev(sort(table(df$publication.title)))
-p <- top_plot(df, "publication.title", ntop)
+tab <- rev(sort(table(df$title)))
+p <- top_plot(df, "title", ntop)
 p <- p + ggtitle(paste("Top titles"))
 p <- p + scale_y_log10()
 p <- p + ylab("Documents")
@@ -424,11 +419,11 @@ print(p)
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
 ```{r summarysizecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
-dfs <- select(df, starts_with("document.dimension")) %>% filter(!is.na(cm2) & !is.na(gatherings.original))
-dfs <- dfs[, c("gatherings.original", "cm2")]
+dfs <- select(df, starts_with("document.dimension")) %>% filter(!is.na(cm2) & !is.na(gatherings))
+dfs <- dfs[, c("gatherings", "cm2")]
 dfm <- melt(table(dfs))
 names(dfm) <- c("gatherings", "cm2", "documents")
-dfm$gatherings <- factor(dfm$gatherings, levels = levels(df$gatherings.original))
+dfm$gatherings <- factor(dfm$gatherings, levels = levels(df$gatherings))
 p <- ggplot(dfm, aes(x = gatherings, y = cm2)) 
 p <- p + scale_y_continuous(trans = "log2")
 p <- p + geom_point(aes(size = documents))
@@ -461,7 +456,7 @@ dfs$pagecount <- as.numeric(gsub(" pages", "", dfs$pagecount))
 dfs <- dfs %>% filter(!is.na(pagecount) & !is.na(gatherings))
 dfg <- group_by(dfs, pagecount, gatherings) %>% tally()
 names(dfg) <- c("pages", "gatherings", "documents")
-dfg$gatherings <- factor(dfg$gatherings, levels = levels(df$gatherings.original))
+dfg$gatherings <- factor(dfg$gatherings, levels = levels(df$gatherings))
 ylims <- range(dfg$pages)
 p <- ggplot(dfg, aes(x = gatherings, y = pages)) 
 #p <- p + scale_y_continuous(trans = "log10")
@@ -496,15 +491,15 @@ Compare original gatherings and original heights where both are available. The p
 ```{r summarysizevalidation, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
 # Compare given dimensions to gatherings
 # (not so much data with width so skip that)
-df2 <- filter(df, !is.na(height.original) | !is.na(width.original))
-df2 <- df2[!is.na(as.character(df2$gatherings.original)),]
-df3 <- filter(df2, !is.na(height.original))
+df2 <- filter(df, !is.na(height) | !is.na(width))
+df2 <- df2[!is.na(as.character(df2$gatherings)),]
+df3 <- filter(df2, !is.na(height))
 ss <- sheet_sizes()
-df3$gathering.height.estimate <- ss[match(df3$gatherings.original, ss$gatherings),"height"]
-df4 <- df3 %>% group_by(gatherings.original, height.original) %>% tally()
-p <- ggplot(df4, aes(x = gatherings.original, y = height.original))
+df3$gathering.height.estimate <- ss[match(df3$gatherings, ss$gatherings),"height"]
+df4 <- df3 %>% group_by(gatherings, height) %>% tally()
+p <- ggplot(df4, aes(x = gatherings, y = height))
 p <- p + geom_point(aes(size = n))
-p <- p + geom_point(data = unique(df3), aes(x = gatherings.original, y = gathering.height.estimate), color = "red")
+p <- p + geom_point(data = unique(df3), aes(x = gatherings, y = gathering.height.estimate), color = "red")
 p <- p + xlab("Gatherings (original)") + ylab("Height (original)") 
 p <- p + ggtitle("Height comparison")
 print(p)
@@ -548,11 +543,11 @@ grid.arrange(p1, p2, nrow = 1)
 ## Average document dimensions 
 
 ```{r summaryavedimstime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-df2 <- filter(df, !is.na(gatherings.original) & (!is.na(height.original) | !is.na(width.original))) %>% group_by(gatherings.original, publication.decade) %>% 
-  summarize(mean.height = mean(height.original, na.rm = T),
-    	    mean.width = mean(width.original, na.rm = T), n = n())
+df2 <- filter(df, !is.na(gatherings) & (!is.na(height) | !is.na(width))) %>% group_by(gatherings, publication_decade) %>% 
+  summarize(mean.height = mean(height, na.rm = T),
+    	    mean.width = mean(width, na.rm = T), n = n())
 
-p <- ggplot(df2, aes(x = publication.decade, y = mean.height, group = gatherings.original, color = gatherings.original))
+p <- ggplot(df2, aes(x = publication_decade, y = mean.height, group = gatherings, color = gatherings))
 p <- p + geom_point(aes(size = n))
 p <- p + geom_line(method = "loess")
 p <- p + ggtitle("Height")
@@ -561,13 +556,13 @@ print(p)
 
 
 ```{r summaryavedims, echo=FALSE, message=FALSE, warning=FALSE}
-df2 <- filter(df, !is.na(gatherings.original) & (!is.na(height.original) | !is.na(width.original))) %>% group_by(gatherings.original) %>% 
-  summarize(mean.height = mean(height.original, na.rm = T),
-	    median.height = mean(height.original, na.rm = T),
-    	    mean.width = mean(width.original, na.rm = T), 
-	    median.width = mean(width.original, na.rm = T), 
+df2 <- filter(df, !is.na(gatherings) & (!is.na(height) | !is.na(width))) %>% group_by(gatherings) %>% 
+  summarize(mean.height = mean(height, na.rm = T),
+	    median.height = mean(height, na.rm = T),
+    	    mean.width = mean(width, na.rm = T), 
+	    median.width = mean(width, na.rm = T), 
 	    n = n()) %>%
-  filter(n > 10 & !is.na(as.character(gatherings.original)))
+  filter(n > 10 & !is.na(as.character(gatherings)))
 mean.dimensions <- as.data.frame(df2)
 kable(mean.dimensions, caption = "Average document dimensions")
 ```

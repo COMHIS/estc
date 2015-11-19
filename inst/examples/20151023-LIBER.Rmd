@@ -475,8 +475,8 @@ df <- filter(dfo, publication_country == country & publication_year >= 1470)
 # Use 5 year intervals
 df <- filter(dfo, publication_country == country & publication_year >= 1470)
 timeinterval <- 5
-df$publication.timeunit <- round(df$publication_year/timeinterval)*timeinterval 
-publications <- tapply(df$unity, list(df$publication.timeunit, df$publication_place), sum)
+df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+publications <- tapply(df$unity, list(df$timeunit, df$publication_place), sum)
 publications[is.na(publications)] <- 0 # Set NAs to 0
 publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
 dfm <- melt(publications) 
