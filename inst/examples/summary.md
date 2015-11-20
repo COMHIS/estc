@@ -427,21 +427,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart27d78a16154&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart27d7685d3ef2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart27d78a16154()
+      drawchart27d7685d3ef2()
     });
-    function drawchart27d78a16154(){  
+    function drawchart27d7685d3ef2(){  
       var opts = {
- &quot;dom&quot;: &quot;chart27d78a16154&quot;,
+ &quot;dom&quot;: &quot;chart27d7685d3ef2&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart27d78a16154&quot; 
+&quot;id&quot;: &quot;chart27d7685d3ef2&quot; 
 },
         data = [
  {
@@ -592,7 +592,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart27d78a16154'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart27d7685d3ef2'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
