@@ -525,31 +525,5 @@ This document was created with the following versions:
 
 ```{r sessioninfo, message=FALSE, warning=FALSE}
 sessionInfo()
-
-# No more missing pagecounts in USA
-#dfs <- df %>% group_by(publication_country) %>% summarize(na = mean(is.na(pagecount))) %>% filter(na > 0, publication_country %in% c("Scotland" ,"Ireland", "USA")); ggplot(dfs, aes(x = publication_country, y = na)) + geom_bar(stat = "identity") + coord_flip()
-
-#dfs <- df %>% group_by(publication_country) %>% summarize(na = mean(is.na(paper.consumption.km2))) %>% filter(na > 0, publication_country %in% c("Scotland" ,"Ireland", "USA")); ggplot(dfs, aes(x = publication_country, y = na)) + geom_bar(stat = "identity") + coord_flip()
-
-# 20-30% of USA docs missing dimension info which is much higher than
-# Ireland or Scotland
-#dfs <- df.preprocessed %>% filter(publication_year > 1470) %>% group_by(publication_country) %>% filter(is.na(gatherings), publication_country %in% c("USA")) %>% arrange(publication_year) %>% select(publication_year, author_name, publication_place, pagecount, title, gatherings.original); write.table(dfs, file = "output.tables/USA-missing-gatherings.tab", quote = F, row.names = F)
-
-#dfs <- df.preprocessed %>% filter(publication_year > 1470) %>% group_by(publication_country) %>% filter(publication_country %in% c("USA")) 
-# Proportion of docs without gatherings
-#> mean(is.na(dfs$gatherings))
-#[1] 0.2446465
-# Estimated effect on page count (assuming missing docs have same size
-# distribution than other docs)
-#> 1/mean(!is.na(dfs$gatherings))
-#[1] 1.323883
-
-#> df.preprocessed %>% filter(publication_year > 1470) %>% group_by(publication_#country) %>% filter(publication_country %in% c("Scotland", "Ireland", "USA")) %>% summarize(missing_gatherings = mean(is.na(gatherings)))
-#Source: local data frame [3 x 2]
-#  publication_country missing_gatherings
-#               (fctr)              (dbl)
-#1             Ireland         0.03134240
-#2            Scotland         0.01995012
-#3                 USA         0.24464652
 ```
 

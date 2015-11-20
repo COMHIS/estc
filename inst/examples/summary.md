@@ -31,11 +31,11 @@ Number of documents with NA entries (number and percentage) and number of unique
 |                      |  docs| percentage| unique|
 |:---------------------|-----:|----------:|------:|
 |volnumber             |   156|  0.0031028|     15|
-|author_birth          | 15338|  0.3050699|    351|
-|author_death          | 15953|  0.3173021|    370|
+|author_birth          | 15452|  0.3073374|    351|
+|author_death          | 16028|  0.3187939|    370|
 |author_gender         | 16899|  0.3361179|      3|
 |author_name           | 18231|  0.3626111|   6097|
-|author_unique         | 19421|  0.3862800|   6756|
+|author_unique         | 18231|  0.3626111|   6432|
 |topic                 | 21965|  0.4368797|   7065|
 |publisher             | 42460|  0.8445214|  22255|
 |latitude              | 44951|  0.8940669|    133|
@@ -79,7 +79,7 @@ Top-20 topics and number of documents for each. In total, there are 7065 unique 
 [Discarded author last names](output.tables/author_name_discarded_last.csv)
 
 
-Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6756 unique authors and 19421 documents with unambiguous author information (36%).
+Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6432 unique authors and 18231 documents with unambiguous author information (36%).
 
 
 ![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
@@ -401,21 +401,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart663a1077b26e&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart7dcf77582c60&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart663a1077b26e()
+      drawchart7dcf77582c60()
     });
-    function drawchart663a1077b26e(){  
+    function drawchart7dcf77582c60(){  
       var opts = {
- &quot;dom&quot;: &quot;chart663a1077b26e&quot;,
+ &quot;dom&quot;: &quot;chart7dcf77582c60&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart663a1077b26e&quot; 
+&quot;id&quot;: &quot;chart7dcf77582c60&quot; 
 },
         data = [
  {
@@ -566,7 +566,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart663a1077b26e'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart7dcf77582c60'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

@@ -232,9 +232,9 @@ Calamy, Edmund	1671	1732
 Calamy, Edmund	1671	1732
 Calamy, Edmund	1671	1732
 Camm, John	1604	1656
-Camm, John	1779	NA
-Camm, John	1779	NA
-Camm, John	1779	NA
+Camm, John	1779	1656
+Camm, John	1779	1656
+Camm, John	1779	1656
 Cellier, Elizabeth	1650	NA
 Cellier, Elizabeth	1680	NA
 Cellier, Elizabeth	1680	NA
@@ -387,8 +387,8 @@ Edwards, Thomas	1699	1757
 Edwards, Thomas	1699	1757
 Edwards, Thomas	1729	1785
 Edwards, Thomas	1776	1810
-Elder, John	1555	NA
-Elder, John	1555	NA
+Elder, John	1555	1779
+Elder, John	1555	1779
 Elder, John	1692	1779
 Eliot, John	1592	1632
 Eliot, John	1604	1690
@@ -1148,7 +1148,7 @@ Richardson, William	1743	1814
 Richardson, William	1743	1814
 Richardson, William	1778	1815
 Roberts, John	1712	1772
-Roberts, John	1785	NA
+Roberts, John	1785	1772
 Roberts, William	1673	NA
 Roberts, William	1763	NA
 Robertson, William	1721	1793
@@ -1421,7 +1421,7 @@ Stennett, Joseph	1663	1713
 Stennett, Joseph	1663	1713
 Stennett, Joseph	1692	1758
 Still, John	1761	1839
-Still, John	1795	NA
+Still, John	1795	1839
 Stoughton, William	1584	NA
 Stoughton, William	1584	NA
 Stoughton, William	1632	1702
