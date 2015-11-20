@@ -202,7 +202,7 @@ p <- p + geom_bar(stat = "identity")
 p <- p + facet_grid(author_unique ~ .)
 p <- p + ggtitle("Number of documents per year for top-10 titlecount authors")
 print(p)
-#publications.annual <- tapply(df$unity, list(df$publication_year, df$place), sum)
+#publications.annual <- tapply(df$unity, list(df$publication_year, df$publication_place), sum)
 #publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
 #dfm.annual <- melt(publications.annual) 
 #names(dfm.annual) <- c("Time", "Place", "Documents")
@@ -220,7 +220,7 @@ df2 <- df %>%
     group_by(author_unique) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 # Pick top-10 paper authors
-top10 <- names(sort(df2$paper.consumption.km2, decreasing = TRUE))[1:10]
+top10 <- na.omit(as.character(df2[order(df2$paper.consumption.km2, decreasing = TRUE), ]$author_unique))[1:10]
 dfs <- filter(df, author_unique %in% top10)
 dfs <- group_by(dfs, author_unique, publication_year) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
@@ -237,7 +237,7 @@ print(p)
 Title count
 
 ```{r summaryTop10publisherstimeline, fig.height=30, fig.width=10, echo=FALSE}
-top10 <- names(sort(table(df$publisher), decreasing = TRUE))[1:10]
+top10 <- na.omit(names(sort(table(df$publisher), decreasing = TRUE)))[1:10]
 dfs <- filter(df, publisher %in% top10)
 dfs <- group_by(dfs, publisher, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(dfs, aes(x = publication_year, y = ndoc)) 
@@ -256,8 +256,8 @@ df2 <- df %>%
     group_by(publisher) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
 # Pick top-10 paper publishers
-o <- order(df2$paper.consumption.km2, decreasing = TRUE)[1:10]
-top10 <- df2$publisher[o]
+o <- order(df2$paper.consumption.km2, decreasing = TRUE)
+top10 <- na.omit(df2$publisher[o])[1:10]
 dfs <- filter(df, publisher %in% top10)
 dfs <- group_by(dfs, publisher, publication_year) %>%
     summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
@@ -275,7 +275,7 @@ print(p)
 
 ### Publication places
 
-Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$place))` documents (`r round(100*mean(!is.na(df$place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication countries](output.tables/country_accepted.csv)
 
@@ -289,7 +289,7 @@ Top-`r ntop` publication places are shown together with the number of documents.
 
 
 ```{r summaryplace, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-p <- top_plot(df, "place", ntop)
+p <- top_plot(df, "publication_place", ntop)
 p <- p + ggtitle(paste("Top publication places"))
 p <- p + scale_y_log10()
 p <- p + ylab("Documents")
@@ -303,7 +303,7 @@ kable(data.frame(n = rev(sort(table(df$country)))), caption = "Publication count
 
 ```{r summaryplacemissinggeo, echo=FALSE, results='asis'}
 inds <- is.na(df$latitude) & is.na(df$longitude)
-p <- top_plot(df[inds, ], "place")
+p <- top_plot(df[inds, ], "publication_place")
 p <- p + ggtitle(paste("Publication places with missing geocoordinates (", sum(inds), "docs)",sep = ""))
 p <- p + xlab("Documents")
 print(p)
@@ -345,6 +345,18 @@ p <- p + geom_histogram(binwidth = 5)
 p <- p + ggtitle("Publication year")
 print(p)
 ```
+
+Zooming in 1470-1799
+
+```{r summarypublicationyear2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+p <- ggplot(filter(df, publication_year >=1470 & publication_year < 1800), aes(x = publication_year)) 
+p <- p + geom_histogram(binwidth = 5)
+p <- p + ggtitle("Publication year")
+print(p)
+```
+
+
+
 
 [Publication year conversions](output.tables/publication_year.csv)
 
@@ -388,7 +400,7 @@ print(p)
 
 ## Page counts
 
-[Converted pages](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pages_accepted.csv)
+[Page conversions from raw data to final page count estimates](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pages_accepted.csv)
 
 [Discarded page info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentpages-discarded.csv)
 
@@ -401,7 +413,7 @@ print(p)
 [Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversions.csv)
 
 
-Document size (area) info in cm2 is available for `r sum(!is.na(df$cm2))` documents (`r round(100*mean(!is.na(df$cm2)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$gatherings))` documents (`r round(100*mean(!is.na(df$gatherings)))`%). 
+Document size (area) info in area is available for `r sum(!is.na(df$area))` documents (`r round(100*mean(!is.na(df$area)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$gatherings))` documents (`r round(100*mean(!is.na(df$gatherings)))`%). 
 
 ```{r summarysize, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 df <- df.preprocessed
@@ -416,31 +428,31 @@ p <- p + coord_flip()
 print(p)
 ```
 
-Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
+Compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
 ```{r summarysizecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
-dfs <- select(df, starts_with("document.dimension")) %>% filter(!is.na(cm2) & !is.na(gatherings))
-dfs <- dfs[, c("gatherings", "cm2")]
+dfs <- select(df, starts_with("document.dimension")) %>% filter(!is.na(area) & !is.na(gatherings))
+dfs <- dfs[, c("gatherings", "area")]
 dfm <- melt(table(dfs))
-names(dfm) <- c("gatherings", "cm2", "documents")
+names(dfm) <- c("gatherings", "area", "documents")
 dfm$gatherings <- factor(dfm$gatherings, levels = levels(df$gatherings))
-p <- ggplot(dfm, aes(x = gatherings, y = cm2)) 
+p <- ggplot(dfm, aes(x = gatherings, y = area)) 
 p <- p + scale_y_continuous(trans = "log2")
 p <- p + geom_point(aes(size = documents))
 p <- p + scale_size(trans="log10")
-p <- p + ggtitle("Document size distribution: gatherings vs. cm2")
+p <- p + ggtitle("Document size distribution: gatherings vs. area")
 p <- p + xlab("Size (gatherings)")
-p <- p + ylab("Size (cm2)")
+p <- p + ylab("Size (area)")
 p <- p + coord_flip()
 print(p)
 ```
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
 
-```{r summary-surfacearea, fig.height=30, fig.width=10, echo=FALSE}
+```{r summary-surfacearea, fig.height=10, fig.width=10, echo=FALSE}
 p <- ggplot(df, aes(x = area)) 
 p <- p + geom_histogram() 
-p <- p + xlab("Document surface area (cm2; log10)")
+p <- p + xlab("Document surface area (log10)")
 p <- p + ggtitle("Document dimension (surface area)")
 p <- p + scale_x_log10()
 print(p)
@@ -519,6 +531,7 @@ kable(mean.pagecounts, caption = "Average page counts")
 
 
 ```{r summarypagecountsmulti2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=6}
+library(reshape2)
 p <- ggplot(melt(mean.pagecounts[, c("median.pages.multivol", "median.pages.singlevol", "median.pages.issue", "doc.dimension")]), aes(fill = variable, y = value, x = doc.dimension)) 
 p <- p + geom_bar(stat = "identity", position = "dodge")
 p <- p + ylab("Pages")
@@ -569,7 +582,7 @@ kable(mean.dimensions, caption = "Average document dimensions")
 
 ## Histograms of all entries for numeric variables
 
-```{r summary-histograms, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12}
+```{r summary-histograms, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 numeric.fields <- c("volnumber", "volcount", "pagecount", "width", "height", "area", "author_birth", "author_death", "publication_year", "publication_decade", "latitude", "longitude", "paper.consumption.km2")
 for (field in numeric.fields) {
   df$fieldtoplot <- df[[field]]

@@ -138,10 +138,7 @@ Title count
 
 Paper consumption
 
-
-```
-## Error in `[.data.frame`(base, names(rows)): undefined columns selected
-```
+![plot of chunk summaryTop10authorstimelinepaper](figure/summaryTop10authorstimelinepaper-1.png) 
 
 
 ### Publication timeline for top-10 publishers
@@ -187,10 +184,6 @@ Paper consumption
 ## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
 ![plot of chunk summaryTop10publisherstimelinepaper](figure/summaryTop10publisherstimelinepaper-1.png) 
 
 
@@ -200,7 +193,7 @@ Paper consumption
 
 ### Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 49784 documents (99%). There are 411 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 [Publication countries](output.tables/country_accepted.csv)
 
@@ -213,87 +206,12 @@ Top-20 publication places are shown together with the number of documents. This 
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
-
-```
-## Error in dfs[1:ntop, ]: incorrect number of dimensions
-```
-
 ![plot of chunk summaryplace](figure/summaryplace-1.png) 
 
 
 
 |  n|
 |--:|
-
-
-```
-## Warning in min(ntop, nrow(dfs)): no non-missing arguments to min; returning
-## Inf
-```
-
-```
-## Error in 1:ntop: result would be too long a vector
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Stacking not well defined when ymin != 0
-```
 
 ![plot of chunk summaryplacemissinggeo](figure/summaryplacemissinggeo-1.png) 
 
@@ -320,6 +238,13 @@ The 20 most common publishers are shown with the number of documents. Publisher 
 Publication year is available for 49913 documents (99%). The publication years span 0-1799
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
+
+Zooming in 1470-1799
+
+![plot of chunk summarypublicationyear2](figure/summarypublicationyear2-1.png) 
+
+
+
 
 [Publication year conversions](output.tables/publication_year.csv)
 
@@ -349,7 +274,7 @@ The 21 unique languages are shown together with the number of documents. This in
 
 ## Page counts
 
-[Converted pages](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pages_accepted.csv)
+[Page conversions from raw data to final page count estimates](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pages_accepted.csv)
 
 [Discarded page info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentpages-discarded.csv)
 
@@ -362,31 +287,19 @@ The 21 unique languages are shown together with the number of documents. This in
 [Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversions.csv)
 
 
-Document size (area) info in cm2 is available for 0 documents (NaN%). Estimates of document size (area) info in gatherings system are available for 50277 documents (100%). 
+Document size (area) info in area is available for 48091 documents (96%). Estimates of document size (area) info in gatherings system are available for 50277 documents (100%). 
 
 ![plot of chunk summarysize](figure/summarysize-1.png) 
 
-Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
+Compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
 
 ```
-## Error in eval(expr, envir, enclos): could not find function "melt"
+## Error in data.frame(indices, value = values): arguments imply differing number of rows: 4, 0
 ```
 
 ```
-## Error in names(dfm) <- c("gatherings", "cm2", "documents"): object 'dfm' not found
-```
-
-```
-## Error in factor(dfm$gatherings, levels = levels(df$gatherings)): object 'dfm' not found
-```
-
-```
-## Error in ggplot(dfm, aes(x = gatherings, y = cm2)): object 'dfm' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'documents' not found
+## Error in Math.factor(x, base): 'log' not meaningful for factors
 ```
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
@@ -432,15 +345,6 @@ Multi-volume documents average page counts are given per volume.
 |64mo          |           197.000000|                    197|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |NA            |            14.083557|                      2|        3003|                  NA|                    NA|         NA|         18.87593|                 15|     403|
 
-
-
-```
-## Error in ggplot(melt(mean.pagecounts[, c("median.pages.multivol", "median.pages.singlevol", : could not find function "melt"
-```
-
-```
-## Error in ggplot(melt(mean.pagecounts[, c("mean.pages.multivol", "mean.pages.singlevol", : could not find function "melt"
-```
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png) 
 
@@ -523,21 +427,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart1ca323b22ff6&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart27d78a16154&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart1ca323b22ff6()
+      drawchart27d78a16154()
     });
-    function drawchart1ca323b22ff6(){  
+    function drawchart27d78a16154(){  
       var opts = {
- &quot;dom&quot;: &quot;chart1ca323b22ff6&quot;,
+ &quot;dom&quot;: &quot;chart27d78a16154&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart1ca323b22ff6&quot; 
+&quot;id&quot;: &quot;chart27d78a16154&quot; 
 },
         data = [
  {
@@ -688,7 +592,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1ca323b22ff6'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart27d78a16154'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

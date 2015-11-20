@@ -1,5 +1,6 @@
 synonyme;name
 NA (NA-NA);NA
+NA ([0-9|a-z]*-[0-9|a-z]*);NA
 Adams, John (1735-1826);
 Adams, John (1750-1814);
 Alexander, William (1685-1704);
