@@ -134,8 +134,8 @@ The visualization reveals the nature of the author’s publications, distinguish
 theme_set(theme_bw(20))
 dfs <- df.preprocessed
 top <- names(rev(sort(table(dfs$author_unique))))[1:20]
-top <- c(top, "hume, david (1560-1630)")
-top <- setdiff(top, "caesar, julius (NA-NA)")
+top <- c(top, "Hume, david (1560-1630)")
+top <- setdiff(top, "Caesar, Julius (NA-NA)")
 topa <- top
 
 #dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
@@ -380,7 +380,7 @@ print(p)
 
 ### Paper consumption in books (balls) versus pamphlets (triangles), 1470-1800
 
-```{r 20151023LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=9}
+```{r 20151023LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
 df2 <- df
 df2$document.type <- rep(NA, nrow(df2))
 df2$document.type[df2$pagecount > 32] <- "book"
@@ -428,7 +428,7 @@ dfs <- df.preprocessed
 # 2long/2fo/2small -> folio; 8vo -> octavo
 dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 	       	  		from = "Standard", to = "Name")$name
-dfs <- dfs %>% filter(author_unique %in% top &
+dfs <- dfs %>% filter(author_unique %in% topa &
 	        gatherings %in% c("folio", "octavo")) %>%
 	 group_by(author_unique, gatherings) %>%
 	 tally() %>%
@@ -514,6 +514,7 @@ p <- p + geom_point(data = dfs, aes(x = date, y = varname), col = "black")
 p <- p + scale_x_continuous(breaks=seq(min(dfs$date), max(dfs$date), 20))
 p <- p + ggtitle(paste("Publishing activity in ", selected_place))
 p <- p + ylab("Documents / Year")
+p <- p + xlab("Year")
 p <- p + ggtitle("History publishing in Edinburgh 1470-1800")
 print(p)
 ```

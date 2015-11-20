@@ -49,10 +49,11 @@ p <- p + ggtitle("Documents with data (%)")
 print(p)
 ```
 
-Number of documents with NA entries and number of unique entries for each field:
+Number of documents with NA entries (number and percentage) and number of unique entries for each field:
 
 ```{r sumtab, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
-tab <- cbind(available = colSums(!is.na(df)),
+tab <- cbind(docs = colSums(!is.na(df)),
+             percentage = colMeans(!is.na(df)),
       unique = apply(df, 2, function (x) {length(unique(x))}))
 tab <- tab[order(tab[, "available"]), ]
 kable(tab)
@@ -74,7 +75,7 @@ tab <- rev(sort(tab))
 
 Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$topic))` unique topics and `r sum(!is.na(df$topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$topic)))`).
 
-```{r summarytopics22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+```{r summarytopics22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 p <- top_plot(df, "topic", ntop)
 p <- p + ggtitle(paste("Most common topics"))
 p <- p + ylab("Documents")
@@ -86,7 +87,7 @@ print(p)
 
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are `r length(unique(df$author_unique))` unique authors and `r sum(!is.na(df$author_unique))` documents with unambiguous author information (`r round(100*mean(!is.na(df$author_name)))`%).
 
-```{r summaryauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12}
+```{r summaryauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 p <- top_plot(df, "author_unique", ntop)
 p <- p + ggtitle(paste("Top authors"))
 p <- p + ylab("Documents")
@@ -102,21 +103,26 @@ print(p)
 
 ### Gender
 
-Gender distribution for authors over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
-
 [Author genders](output.tables/author_gender_accepted.csv)
 
-[Full name-gender mappings](output.tables/gender_known.csv)
+[Male authors](output.tables/gender_male.csv)
+
+[Female authors](output.tables/gender_male.csv)
 
 [Names with missing gender](output.tables/gender_unknown.csv)
 
 
-```{r summarygender, echo=FALSE, message=FALSE, warning=FALSE}
-tab <- table(df$author_gender)
-round(tab/sum(tab), 3)
+Author gender distribution in the complete data:
+
+```{r summarygender0, echo=FALSE, message=FALSE, warning=FALSE}
+kable(df %>% group_by(author_gender) %>% summarize(docs = n(), fraction = round(100*n()/nrow(df), 2)))
 ```
 
+Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
+
+
 ```{r summarygendertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+tab <- table(df$author_gender)
 dfd <- df %>% group_by(publication_decade) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
 dfy <- df %>% group_by(publication_year) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
 library(sorvi)
@@ -136,6 +142,8 @@ Should also add living year information from supporting sources later.
 [Authors with ambiguous life years](output.tables/author_life_ambiguous.csv)
 
 [Authors with discarded life years](output.tables/author_life_discarded.csv)
+
+[Authors with missing life years](output.tables/author_birth_unknown.csv)
 
 
 ### Life span of uniquely identified top authors
@@ -159,8 +167,6 @@ p <- p + theme(axis.text.y = element_text(size = 9))
 p <- p + xlab("Author life span (year)") + ylab("")
 print(p)
 ```
-
-[Authors with missing life years](output.tables/author_birth_unknown.csv)
 
 ### Publication timeline for top-10 authors
 
@@ -205,11 +211,67 @@ print(p)
 ```
 
 
+
+
+## Publication 
+
+### Publication places
+
+Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+
+[Publication countries](output.tables/publication_country_accepted.csv)
+
+[Publication country missing](output.tables/publication_country_discarded.csv)
+
+[Discarded publication places](output.tables/publication_place_discarded.csv)
+
+[Publication place conversions](output.tables/publication_place_conversions_nontrivial.csv)
+
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
+
+
+```{r summaryplace, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}
+p <- top_plot(df, "publication_place", ntop)
+p <- p + ggtitle(paste("Top publication places"))
+p <- p + scale_y_log10()
+p <- p + ylab("Documents")
+print(p)
+```
+
+
+```{r summaryplace3, echo=FALSE, results='asis'}
+kable(data.frame(n = rev(sort(table(df$publication_country)))), caption = "Publication country counts")
+```
+
+
+### Publishers
+
+```{r summarypublisher, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- rev(sort(table(str_trim(unlist(df$publisher)))))
+```
+
+The `r ntop` most common publishers are shown with the number of documents. Publisher information is available for `r sum(!is.na(df$publisher))` documents (`r round(100*mean(!is.na(df$publisher)))`%). There are `r length(tab)` unique publisher names (some may be synonymes, though).
+
+
+```{r summarypublisher2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=9}
+p <- top_plot(df, "publisher", ntop)
+p <- p + ggtitle(paste("Top publishers"))
+p <- p + scale_y_log10()
+p <- p + ylab("Documents")
+print(p)
+```
+
+
+[Publishers accepted](output.tables/publisher_accepted.csv)
+
+[Publishers discarded](output.tables/publisher_discarded.csv)
+
+
 ### Publication timeline for top-10 publishers
 
 Title count
 
-```{r summaryTop10publisherstimeline, fig.height=30, fig.width=10, echo=FALSE}
+```{r summaryTop10publisherstimeline, fig.height=30, fig.width=10, echo=FALSE, warning=FALSE}
 top10 <- na.omit(names(sort(table(df$publisher), decreasing = TRUE)))[1:10]
 dfs <- filter(df, publisher %in% top10)
 dfs <- group_by(dfs, publisher, publication_year) %>% summarize(ndoc = n())
@@ -244,62 +306,6 @@ print(p)
 
 
 
-## Publication 
-
-### Publication places
-
-Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` unique publication places. Overall `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
-
-[Publication countries](output.tables/country_accepted.csv)
-
-[Publication country missing](output.tables/country_missing.csv)
-
-[Discarded publication places](output.tables/publication_place_discarded.csv)
-
-[Publication place conversions](output.tables/publication_place_conversions.csv)
-
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
-
-
-```{r summaryplace, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-p <- top_plot(df, "publication_place", ntop)
-p <- p + ggtitle(paste("Top publication places"))
-p <- p + scale_y_log10()
-p <- p + ylab("Documents")
-print(p)
-```
-
-
-```{r summaryplace3, echo=FALSE, results='asis'}
-kable(data.frame(n = rev(sort(table(df$country)))), caption = "Publication country counts")
-```
-
-
-### Publishers
-
-```{r summarypublisher, echo=FALSE, message=FALSE, warning=FALSE}
-tab <- rev(sort(table(str_trim(unlist(df$publisher)))))
-```
-
-The `r ntop` most common publishers are shown with the number of documents. Publisher information is available for `r sum(!is.na(df$publisher))` documents (`r round(100*mean(!is.na(df$publisher)))`%). There are `r length(tab)` unique publisher names (some may be synonymes, though).
-
-
-```{r summarypublisher2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10}
-p <- top_plot(df, "publisher", ntop)
-p <- p + ggtitle(paste("Top publishers"))
-p <- p + scale_y_log10()
-p <- p + ylab("Documents")
-print(p)
-```
-
-
-[Publishers accepted](output.tables/publisher_accepted.csv)
-
-[Publishers discarded](output.tables/publisher_discarded.csv)
-
-
-
-
 
 ### Publication year
 
@@ -324,7 +330,7 @@ print(p)
 
 
 
-[Publication year conversions](output.tables/publication_year.csv)
+[Publication year conversions](output.tables/publication_year_conversion_table.csv)
 
 [Publication year discarded](output.tables/publication_year_failed.csv)
 
@@ -337,7 +343,7 @@ Top-`r ntop` titles are shown together with the number of documents. This info i
 
 [Publication titles discarded](output.tables/title_discarded.csv)
 
-[Title harmonization table](output.tables/title_conversions.csv)
+[Title harmonization table](output.tables/title_conversions_nontrivial.csv)
 
 ```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 tab <- rev(sort(table(df$title)))
@@ -366,7 +372,9 @@ print(p)
 
 ## Page counts
 
-[Page conversions from raw data to final page count estimates](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pages_accepted.csv)
+[Page conversions from raw data to final page count estimates](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversion_table_brief.csv)
+
+[Page conversions from raw data to final page count estimates with volume info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversion_table_full.csv)
 
 [Discarded page info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentpages-discarded.csv)
 
@@ -376,7 +384,7 @@ print(p)
 
 [Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)
 
-[Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversions.csv)
+[Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversion_table.csv)
 
 
 Document size (area) info in area is available for `r sum(!is.na(df$area))` documents (`r round(100*mean(!is.na(df$area)))`%). Estimates of document size (area) info in gatherings system are available for `r sum(!is.na(df$gatherings))` documents (`r round(100*mean(!is.na(df$gatherings)))`%). 
@@ -416,8 +424,9 @@ print(p)
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
 
-```{r summary-surfacearea, fig.height=10, fig.width=10, echo=FALSE}
-p <- ggplot(df, aes(x = area)) 
+```{r summary-surfacearea, fig.height=8, fig.width=10, echo=FALSE, warning=FALSE, message=FALSE}
+p <- ggplot(df, aes(x = area))
+#bw <- diff(range(na.omit(df$area)))/30
 p <- p + geom_histogram() 
 p <- p + xlab("Document surface area (log10)")
 p <- p + ggtitle("Document dimension (surface area)")
@@ -476,10 +485,10 @@ df3 <- filter(df2, !is.na(height))
 ss <- sheet_sizes()
 df3$gathering.height.estimate <- ss[match(df3$gatherings, ss$gatherings),"height"]
 df4 <- df3 %>% group_by(gatherings, height) %>% tally()
-p <- ggplot(df4, aes(x = gatherings, y = height))
+p <- ggplot(df4, aes(y = gatherings, x = height))
 p <- p + geom_point(aes(size = n))
-p <- p + geom_point(data = unique(df3), aes(x = gatherings, y = gathering.height.estimate), color = "red")
-p <- p + xlab("Gatherings (original)") + ylab("Height (original)") 
+p <- p + geom_point(data = unique(df3), aes(y = gatherings, x = gathering.height.estimate), color = "red")
+p <- p + ylab("Gatherings (original)") + xlab("Height (original)") 
 p <- p + ggtitle("Height comparison")
 print(p)
 ```
@@ -549,7 +558,7 @@ kable(mean.dimensions, caption = "Average document dimensions")
 
 ## Histograms of all entries for numeric variables
 
-```{r summary-histograms, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6, out.width='0.49\\textwidth', fig.show='hold'}
+```{r summary-histograms, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=6}
 numeric.fields <- c("volnumber", "volcount", "pagecount", "width", "height", "area", "author_birth", "author_death", "publication_year", "publication_decade", "latitude", "longitude", "paper.consumption.km2")
 for (field in numeric.fields) {
   df$fieldtoplot <- df[[field]]
@@ -565,11 +574,11 @@ for (field in numeric.fields) {
 
 ## Histograms of the top entries for factor variables
 
-```{r summary-bars, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12}
+```{r summary-bars, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=8}
 factor.fields <- c("title", "topic", "author_name", "gatherings", "obl", "publisher", "publisher.printedfor", "publication_place", "publication_country", "author_unique", "author_gender")
 for (field in factor.fields) {
   df$fieldtoplot <- df[[field]]
-  p <- top_plot(df, "fieldtoplot", ntop)
+  p <- top_plot(df, "fieldtoplot", min(length(unique(df[[field]])), ntop))
   p <- p + ggtitle(paste("Top ", field))
   p <- p + scale_y_log10()
   p <- p + ylab("Documents (log10)")

@@ -25,39 +25,45 @@ Fraction of documents with entries for each annotation field (final preprocessed
 
 ![plot of chunk summaryannotations](figure/summaryannotations-1.png) 
 
-Number of documents with NA entries and number of unique entries for each field:
+Number of documents with NA entries (number and percentage) and number of unique entries for each field:
 
 
-|                      | available| unique|
-|:---------------------|---------:|------:|
-|volnumber             |       156|     15|
-|author_birth          |     15338|    351|
-|author_death          |     15953|    370|
-|author_gender         |     16899|      3|
-|author_name           |     18231|   6097|
-|author_unique         |     19421|   6756|
-|topic                 |     21965|   7065|
-|publisher             |     42460|  22255|
-|latitude              |     44951|    133|
-|longitude             |     44951|    133|
-|paper.consumption.km2 |     48056|   2816|
-|width                 |     48091|     52|
-|height                |     48091|     47|
-|area                  |     48091|    299|
-|publication_country   |     48291|     32|
-|pagecount.orig        |     48677|    939|
-|publication_place     |     49784|    411|
-|publication_decade    |     49888|     43|
-|publication_year      |     49913|    327|
-|volcount              |     50121|    109|
-|pagecount             |     50232|    998|
-|language              |     50270|     21|
-|row.index             |     50277|  50277|
-|original_row          |     50277|  50277|
-|title                 |     50277|  41289|
-|gatherings            |     50277|     16|
-|obl                   |     50277|      2|
-|unity                 |     50277|      1|
+```
+## Error in tab[, "available"]: subscript out of bounds
+```
+
+
+
+|                      |  docs| percentage| unique|
+|:---------------------|-----:|----------:|------:|
+|row.index             | 50277|  1.0000000|  50277|
+|original_row          | 50277|  1.0000000|  50277|
+|language              | 50270|  0.9998608|     21|
+|title                 | 50277|  1.0000000|  41289|
+|topic                 | 21965|  0.4368797|   7065|
+|volnumber             |   156|  0.0031028|     15|
+|volcount              | 50121|  0.9968972|    109|
+|author_name           | 18231|  0.3626111|   6097|
+|pagecount             | 50232|  0.9991050|    998|
+|publication_place     | 49784|  0.9901943|    411|
+|gatherings            | 50277|  1.0000000|     16|
+|width                 | 48091|  0.9565209|     52|
+|height                | 48091|  0.9565209|     47|
+|obl                   | 50277|  1.0000000|      2|
+|area                  | 48091|  0.9565209|    299|
+|publisher             | 42460|  0.8445214|  22255|
+|author_birth          | 15338|  0.3050699|    351|
+|author_death          | 15953|  0.3173021|    370|
+|publication_year      | 49913|  0.9927601|    327|
+|unity                 | 50277|  1.0000000|      1|
+|publication_decade    | 49888|  0.9922629|     43|
+|latitude              | 44951|  0.8940669|    133|
+|longitude             | 44951|  0.8940669|    133|
+|publication_country   | 48291|  0.9604988|     32|
+|pagecount.orig        | 48677|  0.9681763|    939|
+|author_unique         | 19421|  0.3862800|   6756|
+|author_gender         | 16899|  0.3361179|      3|
+|paper.consumption.km2 | 48056|  0.9558247|   2816|
 
 
 ## Topics
@@ -85,21 +91,26 @@ Top-20 uniquely identified authors and number of documents for each (duplicate d
 
 ### Gender
 
-Gender distribution for authors over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
-
 [Author genders](output.tables/author_gender_accepted.csv)
 
-[Full name-gender mappings](output.tables/gender_known.csv)
+[Male authors](output.tables/gender_male.csv)
+
+[Female authors](output.tables/gender_male.csv)
 
 [Names with missing gender](output.tables/gender_unknown.csv)
 
 
+Author gender distribution in the complete data:
 
-```
-## 
-## female   male 
-##  0.028  0.972
-```
+
+|author_gender |  docs| fraction|
+|:-------------|-----:|--------:|
+|female        |   475|     0.94|
+|male          | 16424|    32.67|
+|NA            | 33378|    66.39|
+
+Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
+
 
 ![plot of chunk summarygendertime](figure/summarygendertime-1.png) 
 
@@ -115,14 +126,14 @@ Should also add living year information from supporting sources later.
 
 [Authors with discarded life years](output.tables/author_life_discarded.csv)
 
+[Authors with missing life years](output.tables/author_birth_unknown.csv)
+
 
 ### Life span of uniquely identified top authors
 
 Ordered by productivity (number of documents))
 
 ![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png) 
-
-[Authors with missing life years](output.tables/author_birth_unknown.csv)
 
 ### Publication timeline for top-10 authors
 
@@ -136,26 +147,82 @@ Paper consumption
 ![plot of chunk summaryTop10authorstimelinepaper](figure/summaryTop10authorstimelinepaper-1.png) 
 
 
+
+
+## Publication 
+
+### Publication places
+
+Top-20 publication places are shown together with the number of documents. This info is available for 49784 documents (99%). There are 411 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+
+[Publication countries](output.tables/publication_country_accepted.csv)
+
+[Publication country missing](output.tables/publication_country_discarded.csv)
+
+[Discarded publication places](output.tables/publication_place_discarded.csv)
+
+[Publication place conversions](output.tables/publication_place_conversions_nontrivial.csv)
+
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
+
+
+![plot of chunk summaryplace](figure/summaryplace-1.png) 
+
+
+
+|            |     n|
+|:-----------|-----:|
+|England     | 38524|
+|Ireland     |  3501|
+|Scotland    |  2863|
+|USA         |  2463|
+|Netherlands |   309|
+|France      |   300|
+|Germany     |    58|
+|Canada      |    52|
+|Switzerland |    45|
+|Belgium     |    42|
+|India       |    40|
+|Jamaica     |    25|
+|Northern    |    10|
+|Barbados    |    10|
+|Italy       |     9|
+|Saint       |     8|
+|Bahamas     |     6|
+|Dominica    |     4|
+|Haiti       |     3|
+|Guadaloupe  |     3|
+|Denmark     |     3|
+|Sweden      |     2|
+|Spain       |     2|
+|Austria     |     2|
+|Walkes      |     1|
+|unknown     |     1|
+|Russia      |     1|
+|Poland      |     1|
+|Guernesey   |     1|
+|Grenada     |     1|
+|Europe      |     1|
+
+
+### Publishers
+
+
+
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 42460 documents (84%). There are 22254 unique publisher names (some may be synonymes, though).
+
+
+![plot of chunk summarypublisher2](figure/summarypublisher2-1.png) 
+
+
+[Publishers accepted](output.tables/publisher_accepted.csv)
+
+[Publishers discarded](output.tables/publisher_discarded.csv)
+
+
 ### Publication timeline for top-10 publishers
 
 Title count
-
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
 
 ![plot of chunk summaryTop10publisherstimeline](figure/summaryTop10publisherstimeline-1.png) 
 
@@ -180,48 +247,6 @@ Paper consumption
 
 
 
-## Publication 
-
-### Publication places
-
-Top-20 publication places are shown together with the number of documents. This info is available for 49784 documents (99%). There are 411 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
-
-[Publication countries](output.tables/country_accepted.csv)
-
-[Publication country missing](output.tables/country_missing.csv)
-
-[Discarded publication places](output.tables/publication_place_discarded.csv)
-
-[Publication place conversions](output.tables/publication_place_conversions.csv)
-
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
-
-
-![plot of chunk summaryplace](figure/summaryplace-1.png) 
-
-
-
-|  n|
-|--:|
-
-
-### Publishers
-
-
-
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 42460 documents (84%). There are 22254 unique publisher names (some may be synonymes, though).
-
-
-![plot of chunk summarypublisher2](figure/summarypublisher2-1.png) 
-
-
-[Publishers accepted](output.tables/publisher_accepted.csv)
-
-[Publishers discarded](output.tables/publisher_discarded.csv)
-
-
-
-
 
 ### Publication year
 
@@ -236,7 +261,7 @@ Zooming in 1470-1799
 
 
 
-[Publication year conversions](output.tables/publication_year.csv)
+[Publication year conversions](output.tables/publication_year_conversion_table.csv)
 
 [Publication year discarded](output.tables/publication_year_failed.csv)
 
@@ -249,7 +274,7 @@ Top-20 titles are shown together with the number of documents. This info is avai
 
 [Publication titles discarded](output.tables/title_discarded.csv)
 
-[Title harmonization table](output.tables/title_conversions.csv)
+[Title harmonization table](output.tables/title_conversions_nontrivial.csv)
 
 ![plot of chunk summarytitle](figure/summarytitle-1.png) 
 
@@ -264,7 +289,9 @@ The 21 unique languages are shown together with the number of documents. This in
 
 ## Page counts
 
-[Page conversions from raw data to final page count estimates](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pages_accepted.csv)
+[Page conversions from raw data to final page count estimates](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversion_table_brief.csv)
+
+[Page conversions from raw data to final page count estimates with volume info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversion_table_full.csv)
 
 [Discarded page info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/documentpages-discarded.csv)
 
@@ -274,7 +301,7 @@ The 21 unique languages are shown together with the number of documents. This in
 
 [Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)
 
-[Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversions.csv)
+[Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimension_conversion_table.csv)
 
 
 Document size (area) info in area is available for 48091 documents (96%). Estimates of document size (area) info in gatherings system are available for 50277 documents (100%). 
@@ -286,11 +313,6 @@ Compare gatherings and area sizes as a quality check. This includes all data; th
 ![plot of chunk summarysizecomp](figure/summarysizecomp-1.png) 
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
-
-
-```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
-```
 
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png) 
 
@@ -352,7 +374,7 @@ Multi-volume documents average page counts are given per volume.
 
 ## Histograms of all entries for numeric variables
 
-<img src="figure/summary-histograms-1.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-2.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-3.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-4.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-5.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-6.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-7.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-8.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-9.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-10.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-11.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-12.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-13.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" />
+![plot of chunk summary-histograms](figure/summary-histograms-1.png) ![plot of chunk summary-histograms](figure/summary-histograms-2.png) ![plot of chunk summary-histograms](figure/summary-histograms-3.png) ![plot of chunk summary-histograms](figure/summary-histograms-4.png) ![plot of chunk summary-histograms](figure/summary-histograms-5.png) ![plot of chunk summary-histograms](figure/summary-histograms-6.png) ![plot of chunk summary-histograms](figure/summary-histograms-7.png) ![plot of chunk summary-histograms](figure/summary-histograms-8.png) ![plot of chunk summary-histograms](figure/summary-histograms-9.png) ![plot of chunk summary-histograms](figure/summary-histograms-10.png) ![plot of chunk summary-histograms](figure/summary-histograms-11.png) ![plot of chunk summary-histograms](figure/summary-histograms-12.png) ![plot of chunk summary-histograms](figure/summary-histograms-13.png) 
 
 ## Histograms of the top entries for factor variables
 
@@ -410,21 +432,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart4b44756b2cce&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart663a328575af&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart4b44756b2cce()
+      drawchart663a328575af()
     });
-    function drawchart4b44756b2cce(){  
+    function drawchart663a328575af(){  
       var opts = {
- &quot;dom&quot;: &quot;chart4b44756b2cce&quot;,
+ &quot;dom&quot;: &quot;chart663a328575af&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart4b44756b2cce&quot; 
+&quot;id&quot;: &quot;chart663a328575af&quot; 
 },
         data = [
  {
@@ -575,7 +597,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart4b44756b2cce'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart663a328575af'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
