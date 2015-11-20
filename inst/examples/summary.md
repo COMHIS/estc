@@ -72,15 +72,18 @@ Top-20 topics and number of documents for each. In total, there are 7065 unique 
 
 ## Authors
 
-Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6756 unique authors and 19421 documents with unambiguous author information (36%).
-
-![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
-
 [Discarded author names](output.tables/author_name_discarded.csv)
 
 [Discarded author first names](output.tables/author_name_discarded_first.csv)
 
 [Discarded author last names](output.tables/author_name_discarded_last.csv)
+
+
+Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6756 unique authors and 19421 documents with unambiguous author information (36%).
+
+
+![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
+
 
 
 ### Gender
@@ -147,8 +150,6 @@ Paper consumption
 
 ### Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 49784 documents (99%). There are 411 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
-
 [Publication countries](output.tables/publication_country_accepted.csv)
 
 [Publication country missing](output.tables/publication_country_discarded.csv)
@@ -158,6 +159,9 @@ Top-20 publication places are shown together with the number of documents. This 
 [Publication place conversions](output.tables/publication_place_conversions_nontrivial.csv)
 
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
+
+
+Top-20 publication places are shown together with the number of documents. This info is available for 49784 documents (99%). There are 411 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 ![plot of chunk summaryplace](figure/summaryplace-1.png) 
@@ -201,17 +205,17 @@ Top-20 publication places are shown together with the number of documents. This 
 
 ### Publishers
 
+[Publishers accepted](output.tables/publisher_accepted.csv)
+
+[Publishers discarded](output.tables/publisher_discarded.csv)
+
+
 
 
 The 20 most common publishers are shown with the number of documents. Publisher information is available for 42460 documents (84%). There are 22254 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png) 
-
-
-[Publishers accepted](output.tables/publisher_accepted.csv)
-
-[Publishers discarded](output.tables/publisher_discarded.csv)
 
 
 ### Publication timeline for top-10 publishers
@@ -223,26 +227,15 @@ Title count
 
 Paper consumption
 
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
 ![plot of chunk summaryTop10publisherstimelinepaper](figure/summaryTop10publisherstimelinepaper-1.png) 
 
 
-
-
-
 ### Publication year
+
+
+[Publication year conversions](output.tables/publication_year_conversion_table.csv)
+
+[Publication year discarded](output.tables/publication_year_failed.csv)
 
 Publication year is available for 49913 documents (99%). The publication years span 0-1799
 
@@ -253,22 +246,16 @@ Zooming in 1470-1799
 ![plot of chunk summarypublicationyear2](figure/summarypublicationyear2-1.png) 
 
 
-
-
-[Publication year conversions](output.tables/publication_year_conversion_table.csv)
-
-[Publication year discarded](output.tables/publication_year_failed.csv)
-
-
 ### Titles
-
-Top-20 titles are shown together with the number of documents. This info is available for 50277 documents (100%). There are 41289 unique titles.
 
 [Publication titles](output.tables/title_accepted.csv)
 
 [Publication titles discarded](output.tables/title_discarded.csv)
 
 [Title harmonization table](output.tables/title_conversions_nontrivial.csv)
+
+Top-20 titles are shown together with the number of documents. This info is available for 50277 documents (100%). There are 41289 unique titles.
+
 
 ![plot of chunk summarytitle](figure/summarytitle-1.png) 
 
@@ -381,18 +368,6 @@ Multi-volume documents average page counts are given per volume.
 ![plot of chunk summary-bars](figure/summary-bars-6.png) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!--
 ### Testing rCharts example - perhaps only in HTML with knit2html
 <iframe srcdoc=' &lt;!doctype HTML&gt;
@@ -426,21 +401,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart663a187416e2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart663a1077b26e&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart663a187416e2()
+      drawchart663a1077b26e()
     });
-    function drawchart663a187416e2(){  
+    function drawchart663a1077b26e(){  
       var opts = {
- &quot;dom&quot;: &quot;chart663a187416e2&quot;,
+ &quot;dom&quot;: &quot;chart663a1077b26e&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart663a187416e2&quot; 
+&quot;id&quot;: &quot;chart663a1077b26e&quot; 
 },
         data = [
  {
@@ -591,7 +566,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart663a187416e2'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart663a1077b26e'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
