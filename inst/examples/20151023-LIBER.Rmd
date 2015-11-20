@@ -380,7 +380,7 @@ print(p)
 
 ### Paper consumption in books (balls) versus pamphlets (triangles), 1470-1800
 
-```{r 20151023LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
+```{r 20151023LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
 df2 <- df
 df2$document.type <- rep(NA, nrow(df2))
 df2$document.type[df2$pagecount > 32] <- "book"

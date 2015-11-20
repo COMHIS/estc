@@ -558,7 +558,7 @@ kable(mean.dimensions, caption = "Average document dimensions")
 
 ## Histograms of all entries for numeric variables
 
-```{r summary-histograms, echo=FALSE, message=FALSE, warning=FALSE, fig.width=7, fig.height=5}
+```{r summary-histograms, echo=FALSE, message=FALSE, warning=FALSE, fig.width=7, fig.height=4}
 numeric.fields <- c("volnumber", "volcount", "pagecount", "width", "height", "area", "author_birth", "author_death", "publication_year", "publication_decade", "latitude", "longitude", "paper.consumption.km2")
 for (field in numeric.fields) {
   df$fieldtoplot <- df[[field]]
@@ -574,8 +574,8 @@ for (field in numeric.fields) {
 
 ## Histograms of the top entries for factor variables
 
-```{r summary-bars, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=7}
-factor.fields <- c("title", "topic", "author_name", "gatherings", "obl", "publisher", "publisher.printedfor", "publication_place", "publication_country", "author_unique", "author_gender")
+```{r summary-bars, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=7}
+factor.fields <- c("title", "topic", "author_name", "gatherings", "obl", "publisher", "publication_place", "publication_country", "author_unique", "author_gender")
 for (field in factor.fields) {
   df$fieldtoplot <- df[[field]]
   n <- min(length(unique(df[[field]])), ntop)
