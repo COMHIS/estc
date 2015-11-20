@@ -53,8 +53,7 @@ print("Estimate number of separate parts in a document")
 # df <- cbind(df, tmp)
 
 print("Publisher")
-pub <- polish_publisher(df.orig$publisher)
-df$publisher <- pub$name
+df$publisher <- polish_publisher(df.orig$publisher)
 
 # ---------------------------------------
 

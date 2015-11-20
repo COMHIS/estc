@@ -61,7 +61,7 @@ dfs <- filter(df.preprocessed, !is.na(author_birth) & !is.na(author_death))
 theme_set(theme_bw(50))
 selected.authors <- c("Prynne, William (1600-1669)", "Defoe, Daniel (1661-1731)", "Hume, David (1711-1776)", "Hume, David (1560-1630)")
 top <- na.omit(names(rev(sort(table(dfs$author_unique)))))[1:20]
-top <- c(top, "hume, david (1560-1630)")
+top <- c(top, "Hume, David (1560-1630)")
 dfs <- filter(dfs, author_unique %in% top)
 p <- top_plot(dfs, "author_unique", ntop = 30, highlight = selected.authors)
 p <- p + guides(fill = "none")
@@ -80,7 +80,6 @@ The visualization also reveals ambiguities arising from authors having the same 
 theme_set(theme_bw(20))
 dfa <- dfs[, c("author_name", "author_unique", "author_birth", "author_death")]
 dfa <- dfa[!duplicated(dfa), ]
-#dfa <- dfa[match(names(a), dfa$author_name),]
 dfa <- arrange(dfa, author_birth)
 # Order authors by birth year
 dfa$author_name <- factor(dfa$author_name, levels = unique(dfa$author_name))
@@ -112,7 +111,7 @@ dfs <- df.preprocessed %>%
 	 arrange(publication_decade)
 
 # Rearrange author levels
-dfs$author_unique <- factor(dfs$author_unique, levels = c("prynne, william (1600-1669)", "hume, david (1560-1630)", "defoe, daniel (1661-1731)", "hume, david (1711-1776)"))
+dfs$author_unique <- factor(dfs$author_unique, levels = c("Prynne, William (1600-1669)", "Hume, David (1560-1630)", "Defoe, Daniel (1661-1731)", "Hume, David (1711-1776)"))
 theme_set(theme_bw(20))
 
 # Barplot version
@@ -424,7 +423,7 @@ print(p)
 
 ```{r 20151023LIBER-3b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=7}
 library(tidyr)
-dfs <- df
+dfs <- df.preprocessed
 
 # 2long/2fo/2small -> folio; 8vo -> octavo
 dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),

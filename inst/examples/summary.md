@@ -37,6 +37,7 @@ Number of documents with NA entries and number of unique entries for each field:
 |author_name           |     18231|   6097|
 |author_unique         |     19421|   6756|
 |topic                 |     21965|   7065|
+|publisher             |     42460|  22255|
 |latitude              |     44951|    133|
 |longitude             |     44951|    133|
 |paper.consumption.km2 |     48056|   2816|
@@ -45,7 +46,6 @@ Number of documents with NA entries and number of unique entries for each field:
 |area                  |     48091|    299|
 |publication_country   |     48291|     32|
 |pagecount.orig        |     48677|    939|
-|publisher             |     49366|  22256|
 |publication_place     |     49784|    411|
 |publication_decade    |     49888|     43|
 |publication_year      |     49913|    327|
@@ -116,11 +116,6 @@ Should also add living year information from supporting sources later.
 [Authors with discarded life years](output.tables/author_life_discarded.csv)
 
 
-|author_name | author_birth| author_death|
-|:-----------|------------:|------------:|
-
-
-
 ### Life span of uniquely identified top authors
 
 Ordered by productivity (number of documents))
@@ -180,10 +175,6 @@ Paper consumption
 ## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
 ![plot of chunk summaryTop10publisherstimelinepaper](figure/summaryTop10publisherstimelinepaper-1.png) 
 
 
@@ -213,13 +204,12 @@ Top-20 publication places are shown together with the number of documents. This 
 |  n|
 |--:|
 
-![plot of chunk summaryplacemissinggeo](figure/summaryplacemissinggeo-1.png) 
 
 ### Publishers
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 49366 documents (98%). There are 22255 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 42460 documents (84%). There are 22254 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png) 
@@ -293,14 +283,7 @@ Document size (area) info in area is available for 48091 documents (96%). Estima
 
 Compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
-
-```
-## Error in data.frame(indices, value = values): arguments imply differing number of rows: 4, 0
-```
-
-```
-## Error in Math.factor(x, base): 'log' not meaningful for factors
-```
+![plot of chunk summarysizecomp](figure/summarysizecomp-1.png) 
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
 
@@ -369,7 +352,7 @@ Multi-volume documents average page counts are given per volume.
 
 ## Histograms of all entries for numeric variables
 
-![plot of chunk summary-histograms](figure/summary-histograms-1.png) ![plot of chunk summary-histograms](figure/summary-histograms-2.png) ![plot of chunk summary-histograms](figure/summary-histograms-3.png) ![plot of chunk summary-histograms](figure/summary-histograms-4.png) ![plot of chunk summary-histograms](figure/summary-histograms-5.png) ![plot of chunk summary-histograms](figure/summary-histograms-6.png) ![plot of chunk summary-histograms](figure/summary-histograms-7.png) ![plot of chunk summary-histograms](figure/summary-histograms-8.png) ![plot of chunk summary-histograms](figure/summary-histograms-9.png) ![plot of chunk summary-histograms](figure/summary-histograms-10.png) ![plot of chunk summary-histograms](figure/summary-histograms-11.png) ![plot of chunk summary-histograms](figure/summary-histograms-12.png) ![plot of chunk summary-histograms](figure/summary-histograms-13.png) 
+<img src="figure/summary-histograms-1.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-2.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-3.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-4.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-5.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-6.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-7.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-8.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-9.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-10.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-11.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-12.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" /><img src="figure/summary-histograms-13.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="0.49\textwidth" />
 
 ## Histograms of the top entries for factor variables
 
@@ -427,21 +410,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart27d7685d3ef2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart4b44756b2cce&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart27d7685d3ef2()
+      drawchart4b44756b2cce()
     });
-    function drawchart27d7685d3ef2(){  
+    function drawchart4b44756b2cce(){  
       var opts = {
- &quot;dom&quot;: &quot;chart27d7685d3ef2&quot;,
+ &quot;dom&quot;: &quot;chart4b44756b2cce&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart27d7685d3ef2&quot; 
+&quot;id&quot;: &quot;chart4b44756b2cce&quot; 
 },
         data = [
  {
@@ -592,7 +575,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart27d7685d3ef2'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart4b44756b2cce'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
