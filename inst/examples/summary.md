@@ -28,42 +28,36 @@ Fraction of documents with entries for each annotation field (final preprocessed
 Number of documents with NA entries (number and percentage) and number of unique entries for each field:
 
 
-```
-## Error in tab[, "available"]: subscript out of bounds
-```
-
-
-
 |                      |  docs| percentage| unique|
 |:---------------------|-----:|----------:|------:|
-|row.index             | 50277|  1.0000000|  50277|
-|original_row          | 50277|  1.0000000|  50277|
-|language              | 50270|  0.9998608|     21|
-|title                 | 50277|  1.0000000|  41289|
-|topic                 | 21965|  0.4368797|   7065|
 |volnumber             |   156|  0.0031028|     15|
-|volcount              | 50121|  0.9968972|    109|
-|author_name           | 18231|  0.3626111|   6097|
-|pagecount             | 50232|  0.9991050|    998|
-|publication_place     | 49784|  0.9901943|    411|
-|gatherings            | 50277|  1.0000000|     16|
-|width                 | 48091|  0.9565209|     52|
-|height                | 48091|  0.9565209|     47|
-|obl                   | 50277|  1.0000000|      2|
-|area                  | 48091|  0.9565209|    299|
-|publisher             | 42460|  0.8445214|  22255|
 |author_birth          | 15338|  0.3050699|    351|
 |author_death          | 15953|  0.3173021|    370|
-|publication_year      | 49913|  0.9927601|    327|
-|unity                 | 50277|  1.0000000|      1|
-|publication_decade    | 49888|  0.9922629|     43|
+|author_gender         | 16899|  0.3361179|      3|
+|author_name           | 18231|  0.3626111|   6097|
+|author_unique         | 19421|  0.3862800|   6756|
+|topic                 | 21965|  0.4368797|   7065|
+|publisher             | 42460|  0.8445214|  22255|
 |latitude              | 44951|  0.8940669|    133|
 |longitude             | 44951|  0.8940669|    133|
+|paper.consumption.km2 | 48056|  0.9558247|   2816|
+|width                 | 48091|  0.9565209|     52|
+|height                | 48091|  0.9565209|     47|
+|area                  | 48091|  0.9565209|    299|
 |publication_country   | 48291|  0.9604988|     32|
 |pagecount.orig        | 48677|  0.9681763|    939|
-|author_unique         | 19421|  0.3862800|   6756|
-|author_gender         | 16899|  0.3361179|      3|
-|paper.consumption.km2 | 48056|  0.9558247|   2816|
+|publication_place     | 49784|  0.9901943|    411|
+|publication_decade    | 49888|  0.9922629|     43|
+|publication_year      | 49913|  0.9927601|    327|
+|volcount              | 50121|  0.9968972|    109|
+|pagecount             | 50232|  0.9991050|    998|
+|language              | 50270|  0.9998608|     21|
+|row.index             | 50277|  1.0000000|  50277|
+|original_row          | 50277|  1.0000000|  50277|
+|title                 | 50277|  1.0000000|  41289|
+|gatherings            | 50277|  1.0000000|     16|
+|obl                   | 50277|  1.0000000|      2|
+|unity                 | 50277|  1.0000000|      1|
 
 
 ## Topics
@@ -432,21 +426,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart663a3d70a47b&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart663a187416e2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart663a3d70a47b()
+      drawchart663a187416e2()
     });
-    function drawchart663a3d70a47b(){  
+    function drawchart663a187416e2(){  
       var opts = {
- &quot;dom&quot;: &quot;chart663a3d70a47b&quot;,
+ &quot;dom&quot;: &quot;chart663a187416e2&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart663a3d70a47b&quot; 
+&quot;id&quot;: &quot;chart663a187416e2&quot; 
 },
         data = [
  {
@@ -597,7 +591,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart663a3d70a47b'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart663a187416e2'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

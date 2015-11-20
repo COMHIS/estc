@@ -55,7 +55,7 @@ Number of documents with NA entries (number and percentage) and number of unique
 tab <- cbind(docs = colSums(!is.na(df)),
              percentage = colMeans(!is.na(df)),
       unique = apply(df, 2, function (x) {length(unique(x))}))
-tab <- tab[order(tab[, "available"]), ]
+tab <- tab[order(tab[, "docs"]), ]
 kable(tab)
 ```
 
@@ -85,7 +85,15 @@ print(p)
 
 ## Authors
 
+[Discarded author names](output.tables/author_name_discarded.csv)
+
+[Discarded author first names](output.tables/author_name_discarded_first.csv)
+
+[Discarded author last names](output.tables/author_name_discarded_last.csv)
+
+
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are `r length(unique(df$author_unique))` unique authors and `r sum(!is.na(df$author_unique))` documents with unambiguous author information (`r round(100*mean(!is.na(df$author_name)))`%).
+
 
 ```{r summaryauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 p <- top_plot(df, "author_unique", ntop)
@@ -94,11 +102,6 @@ p <- p + ylab("Documents")
 print(p)
 ```
 
-[Discarded author names](output.tables/author_name_discarded.csv)
-
-[Discarded author first names](output.tables/author_name_discarded_first.csv)
-
-[Discarded author last names](output.tables/author_name_discarded_last.csv)
 
 
 ### Gender
