@@ -38,19 +38,19 @@ Number of documents with NA entries (number and percentage) and number of unique
 |author_unique         | 18231|  0.3626111|   6450|
 |topic                 | 21965|  0.4368797|   7065|
 |publisher             | 42460|  0.8445214|  22255|
-|latitude              | 44951|  0.8940669|    133|
-|longitude             | 44951|  0.8940669|    133|
-|paper.consumption.km2 | 48056|  0.9558247|   2816|
+|latitude              | 44950|  0.8940470|    132|
+|longitude             | 44950|  0.8940470|    132|
+|paper.consumption.km2 | 48056|  0.9558247|   2814|
 |width                 | 48091|  0.9565209|     52|
 |height                | 48091|  0.9565209|     47|
 |area                  | 48091|  0.9565209|    299|
-|publication_country   | 48291|  0.9604988|     32|
-|pagecount.orig        | 48677|  0.9681763|    939|
-|publication_place     | 49784|  0.9901943|    411|
+|publication_country   | 48349|  0.9616524|     32|
+|pagecount.orig        | 48679|  0.9682161|    938|
+|publication_place     | 49785|  0.9902142|    410|
 |publication_decade    | 49888|  0.9922629|     43|
 |publication_year      | 49913|  0.9927601|    327|
 |volcount              | 50121|  0.9968972|    109|
-|pagecount             | 50232|  0.9991050|    998|
+|pagecount             | 50232|  0.9991050|    997|
 |language              | 50270|  0.9998608|     21|
 |row.index             | 50277|  1.0000000|  50277|
 |original_row          | 50277|  1.0000000|  50277|
@@ -161,7 +161,7 @@ Paper consumption
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 49784 documents (99%). There are 411 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 49785 documents (99%). There are 410 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 ![plot of chunk summaryplace](figure/summaryplace-1.png) 
@@ -170,16 +170,16 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |            |     n|
 |:-----------|-----:|
-|England     | 38524|
+|England     | 38525|
 |Ireland     |  3501|
 |Scotland    |  2863|
-|USA         |  2463|
+|USA         |  2519|
 |Netherlands |   309|
 |France      |   300|
 |Germany     |    58|
 |Canada      |    52|
 |Switzerland |    45|
-|Belgium     |    42|
+|Belgium     |    43|
 |India       |    40|
 |Jamaica     |    25|
 |Northern    |    10|
@@ -299,7 +299,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 
 
 
-Compare gatherings and page counts. Page count information is estimated for -1555 documents and updated (changed) for 1093 documents. 
+Compare gatherings and page counts. Page count information is estimated for -1553 documents and updated (changed) for 1093 documents. 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
 
@@ -314,14 +314,14 @@ Multi-volume documents average page counts are given per volume.
 
 |doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|1to           |             2.481936|                      2|        4249|                  NA|                    NA|         NA|         10.43590|                  8|      39|
+|1to           |             2.482172|                      2|        4249|                  NA|                    NA|         NA|         10.43590|                  8|      39|
 |2long         |             7.714286|                      5|           8|                  NA|                    NA|         NA|         23.00000|                 23|       1|
-|2fo           |            61.819404|                      4|       11532|            724.6260|              716.0000|         46|         16.83934|                 12|    1942|
+|2fo           |            61.818905|                      4|       11532|            724.6260|              716.0000|         46|         16.83934|                 12|    1942|
 |4long         |             5.000000|                      5|           4|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4to           |            43.761757|                     12|       16528|            412.8611|              439.0000|         27|         15.87323|                  8|   12187|
-|8vo           |           143.591194|                     68|       11599|            406.7586|              413.3333|        181|         28.46772|                 28|    3810|
+|4to           |            43.762006|                     12|       16528|            412.8611|              439.0000|         27|         15.87355|                  8|   12187|
+|8vo           |           143.595379|                     68|       11599|            406.7889|              413.3333|        181|         28.47034|                 28|    3810|
 |12long        |            67.000000|                     50|          10|             24.0000|               24.0000|          1|         28.80000|                 24|       5|
-|12mo          |           184.148054|                    162|        3021|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
+|12mo          |           184.150964|                    162|        3021|            260.5657|              211.0000|         47|         26.26923|                 24|     520|
 |16mo          |           163.645570|                    116|          81|                  NA|                    NA|         NA|         30.46154|                 24|      13|
 |18mo          |           177.575758|                    158|          33|            172.0000|              172.0000|          1|         41.00000|                 41|       2|
 |24long        |           244.000000|                    244|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
@@ -343,8 +343,8 @@ Multi-volume documents average page counts are given per volume.
 
 |gatherings | mean.height| median.height| mean.width| median.width|     n|
 |:----------|-----------:|-------------:|----------:|------------:|-----:|
-|1to        |    59.97152|      59.97152|   89.95575|     89.95575|  3616|
-|2fo        |    31.37527|      31.37527|   47.09737|     47.09737| 12170|
+|1to        |    59.97151|      59.97151|   89.95574|     89.95574|  3615|
+|2fo        |    31.37762|      31.37762|   47.10090|     47.10090| 12171|
 |4to        |    21.91628|      21.91628|   27.87294|     27.87294| 16543|
 |8vo        |    13.01510|      13.01510|   19.02952|     19.02952| 11719|
 |12mo       |    12.49440|      12.49440|   18.98666|     18.98666|  3035|
@@ -395,21 +395,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart24db4b6d4e13&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart56de208d7aa&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart24db4b6d4e13()
+      drawchart56de208d7aa()
     });
-    function drawchart24db4b6d4e13(){  
+    function drawchart56de208d7aa(){  
       var opts = {
- &quot;dom&quot;: &quot;chart24db4b6d4e13&quot;,
+ &quot;dom&quot;: &quot;chart56de208d7aa&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart24db4b6d4e13&quot; 
+&quot;id&quot;: &quot;chart56de208d7aa&quot; 
 },
         data = [
  {
@@ -560,7 +560,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart24db4b6d4e13'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart56de208d7aa'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 
