@@ -1,7 +1,7 @@
 Package: estc
 Type: Package
 Title: British Library ESTC Document Collection Toolkit
-Version: 0.1.33
+Version: 0.1.34
 Date: 2015-11-23
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
