@@ -33,9 +33,9 @@ Number of documents with NA entries (number and percentage) and number of unique
 |volnumber             |   156|  0.0031028|     15|
 |author_birth          | 15486|  0.3080136|    351|
 |author_death          | 16029|  0.3188138|    370|
-|author_gender         | 16899|  0.3361179|      3|
-|author_name           | 18231|  0.3626111|   6097|
-|author_unique         | 18231|  0.3626111|   6450|
+|author_gender         | 16900|  0.3361378|      3|
+|author_name           | 18232|  0.3626310|   6098|
+|author_unique         | 18232|  0.3626310|   6451|
 |topic                 | 21965|  0.4368797|   7065|
 |publisher             | 42460|  0.8445214|  22255|
 |latitude              | 44950|  0.8940470|    132|
@@ -79,7 +79,7 @@ Top-20 topics and number of documents for each. In total, there are 7065 unique 
 [Discarded author last names](output.tables/author_name_discarded_last.csv)
 
 
-Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6450 unique authors and 18231 documents with unambiguous author information (36%).
+Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6451 unique authors and 18232 documents with unambiguous author information (36%).
 
 
 ![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
@@ -103,8 +103,8 @@ Author gender distribution in the complete data:
 |author_gender |  docs| fraction|
 |:-------------|-----:|--------:|
 |female        |   475|     0.94|
-|male          | 16424|    32.67|
-|NA            | 33378|    66.39|
+|male          | 16425|    32.67|
+|NA            | 33377|    66.39|
 
 Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
 
@@ -395,21 +395,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart56de208d7aa&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart24ea6e87a4d1&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart56de208d7aa()
+      drawchart24ea6e87a4d1()
     });
-    function drawchart56de208d7aa(){  
+    function drawchart24ea6e87a4d1(){  
       var opts = {
- &quot;dom&quot;: &quot;chart56de208d7aa&quot;,
+ &quot;dom&quot;: &quot;chart24ea6e87a4d1&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart56de208d7aa&quot; 
+&quot;id&quot;: &quot;chart24ea6e87a4d1&quot; 
 },
         data = [
  {
@@ -560,7 +560,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart56de208d7aa'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart24ea6e87a4d1'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

@@ -20,10 +20,9 @@ print("Volume count")
 df$volcount <- unname(polish_volumecount(df.orig$physical_extent))
 
 print("Arrange author first and last names in a table")
-tmp <- polish_author(df.orig$author_name)
 # Add full author name (Last, First) to our data
+tmp <- polish_author(df.orig$author_name, validate = TRUE)
 df$author_name <- tmp$names$full
-
 # Write invalid author names to file for a later check
 for (db in c("first", "last")) {
   fnam <- paste(output.folder, "author_name_discarded_", db, ".csv", sep = "")
