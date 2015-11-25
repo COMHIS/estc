@@ -10,7 +10,7 @@ df$author_birth <- add_missing_entries(df, info, id = "author_name", field = "au
 df$author_death <- add_missing_entries(df, info, id = "author_name", field = "author_death") 
 
 print("Unique author identifier by combining name, birth and death years")
-df$author_unique <- as.factor(author_unique(df))
+df$author_unique <- author_unique(df, initialize.first = FALSE)
 
 print("Harmonize ambiguous authors")
 df$author_unique <- harmonize_names(df$author_unique, ambiguous_authors_table())$name

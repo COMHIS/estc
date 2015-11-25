@@ -26,7 +26,7 @@ df$author_name <- tmp$names$full
 # Write invalid author names to file for a later check
 for (db in c("first", "last")) {
   fnam <- paste(output.folder, "author_name_discarded_", db, ".csv", sep = "")
-  write.table(tmp$invalid[[db]], file = fnam, quote = FALSE, sep = "\t", row.names = FALSE)
+  write_xtable(tmp$invalid[[db]], file = fnam, count = TRUE)
 }
 
 print("Number of pages")
