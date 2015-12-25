@@ -31,7 +31,7 @@ other R packages. We are also working on similar tools for Finnish data collecti
 
 ### Acknowledgements
 
-Authors: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](https://github.com/NVI/), [Mikko Tolonen](). Part of [rOpenGov](http://ropengov.github.io/).
+Authors: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](https://github.com/NVI/), [Mikko Tolonen](https://github.com/orgs/rOpenGov/people/tolonen). Part of [rOpenGov](http://ropengov.github.io/).
 
 
 You are welcome to:
