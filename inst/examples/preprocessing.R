@@ -71,6 +71,7 @@ df$publication_year[df$publication_year > 2000] <- NA
 tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
 
 # Failed conversions
+# TODO can be improved considerably
 x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
 tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
 
