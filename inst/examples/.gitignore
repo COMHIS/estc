@@ -1,3 +1,6 @@
+*.RData
+*~
+places.geonames.RData
 ggmapTemp.png
 output.tables/missinggeocoordinates.csv
 .cache
@@ -16,7 +19,7 @@ tmp*
 peak1642.tab
 .Rhistory
 *.pdf
-estc.csv
+estc*.csv
 *.mp4
 
 

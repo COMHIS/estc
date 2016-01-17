@@ -1,14 +1,10 @@
 #' @title get_geocoordinates
 #' @description Geocoordinate table
-#'
 #' @param ... Arguments to be passed
 #' @return data.frame
-#'
 #' @export
-#'
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples # x2 <- get_geocoorcinates()
 #' @keywords utilities
 get_geocoordinates <- function (...) {

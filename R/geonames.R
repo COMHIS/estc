@@ -1,21 +1,14 @@
-
-#' Download geonames data sets.
-#'
+#' @title get_geonames
+#' @description Download geonames data sets.
 #' @param dataset Name of the geonames data set to download (for instance "cities1000")
 #' @param download.dir Optional. Specify download directory.
-#'
 #' @return Polished data frame
-#'
 #' @details For the data fields descriptions, see: http://download.geonames.org/export/dump/
-#'
 #' @export
-#' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples \dontrun{geonames <- get_geonames("cities1000")}
 #' @keywords utilities
-
 get_geonames <- function (dataset = "cities1000", download.dir = NULL) {
 
   # Create temporary directory if download folder is not specified

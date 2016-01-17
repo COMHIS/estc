@@ -1,53 +1,17 @@
-
 # Download geonames data (city coordinates etc)
-geonames <- get_geonames("cities1000", tempdir())
-geon <- geonames[, c("name", "asciiname", "alternatenames")]
-gs <- geonames[, c("asciiname", "alternatenames")]
-names(gs) <- c("name", "synonymes")
-source("funcs.R")
-geon <- synonyme_list2df(gs, sep = ",", include.lowercase = TRUE)
-
+#geonames <- get_geonames("cities1000", tempdir())
+#save(geonames, file = "geonames.RData")
+load("geonames.RData")
 
 # Match publication places to geonames
 # First match all based on asciiname, then name, only then synonymes.
 # Otherwise too many mismatches with identical city names from different
 # continents
-
 places <- sort(as.character(unique(df$publication_place)))
-
-places.geonames <- c()
-
-for (place in places) {
-
-  print(place)
-
-  asciiname <- as.character(unique(geonames[geonames$asciiname == place, "asciiname"]))
-  if (length(asciiname) == 0 || is.na(asciiname)) {
-    asciiname <- as.character(unique(geonames[geonames$name == place, "asciiname"]))
-  }
-  if (length(asciiname) == 0 || is.na(asciiname)) {  
-    asciiname <- as.character(harmonize_names(place, geon, remove.unknown = TRUE, check.synonymes = FALSE)$name)
-  }
-  if (length(asciiname) == 0 || is.na(asciiname)) {    
-    # Drop the last part of the name to geonames if match was not found
-    # "New York N.Y" -> "New York" etc.
-    spl <- strsplit(place, " ")
-    place2 <- paste(spl[-length(spl)], collapse = " ")
-    asciiname <- harmonize_names(place2, geon, remove.unknown = TRUE, check.synonymes = FALSE)$name
-  }
-
-  # Now all places are matched with geonames.
-  # Hopefully they match to correct continents etc.
-  inds <- which(geonames$asciiname == asciiname)
-
-  if (length(inds) == 1) {
-    places.geonames[[place]] <- asciiname
-  } else {
-    # If the place is ambiguous then use the most common one
-    # places.geonames[[place]] <- names(rev(sort(table(pl))))[[1]]
-    # If the place is ambiguous then use ""
-    places.geonames[[place]] <- NA
-  }
+load("places.geonames.RData") # places.geonames
+if (!length(places.geonames) == length(places)) {
+  places.geonames <- estc::match_geonames(places, geonames)
+  save(places.geonames, file = "places.geonames.RData")
 }
 
 print("Match to geonames")
@@ -180,20 +144,6 @@ print("FIXME move to tidy data principles ie. geographic info are in their own d
 df$latitude <- as.numeric(as.character(geocoordinates[as.character(df$publication_place), "latitude"]))
 df$longitude <- as.numeric(as.character(geocoordinates[as.character(df$publication_place), "longitude"]))
 
-# Then use our custom synonyme lists for matching if match was not found
-# tmp <- harmonize_place(geon$name)
-#match(unique(df[is.na(idx), "publication_place"]), as.character(tmp$Region))
-# Manually add some entries to geonames synonymes to retrieve locations for our places
-#geon <- rbind(geon, c("Philadelphia", "Philadelphia Pa"))
-#geon <- rbind(geon, c("New York", "New York N.Y"))
-#geon <- rbind(geon, c("Hartford", "Hartford Ct"))
-# See also R geonames package?
-# Enable the free geonames service
-# See https://github.com/ropensci/geonames
-#library(geonames)
-#options(geonamesUsername="antagomir")
-#tmp2 <- GNcities(north=180, east=-180, south=180, west=180, lang = "en", maxRows = 10)
-
 # Places with missing geocoordinates
 print("Write places with missing geolocation to file")
 absent <- rownames(geocoordinates[is.na(geocoordinates$latitude), ])
@@ -223,7 +173,6 @@ if (length(hits) > 0) {
   absent <- names(which(sapply(hits, function (x) {nrow(x) == 0})))
 }
 
-
 print("Write places with missing geolocation to file")
 tab <- rev(sort(table(df$publication_place[df$publication_place %in% absent])))
 tab <- tab[tab > 0]
@@ -231,30 +180,9 @@ tab <- cbind(names(tab), tab)
 colnames(tab) <- c("name", "count")
 write.table(tab, file = paste(output.folder, "absentgeocoordinates.csv", sep = ""), quote = F, row.names = F, sep = "\t")
 
-print("Places with potential hits in geonames")
-tab <- NULL
-if (length(hits) > 0) {
-  hits <- hits[names(which(sapply(hits, function (x) {nrow(x) > 0})))]
-  for (place in names(hits)) {
-    print(place)
-    tmp <- hits[[place]][, c(1:3, 5:19, 4)]
-    tmp$modification.date <- NULL
-    tmp$feature.class <- NULL
-    tmp$feature.code <- NULL
-    tmp$cc2 <- NULL
-    tmp$admin3 <- NULL
-    tmp$admin4 <- NULL
-    tmp$elevation <- NULL
-    tmp$dem <- NULL
-    tmp <- unique(tmp)  	  
-    tab <- rbind(tab, cbind(ESTC = rep(place, nrow(hits[[place]])), tmp))
-  }
-}
-
-print("Write missing hits")
-write.table(tab, file = paste(output.folder, "missinggeocoordinates.csv", sep = ""), quote = F, row.names = F, sep = "\t")
-
-print("Write geocoordinates")
-tab2 <- cbind(ESTC = rownames(geocoordinates), geocoordinates[, -c(4, 7, 8, 10, 16, 17, 19)])
-write.table(tab2, file = paste(output.folder, "matchedgeocoordinates.csv", sep = ""), quote = F, row.names = F, sep = "\t")
+#print("Places with potential hits in geonames")
+#source("missinghits.R")
+#print("Write geocoordinates")
+#tab2 <- cbind(ESTC = rownames(geocoordinates), geocoordinates[, -c(4, 7, 8, 10, 16, 17, 19)])
+#write.table(tab2, file = paste(output.folder, "matchedgeocoordinates.csv", sep = ""), quote = F, row.names = F, sep = "\t")
 

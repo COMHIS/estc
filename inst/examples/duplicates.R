@@ -9,7 +9,7 @@ dinds2 <- duplicated(df.orig, fromLast = F)
 dinds <- which(dinds1 | dinds2)
 dfd <- df[dinds, ]
 pdf("duplicates.pdf"); hist(dfd$publication.year,50, xlab="Year", ylab="Duplicates (n)", main = "Duplicates per year"); dev.off()
-selvar <- c("row.index", "publication.year", "publication.decade", "publication.title","author.name","language","publication.publisher", "publication.publisher.printedby","publication.publisher.printedfor", "subject.topic", "subject.begin", "subject.end", "publication.place", "subject.geography", "document.dimension.cm2", "document.dimension.width.estimated", "document.dimension.height.estimated", "document.dimension.gatherings.estimated", "document.volnumber", "document.volcount", "document.pages.total", "document.pages.total.orig")              
+selvar <- c("row.index", "publication.year", "publication.decade", "publication.title","author.name","language","publication.publisher", "publication.publisher.printedby","publication.publisher.printedfor", "subject.topic", "subject.begin", "subject.end", "publication.place", "subject.geography", "document.dimension.cm2", "document.dimension.width.estimated", "document.dimension.height.estimated", "document.dimension.gatherings.estimated", "document.volnumber", "document.volcount", "pagecount", "pagecount.orig")              
 dfd <- df[dinds, selvar] %>% arrange(publication.year, publication.title, author.name, language, publication.publisher)
 write.table(dfd, sep = "\t", file = "duplicates.tab", quote = F, row.names = F)
 

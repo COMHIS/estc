@@ -1,14 +1,10 @@
 #' @title polish.topic
 #' @description  Polish topic
-#'
 #' @param x A vector with topics
 #' @return A vector with topics polished
-#'
 #' @export
-#' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples \dontrun{x2 <- polish.topic(x)}
 #' @keywords utilities
 polish.topic <- function (x) {

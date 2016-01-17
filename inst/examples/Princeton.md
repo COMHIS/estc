@@ -1,7 +1,7 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2015-07-25"
+date: "2015-11-25"
 output: markdown_document
 ---
 
@@ -14,24 +14,37 @@ Read the preprocessed ESTC data table and load tools:
 
 
 ```
-## Warning: Removed 2 rows containing missing values (geom_point).
+## Error in eval(expr, envir, enclos): object 'subject.topic' not found
 ```
 
 ```
-## Warning: Removed 2 rows containing missing values (geom_path).
+## Error in eval(expr, envir, enclos): unknown column 'subject.topic'
 ```
 
 ```
-## Warning: Removed 2 rows containing missing values (geom_point).
+## Error in eval(expr, envir, enclos): object 'subject.topic' not found
+```
+
+
+
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
 ```
-## Warning: Removed 2 rows containing missing values (geom_path).
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
-![plot of chunk princeton](figure/princeton-1.png) 
+```
+## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "NULL"
+```
 
+```
+## Error in eval(expr, envir, enclos): unknown column 'publication.country'
+```
 
-![plot of chunk princeton2](figure/princeton2-1.png) 
+```
+## Error in eval(expr, envir, enclos): object 'publication.country' not found
+```
 
 

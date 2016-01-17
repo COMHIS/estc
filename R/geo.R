@@ -1,17 +1,10 @@
-
-
-
 #' @title polish_geography
 #' @description Polish geography
-#'
 #' @param x A vector of geographic names
 #' @return Polished vector
-#'
 #' @export
-#' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples \dontrun{x2 <- polish_geography(x)}
 #' @keywords utilities
 polish_geography <- function (x) { 

@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2015-07-25"
+date: "2015-11-25"
 output: markdown_document
 ---
 
@@ -15,17 +15,33 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 2848 documents from Scotland.
+We have 2863 documents from Scotland.
 
 
 ## Most common authors from Scotland
+
+
+```
+## Error in dfs[1:ntop, ]: incorrect number of dimensions
+```
 
 ![plot of chunk ScotlandTopAuth](figure/ScotlandTopAuth-1.png) 
 
 
 ## Publication timeline for top-10 authors
 
-![plot of chunk ScotlandTop10authors](figure/ScotlandTop10authors-1.png) 
+
+```
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
+```
+
+```
+## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
+```
 
 
 ## Most common publication places in Scotland
@@ -34,6 +50,11 @@ We have 2848 documents from Scotland.
 
 
 ## Top titles 
+
+
+```
+## Error in dfs[1:ntop, ]: incorrect number of dimensions
+```
 
 ![plot of chunk Scotlandtoptitles](figure/Scotlandtoptitles-1.png) 
 
@@ -46,10 +67,14 @@ We have 2848 documents from Scotland.
 
 
 ```
-## named integer(0)
+## Error in eval(expr, envir, enclos): object 'author.birth' not found
 ```
 
-We have 3 documents from 0 unique
+```
+## integer(0)
+```
+
+We have 49 documents from 0 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -58,12 +83,22 @@ authors born before 500 AD who have published in Scotland.
 
 Average annual output for each decade are indicated by lines, the annual document counts are shown by points. 
 
+
+```
+## Error in tapply(df$unity, list(df$publication.decade, df$publication_place), : arguments must have same length
+```
+
 ![plot of chunk Scotlandaveout](figure/Scotlandaveout-1.png) 
 
 
 ## Historical publication volumes for top-5 publication places in Scotland
 
 Average annual output for each decade are indicated by lines, the annual document counts are shown by points. 
+
+
+```
+## Error in tapply(df$unity, list(df$publication.decade, df$publication_place), : arguments must have same length
+```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png) 
 
@@ -72,36 +107,20 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 1262 documents from Scotland and 10691 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 1340 documents from Scotland and 10957 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
-## Warning: Removed 1 rows containing missing values (stat_smooth).
+## Error in eval(expr, envir, enclos): unknown column 'publication.decade'
 ```
 
 ```
-## Warning: Removed 1 rows containing missing values (stat_smooth).
+## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
 
 ```
-## Warning: Removed 2 rows containing missing values (geom_point).
+## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
-
-![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png) 
-
-```
-## Warning: Removed 1 rows containing missing values (stat_smooth).
-```
-
-```
-## Warning: Removed 1 rows containing missing values (stat_smooth).
-```
-
-```
-## Warning: Removed 2 rows containing missing values (geom_point).
-```
-
-![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png) 
 
 
 
@@ -110,26 +129,67 @@ We have 1262 documents from Scotland and 10691 documents from London during 1700
 
 
 ```
-## Warning in min(x): no non-missing arguments to min; returning Inf
+## Error in eval(expr, envir, enclos): object 'author.unique' not found
 ```
 
 ```
-## Warning in max(x): no non-missing arguments to max; returning -Inf
+## Warning in min(x, na.rm = na.rm): no non-missing arguments to min;
+## returning Inf
 ```
 
 ```
-## Error in seq.default(from = best$lmin, to = best$lmax, by = best$lstep): 'from' must be of length 1
+## Warning in max(x, na.rm = na.rm): no non-missing arguments to max;
+## returning -Inf
 ```
 
 ```
-## Error in seq.default(from = best$lmin, to = best$lmax, by = best$lstep): 'from' must be of length 1
+## Error in eval(expr, envir, enclos): unknown column 'author.unique'
 ```
 
 ```
-## Error in seq.default(from = best$lmin, to = best$lmax, by = best$lstep): 'from' must be of length 1
+## Error in eval(expr, envir, enclos): object 'publication_year' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_country' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_place' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_year' not found
 ```
 
 ## Authors from different periods publishing in 1750-1799
 
 
-![plot of chunk Scotlandselectedperiods](figure/Scotlandselectedperiods-1.png) ![plot of chunk Scotlandselectedperiods](figure/Scotlandselectedperiods-2.png) 
+
+```
+## Error in cut.default(df$author.birth, breaks = c(-Inf, 501, 1500, 1600, : 'x' must be numeric
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'author.birth.period' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'author.birth.period'
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'ndoc' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_country' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'author.birth.period'
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'ndoc' not found
+```

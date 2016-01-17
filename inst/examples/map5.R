@@ -8,9 +8,9 @@ region <- "UK"
 # region <- "Europe.main"
 
 mapdata$size <- mapdata$n
-mapdata$year <- mapdata$publication.year
+mapdata$year <- mapdata$publication_year
 mapdata$highlight <- rep("darkgray", nrow(mapdata))
-mapdata$highlight[mapdata$publication.place %in% c("Edinburgh", "Glasgow")] <- "red"
+mapdata$highlight[mapdata$publication_place %in% c("Edinburgh", "Glasgow")] <- "darkgray"
 mapdata$highlight <- factor(mapdata$highlight)
 
 # ----------------------------------
@@ -27,7 +27,7 @@ theme_set(get_theme_map())
 
 ## MAP PLOTS #######
 print("Select region")
-#mymap <- get_map(location=geobox(region), color = "bw", source="google",  maptype="terrain")
+mymap <- get_map(location=geobox(region), color = "bw", source="google",  maptype="terrain")
 #mymap <- get_map(location=geobox(region), color = "color", source="google", maptype="terrain")
 #mymap <- get_map(location=geobox(region), color = "color", source="osm", maptype="hybrid")
 # mymap <- get_map(location=geobox(region), color = "color", source="osm")
@@ -76,7 +76,7 @@ saveVideo(
 	      color = highlight), alpha = 0.8) +
 	  ggtitle(i) +
 	  scale_size(range = c(1,15)) +
-	  scale_color_manual(values = c("black", "red"))	  
+	  scale_color_manual(values = c("black", "darkgray"))	  
     }
     
     print(p)

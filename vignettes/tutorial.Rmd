@@ -24,9 +24,9 @@ reports and feedback](https://github.com/ropengov/estc) are welcome!
 
 ## Available tools
 
-[Installation](#installation) 
-[Reproducing the ESTC analysis](#preprocessing) 
-[Analysis tools](#tools) 
+[Installation](#installation)  
+[Reproducing the ESTC analysis](#preprocessing)  
+[Analysis tools](#tools)  
 
 
 ## <a name="installation"></a>Installation
@@ -60,10 +60,18 @@ For further help with R, see [this page](Rhelp.md)
 ## <a name="preprocessing"></a>Reproducing the ESTC analysis
 
 The ESTC data collection is not publicly available at the moment. The
-examples assume you have access to this data. To repeat the complete
-analysis, run [main.R](../inst/examples/main.R). This will execute the
-complete analysis from raw data to the final summary documents. It has
-two main parts:
+examples assume you have access to this data.
+
+### Parser
+
+We use [MARCdata](https://github.com/rOpenGov/MARCdata) parser to pick selected fields from the source XML files and convert these into a CSV file.
+
+
+### Analysis
+
+To repeat the analysis, run [main.R](../inst/examples/main.R). This
+will execute the complete analysis from raw data to the final summary
+documents. It has two main parts:
 
  * [preprocessing.R](../inst/examples/preprocessing.R) loads and
    preprocesses the parsed SQL data tables. It cleans up the raw data

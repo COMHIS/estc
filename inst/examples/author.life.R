@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TODO make a tidy cleanup function to shorten the code here
 print("Polish author life years")
 tmp <- polish_years(df.orig$author_date)
@@ -16,55 +17,19 @@ inds <- which(df$author_birth > df$author_death)
 df$author_birth[inds] <- NA
 df$author_death[inds] <- NA
 
+=======
+>>>>>>> 1ae005d39f3260bfa011cf3dcd056d346cf1e8a5
 print("Author birth")
-# For each author, list given birth years
-births <- lapply(split(df$author_birth, df$author_name), unique)
-# Authors with unique birth year (some entries may be NAs)
-unique.birth <- names(which(sapply(births, function (x) {length(unique(na.omit(x)))}) == 1))
-
 # For authors with a unique birth, use this birth year also for documents where
 # birth year not given in the raw data
-dfs <- df[, c("author_name", "author_birth")]
-dfs <- dfs[!duplicated(dfs), ]
-dfs <- dfs[rowMeans(is.na(dfs)) == 0,]
-dfs <- dfs[dfs$author_name %in% unique.birth,]
-births <- dfs$author_birth; names(births) <- dfs$author_name
-inds <- is.na(df$author_birth)
-df$author_birth[inds] <- births[df$author_name][inds]
-
-# Birh year not known (NA)
-births <- lapply(split(df$author_birth, df$author_name), unique)
-na.birth <- names(which(is.na(births)))
-
-# Authors with many birth years
-births <- lapply(split(df$author_birth, df$author_name), unique)
-many.births <- lapply(births[names(which(sapply(births, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
+df$author_birth <- guess_missing_entries(id = df$author_name, values = df$author_birth)$values
+df$author_death <- guess_missing_entries(id = df$author_name, values = df$author_death)$values
 
 # ----------------------------------------------------
 
-print("Author death")
-# For each author, list given death years
-deaths <- lapply(split(df$author_death, df$author_name), unique)
-# Authors with unique death year (some entries may be NAs)
-unique.death <- names(which(sapply(deaths, function (x) {length(unique(na.omit(x)))}) == 1))
-# For authors with a unique death, use this death year also for documents where
-# death year not given in the raw data
-dfs <- df[, c("author_name", "author_death")]
-dfs <- dfs[!duplicated(dfs), ]
-dfs <- dfs[rowMeans(is.na(dfs)) == 0,]
-dfs <- dfs[dfs$author_name %in% unique.death,]
-deaths <- dfs$author_death; names(deaths) <- dfs$author_name
-inds <- is.na(df$author_death)
-df$author_death[inds] <- deaths[df$author_name][inds]
-
-# Death year not known (NA)
-deaths <- lapply(split(df$author_death, df$author_name), unique)
-na.death <- names(which(is.na(deaths)))
-
-# Authors with many death years
-deaths <- lapply(split(df$author_death, df$author_name), unique)
-many.deaths <- lapply(deaths[names(which(sapply(deaths, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
-
-# ---------------------------------------------------------------------------
-
+# Add missing author life years
+# TODO make this a table
+inds <- which(df$author_name == "whitrowe, joan")
+df$author_birth[inds] <- 1630
+df$author_death[inds] <- 1707
 

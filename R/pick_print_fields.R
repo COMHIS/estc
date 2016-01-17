@@ -1,16 +1,12 @@
-1#' @title pick_print_fields
+#' @title pick_print_fields
 #' @description Pick print fields
-#'
 #' @param x A vector
 #' @param field field names
 #' @return fields
-#'
 #' @export
 #' @importFrom sorvi condense_spaces
-#' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("estc")
-#' 
+#' @references See citation("estc") 
 #' @examples \dontrun{x2 <- pick_print_fields(x, field)}
 #' @keywords utilities
 pick_print_fields <- function (x, field) {

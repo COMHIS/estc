@@ -15,6 +15,7 @@ This pilot phase focuses on the metadata for c. 50,000 documents on 'history' du
  * [North America summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/NorthAmerica.md)
  * [Princeton summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Princeton.md)
  * [Scotland summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Scotland.md)
+ * [LIBER Figures](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023.md)
  * Various [summary tables](https://github.com/rOpenGov/estc/tree/master/inst/examples/output.tables) of the data. 
 
 
@@ -30,7 +31,7 @@ other R packages. We are also working on similar tools for Finnish data collecti
 
 ### Acknowledgements
 
-Authors: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](https://github.com/NVI/), [Mikko Tolonen](). Part of [rOpenGov](http://ropengov.github.io/).
+Authors: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](https://github.com/NVI/), [Mikko Tolonen](https://github.com/orgs/rOpenGov/people/tolonen). Part of [rOpenGov](http://ropengov.github.io/).
 
 
 You are welcome to:

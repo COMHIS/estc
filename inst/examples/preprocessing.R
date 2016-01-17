@@ -1,79 +1,90 @@
 print("Start collecting variables to a polished data frame")
 df <- data.frame(list(row.index = 1:nrow(df.orig)))
 
+print("Entry identifier to match back to the originals")
+df$original_row <- df.orig$original_row
+
 print("Language")
 df$language <- df.orig$language 
 
 print("Publication title")
-# was publication.title
 df$title <- polish_title(df.orig$title)
 
 print("Subject topic")
-# was subject.topic
 df$topic <- polish.topic(df.orig$subject_topic)
 
 print("Volume number") # which issue this is from a multi-volume series
-# was document.volnumber
 df$volnumber <- unname(polish_volumenumber(df.orig$physical_extent))
 
 print("Volume count")
-# was document.volcount
 df$volcount <- unname(polish_volumecount(df.orig$physical_extent))
+
+print("Arrange author first and last names in a table")
+# Add full author name (Last, First) to our data
+tmp <- polish_author(df.orig$author_name, validate = TRUE)
+df$author_name <- tmp$names$full
+# Write invalid author names to file for a later check
+for (db in c("first", "last")) {
+  fnam <- paste(output.folder, "author_name_discarded_", db, ".csv", sep = "")
+  write_xtable(tmp$invalid[[db]], file = fnam, count = TRUE)
+}
 
 print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
-# Generic handling
-x <- polish_pages(x, verbose = FALSE)$total.pages
-# was document.pages.total
-df$pagecount <- x
-
-print("Author info")
-source("author.names.R")
+# Generic handling + assign to the data matrix
+df$pagecount <- polish_pages(x, verbose = TRUE)
 
 print("Publication place")
-# was: publication.place
 df$publication_place <- polish_place(df.orig$publication_place,
 					remove.unknown = TRUE)
 
 print("Augment missing document dimensions") 
 # Fill in missing entries where estimates can be obtained:
 # area, width, height, gatherings (also keep pure originals before fill in)
-tmp <- polish_dimensions(df.orig$physical_dimension, fill = TRUE)
+tmp <- polish_dimensions(df.orig$physical_dimension, fill = TRUE, verbose = TRUE)
+tmp <- tmp[, -grep("original", names(tmp))] # Remove the 'original' fields
 df <- cbind(df, tmp) 
 
 print("Estimate number of separate parts in a document")
 # parts, pages_per_part
-tmp <- estimate_document_parts(df.orig)
-df <- cbind(df, tmp)
+# tmp <- estimate_document_parts(df.orig)
+# df <- cbind(df, tmp)
 
 print("Publisher")
-res <- polish_publisher(df.orig$publisher)
-df$publisher <- res$printedby
-df$publisher.printedfor <- res$printedfor
-
-print("Write table")
-filename <- paste(output.folder, "Publisher.csv", sep = "")
-names(res) <- c("PrintedFor", "PrintedBy", "Ignored", "Original")
-tmp <- write_xtable(as.data.frame(res), filename = filename)
+df$publisher <- polish_publisher(df.orig$publisher)
 
 # ---------------------------------------
 
-source("author.life.R")
+# TODO make a tidy cleanup function to shorten the code here
+print("Polish author life years")
+tmp <- polish_years(df.orig$author_date, check = TRUE)
+df$author_birth <- tmp$from
+df$author_death <- tmp$till
+
+# ----------------------------------------------------
 
 print("Publication year")
-tab <- polish_years(df.orig$publication_time)
+tab <- polish_years(df.orig$publication_time, check = TRUE)
 df$publication_year <- tab$from
+# If from year not available, then use till year
+inds <- which(is.na(df$publication_year))
+df$publication_year[inds] <- tab$till[inds]
+
 df$publication_year[df$publication_year > 2000] <- NA
 
 # Conversion statistics in a file
 # (successfull conversions and the count for each)
+<<<<<<< HEAD
 tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
 
 # Failed conversions
 # TODO can be improved considerably
 x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
 tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
+=======
+tmp <- write_xtable(tab, file = paste(output.folder, "publication_year_conversion_table.csv", sep = ""))
+>>>>>>> 1ae005d39f3260bfa011cf3dcd056d346cf1e8a5
 
 # -----------------------------
 
@@ -82,7 +93,7 @@ dftmp <- df
 
 # Polish the final data frame; Filter out years 1800- 
 # (mostly errors and printing techniques change dramatically)
-rmv <- which(df$publication.year >= 1800)
+rmv <- which(df$publication_year >= 1800)
 df <- df[-rmv,]
 df.orig <- df.orig[-rmv,]
 

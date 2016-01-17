@@ -1,14 +1,10 @@
 #' @title clean.edition
 #' @description Clean edition
-#'
 #' @param x Edition field (a vector)
 #' @return Polished edition info
-#'
 #' @export
-#' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
-#' 
 #' @examples clean.edition("seventh edition")
 #' @keywords utilities
 clean.edition <- function (x) {
