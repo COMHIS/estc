@@ -4,6 +4,10 @@ source.data.file <- "data/estc.csv.gz"
 
 # Install and load the required custom libraries
 library(devtools)
+install_github("ropengov/sorvi")
+install.packages(c("gender", "genderdata"),
+                 repos = "http://packages.ropensci.org",
+                 type = "source")
 install_github("ropengov/bibliographica")
 install_github("ropengov/estc")
 library(estc)
