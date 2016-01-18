@@ -53,6 +53,7 @@ print("Estimate number of separate parts in a document")
 
 print("Publisher")
 df$publisher <- polish_publisher(df.orig$publisher)
+publisher_forby <- polish_publisher_forby(df.orig$publisher)
 
 # ---------------------------------------
 
@@ -75,16 +76,14 @@ df$publication_year[df$publication_year > 2000] <- NA
 
 # Conversion statistics in a file
 # (successfull conversions and the count for each)
-<<<<<<< HEAD
 tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
 
 # Failed conversions
 # TODO can be improved considerably
 x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
 tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
-=======
+
 tmp <- write_xtable(tab, file = paste(output.folder, "publication_year_conversion_table.csv", sep = ""))
->>>>>>> 1ae005d39f3260bfa011cf3dcd056d346cf1e8a5
 
 # -----------------------------
 

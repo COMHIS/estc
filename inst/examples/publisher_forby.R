@@ -1,0 +1,17 @@
+# Define the input file and output folder
+# The rest should then execute out-of-the box
+source.data.file <- "data/estc.csv.gz"
+
+# Install and load the required custom libraries
+library(devtools)
+install_github("ropengov/bibliographica")
+install_github("ropengov/estc")
+library(estc)
+library(bibliographica)
+
+# Read the raw data
+df.orig <- read_bibliographic_metadata(source.data.file)
+
+# Polish the publisher field
+pub <- polish_publisher_forby(df.orig$publisher)
+
