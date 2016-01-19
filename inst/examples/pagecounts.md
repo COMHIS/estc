@@ -28,11 +28,11 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dff3' not found
+## Error in fortify(data): object 'dff3' not found
 ```
 
 ```
-## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dff3' not found
+## Error in fortify(data): object 'dff3' not found
 ```
 
 ```
@@ -52,11 +52,11 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dff3' not found
+## Error in fortify(data): object 'dff3' not found
 ```
 
 ```
-## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dff3' not found
+## Error in fortify(data): object 'dff3' not found
 ```
 
 ```
@@ -78,6 +78,8 @@ Page count: distribution of document sizes
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
+
+![plot of chunk missingpages](figure/missingpages-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): unknown column 'publication.decade'
@@ -117,6 +119,8 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
 
+![plot of chunk paperconsumption](figure/paperconsumption-1.png)
+
 ```
 ## Error in eval(expr, envir, enclos): incorrect size (1), expecting : 9
 ```
@@ -138,6 +142,8 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
 
+![plot of chunk paperconsumption2b](figure/paperconsumption2b-1.png)
+
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
@@ -153,6 +159,8 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
+
+![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
@@ -178,6 +186,8 @@ print(p)
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
 
+![plot of chunk paperconsumption2](figure/paperconsumption2-1.png)
+
 
 
 ## Pamphlets vs. Books
@@ -190,6 +200,8 @@ print(p)
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
+
+![plot of chunk doctypes](figure/doctypes-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
@@ -209,6 +221,8 @@ print(p)
 ## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
 
+![plot of chunk doctypes2](figure/doctypes2-1.png)
+
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
@@ -224,6 +238,8 @@ print(p)
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
+
+![plot of chunk topauth](figure/topauth-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
@@ -248,6 +264,8 @@ Estimated paper consumption by document size
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.year' not found
 ```
+
+![plot of chunk 20150611paris-paper6](figure/20150611paris-paper6-1.png)
 
 
 Gatherings height: does it change over time (1600's)? How increased printing activity is related to book size trends? Instead, we could use area (height x width), or simply calculate median over time but let's discuss this later.

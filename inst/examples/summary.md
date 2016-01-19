@@ -23,7 +23,7 @@ This document links to files that summarize the conversions from raw data to the
 
 Fraction of documents with entries for each annotation field (final preprocessed data).
 
-![plot of chunk summaryannotations](figure/summaryannotations-1.png) 
+![plot of chunk summaryannotations](figure/summaryannotations-1.png)
 
 Number of documents with NA entries (number and percentage) and number of unique entries for each field:
 
@@ -37,16 +37,16 @@ Number of documents with NA entries (number and percentage) and number of unique
 |author_name           | 18232|  0.3626310|   6098|
 |author_unique         | 18232|  0.3626310|   6451|
 |topic                 | 21965|  0.4368797|   7065|
-|publisher             | 42460|  0.8445214|  22255|
+|publisher             | 40125|  0.7980786|  20782|
 |latitude              | 44950|  0.8940470|    132|
 |longitude             | 44950|  0.8940470|    132|
 |paper.consumption.km2 | 48056|  0.9558247|   2814|
 |width                 | 48091|  0.9565209|     52|
 |height                | 48091|  0.9565209|     47|
 |area                  | 48091|  0.9565209|    299|
-|publication_country   | 48349|  0.9616524|     32|
+|publication_country   | 48350|  0.9616723|     32|
 |pagecount.orig        | 48679|  0.9682161|    938|
-|publication_place     | 49785|  0.9902142|    410|
+|publication_place     | 49786|  0.9902341|    410|
 |publication_decade    | 49888|  0.9922629|     43|
 |publication_year      | 49913|  0.9927601|    327|
 |volcount              | 50121|  0.9968972|    109|
@@ -67,7 +67,7 @@ Number of documents with NA entries (number and percentage) and number of unique
 
 Top-20 topics and number of documents for each. In total, there are 7065 unique topics and 21965 documents assigned to one or more topics (44).
 
-![plot of chunk summarytopics22](figure/summarytopics22-1.png) 
+![plot of chunk summarytopics22](figure/summarytopics22-1.png)
 
 
 ## Authors
@@ -82,7 +82,7 @@ Top-20 topics and number of documents for each. In total, there are 7065 unique 
 Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6451 unique authors and 18232 documents with unambiguous author information (36%).
 
 
-![plot of chunk summaryauthors](figure/summaryauthors-1.png) 
+![plot of chunk summaryauthors](figure/summaryauthors-1.png)
 
 
 
@@ -109,7 +109,7 @@ Author gender distribution in the complete data:
 Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
 
 
-![plot of chunk summarygendertime](figure/summarygendertime-1.png) 
+![plot of chunk summarygendertime](figure/summarygendertime-1.png)
 
 
 
@@ -130,18 +130,18 @@ Should also add living year information from supporting sources later.
 
 Ordered by productivity (number of documents))
 
-![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png) 
+![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png)
 
 ### Publication timeline for top-10 authors
 
 Title count
 
-![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png) 
+![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)
 
 
 Paper consumption
 
-![plot of chunk summaryTop10authorstimelinepaper](figure/summaryTop10authorstimelinepaper-1.png) 
+![plot of chunk summaryTop10authorstimelinepaper](figure/summaryTop10authorstimelinepaper-1.png)
 
 
 
@@ -161,10 +161,10 @@ Paper consumption
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 49785 documents (99%). There are 410 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 49786 documents (99%). There are 410 unique publication places. Overall 89.4% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
-![plot of chunk summaryplace](figure/summaryplace-1.png) 
+![plot of chunk summaryplace](figure/summaryplace-1.png)
 
 
 
@@ -184,8 +184,8 @@ Top-20 publication places are shown together with the number of documents. This 
 |Jamaica     |    25|
 |Northern    |    10|
 |Barbados    |    10|
+|Saint       |     9|
 |Italy       |     9|
-|Saint       |     8|
 |Bahamas     |     6|
 |Dominica    |     4|
 |Haiti       |     3|
@@ -212,22 +212,22 @@ Top-20 publication places are shown together with the number of documents. This 
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 42460 documents (84%). There are 22254 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 40125 documents (80%). There are 20781 unique publisher names (some may be synonymes, though).
 
 
-![plot of chunk summarypublisher2](figure/summarypublisher2-1.png) 
+![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
 
 
 ### Publication timeline for top-10 publishers
 
 Title count
 
-![plot of chunk summaryTop10publisherstimeline](figure/summaryTop10publisherstimeline-1.png) 
+![plot of chunk summaryTop10publisherstimeline](figure/summaryTop10publisherstimeline-1.png)
 
 
 Paper consumption
 
-![plot of chunk summaryTop10publisherstimelinepaper](figure/summaryTop10publisherstimelinepaper-1.png) 
+![plot of chunk summaryTop10publisherstimelinepaper](figure/summaryTop10publisherstimelinepaper-1.png)
 
 
 ### Publication year
@@ -239,11 +239,11 @@ Paper consumption
 
 Publication year is available for 49913 documents (99%). The publication years span 0-1799
 
-![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png) 
+![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 
 Zooming in 1470-1799
 
-![plot of chunk summarypublicationyear2](figure/summarypublicationyear2-1.png) 
+![plot of chunk summarypublicationyear2](figure/summarypublicationyear2-1.png)
 
 
 ### Titles
@@ -257,14 +257,14 @@ Zooming in 1470-1799
 Top-20 titles are shown together with the number of documents. This info is available for 50277 documents (100%). There are 41289 unique titles.
 
 
-![plot of chunk summarytitle](figure/summarytitle-1.png) 
+![plot of chunk summarytitle](figure/summarytitle-1.png)
 
 
 ## Language
 
 The 21 unique languages are shown together with the number of documents. This info is available for 50270 documents (100%). 
 
-![plot of chunk summarylang](figure/summarylang-1.png) 
+![plot of chunk summarylang](figure/summarylang-1.png)
 
 
 
@@ -287,25 +287,25 @@ The 21 unique languages are shown together with the number of documents. This in
 
 Document size (area) info in area is available for 48091 documents (96%). Estimates of document size (area) info in gatherings system are available for 50277 documents (100%). 
 
-![plot of chunk summarysize](figure/summarysize-1.png) 
+![plot of chunk summarysize](figure/summarysize-1.png)
 
 Compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
-![plot of chunk summarysizecomp](figure/summarysizecomp-1.png) 
+![plot of chunk summarysizecomp](figure/summarysizecomp-1.png)
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
 
-![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png) 
+![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
 
 Compare gatherings and page counts. Page count information is estimated for -1553 documents and updated (changed) for 1093 documents. 
 
-![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
+![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
 
 Compare original gatherings and original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
 
-![plot of chunk summarysizevalidation](figure/summarysizevalidation-1.png) 
+![plot of chunk summarysizevalidation](figure/summarysizevalidation-1.png)
 
 ## Average page counts 
 
@@ -332,12 +332,17 @@ Multi-volume documents average page counts are given per volume.
 |NA            |            14.083557|                      2|        3003|                  NA|                    NA|         NA|         18.87593|                 15|     403|
 
 
-![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png) 
+![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
 
 ## Average document dimensions 
 
-![plot of chunk summaryavedimstime](figure/summaryavedimstime-1.png) 
+
+```
+## Error: Unknown parameters: method
+```
+
+![plot of chunk summaryavedimstime](figure/summaryavedimstime-1.png)
 
 
 
@@ -355,11 +360,11 @@ Multi-volume documents average page counts are given per volume.
 
 ## Histograms of all entries for numeric variables
 
-![plot of chunk summary-histograms](figure/summary-histograms-1.png) ![plot of chunk summary-histograms](figure/summary-histograms-2.png) ![plot of chunk summary-histograms](figure/summary-histograms-3.png) ![plot of chunk summary-histograms](figure/summary-histograms-4.png) ![plot of chunk summary-histograms](figure/summary-histograms-5.png) ![plot of chunk summary-histograms](figure/summary-histograms-6.png) ![plot of chunk summary-histograms](figure/summary-histograms-7.png) ![plot of chunk summary-histograms](figure/summary-histograms-8.png) ![plot of chunk summary-histograms](figure/summary-histograms-9.png) ![plot of chunk summary-histograms](figure/summary-histograms-10.png) ![plot of chunk summary-histograms](figure/summary-histograms-11.png) ![plot of chunk summary-histograms](figure/summary-histograms-12.png) ![plot of chunk summary-histograms](figure/summary-histograms-13.png) 
+![plot of chunk summary-histograms](figure/summary-histograms-1.png)![plot of chunk summary-histograms](figure/summary-histograms-2.png)![plot of chunk summary-histograms](figure/summary-histograms-3.png)![plot of chunk summary-histograms](figure/summary-histograms-4.png)![plot of chunk summary-histograms](figure/summary-histograms-5.png)![plot of chunk summary-histograms](figure/summary-histograms-6.png)![plot of chunk summary-histograms](figure/summary-histograms-7.png)![plot of chunk summary-histograms](figure/summary-histograms-8.png)![plot of chunk summary-histograms](figure/summary-histograms-9.png)![plot of chunk summary-histograms](figure/summary-histograms-10.png)![plot of chunk summary-histograms](figure/summary-histograms-11.png)![plot of chunk summary-histograms](figure/summary-histograms-12.png)![plot of chunk summary-histograms](figure/summary-histograms-13.png)
 
 ## Histograms of the top entries for factor variables
 
-![plot of chunk summary-bars](figure/summary-bars-1.png) ![plot of chunk summary-bars](figure/summary-bars-2.png) ![plot of chunk summary-bars](figure/summary-bars-3.png) ![plot of chunk summary-bars](figure/summary-bars-4.png) ![plot of chunk summary-bars](figure/summary-bars-5.png) ![plot of chunk summary-bars](figure/summary-bars-6.png) ![plot of chunk summary-bars](figure/summary-bars-7.png) ![plot of chunk summary-bars](figure/summary-bars-8.png) ![plot of chunk summary-bars](figure/summary-bars-9.png) ![plot of chunk summary-bars](figure/summary-bars-10.png) 
+![plot of chunk summary-bars](figure/summary-bars-1.png)![plot of chunk summary-bars](figure/summary-bars-2.png)![plot of chunk summary-bars](figure/summary-bars-3.png)![plot of chunk summary-bars](figure/summary-bars-4.png)![plot of chunk summary-bars](figure/summary-bars-5.png)![plot of chunk summary-bars](figure/summary-bars-6.png)![plot of chunk summary-bars](figure/summary-bars-7.png)![plot of chunk summary-bars](figure/summary-bars-8.png)![plot of chunk summary-bars](figure/summary-bars-9.png)![plot of chunk summary-bars](figure/summary-bars-10.png)
 
 
 <!--
@@ -395,21 +400,21 @@ Multi-volume documents average page counts are given per volume.
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart3058258d0c4a&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart1a259ed4f5d&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart3058258d0c4a()
+      drawchart1a259ed4f5d()
     });
-    function drawchart3058258d0c4a(){  
+    function drawchart1a259ed4f5d(){  
       var opts = {
- &quot;dom&quot;: &quot;chart3058258d0c4a&quot;,
+ &quot;dom&quot;: &quot;chart1a259ed4f5d&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart3058258d0c4a&quot; 
+&quot;id&quot;: &quot;chart1a259ed4f5d&quot; 
 },
         data = [
  {
@@ -560,7 +565,7 @@ Multi-volume documents average page counts are given per volume.
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart3058258d0c4a'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1a259ed4f5d'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 -->
 

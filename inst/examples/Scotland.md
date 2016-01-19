@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2015-11-25"
+date: "2016-01-19"
 output: markdown_document
 ---
 
@@ -25,7 +25,7 @@ We have 2863 documents from Scotland.
 ## Error in dfs[1:ntop, ]: incorrect number of dimensions
 ```
 
-![plot of chunk ScotlandTopAuth](figure/ScotlandTopAuth-1.png) 
+![plot of chunk ScotlandTopAuth](figure/ScotlandTopAuth-1.png)
 
 
 ## Publication timeline for top-10 authors
@@ -43,10 +43,12 @@ We have 2863 documents from Scotland.
 ## Error in layout_base(data, rows, drop = drop): At least one layer must contain all variables used for facetting
 ```
 
+![plot of chunk ScotlandTop10authors](figure/ScotlandTop10authors-1.png)
+
 
 ## Most common publication places in Scotland
 
-![plot of chunk Scotlandtopplaces](figure/Scotlandtopplaces-1.png) 
+![plot of chunk Scotlandtopplaces](figure/Scotlandtopplaces-1.png)
 
 
 ## Top titles 
@@ -56,7 +58,7 @@ We have 2863 documents from Scotland.
 ## Error in dfs[1:ntop, ]: incorrect number of dimensions
 ```
 
-![plot of chunk Scotlandtoptitles](figure/Scotlandtoptitles-1.png) 
+![plot of chunk Scotlandtoptitles](figure/Scotlandtoptitles-1.png)
 
 
 ## Authors born before 500AD
@@ -88,7 +90,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ## Error in tapply(df$unity, list(df$publication.decade, df$publication_place), : arguments must have same length
 ```
 
-![plot of chunk Scotlandaveout](figure/Scotlandaveout-1.png) 
+![plot of chunk Scotlandaveout](figure/Scotlandaveout-1.png)
 
 
 ## Historical publication volumes for top-5 publication places in Scotland
@@ -100,7 +102,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ## Error in tapply(df$unity, list(df$publication.decade, df$publication_place), : arguments must have same length
 ```
 
-![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png) 
+![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
 
 
 ## Publishing in Scotland versus London 1700 
@@ -117,6 +119,8 @@ We have 1340 documents from Scotland and 10957 documents from London during 1700
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.decade' not found
 ```
+
+![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.decade' not found
@@ -150,6 +154,8 @@ We have 1340 documents from Scotland and 10957 documents from London during 1700
 ## Error in eval(expr, envir, enclos): object 'publication_year' not found
 ```
 
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
+
 ```
 ## Error in eval(expr, envir, enclos): object 'publication_country' not found
 ```
@@ -181,6 +187,8 @@ We have 1340 documents from Scotland and 10957 documents from London during 1700
 ```
 ## Error in eval(expr, envir, enclos): object 'ndoc' not found
 ```
+
+![plot of chunk Scotlandselectedperiods](figure/Scotlandselectedperiods-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication_country' not found

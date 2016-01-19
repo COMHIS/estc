@@ -44,7 +44,7 @@ p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
 
-![plot of chunk NAtopauth](figure/NAtopauth-1.png) 
+![plot of chunk NAtopauth](figure/NAtopauth-1.png)
 
 
 ## Top titles 
@@ -64,7 +64,7 @@ p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
 
-![plot of chunk NAtoptitles](figure/NAtoptitles-1.png) 
+![plot of chunk NAtoptitles](figure/NAtoptitles-1.png)
 
 
 
@@ -98,10 +98,10 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
-## Error in do.call("layer", list(mapping = mapping, data = data, stat = stat, : object 'dfm.annual' not found
+## Error in fortify(data): object 'dfm.annual' not found
 ```
 
-![plot of chunk NApubvols](figure/NApubvols-1.png) 
+![plot of chunk NApubvols](figure/NApubvols-1.png)
 
 
 
