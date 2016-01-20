@@ -10,6 +10,7 @@ install.packages(c("gender", "genderdata"),
                  type = "source")
 install_github("ropengov/bibliographica")
 install_github("ropengov/estc")
+
 library(estc)
 library(bibliographica)
 
@@ -17,5 +18,6 @@ library(bibliographica)
 df.orig <- read_bibliographic_metadata(source.data.file)
 
 # Polish the publisher field
-pub <- polish_publisher_forby(df.orig$publisher)
+pub <- estc::polish_publisher_forby(df.orig$publisher)
+
 
