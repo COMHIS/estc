@@ -2,7 +2,7 @@
 % Please edit documentation in R/pick_print_fields.R
 \name{pick_print_fields}
 \alias{pick_print_fields}
-\title{pick_print_fields}
+\title{Pick print fields}
 \usage{
 pick_print_fields(x, field)
 }
@@ -15,7 +15,7 @@ pick_print_fields(x, field)
 fields
 }
 \description{
-Pick print fields
+Pick print fields from publisher vector.
 }
 \examples{
 \dontrun{x2 <- pick_print_fields(x, field)}

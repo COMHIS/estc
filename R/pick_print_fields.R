@@ -1,5 +1,5 @@
-#' @title pick_print_fields
-#' @description Pick print fields
+#' @title Pick print fields
+#' @description Pick print fields from publisher vector.
 #' @param x A vector
 #' @param field field names
 #' @return fields
