@@ -13,12 +13,6 @@ df$title <- polish_title(df.orig$title)
 print("Subject topic")
 df$topic <- polish.topic(df.orig$subject_topic)
 
-print("Volume number") # which issue this is from a multi-volume series
-df$volnumber <- unname(polish_volumenumber(df.orig$physical_extent))
-
-print("Volume count")
-df$volcount <- unname(polish_volumecount(df.orig$physical_extent))
-
 print("Arrange author first and last names in a table")
 # Add full author name (Last, First) to our data
 tmp <- polish_author(df.orig$author_name, validate = TRUE)
@@ -32,8 +26,8 @@ for (db in c("first", "last")) {
 print("Number of pages")
 # ESTC-specific handling
 x <- harmonize_pages_specialcases(df.orig$physical_extent)
-# Generic handling + assign to the data matrix
-df$pagecount <- polish_pages(x, verbose = TRUE)
+df.tmp <- polish_physical_extent(x, verbose = TRUE) # was polish_pagecount, polish_volcount, polish_volnumber
+df <- cbind(df, df.tmp)
 
 print("Publication place")
 df$publication_place <- polish_place(df.orig$publication_place,
