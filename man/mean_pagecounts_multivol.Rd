@@ -2,7 +2,7 @@
 % Please edit documentation in R/mean_pagecounts_multivol.R
 \name{mean_pagecounts_multivol}
 \alias{mean_pagecounts_multivol}
-\title{mean_pagecounts_multivol}
+\title{Mean pagecounts multivolume}
 \usage{
 mean_pagecounts_multivol(df)
 }
@@ -13,7 +13,7 @@ mean_pagecounts_multivol(df)
 Average page count information
 }
 \description{
-Calculate mean page counts for multi-volume documents
+Calculate mean page counts for multi-volume documents.
 }
 \examples{
 # m <- mean_pagecounts_multivol(df)

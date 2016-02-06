@@ -1,5 +1,5 @@
-#' @title mean_pagecounts_multivol
-#' @description Calculate mean page counts for multi-volume documents
+#' @title Mean pagecounts multivolume
+#' @description Calculate mean page counts for multi-volume documents.
 #' @param df data frame
 #' @return Average page count information
 #' @export
