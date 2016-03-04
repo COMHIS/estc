@@ -1,6 +1,8 @@
 # TODO
 
-summary.old.Rmd
+summary.old.Rmd -> poimi puuttuvat osat täältä tuonne uuteen summary.Rmd-fileen
+(tai vielä parempi: erottele geneeriset ja estc-spesifit osat summarystä)
+(omat summarynsa joka kentälle tai kenttäryhmälle)
 
 päivitä README-file
 

@@ -1,8 +1,3 @@
-tt <- (total.time.stop - total.time.start)
-print("Preprocessing completed.")
-print(tt)
-print(sum(preprocessing.times))
-
 # Processing times
 library(magrittr)
 library(ggplot2)

@@ -6,7 +6,7 @@ rm(df.raw)
 
 # Remove selected fields
 keep <- setdiff(names(df.orig),
-           c("title_uniform2")) # ESTC
+           c("title_uniform", "title_uniform2")) # ESTC
            # c("publication_frequency", "publication_interval")) # CERL
 #df.orig <- df.orig[, keep]
 

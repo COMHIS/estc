@@ -1,26 +1,14 @@
-# ESTC-SPECIFIC
-df.orig$physical_extent <- harmonize_pages_specialcases(df.orig$physical_extent)
-
-# -------------------------
-
-# GENERIC PART
-
 # Initialize preprocessed data
-  print("Start collecting variables to a polished data frame")
-  df.preprocessed <- data.frame(list(row.index = 1:nrow(df.orig)))
+print("Start collecting variables to a polished data frame")
+df.preprocessed <- data.frame(list(row.index = 1:nrow(df.orig)))
 
-  print("Entry identifier to match back to the originals")
-  df.preprocessed$original_row <- df.orig$original_row
-
-  # Save the initial version of preprocessed data
-  save(df.preprocessed, file = "df.preprocessed.RData")
+print("Entry identifier to match back to the originals")
+df.preprocessed$original_row <- df.orig$original_row
 
 # -------------------------------------------------------
 
 print("List raw data fields to be preprocessed")
 update.fields <- sort(names(df.orig)) # Update all
-print("Fields to update:")
-print(update.fields)
 
 # --------------------------------------------------------
 
@@ -28,7 +16,6 @@ print(update.fields)
 # preprocessed data fields
 conversions <- list()
 preprocessing.times <- c()
-total.time.start <- Sys.time()
 
 # Preprocess the field only if it has to be updated
 for (field in update.fields) {
@@ -65,7 +52,6 @@ print(paste("Saving updates on preprocessed data:", field))
 save(df.preprocessed, file = "df.preprocessed.RData", compress = "xz")
 
 save(preprocessing.times, file = "preprocessing.times.RData")   
-total.time.stop <- Sys.time()
 
 # -----------------------------------------------------------
 
