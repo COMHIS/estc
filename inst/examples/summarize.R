@@ -1,16 +1,7 @@
-print("Write the final polished table in a file")
-df.preprocessed <- df
-write.table(df, file = "estc.csv", sep = "|", quote = FALSE, row.names = FALSE)
-if (!all(df.preprocessed$original_row == df.orig$original_row)) {
-  stop("Match df.preprocessed and df.orig")
-}
-
-
-print("Print summary tables of page count and volume count conversions")
-source("summarize.page.conversions.R")
+if (!all(df.preprocessed$original_row == df.orig$original_row)) {stop("Match df.preprocessed and df.orig")}
 
 print("Write summaries of field entries and count stats for all fields")
-for (field in setdiff(names(df), c("row.index", "latitude", "longitude", "page", "item", "paper.consumption.km2", "publication_decade", "publication_year", "publisher.printedfor", "unity", "pagecount.orig", "pagecount", "original_row"))) {
+for (field in setdiff(names(df), c(names(df)[grep("language", names(df))], "row.index", "paper.consumption.km2", "publication_decade", "publication_year", "pagecount", "obl", "obl.original", "original_row", "dissertation", "synodal", "original", "unity", "author_birth", "author_death", "gatherings.original", "width.original", "height.original"))) {
 
   print(field)
 
@@ -30,34 +21,109 @@ for (field in setdiff(names(df), c("row.index", "latitude", "longitude", "page",
     original <- as.character(df.orig[[field]][inds])
     polished <- as.character(df[[field]][inds])
     tab <- cbind(original = original, polished = polished)
-    # Exclude trivial cases (original == polished)
-    tab <- tab[!tab[, "original"] == tab[, "polished"], ]
+    # Exclude trivial cases (original == polished exluding cases)
+    #tab <- tab[!tab[, "original"] == tab[, "polished"], ]
+    tab <- tab[!tolower(tab[, "original"]) == tolower(tab[, "polished"]), ]
     tmp <- write_xtable(tab, paste(output.folder, field, "_conversions_nontrivial.csv", sep = ""), count = TRUE)
   }
 }
 
+
+
+print("Conversion summaries")
+originals <- c(publisher = "publisher",
+	       pagecount = "physical_extent",
+	       publication_place = "publication_place",
+	       country = "publication_place",
+	       publication_year = "publication_time",
+	       author = "author_name",
+	       author_gender = "author_name"
+	       #title = "title"	# Very large summaries
+	       )
+for (nam in names(originals)) {
+  o <- as.character(df.orig[[originals[[nam]]]])
+  x <- as.character(df.preprocessed[[nam]])
+  inds <- which(!is.na(x) & !(tolower(o) == tolower(x)))
+  tmp <- write_xtable(cbind(original = o[inds],
+      	 		    polished = x[inds]),
+    paste(output.folder, paste(nam, "conversion_nontrivial.csv", sep = "_"), sep = ""))
+
+}
+
+print("Accept summaries")
+for (nam in names(originals)) {
+  x <- as.character(df.preprocessed[[nam]])
+  tmp <- write_xtable(x,
+    paste(output.folder, paste(nam, "accepted.csv", sep = "_"), sep = ""))
+
+}
+
+print("Discard summaries")
+for (nam in names(originals)) {
+  o <- as.character(df.orig[[originals[[nam]]]])
+  x <- as.character(df.preprocessed[[nam]])
+  inds <- which(is.na(x))
+  tmp <- write_xtable(o[inds],
+    paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""),
+    count = TRUE)
+
+}
+
 print("Automated summaries done.")
 
-# Birth year not known (NA)
-births <- lapply(split(df$author_birth, df$author_name), unique)
-na.birth <- names(which(is.na(births)))
-tmp <- write_xtable(df$author_name[df$author_name %in% na.birth], paste(output.folder, "author_birth_unknown.csv", sep = ""))
+# Authors with missing life years
+tab <- df.preprocessed %>% filter(!is.na(author_name) & (is.na(author_birth) | is.na(author_death))) %>% select(author_name, author_birth, author_death)
+tmp <- write_xtable(tab, file = paste(output.folder, "authors_missing_lifeyears.csv", sep = ""))
 
 # Ambiguous authors with many birth years
+births <- split(df.preprocessed$author_birth, df.preprocessed$author_name)
+births <- births[sapply(births, length) > 0]
 many.births <- lapply(births[names(which(sapply(births, function (x) {length(unique(na.omit(x)))}) > 1))], function (x) {sort(unique(na.omit(x)))})
-dfs <- df[df$author_name %in% names(many.births), c("author_name", "author_birth", "author_death")] %>% arrange(author_name, author_birth, author_death)
+dfs <- df.preprocessed[df.preprocessed$author_name %in% names(many.births), c("author_name", "author_birth", "author_death")]
+dfs <- unique(dfs)
+dfs <- dfs %>% arrange(author_name, author_birth, author_death)
 write.table(dfs, paste(output.folder, "author_life_ambiguous.csv", sep = ""), quote = F, sep = "\t", row.names = FALSE)
 
-print("Publication time: Failed conversions")
-x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
-tmp2 <- write_xtable(x, file = paste(output.folder, "publication_year_failed.csv", sep = ""))
+# Undefined language
+tmp <- write_xtable(as.character(df.orig$language[df.preprocessed$language.undetermined]), filename = "output.tables/language_unidentified.csv")
 
-print("Write unrecognized author life years to file together count stats")
-tmp <- write_xtable(unname(unlist(df.orig[which(is.na(df$author_birth) & is.na(df$author_death)),]$author_date)), paste(output.folder, "author_life_discarded.csv", sep = ""))
+# No country mapping
+tmp <- write_xtable(as.character(df.preprocessed$publication_place[is.na(df.preprocessed$country)]), filename = "output.tables/publication_place_missingcountry.csv")
 
-print("Write missing country mappings to file")
-write_xtable(as.character(df$publication_place)[is.na(df$publication_country)], file = paste(output.folder, "publication_country_discarded.csv", sep = ""))
+# TODO conversion tables can be automatized
+tab <- cbind(original = df.orig$physical_extent, df.preprocessed[, c("pagecount", "volnumber", "volcount")])
+tmp <- write_xtable(tab, filename = "output.tables/conversions_physical_extent.csv")
 
-print("Matrix with discarded author names")
-discarded.authors <- as.character(na.omit(df.orig[["author_name"]][is.na(df$author_unique)]))
-discarded.authors <- write_xtable(discarded.authors, file = paste(output.folder, "author_unique_discarded.csv", sep = ""))
+tab <- cbind(original = df.orig$physical_dimension, df.preprocessed[, c("gatherings.original", "width.original", "height.original", "obl.original", "gatherings", "width", "height", "obl", "area")])
+tmp <- write_xtable(tab, filename = "output.tables/conversions_physical_dimension.csv")
+
+# -------------------
+
+print("Write the mapped author genders in tables")
+tab <- data.frame(list(name = df.preprocessed$author, gender = df.preprocessed$author_gender))
+tab <- tab[!is.na(tab$gender), ] # Remove NA gender
+
+write_xtable(subset(tab, gender == "male")[,-2], file = paste(output.folder, "gender_male.csv", sep = ""))
+write_xtable(subset(tab, gender == "female")[,-2], file = paste(output.folder, "gender_female.csv", sep = ""))
+write_xtable(unname(pick_firstname(df.preprocessed$author_name)[is.na(df.preprocessed$author_gender)]), file = paste(output.folder, "gender_unknown.csv", sep = ""))
+
+# Mean page counts
+print("Average pagecounts")
+mean.pagecounts.multivol <- mean_pagecounts_multivol(df.preprocessed) 
+mean.pagecounts.univol <- mean_pagecounts_univol(df.preprocessed) 
+mean.pagecounts.issue <- mean_pagecounts_issue(df.preprocessed) 
+mean.pagecounts <- full_join(mean.pagecounts.univol, mean.pagecounts.multivol, by = "doc.dimension")
+mean.pagecounts <- full_join(mean.pagecounts, mean.pagecounts.issue, by = "doc.dimension")
+mean.pagecounts$doc.dimension <- factor(mean.pagecounts$doc.dimension, levels = levels(mean.pagecounts.univol$doc.dimension))
+write.table(mean.pagecounts, file = paste(output.folder, "mean_page_counts.csv", sep = ""), quote = F, row.names = F, sep = ",")
+
+print("Write places with missing geolocation to file")
+
+tab <- rev(sort(table(df.preprocessed$publication_place[is.na(df.preprocessed$latitude) | is.na(df.preprocessed$longitude)])))
+tab <- tab[tab > 0]
+tab <- cbind(names(tab), tab)
+colnames(tab) <- c("name", "count")
+write.table(tab, file = paste(output.folder, "absentgeocoordinates.csv", sep = ""), quote = F, row.names = F, sep = "\t")
+
+# Cleanup
+gc()

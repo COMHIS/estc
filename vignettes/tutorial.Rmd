@@ -24,9 +24,9 @@ reports and feedback](https://github.com/ropengov/estc) are welcome!
 
 ## Available tools
 
-[Installation](#installation)  
-[Reproducing the ESTC analysis](#preprocessing)  
-[Analysis tools](#tools)  
+  * [Installation](#installation)  
+  * [Reproducing the ESTC analysis](#preprocessing)  
+  * [Analysis tools](#tools)  
 
 
 ## <a name="installation"></a>Installation

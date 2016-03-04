@@ -1,94 +1,66 @@
-print("Start collecting variables to a polished data frame")
-df <- data.frame(list(row.index = 1:nrow(df.orig)))
+  # Initialize preprocessed data
+  print("Start collecting variables to a polished data frame")
+  df.preprocessed <- data.frame(list(row.index = 1:nrow(df.orig)))
 
-print("Entry identifier to match back to the originals")
-df$original_row <- df.orig$original_row
+  print("Entry identifier to match back to the originals")
+  df.preprocessed$original_row <- df.orig$original_row
 
-print("Language")
-df$language <- df.orig$language 
+  # Save the initial version of preprocessed data
+  save(df.preprocessed, file = "df.preprocessed.RData")
 
-print("Publication title")
-df$title <- polish_title(df.orig$title)
+# -------------------------------------------------------
 
-print("Subject topic")
-df$topic <- polish.topic(df.orig$subject_topic)
+print("List raw data fields to be preprocessed")
+update.fields <- sort(names(df.orig)) # Update all
+print("Fields to update:")
+print(update.fields)
 
-print("Arrange author first and last names in a table")
-# Add full author name (Last, First) to our data
-tmp <- polish_author(df.orig$author_name, validate = TRUE)
-df$author_name <- tmp$names$full
-# Write invalid author names to file for a later check
-for (db in c("first", "last")) {
-  fnam <- paste(output.folder, "author_name_discarded_", db, ".csv", sep = "")
-  write_xtable(tmp$invalid[[db]], file = fnam, count = TRUE)
+# --------------------------------------------------------
+
+# List how raw data fields will be converted into
+# preprocessed data fields
+conversions <- list()
+preprocessing.times <- c()
+
+# Preprocess the field only if it has to be updated
+for (field in update.fields) {
+
+  start.time <- Sys.time()
+  print(paste("Preprocessing", field, "(", match(field, update.fields), "/", length(update.fields), ")"))
+
+  # Polish the given field
+  df.tmp <- polish_field(df.orig, field, verbose = TRUE)
+
+  # List the output fields for this input field
+  conversions[[field]] <- names(df.tmp)
+
+  # Remove the fields to be updated
+  inds <- which(names(df.preprocessed) %in% unlist(conversions[[field]]))
+  if (length(inds) > 0) { df.preprocessed <- df.preprocessed[, -inds]}
+
+  # Add the newly preprocessed field
+  df.preprocessed <- cbind(df.preprocessed, df.tmp)
+
+  # Remove the temporary data.frame
+  rm(df.tmp)
+
+  # Monitor time
+  stop.time <- Sys.time()
+  preprocessing.times[[field]] <- difftime(stop.time, start.time, units = "mins")
+
+  # Cleanup
+  gc()
+
 }
 
-print("Number of pages")
-# ESTC-specific handling
-x <- harmonize_pages_specialcases(df.orig$physical_extent)
-df.tmp <- polish_physical_extent(x, verbose = TRUE) # was polish_pagecount, polish_volcount, polish_volnumber
-df <- cbind(df, df.tmp)
+print(paste("Saving updates on preprocessed data:", field))
+save(df.preprocessed, file = "df.preprocessed.RData", compress = "xz")
 
-print("Publication place")
-df$publication_place <- polish_place(df.orig$publication_place,
-					remove.unknown = TRUE)
+save(preprocessing.times, file = "preprocessing.times.RData")   
+total.time.stop <- Sys.time()
 
-print("Augment missing document dimensions") 
-# Fill in missing entries where estimates can be obtained:
-# area, width, height, gatherings (also keep pure originals before fill in)
-tmp <- polish_dimensions(df.orig$physical_dimension, fill = TRUE, verbose = TRUE)
-tmp <- tmp[, -grep("original", names(tmp))] # Remove the 'original' fields
-df <- cbind(df, tmp) 
+# -----------------------------------------------------------
 
-print("Estimate number of separate parts in a document")
-# parts, pages_per_part
-# tmp <- estimate_document_parts(df.orig)
-# df <- cbind(df, tmp)
-
-print("Publisher")
-df$publisher <- polish_publisher(df.orig$publisher)
-publisher_forby <- polish_publisher_forby(df.orig$publisher)
-
-# ---------------------------------------
-
-# TODO make a tidy cleanup function to shorten the code here
-print("Polish author life years")
-tmp <- polish_years(df.orig$author_date, check = TRUE)
-df$author_birth <- tmp$from
-df$author_death <- tmp$till
-
-# ----------------------------------------------------
-
-print("Publication year")
-tab <- polish_years(df.orig$publication_time, check = TRUE)
-df$publication_year <- tab$from
-# If from year not available, then use till year
-inds <- which(is.na(df$publication_year))
-df$publication_year[inds] <- tab$till[inds]
-
-df$publication_year[df$publication_year > 2000] <- NA
-
-# Conversion statistics in a file
-# (successfull conversions and the count for each)
-tmp <- write_xtable(tab, file = "output.tables/publication_year.csv")
-
-# Failed conversions
-# TODO can be improved considerably
-x <- as.character(df.orig[which(is.na(df$publication_year)), ]$publication_time)
-tmp2 <- write_xtable(x, file = "output.tables/publication_year_failed.csv")
-
-tmp <- write_xtable(tab, file = paste(output.folder, "publication_year_conversion_table.csv", sep = ""))
-
-# -----------------------------
-
-# Temporary save before proceeding
-dftmp <- df
-
-# Polish the final data frame; Filter out years 1800- 
-# (mostly errors and printing techniques change dramatically)
-rmv <- which(df$publication_year >= 1800)
-df <- df[-rmv,]
-df.orig <- df.orig[-rmv,]
-
-
+# Visualize processing times for the different fields
+source("processingtimes.R")
 

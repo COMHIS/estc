@@ -1,30 +1,35 @@
-# Update the pkg
-# library(devtools); install_github("ropengov/estc")
-
-# Define here the input file and output folder
-# The rest should then execute out-of-the box
-source.data.file <- "data/estc.csv.gz"
+# I/O definitions
+# Data dir
+ddir <- "~/data/ESTC/preprocessed"
 output.folder <- "output.tables/"
 
-# ----------------------------------------------------------
+# —--------------------------------------------
 
-library(estc)
-library(ggplot2)
-library(knitr)
-library(dplyr)
+# Initialize and read raw data
+source("init.R")
+source("read.rawdata.R")
 
-print("Create the output directory if necessary")
-dir.create(output.folder)
+# ---------------------------------------------
 
-print("Read raw data")
-df.orig <- read_bibliographic_metadata(source.data.file)
+# Selected subsets of the raw data
+source("filtering.R") # -> df.orig
 
-# Preprocess the raw data
-source("preprocessing.R")
+# -----------------------------------------------
+
+# Preprocess raw data
+source("preprocessing.R") # -> df.preprocessed
+load("df.preprocessed.RData")
+
+# Validating and fixing fields
+source("validation.R")
 
 # Enrich the data
 # (add missing information and augment with external data)
-source("enrich.R")
+source("enrich.R") # df.preprocessed.RData
+
+# Save the preprocessed data
+print("Saving updates on preprocessed data")
+saveRDS(df.preprocessed, file = "estc.Rds", compress = TRUE)
 
 # Summarize the data and discarded entries
 source("summarize.R")
@@ -32,5 +37,8 @@ source("summarize.R")
 # Analyze the preprocessed data
 source("analysis.R")
 
-# Test map visualizations
-# source("map.R")
+
+
+
+
+
