@@ -1,4 +1,4 @@
-#' @title ambiguous_authors_table
+#' @title Ambiguous authors table
 #' @description Read table of ambiguous author name synonymes
 #' @param ... Arguments to be pased
 #' @return Author synonyme data frame with fields 'name' and 'synonyme' 

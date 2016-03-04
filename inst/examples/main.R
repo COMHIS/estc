@@ -1,6 +1,6 @@
 # I/O definitions
 # Data dir
-ddir <- "~/data/ESTC/preprocessed"
+ddir <- "~/data/ESTC/preprocessed/full"
 output.folder <- "output.tables/"
 
 # —--------------------------------------------
@@ -36,9 +36,6 @@ source("summarize.R")
 
 # Analyze the preprocessed data
 source("analysis.R")
-
-
-
 
 
 

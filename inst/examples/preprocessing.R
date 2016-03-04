@@ -1,4 +1,5 @@
-  # Initialize preprocessed data
+
+# Initialize preprocessed data
   print("Start collecting variables to a polished data frame")
   df.preprocessed <- data.frame(list(row.index = 1:nrow(df.orig)))
 
@@ -21,9 +22,11 @@ print(update.fields)
 # preprocessed data fields
 conversions <- list()
 preprocessing.times <- c()
+total.time.start <- Sys.time()
 
 # Preprocess the field only if it has to be updated
-for (field in update.fields) {
+new.ones <- c("publication_geography", "publication_topic", "title_uniform2")
+for (field in setdiff(update.fields, new.ones)) {
 
   start.time <- Sys.time()
   print(paste("Preprocessing", field, "(", match(field, update.fields), "/", length(update.fields), ")"))

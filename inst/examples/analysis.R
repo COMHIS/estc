@@ -9,18 +9,17 @@ library(sorvi)
 library(reshape2)
 library(gridExtra)
 library(knitr)
-output.folder <- "output.tables/"
 
 # ---------------------------------
 
 # Load the data
+output.folder <- "output.tables/"
 df <- readRDS("estc.Rds")
 
 # ---------------------------------
 
 print("Summary")
 knit("summary.Rmd")
-# knit("gender.Rmd")
 
 system("git add -f figure/*.png")
 # system("git add -f output.tables/*.csv")

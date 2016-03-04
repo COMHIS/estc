@@ -1,25 +1,25 @@
 if (!all(df.preprocessed$original_row == df.orig$original_row)) {stop("Match df.preprocessed and df.orig")}
 
 print("Write summaries of field entries and count stats for all fields")
-for (field in setdiff(names(df), c(names(df)[grep("language", names(df))], "row.index", "paper.consumption.km2", "publication_decade", "publication_year", "pagecount", "obl", "obl.original", "original_row", "dissertation", "synodal", "original", "unity", "author_birth", "author_death", "gatherings.original", "width.original", "height.original"))) {
+for (field in setdiff(names(df.preprocessed), c(names(df.preprocessed)[grep("language", names(df.preprocessed))], "row.index", "paper.consumption.km2", "publication_decade", "publication_year", "pagecount", "obl", "obl.original", "original_row", "dissertation", "synodal", "original", "unity", "author_birth", "author_death", "gatherings.original", "width.original", "height.original"))) {
 
   print(field)
 
   print("Accepted entries in the preprocessed data")
-  s <- write_xtable(df[[field]], file = paste(output.folder, field, "_accepted.csv", sep = ""), count = TRUE)
+  s <- write_xtable(df.preprocessed[[field]], file = paste(output.folder, field, "_accepted.csv", sep = ""), count = TRUE)
 
   print("Discarded entries")
-  if ((field %in% names(df)) && (field %in% names(df.orig))) {
-    inds <- which(is.na(df[[field]]))
+  if ((field %in% names(df.preprocessed)) && (field %in% names(df.orig))) {
+    inds <- which(is.na(df.preprocessed[[field]]))
     original <- as.vector(na.omit(as.character(df.orig[[field]][inds])))
     tmp <- write_xtable(original, paste(output.folder, field, "_discarded.csv", sep = ""), count = TRUE)
   }
 
   print("Successful nontrivial conversions")
-  if (field %in% names(df) && (field %in% names(df.orig)) && !field == "dimension") {
-    inds <- which(!is.na(df[[field]]))
+  if (field %in% names(df.preprocessed) && (field %in% names(df.orig)) && !field == "dimension") {
+    inds <- which(!is.na(df.preprocessed[[field]]))
     original <- as.character(df.orig[[field]][inds])
-    polished <- as.character(df[[field]][inds])
+    polished <- as.character(df.preprocessed[[field]][inds])
     tab <- cbind(original = original, polished = polished)
     # Exclude trivial cases (original == polished exluding cases)
     #tab <- tab[!tab[, "original"] == tab[, "polished"], ]
