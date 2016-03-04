@@ -1,4 +1,4 @@
-#' @title harmonize_pages_specialcases
+#' @title Harmonize pages specialcases
 #' @description Harmonize pages (special cases)
 #' @param x A character vector
 #' @return Polished vector

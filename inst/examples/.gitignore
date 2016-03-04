@@ -1,3 +1,6 @@
+processingtimes.png
+*.csv.gz
+*.Rds
 *.RData
 *~
 places.geonames.RData

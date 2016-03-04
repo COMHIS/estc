@@ -37,5 +37,7 @@ source("summarize.R")
 # Analyze the preprocessed data
 source("analysis.R")
 
+# Test map visualizations (estc/old)
+# source("map.R")
 
 

@@ -1,5 +1,29 @@
 # TODO
 
+summary.old.Rmd
+
+päivitä README-file
+
+Tee geneeriset enrich, summary- ja analysis-skriptit estc + cerl ja sitten vielä fennica
+
+# ----------------------------------------
+
+# summarize.R - check that this is included now for all relevant parts
+#print("Print summary tables of page count and volume count conversions")
+#estc::source("summarize.page.conversions.R") # Should be included now
+
+Publisher for/by kentän siivous ?
+publisher_forby <- polish_publisher_forby(df.orig$publisher)
+
+items / parts poistettiin aiemmin kun oli hankalaa. pitäisiko ottaa takaisin.
+# document parts estimation for estc is still missing (affects items and hence pages estimates)
+# print("Estimate number of separate parts in a document")
+# parts, pages_per_part
+# tmp <- estimate_document_parts(df.orig)
+# df <- cbind(df, tmp)
+
+# ----------------------------------------------
+
 tapaukset (jos sellaisia on), jossa 1to merkinnässä on enemmän kuin 1 sivua, niin nämä voisi laittaa 2fo kokoon. Tämä perusteluna sille, että 1to on sheet sellaisenaan, jos se on taiteltu, niin sitten siitä tulee folio.
 
 ------------

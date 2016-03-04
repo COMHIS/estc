@@ -2,7 +2,7 @@
 % Please edit documentation in R/estimate_document_items.R
 \name{estimate_document_items}
 \alias{estimate_document_items}
-\title{estimate_document_items}
+\title{Estimate document items}
 \usage{
 estimate_document_items(df)
 }

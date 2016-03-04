@@ -2,7 +2,7 @@
 % Please edit documentation in R/harmonize_pages_specialcases.R
 \name{harmonize_pages_specialcases}
 \alias{harmonize_pages_specialcases}
-\title{harmonize_pages_specialcases}
+\title{Harmonize pages specialcases}
 \usage{
 harmonize_pages_specialcases(x)
 }
