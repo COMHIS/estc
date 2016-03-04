@@ -9,34 +9,50 @@ library(sorvi)
 library(reshape2)
 library(gridExtra)
 library(knitr)
+library(magrittr)
 
-# ---------------------------------
-
-# Load the data
+# Set global parameters
+ntop <- 20
 output.folder <- "output.tables/"
+
+# Read the preprocessed data
 df <- readRDS("estc.Rds")
+#df <- read.csv(file = "estc.csv", sep = "|")
+# Order the levels where necessary
+#df$gatherings <- order_gatherings(df$gatherings)
+
+# ESTC-specific year limits
+df <- filter(df, publication_year >= 1460 & publication_year <= 1830)
 
 # ---------------------------------
 
-print("Summary")
-knit("summary.Rmd")
+print("Generic summaries")
+knit("overview.Rmd")
+knit("author.Rmd")
+knit("publicationplace.Rmd")
+knit("publisher.Rmd")
+knit("documents.Rmd")
+knit("size.Rmd")
+knit("gender.Rmd")
+knit("topic.Rmd") # ESTC only
 
 # ------------------------------------------
 
-# ESTC: TODO / Old material
+# Dataset-specific analyses (TODO redo after updates)
 
 # Custom definitions
 source("general.R") # See estc todo file
+
 #knit("Edinburgh.Rmd")
 #knit("NorthAmerica.Rmd")
 #knit("Scotland.Rmd")
 #knit("Princeton.Rmd")
 #knit("pagecounts.Rmd")
+
+# Archived:
 #knit("20150624-LIBER.Rmd") # For conference
 #knit("20151023-LIBER.Rmd") # For journal
 #knit("20150611-Paris.Rmd") # For workshop
-
-# Archived:
 # source("timeplot.R") # History vs. all ESTC docs
 # source("duplicates.R")
 
