@@ -10,11 +10,6 @@ output: markdown_document
 
 Page count: distribution of document sizes
 
-
-```
-## Error in eval(expr, envir, enclos): object 'items' not found
-```
-
 ![plot of chunk pagecountstat](figure/pagecountstat-1.png)
 
 
@@ -30,18 +25,7 @@ Note: there are 0 documents that have some dimensions information but sheet area
 ![plot of chunk paperconsumption](figure/paperconsumption-1.png)![plot of chunk paperconsumption](figure/paperconsumption-2.png)
 
 ![plot of chunk paperconsumption2b](figure/paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/paperconsumption2b-2.png)
-![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-2.png)
-
-p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
-p <- p + geom_point()
-#p <- p + geom_line()
-#p <- p + scale_y_log10()
-p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Annual title count by gatherings")
-p <- p + xlab("Year")
-p <- p + ylab("Documents (n)")
-print(p)
-```
+![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-2.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-3.png)
 
 ![plot of chunk paperconsumption2](figure/paperconsumption2-1.png)
 

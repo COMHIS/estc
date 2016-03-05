@@ -40,7 +40,8 @@ df <- df.preprocessed
   theme_set(theme_bw(15))
   dff <- filter(df, 
  	   (volcount > 1 | 
-	   (items == 1 & !is.na(volnumber)))
+	   #(items == 1 & !is.na(volnumber))) # include when items info is again available
+	   (!is.na(volnumber)))	   
 	   #pagecount > 10
 	   )
   dff2 <- dff %>% group_by(gatherings, 
@@ -168,7 +169,6 @@ print(p)
 p <- ggplot(df2, aes(x = publication_year, fill = gatherings)) + geom_bar(position = "fill")
 p <- p + ggtitle("Gatherings proportions over time")
 print(p)    
-```
 
 p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
