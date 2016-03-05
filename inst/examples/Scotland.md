@@ -89,10 +89,21 @@ We have 33750 documents from Scotland and 205048 documents from London during 17
 
 ## Comparing selected authors
 
-![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
+
+```
+## Warning: Removed 5295 rows containing missing values (geom_point).
+```
+
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
+
+```
+## Warning: Removed 614 rows containing missing values (geom_point).
+```
+
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
 
 ## Authors from different periods publishing in 1750-1799
-
 
 ![plot of chunk Scotlandselectedperiods](figure/Scotlandselectedperiods-1.png)![plot of chunk Scotlandselectedperiods](figure/Scotlandselectedperiods-2.png)
 
