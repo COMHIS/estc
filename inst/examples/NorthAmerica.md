@@ -16,15 +16,15 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 2582 documents from Scotland.
+We have 2582 documents from USA.
 
 
-## Most common authors from Scotland
+## Most common authors from USA
 
 
 ```r
 p <- top_plot(df, "author", 20)
-p <- p + ggtitle(paste("Most common authors from", country))
+p <- p + ggtitle(paste("Most common authors from", sel.country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
@@ -37,7 +37,7 @@ print(p)
 
 ```r
 p <- top_plot(df, "title", 20)
-p <- p + ggtitle(paste("Most common titles from", country))
+p <- p + ggtitle(paste("Most common titles from", sel.country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
 ```

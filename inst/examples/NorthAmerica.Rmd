@@ -23,14 +23,14 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have `r nrow(df)` documents from `r country`.
+We have `r nrow(df)` documents from `r sel.country`.
 
 
-## Most common authors from `r country`
+## Most common authors from `r sel.country`
 
 ```{r NAtopauth}
 p <- top_plot(df, "author", 20)
-p <- p + ggtitle(paste("Most common authors from", country))
+p <- p + ggtitle(paste("Most common authors from", sel.country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
@@ -40,7 +40,7 @@ print(p)
 
 ```{r NAtoptitles, fig.width=20, fig.height=10}
 p <- top_plot(df, "title", 20)
-p <- p + ggtitle(paste("Most common titles from", country))
+p <- p + ggtitle(paste("Most common titles from", sel.country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
 ```
