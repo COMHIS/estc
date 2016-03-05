@@ -16,7 +16,7 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 2582 documents from USA.
+We have 19813 documents from USA.
 
 
 ## Most common authors from USA

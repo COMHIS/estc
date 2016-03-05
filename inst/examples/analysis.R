@@ -25,11 +25,12 @@ df <- readRDS(datafile)
 
 # Year limits
 df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
+df.preprocessed.orig <- df.preprocessed
 
 # ----------------------------------------
 
 print("Generic summaries") # Markdown
-df <- df.preprocessed
+df <- df.preprocessed <- df.preprocessed.orig
 sf <- generate_summaryfiles(author = "Leo Lahti", output.folder = output.folder)
 
 # ------------------------------------------
@@ -40,12 +41,26 @@ sf <- generate_summaryfiles(author = "Leo Lahti", output.folder = output.folder)
 source("general.R") # See estc TODO file
 
 author <- "Leo Lahti"
+
+df <- df.preprocessed <- df.preprocessed.orig
 knit("Edinburgh.Rmd")
+
+df <- df.preprocessed <- df.preprocessed.orig
 knit("NorthAmerica.Rmd")
+
+df <- df.preprocessed <- df.preprocessed.orig
 knit("Scotland.Rmd")
+
+df <- df.preprocessed <- df.preprocessed.orig
 knit("Princeton.Rmd")
+
+df <- df.preprocessed <- df.preprocessed.orig
 knit("pagecounts.Rmd")
+
+df <- df.preprocessed <- df.preprocessed.orig
 knit("20151023-LIBER.Rmd") # For journal
+
+df <- df.preprocessed <- df.preprocessed.orig
 
 # Archived - done with history data
 # do not work (yet) with the full data
