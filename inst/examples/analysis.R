@@ -29,7 +29,7 @@ df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_y
 # ----------------------------------------
 
 print("Generic summaries") # Markdown
-sf <- generate_summaryfiles(df.preprocessed, output.folder = output.folder)
+sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder = output.folder)
 
 # ------------------------------------------
 

@@ -71,7 +71,7 @@ print(p)
 ## Top titles 
 
 ```{r Scotlandtoptitles, fig.width=10, fig.height=10, echo=FALSE}
-p <- top_plot(df, "publication.title", 20)
+p <- top_plot(df, "title", 20)
 p <- p + ggtitle(paste("Most common titles from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
@@ -86,7 +86,7 @@ print(p)
 
 ```{r Scotlandad500, echo=FALSE, fig.width=20, fig.height=10}
 year <- 500
-dfs <- filter(df, author.birth < year)
+dfs <- filter(df, author_birth < year)
 tab <- table(dfs$author); 
 tab <- sort(tab[tab>0])
 print(tab)
@@ -230,7 +230,7 @@ print(p)
 
 ```{r Scotlandselectedauthors, echo=FALSE, fig.width=15, fig.height=7}
 
-authors <- c("hume, david (1711-1776)", "robertson, william (1721-1793)", "gibbon, edward (1737-1794)")
+authors <- c("Hume, David (1711-1776)", "Robertson, William (1721-1793)", "Gibbon, Edward (1737-1794)")
 cols <- c("red", "blue", "darkgreen"); names(cols) <- authors
 dfa <- filter(dfo, author %in% authors) 
 lims <- range(dfa$publication_year)
@@ -277,10 +277,10 @@ ctr <- "London"
 ```{r Scotlandselectedperiods, echo=FALSE, fig.width=15, fig.height=7}
 df <- dfo %>% filter(publication_year >= 1750 & publication_year <= 1799)
 lims <- range(df$publication_year)
-df$author.birth.period <- cut(df$author.birth, breaks = c(-Inf, 501, 1500, 1600, 1650, 1700, 1730), right = FALSE, labels = c("-500AD", "501-1500", "1501-1600", "1601-1650", "1651-1700", "1701-1730"))
-dfs <- filter(df, !is.na(author.birth.period))
-df <- group_by(dfs, author.birth.period, publication_year) %>% summarize(ndoc = n())
-p <- ggplot(df, aes(x = publication_year, y = ndoc, col = author.birth.period)) 
+df$author_birth.period <- cut(df$author_birth, breaks = c(-Inf, 501, 1500, 1600, 1650, 1700, 1730), right = FALSE, labels = c("-500AD", "501-1500", "1501-1600", "1601-1650", "1651-1700", "1701-1730"))
+dfs <- filter(df, !is.na(author_birth.period))
+df <- group_by(dfs, author_birth.period, publication_year) %>% summarize(ndoc = n())
+p <- ggplot(df, aes(x = publication_year, y = ndoc, col = author_birth.period)) 
 p <- p + geom_line() + geom_point()
 p <- p + ylab("Documents")
 p <- p + xlab("Publication Year")
@@ -291,8 +291,8 @@ print(p)
 
 country <- "Scotland"
 df <- filter(dfs, country == country)
-df <- group_by(df, author.birth.period, publication_year) %>% summarize(ndoc = n())
-p <- ggplot(df, aes(x = publication_year, y = ndoc, fill = author.birth.period)) 
+df <- group_by(df, author_birth.period, publication_year) %>% summarize(ndoc = n())
+p <- ggplot(df, aes(x = publication_year, y = ndoc, fill = author_birth.period)) 
 #p <- p + geom_line() + geom_point()
 p <- p + geom_bar(stat = "identity", position = "stack")
 p <- p + ylab("Documents")
