@@ -11,12 +11,16 @@ output: markdown_document
 
 [Discarded author names](output.tables/author_discarded.csv)
 
-[Author name conversions](output.tables/author_conversion_nontrivial.csv)
-
 Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6482 unique authors and 18509 documents with unambiguous author information (44%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
+All conversions from the original to final names:
+
+[Author name conversions](output.tables/author_conversion_nontrivial.csv)
+
+
+### Author productivity
 
 Title count versus paper consumption (all authors):
 
@@ -41,10 +45,8 @@ Should also add living year information from supporting sources later.
 
 ### Publication timeline for top authors
 
-Title count
-
 ![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)
 
 
-Paper consumption
+
 
