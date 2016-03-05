@@ -48,5 +48,3 @@ Title count
 
 Paper consumption
 
-![plot of chunk summaryTop10authorstimelinepaper](figure/summaryTop10authorstimelinepaper-1.png)
-
