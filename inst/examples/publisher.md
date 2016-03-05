@@ -14,7 +14,7 @@ output: markdown_document
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 365409 documents (76%). There are 161986 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 364200 documents (76%). There are 161986 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
@@ -22,11 +22,6 @@ The 20 most common publishers are shown with the number of documents. Publisher 
 ### Publication timeline for top publishers
 
 Title count
-
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
 
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
 
@@ -42,8 +37,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher                             | titles|    paper|
 |:-------------------------------------|------:|--------:|
-|author                                |   1995| 4.158264|
+|author                                |   1990| 4.156793|
 |charles eyre william strahan          |   1585| 8.269442|
-|company stationers                    |    953| 1.256797|
+|company stationers                    |    952| 1.256779|
 |george eyre andrew strahan            |    943| 6.206504|
 |thomas baskett assigns robert baskett |   1106| 6.436823|

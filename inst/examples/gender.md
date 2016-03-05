@@ -23,9 +23,9 @@ Author gender distribution in the complete data:
 
 |author_gender |   docs| fraction|
 |:-------------|------:|--------:|
-|female        |   8904|     1.84|
-|male          | 227163|    47.00|
-|NA            | 247277|    51.16|
+|female        |   8901|     1.85|
+|male          | 227054|    47.13|
+|NA            | 245818|    51.02|
 
 Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
 
