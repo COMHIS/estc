@@ -80,6 +80,8 @@ print(p)
 
 ## Authors born before 500AD
 
+Only authors with over 10 publications.
+
  * Ennen 500AD syntyneiden kirjoittajien julkaisujen esiintymat koko aikajanalla, painomaarat per vuosi, kaikki julkaisupaikat.
  * Ennen 500AD syntyneiden kirjoittajien julkaisujen esiintymat koko aikajanalla, painomaarat per vuosi Skotlannissa.
 
@@ -88,7 +90,7 @@ print(p)
 year <- 500
 dfs <- filter(df, author_birth < year)
 tab <- table(dfs$author); 
-tab <- sort(tab[tab>0])
+tab <- sort(tab[tab>10])
 print(tab)
 ```
 
@@ -234,12 +236,11 @@ authors <- c("Hume, David (1711-1776)", "Robertson, William (1721-1793)", "Gibbo
 cols <- c("red", "blue", "darkgreen"); names(cols) <- authors
 dfa <- filter(dfo, author %in% authors) 
 lims <- range(dfa$publication_year)
-#df <- filter(dfa, country == "Scotland")
 
 dfs <- group_by(dfa, author, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
 p <- p + geom_line() + geom_point()
-p <- p + scale_color_manual(values=cols[levels(dfs$author)])
+p <- p + scale_color_manual(values=cols[dfs$author])
 p <- p + ylab("Documents")
 p <- p + ggtitle("Documents from selected authors (all places)")
 p <- p + xlim(limits = lims)
@@ -251,7 +252,7 @@ for (ctr in c("Scotland", "USA")) {
     summarize(ndoc = n())
   p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
   p <- p + geom_line() + geom_point()
-  p <- p + scale_color_manual(values=cols[levels(dfs$author)])
+  p <- p + scale_color_manual(values=cols[dfs$author])
   p <- p + ylab("Documents")
   p <- p + ggtitle(paste("Documents from selected authors (", ctr, ")"))
   p <- p + xlim(limits = lims)
@@ -264,7 +265,7 @@ ctr <- "London"
     summarize(ndoc = n())
   p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
   p <- p + geom_line() + geom_point()
-  p <- p + scale_color_manual(values=cols[levels(dfs$author)])
+  p <- p + scale_color_manual(values=cols[dfs$author])
   p <- p + ylab("Documents")
   p <- p + ggtitle(paste("Documents from selected authors (", ctr, ")"))
   p <- p + xlim(limits = lims)
@@ -277,7 +278,7 @@ ctr <- "London"
 ```{r Scotlandselectedperiods, echo=FALSE, fig.width=15, fig.height=7}
 df <- dfo %>% filter(publication_year >= 1750 & publication_year <= 1799)
 lims <- range(df$publication_year)
-df$author_birth.period <- cut(df$author_birth, breaks = c(-Inf, 501, 1500, 1600, 1650, 1700, 1730), right = FALSE, labels = c("-500AD", "501-1500", "1501-1600", "1601-1650", "1651-1700", "1701-1730"))
+df$author_birth.period <- cut(as.numeric(df$author_birth), breaks = c(-Inf, 501, 1500, 1600, 1650, 1700, 1730), right = FALSE, labels = c("-500AD", "501-1500", "1501-1600", "1601-1650", "1651-1700", "1701-1730"))
 dfs <- filter(df, !is.na(author_birth.period))
 df <- group_by(dfs, author_birth.period, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(df, aes(x = publication_year, y = ndoc, col = author_birth.period)) 
@@ -293,7 +294,6 @@ sel.country <- "Scotland"
 df <- filter(dfs, country == sel.country)
 df <- group_by(df, author_birth.period, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(df, aes(x = publication_year, y = ndoc, fill = author_birth.period)) 
-#p <- p + geom_line() + geom_point()
 p <- p + geom_bar(stat = "identity", position = "stack")
 p <- p + ylab("Documents")
 p <- p + xlab("Publication Year")
@@ -302,3 +302,4 @@ p <- p + xlim(limits = lims)
 p <- p + guides(fill = guide_legend(reverse=TRUE))
 print(p)
 ```
+

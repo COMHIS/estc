@@ -1,7 +1,7 @@
 ---
 title: "Page count summary"
-author: "Leo Lahti"
-date: "30/05/2015"
+author: "Lahti, L"
+date: "2016-03-05"
 output: markdown_document
 ---
 
@@ -12,43 +12,19 @@ Page count: distribution of document sizes
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'document.volcount' not found
+## Error in eval(expr, envir, enclos): object 'volcount' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'document.dimension.gatherings.estimated'
+## Error in eval(expr, envir, enclos): object 'dff' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'document.dimension.gatherings.estimated'
+## Error in eval(expr, envir, enclos): object 'dff' not found
 ```
 
 ```
-## Error in ggplot(dff2, aes(y = document.dimension.gatherings.estimated, : object 'dff2' not found
-```
-
-```
-## Error in fortify(data): object 'dff3' not found
-```
-
-```
-## Error in fortify(data): object 'dff3' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'document.volcount' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'document.dimension.gatherings.estimated'
-```
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'document.dimension.gatherings.estimated'
-```
-
-```
-## Error in ggplot(dff2, aes(y = document.dimension.gatherings.estimated, : object 'dff2' not found
+## Error in ggplot(dff2, aes(y = dimension.gatherings, x = pages.total)): object 'dff2' not found
 ```
 
 ```
@@ -60,7 +36,39 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.country' not found
+## Error in nrow(dff): object 'dff' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'volcount' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'dff' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'dff' not found
+```
+
+```
+## Error in ggplot(dff2, aes(y = dimension.gatherings, x = pages.total)): object 'dff2' not found
+```
+
+```
+## Error in fortify(data): object 'dff3' not found
+```
+
+```
+## Error in fortify(data): object 'dff3' not found
+```
+
+```
+## Error in nrow(dff): object 'dff' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'author_birth.period' not found
 ```
 
 
@@ -68,21 +76,21 @@ Page count: distribution of document sizes
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.decade'
+## Error in eval(expr, envir, enclos): unknown column 'publication_decade'
 ```
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, "na", value = logical(0)): replacement has 0 rows, data has 9
+## Error in `$<-.data.frame`(`*tmp*`, "na", value = logical(0)): replacement has 0 rows, data has 17
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
 
 ![plot of chunk missingpages](figure/missingpages-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.decade'
+## Error in eval(expr, envir, enclos): unknown column 'publication_decade'
 ```
 
 ```
@@ -90,7 +98,7 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in ggplot(df2b, aes(x = publication.decade, y = document.dimension.gatherings.estimated, : object 'df2b' not found
+## Error in ggplot(df2b, aes(x = publication_decade, y = dimension.gatherings, : object 'df2b' not found
 ```
 
 ```
@@ -98,7 +106,7 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
 
 
@@ -106,67 +114,46 @@ Page count: distribution of document sizes
 
 Note: there are 0 documents that have some dimensions information but sheet area information could not be calculated for some reason. 
 
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'publication.year'
-```
-
-```
-## Error in eval(expr, envir, enclos): incorrect size (1), expecting : 9
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
-```
-
-![plot of chunk paperconsumption](figure/paperconsumption-1.png)
-
-```
-## Error in eval(expr, envir, enclos): incorrect size (1), expecting : 9
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
-```
+![plot of chunk paperconsumption](figure/paperconsumption-1.png)![plot of chunk paperconsumption](figure/paperconsumption-2.png)
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.year'
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'document.dimension.gatherings.estimated' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
 ![plot of chunk paperconsumption2b](figure/paperconsumption2b-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.year'
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'document.dimension.gatherings.estimated' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
 ![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
-p <- ggplot(df2, aes(y = n, x = publication.year, group = document.dimension.gatherings.estimated, color = document.dimension.gatherings.estimated))
+p <- ggplot(df2, aes(y = n, x = publication_year, group = dimension.gatherings, color = dimension.gatherings))
 p <- p + geom_point()
 #p <- p + geom_line()
 #p <- p + scale_y_log10()
@@ -177,15 +164,6 @@ p <- p + ylab("Documents (n)")
 print(p)
 ```
 
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'publication.year'
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
-```
-
 ![plot of chunk paperconsumption2](figure/paperconsumption2-1.png)
 
 
@@ -194,56 +172,39 @@ print(p)
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.year'
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
 ```
 
 ![plot of chunk doctypes](figure/doctypes-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
 ```
 
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'document.pages.total' not found
+## Error in eval(expr, envir, enclos): object 'pages.total' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.decade'
+## Error in eval(expr, envir, enclos): unknown column 'length'
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
 
 ![plot of chunk doctypes2](figure/doctypes2-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.decade' not found
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
 
 
 ## Top authors
 
-
-```
-## Error in eval(expr, envir, enclos): object 'author.unique' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
-```
-
-![plot of chunk topauth](figure/topauth-1.png)
-
-```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
-```
+![plot of chunk topauth](figure/topauth-1.png)![plot of chunk topauth](figure/topauth-2.png)
 
 
 
@@ -254,15 +215,15 @@ Estimated paper consumption by document size
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication.year'
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'document.dimension.gatherings.estimated' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
 ```
 
 ![plot of chunk 20150611paris-paper6](figure/20150611paris-paper6-1.png)
@@ -272,7 +233,7 @@ Gatherings height: does it change over time (1600's)? How increased printing act
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings.original' not found
 ```
 
 
@@ -280,7 +241,7 @@ Page counts: does it change over time (1600's)? Also suggested we could calculat
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication.year' not found
+## Error in eval(expr, envir, enclos): object 'dimension.gatherings.original' not found
 ```
 
 
@@ -288,5 +249,5 @@ Same for documents that have a sufficient number of pages:
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'document.pages.total' not found
+## Error in eval(expr, envir, enclos): object 'pages.total' not found
 ```
