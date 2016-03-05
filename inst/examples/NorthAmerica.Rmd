@@ -1,7 +1,7 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "05/03/2016"
+date: "`r Sys.Date()`"
 output: markdown_document
 ---
 
@@ -20,7 +20,7 @@ library(bibliographica)
 ```{r NAread}
 # Pick USA documents only
 country <- "USA"
-df <- filter(df.preprocessed, publication.country == country)
+df <- filter(df.preprocessed, country == country)
 ```
 
 We have `r nrow(df)` documents from `r country`.
