@@ -17,7 +17,7 @@ library(estc)
 #df$gatherings <- order_gatherings(df$gatherings)
 
 # Read the preprocessed data
-df <- readRDS("estc.history.RData")
+df <- readRDS("estc.history.Rds")
 timespan <- c(1470-1830)
 df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
 df.preprocessed <- df
