@@ -4,6 +4,8 @@ summary.Rmd: erottele geneeriset ja estc-spesifit osat; omat summarynsa joka ken
 
 Tee geneeriset enrich, summary- ja analysis-skriptit estc + cerl ja sitten vielä fennica
 
+topic (=subject topic) ja topic.publication molemmat nyt datassa. Mikä ero?
+
 # ----------------------------------------
 
 # summarize.R - check that this is included now for all relevant parts
