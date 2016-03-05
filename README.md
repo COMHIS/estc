@@ -1,15 +1,14 @@
 Analysis of British Library ESTC Data Collection
 ============================================
 
-This is an algorithmic toolkit for [R](http://r-project.org), designed for fully transparent quantitative analysis of the British Library [ESTC Data Collection](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). Note that the package is under active, open development; the tools, analysis, and documentation are being constantly updated. Your [contributions](http://ropengov.github.com/contact.html), [bug
-reports and feedback](https://github.com/ropengov/estc) are welcome!
+This is an algorithmic toolkit for [R](http://r-project.org), designed for transparent quantitative analysis of the British Library [European Short Title Catalogues (ESTC) data collection](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). The package is under active, open development; the tools, analysis, and documentation are preliminary and constantly updated. Your [contributions](http://ropengov.github.com/contact.html), [bug reports and feedback](https://github.com/ropengov/estc) are welcome!
 
 
 ### ESTC data overview
 
-This pilot phase focuses on the metadata for c. 50,000 documents on 'history' during 1477-1800 from the ESTC library catalogue. The results are summarized in the following automatically generated files:
+An overview of book procution in 1477-1800 based on the ESTC metadata on a half million documents is provided in the following automatically generated files:
 
- * [Overall summary of the 50,000 ESTC history documents](https://github.com/rOpenGov/estc/blob/master/inst/examples/summary.md)
+ * [Overall summary of the ESTC catalogue](https://github.com/rOpenGov/estc/blob/master/inst/examples/overview.md)
  * [Document sizes across time](https://github.com/rOpenGov/estc/blob/master/inst/examples/pagecounts.md)
  * [Edinburgh summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Edinburgh.md)
  * [North America summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/NorthAmerica.md)
@@ -26,7 +25,7 @@ The steps to reproduce these summaries from the raw data are fully described at 
 Whereas this package focuses on the ESTC data, it utilizes additional
 tools from the more generic
 [bibliographica](https://github.com/rOpenGov/bibliographica) and many
-other R packages. We are also working on similar tools for Finnish data collections, see [Fennica](https://github.com/rOpenGov/fennica).
+other R packages. We are also working on similar tools for Finnish and other data collections, see [Fennica](https://github.com/rOpenGov/fennica).
 
 
 ### Acknowledgements

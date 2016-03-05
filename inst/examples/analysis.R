@@ -14,27 +14,25 @@ library(magrittr)
 # Set global parameters
 ntop <- 20
 output.folder <- "output.tables/"
-
-# Read the preprocessed data
-df <- readRDS("estc.Rds")
-#df <- read.csv(file = "estc.csv", sep = "|")
-# Order the levels where necessary
-#df$gatherings <- order_gatherings(df$gatherings)
-
-# ESTC-specific year limits
-df <- filter(df, publication_year >= 1460 & publication_year <= 1830)
+timespan <- c(1460, 1830)
+datafile <- "estc.Rds"
 
 # ---------------------------------
 
 print("Generic summaries")
-knit("overview.Rmd")
-knit("author.Rmd")
-knit("publicationplace.Rmd")
-knit("publisher.Rmd")
-knit("documents.Rmd")
-knit("size.Rmd")
-knit("gender.Rmd")
-knit("topic.Rmd") # ESTC only
+
+# Read the preprocessed data
+df <- readRDS(datafile)
+
+# Year limits
+df <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
+
+knitfiles <- c("overview", "author", "publicationplace", "publisher", "documents", "size", "gender", "topic")
+for (id in knitfiles) {
+  knit(input = system.file(paste("inst/extdata/", id, ".Rmd", sep = ""),
+  	       	package = "bibliographica"),
+       output = paste(id, ".md", sep = ""))
+}
 
 # ------------------------------------------
 

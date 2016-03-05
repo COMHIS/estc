@@ -2,8 +2,6 @@
 
 summary.Rmd: erottele geneeriset ja estc-spesifit osat; omat summarynsa joka kentälle tai kenttäryhmälle
 
-päivitä README-file
-
 Tee geneeriset enrich, summary- ja analysis-skriptit estc + cerl ja sitten vielä fennica
 
 # ----------------------------------------
