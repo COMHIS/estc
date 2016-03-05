@@ -38,6 +38,7 @@ sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder
 # Custom definitions
 source("general.R") # See estc TODO file
 
+author <- "Leo Lahti"
 knit("Edinburgh.Rmd")
 knit("NorthAmerica.Rmd")
 knit("Scotland.Rmd")

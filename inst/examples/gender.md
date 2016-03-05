@@ -1,3 +1,10 @@
+---
+title: "Gender preprocessing overview"
+author: "Leo Lahti"
+date: "2016-03-05"
+output: markdown_document
+---
+
 ### Gender
 
 [Female authors](output.tables/gender_female.csv)

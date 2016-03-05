@@ -22,7 +22,7 @@ output: markdown_document
 
 <!--[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)-->
 
-Document size (area) info in area is available for 470733 documents (98%). Estimates of document size (area) info in gatherings system are available for 481772 documents (100%). 
+Document size (area) info in area is available for 470734 documents (98%). Estimates of document size (area) info in gatherings system are available for 481773 documents (100%). 
 
 ![plot of chunk summarysize](figure/summarysize-1.png)
 
@@ -59,7 +59,7 @@ Multi-volume documents average page counts are given per volume.
 |2long         |             98.78947|                   27.0|          38|                  NA|                    NA|         NA|         28.94737|                 24|      19|
 |2fo           |             81.08856|                   16.0|       98939|           350.30849|              373.0000|       2995|         28.59967|                 26|   32216|
 |4long         |             31.33333|                    8.0|          21|                 NaN|                    NA|          1|         13.14286|                  8|       7|
-|4to           |                 -Inf|                   32.0|      101355|            43.26531|               24.0000|       4750|         26.25418|                 24|   35313|
+|4to           |                 -Inf|                   32.0|      101356|            43.26531|               24.0000|       4750|         26.25435|                 24|   35314|
 |8long         |            109.58537|                   20.0|          41|            16.00000|               16.0000|          1|         18.37500|                 16|      16|
 |8vo           |                 -Inf|                   42.0|      167822|           202.04245|              200.0000|      12304|         26.14393|                 24|   56418|
 |12long        |             87.51311|                   24.0|         267|             6.00000|                6.0000|         11|         24.67647|                 24|     136|
@@ -75,15 +75,6 @@ Multi-volume documents average page counts are given per volume.
 |NA            |             49.55609|                    2.0|       17044|           156.30515|              150.6667|        383|         23.87697|                 24|    3048|
 
 
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
-
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
 
@@ -94,7 +85,9 @@ Here we use the original data only:
 ![plot of chunk summaryavedimstime](figure/summaryavedimstime-1.png)
 
 
-Only cases with 10 documents are listed here:
+
+
+Only cases with 2000 documents are listed here:
 
 
 |gatherings.original | mean.height| median.height| mean.width| median.width|    n|
@@ -105,5 +98,6 @@ Only cases with 10 documents are listed here:
 |8vo                 |    19.17417|      19.17417|   16.33333|     16.33333|  666|
 |12mo                |    15.50495|      15.50495|   12.00000|     12.00000|  102|
 |16mo                |    10.76190|      10.76190|        NaN|          NaN|   21|
+|18mo                |    10.75000|      10.75000|   10.00000|     10.00000|    4|
 |NA                  |    29.72087|      29.72087|   23.18723|     23.18723| 6045|
 

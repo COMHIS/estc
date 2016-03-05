@@ -1,13 +1,11 @@
 ---
 title: "Princeton summary"
-author: "Lahti, L"
+author: "Leo Lahti"
 date: "2016-03-05"
 output: markdown_document
 ---
 
 # Princeton summaries
-
-Read the preprocessed ESTC data table and load tools:
 
 
 

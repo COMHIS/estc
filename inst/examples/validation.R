@@ -30,6 +30,3 @@ if (length(inds) > 0) {
 print("Validate author names. Set non-valid names to NA")
 v <- validate_names(df.preprocessed$author_name, "full")
 df.preprocessed$author_name[!v$valid] <- NA
-
-
-
