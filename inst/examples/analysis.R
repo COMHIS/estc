@@ -27,12 +27,8 @@ df <- readRDS(datafile)
 # Year limits
 df <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
 
-knitfiles <- c("overview", "author", "publicationplace", "publisher", "documents", "size", "gender", "topic")
-for (id in knitfiles) {
-  knit(input = system.file(paste("inst/extdata/", id, ".Rmd", sep = ""),
-  	       	package = "bibliographica"),
-       output = paste(id, ".md", sep = ""))
-}
+# Generate the markdown summary files
+sf <- generate_summaryfiles()
 
 # ------------------------------------------
 
