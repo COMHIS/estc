@@ -11,6 +11,7 @@ output: markdown_document
 Page count: distribution of document sizes
 
 ```{r pagecountstat, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+df <- df.preprocessed
 
   theme_set(theme_bw(15))
 

@@ -12,15 +12,11 @@ Page count: distribution of document sizes
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'volcount' not found
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dff' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dff' not found
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
@@ -36,19 +32,15 @@ Page count: distribution of document sizes
 ```
 
 ```
-## Error in nrow(dff): object 'dff' not found
+## Error in eval(expr, envir, enclos): object 'items' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'volcount' not found
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'dff' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dff' not found
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
@@ -63,24 +55,18 @@ Page count: distribution of document sizes
 ## Error in fortify(data): object 'dff3' not found
 ```
 
-```
-## Error in nrow(dff): object 'dff' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'author_birth.period' not found
-```
+![plot of chunk pagecountstat](figure/pagecountstat-1.png)
 
 
 ## Documents with missing pages over years 
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_decade'
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, "na", value = logical(0)): replacement has 0 rows, data has 17
+## Error in `$<-.data.frame`(`*tmp*`, "na", value = logical(0)): replacement has 0 rows, data has 992
 ```
 
 ```
@@ -90,7 +76,7 @@ Page count: distribution of document sizes
 ![plot of chunk missingpages](figure/missingpages-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_decade'
+## Error in eval(expr, envir, enclos): unknown column 'dimension.gatherings'
 ```
 
 ```
