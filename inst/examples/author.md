@@ -13,7 +13,7 @@ output: markdown_document
 
 [All conversions from the original to final names](output.tables/author_conversion_nontrivial.csv)
 
-Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6482 unique authors and 18509 documents with unambiguous author information (44%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 46310 unique authors and 253896 documents with unambiguous author information (55%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
@@ -23,9 +23,9 @@ Authors with ambiguous living year information - can we spot here
 cases where these are clearly known identical or distinct authors?
 Should also add living year information from supporting sources later.
 
-[Authors with ambiguous life years](output.tables/author_life_ambiguous.csv)
-
 [Authors with missing life years](output.tables/authors_missing_lifeyears.csv)
+
+[Authors with ambiguous life years](output.tables/author_life_ambiguous.csv)
 
 
 ### Life span of uniquely identified top authors
