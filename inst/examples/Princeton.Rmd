@@ -7,8 +7,6 @@ output: markdown_document
 
 # Princeton summaries
 
-Read the preprocessed ESTC data table and load tools:
-
 ```{r PrincetonInit, echo=FALSE, message=FALSE}
 # Load libraries
 library(ggplot2)
