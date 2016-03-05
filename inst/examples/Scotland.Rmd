@@ -77,7 +77,7 @@ print(p)
 
 ## Authors born before 500AD
 
-Only authors with over 10 publications.
+May contain errneous birth years - helps with quality control, too !
 
  * Ennen 500AD syntyneiden kirjoittajien julkaisujen esiintymat koko aikajanalla, painomaarat per vuosi, kaikki julkaisupaikat.
  * Ennen 500AD syntyneiden kirjoittajien julkaisujen esiintymat koko aikajanalla, painomaarat per vuosi Skotlannissa.
@@ -87,7 +87,6 @@ Only authors with over 10 publications.
 year <- 500
 dfs <- filter(dfo, author_birth < year)
 tab <- table(dfs$author); 
-tab <- rev(sort(tab[tab>10]))
 print(tab)
 ```
 
