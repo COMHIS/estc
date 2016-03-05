@@ -1,12 +1,12 @@
 Analysis of British Library ESTC Data Collection
 ============================================
 
-This is an algorithmic toolkit for [R](http://r-project.org), designed for transparent quantitative analysis of the British Library [English Short Title Catalogue (ESTC) data collection](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). The package is under active, open development; the tools, analysis, and documentation are preliminary and constantly updated. Your [contributions](http://ropengov.github.com/contact.html), [bug reports and feedback](https://github.com/ropengov/estc) are welcome (but please, don't ask us if we know who is Livy, if you find his (or a similar) name on discarded authors at some point. Serious data science takes time)!
+This is an algorithmic toolkit for [R](http://r-project.org), designed for transparent quantitative analysis of the British Library [English Short Title Catalogue (ESTC) data collection](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). The package is under active, open development; the tools, analysis, and documentation are preliminary and constantly updated. Your [contributions](http://ropengov.github.com/contact.html), [bug reports and feedback](https://github.com/ropengov/estc) are welcome (but please, don't ask us if we know who is Livy if he is temporarily on discarded author list. Serious data science takes time)!
 
 
 ### ESTC data overview
 
-An overview of book production in 1477-1800 based on the ESTC metadata on little under half million documents is provided in the following automatically generated files:
+An overview of knowledge production between 1477-1800 based on the ESTC metadata on almost half million documents is provided in the following automatically generated files:
 
  * [Overall summary of the ESTC catalogue](https://github.com/rOpenGov/estc/blob/master/inst/examples/overview.md)
  * [Document sizes across time](https://github.com/rOpenGov/estc/blob/master/inst/examples/pagecounts.md)
