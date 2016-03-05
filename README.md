@@ -14,6 +14,7 @@ An overview of book procution in 1477-1800 based on the ESTC metadata on a half 
  * [North America summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/NorthAmerica.md)
  * [Princeton summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Princeton.md)
  * [Scotland summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Scotland.md)
+ * [Page count summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/pagecounts.md)
  * [LIBER Figures](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023.md)
  * Various [summary tables](https://github.com/rOpenGov/estc/tree/master/inst/examples/output.tables) of the data. 
 

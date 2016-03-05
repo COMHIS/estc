@@ -90,7 +90,7 @@ Only authors with over 10 publications.
 year <- 500
 dfs <- filter(df, author_birth < year)
 tab <- table(dfs$author); 
-tab <- sort(tab[tab>10])
+tab <- rev(sort(tab[tab>10]))
 print(tab)
 ```
 
