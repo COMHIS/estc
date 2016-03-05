@@ -2,7 +2,7 @@
 # (for parsers for the original XML, see README)
 fs <- list.files(ddir, full.names = TRUE, pattern = ".csv.gz")
 df.raw <- read_bibliographic_metadata(fs, verbose = TRUE)
-save(df.raw, file = "df.raw.RData", compress = "xz")
+# save(df.raw, file = "df.raw.RData", compress = "xz")
 
 
 

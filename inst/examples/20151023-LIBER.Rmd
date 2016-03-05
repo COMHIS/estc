@@ -1,7 +1,7 @@
 ---
 title: "LIBER Analysis"
 author: "Leo Lahti"
-date: "23/10/2015"
+date: "05/03/2016"
 output: markdown_document
 ---
 
@@ -11,14 +11,19 @@ output: markdown_document
 library(stringr)
 library(bibliographica)
 library(estc)
-df <- read.csv(file = "estc.history.csv.gz", sep = "|")
+#df.orig <- read_bibliographic_metadata("estc.history.csv.gz", verbose = TRUE)
+#df <- read.csv(file = "estc.history.csv.gz", sep = "|")
 #df <- read.csv(file = "estc-LIBER20151023-backup.csv", sep = "|")
-# Order the levels where necessary
-df$gatherings <- order_gatherings(df$gatherings)
+#df$gatherings <- order_gatherings(df$gatherings)
+
+# Read the preprocessed data
+df <- readRDS("estc.history.RData")
+timespan <- c(1470-1830)
+df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
 df.preprocessed <- df
 ```
 
-This document initially provided a reproducible summary of the ESTC history data set (roughly 50,000 documents) as prepared for our [Liber Quarterly article](http://liber.library.uu.nl/index.php/lq) ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions. 
+This document provides a reproducible summary of the ESTC history data set (roughly 50,000 documents) as prepared for our [Liber Quarterly article](http://liber.library.uu.nl/index.php/lq) ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions. The figures may be slightly different than in the original article due to improvements in the analysis pipeline.
 
 ### Reproducing the analyses
 
@@ -39,8 +44,6 @@ library(bibliographica)
 opts_chunk$set(cache=TRUE)
 library(dplyr)
 library(ggthemes)
-#ggplot_set(theme_bw(20))
-df <- df.preprocessed
 df <- df.preprocessed <- df[-which(df$publication_year < 1470),] 
 ```
 
@@ -58,10 +61,10 @@ library(dplyr)
 dfs <- filter(df.preprocessed, !is.na(author_birth) & !is.na(author_death))
 theme_set(theme_bw(50))
 selected.authors <- c("Prynne, William (1600-1669)", "Defoe, Daniel (1661-1731)", "Hume, David (1711-1776)", "Hume, David (1560-1630)")
-top <- na.omit(names(rev(sort(table(dfs$author_unique)))))[1:20]
+top <- na.omit(names(rev(sort(table(dfs$author)))))[1:20]
 top <- c(top, "Hume, David (1560-1630)")
-dfs <- filter(dfs, author_unique %in% top)
-p <- top_plot(dfs, "author_unique", ntop = 30, highlight = selected.authors)
+dfs <- filter(dfs, author %in% top)
+p <- top_plot(dfs, "author", ntop = 30, highlight = selected.authors)
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
 p <- p + scale_fill_manual(values = c("darkgray", "black"))
@@ -76,14 +79,14 @@ The visualization also reveals ambiguities arising from authors having the same 
 
 ```{r 20151023LIBER-2, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=7.5}
 theme_set(theme_bw(20))
-dfa <- dfs[, c("author_name", "author_unique", "author_birth", "author_death")]
+dfa <- dfs[, c("author_name", "author", "author_birth", "author_death")]
 dfa <- dfa[!duplicated(dfa), ]
 dfa <- arrange(dfa, author_birth)
 # Order authors by birth year
 dfa$author_name <- factor(dfa$author_name, levels = unique(dfa$author_name))
 dfa$index <- sample(factor(1:nrow(dfa)))
 dfa$fill <- rep("black", nrow(dfa))
-dfa$fill[dfa$author_unique %in% selected.authors] <- "red"
+dfa$fill[dfa$author %in% selected.authors] <- "red"
 
 p <- ggplot(dfa)
 p <- p + geom_segment(aes(y = author_name, yend = author_name, x = author_birth, xend = author_death, color = fill), size = 2) 
@@ -103,17 +106,17 @@ William Prynne, Daniel Defoe and David Hume (highlighted in Figures 1 and 2) pro
 ```{r 20151023LIBER-3, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=10}
 theme_set(theme_bw(20))
 dfs <- df.preprocessed %>%
-         filter(author_unique %in% selected.authors) %>%
-	 group_by(author_unique, publication_decade) %>%
+         filter(author %in% selected.authors) %>%
+	 group_by(author, publication_decade) %>%
 	 tally() %>%
 	 arrange(publication_decade)
 
 # Rearrange author levels
-dfs$author_unique <- factor(dfs$author_unique, levels = c("Prynne, William (1600-1669)", "Hume, David (1560-1630)", "Defoe, Daniel (1661-1731)", "Hume, David (1711-1776)"))
+dfs$author <- factor(dfs$author, levels = c("Prynne, William (1600-1669)", "Hume, David (1560-1630)", "Defoe, Daniel (1661-1731)", "Hume, David (1711-1776)"))
 theme_set(theme_bw(20))
 
 # Barplot version
-p2 <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author_unique)) +
+p2 <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
        geom_bar(stat = "identity", position = "stack", color = "black") +
        xlab("Publication Year") +
        ylab("Title Count")
@@ -131,7 +134,7 @@ The visualization reveals the nature of the author’s publications, distinguish
 ```{r 20151023LIBER-4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7}
 theme_set(theme_bw(20))
 dfs <- df.preprocessed
-top <- names(rev(sort(table(dfs$author_unique))))[1:20]
+top <- names(rev(sort(table(dfs$author))))[1:20]
 top <- c(top, "Hume, david (1560-1630)")
 top <- setdiff(top, "Caesar, Julius (NA-NA)")
 topa <- top
@@ -139,16 +142,16 @@ topa <- top
 #dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 #	       	  		  from = "Standard", to = "Name")$name
 #dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo"))
-dfs <- dfs %>% filter(author_unique %in% topa) %>%
+dfs <- dfs %>% filter(author %in% topa) %>%
        	   filter(!is.na(author_birth) & !is.na(author_death))
 dfs <- dfs %>%
-       	        group_by(author_unique) %>%
+       	        group_by(author) %>%
 	        summarize(titles = n(),
 	        paper = sum(paper.consumption.km2, na.rm = T))
 dfs$highlight <- rep("darkgray", nrow(dfs))
-dfs$highlight[dfs$author_unique %in% selected.authors] <- "black"
+dfs$highlight[dfs$author %in% selected.authors] <- "black"
 p <- ggplot(dfs, aes(x = titles, y = paper, color = highlight)) 
-p <- p + geom_text(aes(label = author_unique), size = 7) 
+p <- p + geom_text(aes(label = author), size = 7) 
 p <- p + scale_color_manual(values = rev(c("darkgray", "black")))
 p <- p + guides(color = "none") 
 p <- p + xlim(c(-68, 210)) 
@@ -167,17 +170,17 @@ The gender is inferred automatically from the first names
 ```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
 theme_set(theme_bw(20))
 dfs <- df.preprocessed %>% filter(author_gender == "female")
-rm.inds <- c(grep("Jean", dfs$author_unique), grep("Pierre", dfs$author_unique), grep("Capriata", dfs$author_unique), grep("Mesurier", dfs$author_unique), grep("Bouhours", dfs$author_unique))
+rm.inds <- c(grep("Jean", dfs$author), grep("Pierre", dfs$author), grep("Capriata", dfs$author), grep("Mesurier", dfs$author), grep("Bouhours", dfs$author))
 dfs <- dfs[-rm.inds,]
 
 
-dfs$author_unique <- gsub("whitrowe, joan \\(NA-NA\\)", "whitrowe, joan (1630-1707)", dfs$author_unique)
+dfs$author <- gsub("whitrowe, joan \\(NA-NA\\)", "whitrowe, joan (1630-1707)", dfs$author)
 
 # Withrow, Joan (1630-1707)
 # bouhours is male
 #Pier Giovanni Capriata is male
 #Le Mesurier, Havilland is male 
-p <- top_plot(dfs, "author_unique", ntop = 20)
+p <- top_plot(dfs, "author", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count")
@@ -244,15 +247,15 @@ print(p)
 ```{r 20150611paris-places4, message=FALSE, fig.height=5, fig.width=10, echo=FALSE}
 theme_set(theme_bw(20))
 df2 <- df.preprocessed %>%
-    filter(!is.na(publication_country)) %>%
-    group_by(publication_country) %>%
+    filter(!is.na(country)) %>%
+    group_by(country) %>%
     summarize(paper = sum(paper.consumption.km2, na.rm = TRUE),
 	      docs = n()) %>%
     arrange(desc(docs)) %>%
-    filter(publication_country %in% c("Scotland", "Ireland", "USA"))
+    filter(country %in% c("Scotland", "Ireland", "USA"))
 
-p1 <- ggplot(df2, aes(x = publication_country, y = docs)) + geom_bar(stat = "identity") + ggtitle("Title count") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Documents") + xlab("")
-p2 <- ggplot(df2, aes(x = publication_country, y = paper)) + geom_bar(stat = "identity") + ggtitle("Paper consumption") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Paper (km2)") + xlab("")
+p1 <- ggplot(df2, aes(x = country, y = docs)) + geom_bar(stat = "identity") + ggtitle("Title count") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Documents") + xlab("")
+p2 <- ggplot(df2, aes(x = country, y = paper)) + geom_bar(stat = "identity") + ggtitle("Paper consumption") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Paper (km2)") + xlab("")
 grid.arrange(p1, p2, nrow = 1)
 ```        
 
@@ -260,8 +263,8 @@ grid.arrange(p1, p2, nrow = 1)
 Estimated gatherings per country:
 
 ```{r 20151023LIBER-docsizecomp1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-dfs <- df %>% select(gatherings, publication_country) %>% group_by(gatherings, publication_country) %>% tally() %>% filter(publication_country %in% c("Scotland", "Ireland", "USA"))
-p <- ggplot(dfs, aes(x = gatherings, y = publication_country, size = n)) +
+dfs <- df %>% select(gatherings, country) %>% group_by(gatherings, country) %>% tally() %>% filter(country %in% c("Scotland", "Ireland", "USA"))
+p <- ggplot(dfs, aes(x = gatherings, y = country, size = n)) +
      geom_point()
 print(p)
 ```
@@ -269,18 +272,18 @@ print(p)
 Estimated pagecounts per country:
 
 ```{r 20151023LIBER-docsizecomp2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-dfs <- df %>% select(pagecount, publication_country) %>% filter(publication_country %in% c("Scotland", "Ireland", "USA"))
+dfs <- df %>% select(pagecount, country) %>% filter(country %in% c("Scotland", "Ireland", "USA"))
 p <- ggplot(dfs, aes(x = pagecount)) +
-     geom_histogram() + facet_grid(publication_country ~ .) + scale_x_log10()
+     geom_histogram() + facet_grid(country ~ .) + scale_x_log10()
 print(p)
 ```
 
 Gatherings vs. pagecounts per country
 
 ```{r 20151023LIBER-docsizecomp3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-dfs <- df %>% select(pagecount, gatherings, publication_country) %>% filter(publication_country %in% c("Scotland", "Ireland", "USA")) %>% group_by(pagecount, gatherings, publication_country) %>% tally()
+dfs <- df %>% select(pagecount, gatherings, country) %>% filter(country %in% c("Scotland", "Ireland", "USA")) %>% group_by(pagecount, gatherings, country) %>% tally()
 p <- ggplot(dfs, aes(x = pagecount, y = gatherings, size = n)) +
-     geom_point() + facet_grid(publication_country ~ .) + scale_x_log10()
+     geom_point() + facet_grid(country ~ .) + scale_x_log10()
 print(p)
 ```
 
@@ -426,19 +429,19 @@ dfs <- df.preprocessed
 # 2long/2fo/2small -> folio; 8vo -> octavo
 dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
 	       	  		from = "Standard", to = "Name")$name
-dfs <- dfs %>% filter(author_unique %in% topa &
+dfs <- dfs %>% filter(author %in% topa &
 	        gatherings %in% c("folio", "octavo")) %>%
-	 group_by(author_unique, gatherings) %>%
+	 group_by(author, gatherings) %>%
 	 tally() %>%
 	 spread(gatherings, n)
-dfs$highlight <- dfs$author_unique %in% c(selected.authors, "Burke, Edmund (1729-1797)")
+dfs$highlight <- dfs$author %in% c(selected.authors, "Burke, Edmund (1729-1797)")
 dfs[is.na(dfs)] <- 0
-dfs[dfs$author_unique == "Hume, David (1560-1630)","highlight"] <- FALSE
+dfs[dfs$author == "Hume, David (1560-1630)","highlight"] <- FALSE
 dfs$size <- 2 + 1*as.numeric(dfs$highlight)
 
 theme_set(theme_bw(20))
 p <- ggplot(dfs, aes(x = folio, y = octavo)) +
-       geom_text(aes(label = author_unique, color = highlight, size = size)) +       
+       geom_text(aes(label = author, color = highlight, size = size)) +       
        xlab("Folio") + ylab("Octavo") +
        guides(color = "none", size = "none") + 
        scale_color_manual(values = c("darkgray", "black")) +
@@ -467,10 +470,10 @@ library(dplyr)
 dfo <- df.preprocessed
 # Pick Scotland documents only
 selected_place <- "Edinburgh"
-country <- "Scotland"
-df <- filter(dfo, publication_country == country & publication_year >= 1470)
+sel.country <- "Scotland"
+df <- filter(dfo, country == sel.country)
 # Use 5 year intervals
-df <- filter(dfo, publication_country == country & publication_year >= 1470)
+df <- filter(dfo, country == sel.country)
 timeinterval <- 5
 df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
 publications <- tapply(df$unity, list(df$timeunit, df$publication_place), sum)
