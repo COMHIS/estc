@@ -12,14 +12,13 @@ library(knitr)
 library(magrittr)
 
 # Set global parameters
-ntop <- 20
-output.folder <- "output.tables/"
 timespan <- c(1460, 1830)
 datafile <- "estc.Rds"
+output.folder <- "output.tables/"
 
 # ---------------------------------
 
-print("Generic summaries")
+print("Prepare the final data set")
 
 # Read the preprocessed data
 df <- readRDS(datafile)
@@ -27,8 +26,10 @@ df <- readRDS(datafile)
 # Year limits
 df <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
 
-# Generate the markdown summary files
-sf <- generate_summaryfiles()
+# ----------------------------------------
+
+print("Generic summaries") # Markdown
+sf <- generate_summaryfiles(df, output.folder = output.folder)
 
 # ------------------------------------------
 
@@ -37,7 +38,7 @@ sf <- generate_summaryfiles()
 # Custom definitions
 source("general.R") # See estc todo file
 
-#knit("Edinburgh.Rmd")
+knit("Edinburgh.Rmd")
 #knit("NorthAmerica.Rmd")
 #knit("Scotland.Rmd")
 #knit("Princeton.Rmd")
