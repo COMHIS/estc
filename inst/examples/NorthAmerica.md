@@ -12,14 +12,14 @@ Read the preprocessed ESTC data table and load tools:
 
 ```r
 # Pick USA documents only
-country <- "USA"
-df <- filter(df.preprocessed, country == country)
+sel.country <- "USA"
+df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 461276 documents from USA.
+We have 2582 documents from Scotland.
 
 
-## Most common authors from USA
+## Most common authors from Scotland
 
 
 ```r

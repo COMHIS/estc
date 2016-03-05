@@ -9,6 +9,23 @@ output: markdown_document
 
 
 
+
+```
+## Warning: Removed 1 rows containing missing values (geom_point).
+```
+
+```
+## Warning: Removed 1 rows containing missing values (geom_path).
+```
+
+```
+## Warning: Removed 1 rows containing missing values (geom_point).
+```
+
+```
+## Warning: Removed 1 rows containing missing values (geom_path).
+```
+
 ![plot of chunk princeton](figure/princeton-1.png)
 
 

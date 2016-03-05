@@ -19,8 +19,8 @@ library(bibliographica)
 
 ```{r NAread}
 # Pick USA documents only
-country <- "USA"
-df <- filter(df.preprocessed, country == country)
+sel.country <- "USA"
+df <- filter(df.preprocessed, country == sel.country)
 ```
 
 We have `r nrow(df)` documents from `r country`.

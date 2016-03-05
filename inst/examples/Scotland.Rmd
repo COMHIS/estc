@@ -26,8 +26,8 @@ library(bibliographica)
 df <- df.preprocessed
 
 # Pick Scotland documents only
-country <- "Scotland"
-df <- filter(df, country == country)
+sel.country <- "Scotland"
+df <- filter(df, country == sel.country)
 ```
 
 We have `r nrow(df)` documents from `r country`.
