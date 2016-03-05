@@ -36,7 +36,7 @@ We have `r nrow(df)` documents from `r country`.
 ## Most common authors from `r country`
 
 ```{r ScotlandTopAuth, echo=FALSE}
-p <- top_plot(df, "author.unique", 20)
+p <- top_plot(df, "author", 20)
 p <- p + ggtitle(paste("Most common authors from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
@@ -47,12 +47,12 @@ print(p)
 
 ```{r ScotlandTop10authors, fig.height=30, fig.width=10, echo=FALSE}
 df <- filter(dfo, publication_country == country)
-top10 <- names(sort(table(df$author.unique), decreasing = TRUE))[1:10]
-dfs <- filter(df, author.unique %in% top10)
-dfs <- group_by(dfs, author.unique, publication_year) %>% summarize(ndoc = n())
+top10 <- names(sort(table(df$author), decreasing = TRUE))[1:10]
+dfs <- filter(df, author %in% top10)
+dfs <- group_by(dfs, author, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(dfs, aes(x = publication_year, y = ndoc)) 
 p <- p + geom_bar(stat = "identity") 
-p <- p + facet_grid(author.unique ~ .)
+p <- p + facet_grid(author ~ .)
 p <- p + ggtitle("Number of documents per year for top-10 authors")
 print(p)
 ```
@@ -87,7 +87,7 @@ print(p)
 ```{r Scotlandad500, echo=FALSE, fig.width=20, fig.height=10}
 year <- 500
 dfs <- filter(df, author.birth < year)
-tab <- table(dfs$author.unique); 
+tab <- table(dfs$author); 
 tab <- sort(tab[tab>0])
 print(tab)
 ```
@@ -232,14 +232,14 @@ print(p)
 
 authors <- c("hume, david (1711-1776)", "robertson, william (1721-1793)", "gibbon, edward (1737-1794)")
 cols <- c("red", "blue", "darkgreen"); names(cols) <- authors
-dfa <- filter(dfo, author.unique %in% authors) 
+dfa <- filter(dfo, author %in% authors) 
 lims <- range(dfa$publication_year)
 #df <- filter(dfa, publication_country == "Scotland")
 
-dfs <- group_by(dfa, author.unique, publication_year) %>% summarize(ndoc = n())
-p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author.unique)) 
+dfs <- group_by(dfa, author, publication_year) %>% summarize(ndoc = n())
+p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
 p <- p + geom_line() + geom_point()
-p <- p + scale_color_manual(values=cols[levels(dfs$author.unique)])
+p <- p + scale_color_manual(values=cols[levels(dfs$author)])
 p <- p + ylab("Documents")
 p <- p + ggtitle("Documents from selected authors (all places)")
 p <- p + xlim(limits = lims)
@@ -247,11 +247,11 @@ print(p)
 
 for (ctr in c("Scotland", "USA")) {
   dfs <- dfa %>% filter(publication_country == ctr) %>% 
-    group_by(author.unique, publication_year) %>% 
+    group_by(author, publication_year) %>% 
     summarize(ndoc = n())
-  p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author.unique)) 
+  p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
   p <- p + geom_line() + geom_point()
-  p <- p + scale_color_manual(values=cols[levels(dfs$author.unique)])
+  p <- p + scale_color_manual(values=cols[levels(dfs$author)])
   p <- p + ylab("Documents")
   p <- p + ggtitle(paste("Documents from selected authors (", ctr, ")"))
   p <- p + xlim(limits = lims)
@@ -260,11 +260,11 @@ for (ctr in c("Scotland", "USA")) {
 
 ctr <- "London"
   dfs <- dfa %>% filter(publication_place == ctr) %>% 
-    group_by(author.unique, publication_year) %>% 
+    group_by(author, publication_year) %>% 
     summarize(ndoc = n())
-  p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author.unique)) 
+  p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
   p <- p + geom_line() + geom_point()
-  p <- p + scale_color_manual(values=cols[levels(dfs$author.unique)])
+  p <- p + scale_color_manual(values=cols[levels(dfs$author)])
   p <- p + ylab("Documents")
   p <- p + ggtitle(paste("Documents from selected authors (", ctr, ")"))
   p <- p + xlim(limits = lims)

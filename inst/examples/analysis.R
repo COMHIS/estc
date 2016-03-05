@@ -39,7 +39,7 @@ sf <- generate_summaryfiles(df.preprocessed, output.folder = output.folder)
 source("general.R") # See estc todo file
 
 knit("Edinburgh.Rmd")
-#knit("NorthAmerica.Rmd")
+knit("NorthAmerica.Rmd")
 #knit("Scotland.Rmd")
 #knit("Princeton.Rmd")
 #knit("pagecounts.Rmd")

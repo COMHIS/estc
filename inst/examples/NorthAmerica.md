@@ -1,7 +1,7 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "01/10/2015"
+date: "05/03/2016"
 output: markdown_document
 ---
 
@@ -10,35 +10,24 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-
 ```r
-# Complete data
-df <- read.csv(file = "estc.csv", sep = "|")
-
 # Pick USA documents only
 country <- "USA"
-df <- filter(df, publication.country == country)
+df <- filter(df.preprocessed, publication.country == country)
 ```
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication.country' not found
 ```
 
-We have 50277 documents from USA.
+We have 461275 documents from USA.
 
 
 ## Most common authors from USA
 
 
 ```r
-p <- top_plot(df, "author.unique", 20)
-```
-
-```
-## Error in dfs[1:ntop, ]: incorrect number of dimensions
-```
-
-```r
+p <- top_plot(df, "author", 20)
 p <- p + ggtitle(paste("Most common authors from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
@@ -51,14 +40,7 @@ print(p)
 
 
 ```r
-p <- top_plot(df, "publication.title", 20)
-```
-
-```
-## Error in dfs[1:ntop, ]: incorrect number of dimensions
-```
-
-```r
+p <- top_plot(df, "title", 20)
 p <- p + ggtitle(paste("Most common titles from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
@@ -74,11 +56,7 @@ Average annual output for each decade is shown by lines, the actual annual docum
 
 
 ```
-## Error in tapply(df$unity, list(df$publication.decade, df$publication.place), : arguments must have same length
-```
-
-```
-## Error in tapply(df$unity, list(df$publication.year, df$publication.place), : arguments must have same length
+## Error in tapply(df$unity, list(df$publication.year, df$publication_place), : arguments must have same length
 ```
 
 ```
@@ -102,12 +80,3 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ![plot of chunk NApubvols](figure/NApubvols-1.png)
-
-
-
-
-
-
-
-
-

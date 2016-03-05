@@ -17,14 +17,10 @@ library(estc)
 library(bibliographica)
 ```
 
-
 ```{r NAread}
-# Complete data
-df <- read.csv(file = "estc.csv", sep = "|")
-
 # Pick USA documents only
 country <- "USA"
-df <- filter(df, publication.country == country)
+df <- filter(df.preprocessed, publication.country == country)
 ```
 
 We have `r nrow(df)` documents from `r country`.
@@ -33,7 +29,7 @@ We have `r nrow(df)` documents from `r country`.
 ## Most common authors from `r country`
 
 ```{r NAtopauth}
-p <- top_plot(df, "author.unique", 20)
+p <- top_plot(df, "author", 20)
 p <- p + ggtitle(paste("Most common authors from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
@@ -43,7 +39,7 @@ print(p)
 ## Top titles 
 
 ```{r NAtoptitles, fig.width=20, fig.height=10}
-p <- top_plot(df, "publication.title", 20)
+p <- top_plot(df, "title", 20)
 p <- p + ggtitle(paste("Most common titles from", country))
 p <- p + ylab("Documents") + xlab("")
 print(p)
@@ -56,17 +52,17 @@ print(p)
 Average annual output for each decade is shown by lines, the actual annual document counts are shown by points. 
 
 ```{r NApubvols, echo=FALSE, fig.width=20, fig.height=10}
-publications <- tapply(df$unity, list(df$publication.decade, df$publication.place), sum)
+publications <- tapply(df$unity, list(df$publication_decade, df$publication_place), sum)
 publications[is.na(publications)] <- 0 # Set NAs to 0
 publications <- publications/10 # Instead of decadal sum, use average annual output 
 
-publications.annual <- tapply(df$unity, list(df$publication.year, df$publication.place), sum)
+publications.annual <- tapply(df$unity, list(df$publication.year, df$publication_place), sum)
 publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
 
 # Keep only top-5 publication places (w.r.t. total volume)
-top.places <- names(rev(sort(colSums(publications)))[1:5])
-publications <- publications[, top.places]
-publications.annual <- publications.annual[, top.places]
+top_places <- names(rev(sort(colSums(publications)))[1:5])
+publications <- publications[, top_places]
+publications.annual <- publications.annual[, top_places]
 
 dfm <- melt(publications) 
 names(dfm) <- c("Time", "Place", "Documents")
@@ -83,12 +79,3 @@ p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"
 p <- p + geom_point(data = dfm.annual, aes(x = Time, y = Documents, color = Place))
 print(p)
 ```
-
-
-
-
-
-
-
-
-
