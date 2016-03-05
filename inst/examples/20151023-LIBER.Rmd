@@ -44,7 +44,6 @@ library(bibliographica)
 opts_chunk$set(cache=FALSE)
 library(dplyr)
 library(ggthemes)
-df <- df.preprocessed <- df[-which(df$publication_year < 1470),] 
 ```
 
 
@@ -167,7 +166,7 @@ print(p)
 
 The gender is inferred automatically from the first names
 
-```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
+```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
 theme_set(theme_bw(20))
 dfs <- df.preprocessed %>% filter(author_gender == "female")
 rm.inds <- c(grep("Jean", dfs$author), grep("Pierre", dfs$author), grep("Capriata", dfs$author), grep("Mesurier", dfs$author), grep("Bouhours", dfs$author))
