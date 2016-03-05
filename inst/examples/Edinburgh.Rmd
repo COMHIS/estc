@@ -19,7 +19,6 @@ library(dplyr)
 
 ```{r EdinburghRead, echo=FALSE}
 # Complete data
-df.preprocessed <- df
 dfo <- df.preprocessed
 
 # Pick Scotland documents only

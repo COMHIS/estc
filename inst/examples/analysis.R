@@ -24,12 +24,12 @@ print("Prepare the final data set")
 df <- readRDS(datafile)
 
 # Year limits
-df <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
+df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
 
 # ----------------------------------------
 
 print("Generic summaries") # Markdown
-sf <- generate_summaryfiles(df, output.folder = output.folder)
+sf <- generate_summaryfiles(df.preprocessed, output.folder = output.folder)
 
 # ------------------------------------------
 
