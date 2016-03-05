@@ -11,14 +11,14 @@ output: markdown_document
 library(stringr)
 library(bibliographica)
 library(estc)
-#df <- read.csv(file = "estc.csv", sep = "|")
+df <- read.csv(file = "estc.history.csv.gz", sep = "|")
 #df <- read.csv(file = "estc-LIBER20151023-backup.csv", sep = "|")
 # Order the levels where necessary
-#df$gatherings <- order_gatherings(df$gatherings)
-#df.preprocessed <- df
+df$gatherings <- order_gatherings(df$gatherings)
+df.preprocessed <- df
 ```
 
-This document initially provided a reproducible summary of the ESTC history data set (roughly 50,000 documents) as prepared for our [Liber Quarterly article](http://liber.library.uu.nl/index.php/lq) ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). We have now updated this file, and the figures are shown for the complete ESTC collection with roughly 500,000 documents. See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions. The analyses with the original history document subset are available upon request.
+This document initially provided a reproducible summary of the ESTC history data set (roughly 50,000 documents) as prepared for our [Liber Quarterly article](http://liber.library.uu.nl/index.php/lq) ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions. 
 
 ### Reproducing the analyses
 
