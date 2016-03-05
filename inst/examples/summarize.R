@@ -1,3 +1,5 @@
+
+
 if (!all(df.preprocessed$original_row == df.orig$original_row)) {stop("Match df.preprocessed and df.orig")}
 
 print("Write summaries of field entries and count stats for all fields")

@@ -32,7 +32,7 @@ print("Saving updates on preprocessed data")
 saveRDS(df.preprocessed, file = "estc.Rds", compress = TRUE)
 
 # Summarize the data and discarded entries
-source("summarize.R")
+tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
 
 # Analyze the preprocessed data
 source("analysis.R")

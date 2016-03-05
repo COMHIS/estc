@@ -33,20 +33,22 @@ sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder
 
 # ------------------------------------------
 
-# Dataset-specific analyses (TODO redo after updates)
+# Dataset-specific analyses
 
 # Custom definitions
-source("general.R") # See estc todo file
+source("general.R") # See estc TODO file
 
 knit("Edinburgh.Rmd")
 knit("NorthAmerica.Rmd")
 knit("Scotland.Rmd")
-#knit("Princeton.Rmd")
-#knit("pagecounts.Rmd")
+knit("Princeton.Rmd")
+knit("pagecounts.Rmd")
+knit("20151023-LIBER.Rmd") # For journal
 
-# Archived:
+# Archived - done with history data
+# do not work (yet) with the full data
+# and for archival purposes good to keep it such
 #knit("20150624-LIBER.Rmd") # For conference
-#knit("20151023-LIBER.Rmd") # For journal
 #knit("20150611-Paris.Rmd") # For workshop
 # source("timeplot.R") # History vs. all ESTC docs
 # source("duplicates.R")

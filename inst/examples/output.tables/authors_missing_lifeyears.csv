@@ -1,7 +1,7 @@
 author_name	author_birth	author_death	Count
 Christie	1730	NA	616
 Ovid	NA	NA	415
-Cicero, Marcus Tullius	NA	NA	406
+Cicero, Marcus Tullius	NA	NA	405
 Priestley, Joseph	1733	NA	328
 Horace	NA	NA	322
 O'keeffe, John	1747	NA	295
@@ -39,7 +39,7 @@ Newton, John	1725	NA	114
 Bailey, N	NA	1742	112
 Josephus, Flavius	NA	NA	108
 Trimmer, Sarah	1741	NA	107
-Russel, Robert	1692	NA	107
+Russel, Robert	1692	NA	106
 Seneca, Lucius Annaeus	NA	NA	102
 Heywood, Thomas	NA	1641	101
 Woodhouse, John	NA	1700	100
@@ -216,7 +216,6 @@ Goethe, Johann Wolfgang Von	1749	NA	43
 Gentleman Of Oxford	NA	NA	43
 Williams, Helen Maria	1762	NA	43
 Rolt, Richard	NA	1770	43
-Stubbes, Phillip	NA	NA	43
 Carey, George Saville	1743	NA	42
 Willymott, William	NA	1737	42
 Glasse, Samuel	1735	NA	42
@@ -226,6 +225,7 @@ Bowdler, John	1746	NA	42
 Martin, John	1741	NA	42
 Schiller, Friedrich	1759	NA	42
 Taylor, Dan	1738	NA	42
+Stubbes, Phillip	NA	NA	42
 Spauter, Johannes De	NA	1520	41
 Douglas Of Douglas, Archibald	1748	NA	41
 Hurd, Richard	1720	NA	41
@@ -254,7 +254,6 @@ O'leary, Arthur	1729	NA	39
 Debrett, John	NA	NA	39
 Hull, Thomas	1728	NA	39
 Mavor, William Fordyce	1758	NA	39
-Florus, Lucius Annaeus	NA	NA	39
 De Lolme, Jean Louis	1740	NA	39
 Gordon, John	NA	1783	39
 Saltmarsh, John	NA	1647	39
@@ -264,6 +263,7 @@ Neale, Thomas	NA	1699	38
 Coote, Edmund	1597	NA	38
 Maurice, Thomas	1754	NA	38
 White, William	NA	NA	38
+Florus, Lucius Annaeus	NA	NA	38
 Minister	1712	NA	38
 Hill, John	NA	NA	38
 Heath, Robert	NA	1779	38
@@ -336,7 +336,6 @@ Cunningham, T	NA	1789	33
 Pulle, John	NA	NA	33
 Openshaw, Robert	NA	NA	33
 Church Of England	NA	NA	33
-Flecknoe, Richard	NA	1678	33
 Charles I	NA	NA	33
 Fox, John	1676	NA	32
 Dibdin, Thomas	1771	NA	32
@@ -358,6 +357,7 @@ Morgan, Mcnamara	NA	1762	32
 Smith, Thomas	NA	NA	32
 Andrews, Miles Peter	NA	NA	32
 Andrewes, John	1615	NA	32
+Flecknoe, Richard	NA	1678	32
 Brémond, Sébastien	1645	NA	32
 Crofton, Zachary	NA	1672	32
 Mather, W	1695	NA	31
@@ -573,7 +573,6 @@ Hoppus, E	NA	1739	23
 Graves, Richard	1715	NA	23
 Clark, Hugh	NA	1724	23
 Addison	NA	NA	23
-Bayly, Thomas	NA	1657	23
 Webb, Daniel	NA	1798	23
 Fitz-adam, Adam	NA	NA	23
 Leadbetter, Charles	1728	NA	23
@@ -607,6 +606,7 @@ Gough, Richard	1735	NA	22
 Curry, John	NA	1780	22
 Bentley, Thomas Richard	1748	NA	22
 Stretzer, Thomas	NA	1738	22
+Bayly, Thomas	NA	1657	22
 Vince, Samuel	1749	NA	22
 Blome, Richard	NA	1705	22
 Swetnam, Joseph	1617	NA	22
@@ -685,7 +685,6 @@ Donaldson, Alexander	NA	1794	20
 Hamilton, Alexander	1739	NA	20
 Walker, George	NA	NA	20
 Broome, Ralph	NA	NA	20
-Mercier, Louis-sébastien	1740	NA	20
 Veritas	1784	NA	20
 Dwight, Timothy	1752	NA	20
 Bernard	NA	1153	20
@@ -747,6 +746,7 @@ Civis	NA	NA	19
 Collins, William	NA	1702	19
 Adam, Alexander	1741	NA	19
 Plowden, Francis	1749	NA	19
+Mercier, Louis-sébastien	1740	NA	19
 Hunter, William	NA	1783	19
 Ashton, Robert	1727	NA	19
 Holman, J. G	1764	NA	19
@@ -1020,7 +1020,6 @@ Whyte, S	1733	NA	15
 Hampden	NA	NA	15
 Robison, John	1739	NA	15
 Ruspini, Bartholomew	1728	NA	15
-Hammond, Charles	17	NA	15
 James, Charles	NA	NA	15
 Bell, John	1763	NA	15
 Wilson, William	NA	1787	15
@@ -1078,7 +1077,6 @@ Abernethy-drummond, William	1719	NA	15
 Lilly, John	18	NA	15
 Neve, Richard	NA	NA	15
 Mackenzie, Anna Maria	NA	NA	15
-Thucydides	NA	NA	15
 Roberts, John	NA	1772	15
 Barnes, Thomas	1747	NA	15
 Mclean, Archibald	1733	NA	15
@@ -1120,6 +1118,7 @@ Maxwell, George	1729	NA	14
 Cockings, George	NA	NA	14
 White, Thomas	NA	NA	14
 Bradbury, Charles	NA	NA	14
+Hammond, Charles	17	NA	14
 Johnson, Robert	NA	NA	14
 Simpson, William	NA	NA	14
 Sutherland, William	NA	NA	14
@@ -1196,6 +1195,7 @@ Hughes	1784	NA	14
 Pirie, Alexander	1737	NA	14
 Jackson, William	NA	NA	14
 Hunter, James	1796	NA	14
+Thucydides	NA	NA	14
 Tertullian	NA	NA	14
 Giffard, John	1745	NA	14
 Knight, T	NA	NA	14
@@ -1384,7 +1384,6 @@ Stirling, William	NA	NA	12
 Ross, William	1735	NA	12
 Dalrymple, James	NA	1751	12
 Tucker, St. George	1752	NA	12
-Lawrence, Richard	NA	1684	12
 Volney, C.-f	1757	NA	12
 Sullivan, James	1744	NA	12
 Lay-man	NA	NA	12
@@ -1552,7 +1551,6 @@ Altieri, F	NA	NA	11
 Davis, Thomas	17	NA	11
 Earle, James	1755	NA	11
 Smyth, J. H	NA	NA	11
-Wedderburn, Alexander	NA	1678	11
 Clifford, Jeronimy	NA	1737	11
 Murray, Alexander	NA	1743	11
 Harding, Samuel	NA	1782	11
@@ -1567,6 +1565,7 @@ Young, Robert	NA	NA	11
 Turlington, Robert	NA	1767	11
 Christian	NA	NA	11
 Green, Valentine	1739	NA	11
+Lawrence, Richard	NA	1684	11
 Brecknock, Timothy	NA	1786	11
 Edwards, Oswald	1791	NA	11
 Unwin, William	NA	NA	11
@@ -1771,6 +1770,7 @@ Fage, Robert	NA	NA	10
 Gulliver, Martin	18	NA	10
 Justice, Alexander	NA	NA	10
 Bradshaw, Penelope	NA	NA	10
+Wedderburn, Alexander	NA	1678	10
 Bagot, Lewis	1741	NA	10
 Bull, Henry	NA	1575	10
 Spangenberg, Johann	NA	NA	10
@@ -3928,7 +3928,6 @@ Brend, William	NA	1676	6
 Ravenshaw, Samuel	NA	NA	6
 Lawson, John	NA	1665	6
 Allestree, Richard	NA	NA	6
-Corss, James	NA	NA	6
 Bassett, Thomas	NA	NA	6
 Bateman, Robert	NA	NA	6
 Dalhusius, Johannes H	NA	NA	6
@@ -3936,7 +3935,6 @@ Culmer, Richard	NA	1662	6
 Cyprian, Bishop Of Carthage	NA	NA	6
 Forde, Thomas	NA	NA	6
 Gand, Louis De	NA	NA	6
-Lamb, Philip	NA	1689	6
 Harrison, Michael	NA	NA	6
 Howard, Edward	NA	1712	6
 Jacombe, Samuel	NA	1659	6
@@ -4983,6 +4981,7 @@ Budd, Thomas	NA	1698	5
 Boteler, Nathaniel	NA	NA	5
 Cheesman, Christopher	NA	NA	5
 Clavell, Robert	NA	1711	5
+Corss, James	NA	NA	5
 Crisp, Samuel	17	NA	5
 Crompton, Hugh	1657	NA	5
 Dymock, James	NA	1718	5
@@ -4990,6 +4989,7 @@ Callis, Robert	1634	NA	5
 Duke, Francis	NA	NA	5
 Fox, George Elder]	NA	NA	5
 Gogor, William	NA	1681	5
+Lamb, Philip	NA	1689	5
 Harrison, Henry	NA	1692	5
 Hunton, Samuel	NA	NA	5
 Smith, Thomas	NA	1661	5
@@ -5211,7 +5211,6 @@ Gordon, Charles Hamilton	NA	1761	4
 Menzies, William	NA	NA	4
 Stewart, Dugald	1753	NA	4
 Martin, Robert	NA	1641	4
-Lescallier, Daniel	1743	NA	4
 Cléry	1759	NA	4
 Elford, William	1749	NA	4
 Lamb, John	NA	1799	4
@@ -6581,7 +6580,6 @@ Fannant, Thomas	NA	NA	4
 Palladius	NA	NA	4
 Pinto, Fernão Mendes	NA	1583	4
 Armitage, Timothy	NA	1655	4
-Stoppa, Giovanni Battista	NA	NA	4
 Vernon, John	1666	NA	4
 Tonge, Simson	NA	NA	4
 Walden, Richard	NA	NA	4
@@ -7625,6 +7623,7 @@ Late Nobleman	NA	NA	3
 Vernage, Etienne François	NA	NA	3
 Drummond, Gawin	NA	NA	3
 Zelis	NA	NA	3
+Lescallier, Daniel	1743	NA	3
 Buchanan, C	NA	NA	3
 Davies, T	NA	NA	3
 Erroll, Mary Hay	NA	1758	3
@@ -9264,6 +9263,7 @@ Johnson, Richard	17	NA	3
 Chestlin	NA	NA	3
 Harris, John	1647	NA	3
 Ufflet, John	1603	NA	3
+Stoppa, Giovanni Battista	NA	NA	3
 Newark, David Leslie	NA	1682	3
 Martin, T	17	NA	3
 Heydon, J	NA	NA	3
@@ -9367,7 +9367,6 @@ Slow, Jonathan	NA	NA	2
 Tour, Filliberto Sallier De	NA	NA	2
 Colbert, Stephen	NA	NA	2
 Learned Bishop In Ireland	NA	NA	2
-Champion, William	NA	NA	2
 Caswall, John	NA	1742	2
 North, Richard	NA	1766	2
 Holland, Thomas	NA	1612	2
@@ -9708,7 +9707,6 @@ Vernon, C	NA	NA	2
 Bishton, J	NA	NA	2
 Spelman, Sir Henry	NA	NA	2
 Brown, Charles	NA	NA	2
-Lecount, Daniel	NA	NA	2
 Crawford, Matthew	NA	1700	2
 Nutting, Joseph	NA	NA	2
 Stafford, Granville Leveson-gower	1721	NA	2
@@ -9863,7 +9861,6 @@ Messer, Asa	1769	NA	2
 Dutch, Ebenezer	1751	NA	2
 Jarvis, Abraham	1739	NA	2
 Forrest, Thomas	1747	NA	2
-Ladd, Nathaniel	NA	NA	2
 Ross, Zephaniah	NA	NA	2
 Gilman, Tristram	1735	NA	2
 St. John, Peter	1726	NA	2
@@ -10029,7 +10026,6 @@ Chaplin, John	NA	NA	2
 Root, Erastus	1773	NA	2
 Smith, John	1766	NA	2
 Shippen, John	NA	NA	2
-Richardson	NA	NA	2
 Littlepage, Lewis	1762	NA	2
 Low, John	1763	NA	2
 Bascom, Jonathan	1740	NA	2
@@ -11405,7 +11401,6 @@ Laybourne, Henry	NA	NA	2
 Bilton, Henry	NA	1743	2
 Brownrigg, James	NA	NA	2
 Stewart, Alexander	1764	NA	2
-Collett, John	NA	NA	2
 Wallis, Ninian	NA	NA	2
 Gentleman On Board	NA	NA	2
 Showers, Samuel Howe	NA	NA	2
@@ -13724,7 +13719,6 @@ Percivall, Geoffrey	1563	NA	2
 Lee, Robert	NA	1605	2
 Heylyn, Rowland	NA	NA	2
 Mure, Andrew	NA	NA	2
-Dowriche, Hugh	NA	NA	2
 Loarte, Gaspar	NA	NA	2
 Burt, Thomas	NA	NA	2
 Barne, Thomas	NA	NA	2
@@ -15210,7 +15204,6 @@ Staveley, Christopher	1759	NA	1
 Bynneman, Henry	NA	1583	1
 Brown, Richard	NA	1713	1
 Tollett, Thomas	NA	1696	1
-Barclay, Robert -	NA	NA	1
 Dudley, William	NA	NA	1
 Millot, Michel	1655	NA	1
 Lavery	NA	NA	1
@@ -15257,7 +15250,6 @@ Dryander, Jonas	1748	NA	1
 Brown, Hugo]	NA	NA	1
 Crawford, Alexander	1774	NA	1
 Lowther, William	NA	NA	1
-Barr, William	NA	NA	1
 Johnson, James	18	NA	1
 Gataker, Thomas	1769	NA	1
 Swaine, Abraham]	NA	NA	1
@@ -15281,7 +15273,6 @@ Plumb, Tom]	NA	NA	1
 Masson, John	NA	NA	1
 Sinnich, John	NA	1666	1
 Collins, Ambrose]	NA	NA	1
-Pearce, James	18	NA	1
 Limborch, Hugo	NA	NA	1
 Crawford, James	1778	NA	1
 Kidd, Robert	1760	NA	1
@@ -15354,7 +15345,6 @@ Hannen	NA	NA	1
 Court	NA	NA	1
 Franklin, Margaret	17	NA	1
 Mitton, J	NA	NA	1
-Pattison, James	NA	NA	1
 Hayman, Thomas]	NA	NA	1
 Mather, Thomas	NA	NA	1
 Thompson, Robert	NA	NA	1
@@ -15441,7 +15431,6 @@ Sharpe, Lancelot	NA	NA	1
 Wilkie, Andrew	NA	NA	1
 Richardson, John	18	NA	1
 Jollie, Francis	NA	NA	1
-Newham	NA	NA	1
 Porter, H	NA	NA	1
 Person From London	NA	NA	1
 Cooper, D	NA	NA	1
@@ -15517,8 +15506,6 @@ Mccann, Henry	NA	NA	1
 Gair, Arthur	NA	NA	1
 Charnley, William	1727	NA	1
 Alvira	NA	NA	1
-Venaeus, John	NA	NA	1
-Capon, John	17	NA	1
 Naish, James Th Cent.]	NA	NA	1
 Nangreaves, John	NA	NA	1
 Harris, Evan	1794	NA	1
@@ -16059,7 +16046,6 @@ Duclou, James	NA	NA	1
 Greenwich, Caroline	1786	NA	1
 Lothian, William Kerr	1763	NA	1
 Hope, Robert	1775	NA	1
-Hourglass, Humphrey	NA	NA	1
 Hunter, Elizabeth	1742	NA	1
 Simpson, Peter	1742	NA	1
 Pyle, Robert	NA	NA	1
@@ -16290,7 +16276,6 @@ Crane, Ezekiel	NA	NA	1
 Rush, Benjamin	1746	NA	1
 Corbly, John	1733	NA	1
 March, Angier	1773	NA	1
-Suability, Cornelius	NA	NA	1
 Poor Jack	NA	NA	1
 Ward, Richard	1741	NA	1
 M'naughton, Patrick	NA	NA	1
@@ -16314,7 +16299,6 @@ Weyman, William	NA	1768	1
 Carlisle, David	1768	NA	1
 Andrew, Jonathan	NA	NA	1
 Walker, Benjamin	NA	NA	1
-Pollock, Oliver	1737	NA	1
 Bazin, Abraham	NA	NA	1
 Bothwell, David	NA	NA	1
 Bazin, John	NA	NA	1
@@ -16520,7 +16504,6 @@ Howell, Reading	1743	NA	1
 Studdiford, Peter	NA	NA	1
 Twitcher, Titus	NA	NA	1
 Tulloh, Andrew	NA	NA	1
-Swetland, Luke	1729	NA	1
 Sturgeon, Robert	NA	NA	1
 Stoutenburgh, Jacobus	NA	NA	1
 Stewart, Alexander	NA	1771	1
@@ -16617,7 +16600,6 @@ Rowland, William F	1761	NA	1
 Farrar, Stephen	1738	NA	1
 Hyde, Alvan	1768	NA	1
 Warner, Effingham	NA	1796	1
-Root, Jesse	1737	NA	1
 Lathy, Thomas Pike	1771	NA	1
 Fuller, Timothy	1739	NA	1
 Blanchet, François	1776	NA	1
@@ -16642,7 +16624,6 @@ Lewis, Zechariah	1773	NA	1
 Wells, John	1770	NA	1
 Mason, Jonathan	1756	NA	1
 Gray, Edward	1764	NA	1
-Hooper, Thomas W	1771	NA	1
 Cooper, John	1765	NA	1
 Lisle, Henry Maurice	NA	NA	1
 Drowne, Solomon	1753	NA	1
@@ -16932,7 +16913,6 @@ Nichols, James	1748	NA	1
 Fielding, Phoebe	NA	NA	1
 Osborn, Benjamin	1751	NA	1
 Branch, Amaziah	1741	NA	1
-Handy, Hast	NA	NA	1
 Coste, Jean-françois	1741	NA	1
 Porter, Robert	1768	NA	1
 Howland, John	1757	NA	1
@@ -17342,7 +17322,6 @@ Izard, Ralph	1742	NA	1
 Knoll, Michael Christian	1696	NA	1
 Purdon, John	NA	NA	1
 Carlton, William	1771	NA	1
-Troll, Wilhelm	NA	NA	1
 Melsheimer, Frederick Valentine	1749	NA	1
 Reinhold, George Christopher	NA	NA	1
 Moyer, John	NA	NA	1
@@ -17536,7 +17515,6 @@ Morse, James	NA	NA	1
 Derkinderen, James	NA	NA	1
 Smith, Venture	1729	NA	1
 Pope, Joseph	1746	NA	1
-Hoffman, Christian	NA	NA	1
 Drayton, John	1766	NA	1
 American Citizen, In Whose Heart The Amor Patriae Holds The Highest Place	NA	NA	1
 Shangar, Marcus	NA	NA	1
@@ -17617,7 +17595,6 @@ Dana, Josiah	1742	NA	1
 Cox, Zachariah	NA	NA	1
 Cox, Thomas	1655	NA	1
 Farmer, In The State Of The Massachusetts-bay	NA	NA	1
-Cook, David	NA	NA	1
 Flanagan, Christopher	NA	NA	1
 Holmes, Elkanah	NA	NA	1
 Aethiopian	NA	NA	1
@@ -17775,7 +17752,6 @@ M'kenzie, Ronald	NA	NA	1
 Moon, Elizabeth	1782	NA	1
 Cottle, Grant	NA	NA	1
 Warren, Hugh	NA	NA	1
-Mocho, Martin	NA	NA	1
 Roake, John	NA	NA	1
 Hawkins, John Sidney	1758	NA	1
 Stewart, William	18	NA	1
@@ -17844,7 +17820,6 @@ Selwin, William	NA	NA	1
 Nisbet, Janet	NA	NA	1
 Lingley, William	NA	NA	1
 Glegg, Julian	NA	NA	1
-Darbison, William	NA	NA	1
 Blenkarne, William	NA	NA	1
 Speakman, Richard	NA	NA	1
 Brierley	NA	NA	1
@@ -18278,7 +18253,6 @@ Richardson, Richard	NA	1771	1
 Walter	NA	NA	1
 Foro-juliensis, Titus Livius De	NA	NA	1
 Symons, Jelinger	1778	NA	1
-Egelsham, Wells	NA	1786	1
 Edwards, Edward	1738	NA	1
 Farrugia, Francesco Zaverio	NA	NA	1
 Pratt, Josiah	1768	NA	1
@@ -18632,7 +18606,6 @@ Cliff	NA	NA	1
 Onnen, Johann	NA	NA	1
 Boswell, Edward	1760	NA	1
 Brühl, Hans Moritz	1736	NA	1
-Wimpffen, Alexandre-stanislas	NA	NA	1
 Hablitz, Karl Ivanovich	1752	NA	1
 Wright, Francis	1762	NA	1
 Sandys, Francis	NA	NA	1
@@ -19900,6 +19873,7 @@ Weate, William	NA	NA	1
 Floravanti, F	NA	1767	1
 Davenport, Samuel	NA	NA	1
 Wingrove, Ann	NA	NA	1
+Collett, John	NA	NA	1
 Davidson, Thomas	1747	NA	1
 Banker, John	NA	NA	1
 Sharpe, J	1792	NA	1
@@ -20559,7 +20533,6 @@ Muirhead, Lockhart	NA	NA	1
 Morland, John	NA	NA	1
 Bald, Alexander	NA	NA	1
 Mclain, William	NA	NA	1
-Bauer, Franz Andreas	1758	NA	1
 Whitton, R. W	NA	NA	1
 Page, Frederick	1769	NA	1
 James, Thomas	NA	1782	1
@@ -21380,7 +21353,6 @@ Carlisle, Thomas	NA	NA	1
 Cunninghame, David	NA	NA	1
 Dickie, John	NA	1755	1
 Small, Charles	1790	NA	1
-Schröder, Friedrich Ludwig	1744	NA	1
 Reitzenstein, Karl	1792	NA	1
 Jones, Theophilus	NA	NA	1
 Crespel, Emmanuel	NA	NA	1
@@ -22058,6 +22030,7 @@ Moray, Charles	NA	NA	1
 Wade, Luke	NA	NA	1
 Spicer, Luke	NA	NA	1
 Skidmore, John	NA	NA	1
+Champion, William	NA	NA	1
 Bontein, Thomas	NA	NA	1
 Minty, George	NA	NA	1
 Pigott, Gillery	NA	1795	1
@@ -22149,7 +22122,6 @@ Bennet, Katharine	NA	NA	1
 Storie, Helen	NA	NA	1
 Little, Adam	NA	NA	1
 Free Liveryman	NA	NA	1
-Mordecai	NA	NA	1
 Leoni	NA	NA	1
 William, J	NA	NA	1
 Coleman, Mary	NA	NA	1
@@ -22161,7 +22133,6 @@ Woodhouse, G	NA	NA	1
 Love, Samuel	1773	NA	1
 Henley, Michael	NA	NA	1
 Simmons, John	1787	NA	1
-Brazier	NA	NA	1
 York, John	NA	NA	1
 Dollitt, George	NA	NA	1
 Terry, Henry	1791	NA	1
@@ -22259,7 +22230,6 @@ Senior, Nathaniel	NA	NA	1
 Boyce	NA	1770	1
 Manuel, Jean	NA	NA	1
 Power, John	1703	NA	1
-Hughes, Lucey	NA	NA	1
 Buckham, William	NA	NA	1
 Woodroffe, Thomas	NA	NA	1
 Buckham	NA	NA	1
@@ -22787,7 +22757,6 @@ Mabon, Robert	NA	NA	1
 Miller, John	1797	NA	1
 Nun, Joshua	NA	NA	1
 Moore, Francis	1783	NA	1
-Cottingham, Henry	NA	NA	1
 Burt, Adam	NA	NA	1
 Campbell, Anne	NA	NA	1
 Johnston, James Lesslie	NA	1789	1
@@ -22886,7 +22855,6 @@ M'canna, Cathrine	NA	1730	1
 Littledale, Henry	NA	NA	1
 Reinhard, Christian Gottfried	NA	NA	1
 Wells, E	NA	NA	1
-Buffington, Richard	NA	NA	1
 Dobson, Thomas	NA	NA	1
 Mcglashan, John	NA	NA	1
 Jollie, James	NA	NA	1
@@ -22989,7 +22957,6 @@ Glen, David	NA	NA	1
 Kennedy	NA	NA	1
 Stration, Andrew	NA	NA	1
 Stewart, John	NA	1781	1
-O'connor, E	NA	NA	1
 Mcculloch, John	NA	NA	1
 Richardson, George	1735	NA	1
 Pilkington, Edward	NA	NA	1
@@ -24227,7 +24194,6 @@ Guthrie, James	NA	1737	1
 Wroughton, George	NA	NA	1
 Darroch, James	NA	NA	1
 Nowlan, James	NA	1717	1
-Greenshields, John Boyd	NA	NA	1
 Stonehouse, George	NA	1793	1
 Williams, William	1709	NA	1
 Hale, John Monckton	NA	NA	1
@@ -24510,7 +24476,6 @@ Routh, Christopher	NA	NA	1
 Thorpe, Henry	NA	1764	1
 M'lean, Niel	NA	1785	1
 Jones, Roger	18	NA	1
-Gentleman, Who Is Much A Lover Of The Reformation And The Revolution	NA	NA	1
 Haddan, James	NA	1766	1
 Home, Susan	NA	NA	1
 M'kerracher, George	NA	1788	1
@@ -24647,7 +24612,6 @@ Westerdell, Thomas	NA	NA	1
 Stock Holder	NA	NA	1
 Walker, Robert	NA	1791	1
 Clark, Jeremiah	1743	NA	1
-Sam G	NA	NA	1
 Murray, Oliver James	NA	NA	1
 Tebb, Thomas	NA	NA	1
 Harrison, Jackson	NA	NA	1
@@ -24724,7 +24688,6 @@ Pringle, Mark	1754	NA	1
 Corbet, Robert	1752	NA	1
 Strachan, David	NA	1756	1
 Paxton, George	1762	NA	1
-Leedes, John	NA	NA	1
 Sinclair, John	NA	1755	1
 Mazzinghi, Joseph	1765	NA	1
 Wright, Thomas	1763	NA	1
@@ -24795,7 +24758,6 @@ Rude, Robin	NA	NA	1
 Mar, John Erskine	NA	NA	1
 Mcdonald	NA	NA	1
 Heckball, Solomon	NA	NA	1
-Halley, Thomas	1749	NA	1
 Haslam, P	1790	NA	1
 Frederick, William	NA	1776	1
 Brien, Anthony	NA	NA	1
@@ -27524,7 +27486,6 @@ Elrington, William	NA	NA	1
 Seybold, Philip	NA	NA	1
 Dance, William	1775	NA	1
 Schobert, Johann	NA	1767	1
-Crosnier, Jean	NA	NA	1
 Upfeild, Richard	NA	NA	1
 Thornton, Henry	NA	NA	1
 Penn, J. John)	1760	NA	1
@@ -27670,6 +27631,7 @@ Finch, Heneage	NA	1631	1
 Earnshaw, William	NA	NA	1
 Dyson, Humphrey	NA	1633	1
 Draper, Joseph	NA	NA	1
+Dowriche, Hugh	NA	NA	1
 Downes, Roger	NA	NA	1
 Dison, Henry	NA	NA	1
 Dewhurst, Robert	NA	NA	1
@@ -27707,7 +27669,6 @@ Anderson, George	NA	1638	1
 Alvey, Henry	NA	1627	1
 Aisgill, Joshua	NA	NA	1
 Aggas, Edward	NA	NA	1
-Pickering, Peter	NA	NA	1
 Moore, Robert	1570	NA	1
 Farmer, Richard	NA	1649	1
 George, Steven]	NA	NA	1
@@ -27834,13 +27795,11 @@ Deye, William]	NA	NA	1
 Digges, Leonard	1559	NA	1
 Du Pin	NA	NA	1
 Dyke, William	NA	NA	1
-Edderman, Francis	NA	NA	1
 Young, Andreas	NA	NA	1
 Egerton, Edward	NA	NA	1
 Platte, T	NA	NA	1
 Elizabeth I	NA	NA	1
 Elyot, Sir Thomas	NA	NA	1
-Emley, Thomas	NA	NA	1
 Evan, Enoch Ap	NA	NA	1
 Faith	NA	NA	1
 Farser, Robert	NA	NA	1
@@ -27874,7 +27833,6 @@ Heyton, Richard	NA	NA	1
 Higgins, John	NA	NA	1
 Hitching, Thomas	NA	NA	1
 Holland, Richard	1450	NA	1
-Holt, John	NA	1504	1
 Howard, Henry	NA	NA	1
 Hume, David	NA	NA	1
 Humphrey, Lawrence	NA	NA	1
@@ -28064,7 +28022,6 @@ Rhodes, Math	NA	NA	1
 Gravener, Richard	NA	NA	1
 Finch	NA	NA	1
 Norton, Robert	NA	NA	1
-Fullwood, William	1562	NA	1
 Gordon, John -	NA	NA	1
 Gossenius, Gerardus	NA	NA	1
 Bourchier, Arthur	NA	NA	1
@@ -28073,7 +28030,6 @@ Chappell, Geoffrey	NA	NA	1
 Smyth, R	NA	NA	1
 Trusswell, William	NA	NA	1
 Tissot, Jacques	NA	NA	1
-Sharpeigh, Robert	NA	NA	1
 Oxley, Robert	NA	NA	1
 Mason, George	1620	NA	1
 Man, Abraham	NA	NA	1
@@ -28300,7 +28256,6 @@ Bentley, James	NA	NA	1
 Gorecki, Leonard	NA	NA	1
 Southerne, Edmund	NA	NA	1
 Soranzo, Lazzaro	NA	NA	1
-Christopherson, John	NA	1558	1
 Davis, Francis	1612	NA	1
 Creswell, George	NA	NA	1
 Singleton, Isaac	NA	NA	1
@@ -28462,7 +28417,6 @@ Hooke, Henry	NA	1624	1
 Mote, Humphrey	NA	NA	1
 Morice, James	NA	NA	1
 Pembroke, Simon	NA	NA	1
-Gohaeus, Gulielmus	NA	NA	1
 Monings, Edward	NA	NA	1
 Fredericke	NA	NA	1
 Milton, Richard	NA	NA	1
@@ -28482,7 +28436,6 @@ Mason, James	NA	NA	1
 Mason, Edmund	NA	1634	1
 Martyn, Joseph	NA	NA	1
 Attowell, George	NA	NA	1
-Marshall, George	NA	NA	1
 Albin De Valsergues, Jean D'	NA	1566	1
 Pelletier, Thomas	NA	NA	1
 Saltern, Thomas	NA	NA	1
@@ -28855,7 +28808,6 @@ Watson, Robert	1555	NA	1
 Matthew, Simon	NA	1541	1
 Autpertus, Ambrosius	NA	NA	1
 Flamel, Nicolas	NA	1418	1
-Winne, Edward	NA	NA	1
 Williams, John	NA	1613	1
 Willis, Edward	1615	NA	1
 Willoughbie, John	NA	NA	1
@@ -29493,7 +29445,6 @@ Haslerig, Sir Arthur	NA	NA	1
 Hatcher, Robert]	NA	NA	1
 Hay, Alexander	NA	1745	1
 Hay, David	1696	NA	1
-Hayward, Sir John	NA	NA	1
 Henderson, Alexander]	NA	NA	1
 Henshaw, Joseph Bishop	NA	NA	1
 Hepburn, Adam]	NA	NA	1
@@ -29590,7 +29541,6 @@ King, Edward	1689	NA	1
 Keach, Benjamin -	NA	NA	1
 Keith, George	1639	NA	1
 Keith, George ?-	NA	NA	1
-Keith, George]	NA	NA	1
 Molliere	NA	NA	1
 Lamplugh, Thomas Archbishop	NA	NA	1
 Lane, Edward]	NA	NA	1
@@ -29762,7 +29712,6 @@ Purchase, John	NA	NA	1
 Puttock, Richard]	NA	NA	1
 R., J	NA	NA	1
 R., W	NA	NA	1
-Rainton, E.]	NA	NA	1
 Ranson, William	1644	NA	1
 Rastell, John]	NA	NA	1
 Rawlins, Thomas]	NA	NA	1
@@ -29840,7 +29789,6 @@ Culliford, William	1698	NA	1
 Simon, Richard	NA	1712	1
 Simonds, Thomas	NA	1666	1
 Simpkin, Charles	NA	NA	1
-Simpson, William Of Lancashire	NA	NA	1
 Carew, Richard	1555	NA	1
 Crow, Sackville	NA	1683	1
 Gooday, George	NA	NA	1
@@ -29880,7 +29828,6 @@ Starkey, Thomas]	NA	NA	1
 Stearne, John M. D	NA	NA	1
 Steno, Nicolaus Bishop	NA	NA	1
 Stephens, D	NA	NA	1
-Steuart, Dugald]	NA	NA	1
 Steuart, John]	NA	NA	1
 Steuart, Walter	NA	1721	1
 Stovey, William	NA	NA	1
@@ -30061,7 +30008,6 @@ R., T	NA	NA	1
 Savile, Henry - ]	NA	NA	1
 Shaw, John -	NA	NA	1
 Sibley, Thomas	NA	NA	1
-Titus, Silas	NA	NA	1
 Rochead, Kathrine	1695	NA	1
 Tart, John]	NA	NA	1
 Whitehead, Anne	NA	NA	1
@@ -31234,7 +31180,6 @@ Cent, Nehemiah	NA	NA	1
 Thache, Thomas	NA	NA	1
 Finch, Henry	NA	NA	1
 Thornton, Henry	1649	NA	1
-Basely, N	NA	NA	1
 Riddington, Francis	NA	NA	1
 Whittle, Robert	NA	1679	1
 Francklin, Gracious	NA	1691	1
@@ -31420,7 +31365,6 @@ Lysimachus, Irenaeus	NA	NA	1
 Boraston, George	1634	NA	1
 Hay, T. De	NA	NA	1
 Twisse, Robert	NA	1674	1
-Hastings, Robert	NA	NA	1
 Michell	1648	NA	1
 Souverain, Matthieu	NA	1699	1
 Haughton, Edward	17	NA	1
@@ -31738,7 +31682,6 @@ Coale, Leonard	NA	NA	1
 Thomas, Gabriel	NA	NA	1
 Burrows, Ishmael	NA	1734	1
 Pierson, David	NA	NA	1
-Pond, Benjamin	NA	NA	1
 Piers, Matthew	NA	NA	1
 Barrow, J	NA	NA	1
 Lord, John	17	NA	1
@@ -31980,7 +31923,6 @@ Beecher, Henry	17	NA	1
 Smalbroke, Thomas	NA	NA	1
 Brocardo, Francisco	NA	NA	1
 Lovel, Henry	NA	NA	1
-Wardlace, James	NA	NA	1
 Trye, John	NA	NA	1
 Ringrose, Basil	NA	1686	1
 Tobin, Maurice	NA	NA	1
@@ -32209,13 +32151,11 @@ Forbes, William	NA	1646	1
 Bullinger	NA	NA	1
 Peterson, William	NA	1661	1
 Eeds, Judith	NA	NA	1
-Edgar, Thomas	NA	NA	1
 Tory, Timothy	NA	NA	1
 Springham, Thomas	NA	NA	1
 Allison, Thomas	1697	NA	1
 Rawson, James	NA	NA	1
 Godman, William	1625	NA	1
-Queckfeldt, Benedict	NA	NA	1
 Mantell, Walter	NA	NA	1
 Mad Man	NA	NA	1
 Foulkes, Robert	NA	1679	1
@@ -32598,7 +32538,6 @@ Yver, Jean	NA	NA	1
 Malone, Edmond	NA	NA	1
 Godfrey, John W	NA	NA	1
 Holt, A	NA	NA	1
-Levy, Eleazar	NA	NA	1
 Linguet, Simon Nicolas Henri -	NA	NA	1
 Susan	NA	NA	1
 Kennedy, William	NA	NA	1
@@ -32685,7 +32624,6 @@ Peasant	NA	NA	1
 D'avenant, Jeremiah	NA	NA	1
 Piper, John	NA	NA	1
 Sandes, John	NA	NA	1
-Healy, Joseph	NA	NA	1
 Gawler, William	1750	NA	1
 Hassard, Robert	NA	NA	1
 Boudier De La Jousselinière, René	NA	NA	1
@@ -32873,7 +32811,6 @@ Los Rios, Jean-françois De	1728	NA	1
 Wayne, Franciscus	NA	NA	1
 Troup, Joannes Irvine	NA	NA	1
 Simpson, Gulielmus	NA	NA	1
-Eve, Joseph	NA	NA	1
 Shepherd, Joannes	NA	NA	1
 Prescott, Rachel	NA	NA	1
 Miller, Hugh	NA	NA	1
