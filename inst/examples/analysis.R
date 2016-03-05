@@ -40,7 +40,7 @@ source("general.R") # See estc todo file
 
 knit("Edinburgh.Rmd")
 knit("NorthAmerica.Rmd")
-#knit("Scotland.Rmd")
+knit("Scotland.Rmd")
 #knit("Princeton.Rmd")
 #knit("pagecounts.Rmd")
 

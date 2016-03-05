@@ -1,6 +1,6 @@
 ---
 title: "Scotland"
-author: "Leo Lahti"
+author: "`r author`"
 date: "`r Sys.Date()`"
 output: markdown_document
 ---
@@ -105,7 +105,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 df <- filter(dfo, country == country)
 df$publication_place <- droplevels(df$publication_place)
 
-publications <- tapply(df$unity, list(df$publication.decade, df$publication_place), sum)
+publications <- tapply(df$unity, list(df$publication_decade, df$publication_place), sum)
 publications[is.na(publications)] <- 0 # Set NAs to 0
 publications <- publications/10 # Instead of decadal sum, use average annual output 
 
@@ -136,7 +136,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 ```{r Scotlandaveout2, echo=FALSE, fig.width=12, fig.height=8}
 df <- filter(dfo, country == country)
-publications <- tapply(df$unity, list(df$publication.decade, df$publication_place), sum)
+publications <- tapply(df$unity, list(df$publication_decade, df$publication_place), sum)
 publications[is.na(publications)] <- 0 # Set NAs to 0
 publications <- publications/10 # Instead of decadal sum, use average annual output 
 publications.annual <- tapply(df$unity, list(df$publication_year, df$publication_place), sum)
@@ -199,10 +199,10 @@ df.london$publication_place2 <- droplevels(df.london$publication_place)
 df.scotland$publication_place2 <- droplevels(df.scotland$country)
 df <- rbind(df.london, df.scotland)
 # use average annual output therefore divide by 10
-dfm <- df %>% group_by(publication.decade, publication_place2) %>% summarize(paper = sum(paper.consumption.km2, na.rm = T)/10, n = n()/10)
+dfm <- df %>% group_by(publication_decade, publication_place2) %>% summarize(paper = sum(paper.consumption.km2, na.rm = T)/10, n = n()/10)
 
 theme_set(theme_bw(20))
-p <- ggplot(dfm, aes(x = publication.decade, y = n, color = publication_place2))
+p <- ggplot(dfm, aes(x = publication_decade, y = n, color = publication_place2))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess")
 p <- p + xlab("Year") + ylab("Publications per year (n)")
@@ -213,7 +213,7 @@ print(p)
 
 
 theme_set(theme_bw(20))
-p <- ggplot(dfm, aes(x = publication.decade, y = paper, color = publication_place2))
+p <- ggplot(dfm, aes(x = publication_decade, y = paper, color = publication_place2))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess")
 p <- p + xlab("Year") + ylab("Annual paper consumption (km2)")
