@@ -13,7 +13,7 @@ output: markdown_document
 
 [Author name conversions](output.tables/author_conversion_nontrivial.csv)
 
-Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 46249 unique authors and 253770 documents with unambiguous author information (56%).
+Top-20 uniquely identified authors and number of documents for each (duplicate docs not checked yet). In total, there are 6482 unique authors and 18509 documents with unambiguous author information (44%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
@@ -25,43 +25,6 @@ Title count versus paper consumption (all authors):
 ### Life span of uniquely identified top authors
 
 Ordered by productivity (number of documents))
-
-
-```
-## Error in `[.data.frame`(df, , c("author_unique", "author_birth", "author_death")): undefined columns selected
-```
-
-```
-## Error in filter_(.data, .dots = lazyeval::lazy_dots(...)): object 'dfa' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dfa' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dfa' not found
-```
-
-```
-## Error in arrange_(.data, .dots = lazyeval::lazy_dots(...)): object 'dfa' not found
-```
-
-```
-## Error in factor(dfa$author_unique, levels = dfa$author_unique): object 'dfa' not found
-```
-
-```
-## Error in nrow(dfa): object 'dfa' not found
-```
-
-```
-## Error in ggplot(dfa): object 'dfa' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'author_birth' not found
-```
 
 ![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png)
 
