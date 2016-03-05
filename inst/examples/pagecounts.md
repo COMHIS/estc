@@ -12,90 +12,15 @@ Page count: distribution of document sizes
 
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'pages.total'
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'pages.total' not found
-```
-
-```
-## Error in ggplot(dff2, aes(y = gatherings, x = pages.total)): object 'dff2' not found
-```
-
-```
-## Error in fortify(data): object 'dff3' not found
-```
-
-```
-## Error in fortify(data): object 'dff3' not found
-```
-
-```
 ## Error in eval(expr, envir, enclos): object 'items' not found
 ```
 
-```
-## Error in eval(expr, envir, enclos): unknown column 'pages.total'
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'pages.total' not found
-```
-
-```
-## Error in ggplot(dff2, aes(y = gatherings, x = pages.total)): object 'dff2' not found
-```
-
-```
-## Error in fortify(data): object 'dff3' not found
-```
-
-```
-## Error in fortify(data): object 'dff3' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dimension.gatherings' not found
-```
+![plot of chunk pagecountstat](figure/pagecountstat-1.png)
 
 
 ## Documents with missing pages over years 
 
-
-```
-## Error in eval(expr, envir, enclos): object 'pages.total.orig' not found
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "na", value = logical(0)): replacement has 0 rows, data has 992
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
-
-![plot of chunk missingpages](figure/missingpages-1.png)
-
-```
-## Error in eval(expr, envir, enclos): object 'pages.total' not found
-```
-
-```
-## Error in df2b$na[df2b$na == 0] <- NA: object 'df2b' not found
-```
-
-```
-## Error in ggplot(df2b, aes(x = publication_decade, y = gatherings, size = na)): object 'df2b' not found
-```
-
-```
-## Error in na.omit(df2b$na): object 'df2b' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
+![plot of chunk missingpages](figure/missingpages-1.png)![plot of chunk missingpages](figure/missingpages-2.png)
 
 
 ## Estimated paper consumption
@@ -124,36 +49,10 @@ print(p)
 
 ## Pamphlets vs. Books
 
-
-```
-## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
-```
-
-![plot of chunk doctypes](figure/doctypes-1.png)
-
-```
-## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
-```
+![plot of chunk doctypes](figure/doctypes-1.png)![plot of chunk doctypes](figure/doctypes-2.png)
 
 
-
-```
-## Error in eval(expr, envir, enclos): object 'pages.total' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'length'
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
-
-![plot of chunk doctypes2](figure/doctypes2-1.png)
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
+![plot of chunk doctypes2](figure/doctypes2-1.png)![plot of chunk doctypes2](figure/doctypes2-2.png)
 
 
 ## Top authors
@@ -177,15 +76,9 @@ Gatherings height: does it change over time (1600's)? How increased printing act
 
 Page counts: does it change over time (1600's)? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
 
-
-```
-## Error in eval(expr, envir, enclos): object 'pages.total.orig' not found
-```
+![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-4.png)
 
 
 Same for documents that have a sufficient number of pages:
 
-
-```
-## Error in eval(expr, envir, enclos): object 'pages.total' not found
-```
+![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-4.png)
