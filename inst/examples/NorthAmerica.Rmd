@@ -56,7 +56,7 @@ publications <- tapply(df$unity, list(df$publication_decade, df$publication_plac
 publications[is.na(publications)] <- 0 # Set NAs to 0
 publications <- publications/10 # Instead of decadal sum, use average annual output 
 
-publications.annual <- tapply(df$unity, list(df$publication.year, df$publication_place), sum)
+publications.annual <- tapply(df$unity, list(df$publication_year, df$publication_place), sum)
 publications.annual[is.na(publications.annual)] <- 0 # Set NAs to 0
 
 # Keep only top-5 publication places (w.r.t. total volume)
