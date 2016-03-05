@@ -25,7 +25,7 @@ dfo <- df.preprocessed
 # Pick Scotland documents only
 selected_place <- "Edinburgh"
 country <- "Scotland"
-df <- filter(dfo, publication_country == country & publication_year >= 1470)
+df <- filter(dfo, country == country & publication_year >= 1470)
 ```
 
 
@@ -52,7 +52,7 @@ print(p)
 # ------------------------------------------------------------
 
 # Use 5 year intervals
-df <- filter(dfo, publication_country == country & publication_year >= 1470)
+df <- filter(dfo, country == country & publication_year >= 1470)
 timeinterval <- 5
 df$publication.timeunit <- round(df$publication_year/timeinterval)*timeinterval 
 publications <- tapply(df$unity, list(df$publication.timeunit, df$publication_place), sum)

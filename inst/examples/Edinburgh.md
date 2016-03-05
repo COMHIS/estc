@@ -8,14 +8,19 @@ output: markdown_document
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication_country' not found
+## Error in eval(expr, envir, enclos): object 'publication_year' not found
 ```
 
+
+
+```
+## Error in split.default(X, group): first argument must be a vector
+```
 
 ![plot of chunk EdinburghPubs](figure/EdinburghPubs-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication_country' not found
+## Error in eval(expr, envir, enclos): object 'publication_year' not found
 ```
 
 ```
