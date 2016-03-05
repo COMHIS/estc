@@ -1,7 +1,7 @@
 Analysis of British Library ESTC Data Collection
 ============================================
 
-This is an algorithmic toolkit for [R](http://r-project.org), designed for transparent quantitative analysis of the British Library [European Short Title Catalogues (ESTC) data collection](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). The package is under active, open development; the tools, analysis, and documentation are preliminary and constantly updated. Your [contributions](http://ropengov.github.com/contact.html), [bug reports and feedback](https://github.com/ropengov/estc) are welcome!
+This is an algorithmic toolkit for [R](http://r-project.org), designed for transparent quantitative analysis of the British Library [English Short Title Catalogue (ESTC) data collection](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). The package is under active, open development; the tools, analysis, and documentation are preliminary and constantly updated. Your [contributions](http://ropengov.github.com/contact.html), [bug reports and feedback](https://github.com/ropengov/estc) are welcome!
 
 
 ### ESTC data overview
