@@ -41,7 +41,7 @@ library(knitr)
 library(ggplot2)
 library(estc)
 library(bibliographica)
-opts_chunk$set(cache=TRUE)
+opts_chunk$set(cache=FALSE)
 library(dplyr)
 library(ggthemes)
 df <- df.preprocessed <- df[-which(df$publication_year < 1470),] 
