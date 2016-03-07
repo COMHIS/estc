@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-03-05"
+date: "2016-03-08"
 output: markdown_document
 ---
 
@@ -22,7 +22,7 @@ output: markdown_document
 
 <!--[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)-->
 
-Document size (area) info in area is available for 470734 documents (98%). Estimates of document size (area) info in gatherings system are available for 481773 documents (100%). 
+Document size (area) info in area is available for 465935 documents (98%). Estimates of document size (area) info in gatherings system are available for 476897 documents (100%). 
 
 ![plot of chunk summarysize](figure/summarysize-1.png)
 
@@ -36,7 +36,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is estimated for 0 documents and updated (changed) for 6983 documents. 
+Compare gatherings and page counts. Page count information is estimated for 0 documents and updated (changed) for 7769 documents. 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
 
@@ -55,34 +55,25 @@ Multi-volume documents average page counts are given per volume.
 
 |doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|1to           |              2.00000|                    2.0|       15913|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|2long         |             98.78947|                   27.0|          38|                  NA|                    NA|         NA|         28.94737|                 24|      19|
-|2fo           |             81.08856|                   16.0|       98939|           350.30849|              373.0000|       2995|         28.59967|                 26|   32216|
-|4long         |             31.33333|                    8.0|          21|                 NaN|                    NA|          1|         13.14286|                  8|       7|
-|4to           |                 -Inf|                   32.0|      101356|            43.26531|               24.0000|       4750|         26.25435|                 24|   35314|
-|8long         |            109.58537|                   20.0|          41|            16.00000|               16.0000|          1|         18.37500|                 16|      16|
-|8vo           |                 -Inf|                   42.0|      167822|           202.04245|              200.0000|      12304|         26.14393|                 24|   56418|
-|12long        |             87.51311|                   24.0|         267|             6.00000|                6.0000|         11|         24.67647|                 24|     136|
-|12mo          |            103.98631|                   42.0|       71047|            35.28818|               27.0000|       6497|         25.80403|                 24|   25937|
-|16long        |              2.00000|                    2.0|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|16mo          |             87.22574|                   24.0|        2371|            88.17687|               79.0000|        111|         23.95657|                 24|     829|
-|18mo          |            129.53698|                   48.0|        2029|           115.20468|              120.0000|        175|         27.27989|                 26|     736|
-|24long        |            105.69512|                   30.0|          82|           371.00000|              371.0000|          4|         27.06250|                 24|      32|
-|24mo          |            122.68486|                   40.0|        1871|           234.19355|              238.0000|         98|         27.06327|                 26|     648|
-|32mo          |            115.32657|                   32.0|         746|           237.54082|              237.5408|         47|         23.49612|                 24|     258|
-|48mo          |             91.40476|                   58.5|          23|                  NA|                    NA|         NA|         26.00000|                 18|       5|
-|64mo          |            142.16981|                   76.0|         129|            31.00000|               31.0000|          1|         31.87500|                 34|      32|
-|NA            |             49.55609|                    2.0|       17044|           156.30515|              150.6667|        383|         23.87697|                 24|    3048|
+|1to           |              2.00000|                      2|       15708|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|2long         |            135.52632|                     48|          38|            34.00000|                 34.00|          1|         32.26667|                 34|      15|
+|2fo           |             95.49214|                     18|       97837|           453.22441|                470.00|       3016|         30.99573|                 32|   29272|
+|4long         |             74.09091|                     13|          22|                  NA|                    NA|         NA|         17.50000|                 19|       4|
+|4to           |                 -Inf|                     24|      100556|            57.76659|                 24.00|       4324|         24.30708|                 24|   38143|
+|8long         |            105.97368|                     32|          41|            32.00000|                 32.00|          1|         29.31250|                 32|      16|
+|8vo           |                 -Inf|                     40|      166145|           169.06191|                171.00|      11340|         25.57883|                 24|   58699|
+|12long        |            113.45283|                     88|         265|            96.61765|                 96.00|         18|         26.01389|                 25|      72|
+|12mo          |                 -Inf|                     40|       70635|           123.84208|                124.00|       6355|         25.51603|                 24|   26766|
+|16long        |            372.00000|                    372|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|16mo          |            113.42725|                     28|        2371|           159.62236|                168.00|        121|         24.43398|                 24|     871|
+|18mo          |            163.38380|                     44|        2018|           315.59455|                325.25|        165|         28.25341|                 30|     734|
+|24long        |             85.84211|                     28|          81|                  NA|                    NA|         NA|         18.72727|                 16|      22|
+|24mo          |            121.43830|                     36|        1867|           250.91026|                261.00|         82|         25.23572|                 24|     683|
+|32mo          |            198.00402|                     34|         747|           510.51852|                529.00|         54|         27.88686|                 31|     274|
+|48mo          |             48.05263|                     26|          22|                  NA|                    NA|         NA|         22.60000|                 25|      10|
+|64mo          |             72.29126|                      8|         124|             8.00000|                  8.00|          2|         17.17857|                  8|      56|
+|NA            |             62.86756|                      2|       16974|           274.43980|                274.00|        393|         25.29306|                 24|    2665|
 
-
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
@@ -102,11 +93,11 @@ Only cases with 2000 documents are listed here:
 |gatherings.original | mean.height| median.height| mean.width| median.width|    n|
 |:-------------------|-----------:|-------------:|----------:|------------:|----:|
 |1to                 |    41.57143|      41.57143|   29.05882|     29.05882|   28|
-|2fo                 |    36.95995|      36.95995|   21.95902|     21.95902|  774|
+|2fo                 |    36.95731|      36.95731|   21.95902|     21.95902|  773|
 |4to                 |    21.73231|      21.73231|   18.81250|     18.81250|  523|
-|8vo                 |    19.17417|      19.17417|   16.33333|     16.33333|  666|
+|8vo                 |    19.16992|      19.16992|   16.33333|     16.33333|  665|
 |12mo                |    15.50495|      15.50495|   12.00000|     12.00000|  102|
 |16mo                |    10.76190|      10.76190|        NaN|          NaN|   21|
 |18mo                |    10.75000|      10.75000|   10.00000|     10.00000|    4|
-|NA                  |    29.72087|      29.72087|   23.18723|     23.18723| 6045|
+|NA                  |    29.71811|      29.71811|   23.19617|     23.19617| 6032|
 

@@ -1,32 +1,32 @@
 Name	Count
-Total count: 	n=20805 (100% non-NA values)
-[S.l.	1909
+Total count: 	n=20742 (100% non-NA values)
+[S.l.	1892
 Hartford	 679
 New-London [Conn.]	 513
 [S.l.]	 386
-Providence	 386
+Providence	 385
 Norwich [Conn.]	 249
-[Newport, R.I.	 234
+[Newport, R.I.	 232
 Charleston [S.C.]	 218
 Newport [R.I.]	 215
 Berwick	 205
-[Charleston, S.C.	 201
-Williamsburg [Va.]	 198
+[Charleston, S.C.	 200
+Williamsburg [Va.]	 197
 [Providence	 188
-[Providence]	 170
-[Williamsburg, Va.	 169
+[Providence]	 168
+[Williamsburg, Va.	 167
 [Saint-Omer	 165
-Albany	 159
+Albany	 157
 Lancaster [Pa.]	 153
-Germantown [Pa.]	 147
 Salem [Mass.]	 146
 N. London [i.e., New London, Conn.]	 146
+Germantown [Pa.]	 146
 Cambridge [Mass.]	 138
-[Hartford	 130
+[Hartford	 128
 Portsmouth [N.H.]	 123
 Newburyport [Mass.]	 122
 [Cambridge, Mass.	 112
-[New London, Conn.	 111
+[New London, Conn.	 110
 [Watertown, Mass.	  99
 [New London, Conn.]	  91
 Bury St. Edmund's	  88
@@ -39,16 +39,16 @@ Germantaun [Pa.]	  75
 Salop	  73
 [Salem, Mass.	  66
 [Newport, R.I.]	  66
-Aldershot in Hampshire near Farnham in Surry	  66
 Germanton [Pa.]	  65
 [Albany]	  64
 [Salem, Mass.]	  63
 [Portsmouth, N.H.]	  63
-[Providence?	  62
-Newport, Rhode-Island	  62
+[Providence?	  61
+Newport, Rhode-Island	  61
 [Newbern, N.C.	  61
 Lynn	  61
 [Exeter, N.H.	  61
+Aldershot in Hampshire near Farnham in Surry	  59
 Halifax [N.S.]	  58
 [Hartford]	  57
 Huddersfield	  56
@@ -58,14 +58,14 @@ Ephrata [Pa.]	  50
 [Charleston, S.C.]	  50
 Newbury-Port [Mass.]	  49
 Middletown [Conn.]	  49
-Stockport	  48
 Printed at Exeter [N.H.]	  48
 [Newburyport, Mass.	  48
-Newbern [N.C.]	  48
-[Bedford	  48
 [Albany	  48
+Stockport	  47
 New-Brunswick [N.J.]	  47
+Newbern [N.C.]	  47
 Litchfield [Conn.]	  47
+[Bedford	  47
 Elizabeth-Town [N.J.]	  46
 Woodbridge, in New-Jersey	  45
 [St. Omer	  45
@@ -77,16 +77,16 @@ Printed at Providence	  43
 Hudson [N.Y.]	  42
 Richmond [Va.]	  40
 Trefecca	  39
-Lichfield	  39
 [Germantown, Pa.	  39
 [Exeter, N.H.]	  39
-Lancaster	  38
 Chichester	  38
 Charlestown [S.C.]	  38
 At S. Omers	  38
 [Tranquebar]	  37
 Printed at Newburyport [Mass.]	  37
+Lichfield	  37
 Lancäster [Pa.]	  37
+Lancaster	  37
 [Connecticut	  37
 Saint Jago de la Vega	  36
 Charlestown [Mass.]	  36
@@ -168,7 +168,6 @@ Newport	  17
 Newbury-port [Mass.]	  17
 [Lancaster?	  17
 [King's Lynn	  17
-Gottingen	  17
 Chambersburg [Pa.]	  17
 Bruges	  17
 Antigua	  17
@@ -180,6 +179,7 @@ Providence, in New-England	  16
 Portsmouth--New-Hampshire	  16
 [Lichfield?	  16
 Huntingdon	  16
+Gottingen	  16
 Dudley	  16
 Blackfriars	  16
 Berwick upon Tweed	  16
@@ -208,7 +208,6 @@ Danvers [Mass.]	  14
 Cantabrigi?	  14
 [Amherst, N.H.]	  14
 Winchester [Va.]	  13
-Watertown [Mass.]	  13
 Trangambariae	  13
 St. Ives	  13
 [Ripon	  13
@@ -226,6 +225,7 @@ Caerlleon	  13
 Bury St. Edmunds	  13
 Antuerpiæ	  13
 Abredoniae	  13
+Watertown [Mass.]	  12
 [Vepery]	  12
 Sevenoaks	  12
 [Salem, Mass.?	  12
@@ -246,7 +246,6 @@ Elizabeth-town [N.J.]	  12
 Charleston, South-Carolina	  12
 [Cambridge, Mass.?	  12
 [Burlington, N.J.?	  12
-[Aylesbury?	  12
 [Williamsburg, Va.]	  11
 [Trenton, N.J.	  11
 [Richmond, Va.	  11
@@ -265,6 +264,7 @@ Cambridg [i.e., Cambridge, Mass.]	  11
 Brecknock	  11
 Bostoniae	  11
 [Bedford]	  11
+[Aylesbury?	  11
 Andreapoli	  11
 Woverhampton	  10
 Woodbridge, in New Jersey	  10
@@ -314,7 +314,6 @@ Chesnuthill [Pa.]	   9
 Bury [St. Edmunds]	   9
 [Bury St. Edmunds]	   9
 Attleborough [Mass.]	   9
-[Woodbridge, N.J.]	   8
 Wilmington	   8
 [Williamsburg, Va.?	   8
 Whitestown [N.Y.]	   8
@@ -380,7 +379,6 @@ Norwich [Conn]	   7
 [Norwich, Conn.?	   7
 [Northampton, Mass.]	   7
 Newark, New-Jersey	   7
-[Nantes	   7
 [Lichfield]	   7
 Leominster [Mass.]	   7
 [Hemel Hempstead?	   7
@@ -405,6 +403,7 @@ Aylesbury	   7
 [Antwerpie	   7
 Amherst [N.H.]	   7
 Amherst, Newhampshire	   7
+[Woodbridge, N.J.]	   6
 [Wilmington, N.C.	   6
 [Wilmington	   6
 Westmonasterii	   6
@@ -438,6 +437,7 @@ New Brunswick [N.J.]	   6
 New-Bedford [Mass.]	   6
 Newark, N.J.	   6
 [Newark, N.J.]	   6
+[Nantes	   6
 [Mount Holly, N.J.]	   6
 [Morpeth?	   6
 Mentz and Frankfort	   6
@@ -481,7 +481,6 @@ Walpole, N.H.	   5
 Walpole [N.H.]	   5
 Walpole, Newhampshire	   5
 [Virginia	   5
-Totnes	   5
 [Strood?]	   5
 [St. Helier?	   5
 Staunton [Va.]	   5
@@ -550,7 +549,6 @@ Chesnut-Hill [Pa.]	   5
 Charlotte Town, island of Saint John	   5
 Charlestown [i.e. Charleston, S.C.]	   5
 [Burslem]	   5
-[Büdingen]	   5
 Brookfield [Mass.]	   5
 [Brookfield, Mass.]	   5
 Brighthelmstone	   5
@@ -572,6 +570,7 @@ Uttoxeter	   4
 [Trowbridge]	   4
 [Trefriw]	   4
 Trangambariæ	   4
+Totnes	   4
 [Swansea]	   4
 Strawberry-Hill	   4
 [St. Omers	   4
@@ -642,7 +641,6 @@ Fayetteville [N.C.]	   4
 [Falmouth	   4
 [Fairhaven, Vt.]	   4
 Ephratae [Pa.]	   4
-En tē Kantabrigia	   4
 [Edenton, N.C.?	   4
 Duaci	   4
 Delphis	   4
@@ -655,9 +653,9 @@ Chelmsford [Mass.]	   4
 Charles-town [i.e., Charleston, S.C.]	   4
 Charleston, S.C.	   4
 [Carlisle, Pa.	   4
-[Cardiff]	   4
 Canaan [N.Y.]	   4
 [Cadiz	   4
+[Büdingen]	   4
 Brookville	   4
 Brookfield, Mass.	   4
 Bridport	   4
@@ -762,7 +760,6 @@ Portsmouth in New-Hampshire	   3
 Pittsburgh	   3
 Philada.	   3
 [Petersburg, Va.	   3
-[Parma	   3
 Parisius	   3
 Oxfort	   3
 Novo-Portu	   3
@@ -817,7 +814,6 @@ Inverness	   3
 In Venetia	   3
 In Loreto	   3
 Imprynted in Southwarke	   3
-Imprintit at Sanctandrois	   3
 [Imprinted at Ippyswiche	   3
 Imprinted at Collen	   3
 [Impressu[m] Rothomagi	   3
@@ -858,10 +854,10 @@ Fayetteville, N.C.	   3
 [Epsom?	   3
 Ephratae [Penn.]	   3
 Ephrata	   3
+En tē Kantabrigia	   3
 [Enprynted at Westmynster	   3
 En Kantabrigia	   3
 [Ely	   3
-[Elizabeth-Town, N.J.]	   3
 [Elizabethtown, N.J.]	   3
 Edinhurgh [sic]	   3
 Edinburh [sic]	   3
@@ -894,6 +890,7 @@ Charles-town [S.C.]	   3
 [Charleston. S.C.	   3
 Chambersburg, Pa.	   3
 Carrick	   3
+[Cardiff]	   3
 [Cape Town	   3
 Cantabridgiæ	   3
 [Caernarvon?	   3
@@ -1067,7 +1064,6 @@ Providence (R.I.)	   2
 Providence (Rhode-Island:)	   2
 Providence, New-England	   2
 [Providence?]	   2
-Printiedig yn-Ghaer Ludd	   2
 Printed in the city of Albany	   2
 Printed in Lansingburgh [N.Y.]	   2
 Printed at Walpole, NewHampshire	   2
@@ -1117,6 +1113,7 @@ Peairt	   2
 Patingham	   2
 Parys	   2
 [Parrhisiis	   2
+[Parma	   2
 [Parisus	   2
 [[Parisius]	   2
 [Parisii	   2
@@ -1190,7 +1187,6 @@ Londres [i.e. Besanc̜on]	   2
 Londons [sic]	   2
 [Londonii	   2
 London [i.e. Saint-Omer?]	   2
-London [i.e. Karlsruhe]	   2
 Londino	   2
 Londini [i.e. Hanau]	   2
 Londin	   2
@@ -1222,6 +1218,7 @@ Keene--Newhampshire	   2
 Isle of Wight	   2
 In Antwarp	   2
 [Imprynted in Rowen	   2
+Imprintit at Sanctandrois	   2
 [Imprinted at S. Omers	   2
 Imprinted at Midleburgh	   2
 Imprinted at Louaine	   2
@@ -1258,7 +1255,6 @@ Hartfordiae	   2
 [Harrisburg, Pa.]	   2
 Harrisburgh	   2
 [Harrisburg?	   2
-[Harg]	   2
 Harborough	   2
 Hanover, N.H.	   2
 Hanover, (N.H.)	   2
@@ -1317,6 +1313,7 @@ Ephrata in Pensylvanien	   2
 [Enniskillen]	   2
 En la Havana	   2
 [Emprynted at Westmynster	   2
+[Elizabeth-Town, N.J.]	   2
 [Elizabethtown, N.J.?	   2
 Elizabeth-town, (New-Jersey)	   2
 [Elizabeth, N.J.?	   2
@@ -1967,6 +1964,7 @@ Prnted [sic] at Rutland, (Vermont.)	   1
 Printiedig yn Rhydychen	   1
 Printiedig yn Lundain	   1
 Printiedig yn Llyndain	   1
+Printiedig yn-Ghaer Ludd	   1
 [Printet at Stutgart	   1
 Printed & sold in New-London [Conn.]	   1
 Printed & sold in New-London [Conn.	   1
@@ -2566,6 +2564,7 @@ London [i.e. Saint-Omer	   1
 London[iensis?]	   1
 London [i.e. Norwich, Conn.]	   1
 London [i.e. Madeley]	   1
+London [i.e. Karlsruhe]	   1
 London [i.e. Görlitz]	   1
 London [i.e. Blackwell Grange]	   1
 London [i.e. Berwick upon Tweed?]	   1
@@ -2967,6 +2966,7 @@ Harrisburgh, Pa.	   1
 Harrisburgh [i.e., Harrisburg, Pa.]	   1
 [Harrisburgh]	   1
 [Harrisburg	   1
+[Harg]	   1
 Harford	   1
 [Harburg	   1
 Hanoverensi [N.H.]	   1

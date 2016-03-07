@@ -1,16 +1,20 @@
 # TODO
 
-summary.Rmd: erottele geneeriset ja estc-spesifit osat; omat summarynsa joka kentälle tai kenttäryhmälle
+"authors born before 500" ei pelitä täällä: https://github.com/rOpenGov/estc/blob/master/inst/examples/Scotland.md
+Tämä samainen "authors born before 500" olisi myös erittäin kiinnostava koko estc-datan suhteen jos on samaan vaivaan helppo tuottaa eli vaihtaa skotlannin tilalle paikaksi kaikki. Mutta tuo bugin korjaaminen tässä varmaan isompi juttu
 
-Tee geneeriset enrich, summary- ja analysis-skriptit estc + cerl ja sitten vielä fennica
+elinvuosi (17-na) esim. tulee siitä että kyseessä 1600-luvun tyyppi eli 17th-century
+
+Samalla ne varsinaiset antiikin tyyppit kuten Cicero eivät ole tuolla jostain syystä mukana.
+
+kuvat  Liberistä eri näköisiä kuin aikaisemmin. Varmaan siis ottaa mukaan laskuihin nyt dataa laajemmin. mm. negatiivisia paperinkulutusvuosia mukana!
+https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md
+
+
+sellainen olisi jossain vaiheessa muuten tosi mielenkiintoista jos testaisi sen "history" datan ajot siihen miltä samat jutut näyttää koko datalla. Erityisesti mielenkiintoista olisi nähdä miltä näyttää "Title count and paper consumption in Ireland, Scotland and the USA" kun katsotaan koko datalla.
+https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md
 
 topic (=subject topic) ja topic.publication molemmat nyt datassa. Mikä ero?
-
-# ----------------------------------------
-
-# summarize.R - check that this is included now for all relevant parts
-#print("Print summary tables of page count and volume count conversions")
-#estc::source("summarize.page.conversions.R") # Should be included now
 
 Publisher for/by kentän siivous ?
 publisher_forby <- polish_publisher_forby(df.orig$publisher)

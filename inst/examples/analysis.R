@@ -12,6 +12,8 @@ library(knitr)
 library(magrittr)
 
 # Set global parameters
+author <- "Leo Lahti"
+ntop <- 20
 timespan <- c(1460, 1830)
 datafile <- "estc.Rds"
 output.folder <- "output.tables/"

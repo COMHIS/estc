@@ -1,17 +1,17 @@
 Name	Count
-Total count: 	n=64871 (100% non-NA values)
-s.n.	35040
-[s.n.]	12935
-s.n.]	 5509
-s.n	 4302
-printed in the year	 2956
-Printed in the year	 1779
+Total count: 	n=64265 (100% non-NA values)
+s.n.	34671
+[s.n.]	12824
+s.n.]	 5454
+s.n	 4278
+printed in the year	 2934
+Printed in the year	 1770
 [s.n.	  297
-printed	  252
-Printed	  157
+printed	  250
+Printed	  156
 S.n.	   82
 [s.n]	   75
-S.n.]	   52
+S.n.]	   51
 s.n.,]	   37
 s.n]	   32
 reprinted in the year	   27
@@ -25,11 +25,10 @@ reprinted	   18
 Printed in the yeare	   17
 printed in	   14
 printed for J.B.	   14
-printed for G.H.	   14
-printed for A	   14
 printed by J.M.	   14
 s.l.	   13
 printed for T.B.	   13
+printed for G.H.	   13
 printed for A.B.	   12
 [Printed in the year	   11
 printed for T.P.	   11
@@ -43,11 +42,12 @@ Reprinted	    9
 printed, in the year	    9
 printed for T.S.	    9
 [S.n.]	    8
-printed for T.W.	    8
 printed for J.H.	    8
 printed for J.C.	    8
+printed for A	    8
 printed by T.M.	    8
 printed by A.M.	    8
+printed for T.W.	    7
 printed for T.H.	    7
 printed for J.T.	    7
 printed for J.G.	    7
@@ -96,7 +96,6 @@ printed for J.P.	    4
 Printed for J.H.	    4
 Printed for J.G.	    4
 printed for J.D.	    4
-Printed for J.B.	    4
 printed for G.L.	    4
 printed for A.N.	    4
 printed for A.M.	    4
@@ -120,6 +119,7 @@ printed for J. W.	    3
 Printed for J.L.	    3
 Printed for J.K.	    3
 Printed for J.D.	    3
+Printed for J.B.	    3
 Printed for J.A.	    3
 printed for G.T.	    3
 printed for G.R.	    3
@@ -168,13 +168,10 @@ Printed for T. B.	    2
 printed for J.W.	    2
 printed for J.K.	    2
 Printed for J. C.	    2
-printed for G. R.	    2
 printed for G.P.	    2
 printed for G.K.	    2
 Printed for G.H.	    2
 Printed for A.R.	    2
-Printed for A.I.	    2
-printed for A.I.	    2
 printed for A.G.	    2
 Printed for ...	    2
 printed by T. M.	    2
@@ -389,6 +386,7 @@ Printed for G.T.	    1
 printed for G.S.	    1
 printed for G. S.	    1
 Printed for G.R.	    1
+printed for G. R.	    1
 Printed for G.P.	    1
 printed for G.N.	    1
 printed for G. N.	    1
@@ -409,6 +407,8 @@ printed for A. R.	    1
 Printed for A.P.	    1
 Printed for, and sold by ...	    1
 Printed for A.I. in the year	    1
+Printed for A.I.	    1
+printed for A.I.	    1
 Printed for A.H. ..	    1
 Printed for A.H.	    1
 printed for A.F.	    1

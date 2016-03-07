@@ -1,6 +1,6 @@
 Name	Count
-Total count: 	n=8869 (100% non-NA values)
-[S.l.	1909
+Total count: 	n=8838 (100% non-NA values)
+[S.l.	1892
 [S.l.]	 386
 Berwick	 205
 n.p.	  80
@@ -8,8 +8,8 @@ Germantaun [Pa.]	  75
 Salop	  73
 Huddersfield	  56
 Middletown [Conn.]	  49
-Stockport	  48
-[Bedford	  48
+Stockport	  47
+[Bedford	  47
 Elizabeth-Town [N.J.]	  46
 Kidderminster	  45
 Bedford	  45
@@ -43,13 +43,13 @@ Aberdoniis	  18
 Spalding	  17
 [Rothomagi	  17
 Newport	  17
-Gottingen	  17
 Bruges	  17
 Antigua	  17
 Troy [N.Y.]	  16
 Tranquebar	  16
 Stourbridge	  16
 Huntingdon	  16
+Gottingen	  16
 Dudley	  16
 Blackfriars	  16
 Berwick upon Tweed	  16
@@ -83,13 +83,13 @@ Newfield [Conn.]	  12
 Frankfort [Ky.]	  12
 Fairhaven [Vt.]	  12
 Elizabeth-town [N.J.]	  12
-[Aylesbury?	  12
 Mullingar	  11
 Louth	  11
 Lambeth	  11
 Brecknock	  11
 Bostoniae	  11
 [Bedford]	  11
+[Aylesbury?	  11
 Andreapoli	  11
 Woverhampton	  10
 Wiscasset [Me.]	  10
@@ -151,7 +151,6 @@ Rhydychen	   7
 [Pondichery	   7
 [Parisijs	   7
 Parisijs	   7
-[Nantes	   7
 [Hemel Hempstead?	   7
 Helston	   7
 Hambourg	   7
@@ -178,6 +177,7 @@ Stonington-Port [Conn.]	   6
 Retford	   6
 Printed at Roan	   6
 [Parisius	   6
+[Nantes	   6
 [Morpeth?	   6
 Mentz and Frankfort	   6
 Lymington	   6
@@ -197,7 +197,6 @@ Glascow	   6
 Antuerpiae	   6
 Waymouth	   5
 [Warren]	   5
-Totnes	   5
 [Strood?]	   5
 [S.n.	   5
 [Scarborough?	   5
@@ -238,7 +237,6 @@ Clerkenwell	   5
 Chesnut-Hill [Pa.]	   5
 Charlotte Town, island of Saint John	   5
 [Burslem]	   5
-[Büdingen]	   5
 Brighthelmstone	   5
 Bridlington	   5
 Bradforth	   5
@@ -250,6 +248,7 @@ Uttoxeter	   4
 [Trowbridge]	   4
 [Trefriw]	   4
 Trangambariæ	   4
+Totnes	   4
 [Swansea]	   4
 Strawberry-Hill	   4
 St. John [N.B.]	   4
@@ -293,14 +292,13 @@ Fayetteville [N.C.]	   4
 [Falmouth	   4
 [Fairhaven, Vt.]	   4
 Ephratae [Pa.]	   4
-En tē Kantabrigia	   4
 Duaci	   4
 Delphis	   4
 Cranbrook	   4
 [Cheltenham	   4
-[Cardiff]	   4
 Canaan [N.Y.]	   4
 [Cadiz	   4
+[Büdingen]	   4
 Brookville	   4
 Bridport	   4
 [Basseterre?	   4
@@ -359,7 +357,6 @@ Princeton [N.J.]	   3
 [Portsea]	   3
 Pittsburgh	   3
 Philada.	   3
-[Parma	   3
 Parisius	   3
 Oxfort	   3
 Novo-Portu	   3
@@ -434,10 +431,10 @@ Fayetteville, N.C.	   3
 [Epsom?	   3
 Ephratae [Penn.]	   3
 Ephrata	   3
+En tē Kantabrigia	   3
 [Enprynted at Westmynster	   3
 En Kantabrigia	   3
 [Ely	   3
-[Elizabeth-Town, N.J.]	   3
 [Elizabethtown, N.J.]	   3
 Edinhurgh [sic]	   3
 Edinburh [sic]	   3
@@ -458,6 +455,7 @@ Cheshunt	   3
 Charlotte Town, Island of Saint John	   3
 [Charlestown]	   3
 Carrick	   3
+[Cardiff]	   3
 [Cape Town	   3
 Cantabridgiæ	   3
 [Caernarvon?	   3
@@ -577,7 +575,6 @@ Published at Newport	   2
 Prynted in Southwarke	   2
 [Prynted in Southwarke	   2
 Prynted at Cantorbury	   2
-Printiedig yn-Ghaer Ludd	   2
 Printed at Tornay	   2
 Printed at Sainct-Andrewes	   2
 Printed at Rohan	   2
@@ -606,6 +603,7 @@ Peairt	   2
 Patingham	   2
 Parys	   2
 [Parrhisiis	   2
+[Parma	   2
 [Parisus	   2
 [[Parisius]	   2
 [Parisii	   2
@@ -657,7 +655,6 @@ Londres [i.e. Orléans?]	   2
 Londres [i.e. Besanc̜on]	   2
 Londons [sic]	   2
 [Londonii	   2
-London [i.e. Karlsruhe]	   2
 Londino	   2
 Londini [i.e. Hanau]	   2
 Londin	   2
@@ -703,7 +700,6 @@ Hitchin	   2
 Hartfordiae	   2
 [Harrogate?	   2
 Harrisburgh	   2
-[Harg]	   2
 Harborough	   2
 Hambourgh	   2
 Hallowell, (District of Maine)	   2
@@ -741,6 +737,7 @@ Ephrata in Pensylvanien	   2
 [Enniskillen]	   2
 En la Havana	   2
 [Emprynted at Westmynster	   2
+[Elizabeth-Town, N.J.]	   2
 [Elizabethtown, N.J.?	   2
 Elizabeth-town, (New-Jersey)	   2
 Edunburgh	   2
@@ -1210,6 +1207,7 @@ Prnted [sic] at Rutland, (Vermont.)	   1
 Printiedig yn Rhydychen	   1
 Printiedig yn Lundain	   1
 Printiedig yn Llyndain	   1
+Printiedig yn-Ghaer Ludd	   1
 [Printet at Stutgart	   1
 [Printed in Sowthwarke	   1
 Printed in Newton, New-Jersey	   1
@@ -1628,6 +1626,7 @@ Londonii	   1
 London [i.e. Stoke Park?]	   1
 London[iensis?]	   1
 London [i.e. Madeley]	   1
+London [i.e. Karlsruhe]	   1
 London [i.e. Görlitz]	   1
 London [i.e. Blackwell Grange]	   1
 London [i.e. Berwick upon Tweed?]	   1
@@ -1973,6 +1972,7 @@ Heidelbergæ	   1
 [Harrogate	   1
 Härrisburg, [Pa.]	   1
 [Harrisburgh]	   1
+[Harg]	   1
 Harford	   1
 [Harburg	   1
 Hanoverensi [N.H.]	   1

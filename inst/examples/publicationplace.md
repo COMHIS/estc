@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-03-05"
+date: "2016-03-08"
 output: markdown_document
 ---
 
@@ -18,7 +18,7 @@ output: markdown_document
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 473022 documents (98%). There are 476 unique publication places. Overall 86.1% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 468175 documents (98%). There are 476 unique publication places. Overall 86% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -27,9 +27,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name        |      n|   fraction|
 |:-----------|------:|----------:|
-|England     | 365151| 75.7931640|
-|Scotland    |  39393|  8.1766724|
-|Ireland     |  28493|  5.9141961|
-|USA         |  19813|  4.1125177|
-|France      |   3073|  0.6378523|
-|Netherlands |   1943|  0.4033020|
+|England     | 360872| 75.6708472|
+|Scotland    |  39253|  8.2309178|
+|Ireland     |  28305|  5.9352439|
+|USA         |  19649|  4.1201769|
+|France      |   3059|  0.6414383|
+|Netherlands |   1927|  0.4040705|
