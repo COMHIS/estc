@@ -65,7 +65,7 @@ df.preprocessed <- mutate(df.preprocessed, paper.consumption.km2 = width * heigh
 #print("Enrich author info")
 # Life years + author_unique field
 library(estc)
-life.info <- estc::author_info_table()
+life.info <- read.csv(system.file("extdata/author_info.csv", package = "estc"), stringsAsFactors = FALSE, sep = "\t")
 ambiguous.authors <- estc::ambiguous_authors_table()
 ## Combine synonymous authors; augment author life years where missing etc.
 df.preprocessed <- augment_author(df.preprocessed, life.info, ambiguous.authors)

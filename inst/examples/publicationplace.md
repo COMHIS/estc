@@ -18,7 +18,7 @@ output: markdown_document
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 468175 documents (98%). There are 476 unique publication places. Overall 86% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 473035 documents (98%). There are 476 unique publication places. Overall 86.1% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -27,9 +27,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name        |      n|   fraction|
 |:-----------|------:|----------:|
-|England     | 360872| 75.6708472|
-|Scotland    |  39253|  8.2309178|
-|Ireland     |  28305|  5.9352439|
-|USA         |  19649|  4.1201769|
-|France      |   3059|  0.6414383|
-|Netherlands |   1927|  0.4040705|
+|England     | 365163| 75.7932950|
+|Scotland    |  39393|  8.1764178|
+|Ireland     |  28493|  5.9140120|
+|USA         |  19812|  4.1121821|
+|France      |   3073|  0.6378324|
+|Netherlands |   1943|  0.4032894|

@@ -1,105 +1,105 @@
 name	count
-Philadelphia PA	10158
-New York NY	4662
-Birmingham	1268
+Philadelphia PA	10271
+New York NY	4692
+Birmingham	1275
 Manchester	1215
-Bath	1102
-Boston MA	1024
-New London CT	1010
-Hartford CT	963
-Providence RI	959
-Salisbury	843
-Exeter	835
-Belfast	797
-New Haven MA	738
-Charleston SC	730
-Cork	715
-Newport RI	649
+Bath	1113
+Boston MA	1031
+New London CT	1011
+Hartford CT	965
+Providence RI	963
+Salisbury	847
+Exeter	839
+Belfast	799
+New Haven MA	740
+Charleston SC	731
+Cork	717
+Newport RI	652
 Leeds	634
-Shrewsbury	595
-Liverpool	539
-Nottingham	527
-Quebec	501
-Coventry	500
-Canterbury	495
+Shrewsbury	601
+Liverpool	543
+Nottingham	533
+Quebec	505
+Coventry	504
+Canterbury	496
 Annapolis Md	495
 Portsmouth NH	484
-Worcester	472
-Tunbridge Wells	448
+Worcester	473
+Tunbridge Wells	449
 Worcester MA	446
-Halifax	439
-Williamsburg VA	406
+Halifax	445
+Williamsburg VA	409
 Newburyport MA	389
-Northampton	383
-Wilmington De	376
+Northampton	385
+Wilmington De	377
 Chester	373
-Albany NY	354
+Albany NY	356
 St Omer	353
-Lancaster PA	352
-Richmond	347
-United States	334
-Ipswich	328
-The Hague	322
+Lancaster PA	353
+Richmond	349
+United States	336
+Ipswich	329
+The Hague	324
 Cambridge MA	318
 Norwich CT	316
-Gloucester	312
+Gloucester	315
 Salem MA	309
-Hull	306
-Maidstone	305
-Germantown PA	297
+Maidstone	307
+Hull	307
+Germantown PA	298
 Warrington	289
+Eton	289
 Calcutta	289
-Eton	288
-Antwerp	279
+Antwerp	280
 Perth	274
 Exeter NH	274
-Trenton	253
-Carmarthen	247
-Litchfield CT	245
+Trenton	254
+Carmarthen	248
+Litchfield CT	247
 Falkirk	234
+Rochester	223
 Douai	222
-Rochester	221
 Reading	216
 Sheffield	209
-Paisley	199
+Paisley	200
 Rouen	191
 Durham	179
-Leicester	177
-Warwick	167
+Leicester	178
+Warwick	168
 Derby	162
 Bury St Edmunds	161
 Bennington Vt	161
 Plymouth	159
-Stirling	155
-Sherborne	155
-Savannah Ga	151
+Stirling	158
+Sherborne	156
+Savannah Ga	152
 Burlington NJ	149
-Darlington	146
-New Bern NC	145
+Darlington	147
+New Bern NC	146
 Lincoln	145
-Kendal	143
-Montreal	142
+Kendal	144
+Montreal	143
 Dundee	138
-Wolverhampton	135
+Wolverhampton	137
 Downpatrick	135
+Watertown MA	133
 Windsor Vt	132
-Watertown MA	132
+Tewkesbury	132
 Whitehaven	131
-Tewkesbury	131
 Preston	130
 Lewes	128
+Newark	123
+Leipzig	123
 Southampton	122
-Newark	122
-Leipzig	122
-Rotterdam	121
-Portsmouth	119
+Rotterdam	122
+Portsmouth	120
 Colchester	119
 Limerick	118
-Carlisle	116
-Hamburg	115
+Carlisle	117
+Hamburg	116
+Woodbridge NJ	115
 Winchester	114
 Basel	114
-Woodbridge NJ	113
 Leiden	112
 Newry	107
 Kings Lynn	106
@@ -109,35 +109,35 @@ Windsor	104
 Halifax NS	104
 Taunton	101
 Yarmouth	100
-Stamford	98
+Stamford	99
 Ephrata PA	95
 Richmond VA	93
+Middelburg	93
 Madras India	92
 Geneva	92
-Middelburg	90
 Kingston Jamaica	90
 Mass	87
 Gainsborough	86
 Waterford	85
+Dumfries	85
 Portland Me	83
-Dumfries	83
 Ludlow	81
 Berlin	81
 Twickenham	78
 Poughkeepsie NY	78
-Lexington Ky	77
+Lexington Ky	78
 Chelmsford	77
 Banbury	77
 Bury	73
+Aldershot	73
+Margate	72
 Concord NH	72
-Margate	71
 Rutland Vt	70
 New Brunswick NJ	70
 Springfield MA	66
 Frankfurt	66
 Doncaster	66
 Brentford	66
-Aldershot	66
 Wrexham	65
 Wakefield	63
 Danbury CT	63
@@ -145,17 +145,17 @@ Sunderland	62
 Leominster MA	62
 Alnwick	62
 Hudson NY	61
+Brussels	61
 Kingston	60
 Cirencester	60
-Brussels	60
+Peterborough	58
 New Orleans La	58
 Bridgetown Barbados	58
 Ayr	58
-Peterborough	57
 Penrith	57
 Kilkenny	57
+Stafford	55
 Warren RI	54
-Stafford	54
 Dover NH	54
 Augusta Ga	53
 Stockton	52
@@ -173,17 +173,17 @@ Hanover NH	47
 Windham CT	46
 Charlestown MA	46
 Wesel	45
+Roseau Dominica	45
 Northampton MA	45
 Edenton NC	45
 Wisbech	44
 Dunbar	44
 Liège	43
-Roseau Dominica	42
 AlexandriaVA	42
 Walpole NH	41
 Reading PA	41
+Port-au-Prince	41
 Carlisle PA	41
-Port-au-Prince	40
 Macclesfield	40
 Bradford	40
 Montrose	39
@@ -195,33 +195,33 @@ Vienna	36
 Emden	36
 Westminster Vt	35
 Chesterfield	35
+Blackburn	35
 Lyon	34
-Blackburn	34
 Whitby	33
 Strasbourg	33
 Lansingburgh NY	33
+Kelso	33
 St Johns Antiqua	32
 Knoxville Tn	32
-Kelso	32
+Evesham	32
 Brookfield MA	32
 Niagara	31
+Louvain	31
 Lausanne	31
-Evesham	31
-Louvain	30
 Gosport	30
+Charlottetown Pe	30
 Utrecht	29
 Keene NH	29
+Copenhagen	29
 Londonderry	28
 Dedham MA	28
-Copenhagen	28
-Charlottetown Pe	28
 America	28
 Wigan	27
-St Andrews	26
+St Andrews	27
+Knaresborough	26
 Haverhill MA	26
 Dover	26
 North Shields	25
-Knaresborough	25
 Delft	25
 Bombay	25
 St Petersburg	24

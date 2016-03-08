@@ -1,21 +1,21 @@
 original	polished	Count
-Total count: 	n=46193 (50% non-NA values)	Total count: 
-Cicero, Marcus Tullius.	Cicero, Marcus Tullius	405
-Horace.	Horace	309
-Virgil.	Virgil	283
+Total count: 	n=46486 (50% non-NA values)	Total count: 
+Cicero, Marcus Tullius.	Cicero, Marcus Tullius	406
+Horace.	Horace	322
+Virgil.	Virgil	285
 Lady.	Lady	238
 Homer.	Homer	222
 Rider, Cardanus.	Rider, Cardanus	161
 Fenning, Daniel.	Fenning, Daniel	161
-Lyttelton, George Lyttelton	Lyttelton, George	137
-Xenophon.	Xenophon	125
-Lorrain, P.	Lorrain, P	120
+Lyttelton, George Lyttelton	Lyttelton, George	139
+Lorrain, P.	Lorrain, P	129
+Xenophon.	Xenophon	126
+Johnson, R.	Johnson, R	113
 Bailey, N.	Bailey, N	112
-Johnson, R.	Johnson, R	111
 Younge, Richard.	Younge, Richard	109
-Wright, S.	Wright, S	104
+Wright, S.	Wright, S	107
+Churchill, C.	Churchill, C	105
 Josephus, Flavius.	Josephus, Flavius	104
-Churchill, C.	Churchill, C	100
 Gentleman.	Gentleman	95
 Caesar, Julius.	Caesar, Julius	94
 Nepos, Cornelius.	Nepos, Cornelius	94
@@ -23,11 +23,11 @@ Woodhouse, John.	Woodhouse, John	92
 Swallow, John.	Swallow, John	91
 Juvenal.	Juvenal	91
 Layman.	Layman	90
+Kenrick, W.	Kenrick, W	90
 Fly.	Fly	88
-Kenrick, W.	Kenrick, W	88
 Justinus, Marcus Junianus.	Justinus, Marcus Junianus	87
 Dove, Jonathan.	Dove, Jonathan	85
-Country gentleman.	Gentleman	83
+Country gentleman.	Gentleman	84
 Massie, J.	Massie, J	83
 Citizen.	Citizen	82
 Dade, William.	Dade, William	82
@@ -35,31 +35,32 @@ King, Thomas.	King, Thomas	81
 Fairfax, Thomas Fairfax	Fairfax, Thomas	80
 Beverley, Thomas.	Beverley, Thomas	79
 Bullord, John.	Bullord, John	76
+Erskine, Thomas Erskine	Erskine, Thomas	75
 Perkins, F.	Perkins, F	73
 Ford, Emanuel.	Ford, Emanuel	73
 Erra Pater.	Erra Pater	72
 Trigge, Thomas.	Trigge, Thomas	72
 Chetwood, W. R.	Chetwood, W. R	70
 Perrin, John.	Perrin, John	66
+England and Wales.	England And Wales	66
 Demosthenes.	Demosthenes	66
-England and Wales.	England And Wales	65
-Hervey, John Hervey	Hervey, John	64
-Sophocles.	Sophocles	58
+Hervey, John Hervey	Hervey, John	66
+Sophocles.	Sophocles	59
 Skinner, R.	Skinner, R	58
-Erskine, Thomas Erskine	Erskine, Thomas	57
 Wakely, Andrew.	Wakely, Andrew	54
 Brookes, R.	Brookes, R	53
 Derham, W.	Derham, W	53
+Fisher, A.	Fisher, A	51
 Grosvenor, B.	Grosvenor, B	51
 Hamilton, James George Hamilton	Hamilton, James George	51
-Fisher, A.	Fisher, A	50
+Farmer.	Farmer	51
 Brissot de Warville, J.-P.	Brissot De Warville, J.-p	50
-Farmer.	Farmer	50
+Lewis, M. G.	Lewis, M. G	50
 Plato.	Plato	49
 Mauger, Claude.	Mauger, Claude	48
+Aristotle.	Aristotle	48
 Tacitus, Cornelius.	Tacitus, Cornelius	48
 Cross, J. C.	Cross, J. C	47
-Aristotle.	Aristotle	47
 Young lady.	Young Lady	47
 Amhurst, N.	Amhurst, N	46
 Turner, R.	Turner, R	45
@@ -68,36 +69,35 @@ Dilworth, W. H.	Dilworth, W. H	45
 Livy.	Livy	45
 Jones, D.	Jones, D	45
 Tissot, S. A. D.	Tissot, S. A. D	45
+Holles, Denzil Holles	Holles, Denzil	44
 Lucretius Carus, Titus.	Lucretius Carus, Titus	43
-Holles, Denzil Holles	Holles, Denzil	43
 Gentleman of Oxford.	Gentleman Of Oxford	43
 Boyse, J.	Boyse, J	43
 Stubbes, Phillip.	Stubbes, Phillip	43
-Lewis, M. G.	Lewis, M. G	42
 Mears, W.	Mears, W	42
 Douglas of Douglas, Archibald Douglas	Douglas Of Douglas, Archibald	41
+Barrington, John Shute Barrington	Barrington, John Shute	40
 Lupton, Thomas.	Lupton, Thomas	40
+Isocrates.	Isocrates	39
+Florus, Lucius Annaeus.	Florus, Lucius Annaeus	39
+Pulteney, William.	Pulteney, William	38
 Robertson, J.	Robertson, J	38
 Clergyman.	Clergyman	38
-Florus, Lucius Annaeus.	Florus, Lucius Annaeus	38
 La Calprenède, Gaultier de Coste	Calprenède, Gaultier De Coste	38
+Anson, George Anson	Anson, George	37
 Owen, W.	Owen, W	37
-Barrington, John Shute Barrington	Barrington, John Shute	37
-Isocrates.	Isocrates	37
+De Coetlogon, C. E.	De Coetlogon, C. E	37
 Shepherd, R.	Shepherd, R	36
-Anson, George Anson	Anson, George	36
-De Coetlogon, C. E.	De Coetlogon, C. E	36
 Curtius Rufus, Quintus.	Curtius Rufus, Quintus	36
 Cheesman, T.	Cheesman, T	36
 Grant, Peter Leslie.	Grant, Peter Leslie	36
 Freeman.	Freeman	35
+Herbert of Cherbury, Edward Herbert	Herbert Of Cherbury, Edward	35
 Friend.	Friend	35
 Minister.	Minister	35
 Strange, E.	Strange, E	35
 Dutens, L.	Dutens, L	35
 Young gentleman.	Young Gentleman	34
-Pulteney, William.	Pulteney, William	34
-Herbert of Cherbury, Edward Herbert	Herbert Of Cherbury, Edward	34
 Holdsworth, E.	Holdsworth, E	34
 Bold, S.	Bold, S	34
 Citizen of London.	Citizen Of London	34
@@ -110,20 +110,20 @@ Pulle, John.	Pulle, John	33
 Sherlock, R.	Sherlock, R	32
 Rowning, J.	Rowning, J	32
 Mather, W.	Mather, W	31
+Somers, John Somers	Somers, John	31
 Nott, Job.	Nott, Job	31
-Somers, John Somers	Somers, John	30
+O'Bryen, D.	O'bryen, D	31
 Bicheno, J.	Bicheno, J	30
 Ball, William.	Ball, William	30
 Clowes, J.	Clowes, J	30
 Bellamy, D.	Bellamy, D	30
 Burdon, William.	Burdon, William	29
+Gordon, Alexander Gordon	Gordon, Alexander	29
 Fleetwood, John.	Fleetwood, John	29
 Person of honour.	Person Of Honour	29
 Bickerstaff, Isaac.	Bickerstaff, Isaac	28
-Gordon, Alexander Gordon	Gordon, Alexander	28
 Bohun, William.	Bohun, William	28
 Brydone, P.	Brydone, P	28
-O'Bryen, D.	O'bryen, D	28
 Montagu, R.	Montagu, R	28
 Merchant.	Merchant	27
 Hamilton, James Hamilton	Hamilton, James	27
@@ -133,20 +133,22 @@ La Rochefoucauld, François	Rochefoucauld, François	26
 Fowle, Thomas.	Fowle, Thomas	26
 James, R.	James, R	26
 Gibson, W.	Gibson, W	26
+Stanhope, Charles Stanhope	Stanhope, Charles	26
 Officer.	Officer	26
 Turner, W.	Turner, W	26
 Moulton, Thomas.	Moulton, Thomas	26
 Gentleman in town.	Gentleman In Town	25
 Gallen, Thomas.	Gallen, Thomas	25
-Stanhope, Charles Stanhope	Stanhope, Charles	25
 Clapham, Henoch.	Clapham, Henoch	25
 Walker, A.	Walker, A	24
 Theocritus.	Theocritus	24
 Muckarsie, John.	Muckarsie, John	23
 Plain Man.	Plain Man	23
 Douglas, Archibald James Edward Douglas	Douglas, Archibald James Edward	23
+De Britaine, William.	De Britaine, William	23
 Publicola.	Publicola	23
 Bartlet, J.	Bartlet, J	23
+Hunter, A.	Hunter, A	23
 Hoppus, E.	Hoppus, E	23
 Fitz-Adam, Adam.	Fitz-adam, Adam	23
 Garretson, J.	Garretson, J	23
@@ -154,11 +156,11 @@ Ferne, H.	Ferne, H	23
 Hart, J.	Hart, J	22
 Thompson, J.	Thompson, J	22
 Spilsbury, Francis.	Spilsbury, Francis	22
-De Britaine, William.	De Britaine, William	22
+La Motte, Jeanne de Saint-Rémy de Valois	Motte, Jeanne De Saint-rémy De Valois	22
 Withals, John.	Withals, John	22
 Smith, E.	Smith, E	22
 D'Anvers, Caleb.	D'anvers, Caleb	22
-Hunter, A.	Hunter, A	22
+Nugent, Robert Nugent	Nugent, Robert	22
 Hooke, N.	Hooke, N	22
 Vallance, James.	Vallance, James	22
 Wimbledon, Thomas.	Wimbledon, Thomas	22
@@ -166,32 +168,32 @@ Country clergyman.	Clergyman	22
 Exshaw, J.	Exshaw, J	22
 Gailhard, J.	Gailhard, J	22
 Lanfiere, Thomas.	Lanfiere, Thomas	22
+Skerret, R.	Skerret, R	21
 Moxon, Elizabeth.	Moxon, Elizabeth	21
 Stevens, J.	Stevens, J	21
-La Motte, Jeanne de Saint-Rémy de Valois	Motte, Jeanne De Saint-rémy De Valois	21
+Irishman.	Irishman	21
 Brutus.	Brutus	21
-Nugent, Robert Nugent	Nugent, Robert	21
 Proud, J.	Proud, J	21
 Sprange, J.	Sprange, J	21
+Holwell, J. Z.	Holwell, J. Z	21
 Wanostrocht, N.	Wanostrocht, N	21
 Steel, David.	Steel, David	21
 Butler, Isaac.	Butler, Isaac	21
-Skerret, R.	Skerret, R	20
+Cowper, William Cowper	Cowper, William	20
 Peyton, V. J.	Peyton, V. J	20
 Chidley, Samuel.	Chidley, Samuel	20
 Craghead, Robert.	Craghead, Robert	20
-Irishman.	Irishman	20
 Merry Andrew.	Merry Andrew	20
 Axford, John.	Axford, John	20
+Wharton, Philip Wharton	Wharton, Philip	20
 Hudson, Peter.	Hudson, Peter	20
 Briton.	Briton	20
 Pindar.	Pindar	20
-Holwell, J. Z.	Holwell, J. Z	20
 Hitchens, James.	Hitchens, James	20
+Fitzwilliam, William Wentworth Fitzwilliam	Fitzwilliam, William Wentworth	20
 Broughton, Richard.	Broughton, Richard	20
 Brayne, John.	Brayne, John	20
 Sheppard, S.	Sheppard, S	20
-Cowper, William Cowper	Cowper, William	19
 Perry, S.	Perry, S	19
 Sibly, E.	Sibly, E	19
 Arbuthnott, John Arbuthnott	Arbuthnott, John	19
@@ -199,10 +201,11 @@ Dyke, Daniel, d. 1614.	Dyke, Daniel D.	19
 Civis.	Civis	19
 Veritas.	Veritas	19
 Rutherforth, T.	Rutherforth, T	19
-Wharton, Philip Wharton	Wharton, Philip	19
+Holman, J. G.	Holman, J. G	19
 Cockburn, W.	Cockburn, W	19
 King, Peter King	King, Peter	19
 Boyle, P.	Boyle, P	19
+Stern, Philip.	Stern, Philip	19
 Roussat, Richard.	Roussat, Richard	19
 Crimsal, Richard.	Crimsal, Richard	19
 Stanbridge, John.	Stanbridge, John	19
@@ -214,13 +217,13 @@ Salmon, N.	Salmon, N	18
 Bordley, J. B.	Bordley, J. B	18
 Clare, M.	Clare, M	18
 Gearing, William.	Gearing, William	18
+Haym, Nicola Francesco.	Haym, Nicola Francesco	18
 Riley, George.	Riley, George	18
 Merchant of London.	Merchant Of London	18
 Cotton, Clement.	Cotton, Clement	18
 Nougaret, P. J. B.	Nougaret, P. J. B	18
 Wright, J.	Wright, J	18
 True Briton.	True Briton	18
-Fitzwilliam, William Wentworth Fitzwilliam	Fitzwilliam, William Wentworth	18
 Varenne, P.	Varenne, P	18
 Carter, W.	Carter, W	18
 Heber, Reginald.	Heber, Reginald	18
@@ -229,7 +232,6 @@ Nixon, Anthony.	Nixon, Anthony	18
 Kitchin, John.	Kitchin, John	18
 Daffy, Anthony.	Daffy, Anthony	17
 Home, Alexander Home	Home, Alexander	17
-Haym, Nicola Francesco.	Haym, Nicola Francesco	17
 Monipennie, John.	Monipennie, John	17
 American.	American	17
 Decalves, Alonso.	Decalves, Alonso	17
@@ -244,7 +246,7 @@ Huguenin Du Mitand, Louis.	Huguenin Du Mitand, Louis	17
 Bird, James Barry.	Bird, James Barry	17
 Themylthorpe, Nicholas.	Themylthorpe, Nicholas	17
 Thomas, Thomas	Thomas, 	17
-Stern, Philip.	Stern, Philip	17
+La Touche, James Digges	Touche, James Digges	17
 Penkethman, John.	Penkethman, John	17
 Marsin, M.	Marsin, M	17
 Robinson, H.	Robinson, H	17
@@ -260,22 +262,23 @@ Coats, John.	Coats, John	16
 Welton, R.	Welton, R	16
 Swan, Abraham.	Swan, Abraham	16
 Deans, Archibald.	Deans, Archibald	16
-Holman, J. G.	Holman, J. G	16
 Gentleman in London.	Gentleman In London	16
+Jordan, J. S.	Jordan, J. S	16
 Hodges, James.	Hodges, James	16
 Withy, N.	Withy, N	16
 Moir, J.	Moir, J	16
 Dawes, M.	Dawes, M	16
+Lyttelton, Thomas Lyttelton	Lyttelton, Thomas	16
 Ridgway, James.	Ridgway, James	16
 Minucius Felix, Marcus.	Minucius Felix, Marcus	16
 Hibernicus.	Hibernicus	16
 Warren, Erasmus.	Warren, Erasmus	16
 Cawthorne, Joseph.	Cawthorne, Joseph	16
-La Touche, James Digges	Touche, James Digges	16
 Macleod, Roderick.	Macleod, Roderick	16
 Galen.	Galen	16
 Greenham, Richard.	Greenham, Richard	16
 Young, E.	Young, E	15
+Cato.	Cato	15
 Byfield, T.	Byfield, T	15
 Whyte, S.	Whyte, S	15
 Hampden.	Hampden	15
@@ -290,23 +293,24 @@ Douglas, Archibald Douglas	Douglas, Archibald	15
 Taylor, C.	Taylor, C	15
 Goodman, T.	Goodman, T	15
 Thumb, Tom.	Thumb, Tom	15
-Jordan, J. S.	Jordan, J. S	15
+La Rochefoucauld, François	Rochefoucauld, François	15
+Liveryman.	Liveryman	15
 Lonsdale, Mark.	Lonsdale, Mark	15
 Crokatt, Gilbert.	Crokatt, Gilbert	15
+Gregory, G.	Gregory, G	15
 Fothergill, A.	Fothergill, A	15
 Potter, R.	Potter, R	15
+Walpole, Horatio Walpole	Walpole, Horatio	15
 Craven, Elizabeth Craven	Craven, Elizabeth	15
 Neve, Richard.	Neve, Richard	15
 Mackenzie, Anna Maria.	Mackenzie, Anna Maria	15
 Thucydides.	Thucydides	15
 Ker, Robert.	Ker, Robert	15
-Lyttelton, Thomas Lyttelton	Lyttelton, Thomas	15
 Spottiswoode, John.	Spottiswoode, John	15
 Phillips, H.	Phillips, H	15
 Gilden, G.	Gilden, G	15
 Spittlehouse, John.	Spittlehouse, John	15
 Bamber, T.	Bamber, T	15
-Cato.	Cato	14
 Rogissart, Alexandre de.	Rogissart, Alexandre De	14
 Bromfield, M.	Bromfield, M	14
 Delap, J.	Delap, J	14
@@ -317,22 +321,23 @@ Poulson, James.	Poulson, James	14
 Cato, Dionysius.	Cato, Dionysius	14
 Guillemain de Saint-Victor, Louis.	Guillemain De Saint-victor, Louis	14
 Workman, Benjamin.	Workman, Benjamin	14
-La Rochefoucauld, François	Rochefoucauld, François	14
 Sobersides, Solomon.	Sobersides, Solomon	14
 Barry, James.	Barry, James	14
 Gentleman of Cambridge.	Gentleman Of Cambridge	14
-Liveryman.	Liveryman	14
 Watt, Thomas.	Watt, Thomas	14
+Roberts, W. H.	Roberts, W. H	14
 Gills, Thomas.	Gills, Thomas	14
 Schomberg, R.	Schomberg, R	14
-Gregory, G.	Gregory, G	14
 Herodian.	Herodian	14
+Cowley, J.	Cowley, J	14
 Catullus, Gaius Valerius.	Catullus, Gaius Valerius	14
 Tindal, N.	Tindal, N	14
 Arbuckle, James.	Arbuckle, James	14
 Stuart, C.	Stuart, C	14
+Edwards, J.	Edwards, J	14
 Beawes, Wyndham.	Beawes, Wyndham	14
 Mortimer, J.	Mortimer, J	14
+Knight, T.	Knight, T	14
 Forbes, James Forbes	Forbes, James	14
 Taylor, J.	Taylor, J	14
 Castaing, John.	Castaing, John	14
@@ -349,6 +354,7 @@ Greenway, R.	Greenway, R	13
 La Bruyère, Jean de.	Bruyère, Jean De	13
 Marlow, Isaac.	Marlow, Isaac	13
 Randall, Joseph.	Randall, Joseph	13
+La Mottraye, Aubry de	Mottraye, Aubry De	13
 West, Moses.	West, Moses	13
 Beaven, Thomas.	Beaven, Thomas	13
 Sprint, John.	Sprint, John	13
@@ -357,13 +363,10 @@ Bowman, Thomas.	Bowman, Thomas	13
 Watkinson, Edward.	Watkinson, Edward	13
 Bourn, Benjamin.	Bourn, Benjamin	13
 Waldron, F. G.	Waldron, F. G	13
-Roberts, W. H.	Roberts, W. H	13
+Clement, Simon.	Clement, Simon	13
 Herodotus.	Herodotus	13
-Cowley, J.	Cowley, J	13
-Walpole, Horatio Walpole	Walpole, Horatio	13
 Clark, Hugh.	Clark, Hugh	13
 Cradock, Z.	Cradock, Z	13
-Edwards, J.	Edwards, J	13
 Powell, W. S.	Powell, W. S	13
 La Fayette	Fayette	13
 Clutterbuck, J.	Clutterbuck, J	13
@@ -372,14 +375,17 @@ Gaya, Louis de.	Gaya, Louis De	13
 Donovan, E.	Donovan, E	13
 Ramsden, J.	Ramsden, J	13
 Livigni, Filippo.	Livigni, Filippo	13
+Bull, John.	Bull, John	13
 Bertrand-de-Molleville, Ant.-Fr.	Bertrand-de-molleville, Ant.-fr	13
 Cadell, T.	Cadell, T	13
+Northbrooke, John.	Northbrooke, John	13
 Fenton, Edward.	Fenton, Edward	13
 Milles, Tho.	Milles, Tho	13
 Worship, William.	Worship, William	13
 Pigot, Francis.	Pigot, Francis	13
 Hobson, Paul.	Hobson, Paul	13
 Brough, W.	Brough, W	13
+Whitaker, Edward.	Whitaker, Edward	13
 Lightbody, James.	Lightbody, James	12
 Symmons, Edward.	Symmons, Edward	12
 Knight, Titus.	Knight, Titus	12
@@ -389,8 +395,8 @@ Cathcart, Charles Schaw Cathcart	Cathcart, Charles Schaw	12
 Sutherland, William.	Sutherland, William	12
 Taylor, John.	Taylor, John	12
 Agricola.	Agricola	12
-La Mottraye, Aubry de	Mottraye, Aubry De	12
 Free citizen.	Free Citizen	12
+Sailor.	Sailor	12
 Haggar, Henry.	Haggar, Henry	12
 Philadelphus.	Philadelphus	12
 Mitchill, Samuel L.	Mitchill, Samuel L	12
@@ -410,17 +416,15 @@ Festeau, Paul.	Festeau, Paul	12
 Stephens, J.	Stephens, J	12
 Hewitt, John.	Hewitt, John	12
 Triebner, Christopher Frederic.	Triebner, Christopher Frederic	12
-Knight, T.	Knight, T	12
 Bentley, R.	Bentley, R	12
 Shaw, Ferdinando.	Shaw, Ferdinando	12
 Bullingbrooke, Edward.	Bullingbrooke, Edward	12
 Bettesworth, John.	Bettesworth, John	12
 Guarna, Andrea.	Guarna, Andrea	12
-Bull, John.	Bull, John	12
+Quid, Oliver.	Quid, Oliver	12
 Aiton, John.	Aiton, John	12
 Symonds, Joseph.	Symonds, Joseph	12
 Crosfeild, Robert.	Crosfeild, Robert	12
-Northbrooke, John.	Northbrooke, John	12
 Ovidius Naso, Publius.	Ovidius Naso, Publius	12
 Church of England.	Church Of England	12
 Rivers, Peregrine.	Rivers, Peregrine	12
@@ -428,11 +432,11 @@ Julius, Alexander.	Julius, Alexander	12
 Stafford, Anthony.	Stafford, Anthony	12
 Phelpes, Charles.	Phelpes, Charles	12
 Tomlinson, William.	Tomlinson, William	12
-Whitaker, Edward.	Whitaker, Edward	12
 Adis, Henry.	Adis, Henry	12
 Bradshaw, Ellis.	Bradshaw, Ellis	12
 Altieri, F.	Altieri, F	11
 Smyth, J. H.	Smyth, J. H	11
+Wharton, Thomas Wharton	Wharton, Thomas	11
 Chicken, Edward.	Chicken, Edward	11
 Bottarelli, Ferdinando.	Bottarelli, Ferdinando	11
 Packwood, George.	Packwood, George	11
@@ -447,12 +451,13 @@ Weatherwise, Abraham.	Weatherwise, Abraham	11
 Child, Samuel.	Child, Samuel	11
 Burton, J.	Burton, J	11
 Priestley, T.	Priestley, T	11
-Sailor.	Sailor	11
 Rusticus.	Rusticus	11
+Shaveblock, Pasquin.	Shaveblock, Pasquin	11
 Grenville, William Wyndham Grenville	Grenville, William Wyndham	11
 König, Johann.	König, Johann	11
-Clement, Simon.	Clement, Simon	11
+Cotes, Humphrey.	Cotes, Humphrey	11
 Howard, H.	Howard, H	11
+Stanhope, Hugh.	Stanhope, Hugh	11
 Forbes, William.	Forbes, William	11
 Boad, Henry.	Boad, Henry	11
 La Motte, Jeanne de Saint-Rémy de Valois	Motte, Jeanne De Saint-rémy De Valois	11
@@ -474,6 +479,7 @@ Battye, Thomas.	Battye, Thomas	11
 Wylie, Robert.	Wylie, Robert	11
 Silence, Timothy.	Silence, Timothy	11
 Philipe, Thomas.	Philipe, Thomas	11
+Smith, J.	Smith, J	11
 McDouall, Patrick.	Mcdouall, Patrick	11
 Voster, Elias.	Voster, Elias	11
 Leslie, Antonius Leslie	Leslie, Antonius	11
@@ -488,8 +494,8 @@ Jelinger, Christopher.	Jelinger, Christopher	11
 Hascard, Gregory.	Hascard, Gregory	11
 Halley, William.	Halley, William	10
 Philanglus.	Philanglus	10
+Justice, Alexander.	Justice, Alexander	10
 Bradshaw, Penelope.	Bradshaw, Penelope	10
-Wharton, Thomas Wharton	Wharton, Thomas	10
 Tully, T.	Tully, T	10
 Spangenberg, Johann.	Spangenberg, Johann	10
 Hayes, W.	Hayes, W	10
@@ -503,6 +509,7 @@ La Quintinie, Jean de	Quintinie, Jean De	10
 Willich, A. F. M.	Willich, A. F. M	10
 Candidus.	Candidus	10
 Panther, Abraham.	Panther, Abraham	10
+Old Whig.	Old Whig	10
 Philo-Patriae.	Philo-patriae	10
 Countryman.	Countryman	10
 Winlove, Solomon.	Winlove, Solomon	10
@@ -510,7 +517,6 @@ Calcott, Wellins.	Calcott, Wellins	10
 Goupil, Pierre Étienne Auguste.	Goupil, Pierre Étienne Auguste	10
 Boulton, Thomas.	Boulton, Thomas	10
 Crosby, B.	Crosby, B	10
-Shaveblock, Pasquin.	Shaveblock, Pasquin	10
 Anderson, Aeneas.	Anderson, Aeneas	10
 Coustos, John.	Coustos, John	10
 Strangehopes, Samuel.	Strangehopes, Samuel	10
@@ -523,6 +529,7 @@ Claudianus, Claudius.	Claudianus, Claudius	10
 Falkirk, John.	Falkirk, John	10
 Verax.	Verax	10
 Scott, John Robert.	Scott, John Robert	10
+Patriot.	Patriot	10
 Mortimer, Margaret.	Mortimer, Margaret	10
 Nickolls, Robert Boucher.	Nickolls, Robert Boucher	10
 Spectator.	Spectator	10
@@ -543,6 +550,7 @@ Brightly, Richard.	Brightly, Richard	10
 Colliber, Samuel.	Colliber, Samuel	10
 Hamilton, Elizabeth Hamilton	Hamilton, Elizabeth	10
 Bean, James.	Bean, James	10
+Weld, Matthew.	Weld, Matthew	10
 Cheneau, François.	Cheneau, François	10
 Satis, George.	Satis, George	10
 Foster, E. M.	Foster, E. M	10
@@ -553,7 +561,6 @@ Denniston, Walter.	Denniston, Walter	10
 Falck, N. D.	Falck, N. D	10
 Maculla, James.	Maculla, James	10
 Noorthouck, Harmen.	Noorthouck, Harmen	10
-Smith, J.	Smith, J	10
 Lesly, Anne.	Lesly, Anne	10
 Lacam, Benjamin.	Lacam, Benjamin	10
 Honeyman, Patrick.	Honeyman, Patrick	10
@@ -564,6 +571,7 @@ Burne, Nicol.	Burne, Nicol	10
 Williams, William Bell.	Williams, William Bell	10
 Perkins, William.	Perkins, William	10
 Fennor, William.	Fennor, William	10
+Pricket, Robert.	Pricket, Robert	10
 Barriffe, William.	Barriffe, William	10
 Neve, Robert.	Neve, Robert	10
 Nendick, Humphrey.	Nendick, Humphrey	10
@@ -575,8 +583,9 @@ Peter, John.	Peter, John	10
 Harby, Thomas.	Harby, Thomas	10
 Blackwood, Christopher.	Blackwood, Christopher	10
 Gordon, W.	Gordon, W	9
-Justice, Alexander.	Justice, Alexander	9
+Fage, Robert.	Fage, Robert	9
 Atwood, G.	Atwood, G	9
+Swift, Charles.	Swift, Charles	9
 Wilkinson, Rebecca.	Wilkinson, Rebecca	9
 Observator.	Observator	9
 McDermott, Ann.	Mcdermott, Ann	9
@@ -597,9 +606,9 @@ Briggs, Richard.	Briggs, Richard	9
 Harlow, Lawrence.	Harlow, Lawrence	9
 Dumaniant, M.	Dumaniant, M	9
 Smith, John.	Smith, John	9
-Old Whig.	Old Whig	9
 Baliol, Margaret.	Baliol, Margaret	9
 Tagg, Tommy.	Tagg, Tommy	9
+Bisset, J.	Bisset, J	9
 Lambe, Aaron.	Lambe, Aaron	9
 Hubbart, Francis.	Hubbart, Francis	9
 Stevenson, Henry.	Stevenson, Henry	9
@@ -608,8 +617,6 @@ Ireland, W. H.	Ireland, W. H	9
 Harcourt of Stanton Harcourt, Simon Harcourt	Harcourt Of Stanton Harcourt, Simon	9
 La Pilonnière, François de	Pilonnière, François De	9
 Webber, Samuel.	Webber, Samuel	9
-Patriot.	Patriot	9
-Stanhope, Hugh.	Stanhope, Hugh	9
 Pitt, W. M.	Pitt, W. M	9
 Walker, Joseph C.	Walker, Joseph C	9
 Stubbs, W.	Stubbs, W	9
@@ -620,6 +627,7 @@ Gilbert, J.	Gilbert, J	9
 Symonds, H. D.	Symonds, H. D	9
 Fortune, T.	Fortune, T	9
 Napier, Francis Napier	Napier, Francis	9
+Volunteer.	Volunteer	9
 Raymond, George Frederick.	Raymond, George Frederick	9
 Nisbett, N.	Nisbett, N	9
 Pineda, Pedro.	Pineda, Pedro	9
@@ -628,8 +636,9 @@ Young, Mary Julia.	Young, Mary Julia	9
 Hill, P.	Hill, P	9
 Minifie, Margaret.	Minifie, Margaret	9
 Weston, William.	Weston, William	9
+Godbold, Nathaniel.	Godbold, Nathaniel	9
 Kent, Samuel.	Kent, Samuel	9
-Weld, Matthew.	Weld, Matthew	9
+Maxwell, Henry.	Maxwell, Henry	9
 Joly de Saint-Vallier.	Joly De Saint-vallier	9
 Caesar, John James.	Caesar, John James	9
 Stonehouse, S.	Stonehouse, S	9
@@ -654,7 +663,6 @@ Nevil, Henry.	Nevil, Henry	9
 Goeurot, Jean.	Goeurot, Jean	9
 Knell, Thomas.	Knell, Thomas	9
 Petowe, Henry.	Petowe, Henry	9
-Pricket, Robert.	Pricket, Robert	9
 Aspley, John.	Aspley, John	9
 La Primaudaye, Pierre de	Primaudaye, Pierre De	9
 Glapthorne, Henry.	Glapthorne, Henry	9
@@ -666,6 +674,7 @@ Browne, Edward.	Browne, Edward	9
 Baxter, Richard.	Baxter, Richard	9
 Dean, J.	Dean, J	9
 Duval, P.	Duval, P	9
+Hudgebut, John.	Hudgebut, John	9
 Winter, Salvator.	Winter, Salvator	9
 Verryck, Ferdinando.	Verryck, Ferdinando	9
 Gutteridge, T.	Gutteridge, T	8
@@ -675,9 +684,10 @@ De Grey, Thomas.	De Grey, Thomas	8
 Swediauer, F.	Swediauer, F	8
 Price, Henry.	Price, Henry	8
 Harley, M.	Harley, M	8
-Swift, Charles.	Swift, Charles	8
+Haslewood, Francis.	Haslewood, Francis	8
 Kimber, John.	Kimber, John	8
 Dafforne, Richard.	Dafforne, Richard	8
+Robinson, J.	Robinson, J	8
 [Higgins, Alexander	Higgins, Alexander	8
 Searson, John.	Searson, John	8
 Nairne, Katharine.	Nairne, Katharine	8
@@ -686,6 +696,7 @@ Koops, Matthias.	Koops, Matthias	8
 Scale, Bernard.	Scale, Bernard	8
 Boutet, Claude.	Boutet, Claude	8
 Motherhill, John.	Motherhill, John	8
+Pitts, Joseph.	Pitts, Joseph	8
 Williams, Renwick.	Williams, Renwick	8
 Gentleman in Scotland.	Gentleman In Scotland	8
 Goodinge, Thomas.	Goodinge, Thomas	8
@@ -708,17 +719,17 @@ MacIver, Susanna.	Maciver, Susanna	8
 Home, William Home	Home, William	8
 Catton, William.	Catton, William	8
 Sadler, Francis.	Sadler, Francis	8
-Bisset, J.	Bisset, J	8
 Soulès, François.	Soulès, François	8
 Ayre, William.	Ayre, William	8
-Cotes, Humphrey.	Cotes, Humphrey	8
 Higgins, Bry.	Higgins, Bry	8
 Harrison, Amos.	Harrison, Amos	8
 Moncreiff, John.	Moncreiff, John	8
 Coningsby, Thomas Coningsby	Coningsby, Thomas	8
 Southcomb, Lewis.	Southcomb, Lewis	8
+Sturmy, J.	Sturmy, J	8
 Nowell, William.	Nowell, William	8
 Staunton, William.	Staunton, William	8
+Philips, J.	Philips, J	8
 Chamberlen, Paul.	Chamberlen, Paul	8
 Clinker, Janet.	Clinker, Janet	8
 Woodman, James.	Woodman, James	8
@@ -727,7 +738,6 @@ Speechly, William.	Speechly, William	8
 True patriot.	True Patriot	8
 Comerford, T.	Comerford, T	8
 Francklyn, Gilbert.	Francklyn, Gilbert	8
-Volunteer.	Volunteer	8
 Moyle, Walter.	Moyle, Walter	8
 Crocker, A.	Crocker, A	8
 Cartwright, H.	Cartwright, H	8
@@ -738,7 +748,6 @@ Henderson, William Augustus.	Henderson, William Augustus	8
 Hunt, Rowland.	Hunt, Rowland	8
 Sutherland, John Sutherland	Sutherland, John	8
 Minshull, T.	Minshull, T	8
-Godbold, Nathaniel.	Godbold, Nathaniel	8
 Wilde, John.	Wilde, John	8
 Tandon, J. E.	Tandon, J. E	8
 Kelly, Isabella.	Kelly, Isabella	8
@@ -753,8 +762,6 @@ Stoddon, Samuel.	Stoddon, Samuel	8
 Neale, Henry St. John.	Neale, Henry St. John	8
 Panter, William.	Panter, William	8
 Fernández, Jerónimo.	Fernández, Jerónimo	8
-Quid, Oliver.	Quid, Oliver	8
-Maxwell, Henry.	Maxwell, Henry	8
 Railton, J.	Railton, J	8
 Burgess.	Burgess	8
 Deck, Philip.	Deck, Philip	8
@@ -780,26 +787,25 @@ Wied, Hermann von.	Wied, Hermann Von	8
 Dawson, Thomas.	Dawson, Thomas	8
 Ireland.	Ireland	8
 Honourable person.	Person	8
-Fage, Robert.	Fage, Robert	8
 Giraffi, Alessandro.	Giraffi, Alessandro	8
 Greenwood, Will.	Greenwood, Will	8
 Harwood, James.	Harwood, James	8
-Hudgebut, John.	Hudgebut, John	8
 Tillam, Thomas.	Tillam, Thomas	8
 Vaughan, Rice.	Vaughan, Rice	8
 Felton, Samuel.	Felton, Samuel	7
+El., M.	El., M	7
 Simmonds, Martha.	Simmonds, Martha	7
 Hayman, John.	Hayman, John	7
+Diston, John.	Diston, John	7
 La Motte	Motte	7
 Daubichon, J.	Daubichon, J	7
-Haslewood, Francis.	Haslewood, Francis	7
+La Solle, Henri-François de	Solle, Henri-françois De	7
 Doe, Charles.	Doe, Charles	7
 Bell, Hugh.	Bell, Hugh	7
 Huish, Anthony.	Huish, Anthony	7
 Newhouse, Daniel.	Newhouse, Daniel	7
 Taylor, Jeremy, bishop	Taylor, Jeremy Bishop	7
 Langdale, Marmaduke Langdale	Langdale, Marmaduke	7
-Robinson, J.	Robinson, J	7
 Bishop, Robert.	Bishop, Robert	7
 Jones, J.	Jones, J	7
 Hodgson, C.	Hodgson, C	7
@@ -813,13 +819,15 @@ Golborne, John.	Golborne, John	7
 Loughton, William.	Loughton, William	7
 Osmer, William.	Osmer, William	7
 Praval, Charles.	Praval, Charles	7
-Pitts, Joseph.	Pitts, Joseph	7
+Ivie, Thomas.	Ivie, Thomas	7
 Jeffrys, John.	Jeffrys, John	7
+Freeman, Francis.	Freeman, Francis	7
 Bird, Benjamin.	Bird, Benjamin	7
 Carter, Susannah.	Carter, Susannah	7
 Rowland, David S.	Rowland, David S	7
 Bradman, Arthur.	Bradman, Arthur	7
 Hirte, Tobias.	Hirte, Tobias	7
+Anderson, John.	Anderson, John	7
 Fish, Samuel.	Fish, Samuel	7
 Chandler, Samuel.	Chandler, Samuel	7
 Williams, A.	Williams, A	7
@@ -834,11 +842,14 @@ La Place, Pierre Antoine de	Place, Pierre Antoine De	7
 Walwyn, B.	Walwyn, B	7
 Craig, Campbell.	Craig, Campbell	7
 Scurlock, David.	Scurlock, David	7
+Common Sense.	Common Sense	7
 Bousell, John.	Bousell, John	7
 Rusted, Robert.	Rusted, Robert	7
 Carroll, William.	Carroll, William	7
+Hall, Fayrer.	Hall, Fayrer	7
 Thurlow, Edward Thurlow	Thurlow, Edward	7
 Alexander, Disney.	Alexander, Disney	7
+Ross, A.	Ross, A	7
 Shaftoe, Frances.	Shaftoe, Frances	7
 Revel, James.	Revel, James	7
 Hadow, Ja.	Hadow, Ja	7
@@ -851,7 +862,9 @@ Brodrick, Thomas.	Brodrick, Thomas	7
 Wandesford, Elizabeth.	Wandesford, Elizabeth	7
 Moss, William.	Moss, William	7
 Eales, Mary.	Eales, Mary	7
+Spencer, Joshua.	Spencer, Joshua	7
 French, Matthew.	French, Matthew	7
+Arnaud, François-Thomas-Marie de Baculard d,́	Arnaud, François-thomas-marie De Baculard D ́	7
 Kinnaird of Inchture, Charles Kinnaird	Kinnaird Of Inchture, Charles	7
 Sowle, J.	Sowle, J	7
 Hearns, John.	Hearns, John	7
@@ -870,11 +883,13 @@ Lawyer.	Lawyer	7
 Castro, J.	Castro, J	7
 Jebb, Frederic.	Jebb, Frederic	7
 Martin, Isaac.	Martin, Isaac	7
+Prince, J. H.	Prince, J. H	7
 McCarthy, Charlotte.	Mccarthy, Charlotte	7
 Schuyl, Frans.	Schuyl, Frans	7
 Pye, Charles.	Pye, Charles	7
 Ovington, J.	Ovington, J	7
 Morgan, J.	Morgan, J	7
+Gentleman in South-Brittain.	Gentleman In South-brittain	7
 Raymond, Robert Raymond	Raymond, Robert	7
 Ray, John Mead.	Ray, John Mead	7
 Philologos.	Philologos	7
@@ -884,6 +899,7 @@ Hurly, Thomas.	Hurly, Thomas	7
 Dutton, Matt.	Dutton, Matt	7
 Taprell, Richard.	Taprell, Richard	7
 Irish gentleman.	Irish Gentleman	7
+O'Hara, Charles.	O'hara, Charles	7
 Grosett, James.	Grosett, James	7
 Cheesman, Thomas.	Cheesman, Thomas	7
 Short, Bob.	Short, Bob	7
@@ -895,6 +911,7 @@ Newton, Catherine.	Newton, Catherine	7
 Farquharson, Robert.	Farquharson, Robert	7
 Seymar, William.	Seymar, William	7
 Morton, Mark.	Morton, Mark	7
+Cabe, William.	Cabe, William	7
 Withall, Benjamin.	Withall, Benjamin	7
 Garbett, Samuel.	Garbett, Samuel	7
 Nicholets, Charles.	Nicholets, Charles	7
@@ -918,9 +935,11 @@ Huggarde, Miles.	Huggarde, Miles	7
 Latham, Simon.	Latham, Simon	7
 Loarte, Gaspare.	Loarte, Gaspare	7
 Syms, Christofer.	Syms, Christofer	7
+Haward, Lazarus.	Haward, Lazarus	7
 [Allestree, Richard]	Allestree, Richard]	7
 Bonnefons, Nicolas de.	Bonnefons, Nicolas De	7
 Burnet, Gilbert, bishop	Burnet, Gilbert Bishop	7
+Pemell, Robert.	Pemell, Robert	7
 Peck, Samuel.	Peck, Samuel	7
 Gallen, William.	Gallen, William	7
 Bunworth, Richard.	Bunworth, Richard	7
@@ -953,16 +972,15 @@ Cotton, Rowland.	Cotton, Rowland	6
 Webb, Benjamin.	Webb, Benjamin	6
 Farrer, W.	Farrer, W	6
 Ponteus, John.	Ponteus, John	6
-La Solle, Henri-François de	Solle, Henri-françois De	6
 Loque, Bertrand de.	Loque, Bertrand De	6
 Bath, Robert.	Bath, Robert	6
 Cornwall, Peter Monamy.	Cornwall, Peter Monamy	6
 Trapnel, Anna.	Trapnel, Anna	6
 Mackie, William.	Mackie, William	6
 Gairdner, Ebenezer.	Gairdner, Ebenezer	6
-El., M.	El., M	6
 Colville of Culross, Elizabeth Colville	Colville Of Culross, Elizabeth	6
 Carstairs, James Bruce.	Carstairs, James Bruce	6
+Patono, Benedetto.	Patono, Benedetto	6
 Bruce, Ann.	Bruce, Ann	6
 Inglis, Charles.	Inglis, Charles	6
 Dallas, James.	Dallas, James	6
@@ -972,7 +990,6 @@ Cooke, Jo.	Cooke, Jo	6
 Kelsall, John.	Kelsall, John	6
 Bell, R.	Bell, R	6
 Dover, William.	Dover, William	6
-Freeman, Francis.	Freeman, Francis	6
 Lawson, Deodat.	Lawson, Deodat	6
 Phillips, John.	Phillips, John	6
 Lingard, R.	Lingard, R	6
@@ -991,7 +1008,6 @@ Voter.	Voter	6
 M'Donald, Philip.	M'donald, Philip	6
 Crafton, William Bell.	Crafton, William Bell	6
 Delap, Samuel.	Delap, Samuel	6
-Anderson, John.	Anderson, John	6
 Price, Laurence.	Price, Laurence	6
 La Marche, Jean François de	Marche, Jean François De	6
 Rees, Thomas.	Rees, Thomas	6
@@ -1010,19 +1026,14 @@ Barford, Richard.	Barford, Richard	6
 Ray, Thomas.	Ray, Thomas	6
 Elking, Henry.	Elking, Henry	6
 Ker, Anna.	Ker, Anna	6
-Common Sense.	Common Sense	6
 Poekrich, Richard.	Poekrich, Richard	6
 Timbury, Jane.	Timbury, Jane	6
-Sturmy, J.	Sturmy, J	6
-Hall, Fayrer.	Hall, Fayrer	6
 Wightwick, George.	Wightwick, George	6
 Greatheed, Bertie.	Greatheed, Bertie	6
 Wilton, Samuel.	Wilton, Samuel	6
 Haigh, James.	Haigh, James	6
-Ross, A.	Ross, A	6
 Applegarth, Robert.	Applegarth, Robert	6
 Greenwood, J.	Greenwood, J	6
-Philips, J.	Philips, J	6
 Bigge, Thomas.	Bigge, Thomas	6
 Rivers, David.	Rivers, David	6
 Jeffries, David.	Jeffries, David	6
@@ -1036,6 +1047,7 @@ Colme, John.	Colme, John	6
 Kinkaid, Thomas.	Kinkaid, Thomas	6
 Lamotte, Charles.	Lamotte, Charles	6
 Bathurst, Henry Bathurst	Bathurst, Henry	6
+Newcome, Susanna.	Newcome, Susanna	6
 Toulmin, G. H.	Toulmin, G. H	6
 Craik, Jean.	Craik, Jean	6
 Cunningham, Alexander.	Cunningham, Alexander	6
@@ -1046,13 +1058,13 @@ Moyle, John.	Moyle, John	6
 Moir, Andrew.	Moir, Andrew	6
 Sabin, John.	Sabin, John	6
 Poulter, E.	Poulter, E	6
-Spencer, Joshua.	Spencer, Joshua	6
 Macfarlane, George.	Macfarlane, George	6
 Hamel, Nicolas.	Hamel, Nicolas	6
 Rooke, Henry.	Rooke, Henry	6
 Sicklemore, Richard.	Sicklemore, Richard	6
 Peters, Matthew.	Peters, Matthew	6
 Fanch, James.	Fanch, James	6
+Merchant and citizen of London.	Merchant And Citizen Of London	6
 Moretti, Ferdinando.	Moretti, Ferdinando	6
 Midon, Francis.	Midon, Francis	6
 Andrei, Antonio.	Andrei, Antonio	6
@@ -1076,7 +1088,7 @@ Gairdner, Andrew.	Gairdner, Andrew	6
 Craufurd, George.	Craufurd, George	6
 Linen Draper.	Linen Draper	6
 Kendall, A.	Kendall, A	6
-Diston, John.	Diston, John	6
+Hyde, Henry Hyde	Hyde, Henry	6
 Wallis, N.	Wallis, N	6
 Peretti, Vincenzo.	Peretti, Vincenzo	6
 Greenwood, Bartholomew.	Greenwood, Bartholomew	6
@@ -1089,7 +1101,6 @@ Billingsley, Samuel.	Billingsley, Samuel	6
 Stork, William.	Stork, William	6
 Eland, William.	Eland, William	6
 Bousfield, Benjamin.	Bousfield, Benjamin	6
-Prince, J. H.	Prince, J. H	6
 Lysias.	Lysias	6
 Binning, Thomas.	Binning, Thomas	6
 Lyons, J.	Lyons, J	6
@@ -1098,8 +1109,8 @@ Gentleman in Ireland.	Gentleman In Ireland	6
 Roe, Samuel.	Roe, Samuel	6
 Whyte, E.-A.	Whyte, E.-a	6
 Ford, Randolph.	Ford, Randolph	6
+Litle, Joseph.	Litle, Joseph	6
 Britannus.	Britannus	6
-Gentleman in South-Brittain.	Gentleman In South-brittain	6
 Uring, Nathaniel.	Uring, Nathaniel	6
 Plank, Stephen.	Plank, Stephen	6
 Martin, Martin	Martin, 	6
@@ -1112,15 +1123,16 @@ Aickin, Joseph.	Aickin, Joseph	6
 Baillie, J. (John)	Baillie, J. John)	6
 Ashton, James-Brown.	Ashton, James-brown	6
 Redford, Elizabeth.	Redford, Elizabeth	6
-O'Hara, Charles.	O'hara, Charles	6
 Cheyn, William.	Cheyn, William	6
 Fowke, Martha.	Fowke, Martha	6
 Lowndes, W.	Lowndes, W	6
 Waddington, Robert.	Waddington, Robert	6
 Hill, T.	Hill, T	6
+Philo Strategos.	Philo Strategos	6
 Woodfin, Mrs.	Woodfin, Mrs	6
 Thomson, R.	Thomson, R	6
 Chalmer, Andrew.	Chalmer, Andrew	6
+Williams, Reeve.	Williams, Reeve	6
 Jenty, Charles Nicholas.	Jenty, Charles Nicholas	6
 McHarg, James.	Mcharg, James	6
 Stanhope, James Stanhope	Stanhope, James	6
@@ -1134,7 +1146,6 @@ Jamieson, John.	Jamieson, John	6
 Terry, Garnet.	Terry, Garnet	6
 Kimberly, Daniel.	Kimberly, Daniel	6
 Bailey, J.	Bailey, J	6
-Cabe, William.	Cabe, William	6
 Emerson, George.	Emerson, George	6
 Eastaugh, Nathaniel.	Eastaugh, Nathaniel	6
 Miller, Janet.	Miller, Janet	6
@@ -1143,7 +1154,6 @@ Townshend, George Townshend	Townshend, George	6
 Dyke, Joseph.	Dyke, Joseph	6
 Clerke, George.	Clerke, George	6
 Tilly, Nicolas de Koning.	Tilly, Nicolas De Koning	6
-Arnaud, François-Thomas-Marie de Baculard d,́	Arnaud, François-thomas-marie De Baculard D ́	6
 Chandler, Henry.	Chandler, Henry	6
 Savigny, J.	Savigny, J	6
 Kennedy, John Vere.	Kennedy, John Vere	6
@@ -1165,6 +1175,7 @@ Parrot, Henry.	Parrot, Henry	6
 Echlin, David.	Echlin, David	6
 Saul, Arthur.	Saul, Arthur	6
 Crawshey, John.	Crawshey, John	6
+Everard, Edmund.	Everard, Edmund	6
 Norwood, Matthew.	Norwood, Matthew	6
 Rigbey, Richard.	Rigbey, Richard	6
 Willan, Edward.	Willan, Edward	6
@@ -1177,10 +1188,8 @@ Goad, J.	Goad, J	6
 Gand, Louis de.	Gand, Louis De	6
 Harwood, John.	Harwood, John	6
 Howard, Edward.	Howard, Edward	6
-Ivie, Thomas.	Ivie, Thomas	6
 Lathom, Paul.	Lathom, Paul	6
 Owen, John, D. D.	Owen, John D. D	6
-Pemell, Robert.	Pemell, Robert	6
 Pressick, George.	Pressick, George	6
 Rabisha, William.	Rabisha, William	6
 Strafford, Thomas Wentworth, earl	Strafford, Thomas Wentworth Earl	6
@@ -1196,7 +1205,6 @@ Chishull, John.	Chishull, John	6
 Ouldman, Thomas.	Ouldman, Thomas	6
 Haworth, William.	Haworth, William	6
 Burrell, Andrewes.	Burrell, Andrewes	6
-Haward, Lazarus.	Haward, Lazarus	6
 Porter, T.	Porter, T	6
 Redford, Thomas.	Redford, Thomas	6
 Rocket, John.	Rocket, John	5
@@ -1208,9 +1216,11 @@ Okell, Benjamin.	Okell, Benjamin	5
 Huntley, Thomas.	Huntley, Thomas	5
 Ralling, John.	Ralling, John	5
 Slynehead, Peter.	Slynehead, Peter	5
+Harrington, S.	Harrington, S	5
 Cuthell, John.	Cuthell, John	5
 Lallier, Francis.	Lallier, Francis	5
 Goring, Henry.	Goring, Henry	5
+Hewetson, Edward.	Hewetson, Edward	5
 Fall, Charles.	Fall, Charles	5
 Aglionby, Sarah.	Aglionby, Sarah	5
 Vaus, John.	Vaus, John	5
@@ -1226,7 +1236,6 @@ Verepaeus, Simon.	Verepaeus, Simon	5
 Taylor, E.	Taylor, E	5
 Dunlop, Thomas.	Dunlop, Thomas	5
 Masters, Thomas.	Masters, Thomas	5
-Patono, Benedetto.	Patono, Benedetto	5
 Stewart-Nicolson, Houston.	Stewart-nicolson, Houston	5
 [Hetherington, Richard]	Hetherington, Richard]	5
 Frere, B.	Frere, B	5
@@ -1269,10 +1278,12 @@ Cooke, George.	Cooke, George	5
 Fry, Benjamin.	Fry, Benjamin	5
 Duncan, William.	Duncan, William	5
 Taylor, Joseph.	Taylor, Joseph	5
+Themistocles.	Themistocles	5
 Livingston, Robert R.	Livingston, Robert R	5
 Siegvolck, Georg Paul.	Siegvolck, Georg Paul	5
 Blenman, Jonathan.	Blenman, Jonathan	5
 Puglia, James Ph.	Puglia, James Ph	5
+Wyche, William.	Wyche, William	5
 Pennsylvanian.	Pennsylvanian	5
 Americanus.	Americanus	5
 Rhees, Morgan J.	Rhees, Morgan J	5
@@ -1308,6 +1319,7 @@ Goddard, Tho.	Goddard, Tho	5
 Cornwallis, James Cornwallis	Cornwallis, James	5
 Tempest, Stephen.	Tempest, Stephen	5
 Gaynam, J.	Gaynam, J	5
+Blundell, Bryan.	Blundell, Bryan	5
 Knox, William.	Knox, William	5
 Cawdwell, Thomas.	Cawdwell, Thomas	5
 Biester, Johann Peter.	Biester, Johann Peter	5
@@ -1386,11 +1398,11 @@ Ellis.	Ellis	5
 Gregory, J.	Gregory, J	5
 Puzzlewell, Peter.	Puzzlewell, Peter	5
 Gadesby, Richard.	Gadesby, Richard	5
-Hyde, Henry Hyde	Hyde, Henry	5
 Hammond, Samuel.	Hammond, Samuel	5
 Samson, W.	Samson, W	5
 M'Farlan, John.	M'farlan, John	5
 Lamb, Patrick.	Lamb, Patrick	5
+Parslow, John.	Parslow, John	5
 Gillet, R.	Gillet, R	5
 Sedgwick, Ralph.	Sedgwick, Ralph	5
 Forester, Brooke.	Forester, Brooke	5
@@ -1412,19 +1424,19 @@ Lattin, Patrick.	Lattin, Patrick	5
 Oughton, Thomas.	Oughton, Thomas	5
 Heathcote, George.	Heathcote, George	5
 Alderman of London.	Alderman Of London	5
+Lucas, Theophilus.	Lucas, Theophilus	5
 Doleman, John.	Doleman, John	5
 Davisson, John.	Davisson, John	5
 Eltringham, William.	Eltringham, William	5
 Watson, Daniel.	Watson, Daniel	5
-Newcome, Susanna.	Newcome, Susanna	5
 Miller, J.	Miller, J	5
 Cottingham, John.	Cottingham, John	5
 Petrosellini, Giuseppe.	Petrosellini, Giuseppe	5
 Manilius, Marcus.	Manilius, Marcus	5
 Malassis de Sulamar, John-Baptist.	Malassis De Sulamar, John-baptist	5
 Robson, Joseph.	Robson, Joseph	5
-Litle, Joseph.	Litle, Joseph	5
 Pew, Richard.	Pew, Richard	5
+Prenties, Samuel Waller.	Prenties, Samuel Waller	5
 Smith, Haddon.	Smith, Haddon	5
 Hilton, William.	Hilton, William	5
 Peckham, Robert.	Peckham, Robert	5
@@ -1447,7 +1459,6 @@ Trant, Dominick.	Trant, Dominick	5
 Ashburton, Charles Alfred.	Ashburton, Charles Alfred	5
 Myonnet, John.	Myonnet, John	5
 Reader, Simon.	Reader, Simon	5
-Merchant and citizen of London.	Merchant And Citizen Of London	5
 Corbyn, Samuel.	Corbyn, Samuel	5
 Grace, George.	Grace, George	5
 Best, Thomas.	Best, Thomas	5
@@ -1458,11 +1469,11 @@ Walrond, John.	Walrond, John	5
 Brice, Thomas.	Brice, Thomas	5
 Purbeck, Jane.	Purbeck, Jane	5
 Selden, Catharine.	Selden, Catharine	5
-Philo Strategos.	Philo Strategos	5
 Watts, Thomas.	Watts, Thomas	5
 Burdwood, James.	Burdwood, James	5
 Davidson, T.	Davidson, T	5
 Purlewent, S.	Purlewent, S	5
+Posthumus.	Posthumus	5
 Shirley, Benjamin.	Shirley, Benjamin	5
 Bott, William.	Bott, William	5
 Chandler, John.	Chandler, John	5
@@ -1476,6 +1487,7 @@ Beetham, Edward.	Beetham, Edward	5
 Brownsmith, John.	Brownsmith, John	5
 Waddell, Robert.	Waddell, Robert	5
 Radcliffe, Stephen.	Radcliffe, Stephen	5
+Standen, Joseph.	Standen, Joseph	5
 Banson, William.	Banson, William	5
 Rudd, Pemberton.	Rudd, Pemberton	5
 Colsoni, François.	Colsoni, François	5
@@ -1560,12 +1572,12 @@ Eburne, Richard.	Eburne, Richard	5
 Multibibus, Blasius.	Multibibus, Blasius	5
 Dalechamp, Caleb.	Dalechamp, Caleb	5
 Beauvais, Charles de.	Beauvais, Charles De	5
-Everard, Edmund.	Everard, Edmund	5
 Blackborow, Peter.	Blackborow, Peter	5
 Whately, Thomas.	Whately, Thomas	5
 Biddle, Ester.	Biddle, Ester	5
 Childrey, J.	Childrey, J	5
 Dole, Dorcas.	Dole, Dorcas	5
+Benbrigge, John.	Benbrigge, John	5
 Booth, William.	Booth, William	5
 Boteler, Nathaniel.	Boteler, Nathaniel	5
 Cheesman, Christopher.	Cheesman, Christopher	5
@@ -1603,6 +1615,7 @@ Harrison, Joseph.	Harrison, Joseph	5
 Hotchkis, Thomas.	Hotchkis, Thomas	5
 Killcop, Thomas.	Killcop, Thomas	5
 Steuart, Adam.	Steuart, Adam	5
+Hopton, Ralph Hopton	Hopton, Ralph	5
 Scrivener, Matthew.	Scrivener, Matthew	5
 Cutts, John Cutts	Cutts, John	5
 Nunnes, Thomas.	Nunnes, Thomas	5
@@ -1612,6 +1625,7 @@ Debbieg, Hugh.	Debbieg, Hugh	5
 Senex, Mary.	Senex, Mary	4
 Walcot, William.	Walcot, William	4
 La Calmette, François de.	Calmette, François De	4
+Fitz-Gerald, Maurice.	Fitz-gerald, Maurice	4
 Chicheley, Richard.	Chicheley, Richard	4
 Jebb, S.	Jebb, S	4
 Vernes, F.	Vernes, F	4
@@ -1619,7 +1633,7 @@ Wachsel, Gustav Anton.	Wachsel, Gustav Anton	4
 Freke, John.	Freke, John	4
 Boyer, P.	Boyer, P	4
 Pidding, James.	Pidding, James	4
-Harrington, S.	Harrington, S	4
+Howe, William Howe	Howe, William	4
 Durell, D.	Durell, D	4
 Durette, François Parrain de.	Durette, François Parrain De	4
 Walker, Nathan.	Walker, Nathan	4
@@ -1631,7 +1645,6 @@ Owen, Vin.	Owen, Vin	4
 Cobbe, William.	Cobbe, William	4
 Newnam, William.	Newnam, William	4
 Janes, Thomas.	Janes, Thomas	4
-Hewetson, Edward.	Hewetson, Edward	4
 Chessels, Helen.	Chessels, Helen	4
 Simson, William.	Simson, William	4
 Middleton, Charles Theodore.	Middleton, Charles Theodore	4
@@ -1659,6 +1672,7 @@ Bosman, Willem.	Bosman, Willem	4
 Bunth, Christopher Daniel.	Bunth, Christopher Daniel	4
 Fleming, William.	Fleming, William	4
 Fall, Robert.	Fall, Robert	4
+High German Artist.	High German Artist	4
 Chandler, William.	Chandler, William	4
 Foster, Mark.	Foster, Mark	4
 Herries, John.	Herries, John	4
@@ -1672,6 +1686,7 @@ Stidson, George.	Stidson, George	4
 Stephens, Thomas.	Stephens, Thomas	4
 Ballamie, Richard.	Ballamie, Richard	4
 Stewardson, William.	Stewardson, William	4
+Gautier de Faget.	Gautier De Faget	4
 Cobin, A.	Cobin, A	4
 Howgill, Mary.	Howgill, Mary	4
 La Rochefoucauld-Liancourt, François-Alexandre-Frédéric	Rochefoucauld-liancourt, François-alexandre-frédéric	4
@@ -1686,14 +1701,12 @@ Peddle, M.	Peddle, M	4
 Griswold, Alexander V.	Griswold, Alexander V	4
 Noel, Garrat.	Noel, Garrat	4
 Whittemore, Joseph.	Whittemore, Joseph	4
-Themistocles.	Themistocles	4
 Juvenis.	Juvenis	4
 Telltruth, Timothy.	Telltruth, Timothy	4
 Stafford, Cornelius William.	Stafford, Cornelius William	4
 Mentor.	Mentor	4
 Hanley.	Hanley	4
 Robinson, Nathaniel.	Robinson, Nathaniel	4
-Wyche, William.	Wyche, William	4
 Léonard, T.	Léonard, T	4
 Philadelphian.	Philadelphian	4
 Wiseman, Billy.	Wiseman, Billy	4
@@ -1701,6 +1714,7 @@ Vance, Thomas.	Vance, Thomas	4
 Chemin-Dupontès, J.-B.	Chemin-dupontès, J.-b	4
 Mechanic.	Mechanic	4
 Mein, John.	Mein, John	4
+Ray, Nicholas.	Ray, Nicholas	4
 Roberts, R.	Roberts, R	4
 Chater, John.	Chater, John	4
 Watchman.	Watchman	4
@@ -1741,12 +1755,12 @@ Howgrave, Francis.	Howgrave, Francis	4
 Steele, Joshua.	Steele, Joshua	4
 Glazebrook, J.	Glazebrook, J	4
 Gentleman of Christ-Church College in Oxford.	Gentleman Of Christ-church College In Oxford	4
-Blundell, Bryan.	Blundell, Bryan	4
 Taitt, Alexander.	Taitt, Alexander	4
 Griffin of Braybrooke, Edward Griffin	Griffin Of Braybrooke, Edward	4
 Quinton, John.	Quinton, John	4
 Walder, James.	Walder, James	4
 Mould, Bernard.	Mould, Bernard	4
+Gingle, Jacob.	Gingle, Jacob	4
 Boeswillibald, Johann Hieronymus.	Boeswillibald, Johann Hieronymus	4
 La Motte, Philémon de.	Motte, Philémon De	4
 Gibert, É.	Gibert, É	4
@@ -1814,6 +1828,7 @@ Marconi, Giuseppe Loreto.	Marconi, Giuseppe Loreto	4
 Brent, Charles.	Brent, Charles	4
 Hurd, William.	Hurd, William	4
 Banks, Jonathan.	Banks, Jonathan	4
+Brockman, William.	Brockman, William	4
 Born, Ignaz, Edler von	Born, Ignaz Edler Von	4
 Ashley, James.	Ashley, James	4
 Nab, Ralph.	Nab, Ralph	4
@@ -1857,7 +1872,6 @@ Amery, Thomas.	Amery, Thomas	4
 Sinclair, John Gordon.	Sinclair, John Gordon	4
 Riddoch, James.	Riddoch, James	4
 Nihell, James.	Nihell, James	4
-Parslow, John.	Parslow, John	4
 Dickson, D.	Dickson, D	4
 Lee, Weyman.	Lee, Weyman	4
 Sims, James.	Sims, James	4
@@ -1867,8 +1881,10 @@ Patriot of Ireland.	Patriot Of Ireland	4
 Troughton, Thomas.	Troughton, Thomas	4
 Houlbrook, William.	Houlbrook, William	4
 Myles, William.	Myles, William	4
+Campbell, Duncan.	Campbell, Duncan	4
 Warrington, William.	Warrington, William	4
 Thomas, M.	Thomas, M	4
+Sneyd, Ralph.	Sneyd, Ralph	4
 Jackson, W.	Jackson, W	4
 Willock, Robert.	Willock, Robert	4
 Whitfield, C.	Whitfield, C	4
@@ -1885,7 +1901,6 @@ Le Marchant, William.	Le Marchant, William	4
 Swift, Mead.	Swift, Mead	4
 Rowley, Hercules.	Rowley, Hercules	4
 Hey, J. van der.	Hey, J. Van Der	4
-Lucas, Theophilus.	Lucas, Theophilus	4
 Lacy, Joseph.	Lacy, Joseph	4
 O'Conner, Patrick.	O'conner, Patrick	4
 Roe, James.	Roe, James	4
@@ -1904,8 +1919,8 @@ Stronge, James.	Stronge, James	4
 Owen, Jonathan.	Owen, Jonathan	4
 Huntley, George.	Huntley, George	4
 Hunter, Robertus.	Hunter, Robertus	4
+Walcot, James.	Walcot, James	4
 Hewat, Alexander.	Hewat, Alexander	4
-Prenties, Samuel Waller.	Prenties, Samuel Waller	4
 Fairburn, John.	Fairburn, John	4
 Welcker, John.	Welcker, John	4
 Thorley, John.	Thorley, John	4
@@ -1955,7 +1970,6 @@ Tell-Truth, Tom.	Tell-truth, Tom	4
 Wale, Jeffery.	Wale, Jeffery	4
 Friend to liberty.	Friend To Liberty	4
 Hewerdine, Francis.	Hewerdine, Francis	4
-Posthumus.	Posthumus	4
 Free citizen of Dublin.	Free Citizen Of Dublin	4
 Fisher.	Fisher	4
 Church of England man.	Church Of England Man	4
@@ -1963,8 +1977,10 @@ Boswell, William.	Boswell, William	4
 Savill, William F.	Savill, William F	4
 Clinch, William.	Clinch, William	4
 Case, Charles.	Case, Charles	4
+Earbery, Matthias.	Earbery, Matthias	4
 Falconar, Magnus.	Falconar, Magnus	4
 Hadding, John.	Hadding, John	4
+Quélus, D.	Quélus, D	4
 Makdougall, Barbara.	Makdougall, Barbara	4
 Hamilton, Euphame.	Hamilton, Euphame	4
 Blackwood, Alexander.	Blackwood, Alexander	4
@@ -1972,7 +1988,6 @@ Farquharson, Francis.	Farquharson, Francis	4
 Herriot, Robert.	Herriot, Robert	4
 Inhabitant.	Inhabitant	4
 Nicol, Walter.	Nicol, Walter	4
-Standen, Joseph.	Standen, Joseph	4
 Palm, Karl Josef von.	Palm, Karl Josef Von	4
 Nicol, Alexander.	Nicol, Alexander	4
 Morselli, Adriano.	Morselli, Adriano	4
@@ -2046,6 +2061,7 @@ Killigrew, Ferdinando.	Killigrew, Ferdinando	4
 Gentleman in Glasgow.	Gentleman In Glasgow	4
 Magenise, Daniel.	Magenise, Daniel	4
 Wilson, W.	Wilson, W	4
+Fitzgerald.	Fitzgerald	4
 Kane, Lawrence.	Kane, Lawrence	4
 Shepherd, T.	Shepherd, T	4
 Wyatt, Charles.	Wyatt, Charles	4
@@ -2082,6 +2098,7 @@ Pitkin, William.	Pitkin, William	4
 Nowell, Charles.	Nowell, Charles	4
 Nicholls, Thomas.	Nicholls, Thomas	4
 Hallungius, Jan.	Hallungius, Jan	4
+Foot, John.	Foot, John	4
 Illidge, Samuel.	Illidge, Samuel	4
 Corso, John.	Corso, John	4
 Lyde, Edward.	Lyde, Edward	4
@@ -2089,6 +2106,7 @@ Harcourt, Simon Harcourt	Harcourt, Simon	4
 Clerke, Samuel.	Clerke, Samuel	4
 Mardeley, John.	Mardeley, John	4
 Kayll, Robert.	Kayll, Robert	4
+Symson, Andrew.	Symson, Andrew	4
 Norden, John.	Norden, John	4
 La Perrière, Guillaume de	Perrière, Guillaume De	4
 Stepney, William.	Stepney, William	4
@@ -2148,8 +2166,8 @@ Corbet, Jeffrey.	Corbet, Jeffrey	4
 [Crouch, Nathaniel]	Crouch, Nathaniel]	4
 Garner, Robert.	Garner, Robert	4
 Stephenson, N.	Stephenson, N	4
-Benbrigge, John.	Benbrigge, John	4
 Blondeau, Peter.	Blondeau, Peter	4
+Carte, John.	Carte, John	4
 Cooper, C.	Cooper, C	4
 Curate, Jacob.	Curate, Jacob	4
 W., J.	W., J	4
@@ -2174,6 +2192,7 @@ Smith, Humphry.	Smith, Humphry	4
 Swift, Daniel.	Swift, Daniel	4
 Tenche, Nathaniel.	Tenche, Nathaniel	4
 Townsend, Theophila.	Townsend, Theophila	4
+Ward, Edward.	Ward, Edward	4
 Worsley, Benjamin.	Worsley, Benjamin	4
 Slaney, Abel.	Slaney, Abel	4
 Stalker, John.	Stalker, John	4
@@ -2184,6 +2203,7 @@ Willsford, Thomas.	Willsford, Thomas	4
 Blackborow, Sarah.	Blackborow, Sarah	4
 Choke, John.	Choke, John	4
 Atwell, George.	Atwell, George	4
+Church, Josiah.	Church, Josiah	4
 Bayle, Thomas.	Bayle, Thomas	4
 Campion, Robert.	Campion, Robert	4
 Seppens, Robert.	Seppens, Robert	4
@@ -2219,7 +2239,7 @@ Starbuck, William.	Starbuck, William	4
 Belon, P.	Belon, P	4
 Hawke, Michael.	Hawke, Michael	4
 Cornwell, Francis.	Cornwell, Francis	4
-Hopton, Ralph Hopton	Hopton, Ralph	4
+Atkinson, Christopher.	Atkinson, Christopher	4
 Basill, William.	Basill, William	4
 Rosse, William.	Rosse, William	4
 Poyntz, Sydenham.	Poyntz, Sydenham	4
@@ -2231,7 +2251,6 @@ Pack, Samuel.	Pack, Samuel	4
 Roe, J.	Roe, J	4
 Timson, John.	Timson, John	4
 La Mothe Le Vayer, François de	Mothe Le Vayer, François De	4
-Williams, Reeve.	Williams, Reeve	4
 Evelyn, Charles.	Evelyn, Charles	4
 Peisley, Anthony.	Peisley, Anthony	4
 Elletson, Roger Hope.	Elletson, Roger Hope	4
@@ -2249,7 +2268,6 @@ Grainger, Lydia.	Grainger, Lydia	3
 Sheppard, Edward.	Sheppard, Edward	3
 Felgate, Samuel.	Felgate, Samuel	3
 Blaine, Delabere P.	Blaine, Delabere P	3
-Howe, William Howe	Howe, William	3
 Stewart, James.	Stewart, James	3
 Cézan, Louis Alexandre de.	Cézan, Louis Alexandre De	3
 Arden, J.	Arden, J	3
@@ -2261,9 +2279,11 @@ Plumb, Tom.	Plumb, Tom	3
 [Whittingham, John	Whittingham, John	3
 Selby, Henry Collingwood.	Selby, Henry Collingwood	3
 Nightingall, Miles.	Nightingall, Miles	3
+Hastler, Thomas.	Hastler, Thomas	3
 [Carrick, Robert	Carrick, Robert	3
 [Thomson, John	Thomson, John	3
 Alexander, Daniel Ben.	Alexander, Daniel Ben	3
+Mullenaux, Samuel.	Mullenaux, Samuel	3
 [Swan, James	Swan, James	3
 Grove, Martha.	Grove, Martha	3
 Bromfield, Stephen.	Bromfield, Stephen	3
@@ -2335,6 +2355,8 @@ Hoskins, James.	Hoskins, James	3
 Faugeres, Margaretta V.	Faugeres, Margaretta V	3
 Focquembergues, Jean de.	Focquembergues, Jean De	3
 Cincinnatus.	Cincinnatus	3
+Hogg, J.	Hogg, J	3
+Waker, Nathaniel.	Waker, Nathaniel	3
 [Hehl, Matthaeus Gottfried	Hehl, Matthaeus Gottfried	3
 Bond, Samson.	Bond, Samson	3
 Bacon, James.	Bacon, James	3
@@ -2399,7 +2421,6 @@ Tory.	Tory	3
 La Musse, Margaret de	Musse, Margaret De	3
 Parsons, J.	Parsons, J	3
 Honesty, Obadiah.	Honesty, Obadiah	3
-Ray, Nicholas.	Ray, Nicholas	3
 Goodlet, John.	Goodlet, John	3
 Nestor.	Nestor	3
 Mulford, Samuel.	Mulford, Samuel	3
@@ -2425,12 +2446,14 @@ Bumpsted, Robert.	Bumpsted, Robert	3
 Motet, Daniel.	Motet, Daniel	3
 Hutton, T.	Hutton, T	3
 Lowther, James Lowther	Lowther, James	3
+Dupont, Gainsborough.	Dupont, Gainsborough	3
 Edlin, Thomas.	Edlin, Thomas	3
 Lydal, Thomas.	Lydal, Thomas	3
 Paget, William.	Paget, William	3
 Sydney.	Sydney	3
 Burd, Richard.	Burd, Richard	3
 English, Harriet.	English, Harriet	3
+Husen, Jeremiah van.	Husen, Jeremiah Van	3
 Des Voeux, V.	Des Voeux, V	3
 Fabian, R.	Fabian, R	3
 Duddell, Benedict.	Duddell, Benedict	3
@@ -2461,13 +2484,13 @@ Pickett, William.	Pickett, William	3
 Redhead, William.	Redhead, William	3
 Olerenshaw, M.	Olerenshaw, M	3
 Elliott, Edward.	Elliott, Edward	3
+Philoclesius.	Philoclesius	3
 Edwards, E.	Edwards, E	3
 Merryman, Dick.	Merryman, Dick	3
 Byron, William Byron	Byron, William	3
 Vernous, Marc.	Vernous, Marc	3
 Perfect, Thomas.	Perfect, Thomas	3
 Read, Augustine.	Read, Augustine	3
-Gingle, Jacob.	Gingle, Jacob	3
 Bridgeabout, Timothy.	Bridgeabout, Timothy	3
 Burgis, Edward Ambrose.	Burgis, Edward Ambrose	3
 Bathurst, Charles.	Bathurst, Charles	3
@@ -2504,6 +2527,7 @@ Bew, J.	Bew, J	3
 Hummell, Charles.	Hummell, Charles	3
 Parr, D.	Parr, D	3
 Sliford, William.	Sliford, William	3
+Parker, Anthony.	Parker, Anthony	3
 Wiggins, J.	Wiggins, J	3
 Clark, Jacobina.	Clark, Jacobina	3
 Harding, Nathanael.	Harding, Nathanael	3
@@ -2515,6 +2539,7 @@ Blair, Hamilton.	Blair, Hamilton	3
 Kynnynmound, Hugh Murray.	Kynnynmound, Hugh Murray	3
 Moir, Anne Montgomery.	Moir, Anne Montgomery	3
 Drummond, Thomas.	Drummond, Thomas	3
+Jingle, Jeremy.	Jingle, Jeremy	3
 Southall, John.	Southall, John	3
 Costa, Juan da.	Costa, Juan Da	3
 Fairfax, Blackerby.	Fairfax, Blackerby	3
@@ -2529,7 +2554,6 @@ Worster, Benjamin.	Worster, Benjamin	3
 Cozens, Zechariah.	Cozens, Zechariah	3
 Bellew, Thomas.	Bellew, Thomas	3
 Profily, John.	Profily, John	3
-Gautier de Faget.	Gautier De Faget	3
 Richardson, J.	Richardson, J	3
 Darly, Matthias.	Darly, Matthias	3
 Macdonnel, David Evans.	Macdonnel, David Evans	3
@@ -2541,6 +2565,7 @@ Ronksley, William.	Ronksley, William	3
 Sandham, Elizabeth.	Sandham, Elizabeth	3
 Keys, John.	Keys, John	3
 Wetherall, John.	Wetherall, John	3
+Shandy, Tristram.	Shandy, Tristram	3
 Tillard, John.	Tillard, John	3
 Fiévée, J.	Fiévée, J	3
 Overton, Thomas Collins.	Overton, Thomas Collins	3
@@ -2550,6 +2575,7 @@ Habesci, Elias.	Habesci, Elias	3
 Bridges, Jeremiah.	Bridges, Jeremiah	3
 Glass-house clerk.	Glass-house Clerk	3
 La Roque, Jean de	Roque, Jean De	3
+Lewis, Hardwicke.	Lewis, Hardwicke	3
 Common-Council-man.	Common-council-man	3
 Cullyer, John.	Cullyer, John	3
 Lockett, Thomas.	Lockett, Thomas	3
@@ -2565,6 +2591,7 @@ Jones, Jasper.	Jones, Jasper	3
 Sorrow, Obadiah.	Sorrow, Obadiah	3
 Hughes, E.	Hughes, E	3
 Nation, Robert.	Nation, Robert	3
+Anderson, J. W.	Anderson, J. W	3
 Arnett, Richard.	Arnett, Richard	3
 Yarrow, Joseph.	Yarrow, Joseph	3
 Moore, Isabella.	Moore, Isabella	3
@@ -2588,7 +2615,9 @@ Proby, William C.	Proby, William C	3
 Stanzani, Tomaso.	Stanzani, Tomaso	3
 Rowe.	Rowe	3
 Briel, J. H. D.	Briel, J. H. D	3
+Hearne, Mary.	Hearne, Mary	3
 Brenan, Beaumont.	Brenan, Beaumont	3
+Lauder, Charles.	Lauder, Charles	3
 Haswell, John.	Haswell, John	3
 Kessell, Andrew.	Kessell, Andrew	3
 Curioni, Antonio.	Curioni, Antonio	3
@@ -2617,7 +2646,6 @@ Sievwright, Norman.	Sievwright, Norman	3
 Webley, Henry.	Webley, Henry	3
 Paschall, Elizabeth.	Paschall, Elizabeth	3
 Hopson, Richard.	Hopson, Richard	3
-Fitz-Gerald, Maurice.	Fitz-gerald, Maurice	3
 Long, J.	Long, J	3
 Beaumont, Joseph.	Beaumont, Joseph	3
 Boswell, Henry.	Boswell, Henry	3
@@ -2630,6 +2658,7 @@ Dundass, James.	Dundass, James	3
 Bromwich, Bryan I'Anson.	Bromwich, Bryan I'anson	3
 Lutwidge, Thomas.	Lutwidge, Thomas	3
 Stevens, J. N.	Stevens, J. N	3
+Tracy, Darby.	Tracy, Darby	3
 Johnson, Anthony.	Johnson, Anthony	3
 Fisher, S.	Fisher, S	3
 Hopkins, Bertie.	Hopkins, Bertie	3
@@ -2675,13 +2704,11 @@ Cuppé, Pierre.	Cuppé, Pierre	3
 Le Stourgeon, B.	Le Stourgeon, B	3
 Snape, Edward.	Snape, Edward	3
 Hansel, John George.	Hansel, John George	3
-Campbell, Duncan.	Campbell, Duncan	3
 Pitcairn, George.	Pitcairn, George	3
 Smethurst, Gamaliel.	Smethurst, Gamaliel	3
 Symson, William.	Symson, William	3
 Apletre, John.	Apletre, John	3
 Bourne, Charles.	Bourne, Charles	3
-Sneyd, Ralph.	Sneyd, Ralph	3
 Burdett, J.	Burdett, J	3
 Innes, James.	Innes, James	3
 Horsey, Samuel.	Horsey, Samuel	3
@@ -2717,6 +2744,7 @@ French, Arthur.	French, Arthur	3
 Handasyde, John.	Handasyde, John	3
 Tonkin, Mary.	Tonkin, Mary	3
 Heydon, C.	Heydon, C	3
+Sage, L. A.	Sage, L. A	3
 Chevers, Andrew.	Chevers, Andrew	3
 Hayes, Phil.	Hayes, Phil	3
 Civicus.	Civicus	3
@@ -2762,7 +2790,6 @@ Whitelock, Methuselah.	Whitelock, Methuselah	3
 Owen, N.	Owen, N	3
 D'Anvers, Alicia.	D'anvers, Alicia	3
 Halyburton, William.	Halyburton, William	3
-Walcot, James.	Walcot, James	3
 Churchman.	Churchman	3
 Munn, John.	Munn, John	3
 Carrington, James.	Carrington, James	3
@@ -2816,9 +2843,12 @@ Barbut, James.	Barbut, James	3
 Shelvocke, George.	Shelvocke, George	3
 Abingdon, Thomas.	Abingdon, Thomas	3
 Whack, Paddy.	Whack, Paddy	3
+Power, Richard.	Power, Richard	3
 V-n, W- O-.	V-n, W- O-	3
 Davenport, Thomas.	Davenport, Thomas	3
 Webster, E.	Webster, E	3
+Free mason.	Free Mason	3
+Willey, Willoughby.	Willey, Willoughby	3
 Haldane, J. A.	Haldane, J. A	3
 Pearson, Susanna.	Pearson, Susanna	3
 Chiari, Pietro.	Chiari, Pietro	3
@@ -2852,12 +2882,14 @@ Fawcett, J.	Fawcett, J	3
 Clayton, Humfrey.	Clayton, Humfrey	3
 Mignonneau.	Mignonneau	3
 Palomba, Antonio.	Palomba, Antonio	3
+English Lady.	English Lady	3
 Hawke of Towton, Cassandra Hawke	Hawke Of Towton, Cassandra	3
 Heartwell, Henry.	Heartwell, Henry	3
 Gwynn, Albinia.	Gwynn, Albinia	3
 Tozer, Aaron.	Tozer, Aaron	3
 Touchit, Thomas.	Touchit, Thomas	3
 Perks, William.	Perks, William	3
+Selden, Ambrose.	Selden, Ambrose	3
 Boyer, A.	Boyer, A	3
 English hand.	English Hand	3
 Cowdry, Richard.	Cowdry, Richard	3
@@ -2866,6 +2898,7 @@ Craik, Helen.	Craik, Helen	3
 Stell, James.	Stell, James	3
 Bligh, Michael.	Bligh, Michael	3
 Drysdale, William.	Drysdale, William	3
+Tanner, Anodyne.	Tanner, Anodyne	3
 Hilditch, Ann.	Hilditch, Ann	3
 Silence, Samuel.	Silence, Samuel	3
 Gerahty, James.	Gerahty, James	3
@@ -2919,7 +2952,6 @@ Crie, James.	Crie, James	3
 Monro, Gustavus.	Monro, Gustavus	3
 Pugh, Hugh.	Pugh, Hugh	3
 Burdett, William.	Burdett, William	3
-Quélus, D.	Quélus, D	3
 Durie, George.	Durie, George	3
 Old Citizen.	Old Citizen	3
 Brodie, Joseph.	Brodie, Joseph	3
@@ -2941,9 +2973,11 @@ Score, Richard.	Score, Richard	3
 Armstrong, Francis.	Armstrong, Francis	3
 Rive, John.	Rive, John	3
 Macintosh, Aeneas.	Macintosh, Aeneas	3
+Newburgh, Henry.	Newburgh, Henry	3
 Woollaston, Richard.	Woollaston, Richard	3
 Caradoc, Solomon Owen.	Caradoc, Solomon Owen	3
 Baldwin, R.	Baldwin, R	3
+Gilliver, Lawton.	Gilliver, Lawton	3
 Hume, J.	Hume, J	3
 Clegg, J.	Clegg, J	3
 Reoch, William.	Reoch, William	3
@@ -3010,6 +3044,7 @@ Finemore, William.	Finemore, William	3
 Silvani, Francesco.	Silvani, Francesco	3
 Eyken, Sebastian Vander.	Eyken, Sebastian Vander	3
 Fea, James.	Fea, James	3
+Marriott, Samuel Haynes.	Marriott, Samuel Haynes	3
 Golledge, John.	Golledge, John	3
 Roby, W.	Roby, W	3
 Swinney, Myles.	Swinney, Myles	3
@@ -3031,10 +3066,10 @@ Pinch, Tony.	Pinch, Tony	3
 Haththorn, Hugh.	Haththorn, Hugh	3
 Beilby, Samuel.	Beilby, Samuel	3
 Bancroft, Francis.	Bancroft, Francis	3
+Barber.	Barber	3
 Blanc, John.	Blanc, John	3
 Melvil, Thomas.	Melvil, Thomas	3
 Merchant of Bristol.	Merchant Of Bristol	3
-Fitzgerald.	Fitzgerald	3
 Young, R.	Young, R	3
 Pooke, George.	Pooke, George	3
 Malbon, Samuel.	Malbon, Samuel	3
@@ -3103,7 +3138,6 @@ Mattocks, Thomas.	Mattocks, Thomas	3
 Borthwick, George.	Borthwick, George	3
 Yates, Jam.	Yates, Jam	3
 Bellew, Richard Bellew	Bellew, Richard	3
-Foot, John.	Foot, John	3
 Soulies, James Alexander de.	Soulies, James Alexander De	3
 Grigsby, John.	Grigsby, John	3
 Holloway, John.	Holloway, John	3
@@ -3126,6 +3160,7 @@ Andrewes, John.	Andrewes, John	3
 Garden.	Garden	3
 Hockham, William.	Hockham, William	3
 Nisbet, E.	Nisbet, E	3
+Bieston, Roger.	Bieston, Roger	3
 Book.	Book	3
 Bredwell, Stephen.	Bredwell, Stephen	3
 Burton, Henry.	Burton, Henry	3
@@ -3190,7 +3225,6 @@ Danes, John.	Danes, John	3
 Fitzgeffrey, Henry.	Fitzgeffrey, Henry	3
 Symmer, Archibald.	Symmer, Archibald	3
 Snelling, Thomas.	Snelling, Thomas	3
-Symson, Andrew.	Symson, Andrew	3
 Buck, James.	Buck, James	3
 Rid, Samuel.	Rid, Samuel	3
 Bradwell, Stephen.	Bradwell, Stephen	3
@@ -3214,6 +3248,7 @@ Puccini, Vincenzio.	Puccini, Vincenzio	3
 Puttock, Roger.	Puttock, Roger	3
 Crooke, William.	Crooke, William	3
 Zouch, James.	Zouch, James	3
+Heriot, Alexander.	Heriot, Alexander	3
 Duncon, Samuel.	Duncon, Samuel	3
 Shone, Shinkin ap.	Shone, Shinkin Ap	3
 Crown, S.	Crown, S	3
@@ -3239,7 +3274,6 @@ Browne, H.	Browne, H	3
 Browne, Thomas.	Browne, Thomas	3
 Bulkley, Thomas.	Bulkley, Thomas	3
 Cardenas, Alonso de.	Cardenas, Alonso De	3
-Carte, John.	Carte, John	3
 Cock, William.	Cock, William	3
 Compton, Henry, bishop	Compton, Henry Bishop	3
 Danvers, John.	Danvers, John	3
@@ -3281,7 +3315,6 @@ Trevers, Joseph.	Trevers, Joseph	3
 Trott, Perient.	Trott, Perient	3
 Ussher, James, archbishop	Ussher, James Archbishop	3
 Walwyn, Robert.	Walwyn, Robert	3
-Ward, Edward.	Ward, Edward	3
 Whitby, Daniel, 1638-1726	Whitby, Daniel -	3
 Willington, George.	Willington, George	3
 Willis, Thomas, M. D.	Willis, Thomas M. D	3
@@ -3304,17 +3337,18 @@ Blagrave, Charles.	Blagrave, Charles	3
 Langford, T.	Langford, T	3
 Stanhope of Harrington, Charles Stanhope	Stanhope Of Harrington, Charles	3
 Cressy, Edmund.	Cressy, Edmund	3
-Church, Josiah.	Church, Josiah	3
 Bradley, Samuel.	Bradley, Samuel	3
 Love, Jeremiah.	Love, Jeremiah	3
 Boun, Abraham.	Boun, Abraham	3
 Carver, Marmaduke.	Carver, Marmaduke	3
+Pigot, John.	Pigot, John	3
 Masterson, George.	Masterson, George	3
 Achard, J.	Achard, J	3
 [Heath, J.]	Heath, J.]	3
 Fowler, J.	Fowler, J	3
 Manning, Edward.	Manning, Edward	3
 Lea, Francis.	Lea, Francis	3
+Bladen, W.	Bladen, W	3
 Jackson, John.	Jackson, John	3
 Okeley, William.	Okeley, William	3
 Smith, William.	Smith, William	3
@@ -3324,7 +3358,6 @@ Gery, William.	Gery, William	3
 Byron, John Byron	Byron, John	3
 [Collings, Richard]	Collings, Richard]	3
 Wills, Obed.	Wills, Obed	3
-Earbery, Matthias.	Earbery, Matthias	3
 Phillips, William.	Phillips, William	3
 Förster, Thomas.	Förster, Thomas	3
 Gadbury, Timothy.	Gadbury, Timothy	3
@@ -3392,7 +3425,6 @@ Phillipps, W.	Phillipps, W	3
 Hammon, George.	Hammon, George	3
 Caron, R.	Caron, R	3
 Cowling, Nicholas.	Cowling, Nicholas	3
-Atkinson, Christopher.	Atkinson, Christopher	3
 Baiteman, George.	Baiteman, George	3
 Coker, Matthew.	Coker, Matthew	3
 Chafie, Thomas.	Chafie, Thomas	3
@@ -3437,6 +3469,7 @@ Mardon, L.	Mardon, L	3
 Hunter, George.	Hunter, George	3
 Hog, James.	Hog, James	3
 Weatherston, Agnes.	Weatherston, Agnes	3
+Cleland, Christian.	Cleland, Christian	3
 Moncrief, George.	Moncrief, George	3
 Wiloringold, Martin.	Wiloringold, Martin	3
 Becket, J.	Becket, J	3
@@ -3601,7 +3634,6 @@ Harries, Rowland.	Harries, Rowland	2
 [Maxwell, Stephen]	Maxwell, Stephen]	2
 [Reid, William]	Reid, William]	2
 [Watson, Adam]	Watson, Adam]	2
-Hastler, Thomas.	Hastler, Thomas	2
 [Macleod, Roderick]	Macleod, Roderick]	2
 Mackintosh, Robertus.	Mackintosh, Robertus	2
 [Scott, Robert]	Scott, Robert]	2
@@ -3630,6 +3662,7 @@ Alston, John.	Alston, John	2
 [Nimmo, Elisabeth].	Nimmo, Elisabeth]	2
 [Bremner, James]	Bremner, James]	2
 [Macdonald, Elisabeth]	Macdonald, Elisabeth]	2
+Andrewes, R.	Andrewes, R	2
 [Carlyle, Thomas]	Carlyle, Thomas]	2
 Ogilvie, William.	Ogilvie, William	2
 Keith, John.	Keith, John	2
@@ -3642,6 +3675,7 @@ Chalmer, James.	Chalmer, James	2
 Mack, Valentine.	Mack, Valentine	2
 [Roberton, Archibald]	Roberton, Archibald]	2
 Glendonwyn, William.	Glendonwyn, William	2
+[Davis, Jonathan	Davis, Jonathan	2
 [Bruce, Andrew]	Bruce, Andrew]	2
 Howel, Thomas.	Howel, Thomas	2
 [Breck, William]	Breck, William]	2
@@ -3663,7 +3697,6 @@ Fragment, Francis.	Fragment, Francis	2
 [Selkirk, John	Selkirk, John	2
 Graglia, Giuseppe A.	Graglia, Giuseppe A	2
 Le Ragois, Claude.	Le Ragois, Claude	2
-High German Artist.	High German Artist	2
 Wise, Grace.	Wise, Grace	2
 Heather, W.	Heather, W	2
 King, Richard.	King, Richard	2
@@ -3671,6 +3704,7 @@ Park, Robert.	Park, Robert	2
 Sing, John.	Sing, John	2
 Shuttle, Jeremiah.	Shuttle, Jeremiah	2
 Bury, Richard.	Bury, Richard	2
+Smith, Is.	Smith, Is	2
 Kingsley, John.	Kingsley, John	2
 Crome, Robert.	Crome, Robert	2
 Haward, Jeremiah.	Haward, Jeremiah	2
@@ -3708,6 +3742,7 @@ Parish, George.	Parish, George	2
 Logie, Thomas.	Logie, Thomas	2
 Hayler, James.	Hayler, James	2
 Torner, Thomas.	Torner, Thomas	2
+Marcillac, Jean.	Marcillac, Jean	2
 Halliman, Peter.	Halliman, Peter	2
 Haddock, Theophilus.	Haddock, Theophilus	2
 Carwitham, J.	Carwitham, J	2
@@ -3717,10 +3752,10 @@ Velly, Paul François.	Velly, Paul François	2
 Galvin, Tom.	Galvin, Tom	2
 May, Simon.	May, Simon	2
 Skeldie, Archibald.	Skeldie, Archibald	2
-Hogg, J.	Hogg, J	2
 Everenden, Humphrey.	Everenden, Humphrey	2
 Timorcus, Theophilus.	Timorcus, Theophilus	2
 Bower, Edmund.	Bower, Edmund	2
+Whiston, William.	Whiston, William	2
 [Bottler, Johann Georg	Bottler, Johann Georg	2
 Cockrel, Richard.	Cockrel, Richard	2
 [Jones, Robert	Jones, Robert	2
@@ -3770,6 +3805,7 @@ Wright, John.	Wright, John	2
 Griswold, Ezra.	Griswold, Ezra	2
 Wikoff, Isaac.	Wikoff, Isaac	2
 Charmion, John.	Charmion, John	2
+Friend to Georgia.	Friend To Georgia	2
 Weeden, Job.	Weeden, Job	2
 Remington, E.	Remington, E	2
 Jay, Frederick.	Jay, Frederick	2
@@ -3906,6 +3942,7 @@ Strode, Richard.	Strode, Richard	2
 Macklin, Thomas.	Macklin, Thomas	2
 Hewling, Edward.	Hewling, Edward	2
 Dassier, Jean.	Dassier, Jean	2
+Stevenson, Samuel.	Stevenson, Samuel	2
 Stiles, Harry.	Stiles, Harry	2
 Sibbald, J.	Sibbald, J	2
 Ploughman, William.	Ploughman, William	2
@@ -3919,13 +3956,13 @@ Collier, Mary.	Collier, Mary	2
 Goodcheap, Jas.	Goodcheap, Jas	2
 Sneyd, William.	Sneyd, William	2
 Northern Divine.	Northern Divine	2
-Husen, Jeremiah van.	Husen, Jeremiah Van	2
 Golden, William.	Golden, William	2
 Rybot, Francis Thomas.	Rybot, Francis Thomas	2
 Fawkener, William.	Fawkener, William	2
 Jocelyn, J.	Jocelyn, J	2
 Crichton, Wm.	Crichton, Wm	2
 Brandling, Charles.	Brandling, Charles	2
+Butcher, Robert.	Butcher, Robert	2
 Brooke, Thomas.	Brooke, Thomas	2
 Putland, John.	Putland, John	2
 MacDonnel, Hannah.	Macdonnel, Hannah	2
@@ -4058,8 +4095,8 @@ Rodney, George Rodney	Rodney, George	2
 Papillon, J. R.	Papillon, J. R	2
 Comerford, Thomas.	Comerford, Thomas	2
 Burnham, Thomas.	Burnham, Thomas	2
-Parker, Anthony.	Parker, Anthony	2
 Borthwick, Henry Borthwick	Borthwick, Henry	2
+Singleton, William.	Singleton, William	2
 Craik, Grisel.	Craik, Grisel	2
 Crossly, Aaron.	Crossly, Aaron	2
 Harding, Elizabeth.	Harding, Elizabeth	2
@@ -4071,7 +4108,6 @@ Brent, Humphry.	Brent, Humphry	2
 Inglefield, Ann.	Inglefield, Ann	2
 Lavallin, James.	Lavallin, James	2
 Webb, Noah.	Webb, Noah	2
-Jingle, Jeremy.	Jingle, Jeremy	2
 Leaf, Jeremy.	Leaf, Jeremy	2
 Barnewall of Kingsland, Henry Benedict Barnewall	Barnewall Of Kingsland, Henry Benedict	2
 Sawyer, Anthony.	Sawyer, Anthony	2
@@ -4169,6 +4205,7 @@ Tomkies, J.	Tomkies, J	2
 Howell, Howell	Howell, 	2
 Nicklin, Susan.	Nicklin, Susan	2
 Dring, Thomas.	Dring, Thomas	2
+Platoe, William.	Platoe, William	2
 Rochfort, George.	Rochfort, George	2
 Gabourel, Amice.	Gabourel, Amice	2
 Wildman, Joseph.	Wildman, Joseph	2
@@ -4177,7 +4214,6 @@ Ogle, Margaret.	Ogle, Margaret	2
 Gulliver, Lilliputius.	Gulliver, Lilliputius	2
 Flagellan, Christopher.	Flagellan, Christopher	2
 Holmesby, John.	Holmesby, John	2
-Brockman, William.	Brockman, William	2
 Crinkum, Charles.	Crinkum, Charles	2
 Dale, W.	Dale, W	2
 Riou, Stephen.	Riou, Stephen	2
@@ -4211,6 +4247,7 @@ Minister in Norfolk.	Minister In Norfolk	2
 Woods, W.	Woods, W	2
 Ridgeway, John.	Ridgeway, John	2
 Danvers, Joseph.	Danvers, Joseph	2
+Van Charante, Gabriel.	Van Charante, Gabriel	2
 Lely, Richard.	Lely, Richard	2
 Pasmore, George.	Pasmore, George	2
 Nash, Samuel John.	Nash, Samuel John	2
@@ -4231,6 +4268,7 @@ Torriano, Nathanael.	Torriano, Nathanael	2
 Vane, Guy.	Vane, Guy	2
 Burrough, Henry.	Burrough, Henry	2
 Metcalfe, Lister.	Metcalfe, Lister	2
+Dry, John.	Dry, John	2
 Way, G. L.	Way, G. L	2
 Nonney de Fontenai, Claude de.	Nonney De Fontenai, Claude De	2
 Coustelier, Antoine Urbain.	Coustelier, Antoine Urbain	2
@@ -4265,6 +4303,7 @@ Beiler, Benedictus.	Beiler, Benedictus	2
 Bealey, Joseph.	Bealey, Joseph	2
 Tauler, Johann.	Tauler, Johann	2
 O'Shaghnassy, Joseph.	O'shaghnassy, Joseph	2
+Holmes, Henry.	Holmes, Henry	2
 Gray, Archibald.	Gray, Archibald	2
 Acherley, Thomas.	Acherley, Thomas	2
 Richie, James.	Richie, James	2
@@ -4434,7 +4473,6 @@ Welbe, John.	Welbe, John	2
 François.	François	2
 Noble lord.	Noble Lord	2
 Stevens, Sacheverell.	Stevens, Sacheverell	2
-Lewis, Hardwicke.	Lewis, Hardwicke	2
 Fulton, John Williamson.	Fulton, John Williamson	2
 Crumpton, William.	Crumpton, William	2
 Wood, Basil.	Wood, Basil	2
@@ -4469,6 +4507,7 @@ Jackson, Theodore.	Jackson, Theodore	2
 Odell, William Butler.	Odell, William Butler	2
 Litle, J.	Litle, J	2
 Surface, Joseph.	Surface, Joseph	2
+Litten, Dick.	Litten, Dick	2
 Archdall, N.	Archdall, N	2
 Dunn, Larry.	Dunn, Larry	2
 Gam, David.	Gam, David	2
@@ -4513,6 +4552,7 @@ North Briton.	North Briton	2
 Cuningham, Josias.	Cuningham, Josias	2
 True-born English-man.	True-born English-man	2
 Grindley, John.	Grindley, John	2
+Spens, James.	Spens, James	2
 MacBean, William.	Macbean, William	2
 Draper, William.	Draper, William	2
 Baddelley, George.	Baddelley, George	2
@@ -4545,6 +4585,7 @@ Starrat, William.	Starrat, William	2
 Oulton, John.	Oulton, John	2
 Democritus.	Democritus	2
 Oliver, Philip.	Oliver, Philip	2
+Lover of justice, mercy and truth.	Lover Of Justice, Mercy And Truth	2
 Miles, Tho.	Miles, Tho	2
 Gander, Joseph.	Gander, Joseph	2
 Eyre, Elizabeth.	Eyre, Elizabeth	2
@@ -4615,6 +4656,7 @@ Bertin, Antoine de.	Bertin, Antoine De	2
 Molland, Thomas.	Molland, Thomas	2
 Tait, Patrick.	Tait, Patrick	2
 Waddel, George.	Waddel, George	2
+Poulett, John Poulett	Poulett, John	2
 Domcke, George Peter.	Domcke, George Peter	2
 Westerveen, Abraham.	Westerveen, Abraham	2
 Lepidor, Mathieu de.	Lepidor, Mathieu De	2
@@ -4693,7 +4735,6 @@ Brodbelt, George Campbell.	Brodbelt, George Campbell	2
 Alexander, Andrew.	Alexander, Andrew	2
 Alexander, Daniel Tnangam.	Alexander, Daniel Tnangam	2
 Hawkins, T.	Hawkins, T	2
-Power, Richard.	Power, Richard	2
 Alethson, Phil.	Alethson, Phil	2
 Heugh, Hugh.	Heugh, Hugh	2
 Graham, W.	Graham, W	2
@@ -4706,7 +4747,6 @@ Dumay, Joseph Adolphe.	Dumay, Joseph Adolphe	2
 Scriblerus, Andrew.	Scriblerus, Andrew	2
 Hopson, Edward.	Hopson, Edward	2
 Clarke, J.	Clarke, J	2
-Willey, Willoughby.	Willey, Willoughby	2
 Scoto-Britannus.	Scoto-britannus	2
 Browne, Matthew Campbell.	Browne, Matthew Campbell	2
 Browne, Thomas Gunter.	Browne, Thomas Gunter	2
@@ -4756,10 +4796,8 @@ Faulkner, William Elisha Law.	Faulkner, William Elisha Law	2
 Smyth, Giles S.	Smyth, Giles S	2
 Costello, Edmond.	Costello, Edmond	2
 Hope, George.	Hope, George	2
-Hearne, Mary.	Hearne, Mary	2
 Machrie, William.	Machrie, William	2
 Ghigi, Stefano.	Ghigi, Stefano	2
-English Lady.	English Lady	2
 Shepherd, Obadiah.	Shepherd, Obadiah	2
 Reeves, Jonathan.	Reeves, Jonathan	2
 Fact, Tom.	Fact, Tom	2
@@ -4794,7 +4832,6 @@ Corbyn, Benjamin.	Corbyn, Benjamin	2
 Fisher, F. G.	Fisher, F. G	2
 Philander, Joakim.	Philander, Joakim	2
 Purlevent, John.	Purlevent, John	2
-Selden, Ambrose.	Selden, Ambrose	2
 Young gentleman of Oxford.	Young Gentleman Of Oxford	2
 Peters, L.	Peters, L	2
 Chaloner, Thomas.	Chaloner, Thomas	2
@@ -4859,6 +4896,7 @@ Reader of Books.	Reader Of Books	2
 Jameson, R.	Jameson, R	2
 Nichols, Tho.	Nichols, Tho	2
 Cradock, William.	Cradock, William	2
+Commoner in Town.	Commoner In Town	2
 Yate, Richard.	Yate, Richard	2
 Towers, Samuel.	Towers, Samuel	2
 Fairy.	Fairy	2
@@ -4899,6 +4937,7 @@ Fisher, Alexander.	Fisher, Alexander	2
 Stevenson, Isabel.	Stevenson, Isabel	2
 Barclay, Katharine.	Barclay, Katharine	2
 Stallard, Nathaniel.	Stallard, Nathaniel	2
+Rutherfoord, John.	Rutherfoord, John	2
 Bullen, Henry.	Bullen, Henry	2
 Paton, Francis.	Paton, Francis	2
 Vint, Alexander.	Vint, Alexander	2
@@ -4973,6 +5012,7 @@ Arnot, James.	Arnot, James	2
 Waugh, Elisabeth.	Waugh, Elisabeth	2
 Drummond, Barbara.	Drummond, Barbara	2
 Pinhey, Mary.	Pinhey, Mary	2
+Werry, John.	Werry, John	2
 Calthorpe, Mary.	Calthorpe, Mary	2
 Cropley, Christopher.	Cropley, Christopher	2
 Finlayson, Robert.	Finlayson, Robert	2
@@ -4984,7 +5024,6 @@ Semple, Grissel.	Semple, Grissel	2
 Sansom, John.	Sansom, John	2
 Daly, Dennis.	Daly, Dennis	2
 Phillips, Ralph.	Phillips, Ralph	2
-Newburgh, Henry.	Newburgh, Henry	2
 Tapscott, William.	Tapscott, William	2
 Menzies, Helen.	Menzies, Helen	2
 Cockran, John.	Cockran, John	2
@@ -4996,7 +5035,6 @@ André, William.	André, William	2
 Brady.	Brady	2
 Stokes, Gabriel.	Stokes, Gabriel	2
 Hull, C.	Hull, C	2
-Gilliver, Lawton.	Gilliver, Lawton	2
 Wishart, Fergusia.	Wishart, Fergusia	2
 Cockburne, Robert.	Cockburne, Robert	2
 Campbell, Ronald.	Campbell, Ronald	2
@@ -5141,7 +5179,6 @@ Haitly, William.	Haitly, William	2
 Keymer, T.	Keymer, T	2
 Ogilvie, David.	Ogilvie, David	2
 Crotch, Thomas.	Crotch, Thomas	2
-Free mason.	Free Mason	2
 Coote, Robert.	Coote, Robert	2
 Dunbar, Robert.	Dunbar, Robert	2
 Fernyhough, W.	Fernyhough, W	2
@@ -5153,7 +5190,6 @@ O'Brien, J.	O'brien, J	2
 Nimmo, Archibald.	Nimmo, Archibald	2
 Stedman, James.	Stedman, James	2
 Stedman, Janet.	Stedman, Janet	2
-Lauder, Charles.	Lauder, Charles	2
 Pitcairn, Alexander.	Pitcairn, Alexander	2
 McCarthy, Felix.	Mccarthy, Felix	2
 Irish volunteer.	Irish Volunteer	2
@@ -5213,11 +5249,11 @@ Pitcairn, Katharine.	Pitcairn, Katharine	2
 Tolmie, Andrew.	Tolmie, Andrew	2
 Gordon, Henrietta Gordon	Gordon, Henrietta	2
 Pendlebury, Henry.	Pendlebury, Henry	2
+Thomson, W.	Thomson, W	2
 Thomson, Gavin.	Thomson, Gavin	2
 Haussner, Friedrich Wilhelm.	Haussner, Friedrich Wilhelm	2
 Parish, Edward.	Parish, Edward	2
 Ross, George Ross	Ross, George	2
-Marriott, Samuel Haynes.	Marriott, Samuel Haynes	2
 Holland, Gabriel.	Holland, Gabriel	2
 Hepburn, James.	Hepburn, James	2
 Crockat, James.	Crockat, James	2
@@ -5268,7 +5304,6 @@ Lover of peace, harmony, and purity in doctrine.	Lover Of Peace, Harmony And Pur
 Hopperton, Robert.	Hopperton, Robert	2
 Groombridge, Henry.	Groombridge, Henry	2
 Barr, James Smith.	Barr, James Smith	2
-Philoclesius.	Philoclesius	2
 Allan.	Allan	2
 Tomkins, Benjamin.	Tomkins, Benjamin	2
 Weir, Charles.	Weir, Charles	2
@@ -5298,7 +5333,6 @@ Dunkin, John.	Dunkin, John	2
 Broadhurst, Thomas.	Broadhurst, Thomas	2
 Macpherson, Laurence.	Macpherson, Laurence	2
 Reynolds, Francis.	Reynolds, Francis	2
-Shandy, Tristram.	Shandy, Tristram	2
 Bradberry, Robert.	Bradberry, Robert	2
 Spalding, Alexander.	Spalding, Alexander	2
 Stacy, H. P.	Stacy, H. P	2
@@ -5321,6 +5355,7 @@ Hayes, Samuel.	Hayes, Samuel	2
 Dawe, Anne.	Dawe, Anne	2
 Francis, Bernard.	Francis, Bernard	2
 Petrie, Robert.	Petrie, Robert	2
+Castle, A.	Castle, A	2
 Lowcay, Anthony.	Lowcay, Anthony	2
 Lady of honour.	Lady Of Honour	2
 Pescod, Joseph.	Pescod, Joseph	2
@@ -5375,7 +5410,6 @@ Bedingfield, Philip.	Bedingfield, Philip	2
 Kennet, B.	Kennet, B	2
 Argles, T.	Argles, T	2
 Drayson, William.	Drayson, William	2
-Anderson, J. W.	Anderson, J. W	2
 Laverick, George.	Laverick, George	2
 Puzzle-cause, Oliver.	Puzzle-cause, Oliver	2
 Philo-Hibernicus.	Philo-hibernicus	2
@@ -5385,7 +5419,6 @@ Carnegie, Mary.	Carnegie, Mary	2
 Martin, J.	Martin, J	2
 Webster, H.	Webster, H	2
 Fiske, Jonathan.	Fiske, Jonathan	2
-Tanner, Anodyne.	Tanner, Anodyne	2
 Saunders, Patty.	Saunders, Patty	2
 Inhabitant of Lynn.	Inhabitant Of Lynn	2
 Murcott, Andrew.	Murcott, Andrew	2
@@ -5477,7 +5510,6 @@ Vinson, Mary.	Vinson, Mary	2
 Derby, Rich.	Derby, Rich	2
 Pictet, François Pierre.	Pictet, François Pierre	2
 Young clergyman.	Young Clergyman	2
-Sage, L. A.	Sage, L. A	2
 Palmer, W.	Palmer, W	2
 Pope, W.	Pope, W	2
 Frasier, Duncan.	Frasier, Duncan	2
@@ -5486,6 +5518,7 @@ Scot, Mary.	Scot, Mary	2
 Young Gentleman of Oxford.	Young Gentleman Of Oxford	2
 Stanfield, James Field.	Stanfield, James Field	2
 Kimpton, John.	Kimpton, John	2
+Gentleman of Norwich.	Gentleman Of Norwich	2
 Bingley, John.	Bingley, John	2
 Beaumont, John.	Beaumont, John	2
 Beck, W.	Beck, W	2
@@ -5542,6 +5575,7 @@ Fitzgerald, G.	Fitzgerald, G	2
 Payne, H.	Payne, H	2
 Vream, William.	Vream, William	2
 Johnston, Sam.	Johnston, Sam	2
+Bridges, George Rodney.	Bridges, George Rodney	2
 Morley, William.	Morley, William	2
 Shippen, W.	Shippen, W	2
 Hawes, Francis.	Hawes, Francis	2
@@ -5606,7 +5640,6 @@ Beeard, Richard.	Beeard, Richard	2
 Becon, Thomas.	Becon, Thomas	2
 Bedle, Thomas.	Bedle, Thomas	2
 Béze, Théodore de.	Béze, Théodore De	2
-Bieston, Roger.	Bieston, Roger	2
 Broke, Thomas.	Broke, Thomas	2
 Bruen, Robert.	Bruen, Robert	2
 Bruno, Vincenzo.	Bruno, Vincenzo	2
@@ -5695,6 +5728,7 @@ Meene, Joshua.	Meene, Joshua	2
 Horne, William.	Horne, William	2
 Clayton, Gyles.	Clayton, Gyles	2
 Wickins, Nathaniel.	Wickins, Nathaniel	2
+Cortano, Ludovico.	Cortano, Ludovico	2
 Bennett, Edward.	Bennett, Edward	2
 Felice, Costanzo.	Felice, Costanzo	2
 Closse, George.	Closse, George	2
@@ -5710,6 +5744,7 @@ Bateson, Thomas.	Bateson, Thomas	2
 Grent, John.	Grent, John	2
 Gaultier, Jacques.	Gaultier, Jacques	2
 Styles, Christopher.	Styles, Christopher	2
+Pett, John.	Pett, John	2
 Busher, Leonard.	Busher, Leonard	2
 Almond, Oliver.	Almond, Oliver	2
 Ramsay, Laurence.	Ramsay, Laurence	2
@@ -5784,6 +5819,7 @@ Cataneo, Girolamo.	Cataneo, Girolamo	2
 Maie, Edward.	Maie, Edward	2
 Peele, James.	Peele, James	2
 Wilkinson, Edw.	Wilkinson, Edw	2
+Settle, Dionyse.	Settle, Dionyse	2
 Dugdale, Gilbert.	Dugdale, Gilbert	2
 Scott, Tho.	Scott, Tho	2
 Sutton, J.	Sutton, J	2
@@ -5832,7 +5868,9 @@ Couchman, Obadiah.	Couchman, Obadiah	2
 Kaye, Stephen.	Kaye, Stephen	2
 Cardrow, James.	Cardrow, James	2
 Wynne, W.	Wynne, W	2
+Oliveras, Balthazar.	Oliveras, Balthazar	2
 Crook, Peter.	Crook, Peter	2
+Cordell, Edmund.	Cordell, Edmund	2
 Le Brune, Cornelius.	Le Brune, Cornelius	2
 Fardinando Fallall.	Fardinando Fallall	2
 Crabb, John.	Crabb, John	2
@@ -5878,6 +5916,7 @@ Anderson, Katherine.	Anderson, Katherine	2
 Andrewes, Lancelot, bishop	Andrewes, Lancelot Bishop	2
 [Angier, Samuel]	Angier, Samuel]	2
 [Hamilton, Alexander	Hamilton, Alexander	2
+[Baldwin, D]	Baldwin, D]	2
 Avery, J.	Avery, J	2
 Bishop, Henry.	Bishop, Henry	2
 Blackbourn, Richard.	Blackbourn, Richard	2
@@ -5915,7 +5954,6 @@ Giffard, John.	Giffard, John	2
 [Glanvill, Joseph]	Glanvill, Joseph]	2
 [Gregg, Hugh]	Gregg, Hugh]	2
 [Hammond, Henry]	Hammond, Henry]	2
-Heriot, Alexander.	Heriot, Alexander	2
 [Hooke, Richard]	Hooke, Richard]	2
 [Heath, James]	Heath, James]	2
 Spire, John.	Spire, John	2
@@ -5952,7 +5990,6 @@ Monro, Andrew.	Monro, Andrew	2
 Montagu, Richard, bishop	Montagu, Richard Bishop	2
 Montrose, James Graham, marquis	Montrose, James Graham Marquis	2
 Mullard, Joshua.	Mullard, Joshua	2
-Mullenaux, Samuel.	Mullenaux, Samuel	2
 Ovid.	Ovid	2
 [Paterson, William	Paterson, William	2
 [Paterson, William]	Paterson, William]	2
@@ -6026,6 +6063,7 @@ Tipping, Robert.	Tipping, Robert	2
 Heading, Jonathan.	Heading, Jonathan	2
 Deere, Edward.	Deere, Edward	2
 Woodman, Joshua.	Woodman, Joshua	2
+Fidler, Thomas.	Fidler, Thomas	2
 Stokes, Apjohn.	Stokes, Apjohn	2
 Lewthwat, Richard.	Lewthwat, Richard	2
 Man, Miles.	Man, Miles	2
@@ -6044,6 +6082,7 @@ Dulman, Ananias.	Dulman, Ananias	2
 Laverenst, Anne.	Laverenst, Anne	2
 Maris, Peter.	Maris, Peter	2
 Lomax, Nathaniel.	Lomax, Nathaniel	2
+Clark, T.	Clark, T	2
 Rivers, Dr.	Rivers, Dr	2
 Marcus, Joannes.	Marcus, Joannes	2
 Wentworth, Anne.	Wentworth, Anne	2
@@ -6249,7 +6288,6 @@ Spry, Robert.	Spry, Robert	2
 Bauthumley, Jacob.	Bauthumley, Jacob	2
 Coster, Robert.	Coster, Robert	2
 Dornford, Robert.	Dornford, Robert	2
-Waker, Nathaniel.	Waker, Nathaniel	2
 Tuke, Edward.	Tuke, Edward	2
 Norwood, Anthony.	Norwood, Anthony	2
 Wilde, Francis.	Wilde, Francis	2
@@ -6296,6 +6334,7 @@ King, Manasseth.	King, Manasseth	2
 Samson, Thomas.	Samson, Thomas	2
 Harford, Ralph.	Harford, Ralph	2
 Gargill, Anne.	Gargill, Anne	2
+Lamb, Catharine.	Lamb, Catharine	2
 Bramley, David.	Bramley, David	2
 Derham, Robert.	Derham, Robert	2
 Boothby, Richard.	Boothby, Richard	2
@@ -6342,7 +6381,6 @@ Thompkins, Edward.	Thompkins, Edward	2
 La Martinière, Pierre Martin de	Martinière, Pierre Martin De	2
 Brinley, John.	Brinley, John	2
 Bonhome, Joshua.	Bonhome, Joshua	2
-Pigot, John.	Pigot, John	2
 Barlee, William.	Barlee, William	2
 Alured, Thomas.	Alured, Thomas	2
 Gifford, A.	Gifford, A	2
@@ -6350,7 +6388,6 @@ Mansell, R.	Mansell, R	2
 Barecroft, Charles.	Barecroft, Charles	2
 Perrin, P.	Perrin, P	2
 Matlock, John.	Matlock, John	2
-Bladen, W.	Bladen, W	2
 Marsh, A.	Marsh, A	2
 Salt, William.	Salt, William	2
 Melville, George Melville	Melville, George	2
@@ -6385,6 +6422,8 @@ Dingley, Somerville.	Dingley, Somerville	2
 Faulkener, Charles.	Faulkener, Charles	2
 Bree, Martin.	Bree, Martin	2
 Clavering, Henry.	Clavering, Henry	2
+Friend of liberty, and of the constitution of England.	Friend Of Liberty, And Of The Constitution Of England	2
+Mathur, R.	Mathur, R	2
 Booth, J.	Booth, J	2
 Bannac, Adolphus.	Bannac, Adolphus	2
 Usher, G.	Usher, G	2
@@ -6393,6 +6432,7 @@ Cross, John.	Cross, John	2
 Molloy, Anthony James Pye.	Molloy, Anthony James Pye	2
 Mallet, Philip.	Mallet, Philip	2
 Free people of England.	Free People Of England	2
+Jingle, Jerry.	Jingle, Jerry	2
 Smith, Duncan.	Smith, Duncan	2
 Carbarns, James.	Carbarns, James	2
 Roubaud, J. L. Audibert.	Roubaud, J. L. Audibert	2
@@ -6447,6 +6487,7 @@ Rickets, George Poyntz.	Rickets, George Poyntz	2
 Finch, Isaac.	Finch, Isaac	2
 Hollond, Edward John.	Hollond, Edward John	2
 Lambe, John.	Lambe, John	2
+Free-Born.	Free-born	2
 Tomkins, Tho.	Tomkins, Tho	2
 Robertson-Barclay, James.	Robertson-barclay, James	2
 Wildman, James.	Wildman, James	2
@@ -6463,7 +6504,6 @@ Niell, John.	Niell, John	2
 Buntine, John.	Buntine, John	2
 Syme, George.	Syme, George	2
 Landale, David.	Landale, David	2
-Cleland, Christian.	Cleland, Christian	2
 Loch, William.	Loch, William	2
 Mitchell, Charles.	Mitchell, Charles	2
 Holt, Sarah.	Holt, Sarah	2
@@ -6475,7 +6515,6 @@ Grant, Francis.	Grant, Francis	2
 McLintock, Robert.	Mclintock, Robert	2
 Harvie, Thomas.	Harvie, Thomas	2
 Innes, Alexander.	Innes, Alexander	2
-Dupont, Gainsborough.	Dupont, Gainsborough	2
 Deist in London.	Deist In London	2
 Heddington, Edward.	Heddington, Edward	2
 Firm Friend to Truth, Liberty, and Charity.	Firm Friend To Truth, Liberty And Charity	2
@@ -6504,6 +6543,7 @@ Brumwell, William.	Brumwell, William	2
 Dillon, Patrick.	Dillon, Patrick	2
 Essex farmer.	Essex Farmer	2
 Gimbernat, Antonio de.	Gimbernat, Antonio De	2
+Callendar, George.	Callendar, George	2
 Saunders, Robert.	Saunders, Robert	2
 O'Roon, Hellen.	O'roon, Hellen	2
 [Hinde, Nathaniel.]	Hinde, Nathaniel.]	1
@@ -7330,7 +7370,6 @@ Jonas, Runjlf.	Jonas, Runjlf	1
 Parkerson, J.	Parkerson, J	1
 Shirmer, Charles Frederic W.	Shirmer, Charles Frederic W	1
 [Howell, Humphrey]	Howell, Humphrey]	1
-Smith, Is.	Smith, Is	1
 [Scott, John	Scott, John	1
 [Parker, Richard	Parker, Richard	1
 [Ferryman, Robert	Ferryman, Robert	1
@@ -7481,7 +7520,6 @@ Calder, Robert.	Calder, Robert	1
 [Maw, Mary	Maw, Mary	1
 [Ransome, Robert.]	Ransome, Robert.]	1
 [Pim, John.]	Pim, John.]	1
-Marcillac, Jean.	Marcillac, Jean	1
 Rudd, Thomas.	Rudd, Thomas	1
 Gwillim, John.	Gwillim, John	1
 [Chandler, Richard	Chandler, Richard	1
@@ -7664,7 +7702,6 @@ Broadgrin, Billy.	Broadgrin, Billy	1
 Briton in New-York.	Briton In New-york	1
 Gerrish, William.	Gerrish, William	1
 Carter, Timothy.	Carter, Timothy	1
-Friend to Georgia.	Friend To Georgia	1
 Plain English.	Plain English	1
 Traill, Robert.	Traill, Robert	1
 Whipple, Levi.	Whipple, Levi	1
@@ -8311,7 +8348,6 @@ Ellis, Evan.	Ellis, Evan	1
 Hobson, John.	Hobson, John	1
 Peirce, Nathanael.	Peirce, Nathanael	1
 Fuller, Sylvester.	Fuller, Sylvester	1
-Whiston, William.	Whiston, William	1
 Muchall, William.	Muchall, William	1
 Sawrey, John.	Sawrey, John	1
 Bird, J.	Bird, J	1
@@ -8406,7 +8442,6 @@ Sheridan, Henry Fortich.	Sheridan, Henry Fortich	1
 England, William.	England, William	1
 Porter, Jasper.	Porter, Jasper	1
 Brandy-Port, G.	Brandy-port, G	1
-Butcher, Robert.	Butcher, Robert	1
 Trott, Thomas.	Trott, Thomas	1
 Elton, Rd.	Elton, Rd	1
 Hood, Samuel Hood	Hood, Samuel	1
@@ -8720,7 +8755,6 @@ Collis, Nathaniel.	Collis, Nathaniel	1
 Donoughue, A.	Donoughue, A	1
 Sizar.	Sizar	1
 Smeeton, Joseph.	Smeeton, Joseph	1
-Singleton, William.	Singleton, William	1
 Hands, Elizabeth.	Hands, Elizabeth	1
 Hanno.	Hanno	1
 Croker, Richard.	Croker, Richard	1
@@ -9709,7 +9743,6 @@ Oswald, Margaret.	Oswald, Margaret	1
 Sketchley, J.	Sketchley, J	1
 Richardson, F.	Richardson, F	1
 Wemyss, Maurice.	Wemyss, Maurice	1
-Litten, Dick.	Litten, Dick	1
 Rockingham.	Rockingham	1
 Derbyshire gentleman.	Derbyshire Gentleman	1
 Christian, Joachim.	Christian, Joachim	1
@@ -10591,7 +10624,6 @@ Crooks, Alexander.	Crooks, Alexander	1
 Newman.	Newman	1
 Catholic Christian.	Catholic Christian	1
 Young Gentleman in Dublin.	Young Gentleman In Dublin	1
-Commoner in Town.	Commoner In Town	1
 Dutch Officer.	Dutch Officer	1
 Deslandes, H.	Deslandes, H	1
 Horsburgh, William.	Horsburgh, William	1
@@ -10646,7 +10678,6 @@ Heathcote, Charles.	Heathcote, Charles	1
 Fay, Patrick.	Fay, Patrick	1
 Downing, M.	Downing, M	1
 Twig, Tim.	Twig, Tim	1
-Spens, James.	Spens, James	1
 Sugg, Lee.	Sugg, Lee	1
 Abernethy, J.	Abernethy, J	1
 Sorley, John.	Sorley, John	1
@@ -10736,7 +10767,6 @@ Miln, David.	Miln, David	1
 Woollery, Edward.	Woollery, Edward	1
 Meyers, John Henry.	Meyers, John Henry	1
 Skinner, Russell.	Skinner, Russell	1
-Rutherfoord, John.	Rutherfoord, John	1
 Edwards, J. V.	Edwards, J. V	1
 Probert, John.	Probert, John	1
 Jack, Archibald.	Jack, Archibald	1
@@ -11177,7 +11207,6 @@ Horner, George.	Horner, George	1
 Huddleston, Andrew.	Huddleston, Andrew	1
 Tuder, Thomas.	Tuder, Thomas	1
 Arcedeckne, R.	Arcedeckne, R	1
-Stevenson, Samuel.	Stevenson, Samuel	1
 Millard, Joseph.	Millard, Joseph	1
 Searle, Edward.	Searle, Edward	1
 Blake, Daniel.	Blake, Daniel	1
@@ -11298,7 +11327,6 @@ Boig, Alexander.	Boig, Alexander	1
 Haggerston, John.	Haggerston, John	1
 Catholic layman.	Catholic Layman	1
 Carruthers, L.	Carruthers, L	1
-Holmes, Henry.	Holmes, Henry	1
 Inch, Anne.	Inch, Anne	1
 Taggert, William.	Taggert, William	1
 Haydon, William.	Haydon, William	1
@@ -11393,7 +11421,6 @@ Conly, Robert.	Conly, Robert	1
 Filkin, Richard.	Filkin, Richard	1
 Peach, Thomas.	Peach, Thomas	1
 Blow, Grace.	Blow, Grace	1
-Van Charante, Gabriel.	Van Charante, Gabriel	1
 Constable, Marmaduke.	Constable, Marmaduke	1
 Egelsham, John.	Egelsham, John	1
 Monroe, Henry.	Monroe, Henry	1
@@ -12071,7 +12098,6 @@ McGowan, William.	Mcgowan, William	1
 Grierson, George Hamilton.	Grierson, George Hamilton	1
 Gentleman, just arrived from, and many years resident in, that garrison	Gentleman, Just Arrived From And Many Years Resident In That Garrison	1
 Newman, Saml.	Newman, Saml	1
-Thomson, W.	Thomson, W	1
 Forbes, Patrick.	Forbes, Patrick	1
 Oddfish, Oliver.	Oddfish, Oliver	1
 Gairden, Robert.	Gairden, Robert	1
@@ -13442,7 +13468,6 @@ D-ck-n, R-d.	D-ck-n, R-d	1
 Gale, Gustavus.	Gale, Gustavus	1
 Duamaniant, M.	Duamaniant, M	1
 Ellis, Michael.	Ellis, Michael	1
-Dry, John.	Dry, John	1
 Country divine.	Divine	1
 Hathorn, Hugh.	Hathorn, Hugh	1
 Ranken, Elizabeth.	Ranken, Elizabeth	1
@@ -13602,7 +13627,6 @@ Radclyffe, Thomas.	Radclyffe, Thomas	1
 Hack, Edward.	Hack, Edward	1
 Crellin, Philip.	Crellin, Philip	1
 Philo-Pegasus.	Philo-pegasus	1
-Poulett, John Poulett	Poulett, John	1
 Perlin, Étienne.	Perlin, étienne	1
 Russel, Patrick.	Russel, Patrick	1
 Sollers, William.	Sollers, William	1
@@ -13741,7 +13765,6 @@ Owen, Jeremy.	Owen, Jeremy	1
 Thornhill, Richard.	Thornhill, Richard	1
 Captain Tom.	Captain Tom	1
 Phillips, Luke.	Phillips, Luke	1
-Castle, A.	Castle, A	1
 Mackpherson, William.	Mackpherson, William	1
 Allardice, Jane.	Allardice, Jane	1
 Bunbury, Walter.	Bunbury, Walter	1
@@ -13769,7 +13792,6 @@ Incledon, Robert.	Incledon, Robert	1
 Holborne, James.	Holborne, James	1
 Lant, Mathew.	Lant, Mathew	1
 Sandilands, Isabell.	Sandilands, Isabell	1
-Werry, John.	Werry, John	1
 Hamilton, Darcy.	Hamilton, Darcy	1
 Shirt, Robert.	Shirt, Robert	1
 Mitchel, Thomas.	Mitchel, Thomas	1
@@ -14038,7 +14060,6 @@ Wilkinson, Edward Thomas.	Wilkinson, Edward Thomas	1
 Persius, Quintus.	Persius, Quintus	1
 Breakenrig, Thomas.	Breakenrig, Thomas	1
 Gernon, Edward.	Gernon, Edward	1
-Bridges, George Rodney.	Bridges, George Rodney	1
 Cope, Jonathan.	Cope, Jonathan	1
 Gwyllim, Richard.	Gwyllim, Richard	1
 Copinger, Susanna.	Copinger, Susanna	1
@@ -14864,7 +14885,6 @@ Bury, George.	Bury, George	1
 Brouncker, Edward.	Brouncker, Edward	1
 Reeks, Richard.	Reeks, Richard	1
 Rawlidge, Richard.	Rawlidge, Richard	1
-Cortano, Ludovico.	Cortano, Ludovico	1
 Quelch, William.	Quelch, William	1
 Dod, Henry.	Dod, Henry	1
 Daza, Antonio.	Daza, Antonio	1
@@ -14931,7 +14951,6 @@ Tyro, T.	Tyro, T	1
 Thimelthorpe, C.	Thimelthorpe, C	1
 Henric, James.	Henric, James	1
 Sowernam, Ester.	Sowernam, Ester	1
-Settle, Dionyse.	Settle, Dionyse	1
 Bonner, Richard.	Bonner, Richard	1
 Betson, Thomas.	Betson, Thomas	1
 Securis, John.	Securis, John	1
@@ -14949,7 +14968,6 @@ Puckell, Steven.	Puckell, Steven	1
 Evesdropper, Adam.	Evesdropper, Adam	1
 Pilovius, Conradus.	Pilovius, Conradus	1
 Petau de Maulette, Geneviève.	Petau De Maulette, Geneviève	1
-Pett, John.	Pett, John	1
 Pecke, Edward.	Pecke, Edward	1
 Pasqualigo, Luigi.	Pasqualigo, Luigi	1
 Parkes, William.	Parkes, William	1
@@ -15230,7 +15248,6 @@ Vincent, Vincent	Vincent, 	1
 Twyford, James.	Twyford, James	1
 Wright, Angelott.	Wright, Angelott	1
 Tilsley, Thomas.	Tilsley, Thomas	1
-Cordell, Edmund.	Cordell, Edmund	1
 Strode, Samuel.	Strode, Samuel	1
 Sherrard, John Castle.	Sherrard, John Castle	1
 Sherrard, Castle.	Sherrard, Castle	1
@@ -16091,7 +16108,6 @@ Assheton, Richard.	Assheton, Richard	1
 Castell, Richard.	Castell, Richard	1
 Fleetwood, Richard.	Fleetwood, Richard	1
 Terrel, Samuel.	Terrel, Samuel	1
-Fidler, Thomas.	Fidler, Thomas	1
 Dodd, Timothy.	Dodd, Timothy	1
 Foden, Edward.	Foden, Edward	1
 Berney, Richard.	Berney, Richard	1
@@ -16213,7 +16229,6 @@ Grove, Huttoft.	Grove, Huttoft	1
 Baxter, Richard, 1615-1691.	Baxter, Richard -	1
 Eustace, James.	Eustace, James	1
 Wray, Christopher.	Wray, Christopher	1
-[Baldwin, D]	Baldwin, D]	1
 Willmote, Benjamin.	Willmote, Benjamin	1
 Scostrop, Richard.	Scostrop, Richard	1
 Richardson, Thomas.	Richardson, Thomas	1
@@ -16711,7 +16726,6 @@ Rise, Augustin.	Rise, Augustin	1
 Garcia, Petrus.	Garcia, Petrus	1
 Liby, W.	Liby, W	1
 Mitton, Peter.	Mitton, Peter	1
-Oliveras, Balthazar.	Oliveras, Balthazar	1
 Bridges, W.	Bridges, W	1
 Planis Campy, David de.	Planis Campy, David De	1
 [Londinatus, Christianus].	Londinatus, Christianus]	1
@@ -17060,7 +17074,6 @@ Batt., Gil.	Batt., Gil	1
 Blithe, Nathaniel.	Blithe, Nathaniel	1
 Conway of Conway Castle, Edward Conway	Conway Of Conway Castle, Edward	1
 Shotterel, Robert.	Shotterel, Robert	1
-Andrewes, R.	Andrewes, R	1
 La Loubère, Simon de	Loubère, Simon De	1
 I'Anson, Brian.	I'anson, Brian	1
 Tempest, George.	Tempest, George	1
@@ -17402,7 +17415,6 @@ Blouin de la Piquetierre, Michel.	Blouin De La Piquetierre, Michel	1
 Bohun, R.	Bohun, R	1
 Whitfield, Edmund.	Whitfield, Edmund	1
 Whitfeld, William.	Whitfeld, William	1
-Lamb, Catharine.	Lamb, Catharine	1
 Morel, Pierre.	Morel, Pierre	1
 Bromwich, Andrew.	Bromwich, Andrew	1
 Culpepper, C.	Culpepper, C	1
@@ -17558,7 +17570,6 @@ Berquin, M.	Berquin, M	1
 Free Negro.	Free Negro	1
 [Bond	Bond	1
 [Irwin, Lewis Francis	Irwin, Lewis Francis	1
-[Davis, Jonathan	Davis, Jonathan	1
 [Desbrest, Jean-Baptiste	Desbrest, Jean-baptiste	1
 [Warren, Augustus	Warren, Augustus	1
 [Saul, Samuel	Saul, Samuel	1
@@ -17603,7 +17614,6 @@ Brimful, Benjamin.	Brimful, Benjamin	1
 Cratern, Thomas.	Cratern, Thomas	1
 Rann, Mr.	Rann, Mr	1
 [Rogers, George	Rogers, George	1
-Clark, T.	Clark, T	1
 Pekin, Henry.	Pekin, Henry	1
 Briton, W.	Briton, W	1
 Blanchevile, Margaret.	Blanchevile, Margaret	1
@@ -17644,7 +17654,6 @@ M'Neille, Daniel.	M'neille, Daniel	1
 Schoen, George Lethieullier.	Schoen, George Lethieullier	1
 Scrawl, Ned.	Scrawl, Ned	1
 Quearmoode, Humphrey.	Quearmoode, Humphrey	1
-Platoe, William.	Platoe, William	1
 Waring, Richard.	Waring, Richard	1
 Roose, Richard.	Roose, Richard	1
 Pickering, T. A.	Pickering, T. A	1
@@ -17801,7 +17810,6 @@ Bees, Alexander.	Bees, Alexander	1
 Walton, W.	Walton, W	1
 La Platière, Sulpice Imbert	Platière, Sulpice Imbert	1
 Overlove, Richard.	Overlove, Richard	1
-Mathur, R.	Mathur, R	1
 Wright, G. N.	Wright, G. N	1
 Smith, George.	Smith, George	1
 Taylor, H.	Taylor, H	1
@@ -17885,7 +17893,6 @@ Amor patriæ.	Amor Patriæ	1
 Gest, J.	Gest, J	1
 Jeffries, Edward.	Jeffries, Edward	1
 Yule, Joannes.	Yule, Joannes	1
-Friend of liberty, and of the constitution of England.	Friend Of Liberty, And Of The Constitution Of England	1
 Spencer, Sarah Emma.	Spencer, Sarah Emma	1
 Wright, Eduardus.	Wright, Eduardus	1
 Wilson, Joannes.	Wilson, Joannes	1
@@ -18468,7 +18475,6 @@ Roe, George.	Roe, George	1
 Ritchie, Thomas Edward.	Ritchie, Thomas Edward	1
 Marchant of Cadiz.	Marchant Of Cadiz	1
 Lloyd, Edward.	Lloyd, Edward	1
-Free-Born.	Free-born	1
 Schomberg, Solomon.	Schomberg, Solomon	1
 Elyard, William.	Elyard, William	1
 Hodgkins, James.	Hodgkins, James	1
@@ -18835,7 +18841,6 @@ Vievar, Alexander.	Vievar, Alexander	1
 Caius.	Caius	1
 Seaton, Isabel.	Seaton, Isabel	1
 Shortreed, John.	Shortreed, John	1
-Jingle, Jerry.	Jingle, Jerry	1
 Kingsman, Theophilus.	Kingsman, Theophilus	1
 Dray, Thomas.	Dray, Thomas	1
 Younger Junius.	Younger Junius	1
@@ -18928,10 +18933,8 @@ Doria, Andrew.	Doria, Andrew	1
 Bruce, Edward.	Bruce, Edward	1
 Mason, H.	Mason, H	1
 Parsons, Giles.	Parsons, Giles	1
-Lover of justice, mercy and truth.	Lover Of Justice, Mercy And Truth	1
 Johnston, Robert.	Johnston, Robert	1
 Philo Veritas.	Philo Veritas	1
-Tracy, Darby.	Tracy, Darby	1
 Porter.	Porter	1
 Truebottom, Anthony.	Truebottom, Anthony	1
 Julian.	Julian	1
@@ -19053,7 +19056,6 @@ Your Well-Wisher.	Well-wisher	1
 Mac Allester, Oliver.	Mac Allester, Oliver	1
 Trevor, Arthur.	Trevor, Arthur	1
 Rector.	Rector	1
-Barber.	Barber	1
 Kennedy, Peter.	Kennedy, Peter	1
 Gentleman in Munster.	Gentleman In Munster	1
 Hartred, John.	Hartred, John	1
@@ -19068,7 +19070,6 @@ Grimwood, Daniel.	Grimwood, Daniel	1
 Linde, Andreas.	Linde, Andreas	1
 Hog, Alexander.	Hog, Alexander	1
 Hayes, George.	Hayes, George	1
-Gentleman of Norwich.	Gentleman Of Norwich	1
 Spurrier, Caleb.	Spurrier, Caleb	1
 Jenner, Henry.	Jenner, Henry	1
 Barrett, C. F.	Barrett, C. F	1
@@ -19188,7 +19189,6 @@ Cunningham, Alison.	Cunningham, Alison	1
 Bird, G.	Bird, G	1
 Alleyne, James.	Alleyne, James	1
 Copinger, Maurice.	Copinger, Maurice	1
-Callendar, George.	Callendar, George	1
 Bee, Matthew.	Bee, Matthew	1
 Osborne, Elizabeth.	Osborne, Elizabeth	1
 Morison, David.	Morison, David	1

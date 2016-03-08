@@ -9,6 +9,6 @@ output: markdown_document
 
 
 
-Top-20 topics and number of documents for each. In total, there are 55812 unique topics and 263198 documents assigned to one or more topics (55).
+Top-20 topics and number of documents for each. In total, there are 55812 unique topics and 265575 documents assigned to one or more topics (55).
 
 ![plot of chunk summarytopics22](figure/summarytopics22-1.png)
