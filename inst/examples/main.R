@@ -23,8 +23,8 @@ load("df.preprocessed.RData")
 # Validating and fixing fields
 source("validation.R")
 
-# Enrich the data
-# (add missing information and augment with external data)
+# Add missing information and augment with external data
+# TODO prepare these into a generic function in bibliographica
 source("enrich.R") # df.preprocessed.RData
 
 # Save the preprocessed data
