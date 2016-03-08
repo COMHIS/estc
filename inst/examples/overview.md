@@ -11,7 +11,7 @@ Date:
 
 
 ```
-## [1] "Tue Mar  8 11:11:28 2016"
+## [1] "Tue Mar  8 15:16:13 2016"
 ```
 
 
@@ -95,10 +95,10 @@ Documents with data (number and percentage) and number of unique entries for eac
 |original_row          |     0.0|     100.0| 481788|         481788|
 |gatherings.original   |     0.0|     100.0| 481788|             18|
 |obl.original          |     0.0|     100.0| 481788|              2|
+|gatherings            |     0.0|     100.0| 481788|             18|
 |unity                 |     0.0|     100.0| 481788|              1|
 |publication_year      |     0.0|     100.0| 481788|            329|
 |publication_decade    |     0.0|     100.0| 481788|             35|
-|gatherings            |     0.0|     100.0| 481788|             18|
 
 
 ## Histograms of all entries for numeric variables

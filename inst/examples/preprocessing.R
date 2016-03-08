@@ -8,7 +8,8 @@ df.preprocessed$original_row <- df.orig$original_row
 # -------------------------------------------------------
 
 print("List raw data fields to be preprocessed")
-update.fields <- sort(names(df.orig)) # Update all
+#update.fields <- sort(names(df.orig)) # Update all
+update.fields <- sort(setdiff(names(df.orig), "title_uniform2")) 
 
 # --------------------------------------------------------
 
