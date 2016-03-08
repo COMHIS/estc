@@ -28,6 +28,7 @@ source("validation.R")
 source("enrich.R") # df.preprocessed.RData
 
 # Save the preprocessed data
+if (is.character(df.preprocessed$author_death)) {stop("Set years to numeric !!!")}
 print("Saving updates on preprocessed data")
 saveRDS(df.preprocessed, file = "estc.Rds", compress = TRUE)
 

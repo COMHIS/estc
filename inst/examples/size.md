@@ -75,6 +75,15 @@ Multi-volume documents average page counts are given per volume.
 |NA            |             49.56966|                    2.0|       17047|           156.30515|              150.6667|        383|         23.87176|                 24|    3049|
 
 
+
+```
+## Error in match.names(clabs, names(xi)): names do not match previous names
+```
+
+```
+## Error in match.names(clabs, names(xi)): names do not match previous names
+```
+
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
 

@@ -1,95 +1,94 @@
 Name	Count
-Total count: 	n=11936 (100% non-NA values)
-New London CT	1011
-Hartford CT	 965
-Providence RI	 963
-Charleston SC	 731
-Newport RI	 652
-Portsmouth NH	 484
+Total count: 	n=11748 (100% non-NA values)
+New London CT	1005
+Hartford CT	 961
+Providence RI	 960
+Charleston SC	 715
+Newport RI	 649
+Portsmouth NH	 483
 Williamsburg VA	 409
-Newburyport MA	 389
-Albany NY	 356
-St Omer	 353
-Lancaster PA	 353
-Cambridge MA	 318
+Newburyport MA	 382
+St Omer	 352
+Albany NY	 349
+Lancaster PA	 347
+Cambridge MA	 317
 Norwich CT	 316
-Salem MA	 309
-Germantown PA	 298
-Exeter NH	 274
-Litchfield CT	 247
-Bury St Edmunds	 161
+Salem MA	 305
+Germantown PA	 295
+Exeter NH	 273
+Litchfield CT	 244
+Bury St Edmunds	 159
 Burlington NJ	 149
-New Bern NC	 146
+New Bern NC	 138
 Watertown MA	 133
 Woodbridge NJ	 115
 Kings Lynn	 106
 Newark NJ	 105
-Halifax NS	 104
-Ephrata PA	  95
-Richmond VA	  93
-Mass	  87
-Poughkeepsie NY	  78
+Halifax NS	 101
+Ephrata PA	  94
+Mass	  84
+Richmond VA	  82
+Poughkeepsie NY	  76
 Aldershot	  73
 Concord NH	  72
-New Brunswick NJ	  70
-Springfield MA	  66
-Danbury CT	  63
+New Brunswick NJ	  67
+Springfield MA	  64
 Leominster MA	  62
-Hudson NY	  61
+Danbury CT	  58
+Hudson NY	  57
 Warren RI	  54
-Dover NH	  54
-Trenton NJ	  50
-Stockbridge MA	  50
-York PA	  49
-Halifax NC	  49
+Dover NH	  51
+Stockbridge MA	  49
+York PA	  48
+Trenton NJ	  48
+Halifax NC	  48
 Fishkill NY	  48
-Amherst NH	  48
-Washington DC	  47
-Hanover NH	  47
-Windham CT	  46
+Amherst NH	  47
 Charlestown MA	  46
-Northampton MA	  45
-Edenton NC	  45
-AlexandriaVA	  42
-Walpole NH	  41
+Windham CT	  45
+Washington DC	  44
+Hanover NH	  44
+Edenton NC	  43
+Northampton MA	  42
 Reading PA	  41
-Carlisle PA	  41
-Norfolk VA	  37
-Greenfield MA	  37
-Lansingburgh NY	  33
+AlexandriaVA	  40
+Carlisle PA	  39
+Walpole NH	  38
+Greenfield MA	  35
 St Johns Antiqua	  32
+Lansingburgh NY	  32
 Brookfield MA	  32
-Keene NH	  29
+Norfolk VA	  28
 Dedham MA	  28
 St Andrews	  27
+Keene NH	  26
 Haverhill MA	  26
-Petersburg VA	  24
 Danvers MA	  24
-Raleigh NC	  22
-West Springfield MA	  21
+Petersburg VA	  21
 Harrisburgh PA	  21
-Fredicksburg VA	  21
+West Springfield MA	  20
+Raleigh NC	  20
 New Bedford MA	  20
-Chambersburg PA	  20
 Washington PA	  19
-St Ives	  19
-Kingston NY	  19
-Columbia SC	  19
 Chesire CT	  19
-Wilmington NC	  18
+Chambersburg PA	  19
+St Ives	  18
+Columbia SC	  18
 Chatham NJ	  18
-Winchester VA	  17
-Newburgh NY	  16
-St Helier	  15
+Winchester VA	  16
+Kingston NY	  16
+Fredicksburg VA	  16
+Wilmington NC	  14
+St Helier	  14
+Newburgh NY	  14
 Mount Holly NJ	  13
-Schenectady NY	  12
 Salisbury NC	  12
 Medford MA	  12
 St Albans	  11
-Hallowell Me	  11
+Schenectady NY	  11
 Hillsborough NC	   9
+Hallowell Me	   9
 St Pierre Martinique	   8
-Staunton VA	   8
 North	   8
 St Augustine Fl	   7
 Haverhill NH	   6
@@ -97,18 +96,18 @@ Chelmsford MA	   6
 Salem NY	   5
 Newbury MA	   5
 DumfriesVA	   5
-St Georges Grenada	   4
+Staunton VA	   4
 Jacksonburgh SC	   4
 Gilmanton NH	   4
 Elizabeth NJ	   4
 Concord MA	   4
-Rome NY	   3
+St Georges Grenada	   3
 Charlottesville VA	   3
 St John New Brunswick	   2
 St Eustatius	   2
+Rome NY	   2
 Ossining NY	   2
 New Windsor NY	   2
-Martinsburg VA	   2
 Geneva NY	   2
 Andover MA	   2
 St Marys Md	   1
@@ -120,6 +119,7 @@ Pembroke MA	   1
 Newton NJ	   1
 Newfield CT	   1
 Monmouth NJ	   1
+Martinsburg VA	   1
 Lancaster NJ	   1
 Gloucester MA	   1
 FincastleVA	   1
