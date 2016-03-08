@@ -2,44 +2,25 @@
 
 ## To prioritize
 
+kuvat  Liberistä eri näköisiä kuin aikaisemmin. Varmaan siis ottaa mukaan laskuihin nyt dataa laajemmin. mm. negatiivisia paperinkulutusvuosia mukana!
+https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md
 
 
 ## Technical
 
-kuvat  Liberistä eri näköisiä kuin aikaisemmin. Varmaan siis ottaa mukaan laskuihin nyt dataa laajemmin. mm. negatiivisia paperinkulutusvuosia mukana!
-https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md
-
- olisi  mielenkiintoista jos testaisi sen "history" datan ajot siihen miltä samat jutut näyttää koko datalla. Erityisesti mielenkiintoista olisi nähdä miltä näyttää "Title count and paper consumption in Ireland, Scotland and the USA" kun katsotaan koko datalla.
-https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md
-
 topic (=subject topic) ja topic.publication molemmat nyt datassa. Mikä ero?
 
+----------------
+
 items / parts poistettiin aiemmin kun oli hankalaa. pitäisiko ottaa takaisin.
-# document parts estimation for estc is still missing (affects items and hence pages estimates)
-# print("Estimate number of separate parts in a document")
-# parts, pages_per_part
-# tmp <- estimate_document_parts(df.orig)
-# df <- cbind(df, tmp)
 
-tapaukset (jos sellaisia on), jossa 1to merkinnässä on enemmän kuin 1 sivua, niin nämä voisi laittaa 2fo kokoon. Tämä perusteluna sille, että 1to on sheet sellaisenaan, jos se on taiteltu, niin sitten siitä tulee folio.
+document parts estimation for estc is still missing (affects items and hence pages estimates)
+print("Estimate number of separate parts in a document")
+parts, pages_per_part
+tmp <- estimate_document_parts(df.orig)
+df <- cbind(df, tmp)
 
----------------
-
-voisi poimia omaan sarakkeeseen tiedon jos dokumentti on "Obl"?
-
-----------------------------------------
-
-Ja pitäiskö kentät 650z, 651a, 651z erotella jo lähtökohtaisesti parsinnassa
-
-# Skipped for now
-#print("Subject geographic places")
-#df$subject.geography <- polish_geography(df.orig[["650z.651a.651z"]])
-#df[which(df$subject.geography == "NA"), "subject.geography"] <- NA
-
-Kenttä 650y.651y muuttui alkuperäisestä versiosta, funktiot
-hajosi. Pitäisi kirjoittaa uudet funktiot vuosilukujen ja topiccien
-poimimiseksi tästä kentästä. See also function inst/extras/misc.R ->
-polish.650y and inst/extras/misc.Rmd -> subject.begin / subject.end
+---------------------
 
 print("Subject timespan")
 df$subject.begin <- sapply(strsplit(as.character(df.orig[["650y.651y"]]), ";"), function (x) {min(na.omit(as.numeric(x)))})
@@ -54,6 +35,14 @@ df$subject.end <- as.numeric(gsub("7600", "1600", df$subject.end))
 
 ------------------------------------------
 
+tapaukset (jos sellaisia on), jossa 1to merkinnässä on enemmän kuin 1 sivua, niin nämä voisi laittaa 2fo kokoon. Tämä perusteluna sille, että 1to on sheet sellaisenaan, jos se on taiteltu, niin sitten siitä tulee folio.
+
+---------------
+
+voisi poimia omaan sarakkeeseen tiedon jos dokumentti on "Obl"?
+
+---------------
+
 tulosta summaryihin lista docseista joille pinta-alaa ei saatu vaikka
 jotain dimensiotietoja oli. hyödyllistä nähdä onko näitä paljon vai
 vähän ja missä menee pieleen. Ehkä alun summaryplottiin tieto
@@ -65,15 +54,23 @@ laske sheet-size keskiarvo niistä joille mitat tiedossa. käytä sitten
 keskiarvoa (ei taulukkoarvoa) loppujen estimointiin -> tehdään vasta
 kun koko ESTC käytossa, jos näytekoko riittävä.
 
-
-Poimi ESTC-tunnistenumero mukaan otettaviin tietoihin
+Tapaukset, joissa merkitty ainoastaan "plates" tai vastaavaa pois
+sivumäärien keskiarvolaskuista ja lasketaan sitten 449*ka+4 -> Onko jo
+näin ?
 
 ---------------------------------------
 
-jos keksitään miten blokataan kaikesta materiaalista ensimmäiset editiot ja voidaan tarkastella niitä omana yksikkönään. Käytännössä tarkoittaisi ehkä, että kun löytyy samannimisiä julkaisuja (title) samalta kirjoittajalta (author), niin niistä indikoitaisiin aikaisimmin julkaistu. Ei mikään ensimmäisenä tehtävä asia, mutta kirjahistorian kannalta relevantti kysymys analyysiosuuteen.
 
+## Analysis
 
----------------------------------
+ olisi  mielenkiintoista jos testaisi sen "history" datan ajot siihen miltä samat jutut näyttää koko datalla. Erityisesti mielenkiintoista olisi nähdä miltä näyttää "Title count and paper consumption in Ireland, Scotland and the USA" kun katsotaan koko datalla.
+https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md
+
+--------------------
+
+Analyze particular historical periods ('periods')
+
+---------------------
 
 Suhteellinen tärkeysmittari 1-100:
 - auktoreille
@@ -96,24 +93,18 @@ n(docs) * 'levinneisyys aikajanalla'? * pages
 
 -------------------
 
-Analyze particular historical periods ('periods')
+jos keksitään miten blokataan kaikesta materiaalista ensimmäiset editiot ja voidaan tarkastella niitä omana yksikkönään. Käytännössä tarkoittaisi ehkä, että kun löytyy samannimisiä julkaisuja (title) samalta kirjoittajalta (author), niin niistä indikoitaisiin aikaisimmin julkaistu. Ei mikään ensimmäisenä tehtävä asia, mutta kirjahistorian kannalta relevantti kysymys analyysiosuuteen.
 
----------------------
+-------------------
 
-julkaistu pinta-ala per top auktorit jne.?
 
------------------------------------
 
-Tapaukset, joissa merkitty ainoastaan "plates" tai vastaavaa jätetään
-pois sivumäärien keskiarvolaskuista ja lasketaan sitten 449*ka+4.
+## Parser
 
---------
+Poimi ESTC-tunnistenumero mukaan otettaviin tietoihin
 
-Paperinkulutus:
-- document.pages field needs to be harmonized and converted into numbers.
-- pages + dimensions field for paper consumption
 
-------------------
+
 
 ## Publication year
 
@@ -139,6 +130,20 @@ combine synonymous authors and recognize pseudonymes
 
 
 ## Geography
+
+pitäiskö kentät 650z, 651a, 651z erotella jo lähtökohtaisesti parsinnassa
+
+ Skipped for now
+print("Subject geographic places")
+df$subject.geography <- polish_geography(df.orig[["650z.651a.651z"]])
+df[which(df$subject.geography == "NA"), "subject.geography"] <- NA
+
+Kenttä 650y.651y muuttui alkuperäisestä versiosta, funktiot
+hajosi. Pitäisi kirjoittaa uudet funktiot vuosilukujen ja topiccien
+poimimiseksi tästä kentästä. See also function inst/extras/misc.R ->
+polish.650y and inst/extras/misc.Rmd -> subject.begin / subject.end
+
+----
 
 Maiden ja paikkojen erottaminen: 
 some available country information might lost during filtering! -> fix ?
