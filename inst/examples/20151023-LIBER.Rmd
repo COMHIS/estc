@@ -139,10 +139,6 @@ top <- names(rev(sort(table(dfs$author))))[1:20]
 top <- c(top, "Hume, david (1560-1630)")
 top <- setdiff(top, "Caesar, Julius (NA-NA)")
 topa <- top
-
-#dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
-#	       	  		  from = "Standard", to = "Name")$name
-#dfs <- dfs %>% filter(gatherings %in% c("folio", "octavo"))
 dfs <- dfs %>% filter(author %in% topa) %>%
        	   filter(!is.na(author_birth) & !is.na(author_death))
 dfs <- dfs %>%
@@ -225,18 +221,20 @@ print(p)
 
 The current country of origin is indicated.
 
-```{r 20151023LIBER-8, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=8}
+```{r 20151023LIBER-8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
+df <- df.preprocessed
 theme_set(theme_bw(20))
 top <- names(rev(sort(table(df$publication_place))))[1:50]
 dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_place) %>% summarize(titles = n(), paper = sum(paper.consumption.km2, na.rm = T))
 dfs$country <- get_country(dfs$publication_place)$country
 dfs$usa <- dfs$country == "USA"
-p <- ggplot(dfs, aes(x = log10(titles), y = log10(paper)))
+p <- ggplot(dfs, aes(x = titles, y = paper))
 p <- p + geom_text(aes(label = publication_place, color = usa), size = 5)
-p <- p + xlim(c(1.2, log10(max(na.omit(dfs$titles[!is.infinite(dfs$titles)])))))
+#p <- p + xlim(c(1.2, max(na.omit(dfs$titles[!is.infinite(dfs$titles)]))))
 p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
 p <- p + scale_color_manual(values = c("darkgray", "black"))
 p <- p + guides(color = "none")
+p <- p + scale_x_log10() + scale_y_log10() 
 p <- p + ggtitle("Title count versus paper (places)")
 print(p)	 
 ```
@@ -257,6 +255,7 @@ df2 <- df.preprocessed %>%
 
 p1 <- ggplot(df2, aes(x = country, y = docs)) + geom_bar(stat = "identity") + ggtitle("Title count") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Documents") + xlab("")
 p2 <- ggplot(df2, aes(x = country, y = paper)) + geom_bar(stat = "identity") + ggtitle("Paper consumption") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Paper (km2)") + xlab("")
+library(gridExtra)
 grid.arrange(p1, p2, nrow = 1)
 ```        
 
@@ -429,7 +428,7 @@ dfs <- df.preprocessed
 
 # 2long/2fo/2small -> folio; 8vo -> octavo
 dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
-	       	  		from = "Standard", to = "Name")$name
+	       	  		from = "Standard", to = "Name")
 dfs <- dfs %>% filter(author %in% topa &
 	        gatherings %in% c("folio", "octavo")) %>%
 	 group_by(author, gatherings) %>%
