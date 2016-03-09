@@ -11,6 +11,7 @@ output: markdown_document
 library(stringr)
 library(bibliographica)
 library(estc)
+library(dplyr)
 #df.orig <- read_bibliographic_metadata("estc.history.csv.gz", verbose = TRUE)
 #df <- read.csv(file = "estc.history.csv.gz", sep = "|")
 #df <- read.csv(file = "estc-LIBER20151023-backup.csv", sep = "|")
@@ -18,9 +19,10 @@ library(estc)
 
 # Read the preprocessed data
 df <- readRDS("estc.history.Rds")
-timespan <- c(1470-1830)
+timespan <- c(1470, 1830)
+
 df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
-df.preprocessed <- df
+df <- df.preprocessed
 ```
 
 This document provides a reproducible summary of the ESTC history data set (roughly 50,000 documents) as prepared for our [Liber Quarterly article](http://liber.library.uu.nl/index.php/lq) ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions. The figures may be slightly different than in the original article due to improvements in the analysis pipeline.
