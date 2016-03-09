@@ -13,8 +13,6 @@
     pages_per_part tmp <- estimate_document_parts(df.orig) df <-
     cbind(df, tmp)
 
-  * ESTC-tunnistenumero mukaan otettaviin tietoihin
-
   * Try rOpenSci/GenderizeR R package and also [babynames
     package](https://github.com/hadley/babynames)
 
