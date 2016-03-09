@@ -1,14 +1,7 @@
 ## TODO
 
-### To prioritize
 
-Kuvat
-[Liberistä](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
-eri näköisiä kuin aikaisemmin. Varmaan siis ottaa mukaan laskuihin nyt
-dataa laajemmin. mm. negatiivisia paperinkulutusvuosia mukana!
-
-
-### Technical
+## Technical
 
   * Try rOpenSci/GenderizeR R package and also [babynames
     package](https://github.com/hadley/babynames)
