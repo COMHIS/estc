@@ -1,10 +1,6 @@
 ## TODO
 
-
-## Technical
-
-  * Try rOpenSci/GenderizeR R package and also [babynames
-    package](https://github.com/hadley/babynames)
+### Technical
 
   * sheet-size keskiarvo niistä joille mitat tiedossa (nyt vasta
     pagecount tehty). käytä sitten keskiarvoa (ei taulukkoarvoa)
@@ -18,6 +14,9 @@
     cbind(df, tmp)
 
   * ESTC-tunnistenumero mukaan otettaviin tietoihin
+
+  * Try rOpenSci/GenderizeR R package and also [babynames
+    package](https://github.com/hadley/babynames)
 
 
 ### Analysis
