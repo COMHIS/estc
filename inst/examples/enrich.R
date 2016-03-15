@@ -5,14 +5,14 @@ dim.orig <- df.preprocessed[, c("gatherings.original", "width.original", "height
 names(dim.orig) <- gsub("\\.original$", "", names(dim.orig))
 
 # Estimating missing dimension info straight from data.
-# TODO: compare to our ready made sheets
+# TODO: compare to our ready made sheets -> there are differences, why ???
 # TODO: store the estimates as table
 # TODO: augment values that still remain missing, using our ready made sheet
 # TODO: Later, also account for year and publication place if feasible
 #       as the sizes may vary
 # Averages from original data
 source("mean.dimensions.R") # -> dim.estimates
-write.table(dim.estimates, sep = ",", row.names = F, file = paste(output.folder, "sheetsize_means.csv", sep = "/"))
+write.table(dim.estimates, sep = ",", row.names = F, file = paste(output.folder, "sheetsize_means.csv", sep = "/"), quote = FALSE)
 
 # Ready-made custom sheets
 #dim.info <- dimension_table()
