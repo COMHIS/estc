@@ -23,6 +23,23 @@ source("forby.R") # Modify freely
 # Polish the publisher field
 pub <- polish_publisher_forby(df.orig$publisher)
 
+# Write summaries:
+## Publishers ordered from most to least common
+tmp <- write_xtable(pub, file = "publisher_forby_accepted.csv")
+
+## Discarded fields
+disc <- df.orig$publisher[which(is.na(pub))]
+tmp <- write_xtable(disc, file = "publisher_forby_discarded.csv")
+
+## Conversions from raw to final version
+tab <- data.frame(original = df.orig$publisher, final = pub)
+tab <- tab[which(!tab$original == tab$final),] # Remove trivial conversions
+tmp <- write_xtable(tab, file = "publisher_forby_conversions.csv")
+
+
+
+
+
 
 
 
