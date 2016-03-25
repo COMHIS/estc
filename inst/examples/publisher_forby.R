@@ -17,7 +17,12 @@ library(bibliographica)
 # Read the raw data
 df.orig <- read_bibliographic_metadata(source.data.file)
 
+# Load the polishing function
+source("forby.R") # Modify freely
+
 # Polish the publisher field
-pub <- estc::polish_publisher_forby(df.orig$publisher)
+pub <- polish_publisher_forby(df.orig$publisher)
+
+
 
 
