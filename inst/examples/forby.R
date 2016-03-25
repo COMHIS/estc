@@ -35,16 +35,19 @@ polish_publisher_forby <- function (x) {
   # by orders of magnitude
   x <- xh$name
   xfor <- pick_print_fields(x, " printed for")
-  xby <- pick_print_fields(x, " printed by")
+
+  # Some error
+  #xby <- pick_print_fields(x, " printed by")
 
   # List the remaining polished entries where "print for" or "print by" 
   # statements were not found 
   x <- condense_spaces(x)
   x[x == ""] <- NA
   xrest <- x
-  xrest[which(!is.na(xfor) | !is.na(xby))] <- NA
+  #xrest[which(!is.na(xfor) | !is.na(xby))] <- NA
+  xrest[which(!is.na(xfor))] <- NA  
 
-  res <- list(printedfor = xfor, printedby = xby, rest = xrest)
+  res <- list(printedfor = xfor, rest = xrest)
 
   as.data.frame(res)
  

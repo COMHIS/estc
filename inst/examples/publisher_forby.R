@@ -27,13 +27,12 @@ pub <- polish_publisher_forby(df.orig$publisher)
 ## Publishers ordered from most to least common
 tmp <- write_xtable(pub, file = "publisher_forby_accepted.csv")
 
-## Discarded fields
-disc <- df.orig$publisher[which(is.na(pub))]
+## Discarded fields: those where no output is generated
+disc <- df.orig$publisher[rowSums(is.na(pub) | is.null(pub)) == ncol(pub)]
 tmp <- write_xtable(disc, file = "publisher_forby_discarded.csv")
 
 ## Conversions from raw to final version
-tab <- data.frame(original = df.orig$publisher, final = pub)
-tab <- tab[which(!tab$original == tab$final),] # Remove trivial conversions
+tab <- cbind(original = df.orig$publisher, pub)
 tmp <- write_xtable(tab, file = "publisher_forby_conversions.csv")
 
 
