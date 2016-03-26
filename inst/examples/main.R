@@ -18,7 +18,7 @@ source("filtering.R") # -> df.orig
 
 # Preprocess raw data
 source("preprocessing.R") # -> df.preprocessed
-load("df.preprocessed.RData")
+df.preprocessed <- readRDS("df0.Rds")
 
 # Validating and fixing fields
 source("validation.R")
