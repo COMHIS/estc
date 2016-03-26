@@ -21,19 +21,20 @@ df.orig <- read_bibliographic_metadata(source.data.file)
 source("forby.R") # Modify freely
 
 # Polish the publisher field
+# TODO Printed by to be added
 pub <- polish_publisher_forby(df.orig$publisher)
 
 # Write summaries:
 ## Publishers ordered from most to least common
-tmp <- write_xtable(pub, file = "publisher_forby_accepted.csv")
+tmp <- write_xtable(pub$printedfor, file = "publisher_for_accepted.csv", count = TRUE)
 
 ## Discarded fields: those where no output is generated
 disc <- df.orig$publisher[rowSums(is.na(pub) | is.null(pub)) == ncol(pub)]
-tmp <- write_xtable(disc, file = "publisher_forby_discarded.csv")
+tmp <- write_xtable(disc, file = "publisher_discarded.csv")
 
 ## Conversions from raw to final version
 tab <- cbind(original = df.orig$publisher, pub)
-tmp <- write_xtable(tab, file = "publisher_forby_conversions.csv")
+tmp <- write_xtable(tab, file = "publisher_conversions.csv")
 
 
 
