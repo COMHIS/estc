@@ -15,7 +15,7 @@ library(magrittr)
 author <- "Leo Lahti"
 ntop <- 20
 timespan <- c(1460, 1830)
-datafile <- "estc.Rds"
+datafile <- "df.Rds"
 output.folder <- "output.tables/"
 
 # ---------------------------------
