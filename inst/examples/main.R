@@ -6,24 +6,24 @@ output.folder <- "output.tables/"
 fs <- "estc.csv.gz"
 
 # Remove selected fields
-ignore.fields <- c("title_uniform", "title_uniform2")) # ESTC
-#ignore.fields <- c("publication_frequency", "publication_interval")) # CERL
+ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
 
 # ----------------------------------------------------
 
-source(system.file("inst/extdata/init.R", package = "bibliographica"))
+reload.data <- TRUE
+source(system.file("extdata/init.R", package = "bibliographica"))
 
 # ----------------------------------------------------
 
-source(system.file("inst/extdata/preprocessing.R", package = "bibliographica"))
+source(system.file("extdata/preprocessing.R", package = "bibliographica"))
 
 # ----------------------------------------------------
 
-source(system.file("inst/extdata/validation.R", package = "bibliographica"))
+source(system.file("extdata/validation.R", package = "bibliographica"))
 
 # -----------------------------------------------------
 
-source(system.file("inst/extdata/enrich.R", package = "bibliographica"))
+source(system.file("extdata/enrich.R", package = "bibliographica"))
 source("enrich.estc.R")
 
 # ----------------------------------------------------
