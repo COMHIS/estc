@@ -1,24 +1,24 @@
 Name	Count
-Total count: 	n=36279 (100% non-NA values)
+Total count: 	n= 35887  ( 100 % non-NA values)
 Voltaire	639
 Christie	616
-More, Hannah	435
+More, Hannah	441
 Ovid	413
 Horace.	322
 Virgil.	285
-Aesop.	273
+Aesop.	274
 Lady.	238
 Homer.	222
 James	201
 Fénelon, François de Salignac de La Mothe-	194
-Terence.	168
+Terence.	169
 J. S.	167
 R. B.	160
 M. P.	157
 Person of quality.	150
 J. B.	146
 L. P.	138
-Plutarch.	135
+Plutarch.	136
 T. W.	134
 A. B.	131
 Gerard	130
@@ -38,16 +38,15 @@ Oldmixon	100
 Gentleman.	 95
 Juvenal.	 91
 Day, Thomas	 91
-Wilkes, John	 90
 Layman.	 90
-R. F.	 88
+R. F.	 89
 Junius	 88
 Fly.	 88
 Rapin de Thoyras	 86
 Pratt	 85
 Country gentleman.	 84
+J. W.	 83
 John	 83
-J. W.	 82
 J. H.	 82
 Henry	 82
 Citizen.	 82
@@ -61,7 +60,7 @@ Frederick	 77
 Barbauld	 77
 Epictetus.	 76
 R. H.	 74
-Philalethes.	 72
+Philalethes.	 73
 N. N.	 72
 Erra Pater.	 72
 Eutropius	 70
@@ -74,7 +73,6 @@ England and Wales.	 66
 Demosthenes.	 66
 Inchbald	 65
 More, Henry	 64
-Middleton, Thomas	 63
 Scott	 62
 R. G.	 62
 Leprince de Beaumont	 62
@@ -84,8 +82,8 @@ Raynal	 60
 Theobald	 59
 Sophocles.	 59
 Jerningham	 59
+England. Parliament	 58
 Pliny	 57
-England. Parliament	 57
 J. D.	 56
 Clergyman of the Church of England.	 56
 Vertot	 55
@@ -108,10 +106,10 @@ Smith	 48
 Englishman.	 48
 Aristotle.	 48
 Young lady.	 47
+R. A.	 47
+More, Thomas	 47
 Lover of his country.	 47
 Gentleman in the country.	 47
-R. A.	 46
-More, Thomas	 46
 Longinus	 46
 Chapone	 46
 W. S.	 45
@@ -147,6 +145,7 @@ N. L.	 36
 M. S.	 36
 Lover of truth.	 36
 Crown	 36
+Welsted	 35
 Pilkington	 35
 More, Sarah	 35
 Molière	 35
@@ -155,7 +154,6 @@ Godfridus.	 35
 Friend.	 35
 Freeman.	 35
 Young gentleman.	 34
-Welsted	 34
 T. P.	 34
 Hoadly	 34
 Griffith	 34
@@ -168,13 +166,13 @@ Member of the House of Commons.	 33
 Gomez	 33
 Charles I	 33
 Tickell	 32
+Marcus Aurelius	 32
 H. W.	 32
 G. L.	 32
 Gentleman of the Middle Temple.	 32
 Day, John	 32
 Argens	 32
 A. M.	 32
-Marcus Aurelius	 31
 W. R.	 30
 R. M.	 30
 R. F. H.	 30
@@ -183,8 +181,10 @@ J. L.	 30
 G. H.	 30
 Augustine	 30
 Saint-Evremond	 29
+R. T.	 29
 Prior, Thomas	 29
 Person of honour.	 29
+Lover of their precious souls.	 29
 J. R.	 29
 J. A.	 29
 Hippocrates.	 29
@@ -194,7 +194,6 @@ A. T.	 29
 Anacreon.	 29
 T. G.	 28
 T. D.	 28
-R. T.	 28
 Prévost	 28
 Gentleman of the Inner-Temple.	 28
 Buffon, Georges Louis Leclerc	 28
@@ -202,14 +201,12 @@ T. L.	 27
 Suetonius	 27
 Rupert	 27
 Merchant.	 27
-Lover of their precious souls.	 27
 D. W.	 27
 Country Curate.	 27
 W. G.	 26
 S. S.	 26
 R. P.	 26
 Officer.	 26
-Newton, William	 26
 Marshall	 26
 Marguerite	 26
 Lucan	 26
@@ -229,11 +226,13 @@ Chevrier	 25
 Theocritus.	 24
 Rowson	 24
 M. B.	 24
+G. T.	 24
 Gresset	 24
 E. S.	 24
 Colvill	 24
 Charles II	 24
 Charles Edward	 24
+C. D.	 24
 Britannicus.	 24
 A. C.	 24
 W. M.	 23
@@ -244,16 +243,14 @@ Publicola.	 23
 Plain Man.	 23
 Pinchard, Elizabeth Sibthorpe.	 23
 M.	 23
-G. T.	 23
 E. W.	 23
 Elector.	 23
 Desaguliers, J. T.	 23
-C. D.	 23
 Alexander	 23
 Addison	 23
+S. C.	 22
 Saint-Foix	 22
 R. E.	 22
-Phillips, John	 22
 Parsons	 22
 Mouhy, Charles de Fieux	 22
 Metonicus.	 22
@@ -265,8 +262,8 @@ D. T.	 22
 Country clergyman.	 22
 Beckingham	 22
 Auborn, A. d'.	 22
+T. M.	 21
 T. J.	 21
-S. C.	 21
 Restif de La Bretonne	 21
 Mallet du Pan	 21
 Irishman.	 21
@@ -281,7 +278,6 @@ Barthélemy, J.-J.	 21
 W. L.	 20
 Wise	 20
 Voiture	 20
-T. M.	 20
 St. John, Pawlet	 20
 Poor Adam	 20
 Pindar.	 20
@@ -297,6 +293,7 @@ Veritas.	 19
 S. M.	 19
 Plautus, Titus Maccius.	 19
 P. B.	 19
+John Chrysostom	 19
 Helvétius	 19
 H. B.	 19
 Havard	 19
@@ -314,7 +311,6 @@ Merchant of London.	 18
 Manning	 18
 L. W.	 18
 La Serre	 18
-John Chrysostom	 18
 Jeanne	 18
 Hughes	 18
 How, Samuel.	 18
@@ -335,6 +331,7 @@ Helvétius	 17
 Harris	 17
 Ford	 17
 E. B.	 17
+D. S.	 17
 C. P.	 17
 Bythner, Victorinus	 17
 Boethius	 17
@@ -361,17 +358,16 @@ Gentleman in London.	 16
 Galen.	 16
 Fourcroy	 16
 English gentleman.	 16
-D. S.	 16
 Deslandes	 16
 D. B.	 16
 Citizen of Edinburgh.	 16
 B. R.	 16
 Bellegarde	 16
 Aeschines.	 16
+Thucydides.	 15
 S. H.	 15
 Pius	 15
 P. C.	 15
-Mason, William	 15
 Mably	 15
 Liveryman.	 15
 J. N.	 15
@@ -384,6 +380,7 @@ G. F.	 15
 Gentleman in Edinburgh.	 15
 E. R.	 15
 Elie de Beaumont	 15
+E. G.	 15
 E. C.	 15
 D. R.	 15
 Delpini	 15
@@ -393,11 +390,9 @@ Boccalini, Traiano	 15
 Author of The practical scheme.	 15
 W. J.	 14
 T. V.	 14
-Thucydides.	 14
 Tertullian	 14
 S. P.	 14
 Shipton	 14
-Palmer, Samuel	 14
 Ordinary of Newgate.	 14
 N. S.	 14
 Minister of the Gospel.	 14
@@ -418,7 +413,6 @@ Gentleman of Cambridge.	 14
 Gaultier	 14
 Friend to the Constitution.	 14
 Experienced surveyor.	 14
-E. G.	 14
 Donatus, Aelius.	 14
 De Luzancy, H. C.	 14
 C. H.	 14
@@ -426,7 +420,6 @@ Catharine Parr	 14
 Burke	 14
 Bowdler	 14
 Apollonius	 14
-Alexander, William	 14
 A. D.	 14
 William Winstanley	 13
 Vincent	 13
@@ -437,6 +430,7 @@ S. B.	 13
 S. A. I.	 13
 Rosslyn, Alexander Wedderburn	 13
 Quintilian.	 13
+Prévost	 13
 P. K.	 13
 Philidor, F. D.	 13
 One of the people.	 13
@@ -450,7 +444,6 @@ Jenkinson, Charles	 13
 I. P.	 13
 Ibn Ṭufayl, Muḥammad ibn ʿAbd al-Malik	 13
 H. P.	 13
-Horton, Thomas	 13
 Herodotus.	 13
 H. D.	 13
 George	 13
@@ -478,7 +471,6 @@ Sailor.	 12
 Puisieux	 12
 P. S.	 12
 Private gentleman.	 12
-Prévost	 12
 Practitioner in the law.	 12
 Philadelphus.	 12
 Mouffle d'Angerville	 12
@@ -496,7 +488,6 @@ Gentleman at Edinburgh.	 12
 Free citizen.	 12
 E. M.	 12
 Duguet	 12
-Crowe, William	 12
 Church of England.	 12
 Anville, Jean Baptiste Bourgignon d'	 12
 Anne	 12
@@ -515,7 +506,6 @@ Odell	 11
 N. D.	 11
 N. C.	 11
 Muralt, Béat Louis de	 11
-Morgan, Thomas	 11
 Moreau de Saint-Méry, M. L. E.	 11
 M. D.	 11
 M. C.	 11
@@ -524,8 +514,6 @@ Manasseh ben Israel	 11
 Mallet Du Pan	 11
 J. V. C.	 11
 Jones	 11
-Jackson, John	 11
-Hollingworth, Richard	 11
 Heliodorus	 11
 G. M.	 11
 Gentleman of the University of Oxford.	 11
@@ -545,7 +533,6 @@ C.	 11
 Burlamaqui, J. J.	 11
 B. P.	 11
 Bede	 11
-Bagshaw, Edward	 11
 B. A.	 11
 B.	 11
 Artemidorus	 11
@@ -553,6 +540,7 @@ Apuleius.	 11
 Anonymus.	 11
 Ancourt	 11
 W.	 10
+Villars	 10
 Verax.	 10
 Truth.	 10
 True son of the Church of England.	 10
@@ -604,7 +592,6 @@ C. B.	 10
 Candidus.	 10
 Callières	 10
 Butler	 10
-Brown, Andrew	 10
 Boufflers	 10
 Boudier de Villemert, P.-J.	 10
 B. H.	 10
@@ -613,19 +600,17 @@ Basilius Valentinus.	 10
 Barrister at law.	 10
 Author of the Pastoral Letter.	 10
 A. P.	 10
-Allen, John	 10
 A. F.	 10
 Xenophon	  9
 Wright	  9
 Winchilsea, Anne Kingsmill Finch	  9
 William III	  9
 Volunteer.	  9
-Villars	  9
 True lover of his country.	  9
 Thomson	  9
-Stoughton, William	  9
 Some, Robert	  9
 S. L.	  9
+S. G.	  9
 R. V.	  9
 Roland	  9
 R. J.	  9
@@ -638,6 +623,7 @@ Peter	  9
 Observator.	  9
 More, John	  9
 M. H.	  9
+Mayerne, Théodore Turquet de	  9
 L. W. C.	  9
 Lover of peace.	  9
 L'Homond, C. F.	  9
@@ -650,6 +636,7 @@ I. F.	  9
 Huffumbourghausen	  9
 H. T.	  9
 How, James	  9
+H. H.	  9
 G. W.	  9
 Gentlewoman.	  9
 Gentleman of the University of Cambridge.	  9
@@ -664,7 +651,6 @@ D. P.	  9
 Desfontaines	  9
 Cobler.	  9
 Blainville	  9
-Black, William	  9
 Bı̄dpāı̄.	  9
 Attorney at law.	  9
 Annandale, George Van den Bempdé	  9
@@ -674,7 +660,6 @@ True patriot.	  8
 Teresa	  8
 Stevens	  8
 Skinner, John	  8
-S. G.	  8
 Saint-Réal	  8
 Roger	  8
 Refuge	  8
@@ -688,9 +673,7 @@ N. E.	  8
 More, George	  8
 M.F.	  8
 Meusnier de Querlon, A.-G.	  8
-Mayerne, Théodore Turquet de	  8
 Marsom.	  8
-Marsh, Henry	  8
 Lucifer	  8
 Le Turc	  8
 La Mettrie, Julien Offray de	  8
@@ -701,7 +684,6 @@ Innocent	  8
 Honourable person.	  8
 Holford	  8
 H. M.	  8
-H. H.	  8
 Hewitt	  8
 Henry Frederick	  8
 Hearty lover of his prince and country.	  8
@@ -751,7 +733,6 @@ Seaman	  7
 S. E.	  7
 Sauseuil	  7
 Saint-Réal	  7
-Rogers, John	  7
 Robinson	  7
 Robin	  7
 Robert	  7
@@ -809,6 +790,7 @@ Fawcett	  7
 Eugene	  7
 England and Wales	  7
 Edward	  7
+E. A.	  7
 Du Noyer	  7
 Duhamel du Monceau	  7
 Downshire, Wills Hill	  7
@@ -832,10 +814,8 @@ Anglois.	  7
 Anghiera, Pietro Martire d'	  7
 Y. Z.	  6
 W. K.	  6
-Williams, William	  6
 Weddell	  6
 W. E.	  6
-Waller, William	  6
 Voter.	  6
 Vaumorière	  6
 Van Lier, Helperus Ritzema	  6
@@ -861,12 +841,10 @@ Philopatriae.	  6
 Philander Misaurus.	  6
 Philanax Misopapas.	  6
 Petronius Arbiter	  6
-Patten, William	  6
 Ozinde, J. B.	  6
 Officer on board the said ship	  6
 My friend a physician.	  6
 [Motteux, Peter]	  6
-Morgan, J.	  6
 Monitor.	  6
 Molloy	  6
 M. L.	  6
@@ -907,7 +885,6 @@ Feuillet, Raoul-Auger	  6
 Eye-witness.	  6
 Eye witness.	  6
 English Hand.	  6
-E. A.	  6
 Du Coudray	  6
 Dominiceti, Rhodomonte.	  6
 Dionis	  6
@@ -950,12 +927,12 @@ Young Gentleman	  5
 X. Z.	  5
 W. N.	  5
 Winterfield	  5
-Williams, John	  5
 Weaver.	  5
 Volunteer in the said expedition.	  5
 Vitruvius Pollio.	  5
 Vignacourt, Adrien de la Vieuville d'Orville	  5
 Vauban, Sébastien Le Prestre de	  5
+Vadé	  5
 Unbiassed Irishman.	  5
 Tribunus Populi.	  5
 T. K.	  5
@@ -975,7 +952,6 @@ Scotland.	  5
 Salvian	  5
 Saʿdī.	  5
 S. A.	  5
-Roberts, William	  5
 Raymond	  5
 Rambach, J. J.	  5
 R.	  5
@@ -1002,6 +978,7 @@ Odingsells	  5
 Obscure individual.	  5
 N. P.	  5
 Nicholson	  5
+NEWSBOOKS - Numbered and dated Newsbooks.	  5
 Necks	  5
 Mustapha.	  5
 More, William	  5
@@ -1054,7 +1031,6 @@ Horatio.	  5
 Honest free-thinker.	  5
 Hepburn	  5
 Hengler	  5
-Harris, John	  5
 Ḥāfiẓ	  5
 Great Britain.	  5
 Graglia, G. A.	  5
@@ -1066,7 +1042,6 @@ Gentleman of quality.	  5
 Gentleman in Dublin.	  5
 Gentleman at the Hague.	  5
 Gentleman at London	  5
-Gardiner, James	  5
 Galfridus	  5
 G. A.	  5
 F. W.	  5
@@ -1111,6 +1086,7 @@ Benedetto	  5
 Bellers, Fettiplace	  5
 Baudouin de Guémadeuc	  5
 Barclay	  5
+Barbeu Du Bourg	  5
 Author of The way of living in a method and by rule.	  5
 Author of The index-writer.	  5
 Author of Leheup's Ballad.	  5
@@ -1128,7 +1104,6 @@ Aelianus	  5
 Zenobio	  4
 Young lady of quality.	  4
 Yeoman of Kent.	  4
-Wood, William	  4
 Woodford	  4
 Wood	  4
 Williams	  4
@@ -1140,7 +1115,6 @@ Walachian.	  4
 Wagstaff	  4
 Voisenon, Claude Henri de Fusée de	  4
 Vindex.	  4
-Vadé	  4
 Unworthy servant and subject of Jesus Christ.	  4
 True lover of the Queen and country.	  4
 Troil, Uno von	  4
@@ -1239,13 +1213,10 @@ La Roche-Guilhen	  4
 Lady of distinction.	  4
 La Chapelle	  4
 Kristina	  4
-Knox, John	  4
 Kent	  4
 Juvenis.	  4
 Juvenis	  4
-Johnson, Robert	  4
 Jesus Christ.	  4
-Jenkins, Joseph	  4
 Jean	  4
 Inhabitant of Edinburgh.	  4
 Inhabitant.	  4
@@ -1265,7 +1236,6 @@ Henrietta Maria	  4
 Henniker, John Henniker-Major	  4
 H. E.	  4
 Hawtin	  4
-Harrison, John	  4
 Hanley.	  4
 H.	  4
 Guymond de la Touche	  4
@@ -1367,7 +1337,6 @@ Beauvais.	  4
 Bastingius, Jeremais	  4
 Barrister of the Middle Temple.	  4
 Bar Hebraeus	  4
-Barbeu Du Bourg	  4
 Bacon	  4
 Auvigny	  4
 Author of the Explanation of the vision to Ezekiel.	  4
@@ -1407,14 +1376,12 @@ Well-minded petitioner for peace and truth.	  3
 Way	  3
 Water Poet	  3
 Warner	  3
-Ward, John	  3
 Volunteer in the Expedition to the Coast of France.	  3
 Visiter of the Sick Man's Friend.	  3
 Virginian.	  3
 Vigor	  3
 Vertaul.	  3
 Vertamont	  3
-Vernon, Edward	  3
 Vauban, Sébastien Le Prestre de	  3
 Van Clauturbank, Waltho.	  3
 Valerius Maximus.	  3
@@ -1537,7 +1504,7 @@ Officer of the Fleet.	  3
 Officer in the King's army.	  3
 Nicolle de La Croix	  3
 N. F.	  3
-NEWSBOOKS - Numbered and dated Newsbooks.	  3
+NEWSBOOKS - Amsterdam, 1633.	  3
 Newburgh, Brockhill.	  3
 Nestor.	  3
 Neptune.	  3
@@ -1729,7 +1696,6 @@ Eminent divine.	  3
 Elmy	  3
 Eliazar Bar-Isajah.	  3
 E. I.	  3
-Edwards, Thomas	  3
 Edmund	  3
 Editor.	  3
 Edgworth, Packington.	  3
@@ -1806,7 +1772,6 @@ Camillus.	  3
 Bungey	  3
 B. S.	  3
 Bruele, Gualtherus.	  3
-Brown, Thomas	  3
 Brother freeholder.	  3
 Brossais du Perray.	  3
 [Bronsdon, Isabella].	  3
@@ -2106,6 +2071,7 @@ Roeslin, Eucharius	  2
 Robson	  2
 Rievethal, I. G.	  2
 Rickart, James Hepburn.	  2
+Richardson	  2
 Richards	  2
 R. I.	  2
 Rhodokanakēs, Kōnstantinos	  2
@@ -2137,6 +2103,7 @@ Querist.	  2
 Q.	  2
 Pyrrhys	  2
 Puente	  2
+P.T.	  2
 Prudent Le Choyselat	  2
 Protestant that is for liberty of conscience to all perswasions.	  2
 Protestant of the Church of England.	  2
@@ -2324,7 +2291,6 @@ Nield.	  2
 Nicholls	  2
 Nicholas	  2
 N. F. G.	  2
-NEWSBOOKS - Amsterdam, 1633.	  2
 Neveau, J. Fr.	  2
 [Nevay, Elisabeth]	  2
 Neighbour.	  2
@@ -2353,7 +2319,6 @@ Mouhy	  2
 Most learned lawyer.	  2
 Morritt, John B. S.	  2
 Morris	  2
-Morley, Thomas	  2
 Morgan	  2
 More, Stephen.	  2
 More, Samuel	  2
@@ -2493,7 +2458,6 @@ Little Momus.	  2
 Lion.	  2
 Lintot, Catherine Cailleau	  2
 Lindsey	  2
-Lilly, William	  2
 Liberty	  2
 L'Hospital	  2
 L. F.	  2
@@ -2617,9 +2581,9 @@ I. K.	  2
 I. J.	  2
 Ignotus	  2
 Ibrahim	  2
+Ibraham Ali Mahomed Hafez.	  2
 Hywgi ap Englyn Margonwc.	  2
 Hypodidascalus.	  2
-Hutchinson, William	  2
 Hurry	  2
 Huron.	  2
 Hugh	  2
@@ -2760,6 +2724,7 @@ Funnidos, Rigdum.	  2
 F. S. G. W. D. B.	  2
 F.S.	  2
 Friend to the truth.	  2
+Friend to the publique.	  2
 Friend to the publick.	  2
 Friend to the Profession.	  2
 Friend to the people.	  2
@@ -2806,6 +2771,7 @@ Foreigner.	  2
 Flexiensis.	  2
 Fleming	  2
 F. J.	  2
+Fitch, John	  2
 Firebrass, Aminadab.	  2
 Firdawsī.	  2
 Fiorimondo, A. B.	  2
@@ -2933,7 +2899,6 @@ Curate of the Established Church.	  2
 Curate of Mullavilly.	  2
 Cubières-Palmézeaux	  2
 C. U.	  2
-Crouch, Nathaniel	  2
 Crito.	  2
 Crito	  2
 Cresswick	  2
@@ -2969,7 +2934,6 @@ Clericus Gallicanus.	  2
 Clergyman of the Church of Scotland.	  2
 Clergyman in the Diocese of Salisbury.	  2
 Cleaner of faded portraits.	  2
-Clarke, John	  2
 Clare	  2
 Civilian.	  2
 Citizen of York.	  2
@@ -3031,6 +2995,7 @@ Brossais Du Perray.	  2
 Brooksbank, John [i.e., Joseph]	  2
 British sailor.	  2
 British Officer now in Germany.	  2
+British Officer in the Service of the Czar.	  2
 Braxfield, Robert Macqueen	  2
 Brady.	  2
 Bracciolini, Poggio	  2
@@ -3295,7 +3260,6 @@ W. S. F. C.	  1
 [W. S.	  1
 Writer of a letter to that gentleman	  1
 Writer.	  1
-Wright, Thomas	  1
 Wrighten	  1
 Wrighte	  1
 Wr-ght, S-ms-n.	  1
@@ -3498,7 +3462,6 @@ Weiler	  1
 Weeks	  1
 [Weeitman, Matthias]	  1
 Weedonian bard.	  1
-Webster, Samuel	  1
 W. E. B. J.	  1
 Webb.	  1
 Weaver at Norwich.	  1
@@ -3716,6 +3679,7 @@ True Lover of Truth and Justice.	  1
 True Lover of the People.	  1
 True lover of the orthodox clergie.	  1
 True Lover of the Monarchy and Church of England.	  1
+True lover of the monarchy and Church of England.	  1
 True lover of the constitution.	  1
 True lover of the church, the King, and His country.	  1
 True lover of the church and country.	  1
@@ -3989,7 +3953,6 @@ Stmitrk	  1
 Stibbert	  1
 S., Tho.	  1
 S. T. G.	  1
-Stephens, Edward	  1
 Stephanus Scriblerus.	  1
 Steill	  1
 [Steevens, Rebeckah]	  1
@@ -4031,6 +3994,7 @@ Speciall hand.	  1
 S. P. D.	  1
 Sparkes	  1
 Spanish merchant at Amsterdam.	  1
+Spanish Language.	  1
 Spanish Gentleman in Philadelphia.	  1
 Spaniard in London.	  1
 Spagnuoli, Baptista, Mantuanus	  1
@@ -4110,6 +4074,7 @@ Skarum, Harum.	  1
 S., Joh.	  1
 Sizar.	  1
 Sixtus, Quartus Quintus.	  1
+Sixtus IV	  1
 Sixtus	  1
 [Sitwell, Elkanah]	  1
 Sister Peg.	  1
@@ -4155,7 +4120,6 @@ S[impson], T[homas]	  1
 [Simpson James	  1
 Simplex.	  1
 Simple layman.	  1
-Simon, Richard	  1
 Simēon	  1
 Silex.	  1
 Silent Senator.	  1
@@ -4168,6 +4132,7 @@ Shoreditch	  1
 Shop-keeper in Dublin.	  1
 Shopkeeper.	  1
 Shone ap Morgan ap Shenkin ap Howell, &c.	  1
+Sh-------n, T----s.	  1
 Shilock	  1
 Shepherd's Kalendar.	  1
 Shepherd.	  1
@@ -4184,6 +4149,7 @@ S., G.	  1
 Sextus	  1
 [Sewers, John]	  1
 Sewel	  1
+Severus Alexander	  1
 Several well-wishers to our settlement.	  1
 Several eminent divines.	  1
 Several able pilots and coasters.	  1
@@ -4258,6 +4224,7 @@ Scotch-man.	  1
 Scotch Gentleman.	  1
 [Scotcher, Richard]	  1
 [Scoldwell, Charles]	  1
+[Schuyl, Frans]	  1
 Schulz	  1
 Schüler in der Uebung dieser Gemüths-Ruhe in Gott.	  1
 Schüler der geheimen in Gott verborgenen Gebäts-Andacht.	  1
@@ -4313,6 +4280,7 @@ Sanchoniathon.	  1
 Sanat	  1
 Samuel Slitsleeves.	  1
 Samuda, Ishac de Sequeyra	  1
+Sam G.	  1
 Same sollicitor that drew up the petition for the ladies.	  1
 Same hand as wrote Vox populi.	  1
 Same free burgess.	  1
@@ -4407,10 +4375,8 @@ Rodoginus, Irenaeus.	  1
 [Rockville, Alexander Gordon]	  1
 Rockingham.	  1
 Ro. Bl.	  1
-Robinson, John	  1
 Robertson.	  1
 Robertson	  1
-Roberts, John	  1
 Roberts.	  1
 [Robert Hall	  1
 [Robert	  1
@@ -4561,12 +4527,12 @@ Punchinello.	  1
 Punchanello	  1
 Pullen	  1
 [Pujolas, J]	  1
+Pughe, W. Owen	  1
 [Puech, James]	  1
 Publilius Syrus	  1
 Public Spirited Cobler of Hampton-Wick.	  1
 Publiciste.	  1
 Ptolomy	  1
-P.T.	  1
 P. T.	  1
 P-st of the D-ss of K-e.	  1
 Pseudonymous.	  1
@@ -5127,6 +5093,7 @@ Origenes.	  1
 Orient.	  1
 Orestes.	  1
 Order.	  1
+Orbilius	  1
 Orbans	  1
 Oraculous Ship.	  1
 O. R.	  1
@@ -5210,6 +5177,7 @@ One of the subscribing ministers.	  1
 One of the Sons of Levi.	  1
 One of the secretaries to the Inquisition.	  1
 One of the same sex.	  1
+One of the same prisoners.	  1
 One of the Queen's Council.	  1
 One of the Publick.	  1
 One of the profession.	  1
@@ -5265,6 +5233,7 @@ One in the service of the republique.	  1
 One in the Secret.	  1
 One in the county of Tiviotdale.	  1
 One in the country.	  1
+One Clergy-Man.	  1
 One Called a Low-church-man.	  1
 One at present in the furnace.	  1
 One.	  1
@@ -5533,9 +5502,9 @@ New phœnomenon in politics.	  1
 Newman.	  1
 Newman	  1
 Newly Elected Member.	  1
+Newham	  1
 New fashion'd poet.	  1
 New-England man.	  1
-Newcomb, Thomas	  1
 New Chapel	  1
 [Newal, John]	  1
 New adventurer.	  1
@@ -5651,6 +5620,7 @@ More, Edward	  1
 More, Charles McCarthy	  1
 More, Archibald	  1
 [More, Alexander]	  1
+Mordecai	  1
 Moonraker.	  1
 Moody	  1
 Monzani, Tebaldo	  1
@@ -5978,6 +5948,7 @@ Maugard, (Antoine)	  1
 Maubach.	  1
 Matt of the Mint.	  1
 Matthews	  1
+Matthêus	  1
 Matross of said fort	  1
 Matrimony	  1
 Matius.	  1
@@ -6584,6 +6555,7 @@ Jumel	  1
 Jullion, Paul Eurialius.	  1
 Julian.	  1
 Juif d'Amsterdam.	  1
+Judith.	  1
 Judicabilis.	  1
 Judge	  1
 Judex	  1
@@ -6604,7 +6576,6 @@ Journeyman baker.	  1
 Jotham.	  1
 Josippon	  1
 Jordan	  1
-Jones, David	  1
 Jonas	  1
 Jolley	  1
 John Thomson's man.	  1
@@ -6782,6 +6753,7 @@ Independant proprietor.	  1
 Independant liveryman.	  1
 [Independant liveryman.]	  1
 Independant elector.	  1
+Independant citizen.	  1
 Independant burgess.	  1
 Incognitus.	  1
 Incognito.	  1
@@ -7096,6 +7068,7 @@ Grandval, Nicolas Ragot de	  1
 Grand-Syre Gray-Beard	  1
 Grand mistress of the female free-masons.	  1
 [Grammer Goodwill	  1
+[Grahame, Nicol]	  1
 Graduate of the University of Cambridge.	  1
 Graduate of the University.	  1
 Graduate of Oxford.	  1
@@ -7278,6 +7251,7 @@ Gentleman of Aberdeen.	  1
 Gentleman now residing there.	  1
 Gentleman now resident in the court of Spaine.	  1
 Gentleman now in necessity.	  1
+Gentleman not concern'd.	  1
 Gentleman no professed author but a lover of history and of the theatre.	  1
 Gentleman near Kelso.	  1
 Gentleman Long Resident in Jamaica.	  1
@@ -7399,7 +7373,6 @@ Gaultier Garguille	  1
 [Garrioch, Margaret].	  1
 Garnsey.	  1
 Garengeot, René-Jacques Croissant de	  1
-Gardiner, James.	  1
 Gardener twenty miles east from London.	  1
 Garde national.	  1
 Garcelli, Cassumo	  1
@@ -7449,7 +7422,6 @@ Friend to the Rockingham Party.	  1
 Friend to the Rights of the Constitution.	  1
 Friend to the Reverend Mr. Hussey.	  1
 Friend to the revenue.	  1
-Friend to the publique.	  1
 Friend to the Protestant interest.	  1
 Friend to the Protestant establishment in Church and State.	  1
 Friend to the Prosperity of the British Empire.	  1
@@ -7559,6 +7531,7 @@ Friend to British liberty.	  1
 Friend to Britain and the Navy.	  1
 Friend to Bowes.	  1
 Friend to both true churches and preachers.	  1
+[Friend to both]	  1
 Friend to a tradesman.	  1
 Friend to an uncorrupt government.	  1
 Friend to all parties.	  1
@@ -8070,7 +8043,6 @@ Dunning	  1
 Dunkirk.	  1
 [Duniere, Louis]	  1
 Dungannon and Munster Delegate.	  1
-Du Moulin, Lewis	  1
 Dumoulin.	  1
 [Dumfries, Patrick MacDowall-Crichton]	  1
 [Du Maresq, Richard]	  1
@@ -8098,7 +8070,6 @@ D. P. S. D. M.	  1
 Down, Wm.	  1
 Down-right.	  1
 [Downe, William Ducie	  1
-Downes, John	  1
 [Dowley, John]	  1
 [Dowley	  1
 [Doul, Patrick]	  1
@@ -8186,6 +8157,7 @@ D'Happart, J. L.	  1
 De V. U. E. Q. F.	  1
 Devotion.	  1
 Devonian.	  1
+Devigny	  1
 De Vesci of Abbey Leix, Thomas Vesey	  1
 Devers.	  1
 [Deverell, William]	  1
@@ -8434,7 +8406,6 @@ Corderius.	  1
 Corbridge	  1
 Copy.	  1
 Copies.	  1
-Cooke, Edward	  1
 Cooke	  1
 Cook.	  1
 Conveyancer of the Inner Temple.	  1
@@ -8469,6 +8440,7 @@ Conciliator.	  1
 [Con, Alexander]	  1
 Compendium.	  1
 Compassionate conformist.	  1
+Company of Scotland Trading to Africa and the Indies.	  1
 Company of Scotland trading to Africa and the Indies	  1
 Company of Merchant Adventurers of England.	  1
 Communicant Belonging to the Parish Church of St. Andrew's Holborn.	  1
@@ -8574,6 +8546,7 @@ Clemenceau	  1
 Clemence	  1
 Clegg	  1
 [Cleevelye, William]	  1
+[Cleapem, William]	  1
 Claudius.	  1
 [Clarik	  1
 Clara.	  1
@@ -8620,6 +8593,7 @@ Citizen in Edinburgh.	  1
 Citizen in Dublin.	  1
 Citizen and Watchmaker.	  1
 Citizen and native.	  1
+Citizen and Boroughnian.	  1
 [Citizen	  1
 Cinqmars	  1
 Cillard	  1
@@ -8634,6 +8608,7 @@ Churchman	  1
 Churchill-minor.	  1
 [Chumacero, J. M.]	  1
 [Chrystie, William].	  1
+Christophorus.	  1
 [Christophorus	  1
 Christoffels, Jan Ympyn	  1
 Christianus.	  1
@@ -8876,7 +8851,6 @@ British Woollen Manufacturer.	  1
 British Whig.	  1
 British subject.	  1
 British Seaman.	  1
-British Officer in the Service of the Czar.	  1
 British muse.	  1
 British Member of Parliament.	  1
 British lady.	  1
@@ -8909,8 +8883,10 @@ Breuil	  1
 Brettanius Philagathus.	  1
 Bréquigny	  1
 [Brebner, William].	  1
+Brazier	  1
 Brazen	  1
 Brayton.	  1
+Brash & Reid (Glasgow, Scotland)	  1
 Bramour.	  1
 [Brakenridge, William]	  1
 Braght, Thieleman J. van	  1
@@ -8985,7 +8961,7 @@ Birmingham Freeman.	  1
 Birmingham blind man.	  1
 Birmingham	  1
 [Birdwood, James]	  1
-Birch, Thomas	  1
+Binyamin Shim'on	  1
 Bignon, Jérôme	  1
 [Big Ben	  1
 Bidpai.	  1
@@ -9461,8 +9437,6 @@ Anghiera, Pietro Martiro d'	  1
 Aneau, Barthélemy	  1
 Andrew All Truth.	  1
 Anderson's Institution	  1
-Anderson, James	  1
-Anderson, Adam	  1
 [Anderson	  1
 Anderson	  1
 Ancient Patriot.	  1

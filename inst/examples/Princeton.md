@@ -1,7 +1,7 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2016-03-08"
+date: "2016-03-29"
 output: markdown_document
 ---
 
@@ -9,7 +9,18 @@ output: markdown_document
 
 
 
-![plot of chunk princeton](figure/princeton-1.png)
+
+```
+## Error in eval(expr, envir, enclos): object 'topic' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'topic'
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'topic' not found
+```
 
 
 ![plot of chunk princeton2](figure/princeton2-1.png)

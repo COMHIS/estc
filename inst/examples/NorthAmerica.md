@@ -1,7 +1,7 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "2016-03-08"
+date: "2016-03-29"
 output: markdown_document
 ---
 
@@ -16,7 +16,7 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 19812 documents from USA.
+We have 19959 documents from USA.
 
 
 ## Most common authors from USA
@@ -49,5 +49,58 @@ print(p)
 ## Historical publication volumes for top-5 publication places
 
 Average annual output for each decade is shown by lines, the actual annual document counts are shown by points. 
+
+
+```
+## Error in tapply(df$unity, list(df$publication_decade, df$publication_place), : arguments must have same length
+```
+
+```
+## Error in publications[is.na(publications)] <- 0: object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
+## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
+```
+
+```
+## Error in publications.annual[is.na(publications.annual)] <- 0: object 'publications.annual' not found
+```
+
+```
+## Error in is.data.frame(x): object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications.annual' not found
+```
+
+```
+## Error in melt(publications): object 'publications' not found
+```
+
+```
+## Error in melt(publications.annual): object 'publications.annual' not found
+```
+
+```
+## Error in names(dfm.annual) <- c("Time", "Place", "Documents"): object 'dfm.annual' not found
+```
+
+```
+## Error in fortify(data): object 'dfm.annual' not found
+```
+
+```
+## Error: Insufficient values in manual scale. 16 needed but only 5 provided.
+```
 
 ![plot of chunk NApubvols](figure/NApubvols-1.png)

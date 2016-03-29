@@ -1,12 +1,12 @@
 Name	Count
-Total count: 	n=267440 (100% non-NA values)
+Total count: 	n= 267573  ( 100 % non-NA values)
 Wesley, John	1195
 Shakespeare, William	1079
 Defoe, Daniel	1052
 Watts, Isaac	 773
 Swift, Jonathan	 758
 Pope, Alexander	 654
-Bunyan, John	 643
+Bunyan, John	 644
 Voltaire	 639
 Christie	 616
 Dryden, John	 546
@@ -24,7 +24,7 @@ Fox, George	 420
 Ovid	 415
 Johnson, Samuel	 413
 Ward, Edward	 407
-Cicero, Marcus Tullius	 405
+Cicero, Marcus Tullius	 406
 Taylor, John	 398
 Fielding, Henry	 396
 Thomson, James	 388
@@ -86,9 +86,9 @@ Locke, John	 201
 James	 201
 Clarke, Samuel	 200
 Bacon, Francis	 199
+Partridge, John	 195
 Foote, Samuel	 195
 Willison, John	 194
-Partridge, John	 194
 Winstanley, William	 193
 Richardson, Samuel	 191
 Sheridan, Richard Brinsley	 190
@@ -116,8 +116,8 @@ Williams, John	 171
 Hammond, Henry	 171
 Deloney, Thomas	 171
 Cobbett, William	 171
+Ussher, James	 170
 Coke, Edward	 170
-Ussher, James	 168
 Quarles, Francis	 168
 Murphy, Arthur	 168
 Boyer, Abel	 168
@@ -139,17 +139,17 @@ Stillingfleet, Edward	 156
 Cowper, William	 156
 Beaumont, Francis	 156
 Taylor, Thomas	 155
+Boyle, Robert	 155
 Wither, George	 154
 Rowe, Elizabeth Singer	 154
 Webster, Noah	 153
 Keach, Benjamin	 153
-Boyle, Robert	 153
 Hale, Matthew	 151
 Saunders, Richard	 150
 Robertson, William	 150
+Fleetwood, William	 150
 Sharp, John	 149
 Newton, John	 149
-Fleetwood, William	 149
 Salmon, Thomas	 148
 Nelson, Robert	 148
 Whiston, William	 147
@@ -179,11 +179,11 @@ Clarke, John	 137
 Jacob, Giles	 136
 Combe, William	 136
 Xenophon	 135
+Burnet, Thomas	 135
 Trapp, Joseph	 134
 Breton, Nicholas	 134
 Salmon, William	 133
 Gauden, John	 133
-Burnet, Thomas	 133
 Atterbury, Francis	 133
 Rousseau, Jean-jacques	 131
 Morell, Thomas	 131
@@ -194,10 +194,10 @@ Andrews, William	 130
 Sacheverell, Henry	 129
 Martin, Benjamin	 129
 Lorrain, P	 129
+Bayly, Lewis	 129
 Speed, John	 128
 Scott, Thomas	 128
 Kennett, White	 128
-Bayly, Lewis	 128
 Ames, Nathaniel	 128
 Pitcairn, Archibald	 127
 Jonson, Ben	 127
@@ -252,12 +252,12 @@ Norris, John	 111
 Alleine, Joseph	 111
 King, Thomas	 110
 Hare, Francis	 110
+Fuller, Thomas	 110
 Cock	 110
 Berkeley, George	 110
 Pulteney, William	 109
 Lowth, Robert	 109
 Gregory, John	 109
-Fuller, Thomas	 109
 Erskine, Ebenezer	 109
 Moore, Edward	 108
 Josephus, Flavius	 108
@@ -266,10 +266,10 @@ Dunton, John	 108
 Campbell, John	 108
 Wright, S	 107
 Trimmer, Sarah	 107
+Russel, Robert	 107
 Reynolds, John	 107
 Macgowan, John	 107
 Wilson, William	 106
-Russel, Robert	 106
 Naylor, James	 106
 Luther, Martin	 106
 Lilly, William	 106
@@ -297,12 +297,12 @@ Oldmixon	 100
 Armstrong, John	 100
 Shepard, Thomas	  99
 Rowlands, Samuel	  99
+Ray, John	  99
 Penington, Isaac	  99
 Howell, James	  99
 Horneck, Anthony	  99
 Colman, Benjamin	  99
 Sanderson, Robert	  98
-Ray, John	  98
 Pond, Edward	  98
 Macpherson, James	  98
 Lockman, John	  98
@@ -396,6 +396,7 @@ Gouge, Thomas	  85
 Dade, William	  85
 Wycherley, William	  84
 Scougal, Henry	  84
+Hieron, Samuel	  84
 Hickes, George	  84
 Crouch, Nathaniel	  84
 Cooper, William	  84
@@ -406,7 +407,6 @@ Seller, John	  83
 Massie, J	  83
 Langhorne, John	  83
 John	  83
-Hieron, Samuel	  83
 Citizen	  83
 Assheton, William	  83
 Ambrose, Isaac	  83
@@ -448,6 +448,7 @@ Sternhold, Thomas	  77
 Sheppard, William	  77
 Pomfret, John	  77
 Norden, John	  77
+Gataker, Thomas	  77
 Frederick	  77
 Dekker, Thomas	  77
 Burns, Robert	  77
@@ -457,7 +458,6 @@ White, Robert	  76
 Whitby, Daniel	  76
 Robinson, John	  76
 Goodwin, John	  76
-Gataker, Thomas	  76
 Ferguson, James	  76
 Bullord, John	  76
 Bray, Thomas	  76
@@ -731,6 +731,7 @@ Jenkins, David	  55
 Grattan, Henry	  55
 Gordon, William	  55
 Glanvill, Joseph	  55
+Fenner, William	  55
 Farnaby, Thomas	  55
 Edwards, Thomas	  55
 Chaucer, Geoffrey	  55
@@ -756,7 +757,6 @@ Hutchins	  54
 Hardy, Nathaniel	  54
 Glover, Richard	  54
 Gibbons, Thomas	  54
-Fenner, William	  54
 Dury, John	  54
 Dudley, H. Bate	  54
 Collinges, John	  54
@@ -886,6 +886,7 @@ Hall, Thomas	  48
 Gregory, Francis	  48
 Goodman, John	  48
 Gifford, George	  48
+Gibbon, Edward	  48
 Francke, August Hermann	  48
 Cooke, Edward	  48
 Charleton, Walter	  48
@@ -905,7 +906,6 @@ Mather, Samuel	  47
 Marvell, Andrew	  47
 Hill, Thomas	  47
 Hamilton, James	  47
-Gibbon, Edward	  47
 Dorrington, Theophilus	  47
 Cross, J. C	  47
 Chamberlayne, Edward	  47
@@ -925,6 +925,7 @@ Pain, William	  46
 May, Thomas	  46
 Maynwaring, Arthur	  46
 Heath, Robert	  46
+Fisher, Payne	  46
 Featley, Daniel	  46
 Churchyard, Thomas	  46
 Brett, Thomas	  46
@@ -960,7 +961,6 @@ Hooker, Richard	  45
 Hawkesworth, John	  45
 Hastings, Warren	  45
 Gordon, James	  45
-Fisher, Payne	  45
 Enfield, William	  45
 Dilworth, W. H	  45
 Croxall, Samuel	  45
@@ -1002,6 +1002,7 @@ Abelard, Peter	  44
 Wilson, Samuel	  43
 Williamson, John	  43
 Williams, Helen Maria	  43
+Stubbes, Phillip	  43
 Sidney, Philip	  43
 Russell, William	  43
 Rolt, Richard	  43
@@ -1039,7 +1040,6 @@ Vives, Juan Luis	  42
 Vaughan, William	  42
 Toplady, Augustus	  42
 Taylor, Dan	  42
-Stubbes, Phillip	  42
 Southwell, Robert	  42
 Smith, Adam	  42
 Shelton, Thomas	  42
@@ -1122,6 +1122,7 @@ Forbes, Duncan	  40
 Fenn, Ellenor	  40
 Dyke, Jeremiah	  40
 Denham, John	  40
+Cave, William	  40
 Bickham, George	  40
 Barrington, John Shute	  40
 Baker, Thomas	  40
@@ -1156,6 +1157,7 @@ Guild, William	  39
 Grey, Zachary	  39
 Freeman	  39
 Francis, Philip	  39
+Florus, Lucius Annaeus	  39
 Etherege, George	  39
 Digges, Leonard	  39
 De Lolme, Jean Louis	  39
@@ -1164,7 +1166,6 @@ Cox, Richard	  39
 Cotton, Robert	  39
 Cooke, John	  39
 Clark, John	  39
-Cave, William	  39
 Caussin, Nicolas	  39
 Cadogan, William	  39
 Appleton, Nathaniel	  39
@@ -1176,6 +1177,7 @@ Wood, John	  38
 Robertson, J	  38
 Ravisius Textor, Joannes	  38
 Quincy, John	  38
+Pearson, John	  38
 Palairet, Jean	  38
 Owen, W	  38
 Nalson, John	  38
@@ -1197,7 +1199,6 @@ Green, John	  38
 Gouge, William	  38
 Gordon, Robert	  38
 Gastrell, Francis	  38
-Florus, Lucius Annaeus	  38
 Fiddes, Richard	  38
 Ellis, John	  38
 Douglas, James	  38
@@ -1225,7 +1226,6 @@ Sempill, Robert	  37
 Robinson, Thomas	  37
 Rigge, Ambrose	  37
 Rich, Barnabe	  37
-Pearson, John	  37
 Paterson, James	  37
 Palmer, John	  37
 Newton, Thomas	  37
@@ -1237,6 +1237,7 @@ Kirwan, Richard	  37
 Hay, George	  37
 Gisborne, Thomas	  37
 Foxcroft, Thomas	  37
+Ford, Simon	  37
 Felltham, Owen	  37
 Evans, Caleb	  37
 Emlyn, Thomas	  37
@@ -1290,6 +1291,7 @@ Cheesman, T	  36
 Burdon, William	  36
 Breval, John	  36
 Böhm, Anton Wilhelm	  36
+Bayly, William	  36
 Amory, Thomas	  36
 Wright, John	  35
 Wise, Thomas	  35
@@ -1322,7 +1324,6 @@ Graham, John	  35
 Gore, John	  35
 Gerbier, Balthazar	  35
 Frend, William	  35
-Ford, Simon	  35
 Dutens, L	  35
 Dawson, Thomas	  35
 Curtis, William	  35
@@ -1334,8 +1335,8 @@ Bristol, George Digby	  35
 Briscoe, John	  35
 Blackburne, Francis	  35
 Baynes, Paul	  35
-Bayly, William	  35
 Barlow, Thomas	  35
+Bale, John	  35
 Wynne, John Huddlestone	  34
 Wilson, George	  34
 Sutton, Christopher	  34
@@ -1381,7 +1382,6 @@ Bull, George	  34
 Bold, S	  34
 Besse, Joseph	  34
 Bell, Benjamin	  34
-Bale, John	  34
 Wright, George	  33
 Walwyn, William	  33
 Venn, H	  33
@@ -1410,6 +1410,7 @@ Hearne, Thomas	  33
 Hamilton, John	  33
 Gomez	  33
 Fontaine, Jean De	  33
+Flecknoe, Richard	  33
 Digby, Kenelm	  33
 Cunningham, T	  33
 Cooke, William	  33
@@ -1464,7 +1465,6 @@ Grew, Nehemiah	  32
 Gough, John	  32
 Gordon, Patrick	  32
 Fleury, Claude	  32
-Flecknoe, Richard	  32
 Emmons, Nathanael	  32
 Dobbs, Francis	  32
 Dibdin, Thomas	  32
@@ -2148,6 +2148,7 @@ Hammond, James	  23
 Hamilton, Hugh	  23
 Gibson, John	  23
 Garretson, J	  23
+Gale, Theophilus	  23
 Fox, Francis	  23
 Fitz-adam, Adam	  23
 Firmin, Giles	  23
@@ -2176,6 +2177,7 @@ Bohun, Edmund	  23
 Birkenhead, John	  23
 Bentham, Jeremy	  23
 Beaumont, John	  23
+Bayly, Thomas	  23
 Bartlet, J	  23
 Barry, James	  23
 Barry, Edward	  23
@@ -2257,7 +2259,6 @@ Grosse, Alexander	  22
 Gough, Richard	  22
 Gillies, John	  22
 Gayton, Edmund	  22
-Gale, Theophilus	  22
 Gailhard, J	  22
 Frende, Gabriel	  22
 Felton, Henry	  22
@@ -2296,7 +2297,6 @@ Bowles, William Lisle	  22
 Blome, Richard	  22
 Berkenhout, John	  22
 Bentley, Thomas Richard	  22
-Bayly, Thomas	  22
 Barnard, Thomas	  22
 Badini, Carlo Francesco	  22
 Austin, William	  22
@@ -2304,6 +2304,7 @@ Astley, Philip	  22
 Annesley, James	  22
 Anderson, William	  22
 Alexander, William	  22
+Aler, Paul	  22
 Aitken, John	  22
 Zubly, John Joachim	  21
 Yearsley, Ann	  21
@@ -2423,7 +2424,6 @@ Ashby, Richard	  21
 Ascham, Roger	  21
 Anstruther, John	  21
 Anderson, Robert	  21
-Aler, Paul	  21
 Addington, Stephen	  21
 Adamson, John	  21
 Ziegenbalg, Bartholomaeus	  20
@@ -2466,6 +2466,7 @@ Musgrave, William	  20
 Morden, Robert	  20
 Montgaillard, Maurice	  20
 Moncrieff, Alexander	  20
+Mercier, Louis-sébastien	  20
 Marsh, Charles	  20
 Littleton, Edward	  20
 Lindsay, John	  20
@@ -2603,7 +2604,6 @@ Occom, Samson	  19
 Nye, Philip	  19
 Morton, James Douglas	  19
 Merry, Robert	  19
-Mercier, Louis-sébastien	  19
 Meadowcourt, Richard	  19
 Maxwell, William	  19
 Marshall, Thomas	  19
@@ -2807,6 +2807,7 @@ Dampier, William	  18
 Cyprian	  18
 Crookshank, William	  18
 Crisp, Thomas	  18
+Crakanthorpe, Richard	  18
 Craig, John	  18
 Coventry, Francis	  18
 Cotton, Clement	  18
@@ -2951,6 +2952,7 @@ Higgons, Bevill	  17
 Higgins, Francis	  17
 Higden, William	  17
 Harris	  17
+Harmar, John	  17
 Hall, William	  17
 Halley, Edmond	  17
 Haller, Albrecht Von	  17
@@ -2991,7 +2993,6 @@ Crull, J	  17
 Cressy, Serenus	  17
 Creighton, James	  17
 Cranmer, Thomas	  17
-Crakanthorpe, Richard	  17
 Craig, Thomas	  17
 Coward, William	  17
 Cooke, Alexander	  17
@@ -3176,7 +3177,6 @@ Hart, Levi	  16
 Harris, Thomas	  16
 Harrison, William	  16
 Harrison, Richard	  16
-Harmar, John	  16
 Grundy, John	  16
 Grove, Robert	  16
 Griffith, Matthew	  16
@@ -3230,6 +3230,7 @@ Charlesworth, John	  16
 Chalmers, James	  16
 Cawthorne, Joseph	  16
 Carver, Jonathan	  16
+Carpenter, Richard	  16
 Bushell, Thomas	  16
 Burridge, Richard	  16
 Burney, Charles	  16
@@ -3241,6 +3242,7 @@ Bridges, Thomas	  16
 Breadalbane, John Campbell	  16
 Brand, John	  16
 Bowes, Andrew Robinson Stoney	  16
+Bourignon, Antoinette	  16
 Bonner, Edmund	  16
 Boileau-despréaux, Nicolas	  16
 Boaden, James	  16
@@ -3287,6 +3289,7 @@ Vanneschi, Francesco	  15
 Turner, Thomas	  15
 Tottie, John	  15
 Thumb, Tom	  15
+Thucydides	  15
 Taylor, C	  15
 Sutton, Thomas	  15
 Stuart, Andrew	  15
@@ -3390,6 +3393,7 @@ Hawarden, Edward	  15
 Harris, Moses	  15
 Hannay, Robert	  15
 Hampden	  15
+Hammond, Charles	  15
 Hamilton, Elizabeth	  15
 Guillim, John	  15
 Gregory, G	  15
@@ -3444,7 +3448,6 @@ Chandler, John	  15
 Caton, William	  15
 Castlemaine, Roger Palmer	  15
 Carter, Benjamin	  15
-Carpenter, Richard	  15
 Cambridge, Richard Owen	  15
 Byfield, T	  15
 Butt, George	  15
@@ -3452,7 +3455,6 @@ Bull, John	  15
 Bruyère, Jean De	  15
 Brugis, Thomas	  15
 Brownlow, Richard	  15
-Bourignon, Antoinette	  15
 Boulainvilliers, Henri	  15
 Bond, John	  15
 Bolton, Samuel	  15
@@ -3477,6 +3479,7 @@ Whitaker, Edward	  14
 Whiston, John	  14
 Wharton, Henry	  14
 Wharton, Charles Henry	  14
+Wedderburn, Alexander	  14
 Watt, Thomas	  14
 Watt, James	  14
 Warrington, Henry Booth	  14
@@ -3493,7 +3496,7 @@ Trapp, John	  14
 Townsend, Shippie	  14
 Toussaint, François-vincent	  14
 Tindal, N	  14
-Thucydides	  14
+Thou, Jacques-auguste De	  14
 Tertullian	  14
 Taylor, Richard	  14
 Taylor, J	  14
@@ -3612,7 +3615,6 @@ Helsham, Richard	  14
 Hawes, Stephen	  14
 Hartley, John	  14
 Hardinge, George	  14
-Hammond, Charles	  14
 Haldane, Patrick	  14
 Guillemain De Saint-victor, Louis	  14
 Gregory	  14
@@ -3739,7 +3741,6 @@ White, Stephen	  13
 Wharton, Thomas	  13
 West, Moses	  13
 Weeks, James Eyre	  13
-Wedderburn, Alexander	  13
 Watkinson, Edward	  13
 Ward, Henry	  13
 Walsh, William	  13
@@ -3758,7 +3759,6 @@ Treyssac De Vergy, Pierre Henri	  13
 Townson, Thomas	  13
 Toogood, John	  13
 Todd, John	  13
-Thou, Jacques-auguste De	  13
 Temple, Anthony	  13
 Taylor, James	  13
 Taylor, Francis	  13
@@ -3772,6 +3772,7 @@ St. John, John	  13
 Stirling, James	  13
 Stafford, William Howard	  13
 Simson, John	  13
+Simon, Richard	  13
 Shuckford, Samuel	  13
 Shropshire, Walter	  13
 Shaw, Cuthbert	  13
@@ -4077,7 +4078,6 @@ Smith, Daniel	  12
 Smart, John	  12
 Sloane, Hans	  12
 Simpson, Joseph	  12
-Simon, Richard	  12
 Sheridan, William	  12
 Shepherd, Thomas	  12
 Shelley, George	  12
@@ -4187,6 +4187,7 @@ Legh, George	  12
 Le Dran, Henri-françois	  12
 Le Courayer, Pierre François	  12
 Lay-man	  12
+Lawrence, Richard	  12
 Lawrence, Henry	  12
 Langrishe, Hercules	  12
 Lally-tolendal, Trophime-gérard	  12
@@ -4210,6 +4211,7 @@ Jackson, Joseph	  12
 Jackson, James	  12
 Jackson, Charles	  12
 Innes, George	  12
+Hyperius, Andreas	  12
 Hutton, Matthew	  12
 Hussey, Thomas	  12
 Hussey, Joseph	  12
@@ -4519,6 +4521,7 @@ Nethersole, Francis	  11
 Nares, Robert	  11
 Musgrave, John	  11
 Murrell, John	  11
+Murray, Mungo	  11
 Muir, George	  11
 Motte, Jeanne De Saint-rémy De Valois	  11
 Morison, Richard	  11
@@ -4555,7 +4558,6 @@ Levi, David	  11
 Lever, Thomas	  11
 Leslie, Antonius	  11
 Lawton, Charlwood	  11
-Lawrence, Richard	  11
 Laudér, William	  11
 Langham, Thomas	  11
 Laney, Benjamin	  11
@@ -4575,7 +4577,6 @@ Jelinger, Christopher	  11
 Jarratt, Devereux	  11
 Ireland, John	  11
 Ilive, Jacob	  11
-Hyperius, Andreas	  11
 Hutchins, Edward	  11
 Hunt, James	  11
 Huntington, Enoch	  11
@@ -4612,6 +4613,7 @@ Green, Valentine	  11
 Gray, James	  11
 Granger, Thomas	  11
 Gouldman, Francis	  11
+Goring, George	  11
 Gordon, Adam	  11
 Goode, William	  11
 Goffe, Thomas	  11
@@ -4917,7 +4919,6 @@ Nendick, Humphrey	  10
 Nelson, Gilbert	  10
 Musgrave, Richard	  10
 Murray, William	  10
-Murray, Mungo	  10
 Mure, William	  10
 Moyle, Walter	  10
 Moser, Joseph	  10
@@ -5030,7 +5031,6 @@ Grimston, William	  10
 Greenwood, Isaac	  10
 Graile, John	  10
 Goupil, Pierre Étienne Auguste	  10
-Goring, George	  10
 Goodcole, Henry	  10
 Gooch, Elizabeth Sarah Villa-real	  10
 Glynne, John	  10
@@ -5529,6 +5529,7 @@ Horsley, John	   9
 Hopkins, John	   9
 Hooke, Andrew	   9
 Holyoke, Edward	   9
+Holt, John	   9
 Holmes, Abiel	   9
 Holloway, Benjamin	   9
 Holdsworth, Richard	   9
@@ -5812,6 +5813,7 @@ Watkins, Richard	   8
 Watkins, Charles	   8
 Warner, Joseph	   8
 Ware, Isaac	   8
+Walton, Brian	   8
 Walters, John	   8
 Wallace, Thomas	   8
 Waldeck, Georg Friedrich	   8
@@ -6140,7 +6142,6 @@ Hough, Nathaniel	   8
 Hopkins, Thomas	   8
 Hoole, Samuel	   8
 Home, Patrick	   8
-Holt, John	   8
 Holinshed, Raphael	   8
 Holford	   8
 Hog, Thomas	   8
@@ -6486,7 +6487,6 @@ Warriston, Archibald Johnston	   7
 Wansey, Henry	   7
 Wandesford, Elizabeth	   7
 Walwyn, B	   7
-Walton, Brian	   7
 Wallis, Thomas	   7
 Walker, Mary	   7
 Wales, William	   7
@@ -6608,6 +6608,7 @@ Schaw, John	   7
 Savile, Christopher	   7
 Savary, M	   7
 Savage, Samuel Morton	   7
+Savage, J	   7
 Saunders, Erasmus	   7
 Sarcerius, Erasmus	   7
 Saravia, Adrien	   7
@@ -6783,6 +6784,7 @@ Meriton, John	   7
 Mercer, Charles	   7
 Menzies, James	   7
 Menzeis, John	   7
+Meibom, Johann Heinrich	   7
 Mead, Henry	   7
 Mckenzie, Murdoch	   7
 Mckaen, James	   7
@@ -7158,6 +7160,7 @@ Chetham, James	   7
 Cheesman, Thomas	   7
 Chastellux, François Jean	   7
 Chase, Samuel	   7
+Charters, Laurence	   7
 Charleton, Rice	   7
 Chardin, John	   7
 Chandler, William	   7
@@ -7244,6 +7247,7 @@ Birt, Samuel	   7
 Bird, Benjamin	   7
 Bingham, William	   7
 Best, Thomas	   7
+Best, George	   7
 Berry, Edward	   7
 Bernard, Jean Frédéric	   7
 Berdoe, Marmaduke	   7
@@ -7554,7 +7558,6 @@ Scarisbrike, Edward	   6
 Saxton, Christopher	   6
 Savigny, J	   6
 Savary Des Brûlons, Jacques	   6
-Savage, J	   6
 Saunders, Samuel	   6
 Saumaise, Claude	   6
 Saul, Arthur	   6
@@ -7858,6 +7861,7 @@ Landale, David	   6
 Lampe, John Frederick	   6
 Lamotte, Charles	   6
 Lamont, David	   6
+Lamb, Philip	   6
 Lambert, George	   6
 Lambert, Claude François	   6
 Laing, David	   6
@@ -8201,6 +8205,7 @@ Covell, William	   6
 Court, Pieter De La	   6
 Cotes, Digby	   6
 Cosgrave, J	   6
+Corss, James	   6
 Cornwall, Peter Monamy	   6
 Cornwallis, Frederick	   6
 Cornish, Humphrey	   6
@@ -8241,7 +8246,6 @@ Cholmley, Hugh	   6
 Cheyn, William	   6
 Cheke, John	   6
 Chaudron, Jean Simon	   6
-Charters, Laurence	   6
 Charlton, Mary	   6
 Charles, Thomas	   6
 Chapman, Edmund	   6
@@ -8363,7 +8367,6 @@ Binckes, William	   6
 Billingsley, Samuel	   6
 Bigge, Thomas	   6
 Bicknell, John	   6
-Best, George	   6
 Bernard, Francis	   6
 Berkeley, William	   6
 Beresford, William	   6
@@ -9080,6 +9083,7 @@ Manilius, Marcus	   5
 Malassis De Sulamar, John-baptist	   5
 Major, William	   5
 Maistre, Joseph Marie	   5
+Maimonides, Moses	   5
 Macqueen, Daniel	   5
 Macknight, Thomas	   5
 Mackintosh, William	   5
@@ -9163,7 +9167,6 @@ Langford, E	   5
 Lane, Edward	   5
 Lane, A	   5
 Lancaster, Nathaniel	   5
-Lamb, Philip	   5
 Lamb, Patrick	   5
 Lallier, Francis	   5
 Lake, John	   5
@@ -9223,6 +9226,7 @@ James, David	   5
 Jago, Richard	   5
 Jackson, Seguin Henry	   5
 Jackson, Samuel	   5
+Jackson, Robert	   5
 Jackson, Elizabeth	   5
 Jackman, John	   5
 Ives, John	   5
@@ -9489,6 +9493,7 @@ Finch Of Fordwich, John	   5
 Field, Theophilus	   5
 Fielde, John	   5
 Field	   5
+Feyens, Thomas	   5
 Feuquières, Antoine De Pas	   5
 Ferrier, Auger	   5
 Ferrand	   5
@@ -9661,7 +9666,6 @@ Courtier, Peter L	   5
 Couper, Simon	   5
 Coulter, James	   5
 Cotgrave, John	   5
-Corss, James	   5
 Corry, John	   5
 Cornwallis, James	   5
 Corderoy, Jeremy	   5
@@ -10236,6 +10240,7 @@ St. Quentin, Dominique De	   4
 Stout, Benjamin	   4
 Stoughton, Richard	   4
 Story, John	   4
+Stoppa, Giovanni Battista	   4
 Stopford, Joseph	   4
 Stone, Richard	   4
 Stone, Francis	   4
@@ -10784,7 +10789,6 @@ Menzies, Alexander	   4
 Mentor	   4
 Mein, Robert	   4
 Mein, John	   4
-Meibom, Johann Heinrich	   4
 Meek, Thomas	   4
 Mechanic	   4
 Meadows, Samuel	   4
@@ -10844,7 +10848,6 @@ Majendie, John James	   4
 Maitland, Charles	   4
 Mair, Thomas	   4
 Mainwaring, William	   4
-Maimonides, Moses	   4
 Maimieux, Joseph De	   4
 Maier, Michael	   4
 Magenise, Daniel	   4
@@ -10918,6 +10921,7 @@ Lévesque De Pouilly, Louis-jean	   4
 Lever, Ashton	   4
 L'estrange, Sir Roger	   4
 Leslie, William	   4
+Lescallier, Daniel	   4
 Lesbros De La Versane, Louis	   4
 Le Petit, Jean François	   4
 Leowitz, Cyprian	   4
@@ -11040,7 +11044,6 @@ Janes, Thomas	   4
 Jane, Joseph	   4
 Jacobs, Abraham	   4
 Jackson, W	   4
-Jackson, Robert	   4
 Jackson, Humphrey	   4
 Jackson, Henry	   4
 Jackson, Arthur	   4
@@ -11416,7 +11419,6 @@ Fin, Charles De	   4
 Filkes, John	   4
 Field, Nathan	   4
 Fidge, George	   4
-Feyens, Thomas	   4
 Fessenden, Thomas	   4
 Ferryman, Robt	   4
 Ferguson, Walter	   4
@@ -12559,7 +12561,6 @@ Stowell, William Scott	   3
 Story, Joshua	   3
 Stormont, David Murray	   3
 Storace, Stephen	   3
-Stoppa, Giovanni Battista	   3
 Stone, Nathan	   3
 Stona, Thomas	   3
 Stolberg, Friedrich Leopold	   3
@@ -12770,6 +12771,7 @@ Scheiner, Christoph	   3
 Scheele, Karl Wilhelm	   3
 Scarlatti, Domenico	   3
 Scargill, Daniel	   3
+Scapula, Johann	   3
 Saywell, Samuel	   3
 Saxe, Maurice	   3
 Sawyer, Edmund	   3
@@ -13685,7 +13687,6 @@ Leurechon, Jean	   3
 L'estrange, Sir Roger]	   3
 Le Stourgeon, B	   3
 Leslie, Patrick Dugud	   3
-Lescallier, Daniel	   3
 Le Roy, Adrian	   3
 Leopold, Johann Friedrich	   3
 Leoni, Giacomo	   3
@@ -16791,7 +16792,6 @@ Scattergood, Antony	   2
 Scarsdale, Nathaniel Curzon	   2
 Scarlett, John	   2
 Scarburgh, Charles	   2
-Scapula, Johann	   2
 Scantlebury, Richard	   2
 Scandrett, Stephen	   2
 Scandret, J	   2
@@ -17047,6 +17047,7 @@ Richard, Thomas	   2
 Richardson, Jean	   2
 Richardson, Andrew	   2
 Richardson, Alexander	   2
+Richardson	   2
 Richards, Nathaniel	   2
 Richards, James	   2
 Richards, David	   2
@@ -18569,6 +18570,7 @@ Leech, Jeremy	   2
 Le Duke, John	   2
 Ledisma, Jacobus	   2
 Le Couteur, John	   2
+Lecount, Daniel	   2
 Lecointe, John	   2
 L'écluse Des Loges, Pierre Mathurin De	   2
 Lechford, Thomas	   2
@@ -18681,6 +18683,7 @@ Laffan, James	   2
 Laet, Alphonsus	   2
 Lady Of Honour	   2
 Lady In Town	   2
+Ladd, Nathaniel	   2
 Ladd, Joseph Brown	   2
 Lacy, William	   2
 Lacy, Benjamin	   2
@@ -20335,6 +20338,7 @@ Draper, John	   2
 Dramatti, John Peter	   2
 Doyne, Robert	   2
 Doyne, Philip	   2
+Dowriche, Hugh	   2
 Dowriche, Anne	   2
 Downright, Daniel	   2
 Downing, J	   2
@@ -20820,6 +20824,7 @@ Collins, Edward	   2
 Collins, Bryan Bury	   2
 Collingwood, Samuel	   2
 Collingwood, Francis	   2
+Collett, John	   2
 Colleton, John	   2
 Colinge, John	   2
 Colfe, Isaac	   2
@@ -21011,6 +21016,7 @@ Chapline, James	   2
 Chaplin, Charles	   2
 Champs, étienne Agard De	   2
 Champneys, John	   2
+Champion, William	   2
 Chamfort, Sébastien-roch-nicolas	   2
 Chamblit, Rebekah	   2
 Chamberland	   2
@@ -21630,6 +21636,7 @@ Binning, John	   2
 Binney, Barnabas	   2
 Bingley, John	   2
 Bilton, Henry	   2
+Billy, Himbert De	   2
 Bill, John	   2
 Billington, William	   2
 Billers, Joseph	   2
@@ -22547,6 +22554,7 @@ Wise, T	   1
 Wise, Samuel	   1
 Wise, Robert	   1
 Wise, R	   1
+Wise, Michael	   1
 Wiseman, William	   1
 Wiseman, R	   1
 Wiseman, Mary	   1
@@ -22576,6 +22584,7 @@ Winslow, John	   1
 Winslow, Elijah	   1
 Winney, Samuel	   1
 Winnell, Thomas	   1
+Winne, Edward	   1
 Winkworth, John	   1
 Winkler, Johann Heinrich	   1
 Winkfield, Unca Eliza	   1
@@ -22609,6 +22618,7 @@ Winchester, B	   1
 Winchelsea, Heneage Finch Earl	   1
 Winchell, John	   1
 Winchell, Jacob	   1
+Wimpffen, Alexandre-stanislas	   1
 Wimon, Sally	   1
 Wimble, William	   1
 Wimbledon, Richard	   1
@@ -23345,6 +23355,7 @@ Ward Of Birmingham, William Humble	   1
 Wardlaw, Margaret]	   1
 Wardlaw, James	   1
 Wardlaw, Henry]	   1
+Wardlace, James	   1
 Ward, Knox	   1
 Ward, Jonathan	   1
 Ward, Henry Townley	   1
@@ -23663,6 +23674,7 @@ Venn, Anne	   1
 Venice	   1
 Venema, Pieter	   1
 Venegas, Miguel	   1
+Venaeus, John	   1
 Velthoven, Adrian	   1
 Vel, Simon	   1
 Velshie, W	   1
@@ -23984,6 +23996,7 @@ Trotman, Edward	   1
 Trot, John	   1
 Tronson Du Coudray, Charles	   1
 Tronchin, Théodore	   1
+Troll, Wilhelm	   1
 Trollop, Thomas	   1
 Trolloppe, Thomas	   1
 Trollap, Robert	   1
@@ -24199,6 +24212,7 @@ Tobias	   1
 T., J	   1
 Tixier, Jean Seigneur De Ravisy	   1
 Titus, Silas]	   1
+Titus, Silas	   1
 Titmouse, Tom	   1
 Titmore, Timothy	   1
 Tithepig, Obadiah	   1
@@ -24674,6 +24688,7 @@ Swift-sight, Patrick	   1
 Swift, Seth	   1
 Swift, Samuel	   1
 Swift, Robert	   1
+Swetland, Luke	   1
 Swetenham, Edmund	   1
 Sweft, Jirah	   1
 Sweet, Thomas	   1
@@ -24767,6 +24782,7 @@ Suchten, Alexander Von	   1
 Succoth, Archibald Campbell	   1
 Subject To Mithridates, King Of Pontus	   1
 Suárez, Francisco	   1
+Suability, Cornelius	   1
 Styles, F	   1
 Stydolf, Sigismond	   1
 Stuteville, Thomas	   1
@@ -25028,6 +25044,7 @@ Steuart, Thomas Ruddimann	   1
 Steuart, Thomas	   1
 Steuart, John]	   1
 Steuart, Jean	   1
+Steuart, Dugald]	   1
 Steuart, Andrew	   1
 Steuart, Alexander	   1
 Sterry, Thomas	   1
@@ -25648,6 +25665,7 @@ Simson, Leonard.]	   1
 Simson, Jacobus	   1
 Simson, George	   1
 Sims, John	   1
+Simpson, William Of Lancashire	   1
 Simpson, W	   1
 Simpson, Thomas]	   1
 Simpson, Samuel	   1
@@ -25885,6 +25903,7 @@ Sharpe, Lancelot	   1
 Sharpe, John	   1
 Sharpe, James	   1
 Sharpe, J	   1
+Sharpeigh, Robert	   1
 Sharpe, Henry	   1
 Sharp, Dearing	   1
 Sharp, Alexander	   1
@@ -26128,6 +26147,7 @@ Schroeter, Johann Samuel	   1
 Schroeder, John	   1
 Schroeder, Johann Georg	   1
 Schröder, Johann	   1
+Schröder, Friedrich Ludwig	   1
 Schrevelius, C	   1
 Schrader, Heinrich Otto	   1
 Schowart, Anton Wilhelm	   1
@@ -26334,6 +26354,7 @@ Sampson, Cooper	   1
 Sampaio, Diogo De Carvalho E	   1
 Sammel, L	   1
 Sammarco, Ottavio	   1
+Sam G	   1
 Sambach, William	   1
 Salwey, Arthur	   1
 Salvin, John	   1
@@ -26681,6 +26702,7 @@ Rorison, William	   1
 Roques, Pierre	   1
 Roper, Randall	   1
 Roots, Peter Philanthropos	   1
+Root, Jesse	   1
 Roos, Wilfride]	   1
 Roos, Magnus Friedrich	   1
 Roosevelt, Nicholas J	   1
@@ -27269,6 +27291,7 @@ Raitt, John	   1
 Raitt, James	   1
 Rait, James	   1
 Raith, James	   1
+Rainton, E.]	   1
 Rainstorp, John	   1
 Raine, Thomas	   1
 Raine, John	   1
@@ -27321,6 +27344,7 @@ Query	   1
 Querno, Camillo	   1
 Quelch, William	   1
 Quelch, John	   1
+Queckfeldt, Benedict	   1
 Quearmoode, Humphrey	   1
 Quayle, Basil	   1
 Quarles, William	   1
@@ -27675,6 +27699,7 @@ Pons De Verdun, Philippe-laurent	   1
 Poniatowska, Krystyna	   1
 Poney, Dick	   1
 Pond, Thomas	   1
+Pond, Benjamin	   1
 Pond	   1
 Poncet, Charles Jacques	   1
 Pona, Francis	   1
@@ -27690,6 +27715,7 @@ Polson, John	   1
 Polo, Marco	   1
 Polo, Gaspar Gil	   1
 Pollux, Julius	   1
+Pollock, Oliver	   1
 Pollock, James]	   1
 Pollock, Carlisle	   1
 Pöllnitz, Carl Ludwig	   1
@@ -27912,6 +27938,7 @@ Pickersgill, Robert	   1
 Pickersgill, Richard	   1
 Pickering, T. A	   1
 Pickering, Samuel	   1
+Pickering, Peter	   1
 Pickering, Joseph	   1
 Pickering, George	   1
 Pickering, Benjamin	   1
@@ -28053,6 +28080,7 @@ Petrarca, Francesco]	   1
 Petley, Elias	   1
 Petit, Pierre	   1
 Petit, Joseph	   1
+Petit, John Lewis	   1
 Petit, Jean-louis	   1
 Petit, J. C	   1
 Petitius, Henricus	   1
@@ -28260,6 +28288,7 @@ Pearsall, John	   1
 Pearl, Stephen	   1
 Pearce, Wililam	   1
 Pearce, John	   1
+Pearce, James	   1
 Pearce, J	   1
 Pearce, Henry	   1
 Pearce, Edward	   1
@@ -28319,6 +28348,7 @@ Paulett, Alice	   1
 Patullo, Elizabeth	   1
 Pattrick, George	   1
 Pattison, John	   1
+Pattison, James	   1
 Pattinson, J	   1
 Patterson, Robert	   1
 Patten, W	   1
@@ -28839,6 +28869,7 @@ Oddthought, Oliver	   1
 Oddfish, Oliver	   1
 O'daub, Patric	   1
 O'conor, Daniel Roderick	   1
+O'connor, E	   1
 O'connor, Dermod	   1
 O'connor, Bonaventura	   1
 O'connor, Arthur James	   1
@@ -29094,6 +29125,7 @@ Newlands, Alexander	   1
 Newland, Jeremiah	   1
 New, John	   1
 Newington, John	   1
+Newham	   1
 Newey, Charles	   1
 Newenham, Edward	   1
 New-england Man	   1
@@ -29593,6 +29625,7 @@ Moreira, Jacob Rodrigues	   1
 Mordison, Alexander	   1
 Mordington, Mary Douglas	   1
 Morden, John	   1
+Mordecai	   1
 Mordant, John	   1
 Morbilli, Nicola Giuseppe	   1
 Moray, Margaret Stuart	   1
@@ -29742,6 +29775,7 @@ Model, Johann Georg	   1
 Mocridge, Philip	   1
 Mocquet, Jean	   1
 Mochry, William	   1
+Mocho, Martin	   1
 Moalamb, John	   1
 M'nicol, Ann	   1
 M'neille, Daniel	   1
@@ -30498,6 +30532,7 @@ Marsh, Christopher Bridge	   1
 Marsh, C	   1
 Marsham, Robert	   1
 Marshal, Thomas	   1
+Marshall, George	   1
 Marshall, Elizabeth	   1
 Marshall, E	   1
 Marshal, Jean	   1
@@ -31527,6 +31562,7 @@ Lewis, 	   1
 Lewin, John	   1
 Lewes, Thomas	   1
 Lewes, Richard	   1
+Levy, Eleazar	   1
 Levy, Aaron	   1
 Leviti, Augustin	   1
 Levison, Richard	   1
@@ -31696,6 +31732,7 @@ Leeds, Samuel	   1
 Leeds, Peregrine Osborne Duke Of	   1
 Leeds, George William Frederick Osborne	   1
 Leeds, Edward	   1
+Leedes, John	   1
 Leech, Richard	   1
 Leech, Jeremiah	   1
 Leech, James	   1
@@ -32380,6 +32417,7 @@ Keld, Christopher	   1
 Kelburn, Ann	   1
 Keith, James Francis Edward	   1
 Keith, Israel	   1
+Keith, George]	   1
 Keith, George ?-	   1
 Keith	   1
 Keir, Peter	   1
@@ -33069,6 +33107,7 @@ Huish, Anthony]	   1
 Hughlett, William	   1
 Hughes, Sylvia	   1
 Hughes, Samuel	   1
+Hughes, Lucey	   1
 Hughes, Joseph	   1
 Hughes, James	   1
 Hughes, Isabella	   1
@@ -33164,6 +33203,7 @@ Houssemaine, Nicolas De	   1
 House, Sam	   1
 Houser, Henry	   1
 Housel, Zachary]	   1
+Hourglass, Humphrey	   1
 Houlbrooke, Theophilus	   1
 Houison, David	   1
 Houghton, Pendlebury	   1
@@ -33251,6 +33291,7 @@ Hooton, Henry	   1
 Hooson, William	   1
 Hoornbeek, Jacob	   1
 Hoops, James	   1
+Hooper, Thomas W	   1
 Hooper, Thomas	   1
 Hooper, Nicholas	   1
 Hooper, B. D	   1
@@ -33367,6 +33408,7 @@ Hoffman, Sophia	   1
 Hoffmann, Georg Franz	   1
 Hoffman, Josiah Ogden	   1
 Hoffman, Christoph Ludwig	   1
+Hoffman, Christian	   1
 Hoffman, Benjamin	   1
 Hoff, Charles	   1
 Hoey, P	   1
@@ -33764,6 +33806,7 @@ Hearne, Gilbert	   1
 Hearne, George	   1
 Heard, W	   1
 Heaman, Roger	   1
+Healy, Joseph	   1
 Healy, Francis	   1
 Healey, George	   1
 Heald, W. M	   1
@@ -33783,6 +33826,7 @@ Haywood, Valentine	   1
 Haywood, Luke	   1
 Hay, William]	   1
 Hayward, William	   1
+Hayward, Sir John	   1
 Hayward, Henry	   1
 Hayward, George	   1
 Hayward, Amey	   1
@@ -33879,6 +33923,7 @@ Hatch, John	   1
 Hatcher, Robert]	   1
 Hatchard, John	   1
 Hastings, Theophilus Henry	   1
+Hastings, Robert	   1
 Hastings, John	   1
 Hastings, Elizabeth	   1
 Hastie, William]	   1
@@ -34089,6 +34134,7 @@ Hanger, Philip	   1
 Hangar, G	   1
 Handyside, George	   1
 Handy, John	   1
+Handy, Hast	   1
 Handy, Gulielmus	   1
 Handson, Raph	   1
 Handson, Ralph	   1
@@ -34188,6 +34234,7 @@ Hall, Henricus	   1
 Hall, Harper	   1
 Hall, H	   1
 Hallgarth, William	   1
+Halley, Thomas	   1
 Hallett, Jacob	   1
 Hall, Ebenezer	   1
 Hall, Eben	   1
@@ -34204,6 +34251,7 @@ Halifax, George Montagu-dunk	   1
 Haliday, William	   1
 Haliburton, William	   1
 Haliburton, Margaret	   1
+Haliburton, John	   1
 Halhead, Henry	   1
 Halford, Thomas	   1
 Halford, Henry	   1
@@ -34536,6 +34584,7 @@ Greenway, Joseph	   1
 Greenup, J	   1
 Green, Theophilus	   1
 Greensword, J	   1
+Greenshields, John Boyd	   1
 Green, S	   1
 Green, Robert	   1
 Greenough, T]	   1
@@ -34835,6 +34884,7 @@ Gokin, Thomas	   1
 Góis, Damião De	   1
 Going, Joannes	   1
 Göhring, Jacob	   1
+Gohaeus, Gulielmus	   1
 Gogh, Michiel Van	   1
 Goggerman, Gregory	   1
 Goffe, William	   1
@@ -35120,6 +35170,7 @@ Gent, Tho	   1
 Gentletouch, Simon	   1
 Gentleman, Who Was Taken In The Fleet	   1
 Gentleman, Who Was A Spectator At Her Trial And Death And Afterwards Accompanied The Captain In His Travels Through France	   1
+Gentleman, Who Is Much A Lover Of The Reformation And The Revolution	   1
 Gentleman Volunteer	   1
 Gentleman, Residing In Foreign Parts	   1
 Gentleman Patriot	   1
@@ -35412,6 +35463,7 @@ Fulton, Robert]	   1
 Fulton, John	   1
 Fulton, Janet]	   1
 Fulthorp, Christopher	   1
+Fullwood, William	   1
 Fullwood, P	   1
 Fullwood, Francis]	   1
 Full, Langdon John	   1
@@ -36308,6 +36360,7 @@ Evelyn, Hugh	   1
 Evelyn, Edward	   1
 Evelyn, Anne	   1
 Eveleigh, Joseph	   1
+Eve, Joseph	   1
 Evatt, Samuel	   1
 Evans, Timothy	   1
 Evans, Samuel	   1
@@ -36433,6 +36486,7 @@ Emms, Robert	   1
 Emmitt, Peregrine	   1
 Emmett, William	   1
 Emmert, J. H	   1
+Emley, Thomas	   1
 Emitie, Thomas	   1
 émı̈n, Joseph	   1
 Emilie, John	   1
@@ -36555,6 +36609,7 @@ E-h-n, Thomas	   1
 Egremont, George O'brien Wyndham	   1
 Egmond Van Der Nijenburg, Johannes Aegidius Van	   1
 Egerton, Edward	   1
+Egelsham, Wells	   1
 Egelsham, John	   1
 Egede, Hans	   1
 Egan, Terence	   1
@@ -36603,6 +36658,7 @@ Edgley, Samuel	   1
 Edgeworth, Roger	   1
 Edgeworth, John	   1
 Edgcumbe, James	   1
+Edgar, Thomas	   1
 Edgar, John	   1
 Edgar, Handaside	   1
 Edgar, Alexander	   1
@@ -36612,6 +36668,7 @@ Eddy, Zechariah	   1
 Eddowes, Ralph	   1
 Eddis, William	   1
 Eddis, Joseph	   1
+Edderman, Francis	   1
 Ecroyd, Richard	   1
 Eck, Johann	   1
 Echlin, Robert	   1
@@ -36944,7 +37001,6 @@ Dowson, John	   1
 Dowson, James	   1
 Dowsing, William	   1
 Dowsing, John	   1
-Dowriche, Hugh	   1
 Downs, John	   1
 Downshire, Arthur Hill	   1
 Downs, Barnabas	   1
@@ -37535,6 +37591,7 @@ Darch, John	   1
 Darbyshire, William	   1
 Darby, Sarah	   1
 Darby, Richard	   1
+Darbison, William	   1
 Darbe, John	   1
 Daran, Thomas	   1
 Darancette, Pierre	   1
@@ -37811,6 +37868,7 @@ Crosse, Robert	   1
 Crosse, Jasper	   1
 Cross, Edward	   1
 Cross, Alexander	   1
+Crosnier, Jean	   1
 Crosley, William	   1
 Crosfeild, Francis	   1
 Crosby, Joseph	   1
@@ -38104,6 +38162,7 @@ Cottington, R	   1
 Cottington, Charles	   1
 Cottington, Angela Margarita	   1
 Cottingham, James Henry	   1
+Cottingham, Henry	   1
 Cottesford, Thomas	   1
 Cotter, Sarah	   1
 Cotter, Lawrence	   1
@@ -38263,6 +38322,7 @@ Cooke, Daniel	   1
 Cooke, Cassandra	   1
 Cooke, Andrew	   1
 Cooke	   1
+Cook, David	   1
 Cook	   1
 Cony, Thomas	   1
 Conyngham, William Burton	   1
@@ -38419,7 +38479,6 @@ Collier, Isaac	   1
 Collier, Henry	   1
 Collet, William]	   1
 Collett, Thomas	   1
-Collett, John	   1
 Collett, James	   1
 Collett, J	   1
 Collet, Joseph	   1
@@ -38808,6 +38867,7 @@ Chudleigh, James	   1
 Chrystie, James	   1
 Chrystie, Alexander	   1
 Christy, Matthew	   1
+Christopherson, John	   1
 Christopher, Robert	   1
 Christopher, Edward	   1
 Christie, Samuel	   1
@@ -39002,7 +39062,6 @@ Chancellor, Alexander	   1
 Champs, Etienne Agard De	   1
 Champney, Thomas	   1
 Champlin, Christopher	   1
-Champion, William	   1
 Champernowne, Henry	   1
 Champante, John	   1
 Chamillart, Michel	   1
@@ -39281,6 +39340,7 @@ Captain Tom	   1
 Cappur, Richard	   1
 Cappel, Louis	   1
 Cappe, Catharine	   1
+Capon, John	   1
 Caponi, Peter]	   1
 Capmartin De Chaupy, Bertrand	   1
 Capilupi, Lelio	   1
@@ -39728,6 +39788,7 @@ Bulfinch, Thomas	   1
 Buggin, R	   1
 Bugenhagen, Johann	   1
 Buffin, John	   1
+Buffington, Richard	   1
 Buffin, Ann	   1
 Buffett, Platt	   1
 Buell, Abigail	   1
@@ -40124,6 +40185,7 @@ Breckinridge, John	   1
 Breakenrig, Thomas	   1
 Br., D	   1
 B-r, D	   1
+Brazier	   1
 Brazen	   1
 Brayton	   1
 Braythwait, Thomas	   1
@@ -40698,7 +40760,6 @@ Bindemann, Ernst Christoph	   1
 Binckes, Joseph	   1
 Bilton, Thomas	   1
 Bils, Lodewijk De	   1
-Billy, Himbert De	   1
 Billion, James	   1
 Billings, Peter	   1
 Billingsley, Robert	   1
@@ -41155,6 +41216,7 @@ Baumé, Antoine	   1
 Baumé, Antoine	   1
 Baugh, Thomas Folliott	   1
 Baughe, Thomas	   1
+Bauer, Franz Andreas	   1
 Baudelocque, Jean Louis	   1
 Batwell, Daniel	   1
 Batt, William	   1
@@ -41216,6 +41278,7 @@ Baskervill, Simon	   1
 Basil, Martin Caulfield	   1
 Basile	   1
 Bashaw, Ishmael	   1
+Basely, N	   1
 Baseilhac, Jean	   1
 Bascom, Ezekiel L	   1
 Bascom, Aaron	   1
@@ -41264,6 +41327,7 @@ Barry, Margaret	   1
 Barry, Johannes	   1
 Barry, Gerat	   1
 Barry, David	   1
+Barr, William	   1
 Barrow, Thomas	   1
 Barrow, Joseph Charles	   1
 Barrow, Joannes	   1
@@ -41375,6 +41439,7 @@ Bard	   1
 Barcroft, William	   1
 Barclay, Walter]	   1
 Barclay, Robert]	   1
+Barclay, Robert -	   1
 Barclay, Peter	   1
 Barclay, Joannes	   1
 Barclay, Isaac	   1
