@@ -1,3 +1,6 @@
+*.Rds
+*.RDs
+*.RData
 *backup*
 processingtimes.png
 *.csv.gz
