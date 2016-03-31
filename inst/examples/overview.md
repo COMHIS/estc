@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-03-29"
+date: "2016-03-31"
 output: markdown_document
 ---
 
@@ -11,7 +11,7 @@ Date:
 
 
 ```
-## [1] "Tue Mar 29 20:46:28 2016"
+## [1] "Thu Mar 31 06:30:07 2016"
 ```
 
 
@@ -48,11 +48,11 @@ Documents with data (number and percentage) and number of unique entries for eac
 |publication_year_till |    97.8|       2.2|  10552|            354|
 |publication_topic     |    81.7|      18.3|  88528|           5111|
 |publication_geography |    71.6|      28.4| 137337|          12812|
-|author_birth          |    59.0|      41.0| 197998|            470|
-|self_published        |    56.6|      43.4| 209937|              3|
+|author_birth          |    59.1|      40.9| 197857|            470|
+|self_published        |    56.6|      43.4| 209945|              3|
 |author_death          |    55.9|      44.1| 213325|            519|
 |author_gender         |    51.2|      48.8| 235995|              3|
-|author                |    47.4|      52.6| 254279|          46545|
+|author                |    47.4|      52.6| 254289|          46533|
 |subject_topic         |    44.9|      55.1| 266125|          55928|
 |author_name           |    44.6|      55.4| 267489|          42342|
 |publisher             |    24.4|      75.6| 365298|         162901|
@@ -65,8 +65,8 @@ Documents with data (number and percentage) and number of unique entries for eac
 |width                 |     2.3|      97.7| 472005|             78|
 |height                |     2.3|      97.7| 472005|             96|
 |area                  |     2.3|      97.7| 472005|            636|
-|publication_place     |     1.8|      98.2| 474335|            477|
 |publication_year_from |     0.6|      99.4| 480080|            348|
+|publication_place     |     0.5|      99.5| 480822|           2267|
 |volcount              |     0.4|      99.6| 481171|            152|
 |document.items        |     0.4|      99.6| 481171|            152|
 |pagecount             |     0.1|      99.9| 482970|           1270|

@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-03-29"
+date: "2016-03-31"
 output: markdown_document
 ---
 
@@ -18,7 +18,7 @@ output: markdown_document
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 474335 documents (98%). There are 477 unique publication places. Overall 86% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 480822 documents (100%). There are 2267 unique publication places. Overall 86% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />

@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-03-29"
+date: "2016-03-31"
 output: markdown_document
 ---
 
@@ -335,7 +335,7 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                            Armstrong, John (1709-1779) 
 ##                                                      6 
-##                            Armstrong, John (1771-1797) 
+##                            Armstrong, John (1771-1758) 
 ##                                                      1 
 ##                          Armstrong, Thomas (1624-1684) 
 ##                                                      2 
@@ -711,7 +711,7 @@ List of authors born before 500AD:
 ##                                                      4 
 ##                               Black, William (1686-NA) 
 ##                                                      1 
-##                             Black, William (1749-1829) 
+##                             Black, William (1749-1745) 
 ##                                                      1 
 ##                          Blackwood, Robert (1694-1767) 
 ##                                                      8 
@@ -1343,8 +1343,6 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                             Campbell, John (1679-1733) 
 ##                                                      1 
-##                             Campbell, John (1708-1775) 
-##                                                      2 
 ##                               Campbell, John (1725-NA) 
 ##                                                      1 
 ##                             Campbell, John (1758-1828) 
@@ -1859,7 +1857,7 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                       Crossrig, David Hume (1643-1707) 
 ##                                                      1 
-##                          Crouch, Nathaniel (1632-1725) 
+##                          Crouch, Nathaniel (1632-1752) 
 ##                                                      3 
 ##                            Crowther, Caleb (1772-1849) 
 ##                                                      1 
@@ -2343,7 +2341,7 @@ List of authors born before 500AD:
 ##                                                      6 
 ##                            Dunbar, William (1710-1793) 
 ##                                                      4 
-##                          Duncan, Alexander (1708-1795) 
+##                          Duncan, Alexander (1708-1816) 
 ##                                                      4 
 ##                            Duncan, Alexander (1755-NA) 
 ##                                                      1 
@@ -4145,7 +4143,7 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                              Johnson, John (1706-1791) 
 ##                                                      1 
-##                                 Johnson, R (1772-1793) 
+##                                 Johnson, R (1734-1793) 
 ##                                                      1 
 ##                           Johnson, Richard (1573-1659) 
 ##                                                      6 
@@ -4295,6 +4293,8 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                                  Ker, John (1673-1726) 
 ##                                                      4 
+##                                  Ker, John (1673-1741) 
+##                                                      4 
 ##                                    Ker, John (1723-NA) 
 ##                                                      1 
 ##                                Kerr, James (1738-1782) 
@@ -4377,10 +4377,8 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                                  Knox, James (1605-NA) 
 ##                                                      3 
-##                                 Knox, John (1505-1572) 
-##                                                      8 
 ##                                 Knox, John (1514-1572) 
-##                                                      2 
+##                                                     10 
 ##                                 Knox, John (1787-1791) 
 ##                                                      1 
 ##                                 Knox, Thomas (1738-NA) 
@@ -4571,7 +4569,7 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                              Lillo, George (1693-1739) 
 ##                                                      7 
-##                             Lilly, William (1602-1681) 
+##                             Lilly, William (1602-1675) 
 ##                                                      1 
 ##                              Lily, William (1468-1522) 
 ##                                                      1 
@@ -4637,7 +4635,7 @@ List of authors born before 500AD:
 ##                                                      4 
 ##                                Locke, John (1632-1704) 
 ##                                                     20 
-##                           Lockhart, George (1681-1732) 
+##                           Lockhart, George (1683-1732) 
 ##                                                      5 
 ##                             Lockhart, George (1683-NA) 
 ##                                                      1 
@@ -7461,7 +7459,7 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                             Trail, William (1746-1831) 
 ##                                                      4 
-##                              Trapp, Joseph (1679-1747) 
+##                              Trapp, Joseph (1749-1747) 
 ##                                                      2 
 ##                            Trenchard, John (1662-1723) 
 ##                                                      1 
@@ -8021,7 +8019,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15242 documents from 3979 unique
+We have 15244 documents from 3978 unique
 authors born before 500 AD who have published in Scotland.
 
 

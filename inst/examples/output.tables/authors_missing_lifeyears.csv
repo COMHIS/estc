@@ -63,6 +63,7 @@ Eutropius	NA	NA	 70
 Chetwood, W. R	NA	1766	 70
 Mair, John	NA	1769	 70
 Sewell, George	NA	1726	 69
+Lewis, John	NA	1747	 67
 Perrin, John	NA	NA	 66
 Collyer, Mary	NA	1763	 66
 Colson, Nathaniel	1674	NA	 66
@@ -83,6 +84,7 @@ Knaggs, Thomas	NA	1724	 59
 Culpepper, Nathanael	NA	NA	 58
 Smith, John	NA	NA	 57
 Free, John	1712	NA	 57
+Campbell, John	NA	1775	 56
 Farmer	NA	NA	 56
 Chaucer, Geoffrey	NA	1400	 55
 Pearse, Salem	1719	NA	 55
@@ -308,6 +310,7 @@ Grafton, Richard	NA	1572	 24
 Tuke, Thomas	NA	1657	 24
 Lanfiere, Thomas	NA	NA	 24
 Hughes, William	1665	NA	 24
+Morley, Thomas	NA	1603	 23
 Mackenzie, Roderick	1718	NA	 23
 Pead, Deuel	NA	1727	 23
 Leigh, Dorothy	NA	NA	 23
@@ -547,6 +550,7 @@ Sault, Richard	NA	1702	 16
 Swan, Abraham	NA	NA	 16
 Deans, Archibald	NA	NA	 16
 Hill, John	1712	NA	 16
+Alexander, William	NA	1783	 16
 Grundy, John	1797	NA	 16
 West, Richard	NA	1716	 16
 Lady Wallace	NA	1803	 16
@@ -685,7 +689,6 @@ Sobersides, Solomon	NA	NA	 14
 Jones, Thomas	NA	NA	 14
 Payne, John	1800	NA	 14
 Barry, James	NA	NA	 14
-Alexander, William	NA	1783	 14
 Love, John	1688	NA	 14
 Cooper, William	NA	NA	 14
 Kelly, George	1688	NA	 14
@@ -761,6 +764,7 @@ Austen, Stephen	NA	1750	 13
 Synge, Edward	NA	1762	 13
 Hayley, Thomas	NA	1739	 13
 Jenings, John	NA	1743	 13
+Crowe, William	NA	1743	 13
 Thomson, John	NA	NA	 13
 Hicks, Thomas	NA	NA	 13
 Aelfric	NA	NA	 13
@@ -881,7 +885,6 @@ Macaulay, Alexander	NA	1766	 12
 Elstobb, William	NA	1790	 12
 Cam, Joseph	NA	1743	 12
 Barker, John	1730	NA	 12
-Crowe, William	NA	1743	 12
 Meilan, Mark Anthony	1743	NA	 12
 Ecton, John	NA	1730	 12
 Cooper, Samuel	NA	1800	 12
@@ -4150,7 +4153,6 @@ Saul, Joseph	1797	NA	  4
 Dun, John	NA	1792	  4
 Dupuy-demportes, Jean-baptiste	NA	1770	  4
 Taubman, Nathaniel	NA	1720	  4
-Ker, John	NA	1741	  4
 Witty, John	NA	NA	  4
 Rossell, Samuel	NA	NA	  4
 Patriot Of Ireland	NA	NA	  4
@@ -7167,7 +7169,6 @@ Mistyfigo, John	NA	NA	  2
 Decius	NA	NA	  2
 Raleigh, Walter	NA	NA	  2
 Silver, Jacob	NA	NA	  2
-Warner, John	NA	1648	  2
 Wingrove, John	NA	NA	  2
 Egerton, Charles	NA	1725	  2
 Kempenfelt, Richard	NA	NA	  2
@@ -8630,6 +8631,7 @@ Gore, Henry	NA	1733	  2
 Michell, Henry	NA	NA	  2
 Burlington, Charles	NA	NA	  2
 Gentleman Of Sunderland	NA	NA	  2
+Russell, Thomas	NA	1803	  2
 Durand, John Francis	NA	NA	  2
 Sims, Robert Courthope	NA	1807	  2
 Botanista, Theophilus	NA	NA	  2
@@ -11482,7 +11484,6 @@ D'ouvilly, George Gerbier	NA	NA	  2
 Blunten, William	NA	NA	  2
 True English Man	NA	NA	  2
 Tell-troth, Tom	NA	NA	  2
-Morley, Thomas	NA	1603	  2
 Bartlet, Richard	NA	NA	  2
 Dulman, Ananias	NA	NA	  2
 Laverenst, Anne	NA	NA	  2
@@ -25848,7 +25849,6 @@ Cloake, Hugh	NA	1688	  1
 Fuller, John	1722	NA	  1
 Framboisière, Nicholas Abraham De	NA	NA	  1
 Whitmore, F. N	NA	NA	  1
-Watson, John	1597	NA	  1
 Pierson, T	NA	NA	  1
 Hickson, James	1650	NA	  1
 Helme, C	NA	NA	  1
@@ -26128,6 +26128,7 @@ Throckmorton, Baynham	NA	1664	  1
 Penruddock, Arundell	NA	NA	  1
 Peirce, Richard	NA	NA	  1
 Bryantson, John	NA	NA	  1
+Morley, Thomas	1689	NA	  1
 Steward, Simeon	NA	NA	  1
 Smith, Sebastian	NA	NA	  1
 Ruthven, Patrick	NA	1566	  1
@@ -26592,7 +26593,6 @@ Freher, Philip	NA	NA	  1
 Cartwright, Johanna	NA	NA	  1
 Hancock, Nathaniel	NA	NA	  1
 Bethel, Hugh	NA	NA	  1
-Scott, Thomas	NA	1660	  1
 Well-wisher Of Peace	NA	NA	  1
 Dowcet, Abraham	NA	NA	  1
 Jurin, John	NA	NA	  1
@@ -27572,7 +27572,6 @@ Kea, James	NA	NA	  1
 Blake, Nicholas	NA	NA	  1
 Caillières, Jacques De	NA	1697	  1
 Percy, Henry	NA	1659	  1
-Harrison, John	NA	1698	  1
 Theaker, Robert	NA	NA	  1
 Rouse, Anthony	NA	NA	  1
 Grant, Patrick	NA	NA	  1
