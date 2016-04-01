@@ -5,6 +5,9 @@ output.folder <- "output.tables/"
 #fs <- list.files(ddir, full.names = TRUE, pattern = ".csv.gz")
 fs <- "estc.csv.gz"
 
+# Cores
+mc.cores <- 4
+
 # Remove selected fields
 ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
 
