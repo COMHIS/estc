@@ -1,5 +1,5 @@
 Name	Count
-Total count: 	n= 35877  ( 100 % non-NA values)
+Total count: 	n= 36320  ( 100 % non-NA values)
 Voltaire	639
 Christie	616
 More, Hannah	441
@@ -132,6 +132,7 @@ Porny	 38
 Persius.	 38
 Minister of the Church of England.	 38
 Louis	 38
+La Calprenède, Gaultier de Coste	 38
 H. S.	 38
 Clergyman.	 38
 Theophrastus.	 37
@@ -163,6 +164,7 @@ Clement	 34
 Citizen of London.	 34
 Philanthropos.	 33
 Member of the House of Commons.	 33
+La Fontaine, Jean de	 33
 Gomez	 33
 Charles I	 33
 Tickell	 32
@@ -210,6 +212,7 @@ Officer.	 26
 Marshall	 26
 Marguerite	 26
 Lucan	 26
+La Rochefoucauld, François	 26
 H. R.	 26
 H. C.	 26
 Gentleman of Lincoln's-Inn.	 26
@@ -254,6 +257,7 @@ R. E.	 22
 Parsons	 22
 Mouhy, Charles de Fieux	 22
 Metonicus.	 22
+La Motte, Jeanne de Saint-Rémy de Valois	 22
 J. T.	 22
 Joannes	 22
 I. B.	 22
@@ -327,6 +331,7 @@ Proprietor.	 17
 Poor Robin.	 17
 P. H.	 17
 M. F.	 17
+La Touche, James Digges	 17
 Helvétius	 17
 Harris	 17
 Ford	 17
@@ -370,6 +375,7 @@ Pius	 15
 P. C.	 15
 Mably	 15
 Liveryman.	 15
+La Rochefoucauld, François	 15
 J. N.	 15
 Independent freeholder	 15
 I. C.	 15
@@ -437,8 +443,10 @@ One of the people.	 13
 N. B.	 13
 Marie Antoinette	 13
 Lover of truth and peace.	 13
+La Mottraye, Aubry de	 13
 La Fayette	 13
 Lady of quality.	 13
+La Bruyère, Jean de.	 13
 J. J.	 13
 Jenkinson, Charles	 13
 I. P.	 13
@@ -512,6 +520,7 @@ M. C.	 11
 Mandey, Venterus.	 11
 Manasseh ben Israel	 11
 Mallet Du Pan	 11
+La Motte, Jeanne de Saint-Rémy de Valois	 11
 J. V. C.	 11
 Jones	 11
 Heliodorus	 11
@@ -569,6 +578,7 @@ Maintenon	 10
 Lemnius, Levinus	 10
 L. D.	 10
 Layman of the Church of England.	 10
+La Quintinie, Jean de	 10
 L.	 10
 J. O.	 10
 I. T.	 10
@@ -627,6 +637,8 @@ Mayerne, Théodore Turquet de	  9
 L. W. C.	  9
 Lover of peace.	  9
 L'Homond, C. F.	  9
+La Primaudaye, Pierre de	  9
+La Pilonnière, François de	  9
 La Chambre, Marin Cureau de	  9
 Justin	  9
 Junius.	  9
@@ -676,6 +688,8 @@ Marsom.	  8
 Lucifer	  8
 Le Turc	  8
 La Mettrie, Julien Offray de	  8
+La Condamine, Charles-Marie de	  8
+La Boissiere, Peter.	  8
 La Beaumelle	  8
 Isaac	  8
 Ireland.	  8
@@ -762,7 +776,9 @@ Lloyd	  7
 Leopold	  7
 Lay-man.	  7
 Lawyer.	  7
+La Solle, Henri-François de	  7
 La Rochefoucauld-Liancourt, François-Alexandre-Frédéric	  7
+La Place, Pierre Antoine de	  7
 Lamp-lighter.	  7
 La Motte	  7
 Karl Ludwig	  7
@@ -858,6 +874,9 @@ Luson, Hewling.	  6
 Lover of his king and country.	  6
 Linen Draper.	  6
 Legrand	  6
+La Placette, Jean	  6
+La Marche, Jean François de	  6
+La Hire, Philippe de	  6
 Keckermann, Bartholomäus	  6
 Juan de Santa María	  6
 I. R.	  6
@@ -1006,13 +1025,19 @@ Lefevre	  5
 Learned divine.	  5
 Lay-member of the Church of England.	  5
 Lay-hand.	  5
+La Vallière, Louise de	  5
 Latocnaye	  5
 La Poterie	  5
+La Place, Pierre de	  5
 La Pérouse, Jean-François de Galaup	  5
 La Pérouse, Jean-François de Galaup	  5
 Langle	  5
+La Motte, Yves-Joseph.	  5
 La Marche-Courmont, Ignace Hugary de	  5
+La Fosse, Étienne-Guillaume	  5
+La Fitte, Anne-Gédéon	  5
 Laclos, Choderlos de	  5
+La Chapelle, Vincent.	  5
 Kirkcudbright, John Maclellan	  5
 Kalmár, György	  5
 Kālidāsa.	  5
@@ -1209,8 +1234,15 @@ Lay-Man.	  4
 La Vauguion	  4
 La V----	  4
 La Roche-Guilhen	  4
+La Rochefoucauld-Liancourt, François-Alexandre-Frédéric	  4
+La Roberdière, Alexandre de.	  4
+La Perrière, Guillaume de	  4
+La Motte, Philémon de.	  4
+La Mothe Le Vayer, François de	  4
+La Morlière, Jacques Rochette de	  4
 Lady of distinction.	  4
 La Chapelle	  4
+La Calmette, François de.	  4
 Kristina	  4
 Kent	  4
 Juvenis.	  4
@@ -1576,14 +1608,24 @@ L. C.	  3
 Layman of Conscience and Common Sense.	  3
 Layman	  3
 Lawrence	  3
+La Varenne, François Pierre de	  3
 Laurent	  3
 L'Attaignant	  3
 Late pupil of Dr. Leake's.	  3
 Las Cases, Emmanuel-Auguste-Dieudonné	  3
+La Sale, Antoine de	  3
+La Roque, Jean de	  3
+La Reynie de La Bruyère, Jean-Baptiste-Marie-Louis	  3
+La Musse, Margaret de	  3
+La Motte, Barbarie de	  3
 La Mothe, Claude Grostête	  3
+La Martelière, Pierre de	  3
 La Fite	  3
+La Fin, Charles de.	  3
+La Fayette, Marie Joseph Paul Roche Yves Gilbert Du Motier	  3
 Laelius.	  3
 Lady of real quality.	  3
+La Brosse, Jean Baptiste de	  3
 K. M. A.	  3
 [Kidstone, Alexander].	  3
 J. Y.	  3
@@ -2491,6 +2533,9 @@ Layman in the country.	  2
 Lay hand.	  2
 Lay-Brother.	  2
 Lavaud, Jac. de.	  2
+La Trobe, Benjamin	  2
+La Tour, Filliberto Sallier de.	  2
+La Touche Boesnier, Pierre de.	  2
 La Touche	  2
 Late Right Reverend Prelate.	  2
 Late Nobleman.	  2
@@ -2498,23 +2543,42 @@ Late Member of One of Those Colleges.	  2
 Late Chamberlain of London.	  2
 [Larudan]	  2
 La Rocque	  2
+La Roche, Sophie von	  2
+La Roche-Guihen, Anne de.	  2
+La Peyrère, Isaac de	  2
+La Noue, François de	  2
 Langallerie, Philippe de Gentils	  2
+La Neuville, M. J.	  2
 Landed proprietor.	  2
+La Motte, François de.	  2
 La Milletière, Théophile Brachet	  2
 Lambert	  2
 Lambe	  2
+La Martinière, Pierre Martin de	  2
+La Marche, Olivier de	  2
 Laicus.	  2
+La Harpe, Jean-François de	  2
+La Fountaine, Edward.	  2
+La Fitte, Anne-Gédéon	  2
+La Fare, Charles-Auguste	  2
 Lady of honour.	  2
 Lady of great quality.	  2
 Lady in town.	  2
 Lady in the country.	  2
 Lady at Dublin.	  2
+La Croix, de	  2
 La Croix	  2
+La Créquinière, de.	  2
 La Chétardie, Trotti de	  2
 La Chesnaye.	  2
 La Chaussée, Nivelle de	  2
+La Charrière, Joseph de	  2
+La Chalotais, Louis-René de Caradeuc de	  2
 La Chaise, François d'Aix de	  2
+La Bruyère, Jean de	  2
+La Bléterie, Jean Philippe René de.	  2
 La Bizardière	  2
+La Bintinaie, Agathon Marie René de.	  2
 Labbé	  2
 Labat	  2
 La Barre de Beaumarchais	  2
@@ -5472,6 +5536,7 @@ Nobleman in England.	  1
 Noble Lord in Dublin.	  1
 Noble Lord.	  1
 Noble hand.	  1
+No bigot to, nor against the Church of England.	  1
 No associator.	  1
 No adept.	  1
 No academic.	  1
@@ -5555,6 +5620,7 @@ Nakskow, Petrus Sachariae	  1
 N.***.	  1
 Mystic advertiser.	  1
 Myself.	  1
+My friend, a physician.	  1
 Myddelton, Charles Panton.	  1
 M----x.	  1
 M. W. F.	  1
@@ -6367,6 +6433,7 @@ Law	  1
 [Lavery	  1
 Lavenir.	  1
 Laveaux, J.-Charles	  1
+La Valliere, Lousie Francoise, duchesse de	  1
 La Vallette	  1
 [La Vallée, Joseph]	  1
 L'auteur d'Azémor.	  1
@@ -6375,7 +6442,9 @@ Laussac, D'Astor de	  1
 Lauraguais, Louis-Léon-Félicité	  1
 Launay	  1
 La Tramblaye	  1
+La Tour Landry, Geoffroy de	  1
 La Touraille, Jean-Chrysostome Larcher	  1
+La Touche, Alexander de.	  1
 La Torre	  1
 Late under-graduate.	  1
 Late Teacher of Mathematics in the Royal Navy.	  1
@@ -6411,10 +6480,21 @@ Late Antiburgess Minister.	  1
 Lassale, L. de.	  1
 Lasne d'Aiguebelle	  1
 [Lascary, Mercurius]	  1
+La Salle, Antoine de	  1
+La Rue, Charles de	  1
 La Roche-Guihen	  1
+La Roberdière, Alexandre de.	  1
+La Rive, Charles-Gaspard de	  1
 [La Ramee, Pierre de]	  1
+La Prade, Louis de.	  1
+La Popelinière, Lancelot-Voisin	  1
+La Platière, Sulpice Imbert	  1
 La Planche, Louis Régnier de	  1
+La Perrière, Guillaume de	  1
 Laophilus Misotyrannus.	  1
+La Noue, Odet de	  1
+La Noue, Jean-Baptiste Sauvé	  1
+La Noue, François de	  1
 Langstroth, Huson	  1
 Langridge	  1
 Langhorn	  1
@@ -6426,24 +6506,40 @@ Land-tax commissioner.	  1
 Landresse	  1
 Landholder.	  1
 [Landels, James].	  1
+La Motte, François de.	  1
 La Mothe, Claude Grostête	  1
 La Mettrie, Julien Offrey de	  1
 [Lamert	  1
 Lamech, Theodosio.	  1
 Lamech	  1
 Lambrechts, Arentius Ferdinand.	  1
+La Marr, Pier.	  1
+La Loubère, Simon de	  1
 Lalor.	  1
 Lalande.	  1
 Lajonchère, Etienne Lécuyer de	  1
 Laique de l'Eglise Anglicane.	  1
 Laïque.	  1
+La Haye, Carolus de.	  1
 La Haye	  1
+La Harpe, Jean-François de	  1
 La Guesnerie, Charlotte-Marie-Anne Charbonnier de	  1
+La Grange, Ursule de.	  1
 La Grancour, Albert-Eugene de Lancelle de.	  1
+La Framboisière, Nicolas Abraham de	  1
+La Framboisière, Nicholas Abraham de	  1
 La Fosse d'Aubigny	  1
+La Fontaine, Pierre de.	  1
 La Fontaine	  1
+La Fite, Daniel	  1
+La Fin, Charles de	  1
 Lafaye, L. R.	  1
+La Faye, Antoine de	  1
 La Favrye	  1
+La Fausille, John	  1
+[La Fare, Etienne-Joseph de, 1691-1741]	  1
+La Fare, - de	  1
+La Fage, Victor Amédée de	  1
 Lady who onely desires to advance the glory of God, and not her own.	  1
 Lady who advertises the care of complexions by the year.	  1
 Lady's woman.	  1
@@ -6462,16 +6558,29 @@ Lady in Colchester.	  1
 Lady D------------.	  1
 L.A.D.L.E.L.E.P.T.E.V.E.E.C.A.I.	  1
 La Croze, Maturin Veyssière de	  1
+[La Croix, Joh. Friedrich Guillus]	  1
+La Croix, Demetrius de.	  1
 Lacour	  1
+La Coste, de.	  1
 La Coste	  1
+La Combe de Urigny, de.	  1
 La Chéterdie, Trotti de	  1
+La Chapelle, Joannes Baptista de	  1
+La Chapelle, James de.	  1
+La Chapelle, Armand Boisbelaeu de	  1
 La Chabeaussière	  1
 [Lacaux, P.]	  1
+La Calprenède, Gaultier de Coste, seigneur de	  1
+La Calprene&#768;de, Gaultier de Coste	  1
+La Caille, Nicolas Louis de	  1
+La Caille, Jean de.	  1
+La Bruyere, Jean de.	  1
 Labroue de Vareilles-Sommières, Auguste-Jean-Franc̦ois-Antoine	  1
 Labourer.	  1
 Laborie, P. J.	  1
 Laborde	  1
 Laboissiere.	  1
+La Boëtie, Etienne de.	  1
 Lablée	  1
 Labbé	  1
 Labadie.	  1
@@ -8361,6 +8470,7 @@ Country hind.	  1
 Country girl.	  1
 Country gentlewoman.	  1
 Country gentleman formerly a practitioner in the science of physic.	  1
+Country gentleman, a worshipper of God in the way of the Church of England.	  1
 Country Gentleman author of 'Consolations under the burdens of the present war'.	  1
 Country-Freeholder.	  1
 Country divine.	  1
@@ -9574,6 +9684,7 @@ Adam	  1
 [A. D.	  1
 Acquaintance of Dr. Eems.	  1
 A. C., P. S.	  1
+[À Court, John	  1
 Ackerman.	  1
 [Achyndachy, George].	  1
 A. C----d.	  1

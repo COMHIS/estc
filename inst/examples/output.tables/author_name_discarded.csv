@@ -1,5 +1,5 @@
 Name	Count
-Total count: 	n= 22675  ( 100 % non-NA values)
+Total count: 	n= 23355  ( 100 % non-NA values)
 More, Hannah	441
 Aesop.	274
 Fénelon, François de Salignac de La Mothe-	194
@@ -22,6 +22,7 @@ J. C.	102
 Fénelon, François de Salignac de La Mothe-	102
 Day, Thomas	 91
 R. F.	 89
+Country gentleman.	 84
 J. W.	 83
 J. H.	 82
 W. B.	 80
@@ -73,6 +74,7 @@ Genlis, Stéphanie Félicité	 39
 Porny	 38
 Persius.	 38
 Minister of the Church of England.	 38
+La Calprenède, Gaultier de Coste	 38
 H. S.	 38
 Theophrastus.	 37
 Physician.	 37
@@ -91,6 +93,7 @@ Godfridus.	 35
 T. P.	 34
 G. B.	 34
 Member of the House of Commons.	 33
+La Fontaine, Jean de	 33
 Marcus Aurelius	 32
 H. W.	 32
 G. L.	 32
@@ -122,6 +125,7 @@ Country Curate.	 27
 W. G.	 26
 S. S.	 26
 R. P.	 26
+La Rochefoucauld, François	 26
 H. R.	 26
 H. C.	 26
 Gentleman of Lincoln's-Inn.	 26
@@ -153,9 +157,11 @@ S. C.	 22
 R. E.	 22
 Mouhy, Charles de Fieux	 22
 Metonicus.	 22
+La Motte, Jeanne de Saint-Rémy de Valois	 22
 J. T.	 22
 I. B.	 22
 D. T.	 22
+Country clergyman.	 22
 Beckingham	 22
 Auborn, A. d'.	 22
 T. M.	 21
@@ -185,6 +191,7 @@ S. W.	 18
 Ratramnus	 18
 Petronius Arbiter.	 18
 L. W.	 18
+La Serre	 18
 How, Samuel.	 18
 F. S.	 18
 Claudero	 18
@@ -194,6 +201,7 @@ R. R.	 17
 Proprietor.	 17
 P. H.	 17
 M. F.	 17
+La Touche, James Digges	 17
 Helvétius	 17
 E. B.	 17
 D. S.	 17
@@ -221,6 +229,7 @@ Bellegarde	 16
 Aeschines.	 16
 S. H.	 15
 P. C.	 15
+La Rochefoucauld, François	 15
 J. N.	 15
 Independent freeholder	 15
 I. C.	 15
@@ -267,7 +276,10 @@ Philidor, F. D.	 13
 One of the people.	 13
 N. B.	 13
 Lover of truth and peace.	 13
+La Mottraye, Aubry de	 13
+La Fayette	 13
 Lady of quality.	 13
+La Bruyère, Jean de.	 13
 J. J.	 13
 Jenkinson, Charles	 13
 I. P.	 13
@@ -317,6 +329,7 @@ Moreau de Saint-Méry, M. L. E.	 11
 M. D.	 11
 M. C.	 11
 Mandey, Venterus.	 11
+La Motte, Jeanne de Saint-Rémy de Valois	 11
 J. V. C.	 11
 G. M.	 11
 Gentleman of the University of Oxford.	 11
@@ -359,6 +372,7 @@ M. R.	 10
 Lemnius, Levinus	 10
 L. D.	 10
 Layman of the Church of England.	 10
+La Quintinie, Jean de	 10
 L.	 10
 J. O.	 10
 I. T.	 10
@@ -405,6 +419,8 @@ M. H.	  9
 Mayerne, Théodore Turquet de	  9
 L. W. C.	  9
 L'Homond, C. F.	  9
+La Primaudaye, Pierre de	  9
+La Pilonnière, François de	  9
 La Chambre, Marin Cureau de	  9
 Jaquelot	  9
 I. F.	  9
@@ -442,6 +458,10 @@ Meusnier de Querlon, A.-G.	  8
 Lucifer	  8
 Le Turc	  8
 La Mettrie, Julien Offray de	  8
+La Condamine, Charles-Marie de	  8
+La Boissiere, Peter.	  8
+La Beaumelle	  8
+Honourable person.	  8
 H. M.	  8
 Hearty lover of his prince and country.	  8
 Gentleman residing at Paris.	  8
@@ -497,7 +517,10 @@ Man in the moon.	  7
 MA. A.	  7
 Lover of peace and truth.	  7
 L. M.	  7
+La Solle, Henri-François de	  7
 La Rochefoucauld-Liancourt, François-Alexandre-Frédéric	  7
+La Place, Pierre Antoine de	  7
+La Motte	  7
 J. K.	  7
 Impartial observer	  7
 I. L.	  7
@@ -558,6 +581,9 @@ Member of the Last Parliament.	  6
 Member of Royal Arch.	  6
 Luson, Hewling.	  6
 Lover of his king and country.	  6
+La Placette, Jean	  6
+La Marche, Jean François de	  6
+La Hire, Philippe de	  6
 Keckermann, Bartholomäus	  6
 Juan de Santa María	  6
 I. R.	  6
@@ -662,11 +688,18 @@ L. L.	  5
 L. G.	  5
 Levizac, Jean-Pons-Victor Lecoutz de	  5
 Lay-member of the Church of England.	  5
+La Vallière, Louise de	  5
+La Poterie	  5
+La Place, Pierre de	  5
 La Pérouse, Jean-François de Galaup	  5
 La Pérouse, Jean-François de Galaup	  5
 Langle	  5
+La Motte, Yves-Joseph.	  5
 La Marche-Courmont, Ignace Hugary de	  5
+La Fosse, Étienne-Guillaume	  5
+La Fitte, Anne-Gédéon	  5
 Laclos, Choderlos de	  5
+La Chapelle, Vincent.	  5
 Kirkcudbright, John Maclellan	  5
 Kalmár, György	  5
 Kālidāsa.	  5
@@ -698,6 +731,7 @@ D. E.	  5
 D. D.	  5
 Dauberval	  5
 Daubenton	  5
+Country farmer.	  5
 Corporation of London (England).	  5
 Confucius.	  5
 Colardeau	  5
@@ -799,7 +833,15 @@ Learned and Judicious Divine.	  4
 La Vauguion	  4
 La V----	  4
 La Roche-Guilhen	  4
+La Rochefoucauld-Liancourt, François-Alexandre-Frédéric	  4
+La Roberdière, Alexandre de.	  4
+La Perrière, Guillaume de	  4
+La Motte, Philémon de.	  4
+La Mothe Le Vayer, François de	  4
+La Morlière, Jacques Rochette de	  4
 Lady of distinction.	  4
+La Chapelle	  4
+La Calmette, François de.	  4
 Inhabitant of Edinburgh.	  4
 Indian Chief.	  4
 Independent proprietor.	  4
@@ -900,6 +942,7 @@ Well-wisher to the publick.	  3
 Wellwisher to the Good Old Cause.	  3
 Well-wisher to England's prosperity.	  3
 Well-wisher of his country.	  3
+Well wisher.	  3
 Well-minded petitioner for peace and truth.	  3
 Volunteer in the Expedition to the Coast of France.	  3
 Visiter of the Sick Man's Friend.	  3
@@ -909,6 +952,7 @@ Vauban, Sébastien Le Prestre de	  3
 Van Clauturbank, Waltho.	  3
 Valerius Maximus.	  3
 V.	  3
+University of Oxford.	  3
 Undergraduate.	  3
 Tyrtaeus.	  3
 Tryphiodorus.	  3
@@ -1049,11 +1093,22 @@ Learned phisition.	  3
 L. D. L.	  3
 L. C.	  3
 Layman of Conscience and Common Sense.	  3
+La Varenne, François Pierre de	  3
 L'Attaignant	  3
 Late pupil of Dr. Leake's.	  3
 Las Cases, Emmanuel-Auguste-Dieudonné	  3
+La Sale, Antoine de	  3
+La Roque, Jean de	  3
+La Reynie de La Bruyère, Jean-Baptiste-Marie-Louis	  3
+La Musse, Margaret de	  3
+La Motte, Barbarie de	  3
 La Mothe, Claude Grostête	  3
+La Martelière, Pierre de	  3
+La Fite	  3
+La Fin, Charles de.	  3
+La Fayette, Marie Joseph Paul Roche Yves Gilbert Du Motier	  3
 Lady of real quality.	  3
+La Brosse, Jean Baptiste de	  3
 K. M. A.	  3
 [Kidstone, Alexander].	  3
 J. Y.	  3
@@ -1158,6 +1213,7 @@ Day, George	  3
 Cyprien	  3
 Cupif, Franc̦ois	  3
 Covent Garden Theatre.	  3
+Country parson.	  3
 Country magistrate.	  3
 Counsellor.	  3
 Cortés, Martín	  3
@@ -1703,22 +1759,48 @@ Layman of conscience and common sense.	  2
 Layman in the country.	  2
 Lay-Brother.	  2
 Lavaud, Jac. de.	  2
+La Trobe, Benjamin	  2
+La Tour, Filliberto Sallier de.	  2
+La Touche Boesnier, Pierre de.	  2
+La Touche	  2
 Late Right Reverend Prelate.	  2
 Late Member of One of Those Colleges.	  2
 [Larudan]	  2
+La Rocque	  2
+La Roche, Sophie von	  2
+La Roche-Guihen, Anne de.	  2
+La Peyrère, Isaac de	  2
+La Noue, François de	  2
 Langallerie, Philippe de Gentils	  2
+La Neuville, M. J.	  2
 Landed proprietor.	  2
+La Motte, François de.	  2
 La Milletière, Théophile Brachet	  2
+La Martinière, Pierre Martin de	  2
+La Marche, Olivier de	  2
 Laicus.	  2
+La Harpe, Jean-François de	  2
+La Fountaine, Edward.	  2
+La Fitte, Anne-Gédéon	  2
+La Fare, Charles-Auguste	  2
 Lady of great quality.	  2
 Lady in the country.	  2
 Lady at Dublin.	  2
+La Croix, de	  2
+La Croix	  2
+La Créquinière, de.	  2
 La Chétardie, Trotti de	  2
 La Chesnaye.	  2
 La Chaussée, Nivelle de	  2
+La Charrière, Joseph de	  2
+La Chalotais, Louis-René de Caradeuc de	  2
 La Chaise, François d'Aix de	  2
+La Bruyère, Jean de	  2
+La Bléterie, Jean Philippe René de.	  2
 La Bizardière	  2
+La Bintinaie, Agathon Marie René de.	  2
 Labbé	  2
+La Barre de Beaumarchais	  2
 Kosmopolit in der Wüsten.	  2
 Kirkwall, John Fitzmaurice	  2
 King's letterman.	  2
@@ -1986,6 +2068,7 @@ C. U.	  2
 Crito.	  2
 Crito	  2
 Cresswick	  2
+Country Whig.	  2
 Country vicar.	  2
 Country school-boy.	  2
 Country minister of this Church of England.	  2
@@ -2214,6 +2297,7 @@ Yworth, Theophrastus.	  1
 Youth of this city.	  1
 Youth of his parish.	  1
 Youth of eighteen.	  1
+Your Well-Wisher.	  1
 Your unknown friend and well-wisher.	  1
 Your Fellow citizen.	  1
 Young woman of the Church of England.	  1
@@ -2407,7 +2491,11 @@ Well-wisher of peace in the Church, and happinesse to the Kingdome.	  1
 Well-Wisher of His Country.	  1
 Well-wisher of his countrey.	  1
 Well-wisher of her's in Trinity	  1
+Well wisher of all good Christians.	  1
 Well-wisher in astrology	  1
+Well wisher both of church and state.	  1
+Well wisher and servant.	  1
+Well Wisher.	  1
 Well-willer to the publique weale.	  1
 Well-willer to the prosperity of this famous Common-wealth.	  1
 Well-Willer to the Peace of Sion.	  1
@@ -2725,6 +2813,7 @@ Theodosius	  1
 Theodosia.	  1
 Theocrat.	  1
 Their Obedient, and Humble Servant.	  1
+Their Minister.	  1
 Thames and Severn Canal Navigation.	  1
 [T. H.	  1
 [T., G., of Staples Inn]	  1
@@ -2854,6 +2943,7 @@ Spilsbury, F. B.	  1
 S. Ph.	  1
 Speculum	  1
 Spectator of the proceedings at the Hall.	  1
+Speciall hand.	  1
 S. P. D.	  1
 Spanish merchant at Amsterdam.	  1
 Spanish Language.	  1
@@ -2882,6 +2972,7 @@ Some Oxford Electors.	  1
 Some non-subscribing ministers, in the north of Ireland.	  1
 Somebody, Who Is a Lover of Candour.	  1
 Somebody, who is a lover of candour.	  1
+Some body.	  1
 Solus.	  1
 Solomon the second.	  1
 Soldier Who was in the Engagement.	  1
@@ -3094,6 +3185,7 @@ Samuel Slitsleeves.	  1
 Samuda, Ishac de Sequeyra	  1
 Same sollicitor that drew up the petition for the ladies.	  1
 Same hand as wrote Vox populi.	  1
+Same free burgess.	  1
 Salvador do Espirito Sancto	  1
 Saluste du Bartas.	  1
 Salu.	  1
@@ -4031,6 +4123,7 @@ Nullius Nominus.	  1
 N.R.D.	  1
 N.P.	  1
 No zealot, nor a lukewarm Christian.	  1
+Now or Never.	  1
 Novice John.	  1
 Novatus, Censorinus.	  1
 Nottinghamshire farmer.	  1
@@ -4060,6 +4153,7 @@ Non-Free-Man.	  1
 Non de la Ville Berwicki.	  1
 Non-commissioned English officer.	  1
 Nomius Antinomus.	  1
+No lawyer.	  1
 No Ghost	  1
 No Dutchman.	  1
 No changeling.	  1
@@ -4070,6 +4164,7 @@ Noble-man of this kingdome.	  1
 Nobleman of that university.	  1
 Noble-man of Polonia.	  1
 Nobleman in Utopia.	  1
+No bigot to, nor against the Church of England.	  1
 No associator.	  1
 No adept.	  1
 No academic.	  1
@@ -4141,6 +4236,7 @@ Nakskow, Petrus Sachariae	  1
 N.***.	  1
 Mystic advertiser.	  1
 Myself.	  1
+My friend, a physician.	  1
 Myddelton, Charles Panton.	  1
 M----x.	  1
 M. W. F.	  1
@@ -4160,7 +4256,9 @@ Mublo Puppso.	  1
 Mubashshir ibn Fātik, Abū al-Wafāʾ	  1
 M. T. S. T. R. A. I. S. P. H.	  1
 M. S. D. L. M.	  1
+Mr. True Friend.	  1
 Mr. Secretary -.	  1
+[Mr. Pond	  1
 M----r---n, Sh-ny.	  1
 Mr. M***.	  1
 Mr. K.	  1
@@ -4817,13 +4915,18 @@ Lawyer at Edinburgh.	  1
 Lawlar, Lotis.	  1
 Lavenir.	  1
 Laveaux, J.-Charles	  1
+La Valliere, Lousie Francoise, duchesse de	  1
+La Vallette	  1
 [La Vallée, Joseph]	  1
 L'auteur d'Azémor.	  1
 Laussac, D'Astor de	  1
 [Laus de Boissy, Louis de]	  1
 Lauraguais, Louis-Léon-Félicité	  1
 La Tramblaye	  1
+La Tour Landry, Geoffroy de	  1
 La Touraille, Jean-Chrysostome Larcher	  1
+La Touche, Alexander de.	  1
+La Torre	  1
 Late under-graduate.	  1
 Late Teacher of Mathematics in the Royal Navy.	  1
 Late Student of Divinity.	  1
@@ -4854,10 +4957,21 @@ Late Antiburgess Minister.	  1
 Lassale, L. de.	  1
 Lasne d'Aiguebelle	  1
 [Lascary, Mercurius]	  1
+La Salle, Antoine de	  1
+La Rue, Charles de	  1
 La Roche-Guihen	  1
+La Roberdière, Alexandre de.	  1
+La Rive, Charles-Gaspard de	  1
 [La Ramee, Pierre de]	  1
+La Prade, Louis de.	  1
+La Popelinière, Lancelot-Voisin	  1
+La Platière, Sulpice Imbert	  1
 La Planche, Louis Régnier de	  1
+La Perrière, Guillaume de	  1
 Laophilus Misotyrannus.	  1
+La Noue, Odet de	  1
+La Noue, Jean-Baptiste Sauvé	  1
+La Noue, François de	  1
 Langstroth, Huson	  1
 Langeac	  1
 [Lanfiere, Thomas]	  1
@@ -4865,20 +4979,38 @@ Land-tax commissioner.	  1
 Landresse	  1
 Landholder.	  1
 [Landels, James].	  1
+La Motte, François de.	  1
 La Mothe, Claude Grostête	  1
 La Mettrie, Julien Offrey de	  1
 [Lamert	  1
 Lamech, Theodosio.	  1
 Lamech	  1
 Lambrechts, Arentius Ferdinand.	  1
+La Marr, Pier.	  1
+La Loubère, Simon de	  1
 Lajonchère, Etienne Lécuyer de	  1
 Laique de l'Eglise Anglicane.	  1
 Laïque.	  1
+La Haye, Carolus de.	  1
+La Haye	  1
+La Harpe, Jean-François de	  1
 La Guesnerie, Charlotte-Marie-Anne Charbonnier de	  1
+La Grange, Ursule de.	  1
 La Grancour, Albert-Eugene de Lancelle de.	  1
+La Framboisière, Nicolas Abraham de	  1
+La Framboisière, Nicholas Abraham de	  1
 La Fosse d'Aubigny	  1
+La Fontaine, Pierre de.	  1
+La Fontaine	  1
+La Fite, Daniel	  1
+La Fin, Charles de	  1
 Lafaye, L. R.	  1
+La Faye, Antoine de	  1
 La Favrye	  1
+La Fausille, John	  1
+[La Fare, Etienne-Joseph de, 1691-1741]	  1
+La Fare, - de	  1
+La Fage, Victor Amédée de	  1
 Lady who onely desires to advance the glory of God, and not her own.	  1
 Lady who advertises the care of complexions by the year.	  1
 Lady's woman.	  1
@@ -4894,13 +5026,27 @@ Lady in Colchester.	  1
 Lady D------------.	  1
 L.A.D.L.E.L.E.P.T.E.V.E.E.C.A.I.	  1
 La Croze, Maturin Veyssière de	  1
+[La Croix, Joh. Friedrich Guillus]	  1
+La Croix, Demetrius de.	  1
+La Coste, de.	  1
+La Coste	  1
+La Combe de Urigny, de.	  1
 La Chéterdie, Trotti de	  1
+La Chapelle, Joannes Baptista de	  1
+La Chapelle, James de.	  1
+La Chapelle, Armand Boisbelaeu de	  1
 La Chabeaussière	  1
 [Lacaux, P.]	  1
+La Calprenède, Gaultier de Coste, seigneur de	  1
+La Calprene&#768;de, Gaultier de Coste	  1
+La Caille, Nicolas Louis de	  1
+La Caille, Jean de.	  1
+La Bruyere, Jean de.	  1
 Labroue de Vareilles-Sommières, Auguste-Jean-Franc̦ois-Antoine	  1
 Labourer.	  1
 Laborie, P. J.	  1
 Laboissiere.	  1
+La Boëtie, Etienne de.	  1
 Labbé	  1
 L. A.	  1
 Kynd, Ehver.	  1
@@ -5148,6 +5294,7 @@ Idolater of Greek and Water.	  1
 Idle man.	  1
 Ides, Evert Ysbrants.	  1
 I. D. B.	  1
+I D B.	  1
 I., D.	  1
 I. B. S. P. P.	  1
 Ibn Ṭufayl, Muḥammad ibn ʻAbd al-Malik	  1
@@ -5192,6 +5339,8 @@ Hoper	  1
 Hop	  1
 Honourable Member of the House of Commons.	  1
 Honourable member of the House of Commons.	  1
+Honourable Hand.	  1
+Honourable hand.	  1
 Honeywood	  1
 Honest Whigg.	  1
 Honest Whig Curate. Dr. S-t.	  1
@@ -5249,6 +5398,7 @@ Herodotus Hodiernus.	  1
 Hermas	  1
 Heritor.	  1
 Heretor of West-Lothian.	  1
+Her Crete Prophet of Wales.	  1
 Herbal.	  1
 Heraud, J. A.	  1
 Heraclitus mythologus	  1
@@ -5575,6 +5725,9 @@ Genoese gentleman.	  1
 Gennadius	  1
 Genevan Residing at London.	  1
 Generides	  1
+General trader.	  1
+General officer.	  1
+General Merchant.	  1
 [Geminus, Papyrius].	  1
 [Gellie, Albert]	  1
 Gelasimus.	  1
@@ -6387,18 +6540,34 @@ Coursiaux.	  1
 County Meath freeholder.	  1
 Country-whig.	  1
 Country scholar.	  1
+Country Roger.	  1
 Country professor of Jesus Christ.	  1
 Country presbyter.	  1
 Country Physician.	  1
+Country pastor	  1
+Country Parson.	  1
+Country parish priest.	  1
 Country neighbour.	  1
+Country minister.	  1
+Country minister	  1
 Country-man.	  1
+Country Layman.	  1
+Country layman.	  1
+Country lay-man.	  1
 Country justice of the peace.	  1
+Country Justice.	  1
+Country hind.	  1
 Country girl.	  1
 Country gentlewoman.	  1
 Country gentleman formerly a practitioner in the science of physic.	  1
+Country gentleman, a worshipper of God in the way of the Church of England.	  1
 Country Gentleman author of 'Consolations under the burdens of the present war'.	  1
 Country-Freeholder.	  1
+Country divine.	  1
 Country curate	  1
+Country clergyman	  1
+Country Book-Seller.	  1
+Country banker.	  1
 Country Attorney.	  1
 Countrie-man.	  1
 Countrey wit.	  1
@@ -6441,6 +6610,7 @@ Converted Thief.	  1
 Converted Jew.	  1
 Converted cavalier.	  1
 Convert.	  1
+Continental soldier.	  1
 Contented Clergy-man.	  1
 Contemner of licentiousness.	  1
 Constitutional Reformer.	  1
@@ -7379,6 +7549,7 @@ Addresser.	  1
 [A. D.	  1
 Acquaintance of Dr. Eems.	  1
 A. C., P. S.	  1
+[À Court, John	  1
 [Achyndachy, George].	  1
 A. C----d.	  1
 Accandatore	  1

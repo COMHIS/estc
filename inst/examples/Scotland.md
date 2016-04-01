@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-03-31"
+date: "2016-04-01"
 output: markdown_document
 ---
 
@@ -2735,8 +2735,6 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                                Flint, John (1659-1730) 
 ##                                                      2 
-##                          Fontaine, Jean De (1621-1695) 
-##                                                      1 
 ##           Fontenelle, Bernard Le Bovier De (1657-1757) 
 ##                                                      4 
 ##                              Foote, Robert (1742-1809) 
@@ -6211,8 +6209,6 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                              Ritchie, John (1771-1814) 
 ##                                                      2 
-##                   Rive, Charles-gaspard De (1770-1834) 
-##                                                      1 
 ##                                  Roach, John (1748-NA) 
 ##                                                      2 
 ##                                Robe, James (1688-1753) 
@@ -6305,10 +6301,6 @@ List of authors born before 500AD:
 ##                                                      5 
 ##                            Rochead, Kathrine (1695-NA) 
 ##                                                      1 
-##                     Rochefoucauld, François (1613-1680) 
-##                                                      1 
-##                    Rochefoucauld, François (1613-1680) 
-##                                                      5 
 ##                             Roddam, Robert (1719-1808) 
 ##                                                      1 
 ##                        Rodgers, Joannes R. B (1757-NA) 
@@ -8019,7 +8011,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15244 documents from 3978 unique
+We have 15239 documents from 3974 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8150,7 +8142,7 @@ We have 33813 documents from Scotland and 205776 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 5303 rows containing missing values (geom_point).
+## Warning: Removed 5301 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)

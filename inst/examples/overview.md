@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-03-31"
+date: "2016-04-01"
 output: markdown_document
 ---
 
@@ -11,7 +11,7 @@ Date:
 
 
 ```
-## [1] "Thu Mar 31 06:30:07 2016"
+## [1] "Fri Apr  1 20:13:09 2016"
 ```
 
 
@@ -48,14 +48,14 @@ Documents with data (number and percentage) and number of unique entries for eac
 |publication_year_till |    97.8|       2.2|  10552|            354|
 |publication_topic     |    81.7|      18.3|  88528|           5111|
 |publication_geography |    71.6|      28.4| 137337|          12812|
-|author_birth          |    59.1|      40.9| 197857|            470|
-|self_published        |    56.6|      43.4| 209945|              3|
-|author_death          |    55.9|      44.1| 213325|            519|
-|author_gender         |    51.2|      48.8| 235995|              3|
-|author                |    47.4|      52.6| 254289|          46533|
+|author_birth          |    59.1|      40.9| 197658|            470|
+|self_published        |    56.6|      43.4| 209576|              3|
+|author_death          |    55.9|      44.1| 213311|            519|
+|author_gender         |    51.2|      48.8| 235729|              3|
+|author                |    47.5|      52.5| 253846|          46425|
 |subject_topic         |    44.9|      55.1| 266125|          55928|
-|author_name           |    44.6|      55.4| 267489|          42342|
-|publisher             |    24.4|      75.6| 365298|         162901|
+|author_name           |    44.8|      55.2| 266809|          42201|
+|publisher             |    24.4|      75.6| 365298|         162900|
 |latitude              |    14.0|      86.0| 415626|             16|
 |longitude             |    14.0|      86.0| 415626|             16|
 |paper.consumption.km2 |     7.6|      92.4| 446609|           5333|
