@@ -11,7 +11,7 @@ Date:
 
 
 ```
-## [1] "Sat Apr  2 14:19:18 2016"
+## [1] "Sat Apr  2 19:15:01 2016"
 ```
 
 
@@ -68,7 +68,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_place     |         0.5|          99.5|        480822|       2267|
 |volcount              |         0.4|          99.6|        481171|        152|
 |document.items        |         0.4|          99.6|        481171|        152|
-|pagecount             |         0.1|          99.9|        482970|       1270|
+|pagecount             |         0.1|          99.9|        482961|       1271|
 |title                 |         0.0|         100.0|        483210|     362187|
 |control_number        |         0.0|         100.0|        483212|     483212|
 |language.finnish      |         0.0|         100.0|        483212|          1|

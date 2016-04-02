@@ -25,10 +25,6 @@ Title count
 
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
 
-Paper consumption
-
-![plot of chunk summaryTop10publisherstimelinepaper](figure/summaryTop10publisherstimelinepaper-1.png)
-
 
 
 Title count versus paper consumption (top publishers):
