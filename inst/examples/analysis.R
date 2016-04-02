@@ -33,7 +33,7 @@ df.preprocessed.orig <- df.preprocessed
 
 print("Generic summaries") # Markdown
 df <- df.preprocessed <- df.preprocessed.orig
-sf <- generate_summaryfiles(author = "Leo Lahti", output.folder = output.folder)
+sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder = output.folder, ntop = 20)
 
 # ------------------------------------------
 
