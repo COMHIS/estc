@@ -22,7 +22,6 @@ output: markdown_document
 
 [Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/conversions_physical_dimension.csv)
 
-
 <!--[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)-->
 
 Document size (area) info in area is available for 472005 documents (98%). Estimates of document size (area) info in gatherings system are available for 483212 documents (100%). 
@@ -39,7 +38,8 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is estimated for 0 documents and updated (changed) for 7004 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 25626 documents and updated (changed) for 7004 documents. 
+
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
 
@@ -58,22 +58,22 @@ Multi-volume documents average page counts are given per volume.
 
 |doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|2fo           |             417.4619|                    416|         197|           350.39735|              373.0000|       3006|         28.91745|                 28|   31798|
-|4long         |             338.0000|                    338|           1|                 NaN|                    NA|          1|         12.00000|                  8|       9|
-|4to           |             446.3382|                    442|         890|            43.23175|               24.0000|       4755|         26.23919|                 24|   35424|
-|8vo           |             396.5909|                    402|         704|           202.01073|              200.0000|      12326|         25.80434|                 24|   54698|
-|12mo          |             384.2873|                    396|         181|            35.28788|               27.0000|       6500|         25.45074|                 24|   24937|
-|16mo          |             356.7692|                    332|          13|            88.17687|               79.0000|        111|         23.90345|                 24|     725|
-|18mo          |             516.0000|                    526|           4|           115.15000|              120.0000|        174|         26.98192|                 24|     719|
-|24long        |             136.0000|                    136|           1|           371.00000|              371.0000|          4|         27.35484|                 24|      31|
-|24mo          |             360.4000|                    300|           5|           234.27368|              238.0000|        100|         26.06401|                 24|     578|
-|32mo          |             257.5000|                    300|           4|           237.54082|              237.5408|         47|         22.95868|                 24|     242|
-|NA            |             498.1951|                    572|          41|           156.28876|              150.6667|        385|         22.60974|                 24|    3326|
-|8long         |                   NA|                     NA|          NA|            16.00000|               16.0000|          1|         18.37500|                 16|      16|
-|12long        |                   NA|                     NA|          NA|             6.00000|                6.0000|         14|         24.79104|                 24|     134|
-|64mo          |                   NA|                     NA|          NA|            31.00000|               31.0000|          1|         28.15385|                 30|      26|
-|2long         |                   NA|                     NA|          NA|                  NA|                    NA|         NA|         27.90000|                 24|      20|
-|48mo          |                   NA|                     NA|          NA|                  NA|                    NA|         NA|         26.00000|                 18|       5|
+|2fo           |               417.46|                    416|         197|              350.40|                373.00|       3006|            28.92|                 28|   31798|
+|4long         |               338.00|                    338|           1|                 NaN|                    NA|          1|            12.00|                  8|       9|
+|4to           |               446.34|                    442|         890|               43.23|                 24.00|       4755|            26.24|                 24|   35424|
+|8vo           |               396.59|                    402|         704|              202.01|                200.00|      12326|            25.80|                 24|   54698|
+|12mo          |               384.29|                    396|         181|               35.29|                 27.00|       6500|            25.45|                 24|   24937|
+|16mo          |               356.77|                    332|          13|               88.18|                 79.00|        111|            23.90|                 24|     725|
+|18mo          |               516.00|                    526|           4|              115.15|                120.00|        174|            26.98|                 24|     719|
+|24long        |               136.00|                    136|           1|              371.00|                371.00|          4|            27.35|                 24|      31|
+|24mo          |               360.40|                    300|           5|              234.27|                238.00|        100|            26.06|                 24|     578|
+|32mo          |               257.50|                    300|           4|              237.54|                237.54|         47|            22.96|                 24|     242|
+|NA            |               498.20|                    572|          41|              156.29|                150.67|        385|            22.61|                 24|    3326|
+|8long         |                   NA|                     NA|          NA|               16.00|                 16.00|          1|            18.38|                 16|      16|
+|12long        |                   NA|                     NA|          NA|                6.00|                  6.00|         14|            24.79|                 24|     134|
+|64mo          |                   NA|                     NA|          NA|               31.00|                 31.00|          1|            28.15|                 30|      26|
+|2long         |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            27.90|                 24|      20|
+|48mo          |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            26.00|                 18|       5|
 
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
