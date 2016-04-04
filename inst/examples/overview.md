@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-02"
+date: "2016-04-04"
 output: markdown_document
 ---
 
@@ -92,79 +92,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_decade    |         0.0|         100.0|        483212|         37|
 |author_pseudonyme     |         0.0|         100.0|        483212|          2|
 
-
-Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
-
-
-```
-## Error in eval(expr, envir, enclos): object 'corporate' not found
-```
-
-```
-## Error in apply(dfs, 2, function(x) {: object 'dfs' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'corporate' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'ylim' values
-```
-
-![plot of chunk missing2](figure/missing2-1.png)
 
 
 ## Histograms of all entries for numeric variables

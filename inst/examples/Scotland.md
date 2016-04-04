@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-04-02"
+date: "2016-04-04"
 output: markdown_document
 ---
 
@@ -11,6 +11,9 @@ output: markdown_document
 Read the preprocessed ESTC data table and load tools:
 
 
+```
+## Error in library(reshape): there is no package called 'reshape'
+```
 
 
 
