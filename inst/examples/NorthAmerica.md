@@ -1,16 +1,13 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "2016-04-04"
+date: "2016-04-05"
 output: markdown_document
 ---
 
 Read the preprocessed ESTC data table and load tools:
 
 
-```
-## Error in library(reshape): there is no package called 'reshape'
-```
 
 
 ```r
@@ -19,7 +16,7 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 19959 documents from USA.
+We have 40284 documents from USA.
 
 
 ## Most common authors from USA
@@ -103,7 +100,7 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
-## Error: Insufficient values in manual scale. 16 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 53 needed but only 5 provided.
 ```
 
 ![plot of chunk NApubvols](figure/NApubvols-1.png)

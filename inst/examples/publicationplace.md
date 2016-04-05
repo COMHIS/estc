@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-04"
+date: "2016-04-05"
 output: markdown_document
 ---
 
@@ -15,11 +15,11 @@ output: markdown_document
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``13.99``% of the documents have missing geocoordinates.
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``15.79``% of the documents have missing geocoordinates.
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 480822 documents (100%). There are 2267 unique publication places. Overall 86% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 479519 documents (99%). There are 1242 unique publication places. Overall 84.2% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -28,9 +28,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name        |      n|   fraction|
 |:-----------|------:|----------:|
-|England     | 365906| 75.7236989|
-|Scotland    |  39461|  8.1663949|
-|Ireland     |  28611|  5.9210036|
-|USA         |  19959|  4.1304852|
-|France      |   3078|  0.6369875|
-|Netherlands |   1953|  0.4041704|
+|England     | 359150| 74.3255548|
+|USA         |  40284|  8.3367135|
+|Scotland    |  39844|  8.2456562|
+|France      |  29715|  6.1494748|
+|Netherlands |   1922|  0.3977550|
+|Ireland     |   1463|  0.3027657|
