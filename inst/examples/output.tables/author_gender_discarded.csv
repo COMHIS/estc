@@ -1,5 +1,5 @@
 Name	Count
-Total count: 	n= 54429  ( 100 % non-NA values)
+Total count: 	n= 54447  ( 100 % non-NA values)
 Voltaire	639
 Christie	616
 More, Hannah	441
@@ -15,8 +15,8 @@ Fénelon, François de Salignac de La Mothe-	194
 Mather, Increase	172
 Terence.	169
 J. S.	167
+Cordier, Mathurin	162
 Rider, Cardanus.	161
-Cordier, Mathurin	161
 R. B.	160
 M. P.	157
 Person of quality.	150
@@ -51,7 +51,7 @@ Juvenal.	 91
 Day, Thomas	 91
 Layman.	 90
 Kenrick, W.	 90
-R. F.	 88
+R. F.	 89
 Junius	 88
 Fly.	 88
 Rapin de Thoyras	 86
@@ -144,10 +144,10 @@ Aristotle.	 48
 Young lady.	 47
 R. A.	 47
 Nedham, Marchamont	 47
+More, Thomas	 47
 Lover of his country.	 47
 Gentleman in the country.	 47
 Cross, J. C.	 47
-More, Thomas	 46
 Longinus	 46
 Chapone	 46
 Amhurst, N.	 46
@@ -238,6 +238,7 @@ Tickell	 32
 Sherlock, R.	 32
 Rowning, J.	 32
 Morgan, McNamara	 32
+Marcus Aurelius	 32
 H. W.	 32
 G. L.	 32
 Gentleman of the Middle Temple.	 32
@@ -250,7 +251,6 @@ A. M.	 32
 Vossius, Gerardus Joannes	 31
 O'Bryen, D.	 31
 Mather, W.	 31
-Marcus Aurelius	 31
 Louvet de Couvray, Jean-Baptiste	 31
 W. R.	 30
 R. M.	 30
@@ -388,6 +388,7 @@ Country clergyman.	 22
 Beckingham	 22
 Auborn, A. d'.	 22
 Wanostrocht, N.	 21
+T. M.	 21
 T. J.	 21
 Stevens, J.	 21
 Sprange, J.	 21
@@ -413,7 +414,6 @@ Wollrich, Humphry	 20
 W. L.	 20
 Wise	 20
 Voiture	 20
-T. M.	 20
 St. John, Pawlet	 20
 Sheppard, S.	 20
 Rooke, Hayman	 20
@@ -423,6 +423,7 @@ Peyton, V. J.	 20
 Paterson, Ninian	 20
 Pagit, Eusebius	 20
 Merry Andrew.	 20
+Mercier, Louis-Sébastien	 20
 Irwin, Eyles	 20
 Huet, Pierre-Daniel	 20
 Hierocles	 20
@@ -442,7 +443,6 @@ Plautus, Titus Maccius.	 19
 Place, Conyers	 19
 Perry, S.	 19
 P. B.	 19
-Mercier, Louis-Sébastien	 19
 Luchet, Jean-Pierre-Louis de	 19
 John Chrysostom	 19
 Holman, J. G.	 19
@@ -561,6 +561,7 @@ Bayley, C.	 16
 Aeschines.	 16
 Young, E.	 15
 Whyte, S.	 15
+Thucydides.	 15
 Taylor, C.	 15
 Smet, Henrich	 15
 [Sinclair, John]	 15
@@ -611,7 +612,7 @@ T. V.	 14
 Townsend, Shippie	 14
 Toussaint, François-Vincent	 14
 Tindal, N.	 14
-Thucydides.	 14
+Thou, Jacques-Auguste de	 14
 Tertullian	 14
 Taylor, J.	 14
 Stuart, C.	 14
@@ -667,7 +668,6 @@ Waldron, F. G.	 13
 Vincent	 13
 Villedieu	 13
 Velleius Paterculus	 13
-Thou, Jacques-Auguste de	 13
 T. F.	 13
 S. B.	 13
 S. A. I.	 13
@@ -807,6 +807,7 @@ Olivier, J.	 11
 Odell	 11
 N. D.	 11
 N. C.	 11
+Murray, Mungo	 11
 Muralt, Béat Louis de	 11
 Moreau de Saint-Méry, M. L. E.	 11
 M. D.	 11
@@ -894,7 +895,6 @@ Old Whig.	 10
 Officer of the army.	 10
 N. T.	 10
 Noorthouck, Harmen.	 10
-Murray, Mungo	 10
 M. R.	 10
 Merry Andrew	 10
 Maude, T.	 10
@@ -992,6 +992,7 @@ More, John	  9
 Missy, César de	  9
 M. H.	  9
 Mayhew, R.	  9
+Mayerne, Théodore Turquet de	  9
 Mauriceau, François	  9
 L. W. C.	  9
 Luc, J. A. de	  9
@@ -1087,7 +1088,6 @@ More, George	  8
 Minshull, T.	  8
 M.F.	  8
 Meusnier de Querlon, A.-G.	  8
-Mayerne, Théodore Turquet de	  8
 Mauriceau, François	  8
 Marsom.	  8
 Marmion, Shackerley	  8
@@ -1193,6 +1193,7 @@ Senault, Jean-François	  7
 Seaman	  7
 S. E.	  7
 Savary, M.	  7
+Savage, J.	  7
 Sauseuil	  7
 Saint-Réal	  7
 Ross, A.	  7
@@ -1363,7 +1364,6 @@ Smith, Humphry	  6
 Simpson, Sidrach	  6
 S. D.	  6
 Savigny, J.	  6
-Savage, J.	  6
 Régnier, Mathurin	  6
 Ramel, Jean-Pierre	  6
 Proclus	  6
@@ -3616,6 +3616,7 @@ Pyrrhys	  2
 Purves, J. A.	  2
 Purshall, Conyers.	  2
 Puente	  2
+P.T.	  2
 Prudent Le Choyselat	  2
 Protestant that is for liberty of conscience to all perswasions.	  2
 Protestant of the Church of England.	  2
@@ -5086,6 +5087,7 @@ Blackburn, J.	  2
 Bishton, J.	  2
 Bishop.	  2
 Bion, N.	  2
+Billy, Himbert de	  2
 Billaud-Varenne	  2
 Bignon, Jérôme	  2
 Bienville, D. T. de.	  2
@@ -7492,6 +7494,7 @@ Ramsay, Joannmes.	  1
 Ramsay, Joannes	  1
 Ramsaeus, T.	  1
 Rambler.	  1
+[Rainton, E.]	  1
 [Rainsford, Giles.]	  1
 Raimbert, M.	  1
 Raie, C.	  1
@@ -7552,7 +7555,6 @@ Public Spirited Cobler of Hampton-Wick.	  1
 Publicola, Horatius.	  1
 Publiciste.	  1
 Ptolomy	  1
-P.T.	  1
 P. T.	  1
 P-st of the D-ss of K-e.	  1
 Pseudonymous.	  1
@@ -8640,6 +8642,7 @@ Oddibus, Funnybus.	  1
 O. D.	  1
 Octavius Terminalis.	  1
 Octavia.	  1
+O'Connor, E.	  1
 O'Connor, Dermod.	  1
 O'Connor, Bonaventura.	  1
 O'Connell, Galfridus.	  1
@@ -8972,6 +8975,7 @@ More, Edward	  1
 More, Charles McCarthy	  1
 More, Archibald	  1
 [More, Alexander]	  1
+Mordecai	  1
 Morand, Sauveur François	  1
 Moore, W.	  1
 Moore, J.	  1
@@ -11094,6 +11098,7 @@ Hanno.	  1
 Hannen	  1
 Hannekenius, Balthazar Meno.	  1
 Hangar, G.	  1
+Handy, Hast.	  1
 Handy, Gulielmus	  1
 Handy-craftsman.	  1
 Handson, Raph.	  1
@@ -11429,6 +11434,7 @@ Gentleman Who Served in That Expedition	  1
 Gentleman Who Resided There Many Years in a Public Character.	  1
 Gentleman who resided some years in Sweden.	  1
 Gentleman Who Lived Many Years in That Country.	  1
+Gentleman, who is much a lover of the reformation and the revolution.	  1
 Gentleman who has wofully experienced the sad consequences of rash and inconsiderate marriage.	  1
 Gentleman who has resided several years in Jamaica.	  1
 Gentleman, who has gathered his Wisdom from Experience.	  1
@@ -14156,7 +14162,6 @@ Binyamin Shim'on	  1
 Bingham, T.	  1
 Bingham, Joannes.	  1
 Bils, Lodewijk de	  1
-Billy, Himbert de	  1
 Billingsley, Guilielm.	  1
 Billing, R.	  1
 [Billing, Edward]	  1

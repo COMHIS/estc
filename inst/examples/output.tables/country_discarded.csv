@@ -1,27 +1,49 @@
 Name	Count
-Total count: 	n= 2155  ( 100 % non-NA values)
+Total count: 	n= 3196  ( 100 % non-NA values)
 New London CT	1011
 Rouen	 271
-Litchfield CT	 246
+Litchfield CT	 255
+Bennington VT	 156
+Savannah GA	 152
+Windsor VT	 132
+Portland ME	  83
 n p	  81
+Rutland VT	  77
+Middletown CT	  58
 Mass	  55
+Augusta GA	  54
+New Haven CT	  37
+Westminster VT	  35
+Falmouth ME	  31
+Suffield CT	  30
+Hallowell ME	  27
+bridgetown	  24
+Fairhaven VT	  22
 West Springfield MA	  21
 abroad	  21
+Whitehall PA	  19
 hamilton	  19
 gottingen	  17
 london̄	  16
+Wiscasset ME	  13
 neuchâtel	  13
+Vergennes VT	  12
 providentiæ	  12
 lond	  12
+Stonington CT	  11
 St Pierre Martinique	   8
 prs	   8
 North	   8
+cantebrigiæ	   8
 bristoliæ	   8
+Brattleboro VT	   8
 bathoniæ	   8
 goettingen	   7
-cantebrigiæ	   7
+Fryeburg ME	   7
+Walpole MA	   6
 londo⁻n	   6
 great britain	   6
+Fairfield CT	   6
 zürich	   5
 oxoniê	   5
 hägerstaun md	   5
@@ -31,10 +53,12 @@ St Georges Grenada	   4
 romæ	   4
 kiöbenhavn	   4
 impresse londo⁻n	   4
+Brattleborough VT	   4
 basileæ	   4
 antverpiæ	   4
 amstelædami	   4
 zurych	   3
+Torrington CT	   3
 tiguri	   3
 taraṅkaṉpāṭiyile	   3
 really abroad	   3
@@ -42,11 +66,13 @@ queb́ec	   3
 port de la liberté	   3
 orleans	   3
 genevæ	   3
+Friedensthal PA	   3
 dunleary	   3
 corcagiæ	   3
 coloniæ	   3
 Charlottesville VA	   3
 cantabridgiæ	   3
+Burlington VT	   3
 borough	   3
 besançon	   3
 waterfordiæ	   2
@@ -71,16 +97,21 @@ haguæ	   2
 hafniæ	   2
 gottingue	   2
 Europe	   2
+Eastbourne	   2
 dubliniæ	   2
 doüay	   2
+Brunswick MA	   2
 bononiæ	   2
+Bodedern	   2
 besanc̜on	   2
 au cap français	   2
 argraphwŷd yn y mwŷthig	   2
 zweibrücken	   1
 züllichau	   1
 wigorniæ	   1
+Westport CT	   1
 warum darum westphalie	   1
+Warminster PA	   1
 vvirtsburgh	   1
 vindobonæ	   1
 venduntur londo⁻n	   1
@@ -96,10 +127,13 @@ teiotiagi	   1
 taraṅkaṉapāṭi	   1
 switzerland	   1
 stockholmiæ	   1
+Simsbury CT	   1
+Sharon CT	   1
 schesnüt hüll pa	   1
 salopiæ	   1
 s a	   1
 rochell	   1
+Randolph VT	   1
 ramsgatæ	   1
 que ciuitate londo⁻n	   1
 printẹd lo̧ndon	   1
@@ -123,12 +157,15 @@ nottinghamiæ	   1
 noribergae	   1
 n l	   1
 nîmes	   1
+New Milford CT	   1
+Newington CT	   1
 New Bruncwick NJ	   1
 neostadii	   1
 münster	   1
 munster	   1
 Montreál	   1
 mole saint nicholas	   1
+Mifflintown PA	   1
 menley	   1
 melvill	   1
 medioburgi zelandiæ	   1
@@ -146,6 +183,7 @@ lincolniæ	   1
 la nlle orléans	   1
 läncaster pa	   1
 lancäster	   1
+Killingworth CT	   1
 kemmish	   1
 je ne sai ou	   1
 iscæ damnoniorum	   1
@@ -191,6 +229,8 @@ continent	   1
 coloniæ agrippinæ	   1
 cöllen	   1
 ciuitate londo⁻n	   1
+Cheshire CT	   1
+Carrick-on-Suir	   1
 cape françois	   1
 cantanbrigiæ	   1
 cantabrigriæ	   1
@@ -202,6 +242,7 @@ bs l	   1
 bostoni nov angliâ	   1
 bostoniæ	   1
 birminghamæ	   1
+Barkhamsted CT	   1
 bandera mambāı̄	   1
 augustæ vind friburg brisg	   1
 augustæ vindel friburgi brisg	   1

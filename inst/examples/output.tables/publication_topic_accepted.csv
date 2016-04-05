@@ -1,16 +1,16 @@
 Name	Count
-Total count: 	n= 88528  ( 100 % non-NA values)
-18th century.	20713
-17th century.	 9349
-Civil War, 1642-1649	 4476
-17th century	 2766
+Total count: 	n= 88562  ( 100 % non-NA values)
+18th century.	20722
+17th century.	 9352
+Civil War, 1642-1649	 4480
+17th century	 2767
 18th century	 1692
 Charles II, 1660-1685	 1611
 Commonwealth and Protectorate, 1649-1660	 1535
 Revolution, 1775-1783	 1493
-William and Mary, 1689-1702	 1162
+William and Mary, 1689-1702	 1163
 Charles I, 1625-1649	  963
-1660-1688	  854
+1660-1688	  856
 16th century.	  808
 Revolution, 1775-1783.	  778
 17th century.;17th century.	  671
@@ -32,11 +32,11 @@ War of 1689-1691	  378
 Anne, 1702-1714	  372
 1625-1649	  347
 Revolution, 1789-1799.	  336
-Rebellion of 1641	  334
-1689-1702	  322
+Rebellion of 1641	  335
+1689-1702	  324
 1702-1714	  318
 Revolution, 1789-1799	  315
-Elizabeth, 1558-1603	  309
+Elizabeth, 1558-1603	  310
 Early modern, 1500-1700.	  308
 1642-1649	  307
 1660-1688.	  306
@@ -50,8 +50,8 @@ William and Mary, 1689-1702.	  253
 Colonial period, ca. 1600-1775	  242
 Revolution of 1688	  234
 1760-1820	  234
+Civil War, 1642-1649;17th century	  223
 George I, 1714-1727	  222
-Civil War, 1642-1649;17th century	  222
 French and Indian War, 1755-1763.	  218
 Restoration, 1660-1688	  216
 Early modern, 1500-1700	  215
@@ -111,7 +111,7 @@ French and Indian War, 1755-1763	   79
 1649-1775.;17th century.	   78
 Union, 1801.	   77
 17th Century.	   77
-Republic, 510-30 B.C.	   75
+Republic, 510-30 B.C.	   76
 19th century.	   75
 Union, 1707.	   74
 To 1800.	   74
@@ -155,8 +155,8 @@ Commonwealth and Protectorate, 1649-1660.;1649-1660.	   50
 British occupation, 1765-1947.	   50
 1642-1649.	   50
 To 1789.	   49
+Empire, 30 B.C.-476 A.D.	   49
 17th century.;Charles II, 1660-1685	   49
-Empire, 30 B.C.-476 A.D.	   48
 1648-1789.	   47
 Union, 1707.;The Union, 1707.	   46
 To 1775.;Revolution, 1775-1783	   46
@@ -188,11 +188,11 @@ To 1485	   34
 Revolution, 1775-1783;1775-1783.	   34
 1760-1789.;1775-1783.	   34
 1649-1775;17th century	   34
+1558-1603	   34
 To 1603.	   33
 Colonial period, ca. 1600-1775;Colonial period, ca. 1600-1775	   33
 Colonial period, 1600-1775	   33
 Charles II	   33
-1558-1603	   33
 Siege, 1756.	   32
 Revolution, 1775-1783.;Revolution, 1775-1783.	   32
 Restoration, 1660-1688;1660-1688	   32
@@ -202,19 +202,19 @@ Charles I, 1625-1649;Rebellion of 1641	   32
 Anne, 1702-1714.;1702-1714.	   32
 18th century;George III, 1760-1820	   32
 17th century.;Commonwealth and Protectorate, 1649-1660	   32
+1642-1660	   32
 To 1865.	   31
 The Union, 1800.;1760-1820.	   31
+Mary I, 1553-1558.	   31
 Edward VI, 1547-1553	   31
 Civil War, 1642-1649;1649-1660	   31
 Charles I, 1625-1649;Charles I, 1625-1649	   31
 1689-1745.	   31
 Revolution of 1688;1660-1688	   30
 Modern period, 1500-.	   30
-Mary I, 1553-1558.	   30
 Henry III, 1574-1589	   30
 Charles I, 1625-1649;17th century	   30
 1660-1688;17th century	   30
-1642-1660	   30
 King George's War, 1744-1748.	   29
 Henry IV, 1589-1610	   29
 French occupation, 1798-1801.	   29
@@ -276,6 +276,7 @@ Civil War, 1642-1649;Stuarts, 1603-1714	   22
 17th century;17th century.	   22
 1775-1783.;1775-1783.	   22
 1775-1783.;1760-1789.	   22
+Peloponnesian War, 431-404 B.C.	   21
 Commonwealth and Protectorate, 1649-1660;Charles II, 1660-1685	   21
 Charles I, 1625-1649;1642-1649	   21
 1715-1774.	   21
@@ -283,7 +284,6 @@ Charles I, 1625-1649;1642-1649	   21
 1603-1625	   21
 1500-1800.;1500-1799.	   21
 William and Mary, 1689-1702;Stuarts, 1603-1714	   20
-Peloponnesian War, 431-404 B.C.	   20
 Charles I, 1625-1649.;1625-1649.	   20
 18th century.;1760-1789.	   20
 1783-1809.	   20
@@ -3889,6 +3889,7 @@ Africa;Great Britain	    1
 18th century.;18th century.;Revolution, 1789-1799;18th century.	    1
 18th century.;18th century.;Revolution, 1789-1799.;1789-1799.	    1
 18th century;18th century;Revolution, 1789-1799	    1
+18th century;18th century;Revolution, 1789-1798	    1
 18th century.;18th century.;Revolution, 1775-1783	    1
 18th century.;18th century;Medieval period, 1066-1485;Stuarts, 1603-1714;Tudors, 1485-1603	    1
 18th century.;18th century.;George I, II, 1714-1760.	    1
@@ -3929,6 +3930,7 @@ Africa;Great Britain	    1
 18th century.;18th century.;1753.;18th century.	    1
 18th century;18th century;1727-1760;1727-1760	    1
 18th century;18th century;1727-1760	    1
+18th century;18th century;1714-1827	    1
 18th century;18th century;1714-1727	    1
 18th century;18th century;1702-1714	    1
 18th century.;18th century.;1648-1715.;Anne, 1702-1714.	    1

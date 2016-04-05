@@ -1,12 +1,12 @@
 original	polished	Count
-Total count: 	n= 235729  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 235801  ( 50 % non-NA values)	Total count: 
 Wesley, John	male	1195
 Shakespeare, William	male	1078
 Defoe, Daniel	male	1051
 Watts, Isaac	male	773
-Swift, Jonathan	male	757
+Swift, Jonathan	male	758
 Pope, Alexander	male	654
-Bunyan, John	male	643
+Bunyan, John	male	644
 Dryden, John	male	546
 Goldsmith, Oliver	male	529
 Milton, John	male	519
@@ -20,7 +20,7 @@ Paine, Thomas	male	430
 Burnet, Gilbert	male	427
 Fox, George	male	420
 Johnson, Samuel	male	411
-Cicero, Marcus Tullius.	male	405
+Cicero, Marcus Tullius.	male	406
 Ward, Edward	male	403
 Fielding, Henry	male	396
 Thomson, James	male	387
@@ -56,7 +56,7 @@ Cennick, John	male	247
 Hill, John	male	245
 Doddridge, Philip	male	235
 Gibson, Edmund	male	235
-Smollett, Tobias George	male	232
+Smollett, Tobias George	male	233
 Colman, George	male	232
 Leslie, Charles	male	230
 Erskine, Ralph	male	228
@@ -79,8 +79,8 @@ Locke, John	male	200
 Bacon, Francis	male	199
 Foote, Samuel	male	195
 Willison, John	male	194
+Partridge, John	male	194
 Winstanley, William	male	193
-Partridge, John	male	193
 Richardson, Samuel	male	191
 Settle, Elkanah	male	190
 King, William	male	190
@@ -104,9 +104,9 @@ Centlivre, Susanna	female	172
 Cobbett, William	male	171
 Williams, John	male	171
 Coke, Edward	male	170
+Ussher, James	male	170
 Deloney, Thomas	male	170
 Hammond, Henry	male	170
-Ussher, James	male	168
 Boyer, Abel	male	168
 Quarles, Francis	male	168
 Murphy, Arthur	male	168
@@ -123,15 +123,15 @@ Keith, George	male	158
 Camden, William	male	157
 Stillingfleet, Edward	male	156
 Beaumont, Francis	male	156
+Boyle, Robert	male	155
 Rowe, Elizabeth Singer	female	154
 Wither, George	male	154
-Boyle, Robert	male	153
 Keach, Benjamin	male	153
 Webster, Noah	male	153
 Taylor, Thomas	male	152
 Hale, Matthew	male	151
+Fleetwood, William	male	150
 Saunders, Richard	male	150
-Fleetwood, William	male	149
 Robertson, William	male	149
 Sharp, John	male	149
 Nelson, Robert	male	148
@@ -165,19 +165,19 @@ Clarke, John	male	136
 Jacob, Giles	male	136
 Cowper, William	male	134
 Breton, Nicholas	male	134
+Burnet, Thomas	male	134
 Trapp, Joseph	male	134
 Moore, Francis	male	134
 Gauden, John	male	133
 Atterbury, Francis	male	133
-Burnet, Thomas	male	132
 Salmon, William	male	132
 Cocker, Edward	male	131
 Morell, Thomas	male	131
 Goodwin, Thomas	male	130
 Andrews, William	male	130
 Martin, Benjamin	male	129
+Bayly, Lewis	male	129
 Sacheverell, Henry	male	129
-Bayly, Lewis	male	128
 Kennett, White	male	128
 Ames, Nathaniel	male	128
 Hanway, Jonas	male	127
@@ -233,17 +233,17 @@ Gregory, John	male	109
 Lowth, Robert	male	109
 Dunton, John	male	108
 Moore, Edward	male	108
+Fuller, Thomas	male	108
 Janeway, James	male	108
 Norris, John	male	107
 Trimmer, Sarah	female	107
-Fuller, Thomas	male	107
 Macgowan, John	male	107
+Russel, Robert	male	107
 Luther, Martin	male	106
 Reynolds, John	male	106
 Buckingham, George Villiers	male	106
 Ken, Thomas	male	106
 Naylor, James	male	106
-Russel, Robert	male	106
 Comber, Thomas	male	105
 Parker, George	male	105
 Dod, John	male	105
@@ -265,13 +265,13 @@ Coley, Henry	male	101
 Jones, John	male	100
 Heywood, Thomas	male	100
 Armstrong, John	male	100
+Ray, John	male	99
 Penington, Isaac	male	99
 Shepard, Thomas	male	99
 Colman, Benjamin	male	99
 Horneck, Anthony	male	99
 Macpherson, James	male	98
 Sanderson, Robert	male	98
-Ray, John	male	98
 Raleigh, Walter	male	97
 Reynolds, Edward	male	97
 Sinclair, John	male	97
@@ -353,6 +353,7 @@ Rose, George	male	85
 Mackenzie, George	male	85
 Gouge, Thomas	male	85
 Dove, Jonathan.	male	85
+Hieron, Samuel	male	84
 Scougal, Henry	male	84
 Wycherley, William	male	84
 Hickes, George	male	84
@@ -360,7 +361,6 @@ Crouch, Nathaniel	male	84
 Harris, John	male	84
 Sibbes, Richard	male	84
 Ambrose, Isaac	male	83
-Hieron, Samuel	male	83
 Seller, John	male	83
 Bernard, Richard	male	83
 Assheton, William	male	83
@@ -406,13 +406,13 @@ Brathwait, Richard	male	77
 Dekker, Thomas	male	77
 Bray, Thomas	male	76
 Blackmore, Richard	male	76
+Gataker, Thomas	male	76
 Robinson, John	male	76
 Blackstone, William	male	76
 Jackson, John	male	76
 Whitby, Daniel	male	76
 Bullord, John.	male	76
 Selden, John	male	75
-Gataker, Thomas	male	75
 Falconer, William	male	75
 Sharp, Granville	male	75
 Cowley, Abraham	male	75
@@ -646,6 +646,7 @@ Pearce, Zachary	male	55
 Adams, William	male	55
 Caryl, Joseph	male	55
 Gordon, William	male	55
+Fenner, William	male	55
 Andrews, John	male	55
 Glanvill, Joseph	male	55
 Parnell, Thomas	male	55
@@ -668,7 +669,6 @@ Burton, Henry	male	54
 Gibbons, Thomas	male	54
 Adams, George	male	54
 Ruddiman, Thomas	male	54
-Fenner, William	male	54
 Scott, William	male	54
 Byfield, Nicholas	male	54
 Wakely, Andrew.	male	54
@@ -787,6 +787,7 @@ Smith, James	male	48
 Norwood, Richard	male	48
 Bossuet, Jacques Bénigne	male	48
 Barker, John	male	48
+Gibbon, Edward	male	48
 Petty, William	male	48
 Lansdowne, George Granville	male	48
 Sydenham, Thomas	male	48
@@ -809,13 +810,13 @@ Burney, Fanny	female	47
 Venning, Ralph	male	47
 Dorrington, Theophilus	male	47
 Savage, Richard	male	47
-Gibbon, Edward	male	47
 Marvell, Andrew	male	47
 Chamberlayne, Edward	male	47
 Plat, Hugh	male	47
 Gifford, George	male	47
 Hill, Thomas	male	47
 Turford, Hugh	male	46
+Fisher, Payne	male	46
 Smith, George	male	46
 Purney, Thomas	male	46
 Russell, John	male	46
@@ -833,7 +834,6 @@ Featley, Daniel	male	46
 Churchyard, Thomas	male	46
 Vicars, John	male	46
 Burder, George	male	45
-Fisher, Payne	male	45
 Lettsom, John Coakley	male	45
 Boswell, James	male	45
 Young, William	male	45
@@ -918,6 +918,7 @@ Rolt, Richard	male	43
 Sidney, Philip	male	43
 Brine, John	male	43
 Crouch, Humphrey	male	43
+Stubbes, Phillip.	male	43
 Carey, George Saville	male	42
 Smith, Adam	male	42
 Bowles, Carington	female	42
@@ -946,7 +947,6 @@ Darrell, William	male	42
 Butler, Charles	male	42
 Leake, John	male	42
 Vaughan, William	male	42
-Stubbes, Phillip.	male	42
 Bagshaw, Edward	male	42
 Spauter, Johannes de	male	41
 Tyndale, William	male	41
@@ -994,6 +994,7 @@ Smith, Edmund	male	40
 Serle, Ambrose	male	40
 Godwin, William	male	40
 Lewis, William	male	40
+Cave, William	male	40
 Fenn, Ellenor	female	40
 Phillips, Edward	male	40
 Lindsey, Theophilus	male	40
@@ -1027,7 +1028,6 @@ Cadogan, William	male	39
 Jones, David	male	39
 Hildrop, John	male	39
 Nelson, William	male	39
-Cave, William	male	39
 O'Leary, Arthur	male	39
 Cox, Richard	male	39
 Wood, William	male	39
@@ -1038,6 +1038,7 @@ Hull, Thomas	male	39
 Francis, Philip	male	39
 Mavor, William Fordyce	male	39
 Thomas, William	male	39
+Florus, Lucius Annaeus.	male	39
 Baker, Thomas	male	39
 Cooke, John	male	39
 De Lolme, Jean Louis	female	39
@@ -1070,7 +1071,6 @@ Ellis, John	male	38
 Fiddes, Richard	male	38
 Gastrell, Francis	male	38
 Douglas, James	male	38
-Florus, Lucius Annaeus.	male	38
 Palairet, Jean	female	38
 Johnstone, Charles	male	38
 Boyse, Samuel	male	38
@@ -1108,6 +1108,7 @@ Gisborne, Thomas	male	37
 Johnson, Thomas	male	37
 Morris, Robert	male	37
 Bullock, Christopher	male	37
+Pearson, John	male	37
 Clare, John Fitzgibbon	male	37
 Colbatch, John	male	37
 Green, John	male	37
@@ -1117,6 +1118,7 @@ Mortimer, Thomas	male	37
 Spelman, Henry	male	37
 Evans, Caleb	male	37
 Du Moulin, Peter	male	37
+Ford, Simon	male	37
 Gouge, William	male	37
 Vaux, John	male	37
 Lavater, Johann Caspar	male	36
@@ -1130,6 +1132,7 @@ Böhm, Anton Wilhelm	male	36
 Taylor, William	male	36
 Walker, Henry	male	36
 Melville, Henry Dundas	male	36
+Bayly, William	male	36
 Parker, Samuel	male	36
 Cudworth, William	male	36
 Coote, Edmund	male	36
@@ -1145,7 +1148,6 @@ Rogers, Timothy	male	36
 Sibbald, Robert	male	36
 Moss, Robert	male	36
 Lacy, John	male	36
-Pearson, John	male	36
 Hayes, Samuel	male	36
 Marlowe, Christopher	male	36
 Coxe, William	male	36
@@ -1171,7 +1173,6 @@ Payne, William	male	35
 Hall, David	male	35
 Bristol, George Digby	male	35
 Mayo, Richard	male	35
-Bayly, William	male	35
 Herbert of Cherbury, Edward Herbert	male	35
 Baynes, Paul	male	35
 Hubberthorn, Richard	male	35
@@ -1194,7 +1195,7 @@ Corbett, Thomas	male	35
 Gore, John	male	35
 Millar, John	male	35
 Lenthall, William	male	35
-Ford, Simon	male	35
+Bale, John	male	35
 Nicholls, William	male	35
 Cartwright, Thomas	male	35
 Guevara, Antonio de	male	35
@@ -1227,7 +1228,6 @@ Moll, Herman	male	34
 Stennett, Samuel	male	34
 Hawkins, William	male	34
 Graves, Richard	male	34
-Bale, John	male	34
 Gyles, Fletcher	male	34
 Chamberlen, Hugh.	male	34
 Munday, Anthony	male	34
@@ -1264,6 +1264,7 @@ Baldwin, William	male	33
 Kent, Henry	male	33
 Pulle, John.	male	33
 Rudyerd, Benjamin	male	33
+Flecknoe, Richard	male	33
 Berriman, William	male	32
 Nicole, Pierre	male	32
 Killigrew, William	male	32
@@ -1315,7 +1316,6 @@ Burton, William	male	32
 Heywood, John	male	32
 Jessey, Henry	male	32
 Mede, Joseph	male	32
-Flecknoe, Richard	male	32
 Briscoe, John	male	32
 Crofton, Zachary	male	32
 Collins, Arthur	male	31
@@ -1870,6 +1870,7 @@ Fox, Francis	male	23
 Pilkington, Matthew	male	23
 Clark, Samuel	male	23
 De Britaine, William.	male	23
+Gale, Theophilus	male	23
 Wigglesworth, Michael	male	23
 Brown, Andrew	male	23
 Reed, Joseph	male	23
@@ -1904,6 +1905,7 @@ Walsh, John	male	23
 Plowden, Edmund	male	23
 Ainsworth, Robert	male	23
 Miège, Guy	male	23
+Bayly, Thomas	male	23
 Prichard, Rhys	male	23
 Fitz-Adam, Adam.	male	23
 Leadbetter, Charles	male	23
@@ -1955,6 +1957,7 @@ Browne, Moses	male	22
 Miller, John	male	22
 Douglas, William	male	22
 Currie, John	male	22
+Aler, Paul	male	22
 Caslon, William	male	22
 Dunbar, William	male	22
 Badini, Carlo Francesco	male	22
@@ -1964,8 +1967,8 @@ Herbert, William	male	22
 Nichols, John	male	22
 Powel, Gabriel	male	22
 Withals, John.	male	22
-Gale, Theophilus	male	22
 D'Anvers, Caleb.	male	22
+Williams, Roger	male	22
 Wilson, James	male	22
 Douglass, William	male	22
 Williams, Solomon	male	22
@@ -2008,7 +2011,6 @@ Cole, Thomas	male	22
 Bentley, Thomas Richard	male	22
 Berkenhout, John	male	22
 Stretzer, Thomas	male	22
-Bayly, Thomas	male	22
 Vince, Samuel	male	22
 Davies, Edward	male	22
 Blome, Richard	male	22
@@ -2059,14 +2061,12 @@ Anderson, Robert	male	21
 Steuart, James	male	21
 Traill, Robert	male	21
 Meager, Leonard	male	21
-Aler, Paul	male	21
 Howel, Laurence	male	21
 Mayne, Jasper	male	21
 Ashby, Richard	male	21
 Calder, Robert	male	21
 Bockett, Elias	male	21
 Zubly, John Joachim	male	21
-Williams, Roger	male	21
 Paterson, William	male	21
 Beccaria, Cesare	male	21
 Hopkins, William	male	21
@@ -2357,6 +2357,7 @@ Harrison, Joseph	male	19
 Jeffery, John	male	19
 Lowman, Moses	male	19
 Lloyd, John	male	19
+Lithgow, William	male	19
 Croke, George	male	19
 Maxwell, William	male	19
 Agrippa von Nettesheim, Heinrich Cornelius	male	19
@@ -2465,7 +2466,6 @@ Ogilvie, William	male	18
 Sharp, William	male	18
 Sibly, Manoah	male	18
 Maitland, William	male	18
-Lithgow, William	male	18
 Bury, Arthur	male	18
 Hewitt, John	male	18
 Wilson, Peter	male	18
@@ -2485,6 +2485,7 @@ Denison, John	male	18
 Bourne, William	male	18
 Whetstone, George	male	18
 Securis, John	male	18
+Crakanthorpe, Richard	male	18
 Hakewill, George	male	18
 Ursinus, Zacharias	male	18
 Nixon, Anthony.	male	18
@@ -2667,7 +2668,7 @@ Gentili, Alberico	male	17
 Elderton, William	male	17
 Frith, John	male	17
 Cooke, Alexander	male	17
-Crakanthorpe, Richard	male	17
+Harmar, John	male	17
 Leech, John	male	17
 St. John, Oliver	male	17
 Seton, John	male	17
@@ -2799,6 +2800,7 @@ Burney, Charles	male	16
 Merrick, James	male	16
 Adam, Thomas	male	16
 Dallaway, James	male	16
+Bourignon, Antoinette	female	16
 Nisbet, William	male	16
 Garnett, Thomas	male	16
 Jones, Erasmus	male	16
@@ -2859,8 +2861,8 @@ Montagu, Richard	male	16
 Palingenio Stellato, Marcello	male	16
 Fenner, Dudley	male	16
 Greenham, Richard.	male	16
-Harmar, John	male	16
 Sydenham, Humphrey	male	16
+Carpenter, Richard	male	16
 Wright, Leonard	male	16
 Price, Daniel	male	16
 Sandys, Edwin	male	16
@@ -2998,7 +3000,6 @@ Fontaine, Nicolas	male	15
 Parkyns, Thomas	male	15
 Webb, Daniel	male	15
 Sutton, Thomas	male	15
-Bourignon, Antoinette	female	15
 Craven, Elizabeth Craven	female	15
 Abernethy-Drummond, William	male	15
 Lilly, John	male	15
@@ -3042,7 +3043,6 @@ Maxey, Anthony	male	15
 Adamson, Patrick	male	15
 Herring, Francis	male	15
 Joye, George	male	15
-Carpenter, Richard	male	15
 Peele, George	male	15
 Brugis, Thomas	male	15
 Brownlow, Richard	male	15
@@ -3063,6 +3063,7 @@ Lowellin, David	male	14
 Kirkton, James	male	14
 Campbell, Duncan	male	14
 Rogissart, Alexandre de.	male	14
+Wedderburn, Alexander	male	14
 Woodd, Basil	male	14
 Butler, Lilly.	female	14
 Buck, Samuel	male	14
@@ -3077,6 +3078,7 @@ Bridges, John	male	14
 Cockings, George	male	14
 Bradbury, Charles.	male	14
 Hübner, Johann	male	14
+Hammond, Charles	male	14
 Fortescue, James	male	14
 Hull, John	male	14
 Ross, David	male	14
@@ -3272,7 +3274,6 @@ Cox, Daniel	male	13
 Nicholls, Frank	male	13
 Castro Sarmento, Jacob de	male	13
 Moss, Thomas	male	13
-Wedderburn, Alexander	male	13
 Hartley, John	male	13
 Pickworth, Henry	male	13
 Cecil, Richard	male	13
@@ -3292,7 +3293,6 @@ Oswald, James	male	13
 Lewis, Edward	male	13
 Jacombe, Thomas	male	13
 Fletcher, James	male	13
-Hammond, Charles	male	13
 Tatham, William	male	13
 Stafford, William Howard	male	13
 Tait, John	male	13
@@ -3552,6 +3552,7 @@ Roebuck, John	male	12
 Menzies, John	male	12
 Derby, James Stanley	male	12
 Parsons, Joseph	male	12
+Lawrence, Richard	male	12
 Bond, Henry.	male	12
 Dell, Henry	male	12
 Dickens, Charles	male	12
@@ -3773,6 +3774,7 @@ Freke, Thomas	male	12
 Hobhouse, Benjamin	male	12
 Tren, John	male	12
 Humphreys, John	male	12
+Simon, Richard	male	12
 Gwin, Thomas	male	12
 Jones, George	male	12
 Aiton, John.	male	12
@@ -3795,6 +3797,7 @@ Standish, Arthur	male	12
 Askham, Anthony	male	12
 Rivers, Peregrine.	male	12
 Balmford, James	male	12
+Hyperius, Andreas	male	12
 Hawes, Stephen	male	12
 Julius, Alexander.	male	12
 Reeve, Edmund	male	12
@@ -3864,7 +3867,6 @@ Stone, Edward	male	11
 Turlington, Robert	male	11
 Toller, Thomas	male	11
 Green, Valentine	male	11
-Lawrence, Richard	male	11
 Brecknock, Timothy	male	11
 Shaw, Thomas	male	11
 Robertson, Alexander	male	11
@@ -4094,7 +4096,6 @@ Wylie, Robert.	male	11
 Edwards, James	male	11
 Warwick, Arthur	male	11
 Smith, Godfrey	male	11
-Simon, Richard	male	11
 Charke, Charlotte	female	11
 Downing, George	male	11
 Jones, James	male	11
@@ -4132,7 +4133,6 @@ Rudston, John	male	11
 Bullein, William	male	11
 Bunny, Edmund	male	11
 Cary, Walter.	male	11
-Hyperius, Andreas	male	11
 Habington, William	male	11
 Howson, John	male	11
 Morison, Richard	male	11
@@ -4157,6 +4157,7 @@ Sadler, John	male	11
 Ashe, Thomas	male	11
 Kellison, Matthew.	male	11
 Pitt, Moses	male	11
+Goring, George Goring	male	11
 Musgrave, John	male	11
 Weld, Thomas	male	11
 Aston, Thomas	male	11
@@ -4568,7 +4569,6 @@ Bright, Timothie	male	10
 Waterhouse, Edward	male	10
 Barriffe, William.	male	10
 Gatford, Lionel	male	10
-Goring, George Goring	male	10
 Neve, Robert.	male	10
 Bristol, John Digby	male	10
 Nendick, Humphrey.	male	10
@@ -4625,6 +4625,7 @@ Read, Henry	male	9
 Norfolk, Henry Howard	male	9
 Dickinson, Robert	male	9
 Poole, John	male	9
+McDermott, Ann.	female	9
 Savery, William	male	9
 Miller, Edward	male	9
 Robinson, George	male	9
@@ -5637,6 +5638,7 @@ May, Robert	male	8
 Petto, Samuel	male	8
 Tillam, Thomas.	male	8
 Sall, Andrew	male	8
+Walton, Brian	male	8
 Westfield, Thomas	male	8
 Whitlock, John	male	8
 Lilburne, Robert	male	8
@@ -5679,6 +5681,7 @@ Evans, Nathaniel	male	7
 Le Brun, Charles	male	7
 Scot, Walter	male	7
 Cargill, Donald	male	7
+Meibom, Johann Heinrich	male	7
 Kingsford, William	male	7
 Moody, Samuel	male	7
 Lambe, Henry	male	7
@@ -5766,7 +5769,7 @@ Lansdowne, William Petty	male	7
 Rudd, Thomas	male	7
 Languet, Jean Joseph	female	7
 Lockwood, James	male	7
-McDermott, Ann.	female	7
+Charters, Laurence	male	7
 Campbell, Samuel	male	7
 Ellicott, Andrew	male	7
 Tompson, Benjamin	male	7
@@ -6249,6 +6252,7 @@ Salvi, Antonio	male	7
 Stopford, Joshua	male	7
 Edmondes, Clement	male	7
 Cuninghame, William	male	7
+Best, George	male	7
 Carstares, William	male	7
 Chamberlaine, William	male	7
 Griffin, Gregory.	male	7
@@ -6385,7 +6389,6 @@ Shelton, William	male	7
 Stokes, David	male	7
 Sturmy, Samuel	male	7
 Tilburg, Cornelius.	male	7
-Walton, Brian	male	7
 Whiston, Joseph	male	7
 Wilbee, Amon.	male	7
 Truman, Joseph	male	7
@@ -6518,7 +6521,6 @@ King, Walter	male	6
 Vigani, John Francis	male	6
 Greville, Charles Francis	male	6
 Steel, Laurence	male	6
-Charters, Laurence	male	6
 Neilson, John	male	6
 Winslow, Edward	male	6
 Phillips, John.	male	6
@@ -7207,7 +7209,6 @@ Leven, Alexander Leslie	male	6
 Hobson, John	male	6
 Weeks, John	male	6
 Chandler, Henry.	male	6
-Best, George	male	6
 White, Samuel	male	6
 Maurice, Peter	male	6
 Stainforth, William	male	6
@@ -7349,6 +7350,7 @@ Bayley, Charles	male	6
 Brend, William	male	6
 Ravenshaw, Samuel.	male	6
 Starkey, John	male	6
+Corss, James.	male	6
 Bassett, Thomas	male	6
 Bateman, Robert	male	6
 Gallen, Thomas	male	6
@@ -7361,6 +7363,7 @@ Culmer, Richard	male	6
 Cyprian, Bishop of Carthage	male	6
 Forde, Thomas.	male	6
 Gand, Louis de.	male	6
+Lamb, Philip	male	6
 Harrison, Michael	male	6
 Harwood, John.	male	6
 Harrison, Henry	male	6
@@ -7680,6 +7683,7 @@ Blenman, Jonathan.	male	5
 Puglia, James Ph.	male	5
 Houghton, Asa	male	5
 Wetmore, James	male	5
+Jackson, Robert	male	5
 Lempriere, William	male	5
 Swift, Zephaniah	male	5
 Woodward, Samuel	male	5
@@ -8120,6 +8124,7 @@ Shuckburgh-Evelyn, George Augustus William	male	5
 Rowland, Thomas	male	5
 Oliphant, Charles	male	5
 Mendes da Costa, Emanuel	male	5
+Feyens, Thomas	male	5
 Sotheby, William	male	5
 Fullmer, Samuel.	male	5
 Lewelyn, William	male	5
@@ -8610,6 +8615,7 @@ Higginson, Francis	male	5
 Gumbleden, John	male	5
 Fulbeck, William	male	5
 Losa, Francisco de	male	5
+Maimonides, Moses	male	5
 Adrichem, Christiaan van	male	5
 Caffyn, Matthew	male	5
 Poole, William	male	5
@@ -8640,7 +8646,6 @@ Budd, Thomas	male	5
 Boteler, Nathaniel.	male	5
 Cheesman, Christopher.	male	5
 Clavell, Robert	male	5
-Corss, James.	male	5
 Crompton, Hugh	male	5
 Dowell, John	male	5
 Dymock, James	male	5
@@ -8653,7 +8658,6 @@ Boate, Arnold	male	5
 [Fox, George, elder]	male	5
 Gogor, William	male	5
 Gosnold, John	male	5
-Lamb, Philip	male	5
 Hoar, Leonard	male	5
 Hunter, Josiah	male	5
 Hunton, Samuel.	male	5
@@ -8788,7 +8792,6 @@ Howe, William Howe	male	4
 Dubois de Chémant, Nicolas	male	4
 Parry, Caleb Hillier	male	4
 Priestley, Robert	male	4
-Meibom, Johann Heinrich	male	4
 Walker, Nathan.	male	4
 Osborne, Thomas, d. 1767.	male	4
 Foley, Robert	male	4
@@ -8834,6 +8837,7 @@ Gordon, George Gordon	male	4
 [Scot, William	male	4
 Murray, Patrick	male	4
 Russel, William Augustus.	male	4
+Daniell, Thomas	male	4
 Lipscomb, William	male	4
 Gower, Humphrey	male	4
 Hayward, Robert	male	4
@@ -8907,6 +8911,7 @@ Gordon, Charles Hamilton	male	4
 Buchan, Henry David Erskine	male	4
 Stewart, Dugald	male	4
 Fairfax, John	male	4
+Lescallier, Daniel	male	4
 Middleton, Joshua	male	4
 Elford, William	male	4
 Markham, George	male	4
@@ -9014,7 +9019,6 @@ Hubbard, John	male	4
 Murdock, John	male	4
 Aplin, John	male	4
 Blatchford, Samuel	male	4
-Jackson, Robert	male	4
 Bartram, William	male	4
 Noble, Oliver	male	4
 Jewett, Jedidiah	male	4
@@ -9604,7 +9608,6 @@ Gentleman, Robert	male	4
 Lisle, Edward	male	4
 Palmer, Charlotte	female	4
 Jackson, Henry	male	4
-Feyens, Thomas	male	4
 Pomet, Pierre	male	4
 Wilcocke, Samuel Hull	male	4
 Warrington, William.	male	4
@@ -10360,7 +10363,6 @@ Trelcatius, Lucas.	male	4
 Gomersall, Robert	male	4
 Fabricius Hildanus, Wilhelm	male	4
 Viccars, John	male	4
-Maimonides, Moses	male	4
 Luna, Miguel de	male	4
 Gascoyne, Joel	male	4
 Nicols, Thomas.	male	4
@@ -10537,6 +10539,7 @@ Fannant, Thomas.	male	4
 Overton, Robert	male	4
 Armitage, Timothy	male	4
 Stapleton, Philip	male	4
+Stoppa, Giovanni Battista.	male	4
 Quinault, Philippe	male	4
 Samble, Richard	male	4
 Ward, Patience	female	4
@@ -10689,7 +10692,6 @@ Manson-Sinclair, Robert.	male	3
 Call, John	male	3
 Giffard, William	male	3
 Thévenot, Jean de	female	3
-Daniell, Thomas	male	3
 Devaynes, William	male	3
 Still, John	male	3
 Bridges, James	male	3
@@ -11681,7 +11683,6 @@ Winlaw, William.	male	3
 Maxwell, Alexander	male	3
 Gould, John	male	3
 Vernage, Etienne François.	male	3
-Lescallier, Daniel	male	3
 Erroll, Mary Hay	female	3
 Tresham, Henry	male	3
 Grou, Jean Nicolas	female	3
@@ -12895,6 +12896,7 @@ Verro, Sebastian.	male	3
 Calthrope, Charles	male	3
 Meurier, Gabriel	male	3
 Top, Alexander.	male	3
+Scapula, Johann	male	3
 Downes, Thomas.	male	3
 Stafford, Thomas	male	3
 Walpole, Michael	male	3
@@ -13428,7 +13430,6 @@ Robins, Robert.	male	3
 Gookin, Vincent	male	3
 Huntington, Robert.	male	3
 Ufflet, John	male	3
-Stoppa, Giovanni Battista.	male	3
 Holland, Guy	male	3
 Newark, David Leslie	male	3
 Herbert, Percy	male	3
@@ -13535,6 +13536,7 @@ Galli de Bibiena, Jean	female	2
 Woltersdorf, Ernst Gottlieb	male	2
 Cunyngham, Robert	male	2
 Colbert, Stephen.	male	2
+Champion, William.	male	2
 [Caswall, John	male	2
 North, Richard	male	2
 Sell, Henry.	male	2
@@ -15523,6 +15525,7 @@ Clarkson, Christopher	male	2
 Laybourne, Henry.	male	2
 Bilton, Henry	male	2
 Moore, Joseph	male	2
+Collett, John	male	2
 Showers, Samuel Howe.	male	2
 Dalton, Jacob.	male	2
 Phillipps, Henry.	male	2
@@ -16954,6 +16957,7 @@ Scruton, James.	male	2
 Creighton, Robert	male	2
 Spicer, John	male	2
 Hooton, Philip	male	2
+Kinderley, Charles.	male	2
 Riley, John	male	2
 Jeacocke, Caleb	male	2
 Obscreation, Timothy.	male	2
@@ -17611,6 +17615,7 @@ Mure, Andrew	male	2
 Grosvenor, Richard	male	2
 Dunster, Henry	male	2
 Duckett, Thomas	male	2
+Dowriche, Hugh	male	2
 Cokayne, Mary	female	2
 Loarte, Gaspar.	male	2
 Burt, Thomas	male	2
@@ -17783,7 +17788,6 @@ Mabb, John.	male	2
 Lippomano, Luigi	male	2
 Sweet, John	male	2
 Schade, Peter	male	2
-Scapula, Johann	male	2
 Feylde, Thomas.	male	2
 Danett, Thomas	male	2
 Lewis, Jeremiah	male	2
@@ -19644,6 +19648,7 @@ Charnley, William	male	1
 [Robertson, Harry	male	1
 Bath, William Pulteney	male	1
 [Bliss, Nathaniel	male	1
+Venaeus, John.	male	1
 Capon, John	male	1
 [Naish, James, 18th cent.]	male	1
 Nangreaves, John.	male	1
@@ -23644,7 +23649,6 @@ Weate, William	male	1
 Brownrigg, James.	male	1
 Davenport, Samuel	male	1
 Wingrove, Ann.	female	1
-Collett, John	male	1
 Davidson, Thomas	male	1
 Banker, John	male	1
 Murray, William Vans	male	1
@@ -25456,7 +25460,6 @@ Moray, Charles	male	1
 Wade, Luke.	male	1
 Spicer, Luke.	male	1
 Skidmore, John	male	1
-Champion, William.	male	1
 Bontein, Thomas.	male	1
 Minty, George.	male	1
 Scot, Andrew	male	1
@@ -27281,7 +27284,6 @@ Hillary, Joseph	male	1
 Bensley, Robert	male	1
 Merrilies, Andrew.	male	1
 C., John.	male	1
-Kinderley, Charles.	male	1
 Townsend, Josiah.	male	1
 Brown, Martin	male	1
 Cuffe, Hamilton	male	1
@@ -27838,6 +27840,7 @@ Corbet, Robert	male	1
 Polson, John	male	1
 Strachan, David	male	1
 Paxton, George	male	1
+Leedes, John.	male	1
 Mazzinghi, Joseph	male	1
 Gillernagh, Brian.	male	1
 Luckman, Mary.	female	1
@@ -30294,7 +30297,6 @@ Frampton, Francis	male	1
 Earnshaw, William	male	1
 Dyson, Humphrey	male	1
 Draper, Joseph.	male	1
-Dowriche, Hugh	male	1
 Downes, Roger.	male	1
 Dolben, David	male	1
 Dixon, John	male	1
@@ -30522,6 +30524,7 @@ Hitching, Thomas.	male	1
 Hofmann, Daniel	male	1
 Huggarde, Miles	male	1
 Holinshed, Raphael.	male	1
+[Holt, John	male	1
 Hommius, Festus.	male	1
 Hood, Robin.	female	1
 Hughes, Lewis.	male	1
@@ -31010,6 +31013,7 @@ Bentley, James.	male	1
 Gorecki, Leonard.	male	1
 Southerne, Edmund.	male	1
 Dorislaus, Isaac	male	1
+Christopherson, John	male	1
 Davis, Francis	male	1
 Creswell, George.	male	1
 Singleton, Isaac	male	1
@@ -31222,6 +31226,7 @@ Mason, Edmund	male	1
 Martyn, Joseph.	male	1
 Attowell, George.	male	1
 Heuring, Simon	male	1
+Marshall, George	male	1
 Albin de Valsergues, Jean d'	female	1
 Pelletier, Thomas.	male	1
 Saltern, Thomas	male	1
@@ -34747,6 +34752,7 @@ Godman, William	male	1
 Busenello, Giovanni Francesco	male	1
 Steno, Nicolaus	male	1
 Schottus, Franciscus	male	1
+Queckfeldt, Benedict.	male	1
 Mantell, Walter.	male	1
 Foulkes, Robert	male	1
 Rémond des Cours, Nicolas	male	1
