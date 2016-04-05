@@ -1,11 +1,12 @@
 original	polished	Count
+Total count: 	n= 242247  ( 50 % non-NA values)	Total count: 
 Wesley, John	Wesley, John (1703-1791)	1195
 Shakespeare, William	Shakespeare, William (1564-1616)	1078
 Defoe, Daniel	Defoe, Daniel (1661-1731)	1051
 Watts, Isaac	Watts, Isaac (1674-1748)	773
-Swift, Jonathan	Swift, Jonathan (1667-1745)	758
+Swift, Jonathan	Swift, Jonathan (1667-1745)	757
 Pope, Alexander	Pope, Alexander (1688-1744)	652
-Bunyan, John	Bunyan, John (1628-1688)	638
+Bunyan, John	Bunyan, John (1628-1688)	637
 Dryden, John	Dryden, John (1631-1700)	540
 Goldsmith, Oliver	Goldsmith, Oliver (1728-1774)	523
 Milton, John	Milton, John (1608-1674)	519
@@ -17,7 +18,7 @@ Whitefield, George	Whitefield, George (1714-1770)	455
 Lily, William	Lily, William (1468-1522)	444
 Paine, Thomas	Paine, Thomas (1737-1809)	421
 Burnet, Gilbert	Burnet, Gilbert (1643-1715)	410
-Cicero, Marcus Tullius.	Cicero, Marcus Tullius	406
+Cicero, Marcus Tullius.	Cicero, Marcus Tullius	405
 Ward, Edward	Ward, Edward (1667-1731)	403
 Fielding, Henry	Fielding, Henry (1707-1754)	396
 Fox, George	Fox, George (1624-1661)	377
@@ -52,7 +53,7 @@ Cennick, John	Cennick, John (1718-1755)	247
 Hall, Joseph	Hall, Joseph (1574-1656)	247
 Doddridge, Philip	Doddridge, Philip (1702-1751)	235
 Gibson, Edmund	Gibson, Edmund (1669-1748)	234
-Smollett, Tobias George	Smollett, Tobias George (1721-1771)	233
+Smollett, Tobias George	Smollett, Tobias George (1721-1771)	232
 Erskine, Ralph	Erskine, Ralph (1685-1752)	228
 Woodward, Josiah	Woodward, Josiah (1660-1712)	228
 Hoadly, Benjamin	Hoadly, Benjamin (1676-1761)	226
@@ -92,27 +93,27 @@ Hammond, Henry	Hammond, Henry (1605-1660)	170
 Coke, Edward	Coke, Edward (1552-1634)	168
 Murphy, Arthur	Murphy, Arthur (1727-1805)	168
 Boyer, Abel	Boyer, Abel (1667-1729)	167
-Partridge, John	Partridge, John (1644-1715)	167
+Partridge, John	Partridge, John (1644-1715)	166
 Richardson, Samuel	Richardson, Samuel (1689-1761)	165
 Sherlock, Thomas	Sherlock, Thomas (1678-1761)	165
 Bolingbroke, Henry St. John	Bolingbroke, Henry St. John (1678-1751)	165
 Carey, Henry	Carey, Henry (1687-1743)	164
-Cordier, Mathurin	Cordier, Mathurin (1479-1564)	162
 Franklin, Benjamin	Franklin, Benjamin (1706-1790)	162
 Lee, Nathaniel	Lee, Nathaniel (1653-1692)	162
+Cordier, Mathurin	Cordier, Mathurin (1479-1564)	161
 Rider, Cardanus.	Rider, Cardanus	161
 Fenning, Daniel.	Fenning, Daniel	161
 Watson, Richard	Watson, Richard (1737-1816)	160
 Culpeper, Nicholas	Culpeper, Nicholas (1616-1654)	159
-Ussher, James	Ussher, James (1581-1656)	157
 Camden, William	Camden, William (1551-1623)	157
 Smith, Henry	Smith, Henry (1550-1591)	157
 Stillingfleet, Edward	Stillingfleet, Edward (1635-1699)	156
 Beaumont, Francis	Beaumont, Francis (1584-1616)	156
-Boyle, Robert	Boyle, Robert (1627-1691)	155
+Ussher, James	Ussher, James (1581-1656)	155
 Hume, David	Hume, David (1711-1776)	154
 Rowe, Elizabeth Singer	Rowe, Elizabeth Singer (1674-1737)	154
 Gordon, Thomas	Gordon, Thomas (NA-1750)	154
+Boyle, Robert	Boyle, Robert (1627-1691)	153
 Keach, Benjamin	Keach, Benjamin (1640-1704)	153
 Webster, Noah	Webster, Noah (1758-1843)	153
 Wither, George	Wither, George (1588-1667)	151
@@ -121,9 +122,9 @@ Keith, George	Keith, George (1639-1716)	148
 Nelson, Robert	Nelson, Robert (1656-1715)	148
 Whiston, William	Whiston, William (1667-1752)	145
 Lilburne, John	Lilburne, John (1614-1657)	143
-Fleetwood, William	Fleetwood, William (1656-1723)	143
 Gother, John	Gother, John (NA-1704)	142
 Vickers, William	Vickers, William (1707-1711)	142
+Fleetwood, William	Fleetwood, William (1656-1723)	142
 Trusler, John	Trusler, John (1735-1820)	142
 Saunders, Richard	Saunders, Richard (1613-1675)	142
 Dodd, William	Dodd, William (1729-1777)	140
@@ -151,9 +152,9 @@ Rousseau, Jean-Jacques	Rousseau, Jean-jacques (1712-1778)	131
 Morell, Thomas	Morell, Thomas (1703-1784)	131
 Martin, Benjamin	Martin, Benjamin (1705-1782)	129
 Lorrain, P.	Lorrain, P (NA-1719)	129
-Bayly, Lewis	Bayly, Lewis (1631-1631)	129
 Sacheverell, Henry	Sacheverell, Henry (1674-1724)	129
 Colman, George	Colman, George (1732-1794)	129
+Bayly, Lewis	Bayly, Lewis (1631-1631)	128
 Kennett, White	Kennett, White (1660-1728)	128
 Quarles, Francis	Quarles, Francis (1592-1644)	128
 Jonson, Ben	Jonson, Ben (1573-1637)	127
@@ -212,11 +213,11 @@ Wright, S.	Wright, S (1683-1746)	107
 Trimmer, Sarah	Trimmer, Sarah (1741-1810)	107
 Brown, John	Brown, John (1722-1787)	107
 Macgowan, John	Macgowan, John (1726-1780)	107
-Russel, Robert	Russel, Robert (1692-NA)	107
 Jones, William	Jones, William (1726-1800)	107
 Luther, Martin	Luther, Martin (1483-1546)	106
 Wilson, Thomas	Wilson, Thomas (1663-1755)	106
 Ken, Thomas	Ken, Thomas (1637-1711)	106
+Russel, Robert	Russel, Robert (1692-NA)	106
 Dod, John	Dod, John (1549-1645)	105
 Naylor, James	Naylor, James (1617-1660)	105
 Churchill, C.	Churchill, C (1731-1764)	105
@@ -237,10 +238,10 @@ Coley, Henry	Coley, Henry (1633-1695)	101
 Heywood, Thomas	Heywood, Thomas (NA-1641)	100
 Lowth, Robert	Lowth, Robert (1710-1787)	100
 Dunton, John	Dunton, John (1659-1733)	99
-Ray, John	Ray, John (1627-1705)	99
 Penington, Isaac	Penington, Isaac (1616-1679)	99
 Colman, Benjamin	Colman, Benjamin (1673-1747)	99
 Horneck, Anthony	Horneck, Anthony (1641-1697)	99
+Ray, John	Ray, John (1627-1705)	98
 Reynolds, Edward	Reynolds, Edward (1599-1676)	97
 Macpherson, James	Macpherson, James (1736-1796)	97
 Sanderson, Robert	Sanderson, Robert (1587-1663)	97
@@ -312,12 +313,12 @@ Stonhouse, James	Stonhouse, James (1716-1795)	85
 Rose, George	Rose, George (1744-1818)	85
 Watson, Thomas	Watson, Thomas (NA-1686)	85
 Dove, Jonathan.	Dove, Jonathan	85
-Hieron, Samuel	Hieron, Samuel (1576-1617)	84
 Scougal, Henry	Scougal, Henry (1650-1678)	84
 Wycherley, William	Wycherley, William (1640-1716)	84
 Hickes, George	Hickes, George (1642-1715)	84
 Crouch, Nathaniel	Crouch, Nathaniel (1632-1752)	84
 Ambrose, Isaac	Ambrose, Isaac (1604-1664)	83
+Hieron, Samuel	Hieron, Samuel (1576-1617)	83
 Bernard, Richard	Bernard, Richard (1568-1641)	83
 Assheton, William	Assheton, William (1641-1711)	83
 Massie, J.	Massie, J (NA-1784)	83
@@ -329,12 +330,12 @@ Dade, William.	Dade, William (1740-1790)	82
 Collier, Jeremy	Collier, Jeremy (1650-1726)	82
 Rawlet, John	Rawlet, John (1642-1686)	81
 Dyer, William	Dyer, William (1696-1696)	81
-Fuller, Thomas	Fuller, Thomas (1608-1661)	81
 Halifax, George Savile	Halifax, George Savile (1633-1695)	81
 Viner, Charles	Viner, Charles (1678-1756)	81
 King, Thomas.	King, Thomas	81
 Porteus, Beilby	Porteus, Beilby (1731-1809)	81
 Scott, John	Scott, John (1639-1695)	81
+Fuller, Thomas	Fuller, Thomas (1608-1661)	80
 Elys, Edmund	Elys, Edmund (1634-1707)	80
 Playford, John	Playford, John (1623-1686)	80
 Wallis, John	Wallis, John (1616-1703)	79
@@ -399,7 +400,6 @@ Broughton, Hugh	Broughton, Hugh (1549-1612)	72
 Trigge, Thomas.	Trigge, Thomas	72
 Dennis, John	Dennis, John (1657-1734)	72
 Mackenzie, Henry	Mackenzie, Henry (1745-1831)	72
-Burnet, Thomas	Burnet, Thomas (1635-1715)	72
 Marana, Giovanni Paolo	Marana, Giovanni Paolo (1642-1693)	72
 Douglas, Eleanor	Douglas, Eleanor (NA-1652)	71
 Pulteney, William	Pulteney, William (1684-1764)	71
@@ -417,6 +417,7 @@ Chetwood, W. R.	Chetwood, W. R (NA-1766)	70
 Mair, John	Mair, John (NA-1769)	70
 Ames, Nathaniel	Ames, Nathaniel (1708-1764)	70
 Montagu, Mary Wortley	Montagu, Mary Wortley (1689-1762)	70
+Burnet, Thomas	Burnet, Thomas (1635-1715)	70
 Curll, Edmund	Curll, Edmund (1675-1747)	70
 Ferguson, James	Ferguson, James (1710-1776)	70
 Brooke, Frances	Brooke, Frances (1724-1789)	69
@@ -499,7 +500,6 @@ Evelyn, John	Evelyn, John (1620-1706)	62
 Baker, Samuel	Baker, Samuel (1711-1778)	62
 Comenius, Johann Amos	Comenius, Johann Amos (1592-1670)	62
 Benezet, Anthony	Benezet, Anthony (1713-1784)	62
-Gataker, Thomas	Gataker, Thomas (1574-1654)	62
 Burgh, James	Burgh, James (1714-1775)	62
 Edwards, John	Edwards, John (1637-1716)	62
 Madan, Martin	Madan, Martin (1726-1790)	62
@@ -512,6 +512,7 @@ Andrews, William	Andrews, William (1635-1713)	62
 Graham, James	Graham, James (1745-1794)	61
 Kames, Henry Home	Kames, Henry Home (1696-1782)	61
 Dell, William	Dell, William (NA-1664)	61
+Gataker, Thomas	Gataker, Thomas (1574-1654)	61
 Ellwood, Thomas	Ellwood, Thomas (1639-1713)	61
 Towgood, Micaiah	Towgood, Micaiah (1700-1792)	61
 Akenside, Mark	Akenside, Mark (1721-1770)	61
@@ -584,7 +585,6 @@ Pearce, Zachary	Pearce, Zachary (1690-1774)	55
 Caryl, Joseph	Caryl, Joseph (1602-1673)	55
 Calamy, Edmund	Calamy, Edmund (1600-1666)	55
 Pitt, William	Pitt, William (1759-1806)	55
-Fenner, William	Fenner, William (1600-1640)	55
 Guthrie, William	Guthrie, William (1620-1665)	55
 Glanvill, Joseph	Glanvill, Joseph (1636-1680)	55
 Parnell, Thomas	Parnell, Thomas (1679-1718)	55
@@ -605,6 +605,7 @@ Burton, Henry	Burton, Henry (1578-1648)	54
 Osborne, Thomas	Osborne, Thomas (1757-1767)	54
 Parsons, Robert	Parsons, Robert (1546-1610)	54
 Ruddiman, Thomas	Ruddiman, Thomas (1674-1757)	54
+Fenner, William	Fenner, William (1600-1640)	54
 Dudley, H. Bate	Dudley, H. Bate (1745-1824)	54
 Byfield, Nicholas	Byfield, Nicholas (1579-1622)	54
 Wakely, Andrew.	Wakely, Andrew	54
@@ -743,7 +744,6 @@ Burney, Fanny	Burney, Fanny (1752-1840)	47
 Venning, Ralph	Venning, Ralph (1621-1674)	47
 Dorrington, Theophilus	Dorrington, Theophilus (NA-1715)	47
 Savage, Richard	Savage, Richard (NA-1743)	47
-Gibbon, Edward	Gibbon, Edward (1737-1794)	47
 Burton, John	Burton, John (1696-1771)	47
 Marvell, Andrew	Marvell, Andrew (1621-1678)	47
 Leland, John	Leland, John (1691-1766)	47
@@ -755,7 +755,6 @@ Plat, Hugh	Plat, Hugh (1552-1608)	47
 Gifford, George	Gifford, George (NA-1620)	47
 Adams, William	Adams, William (1706-1789)	46
 Turford, Hugh	Turford, Hugh (NA-1713)	46
-Fisher, Payne	Fisher, Payne (1616-1693)	46
 Bates, William	Bates, William (1625-1699)	46
 Purney, Thomas	Purney, Thomas (1695-1727)	46
 Talbot, William	Talbot, William (NA-1730)	46
@@ -763,6 +762,7 @@ Pain, William	Pain, William (1730-1790)	46
 Arnall, William	Arnall, William (NA-1736)	46
 Prestage, John	Prestage, John (NA-1767)	46
 Brett, Thomas	Brett, Thomas (1667-1744)	46
+Gibbon, Edward	Gibbon, Edward (1737-1794)	46
 Amhurst, N.	Amhurst, N (1697-1742)	46
 Harris, William	Harris, William (1675-1740)	46
 Pelling, Edward	Pelling, Edward (NA-1718)	46
@@ -773,6 +773,7 @@ Morton, Thomas	Morton, Thomas (1564-1659)	46
 Vicars, John	Vicars, John (NA-1652)	46
 Wharton, George	Wharton, George (1617-1681)	46
 Burder, George	Burder, George (1752-1832)	45
+Fisher, Payne	Fisher, Payne (1616-1693)	45
 Lettsom, John Coakley	Lettsom, John Coakley (1744-1815)	45
 Webster, W.	Webster, W (1689-1758)	45
 Boswell, James	Boswell, James (1740-1795)	45
@@ -854,7 +855,6 @@ Blount, Thomas	Blount, Thomas (1618-1679)	43
 Brine, John	Brine, John (1703-1765)	43
 Crouch, Humphrey	Crouch, Humphrey (1635-1671)	43
 Parker, Henry	Parker, Henry (1604-1652)	43
-Stubbes, Phillip.	Stubbes, Phillip	43
 Wade, John	Wade, John (1660-1680)	43
 Carey, George Saville	Carey, George Saville (1743-1807)	42
 Bowles, Carington	Bowles, Carington (1724-1793)	42
@@ -877,6 +877,7 @@ Toplady, Augustus	Toplady, Augustus (1740-1778)	42
 Darrell, William	Darrell, William (1651-1721)	42
 Mears, W.	Mears, W (1713-1758)	42
 Browne, Daniel	Browne, Daniel (1647-1727)	42
+Stubbes, Phillip.	Stubbes, Phillip	42
 Bagshaw, Edward	Bagshaw, Edward (1629-1662)	42
 Fuller, William	Fuller, William (1670-1733)	41
 Spauter, Johannes de	Spauter, Johannes De (NA-1520)	41
@@ -922,7 +923,6 @@ Fox, George	Fox, George (NA-1661)	40
 Serle, Ambrose	Serle, Ambrose (1742-1812)	40
 Anderson, James	Anderson, James (1739-1808)	40
 Godwin, William	Godwin, William (1756-1836)	40
-Cave, William	Cave, William (1637-1713)	40
 Fenn, Ellenor	Fenn, Ellenor (1744-1813)	40
 Lindsey, Theophilus	Lindsey, Theophilus (1723-1808)	40
 Warton, Thomas	Warton, Thomas (1728-1790)	40
@@ -954,6 +954,7 @@ Brinsley, John	Brinsley, John (1600-1665)	39
 Knox, William	Knox, William (1732-1810)	39
 Cadogan, William	Cadogan, William (1711-1797)	39
 Hildrop, John	Hildrop, John (1682-1756)	39
+Cave, William	Cave, William (1637-1713)	39
 O'Leary, Arthur	O'leary, Arthur (1729-1802)	39
 Debrett, John	Debrett, John (NA-1822)	39
 Jackson, John	Jackson, John (1686-1763)	39
@@ -961,7 +962,6 @@ Ames, Richard	Ames, Richard (1693-1693)	39
 Trimnell, Charles	Trimnell, Charles (1663-1723)	39
 Hull, Thomas	Hull, Thomas (1728-1808)	39
 Mavor, William Fordyce	Mavor, William Fordyce (1758-1837)	39
-Florus, Lucius Annaeus.	Florus, Lucius Annaeus	39
 De Lolme, Jean Louis	De Lolme, Jean Louis (1740-1806)	39
 Leake, John	Leake, John (1729-1792)	39
 Grey, Zachary	Grey, Zachary (1688-1766)	39
@@ -992,6 +992,7 @@ Conybeare, John	Conybeare, John (1692-1755)	38
 Lardner, Nathaniel	Lardner, Nathaniel (1684-1768)	38
 Fiddes, Richard	Fiddes, Richard (1671-1725)	38
 Gastrell, Francis	Gastrell, Francis (1662-1725)	38
+Florus, Lucius Annaeus.	Florus, Lucius Annaeus	38
 Palairet, Jean	Palairet, Jean (1697-1774)	38
 Johnstone, Charles	Johnstone, Charles (1719-1800)	38
 Heath, Robert	Heath, Robert (NA-1779)	38
@@ -1037,7 +1038,6 @@ Evans, Caleb	Evans, Caleb (1737-1791)	37
 Rous, Francis	Rous, Francis (1579-1659)	37
 Watson, Samuel	Watson, Samuel (1761-1802)	37
 Du Moulin, Peter	Du Moulin, Peter (1601-1684)	37
-Ford, Simon	Ford, Simon (1619-1699)	37
 Gouge, William	Gouge, William (1578-1653)	37
 Vaux, John	Vaux, John (1575-1651)	37
 Digges, Leonard	Digges, Leonard (1559-1559)	37
@@ -1091,7 +1091,6 @@ Stukeley, William	Stukeley, William (1687-1765)	35
 Wilson, Henry	Wilson, Henry (1673-1741)	35
 Barlow, Thomas	Barlow, Thomas (1607-1691)	35
 Bristol, George Digby	Bristol, George Digby (1612-1677)	35
-Bayly, William	Bayly, William (1737-1675)	35
 Baynes, Paul	Baynes, Paul (NA-1617)	35
 Hubberthorn, Richard	Hubberthorn, Richard (1628-1662)	35
 Adams, John	Adams, John (1750-1814)	35
@@ -1109,6 +1108,7 @@ Skelton, John	Skelton, John (1460-1529)	35
 Strange, E.	Strange, E (1794-1800)	35
 Dutens, L.	Dutens, L (1730-1812)	35
 Lenthall, William	Lenthall, William (1591-1662)	35
+Ford, Simon	Ford, Simon (1619-1699)	35
 Guevara, Antonio de	Guevara, Antonio De (NA-1545)	35
 Percy, James	Percy, James (1619-1690)	35
 Palmer, Samuel	Palmer, Samuel (1741-1813)	34
@@ -1118,6 +1118,7 @@ Turner, Daniel	Turner, Daniel (1667-1741)	34
 Busby, Richard	Busby, Richard (1606-1695)	34
 Martyn, Thomas	Martyn, Thomas (1735-1825)	34
 Greenwood, James	Greenwood, James (NA-1737)	34
+Bayly, William	Bayly, William (1737-1675)	34
 Herbert of Cherbury, Edward Herbert	Herbert Of Cherbury, Edward (1583-1648)	34
 Stearns, Samuel	Stearns, Samuel (1741-1809)	34
 Hall-Stevenson, John	Hall-stevenson, John (1718-1785)	34
@@ -1135,7 +1136,6 @@ Moll, Herman	Moll, Herman (NA-1732)	34
 Stennett, Samuel	Stennett, Samuel (1727-1795)	34
 Bold, S.	Bold, S (1649-1737)	34
 Butler, John	Butler, John (1717-1802)	34
-Bale, John	Bale, John (1495-1563)	34
 Nicholls, William	Nicholls, William (1664-1712)	34
 Gyles, Fletcher	Gyles, Fletcher (NA-1741)	34
 Chamberlen, Hugh.	Chamberlen, Hugh (1720-NA)	34
@@ -1170,10 +1170,10 @@ Colet, John	Colet, John (1467-1519)	33
 Kennett, Basil	Kennett, Basil (1674-1715)	33
 Nye, Stephen	Nye, Stephen (1648-1719)	33
 May, Thomas	May, Thomas (1595-1650)	33
+Bale, John	Bale, John (1495-1563)	33
 Kent, Henry	Kent, Henry (1732-1771)	33
 Pulle, John.	Pulle, John	33
 Rudyerd, Benjamin	Rudyerd, Benjamin (1572-1658)	33
-Flecknoe, Richard	Flecknoe, Richard (NA-1678)	33
 Digby, Kenelm	Digby, Kenelm (1603-1665)	33
 Meriton, George	Meriton, George (1634-1711)	33
 Berriman, William	Berriman, William (1688-1750)	32
@@ -1227,6 +1227,7 @@ Bourn, Samuel	Bourn, Samuel (1689-1754)	32
 Jessey, Henry	Jessey, Henry (1603-1663)	32
 Sempill, Robert	Sempill, Robert (1530-1595)	32
 Mede, Joseph	Mede, Joseph (1586-1638)	32
+Flecknoe, Richard	Flecknoe, Richard (NA-1678)	32
 Brémond, Sébastien	Brémond, Sébastien (1645-NA)	32
 Briscoe, John	Briscoe, John (1695-NA)	32
 Crofton, Zachary	Crofton, Zachary (NA-1672)	32
@@ -1262,7 +1263,6 @@ Gurney, Thomas	Gurney, Thomas (1705-1770)	31
 Hay, George	Hay, George (1729-1811)	31
 Hunter, Henry	Hunter, Henry (1741-1802)	31
 Reeve, Clara	Reeve, Clara (1729-1807)	31
-Pearson, John	Pearson, John (1613-1686)	31
 Kippis, Andrew	Kippis, Andrew (1725-1795)	31
 Towers, Joseph	Towers, Joseph (1737-1799)	31
 O'Bryen, D.	O'bryen, D (1755-1832)	31
@@ -1321,6 +1321,7 @@ Forrester, James	Forrester, James (1787-1765)	30
 Tans'ur, William	Tans'ur, William (1699-1783)	30
 Shipley, Jonathan	Shipley, Jonathan (1714-1788)	30
 Pearse, Edward	Pearse, Edward (1633-1674)	30
+Pearson, John	Pearson, John (1613-1686)	30
 Dunkin, William	Dunkin, William (1709-1765)	30
 Gentleman, Francis	Gentleman, Francis (1728-1784)	30
 Tilly, William	Tilly, William (1675-1717)	30
@@ -1754,7 +1755,6 @@ Robinson, Bryan	Robinson, Bryan (1680-1754)	23
 Douglas, Archibald James Edward Douglas	Douglas, Archibald James Edward (1748-1827)	23
 Taylor, Thomas	Taylor, Thomas (1618-1682)	23
 De Britaine, William.	De Britaine, William	23
-Gale, Theophilus	Gale, Theophilus (1628-1678)	23
 Wigglesworth, Michael	Wigglesworth, Michael (1631-1705)	23
 Firmin, Giles	Firmin, Giles (1614-1697)	23
 Cooper, Thomas	Cooper, Thomas (1759-1839)	23
@@ -1788,7 +1788,6 @@ Graves, Richard	Graves, Richard (1715-1804)	23
 Plowden, Edmund	Plowden, Edmund (1518-1585)	23
 Ainsworth, Robert	Ainsworth, Robert (1660-1743)	23
 Miège, Guy	Miège, Guy (1644-1718)	23
-Bayly, Thomas	Bayly, Thomas (NA-1657)	23
 Prichard, Rhys	Prichard, Rhys (1579-1644)	23
 Fitz-Adam, Adam.	Fitz-adam, Adam	23
 Leadbetter, Charles	Leadbetter, Charles (1728-NA)	23
@@ -1841,7 +1840,6 @@ Mapletoft, John	Mapletoft, John (1631-1721)	22
 Bickham, George	Bickham, George (1706-1771)	22
 Hamilton, Alexander	Hamilton, Alexander (1757-1804)	22
 Hall, David	Hall, David (1683-1756)	22
-Aler, Paul	Aler, Paul (1656-1727)	22
 Dickson, David	Dickson, David (1709-1780)	22
 Badini, Carlo Francesco	Badini, Carlo Francesco (1710-1800)	22
 Rous, George	Rous, George (1744-1802)	22
@@ -1852,6 +1850,7 @@ Weston, Edward	Weston, Edward (1566-1770)	22
 Powel, Gabriel	Powel, Gabriel (1576-1611)	22
 Withals, John.	Withals, John	22
 Smith, E.	Smith, E (NA-1732)	22
+Gale, Theophilus	Gale, Theophilus (1628-1678)	22
 D'Anvers, Caleb.	D'anvers, Caleb	22
 Smith, William	Smith, William (1728-1793)	22
 Hutchinson, Thomas	Hutchinson, Thomas (1711-1780)	22
@@ -1887,6 +1886,7 @@ Bentley, Thomas Richard	Bentley, Thomas Richard (1748-1831)	22
 Berkenhout, John	Berkenhout, John (1730-1791)	22
 Johnson, John	Johnson, John (1662-1725)	22
 Stretzer, Thomas	Stretzer, Thomas (NA-1738)	22
+Bayly, Thomas	Bayly, Thomas (NA-1657)	22
 Vince, Samuel	Vince, Samuel (1749-1821)	22
 Blome, Richard	Blome, Richard (NA-1705)	22
 Swetnam, Joseph	Swetnam, Joseph (1617-NA)	22
@@ -1940,6 +1940,7 @@ Cox, James	Cox, James (NA-1759)	21
 Walker, Obadiah	Walker, Obadiah (1616-1699)	21
 Tulley, John	Tulley, John (1638-1701)	21
 Meager, Leonard	Meager, Leonard (1624-1704)	21
+Aler, Paul	Aler, Paul (1656-1727)	21
 Baker, Pacificus	Baker, Pacificus (1695-1774)	21
 Howel, Laurence	Howel, Laurence (1664-1720)	21
 Mayne, Jasper	Mayne, Jasper (1604-1672)	21
@@ -2056,7 +2057,6 @@ Goudar, Ange	Goudar, Ange (1720-1791)	20
 Donaldson, Alexander	Donaldson, Alexander (NA-1794)	20
 Hamilton, Alexander	Hamilton, Alexander (1739-1802)	20
 Broome, Ralph	Broome, Ralph (NA-1805)	20
-Mercier, Louis-Sébastien	Mercier, Louis-sébastien (1740-1814)	20
 Kimber, Isaac	Kimber, Isaac (1692-1755)	20
 Ashby, Richard	Ashby, Richard (1663-1734)	20
 Canne, John	Canne, John (1766-1667)	20
@@ -2198,6 +2198,7 @@ Rokeby, Matthew Robinson-Morris	Rokeby, Matthew Robinson-morris (1713-1800)	19
 Buchanan, James	Buchanan, James (1753-1773)	19
 Brook, Mary	Brook, Mary (1726-1782)	19
 Tucker, John	Tucker, John (1719-1792)	19
+Mercier, Louis-Sébastien	Mercier, Louis-sébastien (1740-1814)	19
 Argyll, John Campbell	Argyll, John Campbell (1680-1743)	19
 Rutherforth, T.	Rutherforth, T (1712-1771)	19
 Ashton, Robert	Ashton, Robert (1727-NA)	19
@@ -2234,7 +2235,6 @@ Binning, Hugh	Binning, Hugh (1627-1653)	19
 Dalrymple, David	Dalrymple, David (1665-1721)	19
 Jeffery, John	Jeffery, John (1647-1720)	19
 Lowman, Moses	Lowman, Moses (1680-1752)	19
-Lithgow, William	Lithgow, William (1582-1645)	19
 Croke, George	Croke, George (1560-1642)	19
 Agrippa von Nettesheim, Heinrich Cornelius	Agrippa Von Nettesheim, Heinrich Cornelius (1486-1535)	19
 Wilson, William	Wilson, William (1690-1741)	19
@@ -2360,6 +2360,7 @@ Bouhours, Dominique	Bouhours, Dominique (1628-1702)	18
 Sibly, Manoah	Sibly, Manoah (1757-1840)	18
 Phillips, Edward	Phillips, Edward (1630-1696)	18
 Taylor, Nathanael	Taylor, Nathanael (1722-1702)	18
+Lithgow, William	Lithgow, William (1582-1645)	18
 Bury, Arthur	Bury, Arthur (1624-1713)	18
 Hewitt, John	Hewitt, John (1719-1802)	18
 Wilson, Peter	Wilson, Peter (NA-1771)	18
@@ -2380,7 +2381,6 @@ Bourne, William	Bourne, William (NA-1583)	18
 Rogers, Richard	Rogers, Richard (1550-1618)	18
 Whetstone, George	Whetstone, George (1544-1587)	18
 Securis, John	Securis, John (1562-1581)	18
-Crakanthorpe, Richard	Crakanthorpe, Richard (1567-1624)	18
 Hakewill, George	Hakewill, George (1578-1649)	18
 Ursinus, Zacharias	Ursinus, Zacharias (1534-1583)	18
 Robinson, John	Robinson, John (1575-1625)	18
@@ -2567,7 +2567,7 @@ Gentili, Alberico	Gentili, Alberico (1552-1608)	17
 Elderton, William	Elderton, William (1592-1592)	17
 Frith, John	Frith, John (1503-1533)	17
 Cooke, Alexander	Cooke, Alexander (1564-1632)	17
-Harmar, John	Harmar, John (1594-1670)	17
+Crakanthorpe, Richard	Crakanthorpe, Richard (1567-1624)	17
 Rhegius, Urbanus	Rhegius, Urbanus (1489-1541)	17
 St. John, Oliver	St. John, Oliver (1598-1673)	17
 Seton, John	Seton, John (1498-1567)	17
@@ -2700,7 +2700,6 @@ Merrick, James	Merrick, James (1720-1769)	16
 Adam, Thomas	Adam, Thomas (1701-1784)	16
 Dallaway, James	Dallaway, James (1763-1834)	16
 Moir, J.	Moir, J	16
-Bourignon, Antoinette	Bourignon, Antoinette (1616-1680)	16
 Dawes, M.	Dawes, M (NA-1829)	16
 Garnett, Thomas	Garnett, Thomas (1766-1802)	16
 Cowell, John	Cowell, John (1554-1611)	16
@@ -2758,6 +2757,7 @@ Montagu, Richard	Montagu, Richard (1577-1641)	16
 Palingenio Stellato, Marcello	Palingenio Stellato, Marcello (1500-1543)	16
 Fenner, Dudley	Fenner, Dudley (1558-1587)	16
 Greenham, Richard.	Greenham, Richard (1535-1594)	16
+Harmar, John	Harmar, John (1594-1670)	16
 Powell, Thomas	Powell, Thomas (1572-1635)	16
 Sydenham, Humphrey	Sydenham, Humphrey (1591-1650)	16
 Price, Daniel	Price, Daniel (1581-1631)	16
@@ -2834,7 +2834,6 @@ Caton, William	Caton, William (1636-1665)	15
 Gregory, John	Gregory, John (1607-1646)	15
 Cooper, Thomas	Cooper, Thomas (1517-1594)	15
 Hardy, Samuel	Hardy, Samuel (1636-1691)	15
-Williams, Roger	Williams, Roger (1604-1683)	15
 Browne, Joseph	Browne, Joseph (1646-1678)	15
 Danforth, John	Danforth, John (1660-1730)	15
 Williams, William	Williams, William (1665-1741)	15
@@ -2915,6 +2914,7 @@ Ruggle, George	Ruggle, George (1575-1622)	15
 Fontaine, Nicolas	Fontaine, Nicolas (1625-1709)	15
 Parkyns, Thomas	Parkyns, Thomas (1662-1741)	15
 Webb, Daniel	Webb, Daniel (NA-1798)	15
+Bourignon, Antoinette	Bourignon, Antoinette (1616-1680)	15
 Craven, Elizabeth Craven	Craven, Elizabeth (1750-1828)	15
 Abernethy-Drummond, William	Abernethy-drummond, William (1719-1809)	15
 Cox, Nicholas	Cox, Nicholas (1673-1731)	15
@@ -3041,6 +3041,7 @@ Workman, Benjamin.	Workman, Benjamin	14
 Norton, John	Norton, John (1606-1663)	14
 Sewall, Samuel	Sewall, Samuel (1652-1730)	14
 Cradock, Walter	Cradock, Walter (1606-1659)	14
+Williams, Roger	Williams, Roger (1604-1683)	14
 Wharton, Charles Henry	Wharton, Charles Henry (1748-1833)	14
 Adgate, Andrew	Adgate, Andrew (NA-1793)	14
 Otis, James	Otis, James (1725-1783)	14
@@ -3123,7 +3124,6 @@ Whitworth, Charles	Whitworth, Charles (1721-1778)	14
 Arbuckle, James.	Arbuckle, James	14
 Barnard, Samuel	Barnard, Samuel (NA-1807)	14
 Trotter, Catharine	Trotter, Catharine (1679-1749)	14
-Thou, Jacques-Auguste de	Thou, Jacques-auguste De (1553-1617)	14
 Vertue, George	Vertue, George (1684-1756)	14
 Holder, William	Holder, William (1616-1698)	14
 Roscommon, Wentworth Dillon	Roscommon, Wentworth Dillon (1633-1685)	14
@@ -3384,6 +3384,7 @@ Booker, Luke	Booker, Luke (1762-1835)	13
 Buchan, David Stewart Erskine	Buchan, David Stewart Erskine (1742-1829)	13
 Bidlake, John	Bidlake, John (1755-1814)	13
 Hody, Humphrey	Hody, Humphrey (1659-1707)	13
+Thou, Jacques-Auguste de	Thou, Jacques-auguste De (1553-1617)	13
 Cooke, John	Cooke, John (1738-1823)	13
 Marshall, John	Marshall, John (1695-1726)	13
 Hammond, William	Hammond, William (1719-1783)	13
@@ -3528,7 +3529,6 @@ Gibson, William	Gibson, William (1629-1684)	12
 Roebuck, John	Roebuck, John (1718-1794)	12
 Derby, James Stanley	Derby, James Stanley (1607-1651)	12
 Tucker, St. George	Tucker, St. George (1752-1827)	12
-Lawrence, Richard	Lawrence, Richard (NA-1684)	12
 Bond, Henry.	Bond, Henry (NA-1757)	12
 Dell, Henry	Dell, Henry (1756-1766)	12
 Volney, C.-F.	Volney, C.-f (1757-1820)	12
@@ -3772,7 +3772,6 @@ Green, Thomas	Green, Thomas (1726-1735)	12
 Hobhouse, Benjamin	Hobhouse, Benjamin (1757-1831)	12
 Tren, John	Tren, John (NA-1738)	12
 Humphreys, John	Humphreys, John (1637-NA)	12
-Simon, Richard	Simon, Richard (1632-1712)	12
 Monro, Donald	Monro, Donald (1727-1802)	12
 Gwin, Thomas	Gwin, Thomas (1656-1720)	12
 Jones, George	Jones, George (1779-1796)	12
@@ -3803,7 +3802,6 @@ Standish, Arthur	Standish, Arthur (1611-1613)	12
 Askham, Anthony	Askham, Anthony (1553-NA)	12
 Rivers, Peregrine.	Rivers, Peregrine	12
 Balmford, James	Balmford, James (1556-NA)	12
-Hyperius, Andreas	Hyperius, Andreas (1511-1564)	12
 Hawes, Stephen	Hawes, Stephen (NA-1523)	12
 Julius, Alexander.	Julius, Alexander	12
 Reeve, Edmund	Reeve, Edmund (NA-1660)	12
@@ -3843,7 +3841,6 @@ Sadler, Anthony	Sadler, Anthony (1610-NA)	12
 Scobell, Henry	Scobell, Henry (NA-1660)	12
 Tomlinson, William.	Tomlinson, William	12
 Falkner, William	Falkner, William (1682-1682)	12
-Carpenter, Richard	Carpenter, Richard (1575-1670)	12
 Adis, Henry.	Adis, Henry	12
 Scudéry, Madeleine de	Scudéry, Madeleine De (1607-1701)	12
 Dangerfield, Thomas	Dangerfield, Thomas (1650-1685)	12
@@ -3866,7 +3863,6 @@ De-La-Cour, James	De-la-cour, James (1709-1785)	11
 Earle, James	Earle, James (1755-1817)	11
 Smyth, J. H.	Smyth, J. H	11
 Wharton, Thomas Wharton	Wharton, Thomas (1648-1715)	11
-Wedderburn, Alexander	Wedderburn, Alexander (NA-1678)	11
 Clifford, Jeronimy	Clifford, Jeronimy (NA-1737)	11
 Innes, John	Innes, John (1739-1777)	11
 Dupré de Saint-Maur, Nicolas-François	Dupré De Saint-maur, Nicolas-françois (1695-1774)	11
@@ -3890,6 +3886,7 @@ Dalrymple, James	Dalrymple, James (NA-1751)	11
 Turlington, Robert	Turlington, Robert (NA-1767)	11
 Toller, Thomas	Toller, Thomas (1732-1795)	11
 Green, Valentine	Green, Valentine (1739-1813)	11
+Lawrence, Richard	Lawrence, Richard (NA-1684)	11
 Brecknock, Timothy	Brecknock, Timothy (NA-1786)	11
 Shaw, Thomas	Shaw, Thomas (1694-1751)	11
 Dubreuil, Jean	Dubreuil, Jean (1602-1670)	11
@@ -4152,6 +4149,7 @@ Wylie, Robert.	Wylie, Robert	11
 Mather, Samuel	Mather, Samuel (1674-1733)	11
 Warwick, Arthur	Warwick, Arthur (1604-1633)	11
 Kennedy, James	Kennedy, James (1769-NA)	11
+Simon, Richard	Simon, Richard (1632-1712)	11
 Charke, Charlotte	Charke, Charlotte (1713-1760)	11
 Fothergill, Thomas	Fothergill, Thomas (1653-1776)	11
 Silence, Timothy.	Silence, Timothy	11
@@ -4176,7 +4174,6 @@ Richter, Christoph Gottlieb	Richter, Christoph Gottlieb (1716-1774)	11
 Buxtorf, Johann	Buxtorf, Johann (1564-1629)	11
 Tyron, Richard.	Tyron, Richard	11
 Douglas, Robert	Douglas, Robert (1594-1674)	11
-Murray, Mungo	Murray, Mungo (NA-1770)	11
 White, John	White, John (1590-1645)	11
 Morgan, Thomas	Morgan, Thomas (NA-1679)	11
 Taubman, Matthew	Taubman, Matthew (NA-1690)	11
@@ -4191,6 +4188,7 @@ Maxwell, James	Maxwell, James (1581-NA)	11
 Bullein, William	Bullein, William (NA-1576)	11
 Bunny, Edmund	Bunny, Edmund (1540-1619)	11
 Cary, Walter.	Cary, Walter (1580-1611)	11
+Hyperius, Andreas	Hyperius, Andreas (1511-1564)	11
 Habington, William	Habington, William (1605-1654)	11
 Howson, John	Howson, John (1557-1632)	11
 Macropedius, Georgius	Macropedius, Georgius (1487-1558)	11
@@ -4217,7 +4215,6 @@ Malvezzi, Virgilio	Malvezzi, Virgilio (1595-1653)	11
 Ashe, Thomas	Ashe, Thomas (1600-1618)	11
 Kellison, Matthew.	Kellison, Matthew	11
 Stawell, John	Stawell, John (1599-1662)	11
-Goring, George Goring	Goring, George (1608-1657)	11
 Downing, Calybute	Downing, Calybute (1606-1644)	11
 Musgrave, John	Musgrave, John (1654-NA)	11
 Weld, Thomas	Weld, Thomas (1590-1662)	11
@@ -4240,6 +4237,7 @@ Smith, Francis	Smith, Francis (1657-1689)	11
 Smith, William	Smith, William (1660-1686)	11
 Wortley, Francis	Wortley, Francis (1591-1652)	11
 Howard, Edward	Howard, Edward (1624-1712)	11
+Carpenter, Richard	Carpenter, Richard (1575-1670)	11
 Herbert, Thomas	Herbert, Thomas (1597-1642)	11
 Ellis, Philip	Ellis, Philip (1652-1726)	11
 Greene, Thomas	Greene, Thomas (1634-1699)	11
@@ -4265,6 +4263,7 @@ Pococke, Edward	Pococke, Edward (1604-1691)	10
 Justice, Alexander.	Justice, Alexander	10
 Withering, William	Withering, William (1741-1799)	10
 Bradshaw, Penelope.	Bradshaw, Penelope	10
+Wedderburn, Alexander	Wedderburn, Alexander (NA-1678)	10
 Bagot, Lewis	Bagot, Lewis (1741-1802)	10
 Crawfurd, George	Crawfurd, George (1681-1748)	10
 Tully, T.	Tully, T (1620-1676)	10
@@ -4596,6 +4595,7 @@ Vernon, John.	Vernon, John (1666-NA)	10
 Bernard, Edward	Bernard, Edward (1638-1696)	10
 Carter, Matthew	Carter, Matthew (1660-NA)	10
 Burne, Nicol.	Burne, Nicol	10
+Murray, Mungo	Murray, Mungo (NA-1770)	10
 Williams, William Bell.	Williams, William Bell	10
 Lydiat, Thomas	Lydiat, Thomas (1572-1646)	10
 Vicars, Thomas	Vicars, Thomas (NA-1638)	10
@@ -4656,6 +4656,7 @@ Barriffe, William.	Barriffe, William	10
 Hodges, William	Hodges, William (1645-1714)	10
 Pitt, Moses	Pitt, Moses (1654-1696)	10
 Gatford, Lionel	Gatford, Lionel (NA-1665)	10
+Goring, George Goring	Goring, George (1608-1657)	10
 Neve, Robert.	Neve, Robert	10
 Bristol, John Digby	Bristol, John Digby (1580-1654)	10
 Nendick, Humphrey.	Nendick, Humphrey	10
@@ -4721,7 +4722,6 @@ Grant, James	Grant, James (1738-1811)	9
 Anstruther, John	Anstruther, John (1718-1799)	9
 Dickinson, Robert	Dickinson, Robert (1790-1806)	9
 Poole, John	Poole, John (1610-NA)	9
-McDermott, Ann.	Mcdermott, Ann	9
 Andrews, Samuel	Andrews, Samuel (1737-1818)	9
 Savery, William	Savery, William (1750-1804)	9
 French, Nicholas	French, Nicholas (1604-1678)	9
@@ -5883,7 +5883,6 @@ Maynard, John	Maynard, John (1602-1690)	8
 Petto, Samuel	Petto, Samuel (1624-1711)	8
 Tillam, Thomas.	Tillam, Thomas	8
 Sall, Andrew	Sall, Andrew (1612-1682)	8
-Walton, Brian	Walton, Brian (1600-1661)	8
 Westfield, Thomas	Westfield, Thomas (1573-1644)	8
 Lilburne, Robert	Lilburne, Robert (1613-1665)	8
 Wolseley, William	Wolseley, William (1640-1697)	8
@@ -5943,7 +5942,6 @@ Moss, Thomas	Moss, Thomas (1765-1808)	7
 Le Brun, Charles	Le Brun, Charles (1619-1690)	7
 Tanner, Thomas	Tanner, Thomas (1674-1735)	7
 Cargill, Donald	Cargill, Donald (1619-1681)	7
-Meibom, Johann Heinrich	Meibom, Johann Heinrich (1590-1655)	7
 Lambe, Henry	Lambe, Henry (NA-1729)	7
 Prince, Daniel	Prince, Daniel (1711-1796)	7
 Doe, Charles.	Doe, Charles	7
@@ -6016,7 +6014,7 @@ Freeman, Francis.	Freeman, Francis (NA-1726)	7
 Thompson, Thomas	Thompson, Thomas (NA-1727)	7
 Lansdowne, William Petty	Lansdowne, William Petty (1737-1805)	7
 Languet, Jean Joseph	Languet, Jean Joseph (1677-1753)	7
-Charters, Laurence	Charters, Laurence (1625-1700)	7
+McDermott, Ann.	Mcdermott, Ann	7
 Ellicott, Andrew	Ellicott, Andrew (1754-1820)	7
 Tompson, Benjamin	Tompson, Benjamin (1642-1714)	7
 Danforth, Samuel	Danforth, Samuel (1666-1727)	7
@@ -6705,7 +6703,6 @@ Rofe, George	Rofe, George (NA-1664)	7
 Romney, Henry Sidney	Romney, Henry Sidney (1641-1704)	7
 Russel, William	Russel, William (NA-1702)	7
 Salthouse, Thomas	Salthouse, Thomas (1630-1691)	7
-Savage, J.	Savage, J (1645-1721)	7
 Sermon, William	Sermon, William (1629-1679)	7
 Shawe, John	Shawe, John (1608-1672)	7
 Shaw, John	Shaw, John (1614-1689)	7
@@ -6715,6 +6712,7 @@ Stearne, John	Stearne, John (1624-1669)	7
 Stokes, David	Stokes, David (1591-1669)	7
 Sturmy, Samuel	Sturmy, Samuel (1633-1669)	7
 Tilburg, Cornelius.	Tilburg, Cornelius	7
+Walton, Brian	Walton, Brian (1600-1661)	7
 Whiston, Joseph	Whiston, Joseph (NA-1690)	7
 White, L.	White, L (1676-NA)	7
 Whitlock, John	Whitlock, John (1625-1709)	7
@@ -6870,6 +6868,7 @@ Vigani, John Francis	Vigani, John Francis (1650-1712)	6
 Greville, Charles Francis	Greville, Charles Francis (1749-1809)	6
 Steel, Laurence	Steel, Laurence (NA-1684)	6
 Livingston, William	Livingston, William (1576-1640)	6
+Charters, Laurence	Charters, Laurence (1625-1700)	6
 Neilson, John	Neilson, John (1776-1848)	6
 Lawson, Deodat.	Lawson, Deodat	6
 Phillips, John.	Phillips, John	6
@@ -7760,7 +7759,6 @@ Brend, William	Brend, William (NA-1676)	6
 Ravenshaw, Samuel.	Ravenshaw, Samuel	6
 Starkey, John	Starkey, John (1567-1634)	6
 Lawson, John	Lawson, John (NA-1665)	6
-Corss, James.	Corss, James	6
 Cross, John	Cross, John (1630-1689)	6
 Dalgarno, George	Dalgarno, George (1626-1687)	6
 Dalhusius, Johannes H.	Dalhusius, Johannes H	6
@@ -7770,7 +7768,6 @@ Forde, Thomas.	Forde, Thomas	6
 Foulis, Henry	Foulis, Henry (1635-1669)	6
 Goad, J.	Goad, J (1616-1689)	6
 Gand, Louis de.	Gand, Louis De	6
-Lamb, Philip	Lamb, Philip (NA-1689)	6
 Harwood, John.	Harwood, John	6
 Higgins, John	Higgins, John (1633-1667)	6
 Howard, Edward.	Howard, Edward	6
@@ -7791,6 +7788,7 @@ Norfolk, Henry Howard	Norfolk, Henry Howard (1655-1701)	6
 Rabisha, William.	Rabisha, William	6
 Ranew, Nathaniel	Ranew, Nathaniel (1663-1694)	6
 Reynell, Edward	Reynell, Edward (1612-1663)	6
+Savage, J.	Savage, J (1645-1721)	6
 Strafford, Thomas Wentworth, earl	Strafford, Thomas Wentworth Earl	6
 Sikes, George.	Sikes, George	6
 Tenison, Richard	Tenison, Richard (1640-1705)	6
@@ -8681,7 +8679,6 @@ Oliphant, Charles	Oliphant, Charles (1666-1719)	5
 Davis, William	Davis, William (1771-1807)	5
 Mendes da Costa, Emanuel	Mendes Da Costa, Emanuel (1717-1791)	5
 Harris, Thomas	Harris, Thomas (1712-1820)	5
-Feyens, Thomas	Feyens, Thomas (1567-1631)	5
 Sotheby, William	Sotheby, William (1757-1833)	5
 Fullmer, Samuel.	Fullmer, Samuel	5
 Boyd, Robert	Boyd, Robert (1578-1793)	5
@@ -9238,7 +9235,6 @@ Craig, Alexander	Craig, Alexander (1567-1627)	5
 Gumbleden, John	Gumbleden, John (1657-NA)	5
 Fulbeck, William	Fulbeck, William (1560-1603)	5
 Losa, Francisco de	Losa, Francisco De (1536-1624)	5
-Maimonides, Moses	Maimonides, Moses (1135-1204)	5
 Adrichem, Christiaan van	Adrichem, Christiaan Van (1533-1585)	5
 Caffyn, Matthew	Caffyn, Matthew (1628-1714)	5
 Gregory, James	Gregory, James (1638-1675)	5
@@ -9273,6 +9269,7 @@ Boteler, Nathaniel.	Boteler, Nathaniel	5
 Chamberlain, Robert	Chamberlain, Robert (1678-1679)	5
 Cheesman, Christopher.	Cheesman, Christopher	5
 Clavell, Robert	Clavell, Robert (NA-1711)	5
+Corss, James.	Corss, James	5
 Crompton, Hugh	Crompton, Hugh (1657-NA)	5
 Dowell, John	Dowell, John (1627-1690)	5
 Dymock, James	Dymock, James (NA-1718)	5
@@ -9286,6 +9283,7 @@ Scott, Robert	Scott, Robert (1661-1691)	5
 [Fox, George, elder]	Fox, George Elder]	5
 Gogor, William	Gogor, William (NA-1681)	5
 Gosnold, John	Gosnold, John (1625-1678)	5
+Lamb, Philip	Lamb, Philip (NA-1689)	5
 Harrison, Henry	Harrison, Henry (NA-1692)	5
 Hoar, Leonard	Hoar, Leonard (1630-1675)	5
 Horne, Thomas	Horne, Thomas (1610-1654)	5
@@ -9450,6 +9448,7 @@ Durell, D.	Durell, D (1728-1775)	4
 Fraser, John	Fraser, John (1750-1811)	4
 Durette, François Parrain de.	Durette, François Parrain De	4
 Popham, Home Riggs	Popham, Home Riggs (1762-1820)	4
+Meibom, Johann Heinrich	Meibom, Johann Heinrich (1590-1655)	4
 Retz, Noël	Retz, Noël (1758-1810)	4
 Walker, Nathan.	Walker, Nathan	4
 Osborne, Thomas, d. 1767.	Osborne, Thomas D.	4
@@ -9504,7 +9503,6 @@ Home, Robert	Home, Robert (NA-1834)	4
 Seton, Alexander	Seton, Alexander (1639-1719)	4
 Murray, Patrick	Murray, Patrick (1727-1780)	4
 Russel, William Augustus.	Russel, William Augustus	4
-Daniell, Thomas	Daniell, Thomas (1749-1840)	4
 Cordier, Mathurin, 1479-1564.	Cordier, Mathurin -	4
 Lipscomb, William	Lipscomb, William (1754-1832)	4
 Harris, Samuel	Harris, Samuel (1682-1738)	4
@@ -9593,7 +9591,6 @@ Dundas, Robert	Dundas, Robert (1685-1753)	4
 Buchan, Henry David Erskine	Buchan, Henry David Erskine (1710-1767)	4
 Stewart, Dugald	Stewart, Dugald (1753-1828)	4
 Fairfax, John	Fairfax, John (1623-1700)	4
-Lescallier, Daniel	Lescallier, Daniel (1743-1822)	4
 Middleton, Joshua	Middleton, Joshua (1647-1720)	4
 Elford, William	Elford, William (1749-1837)	4
 Markham, George	Markham, George (NA-1816)	4
@@ -10429,6 +10426,7 @@ Shaw, Samuel	Shaw, Samuel (1666-1730)	4
 Seyer, Samuel	Seyer, Samuel (1757-1831)	4
 Palmer, Charlotte	Palmer, Charlotte (1780-1800)	4
 Jackson, Henry	Jackson, Henry (1662-1700)	4
+Feyens, Thomas	Feyens, Thomas (1567-1631)	4
 Rushworth, John	Rushworth, John (1669-1736)	4
 Pomet, Pierre	Pomet, Pierre (1658-1699)	4
 Wilcocke, Samuel Hull	Wilcocke, Samuel Hull (1766-1833)	4
@@ -11324,6 +11322,7 @@ Gomersall, Robert	Gomersall, Robert (1602-1646)	4
 Froidmont, Libert	Froidmont, Libert (1587-1653)	4
 Fabricius Hildanus, Wilhelm	Fabricius Hildanus, Wilhelm (1560-1634)	4
 Viccars, John	Viccars, John (1604-1660)	4
+Maimonides, Moses	Maimonides, Moses (1135-1204)	4
 Gascoyne, Joel	Gascoyne, Joel (1650-NA)	4
 Nicols, Thomas.	Nicols, Thomas	4
 Philips, Robert	Philips, Robert (NA-1650)	4
@@ -11548,7 +11547,6 @@ Carter, William	Carter, William (1605-1658)	4
 Pinto, Fernão Mendes	Pinto, Fernão Mendes (NA-1583)	4
 Armitage, Timothy	Armitage, Timothy (NA-1655)	4
 Stapleton, Philip	Stapleton, Philip (1603-1647)	4
-Stoppa, Giovanni Battista.	Stoppa, Giovanni Battista	4
 Quinault, Philippe	Quinault, Philippe (1635-1688)	4
 Samble, Richard	Samble, Richard (1644-1680)	4
 Ward, Patience	Ward, Patience (1629-1696)	4
@@ -11735,6 +11733,7 @@ Call, John	Call, John (1732-1801)	3
 Giffard, William	Giffard, William (NA-1731)	3
 Croke, Unton.	Croke, Unton	3
 Thévenot, Jean de	Thévenot, Jean De (1633-1667)	3
+Daniell, Thomas	Daniell, Thomas (1749-1840)	3
 Devaynes, William	Devaynes, William (1730-1809)	3
 Still, John	Still, John (1795-1839)	3
 Ward, Aaron	Ward, Aaron (NA-1747)	3
@@ -12959,6 +12958,7 @@ Clark, G.	Clark, G (1787-NA)	3
 Vernage, Etienne François.	Vernage, Etienne François	3
 Drummond, Gawin.	Drummond, Gawin	3
 Killigrew, Thomas	Killigrew, Thomas (1657-1719)	3
+Lescallier, Daniel	Lescallier, Daniel (1743-1822)	3
 Buchanan, C.	Buchanan, C	3
 Davies, T.	Davies, T	3
 Erroll, Mary Hay	Erroll, Mary Hay (NA-1758)	3
@@ -14373,7 +14373,6 @@ Wilson, John	Wilson, John (1575-1645)	3
 Meurier, Gabriel	Meurier, Gabriel (NA-1587)	3
 Top, Alexander.	Top, Alexander	3
 Des Périers, Bonaventure	Des Périers, Bonaventure (1500-1544)	3
-Scapula, Johann	Scapula, Johann (1540-1600)	3
 Nicholes, M.	Nicholes, M	3
 Holland, Thomas	Holland, Thomas (1539-1612)	3
 Downes, Thomas.	Downes, Thomas (NA-1759)	3
@@ -15037,6 +15036,7 @@ Gookin, Vincent	Gookin, Vincent (1616-1659)	3
 Huntington, Robert.	Huntington, Robert (1637-1701)	3
 Harris, John	Harris, John (1647-NA)	3
 Ufflet, John	Ufflet, John (1603-NA)	3
+Stoppa, Giovanni Battista.	Stoppa, Giovanni Battista	3
 Holland, Guy	Holland, Guy (1587-1660)	3
 Newark, David Leslie	Newark, David Leslie (NA-1682)	3
 Martin, T.	Martin, T	3
@@ -15162,7 +15162,6 @@ Galli de Bibiena, Jean	Galli De Bibiena, Jean (1709-1779)	2
 Woltersdorf, Ernst Gottlieb	Woltersdorf, Ernst Gottlieb (1725-1761)	2
 Cunyngham, Robert	Cunyngham, Robert (1721-1727)	2
 Colbert, Stephen.	Colbert, Stephen	2
-Champion, William.	Champion, William	2
 [Caswall, John	Caswall, John (NA-1742)	2
 North, Richard	North, Richard (NA-1766)	2
 Holland, Thomas	Holland, Thomas (NA-1612)	2
@@ -19395,7 +19394,6 @@ Scruton, James.	Scruton, James	2
 Barker, Robert	Barker, Robert (NA-1822)	2
 Campbell, James	Campbell, James (NA-1767)	2
 Hooton, Philip	Hooton, Philip (NA-1769)	2
-Kinderley, Charles.	Kinderley, Charles	2
 Jeacocke, Caleb	Jeacocke, Caleb (1706-1786)	2
 Bruce, John	Bruce, John (NA-1766)	2
 Obscreation, Timothy.	Obscreation, Timothy	2
@@ -20382,6 +20380,7 @@ Lippomano, Luigi	Lippomano, Luigi (1500-1559)	2
 Goodall, Baptist.	Goodall, Baptist	2
 Sweet, John	Sweet, John (1570-1632)	2
 Schade, Peter	Schade, Peter (1493-1524)	2
+Scapula, Johann	Scapula, Johann (1540-1600)	2
 Feylde, Thomas.	Feylde, Thomas	2
 Danett, Thomas	Danett, Thomas (1566-1601)	2
 Lewis, Jeremiah	Lewis, Jeremiah (1588-1628)	2
@@ -20427,7 +20426,6 @@ Letellier, Jean-Baptiste.	Letellier, Jean-baptiste	2
 Smith, Miles	Smith, Miles (NA-1624)	2
 Dighton, Thomas.	Dighton, Thomas	2
 Best, William	Best, William (1635-1761)	2
-Billy, Himbert de	Billy, Himbert De (1544-1630)	2
 Owen, Thomas	Owen, Thomas (1557-1618)	2
 Raban, Edward	Raban, Edward (NA-1658)	2
 Searle, Robert.	Searle, Robert	2
@@ -22615,7 +22613,6 @@ Bath, William Pulteney	Bath, William Pulteney (1684-1764)	1
 [Broglio, François Marie, duc de	Broglio, François Marie Duc De (1671-1745)	1
 [Bliss, Nathaniel	Bliss, Nathaniel (1700-1764)	1
 Adam, John	Adam, John (1720-1757)	1
-Venaeus, John.	Venaeus, John	1
 [Naish, James, 18th cent.]	Naish, James Th Cent.]	1
 Nangreaves, John.	Nangreaves, John	1
 Harris, Evan	Harris, Evan (1794-NA)	1
@@ -24446,7 +24443,6 @@ Meacham, Joseph	Meacham, Joseph (1742-1796)	1
 Branch, Amaziah	Branch, Amaziah (1741-NA)	1
 Hartley, Thomas	Hartley, Thomas (1748-1800)	1
 Blundell, James.	Blundell, James	1
-Handy, Hast.	Handy, Hast	1
 Sayre, Francis Bowes	Sayre, Francis Bowes (1766-1798)	1
 Coste, Jean-François	Coste, Jean-françois (1741-1819)	1
 Cheever, Edward	Cheever, Edward (1717-1794)	1
@@ -30260,6 +30256,7 @@ Green, S.	Green, S	1
 Pryor, John	Pryor, John (1782-NA)	1
 Wade, Luke.	Wade, Luke	1
 Spicer, Luke.	Spicer, Luke	1
+Champion, William.	Champion, William	1
 Bontein, Thomas.	Bontein, Thomas	1
 Minty, George.	Minty, George	1
 Pigott, Gillery	Pigott, Gillery (NA-1795)	1
@@ -31240,7 +31237,6 @@ Cunningham, Charles	Cunningham, Charles (NA-1793)	1
 Pratt, William	Pratt, William (1616-1770)	1
 Stration, Andrew.	Stration, Andrew	1
 Stewart, John	Stewart, John (NA-1781)	1
-O'Connor, E.	O'connor, E	1
 Richardson, George	Richardson, George (1735-1817)	1
 Burnell, John.	Burnell, John	1
 Hett, Richard	Hett, Richard (NA-1766)	1
@@ -32371,6 +32367,7 @@ Creighton, Robert	Creighton, Robert (1639-1734)	1
 C., John.	C., John	1
 Donaldson, P.	Donaldson, P	1
 Johnston, James	Johnston, James (1759-1836)	1
+Kinderley, Charles.	Kinderley, Charles	1
 Webb, Mrs.	Webb, Mrs	1
 Townsend, Josiah.	Townsend, Josiah	1
 Brown, Martin	Brown, Martin (1752-1844)	1
@@ -32801,7 +32798,6 @@ Thorpe, Henry	Thorpe, Henry (NA-1764)	1
 M'Lean, Niel	M'lean, Niel (NA-1785)	1
 Wade, George	Wade, George (1673-1748)	1
 Park, Robert	Park, Robert (1706-1789)	1
-Gentleman, who is much a lover of the reformation and the revolution.	Gentleman, Who Is Much A Lover Of The Reformation And The Revolution	1
 Haddan, James	Haddan, James (NA-1766)	1
 Home, Susan.	Home, Susan	1
 M'Kerracher, George	M'kerracher, George (NA-1788)	1
@@ -33097,7 +33093,6 @@ Corbet, Robert	Corbet, Robert (1752-1833)	1
 Polson, John	Polson, John (1691-1765)	1
 Strachan, David	Strachan, David (NA-1756)	1
 Paxton, George	Paxton, George (1762-1837)	1
-Leedes, John.	Leedes, John	1
 Sinclair, John	Sinclair, John (NA-1755)	1
 Traill, James	Traill, James (1758-1843)	1
 Mazzinghi, Joseph	Mazzinghi, Joseph (1765-1844)	1
@@ -36401,7 +36396,6 @@ Hitching, Thomas.	Hitching, Thomas	1
 Hofmann, Daniel	Hofmann, Daniel (1540-1611)	1
 Holinshed, Raphael.	Holinshed, Raphael (NA-1580)	1
 Holland, Richard	Holland, Richard (1450-NA)	1
-[Holt, John	Holt, John (NA-1504)	1
 Hommius, Festus.	Hommius, Festus (1576-1642)	1
 Hood, Robin.	Hood, Robin	1
 Hughes, Lewis.	Hughes, Lewis (NA-1824)	1
@@ -36996,7 +36990,6 @@ Southerne, Edmund.	Southerne, Edmund	1
 Soranzo, Lazzaro.	Soranzo, Lazzaro	1
 Dorislaus, Isaac	Dorislaus, Isaac (1595-1649)	1
 Chapman, Edmund	Chapman, Edmund (1680-1602)	1
-Christopherson, John	Christopherson, John (NA-1558)	1
 Davis, Francis	Davis, Francis (1612-NA)	1
 Creswell, George.	Creswell, George	1
 Skory, Edmond.	Skory, Edmond	1
@@ -37204,6 +37197,7 @@ Flower, William	Flower, William (1498-1588)	1
 Huberinus, Caspar.	Huberinus, Caspar	1
 Nannini, Remigio	Nannini, Remigio (1521-1581)	1
 Verepaeus, Simon	Verepaeus, Simon (1522-1598)	1
+Billy, Himbert de	Billy, Himbert De (1544-1630)	1
 Munda, Constantia.	Munda, Constantia	1
 Naile, Robert.	Naile, Robert	1
 Pontaymeri, Alexandre de.	Pontaymeri, Alexandre De (NA-1618)	1
@@ -37611,7 +37605,6 @@ Blandie, William.	Blandie, William	1
 Byrchensha, Raph.	Byrchensha, Raph	1
 Starkey, Thomas	Starkey, Thomas (NA-1538)	1
 Isselt, Michael von	Isselt, Michael Von (NA-1597)	1
-Best, George	Best, George (1759-1584)	1
 Sampson, Thomas	Sampson, Thomas (1517-NA)	1
 Rovenzon, John.	Rovenzon, John	1
 Bennet, John	Bennet, John (1599-1614)	1
@@ -38700,7 +38693,6 @@ Purchase, John.	Purchase, John	1
 [Puttock, Richard]	Puttock, Richard]	1
 R., J.	R., J	1
 R., W.	R., W	1
-[Rainton, E.]	Rainton, E.]	1
 Raleigh, Walter, Sir	Raleigh, Walter Sir (1552-1618)	1
 Ranson, William	Ranson, William (1644-NA)	1
 [Rastell, John]	Rastell, John]	1
@@ -41484,7 +41476,6 @@ Godman, William	Godman, William (1625-NA)	1
 Busenello, Giovanni Francesco	Busenello, Giovanni Francesco (1598-1659)	1
 Steno, Nicolaus	Steno, Nicolaus (1638-1686)	1
 Schottus, Franciscus	Schottus, Franciscus (1548-1622)	1
-Queckfeldt, Benedict.	Queckfeldt, Benedict	1
 Mantell, Walter.	Mantell, Walter	1
 Foulkes, Robert	Foulkes, Robert (NA-1679)	1
 Rémond des Cours, Nicolas	Rémond Des Cours, Nicolas (NA-1716)	1
@@ -41677,7 +41668,6 @@ Dighton, Robert	Dighton, Robert (1752-1814)	1
 Olyffe, Thomas.	Olyffe, Thomas	1
 Aubert, Alexander	Aubert, Alexander (1730-1805)	1
 Willis, Richard	Willis, Richard (1787-1734)	1
-Jackson, Robert	Jackson, Robert (1750-1793)	1
 [Bobbit, Richard	Bobbit, Richard	1
 [Horne, John	Horne, John (1747-1803)	1
 Caraccioli, Louis-Antoine	Caraccioli, Louis-antoine (NA-1803)	1

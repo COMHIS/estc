@@ -1,5 +1,5 @@
 Name	Count
-Total count: 	n= 36320  ( 100 % non-NA values)
+Total count: 	n= 36312  ( 100 % non-NA values)
 Voltaire	639
 Christie	616
 More, Hannah	441
@@ -39,7 +39,7 @@ Gentleman.	 95
 Juvenal.	 91
 Day, Thomas	 91
 Layman.	 90
-R. F.	 89
+R. F.	 88
 Junius	 88
 Fly.	 88
 Rapin de Thoyras	 86
@@ -107,9 +107,9 @@ Englishman.	 48
 Aristotle.	 48
 Young lady.	 47
 R. A.	 47
-More, Thomas	 47
 Lover of his country.	 47
 Gentleman in the country.	 47
+More, Thomas	 46
 Longinus	 46
 Chapone	 46
 W. S.	 45
@@ -168,13 +168,13 @@ La Fontaine, Jean de	 33
 Gomez	 33
 Charles I	 33
 Tickell	 32
-Marcus Aurelius	 32
 H. W.	 32
 G. L.	 32
 Gentleman of the Middle Temple.	 32
 Day, John	 32
 Argens	 32
 A. M.	 32
+Marcus Aurelius	 31
 W. R.	 30
 R. M.	 30
 R. F. H.	 30
@@ -266,7 +266,6 @@ D. T.	 22
 Country clergyman.	 22
 Beckingham	 22
 Auborn, A. d'.	 22
-T. M.	 21
 T. J.	 21
 Restif de La Bretonne	 21
 Mallet du Pan	 21
@@ -282,6 +281,7 @@ Barthélemy, J.-J.	 21
 W. L.	 20
 Wise	 20
 Voiture	 20
+T. M.	 20
 St. John, Pawlet	 20
 Poor Adam	 20
 Pindar.	 20
@@ -369,7 +369,6 @@ Citizen of Edinburgh.	 16
 B. R.	 16
 Bellegarde	 16
 Aeschines.	 16
-Thucydides.	 15
 S. H.	 15
 Pius	 15
 P. C.	 15
@@ -396,6 +395,7 @@ Boccalini, Traiano	 15
 Author of The practical scheme.	 15
 W. J.	 14
 T. V.	 14
+Thucydides.	 14
 Tertullian	 14
 S. P.	 14
 Shipton	 14
@@ -633,7 +633,6 @@ Peter	  9
 Observator.	  9
 More, John	  9
 M. H.	  9
-Mayerne, Théodore Turquet de	  9
 L. W. C.	  9
 Lover of peace.	  9
 L'Homond, C. F.	  9
@@ -684,6 +683,7 @@ N. E.	  8
 More, George	  8
 M.F.	  8
 Meusnier de Querlon, A.-G.	  8
+Mayerne, Théodore Turquet de	  8
 Marsom.	  8
 Lucifer	  8
 Le Turc	  8
@@ -2144,7 +2144,6 @@ Querist.	  2
 Q.	  2
 Pyrrhys	  2
 Puente	  2
-P.T.	  2
 Prudent Le Choyselat	  2
 Protestant that is for liberty of conscience to all perswasions.	  2
 Protestant of the Church of England.	  2
@@ -4595,6 +4594,7 @@ Publilius Syrus	  1
 Public Spirited Cobler of Hampton-Wick.	  1
 Publiciste.	  1
 Ptolomy	  1
+P.T.	  1
 P. T.	  1
 P-st of the D-ss of K-e.	  1
 Pseudonymous.	  1
@@ -5684,7 +5684,6 @@ More, Edward	  1
 More, Charles McCarthy	  1
 More, Archibald	  1
 [More, Alexander]	  1
-Mordecai	  1
 Moonraker.	  1
 Moody	  1
 Monzani, Tebaldo	  1

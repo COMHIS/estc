@@ -1,33 +1,33 @@
 Name	Count
-Total count: 	n= 266207  ( 100 % non-NA values)
-English poetry	6383
-Sermons, English	5826
+Total count: 	n= 266125  ( 100 % non-NA values)
+English poetry	6380
+Sermons, English	5824
 Songs, English	2349
-English fiction	2086
+English fiction	2084
 Latin language	1989
-Ballads, English	1974
+Ballads, English	1973
 English drama.	1919
-Christian life	1747
+Christian life	1746
 English drama (Comedy)	1463
 Almanacs, English	1299
-Elections	1298
-Dissenters, Religious	1189
+Elections	1297
+Dissenters, Religious	1188
 English language	1178
-Taxation	1145
+Taxation	1144
 Law	1129
 Operas	1027
 English drama	1016
 Medicine	1009
-Church and state	1007
+Church and state	1006
 Prayers	 933
 Law reports, digests, etc.	 932
 Society of Friends	 891
 Almanacs, English;Astrology;Ephemerides	 864
-Conduct of life	 838
+Conduct of life	 837
 Lord's Supper	 806
 Inclosures.	 791
 Inheritance and succession	 773
-Christianity	 773
+Christianity	 772
 Funeral sermons	 722
 Christian life.	 697
 Quakers	 688
@@ -36,8 +36,8 @@ Elegiac poetry, English	 658
 Sermons, English.	 651
 Visitations, Ecclesiastical	 641
 English poetry.	 615
-Broadsides	 603
-Theology, Doctrinal	 601
+Broadsides	 602
+Theology, Doctrinal	 600
 English drama (Tragedy)	 575
 Land tenure	 564
 Almanacs, English.	 560
@@ -46,7 +46,7 @@ Agriculture	 529
 Geography	 528
 Catholics	 525
 Popish Plot, 1678	 522
-Funeral sermons;Sermons, English	 519
+Funeral sermons;Sermons, English	 518
 Epistolary poetry, English	 491
 Satire, English	 481
 Women	 478
@@ -61,7 +61,7 @@ Clergy	 439
 Debtor and creditor	 433
 Epistolary fiction, English	 429
 Wool industry	 425
-Chapbooks, English	 416
+Chapbooks, English	 415
 Verse satire, English	 414
 Odes, English	 408
 God	 407
@@ -81,11 +81,11 @@ Death	 325
 Nobility	 321
 Thirty Years' War, 1618-1648	 320
 Political satire, English	 320
-Greek language	 318
 Poor	 317
 Anti-Catholicism	 317
-Tithes	 311
+Greek language	 316
 Slave trade	 311
+Tithes	 310
 French fiction.	 310
 Debts, Public	 309
 Psalmody.	 303
@@ -98,12 +98,12 @@ Ballad operas	 290
 Christian poetry, English	 287
 Opera	 286
 Criminal justice, Administration of	 279
-Latin language;Latin language	 277
 History	 277
 Protestantism	 276
 Passes (Transportation)	 276
 Natural history	 276
 Women as authors.	 275
+Latin language;Latin language	 275
 Jacobite Rebellion, 1715.	 275
 English language;English language	 275
 Oaths.	 274
@@ -133,15 +133,15 @@ Trials (Murder)	 243
 Booksellers and bookselling	 241
 Poor laws	 239
 Military art and science	 237
-Lotteries	 234
 Theology	 233
+Lotteries	 233
 Faith	 232
 Navigation	 231
 Tobacco	 230
 English wit and humor	 230
 Prayer	 228
 Voyages and travels.	 227
-Oaths	 227
+Oaths	 226
 Concert programs;Theater programs	 225
 Slavery	 223
 Smallpox	 222
@@ -208,8 +208,8 @@ French poetry	 159
 Baptists	 159
 Methodism	 158
 Latin poetry.	 158
-Botany	 158
 Spiritual life	 157
+Botany	 157
 Land titles	 156
 Fast-day sermons	 156
 Christianity.	 156
@@ -278,16 +278,16 @@ Sin	 115
 Prayer.	 115
 English wit and humor.	 115
 Death.	 115
-Witchcraft	 114
 Fires	 114
 Corporations	 113
+Witchcraft	 112
 Society of Friends;Society of Friends	 112
-Shipping	 112
 Presbyterian Church	 112
 Peace	 112
-Characters and characteristics	 112
 Surgery	 111
+Shipping	 111
 Royalists	 111
+Characters and characteristics	 111
 Trials (Libel)	 110
 Commerce	 110
 Apparitions	 110
@@ -338,7 +338,6 @@ Voyages, Imaginary.	  96
 Land grants	  96
 Jacobites	  96
 Astrology;Ephemerides;Almanacs, English	  96
-Popes	  95
 Maxims.	  95
 Fisheries	  95
 Excise tax	  95
@@ -346,6 +345,7 @@ Christian life;Devotional exercises	  95
 Charity-schools	  95
 Sermons.	  94
 Regeneration (Theology)	  94
+Popes	  94
 Anglo-French War, 1793-1802.	  94
 Oratorios	  93
 Gout	  93
@@ -384,12 +384,12 @@ Puritans	  88
 Pharmacopoeias	  88
 Elocution.	  88
 Art	  88
-Heraldry	  87
 Dutch War, 1672-1678	  87
 Cookery, English	  87
 Christian life;Sermons, English	  87
 Interest	  86
 Horse racing	  86
+Heraldry	  86
 Covenanters	  85
 Canon law	  85
 Transubstantiation	  84
@@ -565,13 +565,13 @@ Socinianism	  59
 Musicals	  59
 Library catalogs	  59
 Justification	  59
-Inland navigation	  59
 Hours, Books of	  59
 English poetry;Satire, English	  59
 Conduct of life.;Maxims.	  59
 Theater programs	  58
 Patriotism	  58
 Judgment Day.	  58
+Inland navigation	  58
 Great Awakening.	  58
 Drawing	  58
 Church buildings	  58
@@ -591,7 +591,6 @@ German drama	  57
 Estates (Law);Inheritance and succession;Land titles	  57
 Epigrams, English	  57
 English drama;Italian drama	  57
-Crime	  57
 Brigands and robbers	  57
 Almanacs;Astrology;Ephemerides	  57
 Theology, Doctrinal.	  56
@@ -601,6 +600,7 @@ Ordination sermons	  56
 Jacobite Rebellion, 1715	  56
 Epistolary fiction, French	  56
 Dueling	  56
+Crime	  56
 Auction catalogs	  56
 Sheriffs	  55
 Roundheads	  55
@@ -654,7 +654,6 @@ Almanacs, English.;Astrology	  51
 Reformed Church	  50
 Navigation.	  50
 Greek poetry	  50
-Government, Resistance to	  50
 English drama (Tragicomedy)	  50
 Anecdotes.	  50
 Unitarianism.	  49
@@ -664,7 +663,7 @@ Prostitution	  49
 Pleading	  49
 Last words;Crime and criminals;Executions and executioners;Criminals	  49
 Land value taxation	  49
-French drama (Comedy)	  49
+Government, Resistance to	  49
 Ephemerides;Nautical almanacs	  49
 English language;English language;Fables.	  49
 Christian life;Theology, Doctrinal	  49
@@ -675,6 +674,7 @@ Prayer books and devotions	  48
 Love poetry.	  48
 Leases	  48
 Latin literature.	  48
+French drama (Comedy)	  48
 Encyclopedias and dictionaries.	  48
 Coronations	  48
 Civil procedure	  48
@@ -702,7 +702,6 @@ Occasional sermons	  46
 Natural theology	  46
 Future life	  46
 Executions and executioners;Last words	  46
-Epigrams, Latin	  46
 Diseases;Medicine	  46
 Creation	  46
 Corn laws (Great Britain)	  46
@@ -718,8 +717,8 @@ Political ballads and songs	  45
 Patronage, Ecclesiastical	  45
 Pacific herring fisheries	  45
 Lord's prayer	  45
+Epigrams, Latin	  45
 Debtor and creditor;Payment	  45
-Covenant theology	  45
 Antinomianism	  45
 Women.	  44
 Usury	  44
@@ -729,6 +728,7 @@ Hunting	  44
 Greek language;Latin language	  44
 Fever.	  44
 Drowning	  44
+Covenant theology	  44
 Copyright	  44
 Ballads, English;Man-woman relationships	  44
 Antichrist	  44
@@ -787,7 +787,6 @@ Emotions	  40
 Drama;Theaters;Women in the book trades.	  40
 Church lands	  40
 Characters and characteristics.	  40
-Blood	  40
 Astrology.	  40
 Statutes	  39
 Royal supremacy (Church of England)	  39
@@ -807,6 +806,7 @@ Equity;Law reports, digests, etc.	  39
 Dissenters, Religious;Church and state	  39
 Dialogues, Latin (Medieval and modern)	  39
 Courtship	  39
+Blood	  39
 Bees.	  39
 Architecture, Domestic	  39
 Advertising;Forfeiture	  39
@@ -1051,7 +1051,6 @@ Guy of Warwick (Legendary character)	  30
 Grand jury	  30
 Eye	  30
 Dissenters, Religious;Freedom of religion	  30
-Devotional literature;Prayers	  30
 Criticism.	  30
 Contracts	  30
 Congregational churches;Congregational churches	  30
@@ -1087,6 +1086,7 @@ French language;English language	  29
 Fourth of July orations.;Fourth of July orations	  29
 Fire prevention	  29
 Entail	  29
+Devotional literature;Prayers	  29
 Covenants (Church polity)	  29
 Courts baron and courts leet	  29
 Clergy;Clergy	  29
@@ -1159,7 +1159,6 @@ Episcopacy.	  27
 Epigrams, Latin.	  27
 Draft	  27
 Devil.	  27
-Christianity;Sermons, English	  27
 Books of Hours;Primers (Prayer-books)	  27
 Astrology;Ephemerides	  27
 Armada, 1588	  27
@@ -1200,9 +1199,9 @@ Despotism	  26
 Contentment	  26
 Conduct of life;Courtesy	  26
 Christian life;Christian life	  26
+Christianity;Sermons, English	  26
 Christian biography	  26
 Catechisms.	  26
-Books of hours	  26
 Bakers	  26
 Art auctions	  26
 Arianism.	  26
@@ -1246,6 +1245,7 @@ Confession	  25
 Conduct of life;Maxims	  25
 Christian life;Theology, Practical	  25
 Celibacy	  25
+Books of hours	  25
 Blasphemy	  25
 Baptists;Baptist associations.	  25
 Urinary organs	  24
@@ -1306,7 +1306,6 @@ Public welfare	  23
 Providence and government of God;Sermons, English	  23
 Prints	  23
 Poll tax	  23
-Poetry, Latin.;College verse, English.	  23
 Petitions	  23
 Operas;Operas	  23
 Lord's Supper;Sacraments	  23
@@ -1316,7 +1315,6 @@ Jacobins.	  23
 Hydrotherapy	  23
 Homeless persons	  23
 Gonorrhea	  23
-God;Theology, Doctrinal	  23
 Geography;Geography	  23
 Future life.	  23
 Forests and forestry	  23
@@ -1359,6 +1357,7 @@ Nile, Battle of the, Egypt, 1798	  22
 Manners and customs	  22
 Loans	  22
 Latin fiction	  22
+God;Theology, Doctrinal	  22
 Geography;World history	  22
 Games	  22
 Free will and determinism	  22
@@ -1414,6 +1413,7 @@ Repentance;Sin	  21
 Religious awakening	  21
 Processions	  21
 Poets, English	  21
+Poetry, Latin.;College verse, English.	  21
 Perfection	  21
 Ordination.	  21
 Odes, Latin	  21
@@ -1700,7 +1700,6 @@ Payment;Real property	  17
 Paper	  17
 Ophthalmology	  17
 Newspaper publishing;Publishers and publishing	  17
-Nature	  17
 Natural law	  17
 Military deserters	  17
 Melancholy	  17
@@ -1785,6 +1784,7 @@ Poetics	  16
 Peerage claims	  16
 Pastoral poetry	  16
 Nominations for office;Elections	  16
+Nature	  16
 Naturalization	  16
 Music in churches.	  16
 Mosses.	  16
@@ -2076,9 +2076,7 @@ Clergy;Dissenters, Religious	  14
 Classical literature	  14
 Church and state;Oaths	  14
 Christian poetry	  14
-Christian life;Piety.;Puritans	  14
 Christian life;God	  14
-Christian life;Conversion	  14
 Christian biography.	  14
 Chapbooks, American.	  14
 Cavalry	  14
@@ -2248,6 +2246,8 @@ Church polity;Presbyterianism	  13
 Church music.;Music	  13
 Church architecture	  13
 Church and state;Presbyterianism	  13
+Christian life;Piety.;Puritans	  13
+Christian life;Conversion	  13
 Children's songs.	  13
 Children;Christian life	  13
 Charity laws and legislation	  13
@@ -2557,7 +2557,6 @@ English West Indian Expedition, 1739-1742.	  11
 English literature;English fiction;English poetry	  11
 English language;Readers (Primary)	  11
 English language;Dutch language	  11
-English fiction;Rogues and vagabonds	  11
 Embezzlement	  11
 Education;Education	  11
 Dysentery.	  11
@@ -2781,6 +2780,7 @@ Epistolary poetry, Latin	  10
 Epilepsy	  10
 English newspapers	  10
 English language;English poetry;Quotations, English.	  10
+English fiction;Rogues and vagabonds	  10
 English drama;English drama	  10
 Elegiac poetry.	  10
 Elegaic poetry, English	  10
@@ -3136,7 +3136,6 @@ Atrocities	   9
 Artillery	   9
 Arithmetic.;Arithmetic	   9
 Antisemitism	   9
-Antiquities	   9
 Antichrist.	   9
 Anglican converts	   9
 Andronicus, Titus (Legendary character)	   9
@@ -3506,6 +3505,7 @@ Apparitions.;Future life.	   8
 Apologetics;Deism	   8
 Apologetics;Apologetics;Free thought	   8
 Aphorisms and apothegms.;Conduct of life	   8
+Antiquities	   8
 Antiquarians	   8
 Antinomianism.;Methodist Church	   8
 Animal welfare	   8
@@ -3986,7 +3986,6 @@ Atheism;Sermons, English	   7
 Atheism;Atheism	   7
 Astronomy.;Geography.	   7
 Astrology;Planets	   7
-Astrology;Astronomy	   7
 Articles of incorporation	   7
 Aristocracy (Social class)	   7
 Arianism.;Dissenters, Religious	   7
@@ -4088,7 +4087,6 @@ Sick;Christian life;Last words	   6
 Siamese twins	   6
 Ship trials	   6
 Shays' Rebellion, 1786-1787.	   6
-Sexual ethics	   6
 Sermons, English;Thought and thinking	   6
 Sermons, English;Spanish Succession, War of, 1701-1714	   6
 Sermons, English;Sacraments	   6
@@ -4533,7 +4531,6 @@ Cryptography	   6
 Crusoe, Robinson (Fictitious character);Islands;Survival after airplane accidents, shipwrecks, etc.	   6
 Crime and criminals;Last words	   6
 Crime and criminals;Executions and executioners;Last words	   6
-Creation;Cosmology;Philosophy, Ancient	   6
 Covenanters.	   6
 Courts-martial and courts of inquiry.	   6
 Courtesy.;Etiquette.;Conduct of life	   6
@@ -4672,6 +4669,7 @@ Astronomy;Mathematics	   6
 Astronomy;Globes	   6
 Astrology;Predictive astrology	   6
 Astrology;Ephemerides;Almanacs	   6
+Astrology;Astronomy	   6
 Asthma.	   6
 Art;Portrait painting	   6
 Art objects	   6
@@ -4994,7 +4992,6 @@ Orphans;Poor	   5
 Orangemen	   5
 Oracles.	   5
 Oracles	   5
-Opium.	   5
 Operas;Musicals	   5
 Oaths;Quakers	   5
 Northwest Passage;Scientific expeditions	   5
@@ -6069,6 +6066,7 @@ Ordination;Ordination	   4
 Ordinals (Liturgical books)	   4
 Oratory;Rhetoric;Latin language	   4
 Oratory.;Rhetoric, Ancient.	   4
+Opium.	   4
 Operas;English drama	   4
 Olympics.	   4
 Offenses against property	   4
@@ -6318,7 +6316,6 @@ Insurance, Life;Insurance, Life;Probabilities	   4
 Insurance, Life.	   4
 Insurance, Fire;Insurance companies	   4
 Insects.	   4
-Inscriptions, Latin;Inscriptions, Greek	   4
 Inscriptions, Greek.	   4
 Inquisition;Utopias.	   4
 Inland water transportation	   4
@@ -6414,7 +6411,6 @@ Grace (Theology);Theology, Doctrinal.	   4
 Grace (Theology);Predestination	   4
 Government, Resistance to;Obedience	   4
 Gout;Therapeutics	   4
-Gout;Medicine	   4
 Good Samaritan (Parable)	   4
 Good Friday sermons.;Sermons, English	   4
 Good and evil.;Free will and determinism.	   4
@@ -6720,6 +6716,7 @@ Crime;Executions and executioners;Thieves	   4
 Crime;Executions and executioners;Indians of North America;Murder	   4
 Crime and criminals;Crime	   4
 Creation;Natural history	   4
+Creation;Cosmology;Philosophy, Ancient	   4
 Covenant theology;Salvation	   4
 Covenants (Church polity);Baptism.	   4
 Courts;Jurisprudence;Justice, Administration of	   4
@@ -7494,6 +7491,7 @@ Ship handling	   3
 Sheriffs;Elections	   3
 Shells.	   3
 Sexual ethics.	   3
+Sexual ethics	   3
 Sex role;Married people;Man-woman relationships	   3
 Sewerage;Streets	   3
 Seven Years' War, 1756-1763.;Seven Years' War, 1756-1763	   3
@@ -8287,7 +8285,6 @@ Longitude;Chronometers	   3
 London (England);London (England)	   3
 London (England);Building laws;Housing, Single family	   3
 Logic;Reasoning	   3
-Logic;Metaphysics;Providence and government of God	   3
 Logic;Logic	   3
 Logarithms;Logarithms;Trigonometry	   3
 Locomotor ataxia	   3
@@ -8477,6 +8474,7 @@ Insurance, Fire;Insurance	   3
 Instructions to juries;Jury	   3
 Inspiration.	   3
 Insects;Spiders	   3
+Inscriptions, Latin;Inscriptions, Greek	   3
 Inscriptions, Latin	   3
 Insanity	   3
 Inquisition;Inquisition;Inquisition	   3
@@ -8658,6 +8656,7 @@ Government, Resistance to;Sovereignty	   3
 Government, Resistance to;Monarchy	   3
 Government, Resistance to;Government, Resistance to	   3
 Gout;Mineral waters	   3
+Gout;Medicine	   3
 Gossip;Women	   3
 Gordon Riots, 1780;Trials (Treason)	   3
 Good works (Theology);Law (Theology);Methodist Church;Sermons, English	   3
@@ -9164,7 +9163,6 @@ Debtor and creditor;Bankruptcy	   3
 Debt, Imprisonment for;Poor	   3
 Debt, Imprisonment for.	   3
 Debt, imprisonment for	   3
-Death;Women	   3
 Death;Sick;Prayers	   3
 Death;Judgment Day	   3
 Death.;Immortality.;Women as authors.	   3
@@ -9899,7 +9897,6 @@ Astronomical geography.	   3
 Astrology;Weather forecasting	   3
 Astrology;Sermons, English	   3
 Astrology;Prophecies (Occultism)	   3
-Astrology;Ephemerides.	   3
 Astrology;Eclipses, solar	   3
 Astrology;Demonology	   3
 Astrology;Almanacs	   3
@@ -11626,7 +11623,6 @@ Prophecy;Prophecies	   2
 Prophecy;Bannockburn, Battle of, Scotland, 1314	   2
 Prophecies;Weather forecasting	   2
 Prophecies.;Sermons, English	   2
-Prophecies;Quakers	   2
 Prophecies;Omens	   2
 Prophecies;Jews	   2
 Prophecies;Islam;Christianity	   2
@@ -11673,7 +11669,6 @@ Prison administration	   2
 Priorities of claims and liens	   2
 Printing;Type and type-founding.	   2
 Printing;Printers;Printing	   2
-Printing industry;Printing	   2
 Printing;Booksellers and bookselling	   2
 Printers;Printing industry	   2
 Princesses;Perfection	   2
@@ -12892,6 +12887,7 @@ Logic.;Self-culture.;Education	   2
 Logic;Rhetoric	   2
 Logic, Modern	   2
 Logic;Meteorology;Comets;Eye	   2
+Logic;Metaphysics;Providence and government of God	   2
 Logic;Ethics	   2
 Logic, Ancient	   2
 Logarithms;Surveying;Surveying.;Trigonometry	   2
@@ -15187,6 +15183,7 @@ Debt, Imprisonment for;Debt relief	   2
 Debt;Estates (Law);Inheritance and succession	   2
 Debt;Debtor and creditor;Payment	   2
 Debates and debating;Universities and colleges	   2
+Death;Women	   2
 Death;Trust in God	   2
 Death;Theology, Practical	   2
 Death;Spiritual life;Soul	   2
@@ -17028,6 +17025,7 @@ Astrology;Handbooks, vade-mecums, etc.	   2
 Astrology, Greek	   2
 Astrology.;Fortune-telling.;Dreams.;Disasters.;Weather forecasting.	   2
 Astrology;Ephemerides;Almanacs, American	   2
+Astrology;Ephemerides.	   2
 Astrology, English;Calendars	   2
 Astrology;Dreams;Magic;Parapsychology;Magicians	   2
 Astrology.;Dreams.;Fortune-telling.;Horses;Veterinary medicine.	   2
@@ -17361,7 +17359,6 @@ Almshouses;Charities;Poor	   2
 Almshouses;Almshouses	   2
 Almanacs, Scottish;Fairs	   2
 Almanacs, Scottish.;Ephemerides.	   2
-Almanacs, Scottish;Astrology;Ephemerides;Fairs;Weights and measures	   2
 Almanacs;Predictive astrology;Astrology;Ephemerides	   2
 Almanacs;Predictive astrology	   2
 Almanacs, French	   2
@@ -18527,7 +18524,6 @@ Virtue;Religion;Vice	   1
 Virtue.;Happiness.;Conduct of life.	   1
 Virtue.;Good and evil.	   1
 Virtue.;Emotions.;Good and evil.;Election (Theology)	   1
-Virtue;Christian moral exhortation	   1
 Virtue;Christian life;Conduct of life;Christian ethics;Death	   1
 Virtue.;Christianity.	   1
 Virginity;Murder;Sexual ethics	   1
@@ -20766,7 +20762,6 @@ Sphere.;Euclid's Elements.;Cylinder (Mathematics);Geometry	   1
 Sperm whale hunting;Whaling	   1
 Spermatozoa.	   1
 Spendings tax	   1
-Spelter	   1
 Spelling reform.;Phonetic alphabet.	   1
 Spelling reform.;Language and languages	   1
 Spelling reform.;English language;English language;Spelling reform	   1
@@ -25492,6 +25487,7 @@ Prophecies;Repentance	   1
 Prophecies;Regicides	   1
 Prophecies;Reformation	   1
 Prophecies;Quakers;Jews	   1
+Prophecies;Quakers	   1
 Prophecies.;Prophets	   1
 Prophecies;Prophecy;Warnings	   1
 Prophecies;Predictive astrology	   1
@@ -25759,6 +25755,7 @@ Printing machinery and supplies	   1
 Printing;Law	   1
 Printing industry;Sermons, English	   1
 Printing industry;Receipts (Acknowledgements)	   1
+Printing industry;Printing	   1
 Printing industry;Price regulation;Prices	   1
 Printing industry;Collective bargaining;Printers	   1
 Printing industry;Book industries and trade	   1
@@ -27245,7 +27242,6 @@ Physics.;Cosmology.	   1
 Physics;Cohesion;Magnetism;Attractions;Gravitation;Field theory (Physics)	   1
 Physics;Chemistry	   1
 Physics;Atomic structure	   1
-Physics;Astronomy;Meteorology	   1
 Physicians;Tumor antigens	   1
 Physicians;Surgery	   1
 Physicians;Surgeons;Letters patent	   1
@@ -29671,7 +29667,6 @@ Monetary policy;Money	   1
 Monetary policy;Foreign exchange rates	   1
 Monetary policy;Coins	   1
 Monetary policy;Coinage;Precious metals	   1
-Monetary policy;Coinage	   1
 Monastic libraries	   1
 Monasticism and religious orders;Voyages and travels	   1
 Monasticism and religious orders;Poor Clares	   1
@@ -33035,7 +33030,6 @@ Languages;Society of Friends	   1
 Languages;Quakers lv Early works to 1800.;Society of Friends	   1
 Languages, Modern.	   1
 Languages, Modern	   1
-Language question in the church;Theology, Doctrinal	   1
 Language policy;English language	   1
 Language and languages;Writing;Grammar, Comparative and general	   1
 Language and languages;Writing	   1
@@ -33043,7 +33037,6 @@ Language and languages;Sunday schools	   1
 Language and languages;Speech	   1
 Language and languages;Religion;Language and languages	   1
 Language and languages;Latin language;Proverbs, Latin.;Proverbs, English.	   1
-Language and languages;Latin language;Latin language	   1
 Language and languages;Latin language;Grammar, Comparative and general;Latin language;Grammar, Comparative and general	   1
 Language and languages;Language and languages	   1
 Language and languages;English language;Latin language;Rhetoric;English language;Latin language	   1
@@ -36098,7 +36091,6 @@ Gunpowder;Military weapons;Smuggling	   1
 Gunpowder;Military weapons	   1
 Gunpowder industry;Military supplies;Monopolies	   1
 Gunpowder;Fires	   1
-Gunpowder;Alum industry	   1
 Gunnery;Trigonometry	   1
 Gunnery;Projectiles;Geometry, Plane;Mathematics, Greek	   1
 Gunnery;Ordnance, Naval	   1
@@ -37568,7 +37560,6 @@ French language;German language;English language	   1
 French language;French language x Grammar;French language;French language;French language	   1
 French language;French language;French language;France	   1
 French language;Ethics;Philosophy	   1
-French language;English language;Terms and phrases;Terms and phrases;Marine sciences	   1
 French language;English language;Spanish language	   1
 French language;English language;Naval art and science	   1
 French language;English language;Italian language	   1
@@ -38601,7 +38592,6 @@ Fever.;Tuberculosis.;Disinfection and disinfectants.	   1
 Fever.;Throat	   1
 Fever therapy	   1
 Fever theraphy;Symptoms	   1
-Fever;Stimulants	   1
 Fever.;Solar radiation	   1
 Fever;Smallpox;Pneumonia;Angina maligna	   1
 Fever.;Smallpox.	   1
@@ -38734,7 +38724,6 @@ Faust;Pantomimes with music	   1
 Faultfinding;Gout	   1
 Faultfinding	   1
 Fathers of the church;Young men;Conduct of life	   1
-Fathers of the church;Theology	   1
 Fathers of the church;Pelagianism.	   1
 Fathers of the church;Clergy;Authority (Religion)	   1
 Fathers of the church.;Church history	   1
@@ -46157,7 +46146,6 @@ Clergy;Dissenters;Dissenters, Religious	   1
 Clergy;Dissenters	   1
 Clergy.;Devil.;Idols and images	   1
 Clergy.;Decedents' family maintenance.	   1
-Clergy;Deadly sins;Religious thought	   1
 Clergy;Criticism;Visitation sermons	   1
 Clergy;Covenanters	   1
 Clergy.;Congregational churches;Sermons, American.	   1
@@ -49804,7 +49792,6 @@ Calvinism;Sacraments	   1
 Calvinism;Reformation;Calvinism;Reformation.	   1
 Calvinism;Reformation;Arminianism	   1
 Calvinism.;Providence and government of God.;Grace (Theology);Calvinism;Providence and government of God	   1
-Calvinism;Protestantism;Protestants	   1
 Calvinism.;Predestination.;Methodist Church	   1
 Calvinism;Predestination;Calvinism;Reformed Church	   1
 Calvinism;Predestination	   1
@@ -49834,7 +49821,6 @@ Calico;Textile fabrics	   1
 Calico-printing.;Printing	   1
 Calico;Copyright;Design protection;Textile fabrics	   1
 Calendar.;Time, Equation of.	   1
-Calendars;Sacrifice;Sacrifice	   1
 Calendars.;Fairs;Roads;Agriculture;Chronology, Historical.	   1
 Calendars.;Devotional exercises.	   1
 Calendars;Country life;Country life	   1
@@ -51582,7 +51568,6 @@ Bible and law;Sin, Mortal	   1
 Bible and law;Reparation (Criminal justice)	   1
 Bible and law;Christianity and politics	   1
 Bible and geology.	   1
-Bible and astrology.;Astrology	   1
 Bible and astrology	   1
 Bible.	   1
 Bezoars.	   1
@@ -53788,7 +53773,6 @@ Apologies	   1
 Apologetics;Youth;Youth	   1
 Apologetics.;Truth.	   1
 Apologetics;Trinity;Unitarianism	   1
-Apologetics;Trinity.;Socinianism.	   1
 Apologetics;Theology, Doctrinal.	   1
 Apologetics.;Theology.	   1
 Apologetics;Theology.	   1
@@ -54750,6 +54734,7 @@ Almancs, English	   1
 Almanacs, Scottish;Ephemerides;Fairs;Astrology	   1
 Almanacs, Scottish;Astrology;Ephemerides;Solar eclipses	   1
 Almanacs, Scottish;Astrology;Ephemerides;Fasts and feasts	   1
+Almanacs, Scottish;Astrology;Ephemerides;Fairs;Weights and measures	   1
 Almanacs, Scottish.;Almanacs;Ephemerides	   1
 Almanacs, Scotch.	   1
 Almanacs;Prophecy;Markets;Astrology;Astronomy;Almanacs, Scottish.	   1
@@ -54771,7 +54756,6 @@ Almanacs;Fasts and feasts;Almanacs, English.;Astrology;Ephemerides.	   1
 Almanacs;Fasts and feasts	   1
 Almanacs;Farmers' markets;Markets	   1
 Almanacs;Ephmederies;Astrology	   1
-Almanacs;Ephimerides;Moon	   1
 Almanacs;Ephemerides;Prognostication	   1
 Almanacs;Ephemerides;Navigation	   1
 Almanacs;Ephemerides;Monarchy	   1

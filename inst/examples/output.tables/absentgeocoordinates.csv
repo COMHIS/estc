@@ -1,24 +1,24 @@
 name	count
-Boston MA	10538
-Philadelphia PA	10279
+Boston MA	10537
+Philadelphia PA	10278
 New York NY	4697
-Birmingham	1288
+Birmingham	1287
 Manchester	1220
 Bath	1115
 New London CT	1011
 Hartford CT	966
-Providence RI	963
+Providence RI	962
 Salisbury	850
 Exeter	841
-Belfast	801
-Charleston SC	750
+Belfast	800
+Charleston SC	749
 New Haven MA	740
 Cork	721
 Newport RI	689
 Leeds	635
 Shrewsbury	600
 Liverpool	551
-Nottingham	538
+Nottingham	537
 Quebec	505
 Coventry	504
 Canterbury	501
@@ -31,14 +31,14 @@ Williamsburg VA	409
 Germantown PA	393
 Newburyport MA	389
 Northampton	386
-Antwerp	380
 Wilmington De	377
+Antwerp	377
 Chester	373
 Albany NY	356
 St Omer	354
 Lancaster PA	353
 Richmond	349
-Ipswich	349
+Ipswich	348
 United States	336
 The Hague	326
 Cambridge MA	319
@@ -60,7 +60,7 @@ Douai	238
 Falkirk	235
 Rochester	223
 Reading	217
-Sheffield	209
+Sheffield	208
 Paisley	200
 Durham	179
 Leicester	178
@@ -78,11 +78,11 @@ Wolverhampton	149
 Burlington NJ	149
 Preston	148
 Lincoln	147
-Darlington	147
+Darlington	146
 Kendal	144
 Montreal	143
-Dundee	141
 Middelburg	140
+Dundee	140
 Bedford	139
 Downpatrick	135
 Watertown MA	133
@@ -360,7 +360,6 @@ Vergennes Vt	12
 Salisbury NC	12
 providentiæ	12
 Northumberland PA	12
-Mullingar	12
 Medford MA	12
 lond	12
 Jena	12
@@ -373,6 +372,7 @@ Norton	11
 Newmarket	11
 Newbury	11
 Nantes	11
+Mullingar	11
 Montego Bay	11
 Mainz	11
 Loughborough	11
@@ -439,7 +439,6 @@ Hanau	8
 Greenock	8
 Elizabeth NJ	8
 Carlow	8
-cantebrigiæ	8
 bristoliæ	8
 Bridgewater MA	8
 Brattleboro Vt	8
@@ -459,6 +458,7 @@ goettingen	7
 Georgetown SC	7
 Fryeburg Me	7
 Frankfurt am Main	7
+cantebrigiæ	7
 Caerfyrddin	7
 Bridport	7
 Basseterre 	7
@@ -599,7 +599,6 @@ taraṅkaṉpāṭiyile	3
 Sydney	3
 Stuttgart	3
 St Eustatius	3
-Sligo	3
 Selby	3
 Salem NJ	3
 Rotherham	3
@@ -690,6 +689,7 @@ Stoke Newington	2
 St John New Brunswick	2
 St Austell	2
 St Augustine FL	2
+Sligo	2
 Siena	2
 Shiffnal	2
 Settle	2
