@@ -1,241 +1,237 @@
 Name	Count
-Total count: 	n= 480785  ( 100 % non-NA values)
-London	318537
-Edinburgh	 32144
-Dublin	 26265
-Boston MA	 10558
-Philadelphia PA	 10279
-Oxford	  7410
-Glasgow	  5354
-New York NY	  4697
-Cambridge	  4366
-Newcastle	  2726
-Paris	  2688
-Bristol	  1800
-York	  1787
-Birmingham	  1287
-Manchester	  1220
-Amsterdam	  1196
+Total count: 	n= 467697  ( 100 % non-NA values)
+London	317590
+Edinburgh	 32076
+Dublin	 26154
+Philadelphia PA	 10221
+Oxford	  7391
+Glasgow	  5343
+New York NY	  4670
+Cambridge	  4362
+Newcastle	  2715
+Paris	  2675
+Bristol	  1790
+York	  1781
+Birmingham	  1282
+Manchester	  1208
+Amsterdam	  1183
 Aberdeen	  1144
-Bath	  1123
-New London CT	  1011
-Hartford CT	   966
-Providence RI	   962
-Norwich	   952
-Salisbury	   850
-Exeter	   842
-Belfast	   800
-Charleston SC	   758
-New Haven MA	   740
-Cork	   724
-Newport RI	   693
-Leeds	   635
-Shrewsbury	   600
-Liverpool	   551
-Baltimore MD	   550
-Nottingham	   537
-Canterbury	   512
-Quebec	   505
-Coventry	   504
-Annapolis MD	   495
-Portsmouth NH	   486
-Worcester	   481
+Bath	  1118
+New London CT	  1004
+Hartford CT	   962
+Providence RI	   959
+Norwich	   951
+Salisbury	   846
+Exeter	   838
+Belfast	   796
+Charleston SC	   743
+New Haven MA	   738
+Cork	   722
+Newport RI	   690
+Leeds	   633
+Shrewsbury	   598
+Liverpool	   550
+Baltimore MD	   537
+Nottingham	   530
+Canterbury	   510
+Quebec	   507
+Coventry	   499
+Annapolis MD	   493
+Portsmouth NH	   485
+Worcester	   471
 Tunbridge Wells	   449
-Worcester MA	   447
 Halifax	   446
+Worcester MA	   445
 Williamsburg VA	   409
-Newburyport MA	   398
-Germantown PA	   393
-Northampton	   386
-Antwerp	   386
-Wilmington DE	   379
-Chester	   373
-Albany NY	   356
-St Omer	   354
-Lancaster PA	   353
+Newburyport MA	   389
+Germantown PA	   388
+Northampton	   387
+Antwerp	   380
+Chester	   369
+St Omer	   352
+Lancaster PA	   350
+Albany NY	   350
 Richmond	   349
-Ipswich	   348
-United States	   336
-The Hague	   325
-Cambridge MA	   319
-Norwich CT	   316
-Gloucester	   315
-Maidstone	   310
-Salem MA	   309
-Hull	   307
+Ipswich	   347
+The Hague	   332
+Cambridge MA	   318
+Norwich CT	   315
+Gloucester	   314
+Maidstone	   309
+Hull	   306
+Salem MA	   304
+United States	   303
 Eton	   303
-Calcutta	   289
-Warrington	   286
-Perth	   278
-Exeter NH	   274
-Rouen	   271
+Warrington	   290
+Calcutta	   282
+Perth	   274
+Exeter NH	   273
+Rouen	   266
 Carmarthen	   256
-Litchfield CT	   255
 Trenton	   254
+Litchfield CT	   251
 Berwick-upon-Tweed	   247
-Douai	   238
-Falkirk	   235
-Rochester	   223
-Reading	   217
-Sheffield	   208
+Falkirk	   233
+Rochester	   221
+Reading	   212
+Sheffield	   206
 Paisley	   200
-Leicester	   178
-Durham	   176
+Durham	   178
+Leicester	   176
 Warwick	   168
-Derby	   162
-Bury St Edmunds	   161
+Derby	   160
+Bury St Edmunds	   159
 Stirling	   158
 Plymouth	   158
-Sherborne	   157
-Bennington VT	   156
+Sherborne	   155
+Bennington VT	   155
 Hamburg	   153
-Savannah GA	   152
-New Bern NC	   152
-Wolverhampton	   149
+Savannah GA	   149
 Burlington NJ	   149
-Preston	   148
+Wolverhampton	   147
+Tharangampadi	   147
 Lincoln	   147
-tharangampadi	   146
-Darlington	   146
-Kendal	   144
+Darlington	   145
+Preston	   144
+New Bern NC	   144
 Montreal	   143
+Kendal	   143
 Middelburg	   140
 Dundee	   140
 Bedford	   139
 Watertown MA	   136
-Portsmouth	   136
 Downpatrick	   135
-Windsor VT	   132
+Portsmouth	   133
 Tewkesbury	   132
+Windsor VT	   131
 Whitehaven	   131
 Lewes	   128
-Rotterdam	   127
-Southampton	   126
+Rotterdam	   126
+Southampton	   123
 Newark	   123
-Leipzig	   123
+Leipzig	   122
+Amwythig	   122
 Basel	   120
-Amwythig	   120
-Limerick	   119
 Colchester	   119
-Carlisle	   117
+Limerick	   118
 Woodbridge NJ	   115
-Winchester	   115
-Ephrata PA	   114
-Leiden	   111
-Newry	   107
+Carlisle	   115
+Ephrata PA	   113
+Winchester	   111
+Leiden	   108
+Newry	   106
 Kings Lynn	   106
 Hereford	   106
 Newark NJ	   105
-Windsor	   104
-Halifax NS	   104
+Windsor	   103
+Halifax NS	   101
 Yarmouth	   100
-Stamford	    99
-Geneva	    97
+Stamford	    97
 Taunton	    96
+Geneva	    96
 Elizabeth NJ	    95
-Springfield MA	    92
 Spanish Town	    92
-Madras India	    92
-Richmond VA	    91
-Kingston Jamaica	    90
+Springfield MA	    91
+Madras India	    91
+Kingston Jamaica	    89
 Gainsborough	    88
 Waterford	    86
 Rutland VT	    85
-Poughkeepsie NY	    85
 Dumfries	    85
-Portland ME	    83
-n p	    81
+Poughkeepsie NY	    83
 Ludlow	    81
 Lexington KY	    81
 Berlin	    81
+Richmond VA	    80
+Portland ME	    80
+N p	    80
 Twickenham	    78
-Chelmsford	    77
 Banbury	    77
 Concord NH	    76
-New Brunswick NJ	    75
+Chelmsford	    75
 Frankfurt	    73
 Bury	    73
-Aldershot	    73
 Margate	    72
-Hudson NY	    72
+New Brunswick NJ	    71
 Wrexham	    70
-Danbury CT	    69
-Doncaster	    66
+Hudson NY	    69
+Aldershot	    69
 Brentford	    66
+Doncaster	    64
+Danbury CT	    64
 Chichester	    64
 Brussels	    64
 Wakefield	    63
 Livorno	    63
 Huddersfield	    63
 Sunderland	    62
+New Orleans La	    62
 Leominster MA	    62
-Alnwick	    62
-New Orleans La	    61
-Washington DC	    60
+Ayr	    61
+Alnwick	    61
 Kingston	    60
-Cirencester	    60
-Ayr	    60
-Venice	    59
-Kilkenny	    59
+Cirencester	    59
+Venice	    58
 Peterborough	    58
 Middletown CT	    58
 Penrith	    57
-Warren RI	    55
+Kilkenny	    57
+Washington DC	    56
 Trefeca	    55
 Stafford	    55
-Mass	    55
+Warren RI	    54
 Stockport	    54
-Dover NH	    54
-Augusta GA	    54
 Liège	    53
+Augusta GA	    53
 Stockton	    52
-Hertford	    51
-Amherst NH	    51
-Trenton NJ	    50
-Stockbridge MA	    50
+Mass	    52
 Kilmarnock	    50
-Keene NH	    50
+Hertford	    50
 Fishkill NY	    50
+Dover NH	    50
 Bolton	    50
-York PA	    49
-Halifax NC	    49
+Amherst NH	    50
+Stockbridge MA	    49
+Göttingen	    49
+Cologne	    49
+York PA	    48
+Trenton NJ	    48
 Port-au-Prince	    48
+Halifax NC	    48
 Guildford	    48
 Kidderminster	    47
-Hanover NH	    47
 Aberhonddu	    47
-Windham CT	    46
 St Andrews	    46
+Keene NH	    46
 Charlestown MA	    46
 Wisbech	    45
+Windham CT	    45
 Wesel	    45
 Roseau Dominica	    45
-Northampton MA	    45
 Lyon	    45
-Edenton NC	    45
 Bradford	    45
-Dunbar	    44
-Cologne	    44
-Walpole NH	    42
-Alexandria VA	    42
+Hanover NH	    44
+Northampton MA	    43
+Edenton NC	    43
+Dunbar	    43
 Reading PA	    41
 Macclesfield	    41
-Carlisle PA	    41
 Trefriw	    40
 New Bedford MA	    40
-Göttingen	    40
+Alexandria VA	    40
+Walpole NH	    39
 Montrose	    39
+Carlisle PA	    39
 Huntingdon	    38
+Vienna	    37
 Salem	    37
-Saint John	    37
-Norfolk VA	    37
-New Haven CT	    37
 Kingstown	    37
-Greenfield MA	    37
-Vienna	    36
-Strasbourg	    36
-Emden	    36
-Westminster VT	    35
+Emden	    37
+Saint John	    36
+New Haven CT	    36
+Greenfield MA	    36
+Copenhagen	    36
+Strasbourg	    35
 Chesterfield	    35
 Blackburn	    35
 Knaresborough	    34
@@ -243,18 +239,17 @@ Kelso	    34
 Delft	    34
 Bridgetown Barbados	    34
 Whitby	    33
-Lansingburgh NY	    33
+Westminster VT	    33
 Utrecht	    32
 St Johns Antiqua	    32
-Knoxville Tn	    32
+Lansingburgh NY	    32
 Fredericktown MD	    32
-Frankfort KY	    32
 Evesham	    32
-Copenhagen	    32
 Brookfield MA	    32
-Troy NY	    31
 Niagara	    31
 Lausanne	    31
+Knoxville Tn	    31
+Frankfort KY	    31
 Falmouth ME	    31
 Suffield CT	    30
 Louvain	    30
@@ -265,224 +260,221 @@ Burslem	    30
 Bruges	    30
 Henley-on-Thames	    29
 Dedham MA	    29
-Petersburg VA	    28
+Norfolk VA	    28
 Londonderry	    28
+Harrisburgh PA	    28
 Halle	    28
 Armagh	    28
 America	    28
 Wigan	    27
 Spalding	    27
-Harrisburgh PA	    27
-Hallowell ME	    27
-Catskill NY	    27
+St Petersburg	    26
 Dover	    26
+Chestnut Hill PA	    26
+Catskill NY	    26
 Bridgetown	    26
-St George	    25
+Troy NY	    25
+Petersburg VA	    25
 North Shields	    25
 Monaghan	    25
-Chestnut Hill PA	    25
-Bombay	    25
+Hallowell ME	    25
 Washington PA	    24
-St Petersburg	    24
-St Ives	    24
+St George	    24
+Rome	    24
 Nassau	    24
 Hanover	    24
 Dresden	    24
 Deptford	    24
 Danvers MA	    24
+Bombay	    24
 Basseterre Saint Kitts	    24
 Stourbridge	    23
-Marlborough	    23
+St Ives	    23
+Hagerstown MD	    23
 Florence	    23
 Devizes	    23
 Congleton	    23
 Trowbridge	    22
-Raleigh NC	    22
-Georgetown DC	    22
-Fairhaven VT	    22
-Dorchester	    22
+Marlborough	    22
 Chelsea	    22
 Aylesbury	    22
-West Springfield MA	    21
 Newfield CT	    21
-Kingston NY	    21
-Fredicksburg VA	    21
-Chambersburg PA	    21
+Dorchester	    21
 Altenburg	    21
-abroad	    21
+Abroad	    21
 Winton	    20
+West Springfield MA	    20
 Sudbury	    20
-Rome	    20
+Raleigh NC	    20
 Market Harborough	    20
+Georgetown DC	    20
+Fairhaven VT	    20
 Dudley	    20
 Drogheda	    20
 Whitehall PA	    19
 Strabane	    19
 Leominster	    19
-hamilton	    19
+Hamilton	    19
 Dordrecht	    19
-Columbia SC	    19
 Clipstone	    19
 Chesire CT	    19
-Wilmington NC	    18
+Chambersburg PA	    19
 Wilmington	    18
 Pontefract	    18
 Nantwich	    18
+Leuven	    18
+Kingston NY	    18
 Ghent	    18
 Egham	    18
 Douglas	    18
 Dort	    18
+Columbia SC	    18
 Chatham NJ	    18
 Winchester VA	    17
 Weymouth	    17
 Wexford	    17
 Ripon	    17
-leuven	    17
-Hagerstown MD	    17
 Goshen NY	    17
 Caernarfon	    17
 Buckingham	    17
-truru	    16
-Spanish Town Jamaica	    16
+Truru	    16
 Sevenoaks	    16
 Scarborough	    16
-Newburgh NY	    16
 Neuchatel	    16
-london̄	    16
+London̄	    16
 Haddington	    16
-caerleon	    16
-Augusta ME	    16
+Fredicksburg VA	    16
+Caerleon	    16
 St Pierre	    15
-St Helier	    15
 St Albans	    15
 Stabroek	    15
-new castle de	    15
+Spanish Town Jamaica	    15
+New Castle de	    15
 Machynlleth	    15
 Inverness	    15
 Haarlem	    15
 Ewood Hall	    15
 Brighton	    15
+Augusta ME	    15
+Wilmington NC	    14
+St Helier	    14
 Reims	    14
-providentiae	    14
+Providentiae	    14
 Parma	    14
+Newburgh NY	    14
 Monmouth	    14
 Madeley	    14
 Horncastle	    14
 Hinckley	    14
 High Wycombe	    14
 Guernesey	    14
-chennai	    14
+Chennai	    14
 Cheltenham	    14
 Basseterre	    14
 Abingdon	    14
 Abartawe	    14
-Wiscasset ME	    13
+Zürich	    13
 Tamworth	    13
-Schenectady NY	    13
 Mount Holly NJ	    13
 Louth	    13
 Gravesend	    13
 Cooperstown NY	    13
 Vergennes VT	    12
+Schenectady NY	    12
 Salisbury NC	    12
 Northumberland PA	    12
 Medford MA	    12
-lond	    12
 Jena	    12
-Cincinnati OH	    12
 Bordeaux	    12
-whitesboro ny	    11
-stonington ct	    11
-Putney VT	    11
+Wiscasset ME	    11
+Ramsgate	    11
 Norton	    11
 Newmarket	    11
 Newbury	    11
 Nantes	    11
 Mullingar	    11
-Montego Bay	    11
 Mainz	    11
 Loughborough	    11
+Heidelberg	    11
 Hawick	    11
 Hannover	    11
+Cincinnati OH	    11
 Chatham	    11
 Bridgnorth	    11
 Beverley	    11
 Bern	    11
 Altona	    11
-Zurich	    10
+Valletta	    10
 Stroud	    10
-st peter port	    10
+St peter port	    10
+Stonington ct	    10
 South Shields	    10
 Rochdale	    10
-Ramsgate	    10
 Pondicherry	    10
 Peacham VT	    10
 Oswestry	    10
 Natchez Ms	    10
 Grantham	    10
 Fredericton	    10
-Frederick MD	    10
-Fayetteville NC	    10
 Drumfries	    10
-Clonmel	    10
 Bocking	    10
+Zurich	     9
 Wotton-under-Edge	     9
+Whitesboro NY	     9
 Walsall	     9
-Staunton VA	     9
-St Augustine FL	     9
-Shelburne	     9
-sag harbour ny	     9
 Romsey	     9
+Putney VT	     9
 Portland OR	     9
 Poole	     9
 Pittsburgh PA	     9
 Newport Isle of Wight	     9
 Morristown NJ	     9
+Montego Bay	     9
 Lisbon	     9
 Hillsborough NC	     9
 Hemel Hempstead	     9
-Heidelberg	     9
 Galway	     9
-Easton MD	     9
+Fayetteville NC	     9
 Chippenham	     9
 Bungay	     9
 Bremen	     9
 Berkhamsted	     9
-valletta	     8
 Treffynnon	     8
 Strood	     8
-Stratford-upon-Avon	     8
-St Pierre Martinique	     8
-prs	     8
+St Augustine FL	     8
+Shelburne	     8
+Sag harbour ny	     8
+Prs	     8
+Point-a-pitre	     8
 North	     8
-Norristown PA	     8
 Naples	     8
 Mechelen	     8
 Lymington	     8
 Honiton	     8
 Hanau	     8
 Greenock	     8
+Clonmel	     8
 Carlow	     8
 Bridgewater MA	     8
-Brattleboro VT	     8
 Warren	     7
 Warminster	     7
 Uppsala	     7
+Stratford-upon-Avon	     7
 Stockholm	     7
 Retford	     7
+Nürnberg	     7
 Nurnberg	     7
+Norristown PA	     7
 Norfolk	     7
-Morpeth	     7
 Malton	     7
 Lund	     7
 Llanymddyfri	     7
 Helston	     7
 Greenfield	     7
 Gouda	     7
-goettingen	     7
-Georgetown SC	     7
 Fryeburg ME	     7
 Bridport	     7
+Brattleboro VT	     7
 Banff	     7
 Workington	     6
 Walpole MA	     6
@@ -495,98 +487,90 @@ Princeton NJ	     6
 Newport Pagnel	     6
 Newbury VT	     6
 Mount Pleasant NJ	     6
+Morpeth	     6
 Milan	     6
 Middlewich	     6
 Middleborough MA	     6
-londo⁻n	     6
 La Rochelle	     6
 Kettering	     6
-hwlffordd	     6
+Hwlffordd	     6
 Haverhill NH	     6
-hagae	     6
-great britain	     6
+Great britain	     6
 Gothenburg	     6
 Gilmanton NH	     6
 Firenze	     6
-fairfield ct	     6
-Ennis	     6
+Easton MD	     6
 Devonport	     6
 Croesoswallt	     6
 Chelmsford MA	     6
 Castine ME	     6
-Canaan NY	     6
 Bridlington	     6
-bontfaen	     6
+Bontfaen	     6
 Bishopstone	     6
-Ballston Spa NY	     6
 Alston	     6
-zuerich	     5
 Yverdon-les-Bains	     5
-Yeovil	     5
 Wells	     5
-warringtoniae	     5
 Totnes	     5
 St Neots	     5
+Staunton VA	     5
 South Molton	     5
 Salem NY	     5
 Prescot	     5
-orleans	     5
+Orleans	     5
 Newbury MA	     5
 Madrid	     5
-Lynchburg VA	     5
 Lucca	     5
-llwydlo	     5
+Llwydlo	     5
 Kirkcudbright	     5
 Hungerford	     5
 Horsham	     5
-hägerstaun md	     5
+Georgetown SC	     5
 Frome	     5
+Frederick MD	     5
 Fort Royal	     5
 Flushing	     5
 Erlangen	     5
+Ennis	     5
 Ely	     5
-Easton PA	     5
 DumfriesVA	     5
 Dorset	     5
 Dolgellau	     5
 Daventry	     5
 Dartmouth	     5
 Cranbrook	     5
-cantabrigae	     5
-caerdydd	     5
-buedingen	     5
+Canaan NY	     5
+Caerdydd	     5
+Bödingen	     5
+Besancon	     5
+Ballston Spa NY	     5
 Augsburg	     5
 Athlone	     5
+Yeovil	     4
 Wittenberg	     4
-wilkes barre pa	     4
 Whitchurch	     4
 Waltham	     4
 Verona	     4
 Västerås	     4
 Utica NY	     4
-St Georges Grenada	     4
 Sterling	     4
 Saint-Malo	     4
 Rye	     4
-romae	     4
 Port-of-Spain	     4
 Penzance	     4
-nuernberg	     4
 Nice	     4
-Martinsburg VA	     4
 Mansfield	     4
 Lustleigh	     4
 Leek	     4
 Kirkbride	     4
-kiöbenhavn	     4
 Jacksonburgh SC	     4
-impresse londo⁻n	     4
-havanna	     4
+Havanna	     4
 Harrogate	     4
 Grenada	     4
 Fersfield	     4
+Fairfield ct	     4
 Erfurt	     4
 Epsom	     4
+Easton PA	     4
 Dereham	     4
 Crewkerne	     4
 Concord MA	     4
@@ -600,15 +584,14 @@ Bromley	     4
 Breslau	     4
 Brattleborough VT	     4
 Bouillon	     4
-Blandford	     4
+Bologna	     4
 Avignon	     4
 Atherstone	     4
 Andover MA	     4
 Alcester	     4
 Abbeville	     4
-zurych	     3
 Wycombe	     3
-wolston	     3
+Wolston	     3
 Winterthur	     3
 Whitburn	     3
 Wellingborough	     3
@@ -616,68 +599,58 @@ Watford	     3
 Trevoux	     3
 Toulouse	     3
 Torrington CT	     3
-tiguri	     3
 Tetbury	     3
-taraṅkaṉpaṭiyile	     3
+Tarankaṉpaṭiyile	     3
 Sydney	     3
 Stuttgart	     3
 St Eustatius	     3
 Selby	     3
 Rotherham	     3
-Rome NY	     3
 Riga	     3
 Reigate	     3
 Regensburg	     3
-really abroad	     3
+Really abroad	     3
 Queb_ec	     3
-queb́ec	     3
 Prague	     3
-port de la liberte	     3
-pointe pitre	     3
 Peterhead	     3
 Pembroke	     3
 Padova	     3
 Ormskirk	     3
-nothampton	     3
+Nothampton	     3
 Northallerton	     3
-noribergae	     3
 Newton Abbot	     3
 Nashville TN	     3
 Nancy	     3
+Münster	     3
+Malmö	     3
 Lugano	     3
 Loreto	     3
 Lille	     3
 Launceston	     3
 Karlsruhe	     3
-Johnstown NY	     3
-Huntingdon PA	     3
 Hitchin	     3
 Hexham	     3
 Harlech	     3
-harderwijk	     3
+Harderwijk	     3
 Harbor OH	     3
 Gillingham	     3
 Gdansk	     3
 Friedensthal PA	     3
-dunleary	     3
+Dun laoghaire	     3
 Dunkirk	     3
 Dungannon	     3
 Dunfermline	     3
-dunelmiae	     3
 Dorking	     3
 Dessau	     3
-coloniae	     3
 Chillicothe Oh	     3
 Chesham	     3
 Chertsey	     3
 Charlottesville VA	     3
-cantabridgiae	     3
 Burlington VT	     3
 Brearley Hall	     3
-borough	     3
+Borough	     3
 Bonn	     3
 Bewdley	     3
-besançon	     3
 Barnard Castle	     3
 Bannockburn	     3
 Bampton	     3
@@ -685,23 +658,22 @@ Ballymena	     3
 Bagdad	     3
 Ashford	     3
 Zutphen	     2
-y bont faen	     2
+Y Bont-faen	     2
 Worms	     2
 Wokingham	     2
-waterfordiae	     2
+Wilkes-Barre PA	     2
 Wargrave	     2
-v sanktpeterburgı︠e︡	     2
 Vevey	     2
-tuebingen	     2
+Tübingen	     2
 Tornay	     2
 Thirsk	     2
-tavistock	     2
-taraṅkaṉpaṭi	     2
-taraṅkaṉapaṭiyilē	     2
+Tavistock	     2
+Tarankaṉpaṭi	     2
+Tarankaṉapaṭiyilē	     2
 Szczecin	     2
 Strahane	     2
 Stowmarket	     2
-stonor	     2
+Stonor	     2
 Stokesley	     2
 Stoke Newington	     2
 St John New Brunswick	     2
@@ -716,51 +688,47 @@ Saxmundham	     2
 Sandhurst	     2
 Saffron Walden	     2
 Royal Tunbridge Wells	     2
+Rome NY	     2
 Rodborough	     2
 Ramsey	     2
-r	     2
+R	     2
 Pisa	     2
 Petersfield	     2
 Penryn	     2
-pattingham	     2
+Pattingham	     2
 Paramaribo	     2
 Padua	     2
-pace	     2
+Pace	     2
 Ossining NY	     2
 Octorara PA	     2
 Oakham	     2
 Nuneaton	     2
-northamptoniae	     2
 Nordhausen	     2
 New Windsor NY	     2
 Newton NJ	     2
-n	     2
+N	     2
 Musselburgh	     2
 Minorca	     2
 Milborne Port	     2
 Melton Mowbray	     2
-melitae	     2
+Martinsburg VA	     2
 Mannheim	     2
-Malmö	     2
 Louisville GA	     2
-lond n	     2
 Lincolnton NC	     2
-Lewistown PA	     2
-la nouvelle orleans	     2
 Koningsberg	     2
 Kirkcaldy	     2
-inishmacadurn	     2
+Johnstown NY	     2
+Inishmacadurn	     2
 Ilminster	     2
 Howden	     2
 Houghton Park	     2
 Hoogly	     2
 Herford	     2
-helsingor	     2
+Helsingør	     2
 Harlow	     2
 Harborough	     2
-haguae	     2
 Great Marlow	     2
-gottingue	     2
+Görliz	     2
 Gera	     2
 Geneva NY	     2
 Gateside	     2
@@ -770,10 +738,9 @@ Essex	     2
 Enniskillen	     2
 Elizabethtown MD	     2
 Eastbourne	     2
-duns	     2
-dunkalk	     2
-dubliniae	     2
-doueay	     2
+Duns	     2
+Dunkalk	     2
+Doueay	     2
 Dieppe	     2
 Dewsbury	     2
 Deal	     2
@@ -781,349 +748,271 @@ Darmstadt	     2
 Dampierre-sur-Boutonne	     2
 Dalry	     2
 Colombo	     2
-Chestertown MD	     2
 Chepstow	     2
 Celle	     2
 Cashel	     2
 Carron	     2
-Canandaigua NY	     2
 Calne	     2
 Burnley	     2
 Brunswick MA	     2
 Brigg	     2
 Bridgeport CT	     2
 Braunschweig	     2
-bononiae	     2
-Bologna	     2
 Bodedern	     2
-besanc̜on	     2
 Bedale	     2
 Basingstoke	     2
 Bala	     2
-au cap français	     2
-ata so ar na chur gclo mbaile athá cliath	     2
-argraphwŷd yn y mwŷthig	     2
+Au cap francais	     2
+Ata so ar na chur gclo mbaile atha cliath	     2
 Alfreton	     2
 Aix-en-Provence	     2
-adpar	     2
-aberdonie	     2
-zweibruecken	     1
-zuellichau	     1
+Adpar	     2
+Zweibrücken	     1
 Zittau	     1
 Zeiz-Bahren	     1
 Yr Wyddgrug	     1
-youghal	     1
+Youghal	     1
 Yarm	     1
 Witney	     1
+Wirzburg	     1
 Winterslow	     1
 Wigton	     1
-wigorniae	     1
-wiesenthal	     1
+Wiesenthal	     1
 Westport CT	     1
-warum darum westphalie	     1
 Warsaw	     1
 Wantage	     1
-vvirtsburgh	     1
-vindobonae	     1
 Versailles	     1
 Verdun	     1
-venduntur londo⁻n	     1
-venales hab⁻etur londo⁻n	     1
-venales extant londo⁻n	     1
-vatican	     1
+Vatican	     1
 Valencia	     1
-utopia	     1
-upton ny	     1
-united state	     1
-Uniontown PA	     1
+Utopia	     1
+United state	     1
 Ulm	     1
-tranquebarae littore coromandelino	     1
 Torino	     1
 Tivoli	     1
-tigvri	     1
 Thurles	     1
 Thetford	     1
 Thame	     1
-teiotiagi	     1
-taraṅkaṉapaṭi	     1
-switzerland	     1
+Tarankaṉapaṭi	     1
 Swaffham	     1
-Sunbury PA	     1
+Sulechow	     1
 Stow	     1
-stoke on trent	     1
+Stoke-on-Trent	     1
 St Marys MD	     1
 St Germans	     1
 St Croix	     1
-Stanford	     1
-Springfield NJ	     1
-slough	     1
-simsbury ct	     1
+Slough	     1
+Simsbury Ct	     1
 Sienna	     1
-siegen	     1
+Siegen	     1
 Shippensburg PA	     1
-shepherdstown wv	     1
+Shepherdstown WV	     1
 Shepherdstown VA	     1
 Shelburne Nova Scotia	     1
 Sheerness	     1
-sharon ct	     1
+Sharon Ct	     1
 Seville	     1
 Sedbergh	     1
 Scipio NY	     1
 Schleswig	     1
-schesnuet huell pa	     1
 Savanna-la-Mar Jamaica	     1
 Sanquhar	     1
 Sandwich	     1
-salopiae	     1
 Salisbury MA	     1
 Salamanca	     1
-saint marie	     1
+Saint-Marie	     1
 Saarbrucken	     1
-s a	     1
+S a	     1
 Rugeley	     1
 Rugby	     1
 Royston	     1
 Rousham	     1
 Rostock	     1
 Roscrea	     1
-ronneburg	     1
+Ronneburg	     1
 Romford	     1
-rochell	     1
+Rochell	     1
 Ringwood	     1
-rhaglan	     1
+Rhaglan	     1
 Rennes	     1
 Redruth	     1
-Randolph VT	     1
-ramsgatae	     1
-que ciuitate londo⁻n	     1
-printẹd lo̧ndon	     1
-printedig yn llùndain	     1
-preclari pariss suburbiis sc⁻i germani de pratis	     1
 Poulton-le-Fylde	     1
 Potsdam	     1
-porto	     1
-port de la liberte guadeloupe an vi	     1
-pompton plains nj	     1
-point pitre	     1
+Porto	     1
+Pompton Plains NJ	     1
 Pittsfield MA	     1
 Petworth	     1
-perugia	     1
-permissu superiorum	     1
+Perugia	     1
+Permissu superiorum	     1
 Pensacola FL	     1
 Pembroke MA	     1
 Peine	     1
 Peebles	     1
 Pathhead	     1
-paslic	     1
+Paslic	     1
 Parr-Town	     1
 Paris KY	     1
 Palermo	     1
-oxoniaae	     1
-oxonae	     1
 Ottawa	     1
-osnabruck	     1
+Osnabrueck	     1
 Orlingbury	     1
 Ongar	     1
 Omagh	     1
 Oldham	     1
 Offenbach	     1
-oberwesel	     1
-nuper london̄	     1
-nulun	     1
-nouiter london̄	     1
-nouiter londo⁻n	     1
-nouiter ac diligenter non minimo labore revis us london̄	     1
-nottinghamiae	     1
+Oberwesel	     1
+Nulun	     1
 Norton Fitzwarren	     1
 Northwich	     1
 Norrköping	     1
-n l	     1
-nimes	     1
-nijmegen	     1
-newtown pa	     1
+N l	     1
+Nimes	     1
+Nijmegen	     1
+Newtown pa	     1
 Newton Stewart	     1
-new milford ct	     1
+New milford ct	     1
 Newington CT	     1
-new bruncwick nj	     1
-new britain pa	     1
-neostadii	     1
+New bruncwick nj	     1
+New britain pa	     1
+Neustadt an weinstraße	     1
 Naas	     1
-munster	     1
-mulberry hill va	     1
-muenster	     1
+Mulberry hill va	     1
 Moscow	     1
-Montreál	     1
 Monmouth NJ	     1
-mole saint nicholas	     1
-milton ernest	     1
+Mole saint nicolas	     1
+Milton ernest	     1
 Milton Abbas	     1
-milton	     1
-Mifflintown PA	     1
+Milton	     1
 Mexico City	     1
-menley	     1
-melvill	     1
-medioburgi zelandiae	     1
+Menley	     1
+Melvill	     1
 Marseilles	     1
 Marseille	     1
 Market Rasen	     1
 Marburg	     1
-malmoo	     1
-malda	     1
+Malda	     1
 Maastricht	     1
-lutetiae	     1
-low countries	     1
-lonnen	     1
+Lynchburg VA	     1
+Low countries	     1
 Long Buckby	     1
-lóndra	     1
-lond oniis	     1
-londoniae	     1
-lod⁻on	     1
-lobháin	     1
-little britain	     1
+Lodonus	     1
+Llùndain	     1
+Little britain	     1
 Lisburn	     1
-lincolniae	     1
 Libanon PA	     1
 Lemgo	     1
-le havre	     1
 Leeuwarden	     1
 Lebanon PA	     1
 Langport	     1
 Lancester PA	     1
-läncaster pa	     1
 Lancaster NJ	     1
-lancäster	     1
 Lanark	     1
 Krakow	     1
 Knutsford	     1
-knoxville oh	     1
+Knoxville oh	     1
 Kirkham	     1
 Kinsale	     1
 Kinross	     1
-kinnaird	     1
+Kinnaird	     1
 Kinlocheil	     1
-killingworth ct	     1
-kildare	     1
+Killingworth ct	     1
+Kildare	     1
 Keswick	     1
 Kent	     1
 Kenilworth	     1
-kemmish	     1
+Kemmish	     1
 Kehl	     1
 Keene	     1
 Kassel	     1
 Karlskrona	     1
-jerusalem	     1
-je ne sai ou	     1
+Jerusalem	     1
+Je ne sai ou	     1
 Jedburgh	     1
-istanbul	     1
-iscae damnoniorum	     1
+Istanbul	     1
 Irvine	     1
 Inverlochie	     1
 Inverary	     1
-insula	     1
-imprimeál̀ondres	     1
-impress um lond ini	     1
-impress lond	     1
-impressi londōn	     1
-impresse lōdonus	     1
-imp	     1
-illegible	     1
+Insula	     1
+Imprimeal̀ondres	     1
+Imp	     1
+Illegible	     1
+Huntingdon PA	     1
 Holt	     1
-hindolverston	     1
+Hindolverston	     1
 Hildburghausen	     1
-highwayman	     1
+Highwayman	     1
 Henfield	     1
 Helmstedt	     1
-helmstadt	     1
+Helmstadt	     1
 Heilbronn	     1
-heidelbergae	     1
 Hatfield	     1
 Hastings	     1
-härrisburg pa	     1
 Harford MD	     1
 Halesworth	     1
-haiti	     1
-haidelberge	     1
 Hagley	     1
-hägerstaun märyland	     1
-hägers taun hagerstown md	     1
-greensburg pa	     1
+Greensburg pa	     1
 Greenlaw	     1
 Gotha	     1
-görliz	     1
-görlitz	     1
 Goa	     1
 Gloucester MA	     1
-Glaucester	     1
 Glastonbury	     1
-glasguaae	     1
-glasgoviae	     1
-glascvae	     1
 Gettysburg PA	     1
 Genoa	     1
 Geneve	     1
 Gaznah	     1
 Gaunt	     1
-freetown	     1
-fort mchenry ms	     1
+Freetown	     1
+Fort mchenry ms	     1
 Folkestone	     1
-flensburg	     1
-fleet	     1
+Flensburg	     1
+Fleet	     1
 Finningham	     1
 FincastleVA	     1
 Fermoy	     1
 Featherstone	     1
-fayette ville etat de la caroline du nord	     1
-fawsley	     1
+Fawsley	     1
 Farnham	     1
-farmington ct	     1
-exaratus london̄	     1
-europ	     1
-est londo⁻n	     1
+Farmington ct	     1
+Europ	     1
 Eshott	     1
-ephratae	     1
-eniscorthy	     1
-embdae	     1
+Eniscorthy	     1
 Ellesmere	     1
-elie	     1
+Elie	     1
 Elgin	     1
-eleutheropolis	     1
-elbl g	     1
+Eleutheropolis	     1
+Elblag	     1
 Edenhall	     1
 East Grinstead	     1
 Eartham	     1
-dvbliniae	     1
-dusseldorf	     1
 Dunstable	     1
 Dunkeld	     1
 Duncannon	     1
+Duesseldorf	     1
 Dressden	     1
 Downham	     1
-dillingen	     1
+Dillingen	     1
 Dijon	     1
-dieser calender ist zu haben lancäster pa	     1
 Devon	     1
 Deventer	     1
 Detroit Mi	     1
 Denbigh	     1
 Dartford	     1
-cupar	     1
+Cupar	     1
 Crieff	     1
 Cricklade	     1
-coxheath	     1
-continental	     1
-continent	     1
+Coxheath	     1
+Continental	     1
+Continent	     1
 Constance	     1
-coloniae agrippinae	     1
-cöllen	     1
-coleraine	     1
+Coleraine	     1
 Coimbra	     1
 Coburg	     1
 Clones	     1
 Clifton	     1
-ciutadella	     1
-ciuitate londo⁻n	     1
-christiansted vi	     1
-cheshire ct	     1
+Ciutadella	     1
+Christiansted VI	     1
+Chestertown MD	     1
+Cheshire ct	     1
 Cavan	     1
 Castries	     1
 Castleford	     1
@@ -1132,39 +1021,33 @@ Cassel	     1
 Carrick-on-Suir	     1
 Carrickfergus	     1
 Cap Haitien	     1
-cape françois	     1
+Cape francois	     1
 Canterbury NH	     1
-cantanbrigiae	     1
-cantabrigriae	     1
-cantabrige	     1
-cantabriae	     1
+Canandaigua NY	     1
 Campbeltown	     1
-californien	     1
-calicut	     1
+Californien	     1
+Calicut	     1
 Calais	     1
-caergybi	     1
-bwten lonnen	     1
+Caergybi	     1
+Bwten lonnen	     1
 Bunny	     1
 Budapest	     1
 Buckden	     1
-bs l	     1
+Bs l	     1
 Bridgeton NJ	     1
 Brackley	     1
 Boulogne	     1
 Bottisham	     1
 Bosworth	     1
-bostoni nov angliâ	     1
-bostonae nov anglorum	     1
 Boden	     1
 Blandford VA	     1
 Blandford Forum	     1
-blackwell	     1
+Blackwell	     1
 Bishop's Castle	     1
 Birstall	     1
 Birr	     1
-birminghamae	     1
 Bideford	     1
-bethlehem pa	     1
+Bethlehem Pa	     1
 Bethania N.c	     1
 Beloeil	     1
 Beauvais	     1
@@ -1173,12 +1056,11 @@ Bayreuth	     1
 Bawtry	     1
 Bath NY	     1
 Bastia (Corsica)	     1
-barton upon humber	     1
+Barton-upon-Humber	     1
 Barnstaple	     1
 Barnsley	     1
 Barkhamsted CT	     1
 Barby	     1
-bandera mambaı̄	     1
 Baltonsborough	     1
 Balfron	     1
 Bakewell	     1
@@ -1189,19 +1071,14 @@ Ashby	     1
 Ashburton	     1
 Arnhem	     1
 Arezzo	     1
-apud praedaram cantabrigiam	     1
-appelby westmorland	     1
-anwerpies̃um oppido	     1
-anno aux blackefriers	     1
+Appelby-in-Westmorland	     1
 Ampthill	     1
 Ambleside	     1
 Altmore	     1
 Aldermanbury	     1
-albigion	     1
-aerae	     1
-actually abroad	     1
-ab redoniae	     1
+Albigion	     1
+Actually abroad	     1
 Aberystwyth	     1
-abermaw	     1
-aberdaugleddau	     1
-aachen	     1
+Abermaw	     1
+Aberdaugleddau	     1
+Aachen	     1

@@ -14,6 +14,8 @@ mc.cores <- 4
 # Update selected fields only -
 # comment out if not needed
 update.fields <- "publication_place" 
+validate.fields <- "years"
+# enrich.fields <- c("geo", "years")
 
 # Remove selected fields
 ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
@@ -29,13 +31,11 @@ source(system.file("extdata/preprocessing.R", package = "bibliographica"))
 
 # ----------------------------------------------------
 
-#validate.fields <- "years"
 source(system.file("extdata/validation.R", package = "bibliographica"))
 
 # -----------------------------------------------------
 
-#source(system.file("extdata/enrich.R", package = "bibliographica"))
-source(system.file("extdata/enrich_geo.R", package = "bibliographica"))
+source(system.file("extdata/enrich.R", package = "bibliographica"))
 source("enrich.estc.R")
 
 # ----------------------------------------------------
