@@ -1,13 +1,16 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2016-04-05"
+date: "2016-04-06"
 output: markdown_document
 ---
 
 # Princeton summaries
 
 
+```
+## Error in library(reshape): there is no package called 'reshape'
+```
 
 
 ```
