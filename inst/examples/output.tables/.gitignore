@@ -1,3 +1,4 @@
-title_conversions_nontrivial.csv
+title_*.csv
+*conversion*.csv
 missinggeocoordinates.csv
 
