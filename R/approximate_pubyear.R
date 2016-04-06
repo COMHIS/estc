@@ -11,7 +11,7 @@ approximate_pubyear <- function (df) {
 
   author_name <- NULL
 
-  # Approximate publication year where it is missing (c. 395 entries)
+  # Approximate publication year where it is missing
   inds <- which(is.na(df$publication_year))
   appr <- df$publication_year
   for (i in inds) {

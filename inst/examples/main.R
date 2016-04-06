@@ -1,3 +1,6 @@
+#library(devtools)
+#load_all("../../../bibliographica/")
+
 # I/O definitions
 output.folder <- "output.tables/"
 
@@ -26,6 +29,7 @@ source(system.file("extdata/preprocessing.R", package = "bibliographica"))
 
 # ----------------------------------------------------
 
+#validate.fields <- "years"
 source(system.file("extdata/validation.R", package = "bibliographica"))
 
 # -----------------------------------------------------
