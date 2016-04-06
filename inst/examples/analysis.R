@@ -1,39 +1,16 @@
-library(ggplot2)
-library(tidyr)
-library(dplyr)
-library(stringr)
-library(bibliographica)
-library(estc)
-library(magrittr)
-library(sorvi)
-library(reshape2)
-library(gridExtra)
-library(knitr)
-library(magrittr)
-
-# Set global parameters
-author <- "Leo Lahti"
-ntop <- 20
-timespan <- c(1460, 1830)
-datafile <- "df.Rds"
-output.folder <- "output.tables/"
+source("analysis.init.R")
 
 # ---------------------------------
 
-print("Prepare the final data set")
-
-# Read the preprocessed data
-df <- readRDS(datafile)
-
-# Year limits
-df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
-df.preprocessed.orig <- df.preprocessed
-
-# ----------------------------------------
-
 print("Generic summaries") # Markdown
-df <- df.preprocessed <- df.preprocessed.orig
-sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder = output.folder, ntop = 20)
+# Summary tables
+tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
+
+# ------------------------------------------------------
+
+# Summary files
+sf <- generate_summaryfiles(df.preprocessed, author = author,
+      			output.folder = output.folder, ntop = ntop)
 
 # ------------------------------------------
 
@@ -41,8 +18,6 @@ sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder
 
 # Custom definitions
 source("general.R") # See estc TODO file
-
-author <- "Leo Lahti"
 
 df <- df.preprocessed <- df.preprocessed.orig
 knit("Edinburgh.Rmd")

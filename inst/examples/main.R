@@ -36,11 +36,6 @@ saveRDS(df.preprocessed, file = "df.Rds", compress = TRUE)
 
 # ----------------------------------------------------
 
-# Summarize the data and discarded entries
-tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
-
-# ------------------------------------------------------
-
 # Analyze the preprocessed data
 source("analysis.R")
 
