@@ -114,7 +114,6 @@ Beaumont, Francis (1584-1616)	 155
 Rowe, Elizabeth Singer (1674-1737)	 154
 Hume, David (1711-1776)	 154
 Webster, Noah (1758-1843)	 153
-Stanbridge, John (1463-1510)	 153
 Keach, Benjamin (1640-1704)	 153
 Gordon, Thomas (NA-1750)	 153
 Wither, George (1588-1667)	 151
@@ -143,6 +142,7 @@ Blair, Hugh (1718-1800)	 137
 Combe, William (1742-1823)	 136
 Jacob, Giles (1686-1744)	 135
 Trapp, Joseph (1749-1747)	 134
+Stanbridge, John (1463-1510)	 134
 Breton, Nicholas (1545-1626)	 134
 Gauden, John (1605-1662)	 133
 Atterbury, Francis (1662-1732)	 133
@@ -876,7 +876,6 @@ Taylor, Dan (1738-1816)	  42
 Stubbes, Phillip	  42
 St. John, Theophs. J	  42
 Stair, John Dalrymple (1720-1789)	  42
-Sidney, Philip (1554-1586)	  42
 Schiller, Friedrich (1759-1805)	  42
 Rowley, William (1742-1806)	  42
 Mears, W (1713-1758)	  42
@@ -905,6 +904,7 @@ Tyndale, William (1536-1536)	  41
 Spauter, Johannes De (NA-1520)	  41
 Smellie, William (1697-1763)	  41
 Smedley, Jonathan (1671-1729)	  41
+Sidney, Philip (1554-1586)	  41
 Shelton, Thomas (1601-1650)	  41
 Sarpi, Paolo (1552-1623)	  41
 Ryland, John (1723-1792)	  41
@@ -1220,7 +1220,7 @@ Sewall, Daniel (1755-1842)	  32
 Sempill, Robert (1530-1595)	  32
 Ryland, John (1753-1825)	  32
 Rowning, J (1701-1771)	  32
-Robinson, Christopher	  32
+Robinson, Christopher (1766-1833)	  32
 Paterson, Daniel (1738-1825)	  32
 Palladio, Andrea (1508-1580)	  32
 Nicolson, William (1655-1727)	  32
@@ -2252,6 +2252,7 @@ Strother, Edward (1675-1737)	  19
 Strong, Nathan (1748-1816)	  19
 Stern, Philip	  19
 Steele, Richard (1629-1692)	  19
+Stanbridge, John (1463-NA)	  19
 Sictor, Jan (1593-1652)	  19
 Sibly, E (1751-1800)	  19
 Sedley, Charles (1639-1701)	  19
@@ -2870,7 +2871,6 @@ Cawthorne, Joseph	  16
 Carver, Jonathan (1710-1780)	  16
 Bysshe, Edward (1702-1712)	  16
 Bushell, Thomas (1594-1674)	  16
-Burton, Robert (1577-1640)	  16
 Burridge, Richard (1670-NA)	  16
 Browne, Isaac Hawkins (1706-1760)	  16
 Bristow, Whiston (1760-1770)	  16
@@ -4007,6 +4007,7 @@ Campbell, Thomas (1777-1844)	  12
 Campbell, Duncan	  12
 Campbell, Archibald (NA-1744)	  12
 Cam, Joseph (NA-1743)	  12
+Burton, Robert (1577-1640)	  12
 Burroughs, Eden (1738-1813)	  12
 Burchett, Josiah (1666-1746)	  12
 Bulstrode, Whitelocke (1650-1724)	  12
@@ -7170,7 +7171,6 @@ Black, John (1750-NA)	   7
 Blackburne, Robert	   7
 Bishop, William (1554-1624)	   7
 Bishop, Samuel (1731-1795)	   7
-Bishop, John (NA-1613)	   7
 Birt, Samuel (NA-1755)	   7
 Bird, John (1709-NA)	   7
 Bird, Benjamin	   7
@@ -8401,7 +8401,6 @@ Binckes, William (NA-1712)	   6
 Billingsley, Samuel	   6
 Bigge, Thomas	   6
 Bicknell, John	   6
-Best, George (1759-1818)	   6
 Berkeley, William (1608-1677)	   6
 Beresford, William (NA-1819)	   6
 Beresford, John (1738-1805)	   6
@@ -10101,6 +10100,7 @@ Bewick, William (NA-1747)	   5
 Bevis, John (1693-1771)	   5
 Bethune, John (1725-1774)	   5
 Best, William (1695-1761)	   5
+Best, George (1759-1818)	   5
 Berthollet, Claude-louis (1748-1822)	   5
 Berry, Thomas	   5
 Berniera, Giovanni Angelo	   5
@@ -12327,6 +12327,7 @@ Bushell, Seth (1621-1684)	   4
 Busby, Thomas (1755-1838)	   4
 Burton, William (1609-1657)	   4
 Burton, William (1575-1645)	   4
+Burton, Robert (NA-1640)	   4
 Burton, George (1717-1791)	   4
 Burton, Francis (1744-1832)	   4
 Burt, Edward (NA-1755)	   4
@@ -12481,6 +12482,7 @@ Blackborow, Sarah	   4
 B., J	   4
 Bisset, George (NA-1788)	   4
 Bishop, Thomas (NA-1737)	   4
+Bishop, John (1612-NA)	   4
 Bisco, John (NA-1679)	   4
 Birnie Of Saline, Andrew	   4
 Bird, T (1765-NA)	   4
@@ -12510,7 +12512,7 @@ Bernard, François	   4
 Bermingham, John	   4
 Bermingham, Edward	   4
 Berlu, Jo. Jacob	   4
-Berkeley, John (NA-1678)	   4
+Berkeley, John (1698-1678)	   4
 Berkeley, Henry	   4
 Bergasse, Nicolas (1750-1832)	   4
 Benyowsky, Maurice Auguste (1746-1786)	   4
@@ -14800,7 +14802,7 @@ Hoy, John (1755-1781)	   3
 Howson, Robert	   3
 Howie, David	   3
 Howes, John (1613-1685)	   3
-Howe, Obadiah (NA-1683)	   3
+Howe, Obadiah (1615-1683)	   3
 Howdell, William	   3
 Howard, John	   3
 Howard, James (1672-1674)	   3
@@ -16316,6 +16318,7 @@ Blackerby, Samuel (NA-1714)	   3
 Blackburn, Agnes]	   3
 Bitaubé, Paul Jérémie (1732-1808)	   3
 Bisset, Thomas (NA-1800)	   3
+Bishop, John (1612-1613)	   3
 Birt, Isaiah (1758-1837)	   3
 Biron, Felicité De	   3
 Birnie, Alexander (NA-1762)	   3
@@ -27900,7 +27903,7 @@ Stacpoole, Massey	   1
 Stacpoole, Joseph	   1
 Stack, Richard William (1734-1787)	   1
 Stackhouse, Thomas (1677-1752)	   1
-Stackhouse, John	   1
+Stackhouse, John (1742-1819)	   1
 Stacey, Ham	   1
 Stace, Machell	   1
 Stables, Adam]	   1
@@ -28548,6 +28551,7 @@ Siemienowicz, Kazimierz (NA-1651)	   1
 Siebenkees, Johann Philipp (1759-1796)	   1
 Sidway, John	   1
 Sidney, Sir Henry	   1
+Sidney, Philip (NA-1586)	   1
 Siddall, James	   1
 Sictor, Jan]	   1
 Sicklemore, James]	   1
@@ -45959,6 +45963,7 @@ Betham, Robert (1716-NA)	   1
 Betham, Richard	   1
 Betham, Matilda (1776-1852)	   1
 Betham, Campbell	   1
+Best, George (1759-NA)	   1
 Besongne, Nicolas (NA-1697)	   1
 Besombe, Samuel	   1
 Besombe, Robert	   1

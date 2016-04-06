@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 244797  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 244830  ( 50 % non-NA values)	Total count: 
 Wesley, John	Wesley, John (1703-1791)	1195
 Shakespeare, William	Shakespeare, William (1564-1616)	1070
 Defoe, Daniel	Defoe, Daniel (1661-1731)	1039
@@ -875,7 +875,6 @@ Taylor, Dan	Taylor, Dan (1738-1816)	42
 Stair, John Dalrymple	Stair, John Dalrymple (1720-1789)	42
 Howard, Gorges Edmond	Howard, Gorges Edmond (1715-1786)	42
 Toplady, Augustus	Toplady, Augustus (1740-1778)	42
-Sidney, Philip	Sidney, Philip (1554-1586)	42
 Darrell, William	Darrell, William (1651-1721)	42
 Mears, W.	Mears, W (1713-1758)	42
 Browne, Daniel	Browne, Daniel (1647-1727)	42
@@ -909,6 +908,7 @@ Ryland, John	Ryland, John (1723-1792)	41
 Williams, Daniel	Williams, Daniel (1643-1716)	41
 Smedley, Jonathan	Smedley, Jonathan (1671-1729)	41
 Garth, Samuel	Garth, Samuel (1661-1719)	41
+Sidney, Philip	Sidney, Philip (1554-1586)	41
 Harvey, Gideon	Harvey, Gideon (1640-1700)	41
 Mornay, Philippe de	Mornay, Philippe De (1549-1623)	41
 Prideaux, John	Prideaux, John (1578-1650)	41
@@ -1229,6 +1229,7 @@ Sorocold, Thomas	Sorocold, Thomas (1561-1617)	32
 Simpson, Thomas	Simpson, Thomas (1710-1761)	32
 Rowning, J.	Rowning, J (1701-1771)	32
 Bourn, Samuel	Bourn, Samuel (1689-1754)	32
+Robinson, Christopher	Robinson, Christopher (1766-1833)	32
 Jessey, Henry	Jessey, Henry (1603-1663)	32
 Sempill, Robert	Sempill, Robert (1530-1595)	32
 Guevara, Antonio de	Guevara, Antonio De (NA-1545)	32
@@ -2265,7 +2266,7 @@ Roussat, Richard.	Roussat, Richard	19
 Crimsal, Richard.	Crimsal, Richard	19
 Burton, William	Burton, William (NA-1616)	19
 Scheibler, Christoph	Scheibler, Christoph (1589-1653)	19
-Stanbridge, John.	Stanbridge, John (1463-1510)	19
+Stanbridge, John.	Stanbridge, John (1463-NA)	19
 Williams, John	Williams, John (1582-1650)	19
 Turner, William	Turner, William (NA-1568)	19
 Walker, George	Walker, George (1581-1651)	19
@@ -2718,7 +2719,6 @@ Dallaway, James	Dallaway, James (1763-1834)	16
 Moir, J.	Moir, J	16
 Dawes, M.	Dawes, M (NA-1829)	16
 Knowles, Charles	Knowles, Charles (1704-1777)	16
-Burton, Robert	Burton, Robert (1577-1640)	16
 Garnett, Thomas	Garnett, Thomas (1766-1802)	16
 Cowell, John	Cowell, John (1554-1611)	16
 Jones, Erasmus	Jones, Erasmus (NA-1740)	16
@@ -3761,6 +3761,7 @@ Bentivoglio, Guido	Bentivoglio, Guido (1577-1644)	12
 Bullock, Thomas	Bullock, Thomas (NA-1760)	12
 Hotman, François	Hotman, François (1524-1590)	12
 Bettesworth, John.	Bettesworth, John	12
+Burton, Robert	Burton, Robert (1577-1640)	12
 Grantham, Thomas	Grantham, Thomas (NA-1664)	12
 Heysham, John	Heysham, John (1753-1834)	12
 Stewart, Thomas	Stewart, Thomas (1772-1802)	12
@@ -6600,7 +6601,6 @@ Carstares, William	Carstares, William (1649-1715)	7
 Overbury, Thomas	Overbury, Thomas (1581-1684)	7
 Griffin, Gregory.	Griffin, Gregory	7
 Barford, Henry.	Barford, Henry	7
-Bishop, John	Bishop, John (NA-1613)	7
 Bishop, William	Bishop, William (1554-1624)	7
 Knell, Paul	Knell, Paul (1615-1664)	7
 Estwick, Samuel	Estwick, Samuel (NA-1795)	7
@@ -7657,7 +7657,6 @@ Gittins, Daniel	Gittins, Daniel (NA-1761)	6
 Innys, William	Innys, William (NA-1756)	6
 Weeks, John	Weeks, John (1749-NA)	6
 Chandler, Henry.	Chandler, Henry	6
-Best, George	Best, George (1759-1818)	6
 Maurice, Peter	Maurice, Peter (NA-1750)	6
 Sherwill, Thomas	Sherwill, Thomas (NA-1740)	6
 Stainforth, William	Stainforth, William (NA-1713)	6
@@ -9139,6 +9138,7 @@ O'Gallagher, Felix.	O'gallagher, Felix	5
 Hogg, Thomas	Hogg, Thomas (NA-1750)	5
 Walker, Ralph.	Walker, Ralph	5
 Lechmere, Nicholas Lechmere	Lechmere, Nicholas (1675-1727)	5
+Best, George	Best, George (1759-1818)	5
 Lindsay, David	Lindsay, David (NA-1704)	5
 Wainhouse, Richard	Wainhouse, Richard (NA-1762)	5
 English, Robert	English, Robert (1722-1784)	5
@@ -10253,6 +10253,7 @@ Kingsbury, Benjamin.	Kingsbury, Benjamin	4
 Pinetti, Giuseppe	Pinetti, Giuseppe (1750-1800)	4
 Rousset de Missy, Jean	Rousset De Missy, Jean (1686-1762)	4
 Napier, Gabriel	Napier, Gabriel (NA-1795)	4
+Burton, Robert	Burton, Robert (NA-1640)	4
 Rivers, George Pitt	Rivers, George Pitt (1721-1803)	4
 Gahan, William	Gahan, William (1730-1804)	4
 Neale, Hannah.	Neale, Hannah	4
@@ -10919,7 +10920,7 @@ Cordiner, Charles	Cordiner, Charles (1746-1794)	4
 Ruston, Thomas	Ruston, Thomas (1739-1804)	4
 Moises, Hugh	Moises, Hugh (1773-1819)	4
 Nicol, Alexander.	Nicol, Alexander	4
-Berkeley, John	Berkeley, John (NA-1678)	4
+Berkeley, John	Berkeley, John (1698-1678)	4
 Morselli, Adriano.	Morselli, Adriano	4
 Quaint, William.	Quaint, William	4
 Hedinger, J. M.	Hedinger, J. M	4
@@ -11160,6 +11161,7 @@ Throckmorton, John	Throckmorton, John (1753-1819)	4
 Blakie, N.	Blakie, N	4
 Coope, Richard.	Coope, Richard	4
 Jane, Joseph	Jane, Joseph (1600-1660)	4
+Bishop, John	Bishop, John (1612-NA)	4
 Young, John	Young, John (NA-1788)	4
 Haighton, John	Haighton, John (1755-1823)	4
 Hogarth, Richard	Hogarth, Richard (NA-1718)	4
@@ -14474,6 +14476,7 @@ Capito, Wolfgang	Capito, Wolfgang (1478-1541)	3
 Nisbet, E.	Nisbet, E	3
 Wedderburn, John	Wedderburn, John (1500-1556)	3
 Bieston, Roger.	Bieston, Roger	3
+Bishop, John	Bishop, John (1612-1613)	3
 Blague, Thomas	Blague, Thomas (NA-1611)	3
 Bredwell, Stephen.	Bredwell, Stephen	3
 Broke, Thomas	Broke, Thomas (1570-NA)	3
@@ -15201,7 +15204,7 @@ Lawrence, George	Lawrence, George (1615-1695)	3
 Stephens, Nathaniel	Stephens, Nathaniel (1606-1678)	3
 Audland, John	Audland, John (1630-1664)	3
 Stubbs, Thomas	Stubbs, Thomas (NA-1673)	3
-Howe, Obadiah	Howe, Obadiah (NA-1683)	3
+Howe, Obadiah	Howe, Obadiah (1615-1683)	3
 Baiteman, George.	Baiteman, George	3
 Coker, Matthew.	Coker, Matthew	3
 Chafie, Thomas.	Chafie, Thomas	3
@@ -35621,6 +35624,7 @@ Scott, Robert	Scott, Robert (NA-1774)	1
 Holt, Rowland	Holt, Rowland (NA-1786)	1
 Snatt, William.	Snatt, William	1
 Snape, William.	Snape, William	1
+Sidney, Philip	Sidney, Philip (NA-1586)	1
 Freire, João	Freire, João (1618-1670)	1
 Griffith, Moses	Griffith, Moses (1747-1819)	1
 Harral, T.	Harral, T (NA-1853)	1
@@ -35743,6 +35747,7 @@ Purdon, Edward	Purdon, Edward (1729-1767)	1
 [Hearty lover of the Church, and present happy constitution]	Hearty Lover Of The Church, And Present Happy Constitution]	1
 Trueman, Tom.	Trueman, Tom	1
 Mugliston, William.	Mugliston, William	1
+Best, George	Best, George (1759-NA)	1
 Standfast, Ezekiel.	Standfast, Ezekiel	1
 Longhead, Waitwell.	Longhead, Waitwell	1
 Sobersides, Timothy.	Sobersides, Timothy	1
@@ -40855,6 +40860,7 @@ Wearis, F.	Wearis, F	1
 Watson, S.	Watson, S	1
 Walrond, Henry.	Walrond, Henry	1
 Revit, Henry.	Revit, Henry	1
+Stackhouse, John	Stackhouse, John (1742-1819)	1
 Jenney, John	Jenney, John (NA-1697)	1
 Alsop, James.	Alsop, James	1
 Tord, I.	Tord, I	1

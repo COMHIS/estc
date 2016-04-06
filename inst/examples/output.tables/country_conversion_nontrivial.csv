@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 466911  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 467307  ( 50 % non-NA values)	Total count: 
 London	England	195320
 [London	England	55318
 [London]	England	21065
@@ -299,6 +299,7 @@ Stamford	England	51
 À Londres	England	51
 [[London	England	51
 Gainsbrough	England	51
+[Rouen	France	51
 [Charleston, S.C.]	USA	50
 Ephrata [Pa.]	USA	50
 [Montreal	Canada	50
@@ -424,6 +425,7 @@ Montrose	Scotland	34
 [Lancaster, Pa.	USA	34
 Worcester, (Massachusetts)	USA	34
 [Southwark]	England	34
+[Rouen]	France	34
 Printed at Dublin	France	34
 Printed at Leith	Scotland	34
 Blackburn	England	33
@@ -484,6 +486,7 @@ Aberhonddu	England	28
 [York?]	England	28
 [Amsterdam?]	Netherlands	28
 Portland [Me.]	USA	28
+Augusta [Ga.]	USA	28
 Mwythig	England	28
 [Twickenham]	England	28
 Warwick	England	28
@@ -678,6 +681,7 @@ Londres [i.e. Geneva]	Switzerland	17
 Londres [i.e. Liège?]	Belgium	17
 Reprinted at London	England	17
 [Prynted at London	England	17
+[Rothomagi	France	17
 Imprimé à Londres	England	17
 Printed at Kilkenny	Ireland	17
 [Wolverhampton]	England	16
@@ -801,6 +805,7 @@ Madeley	England	13
 [Windsor, Vt.]	USA	13
 Printed at Walpole, Newhampshire	USA	13
 Watertown [Mass.]	USA	13
+New-Castle [Del.]	USA	13
 Newport (Rhode-Island)	USA	13
 Kingston [Jamaica]	Jamaica	13
 Bury St. Edmunds	England	13
@@ -819,6 +824,7 @@ Amsterdam [i.e. London]	England	13
 Imprinted at Lo[n]don	England	13
 Amstelodami	Netherlands	13
 [Imprented at London	England	13
+At Rouen	France	13
 Imprinted at Antwerp	Belgium	13
 In the Savoy [i.e. London]	England	13
 Printed at the Theater in Oxford	England	13
@@ -869,6 +875,7 @@ Excudebat Londini	England	12
 [[Southwark]	England	12
 [Impress. Londini	England	12
 Hage	Netherlands	12
+A Rouen	France	11
 [Penrith]	England	11
 Brecknock	England	11
 [Stirling?	Scotland	11
@@ -885,11 +892,13 @@ Cambridg [i.e., Cambridge, Mass.]	USA	11
 New-London	USA	11
 [New-York]	USA	11
 [New Orleans]	USA	11
+[Augusta, Ga.?	USA	11
 [Williamsburg, Va.]	USA	11
 [Richmond?	England	11
 Massachusetts-Bay: Worcester	USA	11
 Providence (Rhode-Island)	USA	11
 Frankfort [Ky.]	USA	11
+[Augusta, Ga.	USA	11
 [Poughkeepsie, N.Y.]	USA	11
 [Germantown, Pa.?	USA	11
 [Plymouth?	England	11
@@ -910,6 +919,7 @@ Mullingar	Ireland	11
 [Dundee	Scotland	11
 [Bedford]	England	11
 England?]	England	11
+[[Rouen]	France	11
 [Cambridge, England	England	11
 [Holland	Netherlands	11
 Printed at Glasgow	Scotland	11
@@ -1039,6 +1049,7 @@ Newbury	England	9
 Londres [i.e Paris?]	France	9
 Edimburgi	Scotland	9
 Bury [St. Edmunds]	England	9
+Rouen	France	9
 [Wisbech?	England	9
 London [Edinburgh]	England	9
 Londn [sic]	England	9
@@ -1085,6 +1096,7 @@ Fredericton	Canada	8
 [Woodbridge, N.J.]	USA	8
 [Newark]	England	8
 [Annapolis]	USA	8
+Sagg-Harbour [N.Y.]	USA	8
 [Stockbridge, Mass.]	USA	8
 Salisbury [N.C.]	USA	8
 Printed in Catskill [N.Y.]	USA	8
@@ -1112,6 +1124,7 @@ Newcastle Upon Tyne	England	8
 Eboraci	England	8
 Parma	Italy	8
 [Hamburg?]	Germany	8
+Londres [i.e. Rouen?]	France	8
 High-Wycombe	England	8
 Newmarket	England	8
 Newcastle on Tyne	England	8
@@ -1146,6 +1159,7 @@ Londoni [sic]	England	8
 [Kingston	Jamaica	8
 [London? :bs.n.	England	8
 At Dort	Netherlands	8
+Rothomagi	France	8
 [Imprynted in London	England	8
 Jmprinted at London	England	8
 [Printed at Oxford	England	8
@@ -1313,6 +1327,7 @@ Halifax, in Nova Scotia	USA	6
 [Dover, N.H.]	USA	6
 Dover, (N.H.)	USA	6
 [Georgetown, D.C.	USA	6
+Stonington-Port [Conn.]	USA	6
 [Mount Holly, N.J.]	USA	6
 Portsmouth, New Hampshire	USA	6
 Printed in Danbury [Conn.]	USA	6
@@ -1401,6 +1416,7 @@ At Oxford [i.e. London]	England	6
 Impress. Londini	England	6
 [Lancashire?	England	6
 Antuerpiae	Belgium	6
+Printed at Roan	France	6
 [Parisijs	France	6
 Printed at S. Omers	France	6
 [Antwerpie	Belgium	6
@@ -1411,6 +1427,7 @@ Imprintit at Edinburgh	Scotland	6
 Cambridge [England]	England	6
 Imprented at Edinburgh	Scotland	6
 Ghedruckt tot Londen	England	6
+[Impressa London̄	England	6
 [Bruges	Belgium	6
 [Dordrecht?	Netherlands	6
 Imprimé a Londres	England	6
@@ -1427,6 +1444,7 @@ Manchester [England]	England	6
 A Londres [i.e. the Netherlands?]	Netherlands	5
 Venetiis	Italy	5
 A Guernesey	Guernesey	5
+[Guernsey?	Guernsey	5
 Kingston upon Hull	England	5
 [Londres?	England	5
 [Eton	England	5
@@ -1525,6 +1543,7 @@ Edinburg [sic]	Scotland	5
 [Poughnill]	England	5
 [Strood?]	England	5
 [Hamburg]	Germany	5
+Londres [i.e. Rouen]	France	5
 Croesoswallt	England	5
 Antwerp [i.e. London?]	England	5
 Waymouth	England	5
@@ -1563,11 +1582,14 @@ Clerkenwell	England	5
 Lugduni [i.e. London]	England	5
 And be newly enprynted at Parys	France	5
 Printed at Amstelredam	Netherlands	5
+[Rouen?	France	5
 Oxoniê	England	5
 [France?	France	5
 At London printed	England	5
 At Bruxelles	Belgium	5
 [Imprinted at Lo[n]do[n]	England	5
+Printed at Roüen	France	5
+[London̄	England	5
 [[Imprinted at London	England	5
 [Aberdene	Scotland	5
 [Lancashire	England	5
@@ -1586,6 +1608,7 @@ Impressa Londini	England	5
 Printed at Londo[n]	England	5
 Printed at Paris [i.e. Saint-Omer	France	5
 [Cantabrigiæ	England	5
+Printed at Rouen	France	5
 Printed at Doway [i.e. England	England	5
 Lovanii	Belgium	5
 [Imprintyd at London	England	5
@@ -1751,6 +1774,7 @@ Alston	England	4
 High Wycombe	England	4
 Uttoxeter	England	4
 [Trefriw]	England	4
+[Rouen?]	France	4
 [Trowbridge]	England	4
 Londini [i.e. Amsterdam?]	Netherlands	4
 Barataria [i.e. Dublin]	France	4
@@ -1817,6 +1841,8 @@ Londou [sic]	England	4
 Antverpiae	Belgium	4
 Printed at Delph	Netherlands	4
 Imprinted at Paris	France	4
+[Impressum Rothomagi	France	4
+[Rothomagi]	France	4
 [Enprinted at London	England	4
 [Emprynted at Westmestre	England	4
 Imprinted at Ippeswich	England	4
@@ -1832,6 +1858,7 @@ Jmprinted at Dublin	France	4
 Lon[don]	England	4
 In Palermo [i.e. London]	England	4
 [St. Omer]	France	4
+[Impressum London̄	England	4
 [Londoni	England	4
 Apud inclytam Londini urbem	England	4
 [Imprinted at London]	England	4
@@ -1843,6 +1870,7 @@ DublinI	France	4
 At Paris [i.e. Saint-Omer	France	4
 Imprinted at Antwerpe	Belgium	4
 Printed at London [i.e. Holland	Netherlands	4
+Roan	France	4
 At Middlebourgh [i.e. London	England	4
 [Enprynted in London	England	4
 [Impressus Londoniis	England	4
@@ -2042,6 +2070,7 @@ Printed at Bennington, Vermont	USA	3
 Boston [i.e., New London, Conn.]	USA	3
 Newark, (New-Jersey)	USA	3
 Morris-Town [N.J.]	USA	3
+Fairfield [Conn.]	USA	3
 Printed, typographically, at Worcester, Massachusetts	England	3
 [Charlestown, Mass.	USA	3
 Niew-York	England	3
@@ -2234,6 +2263,7 @@ Falkirk?]	England	3
 [Imprinted at london	England	3
 Bruxelles	Belgium	3
 [Emden]	Germany	3
+At Roüen	France	3
 [Impressus London[iis]	England	3
 Londoniis	England	3
 [St. Albans	England	3
@@ -2261,6 +2291,7 @@ At Geneva	Switzerland	3
 [Londoniis	England	3
 Printed at london	England	3
 Coloniæ	Germany	3
+[Impressu[m] Rothomagi	France	3
 [Frankfurt]	Germany	3
 Gedruckt tot Amsterdam	Netherlands	3
 [Netherlands	Netherlands	3
@@ -3064,6 +3095,7 @@ At Leyden [i.e. London?]	England	2
 [Leiden and London]	Germany	2
 Prented at Edinburgh	Scotland	2
 [Parisii	France	2
+[[Rothomagi]	France	2
 [[Parisius]	France	2
 [Middelburgh	Netherlands	2
 [Impressus Londonijs	England	2
@@ -3074,12 +3106,14 @@ Cantabrigiæ [i.e. London]	England	2
 Londinij	England	2
 Venundantur Parisiis	France	2
 [Inprynted at Londo[n]	England	2
+[Impressa Rothomagi	France	2
 London [i.e. Holland?]	Netherlands	2
 Ghedruckt to Londen	England	2
 Noribergæ	Germany	2
 [Worms	Germany	2
 [Antwerpe	Belgium	2
 Imprint at London	England	2
+[Rouen ]	France	2
 Imprentit at Striuiling [i.e. London]	England	2
 Cantebrigiae	England	2
 Imrinted at London	England	2
@@ -3093,7 +3127,9 @@ Londini [i.e. Geneva]	Switzerland	2
 Printed at london [sic]	England	2
 Parisiis [i.e. London	England	2
 [Printed at Amsterdam	Netherlands	2
+[Imprynted in Rowen	France	2
 [S. Omers]	France	2
+[Rothomagi, i.e. Rouen]	France	2
 Ghedruckt buyten Londen [i.e. Emden]	Germany	2
 [Mechlin]	Belgium	2
 [Imprinted at Ippiswiche	England	2
@@ -3137,6 +3173,7 @@ Gedruckt in Nürnberg	Germany	2
 Printed [at] London	England	2
 [P]rinted at London	England	2
 Lugduni Batauorum	Germany	2
+Imprinted at Rouen	France	2
 [Enprynted at Lo[n]don	England	2
 A la Haye	Netherlands	2
 Impressum Lond.	England	2
@@ -3146,6 +3183,7 @@ Printed at Vtrecht [i.e. London]	England	2
 At Louan	Belgium	2
 Printed in Amsterdam	Netherlands	2
 Excusum Cantabrigiæ	England	2
+Imprime a Rouen	France	2
 [Impresse Parisius	France	2
 Parys	France	2
 [[Oxford	England	2
@@ -3255,6 +3293,7 @@ E[dinburgh]	Scotland	2
 Re-printed at Dublin	France	2
 Printed in Leyden	Germany	2
 Bononiæ	Italy	2
+At Roan	France	2
 In the Savoy [i.e., London]	England	2
 Gateside	Scotland	2
 [Printed at Rotterdam	Netherlands	2
@@ -3284,6 +3323,7 @@ Genevah [i.e. Newcastle]	England	2
 Holy-Rood-House	Scotland	2
 Nunc demum typis excusa Londinii	England	2
 [In the Hague	Netherlands	2
+Printed at Rohan	France	2
 Lvgdvni Batavorvm	Germany	2
 [Printed at the Hague	Netherlands	2
 'En tē Kantabrigia	England	2
@@ -3649,6 +3689,7 @@ Leghorn 1787	Italy	1
 [Philadelphia, Pa.?]	USA	1
 [Philadelphia, Penn.?	USA	1
 [New-York, N.Y.]	USA	1
+[Newtown, Penn.	USA	1
 Philadelphia, [Penn.]	USA	1
 Hartford, [Conn.]	USA	1
 [New Haven, Conn.	USA	1
@@ -3686,6 +3727,7 @@ London: [i.e. Edinburgh]	Scotland	1
 [Musselburgh?	Scotland	1
 [New Haven?, Conn.	USA	1
 [New-Haven, Conn.?	USA	1
+[New-Milford. Conn.	USA	1
 Da Londra	England	1
 Sarrebruck	Germany	1
 Yn y Mwythig [i.e. Shrewsbury]	England	1
@@ -3833,6 +3875,7 @@ A Philadelphie [i.e. Winterthur]	Switzerland	1
 United States of America	USA	1
 A Charles-Town [i.e. Paris?]	France	1
 Philada [i.e. Philadelphia]	USA	1
+Georgia	USA	1
 Staunton	USA	1
 Fish-Kill	USA	1
 St John	Antiqua	1
@@ -3934,12 +3977,14 @@ Printed in Providence	USA	1
 Burlington: [N.J.]	USA	1
 [Woodbridge, in New Jersey	USA	1
 [Charleston, S.C.?]	USA	1
+New-Briton, Bucks County, [Pa.]	USA	1
 Printed at Hanover, New-Hampshire.	Germany	1
 Printed at Portsmouth. New-Hampshire	USA	1
 Te Nieu-York	England	1
 Newbury [i.e., Newburyport, Mass]	USA	1
 Reprinted in Bennington, (Vermont,)	USA	1
 [Carlisle, Penn.	England	1
+[Fort McHenry (Walnut Hills), Miss.	USA	1
 Harrisburgh, (Pennsylvania;)	USA	1
 Reprinted at Exeter [N.H.]	USA	1
 America [New York]	USA	1
@@ -3985,6 +4030,7 @@ America: state of Massachusetts-Bay; Boston	USA	1
 [Printed at Worcester, Massachusetts	USA	1
 [Lancäster, Pa.	USA	1
 Pyiladelphia[sic]	USA	1
+Greensburg, (Westmoreland, Penn.)	USA	1
 Printed at Concord, New Hampshire	USA	1
 Portsmouth in New Hampshire	USA	1
 Philada. [i.e., New York]	USA	1
@@ -4086,12 +4132,15 @@ Greenfield, (Mass.)	USA	1
 Castine [Me.]	USA	1
 [Litchfield, Conn. ; Hartford]	USA	1
 Walpole, Newhamphire	USA	1
+[Stonington, Conn.]	USA	1
 Fredicksburg [Va.]	USA	1
 Bridgeport [Conn.]	USA	1
 Printed at Portsmouth, New Hampshire	USA	1
 [Keene]	England	1
 Augusta (Kennebeck) [Me.]	USA	1
 Richmond, [Virginia]	USA	1
+[New Castle, Del.	USA	1
+New Castle [Del.]	USA	1
 [Concord] Newhampshire	USA	1
 Portland: (Massachusetts [i.e., Maine])	USA	1
 [Castine, Me.]	USA	1
@@ -4137,6 +4186,7 @@ America [i.e., Philadelphia?]	USA	1
 À Philadelphie	USA	1
 [Salem Mass.	USA	1
 Reprinted at Litchfield [Conn.]	USA	1
+Cheshire: Conneticut [sic]	USA	1
 Richmond: Virginia	USA	1
 [Portsmouth N.H.]	USA	1
 Salem, New-Jersey	England	1
@@ -4192,8 +4242,10 @@ Portsmouth,--state of New-Hampshire	England	1
 [Portmouth, N.H.	USA	1
 Printed at Concord [N.H]	USA	1
 America [i.e., New York]	USA	1
+Simsbury, Conn.	USA	1
 [Warren, R.I.	USA	1
 Litch[field, Conn.	USA	1
+Gedrukt bey Bethlehem [Pa.] in der Fork Dellawar.	USA	1
 Providence.	USA	1
 A New York	USA	1
 [Dresden Vt.; i.e., Hanover, N.H.]	USA	1
@@ -4301,6 +4353,7 @@ Printed at Hallowell, Hook [Me.]	USA	1
 Hallowell, (District of Maine,)	USA	1
 America, Massachusetts-Bay: Boston	USA	1
 Printed at Hallowell, Hook [Maine]	USA	1
+Stoningtonport [Conn.]	USA	1
 Portsmouth,(New-Hampshire,)	USA	1
 [Haverhill, Mass.]	USA	1
 Printed at New Bedford, Massachusetts	England	1
@@ -4548,6 +4601,7 @@ Dresden, State of Vermont [i.e., Hanover, N.H.]	USA	1
 [Windsor] Vermont	England	1
 [Bennington Vt.?	USA	1
 [Friedensthal bei Bethlehem, Pa.	USA	1
+Fairfield [Conn]	USA	1
 York [Ont.]	England	1
 A Montreal [Qué.]	Canada	1
 Lunenburg. [i.e., Halifax, N.S.?]	USA	1
@@ -4561,6 +4615,7 @@ Se vend a Montreal	Canada	1
 [Cincinnati]	USA	1
 [Saint John, N.B.	Canada	1
 In Kingsthon [N.Y.]	USA	1
+Nieuw-Brunswick [N.J.]	USA	1
 Poughkeepsie: (Dutchess County) [N.Y.]	USA	1
 Herdrukt te Nieuw-Jork	USA	1
 Te Philadelphia.	USA	1
@@ -4585,6 +4640,7 @@ Boston [i.e., New York?]	USA	1
 Niew-York.	England	1
 Newport: Rhode-Island	USA	1
 [Niagara, Upper Canada]	Canada	1
+Knoxville, (Territory South of the Ohio)	USA	1
 Printed at Greenfield, Mass.	USA	1
 [Putney, Vt.	USA	1
 [New-London, in N.E.	England	1
@@ -4597,6 +4653,7 @@ Gedrukt tot, Philadelphia	USA	1
 Watertown, New-England [i.e., Watertown, Mass.]	USA	1
 [Cincinnati, Ohio	USA	1
 New-London [Conn.], (Beach-Street)	England	1
+[Killingworth, Conn.	USA	1
 State of Rhode-Island, &c. Providence	USA	1
 New-London--(Connecticut,)	England	1
 Reading [Penn.]	England	1
@@ -4627,6 +4684,7 @@ Chelmsford [Mass.] N.E.	England	1
 Windham: (Connecticut)	USA	1
 Charleston: South-Carolina	USA	1
 America, (New-England), [Boston?]	USA	1
+Augusta [Ga]	USA	1
 Springfield, (Massachusetts)	USA	1
 Printed at Carolina [i.e., Philadelphia?]	USA	1
 [New York] United States	England	1
@@ -4669,6 +4727,7 @@ Printed at Greenfield, (Massachusetts)	USA	1
 Printed at Dover, (N.H.)	USA	1
 Printed in Hudson (New-York)	USA	1
 Norwich-- [Conn.]	USA	1
+Stonington--port [Conn.]	USA	1
 Middleborough: (County of Plymouth,) [Mass.]	USA	1
 [Annapolis, Md.]	USA	1
 Reprinted at Providence	USA	1
@@ -4677,6 +4736,7 @@ Re-printed at Lichfield [sic] [Conn.]	USA	1
 Printed at Dover, New-Hampshire	England	1
 Printed in the city of Albany [N.Y.]	USA	1
 [Hudson, N.Y.	USA	1
+[Farmington, Conn.?]	USA	1
 Portsmouth, New-Hampshire.	USA	1
 Printed and sold at Stockbridge [Mass.]	USA	1
 Printed and sold at Northampton, (Massachusetts.)	England	1
@@ -4793,6 +4853,7 @@ Ondon [sic]	England	1
 Ramsey	England	1
 [London] :bPub'd. May 3d. 1794 by H. Humphrey, N. 18, Old Bond Street.	England	1
 [Tübingen	Germany	1
+A Londres [i.e. Rouen?]	France	1
 Paris, Londres et Hispahan	France	1
 Londres [i.e. Hanover]	Germany	1
 Fort St. George	Grenada	1
@@ -4849,6 +4910,7 @@ A S. Malo	France	1
 A Glascow [i.e. Paris?]	France	1
 Parmae	Italy	1
 [Walsall]	England	1
+Mulbery Hill	USA	1
 A Londres [i.e. Rheims?	Belgium	1
 Mulbery Hill [i.e. London?]	England	1
 Londres [i.e. Berne?]	Switzerland	1
@@ -5127,6 +5189,7 @@ Dun-Aodain	Scotland	1
 Orient de Londres [i.e. Hamburg?]	Germany	1
 Bury [Suffolk]	England	1
 [Bishopstone, Sussex]	England	1
+Milton-Ernis, near Bedford	England	1
 [ Leedes ]	England	1
 à Edimbourg	Scotland	1
 Newcastle printed	England	1
@@ -5925,9 +5988,11 @@ Antvverpiæ [i.e. London?	England	1
 [Emprynted ad London	England	1
 At Oxford [i.e London]	England	1
 [Dobuaileadh so agclơ indún Edin	Scotland	1
+Impressum Rothomagi	France	1
 Imprinted at London :b[by J. Charlewood] for William Wright, and are to be sold [by J. Allde] at the long shop, adioyning vnto S. Mildreds Church in the Poultrie	England	1
 At Dovay [i.e. England]	England	1
 Incipit Anwerpie	Belgium	1
+[parisius impressum [i.e. Rouen]	France	1
 Londini [i.e.Geneva?]	Switzerland	1
 [Impr]inted at Lon[don	England	1
 Printed at Andwerpe [i.e. Paris?	France	1
@@ -6045,6 +6110,7 @@ At London [i.e. Middelburg]	Netherlands	1
 [Impressum Londoni	England	1
 [Imprinted at London in fletestrete within Temple barre, at the signe of the ha[n]de and starre, by Richard Tottill	England	1
 [Cambridge] : b Printed by C. Legge, printer to the Vniversitie of Cambridge	England	1
+Roan [i.e. English secret press,]	France	1
 Paris [i.e Edinburgh]	Scotland	1
 [Imprynted at London in paules Church yearde at the sygne of the Maydens heed, by Thomas Petyt	England	1
 Midleburgh	Netherlands	1
@@ -6090,6 +6156,7 @@ London [i.e. France?]	France	1
 [Excusum Londoni	England	1
 Edinbugh, [sic]	Scotland	1
 [Emprinted at Londo[n]	England	1
+[Rothomagensis	France	1
 [[Richemondie, i.e. Richmond]	England	1
 [Imp[re]ssa Parisius	France	1
 [Thys emprynteth at Westmynster	England	1
@@ -6101,15 +6168,20 @@ Impresse londinis	England	1
 Venu[n]da[n]t[ur] Parisius	France	1
 [Impresse quidem Parisiis	France	1
 Venu[n]da[n]tur Parisiis	France	1
+Impresse Rothomagi	France	1
+[Imprynted at Parys [i.e. Rouen	France	1
 [Prynted at london	England	1
 [Imprinted at London by Rychard Grafton, printer to the Kynges Maiestie	England	1
+Venundantur Roth[o]magi [i.e. Rouen]	France	1
 [Mackline]	England	1
 At Roan [i.e. St. Omer?]	France	1
 [France	France	1
+[Impressum Rothamagi	France	1
 [[Paris and London	France	1
 [Parisijs]	France	1
 [Absolutu[m] in alma Parhisioru[m] academia	France	1
 In alma Parisiorum academia	France	1
+[i[m]pressu[m] Rothomagi	France	1
 Impressum Parisijs	France	1
 [[York]	England	1
 [Impressu[m] Ebor[um]	England	1
@@ -6165,6 +6237,7 @@ Cantabrigê	England	1
 [Wales?	England	1
 [Gedruct tot Londen	England	1
 Excudebatur Francofurti [ad Monum	Germany	1
+Imprynted in Rowen	France	1
 Oxonié	England	1
 [Imprentit in Edinburgh	Scotland	1
 [Edinburg]	Scotland	1
@@ -6201,10 +6274,12 @@ Impressum London[o]	England	1
 Albionopoli [i.e. Frankfurt?]	Germany	1
 Edinopoli	Scotland	1
 [Prin]ted at London	England	1
+At Rouen [and St. Omer]	France	1
 [Made at London	England	1
 Ziiryk [i.e. London]	England	1
 Genevae	Switzerland	1
 [Impressum Parrhisij	France	1
+[Impressum rothomagi	France	1
 Printed at London : by E. A[llde].	England	1
 enprynted at Parys	France	1
 Imprintit at Striviling	Scotland	1
@@ -6221,6 +6296,7 @@ Printed at Goricom [i.e. London]	England	1
 Londini : excudebat I. H[arrison 3]. impensis Iohannis Harisoni [1]	England	1
 Venu[n]dā[n]t[ur] Parisiis	France	1
 Impresse Londoniis	England	1
+Rothomagi [i.e. Rouen]	France	1
 [in alma uniuersitate Parisien	France	1
 And imprentit [in Edinburgh	Scotland	1
 [Imprinted at lo[n]don	England	1
@@ -6307,6 +6383,7 @@ Imprent[it at] Edinburgh	Scotland	1
 Mussiponti [i.e. London]	England	1
 [Caxton?]	England	1
 Enprynted at Westmynstre	USA	1
+[Imprinted at Paris [i.e. Rouen	France	1
 Oxonie impressa	England	1
 [Impressu[m] Londonie	England	1
 [Londonijs impressi	England	1
@@ -6360,6 +6437,7 @@ Printed in Elisium [i.e. London	England	1
 [Imprynted at London [i.e Southwark]	England	1
 [Saint Albans	England	1
 Imorinted at London	England	1
+At Roüen [and Saint-Omer]	France	1
 [London] : Newly printed at London, [by Felix Kingston] and are to be sold by Fr. Coles, at the half-Bowle in the old Baily	England	1
 [Londo⁻n	England	1
 Printed at Mounts in Henault [i.e. Rheims	Belgium	1
@@ -6375,9 +6453,11 @@ At Lyons	France	1
 [Rome	Italy	1
 Imprinted at Dort	Netherlands	1
 [Imprynted at Lond[on]	England	1
+[Lo[n]don̄	England	1
 Printed in Edinbrugh	Scotland	1
 [Imprynted at Londo⁻n	England	1
 [Nouiter impressa Londo⁻n	England	1
+Printedig yn Llùndain	England	1
 [Emprynted at Lo[n]do[n]	England	1
 [Nouiter impressa London̄	England	1
 [Emprinted at Lo[n]don	England	1
@@ -6393,6 +6473,7 @@ Dvaci [i.e. London?]	England	1
 [venetijs	Italy	1
 Parrisijs	France	1
 Antwerpie	Belgium	1
+[Exaratu[m] Rothomagi	France	1
 in alma Parisiorum academia	France	1
 [Impresse in ciuitate Londoniensi	England	1
 [in alma Parisiorum academia	France	1
@@ -6408,10 +6489,12 @@ Imprinted at Lodnon	England	1
 Prynted at L[ondo]n	England	1
 [Antwerp] Venundantur Londonij	Belgium	1
 [Impressu[m] in ciuitate Londo⁻n	England	1
+[i[m]pressu[s] Rothomagi	France	1
 [At westmestre	England	1
 Londidi [sic]	England	1
 [Impress. londini	England	1
 ekdoth⁻e enlontino [i.e. London]	England	1
+[Imprinted at Roan by Martin Mesgissier, the kinges printer. 1585. With priuiledge. And imprinted at London	France	1
 [Enprynted by me William Caxton in thabbey of Westme[n]stre by london, fynysshed, and accomplysshed the, viij, day of October, the yere of the incatnacyon of our lord God, M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth	England	1
 [nouiter impressa London	England	1
 [Imprinted at Lu[n]don	England	1
@@ -6420,6 +6503,7 @@ At Midlebrugh	Netherlands	1
 [Impressum est in hoc orarium Parisiis	France	1
 Imprinted at Dorte	Netherlands	1
 [Impresse Parrhisijs	France	1
+Venu[n]da[n]tur Rothomagi	France	1
 [Germany?]	Germany	1
 [Impressum est hoc orariu[m] Parisijs	France	1
 [Antwerpie]	Belgium	1
@@ -6446,10 +6530,12 @@ Printed at Middleborowgh	Netherlands	1
 [Finitum westmonasterio	England	1
 impresse fueru[n]t Parisius	France	1
 [Parisi[us]	France	1
+[[diligenter eme[n]data ac Rothomagi	France	1
 [Impressum Venetijs	Italy	1
 [in preclari pariss suburbiis sc⁻i Germani de pratis	France	1
 Imprinted at Newcastle upon Tyne, [i.e. London]	England	1
 [Southern Netherlands	Netherlands	1
+[[in rothomage'n	France	1
 [In alma Parisioru[m] academia	France	1
 [Hanau?	Germany	1
 Printed an [sic] London	England	1
@@ -6542,6 +6628,7 @@ Printed at Oxforde	England	1
 Imprinted at Middelborg	Netherlands	1
 [Printed at Oxforde	England	1
 Printed at Cullen [i.e. Mechlin] with licence	Belgium	1
+Imprynted at Douay in Artois [i.e. Rouen	France	1
 Edimburgi [i.e. Germany?]	Germany	1
 [Impressum Londinij	England	1
 Imprinted at Roane [i.e. England]	England	1
@@ -6651,6 +6738,7 @@ Imprinted at Doway [i.e. England]	England	1
 In Roma	Italy	1
 Franckfort on the Mayne	Germany	1
 [Impressa in Londre	England	1
+[[Rouen?	France	1
 Middleborrow	Netherlands	1
 Impresse in civitate London	England	1
 Imprinted at Sothewarke [i.e. Emden]	Germany	1
@@ -6695,10 +6783,12 @@ Printed oversea, in Europe [i.e. East Molesey, Surrey	England	1
 Gedruct tot Noortwitz [i.e. Norwich, actually Leeuwarden	Netherlands	1
 Printed in Europe [i.e. Coventry	England	1
 Printed [in Amsterdam?]	Netherlands	1
+[Impressi Rothomagi	France	1
 Imprynted at Dublin	France	1
 [Impressum Antwerpie	Belgium	1
 Imprime à Londres	England	1
 From Wyttonburge [i.e. London?]	England	1
+ImprimeáL̀ondres	England	1
 Printed at Collen [i.e. Paris?]	France	1
 [Hemel Hemstead?	England	1
 At Lonond [sic]	England	1
@@ -6763,6 +6853,7 @@ Printed at Vtrecht	Netherlands	1
 Newlie imprintit at Edinburgh	Scotland	1
 [London [i.e. France?]	France	1
 [Impres. Londini	England	1
+Rowen	France	1
 [Imprinted the eyghte daye of Octobre. Anno.Do.M.D.XLIX at worceter	England	1
 [Antwarp	Belgium	1
 Eden-bourgh	Scotland	1
@@ -6784,6 +6875,7 @@ Im-printed at London	England	1
 [[Paris?]	France	1
 Venu[n]dant[ur] Parisius [sic]	France	1
 Venu[n]da[n]t[ur] Parisijs	France	1
+And imprentit [in Rouen?	France	1
 [Edinburgh? or St. Andrews?]	Scotland	1
 Ptinted [sic] at London	England	1
 Imprynted at Norwich	England	1
@@ -6809,7 +6901,10 @@ A'i printio, yn Llundain	England	1
 Impressas en Oxford	England	1
 Prynted in London	England	1
 Imprinted at Roane [i.e. London]	England	1
+[Imprynted in Parys [i.e. Rouen]	France	1
 [Enpre[n]tyd in the Duchye of Braband in the towne of Andewarpe	Belgium	1
+[York, i.e. Rouen]	France	1
+[Imprynted in Parys [i.e. Rouen	France	1
 [Impressu[m] parisijs	France	1
 [[In alma Parrhisiorum Academia]	France	1
 [Imprinted at Lo[n]don in Aldersgate strete	England	1
@@ -6852,6 +6947,7 @@ Anno Domini. M.D,LXVIII. Imprinted at London	England	1
 Printed at Calicè [i.e. England	England	1
 Imprînted [sic] at London	England	1
 Impri[n]ted at Rome [i.e. Wesel?]	Germany	1
+[Imprinted in Rone	France	1
 [Impkinted [sic] at at [sic] London	England	1
 Duaci [i.e. London]	England	1
 Printed at Cullen [i.e. Saint Omer	France	1
@@ -6907,6 +7003,8 @@ impresse fueri[n]t Parisius	France	1
 Impresso en Londres	England	1
 Stampato in Londra	England	1
 [Parisius impresse	France	1
+[Imprinted at Rowen	France	1
+[newly imprynted at Rowen	France	1
 newly enprynted in Paris	France	1
 1569. Imprynted at London	England	1
 [In alma Parhisiorum Academia	France	1
@@ -6929,6 +7027,7 @@ Inprinted at Nornburg [i.e. Antwerp? or London?]	Belgium	1
 1594. Printed at London	England	1
 Midelburge [i.e. London	England	1
 Bruges Flandrorum	Belgium	1
+[In celeberrima vrbe Rothomagensi	France	1
 Excusum Londini per me VVinandum de worde, sub intersignio Solis commorantem	England	1
 [Imprynted in Lo[n]don	England	1
 Londonijs	England	1
@@ -7089,6 +7188,7 @@ Imprinted at Newcastle [i.e. London]	England	1
 At Mechlin	Belgium	1
 [Westmonasterio	England	1
 [Finitu[m] et completu[m] in Westmonasterio]	England	1
+[Finitum et co[m]pletum Rothomagi	France	1
 [In celeberrima vrbe Parisiensi	France	1
 Gedruckt tot London	England	1
 [Emprynted att Westmynstre	USA	1
@@ -7109,6 +7209,7 @@ Excusum in Londini	England	1
 Excusam Londini	England	1
 Anno. 1571. Imprinted at London	England	1
 Lugduni Batavorum [i.e. Cambridge]	England	1
+[Rouen and Saint-Omer	France	1
 Anno 1579. At London	England	1
 Franckfort [i.e. the Netherlands?]	Netherlands	1
 An. Do. 1555. Londini	England	1
@@ -7293,6 +7394,7 @@ A Frankfort	Germany	1
 [Abredeis	Scotland	1
 Pruntiedig yn Llundain	England	1
 Edinburgh [London?]	Scotland	1
+At Roan [Rouen	France	1
 [Glasgow] Printed at London, and reprinted at Glasgow	Scotland	1
 Dvblinii	France	1
 Brintio yn Llundain	England	1
@@ -7341,6 +7443,7 @@ London: printed for Sam: Speed at the Rainbow in Fleetstreet, and Hen: Marsh at 
 Imprinted at York by Robert Barker	England	1
 London: Printed by and for W. O[nley]. and are to be sold by J. Walter, at the Hand and Pen in High-holbourn	England	1
 Londo [i.e., London]	England	1
+Printed at Roane [i.e. Rouen]	France	1
 Audomari [i.e. Saint Omer]	France	1
 A Londre [i.e. the Netherlands?]	Netherlands	1
 V[e]nus [i.e. London?]	England	1
@@ -7818,6 +7921,7 @@ George-town [i.e Washington, D.C.]	USA	1
 Peacham, Vt.	USA	1
 Frankfort, Ky.	USA	1
 New-Bedford, Mass.	USA	1
+Stonington [Conn.]	USA	1
 Vergennes, Vt.	USA	1
 Lansingburgh, [N.Y.]	USA	1
 Morris-Town, N.J.	USA	1
@@ -7853,6 +7957,7 @@ Dover, New Hampshire	England	1
 Shepherdstown, Virginia	USA	1
 Lansinghborough [i.e., Troy, N.Y.]	USA	1
 Elizabeth-Town, [N.J.]	USA	1
+Augusta, Ga.	USA	1
 Elizabeth Town, N.J.	USA	1
 New-Haven, [Conn.]	USA	1
 Portsmouth [N.H.	USA	1
@@ -7891,6 +7996,7 @@ Washington [D.C.]	USA	1
 Pittsburgh, Pa.	USA	1
 Nashville, Tenn.	USA	1
 Chillicothe, North-Western Territory [i.e., Ohio]	USA	1
+Sharon, Conn.	USA	1
 New-York, [N.Y.]	USA	1
 Norristown, Pa.	USA	1
 Washington City	USA	1
@@ -8257,6 +8363,7 @@ Londres [i.e. Nancy	France	1
 [Thurles?	Ireland	1
 [Newton-Abbot?	England	1
 [Ormskirk	England	1
+[Guernsey	Guernsey	1
 [Oldham	England	1
 [Clonmel	Ireland	1
 [Guadaloupe	Saint Kitts and Nevis	1
@@ -8312,6 +8419,7 @@ Mainz und Frankfurt	Germany	1
 [Kirkham?	England	1
 [Denbigh?	England	1
 [Bedale?	England	1
+[[Guernsey]	Guernsey	1
 [Bordeaux]	France	1
 [Gravesend	England	1
 [Sudbury	England	1

@@ -2,6 +2,10 @@
 
 ### Technical
 
+  * Ei aina systemaattista kumpi nimi otetaan jos esim "londres paris"
+    jossain vastaavissa tapauksissa eka, toisissa toka. Check
+    PublicationPlaceSynonymes
+
   * sheet-size keskiarvo niistä joille mitat tiedossa (nyt vasta
     pagecount tehty). käytä sitten keskiarvoa (ei taulukkoarvoa)
     loppujen estimointiin -> kun koko ESTC käytossa, jos näytekoko
