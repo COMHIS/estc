@@ -54,7 +54,7 @@ n(docs) * 'levinneisyys aikajanalla'? * pages
 
   * Author Richness and Diversity (w.r.t. documents) across time ?
 
-
+  * [Issues related to the pattern of the European economy in different countries: When did the center of gravity move from the Mediterranean to the North Sea? Was it a single shift, or can we discern a number of shifts in the Latin West? When do the Scandinavian countries appear on the scene—and how does central Europe (Poland, for example) enter in this context? An important question here concerns patterns of convergence and divergence in European history: When do differences in book production in the various countries point to increased economic homogeneity, and when do they point to divergence between regions?](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
 
 ## Topics
 

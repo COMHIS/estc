@@ -1,25 +1,25 @@
 original	gatherings.original	width.original	height.original	obl.original	gatherings	width	height	obl	area	Count
-8⁰.	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	162951
-4⁰.	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	 88175
-12⁰.	12mo	NA	NA	FALSE	12mo	12.5	19.0	 0	 237.50	 69125
-2⁰.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	 57351
-1/2⁰.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	 34870
-1⁰.	1to	NA	NA	FALSE	1to	60.0	90.0	 0	5400.00	 14766
-1/4⁰.	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	  9100
+8⁰.	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	162912
+4⁰.	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	 88135
+12⁰.	12mo	NA	NA	FALSE	12mo	12.5	19.0	 0	 237.50	 69107
+2⁰.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	 57345
+1/2⁰.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	 34869
+1⁰.	1to	NA	NA	FALSE	1to	60.0	90.0	 0	5400.00	 14764
+1/4⁰.	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	  9099
 ?⁰.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	  5518
-NA	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	  4866
-1/8⁰.	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	  2781
-18⁰.	18mo	NA	NA	FALSE	18mo	10.0	16.0	 0	 160.00	  2003
-16⁰.	16mo	NA	NA	FALSE	16mo	12.0	15.0	 0	 180.00	  1986
+NA	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	  4859
+1/8⁰.	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	  2780
+18⁰.	18mo	NA	NA	FALSE	18mo	10.0	16.0	 0	 160.00	  2001
+16⁰.	16mo	NA	NA	FALSE	16mo	12.0	15.0	 0	 180.00	  1984
 24⁰.	24mo	NA	NA	FALSE	24mo	 8.5	12.5	 0	 106.25	  1763
 1⁰.	1to	NA	NA	FALSE	2fo	60.0	90.0	 0	5400.00	  1647
 4°.	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	  1461
 4⁰	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	  1272
-8⁰	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	  1028
+8⁰	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	  1027
 obl. 1/2⁰.	2fo	NA	NA	 TRUE	2fo	45.0	30.0	 1	1350.00	   984
-obl. 1⁰.	1to	NA	NA	 TRUE	1to	90.0	60.0	 1	5400.00	   854
+obl. 1⁰.	1to	NA	NA	 TRUE	1to	90.0	60.0	 1	5400.00	   852
 obl.1/2⁰.	2fo	NA	NA	 TRUE	2fo	45.0	30.0	 1	1350.00	   816
-broadsheet	1to	NA	NA	FALSE	2fo	60.0	90.0	 0	5400.00	   775
+broadsheet	1to	NA	NA	FALSE	2fo	60.0	90.0	 0	5400.00	   774
 12⁰	12mo	NA	NA	FALSE	12mo	12.5	19.0	 0	 237.50	   726
 32⁰.	32mo	NA	NA	FALSE	32mo	 7.0	12.0	 0	  84.00	   712
 1/12⁰.	12mo	NA	NA	FALSE	12mo	12.5	19.0	 0	 237.50	   683
@@ -28,7 +28,7 @@ octavo	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	   532
 quarto [fewer than 50 pages]	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	   491
 1/2⁰	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	   442
 quarto	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	   343
-duodecimo	12mo	NA	NA	FALSE	12mo	12.5	19.0	 0	 237.50	   306
+duodecimo	12mo	NA	NA	FALSE	12mo	12.5	19.0	 0	 237.50	   305
 17 cm.	NA	NA	17.0	FALSE	NA	12.0	17.0	NA	 204.00	   243
 34 x 21 cm.	NA	21.0	34.0	FALSE	NA	21.0	34.0	NA	 714.00	   225
 obl.4⁰.	4to	NA	NA	 TRUE	4to	28.0	22.0	 1	 616.00	   219
@@ -164,16 +164,16 @@ obl.1⁰.	1to	NA	NA	 TRUE	2fo	90.0	60.0	 1	5400.00	    23
 49 cm.	NA	NA	49.0	FALSE	NA	31.0	49.0	NA	1519.00	    21
 44 x 35 cm.	NA	35.0	44.0	FALSE	NA	35.0	44.0	NA	1540.00	    20
 40 x 32 cm.	NA	32.0	40.0	FALSE	NA	32.0	40.0	NA	1280.00	    20
-1/2.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	    20
 1/24⁰.	24mo	NA	NA	FALSE	24mo	 8.5	12.5	 0	 106.25	    20
-24mo	24mo	NA	NA	FALSE	24mo	 8.5	12.5	 0	 106.25	    20
 50 cm.	NA	NA	50.0	FALSE	NA	32.0	50.0	NA	1600.00	    20
 long 2⁰.	2long	NA	NA	FALSE	2long	30.0	53.0	 0	1590.00	    19
 40 x 25 cm.	NA	25.0	40.0	FALSE	NA	25.0	40.0	NA	1000.00	    19
 43 x 27 cm.	NA	27.0	43.0	FALSE	NA	27.0	43.0	NA	1161.00	    19
 43 x 34 cm.	NA	34.0	43.0	FALSE	NA	34.0	43.0	NA	1462.00	    19
+1/2.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	    19
 8⁰ in 4's.	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	    19
 2⁰(3).	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	    19
+24mo	24mo	NA	NA	FALSE	24mo	 8.5	12.5	 0	 106.25	    19
 43 cm (2⁰)	2fo	NA	43.0	FALSE	2fo	28.0	43.0	 0	1204.00	    19
 48⁰.	48mo	NA	NA	FALSE	48mo	 6.5	10.0	 0	  65.00	    18
 24⁰	24mo	NA	NA	FALSE	24mo	 8.5	12.5	 0	 106.25	    18
@@ -274,7 +274,6 @@ long24⁰.	24long	NA	NA	FALSE	24long	 9.5	14.0	 0	 133.00	    12
 29 cm (4⁰)	4to	NA	29.0	FALSE	4to	23.0	29.0	 0	 667.00	    12
 21 cm (4⁰)	4to	NA	21.0	FALSE	4to	17.0	21.0	 0	 357.00	    12
 29 cm. (2⁰)	2fo	NA	29.0	FALSE	2fo	19.0	29.0	 0	 551.00	    12
-24 cm. (4⁰)	4to	NA	24.0	FALSE	4to	19.0	24.0	 0	 456.00	    11
 2.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	    11
 27 x 23 cm.	NA	23.0	27.0	FALSE	NA	23.0	27.0	NA	 621.00	    11
 14 cm. 8⁰	8vo	NA	14.0	FALSE	8vo	10.0	14.0	 0	 140.00	    11
@@ -312,6 +311,7 @@ s.sh.4⁰.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	    11
 47 cm (2⁰)	2fo	NA	47.0	FALSE	2fo	30.0	47.0	 0	1410.00	    10
 33 cm (1/2⁰)	2fo	NA	33.0	FALSE	2fo	22.0	33.0	 0	 726.00	    10
 30 cm (1/2⁰)	2fo	NA	30.0	FALSE	2fo	20.0	30.0	 0	 600.00	    10
+24 cm. (4⁰)	4to	NA	24.0	FALSE	4to	19.0	24.0	 0	 456.00	    10
 6⁰.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     9
 fol	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     9
 1/4°.	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	     9
@@ -567,7 +567,6 @@ caption title; quarto	4to	NA	NA	FALSE	4to	22.0	28.0	 0	 616.00	     4
 68 cm.	NA	NA	68.0	FALSE	NA	41.0	68.0	NA	2788.00	     4
 42-46 cm.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     4
 63 cm.	NA	NA	63.0	FALSE	NA	38.0	63.0	NA	2394.00	     4
-50cm (2⁰)	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     4
 22cm (8⁰)	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	     4
 25 cm. (4⁰)	4to	NA	25.0	FALSE	4to	19.0	25.0	 0	 475.00	     4
 2⁰ (30 cm.)	2fo	NA	30.0	FALSE	2fo	20.0	30.0	 0	 600.00	     4
@@ -1024,6 +1023,7 @@ Long 24⁰.	24long	NA	NA	FALSE	24long	 9.5	14.0	 0	 133.00	     2
 sm. 8⁰.	8long	NA	NA	FALSE	8long	13.0	22.0	 0	 286.00	     2
 2⁰; 1⁰.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     2
 2⁰ (31-48 cm.).	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     2
+50cm (2⁰)	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     2
 27cm. (4⁰)	4to	NA	27.0	FALSE	4to	21.0	27.0	 0	 567.00	     2
 27cm (2⁰)	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     2
 2⁰; 1/2⁰.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     2
@@ -1727,7 +1727,6 @@ obl. 1/2.	NA	NA	NA	 TRUE	NA	NA	NA	NA	NA	     1
 1743].	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 1742].	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 1/21⁰.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
-22 cm	NA	NA	22.0	FALSE	NA	15.0	22.0	NA	 330.00	     1
 11 cm	NA	NA	11.0	FALSE	NA	 8.0	11.0	NA	  88.00	     1
 obl. 8	NA	NA	NA	 TRUE	NA	NA	NA	NA	NA	     1
 obl. 4	4to	NA	NA	 TRUE	4to	28.0	22.0	 1	 616.00	     1
@@ -1988,7 +1987,6 @@ c4⁰.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 4 cm.	NA	NA	 4.0	FALSE	NA	 4.0	 4.0	NA	  16.00	     1
 45-49 cm (2⁰)	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     1
 35-45 cm (fol.)	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     1
-50-60 cm.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 51-58 cm.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 41-51 cm.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 32-46 cm (2⁾	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
@@ -2157,7 +2155,6 @@ l8 cm.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 29-40 cm. (4⁰; 2⁰)	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 22-24 cm (8⁰)	8vo	NA	NA	FALSE	8vo	13.0	19.0	 0	 247.00	     1
 1/2⁰-2⁰.	2fo	NA	NA	FALSE	2fo	30.0	45.0	 0	1350.00	     1
-44-55 cm (2⁰;1⁰)	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	     1
 2⁰ (48 cm.).	2fo	NA	48.0	FALSE	2fo	31.0	48.0	 0	1488.00	     1
 4⁰ (31 cm.).	4to	NA	31.0	FALSE	4to	24.0	31.0	 0	 744.00	     1
 32 cm. (fol.)	2fo	NA	32.0	FALSE	2fo	21.0	32.0	 0	 672.00	     1

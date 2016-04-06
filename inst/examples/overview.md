@@ -39,25 +39,25 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_year_till |        97.8|           2.2|         10552|        354|
 |publication_topic     |        81.7|          18.3|         88528|       5111|
 |publication_geography |        71.6|          28.4|        137337|      12812|
-|author_birth          |        59.1|          40.9|        197658|        470|
+|author_birth          |        59.1|          40.9|        197664|        470|
 |self_published        |        56.6|          43.4|        209576|          3|
-|author_death          |        55.9|          44.1|        213311|        519|
+|author_death          |        55.9|          44.1|        213316|        519|
 |author_gender         |        51.2|          48.8|        235729|          3|
-|author                |        47.5|          52.5|        253846|      46425|
+|author                |        47.5|          52.5|        253846|      46420|
 |subject_topic         |        44.9|          55.1|        266125|      55928|
 |author_name           |        44.8|          55.2|        266809|      42201|
 |publisher             |        24.4|          75.6|        365298|     162900|
-|latitude              |        15.9|          84.1|        406349|         14|
-|longitude             |        15.9|          84.1|        406349|         14|
+|latitude              |        15.9|          84.1|        406369|         14|
+|longitude             |        15.9|          84.1|        406369|         14|
 |paper.consumption.km2 |         7.6|          92.4|        446609|       5333|
 |pagecount.orig        |         5.4|          94.6|        457335|       1138|
 |obl                   |         3.6|          96.4|        465764|          3|
 |width                 |         2.3|          97.7|        472005|         78|
 |height                |         2.3|          97.7|        472005|         96|
 |area                  |         2.3|          97.7|        472005|        636|
-|country               |         1.4|          98.6|        476430|         56|
+|country               |         1.4|          98.6|        476472|         56|
 |publication_year_from |         0.6|          99.4|        480080|        348|
-|publication_place     |         0.5|          99.5|        480794|       1254|
+|publication_place     |         0.5|          99.5|        480794|       1234|
 |volcount              |         0.4|          99.6|        481171|        152|
 |document.items        |         0.4|          99.6|        481171|        152|
 |pagecount             |         0.1|          99.9|        482961|       1271|
@@ -87,10 +87,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings.original   |         0.0|         100.0|        483212|         18|
 |obl.original          |         0.0|         100.0|        483212|          2|
 |original_row          |         0.0|         100.0|        483212|     483212|
-|gatherings            |         0.0|         100.0|        483212|         18|
 |publication_year      |         0.0|         100.0|        483212|        348|
 |publication_decade    |         0.0|         100.0|        483212|         37|
 |author_pseudonyme     |         0.0|         100.0|        483212|          2|
+|gatherings            |         0.0|         100.0|        483212|         18|
 
 
 
