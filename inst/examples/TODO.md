@@ -16,6 +16,8 @@
   * Try rOpenSci/GenderizeR R package and also [babynames
     package](https://github.com/hadley/babynames)
 
+  * Automatically recognize potentially ambiguous place names (like
+    concord) from the PublicationPlaceSynonymes.csv
 
 ### Analysis
 
