@@ -1,56 +1,524 @@
 Name	Count
-Total count: 	n= 11159  ( 100 % non-NA values)
-boston	9485
-boston new england	 654
-wilmington del	 371
-boston mass	 140
-douai	  94
-doway	  85
-massachusetts	  73
-boston massachusetts	  50
-douay	  43
-boston america	  17
-jersey	  14
-boston lincs	  14
-bostoniae	  12
-massachusetts boston	   9
-concord	   9
-new england	   8
-dovvay	   6
-massachusetts state boston	   5
-america boston	   5
-white hall	   4
-martinique	   4
-duaci	   4
-dovay	   4
-carrick	   4
-blandford	   4
-massachuset boston	   3
-kentucky	   3
-augusta	   3
-wilmington delaware	   2
-st georges grenada	   2
-saint pierre	   2
-dvaci	   2
-boston new england london	   2
-bostoni nov anglia	   2
+Total count: 	n= 13446  ( 100 % non-NA values)
+london	2439
+philadelphia	2380
+boston	2198
+new york	1090
+edinburgh	 239
+hartford	 229
+new london conn	 227
+providence	 212
+new haven	 169
+boston new england	 151
+charleston sc	 147
+baltimore	 144
+dublin	 134
+newport ri	 133
+wilmington del	 110
+annapolis	 107
+portsmouth nh	  91
+albany	  90
+united states	  89
+worcester massachusetts	  88
+williamsburg va	  85
+londini	  83
+norwich conn	  82
+salem mass	  78
+richmond	  77
+trenton	  74
+exeter nh	  71
+newburyport mass	  65
+oxford	  58
+lancaster pa	  53
+germantown pa	  48
+quebec	  45
+burlington nj	  44
+worcester mass	  41
+watertown mass	  40
+windsor vt	  37
+london england	  36
+cambridge	  35
+bennington vt	  35
+portsmouth new hampshire	  33
+newbern nc	  29
+york	  23
+massachusetts	  23
+litchfield conn	  23
+new orleans	  22
+worcester	  20
+poughkeepsie ny	  19
+middletown conn	  19
+germantaun pa	  19
+exeter	  19
+new brunswick nj	  18
+hudson ny	  18
+connecticut	  18
+cambridge mass	  18
+windsor	  17
+south carolina charles town	  17
+ephrata pa	  17
+québec	  16
+portland me	  16
+pennsylvania	  16
+germanton pa	  16
+woodbridge new jersey	  15
+newbury port mass	  15
+halifax	  15
+dover nh	  15
+springfield mass	  14
+savannah	  14
+newark nj	  14
+lexington ky	  14
+elizabeth town nj	  14
+edinburgi	  14
+stockbridge mass	  13
+rutland vt	  13
+richmond va	  13
+oxoniæ	  13
+northampton mass	  13
+newport rhode island	  13
+new jersey	  13
+glasgow	  13
+warren rhode island	  12
+paris	  12
+mass	  12
+londres	  12
+charlotte town	  12
+bristol	  12
+amsterdam	  12
+albany ny	  12
+aberdeen	  12
+philadelphie	  11
+lancäster pa	  11
+charlestown sc	  11
+york pa	  10
+woodbridge nj	  10
+providence rhode island	  10
+frankfort ky	  10
+danbury conn	  10
+concord nh	  10
+westminster vt	   9
+trenton nj	   9
+reading pa	   9
+oxonii	   9
+leominster mass	   9
+hanover nh	   9
+edenton nc	   9
+carlisle pa	   9
+boston america	   9
+windham conn	   8
+warren ri	   8
+suffield conn	   8
+salem	   8
+portsmouth	   8
+northampton	   8
+montreal	   8
+charles town sc	   8
+charlestown mass	   8
+boston massachusetts	   8
+alexandria va	   8
+springfield	   7
+petersburg va	   7
+nottingham	   7
+newfield conn	   7
+newcastle upon tyne	   7
+lansingburgh ny	   7
+knoxville tenn	   7
+halifax nc	   7
+fishkill ny	   7
+fairhaven vt	   7
+elizabethtown nj	   7
+columbia sc	   7
+whitehall pa	   6
+rutland vermont	   6
+providence new england	   6
+philadelphiae	   6
+new bedford mass	   6
+manchester	   6
+hartford conn	   6
+georgetown dc	   6
+chester	   6
+burlington	   6
+bennington vermont	   6
+bath	   6
+providence ri	   5
+plymouth	   5
+philadelphia pa	   5
+norfolk va	   5
+niagara	   5
+newbedford	   5
+hull	   5
+hanover	   5
+fredericksburg va	   5
+cooperstown ny	   5
+chatham nj	   5
+charlotte town island saint john	   5
+catskill ny	   5
+cambridge england	   5
+augusta ga	   5
+wilmington nc	   4
+whitestown ny	   4
+west springfield mass	   4
+washington dc	   4
+walpole newhampshire	   4
+troy ny	   4
+salisbury nc	   4
+saint omer	   4
+rouen	   4
+richmond virginia	   4
+raleigh nc	   4
+putney vt	   4
+newport	   4
+new london	   4
+newburyport	   4
+newburgh ny	   4
+newark new jersey	   4
+liverpool	   4
+greenfield massachusetts	   4
+dover	   4
+dedham mass	   4
+cork	   4
+cheshire conn	   4
+charleston	   4
+chambersburg pa	   4
+brookfield	   4
+boston mass	   4
+antwerp	   4
+amherst nh	   4
+washington pa	   3
+virginia	   3
+st petersburg	   3
+stamford	   3
+shrewsbury	   3
+salisbury	   3
+sagg harbour ny	   3
+providentiæ	   3
+peacham vermont	   3
+oxon	   3
+north	   3
+new york ny	   3
+new castle del	   3
+medford mass	   3
+massachusetts boston	   3
+leominster massachusetts	   3
+lancaster	   3
+keene nh	   3
+jacksonburgh sc	   3
+haverhill mass	   3
+harrisburgh pa	   3
+hagerstown md	   3
+hägerstaun md	   3
+greenfield mass	   3
+greenfield	   3
+goshen ny	   3
+gloucester	   3
+glocester	   3
+germantown	   3
+frederick town md	   3
+fish kill ny	   3
+dublin ireland	   3
+douai	   3
+coventry	   3
+chesnuthill pa	   3
+charleston south carolina	   3
+canterbury	   3
+brooklyn ny	   3
+bostoniae	   3
+amherst new hampshire	   3
+america	   3
+aberdene	   3
+york town pa	   2
+wiscasset me	   2
+winchester va	   2
+winchester	   2
+williamsburg	   2
+wesel	   2
+waterford	   2
+warren	   2
+walpole nh	   2
+walpole	   2
+vermont	   2
+stonington port conn	   2
+stockton	   2
+savannah ga	   2
+saint augustine	   2
+philadelphia america	   2
+perth	   2
+norwich england	   2
+norwich	   2
+norristown pa	   2
+new york new york	   2
+new windsor ny	   2
+new hampshire	   2
+newcastle	   2
+new brunswick	   2
+natchez miss	   2
+mount holly nj	   2
+morristown nj	   2
+montréal	   2
+middelburg	   2
+medford massachusetts	   2
+massachusetts bay worcester	   2
+litchfield connecticut	   2
+lincoln	   2
+lexington kentucky	   2
+leipzig	   2
+keene newhampshire	   2
+hudson	   2
+holland	   2
+harrisburgh	   2
+harbor	   2
+hannover	   2
+hallowell me	   2
+halifax ns	   2
+gilmanton nh	   2
+george town dc	   2
+friedrich stadt md	   2
+friederich stadt md	   2
+fredericton	   2
+frederick md	   2
+fayetteville nc	   2
+elizabeth nj	   2
+edinbvrgh	   2
+dublinii	   2
+danvers mass	   2
+concord newhampshire	   2
+cirencester	   2
+chippenham	   2
+chestnut hill pa	   2
+chelmsford mass	   2
+castine me	   2
+cantabrigiæ	   2
+cantabrigiae	   2
+canaan ny	   2
+brookfield mass	   2
+bristol england	   2
+birmingham	   2
+bennington	   2
+annapolis md	   2
+abredeis	   2
+yorr	   1
+yorke	   1
+worcester england	   1
+woodbridge	   1
 wilmingtoni wilmington del	   1
-wilmingtonii del	   1
-st georges town grenada	   1
-state massachusetts bay boston	   1
-saint pierre martinique	   1
-la trinité martinique	   1
-bostonut	   1
-boston north america	   1
-bostoni nov anglorum mdccxxxiii	   1
-bostoni nov anglorum	   1
-bostoni nov angliâ	   1
+wilmington delaware	   1
+wilmington	   1
+whitehaven	   1
+white hall	   1
+westminster	   1
+western district rutland vt	   1
+watertown	   1
+washington penn	   1
+warrington	   1
+walpole newhamphire	   1
+vienna	   1
+vergennes vt	   1
+venezia	   1
+utrecht	   1
+utica ny	   1
+united states philadelphia	   1
+troy	   1
+strasbourg	   1
+stockbridge	   1
+st kitts nevis	   1
+st john	   1
+st germans	   1
+staunton va	   1
+st augustine east florida	   1
+springfield mas	   1
+southwarke	   1
+south carolina charlestown	   1
+south carolina	   1
+s omaers	   1
+shepton mallet	   1
+shepherds town va	   1
+shelburne	   1
+sheffield	   1
+schenectady ny	   1
+s c	   1
+salem state new york	   1
+salem new jersey	   1
+saint john nb	   1
+saint john	   1
+rutland	   1
+rotterdam	   1
+roseau dominica	   1
+rome ny	   1
+roan	   1
+rhode island	   1
+reading	   1
+randolph vt	   1
+pyiladelphia	   1
+princeton nj	   1
+prague	   1
+poughkeepsie state new yokk	   1
+portsmouth england	   1
+portmouth nh	   1
+porstmouth nh	   1
+pittsburg	   1
+phladelphia	   1
+philladephia	   1
+philadelphia pennsylvania	   1
+philadelphia new york	   1
+philada	   1
+parisiis	   1
+ontario	   1
+office salem	   1
+n p	   1
+novo portu connecticutensium new haven	   1
+novi portus	   1
+novi portu	   1
+novi porti new haven	   1
+nouvelle orleans new orleans	   1
+northumberland town pa	   1
+northumberland pa	   1
+north shields	   1
+newport rhoee island	   1
+new haven conn	   1
+new england	   1
+new castle	   1
+newburyport massachusetts	   1
+newburgh ulster county ny	   1
+new brunswick new jersey	   1
+new bern nc	   1
+newbedford massa	   1
+newark england	   1
+newark	   1
+nashville tennessee	   1
+nashville	   1
+napoli	   1
+nantwich	   1
+mount pleasant ny	   1
+morris town nj	   1
+monaghan	   1
+middleborough	   1
+middelburgh	   1
+massachusetts state boston	   1
+maine	   1
+lundini	   1
+louisville ga	   1
+lonodn	   1
+lonnon	   1
+longton	   1
+londres london england	   1
+londra	   1
+london london	   1
+lon don	   1
+londen	   1
+litch field conn	   1
+litchfield	   1
+limerick	   1
+lichfield conn	   1
+lewistown pa	   1
+lewes	   1
+leominster	   1
+leith scotland	   1
+leith	   1
+leghorn	   1
+leedes	   1
+lausanne	   1
+la nlle orleans	   1
+königsberg	   1
+knoxville state tennessee	   1
+kingston ny	   1
+kingston jamaica	   1
+keene state new hampshire	   1
+kaeniae neo hantoniae	   1
+johnstown ny	   1
+ipswich	   1
+huntingdon	   1
+hull england	   1
+hook hallowell me	   1
+hillsborough nc	   1
+hereford	   1
+haverhill	   1
+hartfordiae	   1
+harrisburg	   1
+hallowell hook me	   1
+halifax nova scotia	   1
+hague	   1
+greensburg westmoreland penn	   1
+gouda	   1
+gloucester england	   1
+glasguæ	   1
+glasgow scotland	   1
+gilmanton	   1
+georgetown sc	   1
+george town potowmack dc	   1
+george town potowmack	   1
+geneva	   1
+geneua	   1
+fryeburg me	   1
+fredicksburg va	   1
+fredericktown md	   1
+francofurti	   1
+falmouth	   1
+falkirk	   1
+fairfield conn	   1
+etonæ	   1
+ephratae penn	   1
+ephratae pa	   1
+elizabeth town new jersey	   1
+edinburgh scotland	   1
+edinbugh	   1
+easton md	   1
+durham	   1
+dundee scotland	   1
+dunbar	   1
+duinedin	   1
+doway	   1
+dedham	   1
+danvers near boston	   1
+danvers mass near salem	   1
+danbury	   1
+coventry england	   1
+cork ireland	   1
+corck	   1
+concord mass	   1
+concord	   1
+columbia south carolina	   1
+colchester england	   1
+colchester	   1
+clipstone	   1
+cincinnati	   1
+chestertown md	   1
+chatham	   1
+charlestown state south carolina	   1
+charles town south carolina	   1
+castine maine	   1
+carlisle	   1
+canandaigua ny	   1
+calcutta	   1
+burlington vt	   1
+burlington new jersey	   1
+brattleboro vt	   1
+brattleboro vermont	   1
+brattleborough vt	   1
+brattleborough vermont	   1
 bostoni massachusettensium	   1
-bostoniae nov ang	   1
-bostoni aelig	   1
 bostoniae americae	   1
-bostoniæ	   1
-bostonæ nov anglorum	   1
-bosto n	   1
 bostn	   1
+bononiæ	   1
+birmingham england	   1
+bey bethlehem pa fork dellawar	   1
+berwick	   1
+be nevvly parys	   1
+belfast	   1
 bay state boston	   1
+ballston ny	   1
+ayr	   1
+au port au prince haiti	   1
+augusta kennebeck me	   1
+augusta district maine	   1
+augusta	   1
+antuerpie	   1
+amsterdam netherlands	   1
+amherst newhampshire	   1
+america boston	   1
+altona	   1
+alexandria	   1
+aldershot	   1
+abroad	   1
+aberystwyth	   1
+aberdeen scotland	   1

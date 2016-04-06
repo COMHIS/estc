@@ -1,4 +1,4 @@
----
+--
 title: "Preprocessing overview"
 author: "Leo Lahti"
 date: "2016-04-07"
@@ -52,8 +52,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |paper.consumption.km2 |         7.5|          92.5|        444936|       5317|
 |pagecount.orig        |         5.4|          94.6|        455431|       1137|
 |obl                   |         3.5|          96.5|        464209|          3|
-|country               |         2.9|          97.1|        467358|         54|
-|publication_place     |         2.8|          97.2|        467697|       1080|
+|country               |         2.9|          97.1|        467371|         54|
+|publication_place     |         2.8|          97.2|        467697|       1079|
 |width                 |         2.3|          97.7|        470237|         78|
 |height                |         2.3|          97.7|        470237|         95|
 |area                  |         2.3|          97.7|        470237|        629|
