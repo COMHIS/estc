@@ -11,14 +11,11 @@ output: markdown_document
 Read the preprocessed ESTC data table and load tools:
 
 
-```
-## Error in library(reshape): there is no package called 'reshape'
-```
 
 
 
 
-We have 40090 documents from Scotland.
+We have 40087 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -7779,7 +7776,7 @@ List of authors born before 500AD:
 ##                             Webster, William (1684-1744) 
 ##                                                        1 
 ##                            Wedderburn, David (1580-1646) 
-##                                                       19 
+##                                                       18 
 ##                             Wedderburn, John (1500-1556) 
 ##                                                        3 
 ##                               Wedderburn, John (1629-NA) 
@@ -8098,7 +8095,7 @@ List of authors born before 500AD:
 ##                                                        1
 ```
 
-We have 15499 documents from 4016 unique
+We have 15498 documents from 4016 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8201,7 +8198,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error: Insufficient values in manual scale. 53 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 49 needed but only 5 provided.
 ```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
@@ -8211,7 +8208,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34317 documents from Scotland and 205931 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34313 documents from Scotland and 205931 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
@@ -8235,7 +8232,7 @@ We have 34317 documents from Scotland and 205931 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 1800 rows containing missing values (geom_point).
+## Warning: Removed 1905 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
