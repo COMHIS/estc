@@ -475,7 +475,7 @@ Philadelphie	Philadelphia PA	20
 [Cambridge, Mass.]	Cambridge MA	20
 [Québec	Quebec	20
 Norfolk [Va.]	Norfolk VA	20
-Knoxville [Tenn.]	Knoxville Tn	20
+Knoxville [Tenn.]	Knoxville TN	20
 Falmouth	Falmouth ME	20
 [Reading]	Reading	20
 Londres [i.e. The Hague?]	The Hague	20
@@ -1706,7 +1706,7 @@ A Londres [i.e. Netherlands?]	Amsterdam	3
 [[Norwich]	Norwich	3
 Genevæ	Geneva	3
 Oxon [Oxford]	Oxford	3
-[Zurich]	Zurich	3
+[Zurich]	Zürich	3
 [Newport?	Newport RI	3
 [Kelso	Kelso	3
 Newcastle-upon-Tyne	Newcastle	3
@@ -1813,7 +1813,7 @@ Portsmouth (New-Hampshire)	Portsmouth NH	3
 State of New Hampshire: Portsmouth	Portsmouth	3
 Pittsburgh	Pittsburgh PA	3
 [Northumberland, Pa.	Northumberland PA	3
-[Knoxville, Tenn.	Knoxville Tn	3
+[Knoxville, Tenn.	Knoxville TN	3
 [South Carolina?	Charleston SC	3
 Richmond, Virginia	Richmond VA	3
 Charles-town [S.C.]	Charleston SC	3
@@ -2028,7 +2028,7 @@ Londoniis	London	3
 [Imprintit at Edinburgh	Edinburgh	3
 Londini [i.e. Leiden]	Leiden	3
 Imprinted [at London]	London	3
-[Zurich	Zurich	3
+[Zurich	Zürich	3
 [The Netherlands	Amsterdam	3
 Imprynted in Southwarke	London	3
 Tiguri	Zürich	3
@@ -2413,8 +2413,8 @@ Amherst, New Hampshire	Amherst NH	2
 York-town [Pa.]	York PA	2
 [Danbury]	Danbury CT	2
 Portsmouth New-Hampshire	Portsmouth NH	2
-Chillicothe [Ohio]	Chillicothe Oh	2
-Knoxville, Tenn.	Knoxville Tn	2
+Chillicothe [Ohio]	Chillicothe OH	2
+Knoxville, Tenn.	Knoxville TN	2
 [Norfolk, Va.	Norfolk VA	2
 Philad.	Philadelphia PA	2
 Saint John [N.B.]	Saint John	2
@@ -3129,7 +3129,7 @@ Newbern [North Carolina]	New Bern NC	2
 London [England], printed	London	2
 St. John's in Antigua	St Johns Antiqua	2
 [Gilmanton, N.H.J.	Gilmanton NH	2
-Knoxville (state of Tennessee)	Knoxville Tn	2
+Knoxville (state of Tennessee)	Knoxville TN	2
 Belfast [Ireland]	Belfast	2
 Whitby [England]	Whitby	2
 Darlington [England]	Darlington	2
@@ -3234,7 +3234,7 @@ A Londres [i.e. Nîmes]	Nimes	1
 [[London] In the Savoy	London	1
 Southwark [i.e. London]	London	1
 Leipsic & Londres	Leipzig	1
-Turici [Zurich]	Zurich	1
+Turici [Zurich]	Zürich	1
 [Ludlow	Ludlow	1
 [London printed	London	1
 [Chelmsford?]	Chelmsford	1
@@ -4163,7 +4163,7 @@ Petersburg [Va]	Petersburg VA	1
 Providence, N.E	Providence RI	1
 Printed and sold at Litchfield, [Conn.]	Litchfield CT	1
 Nashville (Tennessee:)	Nashville TN	1
-[Knoxville, Tenn.?	Knoxville Tn	1
+[Knoxville, Tenn.?	Knoxville TN	1
 Printed at Springfield, (Massachusetts:)	Springfield MA	1
 [Wiscasset, Me.?	Wiscasset ME	1
 Printed in Newburyport [Mass.]	Newburyport MA	1
@@ -4372,7 +4372,7 @@ Boston [i.e., New York?]	New York NY	1
 Niew-York.	York	1
 Newport: Rhode-Island	Newport RI	1
 [Niagara, Upper Canada]	Niagara	1
-Knoxville, (Territory South of the Ohio)	Knoxville oh	1
+Knoxville, (Territory South of the Ohio)	Knoxville OH	1
 Printed at Greenfield, Mass.	Greenfield MA	1
 [Putney, Vt.	Putney VT	1
 [New-London, in N.E.	London	1
@@ -4653,7 +4653,7 @@ A Londres [Paris?	London	1
 A Londres [i.e.The Hague]	The Hague	1
 A Londres [i.e. Paris or Brussels?]	Paris	1
 Francfort and Leipzig	Frankfurt	1
-Dusseldorf	Duesseldorf	1
+Dusseldorf	Düsseldorf	1
 A Géneve	Geneve	1
 A Lichfield	Litchfield CT	1
 Yn y Mwythig [Shrewsbury]	Amwythig	1
@@ -4845,7 +4845,7 @@ Boston [i.e. Berlin?]	Berlin	1
 London [i.e. Leiden]	Leiden	1
 [High Wycombe]	High Wycombe	1
 [Ediburgh]	Edinburgh	1
-Edimburg [i.e. Zurich]	Zurich	1
+Edimburg [i.e. Zurich]	Zürich	1
 Berkhamsed [sic]	Berkhamsted	1
 [Crieff]	Crieff	1
 Dunkirk [i.e. London?]	London	1
@@ -6049,7 +6049,7 @@ Gedruct tot Oxford	Oxford	1
 [Venetia]	Venice	1
 Auenione	Avignon	1
 Impressus London[i]	London	1
-Tiguri [Zurich]	Zurich	1
+Tiguri [Zurich]	Zürich	1
 Imprinted at Ippyswiche	Ipswich	1
 Imprent[it at] Edinburgh	Edinburgh	1
 Mussiponti [i.e. London]	London	1
@@ -6076,7 +6076,7 @@ Enprynted in Westminster	London	1
 Cantebrig.	Cambridge	1
 Imprinted at London by Thomas Creed, and are to be solde at the signe of the Eagle and childe, in the olde chaunge	London	1
 Emprynted at Westmynstre	Westminster VT	1
-Neostadii	Neustadt an weinstraße	1
+Neostadii	Neustadt an weinstrasse	1
 Middleburgii	Middelburg	1
 [Hamburgh]	Hamburg	1
 Dubline	Dublin	1
@@ -7554,8 +7554,8 @@ ondon [i.e. London]	London	1
 [Cap François, Haiti]	Cap Haitien	1
 [St. Johns?] Antigua	St Johns Antiqua	1
 St. Jago de la Vega [i.e. Spanish Town], Jamaica]	Spanish Town Jamaica	1
-Knoxville, State of Tennessee	Knoxville Tn	1
-Knoxville, (State of Tennessee)	Knoxville Tn	1
+Knoxville, State of Tennessee	Knoxville TN	1
+Knoxville, (State of Tennessee)	Knoxville TN	1
 Quebec [i.e. Quebec City, Canada]	Quebec	1
 Saint Jago de la Vega [Spanish Town, Jamaica]	Kingston Jamaica	1
 [West Chester, Pa.]	Chester	1
@@ -7641,7 +7641,7 @@ Middletown, Conn.	Middletown CT	1
 Harrisburgh [i.e., Harrisburg, Pa.]	Harrisburgh PA	1
 Warren, R.I.	Warren RI	1
 Elizabeth-Town, N.J.	Elizabeth NJ	1
-[Knoxville, Tenn.]	Knoxville Tn	1
+[Knoxville, Tenn.]	Knoxville TN	1
 Dumfries, Va.	DumfriesVA	1
 [Geneva, N.Y.]	Geneva NY	1
 Fayetteville, N.C.	Fayetteville NC	1
@@ -7690,7 +7690,7 @@ Washington [D.C.]	Washington DC	1
 Pittsburgh, Pa.	Pittsburgh PA	1
 Nashville, Tenn.	Nashville TN	1
 Pittsfield, Mass.	Mass	1
-Chillicothe, North-Western Territory [i.e., Ohio]	Chillicothe Oh	1
+Chillicothe, North-Western Territory [i.e., Ohio]	Chillicothe OH	1
 Sharon, Conn.	Sharon Ct	1
 New-York, [N.Y.]	New York NY	1
 Norristown, Pa.	Norristown PA	1

@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 467307  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 467320  ( 50 % non-NA values)	Total count: 
 London	England	195320
 [London	England	55318
 [London]	England	21065
@@ -2273,6 +2273,7 @@ Imprinted [at London]	England	3
 [Zurich	Germany	3
 [The Netherlands	Netherlands	3
 Imprynted in Southwarke	England	3
+Tiguri	Germany	3
 Imprinted at Newcastle	England	3
 Middleburg [i.e. London]	England	3
 [Enprynted at Westmynster	England	3
@@ -3229,6 +3230,7 @@ Printed at Tornay	France	2
 Excudebat Londinensis	England	2
 [Prynted in Southwarke	England	2
 [Dort?	Netherlands	2
+[Zürich	Germany	2
 [Mechlin	Belgium	2
 Impressum Lo[n]doniis	England	2
 Prynted at Roane [i.e. London?]	England	2
@@ -5158,6 +5160,7 @@ Exoniae	England	1
 Derby printed	England	1
 Edimgbourg [sic] [i.e. Paris?]	France	1
 Boulogne	France	1
+Switzerland	Germany	1
 Valencia	Spain	1
 [A]berdeen	Scotland	1
 [Kingston-upon-Hull]	England	1
@@ -5173,6 +5176,7 @@ Calcuta [sic]	India	1
 A Malte	Malta	1
 Londres [i.e. Nancy?]	France	1
 Edimburgi [Zürich]	Scotland	1
+Edimburgi [i.e. Zürich]	Germany	1
 Londres [i.e. Warsaw?]	Poland	1
 Edinburgi & Londini	Scotland	1
 (Edinburgh?)	Scotland	1
@@ -5451,6 +5455,7 @@ St. Petersbourg	Russia	1
 Newcastle upn [sic] Tyne	England	1
 London [Bristol?]	England	1
 Trankenbariae	India	1
+Londres [i.e. Zürich?]	Germany	1
 Tranquebar in Ost-Indien	India	1
 Londre [i.e. Leipzig?]	Germany	1
 Tranquebariae, in India Orient. ad littus Coromandelinum	India	1
@@ -5541,6 +5546,7 @@ Londini [i.e. Rotterdam?]	Netherlands	1
 Milan	Italy	1
 [High Wycombe	England	1
 Madderty [i.e. Perth?]	Scotland	1
+Londini [i.e. Zürich]	Germany	1
 Ashby-de-la-Zouch	England	1
 Reigate	England	1
 [Frome?]	England	1
@@ -6046,6 +6052,7 @@ London sould by T	England	1
 [Parrhysiis	France	1
 At S. Omers, 1624	France	1
 At Makline	England	1
+Zurych	Germany	1
 Imprinted at Edinburgh [i.e. Holland?]	Netherlands	1
 Edinburgh [Amsterdam?]	Scotland	1
 Edinburgh. [i.e. Amsterdam?]	Netherlands	1
@@ -6095,6 +6102,7 @@ Imprinted at London by Thomas Vautrouillier dwelling in the blacke frieres	Engla
 [[Tauystoke]	England	1
 [Westmester	England	1
 [Venetia	Italy	1
+Tigvri	Germany	1
 Venetia	Italy	1
 Nurnberg	Germany	1
 Emprynted at Londo[n]	England	1
@@ -7084,6 +7092,8 @@ Imprinted at Oxford by Ioseph Barnes, and are to be sold in Pauls Church yeard [
 [Printed at Weesell [i.e. Antwerp	Belgium	1
 At Striveling in Scotlande [i.e. London	England	1
 Edimburgi [i.e. London	England	1
+[Prynted in Zurych	Germany	1
+Prynted in Zurych	Germany	1
 Insignia alme vniuersitatis Oxonie	England	1
 [Impressus est hic libellus Londini	England	1
 Oxoniaæ	England	1
