@@ -30,7 +30,8 @@ source(system.file("extdata/validation.R", package = "bibliographica"))
 
 # -----------------------------------------------------
 
-source(system.file("extdata/enrich.R", package = "bibliographica"))
+#source(system.file("extdata/enrich.R", package = "bibliographica"))
+source(system.file("extdata/enrich_geo.R", package = "bibliographica"))
 source("enrich.estc.R")
 
 # ----------------------------------------------------
