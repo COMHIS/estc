@@ -40,8 +40,10 @@ saveRDS(df.preprocessed, file = "df.Rds", compress = TRUE)
 
 # ----------------------------------------------------
 
-# Analyze the preprocessed data
+print("Analyze the preprocessed data")
 source("analysis.R")
+
+print("All OK.")
 
 # Test map visualizations (estc/old)
 # source("map.R")

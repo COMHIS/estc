@@ -159,11 +159,11 @@ Walpole, Horace (1717-1797)	124
 Challoner, Richard (1691-1781)	123
 Fletcher, John (1729-1785)	122
 Mason, William (1725-1797)	121
-Wilkes, John (1727-1797)	120
 Tate, Nahum (1652-1715)	120
 Fisher, George	119
 Fox, Charles James (1749-1806)	118
 Younge, Richard	117
+Wilkes, John (1727-1797)	117
 Sheridan, Thomas (1719-1788)	116
 Millington, Edward (1636-1703)	116
 Hart, John (1682-NA)	116
@@ -204,7 +204,6 @@ Brown, John (1722-1787)	107
 Wilson, Thomas (1663-1755)	106
 Russel, Robert (1692-NA)	106
 Luther, Martin (1483-1546)	106
-Lilly, William (1602-1675)	106
 Ken, Thomas (1637-1711)	106
 Dod, John (1549-1645)	106
 Preston, John (1587-1628)	105
@@ -212,6 +211,7 @@ Naylor, James (1617-1660)	105
 Gadbury, John (1627-1704)	105
 Norris, John (1657-1711)	104
 Love, Christopher (1618-1651)	104
+Lilly, William (1602-1675)	104
 Salmon, William (1644-1713)	103
 Gray, Andrew (1633-1656)	103
 Colman, George (1762-1836)	103
@@ -840,7 +840,6 @@ Harvey, Gideon (1640-1700)	41
 Halhed, Nathaniel Brassey (1751-1830)	41
 Garth, Samuel (1661-1719)	41
 Fuller, William (1670-1733)	41
-Fox, George (NA-1661)	41
 Fothergill, John (1712-1780)	41
 Douglas Of Douglas, Archibald (1748-1827)	41
 Croft, Herbert (1751-1816)	41
@@ -867,6 +866,7 @@ Lindsey, Theophilus (1723-1808)	40
 Hutchinson, John (1674-1737)	40
 Henderson, Andrew (1734-1775)	40
 Godwin, William (1756-1836)	40
+Fox, George (NA-1661)	40
 Field, John (1652-1723)	40
 Emerson, William (1701-1782)	40
 Dyke, Jeremiah (1584-1639)	40
@@ -1624,7 +1624,6 @@ Cellarius, Christoph (1638-1707)	24
 Carleton, George (1559-1628)	24
 Brevint, Daniel (1616-1695)	24
 Bisset, John (1692-1756)	24
-Birch, Thomas (1755-1766)	24
 Berridge, John (1716-1793)	24
 Bent, William (1747-1823)	24
 Bell, Robert (1732-1784)	24
@@ -1793,6 +1792,7 @@ Brightman, Thomas (1562-1607)	22
 Bowman, William (1703-1744)	22
 Bowles, William Lisle (1762-1850)	22
 Blome, Richard (NA-1705)	22
+Birch, Thomas (1755-1766)	22
 Bickham, George (1706-1771)	22
 Berkenhout, John (1730-1791)	22
 Bentley, Thomas Richard (1748-1831)	22
@@ -3376,7 +3376,6 @@ Smyth, John (1725-1612)	12
 Smyth, George (1689-1746)	12
 Smart, John (1730-1788)	12
 Sloane, Hans (1660-1753)	12
-Simon, Richard (1632-1712)	12
 Sheridan, William (1636-1711)	12
 Shepherd, Thomas (1665-1739)	12
 Shelley, George (1666-1736)	12
@@ -3716,6 +3715,7 @@ Smellie, William (1740-1795)	11
 Smart, Peter (1569-1652)	11
 Sloss, James (1698-1772)	11
 Simson, John (1668-1740)	11
+Simon, Richard (1632-1712)	11
 Silence, Timothy	11
 Shepheard, James (NA-1718)	11
 Shaw, Thomas (1694-1751)	11
@@ -11313,6 +11313,7 @@ Wilkinson, Henry (1566-1647)	3
 Wilkinson, Henry	3
 Wilkie, John (NA-1762)	3
 Wilkes, William (NA-1637)	3
+Wilkes, John (NA-1797)	3
 Wilford, Thomas (1530-1604)	3
 Wildair, Harry	3
 Wilcock, James (NA-1662)	3
@@ -17374,6 +17375,7 @@ Lindsay, Alexander (1561-1639)	2
 Lindesay, Thomas (1656-1724)	2
 Lindesay, John	2
 Lily, Peter (NA-1615)	2
+Lilly, William (1602-NA)	2
 Lilburne, John (1614-NA)	2
 Ligon, Richard	2
 Lightfoot, Peter	2
@@ -18711,7 +18713,7 @@ Francillon, John	2
 Framery, Nicolas Etienne (1745-1810)	2
 Fragment, Francis	2
 Fox, John (1796-NA)	2
-Fox, George (1661-1661)	2
+Fox, George (1661-NA)	2
 Fox, Edward Long (1761-1835)	2
 Fowler, Robert	2
 Fowler, Richard (1765-1863)	2
@@ -20282,6 +20284,7 @@ Birkbeck, George (1776-1841)	2
 Bird, Thomas (1749-1790)	2
 Bird, Robert	2
 Bird, James (NA-1691)	2
+Birch, Thomas (NA-1766)	2
 Birch, Robert (1800-NA)	2
 Birch, James (1725-1805)	2
 Birchall, John	2
@@ -23966,6 +23969,7 @@ Simpkinson, James (1767-1842)	1
 Simpkin, Charles	1
 Simotta, George	1
 Simons, Benjamin B (1776-1844)	1
+Simon, Richard (NA-1712)	1
 Simon, King Of England (1745-1794)	1
 Simon, James	1
 Simon, Edward	1
@@ -32674,6 +32678,7 @@ Fox, James	1
 Fox, Isaac	1
 Fox, Henry (1769-NA)	1
 Fox, Godfrey	1
+Fox, George	1
 Fox, Francis (1675-1686)	1
 Foxe, Luke (1586-1635)	1
 Fox, Edmond	1

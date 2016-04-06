@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 242248  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 242247  ( 50 % non-NA values)	Total count: 
 Wesley, John	Wesley, John (1703-1791)	1195
 Shakespeare, William	Shakespeare, William (1564-1616)	1078
 Defoe, Daniel	Defoe, Daniel (1661-1731)	1051
@@ -170,9 +170,9 @@ Challoner, Richard	Challoner, Richard (1691-1781)	123
 Fletcher, John	Fletcher, John (1729-1785)	122
 Dent, Arthur	Dent, Arthur (NA-1607)	122
 Mason, William	Mason, William (1725-1797)	121
-Wilkes, John	Wilkes, John (1727-1797)	120
 Tate, Nahum	Tate, Nahum (1652-1715)	120
 Fox, Charles James	Fox, Charles James (1749-1806)	118
+Wilkes, John	Wilkes, John (1727-1797)	117
 Behn, Aphra	Behn, Aphra (1640-1689)	117
 Sheridan, Thomas	Sheridan, Thomas (1719-1788)	116
 Millington, Edward	Millington, Edward (1636-1703)	116
@@ -219,11 +219,11 @@ Wilson, Thomas	Wilson, Thomas (1663-1755)	106
 Ken, Thomas	Ken, Thomas (1637-1711)	106
 Russel, Robert	Russel, Robert (1692-NA)	106
 Dod, John	Dod, John (1549-1645)	105
-Lilly, William	Lilly, William (1602-1675)	105
 Naylor, James	Naylor, James (1617-1660)	105
 Churchill, C.	Churchill, C (1731-1764)	105
 Gadbury, John	Gadbury, John (1627-1704)	105
 Norris, John	Norris, John (1657-1711)	104
+Lilly, William	Lilly, William (1602-1675)	104
 Josephus, Flavius.	Josephus, Flavius	104
 Love, Christopher	Love, Christopher (1618-1651)	104
 Colman, George	Colman, George (1762-1836)	103
@@ -894,7 +894,6 @@ Annet, Peter	Annet, Peter (1693-1769)	41
 Douglas of Douglas, Archibald Douglas	Douglas Of Douglas, Archibald (1748-1827)	41
 Hurd, Richard	Hurd, Richard (1720-1808)	41
 Sarpi, Paolo	Sarpi, Paolo (1552-1623)	41
-Fox, George	Fox, George (NA-1661)	41
 Backus, Isaac	Backus, Isaac (1724-1806)	41
 Radcliffe, Ann Ward	Radcliffe, Ann Ward (1764-1823)	41
 Halhed, Nathaniel Brassey	Halhed, Nathaniel Brassey (1751-1830)	41
@@ -920,6 +919,7 @@ Field, John	Field, John (1652-1723)	40
 MacNally, Leonard	Macnally, Leonard (1752-1820)	40
 Brady, Nicholas	Brady, Nicholas (1659-1726)	40
 Smith, Edmund	Smith, Edmund (1672-1710)	40
+Fox, George	Fox, George (NA-1661)	40
 Serle, Ambrose	Serle, Ambrose (1742-1812)	40
 Anderson, James	Anderson, James (1739-1808)	40
 Godwin, William	Godwin, William (1756-1836)	40
@@ -1706,7 +1706,6 @@ Rutty, John	Rutty, John (1698-1775)	24
 Parkinson, James	Parkinson, James (1755-1824)	24
 Reynolds, Joshua	Reynolds, Joshua (1723-1792)	24
 Pyle, Thomas	Pyle, Thomas (1674-1756)	24
-Birch, Thomas	Birch, Thomas (1755-1766)	24
 Chapman, John	Chapman, John (1704-1784)	24
 Noy, William	Noy, William (1577-1634)	24
 Mountmorres of Castlemorres, Hervey Redmond Morres	Mountmorres Of Castlemorres, Hervey Redmond Morres (NA-1797)	24
@@ -1865,6 +1864,7 @@ Walker, Robert	Walker, Robert (1716-1783)	22
 Astley, Philip	Astley, Philip (1742-1814)	22
 Pinkerton, John	Pinkerton, John (1758-1826)	22
 Elphinston, James	Elphinston, James (1721-1809)	22
+Birch, Thomas	Birch, Thomas (1755-1766)	22
 Burroughs, Joseph	Burroughs, Joseph (1685-1761)	22
 Byrom, John	Byrom, John (1692-1763)	22
 Bowman, William	Bowman, William (1703-1744)	22
@@ -14056,6 +14056,7 @@ Monypenny, David	Monypenny, David (NA-1762)	3
 Alcock, John	Alcock, John (1740-1791)	3
 Warren, Thomas	Warren, Thomas (1788-1767)	3
 Marchi, Antonio.	Marchi, Antonio	3
+Wilkes, John	Wilkes, John (NA-1797)	3
 Chilcot, Thomas	Chilcot, Thomas (1700-1766)	3
 Broster, P.	Broster, P	3
 Scott, Walter	Scott, Walter (1771-1832)	3
@@ -19429,6 +19430,7 @@ Sharp, James	Sharp, James (1613-1748)	2
 Reid, James	Reid, James (1750-1837)	2
 Baldwin, James	Baldwin, James (NA-1749)	2
 Tisdall, Thomas.	Tisdall, Thomas	2
+Birch, Thomas	Birch, Thomas (NA-1766)	2
 Leaford, John.	Leaford, John	2
 Scott, William	Scott, William (1733-1802)	2
 Annesley, Martin.	Annesley, Martin	2
@@ -21259,7 +21261,7 @@ Loubayssin de Lamarca, Francisco.	Loubayssin De Lamarca, Francisco	2
 Leybourn, William	Leybourn, William (1626-1700)	2
 Harwood, Edward	Harwood, Edward (1586-1632)	2
 Hall, Timothy	Hall, Timothy (1637-1690)	2
-Fox, George	Fox, George (1661-1661)	2
+Fox, George	Fox, George (1661-NA)	2
 Fisher, Samuel	Fisher, Samuel (NA-1681)	2
 Ockford, James.	Ockford, James	2
 Grenadine, Sebastian.	Grenadine, Sebastian	2
@@ -25161,7 +25163,7 @@ Campbell, Ann.	Campbell, Ann (NA-1722)	1
 Blyth, Joseph.	Blyth, Joseph	1
 Le Guen, Louis.	Le Guen, Louis	1
 Livermore, Edward St. Loe	Livermore, Edward St. Loe (1762-1832)	1
-Lilly, William.	Lilly, William (1602-1675)	1
+Lilly, William.	Lilly, William (1602-NA)	1
 Verity, Paul.	Verity, Paul	1
 Hendrickson, Daniel.	Hendrickson, Daniel	1
 Vansant, John.	Vansant, John	1
@@ -38550,6 +38552,7 @@ Ling, John	Ling, John (1648-NA)	1
 Lister, Martin	Lister, Martin (1638-NA)	1
 [Lacy, John]	Lacy, John]	1
 Lake, Edward	Lake, Edward (1641-NA)	1
+Lilly, William	Lilly, William (1602-NA)	1
 Robinson, John	Robinson, John (1625-1680)	1
 Livingston, William	Livingston, William (1576-1632)	1
 Lloyd, Richard, 1595-1659	Lloyd, Richard -	1
@@ -38776,7 +38779,7 @@ Sheering, R.	Sheering, R	1
 Buckworth, Edmund.	Buckworth, Edmund	1
 [Shirley, James]	Shirley, James]	1
 Culliford, William	Culliford, William (1698-NA)	1
-Simon, Richard.	Simon, Richard (1632-1712)	1
+Simon, Richard.	Simon, Richard (NA-1712)	1
 Simonds, Thomas	Simonds, Thomas (NA-1666)	1
 Simpson, Christopher.	Simpson, Christopher (NA-1669)	1
 [Simpson, Richard	Simpson, Richard (1661-1684)	1

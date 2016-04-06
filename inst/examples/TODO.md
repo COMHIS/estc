@@ -19,6 +19,8 @@
   * Automatically recognize potentially ambiguous place names (like
     concord) from the PublicationPlaceSynonymes.csv
 
+  * Enrich also only for selected fields to speed up updates
+
 ### Analysis
 
   * History-datan ajot koko datalla. Erityisesti mielenkiintoista miltä näyttää [Title count and paper consumption in Ireland, Scotland and the USA](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md) kun katsotaan koko datalla 
