@@ -1,0 +1,44 @@
+region;country;comment
+Belfast;Ireland;
+Belfast;Northern Ireland;
+Boston;Ambiguous;England|USA
+Caernarfon;England;
+Caernarfon;Ireland;
+Cambridge;Ambiguous;England|USA
+Carlow;England;
+Carlow;Ireland;
+Carmarthen;England;
+Carmarthen;Ireland;
+Cork;England;
+Cork;Ireland;
+Douglas;Isle of Man;
+Douglas;Scotland;
+Dublin;France;
+Dublin;Ireland;
+Exeter;England;
+Exeter;England|USA;
+Falkirk;England;
+Falkirk;Scotland;
+Geneva;Switzerland;
+Geneva;Switzerland|USA;
+Halifax;Canada;
+Halifax;England|USA;
+Kaliningrad;Russia;
+Kaliningrad;Russia #huom!;
+Launceston;Australia;
+Launceston;England;
+Leiden;Germany;
+Leiden;Netherlands;
+Lisbon;Portucal;
+Lisbon;Portugal;
+Portsmouth;England;
+Portsmouth;England|USA;
+Reading;England;
+Reading;England|USA;
+Reims;Belgium;
+Reims;France;
+Reims;Netherlands;
+Rome;Italy;
+Rome;Italy|USA;
+Winchester;England;
+Winchester;England|USA;
