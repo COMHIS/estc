@@ -2,6 +2,9 @@
 
 ### Technical
 
+  * Paikannimilistojen kommenteista Ambiguous - hoida jotenkin tieto
+    lopulliseen dataan
+
   * Ei aina systemaattista kumpi nimi otetaan jos esim "londres paris"
     jossain vastaavissa tapauksissa eka, toisissa toka. Check
     PublicationPlaceSynonymes

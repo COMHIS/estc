@@ -71,18 +71,18 @@ Derby	160
 Bury St Edmunds	159
 Stirling	158
 Plymouth	158
+Tharangampadi	155
 Sherborne	155
 Bennington VT	155
-Hamburg	153
+Hamburg	150
 Savannah GA	149
 Burlington NJ	149
 Wolverhampton	147
-Tharangampadi	147
 Lincoln	147
+Douai	146
 Darlington	145
 Preston	144
 New Bern NC	144
-Douai	144
 Montreal	143
 Kendal	143
 Middelburg	140
@@ -118,7 +118,7 @@ Yarmouth	100
 Stamford	97
 Taunton	96
 Geneva	96
-Elizabeth NJ	95
+Elizabeth NJ	94
 Spanish Town	92
 Springfield MA	91
 Madras India	91
@@ -149,10 +149,10 @@ Frankfurt	65
 Doncaster	64
 Danbury CT	64
 Chichester	64
-Brussels	64
 Wakefield	63
 Livorno	63
 Huddersfield	63
+Brussels	63
 Sunderland	62
 New Orleans La	62
 Leominster MA	62
@@ -173,7 +173,6 @@ Warren RI	54
 Stockport	54
 Augusta GA	53
 Stockton	52
-Mass	52
 Kilmarnock	50
 Hertford	50
 Fishkill NY	50
@@ -424,6 +423,7 @@ Hillsborough NC	9
 Hemel Hempstead	9
 Galway	9
 Fayetteville NC	9
+Concord (MA or NH)	9
 Chippenham	9
 Charlottetown	9
 Bungay	9
@@ -574,6 +574,7 @@ Crewkerne	4
 Concord MA	4
 Cheshunt	4
 Carrick (Carrickfergus or Carrick-on-Suir)	4
+Cap-Haitien	4
 Cape Town	4
 Caen	4
 Cadiz	4
@@ -584,7 +585,6 @@ Breslau	4
 Brattleborough VT	4
 Bouillon	4
 Bologna	4
-Blandford	4
 Avignon	4
 Atherstone	4
 Andover MA	4
@@ -601,7 +601,6 @@ Trevoux	3
 Toulouse	3
 Torrington CT	3
 Tetbury	3
-Tarankanpaṭiyile	3
 Sydney	3
 Stuttgart	3
 St Georges Grenada	3
@@ -663,6 +662,7 @@ Bannockburn	3
 Bampton	3
 Ballymena	3
 Bagdad	3
+Augsburg	3
 Ashford	3
 Zutphen	2
 Y Bont-faen	2
@@ -675,8 +675,6 @@ Tübingen	2
 Tornay	2
 Thirsk	2
 Tavistock	2
-Tarankanpaṭi	2
-Tarankanapaṭiyile	2
 Szczecin	2
 Strahane	2
 Stowmarket	2
@@ -748,7 +746,6 @@ Elizabethtown MD	2
 Eastbourne	2
 Duns	2
 Dunkalk	2
-Doueay	2
 Dieppe	2
 Dewsbury	2
 Deal	2
@@ -771,8 +768,6 @@ Besançon	2
 Bedale	2
 Basingstoke	2
 Bala	2
-Au cap francais	2
-Ata so ar na chur gclo mbaile atha cliath	2
 Alfreton	2
 Aix-en-Provence	2
 Adpar	2
@@ -793,9 +788,6 @@ Warminster PA	1
 Wantage	1
 Versailles	1
 Verdun	1
-Venduntur london	1
-Venales hab⁻etur london	1
-Venales extant london	1
 Vatican	1
 Valencia	1
 Utopia	1
@@ -806,7 +798,6 @@ Tivoli	1
 Thurles	1
 Thetford	1
 Thame	1
-Tarankanapaṭi	1
 Swaffham	1
 Sulechow	1
 Stow	1
@@ -850,7 +841,6 @@ Ringwood	1
 Rhaglan	1
 Rennes	1
 Redruth	1
-Que ciuitate london	1
 Poulton-le-Fylde	1
 Potsdam	1
 Portsmouth GB	1
@@ -877,9 +867,7 @@ Omagh	1
 Oldham	1
 Offenbach	1
 Oberwesel	1
-Nuper london	1
 Nulun	1
-Nouiter ac diligenter non minimo labore revis us london	1
 Norton Fitzwarren	1
 Northwich	1
 Norrköping	1
@@ -914,15 +902,13 @@ Maastricht	1
 Lynchburg VA	1
 Low countries	1
 Long Buckby	1
-Londinis	1
-Lodonus	1
 Little britain	1
 Lisburn	1
 Libanon PA	1
 Lemgo	1
 Leeuwarden	1
 Lebanon PA	1
-La trinite martinique	1
+La Trinite	1
 Langport	1
 Lancester PA	1
 Lancaster NJ	1
@@ -995,11 +981,8 @@ Featherstone	1
 Fawsley	1
 Farnham	1
 Farmington CT	1
-Exaratus london	1
 Europ	1
-Est london	1
 Eshott	1
-Eniscorthy	1
 Ellesmere	1
 Elie	1
 Elgin	1
@@ -1035,8 +1018,6 @@ Coburg	1
 Clones	1
 Clifton	1
 Ciutadella	1
-Ciuitate londoniensi	1
-Ciuitate london	1
 Christiansted VI	1
 Chestertown MD	1
 Cheshire CT	1
@@ -1047,8 +1028,6 @@ Castlebar	1
 Cassel	1
 Carrick-on-Suir	1
 Carrickfergus	1
-Cap francois haiti	1
-Cape francois	1
 Canterbury NH	1
 Canandaigua NY	1
 Campbeltown	1
@@ -1093,9 +1072,6 @@ Balfron	1
 Bakewell	1
 Axminster	1
 Avranches	1
-Augustae vind friburg brisg	1
-Augustae vindel friburgi brisg	1
-Augsburg	1
 Ashby-de-la-Zouch	1
 Ashby	1
 Ashburton	1
@@ -1104,6 +1080,7 @@ Arezzo	1
 Appelby-in-Westmorland	1
 Ampthill	1
 Ambleside	1
+Ambiguous	1
 Altmore	1
 Aldermanbury	1
 Albigion	1
