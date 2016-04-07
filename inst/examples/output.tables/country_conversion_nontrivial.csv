@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 478412  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 478394  ( 50 % non-NA values)	Total count: 
 London	England	195320
 [London	England	55318
 [London]	England	21065
@@ -1126,7 +1126,6 @@ A Lyon	France	8
 [Boston, Mass.?	USA	8
 Croydon	England	8
 Chippenham	England	8
-Wilmington	USA	8
 A La Haye	Netherlands	8
 Bocking	England	8
 [Pennsylvania	USA	8
@@ -1374,7 +1373,6 @@ Cantabrigiæ Nov-Anglorum [i.e., Boston	Ambiguous	6
 Boston printed	Ambiguous	6
 [Montréal	Canada	6
 Burlington	USA	6
-[Wilmington	USA	6
 [Walpole]	USA	6
 Halifax, in Nova Scotia	USA	6
 [Portsmouth?	Ambiguous	6
@@ -2567,7 +2565,6 @@ Salem	England	2
 Basle	Switzerland	2
 Saint-Malo	France	2
 [Eaton-Hall, Cheshire, England	Germany	2
-[Wilmington]	USA	2
 A Londres [i.e. Bouillon]	Belgium	2
 [Selby]	England	2
 [Leicester, England]	England	2
@@ -2610,7 +2607,6 @@ A Québec.	Canada	2
 Halifax, in Nova-Scotia	USA	2
 [Portsmouth, N.H.?]	USA	2
 Alexandria	USA	2
-[Wilmington?	USA	2
 Baltimore, Maryland	USA	2
 [Boston: N.E.	Ambiguous	2
 [Hudson]	USA	2

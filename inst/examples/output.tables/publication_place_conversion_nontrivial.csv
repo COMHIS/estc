@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 217479  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 217487  ( 50 % non-NA values)	Total count: 
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -964,6 +964,7 @@ A Lyon	Lyon	8
 [Bury St. Edmunds	Bury St Edmunds	8
 [Boston, Mass.?	Boston MA	8
 Croydon	London	8
+Wilmington	Wilmington (DE or NC)	8
 A La Haye	The Hague	8
 [Pennsylvania	Philadelphia PA	8
 [Lancaster	Lancaster PA	8
@@ -1187,7 +1188,7 @@ Cantabrigiæ Nov-Anglorum [i.e., Boston	Boston	6
 Boston printed	Boston	6
 [Montréal	Montreal	6
 Burlington	Burlington NJ	6
-[Wilmington	Wilmington	6
+[Wilmington	Wilmington (DE or NC)	6
 [Walpole]	Walpole MA	6
 Halifax, in Nova Scotia	Halifax NS	6
 [Portsmouth?	Portsmouth	6
@@ -2314,7 +2315,7 @@ Printed at Delph in Holland	Delft	2
 A Amsterdam et a Leipzig	Amsterdam	2
 Basle	Basel	2
 [Eaton-Hall, Cheshire, England	Halle	2
-[Wilmington]	Wilmington	2
+[Wilmington]	Wilmington (DE or NC)	2
 A Londres [i.e. Bouillon]	Bouillon	2
 [Selby]	Selby	2
 [Leicester, England]	Leicester	2
@@ -2356,7 +2357,7 @@ A Québec.	Quebec	2
 Halifax, in Nova-Scotia	Halifax NS	2
 [Portsmouth, N.H.?]	Portsmouth NH	2
 Alexandria	Alexandria VA	2
-[Wilmington?	Wilmington	2
+[Wilmington?	Wilmington (DE or NC)	2
 Baltimore, Maryland	Baltimore MD	2
 [Boston: N.E.	Boston	2
 [Hudson]	Hudson NY	2

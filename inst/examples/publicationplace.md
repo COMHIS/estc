@@ -37,6 +37,6 @@ Top-20 publication places are shown together with the number of documents. This 
 |England     | 351932| 73.1355659|
 |Ambiguous   |  44052|  9.1545183|
 |Scotland    |  40009|  8.3143359|
-|USA         |  31813|  6.6111117|
+|USA         |  31795|  6.6073711|
 |France      |   3620|  0.7522781|
 |Netherlands |   1911|  0.3971280|
