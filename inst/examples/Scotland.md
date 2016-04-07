@@ -8306,7 +8306,7 @@ We have 34231 documents from Scotland and 204946 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 724 rows containing missing values (geom_point).
+## Warning: Removed 932 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
