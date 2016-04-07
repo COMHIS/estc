@@ -20,7 +20,6 @@ sf <- generate_summaryfiles(df.preprocessed, author = author,
 # Custom definitions
 source("general.R") # See estc TODO file
 
-
 df <- df.preprocessed <- df.preprocessed.orig
 knit("Edinburgh.Rmd")
 

@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 211396  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 217524  ( 50 % non-NA values)	Total count: 
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -15,12 +15,14 @@ Printed at London	London	2173
 [London?]	London	2081
 [Dublin	Dublin	2040
 Londres	London	2011
+[Boston	Boston	1963
 New-York	New York NY	1859
 [Dublin]	Dublin	1782
 [New York	New York NY	1455
 [Imprinted at London	London	1419
 A Londres	London	1097
 Londres [i.e. Paris?]	Paris	1057
+[Boston]	Boston	1005
 [Philadelphia]	Philadelphia PA	999
 [Edinburgh]	Edinburgh	906
 [[London]	London	890
@@ -48,7 +50,11 @@ Baltimore	Baltimore MD	369
 [Newcastle upon Tyne	Newcastle	367
 Glasguae	Glasgow	338
 [Londini	London	330
+[Boston?	Boston	324
+Wilmington [Del.]	Wilmington DE	286
+Printed at Boston	Boston	268
 Londra	London	266
+Boston: N.E.	Boston	262
 Exon	Exeter	261
 [Glasgow?	Glasgow	257
 [Glasgow]	Glasgow	256
@@ -60,10 +66,12 @@ Londres [i.e. Paris]	Paris	243
 Annapolis	Annapolis MD	234
 [Newport, R.I.	Newport RI	234
 [Glasgow	Glasgow	228
+Boston in New-England	Boston MA	227
 [Quebec	Quebec	223
 [Annapolis	Annapolis MD	217
 [Manchester	Manchester	214
 Newport [R.I.]	Newport RI	214
+Boston, N.E.	Boston	213
 At Oxford	Oxford	212
 [Halifax	Halifax	210
 [York	York	208
@@ -76,6 +84,7 @@ Printed at Oxford	Oxford	201
 Williamsburg [Va.]	Williamsburg VA	198
 [Glasgow?]	Glasgow	196
 [Providence	Providence RI	188
+Boston, New-England	Boston MA	186
 [York?	York	184
 [Cambridge?	Cambridge	180
 [Salisbury	Salisbury	175
@@ -114,6 +123,7 @@ Excusum Londini	London	134
 [Norwich	Norwich	127
 [Tunbridge Wells	Tunbridge Wells	127
 [Maidstone	Maidstone	126
+Boston in N.E.	Boston	125
 [Richmond	Richmond	124
 [Westminster	London	124
 Portsmouth [N.H.]	Portsmouth NH	123
@@ -143,6 +153,7 @@ Imprynted at London	London	94
 [New Haven]	New Haven MA	93
 [Enprynted at London	London	92
 Edinburg	Edinburgh	90
+Boston; New-England	Boston MA	90
 [New London, Conn.]	New London CT	89
 Bury St. Edmund's	Bury St Edmunds	88
 [Portsmouth, N.H.	Portsmouth NH	86
@@ -184,6 +195,7 @@ Imprinted at Dublin	Dublin	70
 [Paris	Paris	69
 Oxon	Oxford	68
 [Liverpool	Liverpool	67
+Boston.	Boston	67
 [Ipswich?	Ipswich	67
 [Aberdeen?	Aberdeen	66
 [Salem, Mass.	Salem MA	66
@@ -199,6 +211,7 @@ A Londres [i.e. Paris]	Paris	62
 Aldershot in Hampshire near Farnham in Surry	Aldershot	62
 Westminster	London	62
 [Portsmouth, N.H.]	Portsmouth NH	62
+Boston, in N.E.	Boston	62
 [Providence?	Providence RI	62
 Newport, Rhode-Island	Newport RI	62
 London [i.e. Edinburgh]	Edinburgh	62
@@ -222,6 +235,7 @@ Portsmouth, New-Hampshire	Portsmouth NH	54
 [Maidstone?	Maidstone	54
 Printed at York	York	54
 [Hartford?	Hartford CT	53
+Boston [Mass.]	Boston MA	53
 [Halifax?	Halifax	53
 [Exeter]	Exeter	51
 À Londres	London	51
@@ -274,11 +288,13 @@ London [i.e. Edinburgh?]	Edinburgh	43
 Trangambar	Tharangampadi	43
 At Amsterdam	Amsterdam	43
 [Leicester	Leicester	42
+[Wilmington, Del.	Wilmington DE	42
 [Belfast]	Belfast	42
 [Shrewsbury	Shrewsbury	41
 Londoni	London	41
 Hudson [N.Y.]	Hudson NY	41
 In Londra	London	41
+Bostoniæ [Boston]	Boston	41
 [Oxford?]	Oxford	40
 [Leicester?	Leicester	40
 [England	London	40
@@ -318,6 +334,7 @@ Saint Jago de la Vega	Spanish Town	36
 London [i.e. Dublin]	Dublin	36
 New-York [N.Y.]	New York NY	36
 New York [N.Y.]	New York NY	36
+Boston: New-England	Boston MA	35
 [New London, Conn.?	New London CT	35
 Danbury [Conn.]	Danbury CT	35
 Printiedig yn Llundain	London	34
@@ -341,6 +358,7 @@ Halifax [N.C.]	Halifax NC	32
 [Worcester?	Worcester	32
 [Birmingham?]	Birmingham	32
 [Impressum Londini	London	32
+Printed at Doway	Douai	32
 [Gloucester	Gloucester	31
 A Londres [i.e. Amsterdam?]	Amsterdam	31
 [Leeds]	Leeds	31
@@ -355,6 +373,7 @@ Imprinted at Edinburgh	Edinburgh	30
 [At London	London	30
 [Poughkeepsie, N.Y.	Poughkeepsie NY	30
 [[London?]	London	30
+[Massachusetts?	Boston MA	30
 Richmond [Va.]	Richmond VA	30
 Newark [N.J.]	Newark NJ	30
 Concord [N.H.]	Concord NH	30
@@ -378,12 +397,14 @@ Bristoll	Bristol	28
 [York?]	York	28
 [Amsterdam?]	Amsterdam	28
 Portland [Me.]	Portland ME	28
+Boston, in New-England	Boston MA	28
 Augusta [Ga.]	Augusta GA	28
 Mwythig	Amwythig	28
 [Twickenham]	Twickenham	28
 [Calcutta	Calcutta	28
 [Banbury]	Banbury	28
 Hague	The Hague	28
+At Doway	Douai	28
 Printed at Oxford [i.e. London]	London	28
 [Worcester	Worcester	27
 [Belfast	Belfast	27
@@ -421,6 +442,7 @@ Poughkeepsie [N.Y.]	Poughkeepsie NY	24
 York [Pa.]	York PA	24
 Portsmouth: New-Hampshire	Portsmouth NH	24
 [Worcester, Mass.]	Worcester MA	24
+[Wilmington, Del.]	Wilmington DE	24
 New London [Conn.]	New London CT	24
 Abredoniæ	Aberdeen	24
 [Perth]	Perth	23
@@ -447,6 +469,7 @@ St. Jago de la Vega	Spanish Town	22
 Printed at Amsterdam	Amsterdam	22
 [Cambridge (England)	Cambridge	22
 [Emden	Emden	22
+Boston, Mass.	Boston MA	22
 [Norwich?]	Norwich	21
 [Derby?	Derby	21
 [Whitehaven?	Whitehaven	21
@@ -493,12 +516,17 @@ Barbados	Bridgetown Barbados	19
 [Windsor]	Windsor	19
 [England?	London	19
 [Darlington?	Darlington	19
+[Boston, Mass.]	Boston MA	19
+[Boston, Mass.	Boston MA	19
 [Exeter, N.H.?	Exeter NH	19
 [Falkirk]	Falkirk	19
+[Boston?]	Boston	19
 [Charlotte-Town	Charlottetown Pe	19
 Printed at Philadelphia	Philadelphia PA	19
 [Albany?	Albany NY	19
 Portsmouth, in New-Hampshire	Portsmouth NH	19
+Printed in Boston	Boston	19
+Printed, typographically, at Boston	Boston	19
 Dedham [Mass.]	Dedham MA	19
 --Philadelphia	Philadelphia PA	19
 Woodbridge	Woodbridge NJ	19
@@ -530,7 +558,7 @@ Imprinted at Amsterdam	Amsterdam	18
 Re-printed at Edinburgh	Edinburgh	18
 [England?]	London	17
 [Reading	Reading	17
-Antigua	Saint John	17
+Antigua	St Johns	17
 [Perth?	Perth	17
 [Stirling?]	Stirling	17
 [Lancaster?	Lancaster PA	17
@@ -556,6 +584,8 @@ Printed at Kilkenny	Kilkenny	17
 Berwick upon Tweed	Berwick-upon-Tweed	16
 Edinbvrgi	Edinburgh	16
 [Derby]	Derby	16
+Doway	Douai	16
+Boston in New England	Boston MA	16
 London-Derry	Londonderry	16
 [Port-au-Prince	Port-au-Prince	16
 St. John	St Johns Antiqua	16
@@ -594,6 +624,7 @@ Chatham [N.J.]	Chatham NJ	15
 Whitehall [Pa.]	Whitehall PA	15
 Printed at Portland [Me.]	Portland ME	15
 [Bennington, Vt.]	Bennington VT	15
+Boston: in N.E.	Boston	15
 Petersburg [Va.]	Petersburg VA	15
 A Londre	London	15
 [Madras]	Madras India	15
@@ -614,6 +645,7 @@ Printed in London	London	14
 [Bath?]	Bath	14
 [New Jersey?	Newark NJ	14
 [New Jersey	Newark NJ	14
+Boston in New-England.	Boston MA	14
 [New York?]	New York NY	14
 [Lancaster, Pa.?	Lancaster PA	14
 [Windsor, Vt.	Windsor VT	14
@@ -656,9 +688,11 @@ Abredoniae	Aberdeen	13
 [Ephrata, Pa.?	Ephrata PA	13
 [Leominster, Mass.?]	Leominster MA	13
 [Windsor, Vt.]	Windsor VT	13
+Printed at Boston.	Boston	13
 Printed at Walpole, Newhampshire	Walpole NH	13
 Watertown [Mass.]	Watertown MA	13
-New-Castle [Del.]	New Castle de	13
+[Boston] America	Boston MA	13
+New-Castle [Del.]	New Castle DE	13
 Newport (Rhode-Island)	Newport RI	13
 Kingston [Jamaica]	Kingston Jamaica	13
 Bury St. Edmunds	Bury St Edmunds	13
@@ -686,6 +720,7 @@ In London	London	12
 Edinburghi	Edinburgh	12
 Philadelphie [i.e. Paris]	Paris	12
 [Lancaster]	Lancaster PA	12
+Printed at Boston in New-England	Boston MA	12
 [England]	London	12
 [Portsmouth]	Portsmouth	12
 [Aylesbury?	Aylesbury	12
@@ -708,6 +743,7 @@ Printed at Salem [Mass.]	Salem MA	12
 Fairhaven [Vt.]	Fairhaven VT	12
 [Vepery]	Chennai	12
 Oxonia	Oxford	12
+Douay	Douai	12
 [Huntingdon?	Huntingdon	12
 [Londini]	London	12
 [Rochester]	Rochester	12
@@ -719,6 +755,7 @@ Oxonia	Oxford	12
 [[Paris]	Paris	12
 [[Antwerp]	Antwerp	12
 [Antwerp?	Antwerp	12
+At Douay	Douai	12
 Printed at Antwerp	Antwerp	12
 Louanii	London	12
 [Saint Omer	St Omer	12
@@ -747,6 +784,7 @@ New-London	New London CT	11
 [Williamsburg, Va.]	Williamsburg VA	11
 [Richmond?	Richmond	11
 Massachusetts-Bay: Worcester	Worcester MA	11
+Bostoniae	Boston	11
 Providence (Rhode-Island)	Providence RI	11
 Frankfort [Ky.]	Frankfort KY	11
 [Augusta, Ga.	Augusta GA	11
@@ -782,9 +820,11 @@ Exeter, N.H.	Exeter NH	10
 Plymouth-Dock	Plymouth	10
 [Savannah?	Savannah GA	10
 [Exeter, England]	Exeter	10
+[Wilmington, Del.?	Wilmington DE	10
 Catskill [N.Y.]	Catskill NY	10
 Columbia [S.C.]	Columbia SC	10
 New-London [Conn]	New London CT	10
+Printed at Wrentham, Massachusetts	Boston MA	10
 [Alexandria, Va.	Alexandria VA	10
 Wiscasset [Me.]	Wiscasset ME	10
 Cooperstown [N.Y.]	Cooperstown NY	10
@@ -863,6 +903,7 @@ Cologne [i.e. London]	London	9
 A Montréal	Montreal	9
 [Trenton?	Trenton	9
 [Annapolis?	Annapolis MD	9
+Boston, [Mass.]	Boston MA	9
 [United States?]	United States	9
 Printed in Albany	Albany NY	9
 Novi-Portus	New Haven CT	9
@@ -914,7 +955,7 @@ A Londres [London, England]	London	9
 Nottingham [England]	Nottingham	9
 Newcastle upon Tyne [England]	Newcastle	9
 [Bath, England]	Bath	9
-Leodii	Liège	8
+Leodii	Liege	8
 [Portsmouth	Portsmouth	8
 A Lyon	Lyon	8
 [Guildford]	Guildford	8
@@ -923,6 +964,7 @@ A Lyon	Lyon	8
 [Monmouth]	Monmouth	8
 [Williamsburg, Va.?	Williamsburg VA	8
 [Bury St. Edmunds	Bury St Edmunds	8
+[Boston, Mass.?	Boston MA	8
 Croydon	London	8
 A La Haye	The Hague	8
 [Pennsylvania	Philadelphia PA	8
@@ -936,12 +978,14 @@ Friedrich-Stadt [Md.]	Fredericktown MD	8
 [Woodbridge, N.J.]	Woodbridge NJ	8
 [Newark]	Newark	8
 [Annapolis]	Annapolis MD	8
-Sagg-Harbour [N.Y.]	Sag harbour ny	8
+Boston, New England	Boston MA	8
+Sagg-Harbour [N.Y.]	Sag Harbour NY	8
 [Stockbridge, Mass.]	Stockbridge MA	8
 Salisbury [N.C.]	Salisbury NC	8
 Printed in Catskill [N.Y.]	Catskill NY	8
 Whitestown [N.Y.]	Whitesboro NY	8
 Raleigh [N.C.]	Raleigh NC	8
+Commonwealth of Massachusetts: Boston	Boston MA	8
 [Newburyport]	Newburyport MA	8
 Schenectady [N.Y.]	Schenectady NY	8
 [New York, N.Y.]	New York NY	8
@@ -1030,6 +1074,7 @@ Elizabeth Town [N.J.]	Elizabeth NJ	7
 Printed at Worcester	Worcester	7
 Printed at Greenfield, Massachusetts	Greenfield MA	7
 Leominster [Mass.]	Leominster MA	7
+Boston; N.E.	Boston	7
 N. London [New London, Conn.]	London	7
 [Northampton, Mass.]	Northampton MA	7
 [Norwich, Conn.?	Norwich CT	7
@@ -1037,6 +1082,7 @@ Norwich [Conn]	Norwich CT	7
 [York, Pa.	York PA	7
 [Dresden, Vt., i.e., Hanover, N.H.	Hanover NH	7
 Printed at Rutland, Vermont	Rutland VT	7
+[Massachusetts	Boston MA	7
 Windsor, state of Vermont	Windsor	7
 Fish-Kill [N.Y.]	Fishkill NY	7
 Amherst [N.H.]	Amherst NH	7
@@ -1091,6 +1137,7 @@ Hambourg	Hamburg	7
 Londres [i.e. Lausanne	Lausanne	7
 [Westminster?	London	7
 [Hemel Hempstead?	Hemel Hempstead	7
+Printed at Douay	Douai	7
 [Imprinted at Lo[n]don	London	7
 [Imprentit at Edinburgh	Edinburgh	7
 [Prynted at Cantorbury	Canterbury	7
@@ -1136,6 +1183,9 @@ Edimbourg	Edinburgh	6
 [Inverness?	Inverness	6
 [St. John	St Johns Antiqua	6
 [Shelburne?	Shelburne	6
+Boston; New England	Boston MA	6
+Cantabrigiæ Nov-Anglorum [i.e., Boston	Boston	6
+Boston printed	Boston	6
 [Montréal	Montreal	6
 Burlington	Burlington NJ	6
 [Wilmington	Wilmington	6
@@ -1145,7 +1195,7 @@ Halifax, in Nova Scotia	Halifax NS	6
 [Dover, N.H.]	Dover NH	6
 Dover, (N.H.)	Dover NH	6
 [Georgetown, D.C.	Georgetown DC	6
-Stonington-Port [Conn.]	Stonington ct	6
+Stonington-Port [Conn.]	Stonington CT	6
 [Mount Holly, N.J.]	Mount Holly NJ	6
 Portsmouth, New Hampshire	Portsmouth NH	6
 Printed in Danbury [Conn.]	Danbury CT	6
@@ -1153,6 +1203,7 @@ Salem [Mass.]: N.E.	Salem	6
 Medford [Mass.]	Medford MA	6
 [Newport, R.I.?]	Newport RI	6
 [Newark, N.J.]	Newark NJ	6
+New-England	Boston MA	6
 [Washington, D.C.?	Washington DC	6
 Cincinnati	Cincinnati OH	6
 Harrisburgh [Pa.]	Harrisburgh PA	6
@@ -1163,6 +1214,8 @@ Providence (Rhode Island)	Providence RI	6
 [Leominster, Mass.]	Leominster MA	6
 [Springfield, Mass.]	Springfield MA	6
 Leominster, Mass.	Leominster MA	6
+Printed in Boston, Massachusetts	Boston MA	6
+Boston (Massachusetts:)	Boston MA	6
 State of New-Hampshire, Portsmouth	Portsmouth	6
 New-Bedford [Mass.]	New Bedford MA	6
 Charles-Town [i.e. Charleston, S.C.]	Charleston SC	6
@@ -1176,12 +1229,14 @@ Printed at Providence (R.I.)	Providence RI	6
 --Baltimore	Baltimore MD	6
 Printed at Rutland [Vt.]	Rutland VT	6
 New Brunswick [N.J.]	New Brunswick NJ	6
+Boston, Massachusetts	Boston MA	6
 Swansea	Abartawe	6
 [St. Petersburg	St Petersburg	6
 Mentz and Frankfort	Mainz	6
 [Salisbury?]	Salisbury	6
 [Tewkesbury	Tewkesbury	6
 Londra [i.e. Paris?]	Paris	6
+Boston [Lincs.]	Boston MA	6
 Te Amsterdam	Amsterdam	6
 A Oxford	Oxford	6
 A Londres [i.e. Amsterdam]	Amsterdam	6
@@ -1253,7 +1308,7 @@ Manchester [England]	Manchester	6
 A Londres [i.e. the Netherlands?]	Amsterdam	5
 Venetiis	Venice	5
 A Guernesey	Guernesey	5
-[Guernsey?	St peter port	5
+[Guernsey?	St Peter Port	5
 Kingston upon Hull	Hull	5
 [Londres?	London	5
 [Eton	Eton	5
@@ -1280,7 +1335,7 @@ A Philadelphie [i.e. Paris?]	Paris	5
 Printed at Hudson (New-York)	Hudson NY	5
 [Büdingen]	Bödingen	5
 [Newport	Newport RI	5
-Charlotte Town, island of Saint John	Charleston SC	5
+Charlotte Town, island of Saint John	Charlottetown	5
 [New Brunswick, N.J.?	New Brunswick NJ	5
 [Norfolk, Va.]	Norfolk VA	5
 Harrisburg [Pa.]	Harrisburgh PA	5
@@ -1300,6 +1355,7 @@ Exeter, New-Hampshire	Exeter	5
 [Lexington, Ky.?	Lexington KY	5
 [Litchfield, Conn.?	Litchfield CT	5
 [Keene, N.H.]	Keene NH	5
+Cantabrigiæ, Nov-Anglorum, [i.e., Boston	Boston	5
 Printed and sold in Danbury [Conn.]	Danbury CT	5
 Walpole, Newhampshire	Walpole NH	5
 [Warren]	Warren	5
@@ -1315,6 +1371,8 @@ Dover, N.H.	Dover NH	5
 Peacham, Vermont	Peacham VT	5
 Norristown [Pa.]	Norristown PA	5
 [Chestnut Hill, Pa.]	Chestnut Hill PA	5
+Boston N.E.	Boston	5
+Boston, N. England	Boston	5
 [Westminster]	London	5
 [Newbern N.C.	New Bern NC	5
 [Newbern, N.C.?	New Bern NC	5
@@ -1322,7 +1380,7 @@ Printed in Bennington [Vt.]	Bennington VT	5
 Chesnut-Hill [Pa.]	Chestnut Hill PA	5
 Brooklyn	New York NY	5
 Printed at Hanover, Newhampshire	Hanover	5
-Hägerstaun [Md.]	Hagerstown MD	5
+Hägerstaun [Md.]	Hagerstown Md	5
 [Windsor Vt.?	Windsor VT	5
 A Québec	Quebec	5
 [Glasgow or Edinburgh?]	Glasgow	5
@@ -1332,6 +1390,7 @@ Lipsiae	Leipzig	5
 Londres [i.e. Basel]	Basel	5
 [Carmarthen	Carmarthen	5
 Glascow	Glasgow	5
+Boston [England]	Boston	5
 [Woodbridge]	Woodbridge NJ	5
 [Scarborough	Scarborough	5
 [Scarborough?	Scarborough	5
@@ -1353,6 +1412,7 @@ Edinburg [sic]	Edinburgh	5
 [Hamburg]	Hamburg	5
 Londres [i.e. Rouen]	Rouen	5
 Antwerp [i.e. London?]	London	5
+Jersey	Jersey (St Helier or Jersey City NJ)	5
 Waymouth	Weymouth	5
 Knaresbrough	Knaresborough	5
 [Durham?]	Durham	5
@@ -1365,6 +1425,7 @@ Cantabrigæ	Cambridge	5
 [Colchester]	Colchester	5
 Dun-Eidean	Edinburgh	5
 Glasgu?	Glasgow	5
+[Jersey?	Jersey (St Helier or Jersey City NJ)	5
 Edinburgh printed	Edinburgh	5
 Brighthelmstone	Brighton	5
 Lond. [i.e. London]	London	5
@@ -1443,6 +1504,7 @@ Nassau, New-Providence [Bahamas]	Nassau	5
 Cambridg	Cambridge	4
 Printed at Antwerpen [i.e. London?	London	4
 Printed at Antwerp [i.e. London	London	4
+Duaci	Douai	4
 [[Antwerp	Antwerp	4
 A Londres [i.e. Geneva?]	Geneva	4
 A Paris [i.e. London?]	London	4
@@ -1453,6 +1515,7 @@ A Paris [i.e. London?]	London	4
 Lions	Lyon	4
 London [i.e. Hamburg?]	Hamburg	4
 [Londini?	London	4
+[Boston [Lincs.]]	Boston MA	4
 [Alnwick]	Alnwick	4
 [Impressa London[i]	London	4
 Basileæ	Basel	4
@@ -1509,25 +1572,31 @@ Printed at Exeter, [N.H.	Exeter NH	4
 [Edenton, N.C.?	Edenton NC	4
 Printed at Wrentham, (Mass.)	Mass	4
 [Rutland, Vt.?	Rutland VT	4
+London [i.e., Boston]	Boston	4
 [Dover]	Dover	4
+Boston, in America	Boston MA	4
 [Rutland, Vt.]	Rutland VT	4
 --Rutland [Vt.]	Rutland VT	4
 [West Springfield, Mass.]	West Springfield MA	4
 Printed at Gilmanton [N.H.]	Gilmanton NH	4
 Printed at East-Windsor [Conn.]	Windsor	4
+Boston, in New England	Boston MA	4
 Charles-town [i.e., Charleston, S.C.]	Charleston SC	4
 Printed at Hartford	Hartford CT	4
 Greenfield, (Massachusetts:)	Greenfield MA	4
+Boston: New-England.	Boston MA	4
 Printed at Greenfield [Mass.]	Greenfield MA	4
 Windsor, (Vermont)	Windsor	4
 A Philadelphie.	Philadelphia PA	4
 Annapolis [Md.]	Annapolis MD	4
+Massachusetts-State: Boston	Boston MA	4
 Fayetteville [N.C.]	Fayetteville NC	4
 Printed at Warren (R.I.)	Warren RI	4
 Waterford [N.Y.]	Waterford	4
 Woodbridge in New-Jersey	Woodbridge NJ	4
 [New York State	York	4
 [North Carolina?	North	4
+Boston in N. England	Boston	4
 [Bennington Vt.	Bennington VT	4
 [Danbury, Conn.]	Danbury CT	4
 [Fairhaven, Vt.]	Fairhaven VT	4
@@ -1539,6 +1608,7 @@ Putney [Vt.]	Putney VT	4
 City of Washington [D.C.]	Washington DC	4
 Printed at Suffield [Conn.]	Suffield CT	4
 Hannover [Pa.]	Hannover	4
+Boston in N E	Boston	4
 Yorck [i.e. Paris?]	Paris	4
 [Cardiff]	Caerdydd	4
 [Leicester?]	Leicester	4
@@ -1685,6 +1755,7 @@ Greenfield, Mass.	Greenfield MA	4
 Charleston, S.C.	Charleston SC	4
 New London, Conn.	New London CT	4
 Savannah, Ga.	Savannah GA	4
+Boston [Mass.	Boston MA	4
 [Dundee, Scotland	Dundee	4
 [Hull, England]	Hull	4
 [York, England]	York	4
@@ -1698,6 +1769,7 @@ Canterbury [England]	Canterbury	4
 [Basseterre?	Basseterre	4
 [Kingston][	Kingston	4
 Cantabridgiæ	Cambridge	3
+Carrick	Carrick (Carrickfergus or Carrick-on-Suir)	3
 A Londres [i.e. Netherlands?]	Amsterdam	3
 [Bungay]	Bungay	3
 [[Glasgow]	Glasgow	3
@@ -1746,14 +1818,17 @@ London [i.e. Leipzig?]	Leipzig	3
 Exon [Exeter, England]	Exeter	3
 A Lunnduin	London	3
 [Elizabeth-Town, N.J.]	Elizabeth NJ	3
+A Boston	Boston	3
 Germantaun, [Pa.]	Germantown PA	3
 [Reading, Pa.]	Reading PA	3
 York, Upper Canada	York	3
 [Hanover, N.H.]	Hanover NH	3
 A Quebec.	Quebec	3
-Charlotte Town, Island of Saint John	Charleston SC	3
+Charlotte Town, Island of Saint John	Charlottetown	3
+Boston in New England.	Boston MA	3
 Cantabrigiæ Nov: Ang	Cambridge	3
 Cantabrigiæ Nov-Anglorum [Cambridge, Mass.	Cambridge	3
+Re-printed at Boston	Boston	3
 Reprinted at Philadelphia	Philadelphia PA	3
 [Charlotte Town	Charlottetown Pe	3
 [Williamsburg	Williamsburg VA	3
@@ -1794,6 +1869,7 @@ Burlington, in New-Jersey	Burlington NJ	3
 Ephratae [Penn.]	Ephrata PA	3
 Albany--State of New-York	Albany NY	3
 [Charlestown, Mass.]	Charlestown MA	3
+Massachusetts-Bay: Boston	Boston MA	3
 Kingston: (Ulster County) [N.Y.]	Kingston	3
 Printed at Albany	Albany NY	3
 [Frankfort, Ky.?	Frankfort KY	3
@@ -1801,11 +1877,16 @@ Printed at Springfield [Mass.]	Springfield MA	3
 Springfield, Massachusetts	Springfield MA	3
 Staunton [Va.]	Staunton VA	3
 [Raleigh, N.C.]	Raleigh NC	3
+Wilmington, Del.	Wilmington DE	3
 [Stockbridge]	Edinburgh	3
 [Richmond, Va.]	Richmond VA	3
+[Boston] New-England	Boston MA	3
 New-Haven [Conn.]	New Haven CT	3
 [Newbern, N.C.?]	New Bern NC	3
 Providence: N.E.	Providence RI	3
+Boston, (Massachusetts)	Boston MA	3
+Boston, (Massachusetts:)	Boston MA	3
+Boston; in New-England	Boston MA	3
 Rehoboth [Mass.]	Mass	3
 Printed at Windsor, Vermont	Windsor	3
 New-Hampshire: Portsmouth	Portsmouth	3
@@ -1824,12 +1905,15 @@ Hagerstown [Md.]	Hagerstown MD	3
 Frederick-town [Md.]	Fredericktown MD	3
 Hartford.	Hartford CT	3
 Printed at Newfield [Conn.]	Newfield CT	3
+Boston, Commonwealth of Massachusetts	Boston MA	3
 Amherst, N.H.	Amherst NH	3
+Massachuset; Boston	Boston MA	3
 [Elizabethtown, N.J.]	Elizabeth NJ	3
 [Amherst]	Amherst NH	3
 [Exeter] New-Hampshire	Exeter	3
 Philada.	Philadelphia PA	3
 Newbedford (Massa.)	New Bedford MA	3
+America: Boston	Boston MA	3
 Easton [Md.]	Easton MD	3
 Te Philadelphia	Philadelphia PA	3
 Printed in Bennington, Vermont	Bennington VT	3
@@ -1839,6 +1923,7 @@ Printed at New-Haven	New Haven MA	3
 [Putney, Vt.]	Putney VT	3
 Printed at Amherst [N.H.]	Amherst NH	3
 [Danbury, Conn.	Danbury CT	3
+Boston in N.E. printed	Boston	3
 Printed at Harrisburgh [Pa.]	Harrisburgh PA	3
 Princeton [N.J.]	Princeton NJ	3
 Printed, typographically, at Northampton [Mass.]	Northampton	3
@@ -1852,7 +1937,7 @@ Printed at Bennington, Vermont	Bennington VT	3
 Boston [i.e., New London, Conn.]	New London CT	3
 Newark, (New-Jersey)	Newark NJ	3
 Morris-Town [N.J.]	Morristown NJ	3
-Fairfield [Conn.]	Fairfield ct	3
+Fairfield [Conn.]	Fairfield CT	3
 Printed, typographically, at Worcester, Massachusetts	Worcester	3
 [Charlestown, Mass.	Charlestown MA	3
 Niew-York	York	3
@@ -1864,6 +1949,7 @@ Brookfield, Massachusetts	Brookfield MA	3
 Printed at Greenfield, Massachusetts.	Greenfield MA	3
 [Germantown, Pa.?]	Germantown PA	3
 Friederich-Stadt [Md.]	Fredericktown MD	3
+Boston, New-England.	Boston MA	3
 A Londres [i.e. Brussels?]	Brussels	3
 [Epsom?	Epsom	3
 Venezia	Venice	3
@@ -1914,6 +2000,7 @@ Lodnon [sic]	London	3
 [Cork?]	Cork	3
 [Windsor	Windsor	3
 Londinii	London	3
+A Jersey	Jersey (St Helier or Jersey City NJ)	3
 [Cape Town	Cape Town	3
 Paris [London?]	Paris	3
 A Rotterdam	Rotterdam	3
@@ -1966,7 +2053,7 @@ Londres [i.e. Yverdon	Yverdon-les-Bains	3
 [Bury	Bury	3
 [Bury St. Edmund's?	Bury St Edmunds	3
 [Holywell]	Treffynnon	3
-Guernsey	St peter port	3
+Guernsey	St Peter Port	3
 [Sevenoaks]	Sevenoaks	3
 [Dartmouth]	Dartmouth	3
 [Lichfield	Litchfield CT	3
@@ -2020,6 +2107,7 @@ Falkirk?]	Falkirk	3
 [London? :s.n.	London	3
 [Imprinted at london	London	3
 Bruxelles	Brussels	3
+Printed at Dovvay	Douai	3
 [Emden]	Emden	3
 At Roüen	Rouen	3
 [Impressus London[iis]	London	3
@@ -2033,7 +2121,9 @@ Imprinted [at London]	London	3
 Imprynted in Southwarke	London	3
 Tiguri	Zürich	3
 Imprinted at Newcastle	Newcastle	3
+[Doway]	Douai	3
 Middleburg [i.e. London]	London	3
+Imprinted at Douay	Douai	3
 [Enprynted at Westmynster	London	3
 Printed at Gant	Ghent	3
 [Venice	Venice	3
@@ -2066,6 +2156,7 @@ A'i printio yn Llundain	London	3
 [Imprinted at Ippyswiche	Ipswich	3
 Printed at Geneua	Geneva	3
 Printed in Elisium [i.e. London]	London	3
+At Dovvay	Douai	3
 Lutetiæ Parisiorum [i.e. London]	London	3
 Imprinted at Collen	Cologne	3
 Printed at the Hage [i.e. London	London	3
@@ -2120,6 +2211,7 @@ At the Hague	The Hague	3
 At Gant	Ghent	3
 Dublinij	Dublin	3
 Printed at the Theater in Oxford, and in London	Oxford	3
+[Douay?	Douai	3
 Oxford [i.e.London]	London	3
 Dondon [i.e. London]	London	3
 Hamburg [Germany]	Hamburg	3
@@ -2153,6 +2245,7 @@ Corcagiæ [i.e. Cork]	Cork	3
 [Nantes?	Nantes	3
 Bermuda	St George	3
 [Norwich? :s.n.	Norwich	3
+[Martinique	St Pierre Martinique	3
 Nassau, Bahamas	Nassau	3
 [Kingstown [Saint Vincent]?	Kingstown	3
 [St. George]	St George	3
@@ -2166,8 +2259,9 @@ Eton?	Eton	3
 Edingburgh	Edinburgh	2
 [London : b s.n.	London	2
 Brobdignagg [i.e. Dublin?]	Dublin	2
+Printed at Dovay	Douai	2
 [Lewes]	Lewes	2
-[Saint John's, Antigua	Saint John	2
+[Saint John's, Antigua	St Johns	2
 Printed at Antwerpen [i.e. London	London	2
 A Londres [i.e. Orleans?]	Orleans	2
 London und Leipzig	London	2
@@ -2191,6 +2285,7 @@ London [i.e. Berlin]	Berlin	2
 London [i.e. Oxford?]	Oxford	2
 [Burslem	Burslem	2
 Philadelphia?	Philadelphia PA	2
+Printed at Boston in N. England	Boston	2
 W. Hampton	Wolverhampton	2
 Mancunii	Manchester	2
 Rhydychain	Oxford	2
@@ -2198,6 +2293,7 @@ Greenwich	London	2
 Newport-Pagnell	Newport Pagnel	2
 Lugduni Batavorum [Leiden]	Lyon	2
 Londini [London]	London	2
+[White-Hall	White hall (Whitehall PA or London)	2
 Boston [i.e. Celle?]	Celle	2
 Montego-Bay, Jamaica	Montego Bay	2
 [Great Britain?	Great britain	2
@@ -2216,6 +2312,7 @@ Te Rotterdam	Rotterdam	2
 [Aldershot]	Aldershot	2
 Newbury-Port	Newburyport MA	2
 [London, ]	London	2
+[Boston [England]]	Boston	2
 [Dunbar	Dunbar	2
 [Berlin	Berlin	2
 Printed at Delph in Holland	Delft	2
@@ -2257,13 +2354,16 @@ West-Niagara [i.e., Niagara, Ont.]	Niagara	2
 [Montreal]	Montreal	2
 [A Montreal	Montreal	2
 [Burlington]	Burlington NJ	2
+Boston of the Massachusetts	Boston MA	2
 Cambridg [Mass.]	Cambridge MA	2
+[Boston in New-England	Boston MA	2
 A Québec.	Quebec	2
 Halifax, in Nova-Scotia	Halifax NS	2
 [Portsmouth, N.H.?]	Portsmouth NH	2
 Alexandria	Alexandria VA	2
 [Wilmington?	Wilmington	2
 Baltimore, Maryland	Baltimore MD	2
+[Boston: N.E.	Boston	2
 [Hudson]	Hudson NY	2
 Charleston	Charleston SC	2
 Hudson	Hudson NY	2
@@ -2278,7 +2378,7 @@ A Philadelphie.[i.e.Paris?]	Paris	2
 [Carlisle]	Carlisle	2
 Philadelphie [i.e. Lausanne?]	Lausanne	2
 Petersburgh	Petersburg VA	2
-Harrisburgh	Harrisburgh PA	2
+Harrisburgh	Harrisburg PA	2
 Baltimore-Town	Baltimore MD	2
 [Nieuw York	York	2
 [Burlington, Vt.?	Burlington VT	2
@@ -2307,7 +2407,11 @@ Mount-Pleasant: County of West-Chester [N.Y.]	Chester	2
 [Hagerstown, Md.	Hagerstown MD	2
 Easton [Pa.]	Easton PA	2
 [New London, Conn	New London CT	2
+Boston New-England	Boston MA	2
+Boston in N E.	Boston	2
+[Massachusetts?]	Boston MA	2
 [Mount-Holly, N.J.]	Mount Holly NJ	2
+Printed at Wrentham, (Massachusetts:)	Boston MA	2
 Brattleborough, Vermont	Brattleboro VT	2
 [East Windsor, Conn.]	Windsor	2
 Newbury-Port: [Mass.]	Newburyport MA	2
@@ -2315,6 +2419,7 @@ Salem, [Mass.] New-England	Salem	2
 Novo-Portu [New Haven]	New Haven CT	2
 Brookfield, (Massachusetts:)	Brookfield MA	2
 [Portsmouth] New-Hampshire	Portsmouth NH	2
+Leominister, Massachusetts	Boston MA	2
 [Providence?]	Providence RI	2
 Richmond.	Richmond	2
 Hartfordiae	Hartford CT	2
@@ -2334,10 +2439,12 @@ Portsmouth (N.H.)	Portsmouth NH	2
 [Dover?] New-Hampshire	Dover	2
 Printed at Exeter, New-Hampshire	Exeter	2
 Louisville [Ga.]	Louisville GA	2
+Printed typographically, at Boston	Boston	2
 [Pittsfield, Mass.	Mass	2
 Amherst, (New-Hampshire.)	Amherst NH	2
 Printed, typographically, at Exeter, New-Hampshire	Exeter	2
 Hallowell, (District of Maine)	Hallowell ME	2
+Boston: state of Massachusetts-Bay	Boston	2
 Printed at Fairhaven [Vt.]	Fairhaven VT	2
 Charleston [S.C]	Charleston SC	2
 (Baltimore	Baltimore MD	2
@@ -2356,8 +2463,10 @@ Printed at Windsor	Windsor	2
 [Elizabethtown, N.J.?	Elizabeth NJ	2
 Printed at Walpole, NewHampshire	Walpole NH	2
 Published at Newport	Newport RI	2
+America [i.e., Boston]	Boston	2
 [New Hampshire?	Keene NH	2
 Pittsburgh [Pa.]	Pittsburgh PA	2
+Printed at Boston, (Massachusetts)	Boston MA	2
 Western District: Vermont. Bennington	Rutland VT	2
 Western District: Rutland [Vt.]	Rutland VT	2
 Pennsylvania [Philadelphia]	Philadelphia PA	2
@@ -2373,6 +2482,7 @@ Keene--(Newhampshire;)	Keene NH	2
 [Jacksonburgh, S.C.	Jacksonburgh SC	2
 [Halifax, N.C.?	Halifax NC	2
 [Lancaster Pa.	Lancaster PA	2
+Cruso's Island [i.e., Boston]	Boston	2
 Charlestown, South-Carolina	Charleston SC	2
 Augusta, (District of Maine)	Augusta ME	2
 Ephrata in Pensylvanien	Ephrata PA	2
@@ -2387,12 +2497,15 @@ Keene (N.H.)	Keene NH	2
 Exeter, [N.H.]	Exeter NH	2
 Printed at Medford, (Massachusetts.)	Medford MA	2
 Printed at Brattleborough [Vt.]	Brattleborough VT	2
+[Boston] Commonwealth of Massachusetts	Boston MA	2
 Printed at Peacham, Vermont	Peacham VT	2
 Elizabeth-town, (New-Jersey)	Elizabeth NJ	2
+Boston, N E.	Boston	2
 New York.	New York NY	2
 Greenfield, Massachusetts	Greenfield MA	2
 [Dresden, Vt., i.e., Hanover, N.H.]	Hanover NH	2
 East-Windsor [Conn.]	Windsor	2
+Boston, printed	Boston	2
 [Fish-Kill, N.Y.?	Fishkill NY	2
 [Easton, Md.?	Easton MD	2
 [Winchester, Va.	Winchester VA	2
@@ -2423,6 +2536,7 @@ Fredericktown [Md.]	Fredericktown MD	2
 [Rutland Vt.	Rutland VT	2
 Portsmouth; New-Hampshire	Portsmouth NH	2
 Danvers [Mass.], near Salem	Danvers MA	2
+America. Boston	Boston MA	2
 Salem: [Mass.]	Salem MA	2
 South-Carolina. Charlestown	Charleston SC	2
 Printed at Greenfield, (Mass.)	Greenfield MA	2
@@ -2434,6 +2548,7 @@ Wilmington [N.C.]	Wilmington NC	2
 [Harrisburg, Pa.]	Harrisburgh PA	2
 [Savannah?]	Savannah GA	2
 [Goshen, N.Y.?	Goshen NY	2
+Wilmington, [Del.]	Wilmington DE	2
 [Fredericksburg, Va.?	Fredicksburg VA	2
 [Ephrata, Pa?	Ephrata PA	2
 Gedruckt zu Germanton [Pa.]	Germantown PA	2
@@ -2452,6 +2567,8 @@ Providence (Rhode-Island:)	Providence RI	2
 [New Bedford, Mass.?	New Bedford MA	2
 Georgia. Savannah	Savannah GA	2
 [Natchez, Miss.]	Natchez Ms	2
+Cantabrigiæ, Nov-Anglorum [i.e., Boston]	Boston	2
+Cantabrigiæ Nov-Anglorum, [i.e., Boston	Boston	2
 [Fredericktown, Md.]	Fredericktown MD	2
 Warren, (R.I.)	Warren RI	2
 [Schenectady, N.Y.?	Schenectady NY	2
@@ -2466,24 +2583,28 @@ Stonington-Port, (Connecticut,)	Litchfield CT	2
 [Augusta, Me.]	Augusta ME	2
 Philadelpaia [sic]	Philadelphia PA	2
 A Charleston [S.C.]	Charleston SC	2
+Commonwealth of Massachusetts, Boston, N.E.	Boston MA	2
+Boston, printed.	Boston	2
 America: Printed at Providence (R. Island)	America	2
 [Hallowell, Me.]	Hallowell ME	2
+Boston: (Commonwealth of Massachusetts)	Boston MA	2
 Andover [Mass.]	Andover MA	2
 Printed at Newbedford, (Massachusetts)	New Bedford MA	2
 Watertown, [Mass.] New-England	Watertown MA	2
-George-town [Va.]	Georgetown DC	2
+George-town [Va.]	Georgetown VA	2
 New-London: (Connecticut.)	London	2
 Printed at Exeter, Newhampshire	Exeter	2
 Printed at Newburyport, [Mass.]	Newburyport MA	2
 Printed at Hanover, (N.H.)	Hanover NH	2
 Providence, New-England	Providence RI	2
-Harrisburgh, Pennsylvania	Harrisburgh PA	2
+Harrisburgh, Pennsylvania	Harrisburg PA	2
 Printed at Stockbridge, Massachusetts	Edinburgh	2
 [Lexington, Kentucky?	Lexington KY	2
 [Williamsburg Va.	Williamsburg VA	2
 Imprimé à Philadelphie	Philadelphia PA	2
 Portsmouth, (New-Hampshire)	Portsmouth NH	2
 Bennington [Vt]	Bennington VT	2
+Boston: (New-England.)	Boston MA	2
 Cheshire: Connecticut.	Litchfield CT	2
 [Halifax, N.C.?]	Halifax NC	2
 Newbedford, (Massachusetts)	New Bedford MA	2
@@ -2491,13 +2612,16 @@ Printed at Fryeburg [Me.]	Fryeburg ME	2
 Germantown, [Pa.]	Germantown PA	2
 Printed at Leominster, (Massachusetts)	Leominster MA	2
 Printed at Haverhill, Massachusetts	Haverhill MA	2
+Printed at Boston, Massachusetts	Boston MA	2
 [Ephrata]	Ephrata PA	2
 A Newport [R.I.]	Newport RI	2
 Annapolis.	Annapolis MD	2
 [Salisbury, N.C.	Salisbury NC	2
 [New Haven, Conn.]	New Haven CT	2
+Printed at Boston in N.E.	Boston	2
 Savannah [Ga.]	Savannah GA	2
 [Dresden, Vt.	Dresden	2
+Boston: (Massachusetts)	Boston MA	2
 [York, Ont.	York	2
 [Montréal]	Montreal	2
 [Québec]	Quebec	2
@@ -2561,6 +2685,7 @@ Duneadain	Edinburgh	2
 London [i.e. Cork]	Cork	2
 London [i.e. York]	York	2
 Stettin	Szczecin	2
+[Boston [Mass.]	Boston MA	2
 [Florence	Florence	2
 At Bruges	Bruges	2
 Londra [Paris]	London	2
@@ -2601,6 +2726,7 @@ St. Neots	St Neots	2
 A Winchester	Winchester	2
 [Brecon]	Aberhonddu	2
 [Stoke Newington?	Stoke Newington	2
+[Boston, Lincs.	Boston MA	2
 Traiecti ad Rhenum	Harderwijk	2
 Dundalk	Dunkalk	2
 [Montrose]	Montrose	2
@@ -2701,6 +2827,8 @@ Edinburgh [i.e. Oxford]	Oxford	2
 Londin	London	2
 Dublino	Dublin	2
 [Dubl]in	Dublin	2
+White-Hall	White hall (Whitehall PA or London)	2
+[Blandford?]	Blandford	2
 [Sarum	Salisbury	2
 [Huddersfield	Huddersfield	2
 [Harrogate?	Harrogate	2
@@ -2766,7 +2894,7 @@ London [i.e.Dublin?]	Dublin	2
 Newton-Abbot	Newton Abbot	2
 Hambourg [i.e. London]	London	2
 [Exon]	Exeter	2
-Isle of Wight	Newport RI	2
+Isle of Wight	Newport	2
 Bridgewater	Bridgewater MA	2
 [Hinckley]	Hinckley	2
 London [i.e.Dublin]	Dublin	2
@@ -2785,7 +2913,7 @@ Londres [i.e. Orléans?]	Orleans	2
 [St. Petersburg]	St Petersburg	2
 [Berwick-upon-Tweed?	Berwick-upon-Tweed	2
 [Waltham]	Waltham	2
-Dunleary	Dun laoghaire	2
+Dunleary	Dun Laoghaire	2
 Dubin	Dublin	2
 London [i.e. Dessau	Dessau	2
 [Watford?	Watford	2
@@ -2879,6 +3007,7 @@ Imprentit at Striuiling	Stirling	2
 [St. Andrews	St Andrews	2
 [Oxoniæ	Oxford	2
 Printed in Amstelredam	Amsterdam	2
+Dvaci	Douai	2
 [Imprnted [sic] at London	London	2
 Impressus Londonus	London	2
 Argentinæ [i.e. Strassburg]	Strasbourg	2
@@ -2959,6 +3088,7 @@ Imprinted at Midleburgh	Middelburg	2
 [Duaci [i.e. London]	London	2
 Printed at Tornay	Tornay	2
 Excudebat Londinensis	London	2
+Imprinted at Doway	Douai	2
 [Prynted in Southwarke	London	2
 [Dort?	Dort	2
 [Zürich	Zürich	2
@@ -3036,6 +3166,7 @@ A Ratisbonne	Regensburg	2
 Oxoniæ [i.e. Oxford]	Oxford	2
 Printed at the Theater in Oxford and in London	Oxford	2
 Printed at Doüay	Doueay	2
+Printed ad [sic] Douay	Douai	2
 Printed at Shrewsbury	Shrewsbury	2
 Imprinted at Shrewsbury	Shrewsbury	2
 Dubdin [sic]	Dublin	2
@@ -3044,6 +3175,7 @@ Dubdin [sic]	Dublin	2
 Paris printed	Paris	2
 Bristoll [Avon]	Bristol	2
 Dublin reprinted	Dublin	2
+Boston in N.E. [i.e. New England]	Boston MA	2
 [Cambridge, Cambridgeshire	Cambridge	2
 [Vevay,] Switzerland	Vevey	2
 Antwerpe	Antwerp	2
@@ -3083,10 +3215,12 @@ Lovain	Louvain	2
 Printiedig yn-Ghaer Ludd	Lyon	2
 [London? [i.e. Paris]	Paris	2
 Amsterdam [i.e. London	London	2
+Boston in New-Engiand [sic]	Boston	2
 [Londo]n	London	2
 Printed at Waterford in Ireland	Waterford	2
 Lonkon [sic]	London	2
 London [i.e. Oxford]	Oxford	2
+St. George's [Grenada]	St Georges Grenada	2
 [Cork, Ireland	Cork	2
 Wexford [Ireland]	Wexford	2
 [Deptford, England]	Deptford	2
@@ -3135,7 +3269,7 @@ Whitby [England]	Whitby	2
 Darlington [England]	Darlington	2
 Lynn [King's Lynn, England]	Kings Lynn	2
 Leicester [England]	Leicester	2
-[Whitehaven, England]	Whitehaven	2
+[Whitehaven, England]	Whitehaven GB	2
 Dublin [Ireland	Dublin	2
 New-Castle [England]	Newcastle	2
 Northampton [England]	Northampton	2
@@ -3143,13 +3277,13 @@ Leeds [England]	Leeds	2
 Gainsborough [England]	Gainsborough	2
 Montreal [Quebec]	Montreal	2
 [Oxford, England]	Oxford	2
-Whitehaven [England]	Whitehaven	2
+Whitehaven [England]	Whitehaven GB	2
 Newbury (Vermont)	Newbury VT	2
 [[Brentford]	Brentford	2
 [Nassau, Bahamas?	Nassau	2
 [[Haarlem]	Haarlem	2
 [Norfolk?	Norfolk	2
-[Antigua]	Saint John	2
+[Antigua]	St Johns	2
 En la Havana	Havanna	2
 [Horncastle]	Horncastle	2
 [Havana	Havanna	2
@@ -3159,7 +3293,7 @@ Londres [i.e Paris]	Paris	2
 Northhampton	Nothampton	2
 [Holborn]	London	2
 [Bremen?	Bremen	2
-[Antigua	Saint John	2
+[Antigua	St Johns	2
 Londre [i.e. Paris]	Paris	2
 [Port-au-Prince?]	Port-au-Prince	2
 [Whitby	Whitby	2
@@ -3176,7 +3310,7 @@ Bishopstone, Sussex	Bishopstone	2
 Londres [i.e.Geneva?]	Geneva	2
 [Kingstown]	Kingstown	2
 [St. George?]	St George	2
-Londres [i.e. Besanc̜on]	Besancon	2
+Londres [i.e. Besanc̜on]	Besançon	2
 Erlang	Erlangen	2
 [Haddington?]	Haddington	2
 [King's Lynn?]	Kings Lynn	2
@@ -3288,7 +3422,7 @@ Germantown bei Philadelphia, [i.e. Berlin] 1782	Berlin	1
 [Northumberland ?	Northumberland PA	1
 [Eshott?	Eshott	1
 [Whitby]	Whitby	1
-[Winchester or Oxford?	Winchester	1
+[Winchester or Oxford?	Winchester GB	1
 [Rousham	Rousham	1
 [Frankfurt an der Oder?	Frankfurt	1
 London : [J. Almon]	London	1
@@ -3303,11 +3437,13 @@ Printed and sold at No.6, Little Catherine-street, Strand	London	1
 A Berlin	Berlin	1
 [Gateshead]	Durham	1
 In Venezia MDCCXCV	Venice	1
+[Boston, Lincs.?	Boston MA	1
 [York ?	York	1
 [London ?]	London	1
 [ Williamsburg [Va.]	Williamsburg VA	1
 [[Southampton	Southampton	1
 [Clones	Clones	1
+[Boston [Lincolnshire]]	Boston	1
 A Paris [i.e. Dublin?]	Dublin	1
 [Beaminster]	Beaminster	1
 Printed at Sherborne	Sherborne	1
@@ -3403,16 +3539,16 @@ t' Amsterdam	Amsterdam	1
 [Saxmundham]	Saxmundham	1
 [Bennington?	Bennington VT	1
 [Basse-Terre-Guadeloupe	Basseterre	1
-[Point-à-Pitre, Guadeloupe?	Point-a-pitre	1
-[A la Point-à-Pitre	Point-a-pitre	1
-Pointe-A-Pitre, [Guadeloupe]	Point-a-pitre	1
+[Point-à-Pitre, Guadeloupe?	Pointe-A-Pitre	1
+[A la Point-à-Pitre	Pointe-A-Pitre	1
+Pointe-A-Pitre, [Guadeloupe]	Pointe-A-Pitre	1
 Canterbury [New Hampshire]	Canterbury NH	1
 Cambridge in New-England, [Mass.]	Cambridge	1
 Leghorn 1787	Livorno	1
 [Philadelphia, Pa.?]	Philadelphia PA	1
 [Philadelphia, Penn.?	Philadelphia PA	1
 [New-York, N.Y.]	New York NY	1
-[Newtown, Penn.	Newtown pa	1
+[Newtown, Penn.	Newtown PA	1
 Philadelphia, [Penn.]	Philadelphia PA	1
 Hartford, [Conn.]	Hartford CT	1
 [New Haven, Conn.	New Haven CT	1
@@ -3442,13 +3578,14 @@ Norimberga [Nuremberg]	Nurnberg	1
 A Londres, [i.e. Paris?]	Paris	1
 Glosgovv, [sic]	Glasgow	1
 [Bruges?	Bruges	1
+[Carrick?	Carrick (Carrickfergus or Carrick-on-Suir)	1
 Dublin, printed: and, Belfast	Dublin	1
 In Edinburgo	Edinburgh	1
 London: [i.e. Edinburgh]	Edinburgh	1
 [Musselburgh?	Musselburgh	1
 [New Haven?, Conn.	New Haven CT	1
 [New-Haven, Conn.?	New Haven CT	1
-[New-Milford. Conn.	New milford ct	1
+[New-Milford. Conn.	New Milford CT	1
 Da Londra	London	1
 Sarrebruck	Saarbrucken	1
 Yn y Mwythig [i.e. Shrewsbury]	Shrewsbury	1
@@ -3479,13 +3616,16 @@ Given under my hand in Dublin this 27th of the second Month called April	Dublin	
 Londen [i.e. Germany]	Hamburg	1
 Londen [i.e. Leipzig]	Leipzig	1
 Philadelphia [i.e. Leipzig	Leipzig	1
+Boston und München	Boston	1
 Edimbourg [i.e. Frankfurt]	Frankfurt	1
 Edimbourg (i.e. Frankfurt)	Frankfurt	1
 Wiesenthal und Malmesburg	Wiesenthal	1
 Engelland	London	1
 L:Derry [Londonderry, Ireland]	Londonderry	1
 [London,;s.n.	London	1
+London [i.e. Boston?]	Boston	1
 Stockport [England]	Stockport	1
+[Boston, Mass?	Boston MA	1
 Gedruckt in Philadelphia	Philadelphia PA	1
 New-Brunswick (New-Jersey)	New Brunswick NJ	1
 [Glocester, Mass.?	Gloucester MA	1
@@ -3494,7 +3634,7 @@ Philadelphia, [Pa.]	Philadelphia PA	1
 [Lincolnton, N.C.	Lincolnton NC	1
 [Frederick, Md.	Frederick MD	1
 Reading, [Pa.]	Reading PA	1
-Härrisburg, [Pa.]	Harrisburgh PA	1
+Härrisburg, [Pa.]	Harrisburg Pa	1
 [Germantaun [Pa.]]	Germantown PA	1
 [Lancaster [Pa.]	Lancaster PA	1
 Chesnut-Hill	Chestnut Hill PA	1
@@ -3518,23 +3658,33 @@ Quebec (City:)	Quebec	1
 [Parr-Town	Parr-Town	1
 [New Brunswick?]	New Brunswick NJ	1
 [Bridgetown, Barbados?	Bridgetown Barbados	1
+Boston in NevvEngland [sic].	Boston	1
 Cambridge, Mass.	Cambridge MA	1
 Charles-Town [Charleston, South Carolina]	Charleston SC	1
 [Cambridge, [Mass.]	Cambridge MA	1
 Cantabrigiæ Nov-Angliæ [Cambridge, Mass.	Cambridge	1
 Druckti Philadelphia	Philadelphia PA	1
+Bostonæ Nov-Anglorum	Boston MA	1
 Cantabrigiæ, Nov. Ang. [Cambridge, Mass.	Cambridge	1
 Cantabrigiæ Nov-Anglia [Cambridge, Mass.	Cambridge	1
 Cantabrigiæ Nov-Angl [Cambridge, Mass.	Cambridge	1
 Cantabrigiæ Nov: Ang: [Cambridge, Mass.	Cambridge	1
 Cambridg [i.e., Cambridge, Mass.].	Cambridge MA	1
+[Boston or Cambridge, Mass.?	Boston	1
 Gedruckt tot Nieuw-Yorke	York	1
 Cambr [i.e., Cambridge, Mass.]	Cambridge MA	1
+[Boston or Cambridge, Mass.	Boston	1
 [St. Mary's, Md.]	St Marys MD	1
+Boston in Newengland	Boston	1
 Cambridg: [Mass.]	Cambridge MA	1
+Mushauwomuk [i.e. Boston]	Boston	1
+Reprinted at Boston	Boston	1
 Cantabrigiæ Nov-Anglorum.	Cambridge	1
+Boston, in New-England.	Boston MA	1
 New-England, Boston	London	1
+Bostonut	Boston	1
 Reprinted in Philadelphia	Philadelphia PA	1
+Philadelphia [i.e., Boston?]	Boston	1
 Philadelphie [i.e. Lausanne]	Lausanne	1
 City of St John	Saint John	1
 A Londres [i.e. Montreal]	Montreal	1
@@ -3550,10 +3700,13 @@ South-Carolina	Charleston SC	1
 [Poughkeepsie	Poughkeepsie NY	1
 Washington	Washington DC	1
 [Richmond, Va?	Richmond VA	1
+Bostoni in Nov-Anglia	Boston MA	1
 [Newbern?	New Bern NC	1
+Boston, [Mass]	Boston MA	1
 Springfield, Mas.	Springfield MA	1
 [Fishkill	Fishkill NY	1
 [Richmond [Va.]	Richmond VA	1
+Dublin [i.e. Boston]	Boston	1
 Printed and sold at Norwich	Norwich	1
 [Litchfield?	Litchfield CT	1
 [Burlington	Burlington NJ	1
@@ -3586,8 +3739,9 @@ Germanton	Germantown PA	1
 Lynchester [i.e. Winchester?]	Winchester	1
 Gedruckt zu Germantown [i.e. Halle]	Halle	1
 [Watertown	Watertown MA	1
-Lancäster	Lancaster PA	1
+Lancäster	Lancaster Pa	1
 Augusta (Kennebeck)	Augusta ME	1
+Bostoniæ	Boston	1
 Poughkeepsie	Poughkeepsie NY	1
 [Ephrata?	Ephrata PA	1
 Stockbridge	Edinburgh	1
@@ -3597,6 +3751,7 @@ A Charles-Town [i.e. Paris?]	Paris	1
 Philada [i.e. Philadelphia]	Philadelphia PA	1
 Georgia	Augusta GA	1
 Staunton	Staunton VA	1
+[Augusta	Augsburg or Augusta GA	1
 Fish-Kill	Fishkill NY	1
 St John	St Johns Antiqua	1
 [Montréal?	Montreal	1
@@ -3611,11 +3766,12 @@ A Boston, [i.e. Paris?]	Paris	1
 Charlotte Town	Charlottetown Pe	1
 [Niagara]	Niagara	1
 [New-London	New London CT	1
-Charlotte-Town, island of Saint John	Charleston SC	1
+Charlotte-Town, island of Saint John	Charlottetown	1
 [Saint John	Saint John	1
 [Easton?	Easton PA	1
 Johnstown	Johnstown NY	1
 [Shelburne	Shelburne	1
+Ball-Town [i.e. Boston]	Boston	1
 Philadelphia, America	Philadelphia PA	1
 Albany - State of New-York	Albany NY	1
 Norfolk [Va.	Norfolk VA	1
@@ -3651,6 +3807,7 @@ Printed and sold, in Albany	Albany NY	1
 [Northampton, Mass.?	Northampton MA	1
 Savannah in Georgia	Savannah GA	1
 South-Carolina, Charles-town	Charleston SC	1
+Dublin [i.e., Boston]	Boston	1
 Keene-(Newhampshire:)	Keene NH	1
 [Concord, N.H.,?	Concord NH	1
 [Fayetteville, N.C.?	Fayetteville NC	1
@@ -3662,8 +3819,9 @@ London [i.e., New York?]	New York NY	1
 [Concord, N.H.?	Concord NH	1
 [Fredericksburg, Va.]	Fredicksburg VA	1
 Exeter. Newhampshire	Exeter	1
-Salem in Nordkarolina	Salem	1
+Salem in Nordkarolina	Salem NC	1
 Lynchburg [Va.]	Lynchburg VA	1
+Massachusetts	Boston MA	1
 [Newbern, N.C.]	New Bern NC	1
 Printed at New York	New York NY	1
 Octorara [Pa.]	Octorara PA	1
@@ -3678,38 +3836,47 @@ Burlington, Vermont	Burlington NJ	1
 New-Jersey	Newark NJ	1
 Falmouth [Me.]	Falmouth ME	1
 Printed at Springfield (Massachusetts)	Springfield MA	1
+Commonwealth of Massachusetts. Springfield	Boston MA	1
 Portland	Portland OR	1
 [New Windsor, N.Y.]	New Windsor NY	1
 Newbury [i.e. Newburyport, Mass.]	Newburyport MA	1
 Ppiladelphia [sic]	Philadelphia PA	1
 Argraphwyd yn Philadelphia	Philadelphia PA	1
+[Boston ?	Boston	1
 Printed in Catskill [N.Y.	Catskill NY	1
+[Boston] North America	Boston MA	1
 America.	America	1
 [Leominster: Mass.]	Leominster MA	1
 New-York printed	New York NY	1
+Bostoni, in Nov-Angliâ	Boston MA	1
+Bostoni in Nov-Anglia excusum	Boston MA	1
+Boston: in N. E.	Boston	1
 New-Brunswick, (New-Jersey:)	New Brunswick NJ	1
 Printed at Newport	Newport RI	1
 Novo-Portu Connecticutensium, [New Haven	New Haven CT	1
 Wigorniae, Massachusettensis	Worcester MA	1
 Elizabeth-Town, (New-Jersey)	Elizabeth NJ	1
+Commonwealth of Massachusetts. Boston	Boston MA	1
 Printed in Providence	Providence RI	1
+[Boston] Massachusetts-Bay	Boston	1
 [Westminster, Vt.?	Westminster VT	1
 Burlington: [N.J.]	Burlington NJ	1
 [Woodbridge, in New Jersey	Woodbridge NJ	1
 [Charleston, S.C.?]	Charleston SC	1
-New-Briton, Bucks County, [Pa.]	New britain pa	1
+New-Briton, Bucks County, [Pa.]	New Britain PA	1
 Printed at Hanover, New-Hampshire.	Hanover	1
 Printed at Portsmouth. New-Hampshire	Portsmouth NH	1
 Te Nieu-York	York	1
 Newbury [i.e., Newburyport, Mass]	Newburyport MA	1
 Reprinted in Bennington, (Vermont,)	Bennington VT	1
 [Carlisle, Penn.	Carlisle	1
-[Fort McHenry (Walnut Hills), Miss.	Fort mchenry ms	1
-Harrisburgh, (Pennsylvania;)	Harrisburgh PA	1
+[Fort McHenry (Walnut Hills), Miss.	Fort McHenry Ms	1
+Harrisburgh, (Pennsylvania;)	Harrisburg PA	1
 Reprinted at Exeter [N.H.]	Exeter NH	1
 America [New York]	America	1
 Printed at Worcester (Massa.)	Worcester	1
 Printed, and sold at Norwich [Conn.]	Norwich CT	1
+Boston in N England	Boston	1
 Newbury, (Ver.)	Newbury VT	1
 Amherst, New-Hampshire.	Amherst NH	1
 Danvers, near Boston	Danvers MA	1
@@ -3719,7 +3886,10 @@ Windsor: [Vt.]	Windsor VT	1
 Printed at Pittsfield [Mass.]	Mass	1
 [Wilmington, N.C.?	Wilmington NC	1
 Newbern [N.C]	New Bern NC	1
+Wilmington, (Del.)	Wilmington DE	1
 Reprinted at Bennington [Vt.]	Bennington VT	1
+[Massachusetts]	Boston MA	1
+Printed at Boston, State-Street	Boston	1
 [Philadelphia?] America	Philadelphia PA	1
 Printed at Wrentham (Mass.)	Mass	1
 Kaeniae--(Neo Hantoniae)	Keene NH	1
@@ -3748,13 +3918,13 @@ Novi-Portus [ New Haven]	New Haven CT	1
 Peacham [Vt.]	Peacham VT	1
 Williamsburgh [Va.]	Williamsburg VA	1
 Ephrata, [Pa.	Ephrata PA	1
-(Hägers-Taun [Hagerstown, Md.]	Hagerstown MD	1
+(Hägers-Taun [Hagerstown, Md.]	Hagerstown Md	1
 America: state of Massachusetts-Bay; Boston	America	1
 Danvers [Mass.], near Salem: N.E.	Mass	1
 [Printed at Worcester, Massachusetts	Worcester MA	1
 [Lancäster, Pa.	Lancaster PA	1
 Pyiladelphia[sic]	Philadelphia PA	1
-Greensburg, (Westmoreland, Penn.)	Greensburg pa	1
+Greensburg, (Westmoreland, Penn.)	Greensburg PA	1
 Printed at Concord, New Hampshire	Concord NH	1
 Portsmouth in New Hampshire	Portsmouth NH	1
 Philada. [i.e., New York]	New York NY	1
@@ -3768,13 +3938,16 @@ Printed and sold at the printing-office in New-London [Conn.	London	1
 [Sag Harbor, N.Y.	Harbor OH	1
 [Norwich, Conn.?]	Norwich CT	1
 Sold at the printing ofice in Salem, [Mass.	Salem	1
-Sold at the printing office in Salem	Salem	1
+Sold at the printing office in Salem	Salem NJ	1
 Warren (R. Island)	Warren	1
 [Danvers, Mass.	Danvers MA	1
 Printed at Leominster [Mass.]	Leominster MA	1
 Printed at Keene [N.H.]	Keene NH	1
+[Boston, New Haven, or New London, Conn.	Boston	1
 Troy [N.Y.]--- Printed and sold (Price 3 cents)	Troy NY	1
 South Carolina: Charles-town [i.e. Charleston] printed	Charleston SC	1
+[Bosto]n	Boston	1
+Boston; New-England.	Boston MA	1
 Warren (RRode-Island) [sic]	Warren RI	1
 Warren (Rhode-(Island) [sic]	Warren RI	1
 America: Printed at Exeter, in the state of New-Hampshire.	America	1
@@ -3784,17 +3957,21 @@ Pailadelphia [i.e., Philadelphia]	Philadelphia PA	1
 [Philadelphia] Pennsylvania	Philadelphia PA	1
 [Whitestown, N.Y.]	Whitesboro NY	1
 Printed at Carlisle [Pa.]	Carlisle PA	1
+[Kentucky	Kentucky (Washington Ky or Frankfort Ky)	1
+Boston, N.N.E. [sic]	Boston	1
 Keene--(Newhampshire)	Keene NH	1
 Printed, in Norwich [Conn.]	Norwich CT	1
 Newbuyry-Port [sic] [Mass.]	Mass	1
 Newbury-Port [Newburyport, Mass.]	Newbury	1
 Chambersburg [Penn.]	Chambersburg PA	1
 Printed at Newbedford, Massachusetts	New Bedford MA	1
+Printed at Wrentham, (Massachusetts;)	Boston MA	1
 Elizabeth-Town, Maryland	Annapolis MD	1
 Marblehead [i.e., Salem, Mass.?]	Salem MA	1
 A Philadelphié	Philadelphia PA	1
 Hartford, (Connecticut)	Hartford CT	1
 Printed at Hartford (Connecticut.)	Hartford CT	1
+Boston, in N.E. printed	Boston	1
 [Staunton, Va.	Staunton VA	1
 [Augusta, Me.	Augusta ME	1
 A Paris [i.e., Philadelphia?]	Philadelphia PA	1
@@ -3832,16 +4009,24 @@ Litchfield [Conn]	Litchfield CT	1
 Shepherd's-Town [Va.]	Shepherdstown VA	1
 Stonington-Port, (Connecticut)	Litchfield CT	1
 Newbury-Port [Mass]	Newburyport MA	1
+Bostoniae: Nov. Ang.	Boston MA	1
+Bostoni Nov-Anglorum	Boston MA	1
+Bostoni&aelig	Boston MA	1
 Printed in Greenfield, Massachusetts	Greenfield MA	1
+[Wilmington, Del]	Wilmington DE	1
 Canaan, (State N. York)	Canaan NY	1
 America: Massachusetts; Boston	America	1
 [Fredericksburg, Va.	Fredicksburg VA	1
 Charles-Town, [i.e., Charleston, S.C.]	Charleston SC	1
 Printed at Concord, (Newhampshire)	Concord NH	1
+Bostoni, Nov-Anglorum, MDCCXXXIII.	Boston MA	1
 United States. [Philadelphia?	Philadelphia PA	1
+Boston N, E.	Boston	1
 Newbury-port, New-England	Newburyport MA	1
 Northampton: (Massachusetts)	Northampton	1
 [Princeton, N.J.]	Princeton NJ	1
+Boston, (Commonwealth of Massachusetts.)	Boston MA	1
+Boston, (Commonwealth of Massachusetts)	Boston MA	1
 Cambridge, (Mass.)	Cambridge MA	1
 Printed at Newburyport	Newburyport MA	1
 Brattleboro' [Vt.]	Brattleboro VT	1
@@ -3851,26 +4036,35 @@ Philadelhpia [sic]	Philadelphia PA	1
 Printed and sold at Greenfield, Mass.	Greenfield MA	1
 A New-York.	New York NY	1
 Bennington: state of Vermont	Bennington VT	1
+Boston: in New-England	Boston MA	1
 Monmouth (N.J.)	Monmouth NJ	1
 Ballston, Saratoga County [N.Y.]	Ballston Spa NY	1
 Greenfield, (Mass.)	Greenfield MA	1
+Bostoni-Massachusettensium	Boston MA	1
 [Burlington N.J.	Burlington NJ	1
 Castine [Me.]	Castine ME	1
+Boston; (Commonwealth of Massachusetts,)	Boston MA	1
 [Litchfield, Conn. ; Hartford]	Litchfield CT	1
 Walpole, Newhamphire	Walpole NH	1
-[Stonington, Conn.]	Stonington ct	1
+[Stonington, Conn.]	Stonington CT	1
 Fredicksburg [Va.]	Fredicksburg VA	1
+Boson [i.e., Boston]	Boston	1
 Bridgeport [Conn.]	Bridgeport CT	1
+Boston: N:E	Boston	1
+Bostoniae, Americae	Boston MA	1
 Printed at Portsmouth, New Hampshire	Portsmouth NH	1
 [Keene]	Keene	1
 Augusta (Kennebeck) [Me.]	Augusta ME	1
+Bostonut [i.e., Boston]	Boston	1
 Richmond, [Virginia]	Richmond VA	1
-[New Castle, Del.	New Castle de	1
-New Castle [Del.]	New Castle de	1
+[New Castle, Del.	New Castle DE	1
+New Castle [Del.]	New Castle DE	1
 [Concord] Newhampshire	Concord NH	1
 Portland: (Massachusetts [i.e., Maine])	Augusta ME	1
 [Castine, Me.]	Castine ME	1
+Ä Boston	Boston	1
 Salem:--Massachusetts	Salem	1
+Boston N. E.	Boston	1
 Newport Rhode-Island	Newport RI	1
 Re-printed at Providence	Providence RI	1
 [Pembroke, Mass.	Pembroke MA	1
@@ -3883,6 +4077,7 @@ Windham (Connecticut)	Litchfield CT	1
 Prnted [sic] at Rutland, (Vermont.)	Rutland VT	1
 [Rutland] --Vermont	Rutland VT	1
 Putney, Ver.	Putney VT	1
+State of Massachusetts-Bay. Worcester	Boston MA	1
 [Charlestown [S.C.]	Charleston SC	1
 Ballston [N.Y.]	Ballston Spa NY	1
 Windsor [Vt]	Windsor VT	1
@@ -3912,10 +4107,10 @@ America [i.e., Philadelphia?]	Philadelphia PA	1
 À Philadelphie	Philadelphia PA	1
 [Salem Mass.	Salem MA	1
 Reprinted at Litchfield [Conn.]	Litchfield CT	1
-Cheshire: Conneticut [sic]	Cheshire ct	1
+Cheshire: Conneticut [sic]	Cheshire CT	1
 Richmond: Virginia	Richmond VA	1
 [Portsmouth N.H.]	Portsmouth NH	1
-Salem, New-Jersey	Salem	1
+Salem, New-Jersey	Salem NJ	1
 Dumfries [Va.]	DumfriesVA	1
 [Easton Md.?	Easton MD	1
 Danbury [Ct.]	Danbury CT	1
@@ -3926,7 +4121,9 @@ Apud Novum-Portum [R.I.]	Newport RI	1
 [Augusta, Me.?	Augusta ME	1
 [Windsor Vt.	Windsor VT	1
 [Maine	Augusta ME	1
+Printed at the Apollo Press, in Boston	Boston	1
 South-Carolina. Charles-town [i.e., Charleston]	Charleston SC	1
+Massachusetts-Bay	Boston MA	1
 Keene.--(Newhampshire.)	Keene NH	1
 Printed at Newfield, (Connecticut)	Litchfield CT	1
 Poughkeepsie, Dutchess County [N.Y.]	Poughkeepsie NY	1
@@ -3938,6 +4135,7 @@ Newfield (Conn.)	Newfield CT	1
 [New Haven and New London, Conn.]	London	1
 [Whitehall, Pa.]	Whitehall PA	1
 New-Bbunswick [sic], New-Jersey	New Brunswick NJ	1
+Frankfort: (K.) [i.e., Kentucky]	Kentucky (Washington Ky or Frankfort Ky)	1
 [Dover, Del.?	Dover	1
 Georgetown [D.C.]	Georgetown DC	1
 Re-printed at Stockbridge [Mass.]	Stockbridge MA	1
@@ -3953,6 +4151,7 @@ Wilmington (N.C.)	Wilmington NC	1
 Edenton [N.C.	Edenton NC	1
 [Newbern [N.C.]	New Bern NC	1
 (Reprinted in Salem [Mass.]	Salem MA	1
+Wilmingtoni [Wilmington, Del.]	Wilmington DE	1
 [Cooperstown, N.Y.]	Cooperstown NY	1
 [Newfield, Conn.	Newfield CT	1
 Re-printed at Litchfield [Conn.]	Litchfield CT	1
@@ -3966,14 +4165,17 @@ Printed at Newark, New-Jersey	Newark NJ	1
 Printed in Newton, New-Jersey	Newton NJ	1
 Portsmouth,--state of New-Hampshire	Portsmouth	1
 [Portmouth, N.H.	Portsmouth NH	1
+Printed at Boston, New-England	Boston MA	1
 Printed at Concord [N.H]	Concord NH	1
 America [i.e., New York]	New York NY	1
-Simsbury, Conn.	Simsbury Ct	1
+[Augusta?	Augsburg or Augusta GA	1
+Simsbury, Conn.	Simsbury CT	1
 [Warren, R.I.	Warren RI	1
 Litch[field, Conn.	Litchfield CT	1
-Gedrukt bey Bethlehem [Pa.] in der Fork Dellawar.	Bethlehem Pa	1
+Gedrukt bey Bethlehem [Pa.] in der Fork Dellawar.	Bethlehem PA	1
 Providence.	Providence RI	1
 A New York	New York NY	1
+Imprime a Boston en la Nouuelle Angleterre	Boston	1
 Apud Pittsfield [Mass.]	Mass	1
 [Dresden Vt.; i.e., Hanover, N.H.]	Hanover NH	1
 Printed in New-York	New York NY	1
@@ -3981,11 +4183,13 @@ District of Columbia	Washington DC	1
 Printed in New-Haven.	New Haven MA	1
 Newport, (Rhode-Island)	Newport RI	1
 Charleston (S.C.)	Charleston SC	1
+Boston: Commonwealth of Massachusetts	Boston MA	1
 PPiladelphia [sic]	Philadelphia PA	1
 N London [i.e. New London, Conn.]	New London CT	1
 Halifax, N.C.	Halifax NC	1
 Georgia: Savannah	Savannah GA	1
 South-Carolina: Charles-town	Charleston SC	1
+From the Chronicle Press at Boston, Massachusetts	Boston	1
 N London [i.e., new London, Conn.]	New London CT	1
 Providence, New England	Providence RI	1
 Printed & sold in New-London [Conn.]	New London CT	1
@@ -4002,8 +4206,10 @@ Printed at Catskill [N.Y.]	Catskill NY	1
 Richmond, Virginia.	Richmond VA	1
 Windham, Conn.	Windham CT	1
 Newbury-port [Mass]	Newburyport MA	1
+Printed at Wrentham (Massachusetts)	Boston MA	1
 Poughkeepsie, state of New-York	Poughkeepsie NY	1
 Salem [Mass]	Salem MA	1
+Imprimé à Boston.	Boston	1
 Chelmsford [Mass.]: New-England	Chelmsford	1
 Harford	Harford MD	1
 [Charleston] South-Carolina	Charleston SC	1
@@ -4037,9 +4243,16 @@ Parthenopolis [i.e., Ephrata, Pa.]	Ephrata PA	1
 Philadelphia and New York	Philadelphia PA	1
 [Portsmouth N.H.?	Portsmouth NH	1
 Epharatae [Pa.]	Ephrata PA	1
+Boston (State of Massachusetts)	Boston	1
 Windsor, (Vermont,)	Windsor	1
 Pennsylvania: Carlisle	Philadelphia PA	1
+Cantabrigiæ N[ov-Anglorum i.e., Boston	Boston	1
+Commonwealth of Massachusetts: Worcester	Boston MA	1
+Paris. [i.e., Boston?]	Boston	1
+Boston of the Massachusets	Boston	1
+Columbia [i.e., Boston]	Boston	1
 America-Providence (Rhode-Island)	America	1
+Boston, United States	Boston	1
 Exeter, New-Hampshire.	Exeter	1
 City of Albany	Albany NY	1
 Morris Town [N.J.]	Morristown NJ	1
@@ -4068,7 +4281,7 @@ Stockbridge, (Massachusetts:)	Edinburgh	1
 Poughkeepsie: state of New-York	Poughkeepsie NY	1
 [Litchfield, Conn.] London printed; Lichfield	Litchfield CT	1
 [Cincinnati, Ohio?	Cincinnati OH	1
-Hanoverensi [N.H.]	Hannover	1
+Hanoverensi [N.H.]	Hannover NH	1
 Fairhaven, [Vt.]	Fairhaven VT	1
 Printed at Medford, (Massachusetts.	Medford MA	1
 Printed, at Providence	Providence RI	1
@@ -4082,7 +4295,8 @@ Printed at Hallowell, Hook [Me.]	Hallowell ME	1
 Hallowell, (District of Maine,)	Hallowell ME	1
 America, Massachusetts-Bay: Boston	America	1
 Printed at Hallowell, Hook [Maine]	Hallowell ME	1
-Stoningtonport [Conn.]	Stonington ct	1
+Massachusetts. Worcester	Boston MA	1
+Stoningtonport [Conn.]	Stonington CT	1
 Portsmouth,(New-Hampshire,)	Portsmouth NH	1
 [Haverhill, Mass.]	Haverhill MA	1
 Printed at New Bedford, Massachusetts	Bedford	1
@@ -4106,7 +4320,7 @@ Kingston, (Ulster County) [New York]	Kingston NY	1
 [Providence R.I.	Providence RI	1
 [Mount Holly, N.J.?	Mount Holly NJ	1
 (Mount-Holly [N.J.]	Mount Holly NJ	1
-(Warminster, Bucks County [Pa.]	Warminster	1
+(Warminster, Bucks County [Pa.]	Warminster PA	1
 Southampton [Pa.]	Southampton	1
 Danbury [Conn]	Danbury CT	1
 [Manchester, Vt.]	Manchester	1
@@ -4114,6 +4328,7 @@ Printed at Concord, Newhampshire	Concord NH	1
 West Springfield [Mass.]	West Springfield MA	1
 [Springfield] Commonwealth of Massachusetts.	Springfield MA	1
 Hartfod [i.e., Hartford]	Hartford CT	1
+Commonwealth of Massachusetts, Springfield	Boston MA	1
 Canandaigua [N.Y.]	Canandaigua NY	1
 Springfield (Commonwealth of Massachusetts)	Springfield MA	1
 Elizabeth town [N.J.]	Elizabeth NJ	1
@@ -4126,7 +4341,7 @@ Windhah [i.e., Windham, Conn.]	Windham CT	1
 [Worcester, Massachusetts]	Worcester MA	1
 Printed and sold at Walpole, Newhampshire.	Walpole NH	1
 Printed at Worcester.	Worcester	1
-George-Town [Va.]	Georgetown DC	1
+George-Town [Va.]	Georgetown VA	1
 [Troy, N.Y.	Troy NY	1
 [North Carolina]	North	1
 [Lansinburgh, [N.Y.]	Troy NY	1
@@ -4145,6 +4360,7 @@ Salem [N.Y.]	Salem NY	1
 Norwich, (Connecticut)	Norwich	1
 Printed, typographically, at Northampton, Massachusetts.	Northampton	1
 Printed and sold at the printing-office, in Worcester [Mass.	Worcester	1
+[Wilmington, Del.?]	Wilmington DE	1
 Charles-town [S.C]	Charleston SC	1
 Keene: New Hampshire.	Keene NH	1
 Wilmington, (North-Carolina)	Wilmington NC	1
@@ -4153,7 +4369,7 @@ Cooperstown [N.Y]	Cooperstown NY	1
 State of New-York: Poughkeepsie (Dutchess County)	York	1
 Quillsylvania [i.e., Philadelphia]	Philadelphia PA	1
 Brookfield: (Massachusetts.)	Brookfield MA	1
-Middletown-Point [N.J.]	Mount Pleasant NJ	1
+Middletown-Point [N.J.]	Matawan NJ	1
 Published at Salem, Massachusetts, by desire of many people	Salem	1
 Dover; (Delaware)	Dover	1
 State of Rhode-Island, &c. Printed at Providence	Providence RI	1
@@ -4168,6 +4384,7 @@ Printed at Springfield, (Massachusetts:)	Springfield MA	1
 [Wiscasset, Me.?	Wiscasset ME	1
 Printed in Newburyport [Mass.]	Newburyport MA	1
 A Philadelphie, et se trouve à Paris	Philadelphia PA	1
+Boston in N. E.	Boston	1
 Dublin [i.e., Philadelphia?]	Philadelphia PA	1
 Charlston [sic] [S.C.]	Charleston SC	1
 [Bennington Vt.]	Bennington VT	1
@@ -4181,12 +4398,15 @@ Providence, in N.E.	Providence RI	1
 [Warren, R.I.]	Warren RI	1
 Printed at Rome, New-York	Rome	1
 America. Salem [Mass.]	America	1
+Boston Commonwealth of Massachusetts	Boston MA	1
+Boston, Commonwealth of Massachusetts.	Boston MA	1
 Connecticut.	Litchfield CT	1
 [New York?] Americae	York	1
 Published at Worcester [Mass.]	Worcester MA	1
 Elizabeth-(Hager's) Town [i.e. Hagerstown, Md.]	Hagerstown MD	1
 [Hanover, N.H.?	Hanover NH	1
 Printed in New-Haven	New Haven MA	1
+(Commonwealth of Massachusetts.) Pittsfield	Boston MA	1
 Rutland [Vermont]	Rutland VT	1
 North-America: [Philadelphia]	North	1
 Suffield [Conn]	Suffield CT	1
@@ -4197,8 +4417,10 @@ Printed, in Norwich, (Connecticut,)	Norwich	1
 Northampton, (Massachusetts)	Northampton	1
 Printed in [Bennington,] Vermont	Bennington VT	1
 Newcastle [Del.]	Newcastle	1
+[Boston] New England	Boston MA	1
 New-Brunswick, New-Jersey	New Brunswick NJ	1
 Printed and sold at Greenfield, Massachusetts	Greenfield MA	1
+Boston: (Commonwealth of Massachsetts [sic])	Boston	1
 Newbedford (Massachusetts)	New Bedford MA	1
 Neo-Eboraci	New York NY	1
 Novi-Londini [Conn.]	London	1
@@ -4223,17 +4445,20 @@ Gedruckt zu Germanton	Germantown PA	1
 Philadelphia und Lancaster	Philadelphia PA	1
 [Germantown]	Germantown PA	1
 Leominster, (Massachusetts.)	Leominster MA	1
+Re-printed at Boston in N.E.	Boston	1
 [Petersburgh, Va.]	Petersburg VA	1
 Newark (N.J.)	Newark NJ	1
 Haverhill (N.H.)	Haverhill NH	1
 Offenbach am Mayn [i.e., Reading, Pa.?]	Reading PA	1
 Charleston, (South-Carolina)	Charleston SC	1
+Massachusetts: Printed at Charlestown	Boston MA	1
 Providence. N.E.	Providence RI	1
 Providence, in New England	Providence RI	1
 York-Town: (Pennsylvania)	York	1
 New-London, (Connecticut)	London	1
 Cantabrigiae [Cambridge, Mass.]	Cambridge	1
 Chestertown [Md.]	Chestertown MD	1
+Bostoniae [Boston]	Boston	1
 Burlington, New-Jersey	Burlington NJ	1
 [Salem]	Salem	1
 (Cambridge [Mass.]	Cambridge MA	1
@@ -4252,7 +4477,9 @@ Keene (New-Hampshire:)	Keene NH	1
 Danbury, Connecticut	Danbury CT	1
 Gedruckt zu Neiu-York	York	1
 London [i.e. New York]	New York NY	1
+Province of the Massachusetts-Bay. Boston: N.E.	Boston MA	1
 New-York [i.e., Providence]	Providence RI	1
+Cantabrigiæ Nov Anglorum, [i.e. Boston	Boston	1
 Newbury, (Vermont)	Newbury VT	1
 Lancaster [N.J.]	Lancaster NJ	1
 Western District: Vermont. Rutland	Rutland VT	1
@@ -4261,6 +4488,7 @@ Octoraro [Pa.]	Octorara PA	1
 [New London, Conn?]	New London CT	1
 Falmouth (Casco-Bay) [Me.]	Falmouth ME	1
 --Litchfield [Conn.]	Litchfield CT	1
+Boston: New England.	Boston MA	1
 Maryland. Annapolis	Annapolis MD	1
 [Hillsborough, N.C.?	Hillsborough NC	1
 Hillsborough [N.C.]	Hillsborough NC	1
@@ -4272,12 +4500,14 @@ Libanon [Pa.]	Libanon PA	1
 Wieder aufgelegt, Philadelphia	Philadelphia PA	1
 Gedruckt in Germanton [Pa.]	Germantown PA	1
 Chesnuthill, [Pa.]	Chestnut Hill PA	1
-Dieser Calender ist zu haben in Lancäster [Pa.]	Lancaster PA	1
+Dieser Calender ist zu haben in Lancäster [Pa.]	Lancaster Pa	1
+Wilmington (Delaware)	Wilmington DE	1
 Ephrata in Pennsylvania.	Ephrata PA	1
 Charlestown State of South Carolina.	Charleston SC	1
 New London [Conn]	New London CT	1
 Worcester, Massachusetts-Bay	Worcester	1
-Hägerstaun, (Märyland)	Hagerstown MD	1
+Boston, in N E.	Boston	1
+Hägerstaun, (Märyland)	Hagerstown Md	1
 T-Schesnüt-Hüll [Pa.]	Chestnut Hill PA	1
 [Friederich-Stadt, Md.]	Fredericktown MD	1
 [Reading, Pa.?	Reading PA	1
@@ -4299,22 +4529,25 @@ Printed at Newburgh [N.Y.]	Newburgh NY	1
 New-Haven--printed.	New Haven MA	1
 [Philadelphia.?	Philadelphia PA	1
 District of Maine: Printed at Portland	Augusta ME	1
-Pownalborough [Me.]	Dresden	1
-Washington, (K.) [i.e., Ky.]	Washington DC	1
+Pownalborough [Me.]	Dresden ME	1
+Washington, (K.) [i.e., Ky.]	Kentucky (Washington Ky or Frankfort Ky)	1
 Canaan, (state New-York)	York	1
 --Raleigh-- [N.C.]	Raleigh NC	1
 Carolopoli [Charleston, S.C.]	Charleston SC	1
 [Fredericktown, Md.?	Fredericktown MD	1
 Mount-Pleasant: (County of West-Chester--State of New-York.)	Chester	1
+Massachusetts-state. Boston	Boston MA	1
 Bennington [ Vt.]	Bennington VT	1
 (Philadelphia.	Philadelphia PA	1
 Printed and sold at Exeter, New-Hampshire	Exeter	1
 Printed in Bennington, [Vt.]	Bennington VT	1
+Done in (Court-Street) Boston	Boston	1
 [Ballston Spa, N.Y.	Ballston Spa NY	1
 York-town [Penn.]	York PA	1
 Huntingdon [Pa.]	Huntingdon PA	1
 America [i.e., Philadelphia]	Philadelphia PA	1
 Constantinople [i.e., Philadelphia]	Philadelphia PA	1
+Wilmingtonii [Del.]	Wilmington DE	1
 [Vermont	Rutland VT	1
 [Windsor, Vt?	Windsor VT	1
 Printed at Windsor, [Vt.]	Windsor VT	1
@@ -4333,7 +4566,9 @@ Dresden, State of Vermont [i.e., Hanover, N.H.]	Hanover NH	1
 [Windsor] Vermont	Windsor	1
 [Bennington Vt.?	Bennington VT	1
 [Friedensthal bei Bethlehem, Pa.	Friedensthal PA	1
-Fairfield [Conn]	Fairfield ct	1
+Boston: Massachusetts	Boston MA	1
+Boston--(Massachusetts)	Boston MA	1
+Fairfield [Conn]	Fairfield CT	1
 York [Ont.]	York	1
 A Montreal [Qué.]	Montreal	1
 Lunenburg. [i.e., Halifax, N.S.?]	Halifax NS	1
@@ -4347,7 +4582,7 @@ Se vend a Montreal	Montreal	1
 [Cincinnati]	Cincinnati OH	1
 [Saint John, N.B.	Saint John	1
 In Kingsthon [N.Y.]	Kingston NY	1
-Nieuw-Brunswick [N.J.]	New bruncwick nj	1
+Nieuw-Brunswick [N.J.]	New Bruncwick NJ	1
 Poughkeepsie: (Dutchess County) [N.Y.]	Poughkeepsie NY	1
 Herdrukt te Nieuw-Jork	New York NY	1
 Te Philadelphia.	Philadelphia PA	1
@@ -4358,7 +4593,7 @@ Lancaster, Pa.	Lancaster PA	1
 [Charleston [Mass.]	Charleston SC	1
 Detroit	Detroit Mi	1
 [Bennington and Rutland] Vermont	Bennington VT	1
-Salem, N.E.	Salem	1
+Salem, N.E.	Salem NJ	1
 City of St. John [N.B.]	Saint John	1
 Norfolk, Virginia	Norfolk	1
 Haverhill, (New-Hampshire)	Haverhill NH	1
@@ -4379,13 +4614,16 @@ Printed at Greenfield, Mass.	Greenfield MA	1
 New-London [Conn.], in N.E.	London	1
 New London [Conn.] in N.E.	London	1
 New-London in N.E.	London	1
+Bay-State: Boston	Boston MA	1
 Leuphanae [i.e., Hanover, N.H.]	Hanover NH	1
 District of Maine: Portland	Augusta ME	1
 Gedrukt tot, Philadelphia	Philadelphia PA	1
 Watertown, New-England [i.e., Watertown, Mass.]	Watertown MA	1
+Boston N E	Boston	1
 [Cincinnati, Ohio	Cincinnati OH	1
 New-London [Conn.], (Beach-Street)	London	1
-[Killingworth, Conn.	Killingworth ct	1
+[Killingworth, Conn.	Killingworth CT	1
+Boston. N.E.	Boston	1
 State of Rhode-Island, &c. Providence	Providence RI	1
 New-London--(Connecticut,)	London	1
 Reading [Penn.]	Reading	1
@@ -4397,6 +4635,7 @@ Newbury-Port, New-England	Newburyport MA	1
 [Charleston] South Carolina.	Charleston SC	1
 Salem, Massachusetts-Bay	Salem	1
 Neu-York	York	1
+Washington, (K. [i.e. Kentucky])	Kentucky (Washington Ky or Frankfort Ky)	1
 Blandford [Va.]	Blandford VA	1
 Printed at East-Windsor, (Connecticut,)	Windsor	1
 Gedrukt te Nieuw-Jork	New York NY	1
@@ -4409,6 +4648,7 @@ Salem: New-York	Salem	1
 Salem (Massachusetts)	Salem	1
 Gedruckt tot Niew-York	York	1
 Exeter [N.H]	Exeter NH	1
+State of Massachusetts. Boston	Boston MA	1
 [New-Bedford, Mass.]	New Bedford MA	1
 [Poughkeepsie, N.Y.?]	Poughkeepsie NY	1
 Printed at Walpole, New Hampshire	Walpole NH	1
@@ -4420,6 +4660,7 @@ Augusta [Ga]	Augusta GA	1
 Springfield, (Massachusetts)	Springfield MA	1
 Printed at Carolina [i.e., Philadelphia?]	Philadelphia PA	1
 [New York] United States	York	1
+Boston, (Massachusetts.)	Boston MA	1
 New-York [i.e., Philadelphia]	Philadelphia PA	1
 Printed at Northampton, (Massachusetts.)	Northampton	1
 Printed at Walpole, Newhampshire.	Walpole NH	1
@@ -4440,6 +4681,7 @@ Middleborough [Mass.]	Middleborough MA	1
 Newbury-port [Mass.], New-England	Newbury	1
 Springfield	Springfield MA	1
 Middleborough, (County of Plymouth) [Mass.]	Middleborough MA	1
+Reprinted at Boston in N.E.	Boston	1
 Maine: Portland	Augusta ME	1
 New-London, Connecticut	London	1
 Massachusetts-Bay: Worcester.	Worcester MA	1
@@ -4455,20 +4697,22 @@ Philadelphi [i.e., Philadelphia]	Philadelphia PA	1
 Springfield--(Massa.)	Springfield MA	1
 Nashville	Nashville TN	1
 Printed at Greenfield, (Massachusetts)	Greenfield MA	1
-[Harrisburgh]	Harrisburgh PA	1
+[Harrisburgh]	Harrisburg PA	1
 Printed at Dover, (N.H.)	Dover NH	1
+Printed at Boston, (according to act of Congress.)	Boston	1
 Printed in Hudson (New-York)	Hudson NY	1
 Norwich-- [Conn.]	Norwich CT	1
-Stonington--port [Conn.]	Stonington ct	1
+Stonington--port [Conn.]	Stonington CT	1
 Middleborough: (County of Plymouth,) [Mass.]	Middleborough MA	1
 [Annapolis, Md.]	Annapolis MD	1
 Reprinted at Providence	Providence RI	1
 [Newbury-Port, Mass.]	Newburyport MA	1
 Re-printed at Lichfield [sic] [Conn.]	Litchfield CT	1
 Printed at Dover, New-Hampshire	Dover	1
+State of Massachusetts-Bay. Boston	Boston MA	1
 Printed in the city of Albany [N.Y.]	Albany NY	1
 [Hudson, N.Y.	Hudson NY	1
-[Farmington, Conn.?]	Farmington ct	1
+[Farmington, Conn.?]	Farmington CT	1
 Portsmouth, New-Hampshire.	Portsmouth NH	1
 Printed and sold at Stockbridge [Mass.]	Stockbridge MA	1
 Printed and sold at Northampton, (Massachusetts.)	Northampton	1
@@ -4477,11 +4721,14 @@ Printed at Warren [R.I.]	Warren RI	1
 Newport [i.e., Providence, R.I.]	Providence RI	1
 Printed at Danbury [Conn.]	Danbury CT	1
 Newfifld [i.e., Newfield], (Connecticut)	Litchfield CT	1
+Printed in Massachusetts.	Boston MA	1
+[Boston] Massachusetts	Boston MA	1
 --Newbedford [Mass.]	New Bedford MA	1
 Printed at Worcester, (Massa.)	Worcester	1
 Medford, (Massachusetts)	Medford MA	1
 Medford, (Massachusetts,)	Medford MA	1
 [Catskill, N.Y.]	Catskill NY	1
+Bostn [sic]	Boston	1
 Charles-Town [Charleston, S.C.]	Charleston SC	1
 (Alexandria [Va.]	Alexandria VA	1
 Printed at Bennington [Vt]	Bennington VT	1
@@ -4507,6 +4754,8 @@ Lancaster [Pa.	Lancaster PA	1
 [Charleston, S.C]	Charleston SC	1
 Poughkeepsie, state of New-Yokk [sic]	Poughkeepsie NY	1
 In Napoli	Naples	1
+[[Boston [England]]	Boston	1
+Boston [Mass.] printed	Boston MA	1
 [Cirencester	Cirencester	1
 [London] : Printed and sold by R. Coster	London	1
 Londres [i.e Amsterdam?in id ]	Amsterdam	1
@@ -4596,13 +4845,14 @@ Taraṅkaṉapāṭi	Tarankanapaṭi	1
 [Malda in Bengal	Malda	1
 A Londres [i.e. Liepzig?]	Leipzig	1
 Viennæ et Londini	London	1
-Caerfyrrddin	Carmarthen	1
+Caerfyrrddin	Caerfyrddin	1
 London [i.e. Bern]	Bern	1
 A Whitehall [i.e. Amsterdam ?]	Amsterdam	1
 London reprinted	London	1
 [Lustleigh]	Lustleigh	1
 Livourne	Livorno	1
 [Vepery	Chennai	1
+A. Boston	Boston	1
 Amstelaedami	Amsterdam	1
 [Raglan	Rhaglan	1
 A Londres & à Paris	London	1
@@ -4637,7 +4887,7 @@ A S. Malo	Saint-Malo	1
 A Glascow [i.e. Paris?]	Paris	1
 Parmae	Parma	1
 [Walsall]	Walsall	1
-Mulbery Hill	Mulberry hill va	1
+Mulbery Hill	Mulberry Hill VA	1
 A Londres [i.e. Rheims?	Reims	1
 Mulbery Hill [i.e. London?]	London	1
 Londres [i.e. Berne?]	Bern	1
@@ -4685,6 +4935,7 @@ Bradford, Yorks	Bradford	1
 London [Göttingen	London	1
 Londres [Frankfurt?]	London	1
 A Londres [Frankfurt?]	London	1
+Boston und Philadelphia	Boston	1
 A Geneva [i.e. London?]	London	1
 á Manchester	Manchester	1
 London [Leipzig?]	London	1
@@ -4767,7 +5018,7 @@ St. Christopher's	Basseterre	1
 A Londres [Geneva?]	London	1
 Shrewshury	Amwythig	1
 Toujours A Londres [i.e. Paris?]	Paris	1
-Caeryrddin	Carmarthen	1
+Caeryrddin	Caerfyrddin	1
 [Watton]	Watford	1
 [Haarlem?]	Haarlem	1
 Newcaslte [sic] upon Tyne	Newcastle	1
@@ -4790,7 +5041,7 @@ Gainsbrough [sic]	Gainsborough	1
 Caernarvon	Caernarfon	1
 Mwythyg	Amwythig	1
 Londini et Amstelodami	London	1
-Caerfyddin	Carmarthen	1
+Caerfyddin	Caerfyrddin	1
 Legorne	Livorno	1
 Villa-Franca [i.e. London]	London	1
 Lisboa [i.e. London?]	London	1
@@ -4815,8 +5066,8 @@ A Saint Omer	St Omer	1
 Boston [i.e. Paris]	Paris	1
 Brussels [i.e.London]	London	1
 Trevecka printed	Trefeca	1
-Augustæ Vindel. et Friburgi Brisg.	Augsburg	1
-Augustæ Vind. & Friburg. Brisg.	Augsburg	1
+Augustæ Vindel. et Friburgi Brisg.	Augustae vindel friburgi brisg	1
+Augustæ Vind. & Friburg. Brisg.	Augustae vind friburg brisg	1
 En Oxonia	Oxford	1
 [Kilmarnock?]	Kilmarnock	1
 At Marseilles	Marseilles	1
@@ -4855,7 +5106,7 @@ La Haye [London?]	London	1
 [St. George, Grenada	Grenada	1
 Londini [i.e. Dresden]	Dresden	1
 Londra [i.e. Lugano?]	Lugano	1
-Newport (Shropshire)	Newport RI	1
+Newport (Shropshire)	Newport	1
 [Malta]	Valletta	1
 [Bermondsey]	London	1
 Linn [i.e. London]	London	1
@@ -4896,7 +5147,7 @@ Dun-Aodain	Edinburgh	1
 Orient de Londres [i.e. Hamburg?]	Hamburg	1
 Bury [Suffolk]	Bury	1
 [Bishopstone, Sussex]	Bishopstone	1
-Milton-Ernis, near Bedford	Milton ernest	1
+Milton-Ernis, near Bedford	Milton Ernest	1
 [ Leedes ]	Leeds	1
 à Edimbourg	Edinburgh	1
 Newcastle printed	Newcastle	1
@@ -4922,7 +5173,7 @@ Stamford and London	Stamford	1
 Knaresbro'	Knaresborough	1
 London, Printed	London	1
 Derry	Londonderry	1
-Carmathen	Carmarthen	1
+Carmathen	Caerfyrddin	1
 En Romsey	Romsey	1
 à Birmingham	Birmingham	1
 Londres [Basel?]	London	1
@@ -4992,7 +5243,7 @@ Edenburgh [sic, i.e. London]	London	1
 Bagdad [i.e. Cork?]	Cork	1
 Utoxeter	Uttoxeter	1
 Douvres [i.e. Paris?]	Paris	1
-Augustae	Augsburg	1
+Augustae	Augsburg or Augusta GA	1
 London [i.e. Durham]	Durham	1
 [ Nulun ]	Nulun	1
 Loddon [i.e. London]	London	1
@@ -5130,7 +5381,7 @@ Warringtom	Warrington	1
 à Strasbourg	Strasbourg	1
 Reprinted at Loughborough	Loughborough	1
 Tranquebaræ in littore Coromandelino	Tharangampadi	1
-Camarthen	Carmarthen	1
+Camarthen	Caerfyrddin	1
 [Honiton	Honiton	1
 Cambridge [i.e. Paris?]	Paris	1
 [Devizes?]	Devizes	1
@@ -5173,7 +5424,7 @@ Duneidean	Edinburgh	1
 War-Office, Printed	London	1
 [Banff?]	Banff	1
 Newcatle [sic] upon Tyne	Newcastle	1
-[Dunleary?	Dun laoghaire	1
+[Dunleary?	Dun Laoghaire	1
 London and Leipzig	London	1
 Francfort upon the Main	Frankfurt	1
 Dub. [sic]	Dublin	1
@@ -5188,6 +5439,7 @@ Et se vend Amsterdam	Amsterdam	1
 Londres [i.e. Saint-Omer?]	St Omer	1
 Dubllin	Dublin	1
 Dublin, printed	Dublin	1
+[Boston, Lincs.]	Boston MA	1
 Norvici	Norwich	1
 Bury St. Edmmund's	Bury	1
 [Hatfield?	Hatfield	1
@@ -5265,7 +5517,7 @@ Tabago	Port-of-Spain	1
 [Uxbridge?	London	1
 [Ramsgate?	Ramsgate	1
 [York?] Yorkshire	York	1
-Caer-Fyrddin	Carmarthen	1
+Caer-Fyrddin	Caerfyrddin	1
 Bury St. Edmunds, Sufflok	Bury	1
 Venedig	Venice	1
 [Gillingham?]	Gillingham	1
@@ -5315,7 +5567,7 @@ War-Office, printed	London	1
 Edinburghy	Edinburgh	1
 Roseau, Dominique	Roseau Dominica	1
 [Newmarket]	Newmarket	1
-Caerfryddin	Carmarthen	1
+Caerfryddin	Caerfyrddin	1
 [Edimbourgh [i.e. Paris?]	Paris	1
 A Cambridge	Cambridge	1
 Printed in Paris	Paris	1
@@ -5324,12 +5576,12 @@ Sheptcn-Mallet	Shepton Mallet	1
 [London-derry	Londonderry	1
 [Chesham?	Chesham	1
 [Dorking]	Dorking	1
-Osnabruck	Osnabrueck	1
+Osnabruck	Osnabrück	1
 Monterosarum	Montrose	1
 Lincolniæ	Lincoln	1
 [Alston]	Alston	1
 Edburginh [sic]	Edinburgh	1
-Newport [Shropshire]	Newport RI	1
+Newport [Shropshire]	Newport	1
 Camrbridge	Cambridge	1
 Glasg.	Glasgow	1
 Edinbrugh	Edinburgh	1
@@ -5455,7 +5707,7 @@ Altenbourg	Altenburg	1
 Trevoux [i.e. Amsterdam?]	Amsterdam	1
 Cantorbery	Canterbury	1
 Edinbug[sic]	Edinburgh	1
-Frankofurti ad Viadrum	Frankfurt	1
+Frankofurti ad Viadrum	Frankfurt an der Oder	1
 Philadelphia [i.e. St. Petersburg	St Petersburg	1
 A Londres [i.e. Zweibrücken]	Zweibrücken	1
 Philadelphia [i.e. Altona	Altona	1
@@ -5648,6 +5900,7 @@ Embdæ	Emden	1
 [Imprynted at London in Foster-lane, at the sygne of the Harteshorne	London	1
 [Middelburgh?	Middelburg	1
 At Cambridge [London]	Cambridge	1
+At Dovay	Douai	1
 Printed at Dovvay [i.e. England]	London	1
 [Enprynted in the famous cyte of London	London	1
 Antvverpiæ [i.e. London?	London	1
@@ -5663,7 +5916,8 @@ Londini [i.e.Geneva?]	Geneva	1
 [Impr]inted at Lon[don	London	1
 Printed at Andwerpe [i.e. Paris?	Paris	1
 Jmprinted [sic] at London	London	1
-Printed at Frankofourd	Frankfurt	1
+Printed at Frankofourd	Frankfurt am Main	1
+[Printed at Doway	Douai	1
 [St. Omer?	St Omer	1
 Imprinted at London in Fleetstreete	London	1
 Jmprynted at London	London	1
@@ -5832,7 +6086,7 @@ Edinbugh, [sic]	Edinburgh	1
 [Thys emprynteth at Westmynster	London	1
 [In alma Parrhisioru[m] academia	Paris	1
 Impresse fueru[n]t Parisius	Paris	1
-Impresse londinis	London	1
+Impresse londinis	Londinis	1
 [Impresse in ciuitate London[iis]	London	1
 [Impressu[m] parrhisijs	Paris	1
 Venu[n]da[n]t[ur] Parisius	Paris	1
@@ -5882,7 +6136,7 @@ Printed at the Hage [i.e. London?]	London	1
 Ghedruckt op Schotlandt buyten Danswijck [i.e. Amsterdam?]	Amsterdam	1
 Ghedruckt op Schotland [i.e. London]	London	1
 [In westmonesterio	London	1
-[Francoforte]	Frankfurt	1
+[Francoforte]	Frankfurt am Main	1
 [Impressa Londoniis	London	1
 [bwten Lonnen	Bwten lonnen	1
 At Middleburgh [i.e. London]	London	1
@@ -5958,7 +6212,7 @@ Prentid at Edinburgh	Edinburgh	1
 [Amsterodami	Amsterdam	1
 In Leida [i.e. London]	London	1
 [In Lothbury w. Copland	London	1
-Francoforti	Frankfurt	1
+Francoforti	Frankfurt am Main	1
 Anno Domini. 1588. Imprinted at London	London	1
 [Imprined [sic] at London	London	1
 Imprime à Basle [i.e. La Rochelle]	La Rochelle	1
@@ -6065,7 +6319,7 @@ Printed at Roan [i.e. Dublin]	Dublin	1
 Oxoniæ : Ex officina typographica Iosephi Barnesii	Oxford	1
 [Cambridge, England?	Cambridge	1
 Imprinted at Ippyswyche	Ipswich	1
-Augustæ	Augsburg	1
+Augustæ	Augsburg or Augusta GA	1
 [Excusum Londonini	London	1
 At Worcestre [England]	London	1
 Ghedruckt tot Londen [i.e. The Netherlands]	Amsterdam	1
@@ -6076,7 +6330,7 @@ Enprynted in Westminster	London	1
 Cantebrig.	Cambridge	1
 Imprinted at London by Thomas Creed, and are to be solde at the signe of the Eagle and childe, in the olde chaunge	London	1
 Emprynted at Westmynstre	Westminster VT	1
-Neostadii	Neustadt an weinstrasse	1
+Neostadii	Neustadt an der Weinstraße	1
 Middleburgii	Middelburg	1
 [Hamburgh]	Hamburg	1
 Dubline	Dublin	1
@@ -6089,7 +6343,7 @@ Impressum Ediburgiapud	Edinburgh	1
 [Impressum Lo[n]doni	London	1
 Londini : excudebat I. H[arrison 3]. impensis Iohannis Harisoni [1], sub signo Canis Leporarii	London	1
 [Prynted in Sowthwarke	London	1
-[Nuper impressa London̄	London	1
+[Nuper impressa London̄	Nuper london	1
 [Lo[n]dini impressum	London	1
 Monaco [i.e. London]	London	1
 [Imprinted at London in Fleetestrete, within Temple barre, at ye signe of the Hand [and] Starre, by Richard Tottell	London	1
@@ -6129,10 +6383,10 @@ Imprinted at Dort	Dort	1
 [Lo[n]don̄	London	1
 Printed in Edinbrugh	Edinburgh	1
 [Imprynted at Londo⁻n	London	1
-[Nouiter impressa Londo⁻n	London	1
+[Nouiter impressa Londo⁻n	Nouiter london	1
 Printedig yn Llùndain	London	1
 [Emprynted at Lo[n]do[n]	London	1
-[Nouiter impressa London̄	London	1
+[Nouiter impressa London̄	Nouiter london	1
 [Emprinted at Lo[n]don	London	1
 [Pri[n]ted at Cantorbury	Canterbury	1
 Imprinted at Oxford [and London]	Oxford	1
@@ -6148,7 +6402,7 @@ Parrisijs	Paris	1
 Antwerpie	Antwerp	1
 [Exaratu[m] Rothomagi	Rouen	1
 in alma Parisiorum academia	Paris	1
-[Impresse in ciuitate Londoniensi	London	1
+[Impresse in ciuitate Londoniensi	Ciuitate londoniensi	1
 [in alma Parisiorum academia	Paris	1
 [Impressu[m] Londo⁻n	London	1
 In oxoniensi academia	Oxford	1
@@ -6162,7 +6416,7 @@ Imprinted at Lodnon	London	1
 [Norwich [i.e. actually printed abroad]]	Actually abroad	1
 Prynted at L[ondo]n	London	1
 [Antwerp] Venundantur Londonij	Antwerp	1
-[Impressu[m] in ciuitate Londo⁻n	London	1
+[Impressu[m] in ciuitate Londo⁻n	Ciuitate london	1
 [i[m]pressu[s] Rothomagi	Rouen	1
 [At westmestre	London	1
 Londidi [sic]	London	1
@@ -6184,7 +6438,7 @@ Venu[n]da[n]tur Rothomagi	Rouen	1
 at. Dort [i.e. London]	London	1
 at. Dort	Dort	1
 Venundantur Parisijs	Paris	1
-Venales hab⁻etur Londo⁻n	London	1
+Venales hab⁻etur Londo⁻n	Venales hab⁻etur london	1
 [Emprented by me Ioh[a]n of Doesborowe]	London	1
 [Emprynted at westmynstre	Westminster VT	1
 Newly enpryntyd yn Paris	Paris	1
@@ -6230,6 +6484,7 @@ Printed in Amsterdam [i.e. London	London	1
 [Impressi Londini	London	1
 Printed at Hamboroughe	Hamburg	1
 [Prentit at sanct Androus	St Andrews	1
+[Doway	Douai	1
 Printed at the Hagh in Holland	The Hague	1
 Printed at London [i.e. Delft	Delft	1
 At London: Printed by I. Roberts for Simon VVaterson, dwelling in Paules Church-yard, at the signe of the Crowne	London	1
@@ -6277,6 +6532,7 @@ marborch [i.e. Antwerp	Antwerp	1
 Printed at the Hayf [sic, i.e. London]	London	1
 In Vtopia [i.e. London]	London	1
 London, Printed Ianuary 11. 1640	London	1
+Imprinted at Dovay	Douai	1
 Imprime a Dort	Dort	1
 Oxoniii	Oxford	1
 Paris [i.e. Lancashire?]	Preston	1
@@ -6416,7 +6672,7 @@ Lo[n]don	London	1
 Basileiæ [i.e. London]	London	1
 Imprinted at Doway [i.e. England]	London	1
 In Roma	Rome	1
-Franckfort on the Mayne	Frankfurt	1
+Franckfort on the Mayne	Frankfurt am Main	1
 [Impressa in Londre	London	1
 [[Rouen?	Rouen	1
 Middleborrow	Middelburg	1
@@ -6448,13 +6704,14 @@ Londinj	London	1
 [Rheims	Reims	1
 Imprinted at Lovain	Louvain	1
 Edinburgh [i.e Amsterdam]	Amsterdam	1
-[Impressum[que] in ciuitate Londo⁻n	London	1
+[Impressum[que] in ciuitate Londo⁻n	Que ciuitate london	1
 At Burdeaux [i.e. London]	London	1
 Imprinted we know where, and whan, judge you the place and you can [i.e. Hemel Hempstead?]	Hemel Hempstead	1
 Ghedruckt in Lydden [i.e. London?]	London	1
 Impresso en Paris [i.e. Oxford]	Oxford	1
 [Printed abroad?	Abroad	1
 [in alma Paryisiorum	Paris	1
+[Douay]	Douai	1
 [Europe?	Europe	1
 In Vinegia [i.e. London]	London	1
 [Ghedruct tot Londen	London	1
@@ -6500,8 +6757,8 @@ Printed at Pancridge [i.e. London	London	1
 [Impresso et finito Oxonie	Oxford	1
 [Ciuitate Lo[n]don[iis]	London	1
 [Ciuitate Lo[n]d[o]n	London	1
-[Exaratus London̄	London	1
-Venales extant Londo⁻n	London	1
+[Exaratus London̄	Exaratus london	1
+Venales extant Londo⁻n	Venales extant london	1
 [Impressum apud preclarem Cantabrigiam	Cambridge	1
 [Impr .. Londini	London	1
 [Westmynstre	Westminster VT	1
@@ -6545,6 +6802,7 @@ Inprinted at Lo[n]don	London	1
 [Imprinted at Ausborch [i.e. Antwerp]	Antwerp	1
 [Londonii impressus	London	1
 [Enprynted at Westmester	London	1
+Printet at Doway	Douai	1
 [Emprinted at Lo[n]do[n]	London	1
 Anno. M. D. xlix. At Worceter	Worcester	1
 [Emprynted at westemynster	London	1
@@ -6608,6 +6866,7 @@ Imprinted in Rome [i.e. Wesel?	Wesel	1
 [At Grunning [i.e. Antwerp]	Antwerp	1
 [Venetijs	Venice	1
 [Impresse quide[m] Parisijs in officina industrij calcographi Nicolai Preuost. Impe[n]sis vero fidelissimi mercatoris Francisci Byrkman ciuis coloniensis. Et apud eunde[m] venunda[n]tur Londonii apud cimiteriu[m] sancti Pauli	Paris	1
+Printed at Doway [and Rheims]	Douai	1
 Curtigiane of Rome [i.e. London?]	London	1
 Imprinted at Rhemes	Reims	1
 [M.D.L. Imprinted at London	London	1
@@ -6642,14 +6901,14 @@ And now imprinted in the yeare of oure Lorde. M. D. XLIX. Imprinted at London	Lo
 Anno Dni. imprinted at Amsterdam	Amsterdam	1
 [Imprented at Londo[n]	London	1
 [Printed at Wyttenberge [.e. London]	London	1
-Leodii [and Louvain]	Liège	1
+Leodii [and Louvain]	Liege	1
 Excussum [sic] Londini	London	1
 [Cologne?	Cologne	1
 [Imprinted at Sauoy [i.e. Strasbourg]	Strasbourg	1
 In Rotterdam	Rotterdam	1
 Anno Domini. 1583. Imprinted at London	London	1
 Reprinted [Amsterdam?	Amsterdam	1
-Francoforti ad Moenum	Frankfurt	1
+Francoforti ad Moenum	Frankfurt am Main	1
 Printed at Colen [i.e. Lancashire?	Preston	1
 1574 Imprinted at London	London	1
 At Middleborough	Middleborough MA	1
@@ -6691,7 +6950,7 @@ Stampato in Londra	London	1
 newly enprynted in Paris	Paris	1
 1569. Imprynted at London	London	1
 [In alma Parhisiorum Academia	Paris	1
-[Impressu[m] est Londo⁻n	London	1
+[Impressu[m] est Londo⁻n	Est london	1
 Nouember. At London	London	1
 Printed at Roane [i.e. London	London	1
 [Impressum Londonii	London	1
@@ -6783,7 +7042,7 @@ Printed at Delft	Delft	1
 At Delph	Delft	1
 [Londini [i.e. Germany?]	Hamburg	1
 Lonoon [sic]	London	1
-Venduntur Londo⁻n	London	1
+Venduntur Londo⁻n	Venduntur london	1
 In preclara Parrhisiensi academia	Paris	1
 [Prynted at Ca[n]torbury	Canterbury	1
 Impri[n]ted at London	London	1
@@ -6859,12 +7118,13 @@ At Heydelberge [i.e. London	London	1
 Pesclauii [i.e. London]	London	1
 Anno. 1570. Imprinted at London	London	1
 Printed att Gant	Ghent	1
+In Augusta	Augsburg or Augusta GA	1
 Imprented at Londo[n]	London	1
 Na de copye, Gedruckt tot Edinburgh	Edinburgh	1
 [Impress[us] Londini	London	1
 [Imprime a Lou[n]dres par moy Robert Redman	London	1
 Londini[i.e. Printed abroad]	Abroad	1
-[Nouiter ac diligenter impressus & non minimo labore revis[us] London̄	London	1
+[Nouiter ac diligenter impressus & non minimo labore revis[us] London̄	Nouiter ac diligenter non minimo labore revis us london	1
 [Lothbery	London	1
 [Impressus Lo[n]dini	London	1
 Imprinted at Cambridge	Cambridge	1
@@ -6890,6 +7150,7 @@ Emprynted at Geneua [i.e. Antwerp]	Antwerp	1
 Excudebatur praesens opus VVesaliae	Oberwesel	1
 [Gippeswici in Anglia [i.e. Wesel]	Wesel	1
 Colloniæ [i.e. Paris	Paris	1
+[A Douay	Douai	1
 Neulye imprynted at Caen	Caen	1
 Excusum in Londini	London	1
 [Imprynted at London in Temstrete ouer agaynste the stiliardes, at the signe of the dobbel hood	London	1
@@ -6950,6 +7211,7 @@ Aberdeene	Aberdeen	1
 Printed and sold in York	York	1
 Printed at Louain	Leuven	1
 Printed at London, and re-printed at Leith [	London	1
+[Douay	Douai	1
 Gedrukt te Londen	London	1
 [Edinbvrgh	Edinburgh	1
 At Aberdeen	Aberdeen	1
@@ -7040,6 +7302,7 @@ Printed at London, and re-printed	London	1
 Holy-Rood-House, [i.e. Edinburgh]	Edinburgh	1
 [Camridge	Cambridge	1
 [London] .	London	1
+Boston, in N. E.	Boston	1
 Caer-Ludd [i.e. London?]	London	1
 [Gla]sgow	Glasgow	1
 Impressus Lond.	London	1
@@ -7081,7 +7344,7 @@ Roterodami	Rotterdam	1
 [Edinburgh] Printed at London and re-printed at Edinburgh	Edinburgh	1
 Oxford [i.e., London or Amsterdam	London	1
 Printed at Edinburgh, ;;and reprinted at Aberdene	Edinburgh	1
-A Frankfort	Frankfurt	1
+A Frankfort	Frankfurt am Main	1
 [Abredeis	Aberdeen	1
 Pruntiedig yn Llundain	London	1
 Edinburgh [London?]	Edinburgh	1
@@ -7140,6 +7403,7 @@ Audomari [i.e. Saint Omer]	St Omer	1
 A Londre [i.e. the Netherlands?]	Amsterdam	1
 V[e]nus [i.e. London?]	London	1
 Lutetiæ Parisiorum [Paris] :;Londini : Prostant apud Abelem Swalle ... & Sam. Smith ...	Paris	1
+Boston [Massachusetts]	Boston MA	1
 To Antworpe	Antwerp	1
 Lonpuo [sic, i.e. London]	London	1
 [London] :In the Savoy, printed by Tho. Newcomb	London	1
@@ -7290,6 +7554,7 @@ Fait dans la ville de Londres	London	1
 [St. Germain	Saint-Germain-en-Laye	1
 [Oxford (i.e. London?)]	London	1
 Gedruckt zu Londen in Engelland	London	1
+Printed at Boston in New-England [and London]	Boston MA	1
 [Argraphwyd yn Llundain	London	1
 Printed at Alba Regalis [i.e. London?	London	1
 Printed by His Majesties command at Oxford, March 25	Oxford	1
@@ -7386,7 +7651,7 @@ Londo n [i.e. London]	London	1
 Cambridge [i.e. Holland?]	Amsterdam	1
 [At Cambridge	Cambridge	1
 Printed at Amsterledam [sic]	Amsterdam	1
-Yn Lvyck	Liège	1
+Yn Lvyck	Liege	1
 Octob. 9. London	London	1
 At, Amsterdam	Amsterdam	1
 Leyden [i.e. London?]	London	1
@@ -7412,6 +7677,7 @@ At Roterdame	Rotterdam	1
 [Catabrigiae]	Cambridge	1
 Edenbrough [i.e. London]	London	1
 Printiedic yn Llundain	London	1
+[Boston] Massachuset	Boston	1
 September 6. London	London	1
 London [i.e. Amsterdam?	Amsterdam	1
 Tot Middelburgh	Middelburg	1
@@ -7459,6 +7725,7 @@ Cantabrigi	Cambridge	1
 Bovlongne	Bologna	1
 At Leith	Edinburgh	1
 Deepe [i.e. Dieppe]	Dieppe	1
+At Douay in Flanders	Douai	1
 [Saint-Germain-en-Laye	Saint-Germain-en-Laye	1
 [[Philadelphia]	Philadelphia PA	1
 Lonlon [sic]	London	1
@@ -7536,6 +7803,7 @@ Printed at Villa Franca in Utopia [i.e. London?	London	1
 [London]January, 2	London	1
 London [s.n.]	London	1
 London ,i [sic]	London	1
+Printed at Boston in New England [and London]	Boston MA	1
 Printed at Amsterdam [i.e. London?]	London	1
 Printed by His Majesty command at Oxford	Oxford	1
 A Londe [sic, i.e. the Netherlands?]	Amsterdam	1
@@ -7551,13 +7819,17 @@ Loneon [i.e. London]	London	1
 ondon [i.e. London]	London	1
 [Rotterdam?]	Rotterdam	1
 [Savanna-la-Mar] Jamaica	Savanna-la-Mar Jamaica	1
-[Cap François, Haiti]	Cap Haitien	1
+[Cap François, Haiti]	Cap francois haiti	1
+St. George's Town [Grenada]	St Georges Grenada	1
 [St. Johns?] Antigua	St Johns Antiqua	1
 St. Jago de la Vega [i.e. Spanish Town], Jamaica]	Spanish Town Jamaica	1
+A La Trinité Martinique	La trinite martinique	1
+A Saint-Pierre [Martinique]	St Pierre Martinique	1
 Knoxville, State of Tennessee	Knoxville TN	1
 Knoxville, (State of Tennessee)	Knoxville TN	1
 Quebec [i.e. Quebec City, Canada]	Quebec	1
 Saint Jago de la Vega [Spanish Town, Jamaica]	Kingston Jamaica	1
+Boston, N.E. [Mass.]	Boston	1
 [West Chester, Pa.]	Chester	1
 [Fincastle, Va.]	FincastleVA	1
 [Concord] New Hampshire	Concord NH	1
@@ -7609,12 +7881,12 @@ Alexandria, Va	Alexandria VA	1
 Castine, District of Maine [Me.]	Castine ME	1
 Castine, Me.	Castine ME	1
 Martinsburg, Va. [i.e. W.Va.]	Martinsburg VA	1
-Läncaster [Pa.]	Lancaster PA	1
+Läncaster [Pa.]	Lancaster Pa	1
 George-town [i.e Washington, D.C.]	Washington DC	1
 Peacham, Vt.	Peacham VT	1
 Frankfort, Ky.	Frankfort KY	1
 New-Bedford, Mass.	New Bedford MA	1
-Stonington [Conn.]	Stonington ct	1
+Stonington [Conn.]	Stonington CT	1
 Vergennes, Vt.	Vergennes VT	1
 Lansingburgh, [N.Y.]	Lansingburgh NY	1
 Morris-Town, N.J.	Morristown NJ	1
@@ -7648,9 +7920,11 @@ Fayetteville, N.C.	Fayetteville NC	1
 Chesnuthill [i.e. Chestnut Hill, Pa.]	Chestnut Hill PA	1
 Dover, New Hampshire	Dover	1
 Shepherdstown, Virginia	Richmond VA	1
+A Boston [Mass.]	Boston MA	1
 Pittsfield [Mass]	Mass	1
 Lansinghborough [i.e., Troy, N.Y.]	Troy NY	1
 Elizabeth-Town, [N.J.]	Elizabeth NJ	1
+[Wilmington], Del.	Wilmington DE	1
 Augusta, Ga.	Augusta GA	1
 Elizabeth Town, N.J.	Elizabeth NJ	1
 New-Haven, [Conn.]	New Haven CT	1
@@ -7691,7 +7965,7 @@ Pittsburgh, Pa.	Pittsburgh PA	1
 Nashville, Tenn.	Nashville TN	1
 Pittsfield, Mass.	Mass	1
 Chillicothe, North-Western Territory [i.e., Ohio]	Chillicothe OH	1
-Sharon, Conn.	Sharon Ct	1
+Sharon, Conn.	Sharon CT	1
 New-York, [N.Y.]	New York NY	1
 Norristown, Pa.	Norristown PA	1
 Washington City	Washington DC	1
@@ -7719,11 +7993,12 @@ Gloucester [England] printed	Gloucester	1
 Quebec [Canada]	Quebec	1
 A Quebec [Canada]	Quebec	1
 [Kingston] Jamaica	Kingston Jamaica	1
-[Portsmouth, England	Portsmouth	1
+[Portsmouth, England	Portsmouth GB	1
 [Philadelphia.	Philadelphia PA	1
 Colchester [England]	Colchester	1
 Frederick-Town: (state of Maryland)	Frederick MD	1
 [Port-au-Prince, Haiti]	Port-au-Prince	1
+Wilmington [Delaware]	Wilmington DE	1
 [London (England)	London	1
 Newburgh (Ulster County )[N.Y.]	Newburgh NY	1
 [Roseau], Dominica	Roseau Dominica	1
@@ -7775,7 +8050,7 @@ Cambridge [England	Cambridge	1
 Newcastle [-upon-Tyne, England]	Newcastle	1
 Publié à Londres	London	1
 Warrington [England]	Warrington	1
-[Winchester? England]	Winchester	1
+[Winchester? England]	Winchester GB	1
 [Tralee? Ireland]	Dublin	1
 Printed at Exon	Exeter	1
 [Saint Eustatius (Netherlands Antilles)]	St Eustatius	1
@@ -7845,7 +8120,7 @@ Perth [Scotland]	Perth	1
 A Londres [London]	London	1
 London [England], 1793	London	1
 Basseterre (St. Christopher) [i.e. St.Kitts-Nevis]]	Basseterre Saint Kitts	1
-[Winchester, England]	Winchester	1
+[Winchester, England]	Winchester GB	1
 [Hagerstown [Md.] : Johann Gruber]	Hagerstown MD	1
 Oxford [England	Oxford	1
 Wbithy [i.e. Whitby, England]	Whitby	1
@@ -7862,13 +8137,15 @@ Londra [i.e. London]	London	1
 London [i.e. Wien]	Vienna	1
 At Hall in Saxony	Halle	1
 [[Gainsborough]	Gainsborough	1
-[Elbing?	Elblag	1
+[Saint Pierre?	St Pierre Martinique	1
+[Elbing?	Elbl_g	1
 [Surry?	Kingston	1
 [Rochell?	Rochell	1
 [Dunkirk?	Dunkirk	1
 [Bordeaux?	Bordeaux	1
 [Minorca?	Minorca	1
 [Lonodn?	London	1
+[Martinique?	St Pierre Martinique	1
 [Königsberg?	Koningsberg	1
 [Great Yarmouth?	Yarmouth	1
 [Norfolk	Norfolk	1
@@ -7992,6 +8269,7 @@ Londres & à Geneve	London	1
 Londres [i.e.Dijon?]	Dijon	1
 [Clifton?	Clifton	1
 St. John's	Saint John	1
+London [i.e.Boston?]	Boston	1
 [Stockholm	Stockholm	1
 Londres[i.e. Lausanne, by Grasset?]	Lausanne	1
 [London [i.e. Dublin]	Dublin	1
@@ -8024,7 +8302,7 @@ Paris [i.e. Amsterdam?]	Amsterdam	1
 [Stratford on Avon]	Stratford-upon-Avon	1
 Londres [i.e. Abbeville]	Abbeville	1
 Amsterdam und London	Amsterdam	1
-Anspac	Frankfurt	1
+Anspac	Frankfurt am Main	1
 [Sterling?	Sterling	1
 Edinburgi: excudebat Joannes Paterson: impensis Jacobi Dickson. Item Londini, apud G. G. et J. Robinson; Glasguae, apud Dunlop et Wilson; Andreapoli, apud P. Bower	Edinburgh	1
 [Glocester?]	Gloucester	1
@@ -8056,7 +8334,7 @@ Londres [i.e. Nancy	Nancy	1
 [Thurles?	Thurles	1
 [Newton-Abbot?	Newton Abbot	1
 [Ormskirk	Ormskirk	1
-[Guernsey	St peter port	1
+[Guernsey	St Peter Port	1
 [Oldham	Oldham	1
 [Clonmel	Clonmel	1
 [Guadaloupe	Basseterre	1
@@ -8065,10 +8343,12 @@ Londres [i.e. Nancy	Nancy	1
 [Castries	Castries	1
 [Burton-upon-Trent]	Burton	1
 [Greenlaw?	Greenlaw	1
+[Jersey	Jersey (St Helier or Jersey City NJ)	1
 [Port de la liberté	Point-a-pitre	1
 [Lymington]	Lymington	1
 [Wycombe]	Wycombe	1
 [Minorca	Minorca	1
+[Saint Pierre	St Pierre Martinique	1
 [Fort Royal	Fort Royal	1
 Fort-Royal Grenade	St George	1
 [Basseterre	Basseterre	1
@@ -8084,7 +8364,7 @@ London [i.e. Norwich, Conn.]	Norwich CT	1
 Suffield	Suffield CT	1
 [Stockton-Upon-Tees]	Stockton	1
 [Bar Hardcastle?	Barnard Castle	1
-[Mole Saint Nicholas	Mole saint nicolas	1
+[Mole Saint Nicholas	Mole-Saint-Nicolas	1
 [[Londonderry]	Londonderry	1
 [Kingston upon Hull?	Hull	1
 Londoniæ	London	1
@@ -8116,7 +8396,7 @@ Mainz und Frankfurt	Mainz	1
 [Denbigh?	Denbigh	1
 [Melvill?	Melvill	1
 [Bedale?	Bedale	1
-[[Guernsey]	St peter port	1
+[[Guernsey]	St Peter Port	1
 [Bordeaux]	Bordeaux	1
 [Gravesend	Gravesend	1
 [Sudbury	Sudbury	1
