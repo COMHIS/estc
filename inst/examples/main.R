@@ -5,7 +5,6 @@
 output.folder <- "output.tables/"
 
 # List preprocessed data files
-#fs <- list.files(ddir, full.names = TRUE, pattern = ".csv.gz")
 fs <- "estc.csv.gz"
 
 # Cores
@@ -13,9 +12,9 @@ mc.cores <- 4
 
 # Update selected fields only -
 # comment out if not needed
-update.fields <- "publication_place" 
-validate.fields <- "years"
-# enrich.fields <- c("geo", "years")
+#update.fields <- "publication_place" 
+#validate.fields <- "years"
+#enrich.fields <- c("geo", "years")
 
 # Remove selected fields
 ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
