@@ -1418,7 +1418,7 @@ Edinburg [sic]	Edinburgh	5
 [Hamburg]	Hamburg	5
 Londres [i.e. Rouen]	Rouen	5
 Antwerp [i.e. London?]	London	5
-Jersey	Jersey (St Helier or Jersey City NJ)	5
+Jersey	Jersey (Ambiguous)	5
 Waymouth	Weymouth	5
 Knaresbrough	Knaresborough	5
 [Durham?]	Durham	5
@@ -1431,7 +1431,7 @@ Cantabrigæ	Cambridge	5
 [Colchester]	Colchester	5
 Dun-Eidean	Edinburgh	5
 Glasgu?	Glasgow	5
-[Jersey?	Jersey (St Helier or Jersey City NJ)	5
+[Jersey?	Jersey (Ambiguous)	5
 Edinburgh printed	Edinburgh	5
 Brighthelmstone	Brighton	5
 Lond. [i.e. London]	London	5
@@ -2006,7 +2006,7 @@ Lodnon [sic]	London	3
 [Cork?]	Cork	3
 [Windsor	Windsor	3
 Londinii	London	3
-A Jersey	Jersey (St Helier or Jersey City NJ)	3
+A Jersey	Jersey (Ambiguous)	3
 [Cape Town	Cape Town	3
 Paris [London?]	Paris	3
 A Rotterdam	Rotterdam	3
@@ -2251,7 +2251,7 @@ Corcagiæ [i.e. Cork]	Cork	3
 [Nantes?	Nantes	3
 Bermuda	St George	3
 [Norwich? :s.n.	Norwich	3
-[Martinique	St Pierre Martinique	3
+[Martinique	St Pierre	3
 Nassau, Bahamas	Nassau	3
 [Kingstown [Saint Vincent]?	Kingstown	3
 [St. George]	St George	3
@@ -3276,7 +3276,7 @@ Whitby [England]	Whitby	2
 Darlington [England]	Darlington	2
 Lynn [King's Lynn, England]	Kings Lynn	2
 Leicester [England]	Leicester	2
-[Whitehaven, England]	Whitehaven GB	2
+[Whitehaven, England]	Whitehaven	2
 Dublin [Ireland	Dublin	2
 New-Castle [England]	Newcastle	2
 Northampton [England]	Northampton	2
@@ -3284,7 +3284,7 @@ Leeds [England]	Leeds	2
 Gainsborough [England]	Gainsborough	2
 Montreal [Quebec]	Montreal	2
 [Oxford, England]	Oxford	2
-Whitehaven [England]	Whitehaven GB	2
+Whitehaven [England]	Whitehaven	2
 Newbury (Vermont)	Newbury Vt	2
 [[Brentford]	Brentford	2
 [Nassau, Bahamas?	Nassau	2
@@ -3429,7 +3429,7 @@ Germantown bei Philadelphia, [i.e. Berlin] 1782	Berlin	1
 [Northumberland ?	Northumberland Pa	1
 [Eshott?	Eshott	1
 [Whitby]	Whitby	1
-[Winchester or Oxford?	Winchester GB	1
+[Winchester or Oxford?	Winchester (England)	1
 [Rousham	Rousham	1
 [Frankfurt an der Oder?	Frankfurt	1
 London : [J. Almon]	London	1
@@ -3760,7 +3760,7 @@ A Charles-Town [i.e. Paris?]	Paris	1
 Philada [i.e. Philadelphia]	Philadelphia Pa	1
 Georgia	Augusta GA	1
 Staunton	Staunton Va	1
-[Augusta	Augsburg or Augusta GA	1
+[Augusta	Augusta	1
 Fish-Kill	Fishkill NY	1
 St John	St Johns Antiqua	1
 [Montréal?	Montreal	1
@@ -4177,7 +4177,7 @@ Portsmouth,--state of New-Hampshire	Portsmouth	1
 Printed at Boston, New-England	Boston Ma	1
 Printed at Concord [N.H]	Concord NH	1
 America [i.e., New York]	New York NY	1
-[Augusta?	Augsburg or Augusta GA	1
+[Augusta?	Augusta	1
 Simsbury, Conn.	Simsbury Ct	1
 [Warren, R.I.	Warren RI	1
 Litch[field, Conn.	Litchfield Ct	1
@@ -5254,7 +5254,7 @@ Edenburgh [sic, i.e. London]	London	1
 Bagdad [i.e. Cork?]	Cork	1
 Utoxeter	Uttoxeter	1
 Douvres [i.e. Paris?]	Paris	1
-Augustae	Augsburg or Augusta GA	1
+Augustae	Augusta	1
 London [i.e. Durham]	Durham	1
 [ Nulun ]	Nulun	1
 Loddon [i.e. London]	London	1
@@ -6331,7 +6331,7 @@ Printed at Roan [i.e. Dublin]	Dublin	1
 Oxoniæ : Ex officina typographica Iosephi Barnesii	Oxford	1
 [Cambridge, England?	Cambridge	1
 Imprinted at Ippyswyche	Ipswich	1
-Augustæ	Augsburg or Augusta GA	1
+Augustæ	Augusta	1
 [Excusum Londonini	London	1
 At Worcestre [England]	London	1
 Ghedruckt tot Londen [i.e. The Netherlands]	Amsterdam	1
@@ -7135,7 +7135,7 @@ At Heydelberge [i.e. London	London	1
 Pesclauii [i.e. London]	London	1
 Anno. 1570. Imprinted at London	London	1
 Printed att Gant	Ghent	1
-In Augusta	Augsburg or Augusta GA	1
+In Augusta	Augusta	1
 Imprented at Londo[n]	London	1
 Na de copye, Gedruckt tot Edinburgh	Edinburgh	1
 [Impress[us] Londini	London	1
@@ -7844,7 +7844,7 @@ St. George's Town [Grenada]	St Georges Grenada	1
 [St. Johns?] Antigua	St Johns Antiqua	1
 St. Jago de la Vega [i.e. Spanish Town], Jamaica]	Spanish Town Jamaica	1
 A La Trinité Martinique	La Trinite	1
-A Saint-Pierre [Martinique]	St Pierre Martinique	1
+A Saint-Pierre [Martinique]	St Pierre	1
 Knoxville, State of Tennessee	Knoxville TN	1
 Knoxville, (State of Tennessee)	Knoxville TN	1
 Quebec [i.e. Quebec City, Canada]	Quebec	1
@@ -8013,7 +8013,7 @@ Gloucester [England] printed	Gloucester	1
 Quebec [Canada]	Quebec	1
 A Quebec [Canada]	Quebec	1
 [Kingston] Jamaica	Kingston Jamaica	1
-[Portsmouth, England	Portsmouth GB	1
+[Portsmouth, England	Portsmouth England	1
 [Philadelphia.	Philadelphia Pa	1
 Colchester [England]	Colchester	1
 Frederick-Town: (state of Maryland)	Frederick Md	1
@@ -8070,7 +8070,7 @@ Cambridge [England	Cambridge	1
 Newcastle [-upon-Tyne, England]	Newcastle	1
 Publié à Londres	London	1
 Warrington [England]	Warrington	1
-[Winchester? England]	Winchester GB	1
+[Winchester? England]	Winchester (England)	1
 [Tralee? Ireland]	Dublin	1
 Printed at Exon	Exeter	1
 [Saint Eustatius (Netherlands Antilles)]	St Eustatius	1
@@ -8140,7 +8140,7 @@ Perth [Scotland]	Perth	1
 A Londres [London]	London	1
 London [England], 1793	London	1
 Basseterre (St. Christopher) [i.e. St.Kitts-Nevis]]	Basseterre Saint Kitts	1
-[Winchester, England]	Winchester GB	1
+[Winchester, England]	Winchester (England)	1
 [Hagerstown [Md.] : Johann Gruber]	Hagerstown Md	1
 Oxford [England	Oxford	1
 Wbithy [i.e. Whitby, England]	Whitby	1
@@ -8157,15 +8157,15 @@ Londra [i.e. London]	London	1
 London [i.e. Wien]	Vienna	1
 At Hall in Saxony	Halle	1
 [[Gainsborough]	Gainsborough	1
-[Saint Pierre?	St Pierre Martinique	1
-[Elbing?	Elbing	1
+[Saint Pierre?	St Pierre	1
+[Elbing?	Elbingen	1
 [Surry?	Kingston	1
 [Rochell?	Rochell	1
 [Dunkirk?	Dunkirk	1
 [Bordeaux?	Bordeaux	1
 [Minorca?	Minorca	1
 [Lonodn?	London	1
-[Martinique?	St Pierre Martinique	1
+[Martinique?	St Pierre	1
 [Königsberg?	Koningsberg	1
 [Great Yarmouth?	Yarmouth	1
 [Norfolk	Norfolk	1
@@ -8363,12 +8363,12 @@ Londres [i.e. Nancy	Nancy	1
 [Castries	Castries	1
 [Burton-upon-Trent]	Burton	1
 [Greenlaw?	Greenlaw	1
-[Jersey	Jersey (St Helier or Jersey City NJ)	1
+[Jersey	Jersey (Ambiguous)	1
 [Port de la liberté	Point-a-pitre	1
 [Lymington]	Lymington	1
 [Wycombe]	Wycombe	1
 [Minorca	Minorca	1
-[Saint Pierre	St Pierre Martinique	1
+[Saint Pierre	St Pierre	1
 [Fort Royal	Fort Royal	1
 Fort-Royal Grenade	St George	1
 [Basseterre	Basseterre	1

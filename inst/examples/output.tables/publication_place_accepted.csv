@@ -108,8 +108,8 @@ Downpatrick	   135
 Tewkesbury	   132
 Portsmouth	   132
 Windsor Vt	   131
+Whitehaven	   131
 Lewes	   128
-Whitehaven	   127
 Rotterdam	   126
 Southampton	   123
 Newark	   123
@@ -298,6 +298,7 @@ Devizes	    23
 Congleton	    23
 Zürich	    22
 Trowbridge	    22
+St Pierre	    22
 Marlborough	    22
 Chelsea	    22
 Aylesbury	    22
@@ -347,7 +348,6 @@ Neuchatel	    16
 Haddington	    16
 Fredicksburg Va	    16
 Caerleon	    16
-St Pierre	    15
 St Albans	    15
 Stabroek	    15
 Spanish Town Jamaica	    15
@@ -366,7 +366,7 @@ Parma	    14
 Newburgh NY	    14
 Monmouth	    14
 Madeley	    14
-Jersey (St Helier or Jersey City NJ)	    14
+Jersey (Ambiguous)	    14
 Horncastle	    14
 Hinckley	    14
 High Wycombe	    14
@@ -463,7 +463,6 @@ Bridgewater Ma	     8
 Warren	     7
 Uppsala	     7
 Stratford-upon-Avon	     7
-St Pierre Martinique	     7
 Stockholm	     7
 Retford	     7
 Nürnberg	     7
@@ -552,11 +551,10 @@ Canaan NY	     5
 Caerdydd	     5
 Bödingen	     5
 Ballston Spa NY	     5
-Augsburg or Augusta GA	     5
+Augusta	     5
 Athlone	     5
 Yeovil	     4
 Wittenberg	     4
-Whitehaven GB	     4
 Whitchurch	     4
 Waltham	     4
 Verona	     4
@@ -607,7 +605,7 @@ Abbeville	     4
 Wycombe	     3
 Wolston	     3
 Winterthur	     3
-Winchester GB	     3
+Winchester (England)	     3
 Whitburn	     3
 Wellingborough	     3
 Watford	     3
@@ -855,7 +853,7 @@ Rennes	     1
 Redruth	     1
 Poulton-le-Fylde	     1
 Potsdam	     1
-Portsmouth GB	     1
+Portsmouth England	     1
 Porto	     1
 Pompton Plains NJ	     1
 Pittsfield Ma	     1
@@ -1000,7 +998,7 @@ Ellesmere	     1
 Elie	     1
 Elgin	     1
 Eleutheropolis	     1
-Elbing	     1
+Elbingen	     1
 Edenhall	     1
 East Grinstead	     1
 Eartham	     1
