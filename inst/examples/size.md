@@ -87,6 +87,15 @@ Multi-volume documents average page counts are given per volume.
 |48mo          |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            26.00|                 18|       5|
 
 
+
+```
+## Error in match.names(clabs, names(xi)): names do not match previous names
+```
+
+```
+## Error in match.names(clabs, names(xi)): names do not match previous names
+```
+
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
 
