@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 478239  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 478478  ( 50 % non-NA values)	Total count: 
 London	England	195320
 [London	England	55318
 [London]	England	21065
@@ -90,6 +90,7 @@ Ipswich	England	236
 [United States	USA	235
 Annapolis	USA	234
 [Newport, R.I.	USA	234
+Canterbury	Ambiguous	233
 Warrington	England	229
 [Glasgow	Scotland	228
 Boston in New-England	USA	227
@@ -151,7 +152,7 @@ Germantown [Pa.]	USA	146
 Salem [Mass.]	USA	145
 Quebec	Canada	145
 N. London [i.e., New London, Conn.]	USA	145
-[Canterbury?	Canterbury	144
+[Canterbury?	Ambiguous	144
 [Salisbury]	England	141
 Glocester	England	138
 Reading	England	137
@@ -289,7 +290,7 @@ Windsor [Vt.]	USA	61
 [Exeter	England	60
 [Salem, Mass.]	USA	60
 [Newbern, N.C.	USA	60
-[Canterbury]	Canterbury	58
+[Canterbury]	Ambiguous	58
 Halifax [N.S.]	USA	58
 Bennington [Vt.]	USA	57
 [Gloucester?	England	57
@@ -416,7 +417,7 @@ Aberdoniæ	Scotland	37
 Impressum Londini	England	37
 [Germantown, Pa.	USA	37
 Lancäster [Pa.]	USA	37
-[Canterbury	Canterbury	37
+[Canterbury	Ambiguous	37
 Doncaster	England	37
 [Tranquebar]	India	37
 [Newcastle?	England	36
@@ -969,7 +970,7 @@ Printed at London, and re-printed at Edinburgh	England	11
 [Dublin, Ireland	Ireland	11
 Bristol [England]	England	11
 [Berwick?	Scotland	10
-[Canterbury?]	Canterbury	10
+[Canterbury?]	Ambiguous	10
 [Whitehaven]	England	10
 [Preston]	England	10
 Exeter, N.H.	USA	10
@@ -1320,7 +1321,7 @@ Londres [i.e. Lausanne	Switzerland	7
 Printed at Douay	France	7
 [Imprinted at Lo[n]don	England	7
 [Imprentit at Edinburgh	Scotland	7
-[Prynted at Cantorbury	Canterbury	7
+[Prynted at Cantorbury	Ambiguous	7
 Francofurti [i.e. London	England	7
 [Printed at Edinburgh	Scotland	7
 Imprinted at Leyden	Netherlands	7
@@ -1357,6 +1358,7 @@ Grantham	England	6
 South Shields	England	6
 [Cirencester?	England	6
 [Scotland?]	Scotland	6
+[Concord]	USA	6
 Florence	Italy	6
 [Durham]	England	6
 [Kettering?	England	6
@@ -1974,7 +1976,6 @@ Boston [Mass.	USA	4
 [Dundee, Scotland	Scotland	4
 [Hull, England]	England	4
 [York, England]	England	4
-Canterbury [England]	Canterbury	4
 [Mwythig]	England	4
 [Altona?	Germany	4
 [Coventry? : s.n.	England	4
@@ -2464,7 +2465,6 @@ Waterford [Ireland]	Ireland	3
 [Calcutta, India]	India	3
 Galway [Ireland]	Ireland	3
 [Sherborne, England]	England	3
-[Canterbury, England]	Canterbury	3
 Portland, [Me.]	USA	3
 Portland, Me.	USA	3
 Philadelphia [Pa.	USA	3
@@ -2519,7 +2519,7 @@ A Utrecht	Netherlands	2
 Edunburgh	Scotland	2
 Londres et se trouve à Paris	England	2
 [Stourbridge?]	England	2
-Caterbury	Canterbury	2
+Caterbury	Ambiguous	2
 Newcastle upon Tyne [i.e. London]	England	2
 Philadelphia [i.e. Leipzig]	Germany	2
 Leek	England	2
@@ -3374,7 +3374,7 @@ And reprinted at London	England	2
 [Wolston, Warks.?	England	2
 [[Wesel]	Germany	2
 Impynted [sic] at London	England	2
-Prynted at Cantorbury	Canterbury	2
+Prynted at Cantorbury	Ambiguous	2
 [Impressus in ciuitate London[i]	England	2
 [Enprynted at london	England	2
 [From Wittonburge [i.e. London?]	England	2
@@ -3639,7 +3639,7 @@ In Colonia	Germany	1
 [[Birmingham]	England	1
 A La Rochelle	France	1
 Upsal	Sweden	1
-Printed at Canterbury	Canterbury	1
+Printed at Canterbury	Ambiguous	1
 A Paris [i.e. Nuremberg?]	Germany	1
 Lucca	Italy	1
 Imprimé à Paris [i.e. London?	England	1
@@ -3701,7 +3701,7 @@ Germantown bei Philadelphia, [i.e. Berlin] 1782	Germany	1
 [P]lymouth	England	1
 [Hannover?	Germany	1
 Dartmouth	England	1
-[Canterbury ?	Canterbury	1
+[Canterbury ?	Ambiguous	1
 [Northumberland ?	USA	1
 [Eshott?	England	1
 [Whitby]	England	1
@@ -3985,6 +3985,7 @@ Printed in Hudson	USA	1
 Cooperstown	USA	1
 [A Montréal	Canada	1
 Teiotiagi	Canada	1
+Kebek-Dari	Canada	1
 South-Carolina	USA	1
 [Charleston S.C.?]	USA	1
 [Poughkeepsie	USA	1
@@ -4000,6 +4001,7 @@ Dublin [i.e. Boston]	Ambiguous	1
 Printed and sold at Norwich	England	1
 [Litchfield?	USA	1
 [Burlington	USA	1
+[Concord?	USA	1
 Filadelfia [i.e. Leghorn]	Italy	1
 Filadelfia [i.e. Leghorn?]	Italy	1
 [New Brunswick?	USA	1
@@ -4571,6 +4573,7 @@ Hallowell, (District of Maine,)	USA	1
 America, Massachusetts-Bay: Boston	USA	1
 Printed at Hallowell, Hook [Maine]	USA	1
 Massachusetts. Worcester	USA	1
+Concord [Mass.], New England	USA	1
 Stoningtonport [Conn.]	USA	1
 Portsmouth,(New-Hampshire,)	USA	1
 [Haverhill, Mass.]	USA	1
@@ -4691,6 +4694,7 @@ Northampton, (Massachusetts)	England	1
 Printed in [Bennington,] Vermont	USA	1
 Newcastle [Del.]	England	1
 [Boston] New England	USA	1
+Printed at Concord, Massachusetts	USA	1
 New-Brunswick, New-Jersey	USA	1
 Printed and sold at Greenfield, Massachusetts	USA	1
 Boston: (Commonwealth of Massachsetts [sic])	Ambiguous	1
@@ -4843,7 +4847,9 @@ Fairfield [Conn]	USA	1
 York [Ont.]	England	1
 A Montreal [Qué.]	Canada	1
 Lunenburg. [i.e., Halifax, N.S.?]	USA	1
+A Quebc [sic]	Canada	1
 Monti-regali [i.e., Montréal]	Canada	1
+Uabistiguiatsh.	Canada	1
 A Quebec [i.e. Montreal?]	Canada	1
 [Halifax, N.S.]	USA	1
 Nova-Scotia	USA	1
@@ -5170,7 +5176,7 @@ Mulbery Hill [i.e. London?]	England	1
 Londres [i.e. Berne?]	Switzerland	1
 Londra [i.e. Livorno?]	Italy	1
 A Basle [i.e. London?	England	1
-A Cantorbery	Canterbury	1
+A Cantorbery	Ambiguous	1
 Aldershot in Hampshire near Farnham in Surrey	England	1
 [Aldershot in Hampshire near Farnham in Surry	England	1
 A Londres [i.e. Brussels]	Belgium	1
@@ -5384,7 +5390,7 @@ Manchester [i.e. Paris]	France	1
 [Dunbar?	Scotland	1
 Dublin [i.e. Yverdon	Switzerland	1
 [Lugano]	Switzerland	1
-[Canterbury?] Printed	Canterbury	1
+[Canterbury?] Printed	Ambiguous	1
 Bublin [i.e. Dublin?]	Ireland	1
 Shrowsbury	England	1
 Gibraltar [i.e. London]	England	1
@@ -5530,7 +5536,7 @@ Elguze [i.e. Edinburgh?]	Scotland	1
 Trevecka Printed	England	1
 Edinburgn [sic]	Scotland	1
 [Fort St. George, i.e. Madras	India	1
-Cantuari?	Canterbury	1
+Cantuari?	Ambiguous	1
 St. Andrew's	Scotland	1
 Londres [The Hague?]	England	1
 Caer Lleon [sic]	England	1
@@ -6046,7 +6052,7 @@ London [i.e. Göttingen	Germany	1
 London [i.e. Hamburg	Germany	1
 Altenbourg	Germany	1
 Trevoux [i.e. Amsterdam?]	Netherlands	1
-Cantorbery	Canterbury	1
+Cantorbery	Ambiguous	1
 Edinbug[sic]	Scotland	1
 Frankofurti ad Viadrum	Germany	1
 Philadelphia [i.e. St. Petersburg	Russia	1
@@ -6408,6 +6414,7 @@ At Middelborough	Netherlands	1
 Imprimé à Londres par Richard Field, sur les copies impriméez à Tours & à la Rochelle	England	1
 Prentit at Edinburgh	Scotland	1
 Edimburgi [Germany?]	Scotland	1
+[Imprinte[d at Lon]don	England	1
 [The Netherlands ]	Netherlands	1
 Lutetiæ [i.e. London]	England	1
 [Anwerp	Belgium	1
@@ -6731,7 +6738,7 @@ Printed in Edinbrugh	Scotland	1
 Printedig yn Llùndain	England	1
 [Emprynted at Lo[n]do[n]	England	1
 [Emprinted at Lo[n]don	England	1
-[Pri[n]ted at Cantorbury	Canterbury	1
+[Pri[n]ted at Cantorbury	Ambiguous	1
 Imprinted at Oxford [and London]	England	1
 Nouiter impressa Londoniis	England	1
 Chronog. LonDInI	England	1
@@ -6959,8 +6966,8 @@ At Antvverpe	Belgium	1
 Printed at Strasburgh [i.e. Amsterdam	Netherlands	1
 [[Imprinted at Londo[n]	England	1
 [Printed] at August[a,] Germany [i.e. Saint-Omer	France	1
-Imprynted at Ca[n]terbury	Canterbury	1
-Prynted at Canterbury	Canterbury	1
+Imprynted at Ca[n]terbury	Ambiguous	1
+Prynted at Canterbury	Ambiguous	1
 Printed at Ipswich [i.e. Edinburgh	Scotland	1
 Andreapoli [i.e. St. Andrews]	Scotland	1
 Oxonii [i.e. Holland]	Netherlands	1
@@ -7383,7 +7390,7 @@ At Delph	Netherlands	1
 Lonoon [sic]	England	1
 Venduntur Londo⁻n	England	1
 In preclara Parrhisiensi academia	France	1
-[Prynted at Ca[n]torbury	Canterbury	1
+[Prynted at Ca[n]torbury	Ambiguous	1
 Impri[n]ted at London	England	1
 [Excussum [sic] Londini	England	1
 [Impressu[m] in alma ciuitate London[em]	England	1

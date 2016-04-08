@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 217633  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 217634  ( 50 % non-NA values)	Total count: 
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -1177,7 +1177,7 @@ Edimbourg	Edinburgh	6
 [New-Haven]	New Haven Ma	6
 [Cirencester?	Cirencester	6
 [Scotland?]	Edinburgh	6
-[Concord]	Concord (MA or NH)	6
+[Concord]	Concord	6
 [Durham]	Durham	6
 [Kettering?	Kettering	6
 [Annapolis, Md.	Annapolis Md	6
@@ -1765,7 +1765,7 @@ Boston [Mass.	Boston Ma	4
 [Dundee, Scotland	Dundee	4
 [Hull, England]	Hull	4
 [York, England]	York	4
-Canterbury [England]	Canterbury	4
+Canterbury [England]	Canterbury England	4
 [Mwythig]	Amwythig	4
 [Altona?	Altona	4
 [Coventry? : s.n.	Coventry	4
@@ -1775,7 +1775,7 @@ Canterbury [England]	Canterbury	4
 [Basseterre?	Basseterre	4
 [Kingston][	Kingston	4
 Cantabridgiæ	Cambridge	3
-Carrick	Carrick (Carrickfergus or Carrick-on-Suir)	3
+Carrick	Carrick (Ambiguous)	3
 A Londres [i.e. Netherlands?]	Amsterdam	3
 [Bungay]	Bungay	3
 [[Glasgow]	Glasgow	3
@@ -2228,7 +2228,7 @@ Waterford [Ireland]	Waterford	3
 [Calcutta, India]	Calcutta	3
 Galway [Ireland]	Galway	3
 [Sherborne, England]	Sherborne	3
-[Canterbury, England]	Canterbury	3
+[Canterbury, England]	Canterbury England	3
 Portland, [Me.]	Portland Me	3
 Portland, Me.	Portland Me	3
 Philadelphia [Pa.	Philadelphia Pa	3
@@ -3585,7 +3585,7 @@ Norimberga [Nuremberg]	Nurnberg	1
 A Londres, [i.e. Paris?]	Paris	1
 Glosgovv, [sic]	Glasgow	1
 [Bruges?	Bruges	1
-[Carrick?	Carrick (Carrickfergus or Carrick-on-Suir)	1
+[Carrick?	Carrick (Ambiguous)	1
 Dublin, printed: and, Belfast	Dublin	1
 In Edinburgo	Edinburgh	1
 London: [i.e. Edinburgh]	Edinburgh	1
@@ -3702,7 +3702,7 @@ Printed in Hudson	Hudson NY	1
 Cooperstown	Cooperstown NY	1
 [A Montréal	Montreal	1
 Teiotiagi	Montreal	1
-Kebek-Dari	Queb_ec	1
+Kebek-Dari	Quebec	1
 South-Carolina	Charleston SC	1
 [Charleston S.C.?]	Charleston SC	1
 [Poughkeepsie	Poughkeepsie NY	1
@@ -3718,7 +3718,7 @@ Dublin [i.e. Boston]	Boston	1
 Printed and sold at Norwich	Norwich	1
 [Litchfield?	Litchfield Ct	1
 [Burlington	Burlington NJ	1
-[Concord?	Concord (MA or NH)	1
+[Concord?	Concord	1
 Filadelfia [i.e. Leghorn]	Livorno	1
 Filadelfia [i.e. Leghorn?]	Livorno	1
 [New Brunswick?	New Brunswick NJ	1
@@ -3966,7 +3966,7 @@ Pailadelphia [i.e., Philadelphia]	Philadelphia Pa	1
 [Philadelphia] Pennsylvania	Philadelphia Pa	1
 [Whitestown, N.Y.]	Whitesboro NY	1
 Printed at Carlisle [Pa.]	Carlisle Pa	1
-[Kentucky	Kentucky (Washington Ky or Frankfort Ky)	1
+[Kentucky	Kentucky (Ambiguous)	1
 Boston, N.N.E. [sic]	Boston	1
 Keene--(Newhampshire)	Keene NH	1
 Printed, in Norwich [Conn.]	Norwich Ct	1
@@ -4144,7 +4144,7 @@ Newfield (Conn.)	Newfield Ct	1
 [New Haven and New London, Conn.]	London	1
 [Whitehall, Pa.]	Whitehall Pa	1
 New-Bbunswick [sic], New-Jersey	New Brunswick NJ	1
-Frankfort: (K.) [i.e., Kentucky]	Kentucky (Washington Ky or Frankfort Ky)	1
+Frankfort: (K.) [i.e., Kentucky]	Kentucky (Ambiguous)	1
 [Dover, Del.?	Dover	1
 Georgetown [D.C.]	Georgetown DC	1
 Re-printed at Stockbridge [Mass.]	Stockbridge Ma	1
@@ -4305,7 +4305,7 @@ Hallowell, (District of Maine,)	Hallowell Me	1
 America, Massachusetts-Bay: Boston	America	1
 Printed at Hallowell, Hook [Maine]	Hallowell Me	1
 Massachusetts. Worcester	Boston Ma	1
-Concord [Mass.], New England	Concord (MA or NH)	1
+Concord [Mass.], New England	Concord	1
 Stoningtonport [Conn.]	Stonington Ct	1
 Portsmouth,(New-Hampshire,)	Portsmouth NH	1
 [Haverhill, Mass.]	Haverhill Ma	1
@@ -4428,7 +4428,7 @@ Northampton, (Massachusetts)	Northampton	1
 Printed in [Bennington,] Vermont	Bennington Vt	1
 Newcastle [Del.]	Newcastle	1
 [Boston] New England	Boston Ma	1
-Printed at Concord, Massachusetts	Concord (MA or NH)	1
+Printed at Concord, Massachusetts	Concord	1
 New-Brunswick, New-Jersey	New Brunswick NJ	1
 Printed and sold at Greenfield, Massachusetts	Greenfield Ma	1
 Boston: (Commonwealth of Massachsetts [sic])	Boston	1
@@ -4541,7 +4541,7 @@ New-Haven--printed.	New Haven Ma	1
 [Philadelphia.?	Philadelphia Pa	1
 District of Maine: Printed at Portland	Augusta Me	1
 Pownalborough [Me.]	Dresden Me	1
-Washington, (K.) [i.e., Ky.]	Kentucky (Washington Ky or Frankfort Ky)	1
+Washington, (K.) [i.e., Ky.]	Kentucky (Ambiguous)	1
 Canaan, (state New-York)	York	1
 --Raleigh-- [N.C.]	Raleigh NC	1
 Carolopoli [Charleston, S.C.]	Charleston SC	1
@@ -4583,9 +4583,9 @@ Fairfield [Conn]	Fairfield Ct	1
 York [Ont.]	York	1
 A Montreal [Qué.]	Montreal	1
 Lunenburg. [i.e., Halifax, N.S.?]	Halifax NS	1
-A Quebc [sic]	Queb_ec	1
+A Quebc [sic]	Quebec	1
 Monti-regali [i.e., Montréal]	Montreal	1
-Uabistiguiatsh.	Queb_ec	1
+Uabistiguiatsh.	Quebec	1
 A Quebec [i.e. Montreal?]	Montreal	1
 [Halifax, N.S.]	Halifax NS	1
 Nova-Scotia	Halifax NS	1
@@ -4646,7 +4646,7 @@ Newbury-Port, New-England	Newburyport Ma	1
 [Charleston] South Carolina.	Charleston SC	1
 Salem, Massachusetts-Bay	Salem	1
 Neu-York	York	1
-Washington, (K. [i.e. Kentucky])	Kentucky (Washington Ky or Frankfort Ky)	1
+Washington, (K. [i.e. Kentucky])	Kentucky (Ambiguous)	1
 Blandford [Va.]	Blandford Va	1
 Printed at East-Windsor, (Connecticut,)	Windsor	1
 Gedrukt te Nieuw-Jork	New York NY	1
@@ -5466,6 +5466,7 @@ Novi Castelli	Newcastle	1
 Westminster [i.e. Paris?]	Paris	1
 Iscæ Damnoniorum	Exeter	1
 [Ellesmere	Ellesmere	1
+Eniscorthy	Inis Córthaidh	1
 Belfastiensi	Belfast	1
 Traiecti ad Rhenum [i.e. Harderwijck]	Harderwijk	1
 [Tamworth]	Tamworth	1
@@ -6070,7 +6071,7 @@ At Middelborough	Middelburg	1
 Imprimé à Londres par Richard Field, sur les copies impriméez à Tours & à la Rochelle	London	1
 Prentit at Edinburgh	Edinburgh	1
 Edimburgi [Germany?]	Edinburgh	1
-[Imprinte[d at Lon]don	Imprinte d lon don	1
+[Imprinte[d at Lon]don	London	1
 [The Netherlands ]	Amsterdam	1
 Lutetiæ [i.e. London]	London	1
 [Anwerp	Antwerp	1
@@ -8157,7 +8158,7 @@ London [i.e. Wien]	Vienna	1
 At Hall in Saxony	Halle	1
 [[Gainsborough]	Gainsborough	1
 [Saint Pierre?	St Pierre Martinique	1
-[Elbing?	Elbl_g	1
+[Elbing?	Elbing	1
 [Surry?	Kingston	1
 [Rochell?	Rochell	1
 [Dunkirk?	Dunkirk	1

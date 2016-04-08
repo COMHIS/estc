@@ -1,6 +1,10 @@
 region;country;comment
+Blandford;Ambiguous;England|USA
 Boston;Ambiguous;England|USA
 Cambridge;Ambiguous;England|USA
+Canterbury;Ambiguous;England/USA
+Carrick;Ambiguous;
+Carrickfergus;Northern Ireland;
 Exeter;England|USA;Ambiguous
 Halifax;England|USA|Canada;Ambiguous
 Mass;Ambiguous;

@@ -1,6 +1,6 @@
 Name	Count
-Total count: 	n= 478851  ( 100 % non-NA values)
-London	317614
+Total count: 	n= 478852  ( 100 % non-NA values)
+London	317615
 Edinburgh	 32076
 Dublin	 26156
 Philadelphia Pa	 10221
@@ -35,8 +35,8 @@ Shrewsbury	   598
 Liverpool	   550
 Baltimore Md	   537
 Nottingham	   530
-Canterbury	   510
-Quebec	   507
+Quebec	   510
+Canterbury	   503
 Coventry	   499
 Annapolis Md	   493
 Portsmouth NH	   485
@@ -438,7 +438,7 @@ Hillsborough NC	     9
 Hemel Hempstead	     9
 Galway	     9
 Fayetteville NC	     9
-Concord (MA or NH)	     9
+Concord	     9
 Chippenham	     9
 Charlottetown	     9
 Bungay	     9
@@ -479,6 +479,7 @@ Greenfield	     7
 Gouda	     7
 Fryeburg Me	     7
 Frankfurt am Main	     7
+Canterbury England	     7
 Caerfyrddin	     7
 Bridport	     7
 Brattleboro Vt	     7
@@ -572,7 +573,7 @@ Mansfield	     4
 Lustleigh	     4
 Leek	     4
 Kirkbride	     4
-Kentucky (Washington Ky or Frankfort Ky)	     4
+Kentucky (Ambiguous)	     4
 Jacksonburgh SC	     4
 Havanna	     4
 Harrogate	     4
@@ -586,7 +587,7 @@ Dereham	     4
 Crewkerne	     4
 Concord Ma	     4
 Cheshunt	     4
-Carrick (Carrickfergus or Carrick-on-Suir)	     4
+Carrick (Ambiguous)	     4
 Cap-Haitien	     4
 Cape Town	     4
 Caen	     4
@@ -625,7 +626,6 @@ Riga	     3
 Reigate	     3
 Regensburg	     3
 Really abroad	     3
-Queb_ec	     3
 Prague	     3
 Pointe-A-Pitre	     3
 Peterhead	     3
@@ -952,7 +952,7 @@ Irvine	     1
 Inverlochie	     1
 Inverary	     1
 Insula	     1
-Imprinte d lon don	     1
+Inis Córthaidh	     1
 Imp	     1
 Illegible	     1
 Huntingdon Pa	     1
@@ -1000,7 +1000,7 @@ Ellesmere	     1
 Elie	     1
 Elgin	     1
 Eleutheropolis	     1
-Elbl_g	     1
+Elbing	     1
 Edenhall	     1
 East Grinstead	     1
 Eartham	     1
