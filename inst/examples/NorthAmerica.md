@@ -8,6 +8,9 @@ output: markdown_document
 Read the preprocessed ESTC data table and load tools:
 
 
+```
+## Error in library(reshape): there is no package called 'reshape'
+```
 
 
 ```r
@@ -100,7 +103,7 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
-## Error: Insufficient values in manual scale. 53 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 54 needed but only 5 provided.
 ```
 
 ![plot of chunk NApubvols](figure/NApubvols-1.png)

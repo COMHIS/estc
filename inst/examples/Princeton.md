@@ -8,6 +8,9 @@ output: markdown_document
 # Princeton summaries
 
 
+```
+## Error in library(reshape): there is no package called 'reshape'
+```
 
 
 ```
