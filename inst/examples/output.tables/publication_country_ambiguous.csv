@@ -2,10 +2,8 @@ region;country;comment
 Ambiguous;Ambiguous;
 Augusta;Ambiguous;Augsburg/Augusta GA/Augusta Me
 Blandford (Ambiguous);Ambiguous;England|USA
-Boston;Ambiguous;England|USA
-Cambridge;Ambiguous;England|USA
-Canterbury;Ambiguous;England/USA
-Carrick;Ambiguous;
+Boston (Ambiguous);Ambiguous;England|USA
+Cambridge (Ambiguous);Ambiguous;England|USA
+Canterbury;Ambiguous;England|USA
 Jersey (Ambiguous);Ambiguous;
 Kentucky (Ambiguous);Ambiguous;
-Mass;Ambiguous;

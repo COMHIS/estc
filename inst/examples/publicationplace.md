@@ -21,22 +21,22 @@ output: markdown_document
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``11.16``% of the documents have missing geocoordinates.
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``14.07``% of the documents have missing geocoordinates.
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 478856 documents (100%). There are 1102 unique publication places. Overall 88.8% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 478856 documents (100%). There are 1360 unique publication places. Overall 85.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 
 
 
-|name      |      n|  fraction|
-|:---------|------:|---------:|
-|England   | 353441| 73.449154|
-|Scotland  |  40242|  8.362756|
-|USA       |  31804|  6.609241|
-|Ireland   |  27545|  5.724172|
-|Ambiguous |  14468|  3.006619|
-|France    |   3727|  0.774514|
+|name      |      n|   fraction|
+|:---------|------:|----------:|
+|England   | 352958| 73.3487807|
+|Scotland  |  40209|  8.3558982|
+|USA       |  31692|  6.5859665|
+|Ireland   |  27540|  5.7231326|
+|Ambiguous |  14356|  2.9833439|
+|France    |   3710|  0.7709812|

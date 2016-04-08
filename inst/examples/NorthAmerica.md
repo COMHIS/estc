@@ -8,9 +8,6 @@ output: markdown_document
 Read the preprocessed ESTC data table and load tools:
 
 
-```
-## Error in library(reshape): there is no package called 'reshape'
-```
 
 
 ```r
@@ -19,7 +16,7 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 31804 documents from USA.
+We have 31692 documents from USA.
 
 
 ## Most common authors from USA

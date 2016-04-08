@@ -12,7 +12,7 @@ mc.cores <- 4
 
 # Update selected fields only -
 # comment out if not needed
-#update.fields <- "publication_place" 
+update.fields <- "publication_place" 
 #validate.fields <- "years"
 #enrich.fields <- c("geo", "years")
 
