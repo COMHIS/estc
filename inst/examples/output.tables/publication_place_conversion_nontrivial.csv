@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 217634  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 217638  ( 50 % non-NA values)	Total count: 
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -2289,6 +2289,7 @@ Philadelphia [i.e. Leipzig]	Leipzig	2
 London [i.e. Berlin]	Berlin	2
 [Truro?	Truru	2
 London [i.e. Oxford?]	Oxford	2
+Blandford	Blandford (Ambiguous)	2
 [Burslem	Burslem	2
 Philadelphia?	Philadelphia Pa	2
 Printed at Boston in N. England	Boston	2
@@ -2834,6 +2835,7 @@ Londin	London	2
 Dublino	Dublin	2
 [Dubl]in	Dublin	2
 White-Hall	Ambiguous	2
+[Blandford?]	Blandford (Ambiguous)	2
 [Sarum	Salisbury	2
 [Huddersfield	Huddersfield	2
 [Harrogate?	Harrogate	2

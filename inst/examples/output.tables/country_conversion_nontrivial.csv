@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 478609  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 478613  ( 50 % non-NA values)	Total count: 
 London	England	195320
 [London	England	55318
 [London]	England	21065
@@ -2541,6 +2541,7 @@ Leek	England	2
 London [i.e. Berlin]	Germany	2
 [Truro?	England	2
 London [i.e. Oxford?]	England	2
+Blandford	Ambiguous	2
 Gillingham	England	2
 [Burslem	England	2
 Philadelphia?	USA	2
@@ -3112,6 +3113,7 @@ Dublino	Ireland	2
 Cologne	Germany	2
 [Dubl]in	Ireland	2
 White-Hall	Ambiguous	2
+[Blandford?]	Ambiguous	2
 [Sarum	England	2
 [Huddersfield	England	2
 [Harrogate?	England	2
