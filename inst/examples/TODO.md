@@ -20,6 +20,9 @@
 
   * Title count -> _Book count_ !!? -> Paper count
 
+  * Lisää pseudonyymikenttä omaksi tiedokseen. Pitäis kait onnistua
+    pseudonyyminimilistojen nojalla?
+
   * Ensimmäisen edition tunnistus. Käytännössä tarkoittaisi ehkä, että
     kun löytyy samannimisiä julkaisuja (title) samalta kirjoittajalta
     (author), niin niistä indikoitaisiin aikaisimmin

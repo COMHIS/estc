@@ -22,6 +22,17 @@ output: markdown_document
 
 [Dimension conversion table](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/conversions_physical_dimension.csv)
 
+
+These include estimates that are based on auxiliary information sheets:
+
+  * [Document dimension abbreviations](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/document_size_abbreviations.csv)
+
+  * [Standard sheet size estimates](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/sheetsizes.csv)
+
+  * [Document dimension estimates](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/documentdimensions.csv) (used when information is partially missing)
+
+
+  
 <!--[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)-->
 
 Document size (area) info in area is available for 470237 documents (98%). Estimates of document size (area) info in gatherings system are available for 481205 documents (100%). 
@@ -75,15 +86,6 @@ Multi-volume documents average page counts are given per volume.
 |2long         |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            28.95|                 24|      19|
 |48mo          |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            26.00|                 18|       5|
 
-
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
