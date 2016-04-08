@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40209 documents from Scotland.
+We have 40220 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -3066,7 +3066,7 @@ List of authors born before 500AD:
 ##                             Gillespie, David (1799-NA) 
 ##                                                      1 
 ##                          Gillespie, George (1613-1648) 
-##                                                     11 
+##                                                     12 
 ##                           Gillespie, James (1721-1791) 
 ##                                                      1 
 ##                         Gillespie, Patrick (1617-1675) 
@@ -3838,6 +3838,8 @@ List of authors born before 500AD:
 ##                                Hodge, John (1661-1767) 
 ##                                                      1 
 ##                            Hodgson, Joseph (1750-1785) 
+##                                                      1 
+##                            Hofmann, Daniel (1540-1611) 
 ##                                                      1 
 ##                                 Hog, James (1658-1734) 
 ##                                                     39 
@@ -6884,7 +6886,7 @@ List of authors born before 500AD:
 ##                                Smart, John (1730-1788) 
 ##                                                      2 
 ##                               Smart, Peter (1569-1652) 
-##                                                      1 
+##                                                      2 
 ##                                Smart, Thomas (1765-NA) 
 ##                                                      1 
 ##                             Smart, William (1649-1715) 
@@ -7332,7 +7334,7 @@ List of authors born before 500AD:
 ##                            Swieten, Gerard (1700-1772) 
 ##                                                      1 
 ##                            Swift, Jonathan (1667-1745) 
-##                                                     58 
+##                                                     59 
 ##                              Swinton, John (1621-1679) 
 ##                                                      2 
 ##                              Swinton, John (1759-1820) 
@@ -7480,7 +7482,7 @@ List of authors born before 500AD:
 ##                            Tilenus, Daniel (1563-1633) 
 ##                                                      2 
 ##                            Tillotson, John (1630-1694) 
-##                                                      9 
+##                                                     10 
 ##                  Tilly, Jean T'serclaes De (1559-1632) 
 ##                                                      1 
 ##                            Tindal, Matthew (1653-1733) 
@@ -7768,7 +7770,7 @@ List of authors born before 500AD:
 ##                           Webster, Charles (1750-1795) 
 ##                                                      6 
 ##                             Webster, James (1658-1720) 
-##                                                     17 
+##                                                     18 
 ##                               Webster, James (1658-NA) 
 ##                                                      1 
 ##                           Webster, William (1684-1744) 
@@ -8091,7 +8093,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15590 documents from 4014 unique
+We have 15596 documents from 4015 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8106,23 +8108,11 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error in publications[is.na(publications)] <- 0: object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
 ## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
 ```
 
 ```
 ## Error in publications.annual[is.na(publications.annual)] <- 0: object 'publications.annual' not found
-```
-
-```
-## Error in melt(publications): object 'publications' not found
 ```
 
 ```
@@ -8150,14 +8140,6 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error in publications[is.na(publications)] <- 0: object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
 ## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
 ```
 
@@ -8166,19 +8148,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error in is.data.frame(x): object 'publications' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications' not found
-```
-
-```
 ## Error in eval(expr, envir, enclos): object 'publications.annual' not found
-```
-
-```
-## Error in melt(publications): object 'publications' not found
 ```
 
 ```
@@ -8193,10 +8163,6 @@ Average annual output for each decade are indicated by lines, the annual documen
 ## Error in fortify(data): object 'dfm.annual' not found
 ```
 
-```
-## Error: Insufficient values in manual scale. 54 needed but only 5 provided.
-```
-
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
 
 
@@ -8204,7 +8170,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34439 documents from Scotland and 204883 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34444 documents from Scotland and 204929 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
@@ -8222,13 +8188,13 @@ We have 34439 documents from Scotland and 204883 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 5390 rows containing missing values (geom_point).
+## Warning: Removed 5393 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 927 rows containing missing values (geom_point).
+## Warning: Removed 926 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
