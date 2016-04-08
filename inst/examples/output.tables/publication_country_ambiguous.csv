@@ -1,5 +1,4 @@
 region;country;comment
-Aabenraa;Denmark;
 Ambiguous;Ambiguous;
 Augusta;Ambiguous;Augsburg/Augusta GA/Augusta Me
 Blandford;Ambiguous;England|USA
@@ -7,12 +6,6 @@ Boston;Ambiguous;England|USA
 Cambridge;Ambiguous;England|USA
 Canterbury;Ambiguous;England/USA
 Carrick;Ambiguous;
-Carrickfergus;Northern Ireland;
-Exeter;England|USA;Ambiguous
-Halifax;England|USA|Canada;Ambiguous
-Jersey;Ambiguous;
-Jersey City NJ;USA;
+Jersey (Ambiguous);Ambiguous;
+Kentucky (Ambiguous);Ambiguous;
 Mass;Ambiguous;
-Portsmouth;England|USA;Ambiguous
-Reading;England|USA;Ambiguous
-Winchester (England);England;

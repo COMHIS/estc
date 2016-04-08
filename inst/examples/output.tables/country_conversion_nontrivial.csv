@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 478590  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 478609  ( 50 % non-NA values)	Total count: 
 London	England	195320
 [London	England	55318
 [London]	England	21065
@@ -1617,6 +1617,7 @@ Edinburg [sic]	Scotland	5
 Londres [i.e. Rouen]	France	5
 Croesoswallt	England	5
 Antwerp [i.e. London?]	England	5
+Jersey	Ambiguous	5
 Waymouth	England	5
 Knaresbrough	England	5
 [Durham?]	England	5
@@ -1630,6 +1631,7 @@ Cantabrigæ	Ambiguous	5
 [Colchester]	England	5
 Dun-Eidean	Scotland	5
 Glasgu?	Scotland	5
+[Jersey?	Ambiguous	5
 Edinburgh printed	Scotland	5
 Brighthelmstone	England	5
 Lond. [i.e. London]	England	5
@@ -2236,6 +2238,7 @@ Lodnon [sic]	England	3
 [Windsor	England	3
 Workington	England	3
 Londinii	England	3
+A Jersey	Ambiguous	3
 [Cape Town	South Africa	3
 Llanymddyfri	England	3
 Paris [London?]	France	3
@@ -3891,6 +3894,7 @@ Norimberga [Nuremberg]	Germany	1
 A Londres, [i.e. Paris?]	France	1
 Glosgovv, [sic]	Scotland	1
 [Bruges?	Belgium	1
+[Carrick?	Carrick	1
 Dublin, printed: and, Belfast	Ireland	1
 In Edinburgo	Scotland	1
 London: [i.e. Edinburgh]	Scotland	1
@@ -4271,6 +4275,7 @@ Pailadelphia [i.e., Philadelphia]	USA	1
 [Philadelphia] Pennsylvania	USA	1
 [Whitestown, N.Y.]	USA	1
 Printed at Carlisle [Pa.]	USA	1
+[Kentucky	Ambiguous	1
 Boston, N.N.E. [sic]	Ambiguous	1
 Keene--(Newhampshire)	USA	1
 Printed, in Norwich [Conn.]	USA	1
@@ -4448,6 +4453,7 @@ Newfield (Conn.)	USA	1
 [New Haven and New London, Conn.]	England	1
 [Whitehall, Pa.]	USA	1
 New-Bbunswick [sic], New-Jersey	USA	1
+Frankfort: (K.) [i.e., Kentucky]	Ambiguous	1
 [Dover, Del.?	England	1
 Georgetown [D.C.]	USA	1
 Re-printed at Stockbridge [Mass.]	USA	1
@@ -4843,6 +4849,7 @@ New-Haven--printed.	USA	1
 [Philadelphia.?	USA	1
 District of Maine: Printed at Portland	USA	1
 Pownalborough [Me.]	USA	1
+Washington, (K.) [i.e., Ky.]	Ambiguous	1
 Canaan, (state New-York)	England	1
 --Raleigh-- [N.C.]	USA	1
 Carolopoli [Charleston, S.C.]	USA	1
@@ -4947,6 +4954,7 @@ Newbury-Port, New-England	USA	1
 [Charleston] South Carolina.	USA	1
 Salem, Massachusetts-Bay	England	1
 Neu-York	England	1
+Washington, (K. [i.e. Kentucky])	Ambiguous	1
 Blandford [Va.]	USA	1
 Printed at East-Windsor, (Connecticut,)	England	1
 Gedrukt te Nieuw-Jork	USA	1
@@ -8729,6 +8737,7 @@ Londres [i.e. Nancy	France	1
 [Castries	Saint Lucia	1
 [Burton-upon-Trent]	England	1
 [Greenlaw?	Scotland	1
+[Jersey	Ambiguous	1
 [Port de la liberté	Guadeloupe	1
 [Lymington]	England	1
 [Wycombe]	England	1

@@ -38,5 +38,5 @@ Top-20 publication places are shown together with the number of documents. This 
 |Scotland  |  40242|  8.362756|
 |USA       |  31804|  6.609241|
 |Ireland   |  27545|  5.724172|
-|Ambiguous |  14446|  3.002047|
+|Ambiguous |  14464|  3.005788|
 |France    |   3727|  0.774514|
