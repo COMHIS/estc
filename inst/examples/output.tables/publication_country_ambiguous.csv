@@ -1,5 +1,9 @@
 region;country;comment
 Boston;Ambiguous;England|USA
 Cambridge;Ambiguous;England|USA
-Kaliningrad;Russia;
-Kaliningrad;Russia #huom!;
+Exeter;England|USA;Ambiguous
+Halifax;England|USA|Canada;Ambiguous
+Mass;Ambiguous;
+Portsmouth;England|USA;Ambiguous
+Reading;England|USA;Ambiguous
+Winchester;England|USA;Ambiguous

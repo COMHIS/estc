@@ -133,6 +133,7 @@ Twickenham	78
 Banbury	77
 Concord NH	76
 Chelmsford	75
+Ambiguous	75
 Bury	73
 Margate	72
 New Brunswick NJ	71
@@ -301,7 +302,6 @@ Dordrecht	19
 Clipstone	19
 Chesire Ct	19
 Chambersburg Pa	19
-Wilmington (DE or NC)	18
 Pontefract	18
 Nantwich	18
 Leuven	18
@@ -536,7 +536,6 @@ Athlone	5
 Yeovil	4
 Wittenberg	4
 Whitehaven GB	4
-White hall (Whitehall PA or London)	4
 Whitchurch	4
 Waltham	4
 Verona	4
@@ -1075,7 +1074,6 @@ Appelby-in-Westmorland	1
 Anno parisio rum	1
 Ampthill	1
 Ambleside	1
-Ambiguous	1
 Altmore	1
 Aldermanbury	1
 Albigion	1

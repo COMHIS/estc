@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 217581  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 217633  ( 50 % non-NA values)	Total count: 
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -736,6 +736,7 @@ Charleston, South-Carolina	Charleston SC	12
 [Salem, Mass.?	Salem Ma	12
 Elizabeth-town [N.J.]	Elizabeth NJ	12
 [Worcester, Mass.?	Worcester Ma	12
+Pittsfield [Mass.]	Ambiguous	12
 Newfield [Conn.]	Newfield Ct	12
 Providentiæ	Providentiae	12
 Printed at Salem [Mass.]	Salem Ma	12
@@ -922,6 +923,7 @@ Kingston [N.Y.]	Kingston NY	9
 (Providence	Providence RI	9
 Warren (R.I.)	Warren RI	9
 Vergennes [Vt.]	Vergennes Vt	9
+Attleborough [Mass.]	Ambiguous	9
 Printed at Windsor [Vt.]	Windsor Vt	9
 Chesnuthill [Pa.]	Chestnut Hill Pa	9
 [Southampton]	Southampton	9
@@ -967,7 +969,7 @@ A Lyon	Lyon	8
 [Bury St. Edmunds	Bury St Edmunds	8
 [Boston, Mass.?	Boston Ma	8
 Croydon	London	8
-Wilmington	Wilmington (DE or NC)	8
+Wilmington	Ambiguous	8
 A La Haye	The Hague	8
 [Pennsylvania	Philadelphia Pa	8
 [Lancaster	Lancaster Pa	8
@@ -1192,7 +1194,7 @@ Cantabrigiæ Nov-Anglorum [i.e., Boston	Boston	6
 Boston printed	Boston	6
 [Montréal	Montreal	6
 Burlington	Burlington NJ	6
-[Wilmington	Wilmington (DE or NC)	6
+[Wilmington	Ambiguous	6
 [Walpole]	Walpole Ma	6
 Halifax, in Nova Scotia	Halifax NS	6
 [Portsmouth?	Portsmouth	6
@@ -1574,6 +1576,7 @@ Printed at Exeter, [N.H.	Exeter NH	4
 [Woodbridge, N.J.?	Woodbridge NJ	4
 [Leominster]	Leominster	4
 [Edenton, N.C.?	Edenton NC	4
+Printed at Wrentham, (Mass.)	Ambiguous	4
 [Rutland, Vt.?	Rutland Vt	4
 London [i.e., Boston]	Boston	4
 [Dover]	Dover	4
@@ -1863,6 +1866,7 @@ Portsmouth:--New-Hampshire	Portsmouth NH	3
 Printed at Windsor, state of Vermont	Windsor	3
 [Fishkill, N.Y.]	Fishkill NY	3
 Printed at Providence (Rhode-Island)	Providence RI	3
+[Wrentham, Mass.]	Ambiguous	3
 [Falmouth, Me.	Falmouth Me	3
 Printed at Exeter, [N.H.]	Exeter NH	3
 [Salem] Massachusetts	Salem	3
@@ -1889,6 +1893,7 @@ Providence: N.E.	Providence RI	3
 Boston, (Massachusetts)	Boston Ma	3
 Boston, (Massachusetts:)	Boston Ma	3
 Boston; in New-England	Boston Ma	3
+Rehoboth [Mass.]	Ambiguous	3
 Printed at Windsor, Vermont	Windsor	3
 New-Hampshire: Portsmouth	Portsmouth	3
 Portsmouth (New-Hampshire)	Portsmouth NH	3
@@ -1945,6 +1950,7 @@ Niew-York	York	3
 [Fryeburg, Me.]	Fryeburg Me	3
 Richmond,--Virginia	Richmond Va	3
 Charlottesville [Va.]	Charlottesville Va	3
+Printed at Wrentham [Mass.]	Ambiguous	3
 Brookfield, Massachusetts	Brookfield Ma	3
 Printed at Greenfield, Massachusetts.	Greenfield Ma	3
 [Germantown, Pa.?]	Germantown Pa	3
@@ -2293,7 +2299,7 @@ Greenwich	London	2
 Newport-Pagnell	Newport Pagnel	2
 Lugduni Batavorum [Leiden]	Lyon	2
 Londini [London]	London	2
-[White-Hall	White hall (Whitehall PA or London)	2
+[White-Hall	Ambiguous	2
 Boston [i.e. Celle?]	Celle	2
 Montego-Bay, Jamaica	Montego Bay	2
 [Great Britain?	Great britain	2
@@ -2319,7 +2325,7 @@ Printed at Delph in Holland	Delft	2
 A Amsterdam et a Leipzig	Amsterdam	2
 Basle	Basel	2
 [Eaton-Hall, Cheshire, England	Halle	2
-[Wilmington]	Wilmington (DE or NC)	2
+[Wilmington]	Ambiguous	2
 A Londres [i.e. Bouillon]	Bouillon	2
 [Selby]	Selby	2
 [Leicester, England]	Leicester	2
@@ -2361,7 +2367,7 @@ A Québec.	Quebec	2
 Halifax, in Nova-Scotia	Halifax NS	2
 [Portsmouth, N.H.?]	Portsmouth NH	2
 Alexandria	Alexandria Va	2
-[Wilmington?	Wilmington (DE or NC)	2
+[Wilmington?	Ambiguous	2
 Baltimore, Maryland	Baltimore Md	2
 [Boston: N.E.	Boston	2
 [Hudson]	Hudson NY	2
@@ -2440,6 +2446,7 @@ Portsmouth (N.H.)	Portsmouth NH	2
 Printed at Exeter, New-Hampshire	Exeter	2
 Louisville [Ga.]	Louisville GA	2
 Printed typographically, at Boston	Boston	2
+[Pittsfield, Mass.	Ambiguous	2
 Amherst, (New-Hampshire.)	Amherst NH	2
 Printed, typographically, at Exeter, New-Hampshire	Exeter	2
 Hallowell, (District of Maine)	Hallowell Me	2
@@ -2471,6 +2478,7 @@ Western District: Rutland [Vt.]	Rutland Vt	2
 Pennsylvania [Philadelphia]	Philadelphia Pa	2
 State of New-York: Poughkeepsie	York	2
 Providence (R.I.)	Providence RI	2
+Pittsfield: (Mass.)	Ambiguous	2
 [Middletown, Conn.]	Middletown Ct	2
 [Elizabeth, N.J.	Elizabeth NJ	2
 Utica [N.Y.]	Utica NY	2
@@ -2629,6 +2637,7 @@ Washington City [D.C.]	Washington DC	2
 Watertown: New-England [i.e., Watertown, Mass.]	Watertown Ma	2
 Frederick Town [Md.]	Fredericktown Md	2
 State of Vermont. Printed at Rutland	Rutland Vt	2
+Conway [Mass.]	Ambiguous	2
 Hartfordiæ [Hartford]	Hartford Ct	2
 [New Bedford]	New Bedford Ma	2
 [Keene, N.H.?	Keene NH	2
@@ -2824,7 +2833,7 @@ Edinburgh [i.e. Oxford]	Oxford	2
 Londin	London	2
 Dublino	Dublin	2
 [Dubl]in	Dublin	2
-White-Hall	White hall (Whitehall PA or London)	2
+White-Hall	Ambiguous	2
 [Sarum	Salisbury	2
 [Huddersfield	Huddersfield	2
 [Harrogate?	Harrogate	2
@@ -3883,6 +3892,7 @@ Danvers, near Boston	Danvers Ma	1
 [Stockbridge Mass.]	Stockbridge Ma	1
 [Albany] America	Albany NY	1
 Windsor: [Vt.]	Windsor Vt	1
+Printed at Pittsfield [Mass.]	Ambiguous	1
 [Wilmington, N.C.?	Wilmington NC	1
 Newbern [N.C]	New Bern NC	1
 Wilmington, (Del.)	Wilmington De	1
@@ -3890,6 +3900,7 @@ Reprinted at Bennington [Vt.]	Bennington Vt	1
 [Massachusetts]	Boston Ma	1
 Printed at Boston, State-Street	Boston	1
 [Philadelphia?] America	Philadelphia Pa	1
+Printed at Wrentham (Mass.)	Ambiguous	1
 Kaeniae--(Neo Hantoniae)	Keene NH	1
 Springfield, (Massachusetts.)	Springfield Ma	1
 [Keene, N.H.	Keene NH	1
@@ -3918,6 +3929,7 @@ Williamsburgh [Va.]	Williamsburg Va	1
 Ephrata, [Pa.	Ephrata Pa	1
 (Hägers-Taun [Hagerstown, Md.]	Hagerstown Md	1
 America: state of Massachusetts-Bay; Boston	America	1
+Danvers [Mass.], near Salem: N.E.	Ambiguous	1
 [Printed at Worcester, Massachusetts	Worcester Ma	1
 [Lancäster, Pa.	Lancaster Pa	1
 Pyiladelphia[sic]	Philadelphia Pa	1
@@ -3927,6 +3939,7 @@ Portsmouth in New Hampshire	Portsmouth NH	1
 Philada. [i.e., New York]	New York NY	1
 Á Philadelphie.	Philadelphia Pa	1
 Norwich, (Connecticut,)	Norwich	1
+Woburn [Mass.]	Ambiguous	1
 Printed and sold at the printing-office in Worcester [Mass.	Worcester	1
 Printed & sold in New-London [Conn.	New London Ct	1
 Sold at the printing-office in Salem [Mass.	Salem	1
@@ -3957,6 +3970,7 @@ Printed at Carlisle [Pa.]	Carlisle Pa	1
 Boston, N.N.E. [sic]	Boston	1
 Keene--(Newhampshire)	Keene NH	1
 Printed, in Norwich [Conn.]	Norwich Ct	1
+Newbuyry-Port [sic] [Mass.]	Ambiguous	1
 Newbury-Port [Newburyport, Mass.]	Newbury	1
 Chambersburg [Penn.]	Chambersburg Pa	1
 Printed at Newbedford, Massachusetts	New Bedford Ma	1
@@ -4171,6 +4185,7 @@ Gedrukt bey Bethlehem [Pa.] in der Fork Dellawar.	Bethlehem Pa	1
 Providence.	Providence RI	1
 A New York	New York NY	1
 Imprime a Boston en la Nouuelle Angleterre	Boston	1
+Apud Pittsfield [Mass.]	Ambiguous	1
 [Dresden Vt.; i.e., Hanover, N.H.]	Hanover NH	1
 Printed in New-York	New York NY	1
 District of Columbia	Washington DC	1
@@ -4267,6 +4282,7 @@ Lancaster [Penn.]	Lancaster Pa	1
 [Ballston, N.Y.]	Ballston Spa NY	1
 George-town, (Potowmack)	Georgetown DC	1
 Printed and sold at Greenfield, Massachusetts.	Greenfield Ma	1
+Leominister [Mass.]	Ambiguous	1
 Dresden [Vt., i.e., Hanover, N.H.], (Dartmouth College)	Hanover	1
 [Hagerstown, Md.]	Hagerstown Md	1
 A Albany	Albany NY	1
@@ -4282,6 +4298,7 @@ Printed, at Providence	Providence RI	1
 [New London, Conn]	New London Ct	1
 Worcester: (Massachusetts.)	Worcester Ma	1
 Printed at Charlestown [Mass.]	Charlestown Ma	1
+Wrentham, (Mass.)	Ambiguous	1
 [Plymouth, Mass.]	Plymouth	1
 Printed at Hallowell, Hook [Me.]	Hallowell Me	1
 Hallowell, (District of Maine,)	Hallowell Me	1
@@ -4346,6 +4363,7 @@ Re-printed at Windsor [Vt.]	Windsor Vt	1
 Brattleboro', Vermont	Brattleboro Vt	1
 [Springfield, Mass.?]	Springfield Ma	1
 [Fish-kill, N.Y.	Fishkill NY	1
+[Newton, Mass.?	Ambiguous	1
 Printed at the Hook, Hallowell [Me.]	Hallowell Me	1
 Castine, (Maine,)	Castine Me	1
 Salem [N.Y.]	Salem NY	1
@@ -4455,6 +4473,7 @@ Bostoniae [Boston]	Boston	1
 Burlington, New-Jersey	Burlington NJ	1
 [Salem]	Salem	1
 (Cambridge [Mass.]	Cambridge Ma	1
+West-Springfied [sic] [Mass.]	Ambiguous	1
 Chestnuthill [Pa.]	Chestnut Hill Pa	1
 Printed in Rutland (Vermont)	Rutland Vt	1
 Plymouth: Massachusetts.	Plymouth	1
@@ -7921,6 +7940,7 @@ Chesnuthill [i.e. Chestnut Hill, Pa.]	Chestnut Hill Pa	1
 Dover, New Hampshire	Dover	1
 Shepherdstown, Virginia	Richmond Va	1
 A Boston [Mass.]	Boston Ma	1
+Pittsfield [Mass]	Ambiguous	1
 Lansinghborough [i.e., Troy, N.Y.]	Troy NY	1
 Elizabeth-Town, [N.J.]	Elizabeth NJ	1
 [Wilmington], Del.	Wilmington De	1
@@ -7962,6 +7982,7 @@ Wilkesbarre, Pa.	Wilkes-Barre Pa	1
 Washington [D.C.]	Washington DC	1
 Pittsburgh, Pa.	Pittsburgh Pa	1
 Nashville, Tenn.	Nashville TN	1
+Pittsfield, Mass.	Ambiguous	1
 Chillicothe, North-Western Territory [i.e., Ohio]	Chillicothe OH	1
 Sharon, Conn.	Sharon Ct	1
 New-York, [N.Y.]	New York NY	1
