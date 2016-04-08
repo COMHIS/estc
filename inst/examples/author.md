@@ -1,27 +1,24 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-08"
+date: "2016-04-09"
 output: markdown_document
 ---
 
 ## Authors
 
-[Accepted author names](output.tables/author_accepted.csv)
+[Accepted author names](output.tables/author_accepted.csv) All OK?
 
-[Discarded author names](output.tables/author_discarded.csv)
+[Discarded author last names](output.tables/author_lastnames_discarded.csv) Pseudonymes from here can be added to the list of [known pseudonymes](https://github.com/rOpenGov/bibliographica/tree/master/inst/extdata/names/pseudonymes). Otherwise, those last names that should be accepted can be added to the [custom list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/lastnames/custom.csv)
 
-[Author names classified as pseudonymes](output.tables/author_pseudonymes.csv)
+[Discarded author first names](output.tables/author_firstnames_discarded.csv). Pseudonymes from here can be added to the list of [known pseudonymes](https://github.com/rOpenGov/bibliographica/tree/master/inst/extdata/names/pseudonymes). Otherwise, those first names that should be accepted can be added to the [custom list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/firstnames/custom.csv)
 
-[Conversions from original to final names](output.tables/author_conversion_nontrivial.csv)
+[Discarded author full names](output.tables/author_discarded.csv) Do not do anything for this before the next round. Handling the first and last names first.
 
+[Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) All OK ?
 
-This auxiliary information was used to enrich the data:
+[Conversions from original to final names](output.tables/author_conversion_nontrivial.csv) FYI
 
-  * [Author synonyme list for harmonization](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv) (the first term is selected for the final data)
-
-  * [Known pseudonymes list](https://github.com/rOpenGov/bibliographica/tree/master/inst/extdata/names/pseudonymes)
- 
 
 Top-20 uniquely identified authors and their productivity (title count). In total, there are 46365 unique authors and 253193 documents with unambiguous author information (55%).
 
@@ -35,9 +32,7 @@ Should also add living year information from supporting sources later.
 
 [Authors with missing life years](output.tables/authors_missing_lifeyears.csv) (Life year info can be augmented [here](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/author_info.csv)
 
-
-
-[Authors with ambiguous life years](output.tables/author_life_ambiguous.csv)
+[Authors with ambiguous life years](output.tables/author_life_ambiguous.csv) Some of these might be synonymous and could be added to [author synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv) (the first term will be selected for the final data)
 
 
 ### Life span of uniquely identified top authors
