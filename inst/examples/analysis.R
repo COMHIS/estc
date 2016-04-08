@@ -5,7 +5,10 @@ df.preprocessed.orig <- df.preprocessed
 
 print("Generic summaries") # Markdown
 # Summary tables
-tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
+tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder,
+       		discarded.author.table = discarded.author.table,
+		discarded.author.firstnames = discarded.author.firstnames,
+		discarded.author.lastnames = discarded.author.lastnames)
 
 # ------------------------------------------------------
 

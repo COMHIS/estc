@@ -2,6 +2,11 @@
 
 ### Technical
 
+  * Sivunumeroissa on nyt jotain häikkää!!
+
+  * Lisää pseudonyymikenttä omaksi tiedokseen. Pitäis kait onnistua
+    pseudonyyminimilistojen nojalla?
+
   * sheet-size keskiarvo niistä joille mitat tiedossa (nyt vasta
     pagecount tehty näin). käytä keskiarvoa (ei taulukkoarvoa)
     loppujen estimointiin
@@ -19,9 +24,6 @@
 ### Analysis
 
   * Title count -> _Book count_ !!? -> Paper count
-
-  * Lisää pseudonyymikenttä omaksi tiedokseen. Pitäis kait onnistua
-    pseudonyyminimilistojen nojalla?
 
   * Ensimmäisen edition tunnistus. Käytännössä tarkoittaisi ehkä, että
     kun löytyy samannimisiä julkaisuja (title) samalta kirjoittajalta
