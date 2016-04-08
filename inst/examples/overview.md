@@ -56,7 +56,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                |         2.3|          97.7|        470237|         95|
 |area                  |         2.3|          97.7|        470237|        629|
 |country               |         0.6|          99.4|        478524|         57|
-|publication_place     |         0.5|          99.5|        478799|       1105|
+|publication_place     |         0.5|          99.5|        478851|       1103|
 |volcount              |         0.4|          99.6|        479174|        152|
 |document.items        |         0.4|          99.6|        479174|        152|
 |publication_year_from |         0.2|          99.8|        480080|        348|
