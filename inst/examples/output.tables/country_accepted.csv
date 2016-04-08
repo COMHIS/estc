@@ -1,21 +1,21 @@
 Name	Count
-Total count: 	n= 478432  ( 100 % non-NA values)
-England	351421
-Ambiguous	 44055
-Scotland	 40009
+Total count: 	n= 478524  ( 100 % non-NA values)
+England	354147
+Scotland	 40242
 USA	 31794
-France	  3620
-Netherlands	  1911
+Ireland	 26823
+Ambiguous	 13863
+France	  3727
+Netherlands	  2019
 Canada	   993
 Germany	   909
-Ireland	   659
+Northern Ireland	   881
 Belgium	   604
 India	   581
 Canterbury	   510
+Switzerland	   288
 Jamaica	   266
-Italy	   211
-Switzerland	   192
-Northern Ireland	    85
+Italy	   235
 Barbados	    60
 Antiqua	    55
 Haiti	    49
@@ -28,11 +28,13 @@ Sweden	    36
 Grenada	    31
 Russia	    27
 Bahamas	    24
+Isle of Man	    18
 Spain	    15
 Guyana	    15
 Guernesey	    14
 Martinique	    13
 Poland	    12
+Portugal	    11
 Malta	    10
 Guernsey	    10
 Guadeloupe	     5
@@ -40,13 +42,13 @@ Trinidad and Tobago	     4
 South Africa	     4
 Iraq	     4
 Cuba	     4
+St Eustatius	     3
 Latvia	     3
 Guadaloupe	     3
 Czech Republic	     3
 Australia	     3
 Suriname	     2
 Sri Lanka	     2
-Portugal	     2
 unknown	     1
 Turkey	     1
 Sierra Leone	     1

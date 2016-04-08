@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 217487  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 217581  ( 50 % non-NA values)	Total count: 
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -245,6 +245,7 @@ Gainsbrough	Gainsborough	51
 [Charleston, S.C.]	Charleston SC	50
 Ephrata [Pa.]	Ephrata Pa	50
 [Montreal	Montreal	50
+[Douai	Douai	50
 [Durham?	Durham	49
 London.	London	49
 Air	Ayr	49
@@ -762,7 +763,9 @@ Excudebat Londini	London	12
 [[Southwark]	London	12
 [Impress. Londini	London	12
 Hage	The Hague	12
+[Douai?	Douai	12
 A Rouen	Rouen	11
+[Douai]	Douai	11
 [Penrith]	Penrith	11
 Jamaica	Kingston Jamaica	11
 Brecknock	Aberhonddu	11
@@ -1024,6 +1027,7 @@ Glasgow-College	Glasgow	8
 Londres [i.e. Lausanne]	Lausanne	8
 Hague [i.e. London]	London	8
 Londres [i.e. Lyons?]	Lyon	8
+[Douai?]	Douai	8
 Dublin printed	Dublin	8
 Edinburgh [i.e. London]	London	8
 [Bombay]	Bombay	8
@@ -2942,6 +2946,7 @@ Imprinted at London [i.e. Holland?]	Amsterdam	2
 Londini [i.e. Geneva	Geneva	2
 At Leyden [i.e. London?]	London	2
 [Leiden and London]	Leiden	2
+[[Douai]	Douai	2
 Prented at Edinburgh	Edinburgh	2
 [Parisii	Paris	2
 [[Rothomagi]	Rouen	2
@@ -3064,6 +3069,7 @@ Printed at Goricom [Gorinchem, i.e. London]	London	2
 Printed at the Hage [i.e. London]	London	2
 [[Imprynted at London	London	2
 [[Westmestre]	London	2
+Catuapoli [i.e. Douai]	Douai	2
 Augustæ Trinobantum [i.e. London	London	2
 Imprynted at Strasburgh in Elsas [i.e. Wesel?	Wesel	2
 [Imprentyd at London	London	2
@@ -3588,6 +3594,7 @@ A Londres, & se trouvent à Paris	London	1
 Evrope [i.e. London?]	London	1
 Walworth	London	1
 [New-Gate Prison [i.e. London]	London	1
+Printed at Doway [i.e. Douai, France]	Douai	1
 [Expliciunt synonima London[i]	London	1
 Given under my hand in Dublin this 27th of the second Month called April	Dublin	1
 [Cape Town, South Africa?	Cape Town	1
@@ -6101,7 +6108,7 @@ Venu[n]datur Parisiis	Paris	1
 [[Antwerpe]	Antwerp	1
 [westmonasterius	London	1
 [Impressum in ciuitate London[em]	London	1
-Anno 1516 in alma parisio[rum]	Paris	1
+Anno 1516 in alma parisio[rum]	Anno parisio rum	1
 [Inpressu[m] Parisij	Paris	1
 [Wigorniæ [i.e. Worcester]	Worcester	1
 Dvbliniæ	Dublin	1
@@ -6431,6 +6438,7 @@ Etonæ, in Collegio Regali in usum schole Etonens	Eton	1
 [Antwerpiæ	Antwerp	1
 [Mainz	Mainz	1
 [[Southwark	London	1
+Printed at Paris [i.e. Douai	Douai	1
 Imprinted at the Haghe	The Hague	1
 Printed at Doway [i.e. England]	London	1
 Printed at Vtrech [i.e. London]	London	1
@@ -6585,6 +6593,7 @@ Imprimé a Amsterdam	Amsterdam	1
 [Amsterdam and/or the Hage]	Amsterdam	1
 Stampato in Venetia [i.e. London]	London	1
 [[Imprentyd at London	London	1
+Londini [i.e. Douai]	Douai	1
 Printed at Eden-Bourgh	Edinburgh	1
 [Imprynted, at Loddo[n]	London	1
 Prostat Francofvrti	Frankfurt	1
@@ -6647,6 +6656,7 @@ Frankfurt am Mayn	Frankfurt	1
 [Impressum in westmonasterio	London	1
 [Imprinted in Londo[n]	London	1
 Londini [i.e. Frankfurt?]	Frankfurt	1
+Printed at Roane [i.e. Douai	Douai	1
 Londini [i.e Antwerp?]	Antwerp	1
 Imprinted at N. [i.e. Antwerp	Antwerp	1
 Imprinted at London [by Thomas Dawson] for Tobie Cooke	London	1
@@ -6870,6 +6880,7 @@ Translated out of the High-Dutch, and printed at London	London	1
 At Roan [i.e. Paris	Paris	1
 [Empryntyd at lo[n]don	London	1
 Anno Domini. M.D,LXVIII. Imprinted at London	London	1
+Printed [Douai	Douai	1
 [Southwarke	London	1
 Printed at Calicè [i.e. England	London	1
 Imprînted [sic] at London	London	1
@@ -7088,6 +7099,7 @@ Sainct-Andrews	St Andrews	1
 A'i brintio yn Llundain	London	1
 Imprinted at Doway [i.e. East Ham]	London	1
 Printed [abroad	Abroad	1
+Printed at Roan [i.e. Douai]	Douai	1
 A Saint-Omer	St Omer	1
 Imprinted at london [sic]	London	1
 Stutgart	Stuttgart	1
@@ -7109,7 +7121,7 @@ Na de copye, Gedruckt tot Edinburgh	Edinburgh	1
 [Impress[us] Londini	London	1
 [Imprime a Lou[n]dres par moy Robert Redman	London	1
 Londini[i.e. Printed abroad]	Abroad	1
-[Nouiter ac diligenter impressus & non minimo labore revis[us] London̄	London	1
+[Nouiter ac diligenter impressus & non minimo labore revis[us] London̄	Nouiter diligenter non minimo labore revis us london	1
 [Lothbery	London	1
 [Impressus Lo[n]dini	London	1
 Imprinted at Cambridge	Cambridge	1
@@ -7152,6 +7164,7 @@ Nova Belgia [i.e. London?	London	1
 Ata so ar na chur a gclo a mBailé athá Cliath	Dublin	1
 Printed s'Grauen-Haghe [i.e. London?]	London	1
 [[Geneva	Geneva	1
+Printed at Roane [i.e. Douai]	Douai	1
 [Goricom [Gorinchem, i.e. London]	London	1
 [Malmö	Malmö	1
 [Impryntyd in chepe syde [i.e. London]	London	1
@@ -7281,6 +7294,7 @@ London printed ;;and Edinburgh reprinted	London	1
 Edinburgii	Edinburgh	1
 [St. Germains	Saint-Germain-en-Laye	1
 Imprimee a Londres	London	1
+At Doway [i.e. Douai]	Douai	1
 [[Amsterdam]	Amsterdam	1
 Printiedig yn Llyndain	London	1
 Printed at London, and re-printed	London	1
@@ -7582,6 +7596,7 @@ Hagæ Comitum	The Hague	1
 Racoviæ [i.e. London	London	1
 At Gottenberge	Gothenburg	1
 [Basel	Basel	1
+Dowa [i.e. Douai	Douai	1
 Londini excusum	London	1
 Imprim'e a Londres	London	1
 London, printed by Tho. Maxey for Nath. Ekins, at the Gun neer the West-end of Pauls	London	1
