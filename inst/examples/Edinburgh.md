@@ -27,7 +27,7 @@ output: markdown_document
 ```
 
 ```
-## Error: All columns must be named
+## Error in eval(expr, envir, enclos): unknown column 'publication_decade'
 ```
 
 ![plot of chunk EdinburghPubs](figure/EdinburghPubs-1.png)
@@ -49,7 +49,7 @@ output: markdown_document
 ```
 
 ```
-## Error: All columns must be named
+## Error in eval(expr, envir, enclos): unknown column 'publication_decade'
 ```
 
 ```
