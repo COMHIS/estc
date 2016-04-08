@@ -2,17 +2,9 @@
 
 ### Technical
 
-  * Paikannimilistojen kommenteista Ambiguous - hoida jotenkin tieto
-    lopulliseen dataan
-
-  * Ei aina systemaattista kumpi nimi otetaan jos esim "londres paris"
-    jossain vastaavissa tapauksissa eka, toisissa toka. Check
-    PublicationPlaceSynonymes
-
   * sheet-size keskiarvo niistä joille mitat tiedossa (nyt vasta
-    pagecount tehty). käytä sitten keskiarvoa (ei taulukkoarvoa)
-    loppujen estimointiin -> kun koko ESTC käytossa, jos näytekoko
-    riittävä.
+    pagecount tehty näin). käytä keskiarvoa (ei taulukkoarvoa)
+    loppujen estimointiin
 
   * items / parts poistettiin aiemmin kun oli hankalaa. pitäisiko
     ottaa takaisin (affects items and hence pages estimates)
@@ -23,14 +15,10 @@
   * Try rOpenSci/GenderizeR R package and also [babynames
     package](https://github.com/hadley/babynames)
 
-  * Automatically recognize potentially ambiguous place names (like
-    concord) from the PublicationPlaceSynonymes.csv
-
-  * Enrich also only for selected fields to speed up updates
 
 ### Analysis
 
-  * History-datan ajot koko datalla. Erityisesti mielenkiintoista miltä näyttää [Title count and paper consumption in Ireland, Scotland and the USA](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md) kun katsotaan koko datalla 
+  * Title count -> _Book count_ !!? -> Paper count
 
   * Ensimmäisen edition tunnistus. Käytännössä tarkoittaisi ehkä, että
     kun löytyy samannimisiä julkaisuja (title) samalta kirjoittajalta
@@ -38,7 +26,14 @@
     julkaistu. Kirjahistorian kannalta relevantti kysymys
     analyysiosuuteen.
   
-  * Isompien kirjojen vertailu 1470-1800; kaikkien esim yli 60 sivuisten kirjojen kehitystä vuosisatojen aikana toisi hyvää vertailukohtaa kaikkia historia-dokumentteja koskevaan kuvioon. Tai sitten vaikka pelkästään tieto kaikkien 4⁰, 8⁰ ja 12⁰ kokoisten kirjojen kehityksestä (jolloin kaikki yksisivuiset ja vastaavat putoavat suurimmalta osalta pois koska broadsidet ovat usein kokoa 2⁰, 1/2⁰ tai 1⁰; vaikka mahtuu sinne folio-kokoon tietysti myös "oikeita" kirjoja). 
+  * Isompien kirjojen vertailu 1470-1800; kaikkien esim yli 60
+  sivuisten kirjojen kehitystä vuosisatojen aikana toisi hyvää
+  vertailukohtaa kaikkia historia-dokumentteja koskevaan kuvioon. Tai
+  sitten vaikka pelkästään tieto kaikkien 4⁰, 8⁰ ja 12⁰ kokoisten
+  kirjojen kehityksestä (jolloin kaikki yksisivuiset ja vastaavat
+  putoavat suurimmalta osalta pois koska broadsidet ovat usein kokoa
+  2⁰, 1/2⁰ tai 1⁰; vaikka mahtuu sinne folio-kokoon tietysti myös
+  "oikeita" kirjoja). 
 
   * Analyze particular historical periods ('periods')
 
@@ -48,14 +43,15 @@
     - topiceille
     - jne.
 
-Levinneisyys aikajanalla: toimisko Shannon-diversiteetti, range
-tms. Historiallisten aineistojen viitetietojärjestelmän puuttuessa
-hieno mittari. Eli mitä suurempi julkaisumäärä (oli kyseessä
-yksittäinen auktori, topic tai mikä vaan) ja mitä suurempi
-levinneisyys aikajanalla, niin sitä merkittävämpi juttu
-(yleensä). pitäisi keksiä hyvä kerroin miten laskea tuo
-voluumi*spread*sivumäärä (suoraan yks yhteen se ei voi olla). Esim jotain tyyliiin
-n(docs) * 'levinneisyys aikajanalla'? * pages 
+  * Author Richness and Diversity (w.r.t. documents) across time ?
+  Levinneisyys aikajanalla: toimisko Shannon-diversiteetti, range tms.
+  Historiallisten aineistojen viitetietojärjestelmän puuttuessa hieno
+  mittari. Eli mitä suurempi julkaisumäärä (oli kyseessä yksittäinen
+  auktori, topic tai mikä vaan) ja mitä suurempi levinneisyys
+  aikajanalla, niin sitä merkittävämpi juttu (yleensä). pitäisi keksiä
+  hyvä kerroin miten laskea tuo voluumi*spread*sivumäärä (suoraan yks
+  yhteen se ei voi olla). Esim jotain tyyliiin n(docs) * 'levinneisyys
+  aikajanalla'? * pages 
 
   * Paperin hinta vs. painomäärät?
 
@@ -63,22 +59,82 @@ n(docs) * 'levinneisyys aikajanalla'? * pages
     and balls are publication places, sizes are total publication
     volumes ?
 
-  * Author Richness and Diversity (w.r.t. documents) across time ?
-
   * The average growth rate percentage as function of time?
-
-  * Title count -> _Book count_ !!? -> Paper count
 
   * Book production per capita in different countries - are population
     estimates available through time per country ?
 
-  * [Title counts should be interpreted as low estimates: we do not correct where all trace of a book has been lost, nor for the fact that at the book fairs only part of the production was presented. Serial publications are not included either. The estimates of print runs are also conservative: we follow the literature, which suggests that average sizes of editions from the 1450s to 1500 probably increased from 100 to 700; there is ample evidence that this increase continued after 1500, but at a slower pace. We tentatively estimate that it went up to 1,000 in 1800; again, this is a conservative estimate; Michael Harris, for example, assumed that this level had already been reached during the sixteenth century, but that is probably an overestimate. For small markets such as Poland and Russia, these estimates of print runs are high, but the overestimate compensates for the fact that the figures of new titles for these countries are probably too low.](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
+  * [Title counts should be interpreted as low estimates: we do not
+  correct where all trace of a book has been lost, nor for the fact
+  that at the book fairs only part of the production was presented.
+  Serial publications are not included either. The estimates of print
+  runs are also conservative: we follow the literature, which suggests
+  that average sizes of editions from the 1450s to 1500 probably
+  increased from 100 to 700; there is ample evidence that this
+  increase continued after 1500, but at a slower pace. We tentatively
+  estimate that it went up to 1,000 in 1800; again, this is a
+  conservative estimate; Michael Harris, for example, assumed that
+  this level had already been reached during the sixteenth century,
+  but that is probably an overestimate. For small markets such as
+  Poland and Russia, these estimates of print runs are high, but the
+  overestimate compensates for the fact that the figures of new titles
+  for these countries are probably too
+  low.](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
 
-  * [Issues related to the pattern of the European economy in different countries: When did the center of gravity move from the Mediterranean to the North Sea? Was it a single shift, or can we discern a number of shifts in the Latin West? When do the Scandinavian countries appear on the scene—and how does central Europe (Poland, for example) enter in this context? An important question here concerns patterns of convergence and divergence in European history: When do differences in book production in the various countries point to increased economic homogeneity, and when do they point to divergence between regions?](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
+  * [Issues related to the pattern of the European economy in
+  different countries: When did the center of gravity move from the
+  Mediterranean to the North Sea? Was it a single shift, or can we
+  discern a number of shifts in the Latin West? When do the
+  Scandinavian countries appear on the scene—and how does central
+  Europe (Poland, for example) enter in this context? An important
+  question here concerns patterns of convergence and divergence in
+  European history: When do differences in book production in the
+  various countries point to increased economic homogeneity, and when
+  do they point to divergence between
+  regions?](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
 
-  * [The most important sources for counting new titles are meta-catalogues (or short title catalogues) that are based on books in library catalogues and are inventories of editions published in different countries and languages. Such meta-catalogues are available for incunabula (all books printed in Western Europe before 1500), for books printed in the Netherlands and Belgium, for books in English (covering not only Great Britain but also Ireland, the United States, Canada, etc.), and—although this catalogue is sometimes incomplete—for books published in Western Europe from 1454 to 1830 (the so-called Hand Press Book File). For a few countries—in particular Sweden and Switzerland—the latter catalogue appears to be complete. For other countries, the degree to which this source underestimates new titles can be estimated by comparing it with the much more complete Incunabula Short Title Catalogue for the period 1454–1500. The comparison suggests that the Hand Press Book File underestimates book production by an amount that varies from 27.5 percent (France) to 48.4 percent (Italy). The number of books in the Hand Press Book File has been corrected by this ratio, yielding annual estimates for total output from 1455 to 1800. The problem with this procedure is that it assumes that the extent of underestimation in the Hand Press Book File is constant over time, which may not be the case; for example, there appears to be a discontinuity in the number of Spanish titles included in the file, as the number suddenly drops from 742 in 1700 to 175 in 1701 and 133 in 1702. So we checked the results of this procedure on a country-by-country basis, using the available literature on book production in those countries.](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
+  * [The most important sources for counting new titles are
+  meta-catalogues (or short title catalogues) that are based on books
+  in library catalogues and are inventories of editions published in
+  different countries and languages. Such meta-catalogues are
+  available for incunabula (all books printed in Western Europe before
+  1500), for books printed in the Netherlands and Belgium, for books
+  in English (covering not only Great Britain but also Ireland, the
+  United States, Canada, etc.), and—although this catalogue is
+  sometimes incomplete—for books published in Western Europe from 1454
+  to 1830 (the so-called Hand Press Book File). For a few countries—in
+  particular Sweden and Switzerland—the latter catalogue appears to be
+  complete. For other countries, the degree to which this source
+  underestimates new titles can be estimated by comparing it with the
+  much more complete Incunabula Short Title Catalogue for the period
+  1454–1500. The comparison suggests that the Hand Press Book File
+  underestimates book production by an amount that varies from 27.5
+  percent (France) to 48.4 percent (Italy). The number of books in the
+  Hand Press Book File has been corrected by this ratio, yielding
+  annual estimates for total output from 1455 to 1800. The problem
+  with this procedure is that it assumes that the extent of
+  underestimation in the Hand Press Book File is constant over time,
+  which may not be the case; for example, there appears to be a
+  discontinuity in the number of Spanish titles included in the file,
+  as the number suddenly drops from 742 in 1700 to 175 in 1701 and 133
+  in 1702. So we checked the results of this procedure on a
+  country-by-country basis, using the available literature on book
+  production in those
+  countries.](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
 
-  * [Table 8 shows the results of these regressions, which explain the log of per capita book production in country x in period y by the log of the number of monasteries (per capita), the number of universities (again per capita), the urbanization ratio, and a dummy for Spain. If we take the Middle Ages as a whole, the three factors we have data for—universities, monasteries, and urbanization—together explain almost 60 percent of the variation in per capita book production (first two columns). All coefficients show the expected signs, independent of the specification. Dividing the period in two shows the changes in the determinants for book production: the link to monasteries is very strong in the first half of the period but less so during..](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
+  * [Table 8 shows the results of these regressions, which explain the
+  log of per capita book production in country x in period y by the
+  log of the number of monasteries (per capita), the number of
+  universities (again per capita), the urbanization ratio, and a dummy
+  for Spain. If we take the Middle Ages as a whole, the three factors
+  we have data for—universities, monasteries, and
+  urbanization—together explain almost 60 percent of the variation in
+  per capita book production (first two columns). All coefficients
+  show the expected signs, independent of the specification. Dividing
+  the period in two shows the changes in the determinants for book
+  production: the link to monasteries is very strong in the first half
+  of the period but less so
+  during..](http://journals.cambridge.org/action/displayFulltext?type=6&fid=5594068&jid=JEH&volumeId=69&issueId=02&aid=5594064&bodyId=&membershipNumber=&societyETOCSession=&fulltextType=RA&fileId=S0022050709000837)
 
 ## Topics
 
@@ -100,11 +156,57 @@ Seven Years’ War, 1756-1763
 [Check also Duhaime's blog
 examples](http://douglasduhaime.com/blog/mapping-the-early-english-book-trade)
 
-Myöhemmin otsikoiden analyysista uskoisin, että saadaan paljon irti. Esim. yksi tapa erottaa joukko tekstejä tarkasteltavaksi kokonaisuudeksi on ottaa kaikki ”Histo”-sisältävät otsikot omaksi joukokseen.
+Myöhemmin otsikoiden analyysista uskoisin, että saadaan paljon irti.
+Esim. yksi tapa erottaa joukko tekstejä tarkasteltavaksi
+kokonaisuudeksi on ottaa kaikki ”Histo”-sisältävät otsikot omaksi
+joukokseen.
 
-myöhemmin voidaan tehdä muita sana-ryhmittelyjä liittyen otsikoihin, näiden tutkiminen on mielenkiintoista, koska se kertoo suoraan dokumentin muodosta, esim. kaikki otsikot joissa: ”letter[s]”, ”observation[s]”, ”memoir[s]”, ”account[s]”, “review[s]”, ”enquiry[ies]” [+”inquiry”], ”narrative[s]”, ”appeal[s]”, “abstract[s]”, “apology[ies]” [+”apologie”], ”answer[s]” [+ansvver], ”address[es]”, ”act[s]”, ”journal[s]”, ”discourse[s]”, ”defence[s]”, ”declaration[s]”, ”collection[s]”, ”life[es]”, ”vote[s]”, ”news [+ nevves]”, ”dissertation[s]”, “character[s]”, “case[s]”, “annals”, “table”[s], ”thought[s]”, ”speech[es]” [pitäen sisällään ”to..”, ”to his…”], ”petition[s]”, ”tract[s]”, “proposal[s]”, “alarm[s]”[+”alarum”+”alarme”], “agreement[s]”, “antidote[s]”, “state[s]”, “statement[s]”, “proceeding[s]”, “sermon[s]”, “treatise[s]”, “advertisement[s] [+”aduertisement”], “vindication[s]”, “relation[s]”, “ordinance”[s], “message[s]”, “dialogue[s]” [+”dialogve”], “detection[s]”, “discovery[ies] [+”discoverie”+”discouery”+”discouerie”], “diary”, “oration[s]”, “abridgement[s]”, ”works”, “trial[s]”, “resolution[s]”, “exhortation[s]”, “conference[s], “fight[s]”, “representation[s]”, “article[s]”, “memorial[s]”, “meeting[s]”, “manifest[…]”, “argument[s]”, review[s]”, “remonstrance[s]”, “reply[ies]”, “prayer[s]”, “admonition[s]”, “assessment[s]”, “essay[ies]”, “epistle[s]”, “epitome[s]”, “elegy[ies]” [+”elegie”], “appendix[es]”, “advice”, “poem[s]”, “plea[s]”, “plan[s]”, “list[s]”, “parallel[s]”, “panegyrick[s]”, “antiquity[ies]”, “animadversion[s]”, “express”, “explanation[s]”, “introduction[s]”, “relation[s]”, “survey[s]”, “view[s]”, “sketch[es]”, “report[s]”, “remark[s]”, “examination[s]”, “song[s]” [+”ballad[s]”], “map[s]”, “reflection[s]”, “paper[s]”, “tract[s]”, “charge[s], “caution[s]”, “caveat[s], “report[s]”, “extract[s]”, “description[s]”, “catalogue[s]”, “proposition[s]”, “proclamation[s]”, “minute[s]”, “proceeding[s]”, “anecdote[s]”, “lamentation[s]”, “victory[ies] [+victorie]”, “bill[s]”, jne. [kaikki näistä siis pitäen sisällään yksikkö ja monikkomuodot jos on, kuten myös vaihtelevat kirjoitusasut], mutta olisiko niin, että tätä voi sitten tehdä myöhemmin niillä ”topic modelling” menetelmillä etsien näitä otsikkojen yhtäläisyyksiä ja tarkkailla sitten niiden kehitystä?
+myöhemmin voidaan tehdä muita sana-ryhmittelyjä liittyen otsikoihin,
+näiden tutkiminen on mielenkiintoista, koska se kertoo suoraan
+dokumentin muodosta, esim. kaikki otsikot joissa: ”letter[s]”,
+”observation[s]”, ”memoir[s]”, ”account[s]”, “review[s]”,
+”enquiry[ies]” [+”inquiry”], ”narrative[s]”, ”appeal[s]”,
+“abstract[s]”, “apology[ies]” [+”apologie”], ”answer[s]” [+ansvver],
+”address[es]”, ”act[s]”, ”journal[s]”, ”discourse[s]”, ”defence[s]”,
+”declaration[s]”, ”collection[s]”, ”life[es]”, ”vote[s]”, ”news [+
+nevves]”, ”dissertation[s]”, “character[s]”, “case[s]”, “annals”,
+“table”[s], ”thought[s]”, ”speech[es]” [pitäen sisällään ”to..”, ”to
+his…”], ”petition[s]”, ”tract[s]”, “proposal[s]”,
+“alarm[s]”[+”alarum”+”alarme”], “agreement[s]”, “antidote[s]”,
+“state[s]”, “statement[s]”, “proceeding[s]”, “sermon[s]”,
+“treatise[s]”, “advertisement[s] [+”aduertisement”],
+“vindication[s]”, “relation[s]”, “ordinance”[s], “message[s]”,
+“dialogue[s]” [+”dialogve”], “detection[s]”, “discovery[ies]
+[+”discoverie”+”discouery”+”discouerie”], “diary”, “oration[s]”,
+“abridgement[s]”, ”works”, “trial[s]”, “resolution[s]”,
+“exhortation[s]”, “conference[s], “fight[s]”, “representation[s]”,
+“article[s]”, “memorial[s]”, “meeting[s]”, “manifest[…]”,
+“argument[s]”, review[s]”, “remonstrance[s]”, “reply[ies]”,
+“prayer[s]”, “admonition[s]”, “assessment[s]”, “essay[ies]”,
+“epistle[s]”, “epitome[s]”, “elegy[ies]” [+”elegie”], “appendix[es]”,
+“advice”, “poem[s]”, “plea[s]”, “plan[s]”, “list[s]”, “parallel[s]”,
+“panegyrick[s]”, “antiquity[ies]”, “animadversion[s]”, “express”,
+“explanation[s]”, “introduction[s]”, “relation[s]”, “survey[s]”,
+“view[s]”, “sketch[es]”, “report[s]”, “remark[s]”, “examination[s]”,
+“song[s]” [+”ballad[s]”], “map[s]”, “reflection[s]”, “paper[s]”,
+“tract[s]”, “charge[s], “caution[s]”, “caveat[s], “report[s]”,
+“extract[s]”, “description[s]”, “catalogue[s]”, “proposition[s]”,
+“proclamation[s]”, “minute[s]”, “proceeding[s]”, “anecdote[s]”,
+“lamentation[s]”, “victory[ies] [+victorie]”, “bill[s]”, jne. [kaikki
+näistä siis pitäen sisällään yksikkö ja monikkomuodot jos on, kuten
+myös vaihtelevat kirjoitusasut], mutta olisiko niin, että tätä voi
+sitten tehdä myöhemmin niillä ”topic modelling” menetelmillä etsien
+näitä otsikkojen yhtäläisyyksiä ja tarkkailla sitten niiden
+kehitystä?
 
-Kategorisoi kaikki lehdenomaiset yhteen (poimittuna osa): gazette, chronicle, courant, intelligencer, advertiser, star, post, magazine, monthly, miscellany, monitor, news-letter, register, daily, mercurius, rambler, intelligence, guide, evening, mercury, craftsman, examiner, chronologist, oracle, observer, review, (journal). Näistä ”journal” on hankala koska pitää sisällään myös paljon muuta. Lisäksi tämän joukon ulkopuolella on myös muita lehtiä, mutta niiden blokkaaminen voidaan hoitaa jälkeenpäin.
+Kategorisoi kaikki lehdenomaiset yhteen (poimittuna osa): gazette,
+chronicle, courant, intelligencer, advertiser, star, post, magazine,
+monthly, miscellany, monitor, news-letter, register, daily, mercurius,
+rambler, intelligence, guide, evening, mercury, craftsman, examiner,
+chronologist, oracle, observer, review, (journal). Näistä
+”journal” on hankala koska pitää sisällään myös paljon muuta. Lisäksi
+tämän joukon ulkopuolella on myös muita lehtiä, mutta niiden
+blokkaaminen voidaan hoitaa jälkeenpäin.
 
   * Subject classes -> Which one to select?
     - Melvil Decimal System_ http://www.librarything.com/mds/0
@@ -174,9 +276,13 @@ some available country information might lost during filtering?
 map towns to gis coordinates, then gis to country?
 
 
+
 ## Misc 
 
-It would be possible to include time span that the document discusses, by picking info from publication topic field. This may have limited value as it is available only for 18% of the documents (full ESTC) and might be biased towards certain class of documents anyway.
+It would be possible to include time span that the document discusses,
+by picking info from publication topic field. This may have limited
+value as it is available only for 18% of the documents (full ESTC) and
+might be biased towards certain class of documents anyway.
 
 print("Subject timespan")
 df$subject.begin <- sapply(strsplit(as.character(df.orig[["650y.651y"]]), ";"), function (x) {min(na.omit(as.numeric(x)))})
@@ -189,12 +295,8 @@ df$subject.end <- as.numeric(gsub("17600", "1600", df$subject.end))
 df$subject.begin <- as.numeric(gsub("7600", "1600", df$subject.begin))
 df$subject.end <- as.numeric(gsub("7600", "1600", df$subject.end))
 
-------------------------------------------
-
 Kenttä 650y.651y muuttui alkuperäisestä versiosta, funktiot
 hajosi. Pitäisi kirjoittaa uudet funktiot vuosilukujen ja topiccien
 poimimiseksi tästä kentästä. See also function inst/extras/misc.R ->
 polish.650y and inst/extras/misc.Rmd -> subject.begin / subject.end
-
-----
 
