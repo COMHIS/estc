@@ -4,12 +4,27 @@
 
   * Sivunumeroissa on nyt jotain häikkää!!
 
+  * Nimien klusterointi esikäsittelynä. Sitten pyydä MT tarkistaan
+    listoja. Voidaan jälkikäteen täydentää stopwordeja, pseudonyymejä
+    ja sääntöjä.
+
   * Lisää pseudonyymikenttä omaksi tiedokseen. Pitäis kait onnistua
-    pseudonyyminimilistojen nojalla?
+    pseudonyyminimilistojen nojalla? Ja sitten haravoi Mikon kanssa
+    lisää pseudonyymejä. Poista ensin nimet jotka tunnettujen nimien
+    listalla ja stopwordeissa, sitten listaa loput ja hae
+    pseudonyymejä.
 
   * sheet-size keskiarvo niistä joille mitat tiedossa (nyt vasta
     pagecount tehty näin). käytä keskiarvoa (ei taulukkoarvoa)
     loppujen estimointiin
+
+  * pitää miettiä mitä tehdään 1to ja 2fo suhteen. Eli siis veikkaisin
+    että nämä kaksi menevät osittain sekaisin ts. se mikä on ehkä
+    merkitty 1to on oikeasti 2fo.
+
+  * löytyisköhän jotain helppoa koodinpätkää jonka ajamalla saisi
+     esim. sieltä VIAFista haettua taulukkoon yhteen sarakkeeseen
+     kaikki esiintymät joissa nimi meidän datasta -> HR ?
 
   * items / parts poistettiin aiemmin kun oli hankalaa. pitäisiko
     ottaa takaisin (affects items and hence pages estimates)

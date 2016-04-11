@@ -15,7 +15,8 @@ library(magrittr)
 author <- "Leo Lahti"
 ntop <- 20
 timespan <- c(1460, 1830)
-datafile <- "df.Rds"
+datafile.preprocessed <- "df.Rds"
+datafile.orig <- "df.raw.Rds"
 output.folder <- "output.tables/"
 
 # ---------------------------------
@@ -23,7 +24,8 @@ output.folder <- "output.tables/"
 print("Prepare the final data set")
 
 # Read the preprocessed data
-df <- readRDS(datafile)
+df <- readRDS(datafile.preprocessed)
+df.orig <- readRDS(datafile.orig)
 
 # Year limits
 df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))

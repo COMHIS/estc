@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-09"
+date: "2016-04-11"
 output: markdown_document
 ---
 
@@ -33,34 +33,34 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name            | missing (%)| available (%)| available (n)| unique (n)|
 |:---------------------|-----------:|-------------:|-------------:|----------:|
-|volnumber             |        99.6|           0.4|          2031|         24|
+|volnumber             |        99.8|           0.2|           946|         31|
 |width.original        |        99.2|           0.8|          3731|         72|
 |height.original       |        98.3|           1.7|          8153|         88|
 |publication_year_till |        97.8|           2.2|         10552|        354|
 |publication_topic     |        81.7|          18.3|         87966|       5067|
 |publication_geography |        71.6|          28.4|        136613|      12717|
-|author_birth          |        59.0|          41.0|        197143|        470|
-|self_published        |        56.6|          43.4|        209060|          3|
-|author_death          |        55.8|          44.2|        212750|        518|
-|author_gender         |        51.1|          48.9|        235122|          3|
-|author                |        47.4|          52.6|        253193|      46365|
+|author_birth          |        58.8|          41.2|        198437|        470|
+|self_published        |        56.0|          44.0|        211567|          3|
+|author_death          |        55.6|          44.4|        213858|        518|
+|author_gender         |        51.0|          49.0|        235953|          3|
+|author                |        46.7|          53.3|        256495|      47758|
 |subject_topic         |        44.9|          55.1|        265148|      55731|
-|author_name           |        44.7|          55.3|        266124|      42150|
-|publisher             |        24.4|          75.6|        363755|     162137|
-|latitude              |        14.1|          85.9|        413567|         18|
-|longitude             |        14.1|          85.9|        413567|         18|
-|paper.consumption.km2 |         7.5|          92.5|        444936|       5317|
-|pagecount.orig        |         5.4|          94.6|        455431|       1137|
+|author_name           |        40.5|          59.5|        286381|      48933|
+|publisher             |        24.4|          75.6|        363755|     162121|
+|latitude              |        14.0|          86.0|        413669|         18|
+|longitude             |        14.0|          86.0|        413669|         18|
+|pagecount.orig        |         3.6|          96.4|        463657|       1502|
 |obl                   |         3.5|          96.5|        464209|          3|
+|paper.consumption.km2 |         2.3|          97.7|        470015|       6816|
 |width                 |         2.3|          97.7|        470237|         78|
 |height                |         2.3|          97.7|        470237|         95|
 |area                  |         2.3|          97.7|        470237|        629|
-|country               |         0.7|          99.3|        477736|         56|
-|publication_place     |         0.6|          99.4|        478553|       1266|
-|volcount              |         0.4|          99.6|        479174|        152|
-|document.items        |         0.4|          99.6|        479174|        152|
+|country               |         0.6|          99.4|        478349|         56|
+|publication_place     |         0.5|          99.5|        478676|       1097|
 |publication_year_from |         0.2|          99.8|        480080|        348|
-|pagecount             |         0.1|          99.9|        480955|       1270|
+|volcount              |         0.2|          99.8|        480259|        150|
+|document.items        |         0.2|          99.8|        480259|        150|
+|pagecount             |         0.0|         100.0|        480983|       1608|
 |title                 |         0.0|         100.0|        481203|     360647|
 |control_number        |         0.0|         100.0|        481205|     481205|
 |language.finnish      |         0.0|         100.0|        481205|          1|

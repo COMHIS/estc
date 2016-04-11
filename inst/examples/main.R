@@ -1,5 +1,5 @@
-#library(devtools)
-#load_all("../../../bibliographica/")
+library(devtools)
+load_all("../../../bibliographica/")
 
 # I/O definitions
 output.folder <- "output.tables/"
@@ -12,7 +12,9 @@ mc.cores <- 4
 
 # Update selected fields only -
 # comment out if not needed
-update.fields <- c("author_name", "author_date")
+#update.fields <- c("physical_extent")
+#update.fields <- c("publication_place")
+#update.fields <- c("publication_place", "author_name", "author_date")
 #validate.fields <- "years"
 #enrich.fields <- c("geo", "years")
 

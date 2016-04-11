@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-09"
+date: "2016-04-11"
 output: markdown_document
 ---
 
@@ -23,9 +23,9 @@ Author gender distribution in the complete data:
 
 |author_gender |   docs| fraction|
 |:-------------|------:|--------:|
-|female        |   8731|     1.81|
-|male          | 226391|    47.05|
-|NA            | 246083|    51.14|
+|female        |   8846|     1.84|
+|male          | 227107|    47.20|
+|NA            | 245252|    50.97|
 
 Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
 

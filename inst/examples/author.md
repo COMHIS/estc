@@ -1,26 +1,20 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-09"
+date: "2016-04-11"
 output: markdown_document
 ---
 
 ## Authors
 
-[Accepted author names](output.tables/author_accepted.csv) All OK?
+[Accepted author names](output.tables/author_accepted.csv) All OK? Link to synonyme file here as well.
 
-[Discarded author last names](output.tables/author_lastnames_discarded.csv) The most common ones are listed first. Pseudonymes from here can be added to the list of [known pseudonymes](https://github.com/rOpenGov/bibliographica/tree/master/inst/extdata/names/pseudonymes). Otherwise, those last names that should be accepted can be added to the [custom list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/lastnames/custom.csv)
-
-[Discarded author first names](output.tables/author_firstnames_discarded.csv). The most common ones are listed first. Pseudonymes from here can be added to the list of [known pseudonymes](https://github.com/rOpenGov/bibliographica/tree/master/inst/extdata/names/pseudonymes). Otherwise, those first names that should be accepted can be added to the [custom list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/firstnames/custom.csv)
-
-[Discarded author full names](output.tables/author_discarded.csv) Do not do anything for this before the next round. Handling the first and last names first.
+[Discarded author names](output.tables/author_discarded.csv) Do not do anything for this before the next round. Handling the first and last names first.
 
 [Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) All OK ?
 
-[Conversions from original to final names](output.tables/author_conversion_nontrivial.csv) FYI
 
-
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 46365 unique authors and 253193 documents with unambiguous author information (55%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 47758 unique authors and 256495 documents with unambiguous author information (60%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 

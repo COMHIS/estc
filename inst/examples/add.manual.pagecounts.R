@@ -1,4 +1,6 @@
-nas <- sapply(split(df.preprocessed$pagecount, df.preprocessed$gatherings), function (x) {mean(is.na(x))})
+library(dplyr)
+
+#nas <- sapply(split(df.preprocessed$pagecount, df.preprocessed$gatherings), function (x) {mean(is.na(x))})
 
 gatherings <- as.character(levels(df.preprocessed$gatherings))
 
@@ -7,7 +9,6 @@ for (g in gatherings) {
   f <- system.file(paste("extdata/pagecounts/MissingPages-", g, ".csv", sep = ""), package = "estc")
   if (!f == "") {
     pc <- read.csv(f, header = TRUE, sep = "\t")
-    library(dplyr)
     pc <- filter(pc, !is.na(document.pages.total))
     pc$document.pages.total <- as.numeric(gsub(" p\\.", "", pc$document.pages.total))
 
@@ -28,7 +29,7 @@ for (g in gatherings) {
   }
 }
 
-nas2 <- sapply(split(df.preprocessed$pagecount, df.preprocessed$gatherings), function (x) {mean(is.na(x))})
+#nas2 <- sapply(split(df.preprocessed$pagecount, df.preprocessed$gatherings), function (x) {mean(is.na(x))})
 
 # Compare missing page counts before and after this operation
-print(cbind(nas, nas2))
+#print(cbind(nas, nas2))

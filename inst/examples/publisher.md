@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-09"
+date: "2016-04-11"
 output: markdown_document
 ---
 
@@ -14,7 +14,7 @@ output: markdown_document
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 363755 documents (76%). There are 162969 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 363755 documents (76%). There are 162952 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
@@ -33,8 +33,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher                             | titles|    paper|
 |:-------------------------------------|------:|--------:|
-|charles eyre andrew strahan           |    932| 6.264959|
-|charles eyre william strahan          |   1585| 8.269442|
-|company stationers                    |    952| 1.256828|
-|george eyre andrew strahan            |    943| 6.206504|
-|thomas baskett assigns robert baskett |   1106| 6.436823|
+|charles eyre andrew strahan           |    932|     -Inf|
+|charles eyre william strahan          |   1585| 6.963230|
+|company stationers                    |    952| 1.666601|
+|george eyre andrew strahan            |    943| 2.482916|
+|thomas baskett assigns robert baskett |   1106| 4.102312|
