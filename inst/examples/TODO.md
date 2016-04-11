@@ -2,8 +2,6 @@
 
 ### Technical
 
-  * Sivunumeroissa on nyt jotain häikkää!!
-
   * Nimien klusterointi esikäsittelynä. Sitten pyydä MT tarkistaan
     listoja. Voidaan jälkikäteen täydentää stopwordeja, pseudonyymejä
     ja sääntöjä.
