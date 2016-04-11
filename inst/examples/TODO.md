@@ -70,7 +70,9 @@
   yhteen se ei voi olla). Esim jotain tyyliiin n(docs) * 'levinneisyys
   aikajanalla'? * pages 
 
-  * Paperin hinta vs. painomäärät?
+  * Paperin hinta vs. painomäärät? Huom: meidän alkuperäiset
+    taulukkoestimaatit ja datasta arvioidut dokkarikoot ei kyllä ihan
+    mätchää. Pitää varmistella.
 
   * Animations; Interactive stuff; RShiny- Video with folio vs. octavo
     and balls are publication places, sizes are total publication
