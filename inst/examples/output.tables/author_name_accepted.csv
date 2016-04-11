@@ -1,5 +1,5 @@
 Name	Count
-Total count: 	n= 286381  ( 100 % non-NA values)
+Total count: 	n= 286971  ( 100 % non-NA values)
 Wesley, John	1195
 Shakespeare, William	1071
 Defoe, Daniel	1040
@@ -1251,6 +1251,7 @@ Maurice, Thomas	  38
 Louis	  38
 Lardner, Nathaniel	  38
 Lacy, John	  38
+La Calprenède, Gaultier De Coste	  38
 Johnstone, Charles	  38
 Johnson, Thomas	  38
 Hutton, Richard	  38
@@ -1480,6 +1481,7 @@ Moore, Thomas	  33
 Member Of The House Of Commons	  33
 Love, John	  33
 Levi, James	  33
+La Fontaine, Jean De	  33
 Kent, Henry	  33
 James, Thomas	  33
 Ivernois, Francis D'	  33
@@ -1968,6 +1970,7 @@ Lucan	  26
 Lee, Samuel	  26
 Lee, Henry	  26
 Leedes, Edward	  26
+La Rochefoucauld, François	  26
 Lambert, John	  26
 Knollys, Hanserd	  26
 Ker, John	  26
@@ -2365,6 +2368,7 @@ Leigh, Dorothy	  22
 Lee, Richard	  22
 Lee, Arthur	  22
 Lavington, George	  22
+La Motte, Jeanne De Saint-rémy De Valois	  22
 King, Henry	  22
 Johnson, Joseph	  22
 Joannes	  22
@@ -2910,6 +2914,7 @@ Linden, Diederick Wessel	  18
 Le Grand, Antoine	  18
 Leeds, Thomas Osborne	  18
 Lathom, Francis	  18
+La Serre	  18
 Kitchin, John	  18
 Kingston, Richard	  18
 Killiray, Matthew	  18
@@ -3083,6 +3088,7 @@ Linné, Carl Von	  17
 Lind, John	  17
 Leech, John	  17
 Laurence, R	  17
+La Touche, James Digges	  17
 Langford, William	  17
 Knight, James	  17
 Kirkpatrick, James	  17
@@ -3550,7 +3556,9 @@ Le Noble, Eustache	  15
 Layer, Christopher	  15
 Lawrence, Thomas	  15
 łaski, Jan	  15
+La Rochefoucauld, François	  15
 Lancelot, Claude	  15
+La Bruyère, Jean De	  15
 Kusser, Johann Sigismund	  15
 Kidgell, John	  15
 Kennedy, James	  15
@@ -4074,8 +4082,10 @@ Leach, Thomas	  13
 Layton, Henry	  13
 Lawson, George	  13
 Lassels, Richard	  13
+La Mottraye, Aubry De	  13
 Lambert, Ralph	  13
 Lambert, James	  13
+La Fayette	  13
 Kyd, Thomas	  13
 Kirkby, John	  13
 Johnston, William	  13
@@ -4816,6 +4826,7 @@ Lawrence, Richard	  11
 Laudér, William	  11
 Langham, Thomas	  11
 Laney, Benjamin	  11
+La Motte, Jeanne De Saint-rémy De Valois	  11
 Lambert, Anne Thérèse De Marguenat De Courcelles	  11
 Lairesse, Gérard De	  11
 König, Johann	  11
@@ -5267,6 +5278,7 @@ Layman Of The Church Of England	  10
 Layard, Daniel Peter	  10
 Lawton, Charlwood	  10
 Lawrence, John	  10
+La Quintinie, Jean De	  10
 Lang, Robert	  10
 Lamb, Thomas	  10
 Lacam, Benjamin	  10
@@ -5821,7 +5833,10 @@ Le Clerc, Charles Gabriel	   9
 Layard, Charles Peter	   9
 Lavoisier, Antoine Laurent	   9
 Laurence, Edward	   9
+La Primaudaye, Pierre De	   9
+La Pilonnière, François De	   9
 Lambe, Aaron	   9
+La Chambre, Marin Cureau De	   9
 Kuhlmann, Quirin	   9
 Knell, Thomas	   9
 Kirkland, John Thornton	   9
@@ -6443,6 +6458,10 @@ Langhorne, Richard	   8
 Lane, John	   8
 Lamy, Bernard	   8
 Lamplugh, Thomas	   8
+La Mettrie, Julien Offray De	   8
+La Condamine, Charles-marie De	   8
+La Boissiere, Peter	   8
+La Beaumelle	   8
 Kunze, John C	   8
 Koops, Matthias	   8
 Knowles, William	   8
@@ -7246,6 +7265,9 @@ Lauderdale, Charles Maitland	   7
 Latter, Mary	   7
 Latham, Simon	   7
 Latham, John	   7
+La Solle, Henri-françois De	   7
+La Rochefoucauld-liancourt, François-alexandre-frédéric	   7
+La Place, Pierre Antoine De	   7
 Lansdowne, William Petty	   7
 Languet, Jean Joseph	   7
 Langhorne, William	   7
@@ -7253,6 +7275,7 @@ Langdale, Marmaduke	   7
 Lane, William	   7
 Lancaster, Thomas	   7
 Lamp-lighter	   7
+La Motte	   7
 Lambe, Henry	   7
 Lafontaine, Auguste Heinrich Julius	   7
 Lacroze, Jean Cornand De	   7
@@ -8308,7 +8331,9 @@ Lampe, John Frederick	   6
 Lamotte, Charles	   6
 Lamont, David	   6
 Lambert, George	   6
+La Marche, Jean François De	   6
 Laing, David	   6
+La Hire, Philippe De	   6
 Labbe, Philippe	   6
 Kynaston, John	   6
 Knox, Henry	   6
@@ -9692,12 +9717,18 @@ Layman Of Conscience And Common Sense	   5
 Lay-hand	   5
 Lawes, Nicholas	   5
 Lawe, Robert	   5
+La Vallière, Louise De	   5
 Laugharne, Rowland	   5
 Lauder, William	   5
 Lauder, Charles]	   5
 Latta, James	   5
 Latocnaye	   5
 Larkin, Ebenezer	   5
+La Poterie	   5
+La Placette, Jean	   5
+La Place, Pierre De	   5
+La Pérouse, Jean-françois De Galaup	   5
+La Pérouse, Jean-françois De Galaup	   5
 Lanquet, Thomas	   5
 Lanjuinais, Joseph	   5
 Langle	   5
@@ -9706,13 +9737,18 @@ Langford, E	   5
 Lane, Edward	   5
 Lane, A	   5
 Lancaster, Nathaniel	   5
+La Motte, Yves-joseph	   5
 Lamb, Philip	   5
 Lamb, Patrick	   5
 Lambert, Claude François	   5
+La Marche-courmont, Ignace Hugary De	   5
 Lallier, Francis	   5
 Lahontan, Louis Armand De Lom D'arce	   5
+La Fosse, Étienne-guillaume	   5
+La Fitte, Anne-gédéon	   5
 Laet, Gaspar	   5
 Laclos, Choderlos De	   5
+La Chapelle, Vincent	   5
 Kuster, Ludolf	   5
 Krauter, Philip David	   5
 Knox, Thomas	   5
@@ -11600,11 +11636,17 @@ Laycock, William	   4
 Lawrence, Herbert	   4
 Lawrence, Edward	   4
 Lawlor, L	   4
+La Vauguion	   4
 Lavater, Ludwig	   4
+La V----	   4
 Laurie, Gilbert	   4
 Latrobe, Benjamin Henry	   4
 Lashbrooke, Thomas	   4
+La Roche-guilhen	   4
+La Rochefoucauld-liancourt, François-alexandre-frédéric	   4
+La Roberdière, Alexandre De	   4
 Larkham, Thomas	   4
+La Perrière, Guillaume De	   4
 Lant, Thomas	   4
 Lansdell, Sarah	   4
 Langton, Zachary	   4
@@ -11617,6 +11659,9 @@ Lane, Thomas	   4
 Land, Tristram	   4
 Landon, John	   4
 Lancton, Thomas	   4
+La Motte, Philémon De	   4
+La Mothe Le Vayer, François De	   4
+La Morlière, Jacques Rochette De	   4
 Lamboll, William	   4
 Lamb, John	   4
 Lambert, Thomas	   4
@@ -11624,9 +11669,12 @@ Lambert De Saumery, Pierre	   4
 Lally-tolendal, Trophime-gérard	   4
 Lake, John	   4
 Lake, Arthur	   4
+La Fin, Charles De	   4
 Lady Of Distinction	   4
 Lacy, Joseph	   4
 Lacy, James	   4
+La Chapelle	   4
+La Calmette, François De	   4
 Labilliere, Peter	   4
 Kristina	   4
 Kraak, Ivar	   4
@@ -14609,6 +14657,7 @@ Lawrence, George	   3
 Lawrence, Alexander	   3
 Lawrence	   3
 Law, Charles	   3
+La Varenne, François Pierre De	   3
 Laurie, Margaret	   3
 Laurie, John	   3
 Lauderdale, John Maitland	   3
@@ -14619,8 +14668,11 @@ Late Pupil Of Dr. Leake's	   3
 Late Nobleman	   3
 Lassone, Joseph-marie-françois De	   3
 Las Cases, Emmanuel-auguste-dieudonné	   3
+La Sale, Antoine De	   3
 Larrey, Isaac De	   3
+La Roque, Jean De	   3
 Larkin, Edward	   3
+La Reynie De La Bruyère, Jean-baptiste-marie-louis	   3
 Lantier, étienne-françois De	   3
 Langton, John	   3
 Langley, Samuel	   3
@@ -14632,15 +14684,22 @@ Langdon, Chauncy	   3
 Lane, Bartholomew	   3
 Lands, Heber	   3
 Landmann, Isaac	   3
+La Musse, Margaret De	   3
+La Motte, Barbarie De	   3
+La Mothe, Claude Grostête	   3
 Lamb, Francis	   3
 Lambe, Robert	   3
 Lamb, Charles	   3
+La Martelière, Pierre De	   3
 Laird, John	   3
 Laing, William	   3
+La Fite	   3
+La Fayette, Marie Joseph Paul Roche Yves Gilbert Du Motier	   3
 Laelius	   3
 Lady Of Real Quality	   3
 Lacombe, François	   3
 Labutte, R	   3
+La Brosse, Jean Baptiste De	   3
 Labillardière, Jacques-julien	   3
 Kynnynmound, Hugh Murray	   3
 Kyle, Thomas	   3
@@ -20098,6 +20157,10 @@ Laugier, Marc-antoine	   2
 Laughton, Richard	   2
 Lauderdale, John	   2
 Lauder, Andrew	   2
+La Trobe, Benjamin	   2
+La Tour, Filliberto Sallier De	   2
+La Touche Boesnier, Pierre De	   2
+La Touche	   2
 Lates, David Francesco	   2
 Late Right Reverend Prelate	   2
 Late Member Of One Of Those Colleges	   2
@@ -20107,13 +20170,18 @@ Lasher, Joshua	   2
 Lascelles, Rowley	   2
 Larudan]	   2
 Larroque, Matthieu De	   2
+La Rocque	   2
+La Roche, Sophie Von	   2
+La Roche-guihen, Anne De	   2
 Larkins, William	   2
 Larkins, John Pascal	   2
 Lardner, James	   2
 Lara, Benjamin	   2
+La Peyrère, Isaac De	   2
 Lapeyre, Louis	   2
 Lansperger, Johannes Justus	   2
 Lansdowne, George Granville Baron]	   2
+La Noue, François De	   2
 Langworthy, Charles Cunningham	   2
 Langwith, Benjamin	   2
 Lang, William	   2
@@ -20128,6 +20196,7 @@ Langdon, Timothy	   2
 Langdon, Thomas	   2
 Langdon, Richard	   2
 Langallerie, Philippe De Gentils	   2
+La Neuville, M. J	   2
 Lanesborough, Mary Lane	   2
 Lanesborough, James Lane	   2
 Lane, Samuel	   2
@@ -20144,6 +20213,8 @@ Lancaster, Peter	   2
 Lancaster, Daniel	   2
 Lamport, William	   2
 Lampe, Friedrich Adolph	   2
+La Motte, François De	   2
+La Milletière, Théophile Brachet	   2
 Lami, Giovanni	   2
 Lamb, William	   2
 Lambe, William	   2
@@ -20154,6 +20225,8 @@ Lambert	   2
 Lambe	   2
 Lamb, Catharine	   2
 Lambart, Richard	   2
+La Martinière, Pierre Martin De	   2
+La Marche, Olivier De	   2
 Lalleman, Pierre	   2
 Lake, John Neal	   2
 Lake, Edward]	   2
@@ -20167,8 +20240,12 @@ Lainé, Pierre De	   2
 Laidlaw, Thomas	   2
 Laicus	   2
 Lahn, Jacob	   2
+La Harpe, Jean-françois De	   2
+La Fountaine, Edward	   2
+La Fitte, Anne-gédéon	   2
 Lafite, Daniel	   2
 Laffan, James	   2
+La Fare, Charles-auguste	   2
 Laet, Alphonsus	   2
 Lady Of Honour	   2
 Lady Of Great Quality	   2
@@ -20179,10 +20256,23 @@ Ladd, Joseph Brown	   2
 Lacy, William	   2
 Lacy, Benjamin	   2
 Lacroix, François De	   2
+La Croix, De	   2
+La Croix	   2
+La Créquinière, De	   2
+La Chétardie, Trotti De	   2
+La Chesnaye	   2
+La Chaussée, Nivelle De	   2
+La Charrière, Joseph De	   2
+La Chalotais, Louis-rené De Caradeuc De	   2
+La Chaise, François D'aix De	   2
 Labruzzi, Carlo	   2
 Labrune, Jean De	   2
+La Bléterie, Jean Philippe René De	   2
+La Bizardière	   2
+La Bintinaie, Agathon Marie René De	   2
 Labbé	   2
 Labat	   2
+La Barre De Beaumarchais	   2
 Kynaston, Corbet	   2
 Kyffin, Maurice	   2
 Kunckel, Johannes	   2
@@ -36173,6 +36263,9 @@ Lavenir	   1
 Laveaux, J.-charles	   1
 Laval, Stephen Abel	   1
 Lavallin, Jane	   1
+La Valliere, Lousie Francoise Duchesse De	   1
+La Vallette	   1
+La Vallée, Joseph]	   1
 Lauze, Francoise De	   1
 L'auteur D'azémor	   1
 Laussac, D'astor De	   1
@@ -36201,7 +36294,12 @@ Lauder, Robert	   1
 Lauder, James	   1
 Lauder-dick, Andrew	   1
 Lauder, David	   1
+La Tramblaye	   1
+La Tour Landry, Geoffroy De	   1
+La Touraille, Jean-chrysostome Larcher	   1
 Latouche, James Diggs	   1
+La Touche, Alexander De	   1
+La Torre	   1
 Latocnaye, De	   1
 Latimer, James	   1
 Lathy, Thomas Pike	   1
@@ -36256,22 +36354,33 @@ Lash, Joseph	   1
 Lasco, Joannes à	   1
 Lascells, Richard	   1
 Lascary, Mercurius]	   1
+La Salle, Antoine De	   1
 Larzelere, Jacob	   1
 Larwood, Samuel	   1
 Larwood, Joshua	   1
+La Rue, Charles De	   1
+La Roche-guihen	   1
+La Roberdière, Alexandre De	   1
 Larner, William	   1
 Larkin, Samuel	   1
 Larken, S	   1
 Larke, Nicholas]	   1
+La Rive, Charles-gaspard De	   1
 Largue, George	   1
 Large, George	   1
 Larcomb, J	   1
 Larcher, Andrew	   1
+La Ramee, Pierre De]	   1
 Lara, Catherine	   1
 Lapstone, Laurance	   1
 Lapslie, James	   1
 Lapraik, John	   1
+La Prade, Louis De	   1
+La Popelinière, Lancelot-voisin	   1
+La Platière, Sulpice Imbert	   1
+La Planche, Louis Régnier De	   1
 Lapis, Georgius	   1
+La Perrière, Guillaume De	   1
 Laophilus Misotyrannus	   1
 Lanyer, Aemilia	   1
 Lant, Mathew	   1
@@ -36281,6 +36390,9 @@ Lanseter, John	   1
 Lansdell, John	   1
 Lansac, J	   1
 Lanphier, Simon	   1
+La Noue, Odet De	   1
+La Noue, Jean-baptiste Sauvé	   1
+La Noue, François De	   1
 Lannoy, Timothy	   1
 Lanman, James	   1
 Lanier, Emilia	   1
@@ -36355,8 +36467,11 @@ Lampson, Elizabeth Richbell Presgrave	   1
 Lamport, John	   1
 Lamplugh, Thomas Archbishop	   1
 Lamplugh, Mary	   1
+La Motte, François De	   1
+La Mothe, Claude Grostête	   1
 Lamont, Jean	   1
 Lammas, John	   1
+La Mettrie, Julien Offrey De	   1
 Lamert	   1
 Lamech, Theodosio	   1
 Lamech	   1
@@ -36378,7 +36493,9 @@ Lamberg, Maximilian Joseph	   1
 Lambard, Thomas	   1
 Lamb, Anthony	   1
 Lamb, Andrew]	   1
+La Marr, Pier	   1
 Lalouette, Pierre	   1
+La Loubère, Simon De	   1
 Lalor	   1
 Lally Tollendal, Thomas Arthur De	   1
 Lally-tolendal, Trophime-grard	   1
@@ -36403,13 +36520,31 @@ Laing, James	   1
 Lainé, Pierre De	   1
 Laidly, John	   1
 Laidler, George	   1
+La Haye, Carolus De	   1
+La Haye	   1
+La Harpe, Jean-françois De	   1
+La Guesnerie, Charlotte-marie-anne Charbonnier De	   1
+La Grange, Ursule De	   1
+La Grancour, Albert-eugene De Lancelle De	   1
 Lagden, Henry Allen	   1
+La Framboisière, Nicolas Abraham De	   1
+La Framboisière, Nicholas Abraham De	   1
+La Fosse D'aubigny	   1
 Laforey, John	   1
+La Fontaine, Pierre De	   1
+La Fontaine	   1
 Lafitte, Pierre Michel	   1
 Lafitte Du Courteil, Amable-louis-rose De	   1
+La Fite, Daniel	   1
 Laffichard, Thomas	   1
 Lafayette, Marie Joseph Paul Yves Roch Gilbert Du Motier	   1
 Lafaye, L. R	   1
+La Faye, Antoine De	   1
+La Favrye	   1
+La Fausille, John	   1
+La Fare, Etienne-joseph De - ]	   1
+La Fare,  De	   1
+La Fage, Victor Amédée De	   1
 Laet, Jasper	   1
 Lady Who Onely Desires To Advance The Glory Of God, And Not Her Own	   1
 Lady Who Advertises The Care Of Complexions By The Year	   1
@@ -36435,17 +36570,33 @@ Lacy, Margaret	   1
 Lacy, John]	   1
 Lacy, J	   1
 Lacy, B	   1
+La Croze, Maturin Veyssière De	   1
+La Croix, Joh. Friedrich Guillus]	   1
+La Croix, Demetrius De	   1
 Lacour, L	   1
 Lacour	   1
+La Coste, De	   1
+La Coste	   1
 Lacon, Edmund	   1
 Lacombe, Jean Baptiste	   1
 Lacombe, Jacques	   1
+La Combe De Urigny, De	   1
 Lackey, Robert	   1
+La Chéterdie, Trotti De	   1
+La Chapelle, Joannes Baptista De	   1
+La Chapelle, James De	   1
+La Chapelle, Armand Boisbelaeu De	   1
+La Chabeaussière	   1
 Lacey, William	   1
 Lacey, Samuel	   1
 Laccaria, Francesco Antonio	   1
 Lacaux, P.]	   1
+La Calprenède, Gaultier De Coste Seigneur De	   1
+La Calprene&# ;de, Gaultier De Coste	   1
+La Caille, Nicolas Louis De	   1
+La Caille, Jean De	   1
 Lab--ssiere, George De	   1
+La Bruyere, Jean De	   1
 Labroue De Vareilles-sommières, August Jean Francois Antoine De	   1
 Labroue De Vareilles-sommières, Auguste-jean-franc̦ois-antoine	   1
 Labourer	   1
@@ -36454,6 +36605,7 @@ Laborde, Jean Benjamin De	   1
 Laborde	   1
 Labonneille, Sam	   1
 Laboissiere	   1
+La Boëtie, Etienne De	   1
 Lablée	   1
 Labbé	   1
 Labatt, Samuel Bell	   1

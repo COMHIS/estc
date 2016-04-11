@@ -48,6 +48,8 @@ df <- df.preprocessed <- df.preprocessed.orig
 # source("timeplot.R") # History vs. all ESTC docs
 # source("duplicates.R")
 
+source("Shakespeare.R")
+
 # -------------------------------------------------
 
 system("git add -f figure/*.png")

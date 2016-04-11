@@ -4479,6 +4479,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                        Labatt, Samuel Bell (1770-1849) 
 ##                                                      1 
+##                       La Fontaine, Jean De (1621-1695) 
+##                                                      1 
 ##                               Laing, David (1774-1856) 
 ##                                                      4 
 ##                             Laing, Malcolm (1762-1818) 
@@ -4509,12 +4511,22 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                   Lansdowne, William Petty (1737-1805) 
 ##                                                      1 
+##          La Pérouse, Jean-françois De Galaup (1741-1788) 
+##                                                      1 
+##        La Pérouse, Jean-françois De Galaup (1741-1788) 
+##                                                      1 
 ##                             Lapslie, James (1754-1824) 
 ##                                                      1 
 ##                             Largue, George (1698-1771) 
 ##                                                      1 
+##                La Rive, Charles-gaspard De (1770-1834) 
+##                                                      1 
 ##                               Larkin, George (1642-NA) 
 ##                                                      3 
+##                  La Rochefoucauld, François (1613-1680) 
+##                                                      1 
+##                 La Rochefoucauld, François (1613-1680) 
+##                                                      6 
 ##                               Latta, James (1732-1801) 
 ##                                                      3 
 ##                          Lauder, Alexander (1668-1719) 
@@ -8177,7 +8189,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15659 documents from 4055 unique
+We have 15659 documents from 4061 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8192,11 +8204,23 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
+## Error in publications[is.na(publications)] <- 0: object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
 ## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
 ```
 
 ```
 ## Error in publications.annual[is.na(publications.annual)] <- 0: object 'publications.annual' not found
+```
+
+```
+## Error in melt(publications): object 'publications' not found
 ```
 
 ```
@@ -8224,6 +8248,14 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
+## Error in publications[is.na(publications)] <- 0: object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
 ## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
 ```
 
@@ -8232,7 +8264,19 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
+## Error in is.data.frame(x): object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
 ## Error in eval(expr, envir, enclos): object 'publications.annual' not found
+```
+
+```
+## Error in melt(publications): object 'publications' not found
 ```
 
 ```
@@ -8245,6 +8289,10 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 ```
 ## Error in fortify(data): object 'dfm.annual' not found
+```
+
+```
+## Error: Insufficient values in manual scale. 55 needed but only 5 provided.
 ```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
@@ -8340,7 +8388,7 @@ We have 34458 documents from Scotland and 204937 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 5453 rows containing missing values (geom_point).
+## Warning: Removed 5456 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)

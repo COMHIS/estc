@@ -7,14 +7,14 @@ output: markdown_document
 
 ## Authors
 
-[Accepted author names](output.tables/author_accepted.csv) All OK? Link to synonyme file here as well.
+[Accepted author names](output.tables/author_accepted.csv) All OK? Link to synonyme file here as well. This is the final accepted author name, corresponding to all name variants listed in the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv)
 
-[Discarded author names](output.tables/author_discarded.csv) Do not do anything for this before the next round. Handling the first and last names first.
+[Discarded author names](output.tables/author_discarded.csv) Check that the discarded names do not contain valid names or valid pseudonymes.
 
 [Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) All OK ?
 
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 47758 unique authors and 256495 documents with unambiguous author information (60%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 47884 unique authors and 256993 documents with unambiguous author information (60%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 

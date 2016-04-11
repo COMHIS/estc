@@ -6,9 +6,8 @@
     listoja. Voidaan jälkikäteen täydentää stopwordeja, pseudonyymejä
     ja sääntöjä.
 
-  * Lisää pseudonyymikenttä omaksi tiedokseen. Pitäis kait onnistua
-    pseudonyyminimilistojen nojalla? Ja sitten haravoi Mikon kanssa
-    lisää pseudonyymejä. Poista ensin nimet jotka tunnettujen nimien
+  * Haravoi Mikon kanssa lisää pseudonyymejä
+    pseudonyymikenttään. Poista ensin nimet jotka tunnettujen nimien
     listalla ja stopwordeissa, sitten listaa loput ja hae
     pseudonyymejä.
 

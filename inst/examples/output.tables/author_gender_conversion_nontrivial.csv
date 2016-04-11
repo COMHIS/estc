@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 235953  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 236240  ( 50 % non-NA values)	Total count: 
 Wesley, John	male	1195
 Shakespeare, William	male	1070
 Defoe, Daniel	male	1039
@@ -1237,6 +1237,7 @@ Ivernois, Francis d'	male	33
 Hill, Rowland	male	33
 Wright, George	male	33
 Ayres, John	male	33
+La Fontaine, Jean de	female	33
 Stevenson, William	male	33
 Carlisle, Frederick Howard	male	33
 Nicholson, William	male	33
@@ -1959,6 +1960,7 @@ Rous, George	male	22
 Morris, Charles	male	22
 Herbert, William	male	22
 Nichols, John	male	22
+La Motte, Jeanne de Saint-Rémy de Valois	female	22
 Powel, Gabriel	male	22
 Withals, John.	male	22
 Gale, Theophilus	male	22
@@ -2652,6 +2654,7 @@ Doughty, John	male	17
 Beaumarchais, Pierre Augustin Caron de	male	17
 Hunt, William	male	17
 Fitzgerald, George Robert	male	17
+La Touche, James Digges	male	17
 Barret, John	male	17
 Browne, Richard	male	17
 Stirling, William Alexander	male	17
@@ -3280,6 +3283,7 @@ Moss, Thomas	male	13
 Wedderburn, Alexander	male	13
 Hartley, John	male	13
 Pickworth, Henry	male	13
+La Bruyère, Jean de.	female	13
 Cecil, Richard	male	13
 Crossman, Henry	male	13
 Austen, Stephen	male	13
@@ -3328,6 +3332,7 @@ Morley, George	male	13
 Darby, Abiah	female	13
 Coole, Benjamin	male	13
 Rudyard, Thomas	male	13
+La Mottraye, Aubry de	female	13
 Rippon, John	male	13
 Austin, David	male	13
 Helmuth, Justus Henry Christian	male	13
@@ -4015,6 +4020,7 @@ Broome, William	male	11
 Hampson, John	male	11
 Boad, Henry.	male	11
 Blakey, William	male	11
+La Motte, Jeanne de Saint-Rémy de Valois	female	11
 Belloste, Augustin	male	11
 Raspe, Rudolf Erich	male	11
 Colvil, Samuel.	male	11
@@ -4239,6 +4245,7 @@ Orme, Robert	male	10
 Hamilton, George	male	10
 Molinos, Miguel de	male	10
 Porter, Thomas	male	10
+La Quintinie, Jean de	female	10
 Gibbon, Nicholas	male	10
 Cumming, George	male	10
 Jameson, William	male	10
@@ -5042,6 +5049,7 @@ Niccols, Richard	male	9
 Eglisham, George	male	9
 Calver, Edward	male	9
 Ochino, Bernardino	male	9
+La Primaudaye, Pierre de	male	9
 Glapthorne, Henry.	male	9
 Cock, Thomas.	male	9
 Berkeley, George Berkeley	male	9
@@ -5055,6 +5063,7 @@ Capel of Hadham, Arthur Capel	male	9
 Browne, Edward.	male	9
 Bampfield, Francis	male	9
 Baxter, Richard.	male	9
+La Chambre, Marin Cureau de	female	9
 Chamberlayne, Thomas.	male	9
 Derby, Charles Stanley	male	9
 Fettiplace, Thomas	male	9
@@ -5414,6 +5423,7 @@ Edwards, Samuel	male	8
 Lambert, James.	male	8
 Nicholson, Edward.	male	8
 Retz, Jean François Paul de Gondi de	female	8
+La Mettrie, Julien Offray de	male	8
 Marchmont, Hugh Hume	male	8
 Graham, Robert	male	8
 Baron, William	male	8
@@ -5548,6 +5558,7 @@ Durel, John	male	8
 Marsh, Narcissus	female	8
 Topping, Henry	male	8
 Sparrow, John	male	8
+La Boissiere, Peter.	male	8
 Bryan, John	male	8
 Weever, John	male	8
 Hale, Charles	male	8
@@ -5879,6 +5890,7 @@ Tierney, George	male	7
 Wightman, Robert	male	7
 Brand, Thomas	male	7
 Wilson, Gabriel	male	7
+La Place, Pierre Antoine de	male	7
 Adair, John	male	7
 Kennedy, David	male	7
 Sénac de Meilhan, Gabriel	male	7
@@ -6646,6 +6658,7 @@ Helton, John	male	6
 Woodhouse, James	male	6
 Woodbridge, Benjamin	male	6
 Prescott, Benjamin	male	6
+La Marche, Jean François de	female	6
 Tansillo, Luigi	male	6
 Rees, Thomas.	male	6
 Nalton, James	male	6
@@ -6782,6 +6795,7 @@ Jeffries, David.	male	6
 Parker, Edward	male	6
 Jameson, Robert	male	6
 Fréret, Nicolas	male	6
+La Hire, Philippe de	male	6
 Hubert, Francis	male	6
 Lewis, David	male	6
 Forster, Georg	male	6
@@ -7753,6 +7767,7 @@ Bland, Richard	male	5
 Anthing, Frederic	male	5
 Jerment, George.	male	5
 Harris, Howell	male	5
+La Vallière, Louise de	female	5
 Bourdaloue, Louis	male	5
 Wilson, Gavin.	male	5
 Hampden, John	male	5
@@ -7894,7 +7909,9 @@ Lahontan, Louis Armand de Lom d'Arce	male	5
 Langley, Thomas	male	5
 Eldin, John Clerk	male	5
 Groome, John	male	5
+La Placette, Jean	female	5
 Guise, Samuel	male	5
+La Chapelle, Vincent.	male	5
 Fabricius, Johann Philipp.	male	5
 Green, Edward	male	5
 Disney, Daniel.	male	5
@@ -8562,6 +8579,7 @@ Helwys, Thomas	male	5
 Hume, Patrick	male	5
 Johnstoun, Arthur	male	5
 Kethe, William	male	5
+La Place, Pierre de	male	5
 Lookes, John.	male	5
 Montenay, Georgette de	female	5
 Pinelli, Luca	male	5
@@ -9834,6 +9852,7 @@ Breviter, Thomas.	male	4
 Barlow, Frederick.	male	4
 Aldborough, Edward Stratford	male	4
 Pierson, Thomas	male	4
+La Morlière, Jacques Rochette de	male	4
 O'Connor, Roger	male	4
 Hollis, John	male	4
 Fludger, John.	male	4
@@ -10234,6 +10253,7 @@ L'Obel, Matthias de	male	4
 Holland, Abraham	male	4
 Norden, John.	male	4
 Bendish, Thomas	male	4
+La Perrière, Guillaume de	male	4
 Stepney, William.	male	4
 Aepinus, Johann	male	4
 Agas, Ralph	male	4
@@ -10452,6 +10472,7 @@ Josephus, Flavius	male	4
 Keach, Elias.	male	4
 Lancton, Thomas.	male	4
 Langley, John	male	4
+La Roberdière, Alexandre de.	male	4
 Livesey, James	male	4
 Lothian, Robert Kerr	male	4
 Marlborough, James Ley	male	4
@@ -10853,6 +10874,7 @@ Hobart, Nehemiah	male	3
 Mayhew, Matthew	male	3
 Tompson, Edward	male	3
 Bacon, James.	male	3
+La Brosse, Jean Baptiste de	female	3
 Fleet, John	male	3
 Smith, Benjamin	male	3
 Byrnes, Daniel.	male	3
@@ -10863,6 +10885,7 @@ Amherst, Jeffery Amherst	male	3
 Palmer, John.	male	3
 Filangieri, Gaetano	male	3
 Marshall, Humphrey	male	3
+La Fayette, Marie Joseph Paul Roche Yves Gilbert Du Motier	female	3
 Annan, Robert	male	3
 Hunter, David	male	3
 Leonard, George	male	3
@@ -11084,6 +11107,7 @@ Rodgers, John	male	3
 Rush, Jacob	male	3
 Heuzet, Jean	female	3
 Miller, John Henry	male	3
+La Musse, Margaret de	female	3
 Honesty, Obadiah.	male	3
 Burr, Jonathan	male	3
 Little, Otis	male	3
@@ -11507,6 +11531,7 @@ Griffin, Thomas	male	3
 Villiers, Pierre	male	3
 Habesci, Elias.	male	3
 Bridges, Jeremiah.	male	3
+La Roque, Jean de	female	3
 Quintana, Francisco de	male	3
 Lipscomb, George	male	3
 Culley, George	male	3
@@ -11554,6 +11579,7 @@ Roberts, Richard	male	3
 Morris, Richard	male	3
 Beverley, John	male	3
 Broadgrin, Toby.	male	3
+La Sale, Antoine de	male	3
 King, George	male	3
 Sudley, Mary.	female	3
 Jackson, Sarah	female	3
@@ -12301,6 +12327,7 @@ Babo, Joseph Marius	male	3
 Frampton, Matthew	male	3
 Stanley, John Thomas	male	3
 Pepper, Joseph	male	3
+La Mothe, Claude Grostête	male	3
 Fontana, Felice	female	3
 Smyth, Arthur	male	3
 Estwick, Sampson	male	3
@@ -13068,6 +13095,7 @@ Luna, Juan de	male	3
 Leech, Humphrey	male	3
 Langham, William.	male	3
 Loyseleur, Pierre	male	3
+La Martelière, Pierre de	male	3
 Kinnaston, Francis	male	3
 Céspedes y Meneses, Gonzalo de	male	3
 Cardano, Girolamo	male	3
@@ -13135,6 +13163,7 @@ Templo, Jacob Judah Aryeh Leon	male	3
 Barnett, Andrew	male	3
 Barrow, Humphrey.	male	3
 Arundell, Thomas	male	3
+La Fin, Charles de.	male	3
 Goodridge, Richard.	male	3
 Blake, Martin	male	3
 Bradley, Christopher	male	3
@@ -14590,6 +14619,7 @@ Becher, Henry	male	2
 Freind, Rob.	male	2
 Greig, James	male	2
 St. Pierre, Paul de.	male	2
+La Trobe, Benjamin	male	2
 Jackson, Randle	male	2
 Annesley, Alexander	male	2
 Thomas, Samuel	male	2
@@ -15008,6 +15038,7 @@ Hunter, Maria.	female	2
 Grieve, Henry	male	2
 Clerk, James.	male	2
 Childe, Timothy.	male	2
+La Créquinière, de.	female	2
 Synge, Samuel	male	2
 Elstob, Elizabeth	female	2
 Tosetti, Urbano	male	2
@@ -15277,6 +15308,7 @@ Sibthorp, Humphrey	male	2
 Outrein, Johannes d'	male	2
 Ecclestone, Thomas	male	2
 Brown, Philip	male	2
+La Bléterie, Jean Philippe René de.	female	2
 Luxborough, Henrietta Knight	female	2
 Tonge, Edward	male	2
 Lewis, Maurice	male	2
@@ -15672,6 +15704,7 @@ Du Bosc, Pierre	male	2
 Skepp, John	male	2
 Philips, Henry	male	2
 Lyne, Samuel.	male	2
+La Touche Boesnier, Pierre de.	male	2
 Evershed, William	male	2
 Trist, Jeremiah.	male	2
 Starrat, William.	male	2
@@ -15749,6 +15782,7 @@ Massoul, Constant de.	male	2
 Earle, William.	male	2
 Simms, Henry	male	2
 Wächter, Leonhard	male	2
+La Roche, Sophie von	female	2
 Stamper, Thomas	male	2
 Robertson, Archibald	male	2
 Struensee, Johann Friedrich	male	2
@@ -16041,6 +16075,7 @@ Mirabeau, Victor de Riquetti	male	2
 Blackstone, John	male	2
 Ingenhousz, Jan	female	2
 Erskine, Robert	male	2
+La Croix, de	female	2
 Perkins, William Lee.	male	2
 Fleming, John	male	2
 Richelieu, Louis François Armand Du Plessis	male	2
@@ -16238,6 +16273,7 @@ Vint, William.	male	2
 Makdougall, Thomas.	male	2
 MacArthur, John	male	2
 Stowel, John	male	2
+La Roche-Guihen, Anne de.	female	2
 Macknight, James	male	2
 Reynell, Richard	male	2
 Lynche, John	male	2
@@ -16947,6 +16983,7 @@ Davidson, Joseph	male	2
 Beaver, John.	male	2
 Moorhouse, Thomas.	male	2
 Holst, Matthias.	male	2
+La Charrière, Joseph de	male	2
 Ewing, Thomas	male	2
 Grubb, Robert.	male	2
 Fairly, John	male	2
@@ -18133,6 +18170,7 @@ Coeffeteau, Nicolas	male	2
 Leech, Jeremy	male	2
 Layfield, Edmund.	male	2
 Langford, George.	male	2
+La Marche, Olivier de	male	2
 Knight, Francis.	male	2
 Clénard, Nicolas	male	2
 Kimedoncius, Jacobus	male	2
@@ -18557,6 +18595,7 @@ Waersegger, Abraham.	male	2
 D'Ouvilly, George Gerbier.	male	2
 Blunten, William.	male	2
 Pearse, Damaris	female	2
+La Peyrère, Isaac de	male	2
 Tell-Troth, Tom.	male	2
 Bartlet, Richard.	male	2
 Dulman, Ananias.	male	2
@@ -18751,6 +18790,7 @@ Jones, Jo.	female	2
 Thynne, Francis	male	2
 Hamand, Henry.	male	2
 Hoy, Thomas	male	2
+La Bruyère, Jean de	female	2
 Adams, Jack	male	2
 Priaulx, John	male	2
 Pye, John	male	2
@@ -19072,6 +19112,7 @@ Hubert, Robert	male	2
 Horsman, Nicholas	male	2
 Briggs, Thomas	male	2
 Gumble, Thomas	male	2
+La Fountaine, Edward.	male	2
 Cressener, Drue	male	2
 Greene, William	male	2
 Goedaert, Johannes	male	2
@@ -19098,6 +19139,7 @@ Jevon, Rachel.	female	2
 Adams, Richard	male	2
 Thompkins, Edward.	male	2
 Jegon, William	male	2
+La Martinière, Pierre Martin de	male	2
 Du Cros, Simon	male	2
 Henshaw, Nathaniel	male	2
 Brinley, John.	male	2
@@ -20233,6 +20275,7 @@ Wragg, Henrietta	female	1
 Gillon, Alexander	male	1
 Singleton, Thomas	male	1
 Laurens, Henry	male	1
+La Chapelle, James de.	male	1
 Overton, Samuel	male	1
 Wilcocks, Thomas	male	1
 Claghorn, George	male	1
@@ -22540,6 +22583,7 @@ West, Anne	female	1
 Grant, Isabella.	female	1
 Nimmo, William.	male	1
 Armfelt, Gustaf Mauritz	male	1
+La Prade, Louis de.	male	1
 Bettesworth, Arthur	male	1
 Smith, Sydney	female	1
 Kroll, Adam.	male	1
@@ -22631,6 +22675,8 @@ Hablitz, Karl Ivanovich	male	1
 Wright, Francis	male	1
 Sandys, Francis.	male	1
 O'Callaghan, David.	male	1
+La Fare, - de	female	1
+La Bruyere, Jean de.	female	1
 Guiton, Marc.	male	1
 Radcliffe, Mary Anne	female	1
 Bos, Lambert	male	1
@@ -23223,6 +23269,7 @@ Mitchell, Archibald.	male	1
 Willowes, Richard	male	1
 Peel, Joshua.	male	1
 Whitro, Abraham.	male	1
+La Coste, de.	female	1
 Purnell, Thomas	male	1
 Morton, Ralph	male	1
 Penneck, Richard	male	1
@@ -23268,6 +23315,7 @@ Hoin, Jean Jacques Louis	female	1
 Henny, Catherine de.	female	1
 Laval, Stephen Abel.	male	1
 Necker, Karl Friedrich.	male	1
+La Chapelle, Armand Boisbelaeu de	male	1
 Selby, Charles Bridge.	male	1
 Turner, Dawson	male	1
 Drury, William O'Brien.	male	1
@@ -23296,6 +23344,7 @@ Underhill, John.	male	1
 Geare, Allen.	male	1
 Sympson, Anthony.	male	1
 Ward, Benjamin.	male	1
+La Salle, Antoine de	male	1
 Sintelaer, John.	male	1
 Pentland, John.	male	1
 Legge, Thomas	male	1
@@ -23322,6 +23371,7 @@ Ellis, Rees	male	1
 Ongaro, Antonio	male	1
 Tooley, Thomas.	male	1
 Story, Christopher	male	1
+La Combe de Urigny, de.	female	1
 Wedderspoon, Patrick	male	1
 Cadogan, George.	male	1
 Krusinśki, Judas Thaddaeus.	male	1
@@ -23377,6 +23427,7 @@ Smyth, John Eusebius.	male	1
 Planta, Andrea Giuseppe	female	1
 Daubuz, Charles	male	1
 Dick, David	male	1
+La Fage, Victor Amédée de	male	1
 Sivret, Thomas	male	1
 Gascoigne, John	male	1
 Curson, John	male	1
@@ -23543,6 +23594,7 @@ Hedges, John	male	1
 Taylor, Benjamin	male	1
 Hindmarsh, Robert	male	1
 Durban, Jean Baptiste Bertrand.	female	1
+La Caille, Nicolas Louis de	male	1
 Turner, David	male	1
 Orem, William.	male	1
 Wetherald, Rowland	male	1
@@ -23618,6 +23670,7 @@ Duhigg, Bartholomew Thomas	male	1
 Guilhermin, Mary.	female	1
 Rule, John.	male	1
 Corancez, Olivier de	male	1
+La Fontaine, Pierre de.	male	1
 Poiret, Jean Louis Marie	female	1
 Wentworth, Dorothea.	female	1
 Lodge, Edward.	male	1
@@ -24596,6 +24649,7 @@ Madden, William Balfour.	male	1
 Mumford, Erasmus.	male	1
 Sweetman, John	male	1
 Cicero, Quintus Tullius.	male	1
+La Croix, Demetrius de.	male	1
 Quin, James	male	1
 M'Crie, Thomas	male	1
 Wigley, Benjamin.	male	1
@@ -25151,6 +25205,7 @@ Spicer, William.	male	1
 Brathwaite, Thomas	male	1
 Codrington, Samuel.	male	1
 Newyear, Richard.	male	1
+La Boëtie, Etienne de.	male	1
 Bankes, Robert	male	1
 Newington, John	male	1
 Lee, Matthew	male	1
@@ -25498,6 +25553,7 @@ Moffatt, William.	male	1
 Frankum, Francis.	male	1
 Norris, William	male	1
 Chancellor, Elizabeth	female	1
+La Marr, Pier.	female	1
 Pidler, John.	male	1
 Evans, Samuel	male	1
 Rolleston, James	male	1
@@ -27094,6 +27150,7 @@ Tubb, John.	male	1
 Conyers, William.	male	1
 Danvers, Alicia.	female	1
 Este, Thomas	male	1
+La Fausille, John	male	1
 Percival, John	male	1
 Berrie, William.	male	1
 Baine, John	male	1
@@ -29420,6 +29477,7 @@ Lunatus, Van Hugo Gasper.	male	1
 Clerke, Abraham.	male	1
 Cook, Thomas	male	1
 Hardwick, William.	male	1
+La Caille, Jean de.	female	1
 Mountain, James.	male	1
 Costansó, Miguel.	male	1
 Suckling, George.	male	1
@@ -30526,6 +30584,7 @@ Abercrombie, John.	male	1
 Ronsard, Pierre de	male	1
 Hughes, Richard.	male	1
 Baynes, Paul, d. 1617.	male	1
+La Perrière, Guillaume de	male	1
 [Smith, Henry	male	1
 Whitford, Richard.	male	1
 Udall, William.	male	1
@@ -31067,6 +31126,7 @@ Gabelkover, Oswald	male	1
 Opitz, Martin	male	1
 Donne, Daniel	male	1
 Leslie, William	male	1
+La Framboisière, Nicolas Abraham de	male	1
 Richelieu, Armand Jean de plessis, duc de	male	1
 Paschal, Carlo	male	1
 Ciotti, Giovanni Battista	male	1
@@ -31291,6 +31351,7 @@ Betti, Francesco	male	1
 Nebrija, Antonio de	male	1
 Bury, George.	male	1
 Brouncker, Edward.	male	1
+La Planche, Louis Régnier de	male	1
 Reeks, Richard.	male	1
 Pena, Pierre	male	1
 Rawlidge, Richard.	male	1
@@ -31516,6 +31577,7 @@ Linton, Anthony.	male	1
 Statham, Nicholas	male	1
 Lichfild, Henry.	male	1
 Kirbye, George	male	1
+La Noue, Odet de	female	1
 Kirke, John	male	1
 Naogeorg, Thomas	male	1
 Kemys, Lawrence	male	1
@@ -31764,6 +31826,7 @@ Bonnivet, Henri Marc de Gouffier	male	1
 King, Benjamin	male	1
 Jefferay, Richard	male	1
 Welstead, Robert	male	1
+La Faye, Antoine de	male	1
 Goodman, Christopher	male	1
 Macey, George.	male	1
 Lougher, Robert.	male	1
@@ -32475,6 +32538,8 @@ Keith, George, 1639?-1716.	male	1
 Lamplugh, Thomas, archbishop	male	1
 Lamsweerde, Jan Baptist van	female	1
 Lands, Heber	male	1
+[La Ramee, Pierre de]	male	1
+La Valliere, Lousie Francoise, duchesse de	female	1
 [Law, Thomas	male	1
 [Law, William	male	1
 Leeds, Peregrine Osborne, duke of	male	1
@@ -32492,6 +32557,7 @@ Lindsay, William Crawford, earl	male	1
 Lineall, John	male	1
 Ling, John	male	1
 [Lisola, Francois Paul, baron de]	male	1
+La Fite, Daniel	male	1
 Lightbody, James	male	1
 Lofting, John	male	1
 Lloyd, Richard, 1595-1659	male	1
@@ -33137,6 +33203,7 @@ Chandler, Jacob.	male	1
 Pengilly, Matthew.	male	1
 Helmes, Thomas.	male	1
 Leighton, John	male	1
+La Fin, Charles de	male	1
 Blare, Joseph.	male	1
 Krainski, John de Kraino.	male	1
 [Burnett, Henry	male	1
@@ -33297,6 +33364,7 @@ Complin, Nicholas.	male	1
 Cleadon, Thomas.	male	1
 Cloake, Hugh	male	1
 Roucourt, Jean	female	1
+La Framboisière, Nicholas Abraham de	male	1
 Person wholly disinterested in any of the late, or present factions.	male	1
 Scot, George	male	1
 Layer, John	male	1
@@ -34262,6 +34330,7 @@ Stockden, John.	male	1
 Carre, James.	male	1
 Care, George.	male	1
 Waite, Mary.	female	1
+La Rue, Charles de	male	1
 Monck, Thomas.	male	1
 Gascoigne, Thomas	male	1
 Southouse, Thomas	male	1
@@ -34286,6 +34355,7 @@ Revett, Eldred.	male	1
 Cross, Francis	male	1
 Pulleyn, Octavian.	male	1
 Killigrew, Anne	female	1
+La Roberdière, Alexandre de.	male	1
 Bushnell, Walter	male	1
 Tilbury, Samuel.	male	1
 Revet, Edward	male	1
@@ -34310,6 +34380,7 @@ Olivier, Pierre	male	1
 Hodgskins, John.	male	1
 Prescot, Giles.	male	1
 Nailour, William	male	1
+La Mothe, Claude Grostête	male	1
 Leblanc, Vincent	male	1
 Crowther, John	male	1
 Hansley, John	male	1
@@ -34325,6 +34396,7 @@ Perkins, Peter	male	1
 Shotterel, Robert.	male	1
 Gardener, Thomas	male	1
 Creamor, Thomas	male	1
+La Loubère, Simon de	male	1
 I'Anson, Brian.	male	1
 Tempest, George.	male	1
 Paget, Simon	male	1
@@ -34907,6 +34979,7 @@ Tonge, John	male	1
 Barbieri, Giovanni Francesco	male	1
 Otho, Johann Heinrich	male	1
 Goodwin, Arthur	male	1
+La Haye, Carolus de.	male	1
 Courtney, Thomas	male	1
 Dorney, John	male	1
 Hearne, Robert.	male	1
@@ -35257,6 +35330,7 @@ Macartney, Franciscus.	male	1
 Smith, Jacobus Pearson.	male	1
 O'Sullivan, Thomas.	male	1
 Inglis, Andreas.	male	1
+La Mettrie, Julien Offrey de	male	1
 Smibert, Williams.	male	1
 Reardon, Simon.	male	1
 Plomer, Jacobus.	male	1
@@ -36538,6 +36612,7 @@ Ben Haddi, Michael.	male	1
 Millard, John	male	1
 Gambier, James Gambier	male	1
 Rhodes, Thomas	male	1
+La Touche, Alexander de.	male	1
 Ryley, Luke.	male	1
 Evans, James	male	1
 Brissack, Benjamin.	male	1

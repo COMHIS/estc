@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	n= 61376  ( 50 % non-NA values)	Total count: 
+Total count: 	n= 61466  ( 50 % non-NA values)	Total count: 
 Cicero, Marcus Tullius.	Cicero, Marcus Tullius	405
 Horace.	Horace	321
 Virgil.	Virgil	285
@@ -510,6 +510,7 @@ Freize, James.	Freize, James	14
 F., M.	F., M	14
 Rich, Edward-Pickering.	Rich, Edward-pickering	13
 Greenway, R.	Greenway, R	13
+La Bruyère, Jean de.	La Bruyère, Jean De	13
 P. K.	P. K	13
 One of the people.	One Of The People	13
 Attorney.	Attorney	13
@@ -1047,6 +1048,7 @@ Gentleman at London.	Gentleman At London	8
 N. R.	N. R	8
 Mortier, David.	Mortier, David	8
 Gentleman residing at Paris.	Gentleman Residing At Paris	8
+La Boissiere, Peter.	La Boissiere, Peter	8
 Einer, N.	Einer, N	8
 Seton, John.	Seton, John	8
 Anwykyll, John.	Anwykyll, John	8
@@ -1581,6 +1583,7 @@ Hewetson, Edward.	Hewetson, Edward	5
 Fall, Charles.	Fall, Charles	5
 Aglionby, Sarah.	Aglionby, Sarah	5
 Vaus, John.	Vaus, John	5
+La Motte, Yves-Joseph.	La Motte, Yves-joseph	5
 Cooksey, Richard.	Cooksey, Richard	5
 Stratford, Ferdinando.	Stratford, Ferdinando	5
 Person in command in the fleet.	Person In Command In The Fleet	5
@@ -1695,6 +1698,7 @@ Old Member of Parliament.	Old Member Of Parliament	5
 Saʿdī.	Saʿdī	5
 Sellon, B. J.	Sellon, B. J	5
 Thurston, Joseph.	Thurston, Joseph	5
+La Chapelle, Vincent.	La Chapelle, Vincent	5
 Fabricius, Johann Philipp.	Fabricius, Johann Philipp	5
 Disney, Daniel.	Disney, Daniel	5
 Teachem, Toby.	Teachem, Toby	5
@@ -2036,6 +2040,7 @@ Cohen, L. B.	Cohen, L. B	5
 Debbieg, Hugh.	Debbieg, Hugh	5
 Senex, Mary.	Senex, Mary	4
 Walcot, William.	Walcot, William	4
+La Calmette, François de.	La Calmette, François De	4
 Fitz-Gerald, Maurice.	Fitz-gerald, Maurice	4
 Chicheley, Richard.	Chicheley, Richard	4
 Jebb, S.	Jebb, S	4
@@ -2206,6 +2211,7 @@ Mould, Bernard.	Mould, Bernard	4
 Gingle, Jacob.	Gingle, Jacob	4
 H. E.	H. E	4
 Boeswillibald, Johann Hieronymus.	Boeswillibald, Johann Hieronymus	4
+La Motte, Philémon de.	La Motte, Philémon De	4
 Du Halde, J.-B.	Du Halde, J.-b	4
 Gibert, É.	Gibert, É	4
 Musgrave, Agnes.	Musgrave, Agnes	4
@@ -2684,6 +2690,7 @@ Hedworth, John.	Hedworth, John	4
 Howell, James.	Howell, James	4
 Keach, Elias.	Keach, Elias	4
 Lancton, Thomas.	Lancton, Thomas	4
+La Roberdière, Alexandre de.	La Roberdière, Alexandre De	4
 Merry, Nathaniel.	Merry, Nathaniel	4
 H. N.	H. N	4
 P., J.	P., J	4
@@ -3974,6 +3981,7 @@ Coore, Richard.	Coore, Richard	3
 Coxe, Thomas.	Coxe, Thomas	3
 C., G.	C., G	3
 Barrow, Humphrey.	Barrow, Humphrey	3
+La Fin, Charles de.	La Fin, Charles De	3
 Goodridge, Richard.	Goodridge, Richard	3
 Browne, H.	Browne, H	3
 Browne, Thomas.	Browne, Thomas	3
@@ -4221,6 +4229,7 @@ Decius.	Decius	2
 Wingrove, John.	Wingrove, John	2
 Kempenfelt, Richard.	Kempenfelt, Richard	2
 Slow, Jonathan.	Slow, Jonathan	2
+La Tour, Filliberto Sallier de.	La Tour, Filliberto Sallier De	2
 Colbert, Stephen.	Colbert, Stephen	2
 Learned bishop in Ireland.	Learned Bishop In Ireland	2
 [Caswall, John	Caswall, John	2
@@ -4578,6 +4587,7 @@ Friend to Georgia.	Friend To Georgia	2
 Weeden, Job.	Weeden, Job	2
 Remington, E.	Remington, E	2
 Jay, Frederick.	Jay, Frederick	2
+La Neuville, M. J.	La Neuville, M. J	2
 Observer.	Observer	2
 Correy, Molleston.	Correy, Molleston	2
 Sessions, Darius.	Sessions, Darius	2
@@ -5038,6 +5048,7 @@ Round-head.	Round-head	2
 Hunter, Maria.	Hunter, Maria	2
 Clerk, James.	Clerk, James	2
 Childe, Timothy.	Childe, Timothy	2
+La Créquinière, de.	La Créquinière, De	2
 Dathe, A.	Dathe, A	2
 Legrand, M.	Legrand, M	2
 Ensign of the provincial army.	Ensign Of The Provincial Army	2
@@ -5067,6 +5078,7 @@ Riou, Stephen.	Riou, Stephen	2
 Franks, Isaac.	Franks, Isaac	2
 Solvyns, Balt.	Solvyns, Balt	2
 Wildair, Harry.	Wildair, Harry	2
+La Chesnaye.	La Chesnaye	2
 Honest Irishman.	Honest Irishman	2
 Weinidog o Eglwys Loegr.	Weinidog O Eglwys Loegr	2
 Cobbold, John Spencer.	Cobbold, John Spencer	2
@@ -5210,6 +5222,7 @@ Philomusus.	Philomusus	2
 Williams, P.	Williams, P	2
 Clarke, A.	Clarke, A	2
 Finglass, Esther.	Finglass, Esther	2
+La Bléterie, Jean Philippe René de.	La Bléterie, Jean Philippe René De	2
 Fiotius, Henricus.	Fiotius, Henricus	2
 Wildair, J.	Wildair, J	2
 Late Nobleman.	Late Nobleman	2
@@ -5243,6 +5256,7 @@ Daniel, Thomas.	Daniel, Thomas	2
 Calonges, P. V. de.	Calonges, P. V. De	2
 Sequeira, I.	Sequeira, I	2
 Sophronia.	Sophronia	2
+La Bintinaie, Agathon Marie René de.	La Bintinaie, Agathon Marie René De	2
 Maples, John.	Maples, John	2
 Bickerton, G.	Bickerton, G	2
 Tatersal, Robert.	Tatersal, Robert	2
@@ -5500,6 +5514,7 @@ Dekar, H.	Dekar, H	2
 Scotch Presbyterian.	Scotch Presbyterian	2
 Lyne, Samuel.	Lyne, Samuel	2
 Valabregue, Israël-Bernard de.	Valabregue, Israël-bernard De	2
+La Touche Boesnier, Pierre de.	La Touche Boesnier, Pierre De	2
 Trist, Jeremiah.	Trist, Jeremiah	2
 Starrat, William.	Starrat, William	2
 Oulton, John.	Oulton, John	2
@@ -5879,6 +5894,7 @@ Dandridge, Isaac.	Dandridge, Isaac	2
 Elstob, Mark.	Elstob, Mark	2
 Pollok, John.	Pollok, John	2
 Belfradge, Henry.	Belfradge, Henry	2
+La Motte, François de.	La Motte, François De	2
 Misopseudes.	Misopseudes	2
 Considerable stock-holder.	Considerable Stock-holder	2
 Tradesman of the city.	Tradesman Of The City	2
@@ -5888,6 +5904,7 @@ Bess O'Bedlam.	Bess O'bedlam	2
 Vint, William.	Vint, William	2
 Makdougall, Thomas.	Makdougall, Thomas	2
 Young nobleman.	Young Nobleman	2
+La Roche-Guihen, Anne de.	La Roche-guihen, Anne De	2
 Philocles.	Philocles	2
 Chattock, John.	Chattock, John	2
 Des Moulins, Jacob.	Des Moulins, Jacob	2
@@ -7680,6 +7697,7 @@ Johnson, G.	Johnson, G	2
 Jackson, Tho.	Jackson, Tho	2
 Howell, Humphrey.	Howell, Humphrey	2
 Hewit, Thomas.	Hewit, Thomas	2
+La Fountaine, Edward.	La Fountaine, Edward	2
 C. A.	C. A	2
 Dammee, Agamemnon Shaglock van.	Dammee, Agamemnon Shaglock Van	2
 Philaletheseirenes.	Philaletheseirenes	2
@@ -8101,6 +8119,7 @@ Hallungius, J.	Hallungius, J	1
 [Grammer Goodwill	Grammer Goodwill	1
 [Taylor, W.	Taylor, W	1
 [Griffiths, Morris	Griffiths, Morris	1
+[La Fare, Etienne-Joseph de, 1691-1741]	La Fare, Etienne-joseph De - ]	1
 [Nobody	Nobody	1
 [Smith, Hen.	Smith, Hen	1
 Gozna, William.	Gozna, William	1
@@ -8245,6 +8264,7 @@ Blackie, Mary.	Blackie, Mary	1
 [Blair, Alexander	Blair, Alexander	1
 [M'Curry, Alexander].	M'curry, Alexander]	1
 [Blane, John	Blane, John	1
+[La Vallée, Joseph]	La Vallée, Joseph]	1
 Kull, Owen.	Kull, Owen	1
 [Stone, H.	Stone, H	1
 [Woodfall, William	Woodfall, William	1
@@ -8788,6 +8808,7 @@ Ferri de Saint-Constant, J. L. ((Jean-L.)	Ferri De Saint-constant, J. L. Jean-l.
 [Irvine, William]	Irvine, William]	1
 [Black, David]	Black, David]	1
 [Miller, Patrick]	Miller, Patrick]	1
+[La Croix, Joh. Friedrich Guillus]	La Croix, Joh. Friedrich Guillus]	1
 [Chardon, M.]	Chardon, M.]	1
 Crusoe, Amson.	Crusoe, Amson	1
 [W., W.	W., W	1
@@ -9264,6 +9285,7 @@ King's County freeholder.	King's County Freeholder	1
 Cleator, James.	Cleator, James	1
 Mölich, Jan.	Mölich, Jan	1
 Black Whig.	Black Whig	1
+La Chapelle, James de.	La Chapelle, James De	1
 Sincere friend to both countries.	Sincere Friend To Both Countries	1
 Dawson, William.	Dawson, William	1
 Lusk, Thomas.	Lusk, Thomas	1
@@ -10831,6 +10853,7 @@ Grant, Isabella.	Grant, Isabella	1
 Nimmo, William.	Nimmo, William	1
 Authoress of Emeline.	Authoress Of Emeline	1
 Libanius.	Libanius	1
+La Prade, Louis de.	La Prade, Louis De	1
 Obscure Edinburgher.	Obscure Edinburgher	1
 Kroll, Adam.	Kroll, Adam	1
 Louse.	Louse	1
@@ -10908,6 +10931,8 @@ Pascal de Lagouthe.	Pascal De Lagouthe	1
 Officer on board the Russian fleet.	Officer On Board The Russian Fleet	1
 Sandys, Francis.	Sandys, Francis	1
 O'Callaghan, David.	O'callaghan, David	1
+La Fare, - de	La Fare,  De	1
+La Bruyere, Jean de.	La Bruyere, Jean De	1
 Guiton, Marc.	Guiton, Marc	1
 Swiney, J. M.	Swiney, J. M	1
 Pike, Sarah Leigh.	Pike, Sarah Leigh	1
@@ -11426,6 +11451,7 @@ Piercy, John.	Piercy, John	1
 Mitchell, Archibald.	Mitchell, Archibald	1
 Peel, Joshua.	Peel, Joshua	1
 Whitro, Abraham.	Whitro, Abraham	1
+La Coste, de.	La Coste, De	1
 Huet, J. M.	Huet, J. M	1
 Searle, Susanna.	Searle, Susanna	1
 Morley, Elizabeth.	Morley, Elizabeth	1
@@ -11521,6 +11547,7 @@ Jolley, John.	Jolley, John	1
 Jones, Lindesius.	Jones, Lindesius	1
 Tooley, Thomas.	Tooley, Thomas	1
 Pillo-Tisanus.	Pillo-tisanus	1
+La Combe de Urigny, de.	La Combe De Urigny, De	1
 Cadogan, George.	Cadogan, George	1
 Lirou, Jean-François Espic de Lirou	Lirou, Jean-françois Espic De	1
 Krusinśki, Judas Thaddaeus.	Krusinśki, Judas Thaddaeus	1
@@ -11751,6 +11778,7 @@ Hodgkinson, Joseph.	Hodgkinson, Joseph	1
 Hingeston, Robertus.	Hingeston, Robertus	1
 Guilhermin, Mary.	Guilhermin, Mary	1
 Rule, John.	Rule, John	1
+La Fontaine, Pierre de.	La Fontaine, Pierre De	1
 Wentworth, Dorothea.	Wentworth, Dorothea	1
 Member of the Guild of Merchants.	Member Of The Guild Of Merchants	1
 Lodge, Edward.	Lodge, Edward	1
@@ -12074,6 +12102,7 @@ Citoyen anversois.	Citoyen Anversois	1
 Friend to the country.	Friend To The Country	1
 Friend of Moses, and Servant of Jesus Christ.	Friend Of Moses, And Servant Of Jesus Christ	1
 Young gentleman in Edinburgh.	Young Gentleman In Edinburgh	1
+La Grange, Ursule de.	La Grange, Ursule De	1
 Trivett, Zenas.	Trivett, Zenas	1
 Satyanātha.	Satyanātha	1
 Impartial lover of truth.	Impartial Lover Of Truth	1
@@ -12714,6 +12743,7 @@ Edwards, M. C.	Edwards, M. C	1
 Brittanus.	Brittanus	1
 Author of the history of the mitre and purse.	Author Of The History Of The Mitre And Purse	1
 Cicero, Quintus Tullius.	Cicero, Quintus Tullius	1
+La Croix, Demetrius de.	La Croix, Demetrius De	1
 T-- S--y.	T-- S--y	1
 One of the subscribing ministers.	One Of The Subscribing Ministers	1
 Wigley, Benjamin.	Wigley, Benjamin	1
@@ -13283,6 +13313,7 @@ Spicer, William.	Spicer, William	1
 Eugenio.	Eugenio	1
 Codrington, Samuel.	Codrington, Samuel	1
 Newyear, Richard.	Newyear, Richard	1
+La Boëtie, Etienne de.	La Boëtie, Etienne De	1
 Pitt, Caleb.	Pitt, Caleb	1
 Nicolson, Joseph.	Nicolson, Joseph	1
 Plumard de Dangeul, Louis Joseph.	Plumard De Dangeul, Louis Joseph	1
@@ -13581,6 +13612,7 @@ Elachistoteros.	Elachistoteros	1
 Brother burgess.	Brother Burgess	1
 Frankum, Francis.	Frankum, Francis	1
 Bond, D.	Bond, D	1
+La Marr, Pier.	La Marr, Pier	1
 Pidler, John.	Pidler, John	1
 Cook.	Cook	1
 Officier franc̜ais.	Officier Franc̜ais	1
@@ -17101,6 +17133,7 @@ Lunatus, Van Hugo Gasper.	Lunatus, Van Hugo Gasper	1
 Clerke, Abraham.	Clerke, Abraham	1
 Hardwick, William.	Hardwick, William	1
 Author of the History of the succession to Juliers and Berg.	Author Of The History Of The Succession To Juliers And Berg	1
+La Caille, Jean de.	La Caille, Jean De	1
 Mountain, James.	Mountain, James	1
 Delauney.	Delauney	1
 Costansó, Miguel.	Costansó, Miguel	1
@@ -19386,6 +19419,7 @@ Beveridge, William, bishop	Beveridge, William Bishop	1
 Philo-Doggrel.	Philo-doggrel	1
 Bew, Thomas.	Bew, Thomas	1
 [Beynon, Michael]	Beynon, Michael]	1
+La Grancour, Albert-Eugene de Lancelle de.	La Grancour, Albert-eugene De Lancelle De	1
 Blumerel, Jean.	Blumerel, Jean	1
 Bond, John, of St. John's, Cambridge	Bond, John Of St. John's Cambridge	1
 Biddlecomb, James.	Biddlecomb, James	1
@@ -19702,6 +19736,7 @@ Ker, Gilbert.	Ker, Gilbert	1
 L., L.	L., L	1
 L., T.	L., T	1
 T. V. L.	T. V. L	1
+La Calprenède, Gaultier de Coste, seigneur de	La Calprenède, Gaultier De Coste Seigneur De	1
 King, Daniel, of Chester	King, Daniel Of Chester	1
 [King, Edward	King, Edward	1
 Keach, Benjamin, 1640-1704.	Keach, Benjamin -	1
@@ -19709,6 +19744,8 @@ Keith, George, 1639?-1716.	Keith, George ?-	1
 [Molliere	Molliere	1
 Lamplugh, Thomas, archbishop	Lamplugh, Thomas Archbishop	1
 [Lane, Edward]	Lane, Edward]	1
+[La Ramee, Pierre de]	La Ramee, Pierre De]	1
+La Valliere, Lousie Francoise, duchesse de	La Valliere, Lousie Francoise Duchesse De	1
 [Law, Kentigern]	Law, Kentigern]	1
 [Law, Thomas	Law, Thomas	1
 [Law, William	Law, William	1
@@ -20569,6 +20606,7 @@ Rationalis, Theophilus.	Rationalis, Theophilus	1
 Laxton, Thomas.	Laxton, Thomas	1
 Lawrie, Robert.	Lawrie, Robert	1
 Lawrence, Leonard.	Lawrence, Leonard	1
+La Motte, François de.	La Motte, François De	1
 Jemmat, Samuel.	Jemmat, Samuel	1
 Ives, John.	Ives, John	1
 Glaser, Christophe.	Glaser, Christophe	1
@@ -21451,6 +21489,7 @@ Revett, Eldred.	Revett, Eldred	1
 Member of the same church.	Member Of The Same Church	1
 Kemp, W.	Kemp, W	1
 Pulleyn, Octavian.	Pulleyn, Octavian	1
+La Roberdière, Alexandre de.	La Roberdière, Alexandre De	1
 Tilbury, Samuel.	Tilbury, Samuel	1
 Bernard, James.	Bernard, James	1
 Philonomus.	Philonomus	1
@@ -21765,6 +21804,7 @@ Reverend minister of the city of London.	Reverend Minister Of The City Of London
 Reader.	Reader	1
 Royle, Thomas.	Royle, Thomas	1
 Gentleman of the town of Elvas.	Gentleman Of The Town Of Elvas	1
+La Calprene&#768;de, Gaultier de Coste	La Calprene&# ;de, Gaultier De Coste	1
 Turner, Ambrose.	Turner, Ambrose	1
 Lortie, André, &#450;d -1706.	Lortie, André &# ;d -	1
 Gratius Faliscus.	Gratius Faliscus	1
@@ -21998,6 +22038,7 @@ James, Haestrect.	James, Haestrect	1
 Tuthill, Francis.	Tuthill, Francis	1
 Walters, Rowland.	Walters, Rowland	1
 Husbandman's advocate.	Husbandman's Advocate	1
+La Haye, Carolus de.	La Haye, Carolus De	1
 Hearne, Robert.	Hearne, Robert	1
 Person who bore a great share in those transactions.	Person Who Bore A Great Share In Those Transactions	1
 Impartial hand and a hearty well-wisher to the Church of England.	Impartial Hand And A Hearty Well-wisher To The Church Of England	1
@@ -23862,6 +23903,7 @@ Gentleman Who Lived Many Years in That Country.	Gentleman Who Lived Many Years I
 Ben Haddi, Michael.	Ben Haddi, Michael	1
 Gambier, James Gambier	Gambier, James	1
 Oldisworth, Clerk.	Oldisworth, Clerk	1
+La Touche, Alexander de.	La Touche, Alexander De	1
 Lady D------------.	Lady D------------	1
 Ryley, Luke.	Ryley, Luke	1
 Conciliator.	Conciliator	1
