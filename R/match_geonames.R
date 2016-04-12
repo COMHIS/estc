@@ -26,14 +26,14 @@ match_geonames <- function (places, geonames) {
     asciiname <- as.character(unique(geonames[geonames$name == place, "asciiname"]))
   }
   if (length(asciiname) == 0 || is.na(asciiname)) {  
-    asciiname <- as.character(harmonize_names(place, geon, remove.unknown = TRUE, check.synonymes = FALSE)$name)
+    asciiname <- as.character(harmonize_names(place, geon, remove.unknown = TRUE)$name)
   }
   if (length(asciiname) == 0 || is.na(asciiname)) {    
     # Drop the last part of the name to geonames if match was not found
     # "New York N.Y" -> "New York" etc.
     spl <- strsplit(place, " ")
     place2 <- paste(spl[-length(spl)], collapse = " ")
-    asciiname <- harmonize_names(place2, geon, remove.unknown = TRUE, check.synonymes = FALSE)$name
+    asciiname <- harmonize_names(place2, geon, remove.unknown = TRUE)$name
   }
 
   # Now all place name variants are matched with geonames.
