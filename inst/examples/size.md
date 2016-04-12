@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-11"
+date: "2016-04-13"
 output: markdown_document
 ---
 
@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 17326 documents and updated (changed) for 8322 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 17329 documents and updated (changed) for 8323 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -69,13 +69,13 @@ Multi-volume documents average page counts are given per volume.
 
 |doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|2fo           |               516.14|                    528|          59|              407.45|                500.50|       1358|            17.93|                 14|   25193|
-|4to           |               425.49|                    492|          47|               72.81|                 20.00|        893|            21.42|                 20|   59678|
-|8vo           |               438.77|                    460|         469|              284.30|                290.00|       7331|            28.38|                 28|   68237|
+|2fo           |               516.07|                    528|          59|              406.54|                500.00|       1359|            17.93|                 14|   25202|
+|4to           |               425.15|                    492|          47|               72.67|                 20.00|        895|            21.42|                 20|   59685|
+|8vo           |               438.65|                    460|         469|              284.24|                290.00|       7336|            28.37|                 28|   68255|
 |12long        |               408.00|                    408|           1|               44.40|                 24.00|          6|            24.23|                 24|     133|
-|12mo          |               291.85|                    288|         338|              156.98|                155.33|       6913|            25.66|                 24|   16863|
-|16mo          |               192.40|                    100|           5|              284.45|                292.00|         49|            25.96|                 28|     476|
-|18mo          |               302.67|                    328|          21|              196.89|                201.00|        261|            32.47|                 36|     221|
+|12mo          |               290.77|                    288|         338|              156.94|                155.17|       6903|            25.67|                 24|   16865|
+|16mo          |               192.40|                    100|           5|              284.45|                292.00|         49|            25.97|                 28|     475|
+|18mo          |               302.67|                    328|          21|              196.89|                201.00|        261|            32.45|                 36|     220|
 |24mo          |                74.67|                     48|           3|              270.75|                270.75|         59|            31.11|                 24|     666|
 |32mo          |                64.00|                     64|           1|                 NaN|                    NA|          1|            31.39|                 32|     199|
 |64mo          |               128.00|                    128|           1|              147.17|                147.00|          7|            30.00|                 32|      30|
@@ -99,16 +99,16 @@ Here we use the original data only:
 
 
 
-Only cases with 2000 documents are listed here:
+Only the most frequently occurring gatherings are listed here:
 
 
-|gatherings.original | mean.height| median.height| mean.width| median.width|   n|
-|:-------------------|-----------:|-------------:|----------:|------------:|---:|
-|1to                 |    41.57143|      41.57143|   29.05882|     29.05882|  28|
-|2fo                 |    36.97161|      36.97161|   21.95902|     21.95902| 775|
-|4to                 |    21.72989|      21.72989|   18.81250|     18.81250| 522|
-|8vo                 |    19.17964|      19.17964|   16.33333|     16.33333| 668|
-|12mo                |    15.54717|      15.54717|   12.00000|     12.00000| 107|
-|16mo                |    11.04348|      11.04348|   11.00000|     11.00000|  23|
-|18mo                |    11.40000|      11.40000|   10.00000|     10.00000|   5|
+|gatherings.original | mean.width| median.width| mean.height| median.height|   n|
+|:-------------------|----------:|------------:|-----------:|-------------:|---:|
+|1to                 |      29.06|        29.06|       41.57|         41.57|  28|
+|2fo                 |      21.96|        21.96|       36.97|         36.97| 775|
+|4to                 |      18.81|        18.81|       21.73|         21.73| 522|
+|8vo                 |      16.33|        16.33|       19.18|         19.18| 668|
+|12mo                |      12.00|        12.00|       15.55|         15.55| 107|
+|16mo                |      11.00|        11.00|       11.04|         11.04|  23|
+|18mo                |      10.00|        10.00|       11.40|         11.40|   5|
 

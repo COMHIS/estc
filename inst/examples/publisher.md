@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-11"
+date: "2016-04-13"
 output: markdown_document
 ---
 
@@ -34,7 +34,7 @@ Title count versus paper consumption (top publishers):
 |publisher                             | titles|    paper|
 |:-------------------------------------|------:|--------:|
 |charles eyre andrew strahan           |    932|     -Inf|
-|charles eyre william strahan          |   1585| 6.963230|
+|charles eyre william strahan          |   1585| 6.963162|
 |company stationers                    |    952| 1.666601|
 |george eyre andrew strahan            |    943| 2.482916|
 |thomas baskett assigns robert baskett |   1106| 4.102312|

@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-11"
+date: "2016-04-13"
 output: markdown_document
 ---
 
@@ -25,7 +25,7 @@ output: markdown_document
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 478676 documents (99%). There are 1097 unique publication places. Overall 86% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 478695 documents (99%). There are 1092 unique publication places. Overall 86% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -34,9 +34,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name      |      n|   fraction|
 |:---------|------:|----------:|
-|England   | 351409| 73.0268804|
+|England   | 351425| 73.0302054|
 |Scotland  |  40237|  8.3617169|
-|USA       |  31886|  6.6262819|
+|USA       |  31934|  6.6362569|
 |Ireland   |  27545|  5.7241716|
 |Ambiguous |  16112|  3.3482611|
 |France    |   3726|  0.7743062|

@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-11"
+date: "2016-04-13"
 output: markdown_document
 ---
 
@@ -47,20 +47,20 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |subject_topic         |        44.9|          55.1|        265148|      55731|
 |author_name           |        40.4|          59.6|        286971|      49085|
 |publisher             |        24.4|          75.6|        363755|     162122|
-|latitude              |        14.0|          86.0|        413669|         18|
-|longitude             |        14.0|          86.0|        413669|         18|
-|pagecount.orig        |         3.6|          96.4|        463657|       1502|
+|latitude              |        14.0|          86.0|        413685|         18|
+|longitude             |        14.0|          86.0|        413685|         18|
+|pagecount.orig        |         3.6|          96.4|        463650|       1488|
 |obl                   |         3.5|          96.5|        464209|          3|
-|paper.consumption.km2 |         2.3|          97.7|        470015|       6816|
+|paper.consumption.km2 |         2.3|          97.7|        470011|       6793|
 |width                 |         2.3|          97.7|        470237|         78|
 |height                |         2.3|          97.7|        470237|         95|
 |area                  |         2.3|          97.7|        470237|        629|
-|country               |         0.6|          99.4|        478349|         56|
-|publication_place     |         0.5|          99.5|        478676|       1097|
+|country               |         0.6|          99.4|        478413|         56|
+|publication_place     |         0.5|          99.5|        478695|       1092|
 |publication_year_from |         0.2|          99.8|        480080|        348|
 |volcount              |         0.2|          99.8|        480259|        150|
 |document.items        |         0.2|          99.8|        480259|        150|
-|pagecount             |         0.0|         100.0|        480983|       1608|
+|pagecount             |         0.0|         100.0|        480979|       1592|
 |title                 |         0.0|         100.0|        481203|     360647|
 |control_number        |         0.0|         100.0|        481205|     481205|
 |language.finnish      |         0.0|         100.0|        481205|          1|
