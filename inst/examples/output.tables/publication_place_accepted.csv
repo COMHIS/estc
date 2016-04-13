@@ -349,7 +349,7 @@ Erlangen	Germany	     5
 Eshott	England	     1
 Essex	England	     2
 Eton	England	   303
-Europe	NA	     2
+Europe	Ambiguous	     2
 Evesham	England	    32
 Ewood Hall	England	    15
 Exeter	England	   838
@@ -678,8 +678,7 @@ Newark NJ	USA	   105
 New Bedford Ma	USA	    41
 New Bern NC	USA	   144
 New Britain Pa	USA	     1
-New Bruncwick NJ	USA	     1
-New Brunswick NJ	USA	    71
+New Brunswick NJ	USA	    72
 Newburgh NY	USA	    14
 Newbury	England	     9
 Newbury Ma	USA	     7
