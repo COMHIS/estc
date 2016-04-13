@@ -121,7 +121,7 @@ Bonn	Germany	     3
 Bontfaen	England	     6
 Bordeaux	France	    12
 Boston (Ambiguous)	Ambiguous	  9481
-Boston England	NA	     9
+Boston England	England	     9
 Boston Ma	USA	  1053
 Bosworth	England	     1
 Bottisham	England	     1
@@ -187,7 +187,7 @@ Canterbury (Ambiguous)	Ambiguous	   503
 Canterbury England	England	     7
 Canterbury NH	USA	     1
 Cape Town	South Africa	     4
-Cap-Haitien	NA	     4
+Cap-Haitien	Haiti	     4
 Carlisle	England	   114
 Carlisle Pa	USA	    41
 Carlow	Ireland	     8
@@ -331,7 +331,6 @@ Easton Pa	USA	     4
 Edenhall	England	     1
 Edenton NC	USA	    43
 Edinburgh	Scotland	 32071
-Edinburgh n	NA	     1
 Egham	England	    18
 Elbingen	Germany	     1
 Elgin	Scotland	     1
@@ -434,7 +433,7 @@ Greensburg Pa	USA	     1
 Grenada	Grenada	     4
 Guernesey	Guernesey	    14
 Guildford	England	    48
-Haarlem	Netherlands	    14
+Haarlem	Netherlands	    15
 Haddington	Scotland	    16
 Hagerstown Md	USA	    23
 Hagley	England	     1
@@ -457,11 +456,9 @@ Harborough	England	     2
 Harderwijk	Netherlands	     3
 Harford Md	USA	     1
 Harlech	England	     3
-Harlem	NA	     1
 Harlow	England	     2
-Harrisburgh Pa	USA	    21
+Harrisburgh Pa	USA	    25
 Harrisburgh Pe	NA	     3
-Harrisburg Pa	USA	     4
 Harrogate	England	     4
 Hartford Ct	USA	   962
 Hastings	England	     1
@@ -478,8 +475,7 @@ Helsingør	Denmark	     2
 Helston	England	     7
 Hemel Hempstead	England	     9
 Henfield	England	     1
-Henley	NA	     1
-Henley-on-Thames	England	    28
+Henley-on-Thames	England	    29
 Hereford	England	   106
 Herford	Germany	     2
 Hertford	England	    50
@@ -573,7 +569,7 @@ Leeuwarden	Netherlands	     1
 Leicester	England	   176
 Leiden	Netherlands	   110
 Leipzig	Germany	   122
-Leith	NA	     1
+Leith	NA	     2
 Lemgo	Germany	     1
 Leominster	England	    19
 Leominster Ma	USA	    62
@@ -581,10 +577,8 @@ Leuven	Belgium	    18
 Lewes	England	   128
 Lexington KY	USA	    81
 Libanon Pa	USA	     1
-Lichfield	NA	     1
 Liege	Belgium	     1
-Liége	NA	     1
-Liège	Belgium	    51
+Liège	Belgium	    52
 Lille	France	     3
 Limerick	Ireland	   118
 Lincoln	England	   147
@@ -592,12 +586,13 @@ Lincolnton NC	USA	     2
 Lisbon	Portugal	     9
 Lisburn	Northern Ireland	     1
 Litchfield Ct	USA	   250
+Litchfield England	England	     1
 Liverpool	England	   550
 Livorno	Italy	    63
 Llanymddyfri	England	     7
 Llwydlo	England	     5
 London	England	317613
-London Ct	NA	     6
+London Ct	USA	     6
 Londonderry	Northern Ireland	    28
 Long Buckby	England	     1
 Loreto	Italy	     3
@@ -642,7 +637,7 @@ Melton Mowbray	England	     2
 Mexico City	Mexico	     1
 Middelburg	Netherlands	   139
 Middleborough Ma	USA	     6
-Middleburg	NA	     1
+Middleburg Netherlands	Netherlands	     1
 Middletown Ct	USA	    58
 Middlewich	England	     6
 Milan	Italy	     6
@@ -675,12 +670,12 @@ Naples	Italy	     8
 Nashville TN	USA	     3
 Nassau	Bahamas	    24
 Natchez Ms	USA	    10
-N bedford mass	NA	     1
 Neuchatel	Switzerland	    16
 Neustadt an der Weinstraße	Germany	     1
-Newark	England	   123
+Newark (Ambigous)	NA	   120
+Newark England	England	     3
 Newark NJ	USA	   105
-New Bedford Ma	USA	    40
+New Bedford Ma	USA	    41
 New Bern NC	USA	   144
 New Britain Pa	USA	     1
 New Bruncwick NJ	USA	     1
@@ -813,8 +808,8 @@ Quebec	Canada	   510
 Raleigh NC	USA	    20
 Ramsey	England	     2
 Ramsgate	England	    11
-Reading (Ambiguous)	NA	   208
-Reading England	NA	     4
+Reading (Ambiguous)	Ambiguous	   208
+Reading England	England	     4
 Reading Pa	USA	    41
 Redruth	England	     1
 Regensburg	Germany	     3
@@ -959,7 +954,7 @@ Sydney	Australia	     3
 Szczecin	Poland	     2
 Tamworth	England	    13
 Taunton	England	    96
-Taunton Ma	NA	     5
+Taunton Ma	USA	     5
 Tavistock	England	     2
 Tetbury	England	     3
 Tewkesbury	England	   132
@@ -1029,8 +1024,9 @@ Watford	England	     3
 Wellingborough	England	     3
 Wells	England	     5
 Wesel	Germany	    45
-Westminster	NA	     1
-Westminster Vt	USA	    33
+Westminster (Ambiguous)	Ambiguous	    10
+Westminster England	England	     1
+Westminster Vt	USA	    23
 Westport Ct	USA	     1
 West Springfield Ma	USA	    20
 Wexford	England	    17
@@ -1053,7 +1049,7 @@ Winchester (England)	England	     3
 Winchester Va	USA	    17
 Windham Ct	USA	    45
 Windsor	England	    73
-Windsor Ct	NA	     5
+Windsor Ct	USA	     5
 Windsor Vt	USA	   156
 Winterslow	England	     1
 Winterthur	Switzerland	     3
@@ -1078,7 +1074,7 @@ Yarm	England	     1
 Yarmouth	England	   100
 Y Bont-faen	England	     2
 Yeovil	England	     4
-York	Ambiguous	  1755
+York (Ambiguous)	Ambiguous	  1755
 York Canada	NA	     4
 York England	England	    16
 York Pa	USA	    48

@@ -2,6 +2,7 @@ name	count
 Boston (Ambiguous)	9481
 New York NY	4673
 Cambridge (Ambiguous)	4272
+York (Ambiguous)	1755
 Birmingham	1282
 Manchester	1208
 Bath	1118
@@ -94,9 +95,9 @@ Whitehaven	131
 Lewes	128
 Rotterdam	126
 Southampton	123
-Newark	123
 Leipzig	122
 Amwythig	122
+Newark (Ambigous)	120
 Basel	120
 Colchester	119
 Limerick	118
@@ -173,7 +174,7 @@ Stockport	54
 Stockbridge Ma	53
 Augusta GA	53
 Stockton	52
-Liège	51
+Liège	52
 Kilmarnock	50
 Hertford	50
 Fishkill NY	50
@@ -201,10 +202,10 @@ Lyon	43
 Edenton NC	43
 Dunbar	43
 Reading Pa	41
+New Bedford Ma	41
 Macclesfield	41
 Carlisle Pa	41
 Trefriw	40
-New Bedford Ma	40
 Alexandria Va	40
 Walpole NH	39
 Montrose	39
@@ -222,7 +223,6 @@ Knaresborough	34
 Kelso	34
 Delft	34
 Whitby	33
-Westminster Vt	33
 Lansingburgh NY	33
 Utrecht	32
 Fredericktown Md	32
@@ -242,9 +242,9 @@ Gosport	30
 Charlottetown Pe	30
 Burslem	30
 Bruges	30
+Henley-on-Thames	29
 Dedham Ma	29
 Londonderry	28
-Henley-on-Thames	28
 Bridgetown	28
 Armagh	28
 Wigan	27
@@ -256,6 +256,7 @@ Catskill NY	26
 St Petersburg	25
 North Shields	25
 Monaghan	25
+Harrisburgh Pa	25
 Hallowell Me	25
 Halle	25
 Washington Pa	24
@@ -267,6 +268,7 @@ Deptford	24
 Danvers Ma	24
 Bombay	24
 Basseterre Saint Kitts	24
+Westminster Vt	23
 Stourbridge	23
 St Ives	23
 Rome	23
@@ -282,7 +284,6 @@ Marlborough	22
 Chelsea	22
 Aylesbury	22
 Newfield Ct	21
-Harrisburgh Pa	21
 Dorchester	21
 Altenburg	21
 Winton	20
@@ -332,6 +333,7 @@ Stabroek	15
 New Castle De	15
 Machynlleth	15
 Inverness	15
+Haarlem	15
 Ewood Hall	15
 Brighton	15
 Wilmington NC	14
@@ -345,7 +347,6 @@ Jersey (Ambiguous)	14
 Horncastle	14
 Hinckley	14
 High Wycombe	14
-Haarlem	14
 Guernesey	14
 Chennai	14
 Cheltenham	14
@@ -380,6 +381,7 @@ Chatham	11
 Bridgnorth	11
 Beverley	11
 Bern	11
+Westminster (Ambiguous)	10
 Valletta	10
 Stroud	10
 St Peter Port	10
@@ -558,7 +560,6 @@ Kentucky (Ambiguous)	4
 Jacksonburgh SC	4
 Havanna	4
 Harrogate	4
-Harrisburg Pa	4
 Grenada	4
 Germantown Pe	4
 Fersfield	4
@@ -619,6 +620,7 @@ Ormskirk	3
 Nothampton	3
 Northallerton	3
 Newton Abbot	3
+Newark England	3
 Nashville TN	3
 Nancy	3
 Münster	3
@@ -712,6 +714,7 @@ Melton Mowbray	2
 Mannheim	2
 Louisville GA	2
 Lincolnton NC	2
+Leith	2
 Koningsberg	2
 Kirkcaldy	2
 Johnstown NY	2
@@ -776,7 +779,7 @@ Winterslow	1
 Wigton	1
 Wiesenthal	1
 Westport Ct	1
-Westminster	1
+Westminster England	1
 Warsaw	1
 Warminster Pa	1
 Wantage	1
@@ -870,7 +873,6 @@ Newington Ct	1
 New Bruncwick NJ	1
 New Britain Pa	1
 Neustadt an der Weinstraße	1
-N bedford mass	1
 Naas	1
 Mulberry Hill Va	1
 Moscow	1
@@ -879,7 +881,7 @@ Mole-Saint-Nicolas	1
 Milton Ernest	1
 Milton Abbas	1
 Milton	1
-Middleburg	1
+Middleburg Netherlands	1
 Mexico City	1
 Matawan NJ	1
 Martinsburg Va	1
@@ -891,13 +893,11 @@ Malda	1
 Maastricht	1
 Lynchburg Va	1
 Long Buckby	1
+Litchfield England	1
 Lisburn	1
-Liége	1
 Liege	1
-Lichfield	1
 Libanon Pa	1
 Lemgo	1
-Leith	1
 Leeuwarden	1
 Lebanon Pa	1
 La Trinite	1
@@ -933,14 +933,12 @@ Huntingdon Pa	1
 Holt	1
 Hindolverston	1
 Hildburghausen	1
-Henley	1
 Henfield	1
 Helmstedt	1
 Helmstadt	1
 Heilbronn	1
 Hatfield	1
 Hastings	1
-Harlem	1
 Harford Md	1
 Hannover NH	1
 Halesworth	1
@@ -974,7 +972,6 @@ Ellesmere	1
 Elie	1
 Elgin	1
 Elbingen	1
-Edinburgh n	1
 Edenhall	1
 East Grinstead	1
 Eartham	1

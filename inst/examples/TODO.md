@@ -319,3 +319,8 @@ hajosi. Pitäisi kirjoittaa uudet funktiot vuosilukujen ja topiccien
 poimimiseksi tästä kentästä. See also function inst/extras/misc.R ->
 polish.650y and inst/extras/misc.Rmd -> subject.begin / subject.end
 
+In principle we could retrieve further author names when the initials
+are given ("V. P") by comparing the title and place to known authors
+with same initials..
+
+
