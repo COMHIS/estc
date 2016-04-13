@@ -591,7 +591,7 @@ Liverpool	England	   550
 Livorno	Italy	    63
 Llanymddyfri	England	     7
 Llwydlo	England	     5
-London	England	317613
+London	England	317611
 London Ct	USA	     6
 Londonderry	Northern Ireland	    28
 Long Buckby	England	     1
@@ -672,7 +672,7 @@ Nassau	Bahamas	    24
 Natchez Ms	USA	    10
 Neuchatel	Switzerland	    16
 Neustadt an der Weinstraße	Germany	     1
-Newark (Ambigous)	NA	   120
+Newark (Ambiguous)	Ambiguous	   120
 Newark England	England	     3
 Newark NJ	USA	   105
 New Bedford Ma	USA	    41
@@ -1086,4 +1086,4 @@ Zittau	Germany	     1
 Zürich	Germany	    22
 Zutphen	Netherlands	     2
 Zweibrücken	Germany	     1
-NA	NA	  2510
+NA	NA	  2512

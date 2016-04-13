@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	225806	
+Total count: 	225804	
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -164,7 +164,7 @@ Bury St. Edmund's	Bury St Edmunds	88
 [Portsmouth, N.H.	Portsmouth NH	86
 [Baltimore	Baltimore Md	85
 Burlington [N.J.]	Burlington NJ	85
-Newark	Newark (Ambigous)	84
+Newark	Newark (Ambiguous)	84
 [Printed at London	London	83
 Cantabrigiae	Cambridge (Ambiguous)	83
 [Birmingham]	Birmingham	83
@@ -639,7 +639,7 @@ Petersburg [Va.]	Petersburg Va	15
 [Manchester?]	Manchester	15
 [Stabroek?	Stabroek	15
 [Sheffield?	Sheffield	15
-[Newark	Newark (Ambigous)	15
+[Newark	Newark (Ambiguous)	15
 [Carlisle?	Carlisle	15
 [Liverpool?]	Liverpool	15
 Altenburgh	Altenburg	15
@@ -941,7 +941,7 @@ Nottingham [England]	Nottingham	9
 A Londres [London, England]	London	9
 Londres [i.e. Paris?	Paris	9
 [London ]	London	9
-[Newark?	Newark (Ambigous)	9
+[Newark?	Newark (Ambiguous)	9
 [Bury St. Edmunds]	Bury St Edmunds	9
 [Pontefract?	Pontefract	9
 London [Edinburgh]	London	9
@@ -1039,7 +1039,7 @@ Croydon	London	8
 [Spanish Town	Spanish Town	8
 Dublin printed	Dublin	8
 [Bombay]	Bombay	8
-[Newark]	Newark (Ambigous)	8
+[Newark]	Newark (Ambiguous)	8
 [Kingston, Jamaica?	Kingston Jamaica	8
 [Paisley?	Paisley	8
 [Kingston	Kingston	8
@@ -2668,7 +2668,6 @@ Basle	Basel	2
 [St. Germain en Laye]	Saint-Germain-en-Laye	2
 [Amsterdam [i.e. London?]	London	2
 [Haverfordwest?	Hwlffordd	2
-L----n	London	2
 Blandford	Blandford (Ambiguous)	2
 Carnarvon	Caernarfon	2
 Taraṅkaṉpāṭi	Tharangampadi	2
@@ -3731,7 +3730,7 @@ N. London [i.e. New London]	New London Ct	1
 Halifax, Nova-Scotia	Halifax NS	1
 N London	London	1
 [Charleston	Charleston SC	1
-Upper Canada: [i.e. Newark?]	Newark (Ambigous)	1
+Upper Canada: [i.e. Newark?]	Newark (Ambiguous)	1
 Printed at Suffield	Suffield Ct	1
 Petersburg	St Petersburg	1
 [Germantaun	Germantown Pa	1
@@ -4273,7 +4272,7 @@ Novi-Portu	New Haven Ct	1
 [Chelmsford, Mass.]	Chelmsford Ma	1
 Ai Argrapha yn Philadelphia	Philadelphia Pa	1
 Germanton, [Pa.]	Germantown Pa	1
---Newark	Newark (Ambigous)	1
+--Newark	Newark (Ambiguous)	1
 Phialdelphia	Philadelphia Pa	1
 Keene, New-Hampshire	Keene NH	1
 Amherst (New-Hampshire.)	Amherst NH	1
@@ -4924,7 +4923,7 @@ A Londres [i.e. Lyons?]	Lyon	1
 Tot Utrecht	Utrecht	1
 London [i.e. Copenhagen?]	Copenhagen	1
 A Londres [i.e. Antwerp?]	Antwerp	1
-[Newark?]	Newark (Ambigous)	1
+[Newark?]	Newark (Ambiguous)	1
 [Air	Ayr	1
 à Leeds	Leeds	1
 [Londra]	London	1
@@ -5420,7 +5419,7 @@ Londre [i.e. Paris?]	Paris	1
 [Clonmell]	Clonmel	1
 Dubl[i]n	Dublin	1
 Hanna	Hanau	1
-Newark-upon-Trent	Newark (Ambigous)	1
+Newark-upon-Trent	Newark (Ambiguous)	1
 Dublin, re-printed	Dublin	1
 [Devizes	Devizes	1
 London [i.e. Barby?]	Barby	1

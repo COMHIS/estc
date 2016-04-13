@@ -17,7 +17,7 @@ output: markdown_document
 
 [Ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv)
 
-[Discarded publication places](output.tables/publication_place_discarded.csv) (add to [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) to accept)
+[Discarded publication places](output.tables/publication_place_discarded.csv) (add to [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) to accept; or add to [publication place stopwords](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_place.csv) to completely discard the term)
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
@@ -25,7 +25,7 @@ output: markdown_document
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 478695 documents (99%). There are 1087 unique publication places. Overall 85.6% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 478693 documents (99%). There are 1087 unique publication places. Overall 85.6% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -34,9 +34,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name      |      n|   fraction|
 |:---------|------:|----------:|
-|England   | 351321| 73.0085930|
+|England   | 351319| 73.0081774|
 |Scotland  |  40237|  8.3617169|
 |USA       |  31941|  6.6377116|
 |Ireland   |  27545|  5.7241716|
-|Ambiguous |  16332|  3.3939797|
+|Ambiguous |  16452|  3.4189171|
 |France    |   3726|  0.7743062|
