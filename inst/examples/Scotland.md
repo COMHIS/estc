@@ -44,7 +44,7 @@ Authors born before 500 AD: paper consumption per decade in Scotland and globall
 
 
 ```
-## Warning: Removed 27 rows containing missing values (position_stack).
+## Warning: Removed 24 rows containing missing values (position_stack).
 ```
 
 ```
@@ -65,6 +65,218 @@ List of authors born before 500AD:
 
 ```
 ## 
+##                                    10122, NA (1772-NA) 
+##                                                      1 
+##                                    11024, NA (1736-NA) 
+##                                                      1 
+##                                  11200, NA (1599-1679) 
+##                                                      1 
+##                                     1227, NA (1786-NA) 
+##                                                      1 
+##                                    12448, NA (1743-NA) 
+##                                                      2 
+##                                  13183, NA (1649-1733) 
+##                                                      1 
+##                                    13573, NA (1762-NA) 
+##                                                      1 
+##                                  13750, NA (1796-1808) 
+##                                                      2 
+##                                    14111, NA (1731-NA) 
+##                                                      2 
+##                                  14425, NA (1663-1736) 
+##                                                      3 
+##                                  15679, NA (1755-1794) 
+##                                                      1 
+##                                    15782, NA (1700-NA) 
+##                                                      1 
+##                                  15882, NA (1711-1797) 
+##                                                      3 
+##                                  16264, NA (1609-1670) 
+##                                                      1 
+##                                  16264, NA (1712-1786) 
+##                                                      2 
+##                                    16292, NA (1774-NA) 
+##                                                      1 
+##                                    16563, NA (1786-NA) 
+##                                                      1 
+##                                    16675, NA (1790-NA) 
+##                                                      1 
+##                                  16755, NA (1754-1808) 
+##                                                      2 
+##                                    17336, NA (1729-NA) 
+##                                                      4 
+##                                    17354, NA (1746-NA) 
+##                                                      1 
+##                                    17449, NA (1776-NA) 
+##                                                      1 
+##                                  20786, NA (1715-1771) 
+##                                                      2 
+##                                  20893, NA (1470-1492) 
+##                                                     40 
+##                                  20928, NA (1690-1716) 
+##                                                      4 
+##                                     21221, NA (430-NA) 
+##                                                      2 
+##                                    21363, NA (1696-NA) 
+##                                                      2 
+##                                  21449, NA (1706-1757) 
+##                                                      4 
+##                                  21874, NA (1746-1827) 
+##                                                      1 
+##                                    22403, NA (1765-NA) 
+##                                                      1 
+##                                  23190, NA (1229-1298) 
+##                                                      1 
+##                                  23226, NA (1394-1437) 
+##                                                     26 
+##                                  23226, NA (1473-1513) 
+##                                                      1 
+##                                  23226, NA (1512-1542) 
+##                                                      1 
+##                                  23226, NA (1566-1625) 
+##                                                     10 
+##                                  23226, NA (1633-1701) 
+##                                                      5 
+##                                  23226, NA (1688-1766) 
+##                                                     18 
+##                                  23497, NA (1737-1812) 
+##                                                      1 
+##                                  23629, NA (1730-1810) 
+##                                                      1 
+##                                    23682, NA (1720-NA) 
+##                                                      1 
+##                                    24939, NA (1701-NA) 
+##                                                      7 
+##                                   2502, NA (1743-1825) 
+##                                                      2 
+##                                   2545, NA (1779-1854) 
+##                                                      5 
+##                                  25581, NA (1611-1691) 
+##                                                      2 
+##                                  26147, NA (1711-1780) 
+##                                                      4 
+##                                  26154, NA (1730-1792) 
+##                                                      1 
+##                                       26899, NA (1-NA) 
+##                                                      6 
+##                                    26987, NA (1771-NA) 
+##                                                      2 
+##                                  27006, NA (1638-1715) 
+##                                                      2 
+##                                  27006, NA (1754-1793) 
+##                                                      3 
+##                                    27157, NA (1712-NA) 
+##                                                      1 
+##                                  27375, NA (1504-1588) 
+##                                                      2 
+##                                         275, NA (3-NA) 
+##                                                      1 
+##                                  28141, NA (1635-1719) 
+##                                                      1 
+##                                  28493, NA (1755-1793) 
+##                                                      1 
+##                                  28682, NA (1744-1820) 
+##                                                      2 
+##                                    29023, NA (1777-NA) 
+##                                                      1 
+##                                  29471, NA (1642-1693) 
+##                                                      1 
+##                                    29500, NA (1780-NA) 
+##                                                      1 
+##                                    29506, NA (1695-NA) 
+##                                                      1 
+##                                    30227, NA (1732-NA) 
+##                                                      1 
+##                                    30269, NA (1728-NA) 
+##                                                     14 
+##                                  30352, NA (1684-1738) 
+##                                                      4 
+##                                  30352, NA (1790-1738) 
+##                                                      1 
+##                                  30521, NA (1622-1673) 
+##                                                      7 
+##                                  30522, NA (1622-1673) 
+##                                                      4 
+##                                    33735, NA (1620-NA) 
+##                                                      1 
+##                                    34013, NA (1780-NA) 
+##                                                      1 
+##                                    34623, NA (1660-NA) 
+##                                                      1 
+##                                    34903, NA (1630-NA) 
+##                                                      1 
+##                                   3515, NA (1727-1775) 
+##                                                      1 
+##                                    35373, NA (1788-NA) 
+##                                                      9 
+##                                  36858, NA (1686-1743) 
+##                                                     15 
+##                                  36986, NA (1650-1666) 
+##                                                      1 
+##                                  37057, NA (1713-1796) 
+##                                                      8 
+##                                    37832, NA (1683-NA) 
+##                                                      1 
+##                                   3784, NA (1747-1791) 
+##                                                      2 
+##                                    38077, NA (1734-NA) 
+##                                                      2 
+##                                  38571, NA (1619-1682) 
+##                                                      2 
+##                                  38861, NA (1639-1692) 
+##                                                      2 
+##                                  40841, NA (1782-1786) 
+##                                                      3 
+##                                  41026, NA (1753-1759) 
+##                                                      1 
+##                                    41337, NA (1790-NA) 
+##                                                      1 
+##                                  41628, NA (1677-1766) 
+##                                                      2 
+##                                  43379, NA (1220-1297) 
+##                                                      7 
+##                                  43379, NA (1380-1471) 
+##                                                      3 
+##                                  43487, NA (1757-1851) 
+##                                                      1 
+##                                  43662, NA (1686-1740) 
+##                                                      4 
+##                                    43737, NA (1752-NA) 
+##                                                      1 
+##                                    45211, NA (1784-NA) 
+##                                                      1 
+##                                  45260, NA (1655-1735) 
+##                                                     11 
+##                                  45446, NA (1694-1778) 
+##                                                     55 
+##                                    45447, NA (1790-NA) 
+##                                                      1 
+##                                  47352, NA (1650-1702) 
+##                                                      8 
+##                                     5711, NA (1787-NA) 
+##                                                      2 
+##                                     7207, NA (1769-NA) 
+##                                                      1 
+##                                   8110, NA (1741-1808) 
+##                                                      1 
+##                                   8147, NA (1727-1801) 
+##                                                      2 
+##                                   8176, NA (1600-1649) 
+##                                                      3 
+##                                   8176, NA (1630-1685) 
+##                                                      7 
+##                                   8178, NA (1720-1788) 
+##                                                     23 
+##                                   8211, NA (1620-1702) 
+##                                                      1 
+##                                     8621, NA (1761-NA) 
+##                                                     12 
+##                                     8637, NA (1790-NA) 
+##                                                      1 
+##                                   8841, NA (1730-1790) 
+##                                                     16 
+##                                      997, NA (1596-NA) 
+##                                                      1 
 ##                           Abbadie, Jacques (1654-1727) 
 ##                                                      1 
 ##                             Abelard, Peter (1079-1142) 
@@ -106,7 +318,7 @@ List of authors born before 500AD:
 ##                                 Adam, John (1720-1792) 
 ##                                                      1 
 ##                                   Adam, John (1720-NA) 
-##                                                      3 
+##                                                      4 
 ##                               Adams, James (1677-1734) 
 ##                                                      5 
 ##                               Adams, James (1737-1802) 
@@ -124,7 +336,7 @@ List of authors born before 500AD:
 ##                              Adamson, John (1741-1808) 
 ##                                                      1 
 ##                                Adamson, John (1741-NA) 
-##                                                     11 
+##                                                     12 
 ##                           Adamson, Patrick (1537-1592) 
 ##                                                      5 
 ##                                Adams, Thomas (1800-NA) 
@@ -162,6 +374,8 @@ List of authors born before 500AD:
 ##                               Aitken, John (1700-1790) 
 ##                                                      8 
 ##                                 Aitken, John (1700-NA) 
+##                                                      2 
+##                             Aitken, Robert (1735-1802) 
 ##                                                      1 
 ##                                 Aitoun, John (1696-NA) 
 ##                                                      1 
@@ -288,13 +502,9 @@ List of authors born before 500AD:
 ##                             Angus, William (1752-1821) 
 ##                                                      2 
 ##            Annandale, George Van Den Bempdé (1720-1792) 
-##                                                      1 
-##           Annandale, George Van Den Bempdé] (1720-1792) 
-##                                                      1 
+##                                                      2 
 ##           Annandale, George Van Den Bempdé (1720-1792) 
-##                                                      7 
-##          Annandale, George Van Den Bempdé] (1720-1792) 
-##                                                      3 
+##                                                     10 
 ##  Annandale, George Van Den Bempdé-johnstone (1720-1792) 
 ##                                                      1 
 ##                            Annand, William (1633-1689) 
@@ -460,7 +670,7 @@ List of authors born before 500AD:
 ##                               Balguy, John (1686-1748) 
 ##                                                      1 
 ##                           Ballantine, John (1716-1776) 
-##                                                      2 
+##                                                      3 
 ##                             Ballantyne, Jean (1800-NA) 
 ##                                                      1 
 ##                                Bally, George (1720-NA) 
@@ -494,6 +704,8 @@ List of authors born before 500AD:
 ##                            Bannerman, Robert (1738-NA) 
 ##                                                      2 
 ##                             Barber, Robert (1774-1788) 
+##                                                      1 
+##                            Barclay, Andrew (1738-1823) 
 ##                                                      1 
 ##                             Barclay, Henry (1697-1780) 
 ##                                                      2 
@@ -579,6 +791,8 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                          Beaumont, Francis (1584-1616) 
 ##                                                      3 
+##                               Beaumont, John (1583-NA) 
+##                                                      1 
 ##   Beauvais, Jean Baptiste Charles Marie De (1731-1790) 
 ##                                                      1 
 ##                           Beccaria, Cesare (1738-1794) 
@@ -720,13 +934,13 @@ List of authors born before 500AD:
 ##                        Blackburne, William (1755-1835) 
 ##                                                      1 
 ##                               Black, David (1762-1806) 
-##                                                      2 
+##                                                      3 
 ##                               Blacke, George (1641-NA) 
 ##                                                      1 
 ##                               Black, James (1758-1814) 
 ##                                                      1 
 ##                                  Black, John (1750-NA) 
-##                                                      1 
+##                                                      2 
 ##                              Black, Joseph (1728-1799) 
 ##                                                      5 
 ##                          Blacklock, Thomas (1721-1791) 
@@ -907,7 +1121,7 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                             Boyle, Patrick (1690-1761) 
 ##                                                      2 
-##                            Boyle, Patrick] (1717-1798) 
+##                             Boyle, Patrick (1717-1798) 
 ##                                                      1 
 ##                              Boyle, Robert (1627-1691) 
 ##                                                      1 
@@ -940,7 +1154,7 @@ List of authors born before 500AD:
 ##                              Brekell, John (1697-1769) 
 ##                                                      1 
 ##                             Bremner, James (1780-1811) 
-##                                                      3 
+##                                                      5 
 ##                           Brenton, Jahleel (1770-1844) 
 ##                                                      1 
 ##                            Brereley, Roger (1586-1637) 
@@ -950,6 +1164,8 @@ List of authors born before 500AD:
 ##                           Breton, Nicholas (1545-1626) 
 ##                                                      3 
 ##                               Breval, John (1680-1738) 
+##                                                      1 
+##                                 Briggs, John (1765-NA) 
 ##                                                      1 
 ##                            Briggs, William (1642-1704) 
 ##                                                      1 
@@ -1074,7 +1290,7 @@ List of authors born before 500AD:
 ##                               Bruce, Charles (1748-NA) 
 ##                                                      2 
 ##                               Bruce, James (1730-1794) 
-##                                                      1 
+##                                                      2 
 ##                                Bruce, John (1735-1788) 
 ##                                                      1 
 ##                                Bruce, John (1745-1826) 
@@ -1136,7 +1352,7 @@ List of authors born before 500AD:
 ##                              Buchan, James (1770-1834) 
 ##                                                      1 
 ##                               Buchan, John (1692-1698) 
-##                                                      1 
+##                                                      2 
 ##                             Buchan, Thomas (1680-1761) 
 ##                                                      1 
 ##                             Buchan, Thomas (1746-1819) 
@@ -1181,6 +1397,8 @@ List of authors born before 500AD:
 ##                                                     10 
 ##                            Burgess, Daniel (1645-1713) 
 ##                                                      2 
+##                           Burgess, William (1755-1813) 
+##                                                      3 
 ##                               Burgh, James (1714-1775) 
 ##                                                      3 
 ##                    Burghley, William Cecil (1520-1598) 
@@ -1249,6 +1467,8 @@ List of authors born before 500AD:
 ##                                                      7 
 ##                                Butler, Peter (1667-NA) 
 ##                                                      1 
+##                               Butler, Robert (1629-NA) 
+##                                                      1 
 ##                             Butler, Samuel (1612-1680) 
 ##                                                     17 
 ##                               Butler, T. H (1755-1823) 
@@ -1295,7 +1515,7 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                               Caldwell, John (1798-NA) 
 ##                                                      3 
-##                           Callendar, John] (1739-1812) 
+##                            Callendar, John (1739-1812) 
 ##                                                      1 
 ##                   Callendar, Mary Livingston (1695-NA) 
 ##                                                      1 
@@ -1360,9 +1580,9 @@ List of authors born before 500AD:
 ##                           Campbell, Daniel (1672-1753) 
 ##                                                      1 
 ##                           Campbell, Donald (1751-1804) 
-##                                                      2 
-##                             Campbell, Dougal (1727-NA) 
 ##                                                      7 
+##                             Campbell, Dougal (1727-NA) 
+##                                                      8 
 ##                        Campbell, Frederick (1729-1816) 
 ##                                                      3 
 ##                           Campbell, George (1671-1704) 
@@ -1478,7 +1698,7 @@ List of authors born before 500AD:
 ##                          Carro, Joannes De (1770-1857) 
 ##                                                      1 
 ##                             Carruthers, John (1796-NA) 
-##                                                      4 
+##                                                      6 
 ##                              Carson, James (1772-1843) 
 ##                                                      1 
 ##                               Carson, John (1752-1794) 
@@ -1600,7 +1820,7 @@ List of authors born before 500AD:
 ##                     Clarendon, Edward Hyde (1609-1674) 
 ##                                                      3 
 ##                                Clark, Duncan (1767-NA) 
-##                                                      1 
+##                                                      2 
 ##                             Clarke, Cuthbert (1777-NA) 
 ##                                                      2 
 ##                              Clark, Edward (1739-1811) 
@@ -1670,7 +1890,7 @@ List of authors born before 500AD:
 ##                           Cochran, William (1757-1766) 
 ##                                                      1 
 ##                             Cochran, William (1757-NA) 
-##                                                      2 
+##                                                      3 
 ##                        Cockburn, Alexander (1675-1745) 
 ##                                                      1 
 ##                        Cockburn, Alexander (1720-1745) 
@@ -1714,7 +1934,7 @@ List of authors born before 500AD:
 ##                             Collier, James (1763-1794) 
 ##                                                      1 
 ##                            Collinges, John (1623-1690) 
-##                                                      4 
+##                                                      5 
 ##                        Collingwood, Thomas (1751-1822) 
 ##                                                      1 
 ##                           Collins, Anthony (1676-1729) 
@@ -1870,7 +2090,7 @@ List of authors born before 500AD:
 ##          Crawford, George Lindsay-crawford (1758-1808) 
 ##                                                      7 
 ##                              Crawford, James (1778-NA) 
-##                                                      1 
+##                                                      3 
 ##                             Crawford, John (1699-1739) 
 ##                                                      1 
 ##                     Crawford, John Lindsay (1702-1714) 
@@ -1992,7 +2212,7 @@ List of authors born before 500AD:
 ##                               Currie, John (1679-1765) 
 ##                                                     20 
 ##                                 Currie, John (1679-NA) 
-##                                                      1 
+##                                                      2 
 ##                              Currie, William (1742-NA) 
 ##                                                      1 
 ##                          Cuthbert, Alexander (1703-NA) 
@@ -2373,7 +2593,7 @@ List of authors born before 500AD:
 ##                                                      3 
 ##                              Duff, Patrick (1728-1784) 
 ##                                                      3 
-##                  Duffus, James Sutherland] (1747-1827) 
+##                   Duffus, James Sutherland (1747-1827) 
 ##                                                      2 
 ##                              Duff, William (1732-1815) 
 ##                                                      3 
@@ -2381,7 +2601,7 @@ List of authors born before 500AD:
 ##                                                      6 
 ##                Dufresnoy, Charles-alphonse (1611-1668) 
 ##                                                      1 
-##      Dumfries, Patrick Macdowall-crichton] (1726-1803) 
+##       Dumfries, Patrick Macdowall-crichton (1726-1803) 
 ##                                                      1 
 ##                           Du Moulin, Peter (1601-1684) 
 ##                                                      1 
@@ -2796,7 +3016,7 @@ List of authors born before 500AD:
 ##                           Fletcher, Andrew (1655-1716) 
 ##                                                     14 
 ##                        Fletcher, Archibald (1746-1828) 
-##                                                      2 
+##                                                      3 
 ##                          Fletcher, Phineas (1582-1650) 
 ##                                                      1 
 ##                           Fletcher, Robert (1738-1776) 
@@ -2872,7 +3092,7 @@ List of authors born before 500AD:
 ##                           Forrester, James (1787-1765) 
 ##                                                      9 
 ##                          Forrester, Thomas (1635-1706) 
-##                                                      5 
+##                                                      6 
 ##                               Forrest, James (1694-NA) 
 ##                                                      1 
 ##                   Forster, Johann Reinhold (1729-1798) 
@@ -2992,7 +3212,7 @@ List of authors born before 500AD:
 ##                            Fuller, William (1670-1733) 
 ##                                                      1 
 ##                             Fulton, Robert (1765-1815) 
-##                                                      1 
+##                                                      2 
 ##                               Fyfe, Andrew (1754-1824) 
 ##                                                      3 
 ##                Galloway, Alexander Stewart (1694-1773) 
@@ -3157,7 +3377,7 @@ List of authors born before 500AD:
 ##                                                      5 
 ##                              Gleig, George (1757-1835) 
 ##                                                      2 
-##               Glencairn, James Cunningham] (1749-1791) 
+##                Glencairn, James Cunningham (1749-1791) 
 ##                                                      1 
 ##              Glencairn, William Cunningham (1610-1664) 
 ##                                                      1 
@@ -3190,7 +3410,7 @@ List of authors born before 500AD:
 ##                               Gordon, Adam (1726-1801) 
 ##                                                      1 
 ##                                 Gordon, Adam (1726-NA) 
-##                                                      1 
+##                                                      2 
 ##                          Gordon, Alexander (1669-1752) 
 ##                                                      1 
 ##                          Gordon, Alexander (1710-1718) 
@@ -3331,7 +3551,7 @@ List of authors born before 500AD:
 ##                                                      4 
 ##                            Graham, William (1749-1825) 
 ##                                                      1 
-##                           Graham, William] (1756-1832) 
+##                            Graham, William (1756-1832) 
 ##                                                      1 
 ##                              Graham, William (1756-NA) 
 ##                                                      1 
@@ -3372,7 +3592,7 @@ List of authors born before 500AD:
 ##                                  Grant, John (1794-NA) 
 ##                                                      2 
 ##                            Grant, Ludovick (1707-1773) 
-##                                                     10 
+##                                                     11 
 ##                      Granton, Charles Hope (1763-1851) 
 ##                                                      1 
 ##                             Grant, William (1740-1765) 
@@ -3388,7 +3608,7 @@ List of authors born before 500AD:
 ##                                 Gray, Andrew (1633-NA) 
 ##                                                      3 
 ##                               Gray, George (1725-1800) 
-##                                                      1 
+##                                                      2 
 ##                                Gray, James (1729-1810) 
 ##                                                      9 
 ##                                 Gray, John (1716-1782) 
@@ -3578,7 +3798,7 @@ List of authors born before 500AD:
 ##                          Hamilton, Charles (1738-1800) 
 ##                                                      1 
 ##                            Hamilton, Charles (1738-NA) 
-##                                                      4 
+##                                                      5 
 ##                    Hamilton-dalrymple, Hew (1746-1800) 
 ##                                                      1 
 ##                          Hamilton, Douglas (1756-1799) 
@@ -3782,7 +4002,7 @@ List of authors born before 500AD:
 ##               Henderland, Alexander Murray (1736-1795) 
 ##                                                      2 
 ##                       Henderson, Alexander (1583-1646) 
-##                                                     14 
+##                                                     15 
 ##                          Henderson, Andrew (1734-1775) 
 ##                                                      5 
 ##                           Henderson, David (1754-1838) 
@@ -3904,7 +4124,7 @@ List of authors born before 500AD:
 ##                              Holman, James (1766-1812) 
 ##                                                      1 
 ##                            Home, Alexander (1715-1786) 
-##                                                     14 
+##                                                     19 
 ##                              Home, Francis (1719-1813) 
 ##                                                     13 
 ##                               Home, George (1641-1716) 
@@ -3961,7 +4181,7 @@ List of authors born before 500AD:
 ##                                                      3 
 ##                        Hopetoun, John Hope (1704-1781) 
 ##                                                     12 
-##                        Hope-weir, Charles] (1710-1791) 
+##                         Hope-weir, Charles (1710-1791) 
 ##                                                      1 
 ##                             Hopkins, Francis (1752-NA) 
 ##                                                      1 
@@ -3991,6 +4211,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                            Houston, Thomas (1777-1803) 
 ##                                                      2 
+##                          Houstoun, William (1703-1733) 
+##                                                      1 
 ##                              Howe, Charles (1661-1742) 
 ##                                                      6 
 ##                                 Howe, John (1630-1705) 
@@ -4027,11 +4249,7 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                            Hume, Alexander (1560-1609) 
 ##                                                      4 
-##                            Hume, Alexander (1560-1770) 
-##                                                      1 
-##                              Hume, Alexander (1560-NA) 
-##                                                      4 
-##                             Hume, Alexander] (1750-NA) 
+##                              Hume, Alexander (1750-NA) 
 ##                                                      1 
 ##                               Hume, Andrew (1676-1730) 
 ##                                                      1 
@@ -4066,7 +4284,7 @@ List of authors born before 500AD:
 ##                            Hunter, Elizabeth (1742-NA) 
 ##                                                      1 
 ##                                Hunter, James (1796-NA) 
-##                                                      8 
+##                                                     10 
 ##                              Hunter, Janet (1765-1778) 
 ##                                                      2 
 ##                             Hunter, Robert (1710-1777) 
@@ -4084,7 +4302,7 @@ List of authors born before 500AD:
 ##                         Hutcheson, Francis (1745-1773) 
 ##                                                      1 
 ##                          Hutcheson, George (1615-1674) 
-##                                                      3 
+##                                                      4 
 ##                        Hutchinson, Francis (1661-1739) 
 ##                                                      1 
 ##                            Hutchinson, James (1743-NA) 
@@ -4296,7 +4514,7 @@ List of authors born before 500AD:
 ##                             Johnston, Robert (1729-NA) 
 ##                                                      2 
 ##                             Johnston, Thomas (1755-NA) 
-##                                                      1 
+##                                                      3 
 ##                          Johnston, William (1635-1750) 
 ##                                                      1 
 ##                          Johnstoun, Arthur (1587-1641) 
@@ -4362,7 +4580,7 @@ List of authors born before 500AD:
 ##                           Kennedy, Quintin (1520-1564) 
 ##                                                      1 
 ##                            Kennedy, Robert (1794-1770) 
-##                                                      2 
+##                                                      3 
 ##                            Kennedy, Thomas (1657-1730) 
 ##                                                      1 
 ##                            Kennedy, Thomas (1756-1828) 
@@ -4446,7 +4664,7 @@ List of authors born before 500AD:
 ##                          Kirkpatrick, Thomas (1798-NA) 
 ##                                                      2 
 ##                       Kirkpatrick, William (1754-1812) 
-##                                                      1 
+##                                                      2 
 ##                             Kirkton, James (1628-1699) 
 ##                                                     14 
 ##                            Kirkwood, James (1650-1708) 
@@ -4466,7 +4684,7 @@ List of authors born before 500AD:
 ##                                 Knox, Hugh (1727-1790) 
 ##                                                      2 
 ##                                  Knox, James (1605-NA) 
-##                                                      3 
+##                                                      4 
 ##                                 Knox, John (1514-1572) 
 ##                                                     11 
 ##                                 Knox, John (1787-1791) 
@@ -4504,7 +4722,7 @@ List of authors born before 500AD:
 ##                        Langrishe, Hercules (1731-1811) 
 ##                                                      1 
 ##                                 Lang, Robert (1726-NA) 
-##                                                      9 
+##                                                     11 
 ##                            Languet, Hubert (1518-1581) 
 ##                                                      2 
 ##                Lansdowne, George Granville (1667-1735) 
@@ -4574,9 +4792,7 @@ List of authors born before 500AD:
 ##                                 Law, William (1697-NA) 
 ##                                                      1 
 ##                               Law, William (1715-1806) 
-##                                                      1 
-##                              Law, William] (1715-1806) 
-##                                                      1 
+##                                                      2 
 ##                         Layer, Christopher (1683-1723) 
 ##                                                      1 
 ##                               Learmont, Anna (1726-NA) 
@@ -4919,6 +5135,8 @@ List of authors born before 500AD:
 ##                                                     11 
 ##                           Mackenzie, Colin (1775-1740) 
 ##                                                      1 
+##                             Mackenzie, Colin (1775-NA) 
+##                                                      2 
 ##                            Mackenzie, Donald (1731-NA) 
 ##                                                      1 
 ##                          Mackenzie, George (1636-1691) 
@@ -4934,7 +5152,7 @@ List of authors born before 500AD:
 ##                           Mackenzie, James (1680-1761) 
 ##                                                      8 
 ##                             Mackenzie, James (1680-NA) 
-##                                                      3 
+##                                                      5 
 ##                            Mackenzie, John (1743-1836) 
 ##                                                      3 
 ##                            Mackenzie, John (1748-1788) 
@@ -4962,7 +5180,7 @@ List of authors born before 500AD:
 ##                         Mackintosh, Robert (1662-1743) 
 ##                                                      3 
 ##                        Mackintosh, William (1662-1743) 
-##                                                      5 
+##                                                      6 
 ##                           Macklin, Charles (1697-1797) 
 ##                                                      4 
 ##                           Mackmillan, John (1669-1753) 
@@ -5000,7 +5218,7 @@ List of authors born before 500AD:
 ##                              Macleod, John (1688-1841) 
 ##                                                      1 
 ##                                Macleod, John (1688-NA) 
-##                                                      3 
+##                                                      4 
 ##                            Macleod, Norman (1706-1772) 
 ##                                                      6 
 ##                            Macleod, Norman (1754-1801) 
@@ -5061,6 +5279,8 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                    Mansfield, David Murray (1727-1796) 
 ##                                                      3 
+##                              Manson, David (1726-1792) 
+##                                                      1 
 ##                          Marcet, Alexander (1770-1822) 
 ##                                                      1 
 ##         Marchmont, Alexander Hume-campbell (1675-1740) 
@@ -5189,10 +5409,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                            Maxwell, Robert (1695-1765) 
 ##                                                      7 
-##                            Maxwell, Robert (1695-1786) 
+##                              Maxwell, Robert (1735-NA) 
 ##                                                      1 
-##                             Maxwell, Robert] (1735-NA) 
-##                                                      5 
 ##                            Maxwell, Samuel (1780-1778) 
 ##                                                      1 
 ##                           Maxwell, William (1715-1750) 
@@ -5202,7 +5420,7 @@ List of authors born before 500AD:
 ##                           Maxwell, William (1715-1771) 
 ##                                                      3 
 ##                           Maxwell, William (1715-1776) 
-##                                                      6 
+##                                                      8 
 ##                           Maxwell, William (1715-1789) 
 ##                                                      5 
 ##                             Maxwell, William (1715-NA) 
@@ -5320,7 +5538,7 @@ List of authors born before 500AD:
 ##                            Menzies, Robert (1728-1769) 
 ##                                                      1 
 ##                            Menzies, Robert (1728-1786) 
-##                                                      7 
+##                                                      8 
 ##                              Menzies, Robert (1728-NA) 
 ##                                                      2 
 ##                            Mercer, Charles (1753-1772) 
@@ -5332,6 +5550,8 @@ List of authors born before 500AD:
 ##                            Mercer, William (1605-1675) 
 ##                                                      1 
 ##                            Mercer, William (1605-1676) 
+##                                                      1 
+##                            Mercer, William (1605-1790) 
 ##                                                      1 
 ##                              Mercer, William (1605-NA) 
 ##                                                      2 
@@ -5386,7 +5606,7 @@ List of authors born before 500AD:
 ##                               Miller, John (1761-1762) 
 ##                                                      3 
 ##                            Miller, Patrick (1731-1815) 
-##                                                      6 
+##                                                      7 
 ##                               Miller, Robert (1763-NA) 
 ##                                                      1 
 ##                             Miller, Thomas (1717-1789) 
@@ -5452,7 +5672,7 @@ List of authors born before 500AD:
 ##                                Moir, James (1762-1786) 
 ##                                                      5 
 ##                                   Moir, John (1764-NA) 
-##                                                      2 
+##                                                      5 
 ##                                Moir, William (1767-NA) 
 ##                                                      1 
 ##                         Molesworth, Robert (1656-1725) 
@@ -5571,6 +5791,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                          Morrison, Kenneth (1762-1780) 
 ##                                                      1 
+##                           Morrison, Thomas (1772-1835) 
+##                                                      1 
 ##                        Morris, Staats Long (1728-1800) 
 ##                                                      3 
 ##                           Morse, Elisabeth (1761-1762) 
@@ -5608,7 +5830,7 @@ List of authors born before 500AD:
 ##                                    Muir, Geo (1756-NA) 
 ##                                                      1 
 ##                               Muir, George (1723-1771) 
-##                                                     10 
+##                                                     11 
 ##                                   Muir, John (1790-NA) 
 ##                                                      1 
 ##                               Muir, Thomas (1765-1798) 
@@ -5624,7 +5846,7 @@ List of authors born before 500AD:
 ##                                Mun, Thomas (1571-1641) 
 ##                                                      1 
 ##                              Murdoch, John (1747-1824) 
-##                                                      4 
+##                                                      8 
 ##                              Mure, William (1594-1657) 
 ##                                                      5 
 ##                              Mure, William (1718-1776) 
@@ -5904,7 +6126,7 @@ List of authors born before 500AD:
 ##                             Parker, Samuel (1640-1688) 
 ##                                                      1 
 ##                             Park, Margaret (1748-1769) 
-##                                                      1 
+##                                                      2 
 ##                                Park, Mungo (1771-1806) 
 ##                                                      1 
 ##                               Park, Robert (1706-1694) 
@@ -5956,7 +6178,7 @@ List of authors born before 500AD:
 ##                             Paul, Hamilton (1773-1854) 
 ##                                                      3 
 ##                                  Paul, James (1700-NA) 
-##                                                      1 
+##                                                      2 
 ##                                 Paul, John (1695-1747) 
 ##                                                      1 
 ##                              Paul, William (1678-1716) 
@@ -5980,6 +6202,8 @@ List of authors born before 500AD:
 ##                                Pearson, Jean (1799-NA) 
 ##                                                      1 
 ##                           Pearson, Richard (1765-1836) 
+##                                                      1 
+##                               Peat, Thomas (1708-1780) 
 ##                                                      1 
 ##                              Peddie, James (1758-1845) 
 ##                                                      5 
@@ -6259,6 +6483,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                         Rattray, Sylvester (1650-1666) 
 ##                                                      1 
+##                            Rattray, Thomas (1684-1743) 
+##                                                      2 
 ##                            Rawlin, Richard (1687-1757) 
 ##                                                      3 
 ##                               Raybould, John (1767-NA) 
@@ -6290,7 +6516,7 @@ List of authors born before 500AD:
 ##                               Reid, Robert (1689-1766) 
 ##                                                      4 
 ##                                 Reid, Robert (1689-NA) 
-##                                                      1 
+##                                                      2 
 ##                               Reid, Thomas (1710-1796) 
 ##                                                      4 
 ##                              Relph, Josiah (1712-1743) 
@@ -6348,6 +6574,8 @@ List of authors born before 500AD:
 ##                            Ridpath, George (1717-1726) 
 ##                                                     15 
 ##                            Ridpath, George (1717-1772) 
+##                                                      1 
+##                              Ridpath, George (1717-NA) 
 ##                                                      1 
 ##                         Rijssen, Leonard Van (1636-NA) 
 ##                                                      2 
@@ -6445,7 +6673,7 @@ List of authors born before 500AD:
 ##                                                      5 
 ##                            Rochead, Kathrine (1695-NA) 
 ##                                                      1 
-##               Rockville, Alexander Gordon] (1739-1792) 
+##                Rockville, Alexander Gordon (1739-1792) 
 ##                                                      1 
 ##                             Roddam, Robert (1719-1808) 
 ##                                                      1 
@@ -6555,7 +6783,7 @@ List of authors born before 500AD:
 ##                                                     35 
 ##                                  Row, John (1598-1672) 
 ##                                                      3 
-##      Roxburghe, James Norcliffe-innes Ker] (1735-1823) 
+##       Roxburghe, James Norcliffe-innes Ker (1735-1823) 
 ##                                                      1 
 ##                        Roxburghe, John Ker (1740-1804) 
 ##                                                      8 
@@ -6563,8 +6791,6 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                      Roxburghe, Robert Ker (1709-1755) 
 ##                                                      3 
-##                                        R., P (1572-NA) 
-##                                                      1 
 ##                           Ruddiman, Thomas (1674-1757) 
 ##                                                     52 
 ##                           Ruddiman, Walter (1687-1770) 
@@ -6606,7 +6832,7 @@ List of authors born before 500AD:
 ##                              Russell, John (1753-1792) 
 ##                                                      1 
 ##                                Russell, Mary (1770-NA) 
-##                                                      1 
+##                                                      2 
 ##                           Russell, William (1639-1683) 
 ##                                                      3 
 ##                           Russell, William (1773-1839) 
@@ -6716,7 +6942,7 @@ List of authors born before 500AD:
 ##                                  Scot, James (1774-NA) 
 ##                                                      2 
 ##                                 Scot, John (1748-1749) 
-##                                                      6 
+##                                                      9 
 ##                             Scotland, John (1735-1792) 
 ##                                                      1 
 ##                                 Scot, Mary (1677-1716) 
@@ -6908,6 +7134,8 @@ List of authors born before 500AD:
 ##                              Simpson, John (1746-1812) 
 ##                                                      3 
 ##                               Simpson, Peter (1742-NA) 
+##                                                      1 
+##                            Simpson, Thomas (1710-1761) 
 ##                                                      1 
 ##                                 Sims, John (1749-1831) 
 ##                                                      1 
@@ -7161,6 +7389,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                     Starhemberg, Guidobald (1657-1737) 
 ##                                                      1 
+##                             Stark, William (1740-1770) 
+##                                                      1 
 ##                            Stayley, George (1727-1779) 
 ##                                                      7 
 ##                           St. Clair, James (1688-1789) 
@@ -7173,8 +7403,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                            Steele, Richard (1672-1729) 
 ##                                                     22 
-##                                Steel, Thomas (1773-NA) 
-##                                                      1 
+##                              Steel, Thomas (1773-1818) 
+##                                                      2 
 ##                             Steel, William (1706-1760) 
 ##                                                      4 
 ##                           Stennett, Samuel (1727-1795) 
@@ -7252,6 +7482,8 @@ List of authors born before 500AD:
 ##                         Stewart, Archibald (1697-1784) 
 ##                                                      1 
 ##                           Stewart, Archibald (1697-NA) 
+##                                                      2 
+##                           Stewart, Charles (1775-1837) 
 ##                                                      1 
 ##                           Stewart, Christian (1749-NA) 
 ##                                                      1 
@@ -7373,8 +7605,10 @@ List of authors born before 500AD:
 ##                                                      8 
 ##                              Stuart, James (1713-1752) 
 ##                                                      1 
+##                              Stuart, James (1713-1786) 
+##                                                      1 
 ##                                Stuart, James (1713-NA) 
-##                                                      4 
+##                                                      5 
 ##                               Stuart, John (1714-1796) 
 ##                                                      1 
 ##                               Stuart, John (1751-1827) 
@@ -7434,7 +7668,7 @@ List of authors born before 500AD:
 ##                           Symson, Matthias (1625-1664) 
 ##                                                      5 
 ##                            Symson, Patrick (1628-1715) 
-##                                                      1 
+##                                                      2 
 ##                              Synge, Edward (1659-1741) 
 ##                                                      1 
 ##                                Tailour, John (1750-NA) 
@@ -7451,12 +7685,16 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                          Tannahill, Robert (1774-1810) 
 ##                                                      1 
+##                                 Tapp, John (1596-1615) 
+##                                                      1 
 ##                       Tarras, Walter Scott (1644-1693) 
 ##                                                      1 
 ##                            Tasso, Torquato (1544-1595) 
 ##                                                      4 
 ##                                Tate, Nahum (1652-1715) 
 ##                                                      4 
+##                             Taylor, Edward (1741-1797) 
+##                                                      1 
 ##                               Taylor, George (1778-NA) 
 ##                                                      2 
 ##                                    Taylor, J (1742-NA) 
@@ -7611,7 +7849,7 @@ List of authors born before 500AD:
 ##                                                     10 
 ##                             Traill, Robert (1720-1775) 
 ##                                                      1 
-##                             Trail, Robert] (1720-1775) 
+##                              Trail, Robert (1720-1775) 
 ##                                                      1 
 ##                             Trail, William (1712-1756) 
 ##                                                      2 
@@ -7757,7 +7995,7 @@ List of authors born before 500AD:
 ##                                                      5 
 ##                        Walkingame, Francis (1723-1783) 
 ##                                                      1 
-##                    Wallace Dunlop, Thomas] (1750-1835) 
+##                     Wallace Dunlop, Thomas (1750-1835) 
 ##                                                      3 
 ##                            Wallace, George (1727-1805) 
 ##                                                      8 
@@ -7850,7 +8088,7 @@ List of authors born before 500AD:
 ##                                Watt, James (1736-1821) 
 ##                                                      3 
 ##                                  Watt, James (1736-NA) 
-##                                                      1 
+##                                                      2 
 ##                                 Watt, John (1754-1761) 
 ##                                                      2 
 ##                               Watts, Isaac (1674-1748) 
@@ -8172,7 +8410,7 @@ List of authors born before 500AD:
 ##                            Younge, William (1762-1838) 
 ##                                                      1 
 ##                                 Young, James (1730-NA) 
-##                                                      7 
+##                                                      8 
 ##                                  Young, Jean (1740-NA) 
 ##                                                      1 
 ##                                  Young, John (1762-NA) 
@@ -8189,7 +8427,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15659 documents from 4061 unique
+We have 15710 documents from 4180 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8302,7 +8540,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34458 documents from Scotland and 204949 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34459 documents from Scotland and 204949 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
@@ -8388,13 +8626,13 @@ We have 34458 documents from Scotland and 204949 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 5456 rows containing missing values (geom_point).
+## Warning: Removed 5931 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 934 rows containing missing values (geom_point).
+## Warning: Removed 946 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)

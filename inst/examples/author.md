@@ -7,14 +7,22 @@ output: markdown_document
 
 ## Authors
 
-[Accepted author names](output.tables/author_accepted.csv) All OK? Link to synonyme file here as well. This is the final accepted author name, corresponding to all name variants listed in the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv)
+[Accepted author names](output.tables/author_accepted.csv) These are the final accepted author names, merging all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv). If multiple names for the same author are still being observed, the should be added on the author synonyme table.
 
-[Discarded author names](output.tables/author_discarded.csv) Check that the discarded names do not contain valid names or valid pseudonymes.
+[Discarded author names](output.tables/author_discarded.csv) Discarded names should not contain valid authors or pseudonymes. The following stopword lists are considered when discarding names:
+  * [Stopwords for names](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_names.csv)
+  * [Stopwords for titles](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_titles.csv)
+  * [Stopwords for pseudonymes](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_pseudonymes.csv)    
 
-[Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) All OK ?
+[Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) 
 
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 47884 unique authors and 256993 documents with unambiguous author information (60%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 54427 unique authors and 281312 documents with unambiguous author information (58%).
+
+
+```
+## Error in dfs$names: $ operator is invalid for atomic vectors
+```
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
