@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	223694	
+Total count: 	225621	
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -17,6 +17,7 @@ Printed at London	London	2173
 [Dublin	Dublin	2040
 Londres	London	2011
 [Boston	Boston (Ambiguous)	1963
+Cambridge	Cambridge (Ambiguous)	1927
 New-York	New York NY	1859
 [Dublin]	Dublin	1782
 [New York	New York NY	1455
@@ -31,7 +32,7 @@ York	York (Ambiguous)	999
 London [England]	London	869
 [Oxford	Oxford	868
 [Dublin?	Dublin	828
-[Cambridge	Cambridge	753
+[Cambridge	Cambridge (Ambiguous)	753
 [New York]	New York NY	736
 Oxoniæ	Oxford	736
 Oxonii	Oxford	692
@@ -41,7 +42,7 @@ Cantabrigiæ	Cambridge (Ambiguous)	602
 [Newcastle upon Tyne?	Newcastle	530
 Newcastle upon Tyne	Newcastle	518
 New-London [Conn.]	New London Ct	513
-[Cambridge]	Cambridge	491
+[Cambridge]	Cambridge (Ambiguous)	491
 [Oxford]	Oxford	488
 [Imprynted at London	London	457
 New-Haven	New Haven Ma	435
@@ -89,7 +90,7 @@ Williamsburg [Va.]	Williamsburg Va	198
 [Providence	Providence RI	188
 Boston, New-England	Boston Ma	186
 [York?	York (Ambiguous)	184
-[Cambridge?	Cambridge	180
+[Cambridge?	Cambridge (Ambiguous)	180
 [Salisbury	Salisbury	175
 [Aberdeen	Aberdeen	174
 [Bath]	Bath	174
@@ -353,7 +354,7 @@ Windham [Conn.]	Windham Ct	33
 [Yarmouth	Yarmouth	33
 [Southwark	London	33
 [Leeds	Leeds	33
-[Cambridge?]	Cambridge	33
+[Cambridge?]	Cambridge (Ambiguous)	33
 Halifax [N.C.]	Halifax	32
 New Haven	New Haven Ma	32
 [Impressum Londini	London	32
@@ -841,8 +842,8 @@ Prynted at London	London	10
 Aberdoniae	Aberdeen	10
 [Edinburgi	Edinburgh	10
 Edinburgh [i.e. London?]	London	10
-Printed at Cambridge	Cambridge	10
-At Cambridge	Cambridge	10
+Printed at Cambridge	Cambridge (Ambiguous)	10
+At Cambridge	Cambridge (Ambiguous)	10
 Printed at the Hague	The Hague	10
 Dvblin	Dublin	10
 Edenburgh	Edinburgh	10
@@ -1282,7 +1283,7 @@ Te Amsterdam	Amsterdam	6
 [Hamburg	Hamburg	6
 [Cirencester?	Cirencester	6
 [Salisbury?]	Salisbury	6
-[[Cambridge]	Cambridge	6
+[[Cambridge]	Cambridge (Ambiguous)	6
 [Spalding?	Spalding	6
 [St. Petersburg	St Petersburg	6
 [Inverness?	Inverness	6
@@ -1775,7 +1776,7 @@ Londres [i.e. Berlin?]	Berlin	4
 [Peterborough]	Peterborough	4
 [Ireland?	Dublin	3
 Germantaun, [Pa.]	Germantown Pa	3
-Cantabrigiæ Nov-Anglorum [Cambridge, Mass.	Ambiguous	3
+Cantabrigiæ Nov-Anglorum [Cambridge, Mass.	Cambridge Ma	3
 Boston in New England.	Boston Ma	3
 [New London	New London Ct	3
 [Saint Augustine?	St Augustine Fl	3
@@ -3543,7 +3544,7 @@ t' Amsterdam	Amsterdam	1
 [A la Point-à-Pitre	Pointe-A-Pitre	1
 Pointe-A-Pitre, [Guadeloupe]	Pointe-A-Pitre	1
 Canterbury [New Hampshire]	Canterbury NH	1
-Cambridge in New-England, [Mass.]	England mass	1
+Cambridge in New-England, [Mass.]	Cambridge England	1
 Leghorn 1787	Livorno	1
 [Philadelphia, Pa.?]	Philadelphia Pa	1
 [Philadelphia, Penn.?	Philadelphia Pa	1
@@ -3663,13 +3664,13 @@ Boston in NevvEngland [sic].	Boston (Ambiguous)	1
 Cambridge, Mass.	Cambridge Ma	1
 Charles-Town [Charleston, South Carolina]	Charleston SC	1
 [Cambridge, [Mass.]	Cambridge Ma	1
-Cantabrigiæ Nov-Angliæ [Cambridge, Mass.	Ambiguous	1
+Cantabrigiæ Nov-Angliæ [Cambridge, Mass.	Cambridge Ma	1
 Druckti Philadelphia	Philadelphia Pa	1
 Bostonæ Nov-Anglorum	Boston Ma	1
-Cantabrigiæ, Nov. Ang. [Cambridge, Mass.	Ambiguous	1
-Cantabrigiæ Nov-Anglia [Cambridge, Mass.	Ambiguous	1
-Cantabrigiæ Nov-Angl [Cambridge, Mass.	Ambiguous	1
-Cantabrigiæ Nov: Ang: [Cambridge, Mass.	Ambiguous	1
+Cantabrigiæ, Nov. Ang. [Cambridge, Mass.	Cambridge Ma	1
+Cantabrigiæ Nov-Anglia [Cambridge, Mass.	Cambridge Ma	1
+Cantabrigiæ Nov-Angl [Cambridge, Mass.	Cambridge Ma	1
+Cantabrigiæ Nov: Ang: [Cambridge, Mass.	Cambridge Ma	1
 Cambridg [i.e., Cambridge, Mass.].	Cambridge Ma	1
 [Boston or Cambridge, Mass.?	Boston Ma	1
 Gedruckt tot Nieuw-Yorke	York (Ambiguous)	1
@@ -5029,7 +5030,7 @@ Crowbridge [i.e. Trowbridge]	Trowbridge	1
 Londres [i.e. Lille?]	Lille	1
 A Belfast	Belfast	1
 Glasgnae	Glasgow	1
-Cambrigde [i.e. Cambridge]	Cambridge	1
+Cambrigde [i.e. Cambridge]	Cambridge (Ambiguous)	1
 A Londres [Paris	London	1
 [Saint-Omer?]	St Omer	1
 Dun-Eideann	Edinburgh	1
@@ -5570,7 +5571,7 @@ Roseau, Dominique	Roseau Dominica	1
 [Newmarket]	Newmarket	1
 Caerfryddin	Caerfyrddin	1
 [Edimbourgh [i.e. Paris?]	Paris	1
-A Cambridge	Cambridge	1
+A Cambridge	Cambridge (Ambiguous)	1
 Printed in Paris	Paris	1
 Sheptcn-Mallet	Shepton Mallet	1
 À Cork	Cork	1
@@ -5674,7 +5675,7 @@ Londres [i.e. La Haye]	The Hague	1
 [Richmond, Surrey?	Richmond	1
 [Reading?]	Reading (Ambiguous)	1
 [Grantham]	Grantham	1
-London [i.e. Cambridge?]	Cambridge	1
+London [i.e. Cambridge?]	Cambridge (Ambiguous)	1
 [Dundee?]	Dundee	1
 Londres [i.e. Rhemes]	Reims	1
 Madras [i.e. Paris?]	Paris	1
@@ -5947,7 +5948,7 @@ Aberdoniê	Aberdeen	1
 Oxony	Oxford	1
 [Lond]oniis	London	1
 Impresse londoniis	London	1
-[Cambridge [sic]	Cambridge	1
+[Cambridge [sic]	Cambridge (Ambiguous)	1
 [Aberdene]	Aberdeen	1
 Imprinted at Lon[don	London	1
 Imprin[t]ed at London	London	1
@@ -6361,7 +6362,7 @@ At Roüen [and Saint-Omer]	Rouen	1
 Printed at Mounts in Henault [i.e. Rheims	Reims	1
 [Londoni [sic]	London	1
 [Imprinted at Loudon [sic	London	1
-Printed by Iohn Legate, printer to the Vniuersitie of Cambridge. And are to be sold [by A. Kitson] at the signe of the Sunne in Paules Churchyard in London	London	1
+Printed by Iohn Legate, printer to the Vniuersitie of Cambridge. And are to be sold [by A. Kitson] at the signe of the Sunne in Paules Churchyard in London	Cambridge England	1
 [Pomadie i.e. London?	London	1
 Printed at Antwerpe [i.e. England	London	1
 Rhotomagi [i.e. London]	London	1
@@ -7111,7 +7112,7 @@ Na de copye, Gedruckt tot Edinburgh	Edinburgh	1
 [Nouiter ac diligenter impressus & non minimo labore revis[us] London̄	London	1
 [Lothbery	London	1
 [Impressus Lo[n]dini	London	1
-Imprinted at Cambridge	Cambridge	1
+Imprinted at Cambridge	Cambridge (Ambiguous)	1
 Imprinted at Newcastle [i.e. London]	London	1
 1604. In London	London	1
 [Imprented in Southwarke	London	1
@@ -7142,7 +7143,7 @@ Excusum in Londini	London	1
 [Emden?	Emden	1
 Excusam Londini	London	1
 Anno. 1571. Imprinted at London	London	1
-Lugduni Batavorum [i.e. Cambridge]	Cambridge	1
+Lugduni Batavorum [i.e. Cambridge]	Cambridge (Ambiguous)	1
 [Rouen and Saint-Omer	Rouen	1
 Anno 1579. At London	London	1
 Franckfort [i.e. the Netherlands?]	Amsterdam	1
@@ -7424,7 +7425,7 @@ Re-printed at London	London	1
 [St. Omers?]	St Omer	1
 In Leiden	Leiden	1
 Printed in Delff	Delft	1
-Hague [i.e. Cambridge]	Cambridge	1
+Hague [i.e. Cambridge]	Cambridge (Ambiguous)	1
 [Amstelodami	Amsterdam	1
 Oxoniæ impressi	Oxford	1
 [Eclinburgh	Edinburgh	1
@@ -7435,7 +7436,7 @@ Lovain printed	Louvain	1
 Agraphwyd yn y Mwythig	Shrewsbury	1
 Gateside [i.e. Gateshead, Durham]	Gateshead	1
 London : Printed for Iohn Richman	London	1
-Cantabrigiæ [Cambridgeshire]	Cambridge	1
+Cantabrigiæ [Cambridgeshire]	Cambridge (Ambiguous)	1
 Dedruct in Amsterdam	Amsterdam	1
 [Waterford, Ireland]	Waterford	1
 Gateside [i.e. Gateshead, Co. Durham, England]	Durham	1
@@ -7632,7 +7633,7 @@ Imprinted at Attalia [i.e. London	London	1
 Londo n [i.e. London]	London	1
 [London?s.n.	London	1
 Cambridge [i.e. Holland?]	Amsterdam	1
-[At Cambridge	Cambridge	1
+[At Cambridge	Cambridge (Ambiguous)	1
 Printed at Amsterledam [sic]	Amsterdam	1
 Yn Lvyck	Liège	1
 Octob. 9. London	London	1
@@ -7728,7 +7729,7 @@ Cambridg in New-England	Cambridge England	1
 Rhydychain [i.e. Oxford]	Oxford	1
 Newly printed at Paris	Paris	1
 [London]Printed at York, by Stephen Buckley, 1644. And reprinted at London	London	1
-[Printed at Cambridge	Cambridge	1
+[Printed at Cambridge	Cambridge (Ambiguous)	1
 [Printed at Oxford [i.e. London?]	London	1
 Neapoli sive Augustæ Trinobantûm [i.e. London]	London	1
 Lonnon [i.e. London]	London	1

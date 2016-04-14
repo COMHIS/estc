@@ -24,7 +24,7 @@ Alston	England	     6
 Altenburg	Germany	    21
 Altmore	Northern Ireland	     1
 Altona	Germany	    10
-Ambiguous	Ambiguous	    95
+Ambiguous	Ambiguous	    87
 Ambleside	England	     1
 America	USA	     8
 Amherst NH	USA	    50
@@ -175,10 +175,9 @@ Calais	France	     1
 Calcutta	India	   282
 Calicut	India	     1
 Calne	England	     2
-Cambridge	NA	  3420
-Cambridge (Ambiguous)	Ambiguous	   842
-Cambridge England	England	    84
-Cambridge Ma	USA	   324
+Cambridge (Ambiguous)	Ambiguous	  4262
+Cambridge England	England	    86
+Cambridge Ma	USA	   332
 Campbeltown	Scotland	     1
 Canaan NY	USA	     4
 Canandaigua ny	USA	     1
@@ -340,7 +339,6 @@ Elizabethtown Md	USA	     2
 Ellesmere	England	     1
 Ely	England	     5
 Emden	Germany	    37
-England mass	NA	     1
 Ennis	Ireland	     5
 Enniskillen	Northern Ireland	     2
 Ephrata Pa	USA	   113
@@ -598,7 +596,7 @@ Livorno	Italy	    63
 Llanymddyfri	England	     7
 L lvndain	NA	     1
 Llwydlo	England	     5
-London	England	317633
+London	England	317632
 London Ct	USA	     6
 Londonderry	Northern Ireland	    28
 Long Buckby	England	     1

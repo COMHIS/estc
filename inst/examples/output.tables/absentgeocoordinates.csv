@@ -1,13 +1,13 @@
 name	count
 Boston (Ambiguous)	9468
 New York NY	4672
+Cambridge (Ambiguous)	4262
 York (Ambiguous)	1758
 Birmingham	1282
 Manchester	1208
 Bath	1103
 New London Ct	1004
 Providence RI	964
-Cambridge (Ambiguous)	842
 Exeter	838
 Salisbury	837
 Belfast	796
@@ -40,8 +40,8 @@ Lancaster Pa	351
 Albany NY	350
 Richmond	349
 Ipswich	347
+Cambridge Ma	332
 The Hague	329
-Cambridge Ma	324
 Norwich Ct	319
 Salem Ma	312
 Gloucester	312
@@ -116,16 +116,16 @@ Yarmouth	98
 Stamford	97
 Taunton	96
 Geneva	95
-Ambiguous	95
 Elizabeth NJ	94
 Springfield Ma	93
 Madras India	91
 Kingston Jamaica	89
 Gainsborough	88
+Ambiguous	87
 Waterford	86
 Poughkeepsie NY	86
+Cambridge England	86
 Dumfries	85
-Cambridge England	84
 Portland Me	83
 Ludlow	81
 Lexington KY	81
@@ -980,7 +980,6 @@ Farnham	1
 Farmington Ct	1
 Etonae collegio regali usum schole etonens	1
 Eshott	1
-England mass	1
 Ellesmere	1
 Elie	1
 Elgin	1
