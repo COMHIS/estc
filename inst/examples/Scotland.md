@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40157 documents from Scotland.
+We have 40159 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -8114,7 +8114,7 @@ List of authors born before 500AD:
 ##                           Webster, William (1684-1744) 
 ##                                                      1 
 ##                          Wedderburn, David (1580-1646) 
-##                                                     18 
+##                                                     19 
 ##                           Wedderburn, John (1500-1556) 
 ##                                                      3 
 ##                             Wedderburn, John (1629-NA) 
@@ -8435,7 +8435,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15697 documents from 4184 unique
+We have 15698 documents from 4184 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8548,7 +8548,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34446 documents from Scotland and 204972 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34446 documents from Scotland and 204980 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
