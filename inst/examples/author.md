@@ -19,11 +19,6 @@ output: markdown_document
 
 Top-20 uniquely identified authors and their productivity (title count). In total, there are 54456 unique authors and 282158 documents with unambiguous author information (59%).
 
-
-```
-## Error in dfs$names: $ operator is invalid for atomic vectors
-```
-
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
 ### Ambiguous authors
