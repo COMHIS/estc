@@ -3524,7 +3524,7 @@ Milborneport	Milborne Port	1
 London :;Hartford	London	1
 Londres [i.e. Bern?]	Bern	1
 Air [Scotland]	Ayr	1
-{Edinburgh?	{edinburgh	1
+{Edinburgh?	Edinburgh	1
 Smithfield [London]	London	1
 [Inverlochie]	Inverlochie	1
 A Paris printed, [i.e. London]	London	1
@@ -6027,7 +6027,7 @@ At London [i.e. Middelburg]	Middelburg	1
 [Excvsvm Londini	London	1
 [Impressum Londoni	London	1
 [Imprinted at London in fletestrete within Temple barre, at the signe of the ha[n]de and starre, by Richard Tottill	London	1
-[Cambridge] : b Printed by C. Legge, printer to the Vniversitie of Cambridge	Cambridge b c legge vniversitie cambridge	1
+[Cambridge] : b Printed by C. Legge, printer to the Vniversitie of Cambridge	Cambridge (Ambiguous)	1
 Roan [i.e. English secret press,]	Rouen	1
 Paris [i.e Edinburgh]	Edinburgh	1
 [Imprynted at London in paules Church yearde at the sygne of the Maydens heed, by Thomas Petyt	London	1
@@ -6266,7 +6266,7 @@ Inprinted [sic] at London	London	1
 Imprinted at London in Povvles Churchyarde	London	1
 Imprynted at saynt Albons	St Albans	1
 [Bengodi [i.e. London]]	London	1
-[Cambridge, Eng.]	Cambridge eng	1
+[Cambridge, Eng.]	Cambridge England	1
 Imprinted at London in Pauls church yarde, at the Signe of the Brasen Serpent	London	1
 Jmprynted at London in Powles Churchyarde	London	1
 Jmprinted at London in Powles Churchyarde	London	1
@@ -6573,7 +6573,7 @@ Printed at Helicon [i.e. Holland	Amsterdam	1
 [At Edinburgh	Edinburgh	1
 [Deventer]	Deventer	1
 Imprentit at Paris	Paris	1
-[Impressa est hæc oratiũcula Cantabrigiæ	Est haec oratiũcula cantabrigiae	1
+[Impressa est hæc oratiũcula Cantabrigiæ	Cambridge (Ambiguous)	1
 Hagæ-Comitis [i.e. The Hague]	The Hague	1
 [Ferrara and] Londini	London	1
 Imprinted at Roan in Normandy [i.e. London	London	1
@@ -8000,7 +8000,7 @@ Alnwick [England]	Alnwick	1
 Stockton [Stockton-on-Tees, England]	Stockton	1
 [Madras, India]	Madras India	1
 London [and Birmingham, England]	London	1
-[Leith, Scotland]	Edinburgh	1
+[Leith, Scotland]	Leith scotland	1
 Gloucester [England]	Gloucester England	1
 Nottingham, [England]	Nottingham	1
 [Florence] M'Cartie, printer, Tralee	Florence m cartie tralee	1

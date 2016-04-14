@@ -176,10 +176,8 @@ Calcutta	India	   282
 Calicut	India	     1
 Calne	England	     2
 Cambridge	NA	  3420
-Cambridge (Ambiguous)	Ambiguous	   840
-Cambridge b c legge vniversitie cambridge	NA	     1
-Cambridge eng	NA	     1
-Cambridge England	England	    83
+Cambridge (Ambiguous)	Ambiguous	   842
+Cambridge England	England	    84
 Cambridge Ma	USA	   324
 Campbeltown	Scotland	     1
 Canaan NY	USA	     4
@@ -332,7 +330,6 @@ East grinstead	England	     1
 Easton Pa	USA	    10
 Edenhall	England	     1
 Edenton NC	USA	    43
-{edinburgh	NA	     1
 Edinburgh	Scotland	 31992
 Egham	England	    18
 Elbingen	Germany	     1
@@ -352,7 +349,6 @@ Erfurt	Germany	     4
 Erlangen	Germany	     5
 Eshott	England	     1
 Essex	England	     2
-Est haec oratiũcula cantabrigiae	NA	     1
 Eton	England	   302
 Etonae collegio regali usum schole etonens	NA	     1
 Europe	Ambiguous	     2
@@ -580,6 +576,7 @@ Leicester	England	   176
 Leiden	Netherlands	   110
 Leipzig	Germany	   122
 Leith	NA	    80
+Leith scotland	NA	     1
 Lemgo	Germany	     1
 Leominster	England	    19
 Leominster Ma	USA	    62
