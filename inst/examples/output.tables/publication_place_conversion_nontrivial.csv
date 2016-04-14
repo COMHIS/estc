@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	220495	
+Total count: 	220496	
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -4176,7 +4176,7 @@ Imprime a Boston en la Nouuelle Angleterre	Boston	1
 Apud Pittsfield [Mass.]	Boston Ma	1
 [Dresden Vt.; i.e., Hanover, N.H.]	Hanover	1
 Printed in New-York	New York NY	1
-District of Columbia	Washington DC	1
+District of Columbia	Columbia	1
 Printed in New-Haven.	New Haven Ma	1
 Newport, (Rhode-Island)	Newport RI	1
 Charleston (S.C.)	Charleston SC	1
@@ -5612,7 +5612,6 @@ London printed, for the Traveling Stationers	London	1
 [Londonderry]	Londonderry	1
 [Bridlington?	Bridlington	1
 Edingburgh [sic]	Edinburgh	1
-Parliament-House	London	1
 [Knaresborough?]	Knaresborough	1
 Liverpoole [sic]	Liverpool	1
 [London, i.e. Paris?	Paris	1
@@ -6682,6 +6681,7 @@ Imprinted at Antwerpe [i.e. England]	London	1
 Printed at Dowaie [i.e. England	London	1
 At Antwerpe [i.e. England]	London	1
 [Lo[n]dou[n]	London	1
+[Imp[re?]ssus London[ensis?] in vico vulgaritee nuncupato (the Fletestrete) ac diui Georgii itersignio. expe[n]sis Richardi Pynson. Regii calcographi	London	1
 Printed at Emden	Emden	1
 Imprinted at Antuarpe	Antwerp	1
 Imprinted at London, ouer Aldersgate, by Iohn Day. And are there to be solde at his shoppe vnder the gate	London	1
@@ -6999,6 +6999,7 @@ Impressu[m] Lo[n]donijs	London	1
 At Ampsterdam [i.e. London?]	London	1
 [Printed at Londo[n]	London	1
 Imprinted at a place, not farre from a place [i.e. London?]	London	1
+[Imp[re]ssu[m] Antwerpie p[er] me Gerardu[m] Leeu	Antwerp	1
 An. 1570. At London	London	1
 [Impressus Lo[n]do⁻n	London	1
 Im-printẹd at Lo̧ndon	London	1
@@ -7466,7 +7467,7 @@ Anwerpe [i.e. Antwerp]	Antwerp	1
 Printed in Edinburgh [i.e. London]	London	1
 Gedrukt zu Edenburg in Schottland	Edinburgh	1
 Lugduni-Batavorum	Leiden	1
-Na de copy van Schotland	Edinburgh	1
+Na de copy van Schotland	Copy van schotland	1
 [[Edinburgh?]	Edinburgh	1
 Gedrukt tot Edenburg in Schotland	Edinburgh	1
 [Amsterdam, i.e. London]	London	1

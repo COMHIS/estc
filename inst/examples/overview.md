@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-14"
+date: "2016-04-15"
 output: markdown_document
 ---
 
@@ -39,29 +39,34 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_year_till |        97.8|           2.2|         10552|        354|
 |publication_topic     |        81.7|          18.3|         87966|       5067|
 |publication_geography |        71.6|          28.4|        136613|      12717|
-|author_birth          |        58.9|          41.1|        197670|        470|
+|author_birth          |        58.9|          41.1|        197700|        470|
 |author_death          |        55.7|          44.3|        213061|        518|
-|self_published        |        51.9|          48.1|        231340|          3|
-|author_gender         |        50.4|          49.6|        238605|          3|
+|author_date           |        54.3|          45.7|        220096|      16084|
+|self_published        |        51.8|          48.2|        231879|          3|
+|author_gender         |        50.4|          49.6|        238640|          3|
 |subject_topic         |        44.9|          55.1|        265148|      55731|
-|author_name           |        41.4|          58.6|        282158|      48017|
-|author                |        41.4|          58.6|        282158|      54456|
-|publisher             |        24.4|          75.6|        363756|     162216|
-|latitude              |        12.4|          87.6|        421442|         18|
-|longitude             |        12.4|          87.6|        421442|         18|
+|author_name           |        41.3|          58.7|        282613|      48142|
+|author                |        41.3|          58.7|        282613|      54581|
+|publisher             |        24.3|          75.7|        364225|     169768|
+|latitude              |        12.4|          87.6|        421441|         18|
+|longitude             |        12.4|          87.6|        421441|         18|
 |pagecount.orig        |         3.6|          96.4|        463650|       1488|
 |obl                   |         3.5|          96.5|        464209|          3|
 |paper.consumption.km2 |         2.3|          97.7|        470011|       6793|
 |width                 |         2.3|          97.7|        470237|         78|
 |height                |         2.3|          97.7|        470237|         95|
 |area                  |         2.3|          97.7|        470237|        629|
-|country               |         0.6|          99.4|        478361|         56|
-|publication_place     |         0.5|          99.5|        478688|       1069|
+|physical_dimension    |         1.0|          99.0|        476507|       2226|
+|country               |         0.6|          99.4|        478360|         56|
+|publication_place     |         0.5|          99.5|        478689|       1071|
 |publication_year_from |         0.2|          99.8|        480080|        348|
 |volcount              |         0.2|          99.8|        480259|        150|
 |document.items        |         0.2|          99.8|        480259|        150|
 |pagecount             |         0.0|         100.0|        480979|       1592|
+|physical_extent       |         0.0|         100.0|        481033|     109493|
 |title                 |         0.0|         100.0|        481203|     360647|
+|language              |         0.0|         100.0|        481205|          1|
+|publication_time      |         0.0|         100.0|        481205|      31870|
 |control_number        |         0.0|         100.0|        481205|     481205|
 |language.finnish      |         0.0|         100.0|        481205|          1|
 |language.swedish      |         0.0|         100.0|        481205|          2|
@@ -87,11 +92,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings.original   |         0.0|         100.0|        481205|         18|
 |obl.original          |         0.0|         100.0|        481205|          2|
 |original_row          |         0.0|         100.0|        481205|     481205|
-|gatherings            |         0.0|         100.0|        481205|         18|
 |publication_year      |         0.0|         100.0|        481205|        348|
 |publication_decade    |         0.0|         100.0|        481205|         37|
 |author_pseudonyme     |         0.0|         100.0|        481205|          2|
-|language              |         0.0|         100.0|        481205|         18|
+|gatherings            |         0.0|         100.0|        481205|         18|
 
 
 
