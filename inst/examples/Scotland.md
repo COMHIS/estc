@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40156 documents from Scotland.
+We have 40157 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -2792,7 +2792,7 @@ List of authors born before 500AD:
 ##                           Fergusson, James (1713-1771) 
 ##                                                      5 
 ##                          Fergusson, Robert (1750-1774) 
-##                                                     15 
+##                                                     16 
 ##                          Fergusson, Robert (1768-1840) 
 ##                                                      1 
 ##                         Fergusson, William (1671-1739) 
@@ -8430,10 +8430,12 @@ List of authors born before 500AD:
 ##                                Young, Robert (1674-NA) 
 ##                                                      2 
 ##                   Zetland, Lawrence Dundas (1766-1839) 
+##                                                      1 
+##                 Zimmermann, Johannes Jakob (1695-1756) 
 ##                                                      1
 ```
 
-We have 15695 documents from 4183 unique
+We have 15697 documents from 4184 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8546,7 +8548,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34444 documents from Scotland and 204972 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34445 documents from Scotland and 204972 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
@@ -8638,7 +8640,7 @@ We have 34444 documents from Scotland and 204972 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 953 rows containing missing values (geom_point).
+## Warning: Removed 952 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
