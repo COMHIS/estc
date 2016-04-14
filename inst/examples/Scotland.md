@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-04-14"
+date: "2016-04-15"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40159 documents from Scotland.
+We have 40158 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -6199,6 +6199,8 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                          Perrault, Charles (1628-1703) 
 ##                                                      1 
+##                         Person Of Honour, NA (1660-NA) 
+##                                                      1 
 ##       Peterborough, Charles Henry Mordaunt (1758-1814) 
 ##                                                      1 
 ##             Peterborough, Charles Mordaunt (1708-1779) 
@@ -8435,7 +8437,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15698 documents from 4184 unique
+We have 15699 documents from 4185 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8548,7 +8550,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34446 documents from Scotland and 204980 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34446 documents from Scotland and 204979 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
@@ -8634,7 +8636,7 @@ We have 34446 documents from Scotland and 204980 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 5926 rows containing missing values (geom_point).
+## Warning: Removed 5930 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
