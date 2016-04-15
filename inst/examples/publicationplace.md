@@ -25,7 +25,7 @@ output: markdown_document
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 478689 documents (99%). There are 1071 unique publication places. Overall 87.6% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 478687 documents (99%). There are 1070 unique publication places. Overall 87.6% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -34,9 +34,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name      |      n|   fraction|
 |:---------|------:|----------:|
-|England   | 348406| 72.4028221|
-|Scotland  |  40158|  8.3452998|
-|USA       |  31809|  6.6102804|
+|England   | 348510| 72.4244345|
+|Scotland  |  40157|  8.3450920|
+|USA       |  31815|  6.6115273|
 |Ireland   |  27545|  5.7241716|
-|Ambiguous |  19252|  4.0007897|
+|Ambiguous |  19364|  4.0240646|
 |France    |   3725|  0.7740984|
