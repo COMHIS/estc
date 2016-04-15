@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	220565	
+Total count: 	220566	
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -1523,7 +1523,7 @@ Germantown, in Pennsylvania	Germantown Pa	4
 [New London]	New London Ct	4
 London [i.e., Boston]	Boston	4
 [New York State?	York (Ambiguous)	4
-United States of Columbia. Printed at Worcester, Massachusetts	Columbia worcester massachusetts	4
+United States of Columbia. Printed at Worcester, Massachusetts	Columbia	4
 United States of America. Printed at the press in Worcester, Massachusetts	Worcester Ma	4
 [Carlisle, Pa.	Carlisle Pa	4
 [Woodbridge, N.J.?	Woodbridge NJ	4
@@ -4179,6 +4179,7 @@ Imprime a Boston en la Nouuelle Angleterre	Boston	1
 Apud Pittsfield [Mass.]	Boston Ma	1
 [Dresden Vt.; i.e., Hanover, N.H.]	Hannover NH	1
 Printed in New-York	New York NY	1
+District of Columbia	Columbia	1
 Printed in New-Haven.	New Haven Ma	1
 Newport, (Rhode-Island)	Newport RI	1
 Charleston (S.C.)	Charleston SC	1

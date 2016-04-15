@@ -1,7 +1,7 @@
 ---
 title: "Page count summary"
 author: "Leo Lahti"
-date: "2016-04-15"
+date: "2016-04-16"
 output: markdown_document
 ---
 

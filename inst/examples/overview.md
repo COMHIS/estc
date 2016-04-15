@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-15"
+date: "2016-04-16"
 output: markdown_document
 ---
 
@@ -37,17 +37,17 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width.original        |        99.2|           0.8|          3731|         72|
 |height.original       |        98.3|           1.7|          8153|         88|
 |publication_year_till |        97.8|           2.2|         10552|        354|
+|self_published        |        93.2|           6.8|         32641|          3|
+|author                |        90.6|           9.4|         45071|      19661|
 |publication_topic     |        81.7|          18.3|         87966|       5067|
 |publication_geography |        71.6|          28.4|        136613|      12717|
-|author_birth          |        58.9|          41.1|        197889|        470|
+|author_birth          |        58.9|          41.1|        197831|        470|
 |author_death          |        55.7|          44.3|        213253|        518|
 |author_date           |        54.3|          45.7|        220096|      16084|
-|self_published        |        51.8|          48.2|        232004|          3|
-|author_gender         |        50.4|          49.6|        238642|          3|
+|author_gender         |        50.4|          49.6|        238638|          3|
 |subject_topic         |        44.9|          55.1|        265148|      55731|
-|author_name           |        41.2|          58.8|        282774|      47987|
-|author                |        41.2|          58.8|        282774|      54464|
-|publisher             |        24.3|          75.7|        364225|     169768|
+|author_name           |        41.2|          58.8|        282741|      47958|
+|publisher             |        24.3|          75.7|        364225|     169083|
 |latitude              |        12.4|          87.6|        421519|         18|
 |longitude             |        12.4|          87.6|        421519|         18|
 |pagecount.orig        |         3.6|          96.4|        463650|       1488|
@@ -58,7 +58,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |area                  |         2.3|          97.7|        470237|        629|
 |physical_dimension    |         1.0|          99.0|        476507|       2226|
 |country               |         0.5|          99.5|        478678|         56|
-|publication_place     |         0.5|          99.5|        478685|       1063|
+|publication_place     |         0.5|          99.5|        478686|       1063|
 |publication_year_from |         0.2|          99.8|        480080|        348|
 |volcount              |         0.2|          99.8|        480259|        150|
 |document.items        |         0.2|          99.8|        480259|        150|

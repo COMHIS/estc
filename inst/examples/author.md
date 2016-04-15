@@ -1,23 +1,23 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-15"
+date: "2016-04-16"
 output: markdown_document
 ---
 
 ## Authors
 
-[Accepted author names](output.tables/author_accepted.csv) These are the final accepted author names, merging all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv). If multiple names for the same author are still being observed, the should be added on the author synonyme table.
+[Accepted author names](output.tables/author_accepted.csv) These are the final accepted author names, merging all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv) and excluding known pseudonymes. If multiple names for the same author are still being observed, the should be added on the author synonyme table.
 
-[Discarded author names](output.tables/author_discarded.csv) Discarded names should not contain valid authors or pseudonymes. The following stopword lists are considered when discarding names:
+[Accepted pseudonymes](output.tables/pseudonyme_accepted.csv) Recognized based on custom pseudonyme lists ([first](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/pseudonymes/first.csv), [last](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/pseudonymes/last.csv), [misc](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/pseudonymes.csv))
+
+[Discarded author names](output.tables/author_discarded.csv) These should not contain valid authors or pseudonymes. The following stopword lists are considered when discarding names:
   * [Stopwords for names](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_names.csv)
   * [Stopwords for titles](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_titles.csv)
-  * [Stopwords for pseudonymes](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_pseudonymes.csv)    
-
-[Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) 
 
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 54464 unique authors and 282774 documents with unambiguous author information (59%).
+
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 19661 unique authors and 45071 documents with unambiguous author information (59%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
@@ -35,6 +35,11 @@ Should also add living year information from supporting sources later.
 ### Life span of uniquely identified top authors
 
 Ordered by productivity (number of documents))
+
+
+```
+## Error in if (zero_range(from) || zero_range(to)) {: missing value where TRUE/FALSE needed
+```
 
 ![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png)
 
