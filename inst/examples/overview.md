@@ -42,11 +42,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_birth          |        58.9|          41.1|        197700|        470|
 |author_death          |        55.7|          44.3|        213061|        518|
 |author_date           |        54.3|          45.7|        220096|      16084|
-|self_published        |        51.8|          48.2|        231879|          3|
-|author_gender         |        50.4|          49.6|        238640|          3|
+|self_published        |        51.8|          48.2|        231970|          3|
+|author_gender         |        50.4|          49.6|        238642|          3|
 |subject_topic         |        44.9|          55.1|        265148|      55731|
-|author_name           |        41.3|          58.7|        282613|      48142|
-|author                |        41.3|          58.7|        282613|      54581|
+|author_name           |        41.2|          58.8|        282738|      48230|
+|author                |        41.2|          58.8|        282738|      54669|
 |publisher             |        24.3|          75.7|        364225|     169768|
 |latitude              |        12.4|          87.6|        421438|         18|
 |longitude             |        12.4|          87.6|        421438|         18|
@@ -57,8 +57,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                |         2.3|          97.7|        470237|         95|
 |area                  |         2.3|          97.7|        470237|        629|
 |physical_dimension    |         1.0|          99.0|        476507|       2226|
-|country               |         0.6|          99.4|        478516|         56|
-|publication_place     |         0.5|          99.5|        478687|       1070|
+|country               |         0.5|          99.5|        478580|         56|
+|publication_place     |         0.5|          99.5|        478687|       1065|
 |publication_year_from |         0.2|          99.8|        480080|        348|
 |volcount              |         0.2|          99.8|        480259|        150|
 |document.items        |         0.2|          99.8|        480259|        150|

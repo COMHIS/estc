@@ -1,5 +1,5 @@
 author_name	Count
-Total count: 	1227
+Total count: 	1332
 Person Of Quality	151
 Philalethes	 97
 Clergyman Of The Church Of England	 56
@@ -29,13 +29,16 @@ Verax	 10
 Patriot	 10
 Observator	  9
 Juvenis	  8
+Honourable Person	  8
 Inhabitant	  8
 Marsom	  8
 Candor	  8
 True Lover Of The People	  8
 Monitor	  7
 Philologos	  7
+His Lordship's Chaplain	  7
 Person Of Distinction	  7
+My Friend A Physician	  6
 Cincinnatus	  6
 Clergyman In The Country	  6
 Nobleman	  6
@@ -48,9 +51,11 @@ Orangeman	  5
 Person Who Resided Several Years At Jamaica	  5
 Phileleutheros	  5
 Philadelphian	  4
+Well Wisher	  4
 Humanus	  4
 Clergyman Of The Church Of Ireland	  4
 Portius	  4
+No Person Of Quality	  4
 Phileleutherus	  4
 Mentor	  4
 Royalist	  4
@@ -82,6 +87,8 @@ Sentinel	  2
 Philodemus	  2
 Native	  2
 Philagathus	  2
+No Methodist	  2
+Well Known Woman Of Intrigue	  2
 Person Who Was Wounded	  2
 Person Of Thirty Years Experience	  2
 Pyrrhys	  2
@@ -90,24 +97,39 @@ Philohistoricus	  2
 Corinna	  2
 Person On The Spot	  2
 Clergyman Of The Church Of Scotland	  2
+Your Fellow-citizen	  2
 Person Who Has Belonged To The Publick Offices Upwards Of Twenty Years	  2
 Well-willer To Peace And Truth	  2
 Veridicus	  2
 Person Of Honour Lately Deceased	  2
+Honourable Member Of The House Of Commons	  2
+Well Wisher To The Church Of God, His King And Countrey	  2
 Minis	  2
+He That Prayeth/studieth The Peace Of The King/kingdome	  2
+Honorable Member Of The House Of Commons	  2
 Person Of Worth	  2
+Under Graduate	  2
 Censor	  2
 Hypodidascalus	  2
+Famous Prussian	  2
+Honourable Hand	  2
 Clergyman In The Diocese Of Salisbury	  2
+No Royal Physician	  2
 Person Of Distinction At The Hague	  2
+Well Wisher Of Peace And Unity	  2
 Person From London	  1
 Norvitian	  1
+Continental Soldier	  1
 Centinel	  1
 Scaevola	  1
 Antidespot	  1
+General Officer	  1
 Crispianus	  1
 Aethiopian	  1
+Well Wisher To Truth	  1
+Your Unknown Friend And Well-wisher	  1
 Shilock	  1
+No Dutchman	  1
 Person Of Learning	  1
 Clergyman Of London	  1
 Person Of Honour In The County Of Norfolk	  1
@@ -116,12 +138,15 @@ Clergyman Of Kent	  1
 Clergyman And Others	  1
 Clergyman In Cork	  1
 Person Many Years Resident In The Island Of Saint John	  1
+General Merchant	  1
 Some Body	  1
 Cantabrigiensis	  1
+No Zealot, Nor A Lukewarm Christian	  1
 Philolutherus	  1
 Clergyman Of The Country	  1
 Person Present	  1
 Person Well Acquainted With The Sugar Trade	  1
+My Friend, A Physician	  1
 Sufferer	  1
 Clergyman In Leicestershire	  1
 Jesuit	  1
@@ -132,33 +157,46 @@ Person Wholly Indifferent	  1
 Clergyman Of Wiltshire	  1
 Scruplous	  1
 Clergyman Of The Diocese Of Canterbury	  1
+No Ghost	  1
 Philocarolus	  1
 Emigrant	  1
 Clergyman In The Island Of Sky	  1
 Person Lately Deceased	  1
 Person Present At The Time	  1
 Clergyman Of The Establishment	  1
+Well Wisher Of The Ministry	  1
 Philocatholicus	  1
+No Academic	  1
 Person Well Acquainted With All The Principal Characters From Their Original	  1
 Person Without Eyes From His Birth	  1
 Philusebiæ	  1
 Clergyman Of Suffolk	  1
+No Associator	  1
 Myself	  1
 Person Of Abingdon	  1
+Very Skilful Hand	  1
+Well Wisher To Society	  1
 Clergyman Of The Episcopal Church Of Scotland	  1
 Person Who Lately Occupied Many Hundred Acres Of Land Of All Sorts	  1
 Person Under Confinement	  1
 Hybernicus	  1
 Clergyman Of Warwickshire	  1
 Person Acquainted With The Estate And Proceedings	  1
+Well Wisher And Servant	  1
 Britanicus	  1
 Person Conversant In The Coal-trade For Many Years	  1
 Clergyman Of The City Of London	  1
+No Lawyer	  1
+No Adept	  1
 Some Non-subscribing Ministers, In The North Of Ireland	  1
 Scotchman	  1
+Same Free Burgess	  1
 Person In Scotland	  1
+Well Wisher To The Peace Of The City	  1
+General Trader	  1
 Clergyman Of The Dissenting Interest In Scotland	  1
 Clergyman At London	  1
+His Honour's Chaplain	  1
 Clergyman Of Gloucestershire	  1
 Some Oxford Electors	  1
 Person In Business	  1
@@ -167,9 +205,13 @@ Person Of Quality At Paris	  1
 Person In The Interest Of Baron Bothmar	  1
 Clergyman In The Diocese Of Canterbury	  1
 Person Wholly Disinterested	  1
+No Bigot To, Nor Against The Church Of England	  1
+No Changeling	  1
+Your Fellow Citizen	  1
 Parliament	  1
 Person, David	  1
 Well-willer Of The Common-wealth	  1
+Well Wisher Of All Good Christians	  1
 Well-willer To King And Parliament	  1
 Person Of Quality Now In Oxford	  1
 Hierophilus	  1
@@ -179,23 +221,37 @@ Person Wholly Disinterested In Any Of The Late, Or Present Factions	  1
 Philopolite	  1
 Philoprotest	  1
 Person Of That Nation	  1
+Well Wisher To King And Countrey	  1
+By A Friend To Truth, And An Enemy To Lyes	  1
 Halesiados	  1
 Person Of Quality In Edenburgh	  1
 Well-willer To The Publique Weale	  1
+Well Wisher To A Publick Good	  1
+By A Good Friend To Friends Of The Civill And Religious Interest Of All Good Men	  1
 Well-willer To The Prosperity Of This Famous Common-wealth	  1
+Him Who Is A Lover Of Righteousnesse And Peace	  1
+Well Affected Gentleman Of The County Of Surrey	  1
 Person In The Countrey	  1
 Philocrates	  1
+Well Known Moderne Author	  1
 Philanactodemus	  1
+Her Crete Prophet Of Wales	  1
 Well-willer And Daily Desierer Of A Happy Settlement Of Truth And Peace	  1
 Theophilos	  1
 Well-willer To The Peace Of Sion	  1
 Person Of Quality Abroad	  1
+Well Wisher Of The Common-wealth	  1
 Person That Was Present	  1
 Person Of Great Experience In Military Affairs	  1
+Very Impartiall Hand	  1
+Well Wisher Both Of Church And State	  1
 Person Of Quality Concerned In This Embassy	  1
 Person Of Quality In The County Of Devon	  1
+By Several Lovers Of A Peaceable Government	  1
 Philalathes	  1
+Same Sollicitor That Drew Up The Petition For The Ladies	  1
 Well-willer To His Countrey	  1
+Speciall Hand	  1
 Person Of Qualities	  1
 Person Of Quality In The Country	  1
 Person, Samuel	  1
@@ -204,18 +260,31 @@ Person Of Honour In The Country	  1
 Person Who Bore A Great Share In Those Transactions	  1
 Person Who Has Conversed No Otherwise In Above Nine Years	  1
 Londinophilos	  1
+Same Hand As Wrote Vox Populi	  1
 Well-willer To Physick And Chirurgerie, And Deplorer Of The Now Too Common Neglect Of Them	  1
 Person Of Quality And True Lover Of His Countrey	  1
 Well-willer	  1
 Well-willer To Reformation	  1
+Well Wisher To Trade	  1
+Well Wisher To The Mathematicks	  1
+Very Eminent Gt	  1
 Person Of Experience	  1
 Person Concerned Of The Publick Welfare	  1
+No Poet-laureate	  1
 Person Formerly Concern'd In A Common Brewhouse At London	  1
+Famous Peer-making Projector	  1
+Now Or Never	  1
+Famous Master Of The Game	  1
 Person Who Performs One Of The Principal Parts In The Beggar's Opera	  1
+No Non-juror	  1
+Their Minister	  1
 Firebrand	  1
+Their Obedient, And Humble Servant	  1
 Scotsman	  1
 Philanax	  1
 Clergyman In Ireland	  1
 Anglicanus	  1
+Your Well-wisher	  1
 Person In Obscure Life	  1
 Person Of Eminency	  1
+No Reverend Dissenter	  1
