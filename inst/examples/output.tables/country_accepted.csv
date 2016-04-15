@@ -1,6 +1,6 @@
 Name	Count
-Total count: 	478360
-Ambiguous	 19252
+Total count: 	478516
+Ambiguous	 19364
 Antiqua	    55
 Australia	     3
 Austria	    37
@@ -13,9 +13,9 @@ Cuba	     4
 Czech Republic	     3
 Denmark	    38
 Dominica	    45
-England	348406
+England	348510
 France	  3725
-Germany	   940
+Germany	   874
 Grenada	    31
 Guadaloupe	     8
 Guernesey	    13
@@ -32,7 +32,7 @@ Italy	   234
 Jamaica	   266
 Latvia	     3
 Malta	    10
-Martinique	    28
+Martinique	    29
 Mexico	     1
 Netherlands	  2022
 Northern Ireland	   881
@@ -41,7 +41,7 @@ Portugal	    11
 Russia	    26
 Saint Kitts and Nevis	    37
 Saint Lucia	     1
-Scotland	 40158
+Scotland	 40157
 Sierra Leone	     1
 South Africa	     4
 Spain	    15
@@ -54,4 +54,4 @@ Switzerland	   287
 Trinidad and Tobago	     4
 Turkey	     1
 unknown	     1
-USA	 31809
+USA	 31815

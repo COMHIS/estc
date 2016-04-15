@@ -14,7 +14,7 @@ mc.cores <- 4
 # comment out if not needed
 # update.fields <- c("physical_extent")
 # update.fields <- c("publication_place")
-update.fields <- c("publication_place", "author_name", "author_date")
+#update.fields <- c("publication_place", "author_name", "author_date")
 
 # Remove selected fields
 ignore.fields <- c("title_uniform", "title_uniform2") # ESTC

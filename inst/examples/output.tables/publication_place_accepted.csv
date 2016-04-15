@@ -1,6 +1,5 @@
 publication_place	country	Count
 Total count: 	481205	
- 	NA	     2
 Aachen	Germany	     1
 Abartawe	England	    14
 Abbeville	France	     4
@@ -182,10 +181,9 @@ Canterbury england	England	     7
 Canterbury NH	USA	     1
 Cape Town	South Africa	     4
 Cap-Haitien	Haiti	     4
-Carlisle	NA	   112
+Carlisle	Ambiguous	   112
 Carlisle England	England	     1
-Carlisle Pa	USA	    41
-Carlisle penn	NA	     1
+Carlisle Pa	USA	    42
 Carlow	Ireland	     8
 Carmarthen	England	    80
 Carrick (Ambiguous)	Carrick	     4
@@ -295,15 +293,13 @@ Dort	Netherlands	    18
 Douai	France	   240
 Douglas	Isle of Man	    18
 Dover	England	    13
-Dover De	NA	     4
-Dover DE	NA	     1
+Dover De	NA	     5
 Dover NH	USA	    58
 Downham	England	     1
 Downpatrick	Ireland	   135
-Dresden	Germany	    19
+Dresden	Germany	    20
 Dresden Me	USA	     1
 Dresden Vt	USA	     4
-Dressden	NA	     1
 Drogheda	Ireland	    20
 Drumfries	Scotland	    10
 Dublin	Ireland	 26156
@@ -329,7 +325,7 @@ East grinstead	England	     1
 Easton Pa	USA	    10
 Edenhall	England	     1
 Edenton NC	USA	    43
-Edinburgh	Scotland	 31992
+Edinburgh	Scotland	 31991
 Egham	England	    18
 Elbingen	Germany	     1
 Elgin	Scotland	     1
@@ -445,10 +441,15 @@ Hallowell Me	USA	    25
 Hamburg	Germany	   151
 Hamilton	USA	    19
 Hanau	Germany	     8
-Hannover	Germany	     6
+Hannover	Germany	     7
 Hannover NH	USA	     1
-Hannover PA	NA	     4
-Hanover	Germany	    68
+Hannover Pa	USA	     4
+Hanover	NA	    12
+Hanover m alister s stadt pa	NA	     1
+Hanover newhampshire	NA	     5
+Hanover new hampshire	NA	     4
+Hanover nh	NA	    44
+Hanover n h dartmouth college	NA	     1
 Harbor Oh	USA	     3
 Harborough	England	     2
 Harderwijk	Netherlands	     3
@@ -529,7 +530,7 @@ Kildare	Ireland	     1
 Kilkenny	Ireland	    57
 Killingworth Ct	USA	     1
 Kilmarnock	Ireland	    50
-King s lynn	NA	    28
+Kings Lynn	England	   106
 Kingston	Jamaica	    60
 Kingston Jamaica	Jamaica	    89
 Kingston NY	USA	    18
@@ -554,7 +555,7 @@ Lancester pa	USA	     1
 Langport	England	     1
 Lansingburgh NY	USA	    33
 La rochelle	France	     6
-La Trinite	NA	     1
+La Trinite	Martinique	     1
 Launceston	England	     3
 Lausanne	Switzerland	    31
 Lebanon pa	USA	     1
@@ -564,7 +565,7 @@ Leeuwarden	Netherlands	     1
 Leicester	England	   176
 Leiden	Netherlands	   110
 Leipzig	Germany	   122
-Leith	NA	    80
+Leith	NA	    81
 Lemgo	Germany	     1
 Leominster	England	    19
 Leominster Ma	USA	    62
@@ -585,7 +586,7 @@ Liverpool	England	   550
 Livorno	Italy	    63
 Llanymddyfri	England	     7
 Llwydlo	England	     5
-London	England	317641
+London	England	317639
 London Ct	USA	     6
 Londonderry	Northern Ireland	    28
 Long Buckby	England	     1
@@ -601,8 +602,6 @@ Lund	Sweden	     7
 Lustleigh	England	     4
 Lymington	England	     8
 Lynchburg va	USA	     1
-Lynn	NA	    73
-Lynn regis	NA	     3
 Lyon	France	    43
 Maastricht	Netherlands	     1
 Macclesfield	England	    41
@@ -908,7 +907,7 @@ Stirling	Scotland	   158
 St Ives	England	    23
 St John New Brunswick	Canada	     2
 St Johns Antiqua	Antiqua	    55
-St Mary's Md	NA	     1
+St Mary's Md	USA	     1
 St neots	England	     5
 Stockbridge Ma	USA	    53
 Stockholm	Sweden	     7
@@ -1058,7 +1057,7 @@ Yarmouth	England	    98
 Y Bont-faen	England	     2
 Yeovil	England	     4
 York (Ambiguous)	Ambiguous	  1758
-York canada	NA	     4
+York Canada	NA	     4
 York England	England	    16
 York Pa	USA	    48
 York Pe	USA	     1
@@ -1070,4 +1069,4 @@ Zittau	Germany	     1
 Zürich	Germany	    22
 Zutphen	Netherlands	     2
 Zweibrücken	Germany	     1
-NA	NA	  2516
+NA	NA	  2518

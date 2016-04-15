@@ -107,6 +107,7 @@ Carlisle	112
 Leiden	110
 Spanish Town	107
 Newry	106
+Kings Lynn	106
 Hereford	106
 Newark NJ	105
 Taunton	101
@@ -126,23 +127,21 @@ Dumfries	85
 Portland Me	83
 Ludlow	81
 Lexington KY	81
+Leith	81
 Berlin	81
 Richmond Va	80
-Leith	80
 Carmarthen	80
 Rutland Vt	79
 Twickenham	78
 Banbury	77
 Concord NH	76
 Windsor	75
-Lynn	73
 New Brunswick NJ	72
 Margate	72
 Chelmsford	72
 Wrexham	70
 Hudson NY	69
 Aldershot	69
-Hanover	68
 Brentford	66
 Frankfurt	65
 Doncaster	64
@@ -199,12 +198,13 @@ Wesel	45
 Walpole NH	45
 Roseau Dominica	45
 Bradford	45
+Hanover nh	44
 Lyon	43
 Edenton NC	43
 Dunbar	43
+Carlisle Pa	42
 New Bedford Ma	41
 Macclesfield	41
-Carlisle Pa	41
 Trefriw	40
 Charlottetown	40
 Alexandria Va	40
@@ -247,7 +247,6 @@ Henley-on-Thames	29
 Dedham Ma	29
 St Helier	28
 Londonderry	28
-King s lynn	28
 Armagh	28
 Wigan	27
 Spalding	27
@@ -290,13 +289,13 @@ Market harborough	20
 Fairhaven vt	20
 Dudley	20
 Drogheda	20
+Dresden	20
 Cheshire Ct	20
 Whitehall Pa	19
 Strabane	19
 Leominster	19
 Hamilton	19
 Ghent	19
-Dresden	19
 Dordrecht	19
 Clipstone	19
 Chambersburg Pa	19
@@ -362,6 +361,7 @@ Saint John	12
 Northumberland Pa	12
 Medford Ma	12
 Jena	12
+Hanover	12
 Bordeaux	12
 Augusta Me	12
 Wiscasset me	11
@@ -446,6 +446,7 @@ Malton	7
 Lund	7
 Llanymddyfri	7
 Helston	7
+Hannover	7
 Greenfield	7
 Gouda	7
 Fryeburg Me	7
@@ -476,7 +477,6 @@ La rochelle	6
 Kettering	6
 Hwlffordd	6
 Haverhill NH	6
-Hannover	6
 Gothenburg	6
 Gilmanton NH	6
 Firenze	6
@@ -508,6 +508,7 @@ Llwydlo	5
 Kirkcudbright	5
 Hungerford	5
 Horsham	5
+Hanover newhampshire	5
 Frome	5
 Frederick Md	5
 Fort royal	5
@@ -516,6 +517,7 @@ Erlangen	5
 Ennis	5
 Ely	5
 Dumfries Va	5
+Dover De	5
 Dorset	5
 Dolgellau	5
 Daventry	5
@@ -528,7 +530,7 @@ Basseterre	5
 Ballston Spa NY	5
 Augusta (Ambiguous)	5
 Athlone	5
-York canada	4
+York Canada	4
 Yeovil	4
 Whitchurch	4
 Verona	4
@@ -550,13 +552,13 @@ Kirkbride	4
 Jacksonburgh sc	4
 Havanna	4
 Harrogate	4
-Hannover PA	4
+Hanover new hampshire	4
+Hannover Pa	4
 Fersfield	4
 Fairfield Ct	4
 Erfurt	4
 Epsom	4
 Dresden Vt	4
-Dover De	4
 Dereham	4
 Crewkerne	4
 Cheshunt	4
@@ -616,7 +618,6 @@ Nashville TN	3
 Nancy	3
 Münster	3
 Malmö	3
-Lynn regis	3
 Lugano	3
 Loreto	3
 Lille	3
@@ -755,7 +756,6 @@ Bala	2
 Alfreton	2
 Aix-en-Provence	2
 Adpar	2
- 	2
 Zweibrücken	1
 Zittau	1
 Zeiz-Bahren	1
@@ -922,6 +922,8 @@ Heilbronn	1
 Hatfield	1
 Hastings	1
 Harford Md	1
+Hanover n h dartmouth college	1
+Hanover m alister s stadt pa	1
 Hannover NH	1
 Halesworth	1
 Hagley	1
@@ -962,10 +964,8 @@ Düsseldorf	1
 Dunstable	1
 Dunkeld	1
 Duncannon	1
-Dressden	1
 Dresden Me	1
 Downham	1
-Dover DE	1
 Dillingen	1
 Dijon	1
 Devon	1
@@ -997,7 +997,6 @@ Castlebar	1
 Cassel	1
 Carrick-on-Suir	1
 Carrickfergus	1
-Carlisle penn	1
 Carlisle England	1
 Canterbury NH	1
 Canandaigua ny	1
