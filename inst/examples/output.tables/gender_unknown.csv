@@ -1,24 +1,24 @@
 Name	Count
-J	1417
+J	1418
 R	855
 W	813
 T	521
 S	342
 A	325
 N	317
-P	304
+P	305
 Desiderius	291
 E	291
 C	263
 M	250
 H	224
-D	202
+D	203
 François De Salignac De La Mothe-	195
-Joannes	175
+Joannes	176
 G	174
 Increase	174
+Mathurin	174
 François	173
-Mathurin	170
 Cardanus	163
 François	160
 F	147
@@ -28,8 +28,8 @@ Jean-baptiste	121
 Aphra	117
 Conyers	102
 François De Salignac De La Mothe-	102
+Humphry	97
 Sébastien	92
-Humphry	91
 Beilby	81
 Offspring	79
 Soame	77
@@ -66,9 +66,9 @@ Gorges Edmond	42
 Humfrey	42
 Theophs. J	42
 Dougal	41
+Gaultier De Coste	40
 René	40
 Eliphalet	39
-Gaultier De Coste	39
 Ninian	39
 Stéphanie Félicité	39
 Capel	38
@@ -121,6 +121,7 @@ Pacificus	21
 Publius	21
 Slingsby	21
 Tench	21
+André	20
 Bartholomaeus	20
 Eyles	20
 Hayman	20
@@ -130,7 +131,6 @@ Pawlet	20
 Pelatiah	20
 Pierre-daniel	20
 V. J	20
-André	19
 Charles-françois Du Périer	19
 Hew	19
 Jean-henri	19
@@ -161,11 +161,13 @@ Leonardus	16
 Whiston	16
 W. S	16
 Alured	15
+Boyle	15
 Claude-prosper Jolyot De	15
 Daines	15
 East	15
 F. G	15
 H. C	15
+Heneage Finch	15
 H. H	15
 I	15
 Lockyer	15
@@ -174,10 +176,8 @@ Sébastien	15
 Septimus	15
 Traiano	15
 Uzal	15
-Boyle	14
 Egerton	14
 François-vincent	14
-Heneage Finch	14
 Henricus	14
 Louis-antoine	14
 Ludovick	14
@@ -275,6 +275,7 @@ T. S	10
 University Of	10
 Weeden	10
 Aedanus	9
+Baptista	9
 César De	9
 Dominicus	9
 Emmanuel-louis-henri-alexandre De Launay	9
@@ -299,7 +300,6 @@ Antoine-françois De	8
 António De	8
 Ashbel	8
 Aulay	8
-Baptista	8
 Bartolomé De Las	8
 Bonaventura	8
 &c	8
@@ -317,6 +317,7 @@ Louis-antoine De	8
 Luís De	8
 Murtaugh	8
 Nathaneel	8
+O	8
 Peres	8
 Shackerley	8
 St. John	8
@@ -335,7 +336,7 @@ Fayrer	7
 Foote	7
 François-alexandre-frédéric	7
 Francoisco Xavier De	7
-François-thomas-marie De Baculard D ́	7
+François-thomas-marie De Baculard D,́	7
 Gabrielle-suzanne Barbot Gallon	7
 Gebhard Friedrich August	7
 Gerschom	7
@@ -346,9 +347,10 @@ Henri-françois De	7
 Hieronymus	7
 Hilkiah	7
 Hiob	7
+Ignaz	7
 Jacques-bénigne	7
 Jean-baptiste De	7
-J. John	7
+J.  John	7
 Joel-henrietta	7
 J. W	7
 Kōnstantinos	7
@@ -358,7 +360,6 @@ Luís De	7
 Martín	7
 Melvill	7
 Nicaise	7
-O	7
 P. De	7
 Philanax	7
 Philippus	7
@@ -407,7 +408,6 @@ Heneage	6
 Hewling	6
 Hieronymus David	6
 H. P	6
-Humphry Quaker	6
 Jacques-bénigne	6
 Jacques-henri	6
 James-brown	6
@@ -566,7 +566,7 @@ Charles-georges	4
 Charles-marguerite-jean-baptiste Mercier	4
 Christoffel	4
 Claude-françois Milliet	4
-Consort Of Charles I King Of England	4
+Consort Of Charles I	4
 Constantia	4
 Cornélie Wouters	4
 Cotton-mather	4
@@ -609,7 +609,6 @@ Home Riggs	4
 Horatius	4
 Hull	4
 Hustcraft	4
-Ignaz Edler Von	4
 Is	4
 Jacques-antoine-rené	4
 J. De	4
@@ -631,7 +630,6 @@ Lancaster	4
 Laurentio	4
 Libert	4
 Lodovick	4
-Mathurin -	4
 Michał	4
 Michel-rené	4
 M. J	4
@@ -736,6 +734,7 @@ François Pierre De	3
 François Xavier	3
 Freeborn	3
 Fulk	3
+G.	3
 Gainsborough	3
 Gallian	3
 Gédéon	3
@@ -745,7 +744,6 @@ Gioachino	3
 Giralamo	3
 Giusto Ferdinando	3
 Godard	3
-G. Of Staples Inn	3
 Goodlove	3
 Gouverneur	3
 Gowin	3
@@ -762,10 +760,9 @@ Henriette-julie De Castelnau	3
 Hieronim	3
 Higgins	3
 Highman	3
-His King And Countrey	3
 Hocquet	3
+Honoré	3
 Honoré-gabriel De Riquetti	3
-Ignaz	3
 I. Or J	3
 István	3
 Izrahiah	3
@@ -814,6 +811,7 @@ Morrough O'brien	3
 Murtagh	3
 Néricault	3
 Noël	3
+Of Assisi	3
 Onslow	3
 Oronce	3
 Ottaviano	3
@@ -875,6 +873,7 @@ Winchcombe Henry	3
 W. J	3
 W-m	3
 W- O-	3
+  	2
 Adrien-marie-françois De	2
 Agamemnon Shaglock Van	2
 Agathon Marie René De	2
@@ -883,7 +882,7 @@ A. H	2
 Alastoir	2
 Albert-henri De	2
 Alexander-henry	2
-A Loyall Subject A Loving Fellow Member Of The Common-wealth Of England Scotland And Ireland	2
+A Loyall Subject	2
 Al.-phil	2
 Álvaro De	2
 Alverey	2
@@ -904,7 +903,6 @@ André Everard	2
 André Hercule De	2
 Andrés	2
 And Review	2
-And Sincere Son Of The Church Of England	2
 And To Its Dear Bought Rights And Freedome	2
 Anglicus	2
 Anne-gédéon	2
@@ -945,7 +943,7 @@ Brownlow Cust	2
 Bulkley	2
 Cabbé De	2
 Cajetan	2
-Call'd The Woful Treaty	2
+Call'd	2
 Canute	2
 Castore	2
 Castruccio	2
@@ -1056,17 +1054,16 @@ Gwilim	2
 Hamnet	2
 Harbord Harbord	2
 Harcourt	2
-Hardouin De Beaumont De Archbishop	2
+Hardouin De Beaumont De	2
 Hatton	2
 Helenor	2
 Henri-louis	2
 Henri-marie	2
 Hermannus	2
+His King And Countrey	2
 His Queen And Countrey	2
 Holloway Whitfield	2
-Honoré	2
 Honoré D'	2
-Honoré D'	2
 Houstonne	2
 Hovenden	2
 H. R	2
@@ -1164,7 +1161,7 @@ Morganwg	2
 Myndert	2
 Naṣīr Al-dīn Muḥammad Ibn Muḥammad	2
 Nassau	2
-Nath. Nathaniel	2
+Nath.  Nathaniel	2
 N. B	2
 Neast	2
 Nestore	2
@@ -1172,7 +1169,6 @@ Niccol.̊	2
 Niccolao	2
 Nivelle De	2
 Norborne Berkeley	2
-Of Assisi Saint	2
 Ortuinus	2
 Ottone Enrico Dal Carretto	2
 Oxenbridge	2
@@ -1242,7 +1238,7 @@ Tancred	2
 Teodorico	2
 T. F	2
 Théodore De	2
-Théodore Turquet De -	2
+Théodore Turquet De	2
 Théophile	2
 Théophile Brachet	2
 Theophilos	2
@@ -1261,12 +1257,14 @@ W. B	2
 W. C	2
 W. G	2
 Who Is A Lover Of Candour	2
-With Improvements Of The History Of Popery	2
+With Improvements	2
 Wm. Geo	2
 W. P	2
 Zaphnaphpaaniah	2
 Zaphnath	2
 Z̤iyāʾ Al-dīn	2
+    -  	1
+-	1
 ******	1
 A.a	1
 Abbé	1
@@ -1284,7 +1282,7 @@ Adélaïde-marie-emilie Fileul	1
 Adeliza	1
 Adlard Squire	1
 Aemilius Van	1
-A Gentleman Born .	1
+A Gentleman Born	1
 Agostinho	1
 Agricola	1
 Agustín De	1
@@ -1334,8 +1332,8 @@ And A Friend To Truth	1
 And A Hearty Lover Of His Country	1
 And All Good Men	1
 And A Lover Of Loyal Subjects	1
-And A Lover Of Peace Order And Humanity	1
-And A Lover Of Real Facts Not Of Caprice Or Common Report	1
+And A Lover Of Peace	1
+And A Lover Of Real Facts	1
 And A Lover Of The British Empire	1
 And A Lover Of Truth And Peace	1
 And A Native Of The Diocese Of Norwich	1
@@ -1363,16 +1361,15 @@ And Humble Servant	1
 And Long Experience	1
 And Lover Of His Country	1
 And Loveth His King And Countrey	1
-And Member Of The Philo-theological Society Of The University Of Edinburgh	1
+And Member Of The Philo-theological Society	1
 And Not Her Own	1
 And Now A Prisoner	1
 And Of His Majesty's Privy Council	1
 And Of The Protestant Succession As By Law Establish'd	1
-And Once A Grand Juror Of Orange County	1
+ And Once A Grand Juror  Of Orange County	1
 And Proprietie	1
 Andréa De	1
 And Rector Of A Church In The City Of London	1
-André &# ;d -	1
 André De	1
 André-françois De	1
 André Frédéric	1
@@ -1381,6 +1378,8 @@ André-philippe Tardieu	1
 André-pierre	1
 Andrés De	1
 And Servant Of Jesus Christ	1
+And Sincere Son	1
+And Sincere Son Of The Church Of England	1
 And The Army	1
 And The Destruction Of All Her Enemies	1
 And The Establish'd Religion	1
@@ -1429,11 +1428,11 @@ Arthur-roger	1
 Arthur-saunders Gore	1
 Arthurus	1
 Arundell	1
+As	1
 Ascanio De'	1
 Ascanius Christopher	1
-A Scholar And A Christian	1
+A Scholar	1
 As It Is In Jesus	1
-As Most Admired Because Best Reformed Protestant Church Of England	1
 Assheton	1
 A Tale	1
 At Cove	1
@@ -1452,7 +1451,6 @@ Aylmer Bourke	1
 Bainbrigg	1
 Baislie	1
 Balfour	1
-Baptista Mantuanus	1
 Baro	1
 Bartholdus	1
 Bartholomaus	1
@@ -1474,8 +1472,8 @@ Beirs De	1
 Belcher	1
 Bellingham	1
 Belonging To The Assoc. Presb. Of Glasgow	1
-Ben-balaam Ben-ahimoth Ben-baal Ben-gog Ben-magog	1
-Benefit Of Farting &c	1
+Ben-balaam	1
+Benefit Of Farting	1
 Benja	1
 Benjamin-sigismond	1
 Beriah	1
@@ -1496,7 +1494,6 @@ Borlase	1
 Bosavern	1
 Bowater	1
 Bowyer Edward	1
-Boyle Or -	1
 Britannus	1
 Brockholst	1
 Bromsall	1
@@ -1505,7 +1502,7 @@ B-t	1
 Budgen	1
 Burhān Al-dı̄n	1
 But A Friend To Society	1
-But His Manners And Loves His Person But Likes Not His Condition	1
+But His Manners	1
 But No Lover Of Their Principles	1
 But No Party Man	1
 But No Stoup And Rail Man	1
@@ -1514,7 +1511,7 @@ Buxton	1
 Byam	1
 &c.'	1
 Cadwallader Blaney	1
-Called Severus Abp. Of Philadelphia	1
+Called Severus	1
 Cambpell	1
 Candidus	1
 Cassumo	1
@@ -1543,11 +1540,11 @@ C Hristopher	1
 Christopherus	1
 Cimelgus	1
 Cincinnatus	1
-Civil And Religious Rights Of Mankind	1
+Civil	1
 C. Jun	1
 Claes Jansz	1
 Claude-barthélemy	1
-Claude-franc&# ;ois	1
+Claude-franc&#   ;ois	1
 Claude-françois	1
 Claude-gaspard Barbat	1
 Claude-henri	1
@@ -1561,8 +1558,8 @@ Coghill	1
 Colquhoun	1
 Colthurst	1
 Conly	1
-Consort Of Frederick I King Of Bohemia	1
-Consort Of Henry Viii King Of England	1
+Consort Of Frederick I	1
+Consort Of Henry Viii	1
 Constantijn	1
 Constantinus	1
 Cook	1
@@ -1573,7 +1570,7 @@ C. P. Claret	1
 Cradock	1
 Crambo	1
 Crean	1
-Credit And Trade Thereof	1
+Credit	1
 Creswell	1
 Crispijn Van De	1
 Cullpepper	1
@@ -1581,7 +1578,6 @@ Culmer	1
 Curwen	1
 Cushing	1
 C. W	1
-D.	1
 D. A	1
 Dabridgcourt	1
 Dacre Barrett	1
@@ -1593,12 +1589,13 @@ David-françois De	1
 David-nicolas De	1
 Dāwūd Ibn ʿumar	1
 D. D	1
+- De	1
 Dearing	1
 Degenhard	1
 Demophilus	1
 Dermod	1
 Dermond	1
-Despised Illiterate Babe	1
+Despised	1
 Dewans	1
 D. Haymon	1
 Diadochus	1
@@ -1668,7 +1665,7 @@ Estienne	1
 Estienne De	1
 étienne-françois	1
 étienne-jean	1
-Etienne-joseph De -	1
+Etienne-joseph De	1
 Euphemius	1
 Eusebes	1
 Everhard	1
@@ -1710,7 +1707,7 @@ François Charles	1
 Franc̜ois De	1
 François De Bonne	1
 François De Lorraine	1
-Franc&# ;ois De Salignac De La Mothe-	1
+Franc&#   ;ois De Salignac De La Mothe-	1
 François Dorval-langlois	1
 Françoise De	1
 Franc̜oise Marie Antoinette	1
@@ -1727,7 +1724,7 @@ François-jean	1
 François-joseph	1
 François Joseph	1
 François Louis Legrand De	1
-François Marie Duc De	1
+François Marie	1
 François Nicolaas	1
 François Parrain De	1
 François-rené	1
@@ -1743,7 +1740,7 @@ Frid. Will. Van	1
 Friederich	1
 Frisky	1
 Fulgenzio	1
-Fulke Greville Baron	1
+Fulke Greville	1
 Funnybus	1
 Fusée	1
 F. W	1
@@ -1752,7 +1749,6 @@ Gabrieldo	1
 Gabriel-honoré De Riquetti	1
 Gaëtan Rossi De	1
 Galfredus	1
-Gaultier De Coste Seigneur De	1
 G.b. De	1
 G. C	1
 Gédéon	1
@@ -1830,7 +1826,6 @@ Hayyim Joseph David	1
 H. Beeston	1
 H. E	1
 Heliogenes De	1
-Heneage Finch Earl	1
 Henrich Rupert	1
 Henricus Carolus	1
 Henricus Cornelius	1
@@ -1845,13 +1840,15 @@ Hickman	1
 Highmore	1
 Himbert De	1
 Hinrich Andreas	1
-His Countrey And The Protestant Religion	1
+His Countrey	1
+His King	1
 H. L	1
 H. M	1
 H. Needham	1
 Hoca	1
 Honer	1
 Honorat De Bueil	1
+Honoré D'	1
 Honoré-joseph	1
 Honorius Martins Da	1
 Hopestill	1
@@ -1888,7 +1885,6 @@ Israell	1
 Italian	1
 I. W	1
 J-	1
-J.	1
 J*****	1
 Jachinto	1
 Jacquemine	1
@@ -1930,7 +1926,7 @@ Jean-rodolphe	1
 Jean-roland	1
 Jean-yrieux De Beaupoil	1
 Jehudah	1
-Je&# ;ro&# ;me Marie	1
+Je&#   ;ro&#   ;me Marie	1
 Jessop	1
 J. F. W	1
 J. G. D'	1
@@ -1939,12 +1935,11 @@ J. Henry	1
 J. J. Sebastien	1
 J. L. C	1
 J. Lee	1
-J. L. Jean-l	1
+J. L.   Jean-l	1
 J. Marie De	1
 Jn	1
 Jno	1
 Joannes à	1
-Joannes Abbott	1
 Joannes Baptista De	1
 Joannes Butt	1
 Joannes Cornelius De	1
@@ -1970,6 +1965,7 @@ Johanes	1
 Joh. Friedrich Guillus	1
 J Ohn	1
 John-charles	1
+John,db.   	1
 John-james	1
 Jo. Jac	1
 Jolley	1
@@ -1985,7 +1981,7 @@ Josué	1
 Jo. V	1
 J.s	1
 J-s-ph	1
-Just Arrived From And Many Years Resident In That Garrison	1
+Just Arrived From	1
 Juvenall	1
 J. V	1
 J. Watts	1
@@ -2007,7 +2003,7 @@ Late In The Military Service	1
 Lately Deceased	1
 Lately Retired From The Brewing Business	1
 Late Of Eton College	1
-Late Of Mitcham In The County Of Surry	1
+Late Of Mitcham	1
 Lauderdale	1
 Laurentius	1
 Laurentius Gulielmus	1
@@ -2052,6 +2048,7 @@ Ludovicus De	1
 Ludwell	1
 L Uke De	1
 Lyonell	1
+M.	1
 M***	1
 M. A	1
 Macktellina Livingston	1
@@ -2060,7 +2057,6 @@ Magens Dorrien	1
 Maḥmūd Ibn Muḥammad	1
 Malachias	1
 Maltis	1
-M. And Ry Henry	1
 Manoel Pereira	1
 Marc-alexandre	1
 Marc-antoine De	1
@@ -2100,7 +2096,7 @@ Michelangiolo	1
 Miers	1
 Mikuláš	1
 Mildmay Fane	1
-Mi-london -	1
+Mi-london	1
 Minimus	1
 M. J. C	1
 M. J. S	1
@@ -2117,6 +2113,7 @@ Movsēs	1
 M-r	1
 M. R	1
 M. Radclyffe	1
+Mr. Of Art	1
 Mrs. Aphra	1
 Mrs. John	1
 Mrs. Mary	1
@@ -2131,7 +2128,7 @@ Native Of America	1
 Neeman	1
 Neuter	1
 Nevill	1
-New System Of Philosophy &c	1
+New System Of Philosophy	1
 Nian	1
 Nich	1
 Nicholias	1
@@ -2150,8 +2147,7 @@ Obadia	1
 Octavie Guichard	1
 Odoardo	1
 Odoricus	1
-Of Above Thirty Years Standing In London	1
-Of Assisi	1
+Of Above Thirty Years Standing	1
 Of Gray's Inn	1
 Of Grenada	1
 Of Llancarvan	1
@@ -2168,19 +2164,18 @@ Omnelio	1
 Onuphrius	1
 Onuphrius Aram	1
 Orator	1
-Oraziofin Id S /upd	1
+Oraziofin Id S      /upd	1
 Orlibar	1
 Osbaston Sophia	1
 Ottiwell	1
 Ottwell	1
-P.	1
 Pain	1
 Pandolfo	1
 Pandolpho	1
 Pantaleão	1
 Papyrius	1
 Pardon	1
-Parliament Religion And State	1
+Parliament	1
 Paroculus	1
 Pascoe	1
 Pathericke	1
@@ -2252,10 +2247,10 @@ Pons De Lauzière	1
 Poplicola	1
 Poulton	1
 Powle	1
-Præcipies Esto Brevis	1
+Præcipies	1
 Prebendary	1
-Property And Reform	1
-Protestant Lover Of His Kind And Honest Man	1
+Property	1
+Protestant	1
 P. S	1
 P. T	1
 Ptolomy	1
@@ -2278,7 +2273,7 @@ R*****d	1
 Reading	1
 Regiment De La	1
 Religion And Honesty	1
-Religious And Judicious Divine	1
+Religious	1
 Remacle D'	1
 René-antoine Ferchault De	1
 René De	1
@@ -2295,7 +2290,7 @@ Riccardton	1
 Richardus Johannes Horatius	1
 Richd	1
 R. J	1
-Robert-c -	1
+Robert-c    -  	1
 Robertus Mackewn	1
 Robertus Rogers	1
 Robuck	1
@@ -2304,13 +2299,13 @@ Rochfort	1
 Rocque	1
 Rodham	1
 Rodulphus	1
-Romanus Pope	1
+Romanus	1
 Rooke	1
 Rowedger	1
 Rowlande	1
 Rozel	1
 R-ph	1
-R. Richard	1
+R.  Richard	1
 R. S	1
 Rudjer Josip	1
 Runjlf	1
@@ -2320,6 +2315,7 @@ Sabaoth	1
 Sake Deen	1
 Salwey	1
 Sambrook Nicholas	1
+S Amuel	1
 Saulem	1
 Saumarez	1
 Sauveur François	1
@@ -2372,7 +2368,7 @@ Surgery And Chymistry	1
 Sweep	1
 Swithun	1
 Tadēos	1
-Tanneguy Joseph Cauvin Sieur D'	1
+Tanneguy Joseph Cauvin	1
 T. Augustus	1
 T. B	1
 T. De	1
@@ -2383,7 +2379,7 @@ Teshino	1
 Th	1
 Thankfull	1
 That Desires At This Time To Be Namelesse	1
-That Jesus Christ Is The Son Of God	1
+That Jesus Christ	1
 That The Lord Is Gracious	1
 Theobald Richard	1
 Theobaldus Edmundus	1
@@ -2406,6 +2402,7 @@ Thieleman J. Van	1
 Tho' An Englishman	1
 Tho. B	1
 Tho' Less Poetical Pen	1
+T Homas	1
 Thomasen	1
 Thomas-fothringham	1
 Thornburgh	1
@@ -2420,10 +2417,10 @@ T. O	1
 Tomás De	1
 Tomkins	1
 Tomkyns Hilgrove	1
-To Peace And The Constitution	1
+To Peace	1
 Toryrorydammeeplotshammee	1
 To Serve His Countrey	1
-To The Royal Family A Whigg And An Englishman	1
+To The Royal Family	1
 Towers	1
 Tranquillus	1
 Treadway Russell	1
@@ -2435,7 +2432,7 @@ Tusanus	1
 Ulick	1
 Umdat Al-muk Anwar Al-din	1
 Unca Eliza	1
-Up Shinkin Up Morgan Up Howellup William Up Raph Up Shon Up Taffie	1
+Up Shinkin	1
 Urbain René De	1
 Ursule De	1
 Valentinus	1
@@ -2463,17 +2460,17 @@ W.h	1
 Whackum	1
 Wheaton	1
 Wherever Found	1
-Whether By Tyranny Or Law	1
+Whether By Tyranny	1
 Whirligig	1
 Whitehall W	1
 Whitmore	1
-Who Has Bred Canary Birds Several Years	1
-Who Loves Truth And Hates Errours And Falsities	1
-Who Neither Has Or Expects Any Place Or Pension Fee Or Reward But The Service Of His Country	1
+Who Has Bred Canary Birds	1
+Who Loves Truth	1
+Who Neither Has Or Expects Any Place Or Pension	1
 Who Professes To Believe The Prophecies And Doctrines Of The Bible	1
 Who Reveres The Worthy Members Of Both Courts	1
 Who Served Several Years Abroad	1
-Who Was A Spectator At Her Trial And Death And Afterwards Accompanied The Captain In His Travels Through France	1
+Who Was A Spectator At Her Trial	1
 Who Was Late A Resident In That Unhappy Town	1
 Who Was Taken In The Fleet	1
 Whytefield	1

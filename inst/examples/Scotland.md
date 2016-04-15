@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40157 documents from Scotland.
+We have 40238 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -172,7 +172,7 @@ List of authors born before 500AD:
 ##                             Akenside, Mark (1721-1770) 
 ##                                                      9 
 ##                    Albemarle, George Monck (1608-1670) 
-##                                                      5 
+##                                                      6 
 ##                             Albin, Eleazar (1713-1759) 
 ##                                                      3 
 ##                Albinus, Bernhard Siegfried (1697-1770) 
@@ -334,10 +334,8 @@ List of authors born before 500AD:
 ##                             Arderne, James (1636-1691) 
 ##                                                      1 
 ##                 Argyll, Archibald Campbell (1629-1685) 
-##                                                      2 
+##                                                      4 
 ##                 Argyll, Archibald Campbell (1682-1761) 
-##                                                      2 
-##         Argyll, Archibald Campbell Earl Of (1629-1685) 
 ##                                                      2 
 ##                 Argyll, Elizabeth Campbell (1659-1735) 
 ##                                                      2 
@@ -1302,7 +1300,7 @@ List of authors born before 500AD:
 ##                      Cairncross, Alexander (1637-1701) 
 ##                                                      1 
 ##                               Cairns, Alison (1774-NA) 
-##                                                      1 
+##                                                      2 
 ##                          Cairns, Elizabeth (1685-1741) 
 ##                                                      3 
 ##              Caithness, Alexander Sinclair (1685-1765) 
@@ -1312,7 +1310,7 @@ List of authors born before 500AD:
 ##                             Calamy, Edmund (1600-1666) 
 ##                                                      2 
 ##                             Calder, Robert (1658-1723) 
-##                                                     18 
+##                                                     19 
 ##                          Calderwood, David (1575-1650) 
 ##                                                      4 
 ##                            Caldwell, James (1580-1616) 
@@ -1954,7 +1952,7 @@ List of authors born before 500AD:
 ##                           Crommelin, Louis (1652-1727) 
 ##                                                      1 
 ##                           Cromwell, Oliver (1599-1658) 
-##                                                      5 
+##                                                      6 
 ##                        Crookshank, William (1712-1769) 
 ##                                                      7 
 ##                            Crosbie, Andrew (1735-1785) 
@@ -2198,6 +2196,8 @@ List of authors born before 500AD:
 ##                              Denina, Carlo (1731-1813) 
 ##                                                      2 
 ##                              Denon, Vivant (1747-1825) 
+##                                                      1 
+##                     Derby, Charles Stanley (1628-1672) 
 ##                                                      1 
 ##                                  Derham, W (1657-1735) 
 ##                                                     14 
@@ -2524,7 +2524,7 @@ List of authors born before 500AD:
 ##                 Dundonald, Thomas Cochrane (1702-1737) 
 ##                                                      3 
 ##                Dundonald, William Cochrane (1729-1758) 
-##                                                      1 
+##                                                      2 
 ##                          Dunlop, Alexander (1684-1747) 
 ##                                                     10 
 ##                               Dunlop, John (1755-1820) 
@@ -2836,7 +2836,7 @@ List of authors born before 500AD:
 ##                              Firmin, Giles (1614-1697) 
 ##                                                      1 
 ##                             Fisher, Edward (1627-1655) 
-##                                                     18 
+##                                                     19 
 ##                              Fisher, James (1697-1775) 
 ##                                                     19 
 ##                                Fisher, James (1759-NA) 
@@ -2934,7 +2934,7 @@ List of authors born before 500AD:
 ##                              Fordyce, John (1716-1760) 
 ##                                                      3 
 ##                           Fordyce, William (1724-1792) 
-##                                                      6 
+##                                                      7 
 ##                                 Formey, NA (1711-1797) 
 ##                                                      3 
 ##                             Forrester, David (1679-NA) 
@@ -2984,7 +2984,7 @@ List of authors born before 500AD:
 ##                             Fowler, Thomas (1736-1801) 
 ##                                                      1 
 ##                            Fowler, William (1560-1612) 
-##                                                     10 
+##                                                     11 
 ##                         Fox, Charles James (1749-1806) 
 ##                                                      2 
 ##                           Foxcroft, Thomas (1697-1769) 
@@ -3236,7 +3236,7 @@ List of authors born before 500AD:
 ##                               Girvin, John (1734-1804) 
 ##                                                      2 
 ##                                 Glas, John (1695-1773) 
-##                                                     41 
+##                                                     43 
 ##                             Glasse, Hannah (1708-1770) 
 ##                                                      6 
 ##                           Glassford, Henry (1764-1819) 
@@ -3248,6 +3248,8 @@ List of authors born before 500AD:
 ##                              Gleig, George (1757-1835) 
 ##                                                      2 
 ##                Glencairn, James Cunningham (1749-1791) 
+##                                                      1 
+##              Glencairn, William Cunningham (1610-1664) 
 ##                                                      1 
 ##              Glencairn, William Cunningham (1610-1775) 
 ##                                                      4 
@@ -3412,7 +3414,7 @@ List of authors born before 500AD:
 ##                             Graham, Magdalen (1769-NA) 
 ##                                                      1 
 ##                             Graham, Robert (1735-1797) 
-##                                                      6 
+##                                                      7 
 ##                            Graham, William (1715-1783) 
 ##                                                      3 
 ##                            Graham, William (1737-1801) 
@@ -3556,7 +3558,7 @@ List of authors born before 500AD:
 ##                             Guthrie, Henry (1600-1676) 
 ##                                                      1 
 ##                             Guthrie, James (1612-1661) 
-##                                                     12 
+##                                                     13 
 ##                              Guthrie, John (1632-1669) 
 ##                                                      5 
 ##                           Guthrie, William (1620-1665) 
@@ -3742,6 +3744,8 @@ List of authors born before 500AD:
 ##                           Hamilton, Robertus (1738-NA) 
 ##                                                      1 
 ##                           Hamilton, Thomas (1675-1749) 
+##                                                      1 
+##                          Hamilton, William (1616-1651) 
 ##                                                      1 
 ##                          Hamilton, William (1669-1732) 
 ##                                                      1 
@@ -4614,7 +4618,7 @@ List of authors born before 500AD:
 ##                               Lambe, Charles (1679-NA) 
 ##                                                      1 
 ##                              Lambert, John (1619-1683) 
-##                                                      2 
+##                                                      3 
 ##                              Lamont, David (1752-1837) 
 ##                                                      4 
 ##                                 Lamont, Jean (1727-NA) 
@@ -4793,6 +4797,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                             Ligertwood, John (1753-NA) 
 ##                                                      1 
+##                           Lilburne, Robert (1613-1665) 
+##                                                      5 
 ##                     Lilie, Wilhelm Gottlob (1751-1804) 
 ##                                                      1 
 ##                              Lillo, George (1693-1739) 
@@ -4871,6 +4877,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                           Lockhart, George (1700-1764) 
 ##                                                      7 
+##                          Lockyer, Nicholas (1611-1685) 
+##                                                      1 
 ##                              Logan, George (1678-1755) 
 ##                                                     16 
 ##                                Logan, George (1742-NA) 
@@ -5446,7 +5454,7 @@ List of authors born before 500AD:
 ##                           Melville, Andrew (1545-1622) 
 ##                                                      2 
 ##                           Melville, George (1634-1707) 
-##                                                      1 
+##                                                      2 
 ##                     Melville, Henry Dundas (1742-1811) 
 ##                                                      7 
 ##                            Melville, James (1535-1617) 
@@ -5762,7 +5770,7 @@ List of authors born before 500AD:
 ##                           Mortimer, Thomas (1730-1810) 
 ##                                                      1 
 ##                                Morton, James (1780-NA) 
-##                                                      1 
+##                                                      3 
 ##                      Morton, James Douglas (1652-1715) 
 ##                                                      1 
 ##                      Morton, James Douglas (1702-1768) 
@@ -6062,7 +6070,7 @@ List of authors born before 500AD:
 ##                                 Owen, Hugo (1707-1764) 
 ##                                                      1 
 ##                                 Owen, John (1616-1683) 
-##                                                     46 
+##                                                     47 
 ##                     Pagett, Thomas Catesby (1689-1742) 
 ##                                                      1 
 ##                              Paine, Thomas (1737-1809) 
@@ -6257,6 +6265,8 @@ List of authors born before 500AD:
 ##                                                      2 
 ##                          Pitt, Christopher (1699-1748) 
 ##                                                      2 
+##                          Pittilloh, Robert (1621-1698) 
+##                                                      1 
 ##                            Playfair, James (1738-1819) 
 ##                                                      1 
 ##                            Playfair, James (1755-1794) 
@@ -6762,7 +6772,7 @@ List of authors born before 500AD:
 ##                             Rowe, Nicholas (1674-1718) 
 ##                                                     35 
 ##                                  Row, John (1598-1672) 
-##                                                      3 
+##                                                      4 
 ##       Roxburghe, James Norcliffe-innes Ker (1735-1823) 
 ##                                                      1 
 ##                        Roxburghe, John Ker (1740-1804) 
@@ -6992,7 +7002,7 @@ List of authors born before 500AD:
 ##                      Scudéry, Madeleine De (1607-1701) 
 ##                                                      1 
 ##                Seaforth, Kenneth Mackenzie (1661-1701) 
-##                                                      2 
+##                                                      3 
 ##                             Secker, Thomas (1693-1768) 
 ##                                                      2 
 ##                             Seed, Jeremiah (1700-1747) 
@@ -7076,7 +7086,7 @@ List of authors born before 500AD:
 ##                           Sherlock, Thomas (1678-1761) 
 ##                                                      7 
 ##                          Sherlock, William (1641-1707) 
-##                                                     29 
+##                                                     30 
 ##                         Shields, Alexander (1660-1700) 
 ##                                                     24 
 ##                           Shippen, William (1736-1808) 
@@ -7142,7 +7152,7 @@ List of authors born before 500AD:
 ##                        Sinclair, Archibald (1664-1719) 
 ##                                                      7 
 ##                           Sinclair, George (1797-1696) 
-##                                                     12 
+##                                                     13 
 ##                           Sinclair, George (1797-1770) 
 ##                                                      8 
 ##                             Sinclair, George (1797-NA) 
@@ -7352,7 +7362,7 @@ List of authors born before 500AD:
 ##                              Stacy, Edmund (1710-1715) 
 ##                                                      2 
 ##                   Stafford, William Howard (1614-1680) 
-##                                                      1 
+##                                                      2 
 ##                     Stair, James Dalrymple (1619-1695) 
 ##                                                      6 
 ##                      Stair, John Dalrymple (1648-1707) 
@@ -7409,6 +7419,8 @@ List of authors born before 500AD:
 ##                                                      1 
 ##                           Sterne, Laurence (1713-1768) 
 ##                                                      5 
+##                              Sterry, Peter (1613-1672) 
+##                                                      1 
 ##                           Steuart, Charles (1756-1821) 
 ##                                                      3 
 ##                             Steuart, David (1747-1824) 
@@ -8256,7 +8268,7 @@ List of authors born before 500AD:
 ##                                 Willis, John (1734-NA) 
 ##                                                      1 
 ##                             Willison, John (1680-1750) 
-##                                                    154 
+##                                                    155 
 ##                            Willis, William (1748-1827) 
 ##                                                      5 
 ##                                Will, James (1760-1818) 
@@ -8437,7 +8449,7 @@ List of authors born before 500AD:
 ##                                                      1
 ```
 
-We have 15699 documents from 4185 unique
+We have 15733 documents from 4191 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -8550,7 +8562,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34446 documents from Scotland and 204977 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34459 documents from Scotland and 204977 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
@@ -8636,7 +8648,7 @@ We have 34446 documents from Scotland and 204977 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 5933 rows containing missing values (geom_point).
+## Warning: Removed 5942 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)

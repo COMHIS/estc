@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	220558	
+Total count: 	220565	
 [London	London	55318
 [London]	London	21065
 [London?	London	15272
@@ -344,7 +344,7 @@ Danbury [Conn.]	Danbury Ct	35
 [Rouen]	Rouen	34
 Printed at Dublin	Dublin	34
 Printiedig yn Llundain	London	34
-Printed at Leith	Leith	34
+Printed at Leith	Edinburgh	34
 Worcester, (Massachusetts)	Worcester Ma	34
 [Southwark]	London	34
 [Baltimore]	Baltimore Md	33
@@ -559,7 +559,7 @@ Re-printed at Edinburgh	Edinburgh	18
 [Lewes?	Lewes	18
 [Paris?]	Paris	18
 [Hereford?	Hereford	18
-[Leith]	Leith	18
+[Leith]	Edinburgh	18
 South-Carolina: Charles-Town	Charleston SC	17
 Newbury-port [Mass.]	Newburyport Ma	17
 Chambersburg [Pa.]	Chambersburg Pa	17
@@ -919,8 +919,9 @@ A Londres [i.e. France?]	Paris	9
 [Strasbourg	Strasbourg	9
 [Emprynted at London	London	9
 Imprinted at Oxford	Oxford	9
-[Leith?	Leith	9
+[Leith?	Edinburgh	9
 A Amsterdam	Amsterdam	9
+Leith	Edinburgh	9
 Cologne [i.e. London]	London	9
 Londn [sic]	London	9
 [Netherlands?	Amsterdam	9
@@ -1420,7 +1421,7 @@ At Bruxelles	Brussels	5
 [Aberdene	Aberdeen	5
 Edinburgh printed	Edinburgh	5
 Printed at Aberdene	Aberdeen	5
-[Leith	Leith	5
+[Leith	Edinburgh	5
 Printed at Roüen	Rouen	5
 Lovanii	Leuven	5
 Printiedig yn Rhydychen [i.e. Oxford]	Oxford	5
@@ -1522,7 +1523,7 @@ Germantown, in Pennsylvania	Germantown Pa	4
 [New London]	New London Ct	4
 London [i.e., Boston]	Boston	4
 [New York State?	York (Ambiguous)	4
-United States of Columbia. Printed at Worcester, Massachusetts	Worcester Ma	4
+United States of Columbia. Printed at Worcester, Massachusetts	Columbia worcester massachusetts	4
 United States of America. Printed at the press in Worcester, Massachusetts	Worcester Ma	4
 [Carlisle, Pa.	Carlisle Pa	4
 [Woodbridge, N.J.?	Woodbridge NJ	4
@@ -3012,7 +3013,7 @@ In the Savoy [i.e., London]	London	2
 Argraphwŷd yn y Mwŷthig	Amwythig	2
 Eleutheropoli [i.e. Amsterdam?]	Amsterdam	2
 Paris printed	Paris	2
-[Leith?]	Leith	2
+[Leith?]	Edinburgh	2
 [Boston [Mass.]	Boston Ma	2
 Imprime a Paris	Paris	2
 Printed at Antwerpen [i.e. London	London	2
@@ -4178,7 +4179,6 @@ Imprime a Boston en la Nouuelle Angleterre	Boston	1
 Apud Pittsfield [Mass.]	Boston Ma	1
 [Dresden Vt.; i.e., Hanover, N.H.]	Hannover NH	1
 Printed in New-York	New York NY	1
-District of Columbia	Columbia	1
 Printed in New-Haven.	New Haven Ma	1
 Newport, (Rhode-Island)	Newport RI	1
 Charleston (S.C.)	Charleston SC	1
@@ -7362,7 +7362,7 @@ London: printed for J. Johnson	London	1
 A Brintiwyd yn Llundain ir Awdwr	London	1
 London :printed by T. Moore in White-Fryers	London	1
 [Imprint]ed at London	London	1
-[[Leith] Printed at London, and re-printed at Leith	Leith	1
+[[Leith] Printed at London, and re-printed at Leith	Edinburgh	1
 [London or Oxford?]	London	1
 Printed in the Hagh	The Hague	1
 Tot Amsteldam	Amsterdam	1
@@ -7468,12 +7468,11 @@ Anwerpe [i.e. Antwerp]	Antwerp	1
 Printed in Edinburgh [i.e. London]	London	1
 Gedrukt zu Edenburg in Schottland	Edinburgh	1
 Lugduni-Batavorum	Leiden	1
-Na de copy van Schotland	Copy van schotland	1
 [[Edinburgh?]	Edinburgh	1
 Gedrukt tot Edenburg in Schotland	Edinburgh	1
 [Amsterdam, i.e. London]	London	1
 Neomagi	Nijmegen	1
-[Leith] Printed at Leith	Leith	1
+[Leith] Printed at Leith	Edinburgh	1
 [Cambridge (Mass.)	Cambridge Ma	1
 Tet Londen	London	1
 [Holy-Rood-House	Edinburgh	1
@@ -7706,7 +7705,7 @@ In Londar [i.e. Geneva?]	Geneva	1
 Warsaw [i.e. London]	London	1
 Cantabrigi	Cambridge (Ambiguous)	1
 Bovlongne	Bologna	1
-At Leith	Leith	1
+At Leith	Edinburgh	1
 Deepe [i.e. Dieppe]	Dieppe	1
 At Douay in Flanders	Douai	1
 [Saint-Germain-en-Laye	Saint-Germain-en-Laye	1
@@ -8000,7 +7999,7 @@ Alnwick [England]	Alnwick	1
 Stockton [Stockton-on-Tees, England]	Stockton	1
 [Madras, India]	Madras India	1
 London [and Birmingham, England]	London	1
-[Leith, Scotland]	Leith	1
+[Leith, Scotland]	Edinburgh	1
 Gloucester [England]	Gloucester England	1
 Nottingham, [England]	Nottingham	1
 [Florence] M'Cartie, printer, Tralee	Florence	1

@@ -17,7 +17,7 @@ output: markdown_document
 [Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) 
 
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 54669 unique authors and 282738 documents with unambiguous author information (59%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 54464 unique authors and 282774 documents with unambiguous author information (59%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 

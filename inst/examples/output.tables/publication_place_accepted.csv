@@ -139,7 +139,7 @@ Bridport	England	     7
 Brigg	England	     2
 Brighton	England	    15
 Bristol	England	  1789
-Bristol NY	NA	     1
+Bristol NY	USA	     1
 Bromley	England	     4
 Brookfield Ma	USA	    32
 Brookville Pa	USA	     4
@@ -238,8 +238,8 @@ Colchester	England	   119
 Coleraine	Northern Ireland	     1
 Cologne	Germany	    49
 Colombo	Sri Lanka	     2
-Columbia	NA	     1
 Columbia SC	USA	    18
+Columbia worcester massachusetts	NA	     4
 Concord	USA	     7
 Concord Ma	USA	     5
 Concord NH	USA	    76
@@ -247,7 +247,6 @@ Congleton	England	    23
 Constance	Germany	     1
 Cooperstown NY	USA	    13
 Copenhagen	Denmark	    36
-Copy van schotland	NA	     1
 Cork	Ireland	   722
 Coventry	England	   499
 Coxheath	England	     1
@@ -293,7 +292,7 @@ Dort	Netherlands	    18
 Douai	France	   240
 Douglas	Isle of Man	    18
 Dover	England	    13
-Dover De	NA	     5
+Dover De	USA	     5
 Dover NH	USA	    58
 Downham	England	     1
 Downpatrick	Ireland	   135
@@ -325,7 +324,7 @@ East grinstead	England	     1
 Easton Pa	USA	    10
 Edenhall	England	     1
 Edenton NC	USA	    43
-Edinburgh	Scotland	 31991
+Edinburgh	Scotland	 32072
 Egham	England	    18
 Elbingen	Germany	     1
 Elgin	Scotland	     1
@@ -419,7 +418,7 @@ Gouda	Netherlands	     7
 Grantham	England	    10
 Gravesend	England	    13
 Great marlow	England	     2
-Great Yarnmouth	NA	     2
+Great Yarnmouth	England	     2
 Greenfield	England	     7
 Greenfield Ma	USA	    36
 Greenlaw	Scotland	     1
@@ -441,7 +440,7 @@ Hallowell Me	USA	    25
 Hamburg	Germany	   151
 Hamilton	USA	    19
 Hanau	Germany	     8
-Hannover	NA	     6
+Hannover	Germany	     6
 Hannover NH	USA	    55
 Hannover Pa	USA	     4
 Hanover	Germany	    14
@@ -494,7 +493,7 @@ Hungerford	England	     5
 Huntingdon	England	    39
 Hwlffordd	England	     6
 Ilminster	England	     2
-Inis Córthaidh	NA	     1
+Inis Córthaidh	Ireland	     1
 Inishmacadurn	Ireland	     2
 Inverary	Scotland	     1
 Inverlochie	Scotland	     1
@@ -560,7 +559,6 @@ Leeuwarden	Netherlands	     1
 Leicester	England	   176
 Leiden	Netherlands	   110
 Leipzig	Germany	   122
-Leith	NA	    81
 Lemgo	Germany	     1
 Leominster	England	    19
 Leominster Ma	USA	    62
@@ -708,7 +706,7 @@ Northampton Ma	USA	    62
 North shields	England	    25
 Northumberland Pa	USA	    12
 Northwich	England	     1
-North Yarmouth Me	NA	     1
+North Yarmouth Me	USA	     1
 Norton	England	     6
 Norton fitzwarren	England	     1
 Norwich	England	   947
@@ -984,7 +982,7 @@ Wakefield	England	    63
 Walpole NH	USA	    45
 Walsall	England	     9
 Waltham	England	     3
-Waltham Saint Lawrence	NA	     1
+Waltham Saint Lawrence	England	     1
 Wantage	England	     1
 Wargrave	England	     2
 Warminster	England	     6
@@ -1041,7 +1039,7 @@ Wolverhampton	England	   147
 Woodbridge NJ	USA	   115
 Worcester	Ambiguous	   453
 Worcester England	England	     3
-Worcester Ma	USA	   469
+Worcester Ma	USA	   465
 Workington	England	     6
 Worms	Germany	     2
 Wotton-under-Edge	England	     9
@@ -1052,7 +1050,7 @@ Yarmouth	England	    98
 Y Bont-faen	England	     2
 Yeovil	England	     4
 York (Ambiguous)	Ambiguous	  1758
-York Canada	NA	     4
+York Canada	Canada	     4
 York England	England	    16
 York Pa	USA	    48
 York Pe	USA	     1
@@ -1064,4 +1062,4 @@ Zittau	Germany	     1
 Zürich	Germany	    22
 Zutphen	Netherlands	     2
 Zweibrücken	Germany	     1
-NA	NA	  2518
+NA	NA	  2520

@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 17329 documents and updated (changed) for 8323 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 17330 documents and updated (changed) for 8323 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -69,22 +69,24 @@ Multi-volume documents average page counts are given per volume.
 
 |doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|2fo           |               516.07|                    528|          59|              406.54|                500.00|       1359|            17.93|                 14|   25202|
-|4to           |               425.15|                    492|          47|               72.67|                 20.00|        895|            21.42|                 20|   59685|
-|8vo           |               438.65|                    460|         469|              284.24|                290.00|       7336|            28.37|                 28|   68255|
-|12long        |               408.00|                    408|           1|               44.40|                 24.00|          6|            24.23|                 24|     133|
-|12mo          |               290.77|                    288|         338|              156.94|                155.17|       6903|            25.67|                 24|   16865|
-|16mo          |               192.40|                    100|           5|              284.45|                292.00|         49|            25.97|                 28|     475|
-|18mo          |               302.67|                    328|          21|              196.89|                201.00|        261|            32.45|                 36|     220|
-|24mo          |                74.67|                     48|           3|              270.75|                270.75|         59|            31.11|                 24|     666|
-|32mo          |                64.00|                     64|           1|                 NaN|                    NA|          1|            31.39|                 32|     199|
-|64mo          |               128.00|                    128|           1|              147.17|                147.00|          7|            30.00|                 32|      30|
-|NA            |                94.00|                     94|           1|               15.68|                 12.88|        247|            24.00|                 23|    3716|
-|2long         |                   NA|                     NA|          NA|               22.00|                 22.00|          5|            21.92|                 22|      13|
-|8long         |                   NA|                     NA|          NA|                1.33|                  1.33|          1|            20.00|                 16|       4|
-|4long         |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            22.25|                 20|       8|
-|24long        |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            40.93|                 44|      15|
-|48mo          |                   NA|                     NA|          NA|                  NA|                    NA|         NA|            34.00|                 32|       9|
+|1to           |                 2.00|                      2|       15901|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|2long         |                66.47|                      6|          38|               22.00|                 22.00|          5|            21.92|                 22|      13|
+|2fo           |                 -Inf|                      4|       99053|              406.54|                500.00|       1359|            17.93|                 14|   25202|
+|4long         |                18.41|                      4|          22|                  NA|                    NA|         NA|            22.25|                 20|       8|
+|4to           |                 -Inf|                     24|      102049|               72.67|                 20.00|        895|            21.42|                 20|   59685|
+|8long         |               179.58|                    234|          41|                1.33|                  1.33|          1|            20.00|                 16|       4|
+|8vo           |                 -Inf|                     62|      167850|              284.24|                290.00|       7336|            28.37|                 28|   68255|
+|12long        |                99.23|                     48|         266|               44.40|                 24.00|          6|            24.58|                 24|     135|
+|12mo          |                 -Inf|                    144|       70801|              156.94|                155.17|       6903|            25.67|                 24|   16865|
+|16long        |               200.00|                    200|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
+|16mo          |               177.66|                    104|        2377|              284.45|                292.00|         49|            25.97|                 28|     475|
+|18mo          |                 -Inf|                    168|        2010|              196.89|                201.00|        261|            32.45|                 36|     220|
+|24long        |               163.27|                     96|          82|                  NA|                    NA|         NA|            40.93|                 44|      15|
+|24mo          |               170.13|                     96|        1872|              270.75|                270.75|         59|            29.12|                 24|     596|
+|32mo          |               133.31|                     80|         749|                 NaN|                    NA|          1|            31.39|                 32|     199|
+|48mo          |               131.05|                     82|          23|                  NA|                    NA|         NA|            34.00|                 32|       9|
+|64mo          |               131.88|                     52|         129|              147.17|                147.00|          7|            30.00|                 32|      30|
+|NA            |                34.46|                      2|       16995|               15.68|                 12.88|        247|            24.00|                 23|    3716|
 
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
