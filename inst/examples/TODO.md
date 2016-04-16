@@ -24,6 +24,9 @@
   * Try rOpenSci/GenderizeR R package and also [babynames
     package](https://github.com/hadley/babynames)
 
+  * Erota pseudonyymeistä (extdata/pseudonymes.csv) organisaatiot
+    omaan listaansa. Lisäksi mieti harmonisointia (wel-wisher /
+    well-wisher / wel wisher .. ?)
 
 ### Analysis
 
