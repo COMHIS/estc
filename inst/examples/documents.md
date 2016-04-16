@@ -31,7 +31,14 @@ Top-20 titles are shown together with the number of documents. This info is avai
 
 ## Language
 
-Title count for the 20 unique languages. Some documents may have more than one language listed.
+
+Title count for the -1 unique languages. Some documents may have more than one language listed.
+
+[Accepted languages](output.tables/language_accepted.csv)
+
+[Discarded languages](output.tables/language_discarded.csv)
+
+[Language conversions](output.tables/language_conversion_nontrivial.csv)  
 
 [Unrecognized language entries](output.tables/language_unidentified.csv)  
 
