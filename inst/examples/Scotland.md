@@ -52,7 +52,7 @@ List of authors born before 500AD:
 ## < table of extent 0 >
 ```
 
-We have 15722 documents from 0 unique
+We have 0 documents from 0 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -248,28 +248,19 @@ We have 34459 documents from Scotland and 204977 documents from London during 17
 
 ## Comparing selected authors
 
-
-```
-## Warning in min(x): no non-missing arguments to min; returning Inf
-```
-
-```
-## Warning in max(x): no non-missing arguments to max; returning -Inf
-```
-
-```
-## Error in seq.default(from = best$lmin, to = best$lmax, by = best$lstep): 'from' must be of length 1
-```
-
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Error in seq.default(from = best$lmin, to = best$lmax, by = best$lstep): 'from' must be of length 1
+## Warning: Removed 5942 rows containing missing values (geom_point).
 ```
 
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
+
 ```
-## Error in seq.default(from = best$lmin, to = best$lmax, by = best$lstep): 'from' must be of length 1
+## Warning: Removed 954 rows containing missing values (geom_point).
 ```
+
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
 
 ## Authors from different periods publishing in 1750-1799
 

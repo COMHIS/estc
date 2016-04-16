@@ -17,7 +17,7 @@ output: markdown_document
 
 
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 19661 unique authors and 45071 documents with unambiguous author information (59%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 54456 unique authors and 282774 documents with unambiguous author information (59%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
@@ -38,7 +38,7 @@ Ordered by productivity (number of documents))
 
 
 ```
-## Error in if (zero_range(from) || zero_range(to)) {: missing value where TRUE/FALSE needed
+## Error in seq.default(from = best$lmin, to = best$lmax, by = best$lstep): 'from' must be of length 1
 ```
 
 ![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png)
