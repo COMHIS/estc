@@ -42,6 +42,11 @@ We have 40238 documents from Scotland.
 
 Authors born before 500 AD: paper consumption per decade in Scotland and globally. Top-10 authors shown for clarity in each case.
 
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
 ![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)
 
 
@@ -49,10 +54,12 @@ List of authors born before 500AD:
 
 
 ```
-## < table of extent 0 >
+## 
+##      Aelian, NA (3-NA) Hierocles, NA (430-NA)    Longinus, NA (1-NA) 
+##                      1                      2                      6
 ```
 
-We have 0 documents from 0 unique
+We have 9 documents from 3 unique
 authors born before 500 AD who have published in Scotland.
 
 
