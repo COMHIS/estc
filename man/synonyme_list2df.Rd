@@ -2,7 +2,7 @@
 % Please edit documentation in R/synonyme_list2df.R
 \name{synonyme_list2df}
 \alias{synonyme_list2df}
-\title{synonyme_list2df}
+\title{Synonyme list to data.frame}
 \usage{
 synonyme_list2df(synonyme.list, sep = ",", include.lowercase = FALSE)
 }
@@ -17,7 +17,7 @@ synonyme_list2df(synonyme.list, sep = ",", include.lowercase = FALSE)
 data.frame
 }
 \description{
-Synonyme list to data.frame
+Synonyme list to data.frame.
 }
 \examples{
 # TODO

@@ -1,18 +1,11 @@
 #' @title Polish publisher 
 #' @description Polish publisher field separating for/by
-#'
 #' @param x Publisher vector
 #' @return Polished vector
-#'
 #' @export
-#' @importFrom sorvi condense_spaces
-#' @importFrom sorvi harmonize_names
-#' @importFrom bibliographica harmonize_print_statements
-#' @details Polish publisher field. 
-#' 
+#' @details Polish publisher field.  
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
-#' 
+#' @references See citation("estc")
 #' @examples # polish_publisher("printed and sold by R. Marchbank")
 #' @keywords utilities
 polish_publisher_forby <- function (x) {

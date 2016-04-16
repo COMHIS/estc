@@ -4,7 +4,6 @@
 #' @param field field names
 #' @return fields
 #' @export
-#' @importFrom sorvi condense_spaces
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc") 
 #' @examples \dontrun{x2 <- pick_print_fields(x, field)}

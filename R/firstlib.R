@@ -1,3 +1,8 @@
+#' @importFrom bibliographica condense_spaces
+#' @importFrom bibliographica harmonize_names
+#' @importFrom bibliographica harmonize_print_statements
+#' @importFrom bibliographica read_synonymes
+#' @importFrom bibliographica check_synonymes
 #' @importFrom stringr str_trim
 #' @import dplyr
 #' @import ggplot2

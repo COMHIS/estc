@@ -3,8 +3,6 @@
 #' @param x A character vector
 #' @return Polished vector
 #' @export
-#' @importFrom sorvi harmonize_names
-#' @importFrom sorvi read_synonymes
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
 #' @examples # harmonize_pages_specialcases("Caption title 2")

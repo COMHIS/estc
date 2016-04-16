@@ -1,8 +1,8 @@
 Package: estc
 Type: Package
 Title: British Library ESTC Document Collection Toolkit
-Version: 0.1.40
-Date: 2016-03-28
+Version: 0.1.41
+Date: 2016-04-16
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
     person("Ilomaki", "Niko" , role = "aut"),
@@ -16,10 +16,9 @@ BugReports: https://github.com/ropengov/estc/issues
 URL: http://ropengov.github.com/estc
 Depends:
     R (>= 3.0.2),
-    stringr,
-    sorvi
+    bibliographica,    
+    stringr
 Imports:
-    bibliographica,
     ggplot2,
     dplyr
 Suggests:

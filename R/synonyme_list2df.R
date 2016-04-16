@@ -1,11 +1,10 @@
-#' @title synonyme_list2df
-#' @description Synonyme list to data.frame
+#' @title Synonyme list to data.frame
+#' @description Synonyme list to data.frame.
 #' @param synonyme.list synonyme list 
 #' @param sep separator
 #' @param include.lowercase include lowercase
 #' @return data.frame
 #' @export
-#' @importFrom sorvi check_synonymes
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
 #' @examples # TODO

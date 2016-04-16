@@ -25,7 +25,7 @@ Polish publisher field.
 Leo Lahti \email{leo.lahti@iki.fi}
 }
 \references{
-See citation("bibliographica")
+See citation("estc")
 }
 \keyword{utilities}
 

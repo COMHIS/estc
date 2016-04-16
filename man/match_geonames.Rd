@@ -15,7 +15,7 @@ match_geonames(places, geonames)
 Geonames names
 }
 \description{
-Match place names to geonames database
+Match place names to geonames database.
 }
 \examples{
 # TODO

@@ -1,9 +1,9 @@
-#' Match place names to geonames database
+#' @title Match place names to geonames database
+#' @description Match place names to geonames database.
 #' @param places Vector of place names to match
 #' @param geonames Geonames table
 #' @return Geonames names
 #' @export
-#' @importFrom sorvi harmonize_names
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("estc")
 #' @examples # TODO
