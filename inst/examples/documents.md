@@ -1,7 +1,7 @@
 ---
 title: "Generic document summaries"
 author: "Leo Lahti"
-date: "2016-04-16"
+date: "2016-04-18"
 output: markdown_document
 ---
 
@@ -32,7 +32,7 @@ Top-20 titles are shown together with the number of documents. This info is avai
 ## Language
 
 
-Title count for the -1 unique languages. Some documents may have more than one language listed.
+Title count for the 50 unique languages. Some documents may have more than one language listed.
 
 [Accepted languages](output.tables/language_accepted.csv)
 
