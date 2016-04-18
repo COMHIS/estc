@@ -83,7 +83,7 @@ print(p)
 ```
 
 
-```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=4, out.width="800px"}
+```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="800px"}
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
