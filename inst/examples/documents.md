@@ -35,9 +35,9 @@ Statistics:
 
  * 48 unique languages
  * 279 docs with multiple languages
- * 10 docs (0) with no recognized language 
+ * 63 docs (0.01%) with no recognized language 
  
-[Language conversions](output.tables/language_conversion.csv) Language codes as in [marc database](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv)
+[Language conversions](output.tables/language_conversions.csv) Language codes as in [marc database](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv)
 
 [Discarded languages](output.tables/language_discarded.csv)
 
