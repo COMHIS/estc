@@ -32,6 +32,6 @@ output: markdown_document
 
 ### Publisher timelines
 
-<img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="600px" />
+<img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="800px" />
 
 
