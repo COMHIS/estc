@@ -31,16 +31,17 @@ Top-20 titles are shown together with the number of documents. This info is avai
 
 ## Language
 
+Statistics:
 
-Title count for the 50 unique languages. Some documents may have more than one language listed.
-
-[Accepted languages](output.tables/language_accepted.csv)
+ * 48 unique languages
+ * 279 docs with multiple languages
+ * 10 docs (0) with no recognized language 
+ 
+[Language conversions](output.tables/language_conversion.csv) Language codes as in [marc database](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv)
 
 [Discarded languages](output.tables/language_discarded.csv)
 
-[Language conversions](output.tables/language_conversion_nontrivial.csv)  
-
-[Unrecognized language entries](output.tables/language_unidentified.csv)  
+Title count per language:
 
 ![plot of chunk summarylang](figure/summarylang-1.png)
 

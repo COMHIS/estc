@@ -1,5 +1,7 @@
 ## TODO
 
+
+
 ### Technical
 
   * Nimien klusterointi esikäsittelynä ja VIAFin käyttö HR kanssa.

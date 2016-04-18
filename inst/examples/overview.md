@@ -42,14 +42,14 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_birth                            |        59.2|          40.8|        196512|        468|
 |author_death                            |        56.1|          43.9|        211267|        517|
 |author_date                             |        54.3|          45.7|        220096|      16084|
-|self_published                          |        51.8|          48.2|        232008|          3|
+|self_published                          |        51.8|          48.2|        232010|          3|
 |author_gender                           |        50.5|          49.5|        238324|          3|
 |subject_topic                           |        44.9|          55.1|        265148|      55731|
 |author_name                             |        41.2|          58.8|        282773|      47979|
 |author                                  |        41.2|          58.8|        282773|      54435|
-|publisher                               |        24.3|          75.7|        364231|     169608|
-|latitude                                |        12.4|          87.6|        421519|         18|
-|longitude                               |        12.4|          87.6|        421519|         18|
+|publisher                               |        24.3|          75.7|        364235|     169608|
+|latitude                                |        12.4|          87.6|        421518|         18|
+|longitude                               |        12.4|          87.6|        421518|         18|
 |pagecount.orig                          |         3.6|          96.4|        463650|       1488|
 |obl                                     |         3.5|          96.5|        464209|          3|
 |paper.consumption.km2                   |         2.3|          97.7|        470012|       6734|
@@ -57,13 +57,14 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                                  |         2.3|          97.7|        470237|         95|
 |area                                    |         2.3|          97.7|        470237|        629|
 |physical_dimension                      |         1.0|          99.0|        476507|       2226|
-|country                                 |         0.5|          99.5|        478678|         56|
-|publication_place                       |         0.5|          99.5|        478686|       1063|
+|country                                 |         0.5|          99.5|        478677|         56|
+|publication_place                       |         0.5|          99.5|        478686|       1064|
 |publication_year_from                   |         0.2|          99.8|        480080|        348|
 |volcount                                |         0.2|          99.8|        480259|        150|
 |document.items                          |         0.2|          99.8|        480259|        150|
 |pagecount                               |         0.0|         100.0|        480980|       1592|
 |physical_extent                         |         0.0|         100.0|        481033|     109493|
+|language                                |         0.0|         100.0|        481195|         52|
 |title                                   |         0.0|         100.0|        481203|     360647|
 |publication_time                        |         0.0|         100.0|        481205|      31870|
 |control_number                          |         0.0|         100.0|        481205|     481205|
@@ -76,7 +77,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Greek, Ancient (to 1453)       |         0.0|         100.0|        481205|          1|
 |language.Welsh                          |         0.0|         100.0|        481205|          2|
 |language.Portuguese                     |         0.0|         100.0|        481205|          2|
-|language.Multiple languages             |         0.0|         100.0|        481205|          2|
 |language.Dutch                          |         0.0|         100.0|        481205|          2|
 |language.Greek, Modern (1453-)          |         0.0|         100.0|        481205|          1|
 |language.Hebrew                         |         0.0|         100.0|        481205|          2|
@@ -96,7 +96,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Persian                        |         0.0|         100.0|        481205|          2|
 |language.French, Middle (ca. 1300-1600) |         0.0|         100.0|        481205|          1|
 |language.Newari                         |         0.0|         100.0|        481205|          2|
-|language.Undetermined                   |         0.0|         100.0|        481205|          2|
 |language.Armenian                       |         0.0|         100.0|        481205|          2|
 |language.Tamil                          |         0.0|         100.0|        481205|          2|
 |language.Icelandic                      |         0.0|         100.0|        481205|          2|
@@ -117,8 +116,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Palauan                        |         0.0|         100.0|        481205|          2|
 |language.Arawak                         |         0.0|         100.0|        481205|          2|
 |language.Scottish Gaelix                |         0.0|         100.0|        481205|          2|
-|language.mul                            |         0.0|         100.0|        481205|          2|
-|language                                |         0.0|         100.0|        481205|         52|
+|language.Multiple languages             |         0.0|         100.0|        481205|          2|
 |gatherings.original                     |         0.0|         100.0|        481205|         18|
 |obl.original                            |         0.0|         100.0|        481205|          2|
 |original_row                            |         0.0|         100.0|        481205|     481205|
