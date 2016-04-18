@@ -11,14 +11,8 @@ output: markdown_document
 
 
 
-
-
-### Shakespeare versus other publishing activity
-
 <img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="800px" />
 
-
-### Tragedy vs Comedy
 
 <img src="figure/shakespeare-tragedyvscomedy-1.png" title="plot of chunk shakespeare-tragedyvscomedy" alt="plot of chunk shakespeare-tragedyvscomedy" width="800px" />
 
