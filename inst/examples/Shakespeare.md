@@ -27,11 +27,11 @@ output: markdown_document
 ### Individual title popularity
 
 
-<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="530px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="530px" />
+<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="260px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="260px" />
 
 
 ### Publisher timelines
 
-<img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="530px" />
+<img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="600px" />
 
 
