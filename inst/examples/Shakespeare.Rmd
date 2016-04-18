@@ -32,7 +32,7 @@ rm(df)
 
 
 
-```{r shakespeare-read, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="530px"}
+```{r shakespeare-read, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="800px"}
 # Analysis of the manually polished data
 library(gdata)
 my.authors <- c(Shakespeare = "Shakespeare, William (1564-1616)",
@@ -58,7 +58,7 @@ dff <- df.preprocessed %>% filter(!author %in% my.authors)
 
 ### Shakespeare versus other publishing activity
 
-```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7, out.width="600px"}
+```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7, out.width="800px"}
 # Shakespeare / Cervantes fractions of overall title count
 # as function of time
 dfs <- df.preprocessed
@@ -89,7 +89,7 @@ print(p)
 
 ### Tragedy vs Comedy
 
-```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7, out.width="600px"}
+```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7, out.width="800px"}
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
@@ -114,7 +114,7 @@ print(p)
 ### Individual title popularity
 
 
-```{r shakespeare-titles, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.show="hold", out.width="300px", fig.height=13, fig.width=6}
+```{r shakespeare-titles, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.show="hold", out.width="400px", fig.height=13, fig.width=6}
 for (auth in names(my.authors)) {
   p <- top_plot(tabs[[auth]], "title", ntop = length(unique(tabs[[auth]]$title)))
   p <- p + ggtitle(auth) + ylab("Title count")
