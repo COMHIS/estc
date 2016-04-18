@@ -1,0 +1,147 @@
+---
+title: "Shakespeare and Cervantes"
+author: "Leo Lahti and Mikko Tolonen"
+date: "18/04/2016"
+output: markdown_document
+---
+
+```{r shakespeare-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(stringr)
+library(bibliographica)
+library(estc)
+library(magrittr)
+library(sorvi)
+library(reshape2)
+library(gridExtra)
+library(knitr)
+library(magrittr)
+
+# Read the data
+datafile.preprocessed <- "df.Rds"
+df <- readRDS(datafile.preprocessed)
+df.orig <- readRDS(datafile.orig)
+
+# Year limits
+timespan <- c(1460, 1830)
+df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
+rm(df)
+```
+
+
+
+```{r shakespeare-read, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+# Analysis of the manually polished data
+library(gdata)
+my.authors <- c(Shakespeare = "Shakespeare, William (1564-1616)",
+	        Cervantes = "Cervantes Saavedra, Miguel De (1547-1616)")
+
+# Polished Shakespeare and Cervantes
+tabs <- list()
+for (auth in names(my.authors)) {
+  tab <- read.xls(paste(auth, "_estc.xls", sep = ""))
+  inds <- grep("NOT TO BE", tab$title)
+  if (length(inds) > 0) {
+    tab <- tab[-inds,]
+  }
+  tab$publication_decade <- floor(tab$publication_year/10) * 10   
+  tabs[[auth]] <- tab
+}
+
+# Full data, excluding the selected authors
+dff <- df.preprocessed %>% filter(!author %in% my.authors)
+```
+
+
+
+### Shakespeare versus other publishing activity
+
+```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+# Shakespeare / Cervantes fractions of overall title count
+# as function of time
+dfs <- df.preprocessed
+auth <- my.authors[[1]]
+d <- NULL
+for (auth in names(my.authors)) { 
+  dfs$author2 <- dfs$author %in% my.authors[[auth]]
+  dff <- dfs %>% group_by(publication_decade) %>%
+	 summarize(freq = 100 * mean(author2, na.rm = T),
+	 	   author = auth
+	 )
+  d <- rbind(d, dff)
+}
+d$author <- factor(d$author)
+
+# Visualize timeline
+p <- ggplot(d, aes(x = publication_decade, y = freq, fill = author)) +
+       #geom_bar(stat = "identity", position = "stack", color = "black") +
+       geom_line(aes(color = author)) +       
+       xlab("Publication Decade") +
+       ylab("Fraction of Titles") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Author")) +
+       ggtitle("Publishing timeline")
+print(p)
+```
+
+
+### Tragedy vs Comedy
+
+```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+auth <- "Shakespeare"
+df <- tabs[[auth]]
+df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
+dfs <- df %>% filter(type %in% c("Tragedy", "Comedy")) %>%
+              group_by(publication_decade, type) %>%
+              tally()
+dfs$type <- factor(dfs$type, levels = c("Tragedy", "Comedy"))
+# Visualize the timeline
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = type)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Category")) +
+       ggtitle(paste(auth, "Tragedy vs. Comedy"))       
+print(p)
+```
+
+
+
+### Individual title popularity
+
+```{r shakespeare-titles, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.show="hold", out.width="230px"}
+for (auth in names(my.authors)) {
+  p <- top_plot(tabs[[auth]], "title", ntop = length(unique(dfs$title)))
+  p <- p + ggtitle(auth) + ylab("Title count")
+  print(p)
+}
+```
+
+
+### Publisher timelines
+
+```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+auth <- "Shakespeare"
+df <- tabs[[auth]]
+#top.publishers <- names(which(top(df, "publisher") >= 20))
+top.publishers <- names(top(df, "publisher", 5))
+
+dfs <- df %>% group_by(publication_decade, publisher) %>%
+              filter(publisher %in% top.publishers) %>% tally()
+
+p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = publisher)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Publisher")) +       
+       ggtitle(paste(auth, ": publisher timelines", sep = ""))       
+
+print(p)
+```
+
+

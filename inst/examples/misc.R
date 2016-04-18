@@ -1,3 +1,26 @@
+# Shakespeare / Cervantes / Other
+dfs <- df.preprocessed
+dfs$author2 <- dfs$author
+for (a in names(my.authors)) {
+  dfs$author2[which(dfs$author == my.authors[[a]])] <- a
+}
+dfs$author2[which(!dfs$author %in% my.authors)] <- "Other"
+dfs$author2 <- factor(dfs$author2, levels = c("Shakespeare", "Cervantes", "Other"))
+
+# Visualize the timeline
+theme_set(theme_bw(20))
+dff <- dfs %>% group_by(author2, publication_decade) %>%
+     	 tally() %>%
+     	 arrange(publication_decade)
+p <- ggplot(dff, aes(x = publication_decade, y = n, fill = author2)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Author")) +
+       ggtitle("Title count timeliness")
+print(p)
+
 # -------------------
 
 # LaTeX version (not using any more)
