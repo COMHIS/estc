@@ -32,7 +32,7 @@ rm(df)
 
 
 
-```{r shakespeare-read, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
+```{r shakespeare-read, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="530px"}
 # Analysis of the manually polished data
 library(gdata)
 my.authors <- c(Shakespeare = "Shakespeare, William (1564-1616)",
@@ -58,7 +58,7 @@ dff <- df.preprocessed %>% filter(!author %in% my.authors)
 
 ### Shakespeare versus other publishing activity
 
-```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
+```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="530px"}
 # Shakespeare / Cervantes fractions of overall title count
 # as function of time
 dfs <- df.preprocessed
@@ -89,7 +89,7 @@ print(p)
 
 ### Tragedy vs Comedy
 
-```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
+```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="530px"}
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
@@ -114,7 +114,7 @@ print(p)
 ### Individual title popularity
 
 
-```{r shakespeare-titles, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.show="hold", out.width="230px"}
+```{r shakespeare-titles, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.show="hold", out.width="530px"}
 for (auth in names(my.authors)) {
   p <- top_plot(tabs[[auth]], "title", ntop = length(unique(tabs[[auth]]$title)))
   p <- p + ggtitle(auth) + ylab("Title count")
@@ -125,7 +125,7 @@ for (auth in names(my.authors)) {
 
 ### Publisher timelines
 
-```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
+```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="530px"}
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 #top.publishers <- names(which(top(df, "publisher") >= 20))

@@ -15,23 +15,23 @@ output: markdown_document
 
 ### Shakespeare versus other publishing activity
 
-![plot of chunk shakespeare-versusother](figure/shakespeare-versusother-1.png)
+<img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="530px" />
 
 
 ### Tragedy vs Comedy
 
-![plot of chunk shakespeare-tragedyvscomedy](figure/shakespeare-tragedyvscomedy-1.png)
+<img src="figure/shakespeare-tragedyvscomedy-1.png" title="plot of chunk shakespeare-tragedyvscomedy" alt="plot of chunk shakespeare-tragedyvscomedy" width="530px" />
 
 
 
 ### Individual title popularity
 
 
-<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="230px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="230px" />
+<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="530px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="530px" />
 
 
 ### Publisher timelines
 
-![plot of chunk shakespeare-publisher](figure/shakespeare-publisher-1.png)
+<img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="530px" />
 
 
