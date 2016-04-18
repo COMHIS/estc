@@ -28,6 +28,9 @@ for (auth in names(my.authors)) {
 dff <- df.preprocessed %>% filter(!author %in% my.authors)
 ```
 
+
+
+
 ```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="800px"}
 # Shakespeare / Cervantes fractions of overall title count
 # as function of time
@@ -38,7 +41,8 @@ for (auth in names(my.authors)) {
   dfs$author2 <- dfs$author %in% my.authors[[auth]]
   dff <- dfs %>% group_by(publication_decade) %>%
 	 summarize(freq = 100 * mean(author2, na.rm = T),
-	 	   author = auth
+	 	   author = auth,
+		   n = sum(author2, na.rm = T)
 	 )
   d <- rbind(d, dff)
 }
@@ -47,7 +51,8 @@ d$author <- factor(d$author)
 # Visualize timeline
 p <- ggplot(d, aes(x = publication_decade, y = freq, fill = author)) +
        #geom_bar(stat = "identity", position = "stack", color = "black") +
-       geom_line(aes(color = author)) +       
+       geom_line(aes(color = author)) +
+       geom_point(aes(size = n)) +              
        xlab("Publication Decade") +
        ylab("Fraction of all titles (%)") +
        scale_fill_grey() +
