@@ -54,7 +54,7 @@ for (auth in names(my.authors)) {
 dff <- df.preprocessed %>% filter(!author %in% my.authors)
 ```
 
-```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, out.width="800px"}
+```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=3, out.width="800px"}
 # Shakespeare / Cervantes fractions of overall title count
 # as function of time
 dfs <- df.preprocessed
@@ -83,7 +83,7 @@ print(p)
 ```
 
 
-```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, out.width="800px"}
+```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=4, out.width="800px"}
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
@@ -119,7 +119,7 @@ for (auth in names(my.authors)) {
 
 ### Publisher timelines
 
-```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4, out.width="800px"}
+```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=3, out.width="800px"}
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 #top.publishers <- names(which(top(df, "publisher") >= 20))
