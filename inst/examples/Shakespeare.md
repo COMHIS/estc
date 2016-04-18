@@ -27,9 +27,7 @@ output: markdown_document
 ### Individual title popularity
 
 
-```
-## Error: Unknown column 'title'
-```
+<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="230px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="230px" />
 
 
 ### Publisher timelines
