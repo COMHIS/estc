@@ -5,32 +5,6 @@ date: "18/04/2016"
 output: markdown_document
 ---
 
-```{r shakespeare-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
-library(ggplot2)
-library(tidyr)
-library(dplyr)
-library(stringr)
-library(bibliographica)
-library(estc)
-library(magrittr)
-library(sorvi)
-library(reshape2)
-library(gridExtra)
-library(knitr)
-library(magrittr)
-
-# Read the data
-datafile.preprocessed <- "df.Rds"
-df <- readRDS(datafile.preprocessed)
-df.orig <- readRDS(datafile.orig)
-
-# Year limits
-timespan <- c(1460, 1830)
-df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
-rm(df)
-```
-
-
 
 ```{r shakespeare-read, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="800px"}
 # Analysis of the manually polished data
@@ -54,7 +28,7 @@ for (auth in names(my.authors)) {
 dff <- df.preprocessed %>% filter(!author %in% my.authors)
 ```
 
-```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=3, out.width="800px"}
+```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, out.width="800px"}
 # Shakespeare / Cervantes fractions of overall title count
 # as function of time
 dfs <- df.preprocessed

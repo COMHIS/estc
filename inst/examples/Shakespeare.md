@@ -8,9 +8,6 @@ output: markdown_document
 
 
 
-
-
-
 <img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="800px" />
 
 
