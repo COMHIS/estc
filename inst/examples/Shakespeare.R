@@ -53,3 +53,22 @@ dff <- df.preprocessed %>% filter(!author %in% my.authors)
 
 knit("Shakespeare.Rmd")
 
+TODO
+
+- Title popularity: Hamlet, Rome and Juliet, Macbeth ja Othello sekä
+  Cervantesin Don Quixote; nämä aikajanalla.
+
+- Publisher timelines. Yksi vaihtoehto olisi ehkä yhdistää myös se
+  paper consumption näihin Top Publishereihin. Tai etenkin Miten
+  Worksien julkaisijat muuttuvat ajassa.
+
+- Mukaan paperinkulutus
+
+Cervantes: Don Quixote, erityisesti CERL:
+- miten teosta julkaistiin eri maissa eri aikoina?
+- Don Quixoten julkaisemisen vertaaminen koko Euroopassa Shakespeareen
+
+Shakespeare
+- CERL: yritetään yhdistää kaikki muualla kuin englanninkielisellä
+  julkaistut teokset alkuperäisiin ja katsoa sitä kartalla.
+

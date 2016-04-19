@@ -10,23 +10,20 @@ output: markdown_document
 # Shakespeare / Cervantes fractions of overall title count
 # as function of time
 dfs <- df.preprocessed
-auth <- my.authors[[1]]
+auth <- "Shakespeare"
 d <- NULL
-for (auth in names(my.authors)) { 
   dfs$author2 <- dfs$author %in% my.authors[[auth]]
-  dff <- dfs %>% group_by(publication_decade) %>%
+  d <- dfs %>% group_by(publication_decade) %>%
 	 summarize(freq = 100 * mean(author2, na.rm = T),
 	 	   author = auth,
 		   n = sum(author2, na.rm = T)
 	 )
-  d <- rbind(d, dff)
-}
 d$author <- factor(d$author)
 
 # Visualize timeline
-p <- ggplot(d, aes(x = publication_decade, y = freq, fill = author)) +
+p <- ggplot(d, aes(x = publication_decade, y = freq)) +
        #geom_bar(stat = "identity", position = "stack", color = "black") +
-       geom_line(aes(color = author)) +
+       geom_line() +
        geom_point(aes(size = n)) +              
        xlab("Publication Decade") +
        ylab("Fraction of all titles (%)") +
@@ -41,10 +38,11 @@ print(p)
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
-dfs <- df %>% filter(type %in% c("Tragedy", "Comedy")) %>%
+types = c("Tragedy", "Comedy", "History")
+dfs <- df %>% filter(type %in% types) %>%
               group_by(publication_decade, type) %>%
               tally()
-dfs$type <- factor(dfs$type, levels = c("Tragedy", "Comedy"))
+dfs$type <- factor(dfs$type, levels = types)
 # Visualize the timeline
 theme_set(theme_bw(20))
 p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = type)) +
@@ -53,7 +51,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = type)) +
        ylab("Title Count") +
        scale_fill_grey() +
        guides(fill = guide_legend("Category")) +
-       ggtitle(paste(auth, "Tragedy vs. Comedy"))       
+       ggtitle(paste(auth, "Book categories"))       
 print(p)
 ```
 
