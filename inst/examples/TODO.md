@@ -1,8 +1,14 @@
-## TODO
-
-
-
 ### Technical
+
+  * items / parts poistettiin aiemmin kun oli hankalaa. pitäisiko
+    ottaa takaisin (affects items and hence pages estimates)
+    print("Estimate number of separate parts in a document") parts,
+    pages_per_part tmp <- estimate_document_parts(df.orig) df <-
+    cbind(df, tmp)
+
+  * pitää miettiä mitä tehdään 1to ja 2fo suhteen. Eli siis veikkaisin
+    että nämä kaksi menevät osittain sekaisin ts. se mikä on ehkä
+    merkitty 1to on oikeasti 2fo.
 
   * Nimien klusterointi esikäsittelynä ja VIAFin käyttö HR kanssa.
     Löytyisköhän koodinpätkää jonka ajamalla saisi esim. sieltä
@@ -12,16 +18,6 @@
   * sheet-size keskiarvo niistä joille mitat tiedossa (nyt vasta
     pagecount tehty näin). käytä keskiarvoa (ei taulukkoarvoa)
     loppujen estimointiin
-
-  * pitää miettiä mitä tehdään 1to ja 2fo suhteen. Eli siis veikkaisin
-    että nämä kaksi menevät osittain sekaisin ts. se mikä on ehkä
-    merkitty 1to on oikeasti 2fo.
-
-  * items / parts poistettiin aiemmin kun oli hankalaa. pitäisiko
-    ottaa takaisin (affects items and hence pages estimates)
-    print("Estimate number of separate parts in a document") parts,
-    pages_per_part tmp <- estimate_document_parts(df.orig) df <-
-    cbind(df, tmp)
 
   * Try rOpenSci/GenderizeR R package and also [babynames
     package](https://github.com/hadley/babynames)

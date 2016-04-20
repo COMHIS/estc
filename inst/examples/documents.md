@@ -1,7 +1,7 @@
 ---
 title: "Generic document summaries"
 author: "Leo Lahti"
-date: "2016-04-18"
+date: "2016-04-20"
 output: markdown_document
 ---
 
@@ -25,7 +25,7 @@ Publication year is available for 481205 documents (100%). The publication years
 
 [Title harmonization table](output.tables/title_conversion_nontrivial.csv)
 
-Top-20 titles are shown together with the number of documents. This info is available for 481203 documents (100%). There are 360647 unique titles.
+Top-20 titles are shown together with the number of documents. This info is available for 481203 documents (100%). There are 368142 unique titles.
 
 ![plot of chunk summarytitle](figure/summarytitle-1.png)
 
@@ -33,9 +33,9 @@ Top-20 titles are shown together with the number of documents. This info is avai
 
 Statistics:
 
- * 48 unique languages
- * 279 docs with multiple languages
- * 63 docs (0.01%) with no recognized language 
+ * 49 unique languages
+ * 0 docs with multiple languages
+ * 53 docs (0.01%) with no recognized language 
  
 [Language conversions](output.tables/language_conversions.csv) Language codes as in [marc database](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv)
 

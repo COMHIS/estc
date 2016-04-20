@@ -5,6 +5,11 @@ date: "18/04/2016"
 output: markdown_document
 ---
 
+Title count:
+
+* Shakespeare: `r nraw$Shakespeare` total; `r tab$Shakespeare` accepted
+* Cervantes:   `r nraw$Cervantes` total; `r tab$Cervantes` accepted
+
 
 ```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=3, out.width="800px"}
 # Shakespeare / Cervantes fractions of overall title count
@@ -66,6 +71,43 @@ for (auth in names(my.authors)) {
   p <- p + ggtitle(auth) + ylab("Title count")
   print(p)
 }
+```
+
+
+
+```{r shakespeare-titles2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="800px", fig.height=9, fig.width=5}
+df1 <- filter(tabs$Shakespeare, title %in% c("Hamlet", "Romeo and Juliet", "Macbeth", "Othello"))
+df2 <- filter(tabs$Cervantes, title %in% "Don Quixote")
+df <- rbind_all(list(df1, df2)) 
+
+# Calculate relative abundances within each decade
+dfs <- df %>% group_by(publication_decade, title) %>% tally()
+dfs <- dfs %>% spread(title, n, fill = 0)
+dfs[,-1] <- t(apply(dfs[, -1], 1, function(x) {x/sum(x)}))
+dfs <- gather(dfs, publication_decade)
+names(dfs) <- c("publication_decade", "title", "freq")
+dfs$title <- factor(dfs$title, levels = unique(dfs$title))
+
+dfs2 <- df %>% group_by(publication_decade, title) %>% tally()
+p <- ggplot(dfs2, aes(x = publication_decade, y = n, color = title)) +
+       geom_line() +
+       #geom_smooth(method = "loess") +       
+       geom_point() +       
+       xlab("Publication Decade") +
+       ylab("Title count (n)") +
+       scale_fill_grey() +
+       guides(color = guide_legend("Title")) +
+       ggtitle("Comparison of popular titles")
+print(p)
+
+p <- ggplot(dfs, aes(x = publication_decade, y = 100*freq, fill = title)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Relative title count (%)") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Title")) +
+       ggtitle("Comparison of popular titles")
+print(p)
 ```
 
 
