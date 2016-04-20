@@ -40,24 +40,18 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |volcount                                |        96.3|           3.7|         17645|        150|
 |document.items                          |        96.3|           3.7|         17645|        150|
 |publication_topic                       |        81.7|          18.3|         87966|       5067|
-|publication_topic.1                     |        81.7|          18.3|         87966|       5067|
 |publication_geography                   |        71.6|          28.4|        136613|      12717|
-|publication_geography.1                 |        71.6|          28.4|        136613|      12717|
-|author_birth                            |        59.3|          40.7|        196018|        471|
-|author_death                            |        56.1|          43.9|        211091|        518|
-|author_gender                           |        55.9|          44.1|        212345|          3|
+|author_birth                            |        59.2|          40.8|        196512|        468|
+|author_death                            |        56.1|          43.9|        211267|        517|
 |author_date                             |        54.3|          45.7|        220096|      16084|
-|latitude                                |        47.3|          52.7|        253809|         20|
-|longitude                               |        47.3|          52.7|        253809|         20|
-|country                                 |        46.3|          53.7|        258534|         30|
+|self_published                          |        51.8|          48.2|        232010|          3|
+|author_gender                           |        50.5|          49.5|        238324|          3|
 |subject_topic                           |        44.9|          55.1|        265148|      55731|
-|subject_topic.1                         |        44.9|          55.1|        265148|      55731|
-|self_published                          |        44.3|          55.7|        267800|          2|
-|author_name                             |        39.9|          60.1|        289173|      51609|
-|author                                  |        39.9|          60.1|        289173|      57804|
-|author_name.1                           |        39.9|          60.1|        289286|      48651|
-|publisher.1                             |        24.3|          75.7|        364235|     168507|
-|publisher                               |        11.0|          89.0|        428182|     219716|
+|author_name                             |        41.2|          58.8|        282773|      47979|
+|author                                  |        41.2|          58.8|        282773|      54435|
+|publisher                               |        24.3|          75.7|        364235|     169608|
+|latitude                                |        12.4|          87.6|        421518|         18|
+|longitude                               |        12.4|          87.6|        421518|         18|
 |pagecount.orig                          |         3.7|          96.3|        463526|       1496|
 |obl                                     |         3.5|          96.5|        464209|          3|
 |paper.consumption.km2                   |         2.5|          97.5|        469311|       6854|
@@ -65,18 +59,15 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                                  |         2.3|          97.7|        470237|         95|
 |area                                    |         2.3|          97.7|        470237|        629|
 |physical_dimension                      |         1.0|          99.0|        476507|       2226|
+|country                                 |         0.5|          99.5|        478677|         56|
+|publication_place                       |         0.5|          99.5|        478686|       1064|
 |publication_year_from                   |         0.2|          99.8|        480080|        348|
 |pagecount                               |         0.2|          99.8|        480258|       1674|
 |physical_extent                         |         0.0|         100.0|        481033|     109493|
-|language.1                              |         0.0|         100.0|        481142|         51|
-|language                                |         0.0|         100.0|        481152|         52|
-|publication_place                       |         0.0|         100.0|        481202|       9021|
-|title                                   |         0.0|         100.0|        481203|     368142|
-|title.1                                 |         0.0|         100.0|        481203|     360647|
-|control_number                          |         0.0|         100.0|        481205|     481205|
+|language                                |         0.0|         100.0|        481142|         51|
+|title                                   |         0.0|         100.0|        481203|     360647|
 |publication_time                        |         0.0|         100.0|        481205|      31870|
-|original_row                            |         0.0|         100.0|        481205|     481205|
-|control_number.1                        |         0.0|         100.0|        481205|     481205|
+|control_number                          |         0.0|         100.0|        481205|     481205|
 |language.English                        |         0.0|         100.0|        481205|          2|
 |language.French                         |         0.0|         100.0|        481205|          2|
 |language.Latin                          |         0.0|         100.0|        481205|          2|
@@ -128,7 +119,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Multiple languages             |         0.0|         100.0|        481205|          2|
 |gatherings.original                     |         0.0|         100.0|        481205|         18|
 |obl.original                            |         0.0|         100.0|        481205|          2|
-|original_row.1                          |         0.0|         100.0|        481205|     481205|
+|original_row                            |         0.0|         100.0|        481205|     481205|
 |publication_year                        |         0.0|         100.0|        481205|        348|
 |publication_decade                      |         0.0|         100.0|        481205|         37|
 |author_pseudonyme                       |         0.0|         100.0|        481205|          2|
@@ -138,11 +129,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ## Histograms of all entries for numeric variables
 
-<img src="figure/summary-histograms-1.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-2.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-3.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-4.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-5.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-6.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-7.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-8.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-9.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-10.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-11.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-12.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-13.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-14.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-15.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-16.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-17.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-18.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-19.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-20.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-21.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" />
+<img src="figure/summary-histograms-1.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-2.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-3.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-4.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-5.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-6.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-7.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-8.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-9.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-10.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-11.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-12.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-13.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-14.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-15.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-16.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-17.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-18.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-19.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-20.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" />
 
 ## Histograms of the top entries for factor variables
 
-<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-11.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-12.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
+<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-11.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
 
 
 

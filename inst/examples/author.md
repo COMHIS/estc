@@ -17,7 +17,7 @@ output: markdown_document
 
 [Author name conversions](output.tables/author_conversion_nontrivial.csv) Non-trivial conversions from the original to final names
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 57804 unique authors and 289173 documents with unambiguous author information (60%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 54435 unique authors and 282773 documents with unambiguous author information (59%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 

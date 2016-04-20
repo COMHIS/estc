@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 17523 documents from Scotland.
+We have 40238 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -55,11 +55,11 @@ List of authors born before 500AD:
 
 ```
 ## 
-## Hierocles, NA (430-NA) 
-##                      2
+##      Aelian, NA (3-NA) Hierocles, NA (430-NA)    Longinus, NA (1-NA) 
+##                      1                      2                      6
 ```
 
-We have 2 documents from 1 unique
+We have 9 documents from 3 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -68,10 +68,6 @@ authors born before 500 AD who have published in Scotland.
 
 Average annual output for each decade are indicated by lines, the annual document counts are shown by points. 
 
-
-```
-## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "character"
-```
 
 ```
 ## Error in tapply(df$unity, list(df$publication_decade, df$publication_place), : arguments must have same length
@@ -166,7 +162,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error: Insufficient values in manual scale. 30 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 54 needed but only 5 provided.
 ```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
@@ -176,34 +172,83 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 14899 documents from Scotland and 130808 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
-
-
-```
-## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "character"
-```
-
-```
-## Error in rbind(deparse.level, ...): numbers of columns of arguments do not match
-```
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'publication_place2'
-```
-
-```
-## Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
+We have 34459 documents from Scotland and 204977 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
 ```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
+## Warning: Removed 9 rows containing non-finite values (stat_smooth).
 ```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : span too small. fewer data values than degrees of freedom.
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : at 1719.6
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : radius 0.16
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : all data on boundary of neighborhood. make span bigger
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : pseudoinverse used at 1719.6
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : neighborhood radius 0.4
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : reciprocal condition number 1
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : at 1800.4
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : radius 0.16
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : all data on boundary of neighborhood. make span bigger
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : There are other near singularities as well. 0.16
+```
+
+```
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : zero-width neighborhood. make span bigger
+
+## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
+## normalize, : zero-width neighborhood. make span bigger
+```
+
+```
+## Warning: Computation failed in `stat_smooth()`:
+## NA/NaN/Inf in foreign function call (arg 5)
+```
+
+![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png)
 
 
 
@@ -213,13 +258,13 @@ We have 14899 documents from Scotland and 130808 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 2438 rows containing missing values (geom_point).
+## Warning: Removed 5942 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 8 rows containing missing values (geom_point).
+## Warning: Removed 954 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
