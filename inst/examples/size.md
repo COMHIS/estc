@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 16595 documents and updated (changed) for 4282 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 16732 documents and updated (changed) for 4282 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -71,30 +71,21 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
 |1to           |                   NA|                     NA|          16|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |2long         |                   NA|                     NA|           5|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|2fo           |              1645.36|                1008.00|        1389|              419.70|                500.00|       1340|            38.00|                 38|       2|
+|2fo           |              1645.60|                1008.00|        1389|              419.83|                500.00|       1340|            38.00|                 38|       2|
 |4long         |                  NaN|                     NA|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4to           |               227.38|                  72.00|        1507|               85.85|                 36.00|        899|            35.79|                 36|     132|
+|4to           |               210.20|                  64.00|        1507|               82.51|                 32.00|        899|            31.85|                 32|     132|
 |8long         |                15.33|                  15.33|           2|                4.33|                  4.33|          2|               NA|                 NA|      NA|
-|8vo           |                 -Inf|                 584.00|        7187|              286.50|                290.00|       7414|            21.33|                 26|       3|
+|8vo           |                 -Inf|                 582.00|        7187|              285.56|                289.00|       7414|            21.33|                 26|       3|
 |12long        |                99.43|                  48.00|           7|               44.40|                 24.00|          6|               NA|                 NA|      NA|
-|12mo          |               437.47|                 314.00|        6826|              158.00|                155.00|       7008|               NA|                 NA|      NA|
+|12mo          |               437.30|                 314.00|        6826|              157.92|                155.00|       7008|               NA|                 NA|      NA|
 |16mo          |               790.85|                 588.00|          48|              292.04|                292.00|         50|               NA|                 NA|      NA|
 |18mo          |               626.58|                 410.00|         254|              200.97|                201.00|        265|               NA|                 NA|      NA|
 |24mo          |               735.44|                 543.50|          60|              271.95|                270.75|         59|               NA|                 NA|      NA|
 |32mo          |                  NaN|                     NA|           7|                 NaN|                    NA|          1|               NA|                 NA|      NA|
 |48mo          |                  NaN|                     NA|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |               318.83|                 294.00|           6|              147.17|                147.00|          7|               NA|                 NA|      NA|
-|NA            |                41.79|                  25.75|         327|               14.10|                 12.88|        199|               NA|                 NA|      NA|
+|NA            |                41.69|                  25.75|         327|               14.07|                 12.88|        199|               NA|                 NA|      NA|
 
-
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 

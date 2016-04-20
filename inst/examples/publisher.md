@@ -33,8 +33,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher           | titles|      paper|
 |:-------------------|------:|----------:|
-|printed in the year |   2953|  3.3892615|
-|[s.n.]              |  12859| 19.0939415|
+|printed in the year |   2953|  3.3849959|
+|[s.n.]              |  12859| 19.0739796|
 |s.n                 |   4219|  0.5752374|
-|s.n.                |  34912| 16.3597556|
-|s.n.]               |   5481|       -Inf|
+|s.n.                |  34912| 16.3018763|
+|s.n.]               |   5481|  7.2610663|

@@ -56,6 +56,14 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
+## Error in publications[is.na(publications)] <- 0: object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
 ## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
 ```
 
@@ -64,7 +72,19 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
+## Error in is.data.frame(x): object 'publications' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publications' not found
+```
+
+```
 ## Error in eval(expr, envir, enclos): object 'publications.annual' not found
+```
+
+```
+## Error in melt(publications): object 'publications' not found
 ```
 
 ```
@@ -77,6 +97,10 @@ Average annual output for each decade is shown by lines, the actual annual docum
 
 ```
 ## Error in fortify(data): object 'dfm.annual' not found
+```
+
+```
+## Error: Insufficient values in manual scale. 30 needed but only 5 provided.
 ```
 
 ![plot of chunk NApubvols](figure/NApubvols-1.png)
