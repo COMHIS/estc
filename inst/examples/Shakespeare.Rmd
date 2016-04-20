@@ -7,8 +7,8 @@ output: markdown_document
 
 Title count:
 
-* Shakespeare: `r nraw$Shakespeare` total; `r tab$Shakespeare` accepted
-* Cervantes:   `r nraw$Cervantes` total; `r tab$Cervantes` accepted
+* Shakespeare: `r nraw[["Shakespeare"]]` total; `r nrow(tabs$Shakespeare)` accepted
+* Cervantes:   `r nraw[["Cervantes"]]` total; `r nrow(tabs$Cervantes)` accepted
 
 
 ```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=3, out.width="800px"}

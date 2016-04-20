@@ -6,9 +6,9 @@
     pages_per_part tmp <- estimate_document_parts(df.orig) df <-
     cbind(df, tmp)
 
-  * pitää miettiä mitä tehdään 1to ja 2fo suhteen. Eli siis veikkaisin
-    että nämä kaksi menevät osittain sekaisin ts. se mikä on ehkä
-    merkitty 1to on oikeasti 2fo.
+  * pitää miettiä mitä tehdään 1to ja 2fo suhteen. veikkaisin että
+    nämä menevät osittain sekaisin ts. se mikä on ehkä merkitty 1to on
+    oikeasti 2fo.
 
   * Nimien klusterointi esikäsittelynä ja VIAFin käyttö HR kanssa.
     Löytyisköhän koodinpätkää jonka ajamalla saisi esim. sieltä
