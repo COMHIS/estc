@@ -25,7 +25,7 @@ Title count:
 
 
 
-<img src="figure/shakespeare-titles2-1.png" title="plot of chunk shakespeare-titles2" alt="plot of chunk shakespeare-titles2" width="800px" /><img src="figure/shakespeare-titles2-2.png" title="plot of chunk shakespeare-titles2" alt="plot of chunk shakespeare-titles2" width="800px" />
+<img src="figure/shakespeare-titles2-1.png" title="plot of chunk shakespeare-titles2" alt="plot of chunk shakespeare-titles2" width="500px" /><img src="figure/shakespeare-titles2-2.png" title="plot of chunk shakespeare-titles2" alt="plot of chunk shakespeare-titles2" width="500px" />
 
 
 ### Publisher timelines
