@@ -62,7 +62,7 @@ print(p)
 
 
 
-### Individual title popularity
+### Title popularity
 
 
 ```{r shakespeare-titles, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.show="hold", out.width="400px", fig.height=13, fig.width=6}

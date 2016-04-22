@@ -18,7 +18,7 @@ Title count:
 
 
 
-### Individual title popularity
+### Title popularity
 
 
 <img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" />
