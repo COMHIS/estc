@@ -75,7 +75,7 @@ for (auth in names(my.authors)) {
 
 
 
-```{r shakespeare-titles2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="500px", fig.height=3, fig.width=8}
+```{r shakespeare-titles2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="700px", fig.height=4, fig.width=8}
 df1 <- filter(tabs$Shakespeare, title %in% c("Hamlet", "Romeo and Juliet", "Macbeth", "Othello"))
 df2 <- filter(tabs$Cervantes, title %in% "Don Quixote")
 df <- rbind_all(list(df1, df2)) 
