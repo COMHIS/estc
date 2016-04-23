@@ -6,8 +6,8 @@ output: markdown_document
 ---
 
 
-We are a team of an early modern intellectual historian [Mikko
-Tolonen](https://twitter.com/mikko_tolonen) and a computational
+We are a team of an early modern intellectual historian ([Mikko
+Tolonen](https://twitter.com/mikko_tolonen)) and a computational
 scientist and bioinformatician ([Leo
 Lahti](http://www.iki.fi/Leo.Lahti)). Often on Friday nights we skype
 to discuss digital humanities, a field that nicely combines our mutual
