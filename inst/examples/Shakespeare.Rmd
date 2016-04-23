@@ -5,6 +5,14 @@ date: "23/04/2016"
 output: markdown_document
 ---
 
+```{r shakespeare-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+load("Shakespeare400.RData")
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+theme_set(theme_bw(20))
+```
+
 
 We are a team of an early modern intellectual historian ([Mikko
 Tolonen](https://twitter.com/mikko_tolonen)) and a computational
@@ -42,8 +50,6 @@ unless otherwise mentioned.
 One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). The first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
 
 ```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=5, out.width="700px"}
-theme_set(theme_bw(20))
-
 # Shakespeare fraction of overall title count
 # as function of time
 dfs <- df.preprocessed
