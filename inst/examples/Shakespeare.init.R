@@ -25,6 +25,7 @@ for (auth in names(my.authors)) {
 
   tab2$publication_decade <- floor(tab2$publication_year/10) * 10
   tab2 <- tab2[tab2$publication_decade < 1800,]
+  tab2$title <- gsub("\xd0", "E", tab2$title)
 
   tabs[[auth]] <- tab2
 

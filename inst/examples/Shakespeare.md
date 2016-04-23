@@ -6,29 +6,33 @@ output: markdown_document
 ---
 
 
-We are a team of an early modern intellectual historian [Mikko Tolonen](https://twitter.com/mikko_tolonen) and a data scientist in the field of bioinformatics ([Leo Lahti](http://www.iki.fi/Leo.Lahti)). Often on Friday nights we skype to discuss what should we do in the domain of digital humanities that nicely combines our interests. Today’s task was to do something to celebrate Shakespeare & Cervantes.
+We are a team of an early modern intellectual historian [Mikko
+Tolonen](https://twitter.com/mikko_tolonen) and a computational
+scientist and bioinformatician ([Leo
+Lahti](http://www.iki.fi/Leo.Lahti)). Often on Friday nights we skype
+to discuss digital humanities, a field that nicely combines our mutual
+interests in science and philosophy. Today’s task was to do something
+to celebrate Shakespeare & Cervantes.
 
-We have a peculiar interest in [library
+We decided to build on our peculiar interest in [library
 catalogues](https://www.liberquarterly.eu/article/10.18352/lq.10112/)
-so we decided to build on that. We used the [CERL Heritage of the
-Printed Book Catalogue (HPB)](https://www.cerl.org/resources/hpb/main)
-and [British Library’s English Short-Title Catalogue
-(ESTC)](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc) to
-analyse the early modern publishing (1593-1800) of Shakespeare and
-Cervantes. Here are some graphs that we thought you might find
-interesting. All illustrations are based on combined data from the
-ESTC and CERL catalogues unless otherwise mentioned.
+by taking the [CERL Heritage of the Printed Book Catalogue
+(HPB)](https://www.cerl.org/resources/hpb/main) and [British Library’s
+English Short-Title Catalogue
+(ESTC)](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). We
+then carried out a brief but revealing analysis concerning the early
+modern publishing (1593-1800) of Shakespeare and Cervantes. Check
+below for some graphs that we thought you might find interesting.
 
 In the ESTC and CERL catalogues, we have metadata on roughly 0.5 and 5
-million documents in total, respectively, covering publication
-activity around 1470-1800. With a combination of
-[automated](https://github.com/rOpenGov/estc) and manual data
-processing, we identified for Shakespeare 1271
-documents in total (ESTC 1042;
-CERL 229), and for Cervantes
-488 documents in total (ESTC
-94; CERL
-394).
+million documents, respectively, between 1470-1800. With a combination
+of [automated](https://github.com/rOpenGov/estc) and manual data
+processing, we identified 1271 documents for
+Shakespeare (ESTC 1042; CERL `r
+sum(tabs$Shakespeare$source == "cerl")`), and 488
+documents for Cervantes (ESTC 94; CERL 394). All
+illustrations are based on the combined data from these two catalogues
+unless otherwise mentioned.
 
 
 ### Relative publishing activity: Shakespeare
@@ -56,12 +60,7 @@ witness the new rise of comedies.
 No real surprises here. Collected works and plays are of course an important source to access Shakespeare. But in the Top-5 list of single plays Hamlet, Romeo and Juliet, Macbeth and Othello are where you might expect to find them. Perhaps slightly surprising is that Julius Caesar beats Merchant of Venice and Merry Wives of Windsor. 
 
 
-
-```
-## Error in data.frame(names = c("Don Quixote", "Novels", "Los trabajos de Persiles y Sigismunda", : invalid multibyte string, element 9
-```
-
-<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" />
+<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" />
 
 
 ### Cervantes popularity
@@ -91,5 +90,24 @@ There exists great scholarship on Shakespeare’s copyrights in the eighteenth c
 
 **NB! Regarding method**
 
-The trick to get this approach working is to harmonize the catalogued fields so we may trust the statistics that library catalogue data can provide us. For example, for this analysis most of our time was spent matching different entries of works in the ESTC and the HPB and removing hundreds of duplicate entries in the HPB data. We also took full advantage of our purpose-built tool, Bibliographica, to automatize this cleaning process for any library catalogue as far as possible with custom algorithms, as implemented for instance in our [bibliographica R package](https://github.com/rOpenGov/bibliographica). The idea is not that this “big data approach” relying on library catalogue data would be perfect in terms of including every single translation of Shakespeare and Don Quixote on the continent or early modern Britain. But when the harmonizing of the catalogued fields is done properly, the approach gives us trustworthy results about the publishing trends that we are interested in.
+The trick to get this approach working is to harmonize the catalogued
+fields so we may trust the statistics that library catalogue data can
+provide us. For example, for this analysis most of our time was spent
+matching different entries of works in the ESTC and the HPB and
+removing hundreds of duplicate entries in the HPB data. We also took
+full advantage of our custom algorithms, implemented in the
+[bibliographica R
+package](https://github.com/rOpenGov/bibliographica/), to automatize
+this cleaning process for any library catalogue as far as
+possible. The idea is not that this “big data approach” relying on
+library catalogue data would be perfect in terms of including every
+single translation of Shakespeare and Don Quixote on the continent or
+early modern Britain. But when the harmonizing of the catalogued
+fields is done properly, the approach gives us trustworthy results
+about the publishing trends that we are interested in. Whereas the raw
+data is not (yet) openly available, the full preprocessing workflows
+for [ESTC](https://github.com/rOpenGov/estc/) and
+[CERL](https://github.com/rOpenGov/estc/) are available via Github, as
+well as the full source code of [this blog
+post](https://github.com/rOpenGov/ropengov.github.io/tree/site-development/_Rmdposts).
 
