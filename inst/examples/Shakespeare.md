@@ -25,8 +25,8 @@ activity around 1470-1800. With a combination of
 [automated](https://github.com/rOpenGov/estc) and manual data
 processing, we identified for Shakespeare 1271
 documents in total (ESTC 1042;
-CERL 229), and for Cervantes `r
-nrow(tabs$Shakespeare)` documents in total (ESTC
+CERL 229), and for Cervantes
+488 documents in total (ESTC
 94; CERL
 394).
 

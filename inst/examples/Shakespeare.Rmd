@@ -25,8 +25,8 @@ activity around 1470-1800. With a combination of
 [automated](https://github.com/rOpenGov/estc) and manual data
 processing, we identified for Shakespeare `r nrow(tabs$Shakespeare)`
 documents in total (ESTC `r sum(tabs$Shakespeare$source == "estc")`;
-CERL `r sum(tabs$Shakespeare$source == "cerl")`), and for Cervantes `r
-nrow(tabs$Shakespeare)` documents in total (ESTC
+CERL `r sum(tabs$Shakespeare$source == "cerl")`), and for Cervantes
+`r nrow(tabs$Cervantes)` documents in total (ESTC
 `r sum(tabs$Cervantes$source == "estc")`; CERL
 `r sum(tabs$Cervantes$source == "cerl")`).
 
