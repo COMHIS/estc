@@ -116,7 +116,7 @@ for (auth in names(my.authors)) {
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
-```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="600px", fig.height=8, fig.width=8}
+```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="600px", fig.height=6, fig.width=7}
 df <- tabc %>% filter(author == "Cervantes") %>%
         group_by(source, publication_decade, title) %>% tally()
 top.titles <- names(top(df, "title", 5))
@@ -135,8 +135,6 @@ for (s in unique(df$source)) {
   p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = title)) +
        geom_bar(stat = "identity", position = "stack", color = "black")
   p <- p + xlim(range(df$publication_decade))
-  #p <- p + ggtitle(paste("Cervantes (", s, ")", sep = ""))
-  p <- p + ggtitle(toupper(s))
   p <- p + ylim(values = c(0, max(df %>% group_by(publication_decade) %>% tally() %>% select(n)) + 1))
   p <- p + scale_fill_manual(values = cols[as.character(levels(dfs$title))])
   p <- p + xlab("Publication decade")
@@ -144,6 +142,9 @@ for (s in unique(df$source)) {
   pics[[s]] <- p
 
 }
+pics[["cerl"]] <- pics[["cerl"]] + ggtitle("Continental Europe")
+pics[["estc"]] <- pics[["estc"]] + ggtitle("Britain and North America")
+
 library(gridExtra)
 grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 ```
@@ -184,8 +185,8 @@ p <- ggplot(dfs, aes(x = publication_decade, y = 100*freq, fill = title)) +
        xlab("Publication Decade") +
        ylab("Relative title count (%)") +
        scale_fill_grey() +
-       guides(fill = guide_legend("Title")) +
-       ggtitle("Comparison of popular titles")
+       guides(fill = guide_legend("Title")) 
+       #ggtitle("Comparison of popular titles")
 # print(p)
 ```
 
@@ -195,7 +196,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = 100*freq, fill = title)) +
 There exists great scholarship on Shakespeare’s copyrights in the eighteenth century by Terry Belanger. While we are well aware of the division of Shakespeare copyrights between different publishers and the use of printing congers, what we want to highlight here is the relevance of Tonson publishing house and the role played by John Bell towards the later eighteenth century in promoting Shakespeare in Britain (for Bell as ['bibliographic nightmare'](http://collation.folger.edu/2012/06/john-bell-bibliographic-nightmare/). The illustration is based on the ESTC catalogue, where we have manually cleaned up the publisher information, combining synonymous variants of the publisher names.
 
 
-```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=3, out.width="800px"}
+```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4, out.width="800px"}
 auth <- "Shakespeare"
 df <- tabc %>% filter(author == "Shakespeare" & source == "estc")
 top.publishers <- names(top(df, "publisher", 5))
