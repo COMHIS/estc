@@ -16,7 +16,7 @@ to celebrate the 400th anniversary of Shakespeare & Cervantes.
 
 We decided to build on our peculiar interest in [library
 catalogues](https://www.liberquarterly.eu/article/10.18352/lq.10112/)
-by taking the [CERL Heritage of the Printed Book Catalogue
+by focusing on the [CERL Heritage of the Printed Book Catalogue
 (HPB)](https://www.cerl.org/resources/hpb/main) and [British Library’s
 English Short-Title Catalogue
 (ESTC)](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). We
