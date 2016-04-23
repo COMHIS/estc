@@ -24,7 +24,7 @@ million documents in total, respectively, covering publication
 activity around 1470-1800. With a combination of
 [automated](https://github.com/rOpenGov/estc) and manual data
 processing, we identified for Shakespeare `r nrow(tabs$Shakespeare)`
-documents in total (ESTC `rsum(tabs$Shakespeare$source == "estc")`;
+documents in total (ESTC `r sum(tabs$Shakespeare$source == "estc")`;
 CERL `r sum(tabs$Shakespeare$source == "cerl")`), and for Cervantes `r
 nrow(tabs$Shakespeare)` documents in total (ESTC
 `r sum(tabs$Cervantes$source == "estc")`; CERL
@@ -216,5 +216,5 @@ print(p)
 
 **NB! Regarding method**
 
-The trick to get this approach working is to harmonize the catalogued fields so we may trust the statistics that library catalogue data can provide us. For example, for this analysis most of our time was spent matching different entries of works in the ESTC and the HPB and removing hundreds of duplicate entries in the HPB data. We also took full advantage of our purpose-built tool, Bibliographica, to automatize this cleaning process for any library catalogue as far as possible (https://github.com/rOpenGov/bibliographica). The idea is not that this “big data approach” relying on library catalogue data would be perfect in terms of including every single translation of Shakespeare and Don Quixote on the continent or early modern Britain. But when the harmonizing of the catalogued fields is done properly, the approach gives us trustworthy results about the publishing trends that we are interested in.
+The trick to get this approach working is to harmonize the catalogued fields so we may trust the statistics that library catalogue data can provide us. For example, for this analysis most of our time was spent matching different entries of works in the ESTC and the HPB and removing hundreds of duplicate entries in the HPB data. We also took full advantage of our purpose-built tool, Bibliographica, to automatize this cleaning process for any library catalogue as far as possible with custom algorithms, as implemented for instance in our [bibliographica R package](https://github.com/rOpenGov/bibliographica). The idea is not that this “big data approach” relying on library catalogue data would be perfect in terms of including every single translation of Shakespeare and Don Quixote on the continent or early modern Britain. But when the harmonizing of the catalogued fields is done properly, the approach gives us trustworthy results about the publishing trends that we are interested in.
 
