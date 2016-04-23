@@ -10,6 +10,8 @@ load("Shakespeare400.RData")
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(bibliographica)
+library(sorvi)
 theme_set(theme_bw(20))
 ```
 

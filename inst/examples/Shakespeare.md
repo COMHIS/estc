@@ -64,29 +64,13 @@ witness the new rise of comedies.
 No real surprises here. Collected works and plays are of course an important source to access Shakespeare. But in the Top-5 list of single plays Hamlet, Romeo and Juliet, Macbeth and Othello are where you might expect to find them. Perhaps slightly surprising is that Julius Caesar beats Merchant of Venice and Merry Wives of Windsor. 
 
 
-
-```
-## Error: could not find function "top_plot"
-```
+<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" />
 
 
 ### Cervantes popularity
  
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but is not published in English during the early modern period. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
-
-
-```
-## Error in eval(expr, envir, enclos): could not find function "top"
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'top.titles' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'top.titles' not found
-```
 
 <img src="figure/shakespeare-cervantes-1.png" title="plot of chunk shakespeare-cervantes" alt="plot of chunk shakespeare-cervantes" width="800px" />
 
@@ -103,19 +87,6 @@ On this timeline we see a very interesting contest. Don Quixote’s train-like r
  
 There exists great scholarship on Shakespeare’s copyrights in the eighteenth century by Terry Belanger. While we are well aware of the division of Shakespeare copyrights between different publishers and the use of printing congers, what we want to highlight here is the relevance of Tonson publishing house and the role played by John Bell towards the later eighteenth century in promoting Shakespeare in Britain (for Bell as ['bibliographic nightmare'](http://collation.folger.edu/2012/06/john-bell-bibliographic-nightmare/). The illustration is based on the ESTC catalogue, where we have manually cleaned up the publisher information, combining synonymous variants of the publisher names.
 
-
-
-```
-## Error in eval(expr, envir, enclos): could not find function "top"
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'top.publishers' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publisher' not found
-```
 
 <img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="700px" />
 
