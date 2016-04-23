@@ -64,7 +64,7 @@ No real surprises here. Collected works and plays are of course an important sou
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
-<img src="figure/shakespeare-cervantes-1.png" title="plot of chunk shakespeare-cervantes" alt="plot of chunk shakespeare-cervantes" width="800px" />
+<img src="figure/shakespeare-cervantes-1.png" title="plot of chunk shakespeare-cervantes" alt="plot of chunk shakespeare-cervantes" width="600px" />
 
 
 ### Comparison of popular titles
