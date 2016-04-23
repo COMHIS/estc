@@ -80,4 +80,4 @@ tabc$title <- factor(condense_spaces(as.character(tabc$title)))
 
 # ----------------------------------------------------------
 
-save(tabc, tabs, df.preprocessed, file = "Shakespeare400.RData")
+save(my.authors, tabc, tabs, df.preprocessed, file = "Shakespeare400.RData")

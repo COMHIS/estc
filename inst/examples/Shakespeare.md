@@ -43,23 +43,6 @@ unless otherwise mentioned.
 
 One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). The first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
 
-
-```
-## Error in match(x, table, nomatch = 0L): object 'my.authors' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'author2' not found
-```
-
-```
-## Error: ggplot2 doesn't know how to deal with data of class list
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publisher' not found
-```
-
 <img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="700px" />
 
 
@@ -83,7 +66,7 @@ No real surprises here. Collected works and plays are of course an important sou
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'my.authors' not found
+## Error: could not find function "top_plot"
 ```
 
 
