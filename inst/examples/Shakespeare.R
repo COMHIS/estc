@@ -14,13 +14,5 @@ source("Shakespeare.init.R")
 
 knit("Shakespeare.Rmd")
 
-#- Mukaan paperinkulutus
-#
-# Cervantes: Don Quixote, erityisesti CERL:
-#- miten teosta julkaistiin eri maissa eri aikoina?
-#- Don Quixoten julkaisemisen vertaaminen koko Euroopassa Shakespeareen
-
-# Shakespeare
-#- CERL: yhdistetään kaikki muualla kuin englanninkielisellä
-#  julkaistut teokset alkuperäisiin ja katsoa sitä kartalla.
-
+# Shakespearen kontinenttianalyysi
+# Paperinkulutus
