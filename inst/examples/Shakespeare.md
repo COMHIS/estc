@@ -84,7 +84,7 @@ On this timeline we see a very interesting contest. Don Quixote’s train-like r
 There exists great scholarship on Shakespeare’s copyrights in the eighteenth century by Terry Belanger. While we are well aware of the division of Shakespeare copyrights between different publishers and the use of printing congers, what we want to highlight here is the relevance of Tonson publishing house and the role played by John Bell towards the later eighteenth century in promoting Shakespeare in Britain (for Bell as ['bibliographic nightmare'](http://collation.folger.edu/2012/06/john-bell-bibliographic-nightmare/). The illustration is based on the ESTC catalogue, where we have manually cleaned up the publisher information, combining synonymous variants of the publisher names.
 
 
-<img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="800px" />
+<img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="700px" />
 
 
 

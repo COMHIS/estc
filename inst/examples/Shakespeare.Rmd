@@ -121,7 +121,7 @@ for (auth in names(my.authors)) {
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
-```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="800px", fig.height=6, fig.width=8}
+```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="800px", fig.height=7, fig.width=8}
 df <- tabc %>% filter(author == "Cervantes") %>%
         group_by(source, publication_decade, title) %>% tally()
 top.titles <- names(top(df, "title", 5))
@@ -201,7 +201,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = 100*freq, fill = title)) +
 There exists great scholarship on Shakespeare’s copyrights in the eighteenth century by Terry Belanger. While we are well aware of the division of Shakespeare copyrights between different publishers and the use of printing congers, what we want to highlight here is the relevance of Tonson publishing house and the role played by John Bell towards the later eighteenth century in promoting Shakespeare in Britain (for Bell as ['bibliographic nightmare'](http://collation.folger.edu/2012/06/john-bell-bibliographic-nightmare/). The illustration is based on the ESTC catalogue, where we have manually cleaned up the publisher information, combining synonymous variants of the publisher names.
 
 
-```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4, out.width="800px"}
+```{r shakespeare-publisher, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4, out.width="700px"}
 auth <- "Shakespeare"
 df <- tabc %>% filter(author == "Shakespeare" & source == "estc")
 top.publishers <- names(top(df, "publisher", 5))
