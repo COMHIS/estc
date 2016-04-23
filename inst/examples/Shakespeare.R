@@ -1,8 +1,6 @@
 # Creating initial Shakespeare/Cervantes data for manual checking
 # source("Shakespeare_data.R")
 
-source("analysis.init.R")
-
 # ------------------------------------------
 
 # Read the manually polished data

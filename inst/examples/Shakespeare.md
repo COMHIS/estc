@@ -28,9 +28,10 @@ In the ESTC and CERL catalogues, we have metadata on roughly 0.5 and 5
 million documents, respectively, between 1470-1800. With a combination
 of [automated](https://github.com/rOpenGov/estc) and manual data
 processing, we identified 1271 documents for
-Shakespeare (ESTC 1042; CERL `r
-sum(tabs$Shakespeare$source == "cerl")`), and 488
-documents for Cervantes (ESTC 94; CERL 394). All
+Shakespeare (ESTC 1042;
+CERL 229), and 488
+documents for Cervantes (ESTC
+94; CERL 394). All
 illustrations are based on the combined data from these two catalogues
 unless otherwise mentioned.
 

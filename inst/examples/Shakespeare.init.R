@@ -1,3 +1,38 @@
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(stringr)
+library(bibliographica)
+library(estc)
+library(magrittr)
+library(sorvi)
+library(reshape2)
+library(gridExtra)
+library(knitr)
+library(magrittr)
+
+# Set global parameters
+author <- "Leo Lahti"
+ntop <- 20
+timespan <- c(1460, 1830)
+datafile.preprocessed <- "df.Rds"
+datafile.orig <- "df.raw.Rds"
+output.folder <- "output.tables/"
+
+# ---------------------------------
+
+print("Prepare the final data set")
+
+# Read the preprocessed data
+df <- readRDS(datafile.preprocessed)
+df.orig <- readRDS(datafile.orig)
+
+# Year limits
+df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
+rm(df)
+
+# ----------------------------------
+
 library(gdata)
 my.authors <- c(Shakespeare = "Shakespeare, William (1564-1616)",
 	        Cervantes = "Cervantes Saavedra, Miguel De (1547-1616)")

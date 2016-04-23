@@ -28,10 +28,10 @@ In the ESTC and CERL catalogues, we have metadata on roughly 0.5 and 5
 million documents, respectively, between 1470-1800. With a combination
 of [automated](https://github.com/rOpenGov/estc) and manual data
 processing, we identified `r nrow(tabs$Shakespeare)` documents for
-Shakespeare (ESTC `r sum(tabs$Shakespeare$source == "estc")`; CERL `r
-sum(tabs$Shakespeare$source == "cerl")`), and `r nrow(tabs$Cervantes)`
-documents for Cervantes (ESTC `r sum(tabs$Cervantes$source ==
-"estc")`; CERL `r sum(tabs$Cervantes$source == "cerl")`). All
+Shakespeare (ESTC `r sum(tabs$Shakespeare$source == "estc")`;
+CERL `r sum(tabs$Shakespeare$source == "cerl")`), and `r nrow(tabs$Cervantes)`
+documents for Cervantes (ESTC
+`r sum(tabs$Cervantes$source == "estc")`; CERL `r sum(tabs$Cervantes$source == "cerl")`). All
 illustrations are based on the combined data from these two catalogues
 unless otherwise mentioned.
 
