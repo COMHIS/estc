@@ -12,7 +12,7 @@ scientist and bioinformatician ([Leo
 Lahti](http://www.iki.fi/Leo.Lahti)). Often on Friday nights we skype
 to discuss digital humanities, a field that nicely combines our mutual
 interests in science and philosophy. Today’s task was to do something
-to celebrate Shakespeare & Cervantes.
+to celebrate the 400th anniversary of Shakespeare & Cervantes.
 
 We decided to build on our peculiar interest in [library
 catalogues](https://www.liberquarterly.eu/article/10.18352/lq.10112/)
