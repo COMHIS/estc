@@ -39,7 +39,7 @@ unless otherwise mentioned.
 
 ### Relative publishing activity: Shakespeare
 
-One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). The first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
+One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). This first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
 
 <img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="700px" />
 
