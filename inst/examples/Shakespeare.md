@@ -23,12 +23,12 @@ In the ESTC and CERL catalogues, we have metadata on roughly 0.5 and 5
 million documents in total, respectively, covering publication
 activity around 1470-1800. With a combination of
 [automated](https://github.com/rOpenGov/estc) and manual data
-processing, we identified for Shakespeare 1307
-documents in total (ESTC 1068;
-CERL 239), and for Cervantes `r
+processing, we identified for Shakespeare 1271
+documents in total (ESTC 1042;
+CERL 229), and for Cervantes `r
 nrow(tabs$Shakespeare)` documents in total (ESTC
-96; CERL
-404).
+94; CERL
+394).
 
 
 ### Relative publishing activity: Shakespeare
@@ -56,7 +56,12 @@ witness the new rise of comedies.
 No real surprises here. Collected works and plays are of course an important source to access Shakespeare. But in the Top-5 list of single plays Hamlet, Romeo and Juliet, Macbeth and Othello are where you might expect to find them. Perhaps slightly surprising is that Julius Caesar beats Merchant of Venice and Merry Wives of Windsor. 
 
 
-<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" /><img src="figure/shakespeare-titles-2.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" />
+
+```
+## Error in data.frame(names = c("Don Quixote", "Novels", "Los trabajos de Persiles y Sigismunda", : invalid multibyte string, element 9
+```
+
+<img src="figure/shakespeare-titles-1.png" title="plot of chunk shakespeare-titles" alt="plot of chunk shakespeare-titles" width="400px" />
 
 
 ### Cervantes popularity
@@ -64,7 +69,7 @@ No real surprises here. Collected works and plays are of course an important sou
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
-<img src="figure/shakespeare-cervantes-1.png" title="plot of chunk shakespeare-cervantes" alt="plot of chunk shakespeare-cervantes" width="600px" />
+<img src="figure/shakespeare-cervantes-1.png" title="plot of chunk shakespeare-cervantes" alt="plot of chunk shakespeare-cervantes" width="800px" />
 
 
 ### Comparison of popular titles

@@ -23,7 +23,9 @@ for (auth in names(my.authors)) {
     tab2 <- rbind(tab2, tab)
   }
 
-  tab2$publication_decade <- floor(tab2$publication_year/10) * 10   
+  tab2$publication_decade <- floor(tab2$publication_year/10) * 10
+  tab2 <- tab2[tab2$publication_decade < 1800,]
+
   tabs[[auth]] <- tab2
 
 }
