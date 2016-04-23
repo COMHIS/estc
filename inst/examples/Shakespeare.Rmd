@@ -22,7 +22,8 @@ English Short-Title Catalogue
 (ESTC)](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). We
 then carried out a brief but revealing analysis concerning the early
 modern publishing (1593-1800) of Shakespeare and Cervantes. Check
-below for some graphs that we thought you might find interesting.
+below for some graphs that we wanted to share as you might also find
+them interesting.
 
 In the ESTC and CERL catalogues, we have metadata on roughly 0.5 and 5
 million documents, respectively, between 1470-1800. With a combination
