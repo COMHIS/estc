@@ -35,7 +35,7 @@ nrow(tabs$Shakespeare)` documents in total (ESTC
 
 One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). The first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
 
-```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4, out.width="800px"}
+```{r shakespeare-versusother, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=5, out.width="800px"}
 theme_set(theme_bw(20))
 
 # Shakespeare fraction of overall title count
@@ -59,8 +59,8 @@ p <- ggplot(d, aes(x = publication_decade, y = freq)) +
        xlab("Publication Decade") +
        ylab("Fraction of all titles (%)") +
        scale_fill_grey() +
-       guides(fill = guide_legend("Author")) +
-       ggtitle("Relative publishing activity")
+       guides(fill = guide_legend("Author")) # +
+       #ggtitle("Relative publishing activity")
 print(p)
 ```
 
@@ -75,7 +75,7 @@ era compared to few decades later in the high-Enlightenment when we
 witness the new rise of comedies. 
 
 
-```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4, out.width="800px"}
+```{r shakespeare-tragedyvscomedy, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=5, out.width="800px"}
 auth <- "Shakespeare"
 df <- tabs[[auth]]
 df$publication_decade <- floor(df$publication_year/10) * 10 # 1790: 1790-1799
@@ -91,7 +91,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = type)) +
        ylab("Title Count") +
        scale_fill_grey() +
        guides(fill = guide_legend("Category")) +
-       ggtitle(paste(auth, "plays"))       
+       # ggtitle(paste(auth, "plays"))       
 print(p)
 ```
 
@@ -115,7 +115,7 @@ for (auth in names(my.authors)) {
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
-```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="600px", fig.height=12, fig.width=10}
+```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="600px", fig.height=8, fig.width=8}
 df <- tabc %>% filter(author == "Cervantes") %>%
         group_by(source, publication_decade, title) %>% tally()
 top.titles <- names(top(df, "title", 5))
@@ -134,7 +134,8 @@ for (s in unique(df$source)) {
   p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = title)) +
        geom_bar(stat = "identity", position = "stack", color = "black")
   p <- p + xlim(range(df$publication_decade))
-  p <- p + ggtitle(paste("Cervantes (", s, ")", sep = ""))
+  #p <- p + ggtitle(paste("Cervantes (", s, ")", sep = ""))
+  p <- p + ggtitle(toupper(s))
   p <- p + ylim(values = c(0, max(df %>% group_by(publication_decade) %>% tally() %>% select(n)) + 1))
   p <- p + scale_fill_manual(values = cols[as.character(levels(dfs$title))])
   p <- p + xlab("Publication decade")
@@ -173,8 +174,8 @@ p <- ggplot(dfs2, aes(x = publication_decade, y = n, color = title)) +
        xlab("Publication Decade") +
        ylab("Title count (n)") +
        scale_fill_grey() +
-       guides(color = guide_legend("Title")) +
-       ggtitle("Comparison of popular titles")
+       guides(color = guide_legend("Title")) 
+       # ggtitle("Comparison of popular titles")
 print(p)
 
 p <- ggplot(dfs, aes(x = publication_decade, y = 100*freq, fill = title)) +
@@ -206,8 +207,8 @@ p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = publisher)) +
        xlab("Publication Decade") +
        ylab("Title Count") +
        scale_fill_grey() +
-       guides(fill = guide_legend("Publisher")) +       
-       ggtitle(paste(auth, ": publisher timelines", sep = ""))       
+       guides(fill = guide_legend("Publisher")) 
+       # ggtitle(paste(auth, ": publisher timelines", sep = ""))       
 
 print(p)
 ```

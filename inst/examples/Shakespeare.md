@@ -48,6 +48,11 @@ era compared to few decades later in the high-Enlightenment when we
 witness the new rise of comedies. 
 
 
+
+```
+## Error in p + o: non-numeric argument to binary operator
+```
+
 <img src="figure/shakespeare-tragedyvscomedy-1.png" title="plot of chunk shakespeare-tragedyvscomedy" alt="plot of chunk shakespeare-tragedyvscomedy" width="800px" />
 
 
