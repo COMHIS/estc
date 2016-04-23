@@ -40,10 +40,10 @@ unless otherwise mentioned.
 
 One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). The first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
 
-<img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="800px" />
+<img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="700px" />
 
 
-### Shakespeare Play Categories
+### Shakespeare play categories
  
 We classified Shakespeare’s plays into tragedies, comedies and
 histories. Besides the 1730s peak, histories seem to be less popular
@@ -53,10 +53,10 @@ era compared to few decades later in the high-Enlightenment when we
 witness the new rise of comedies. 
 
 
-<img src="figure/shakespeare-tragedyvscomedy-1.png" title="plot of chunk shakespeare-tragedyvscomedy" alt="plot of chunk shakespeare-tragedyvscomedy" width="800px" />
+<img src="figure/shakespeare-tragedyvscomedy-1.png" title="plot of chunk shakespeare-tragedyvscomedy" alt="plot of chunk shakespeare-tragedyvscomedy" width="700px" />
 
 
-### Shakespeare Title Popularity
+### Shakespeare title popularity
  
 No real surprises here. Collected works and plays are of course an important source to access Shakespeare. But in the Top-5 list of single plays Hamlet, Romeo and Juliet, Macbeth and Othello are where you might expect to find them. Perhaps slightly surprising is that Julius Caesar beats Merchant of Venice and Merry Wives of Windsor. 
 
@@ -80,7 +80,7 @@ On this timeline we see a very interesting contest. Don Quixote’s train-like r
 <img src="figure/shakespeare-titles2-1.png" title="plot of chunk shakespeare-titles2" alt="plot of chunk shakespeare-titles2" width="700px" />
 
 
-### Shakespeare: Publisher timeline
+### Shakespeare publisher timeline
  
 There exists great scholarship on Shakespeare’s copyrights in the eighteenth century by Terry Belanger. While we are well aware of the division of Shakespeare copyrights between different publishers and the use of printing congers, what we want to highlight here is the relevance of Tonson publishing house and the role played by John Bell towards the later eighteenth century in promoting Shakespeare in Britain (for Bell as ['bibliographic nightmare'](http://collation.folger.edu/2012/06/john-bell-bibliographic-nightmare/). The illustration is based on the ESTC catalogue, where we have manually cleaned up the publisher information, combining synonymous variants of the publisher names.
 
@@ -89,7 +89,7 @@ There exists great scholarship on Shakespeare’s copyrights in the eighteenth c
 
 
 
-**NB! Regarding method**
+**NB! Notes on methodology**
 
 The trick to get this approach working is to harmonize the catalogued
 fields so we may trust the statistics that library catalogue data can
