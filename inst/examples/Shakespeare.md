@@ -6,8 +6,8 @@ output: markdown_document
 ---
 
 
-We are a team of an early modern intellectual historian [Mikko
-Tolonen](https://twitter.com/mikko_tolonen) and a computational
+We are a team of an early modern intellectual historian ([Mikko
+Tolonen](https://twitter.com/mikko_tolonen)) and a computational
 scientist and bioinformatician ([Leo
 Lahti](http://www.iki.fi/Leo.Lahti)). Often on Friday nights we skype
 to discuss digital humanities, a field that nicely combines our mutual
@@ -16,11 +16,7 @@ to celebrate the 400th anniversary of Shakespeare & Cervantes.
 
 We decided to build on our peculiar interest in [library
 catalogues](https://www.liberquarterly.eu/article/10.18352/lq.10112/)
-<<<<<<< HEAD
 by focusing on [CERL Heritage of the Printed Book Catalogue
-=======
-by focusing on the [CERL Heritage of the Printed Book Catalogue
->>>>>>> 90a6f03fba56e9b974c1caa56d9752ca11a035a8
 (HPB)](https://www.cerl.org/resources/hpb/main) and [British Library’s
 English Short-Title Catalogue
 (ESTC)](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). We
@@ -43,7 +39,7 @@ unless otherwise mentioned.
 
 ### Relative publishing activity: Shakespeare
 
-One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). This first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
+One thing that we have learned about author lives when analysing publishing activity is that printing usually ends (more rapidly than you think) when the author kicks the bucket. That is, death is the end of popularity. Well, obviously this is not the case for Shakespeare. But do note that the new rise in publishing Shakespeare (based on ESTC data) begins in the 1730s with the input of the famous Tonson publishing house (see also Shakespeare publisher timeline below). The first graph illustrates the fraction of titles from Shakespeare relative to all other publishing activity in the ESTC catalogue.
 
 <img src="figure/shakespeare-versusother-1.png" title="plot of chunk shakespeare-versusother" alt="plot of chunk shakespeare-versusother" width="700px" />
 
@@ -71,7 +67,7 @@ No real surprises here. Collected works and plays are of course an important sou
 
 ### Cervantes popularity
  
-What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
+What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but is not published in English during the early modern period. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
 <img src="figure/shakespeare-cervantes-1.png" title="plot of chunk shakespeare-cervantes" alt="plot of chunk shakespeare-cervantes" width="800px" />
