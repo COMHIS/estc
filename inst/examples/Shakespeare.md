@@ -6,7 +6,7 @@ output: markdown_document
 ---
 
 
-We are a team of an early modern intellectual historian (Mikko Tolonen) and a data scientist in the field of bioinformatics ([Leo Lahti](http://www.iki.fi/Leo.Lahti)). Often on Friday nights we skype to discuss what should we do in the domain of digital humanities that nicely combines our interests. Today’s task was to do something to celebrate Shakespeare & Cervantes.
+We are a team of an early modern intellectual historian [Mikko Tolonen](https://twitter.com/mikko_tolonen) and a data scientist in the field of bioinformatics ([Leo Lahti](http://www.iki.fi/Leo.Lahti)). Often on Friday nights we skype to discuss what should we do in the domain of digital humanities that nicely combines our interests. Today’s task was to do something to celebrate Shakespeare & Cervantes.
 
 We have a peculiar interest in [library
 catalogues](https://www.liberquarterly.eu/article/10.18352/lq.10112/)
@@ -25,10 +25,10 @@ activity around 1470-1800. With a combination of
 [automated](https://github.com/rOpenGov/estc) and manual data
 processing, we identified for Shakespeare 1307
 documents in total (ESTC `rsum(tabs$Shakespeare$source == "estc")`;
-CERL `rsum(tabs$Shakespeare$source == "cerl")`), and for Cervantes `r
+CERL 239), and for Cervantes `r
 nrow(tabs$Shakespeare)` documents in total (ESTC
-`rsum(tabs$Cervantes$source == "estc")`; CERL
-`rsum(tabs$Cervantes$source == "cerl")`).
+96; CERL
+404).
 
 
 ### Relative publishing activity: Shakespeare
@@ -64,6 +64,8 @@ No real surprises here. Collected works and plays are of course an important sou
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
+<img src="figure/shakespeare-cervantes-1.png" title="plot of chunk shakespeare-cervantes" alt="plot of chunk shakespeare-cervantes" width="800px" />
+
 
 ### Comparison of popular titles
  
@@ -75,7 +77,7 @@ On this timeline we see a very interesting contest. Don Quixote’s train-like r
 
 ### Shakespeare: Publisher timeline
  
-There exists great scholarship on Shakespeare’s copyrights in the eighteenth century by Terry Belanger. While we are well aware of the division of Shakespeare copyrights between different publishers and the use of printing congers, what we want to highlight here is the relevance of Tonson publishing house and the role played by John Bell towards the later eighteenth century in promoting Shakespeare in Britain (for Bell as ['bibliographic nightmare'](http://collation.folger.edu/2012/06/john-bell-bibliographic-nightmare/).
+There exists great scholarship on Shakespeare’s copyrights in the eighteenth century by Terry Belanger. While we are well aware of the division of Shakespeare copyrights between different publishers and the use of printing congers, what we want to highlight here is the relevance of Tonson publishing house and the role played by John Bell towards the later eighteenth century in promoting Shakespeare in Britain (for Bell as ['bibliographic nightmare'](http://collation.folger.edu/2012/06/john-bell-bibliographic-nightmare/). The illustration is based on the ESTC catalogue, where we have manually cleaned up the publisher information, combining synonymous variants of the publisher names.
 
 
 <img src="figure/shakespeare-publisher-1.png" title="plot of chunk shakespeare-publisher" alt="plot of chunk shakespeare-publisher" width="800px" />

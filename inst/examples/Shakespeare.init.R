@@ -28,4 +28,16 @@ for (auth in names(my.authors)) {
 
 }
 
+# Tabs combined
+tabc <- NULL
+for (auth in names(my.authors)) {
+  tab <- tabs[[auth]]
+  tab$author <- auth
+  tabc <- rbind(tabc, tab)
+}
+tabc$source <- factor(tabc$source)
+tabc$author <- factor(tabc$author)
+library(sorvi)
+tabc$title <- factor(condense_spaces(as.character(tabc$title)))
+
 # ----------------------------------------------------------
