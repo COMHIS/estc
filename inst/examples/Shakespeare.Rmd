@@ -115,7 +115,7 @@ for (auth in names(my.authors)) {
 What is telling when comparing Cervantes on the continent and his popularity in the English-speaking world is that Galatea (Cervantes’s first published work) does very well on the continent, but not so much in the English-speaking world. At the same time it is very clear that Don Quixote is THE single work by any author in early modern Europe (including the English-speaking world).
  
 
-```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="700px", fig.height=16, fig.width=8}
+```{r shakespeare-cervantes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, out.width="700px", fig.height=24, fig.width=8}
 df <- tabc %>% filter(author == "Cervantes") %>%
         group_by(source, publication_decade, title) %>% tally()
 top.titles <- names(top(df, "title", 5))
