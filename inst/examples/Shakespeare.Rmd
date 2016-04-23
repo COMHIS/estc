@@ -84,13 +84,14 @@ dfs <- df %>% filter(type %in% types) %>%
               group_by(publication_decade, type) %>%
               tally()
 dfs$type <- factor(dfs$type, levels = types)
+
 # Visualize the timeline
 p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = type)) +
        geom_bar(stat = "identity", position = "stack", color = "black") +
        xlab("Publication Decade") +
        ylab("Title Count") +
        scale_fill_grey() +
-       guides(fill = guide_legend("Category")) +
+       guides(fill = guide_legend("Category")) 
        # ggtitle(paste(auth, "plays"))       
 print(p)
 ```
