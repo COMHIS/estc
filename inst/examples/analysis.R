@@ -48,8 +48,7 @@ df <- df.preprocessed <- df.preprocessed.orig
 #knit("20150611-Paris.Rmd") # For workshop
 # source("timeplot.R") # History vs. all ESTC docs
 # source("duplicates.R")
-
-source("Shakespeare.R")
+source("Shakespeare400.R")
 
 # -------------------------------------------------
 

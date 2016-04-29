@@ -26,10 +26,13 @@ Ambleside	England	     1
 America	USA	     8
 Amherst NH	USA	    50
 Ampthill	England	     1
-Amsterdam	Netherlands	  1179
+Amsterdam	Netherlands	  1169
+Amsterdam id	NA	     1
+Amsterdam john johnson bookseller dwelling upon water passe card	NA	     1
 Amwythig	England	   122
 Andover Ma	USA	     4
 Annapolis Md	USA	   493
+Anno dni amsterdam	NA	     1
 Antwerp	Belgium	   380
 Appelby-in-Westmorland	England	     1
 Arezzo	Italy	     1
@@ -41,8 +44,9 @@ Ashby-de-la-Zouch	England	     1
 Ashford	England	     3
 Atherstone	England	     4
 Athlone	Ireland	     5
+Att amsterdam	NA	     1
 Augsburg	Germany	     3
-Augusta (Ambiguous)	Ambiguous	     5
+Augusta	USA	     5
 Augusta GA	USA	    53
 Augusta Me	USA	    12
 Avignon	France	     4
@@ -73,7 +77,7 @@ Basingstoke	England	     2
 Basseterre	Saint Kitts and Nevis	     5
 Basseterre Saint Kitts	Saint Kitts and Nevis	    32
 Bastia (Corsica)	France	     1
-Bath	Ambiguous	  1103
+Bath	England	  1103
 Bath England	England	    15
 Bath NY	USA	     1
 Bawtry	England	     1
@@ -102,7 +106,9 @@ Birstall	England	     1
 Bishopstone	England	     6
 Blackburn	England	    35
 Blackwell	England	     1
-Blandford (Ambiguous)	Ambiguous	     6
+Blandford	England	     4
+Blandford Forum	England	     1
+Blandford Va	USA	     1
 Bocking	England	    10
 Bodedern	England	     2
 Boden	Germany	     1
@@ -113,17 +119,17 @@ Bombay	India	    24
 Bonn	Germany	     3
 Bontfaen	England	     6
 Bordeaux	France	    12
-Boston	Ambiguous	  9469
+Boston	USA	  9468
 Boston england	England	     8
-Boston Ma	USA	  1142
+Boston Ma	USA	  1121
 Bosworth	England	     1
 Bottisham	England	     1
 Bouillon	Belgium	     4
 Boulogne	France	     1
 Brackley	England	     1
 Bradford	England	    45
-Brattleborough vt	USA	     4
 Brattleboro Vt	USA	     7
+Brattleborough vt	USA	     4
 Braunschweig	Germany	     2
 Brearley hall	England	     3
 Bremen	Germany	     9
@@ -151,7 +157,7 @@ Buckingham	England	    17
 Budapest	Hungary	     1
 Bungay	England	     9
 Bunny	England	     1
-Burlington (Ambiguous)	USA	    11
+Burlington	USA	    11
 Burlington NJ	USA	   137
 Burlington Vt	USA	     4
 Burnley	England	     2
@@ -170,25 +176,25 @@ Calais	France	     1
 Calcutta	India	   282
 Calicut	India	     1
 Calne	England	     2
-Cambridge (Ambiguous)	Ambiguous	  4262
-Cambridge England	England	    86
-Cambridge Ma	USA	   332
+Cambridge	England	  4263
+Cambridge England	England	    81
+Cambridge Ma	USA	   336
 Campbeltown	Scotland	     1
 Canaan NY	USA	     4
 Canandaigua ny	USA	     1
-Canterbury (Ambiguous)	Ambiguous	   503
+Canterbury	England	   503
 Canterbury england	England	     7
 Canterbury NH	USA	     1
-Cape Town	South Africa	     4
 Cap-Haitien	Haiti	     4
-Carlisle	Ambiguous	   112
+Cape Town	South Africa	     4
+Carlisle	England	   112
 Carlisle England	England	     1
 Carlisle Pa	USA	    42
 Carlow	Ireland	     8
 Carmarthen	England	    80
-Carrick (Ambiguous)	Carrick	     4
-Carrickfergus	Northern Ireland	     1
+Carrick	Ambiguous	     4
 Carrick-on-Suir	Ireland	     1
+Carrickfergus	Northern Ireland	     1
 Carron	Scotland	     2
 Cashel	Ireland	     2
 Cassel	France	     1
@@ -203,12 +209,10 @@ Chambersburg Pa	USA	    19
 Charleston SC	USA	   729
 Charlestown Ma	USA	     1
 Charlottesville va	USA	     3
-Charlottetown	Ambiguous	    40
-Chatham	Ambiguous	    11
-Chatham nj	USA	    18
-Chelmsford	Ambiguous	    72
-Chelmsford England	England	     1
-Chelmsford Ma	USA	     6
+Charlottetown	Canada	    40
+Chatham	England	    29
+Chelmsford	England	    73
+Chelmsford Ma	USA	     8
 Chelsea	England	    22
 Cheltenham	England	    14
 Chennai	India	    14
@@ -267,6 +271,7 @@ Dartmouth	England	     5
 Daventry	England	     5
 Deal	England	     2
 Dedham Ma	USA	    29
+Dedruct amsterdam	NA	     1
 Delft	Netherlands	    34
 Denbigh	England	     1
 Deptford	England	    24
@@ -305,6 +310,7 @@ Dublin	Ireland	 26156
 Dudley	England	    20
 Dumfries	Scotland	    85
 Dumfries Va	USA	     5
+Dun Laoghaire	Ireland	     3
 Dunbar	Scotland	    43
 Duncannon	Ireland	     1
 Dundee	Scotland	   140
@@ -313,14 +319,13 @@ Dungannon	Northern Ireland	     3
 Dunkalk	Ireland	     2
 Dunkeld	Scotland	     1
 Dunkirk	France	     3
-Dun Laoghaire	Ireland	     3
 Duns	Scotland	     2
 Dunstable	England	     1
 Durham	England	   170
 Düsseldorf	Germany	     1
 Eartham	England	     1
-Eastbourne	England	     2
 East grinstead	England	     1
+Eastbourne	England	     2
 Easton Pa	USA	    10
 Edenhall	England	     1
 Edenton NC	USA	    43
@@ -371,7 +376,7 @@ Flushing	England	     5
 Folkestone	USA	     1
 Fort McHenry Ms	USA	     1
 Fort royal	Martinique	     5
-Frankfort Ky	USA	    31
+Frankfort Ky	USA	    34
 Frankfurt	Germany	    65
 Frankfurt am Main	Germany	     7
 Frankfurt an der Oder	Germany	     1
@@ -404,8 +409,7 @@ Gillingham	England	     3
 Gilmanton NH	USA	     6
 Glasgow	Scotland	  5343
 Glastonbury	England	     1
-Gloucester	Ambiguous	   312
-Gloucester England	England	     2
+Gloucester	England	   314
 Gloucester Ma	USA	     1
 Goa	India	     1
 Görliz	Germany	     2
@@ -460,6 +464,8 @@ Havanna	Cuba	     4
 Haverhill Ma	USA	    30
 Haverhill NH	USA	     6
 Hawick	Scotland	    11
+Haye hague	NA	     1
+Haye london	NA	     1
 Heidelberg	Germany	    11
 Heilbronn	Germany	     1
 Helmstadt	Germany	     1
@@ -517,7 +523,6 @@ Kelso	Scotland	    34
 Kendal	England	   143
 Kenilworth	England	     1
 Kent	England	     1
-Kentucky	Ambiguous	     3
 Keswick	England	     1
 Kettering	England	     6
 Kidderminster	England	    47
@@ -544,13 +549,13 @@ Knoxville TN	USA	    31
 Knutsford	England	     1
 Koningsberg	Germany	     2
 Krakow	Poland	     1
-Lanark	Scotland	     1
-Lancaster Pa	USA	   351
-Lancester pa	USA	     1
-Langport	England	     1
-Lansingburgh NY	USA	    33
 La rochelle	France	     6
 La Trinite	Martinique	     1
+Lanark	Scotland	     1
+Lancaster Pa	USA	   351
+Lancester pa	NA	     1
+Langport	England	     1
+Lansingburgh NY	USA	    33
 Launceston	England	     3
 Lausanne	Switzerland	    31
 Lebanon pa	USA	     1
@@ -580,7 +585,7 @@ Liverpool	England	   550
 Livorno	Italy	    63
 Llanymddyfri	England	     7
 Llwydlo	England	     5
-London	England	317638
+London	England	317648
 London Ct	USA	     6
 Londonderry	Northern Ireland	    28
 Long Buckby	England	     1
@@ -661,28 +666,29 @@ Nassau	Bahamas	    24
 Natchez Ms	USA	    10
 Neuchatel	Switzerland	    16
 Neustadt an der Weinstraße	Germany	     1
-Newark (Ambiguous)	Ambiguous	   120
-Newark england	England	     3
-Newark NJ	USA	   105
 New Bedford Ma	USA	    41
 New Bern NC	USA	   149
 New Britain Pa	USA	     1
 New Brunswick NJ	USA	    72
-Newburgh NY	USA	    14
-Newbury	England	     9
-Newburyport Ma	USA	   395
-Newbury Vt	USA	     6
-Newcastle	England	  2715
 New Castle De	USA	    15
-Newfield Ct	USA	    21
 New Haven Ct	USA	    36
 New Haven Ma	USA	   738
-Newington Ct	USA	     3
 New London Ct	USA	  1004
-Newmarket	England	    11
 New Milford Ct	USA	     1
 New Orleans La	USA	    62
-Newport	Ambiguous	    35
+New York NY	USA	  4672
+Newark	England	   120
+Newark england	England	     3
+Newark NJ	USA	   105
+Newburgh NY	USA	    14
+Newbury	England	     9
+Newbury Vt	USA	     6
+Newburyport Ma	USA	   395
+Newcastle	England	  2715
+Newfield Ct	USA	    21
+Newington Ct	USA	     3
+Newmarket	England	    11
+Newport	England	    35
 Newport Isle of Wight	England	    11
 Newport Pagnel	England	     6
 Newport RI	USA	   653
@@ -691,7 +697,6 @@ Newton abbot	England	     3
 Newton NJ	USA	     2
 Newton stewart	Scotland	     1
 Newtown Pa	USA	     1
-New York NY	USA	  4672
 Niagara	Canada	    31
 Nice	France	     4
 Nijmegen	Netherlands	     1
@@ -701,19 +706,20 @@ Norfolk	England	     5
 Norfolk Va	USA	    30
 Norristown Pa	USA	     7
 Norrköping	Sweden	     1
+North shields	England	    25
+North Yarmouth Me	USA	     1
 Northallerton	England	     4
 Northampton	England	   368
 Northampton Ma	USA	    62
-North shields	England	    25
 Northumberland Pa	USA	    12
 Northwich	England	     1
-North Yarmouth Me	USA	     1
 Norton	England	     6
 Norton fitzwarren	England	     1
 Norwich	England	   947
 Norwich Ct	USA	   319
 Nothampton	England	     3
 Nottingham	England	   530
+Nov amsterdam	NA	     1
 Nuneaton	England	     2
 Nurnberg	Germany	     1
 Nürnberg	Germany	    13
@@ -771,10 +777,10 @@ Pondicherry	India	    10
 Pontefract	England	    18
 Poole	England	     9
 Port-au-Prince	Haiti	    48
+Port-of-Spain	Trinidad and Tobago	     4
 Portland Me	USA	    83
 Portland Or	USA	     9
 Porto	Portugal	     1
-Port-of-Spain	Trinidad and Tobago	     4
 Portsmouth	England	   132
 Portsmouth england	England	     1
 Portsmouth NH	USA	   485
@@ -791,7 +797,7 @@ Quebec	Canada	   510
 Raleigh nc	USA	    20
 Ramsey	England	     2
 Ramsgate	England	    11
-Reading	Ambiguous	   249
+Reading	England	   249
 Reading England	England	     4
 Redruth	England	     1
 Regensburg	Germany	     3
@@ -829,25 +835,25 @@ Rye	England	     4
 Saarbrucken	Germany	     1
 Saffron walden	England	     2
 Sag Harbour NY	USA	     8
-Saint-Germain-en-Laye	France	     6
 Saint John	Canada	    12
+Saint-Germain-en-Laye	France	     6
 Saint-Malo	France	     4
 Saint-Marie	Martinique	     1
 Salamanca	Spain	     1
-Salem	Ambiguous	     5
-Salem Ma	USA	   312
+Salem	USA	     6
+Salem Ma	USA	   332
 Salem NC	USA	     1
 Salem NJ	USA	     3
-Salem NY	USA	     5
-Salisbury	Ambiguous	   837
+Salem NY	USA	     6
+Salisbury	England	   837
 Salisbury England	England	     9
 Salisbury Ma	USA	     1
 Salisbury NC	USA	    12
 Sandhurst	England	     2
 Sandwich	England	     1
 Sanquhar	Scotland	     1
-Savannah Ga	USA	   149
 Savanna-la-Mar Jamaica	Jamaica	     1
+Savannah Ga	USA	   149
 Saxmundham	England	     2
 Scarborough	England	    16
 Schenectady NY	USA	    12
@@ -877,47 +883,47 @@ Sienna	Italy	     1
 Simsbury Ct	USA	     1
 Sligo	Ireland	     2
 Slough	England	     1
-Southampton	England	   123
 South molton	England	     5
 South shields	England	    10
+Southampton	England	   123
 Spalding	England	    27
 Spanish Town	Jamaica	   107
 Springfield Ma	USA	    93
-Stabroek	Guyana	    15
-Stafford	England	    55
 St Albans	England	    15
-Stamford	England	    97
 St Andrews	Scotland	    46
 St Augustine Fl	USA	     8
-Staunton Va	USA	     5
 St austell	England	     2
 St croix	USA	     1
-Sterling	Scotland	     4
 St Eustatius	St Eustatius	     3
 St George	Grenada	    30
 St germans	England	     1
 St Helier	England	    28
-Stirling	Scotland	   158
 St Ives	England	    23
 St John New Brunswick	Canada	     2
 St Johns Antiqua	Antiqua	    55
 St Mary's Md	USA	     1
 St neots	England	     5
+St Omer	France	   352
+St Peter Port	Guernsey	    11
+St Petersburg	Russia	    25
+St Pierre	Martinique	    22
+Stabroek	Guyana	    15
+Stafford	England	    55
+Stamford	England	    97
+Staunton Va	USA	     5
+Sterling	Scotland	     4
+Stirling	Scotland	   158
 Stockbridge Ma	USA	    53
 Stockholm	Sweden	     7
 Stockport	England	    54
 Stockton	England	    52
 Stoke-on-Trent	England	     1
 Stokesley	England	     2
-St Omer	France	   352
 Stonington Ct	USA	    10
 Stonor	England	     2
 Stourbridge	England	    23
 Stow	England	     1
 Stowmarket	England	     2
-St Peter Port	Guernsey	    11
-St Petersburg	Russia	    25
-St Pierre	Martinique	    22
 Strabane	Northern Ireland	    19
 Strahane	England	     2
 Strasbourg	France	    35
@@ -933,12 +939,13 @@ Swaffham	England	     1
 Sydney	Australia	     3
 Szczecin	Poland	     2
 Tamworth	England	    13
+Tat amsterdam	NA	     1
 Taunton	England	   101
 Tavistock	England	     2
 Tetbury	England	     3
 Tewkesbury	England	   132
 Thame	England	     1
-Tharangampadi	India	   155
+Tharangampadi	NA	   155
 The Hague	Netherlands	   332
 Thetford	England	     1
 Thirsk	England	     2
@@ -1001,10 +1008,9 @@ Watford	England	     3
 Wellingborough	England	     3
 Wells	England	     5
 Wesel	Germany	    45
-Westminster (Ambiguous)	Ambiguous	    10
-Westminster england	England	     1
-Westport Ct	USA	     1
 West Springfield Ma	USA	    20
+Westminster england	NA	     1
+Westport Ct	USA	     1
 Wexford	England	    17
 Weymouth	England	    17
 Whitburn	Scotland	     3
@@ -1021,7 +1027,7 @@ Williamsburg Va	USA	   409
 Wilmington De	USA	   393
 Wilmington NC	USA	    14
 Winchester	England	   125
-Winchester (England)	England	     3
+Winchester England	England	     3
 Windham Ct	USA	    45
 Windsor	England	    75
 Windsor Ct	USA	     5
@@ -1038,7 +1044,7 @@ Wokingham	England	     2
 Wolston	England	     3
 Wolverhampton	England	   147
 Woodbridge NJ	USA	   115
-Worcester	Ambiguous	   453
+Worcester	England	   453
 Worcester England	England	     3
 Worcester Ma	USA	   465
 Workington	England	     6
@@ -1046,11 +1052,11 @@ Worms	Germany	     2
 Wotton-under-Edge	England	     9
 Wrexham	England	    70
 Wycombe	England	     3
+Y Bont-faen	England	     2
 Yarm	England	     1
 Yarmouth	England	    98
-Y Bont-faen	England	     2
 Yeovil	England	     4
-York (Ambiguous)	Ambiguous	  1758
+York	England	  1757
 York Canada	Canada	     4
 York England	England	    16
 York Pa	USA	    48

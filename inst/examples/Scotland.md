@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-04-20"
+date: "2016-04-29"
 output: markdown_document
 ---
 
@@ -174,6 +174,12 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 We have 34459 documents from Scotland and 204977 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
+
+```
+## Warning in grid.Call.graphics(L_polygon, x$x, x$y, index): semi-
+## transparency is not supported on this device: reported only once per page
+```
+
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
 ```
@@ -181,71 +187,77 @@ We have 34459 documents from Scotland and 204977 documents from London during 17
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : span too small. fewer data values than degrees of freedom.
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : span too small. fewer data values than degrees of freedom.
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : at 1719.6
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : at 1719.6
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : radius 0.16
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : radius 0.16
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : all data on boundary of neighborhood. make span bigger
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : all data on boundary of neighborhood. make span bigger
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : pseudoinverse used at 1719.6
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : pseudoinverse used at 1719.6
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : neighborhood radius 0.4
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : neighborhood radius 0.4
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : reciprocal condition number 1
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : reciprocal condition number 1
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : at 1800.4
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : at 1800.4
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : radius 0.16
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : radius 0.16
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : all data on boundary of neighborhood. make span bigger
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : all data on boundary of neighborhood. make span bigger
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : There are other near singularities as well. 0.16
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : There are other near singularities as well. 0.16
 ```
 
 ```
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : zero-width neighborhood. make span bigger
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : zero-width neighborhood. make span bigger
 
-## Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square,
-## normalize, : zero-width neighborhood. make span bigger
+## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
+## parametric, : zero-width neighborhood. make span bigger
 ```
 
 ```
 ## Warning: Computation failed in `stat_smooth()`:
 ## NA/NaN/Inf in foreign function call (arg 5)
+```
+
+```
+## Warning in grid.Call.graphics(L_rect, x$x, x$y, x$width, x$height,
+## resolveHJust(x$just, : semi-transparency is not supported on this device:
+## reported only once per page
 ```
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png)
@@ -264,7 +276,7 @@ We have 34459 documents from Scotland and 204977 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 954 rows containing missing values (geom_point).
+## Warning: Removed 1950 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)

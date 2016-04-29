@@ -1,7 +1,5 @@
 name	count
 New York NY	4672
-Cambridge (Ambiguous)	4262
-York (Ambiguous)	1758
 Birmingham	1282
 Manchester	1208
 Bath	1103
@@ -19,7 +17,7 @@ Shrewsbury	598
 Liverpool	550
 Nottingham	530
 Quebec	510
-Canterbury (Ambiguous)	503
+Canterbury	503
 Coventry	499
 Halifax	495
 Annapolis Md	493
@@ -39,11 +37,11 @@ Lancaster Pa	351
 Albany NY	350
 Richmond	349
 Ipswich	347
+Cambridge Ma	336
 The Hague	332
-Cambridge Ma	332
+Salem Ma	332
 Norwich Ct	319
-Salem Ma	312
-Gloucester	312
+Gloucester	314
 Maidstone	309
 Hull	306
 USA	304
@@ -97,7 +95,7 @@ Winchester	125
 Southampton	123
 Leipzig	122
 Amwythig	122
-Newark (Ambiguous)	120
+Newark	120
 Basel	120
 Colchester	119
 Limerick	118
@@ -122,11 +120,11 @@ Kingston Jamaica	89
 Gainsborough	88
 Waterford	86
 Poughkeepsie NY	86
-Cambridge England	86
 Dumfries	85
 Portland Me	83
 Ludlow	81
 Lexington KY	81
+Cambridge England	81
 Berlin	81
 Richmond Va	80
 Carmarthen	80
@@ -135,9 +133,9 @@ Twickenham	78
 Banbury	77
 Concord NH	76
 Windsor	75
+Chelmsford	73
 New Brunswick NJ	72
 Margate	72
-Chelmsford	72
 Wrexham	70
 Hudson NY	69
 Aldershot	69
@@ -168,8 +166,8 @@ Kilkenny	57
 Bury St Edmunds	57
 Warren RI	55
 Trefeca	55
-St Johns Antiqua	55
 Stafford	55
+St Johns Antiqua	55
 Hannover NH	55
 Washington DC	54
 Stockport	54
@@ -221,6 +219,7 @@ Chesterfield	35
 Blackburn	35
 Knaresborough	34
 Kelso	34
+Frankfort Ky	34
 Delft	34
 Whitby	33
 Lansingburgh NY	33
@@ -232,7 +231,6 @@ Basseterre Saint Kitts	32
 Niagara	31
 Lausanne	31
 Knoxville TN	31
-Frankfort Ky	31
 Falmouth Me	31
 Suffield Ct	30
 St George	30
@@ -244,6 +242,7 @@ Burslem	30
 Bruges	30
 Henley-on-Thames	29
 Dedham Ma	29
+Chatham	29
 St Helier	28
 Londonderry	28
 Armagh	28
@@ -306,7 +305,6 @@ Egham	18
 Douglas	18
 Dort	18
 Columbia SC	18
-Chatham nj	18
 Weymouth	17
 Wexford	17
 Ripon	17
@@ -321,8 +319,8 @@ Neuchatel	16
 Haddington	16
 Fredicksburg Va	16
 Caerleon	16
-St Albans	15
 Stabroek	15
+St Albans	15
 New Castle De	15
 Machynlleth	15
 Inverness	15
@@ -375,12 +373,10 @@ Loughborough	11
 Heidelberg	11
 Hawick	11
 Cincinnati Oh	11
-Chatham	11
-Burlington (Ambiguous)	11
+Burlington	11
 Bridgnorth	11
 Beverley	11
 Bern	11
-Westminster (Ambiguous)	10
 Valletta	10
 Stroud	10
 Stonington Ct	10
@@ -431,6 +427,7 @@ Hanau	8
 Greenock	8
 Gateshead	8
 Clonmel	8
+Chelmsford Ma	8
 Carlow	8
 Bridgewater Ma	8
 Boston england	8
@@ -461,6 +458,8 @@ Uttoxeter	6
 Ulverston	6
 Tiverton	6
 Shepton Mallet	6
+Salem NY	6
+Salem	6
 Saint-Germain-en-Laye	6
 Princeton NJ	6
 Norton	6
@@ -481,11 +480,9 @@ Gilmanton NH	6
 Firenze	6
 Devonport	6
 Croesoswallt	6
-Chelmsford Ma	6
 Castine Me	6
 Bridlington	6
 Bontfaen	6
-Blandford (Ambiguous)	6
 Bishopstone	6
 Alston	6
 Yverdon-les-Bains	5
@@ -493,11 +490,9 @@ Wittenberg	5
 Windsor Ct	5
 Wells	5
 Totnes	5
-St neots	5
 Staunton Va	5
+St neots	5
 South molton	5
-Salem NY	5
-Salem	5
 Prescot	5
 Orleans	5
 Norfolk	5
@@ -527,7 +522,7 @@ Caerdydd	5
 Bödingen	5
 Basseterre	5
 Ballston Spa NY	5
-Augusta (Ambiguous)	5
+Augusta	5
 Athlone	5
 York Canada	4
 Yeovil	4
@@ -560,9 +555,9 @@ Dresden Vt	4
 Dereham	4
 Crewkerne	4
 Cheshunt	4
-Carrick (Ambiguous)	4
-Cap-Haitien	4
+Carrick	4
 Cape Town	4
+Cap-Haitien	4
 Canaan NY	4
 Caen	4
 Cadiz	4
@@ -574,6 +569,7 @@ Breslau	4
 Brattleborough vt	4
 Bouillon	4
 Bologna	4
+Blandford	4
 Avignon	4
 Atherstone	4
 Andover Ma	4
@@ -583,7 +579,7 @@ Wycombe	3
 Worcester England	3
 Wolston	3
 Winterthur	3
-Winchester (England)	3
+Winchester England	3
 Whitburn	3
 Wellingborough	3
 Watford	3
@@ -620,7 +616,6 @@ Lugano	3
 Loreto	3
 Lille	3
 Launceston	3
-Kentucky	3
 Karlsruhe	3
 Hitchin	3
 Hexham	3
@@ -634,10 +629,10 @@ Geneva NY	3
 Gdansk	3
 Friedensthal Pa	3
 Elizabethtown Md	3
-Dun Laoghaire	3
 Dunkirk	3
 Dungannon	3
 Dunfermline	3
+Dun Laoghaire	3
 Dorking	3
 Dessau	3
 Chillicothe Oh	3
@@ -719,7 +714,6 @@ Harborough	2
 Great Yarnmouth	2
 Great marlow	2
 Görliz	2
-Gloucester England	2
 Gera	2
 Gateside	2
 Faringdon	2
@@ -782,6 +776,7 @@ Tivoli	1
 Thurles	1
 Thetford	1
 Thame	1
+Tat amsterdam	1
 Swaffham	1
 Sulechow	1
 Stow	1
@@ -846,9 +841,10 @@ Oldham	1
 Offenbach	1
 Oberwesel	1
 Nurnberg	1
+Nov amsterdam	1
 Norton fitzwarren	1
-North Yarmouth Me	1
 Northwich	1
+North Yarmouth Me	1
 Norrköping	1
 Nimes	1
 Nijmegen	1
@@ -882,10 +878,10 @@ Libanon pa	1
 Lemgo	1
 Leeuwarden	1
 Lebanon pa	1
-La Trinite	1
 Langport	1
 Lancester pa	1
 Lanark	1
+La Trinite	1
 Krakow	1
 Knutsford	1
 Knoxville Oh	1
@@ -918,6 +914,8 @@ Henfield	1
 Helmstedt	1
 Helmstadt	1
 Heilbronn	1
+Haye london	1
+Haye hague	1
 Hatfield	1
 Hastings	1
 Harford Md	1
@@ -968,6 +966,7 @@ Devon	1
 Deventer	1
 Detroit Mi	1
 Denbigh	1
+Dedruct amsterdam	1
 Dartford	1
 Cupar	1
 Crieff	1
@@ -982,15 +981,14 @@ Clifton	1
 Ciutadella	1
 Christiansted VI	1
 Chestertown md	1
-Chelmsford England	1
 Charlestown Ma	1
 Cavan	1
 Castries	1
 Castleford	1
 Castlebar	1
 Cassel	1
-Carrick-on-Suir	1
 Carrickfergus	1
+Carrick-on-Suir	1
 Carlisle England	1
 Canterbury NH	1
 Canandaigua ny	1
@@ -1008,6 +1006,8 @@ Boulogne	1
 Bottisham	1
 Bosworth	1
 Boden	1
+Blandford Va	1
+Blandford Forum	1
 Blackwell	1
 Birstall	1
 Birr	1
@@ -1031,12 +1031,16 @@ Balfron	1
 Bakewell	1
 Axminster	1
 Avranches	1
+Att amsterdam	1
 Ashby-de-la-Zouch	1
 Ashby	1
 Ashburton	1
 Arnhem	1
 Arezzo	1
 Appelby-in-Westmorland	1
+Anno dni amsterdam	1
+Amsterdam john johnson bookseller dwelling upon water passe card	1
+Amsterdam id	1
 Ampthill	1
 Ambleside	1
 Altmore	1
