@@ -50,9 +50,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |subject_topic                           |        44.9|          55.1|        265148|      55731|
 |author_name                             |        41.2|          58.8|        282773|      47979|
 |author                                  |        41.2|          58.8|        282773|      54434|
-|publisher                               |        24.3|          75.7|        364234|     169434|
-|latitude                                |        11.2|          88.8|        427494|         20|
-|longitude                               |        11.2|          88.8|        427494|         20|
+|publisher                               |        24.3|          75.7|        364234|     169433|
+|latitude                                |        11.2|          88.8|        427536|         20|
+|longitude                               |        11.2|          88.8|        427536|         20|
 |pagecount.orig                          |         3.7|          96.3|        463526|       1496|
 |obl                                     |         3.5|          96.5|        464209|          3|
 |paper.consumption.km2                   |         2.5|          97.5|        469311|       6854|
@@ -60,8 +60,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                                  |         2.3|          97.7|        470237|         95|
 |area                                    |         2.3|          97.7|        470237|        629|
 |physical_dimension                      |         1.0|          99.0|        476507|       2226|
-|country                                 |         0.7|          99.3|        477777|         55|
-|publication_place                       |         0.5|          99.5|        478686|       1102|
+|country                                 |         0.6|          99.4|        478345|         55|
+|publication_place                       |         0.5|          99.5|        478661|       1055|
 |publication_year_from                   |         0.2|          99.8|        480080|        348|
 |pagecount                               |         0.2|          99.8|        480258|       1674|
 |physical_extent                         |         0.0|         100.0|        481033|     109493|
