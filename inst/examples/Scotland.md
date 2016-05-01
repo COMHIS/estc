@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-04-29"
+date: "2016-05-01"
 output: markdown_document
 ---
 
@@ -172,13 +172,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34459 documents from Scotland and 204977 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
-
-
-```
-## Warning in grid.Call.graphics(L_polygon, x$x, x$y, index): semi-
-## transparency is not supported on this device: reported only once per page
-```
+We have 34459 documents from Scotland and 204976 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
@@ -254,12 +248,6 @@ We have 34459 documents from Scotland and 204977 documents from London during 17
 ## NA/NaN/Inf in foreign function call (arg 5)
 ```
 
-```
-## Warning in grid.Call.graphics(L_rect, x$x, x$y, x$width, x$height,
-## resolveHJust(x$just, : semi-transparency is not supported on this device:
-## reported only once per page
-```
-
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png)
 
 
@@ -276,7 +264,7 @@ We have 34459 documents from Scotland and 204977 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 1950 rows containing missing values (geom_point).
+## Warning: Removed 946 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)

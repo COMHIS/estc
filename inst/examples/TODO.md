@@ -1,14 +1,27 @@
 ### Technical
 
+  * Paikannimilista Mikolle - kaikki ambiguous keissit viimeinen
+    tarkistus
+
+  * Listaa keissit single/multivol/issue keissit ja millaisia
+    tapauksia datasta löytyy ja millaisilla säännöillä voidaan koittaa
+    erottaa. Mikon kanssa katsotaan lista läpi. Vaikuttaa sivumäärien
+    täydennykseen koska tehdään joka kategorialle erikseen.
+
+  * mitä tehdään 1to ja 2fo suhteen. veikkaisin että nämä menevät
+    osittain sekaisin ts. se mikä on ehkä merkitty 1to on oikeasti
+    2fo. 1to joka saman kokoinen kuin 2fo niin pitäis merkata myös
+    2fo:ksi. Lisäksi 1to folded on 2fo eli jos folded oli nyt jätetty
+    huomiotta toistaiseksi niin pitäisikin huomioida
+
+  * ESTC:n osalta pitäis katsoa uudelleen asiasanat. Palauta
+    asiasanakuva-yhteenvedot summaryihin.
+
   * items / parts poistettiin aiemmin kun oli hankalaa. pitäisiko
     ottaa takaisin (affects items and hence pages estimates)
     print("Estimate number of separate parts in a document") parts,
     pages_per_part tmp <- estimate_document_parts(df.orig) df <-
     cbind(df, tmp)
-
-  * pitää miettiä mitä tehdään 1to ja 2fo suhteen. veikkaisin että
-    nämä menevät osittain sekaisin ts. se mikä on ehkä merkitty 1to on
-    oikeasti 2fo.
 
   * Nimien klusterointi esikäsittelynä ja VIAFin käyttö HR kanssa.
     Löytyisköhän koodinpätkää jonka ajamalla saisi esim. sieltä
@@ -27,6 +40,9 @@
     well-wisher / wel wisher .. ?)
 
 ### Analysis
+
+  * DImensioitten vaihtelu vuosikymmenten sijasta esim 50 vuoden
+    välein.
 
   * Title count -> _Book count_ !!? -> Paper count
 
