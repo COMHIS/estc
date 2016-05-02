@@ -1,5 +1,5 @@
 name	count
-New York NY	4671
+New York NY	4672
 Birmingham	1282
 Manchester	1208
 Bath	1118
@@ -52,18 +52,18 @@ Perth	274
 Exeter NH	274
 Rouen	265
 Trenton	254
+Reading	253
 Litchfield Ct	251
-Reading	250
 Berwick-upon-Tweed	247
 Douai	240
 Falkirk	233
 Rochester	221
 Sheffield	206
 Paisley	200
+Caerfyrddin	179
+Durham	178
 Leicester	176
-Caerfyrddin	176
 Bury	175
-Durham	170
 Warwick	168
 Bennington Vt	161
 Derby	160
@@ -95,6 +95,7 @@ Lewes	128
 Rotterdam	126
 Southampton	123
 Newark	123
+Leipzig	122
 Amwythig	121
 Basel	120
 Colchester	119
@@ -108,7 +109,6 @@ Newry	106
 Kings Lynn	106
 Hereford	106
 Newark NJ	105
-Leipzig	104
 Halifax NS	102
 Yarmouth	98
 Stamford	97
@@ -126,9 +126,9 @@ Ludlow	81
 Lexington KY	81
 Berlin	81
 Richmond Va	80
-Carmarthen	80
 Rutland Vt	79
 Twickenham	78
+Carmarthen	77
 Banbury	77
 Concord NH	76
 Windsor	75
@@ -172,8 +172,8 @@ Stafford	55
 Washington DC	54
 Stockport	54
 Stockbridge Ma	53
+Liège	53
 Stockton	52
-Liège	52
 Newport	50
 Kilmarnock	50
 Hertford	50
@@ -197,6 +197,7 @@ Walpole NH	45
 Roseau Dominica	45
 Bradford	45
 Lyon	43
+Halle	43
 Edenton NC	43
 Dunbar	43
 Carlisle Pa	42
@@ -269,7 +270,6 @@ Zürich	22
 Trowbridge	22
 St Pierre	22
 Marlborough	22
-Halle	22
 Georgetown Washington DC	22
 Chelsea	22
 Aylesbury	22
@@ -287,7 +287,7 @@ Dudley	20
 Drogheda	20
 Dresden	20
 Cheshire Ct	20
-Boston england	20
+Boston England	20
 Whitehall Pa	19
 Strabane	19
 Leominster	19
@@ -299,7 +299,6 @@ Chambersburg Pa	19
 Pontefract	18
 Nantwich	18
 Leuven	18
-Leipzig zuellichau	18
 Kingston NY	18
 Ghent	18
 Egham	18
@@ -318,13 +317,12 @@ Neuchatel	16
 Haddington	16
 Fredicksburg Va	16
 Caerleon	16
-York england	15
+St Albans	15
 Stabroek	15
 New Castle De	15
 Machynlleth	15
 Inverness	15
 Haarlem	15
-Ewood hall	15
 Brighton	15
 Wilmington NC	14
 Reims	14
@@ -342,7 +340,6 @@ Cheltenham	14
 Abingdon	14
 Abartawe	14
 Tamworth	13
-St Albans	13
 Nürnberg	13
 Mount holly nj	13
 Louth	13
@@ -419,7 +416,6 @@ Lymington	8
 Honiton	8
 Hanau	8
 Greenock	8
-Gateshead	8
 Clonmel	8
 Chelmsford Ma	8
 Carlow	8
@@ -453,6 +449,7 @@ Saint-Germain-en-Laye	6
 Princeton NJ	6
 Norton	6
 Newbury Vt	6
+Mount Pleasant NJ	6
 Morpeth	6
 Milan	6
 Middlewich	6
@@ -523,7 +520,6 @@ Port-of-Spain	4
 Penzance	4
 Northallerton	4
 Nice	4
-Mount Pleasant NJ	4
 Mansfield	4
 Lustleigh	4
 Leek	4
@@ -583,7 +579,6 @@ Rome NY	3
 Riga	3
 Reigate	3
 Regensburg	3
-Reading england	3
 Prague	3
 Peterhead	3
 Pembroke	3
@@ -607,7 +602,6 @@ Hexham	3
 Harlech	3
 Harderwijk	3
 Harbor Oh	3
-Hall	3
 Gillingham	3
 Georgetown Va	3
 Geneva NY	3
@@ -624,7 +618,6 @@ Chillicothe Oh	3
 Chesham	3
 Chertsey	3
 Charlottesville va	3
-Brearley hall	3
 Bonn	3
 Bewdley	3
 Besancon	3
@@ -695,9 +688,9 @@ Houghton park	2
 Hoogly	2
 Herford	2
 Helsingor	2
-Hartfordiae hartford	2
 Harlow	2
 Harborough	2
+Hall England	2
 Great Yarnmouth	2
 Great marlow	2
 Görliz	2
@@ -742,7 +735,6 @@ Zittau	1
 Zeiz-Bahren	1
 Yr Wyddgrug	1
 Youghal	1
-York america	1
 Yarm	1
 Witney	1
 Wirzburg	1
@@ -750,7 +742,6 @@ Winterslow	1
 Wigton	1
 Wiesenthal	1
 Westport Ct	1
-Westminster england	1
 Warsaw	1
 Warminster Pa	1
 Wantage	1
@@ -851,8 +842,6 @@ Mole-Saint-Nicolas	1
 Milton Ernest	1
 Middleburg netherlands	1
 Mexico city	1
-Matawan NJ	1
-Matawan nj	1
 Martinsburg va	1
 Marseilles	1
 Marseille	1
@@ -861,10 +850,8 @@ Marburg	1
 Malda	1
 Maastricht	1
 Lynchburg va	1
-Lvyck	1
 Lutetiae parisiorum paris londini	1
 Long Buckby	1
-Londinii augustae	1
 Lisburn	1
 Libanon pa	1
 Lemgo	1
@@ -922,8 +909,6 @@ Genoa	1
 Geneve	1
 Gaznah	1
 Gaunt	1
-Fuit villam sancti albani	1
-Fuit op us hoc s an c tu m albanum	1
 Freetown	1
 Frankfurt an der Oder	1
 Fort McHenry Ms	1
@@ -1025,7 +1010,6 @@ Ashburton	1
 Arnhem	1
 Arezzo	1
 Appelby-in-Westmorland	1
-Amstelaedami londini	1
 Ampthill	1
 Ambleside	1
 Altmore	1
