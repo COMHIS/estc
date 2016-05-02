@@ -51,8 +51,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                             |        41.2|          58.8|        282773|      47979|
 |author                                  |        41.2|          58.8|        282773|      54434|
 |publisher                               |        24.3|          75.7|        364223|     169413|
-|latitude                                |        11.1|          88.9|        427637|         19|
-|longitude                               |        11.1|          88.9|        427637|         19|
+|latitude                                |        11.1|          88.9|        427641|         19|
+|longitude                               |        11.1|          88.9|        427641|         19|
 |pagecount.orig                          |         3.7|          96.3|        463526|       1496|
 |obl                                     |         3.5|          96.5|        464209|          3|
 |paper.consumption.km2                   |         2.5|          97.5|        469311|       6854|
@@ -60,8 +60,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                                  |         2.3|          97.7|        470237|         95|
 |area                                    |         2.3|          97.7|        470237|        629|
 |physical_dimension                      |         1.0|          99.0|        476507|       2226|
-|country                                 |         0.5|          99.5|        478639|         55|
-|publication_place                       |         0.5|          99.5|        478663|       1036|
+|country                                 |         0.5|          99.5|        478656|         55|
+|publication_place                       |         0.5|          99.5|        478663|       1030|
 |publication_year_from                   |         0.2|          99.8|        480080|        348|
 |pagecount                               |         0.2|          99.8|        480258|       1674|
 |physical_extent                         |         0.0|         100.0|        481033|     109493|
