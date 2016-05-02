@@ -4,14 +4,14 @@ Birmingham	1282
 Manchester	1208
 Bath	1118
 New London Ct	1004
-Providence RI	964
+Providence RI	963
 Salisbury	846
 Exeter	838
 Belfast	796
 New Haven Ct	774
 Charleston SC	729
 Cork	722
-Newport RI	652
+Newport RI	653
 Leeds	633
 Shrewsbury	597
 Liverpool	550
@@ -29,7 +29,7 @@ Williamsburg Va	409
 Newburyport Ma	395
 Wilmington De	393
 Germantown Pa	388
-Antwerp	379
+Antwerp	380
 Chester	369
 Northampton	368
 St Omer	352
@@ -95,8 +95,8 @@ Lewes	128
 Rotterdam	126
 Southampton	123
 Newark	123
+Amwythig	123
 Leipzig	122
-Amwythig	121
 Basel	120
 Colchester	119
 Limerick	118
@@ -132,7 +132,6 @@ Carmarthen	77
 Banbury	77
 Concord NH	76
 Windsor	75
-Cambridge england	74
 Chelmsford	73
 New Brunswick NJ	72
 Margate	72
@@ -155,7 +154,6 @@ Leominster Ma	62
 Ayr	61
 Alnwick	61
 Bridgetown	60
-Hanover NH	59
 Cirencester	59
 Venice	58
 Peterborough	58
@@ -171,6 +169,7 @@ St Johns Antiqua	55
 Stafford	55
 Washington DC	54
 Stockport	54
+Hanover NH	54
 Stockbridge Ma	53
 Liège	53
 Stockton	52
@@ -223,10 +222,10 @@ Delft	34
 Whitby	33
 Lansingburgh NY	33
 Fredericktown Md	33
+Basseterre Saint Kitts	33
 Utrecht	32
 Evesham	32
 Brookfield Ma	32
-Basseterre Saint Kitts	32
 Niagara	31
 Lausanne	31
 Knoxville TN	31
@@ -250,8 +249,8 @@ Petersburg Va	26
 Chestnut Hill Pa	26
 Catskill NY	26
 St Petersburg	25
-North shields	25
 Monaghan	25
+Hannover	25
 Hallowell Me	25
 Washington Pa	24
 Troy NY	24
@@ -281,7 +280,6 @@ West Springfield Ma	20
 Sudbury	20
 Raleigh nc	20
 Market harborough	20
-Hannover	20
 Fairhaven vt	20
 Dudley	20
 Drogheda	20
@@ -327,7 +325,6 @@ Haarlem	15
 Brighton	15
 Wilmington NC	14
 Reims	14
-Providentiae	14
 Parma	14
 Newburgh NY	14
 Monmouth	14
@@ -342,6 +339,7 @@ Cheltenham	14
 Abingdon	14
 Abartawe	14
 Tamworth	13
+Saint John	13
 Nürnberg	13
 Mount holly nj	13
 Louth	13
@@ -352,7 +350,6 @@ Cooperstown NY	13
 Vergennes vt	12
 Schenectady NY	12
 Salisbury NC	12
-Saint John	12
 Northumberland Pa	12
 Medford Ma	12
 Jena	12
@@ -404,7 +401,7 @@ Hemel Hempstead	9
 Galway	9
 Fayetteville NC	9
 Chippenham	9
-Cambridge cambridge mass	9
+Cambridgee cambridge mass	9
 Bungay	9
 Bremen	9
 Berkhamsted	9
@@ -603,7 +600,6 @@ Karlsruhe	3
 Hitchin	3
 Hexham	3
 Harlech	3
-Harderwijk	3
 Harbor Oh	3
 Gillingham	3
 Georgetown Va	3
@@ -621,7 +617,6 @@ Chillicothe Oh	3
 Chesham	3
 Chertsey	3
 Charlottesville va	3
-Bostoni new england lia	3
 Bonn	3
 Bewdley	3
 Besancon	3
@@ -640,6 +635,7 @@ Wilkes-Barre Pa	2
 Wargrave	2
 Vevey	2
 Tübingen	2
+Traiecti rhenum	2
 Tornay	2
 Thirsk	2
 Tavistock	2
@@ -667,7 +663,6 @@ Penryn	2
 Pattingham	2
 Paramaribo	2
 Padua	2
-Pace	2
 Ossining ny	2
 Octorara Pa	2
 Oakham	2
@@ -731,7 +726,6 @@ Besançon	2
 Bedale	2
 Basingstoke	2
 Bala	2
-Argraphwŷd y mwŷthig	2
 Alfreton	2
 Aix-en-Provence	2
 Adpar	2
@@ -766,10 +760,8 @@ Sulechow	1
 Stow	1
 Stoke-on-Trent	1
 St Mary's Md	1
-St john s	1
 St germans	1
 St croix	1
-St christopher s	1
 Slough	1
 Simsbury Ct	1
 Sienna	1
@@ -798,11 +790,11 @@ Rostock	1
 Roscrea	1
 Ronneburg	1
 Romford	1
-Rochell	1
 Ringwood	1
 Rhaglan	1
 Rennes	1
 Redruth	1
+Providentiae providence	1
 Poulton-le-Fylde	1
 Potsdam	1
 Porto	1
@@ -815,7 +807,6 @@ Pembroke Ma	1
 Peine	1
 Peebles	1
 Pathhead	1
-Paslic	1
 Parr-Town	1
 Paris KY	1
 Palermo	1
@@ -828,8 +819,6 @@ Oldham	1
 Offenbach	1
 Oberwesel	1
 Nurnberg	1
-Nulun	1
-Novum portum ri	1
 Norton fitzwarren	1
 North Yarmouth Me	1
 Northwich	1
@@ -851,8 +840,6 @@ Mole-Saint-Nicolas	1
 Milton Ernest	1
 Middleburg netherlands	1
 Mexico city	1
-Menley	1
-Melvill	1
 Martinsburg va	1
 Marseilles	1
 Marseille	1
@@ -861,9 +848,7 @@ Marburg	1
 Malda	1
 Maastricht	1
 Lynchburg va	1
-Lutetiae parisiorum paris londini	1
 Long Buckby	1
-Little britain	1
 Lisburn	1
 Libanon pa	1
 Lemgo	1
@@ -886,7 +871,6 @@ Kildare	1
 Keswick	1
 Kent	1
 Kenilworth	1
-Kemmish	1
 Kehl	1
 Keene	1
 Kassel	1
@@ -908,6 +892,7 @@ Heilbronn	1
 Hatfield	1
 Hastings	1
 Harford Md	1
+Harderwijk	1
 Halesworth	1
 Hagley	1
 Grenada	1
@@ -923,7 +908,7 @@ Geneve	1
 Gaznah	1
 Gaunt	1
 Freetown	1
-Frankfurt an der Oder	1
+Frankofurti viadrum	1
 Fort McHenry Ms	1
 Folkestone	1
 Flensburg	1
@@ -935,12 +920,10 @@ Featherstone	1
 Fawsley	1
 Farnham	1
 Farmington Ct	1
-Europ	1
 Eshott	1
 Ellesmere	1
 Elie	1
 Elgin	1
-Eleutheropolis	1
 Elbingen	1
 Edenhall	1
 East grinstead	1
@@ -962,9 +945,6 @@ Cupar	1
 Crieff	1
 Cricklade	1
 Coxheath	1
-Copy van schotland	1
-Continental	1
-Continent	1
 Constance	1
 Coleraine	1
 Coimbra	1
@@ -984,11 +964,9 @@ Carrickfergus	1
 Canterbury NH	1
 Canandaigua ny	1
 Campbeltown	1
-Californien	1
 Calicut	1
 Calais	1
 Caergybi	1
-Bwten lonnen	1
 Bunny	1
 Budapest	1
 Buckden	1
@@ -1030,12 +1008,10 @@ Ashburton	1
 Arnhem	1
 Arezzo	1
 Appelby-in-Westmorland	1
-Anwerpiesum oppido	1
 Ampthill	1
 Ambleside	1
 Altmore	1
 Aldermanbury	1
-Albigion	1
 Aberystwyth	1
 Abermaw	1
 Aberdaugleddau	1
