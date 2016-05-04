@@ -2,7 +2,7 @@
 % Please edit documentation in R/polish_publisher_forby.R
 \name{polish_publisher_forby}
 \alias{polish_publisher_forby}
-\title{Polish publisher}
+\title{Polish Publisher}
 \usage{
 polish_publisher_forby(x)
 }
@@ -13,7 +13,7 @@ polish_publisher_forby(x)
 Polished vector
 }
 \description{
-Polish publisher field separating for/by
+Polish publisher field separating for/by.
 }
 \details{
 Polish publisher field.
@@ -22,10 +22,10 @@ Polish publisher field.
 # polish_publisher("printed and sold by R. Marchbank")
 }
 \author{
-Leo Lahti \email{leo.lahti@iki.fi}
+Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
 }
 \references{
-See citation("estc")
+See citation("bibliographica")
 }
 \keyword{utilities}
 
