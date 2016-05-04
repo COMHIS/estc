@@ -1,7 +1,7 @@
 ### Technical
 
-  * Paikannimilista Mikolle - kaikki ambiguous keissit viimeinen
-    tarkistus
+  * Added Finnish names in sorvi but have to test. Finally add Mikko's
+    custom lists.
 
   * Listaa keissit single/multivol/issue keissit ja millaisia
     tapauksia datasta löytyy ja millaisilla säännöillä voidaan koittaa
@@ -31,9 +31,6 @@
   * sheet-size keskiarvo niistä joille mitat tiedossa (nyt vasta
     pagecount tehty näin). käytä keskiarvoa (ei taulukkoarvoa)
     loppujen estimointiin
-
-  * Try rOpenSci/GenderizeR R package and also [babynames
-    package](https://github.com/hadley/babynames)
 
   * Erota pseudonyymeistä (extdata/pseudonymes.csv) organisaatiot
     omaan listaansa. Lisäksi mieti harmonisointia (wel-wisher /
