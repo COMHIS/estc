@@ -1,24 +1,16 @@
-#' @title Polish publisher 
-#' @description Polish publisher field separating for/by
-#'
+#' @title Polish Publisher 
+#' @description Polish publisher field separating for/by.
 #' @param x Publisher vector
 #' @return Polished vector
-#'
 #' @export
-#' @importFrom sorvi condense_spaces
-#' @importFrom sorvi harmonize_names
+#' @importFrom bibliographica condense_spaces
+#' @importFrom bibliographica harmonize_names
 #' @importFrom bibliographica harmonize_print_statements
 #' @details Polish publisher field. 
-#' 
-#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("bibliographica")
-#' 
 #' @examples # polish_publisher("printed and sold by R. Marchbank")
 #' @keywords utilities
-#' 
-#' 
-#' 
-
 polish_publisher_forby <- function (x) {
  
   x <- as.character(x)
@@ -104,9 +96,9 @@ pick_print_fields2 <- function (x, field) {
 }
 
 #returns text which is shorter from 2 strings
-find_shorter_text = function(txt1, txt2){
-    txt=ifelse(txt1>txt2,txt2,txt1)
-    return(txt)
+find_shorter_text <- function(txt1, txt2){
+  txt <- ifelse(txt1>txt2,txt2,txt1)
+  return(txt)
 }      
 
 
