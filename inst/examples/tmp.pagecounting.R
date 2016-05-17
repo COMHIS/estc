@@ -1,280 +1,128 @@
-Mikä on “Average page count”issa Single volumen ja Issuen suhde? Meinaan, että miten joku laskettiin single volumeksi ja toinen issueksi? Nyt näyttäisi että issue-tapauksia on huomattavan paljon enemmän. Vai oliko niin että päädyttiin laskemaan kaikki pamfletit issueiksi ja single volumessa on vain kirjat? Eli mikä oli se erottelu näiden välille? En itse muista.
+Mikä on “Average page count”issa Single volumen ja Issuen suhde?
 
- 
+Miten joku laskettiin single volumeksi ja toinen issueksi? Nyt
+näyttäisi että issue-tapauksia on huomattavan paljon enemmän. Vai
+oliko niin että päädyttiin laskemaan kaikki pamfletit issueiksi ja
+single volumessa on vain kirjat? Eli mikä oli se erottelu näiden
+välille? En itse muista.
 
-Lisäksi sitten noista konversioista, niin löytyi seuraavanlaista
-pientä häikkää. Kuten sanoin, niin kaikki normaalit laskutapaukset
-näyttivät minusta menevän nyt hienosti oikein.
-
- 
-
-Mutta, näissä monen voluumin ilmoituksissa, joissa ei sivutietoja (vaan mennään arviolla), niin näissä oli aikalailla heittoja silmämääräisesti siinä mitä koodi tekee. Eli aika erilaisia juttuja tulee. Tässä varmaan siis joku bugi. Tässä listattuna osa näistä tapauksista, niitä löytyy konversioista paljon enemmän vielä:
-
- 
+Konversioista löytyi seuraavanlaista häikkää. Monen voluumin
+ilmoituksissa, joissa ei sivutietoja (vaan mennään arviolla), oli
+aikalailla heittoja.
 
 4to     3v.,plate      2       10
-
- 
-
 2fo      10 v.    5005   8
-
 2fo      11 v.    154     8
-
 2fo      30 v.    420     8
-
 2fo      15 v.    210     8
-
 2fo      13 v.    182     8
-
- 
-
 NA       14 v.    322     7
-
 8vo      12 v.    336     7
-
 2fo      14 v.    196     7
-
 4to      12 v.    240     7
-
- 
-
 8vo      10 v., plates    14       3
-
 8vo      9 v., plates      13       3
-
- 
-
 8vo      20v.     580     2
-
 2fo      2v.,plates        4          2
-
- 
-
 4to      3v.,16plates   32       1
-
- 
-
- 
-
 8vo      Vol. 3-4           1          1
-
 8vo      Vol.1-2            1          1
-
 8vo      Vols.3-4          1          1
-
-
 24mo  14v.,plates      4          1
-
- 
-
 4to      2 vols. 40       1
-
- 
-
 8vo      vols. 5-8          1          1
-
- 
-
 12mo  v.1,2,plates     155.333333333333            1
-
- 
-
 12mo  v.12-13,plate 310.666666666667            1
-
 12mo  v.3-7   776.666666666667            1
-
 12mo  v.7-8,plates    310.666666666667            1
-
- 
-
 8vo      3 v.,plates,tables        11       1
-
- 
-
 4to      3v., plates       4          1
-
- 
-
 8vo      15v.,plates,tables       8          1
-
- 
-
 NA       27 v.    621     1
-
 NA       v. ; 46 cm.       94       1
-
 NA       30 v.    690     1
-
 NA       2 v. : ill. (chiefly advertisements)    25.75  1
-
 NA       82 no. 94       1
-
 NA       17 v.    391     1
-
 NA       88 nos.            94       1
-
 NA       130 no.           94       1
-
 NA       20 v.    460     1
-
- 
-
 8vo      11 v., plates (some fold.)      15       1
-
 2fo      68 v.    952     1
-
 2fo      89 v.    1246   1
-
 8vo      33 v., plates (some col.)        37       1
-
 12mo  51 v.    1224   1
-
 2fo      21 v.    210     1
-
 8vo      48 v., plates (some fold.)      52       1
-
 8vo      15 v., plates (some fold.)      19       1
-
 8vo      113 v., plates (some fold.)    117     1
-
 8vo      329 v. 9212   1
-
 8vo      144 v. 4032   1
-
 8vo      240 v., plates 244     1
-
 8vo      19 v.    532     1
-
 8vo      59 v.    1652   1
-
 8vo      6 v., plates (col.)        1740   1
-
 8vo      13 v., plates    17       1
-
 8vo      24 v., plates    28       1
-
 8vo      449 v., plates 453     1
-
 8vo      178 v., plates 182     1
-
 NA       4 v., plates      51.5    1
-
 8vo      37 v., plates    41       1
-
 8vo      38 v., plates    42       1
-
 8vo      11 v., plates    15       1
-
 8vo      59 v., plates    63       1
-
 2fo      196 v. 2744   1
-
 2fo      79 v.    1106   1
-
 4to      80 v.    1600   1
-
 NA       43 v.    989     1
-
 8vo      57 v., plates    61       1
-
 8vo      67 v.    1876   1
-
 4to      50 v.    1000   1
-
- 
-
 2fo      9 v. (v.1: [20], XII, xiii-lxxvj p., 1380 columns; v.2: [4] p., 1403-1586, 1585-1654, 1667-2796, 2805-2868 columns; v.3: [4] p., 2877-3852, 3851-4568 columns; v.4: [4] p., 4605-7064 columns; v.5: [4] p., 7125-8204 columns, [4] p., 8277-8788, 8805-9302 columns, [3] p., 9501-9634 columns, [1] p.; v.6: [4], lxviij p., 2108 columns; v.7: [4] p., 2113-5016 columns; v.8: [4] p., 648, 647-694, 697-1010, 1009-2190 columns; v.9: [4], 2215-4538, 4541-4548 columns, 4549-4566 p., 4567-4708 columns), [11] leaves of plates (mostly folded)       28597            1
-
- 
-
 4to      2 v. ([4]; [2], 43, [1]; [2], 50, [2]; [2], 58, [2]; [8], 75, [1]; [2], 41, [1]; [2], 49, [1]; [2], 57, [1]; [4], 59, [1]; [2], 99, [1]; [2], 38; [2], 60, [2]; [4], 46, [4]; [4]; [4], 56; [2] 59, 50-51, [1]; [2], 45, [1]; [2], 54; [2], 52, [2]; [2], 94; [2], 38, [2]; [2], 33, [3]; [2], 60, [2]; [2], 40, [2]; [2], 28, [2]; [2], 32; [4], 43, [1]; [4], 44 p.)           1462   1
 
  
 
  
 
-Toinen juttu jossa on kategorisesti häikkää on sellaiset missä on “PARTS” laskuissa (tai pts.). Näissä myös aika randomilla menee:
+Toinen on sellaiset missä on “PARTS” laskuissa (tai pts.). Näissä myös
+aika randomilla menee:
 
  
-
-PARTS RANDOM
-
- 
-
 8vo      11 parts         463     1
-
- 
-
 4to      30 parts         20       1
-
-
 8vo      18pts.,plate    2          1
-
- 
-
 4to      5pts.,plates     4          1
-
- 
-
 2fo      4pts. in 7v.,plates      4          1
-
- 
-
 8vo      18 parts         463     1
 
- 
 
-Lisäksi yksittäistapauksia joissa ilmeisesti virheitä löytyi yhdellä nopealla kelauksella seuravia:
-
- 
+Lisäksi yksittäistapauksia joissa ilmeisesti virheitä löytyi yhdellä
+nopealla kelauksella seuravia:
 
 2fo     [4] p. (p. [3] blank)  538     1
-
- 
-
 2fo      [60] leaves of plats   538     1
-
- 
-
 8vo      [52] plates between [58] blank leaves       463     1
-
 8vo      1 score (144 p.)        463     1
 
  
-
 Lisäksi yksi sellainen jossa leaves of plates jää laskematta mukaan:
 
- 
-
 4to      17, 5 p.           17       1
-
- 
-
 4to      20, 2 p.           20       1
-
- 
-
 2fo      1 sheet ([2] p.), [18] leaves of plates          2          1
 
  
 
 Lisäksi pisti silmään:
 
- 
-
 NA       4⁰.       94       4
-
- 
-
 NA       381cards in box        94       1
-
- 
-
 NA       1 atlas 94       1
 
  
 
- 
+Esimerkkejä 
 
   expect_equal(polish_physical_extent("1to")$pagecount, 2)
   expect_equal(polish_physical_extent("1 leaf")$pagecount, 2)  
