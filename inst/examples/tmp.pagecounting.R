@@ -1,3 +1,69 @@
+Terve Mikko,
+
+Liitteessä erilliset taulut ESTC:stä identifioiduille tapauksille
+single-volume, multi-volume, issue ja muut.
+
+Lähdetään liikkeelle siitä että onko joku näistä jo valmiiksi kunnossa
+ja voidaan näin jättää sikseen?
+
+Muut-kategoriassa on mm. näitä joissa physical extent on "13 parts"
+tms. Eli avoin kysymys on voidaanko nämä tulkita suoraan multi-volume
+kategoriaan vai tehdäänkö niille jotain muuta?
+
+Tästä tulee nykysäännöillä pagecount 17: "17, 5 p."
+Tästä 72: "6p., leaf, 60, 40, 42, 64, 30, 24p., 2 leaves., 57p")
+Jos pilkkuja huomioidaan niin pitää katsoa mitkä on yhtenäiset selkeät
+säännöt. Eli yleensä ei voida vain summata lukuja jos on pilkkuja
+kuten tuosta näkyy. Mutta muistiinpanojesi mukaan ekassa tapauksessa
+pitäisi summata (22 sivua). Mutta sitten pitää päättää että minkä
+säännön nojalla tällaiset erikoistapaukset tunnistetaan. Jutellaan
+tästä.
+
+Katsotaan ensin näitä, sitten lisää.
+
+Leo
+
+
+
+---------------------
+
+
+source("analysis.init.R")
+df.orig <- df.orig[match(df.preprocessed$original_row, df.orig$original_row),]
+
+Sivumäärätieto puuttuu:
+#> sum(is.na(df.preprocessed$pagecount.orig))
+#[1] 17706
+
+dfs = cbind(df.orig[inds, c("physical_dimension", "physical_extent")],
+      df.preprocessed[inds, c("volnumber", "volcount", "document.items", "pagecount")])
+dfs$issue <- is.issue(df.preprocessed[inds,])
+dfs$singlevol <- is.singlevol(df.preprocessed[inds,])
+dfs$multivol <- is.multivol(df.preprocessed[inds,])
+dfs = dfs[, c("physical_dimension", "physical_extent", "volnumber", "volcount", "document.items", "issue", "singlevol", "multivol", "pagecount")]
+
+#> round(100*colSums(dfs[, 11:13])/nrow(dfs),1)
+#    issue singlevol  multivol 
+#      5.2       0.0      54.3 
+
+
+# Eli kysymys oli miten näitä luokitellaan.
+inds2 = which(names(dfs) %in% c("issue", "singlevol", "multivol"))
+
+#Single volume
+tab1 = write_xtable(filter(dfs, singlevol)[, -inds2], file = "~/tmp/estc_singlevol.csv")
+
+#Multi-volume
+tab2 = write_xtable(filter(dfs, multivol)[, -inds2], file = "~/tmp/estc_multivol.csv")
+
+#Issue
+tab3 = write_xtable(filter(dfs, issue)[, -inds2], file = "~/tmp/estc_issue.csv")
+
+#Rest
+tab4 = write_xtable(filter(dfs, !issue & !singlevol & !multivol)[, -inds2], file = "~/tmp/estc_rest.csv")
+
+--------------------------------------------------
+
 Mikä on “Average page count”issa Single volumen ja Issuen suhde?
 
 Miten joku laskettiin single volumeksi ja toinen issueksi? Nyt
