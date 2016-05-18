@@ -35,6 +35,6 @@ Title count versus paper consumption (top publishers):
 |:-------------------------------------|------:|--------:|
 |charles eyre andrew strahan           |    932|     -Inf|
 |charles eyre william strahan          |   1585| 6.886013|
-|company stationers                    |    946| 1.607417|
+|company stationers                    |    946| 1.607257|
 |george eyre andrew strahan            |    943| 2.673865|
 |thomas baskett assigns robert baskett |   1106| 3.564354|
