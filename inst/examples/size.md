@@ -1,14 +1,14 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-02"
+date: "2016-05-18"
 output: markdown_document
 ---
 
 
 ## Page counts
 
-[Page conversions from raw data to final page count estimates](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/pagecount_conversion_nontrivial.csv)
+[Page conversions from raw data to final page count estimates](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/pagecount_conversion_nontrivial.csv)
 
 <!--[Page conversions from raw data to final page count estimates with volume info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/page_conversion_table_full.csv)-->
 
@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 16732 documents and updated (changed) for 4282 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 16759 documents and updated (changed) for 4281 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -71,20 +71,20 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
 |1to           |                   NA|                     NA|          16|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |2long         |                   NA|                     NA|           5|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|2fo           |              1645.60|                1008.00|        1389|              419.83|                500.00|       1340|            38.00|                 38|       2|
+|2fo           |              1655.90|                1008.00|        1389|              421.06|                500.00|       1340|            38.00|                 38|       2|
 |4long         |                  NaN|                     NA|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |4to           |               210.20|                  64.00|        1507|               82.51|                 32.00|        899|            31.85|                 32|     132|
 |8long         |                15.33|                  15.33|           2|                4.33|                  4.33|          2|               NA|                 NA|      NA|
-|8vo           |                 -Inf|                 582.00|        7187|              285.56|                289.00|       7414|            21.33|                 26|       3|
+|8vo           |                 -Inf|                 582.00|        7187|              285.63|                289.00|       7415|            21.33|                 26|       3|
 |12long        |                99.43|                  48.00|           7|               44.40|                 24.00|          6|               NA|                 NA|      NA|
-|12mo          |               437.30|                 314.00|        6826|              157.92|                155.00|       7008|               NA|                 NA|      NA|
+|12mo          |               437.49|                 314.00|        6826|              157.95|                155.00|       7008|               NA|                 NA|      NA|
 |16mo          |               790.85|                 588.00|          48|              292.04|                292.00|         50|               NA|                 NA|      NA|
 |18mo          |               626.58|                 410.00|         254|              200.97|                201.00|        265|               NA|                 NA|      NA|
 |24mo          |               735.44|                 543.50|          60|              271.95|                270.75|         59|               NA|                 NA|      NA|
 |32mo          |                  NaN|                     NA|           7|                 NaN|                    NA|          1|               NA|                 NA|      NA|
 |48mo          |                  NaN|                     NA|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |               318.83|                 294.00|           6|              147.17|                147.00|          7|               NA|                 NA|      NA|
-|NA            |                41.69|                  25.75|         327|               14.07|                 12.88|        199|               NA|                 NA|      NA|
+|NA            |                30.07|                  17.20|         327|                9.84|                  8.60|        199|               NA|                 NA|      NA|
 
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)

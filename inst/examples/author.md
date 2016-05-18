@@ -1,23 +1,23 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-02"
+date: "2016-05-18"
 output: markdown_document
 ---
 
 ## Authors
 
-[Accepted unique authors](output.tables/author_accepted.csv) These are the final accepted author names, merging all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv) and excluding known pseudonymes. If multiple names for the same author are still being observed, the should be added on the author synonyme table.
-
-[Accepted pseudonymes](output.tables/pseudonyme_accepted.csv) Recognized based on custom pseudonyme lists ([first](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/pseudonymes/first.csv), [last](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/pseudonymes/last.csv), [misc](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/pseudonymes.csv))
-
-[Discarded author names](output.tables/author_discarded.csv) These should not contain valid authors or pseudonymes. The following stopword lists are considered when discarding names:
+ * 54432 [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv).
+ * 282772 documents have unambiguous author information (59%). 
+ * 4619 [unique pseudonymes](output.tables/pseudonyme_accepted.csv) are recognized based on [custom pseudonyme lists](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv).
+ * [Discarded author names](output.tables/author_discarded.csv) This list should not include any real authors (if it does, please send a note). The following stopword lists are considered when discarding names:
   * [Stopwords for names](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_names.csv)
   * [Stopwords for titles](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_titles.csv)
 
 [Author name conversions](output.tables/author_conversion_nontrivial.csv) Non-trivial conversions from the original to final names
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 54434 unique authors and 282773 documents with unambiguous author information (59%).
+
+Top-20 uniquely identified authors and their productivity (title count).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
@@ -45,7 +45,6 @@ Title count versus paper consumption (all authors):
 
 ![plot of chunk authortitlespapers](figure/authortitlespapers-1.png)
 
-Publication timeline for top authors
 
 ![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)
 

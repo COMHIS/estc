@@ -6,10 +6,7 @@
 # Read the manually polished data
 source("Shakespeare.init.R")
 
-# ------------------------------------------
-
 # Summary document
-
 knit("Shakespeare.Rmd")
 
 # Shakespearen kontinenttianalyysi

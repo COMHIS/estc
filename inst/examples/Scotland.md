@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-05-02"
+date: "2016-05-18"
 output: markdown_document
 ---
 
@@ -55,8 +55,8 @@ List of authors born before 500AD:
 
 ```
 ## 
-##      Aelian, NA (3-NA) Hierocles, NA (430-NA)    Longinus, NA (1-NA) 
-##                      1                      2                      6
+##      Aelian,  (3-NA) Hierocles,  (430-NA)    Longinus,  (1-NA) 
+##                    1                    2                    6
 ```
 
 We have 9 documents from 3 unique
@@ -174,6 +174,12 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 We have 34465 documents from Scotland and 204975 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
+
+```
+## Warning in grid.Call.graphics(L_polygon, x$x, x$y, index): semi-
+## transparency is not supported on this device: reported only once per page
+```
+
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
 ```
@@ -246,6 +252,12 @@ We have 34465 documents from Scotland and 204975 documents from London during 17
 ```
 ## Warning: Computation failed in `stat_smooth()`:
 ## NA/NaN/Inf in foreign function call (arg 5)
+```
+
+```
+## Warning in grid.Call.graphics(L_rect, x$x, x$y, x$width, x$height,
+## resolveHJust(x$just, : semi-transparency is not supported on this device:
+## reported only once per page
 ```
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png)
