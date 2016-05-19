@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-02"
+date: "2016-05-19"
 output: markdown_document
 ---
 
@@ -14,7 +14,7 @@ output: markdown_document
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 364223 documents (76%). There are 170273 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 383581 documents (83%). There are 169173 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
@@ -31,10 +31,10 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                             | titles|    paper|
-|:-------------------------------------|------:|--------:|
-|charles eyre andrew strahan           |    932|     -Inf|
-|charles eyre william strahan          |   1585| 6.854963|
-|company stationers                    |    946| 1.607417|
-|george eyre andrew strahan            |    943| 2.480343|
-|thomas baskett assigns robert baskett |   1106| 3.564084|
+|publisher                                                      | titles|     paper|
+|:--------------------------------------------------------------|------:|---------:|
+|cadell strand                                                  |   4640|  5.833148|
+|charles stalker no stationer's court ludgate street            |   1578|  6.845424|
+|david paterson him his printing-office lawn-market booksellers |  51925| 33.139165|
+|sowle raylton luke hinde                                       |   1067|  2.990521|
+|warner black-boy pater-noster-row                              |   1626|  3.792635|
