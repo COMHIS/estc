@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 26560 documents from Scotland.
+We have 2406 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -50,11 +50,11 @@ List of authors born before 500AD:
 
 ```
 ## 
-## Beaurieu, Gaspard Guillard De (1-NA)      Zimmermann, Johann Georg (1-NA) 
-##                                    1                                    5
+## Gerard, Alexander (1-NA) 
+##                        4
 ```
 
-We have 6 documents from 2 unique
+We have 4 documents from 1 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -167,7 +167,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 24882 documents from Scotland and 10265 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 1998 documents from Scotland and 11707 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
@@ -204,13 +204,13 @@ We have 24882 documents from Scotland and 10265 documents from London during 170
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 472 rows containing missing values (geom_point).
+## Warning: Removed 207 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 2224 rows containing missing values (geom_point).
+## Warning: Removed 18416 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)

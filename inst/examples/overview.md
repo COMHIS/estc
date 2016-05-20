@@ -39,6 +39,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height.original                         |        98.4|           1.6|          7548|         87|
 |volcount                                |        96.5|           3.5|         16239|        147|
 |document.items                          |        96.5|           3.5|         16239|        147|
+|latitude                                |        93.8|           6.2|         28722|         19|
+|longitude                               |        93.8|           6.2|         28722|         19|
 |publication_topic                       |        81.7|          18.3|         84098|       4888|
 |publication_year_till                   |        79.6|          20.4|         93878|        354|
 |publication_geography                   |        71.7|          28.3|        130009|      12221|
@@ -49,11 +51,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |subject_topic                           |        45.1|          54.9|        252317|      53465|
 |author_name                             |        41.1|          58.9|        270903|      46749|
 |author                                  |        41.1|          58.9|        270903|      53590|
-|latitude                                |        27.0|          73.0|        335651|         19|
-|longitude                               |        27.0|          73.0|        335651|         19|
 |publisher                               |        16.5|          83.5|        383581|     162946|
-|country                                 |         3.7|          96.3|        442546|         52|
-|publication_place                       |         3.7|          96.3|        442555|        999|
+|country                                 |         3.7|          96.3|        442575|         53|
+|publication_place                       |         3.7|          96.3|        442600|       1001|
 |pagecount.orig                          |         3.6|          96.4|        443181|       1452|
 |obl                                     |         3.4|          96.6|        443830|          3|
 |paper.consumption.km2                   |         2.4|          97.6|        448424|       6673|

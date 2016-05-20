@@ -306,8 +306,8 @@ jethro	12
 joanna	12
 lydia	12
 murdoch	12
-p -j	12
 petruccio	12
+p -j	12
 shippie	12
 silvester	12
 steven	12
@@ -344,10 +344,10 @@ edmund john	10
 élie	10
 françois-étienne	10
 giorgio	10
-j -b	10
-j -m -a	10
 james edward	10
 james peter	10
+j -b	10
+j -m -a	10
 josephus	10
 l -p	10
 lucas	10
@@ -387,8 +387,8 @@ samuel james	9
 thomas fyshe	9
 wellins	9
 willem janszoon	9
-a -g	8
 aedanus	8
+a -g	8
 alvaro alonso	8
 anders	8
 aston	8
@@ -438,8 +438,8 @@ hendricus	7
 hilkiah	7
 hortense mancini	7
 hugh hume	7
-j john	7
 jacques-bénigne	7
+j john	7
 jos	7
 lilias	7
 louis-jean	7
@@ -451,14 +451,14 @@ pierre d'	7
 royall	7
 samuel foart	7
 sawney	7
-st john	7
 stephano	7
+st john	7
 thomas pelham-holles	7
 wills hill	7
 albanis	6
 amandus	6
-andrew hervey	6
 andrewes	6
+andrew hervey	6
 arcangelo	6
 archibald hamilton	6
 archibald johnston	6
@@ -483,9 +483,9 @@ heneage	6
 hewling	6
 jacques-bénigne	6
 jacques-henri	6
+james-brown	6
 james bruce	6
 james jones	6
-james-brown	6
 jean-baptiste-louis	6
 joel-henrietta	6
 john b	6
@@ -501,17 +501,17 @@ luther	6
 martinus	6
 mileson	6
 muḥammad qāsim hindū shāh astarābādī	6
-p papinius	6
 patience	6
 peggy	6
 peter monamy	6
-pierre samuel	6
 pierre-charles-fabiot	6
 pierre-curel	6
 pierre-joseph	6
+pierre samuel	6
 pierre-victor	6
 pieter corneliszoon	6
 placido	6
+p papinius	6
 raoul-auger	6
 rhodomonte	6
 rose	6
@@ -549,9 +549,9 @@ festus	5
 fettiplace	5
 fowler	5
 françois-xavier	5
-g -h	5
 g archibald	5
 geeraert	5
+g -h	5
 gonsale	5
 györgy	5
 hans caspar	5
@@ -563,9 +563,9 @@ jean-thomas	5
 jemmett	5
 jodocus	5
 john baptist	5
+john-baptist	5
 john boniot	5
 john maclellan	5
-john-baptist	5
 józef	5
 marcin	5
 marguerite-jeanne	5
@@ -637,7 +637,6 @@ hill	4
 hugh josiah	4
 hustcraft	4
 ivar	4
-j seobald	4
 jacob nicolas	4
 jacques-antoine-rené	4
 james a	4
@@ -652,6 +651,7 @@ john henniker-major	4
 john m	4
 john manners	4
 john turberville	4
+j seobald	4
 karl philipp	4
 lancaster	4
 laurentio	4
@@ -712,15 +712,15 @@ bessie	3
 bishop of smyrna	3
 bradford	3
 brockhill	3
-c -n	3
-c julius	3
 calubyte	3
 carsten	3
 celio secondo	3
 challoner	3
 charles-michel	3
 christlob	3
+c julius	3
 claude-marie	3
+c -n	3
 constantia	3
 cresacre	3
 d'	3
@@ -750,8 +750,8 @@ georges boissaye	3
 gilles	3
 giralamo	3
 gottfried	3
-grindal	3
 grı́mur jónsson	3
+grindal	3
 gualtherus	3
 hamlet	3
 hannibal	3
@@ -769,8 +769,6 @@ isabell	3
 istván	3
 izrahiah	3
 j -a	3
-j -f	3
-j -m	3
 jacinto	3
 jacobus s	3
 jacques-julien	3
@@ -786,6 +784,8 @@ jean-bernard	3
 jean-joseph	3
 jean-joseph-louis	3
 jérôme	3
+j -f	3
+j -m	3
 joanot	3
 john fane	3
 john frederic	3
@@ -807,16 +807,16 @@ laurent d'	3
 lawton	3
 lister	3
 lording	3
+louisa	3
 louis-alexandre	3
 louis-françois	3
-louisa	3
-m guelfi	3
 mantuanus	3
 marc-théodore	3
 marshall montague	3
 martín	3
 menno	3
 mercurius	3
+m guelfi	3
 mikhail	3
 moïse	3
 néricault	3
@@ -826,8 +826,8 @@ olof	3
 onslow	3
 oronce	3
 ottobah	3
-p -a -o	3
 packington	3
+p -a -o	3
 patrick dugud	3
 patrick hume	3
 paul-emilien	3
@@ -839,9 +839,9 @@ philo	3
 pierce	3
 pierre-françois	3
 pollingrove	3
-r legge	3
 richardus	3
 rigdum	3
+r legge	3
 robert-françois-joseph	3
 robina	3
 rupert	3
@@ -855,7 +855,6 @@ solomon owen	3
 statutes	3
 stotherd	3
 styan	3
-t j du wicquet	3
 tanfield	3
 theophila	3
 thomas boothby	3
@@ -863,6 +862,7 @@ thomas lyon	3
 thomas tudor	3
 thomas w	3
 tiberius catius	3
+t j du wicquet	3
 torial	3
 tunis	3
 udal	3
@@ -872,7 +872,6 @@ waltho	3
 wentworth	3
 winch	3
 zeph	3
-a -m -j	2
 alastoir	2
 alphonsus	2
 althea	2
@@ -880,6 +879,7 @@ alvaro	2
 alverey	2
 amasa	2
 amice	2
+a -m -j	2
 anacharsis	2
 ananias	2
 ancient	2
@@ -957,11 +957,11 @@ fergusia	2
 fleetwood	2
 foulke	2
 françois aimé	2
-françois pierre	2
-françois thérèse	2
 françois-claude-amour	2
 françois-joachim-bernard potier	2
 françois-joseph terrasse	2
+françois pierre	2
+françois thérèse	2
 gabriel-raimond-jean-de-dieu françois d'	2
 galfridus	2
 gent	2
@@ -992,8 +992,6 @@ iacobus	2
 iōsēph	2
 issac	2
 izsák l	2
-j l audibert	2
-j samuel	2
 james field	2
 james sutherland	2
 jános	2
@@ -1012,11 +1010,12 @@ jean-nicolas-marcelin	2
 jellinger	2
 jerónymo	2
 jerónymo	2
+j l audibert	2
 johanna	2
 john a	2
-john b s	2
 john baxter	2
 john bellenden	2
+john b s	2
 john colman	2
 john cope	2
 john cotton	2
@@ -1041,12 +1040,13 @@ john samuel	2
 john spencer	2
 john vincent	2
 john w	2
-john williamson	2
 john-weeks	2
+john williamson	2
 jonathan l	2
 josé	2
 josiah c	2
 józsef	2
+j samuel	2
 karl	2
 kinki	2
 kōnstantinos	2
@@ -1078,8 +1078,8 @@ mill	2
 molleston	2
 morganwg	2
 mort	2
-nath nathaniel	2
 nathaniel edward	2
+nath nathaniel	2
 neast	2
 nestor	2
 niccol ̊	2
@@ -1105,16 +1105,16 @@ porcupinus	2
 prokhor	2
 prudence	2
 pynson	2
-r john	2
-r s donnison	2
 rebekah	2
 returne	2
 reynolds	2
 richard-john	2
 ridgly	2
 ridolfino	2
+r john	2
 robert-george	2
 roberto	2
+r s donnison	2
 rudolph	2
 samoth	2
 samuel beresford	2
@@ -1137,9 +1137,9 @@ stuart moncrieff	2
 sybilla-apolonia	2
 tamworth	2
 teofilo	2
-the patriarch	2
 théophile	2
 theophilus james	2
+the patriarch	2
 thomas barnewall	2
 thomas bruce	2
 thomas dudley	2
@@ -1154,17 +1154,14 @@ thommaso	2
 thornhagh	2
 valeriano	2
 vasilii nikitich	2
-vincent m	2
 vincent-claude	2
+vincent m	2
 vivant	2
 vyner	2
 walker	2
 winthrop	2
 zaphnaphpaaniah	2
 z̤iyāʾ al-dīn	2
-&c	1
-&c '	1
-a -v	1
 ab	1
 abbé	1
 aboan	1
@@ -1197,12 +1194,12 @@ andrew g	1
 angelin	1
 angelott	1
 anglicus	1
-ann eliza	1
-ann melinda	1
 anna-concordia	1
 anne-claude	1
+ann eliza	1
 anne-marie-louise d'orléans	1
 anne-pierre	1
+ann melinda	1
 anthelme	1
 anthonie	1
 anthony a	1
@@ -1239,6 +1236,7 @@ auguste-jean-franc̦ois-antoine	1
 auguste-louis	1
 aurelius	1
 aurisco	1
+a -v	1
 bainbrigg	1
 baislie	1
 bankes	1
@@ -1257,8 +1255,8 @@ bengt gabrielsson	1
 benja	1
 benjamin-sigismond	1
 bernal	1
-bernard-joseph	1
 bernardine	1
+bernard-joseph	1
 berney	1
 bertram	1
 bertrand	1
@@ -1285,6 +1283,8 @@ bromsall	1
 brother	1
 budgen	1
 burhān al-dı̄n	1
+&c	1
+&c '	1
 caleb s	1
 cambpell	1
 carolus gustavus	1
@@ -1307,10 +1307,10 @@ chidly	1
 chileab	1
 christianus	1
 christianus mathias	1
-christoph ernest	1
-christoph wilhelm	1
 christophe	1
+christoph ernest	1
 christopherus	1
+christoph wilhelm	1
 cimelgus	1
 claude-franc&# ;ois	1
 claude-françois	1
@@ -1334,11 +1334,10 @@ crambo	1
 craven	1
 cullpepper	1
 curwen	1
-d poeniteus	1
-d'blossiers	1
 dabridgcourt	1
 daldianus	1
 daniello	1
+d'blossiers	1
 dermitius	1
 dermod	1
 dewans	1
@@ -1349,11 +1348,11 @@ dora	1
 dorman	1
 dorothy j	1
 doyley	1
+d poeniteus	1
 draycott	1
 drelincourt-young	1
 dud	1
 dwight	1
-e -m	1
 eberhard	1
 eccles	1
 edgly	1
@@ -1366,15 +1365,15 @@ edward darrell	1
 edward goodman	1
 edward hoare	1
 edward law	1
+edward-loggin	1
 edward miles	1
 edward moore	1
+edwards	1
 edward seymour	1
 edward stanley	1
 edward trapp	1
 edward w	1
 edward wills	1
-edward-loggin	1
-edwards	1
 edwin sandys	1
 egbert	1
 egeon	1
@@ -1384,13 +1383,14 @@ eléonore-françois-elie	1
 eliam	1
 ēlias	1
 elidad	1
-eliza dorothea	1
 elizabeth-gray	1
 elizabeth-jean	1
+eliza dorothea	1
 elizaphan	1
 ellerker	1
 elphingston	1
 elutherius	1
+e -m	1
 erich	1
 ernst christoph	1
 erskine	1
@@ -1405,7 +1405,6 @@ eve	1
 evert ysbrants	1
 ewaldus	1
 ewan	1
-f -h	1
 fadrique	1
 fairmedow	1
 farmer	1
@@ -1413,10 +1412,11 @@ fédor	1
 félicité	1
 félix	1
 félix françois	1
+f -h	1
 field	1
 finlay	1
-fitz norris	1
 fitzhugh	1
+fitz norris	1
 florimond-claude	1
 folliott herbert walker	1
 forbes	1
@@ -1427,19 +1427,19 @@ foulkes	1
 francesco antonio	1
 francesco d,́	1
 francesco zaverio	1
-françois dorval-langlois	1
-françois nicolaas	1
-françois rené	1
-françois siméon	1
-françois-bernard	1
 françois-bernard	1
+françois-bernard	1
+françois dorval-langlois	1
 françois-hédelin	1
 françois-henri	1
 françois-ignace	1
-françois-jean	1
 françois-jean	1
+françois-jean	1
 françois-joseph	1
+françois nicolaas	1
 françois-rené	1
+françois rené	1
+françois siméon	1
 frederick thaddeus	1
 freegrace	1
 freeman	1
@@ -1490,9 +1490,6 @@ guillaume-rené lefébure	1
 gustavus ricardus	1
 guy-jean-baptiste	1
 guyon	1
-h beeston	1
-h g emeric	1
-h needham	1
 haestrect	1
 haijm isaac	1
 haly	1
@@ -1502,6 +1499,7 @@ hardick	1
 hardolph	1
 harmon g	1
 harrison	1
+h beeston	1
 henri-louis	1
 henri-louis jacquet	1
 henri-simon-joseph	1
@@ -1509,7 +1507,9 @@ henry-william	1
 hermann samuel	1
 hervey	1
 hezekiah n	1
+h g emeric	1
 highmore	1
+h needham	1
 hoca	1
 homer	1
 honoré d'	1
@@ -1530,19 +1530,10 @@ imre	1
 iohn	1
 irenũs	1
 isaac d'	1
+isaac-ʹetienne d'	1
 isaac stockton	1
 isaac watts	1
-isaac-ʹetienne d'	1
 isabella carr	1
-j -c	1
-j -charles	1
-j b d'	1
-j c c a	1
-j d'	1
-j g d'	1
-j g j b	1
-j l jean-l	1
-j watts	1
 jac	1
 jachinto	1
 jacob vander	1
@@ -1564,6 +1555,11 @@ jamineau	1
 jános	1
 jasper canonicus	1
 jassintour	1
+j b d'	1
+j -c	1
+j c c a	1
+j -charles	1
+j d'	1
 jean-baptiste-barthélemy	1
 jean-baptiste-christophe	1
 jean-baptiste-pierre	1
@@ -1572,19 +1568,22 @@ jean-bon	1
 jean-chrysostome larcher	1
 jean-gaspard	1
 jean-hyacinthe	1
+jeanne-marie	1
 jean-noël	1
 jean-rodolphe	1
 jean-roland	1
-jeanne-marie	1
 jehudah	1
 jemima	1
 jenny	1
 jeremiah learnoult	1
+j g d'	1
+j g j b	1
+j l jean-l	1
 jno	1
-jo~ao	1
 joane	1
 joanne	1
 joannmes	1
+jo~ao	1
 joão	1
 john adams	1
 john ames	1
@@ -1600,12 +1599,14 @@ john bradford	1
 john brickdale	1
 john butler	1
 john castle	1
+john-charles	1
 john chetwode	1
 john chew	1
 john clotworthy	1
 john corham	1
 john crosbie	1
 john cuming	1
+john,db	1
 john dewye	1
 john e	1
 john edmund	1
@@ -1628,6 +1629,7 @@ john ignatius	1
 john irving	1
 john j	1
 john jackson	1
+john-james	1
 john jones	1
 john kingston	1
 john latimer	1
@@ -1662,9 +1664,6 @@ john whalley	1
 john whittley	1
 john witherington	1
 john zachariah	1
-john-charles	1
-john-james	1
-john,db	1
 jonathan anderson	1
 jörg	1
 josé	1
@@ -1677,6 +1676,7 @@ josiah g	1
 josse	1
 josué	1
 juvenall	1
+j watts	1
 karl christoph	1
 karl heinrich	1
 karl ivanovich	1
@@ -1685,7 +1685,6 @@ keneth	1
 kennethus	1
 keyserling heinrich	1
 kingsmill	1
-l quincius	1
 lack-limb	1
 lambrecht	1
 lambrocke	1
@@ -1693,11 +1692,11 @@ lancelot-voisin	1
 langdon john	1
 lauderdale	1
 laurent françois	1
-laurent-pierre	1
 laurentius	1
+laurent-pierre	1
 lemeke	1
-léonard	1
 léonard	1
+léonard	1
 leonell	1
 léonor d'	1
 leticia	1
@@ -1712,14 +1711,15 @@ lorentz	1
 lot	1
 louis-auguste félix	1
 louis-augustin	1
+louise cavelier	1
 louis-françois-henri	1
 louis-laurent-joseph	1
 louis-léon-félicité	1
 louis-marie-joseph-romain d'albert d'ailly	1
 louis-nicolas	1
 louis-philippe mariauchau d'	1
-louise cavelier	1
 lousie francoise	1
+l quincius	1
 lucinda	1
 ludwell	1
 machell	1
@@ -1775,7 +1775,6 @@ murdo	1
 musidorus	1
 mylo	1
 myrth	1
-n -m	1
 naomi	1
 nathan-b	1
 neeman	1
@@ -1787,6 +1786,7 @@ nicolas étienne	1
 nicolas-marc	1
 nicolò	1
 nicolò	1
+n -m	1
 north	1
 norwich	1
 nuel	1
@@ -1806,8 +1806,6 @@ omnelio	1
 onuphrius	1
 orlibar	1
 oxenbridge	1
-p -j -f	1
-p-l	1
 pandolfo	1
 pandolpho	1
 pantaleão	1
@@ -1837,18 +1835,17 @@ philim	1
 philip alias metcalfe	1
 philip gendron	1
 philip parry	1
-philip roberts	1
-philip syng	1
-philipp jacob	1
-philipp matthäus	1
 philippe d'	1
 philippe edmé	1
 philippe-laurent	1
+philipp jacob	1
+philipp matthäus	1
+philip roberts	1
+philip syng	1
 phillippa	1
 philobeth	1
 philomath n	1
 pierio	1
-pierre nicolas	1
 pierre-alexandre	1
 pierre-antoine	1
 pierre-auguste	1
@@ -1856,12 +1853,15 @@ pierre-franc̜ois	1
 pierre-françois-alexandre	1
 pierre-françois-théophile	1
 pierre-louis	1
+pierre nicolas	1
 pierre-thomas	1
 pierre-toussaint	1
 pierre-xavier	1
 pinckney	1
 pinkstan	1
 pinnell	1
+p -j -f	1
+p-l	1
 plaxton	1
 pliny	1
 poplicola	1
@@ -1874,7 +1874,6 @@ preston	1
 pryce	1
 queen	1
 quinbus	1
-r eturne	1
 radulphus	1
 ramón	1
 ranew	1
@@ -1882,6 +1881,7 @@ raphel	1
 raunce	1
 read	1
 remacle d'	1
+r eturne	1
 riccardton	1
 richardo	1
 richards	1
@@ -1896,7 +1896,6 @@ rowlande	1
 rozel	1
 rufus	1
 runjlf	1
-s-ms-n	1
 sabaoth	1
 sabine	1
 šahamir	1
@@ -1935,6 +1934,7 @@ sims	1
 sinclaire	1
 sionophilus	1
 skene	1
+s-ms-n	1
 snowden	1
 sofren	1
 spiridione	1
@@ -1951,18 +1951,15 @@ sulpicius	1
 sweep	1
 syl	1
 sylas	1
-t j horsley	1
-t needham	1
 tadēos	1
 teesdale	1
 temperance	1
 teshino	1
 the	1
-the younger	1
 theobaldus edmundus	1
 theocletus	1
-théodore	1
 théodore	1
+théodore	1
 théodore-antoine	1
 theodorick	1
 theophile	1
@@ -1971,6 +1968,7 @@ theophilus hastings	1
 theophilus philalethes	1
 theophilus philanax gerusiphilus philalethes	1
 théophraste	1
+the younger	1
 thomas archibald	1
 thomas atwood	1
 thomas bassnet	1
@@ -1979,8 +1977,10 @@ thomas bingham	1
 thomas butler	1
 thomas croade	1
 thomas edward	1
+thomasen	1
 thomas f	1
 thomas folliott	1
+thomas-fothringham	1
 thomas frognall	1
 thomas grimwood	1
 thomas harrison	1
@@ -2007,12 +2007,12 @@ thomas t	1
 thomas taylour	1
 thomas thynne	1
 thomas williamson	1
-thomas-fothringham	1
-thomasen	1
 timothée	1
 timothy mather	1
 timothy p	1
 timothy tapps	1
+t j horsley	1
+t needham	1
 tomkyns hilgrove	1
 tranquillus	1
 trophime-grard	1
@@ -2022,11 +2022,10 @@ valentin jamerai	1
 vandos	1
 vasco	1
 vendramino	1
-w edward	1
-w illiam	1
 waitwell	1
 walsh	1
 wardhaugh	1
+w edward	1
 wheaton	1
 whirligig	1
 whitehall w	1
@@ -2036,6 +2035,7 @@ wilhelm christoph	1
 willard	1
 willem corneliszoon	1
 willem jamszoon	1
+w illiam	1
 william-george-simon-david	1
 wilsey	1
 winston	1
