@@ -1,43 +1,44 @@
 original	polished	Count
-Total count: 	459644	
-eng	English	432049
-lat	Latin	14861
-fre	French	7378
-ger	German	1486
-wel	Welsh	923
-roa	Romance (Other)	706
-ita	Italian	551
-grc	Greek, Ancient (to 1453)	488
-mul	Multiple languages	261
-dut	Dutch	198
-gla	Scottish Gaelic	95
-sco	Scots	82
-gre	Greek, Modern (1453-)	74
-spa	Spanish	69
-por	Portuguese	69
+Total count: 	481205	
+eng	English	451565
+lat	Latin	16055
+fre	French	7752
+ger	German	1649
+wel	Welsh	950
+roa	Romance (Other)	763
+ita	Italian	587
+grc	Greek, Ancient (to 1453)	525
+mul	Multiple languages	279
+dut	Dutch	222
+gla	Scottish Gaelic	107
+sco	Scots	87
+por	Portuguese	86
+gre	Greek, Modern (1453-)	85
+spa	Spanish	83
+NA	NA	53
+tam	Tamil	50
 gle	Irish	47
-tam	Tamil	45
-NA	NA	41
-frm	French, Middle (ca. 1300-1600)	34
-heb	Hebrew	32
-alg	Algonquian (Other)	31
-dan	Danish	21
-glv	Manx	17
-arm	Armenian	14
-per	Persian	13
-swe	Swedish	9
-ben	Bengali	6
-ara	Arabic	6
+heb	Hebrew	41
+frm	French, Middle (ca. 1300-1600)	36
+alg	Algonquian (Other)	33
+dan	Danish	22
+per	Persian	19
+glv	Manx	18
+arm	Armenian	15
+ben	Bengali	12
+n/a	NA	10
+swe	Swedish	10
+ara	Arabic	7
 ang	English, Old (ca. 450-1100)	5
+moh	Mohawk	3
 ice	Icelandic	3
-n/a	NA	3
 pau	Palauan	2
-moh	Mohawk	2
 mal	Malayalam	2
 rus	Russian	2
 g c	NA	2
 new	Newari	2
 nai	North American Indian (Other)	2
+gae	Scottish Gaelix	1
 arw	Arawak	1
 iro	Iroquoian (Other)	1
 del	Delaware	1

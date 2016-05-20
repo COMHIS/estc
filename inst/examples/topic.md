@@ -1,7 +1,7 @@
 ---
 title: "Subject topic preprocessing summaries"
 author: "Leo Lahti"
-date: "2016-05-19"
+date: "2016-05-02"
 output: markdown_document
 ---
 
@@ -9,9 +9,9 @@ output: markdown_document
 
 
 
-  * 53465 [unique accepted subject topics](output.tables/subject_topic_accepted.csv)
+  * 55731 [unique accepted subject topics](output.tables/subject_topic_accepted.csv)
   * [List of discarded subject topics](output.tables/subject_topic_discarded.csv)
-  * 252317 documents (55%) are assigned a subject topic 
+  * 265148 documents (55%) are assigned a subject topic 
 
 Top-20 subject topics and number of documents for each.
 
