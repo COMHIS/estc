@@ -1,7 +1,7 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2016-05-20"
+date: "2016-05-19"
 output: markdown_document
 ---
 
@@ -22,11 +22,6 @@ output: markdown_document
 ## Error in eval(expr, envir, enclos): object 'topic' not found
 ```
 
-
-
-```
-## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "character"
-```
 
 ![plot of chunk princeton2](figure/princeton2-1.png)
 

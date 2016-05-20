@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-20"
+date: "2016-05-19"
 output: markdown_document
 ---
 
@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 15505 documents and updated (changed) for 3940 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 15539 documents and updated (changed) for 3940 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -71,16 +71,16 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
 |1to           |                   NA|                     NA|          15|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |2long         |                   NA|                     NA|           5|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|2fo           |              1692.07|                1008.00|        1200|              411.06|                500.00|       1163|            50.00|                 50|       1|
+|2fo           |              1686.14|                1008.00|        1200|              413.16|                500.00|       1158|            50.00|                 50|       1|
 |4long         |                  NaN|                     NA|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4to           |               222.65|                  64.00|        1315|               81.64|                 32.00|        801|            31.84|                 32|     128|
+|4to           |               221.29|                  64.00|        1315|               81.71|                 32.00|        800|            31.84|                 32|     129|
 |8long         |                15.33|                  15.33|           2|                4.33|                  4.33|          2|               NA|                 NA|      NA|
-|8vo           |                 -Inf|                 584.00|        6576|              285.20|                290.00|       6881|            21.33|                 26|       3|
+|8vo           |                 -Inf|                 584.00|        6576|              286.61|                290.00|       6841|            21.33|                 26|       3|
 |12long        |               168.00|                 226.00|           3|              138.00|                138.00|          2|               NA|                 NA|      NA|
-|12mo          |               442.80|                 314.00|        6490|              157.89|                155.00|       6701|               NA|                 NA|      NA|
+|12mo          |               435.37|                 312.00|        6490|              157.90|                155.00|       6683|               NA|                 NA|      NA|
 |16mo          |               748.13|                 584.00|          46|              292.05|                292.00|         48|               NA|                 NA|      NA|
-|18mo          |               653.17|                 424.00|         227|              202.62|                201.00|        241|               NA|                 NA|      NA|
-|24mo          |               749.08|                 543.50|          57|              271.94|                270.75|         56|               NA|                 NA|      NA|
+|18mo          |               650.31|                 414.00|         227|              202.62|                201.00|        241|               NA|                 NA|      NA|
+|24mo          |               745.44|                 541.50|          57|              271.92|                270.75|         57|               NA|                 NA|      NA|
 |32mo          |                  NaN|                     NA|           5|                 NaN|                    NA|          1|               NA|                 NA|      NA|
 |48mo          |                  NaN|                     NA|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |64mo          |               318.83|                 294.00|           6|              147.17|                147.00|          7|               NA|                 NA|      NA|

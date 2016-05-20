@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-05-20"
+date: "2016-05-19"
 output: markdown_document
 ---
 
@@ -54,14 +54,14 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                               |        16.5|          83.5|        383581|     162946|
 |country                                 |         3.7|          96.3|        442575|         53|
 |publication_place                       |         3.7|          96.3|        442600|       1001|
-|pagecount.orig                          |         3.6|          96.4|        443181|       1452|
+|pagecount.orig                          |         3.6|          96.4|        443180|       1452|
 |obl                                     |         3.4|          96.6|        443830|          3|
-|paper.consumption.km2                   |         2.4|          97.6|        448424|       6673|
+|paper.consumption.km2                   |         2.4|          97.6|        448457|       6670|
 |width                                   |         2.2|          97.8|        449365|         78|
 |height                                  |         2.2|          97.8|        449365|         94|
 |area                                    |         2.2|          97.8|        449365|        619|
 |publication_year_from                   |         1.3|          98.7|        453788|        348|
-|pagecount                               |         0.2|          99.8|        458686|       1629|
+|pagecount                               |         0.2|          99.8|        458719|       1628|
 |language                                |         0.0|         100.0|        459598|         49|
 |title                                   |         0.0|         100.0|        459643|     345783|
 |control_number                          |         0.0|         100.0|        459644|     459644|
@@ -130,7 +130,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ## Histograms of the top entries for factor variables
 
-<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
+<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-11.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
 
 
 
