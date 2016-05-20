@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-05-19"
+date: "2016-05-20"
 output: markdown_document
 ---
 
@@ -169,7 +169,32 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 We have 1998 documents from Scotland and 11707 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
-![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png)
+
+```
+## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "character"
+```
+
+```
+## Error in rbind(deparse.level, ...): numbers of columns of arguments do not match
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'publication_place2'
+```
+
+```
+## Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
+```
+
+![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
+```
 
 
 
