@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-05-18"
+date: "2016-05-20"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40244 documents from Scotland.
+We have 26560 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -42,11 +42,6 @@ We have 40244 documents from Scotland.
 
 Authors born before 500 AD: paper consumption per decade in Scotland and globally. Top-10 authors shown for clarity in each case.
 
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
 ![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)
 
 
@@ -55,11 +50,11 @@ List of authors born before 500AD:
 
 ```
 ## 
-##      Aelian,  (3-NA) Hierocles,  (430-NA)    Longinus,  (1-NA) 
-##                    1                    2                    6
+## Beaurieu, Gaspard Guillard De (1-NA)      Zimmermann, Johann Georg (1-NA) 
+##                                    1                                    5
 ```
 
-We have 9 documents from 3 unique
+We have 6 documents from 2 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -162,7 +157,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error: Insufficient values in manual scale. 54 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 51 needed but only 5 provided.
 ```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
@@ -172,95 +167,34 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34465 documents from Scotland and 204975 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 24882 documents from Scotland and 10265 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
-## Warning in grid.Call.graphics(L_polygon, x$x, x$y, index): semi-
-## transparency is not supported on this device: reported only once per page
+## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "character"
+```
+
+```
+## Error in rbind(deparse.level, ...): numbers of columns of arguments do not match
+```
+
+```
+## Error in eval(expr, envir, enclos): unknown column 'publication_place2'
+```
+
+```
+## Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
 
 ![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
 ```
-## Warning: Removed 9 rows containing non-finite values (stat_smooth).
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : span too small. fewer data values than degrees of freedom.
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : at 1719.6
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : radius 0.16
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : all data on boundary of neighborhood. make span bigger
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : pseudoinverse used at 1719.6
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : neighborhood radius 0.4
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : reciprocal condition number 1
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : at 1800.4
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : radius 0.16
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : all data on boundary of neighborhood. make span bigger
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : There are other near singularities as well. 0.16
-```
-
-```
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : zero-width neighborhood. make span bigger
-
-## Warning in simpleLoess(y, x, w, span, degree = degree, parametric =
-## parametric, : zero-width neighborhood. make span bigger
-```
-
-```
-## Warning: Computation failed in `stat_smooth()`:
-## NA/NaN/Inf in foreign function call (arg 5)
-```
-
-```
-## Warning in grid.Call.graphics(L_rect, x$x, x$y, x$width, x$height,
-## resolveHJust(x$just, : semi-transparency is not supported on this device:
-## reported only once per page
-```
-
-![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png)
 
 
 
@@ -270,13 +204,13 @@ We have 34465 documents from Scotland and 204975 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 5942 rows containing missing values (geom_point).
+## Warning: Removed 472 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 1945 rows containing missing values (geom_point).
+## Warning: Removed 2224 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)

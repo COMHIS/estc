@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-05-18"
+date: "2016-05-20"
 output: markdown_document
 ---
 
@@ -34,93 +34,93 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                              | missing (%)| available (%)| available (n)| unique (n)|
 |:---------------------------------------|-----------:|-------------:|-------------:|----------:|
-|volnumber                               |        99.8|           0.2|           946|         31|
-|width.original                          |        99.2|           0.8|          3731|         72|
-|height.original                         |        98.3|           1.7|          8153|         88|
-|publication_year_till                   |        97.8|           2.2|         10552|        354|
-|volcount                                |        96.3|           3.7|         17645|        150|
-|document.items                          |        96.3|           3.7|         17645|        150|
-|publication_topic                       |        81.7|          18.3|         87966|       5067|
-|publication_geography                   |        71.6|          28.4|        136613|      12717|
-|author_gender                           |        70.4|          29.6|        142624|          4|
-|author_birth                            |        59.2|          40.8|        196509|        468|
-|author_death                            |        56.1|          43.9|        211269|        517|
-|self_published                          |        51.8|          48.2|        232003|          3|
-|subject_topic                           |        44.9|          55.1|        265148|      55731|
-|author_name                             |        41.2|          58.8|        282772|      47970|
-|author                                  |        41.2|          58.8|        282772|      54432|
-|publisher                               |        24.3|          75.7|        364223|     169413|
-|latitude                                |        11.1|          88.9|        427641|         19|
-|longitude                               |        11.1|          88.9|        427641|         19|
-|pagecount.orig                          |         3.7|          96.3|        463531|       1478|
-|obl                                     |         3.5|          96.5|        464209|          3|
-|paper.consumption.km2                   |         2.5|          97.5|        469313|       6832|
-|width                                   |         2.3|          97.7|        470237|         78|
-|height                                  |         2.3|          97.7|        470237|         95|
-|area                                    |         2.3|          97.7|        470237|        629|
-|publication_place                       |         0.5|          99.5|        478663|       1028|
-|country                                 |         0.5|          99.5|        478663|         55|
-|publication_year_from                   |         0.2|          99.8|        480080|        348|
-|pagecount                               |         0.2|          99.8|        480260|       1654|
-|language                                |         0.0|         100.0|        481140|         50|
-|title                                   |         0.0|         100.0|        481203|     360647|
-|control_number                          |         0.0|         100.0|        481205|     481205|
-|language.English                        |         0.0|         100.0|        481205|          2|
-|language.French                         |         0.0|         100.0|        481205|          2|
-|language.Latin                          |         0.0|         100.0|        481205|          2|
-|language.German                         |         0.0|         100.0|        481205|          2|
-|language.Scottish Gaelic                |         0.0|         100.0|        481205|          2|
-|language.Italian                        |         0.0|         100.0|        481205|          2|
-|language.Greek, Ancient (to 1453)       |         0.0|         100.0|        481205|          1|
-|language.Welsh                          |         0.0|         100.0|        481205|          2|
-|language.Portuguese                     |         0.0|         100.0|        481205|          2|
-|language.Dutch                          |         0.0|         100.0|        481205|          2|
-|language.Greek, Modern (1453-)          |         0.0|         100.0|        481205|          1|
-|language.Hebrew                         |         0.0|         100.0|        481205|          2|
-|language.Spanish                        |         0.0|         100.0|        481205|          2|
-|language.Pahlavi                        |         0.0|         100.0|        481205|          2|
-|language.Swedish                        |         0.0|         100.0|        481205|          2|
-|language.Irish                          |         0.0|         100.0|        481205|          2|
-|language.Manx                           |         0.0|         100.0|        481205|          2|
-|language.Romance (Other)                |         0.0|         100.0|        481205|          1|
-|language.Algonquian (Other)             |         0.0|         100.0|        481205|          1|
-|language.Lithuanian                     |         0.0|         100.0|        481205|          2|
-|language.Turkish                        |         0.0|         100.0|        481205|          2|
-|language.English, Old (ca. 450-1100)    |         0.0|         100.0|        481205|          1|
-|language.Scots                          |         0.0|         100.0|        481205|          2|
-|language.Arabic                         |         0.0|         100.0|        481205|          2|
-|language.North American Indian (Other)  |         0.0|         100.0|        481205|          1|
-|language.Persian                        |         0.0|         100.0|        481205|          2|
-|language.French, Middle (ca. 1300-1600) |         0.0|         100.0|        481205|          1|
-|language.Newari                         |         0.0|         100.0|        481205|          2|
-|language.Armenian                       |         0.0|         100.0|        481205|          2|
-|language.Tamil                          |         0.0|         100.0|        481205|          2|
-|language.Icelandic                      |         0.0|         100.0|        481205|          2|
-|language.Bengali                        |         0.0|         100.0|        481205|          2|
-|language.Russian                        |         0.0|         100.0|        481205|          2|
-|language.Malayalam                      |         0.0|         100.0|        481205|          2|
-|language.Danish                         |         0.0|         100.0|        481205|          2|
-|language.English, Middle (1100-1500)    |         0.0|         100.0|        481205|          1|
-|language.Coptic                         |         0.0|         100.0|        481205|          2|
-|language.Mongolian                      |         0.0|         100.0|        481205|          2|
-|language.Gujarati                       |         0.0|         100.0|        481205|          2|
-|language.Malay                          |         0.0|         100.0|        481205|          2|
-|language.Sanskrit                       |         0.0|         100.0|        481205|          2|
-|language.Gothic                         |         0.0|         100.0|        481205|          2|
-|language.Mohawk                         |         0.0|         100.0|        481205|          2|
-|language.Delaware                       |         0.0|         100.0|        481205|          2|
-|language.Iroquoian (Other)              |         0.0|         100.0|        481205|          1|
-|language.Palauan                        |         0.0|         100.0|        481205|          2|
-|language.Arawak                         |         0.0|         100.0|        481205|          2|
-|language.Scottish Gaelix                |         0.0|         100.0|        481205|          2|
-|language.Multiple languages             |         0.0|         100.0|        481205|          2|
-|gatherings.original                     |         0.0|         100.0|        481205|         18|
-|obl.original                            |         0.0|         100.0|        481205|          2|
-|original_row                            |         0.0|         100.0|        481205|     481205|
-|publication_year                        |         0.0|         100.0|        481205|        348|
-|publication_decade                      |         0.0|         100.0|        481205|         37|
-|author_pseudonyme                       |         0.0|         100.0|        481205|          2|
-|gatherings                              |         0.0|         100.0|        481205|         18|
+|volnumber                               |        99.8|           0.2|           936|         31|
+|width.original                          |        99.2|           0.8|          3454|         72|
+|height.original                         |        98.4|           1.6|          7548|         87|
+|volcount                                |        96.5|           3.5|         16239|        147|
+|document.items                          |        96.5|           3.5|         16239|        147|
+|publication_topic                       |        81.7|          18.3|         84098|       4888|
+|publication_year_till                   |        79.6|          20.4|         93878|        354|
+|publication_geography                   |        71.7|          28.3|        130009|      12221|
+|author_gender                           |        70.3|          29.7|        136627|          4|
+|author_birth                            |        58.7|          41.3|        189952|        467|
+|author_death                            |        55.8|          44.2|        203258|        514|
+|self_published                          |        49.0|          51.0|        234234|          3|
+|subject_topic                           |        45.1|          54.9|        252317|      53465|
+|author_name                             |        41.1|          58.9|        270903|      46749|
+|author                                  |        41.1|          58.9|        270903|      53590|
+|latitude                                |        27.0|          73.0|        335651|         19|
+|longitude                               |        27.0|          73.0|        335651|         19|
+|publisher                               |        16.5|          83.5|        383581|     162946|
+|country                                 |         3.7|          96.3|        442546|         52|
+|publication_place                       |         3.7|          96.3|        442555|        999|
+|pagecount.orig                          |         3.6|          96.4|        443181|       1452|
+|obl                                     |         3.4|          96.6|        443830|          3|
+|paper.consumption.km2                   |         2.4|          97.6|        448424|       6673|
+|width                                   |         2.2|          97.8|        449365|         78|
+|height                                  |         2.2|          97.8|        449365|         94|
+|area                                    |         2.2|          97.8|        449365|        619|
+|publication_year_from                   |         1.3|          98.7|        453788|        348|
+|pagecount                               |         0.2|          99.8|        458686|       1629|
+|language                                |         0.0|         100.0|        459598|         49|
+|title                                   |         0.0|         100.0|        459643|     345783|
+|control_number                          |         0.0|         100.0|        459644|     459644|
+|language.English                        |         0.0|         100.0|        459644|          2|
+|language.French                         |         0.0|         100.0|        459644|          2|
+|language.Latin                          |         0.0|         100.0|        459644|          2|
+|language.German                         |         0.0|         100.0|        459644|          2|
+|language.Scottish Gaelic                |         0.0|         100.0|        459644|          2|
+|language.Italian                        |         0.0|         100.0|        459644|          2|
+|language.Greek, Ancient (to 1453)       |         0.0|         100.0|        459644|          1|
+|language.Welsh                          |         0.0|         100.0|        459644|          2|
+|language.Portuguese                     |         0.0|         100.0|        459644|          2|
+|language.Dutch                          |         0.0|         100.0|        459644|          2|
+|language.Greek, Modern (1453-)          |         0.0|         100.0|        459644|          1|
+|language.Hebrew                         |         0.0|         100.0|        459644|          2|
+|language.Spanish                        |         0.0|         100.0|        459644|          2|
+|language.Pahlavi                        |         0.0|         100.0|        459644|          2|
+|language.Swedish                        |         0.0|         100.0|        459644|          2|
+|language.Irish                          |         0.0|         100.0|        459644|          2|
+|language.Manx                           |         0.0|         100.0|        459644|          2|
+|language.Romance (Other)                |         0.0|         100.0|        459644|          1|
+|language.Algonquian (Other)             |         0.0|         100.0|        459644|          1|
+|language.Lithuanian                     |         0.0|         100.0|        459644|          2|
+|language.Turkish                        |         0.0|         100.0|        459644|          2|
+|language.English, Old (ca. 450-1100)    |         0.0|         100.0|        459644|          1|
+|language.Scots                          |         0.0|         100.0|        459644|          2|
+|language.Arabic                         |         0.0|         100.0|        459644|          2|
+|language.North American Indian (Other)  |         0.0|         100.0|        459644|          1|
+|language.Persian                        |         0.0|         100.0|        459644|          2|
+|language.French, Middle (ca. 1300-1600) |         0.0|         100.0|        459644|          1|
+|language.Newari                         |         0.0|         100.0|        459644|          2|
+|language.Armenian                       |         0.0|         100.0|        459644|          2|
+|language.Tamil                          |         0.0|         100.0|        459644|          2|
+|language.Icelandic                      |         0.0|         100.0|        459644|          2|
+|language.Bengali                        |         0.0|         100.0|        459644|          2|
+|language.Russian                        |         0.0|         100.0|        459644|          2|
+|language.Malayalam                      |         0.0|         100.0|        459644|          2|
+|language.Danish                         |         0.0|         100.0|        459644|          2|
+|language.English, Middle (1100-1500)    |         0.0|         100.0|        459644|          1|
+|language.Coptic                         |         0.0|         100.0|        459644|          2|
+|language.Mongolian                      |         0.0|         100.0|        459644|          2|
+|language.Gujarati                       |         0.0|         100.0|        459644|          2|
+|language.Malay                          |         0.0|         100.0|        459644|          2|
+|language.Sanskrit                       |         0.0|         100.0|        459644|          2|
+|language.Gothic                         |         0.0|         100.0|        459644|          2|
+|language.Mohawk                         |         0.0|         100.0|        459644|          2|
+|language.Delaware                       |         0.0|         100.0|        459644|          2|
+|language.Iroquoian (Other)              |         0.0|         100.0|        459644|          1|
+|language.Palauan                        |         0.0|         100.0|        459644|          2|
+|language.Arawak                         |         0.0|         100.0|        459644|          2|
+|language.Scottish Gaelix                |         0.0|         100.0|        459644|          1|
+|language.Multiple languages             |         0.0|         100.0|        459644|          2|
+|gatherings.original                     |         0.0|         100.0|        459644|         18|
+|obl.original                            |         0.0|         100.0|        459644|          2|
+|original_row                            |         0.0|         100.0|        459644|     459644|
+|publication_year                        |         0.0|         100.0|        459644|        348|
+|publication_decade                      |         0.0|         100.0|        459644|         37|
+|author_pseudonyme                       |         0.0|         100.0|        459644|          2|
+|gatherings                              |         0.0|         100.0|        459644|         18|
 
 
 
@@ -130,7 +130,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ## Histograms of the top entries for factor variables
 
-<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-11.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
+<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
 
 
 

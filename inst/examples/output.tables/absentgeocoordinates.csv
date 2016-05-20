@@ -1,910 +1,871 @@
 name	count
-New York NY	4672
-Birmingham	1282
-Manchester	1208
-Bath	1118
-New London Ct	1004
-Providence RI	964
-Salisbury	846
-Exeter	838
-Belfast	796
-New Haven Ct	774
-Charleston SC	729
-Cork	722
-Newport RI	653
-Leeds	633
-Shrewsbury	597
-Liverpool	550
-Nottingham	530
-Quebec	510
-Canterbury	510
-Coventry	499
-Halifax	493
-Annapolis Md	493
-Portsmouth NH	485
-Worcester Ma	469
-Worcester	456
-Royal Tunbridge Wells	451
-Williamsburg Va	409
-Newburyport Ma	395
-Wilmington De	393
-Germantown Pa	388
-Antwerp	380
-Chester	369
-Northampton	368
-St Omer	352
-Lancaster Pa	351
-Albany NY	350
-Richmond	349
-Ipswich	347
-The Hague	333
-Cambridge Ma	327
-Norwich Ct	319
-Gloucester	314
-Salem Ma	312
-Maidstone	309
-Hull	306
-USA	304
-Eton	303
-Warrington	290
-Calcutta	282
-Perth	274
-Exeter NH	274
-Rouen	265
-Trenton	254
-Reading	253
-Litchfield Ct	251
-Berwick-upon-Tweed	247
-Douai	240
-Falkirk	233
-Rochester	221
-Sheffield	206
-Paisley	200
-Caerfyrddin	179
-Durham	178
-Leicester	176
-Bury	175
-Warwick	168
-Bennington Vt	161
-Derby	160
-Stirling	159
-Windsor Vt	156
-Tharangampadi	155
-Sherborne	155
-Plymouth	151
-Hamburg	151
-Savannah Ga	150
-New Bern NC	149
-Burlington NJ	148
-Wolverhampton	147
-Lincoln	147
-Kingston	146
-Darlington	145
-Preston	144
-Montreal	143
-Kendal	143
-Dundee	140
-Middelburg	139
-Bedford	137
-Downpatrick	135
-Portsmouth	133
-Tewkesbury	132
-Whitehaven	131
-Winchester	128
-Lewes	128
-Rotterdam	126
-Southampton	123
-Newark	123
-Amwythig	123
-Leipzig	122
-Basel	120
-Colchester	119
-Limerick	118
-Woodbridge NJ	115
-Ephrata Pa	113
-Carlisle	113
-Leiden	110
-Spanish Town	107
-Newry	106
-Kings Lynn	106
-Hereford	106
-Newark NJ	105
-Halifax NS	103
-Yarmouth	98
-Stamford	97
-Taunton	96
-Geneva	95
-Elizabeth NJ	94
-Springfield Ma	93
-Portland Me	92
-Madras India	91
-Dumfries	90
-Gainsborough	88
-Waterford	86
-Poughkeepsie NY	86
-Ludlow	81
-Lexington KY	81
-Berlin	81
-Richmond Va	80
-Rutland Vt	79
-Twickenham	78
-Carmarthen	77
-Banbury	77
-Concord NH	76
-Windsor	75
-Frankfurt	73
-Chelmsford	73
-New Brunswick NJ	72
-Margate	72
-Wrexham	70
-Hudson NY	69
-Aldershot	69
-Brentford	66
-Doncaster	64
-Danbury Ct	64
-Chichester	64
-Wakefield	63
-Livorno	63
-Huddersfield	63
-Brussels	63
-Sunderland	62
-Northampton Ma	62
-New Orleans La	62
-Leominster Ma	62
-Ayr	61
-Alnwick	61
-Bridgetown	60
-Cirencester	59
-Venice	58
-Peterborough	58
-Middletown Ct	58
-Dover NH	58
-Penrith	57
-Kilkenny	57
-Bury St Edmunds	57
-Augusta	57
-Warren RI	55
-Trefeca	55
-Stafford	55
-St Johns Antiqua	55
-Washington DC	54
-Stockport	54
-Hanover NH	54
-Stockbridge Ma	53
-Liège	53
-Stockton	52
-Newport	52
-Kilmarnock	50
-Hertford	50
-Fishkill NY	50
-Bolton	50
-Amherst NH	50
-York Pa	49
-Göttingen	49
-Cologne	49
-Trenton nj	48
-Port-au-Prince	48
-Guildford	48
-Kidderminster	47
-Aberhonddu	47
-St Andrews	46
-Keene NH	46
-Wisbech	45
-Windham Ct	45
-Wesel	45
-Walpole NH	45
-Roseau Dominica	45
-Bradford	45
-Lyon	43
-Halle	43
-Edenton NC	43
-Dunbar	43
-Carlisle Pa	42
-New Bedford Ma	41
-Macclesfield	41
-Trefriw	40
-Charlottetown	40
-Alexandria Va	40
-Montrose	39
-Huntingdon	39
-Vienna	37
-Kingstown	37
-Emden	37
-Greenfield Ma	36
-Copenhagen	36
-Strasbourg	35
-Chesterfield	35
-Blackburn	35
-Knaresborough	34
-Kelso	34
-Frankfort Ky	34
-Delft	34
-Whitby	33
-Lansingburgh NY	33
-Fredericktown Md	33
-Basseterre Saint Kitts	33
-Utrecht	32
-Evesham	32
-Brookfield Ma	32
-Niagara	31
-Lausanne	31
-Knoxville TN	31
-Falmouth Me	31
-Suffield Ct	30
-St George	30
-Norfolk Va	30
-Louvain	30
-Haverhill Ma	30
-Gosport	30
-Burslem	30
-Bruges	30
-Henley-on-Thames	29
-Dedham Ma	29
-St Helier	28
-Londonderry	28
-Armagh	28
-Wigan	27
-Spalding	27
-Petersburg Va	26
-Chestnut Hill Pa	26
-Catskill NY	26
-St Petersburg	25
-Monaghan	25
-Hannover	25
-Hallowell Me	25
-Washington Pa	24
-Troy NY	24
-Nassau	24
-Deptford	24
-Danvers Ma	24
-Bombay	24
-Stourbridge	23
-St Ives	23
-Rome	23
-Hagerstown Md	23
-Florence	23
-Devizes	23
-Congleton	23
-Zürich	22
-Trowbridge	22
-St Pierre	22
-Marlborough	22
-Georgetown Washington DC	22
-Chelsea	22
-Aylesbury	22
-Newfield Ct	21
-Dorchester	21
-Altenburg	21
-Winton	20
-West Springfield Ma	20
-Sudbury	20
-Raleigh nc	20
-Market harborough	20
-Fairhaven vt	20
-Dudley	20
-Drogheda	20
-Dresden	20
-Cheshire Ct	20
-Boston england	20
-Whitehall Pa	19
-Strabane	19
-Leominster	19
-Hamilton	19
-Ghent	19
-Dordrecht	19
-Columbia SC	19
-Clipstone	19
-Chambersburg Pa	19
-Pontefract	18
-Nantwich	18
-Leuven	18
-Kingston NY	18
-Egham	18
-Douglas	18
-Dort	18
-Chatham nj	18
-Weymouth	17
-Wexford	17
-Ripon	17
-Goshen ny	17
-Caernarfon	17
-Buckingham	17
-Truru	16
-Sevenoaks	16
-Scarborough	16
-Neuchatel	16
-Haddington	16
-Fredicksburg Va	16
-Caerleon	16
-Stabroek	15
-St Albans	15
-New Castle De	15
-Machynlleth	15
-Inverness	15
-Haarlem	15
-Brighton	15
-Wilmington NC	14
-Reims	14
-Parma	14
-Newburgh NY	14
-Monmouth	14
-Madeley	14
-Horncastle	14
-Hinckley	14
-High wycombe	14
-Harrisburgh Pa	14
-Harrisburgh	14
-Chennai	14
-Cheltenham	14
-Abingdon	14
-Abartawe	14
-Tamworth	13
-Saint John	13
-Nürnberg	13
-Mount holly nj	13
-Louth	13
-Guernesey	13
-Gravesend	13
-Dover	13
-Cooperstown NY	13
-Vergennes vt	12
-Schenectady NY	12
-Salisbury NC	12
-Northumberland Pa	12
-Medford Ma	12
-Jena	12
-Bordeaux	12
-Augusta Me	12
-Wiscasset me	11
-St Peter Port	11
-Ramsgate	11
-Newmarket	11
-Nantes	11
-Mullingar	11
-Mainz	11
-Loughborough	11
-Heidelberg	11
-Hawick	11
-Cincinnati Oh	11
-Chatham	11
-Bridgnorth	11
-Beverley	11
-Bern	11
-Valletta	10
-Stroud	10
-Stonington Ct	10
-South shields	10
-Rochdale	10
-Pondicherry	10
-Peacham Vt	10
-Oswestry	10
-Natchez Ms	10
-Grantham	10
-Fredericton	10
-Easton Pa	10
-Drumfries	10
-Bocking	10
-Altona	10
-Wotton-under-Edge	9
-Whitesboro NY	9
-Walsall	9
-Romsey	9
-Putney Vt	9
-Poole	9
-Pittsburgh Pa	9
-Newbury	9
-Morristown NJ	9
-Montego Bay	9
-Lisbon	9
-Hillsborough NC	9
-Hemel Hempstead	9
-Galway	9
-Fayetteville NC	9
-Chippenham	9
-Bungay	9
-Bremen	9
-Berkhamsted	9
-Treffynnon	8
-Strood	8
-St Augustine Fl	8
-Shelburne	8
-Sag Harbour NY	8
-Pointe-A-Pitre	8
-Naples	8
-Mechelen	8
-Lymington	8
-Honiton	8
-Hanau	8
-Greenock	8
-Clonmel	8
-Chelmsford Ma	8
-Carlow	8
-Bridgewater Ma	8
-America	8
-Uppsala	7
-Stratford-upon-Avon	7
-Stockholm	7
-Retford	7
-Plymouth Ma	7
-Norristown Pa	7
-Malton	7
-Lund	7
-Llanymddyfri	7
-Helston	7
-Greenfield	7
-Gouda	7
-Fryeburg Me	7
-Concord	7
-Bridport	7
-Brattleboro Vt	7
-Banff	7
-Workington	6
-Warren	6
-Warminster	6
-Uttoxeter	6
-Ulverston	6
-Tiverton	6
-Shepton Mallet	6
-Saint-Germain-en-Laye	6
-Princeton NJ	6
-Norton	6
-Newbury Vt	6
+Erfurt	27145
+Springfield Ma	9225
+Leipzig	8460
+Breslau	7631
+Annapolis Md	6366
+Rye	4965
+Howden	4668
+Castleford	3210
+New Haven Ct	1993
+Calcutta	1691
+Waterford	1618
+Hamburg	1258
+Nassau	1217
+Blandford va	1060
+Amwythig	1052
+Ipswich	938
+Antwerp	869
+Berlin	838
+Middelburg	772
+Douglas	695
+Chatham	660
+Salem NY	635
+Frankfurt	588
+Kassel	556
+Belfast	495
+Chester	485
+Port-of-Spain	484
+Congleton	472
+Dover NH	466
+Salisbury	410
+Charleston SC	353
+Stuttgart	344
+Stonor	337
+Brookfield Ma	319
+Sunderland	298
+Bonn	297
+Tharangampadi	289
+Ephrata Pa	259
+Altona	259
+Wilmington De	251
+Cork	244
+Suffield Ct	243
+Carrick	239
+The Hague	219
+Helmstadt	215
+Brighton	213
+Germantown Pa	206
+Freetown	205
+Augusta	199
+Exeter	190
+Abartawe	185
+Newfield Ct	173
+Winchester	163
+Caerdydd	163
+Stamford	160
+Bethlehem Pa	138
+Leuven	134
+Rouen	131
+St Andrews	129
+Strasbourg	127
+Ayr	123
+St George	122
+Caerfyrddin	118
+Stowmarket	115
+Chennai	115
+Detroit Mi	113
+Cincinnati Oh	112
+Gainsborough	103
+Princeton NJ	100
+Portsmouth	100
+Coventry	98
+Cambridge Ma	98
+Washington DC	96
+Pittsburgh Pa	95
+New York NY	95
+Bennington Vt	94
+Newburyport Ma	93
+Newburgh NY	89
+Lancaster Pa	86
+St John New Brunswick	85
+Saint John	83
+Canterbury	82
+Newington Ct	80
+Doncaster	76
+Catskill NY	75
+Beverley	75
+Stockton	74
+Haverhill NH	74
+Copenhagen	71
+Worcester Ma	70
+Dereham	70
+Fishkill NY	69
+Danbury Ct	68
+Poughkeepsie NY	66
+Basel	65
+Douai	63
+Hawick	62
+Reims	61
+Hudson NY	61
+Providence RI	58
+Bradford	58
+Montreal	57
+Altenburg	55
+Venice	54
+Toulouse	54
+Wesel	53
+Lausanne	53
+Darlington	53
+Dolgellau	52
+Birmingham	52
+Spanish Town	51
+Schenectady NY	51
+Albany NY	51
+Richmond Va	50
+Gothenburg	50
+Bury	50
+Rennes	49
+Hanau	47
+Preston	44
+Braunschweig	44
+Livorno	42
+Litchfield Ct	40
+Orleans	39
+Hagerstown Md	37
+Delft	36
+St Petersburg	35
+Manchester	35
+Cirencester	35
+Dalry	34
+St Omer	33
+Geneva NY	33
+Dewsbury	33
+Burlington NJ	33
+Bern	33
+Zürich	32
+Sligo	32
+Cologne	32
+Liège	31
+Leiden	31
+Halle	31
+Concord Ma	31
+Ulverston	30
+St Helier	30
+Northampton Ma	29
+Newark	29
+Calne	28
+Vienna	27
+Staunton Va	27
+Naples	27
+Lyon	27
+Glastonbury	27
+Florence	27
+Warrington	26
+Plymouth	26
+Perth	26
+Bath	26
+Rutland Vt	25
+Nashville TN	25
+Heilbronn	25
+Folkestone	25
+Bodedern	25
+Basseterre Saint Kitts	25
+St Ives	24
+St Albans	24
+Norfolk Va	24
+Karlsruhe	24
+Concord	23
+Andover Ma	23
+Jena	21
+Hungerford	21
+Hanover NH	21
+Emden	21
+Kilkenny	20
+Columbia SC	20
+Winterslow	19
+South molton	19
+Orlingbury	19
+Haarlem	19
+Gilmanton NH	19
+Edenton NC	19
+Bridgetown	19
+Vatican	18
+Selkirk	18
+Regensburg	18
+Knaresborough	18
+Kirkham	18
+Kent	18
+Halifax NS	18
+Fayetteville NC	18
+Dorchester	18
+Coxheath	18
+Ballston Spa NY	18
+Aachen	18
+Maidstone	17
+Easton Pa	17
+East grinstead	17
+Charlottetown	17
+Wirzburg	16
+Tübingen	16
+New Bedford Ma	16
+Mechelen	16
+Mainz	16
+Fryeburg Me	16
+Castine Me	16
+Carlisle Pa	16
+Caernarfon	16
+Berwick-upon-Tweed	16
+Whitby	15
+Kenilworth	15
+Croesoswallt	15
+Cheshunt	15
+Bruges	15
+Wittenberg	14
+Wisbech	14
+Mansfield	14
+Krakow	14
+Greenfield	14
+Elizabethtown Md	14
+Drogheda	14
+Cranbrook	14
+Ampthill	14
+Zeiz-Bahren	13
+York Pa	13
+Williamsburg Va	13
+Salem Ma	13
+Quebec	13
+Prescot	13
+Pondicherry	13
+Pointe-A-Pitre	13
+Middletown Ct	13
+Kingston	13
+Hannover	13
+Bridgeport Ct	13
+Brattleboro Vt	13
+Warminster	12
+Stockholm	12
+Nürnberg	12
+New Orleans La	12
+Nantwich	12
+Marseilles	12
+Louvain	12
+Harbor Oh	12
+Durham	12
+Bunny	12
+Aberhonddu	12
+Worcester	11
+Wolverhampton	11
+Valletta	11
+Trenton nj	11
+Southampton	11
+Slough	11
+Shelburne	11
+Settle	11
+Salem NJ	11
+Rome	11
+Penzance	11
+Octorara Pa	11
+Nottingham	11
+New London Ct	11
+Carlow	11
+Calicut	11
+Caerleon	11
+Brussels	11
+Yarm	10
+Windsor	10
+Utrecht	10
+Torino	10
+St Eustatius	10
+Rugeley	10
+Putney Vt	10
+Nothampton	10
+Morristown NJ	10
+Lund	10
+Inverness	10
+Huddersfield	10
+Heidelberg	10
+Harrisburgh Pa	10
+Halifax	10
+Gettysburg pa	10
+Ennis	10
+Dordrecht	10
+Danvers Ma	10
+Chestnut Hill Pa	10
+Carrick-on-Suir	10
+Troy NY	9
+Trefeca	9
+Stirling	9
+Northampton	9
+New Bern NC	9
+Loughborough	9
+Greenfield Ma	9
+Göttingen	9
+Ghent	9
+Georgetown Washington DC	9
+Geneva	9
+Devonport	9
+Derby	9
+Caen	9
+Wokingham	8
+Walpole NH	8
+Rotterdam	8
+Port-au-Prince	8
+Niagara	8
+Newport RI	8
+Natchez Ms	8
+Milan	8
+Lustleigh	8
+Lincoln	8
+Leeds	8
+Helsingor	8
+Gaunt	8
+Eton	8
+Boden	8
+Amherst NH	8
+Utica ny	7
+Stockbridge Ma	7
+St Johns Antiqua	7
+St Augustine Fl	7
+Shrewsbury	7
+Sevenoaks	7
+Salem	7
+Roseau Dominica	7
+Portland Me	7
+Norrköping	7
+Newport	7
+New Brunswick NJ	7
+Macclesfield	7
+Lugano	7
+Lisbon	7
+Keene NH	7
+Huntingdon	7
+Gosport	7
+Friedensthal Pa	7
+Fredericktown Md	7
+Chesterfield	7
+Chelmsford Ma	7
+Bridgeton nj	7
+Bishopstone	7
+Augusta Me	7
+Augsburg	7
+Adpar	7
+Yeovil	6
+Yarmouth	6
+USA	6
+Twickenham	6
+Stratford-upon-Avon	6
+Stanford	6
+Stafford	6
+Rome NY	6
+Reading	6
+Parr-Town	6
+Münster	6
 Mount Pleasant NJ	6
-Morpeth	6
-Milan	6
-Middlewich	6
-Middleborough Ma	6
-London Ct	6
-La rochelle	6
-Kettering	6
-Hwlffordd	6
-Haverhill NH	6
-Gothenburg	6
-Gilmanton NH	6
-Firenze	6
-Devonport	6
-Croesoswallt	6
-Castine Me	6
-Bridlington	6
-Bontfaen	6
-Bishopstone	6
-Alston	6
-Yverdon-les-Bains	5
-Wittenberg	5
-Windsor Ct	5
-Wells	5
-Totnes	5
-Taunton Ma	5
-Staunton Va	5
-St neots	5
-South molton	5
-Salem NY	5
-Salem	5
-Prescot	5
-Orleans	5
-Norfolk	5
+Milton	6
+Maastricht	6
+Londonderry	6
+Herford	6
+Harrisburgh	6
+Harlech	6
+Gera	6
+Falkirk	6
+Downpatrick	6
+Dover De	6
+Dedham Ma	6
+Cooperstown NY	6
+Concord NH	6
+Cadiz	6
+Bromley	6
+Bordeaux	6
+Bideford	6
+Avignon	6
+Ashby-de-la-Zouch	6
+Yr Wyddgrug	5
+Wrexham	5
+Woodbridge NJ	5
+Tornay	5
+Strahane	5
+Sherborne	5
+Richmond	5
+Pontefract	5
+Petersburg Va	5
+Parma	5
+Norwich Ct	5
+Northwich	5
+Newbury Vt	5
+Middleborough Ma	5
+Malmö	5
 Madrid	5
-Lucca	5
-Llwydlo	5
-Kirkcudbright	5
-Hungerford	5
-Horsham	5
-Frome	5
-Fort royal	5
-Flushing	5
-Erlangen	5
-Ennis	5
-Ely	5
-Dover De	5
-Dorset	5
-Dolgellau	5
-Daventry	5
-Dartmouth	5
-Cranbrook	5
-Concord Ma	5
-Caerdydd	5
-Bödingen	5
-Basseterre	5
-Ballston Spa NY	5
-Athlone	5
-Yeovil	4
-Whitchurch	4
-Verona	4
-Västerås	4
-Utica ny	4
-Toronto	4
-Saint-Malo	4
-Rye	4
-Port-of-Spain	4
-Penzance	4
-Northallerton	4
-Nice	4
-Mansfield	4
-Lustleigh	4
-Leek	4
-Kirkbride	4
-Jacksonburgh sc	4
-Havanna	4
+Madras India	5
+Liverpool	5
+Lewes	5
+Leominster Ma	5
+Kingston NY	5
+Hillsborough NC	5
+Frankfort Ky	5
+Elizabeth NJ	5
+Ciutadella	5
+Birr	5
+Bethania nc	5
+Alcester	5
+Wycombe	4
+Wotton-under-Edge	4
+Weymouth	4
+Washington Pa	4
+Warren RI	4
+Wantage	4
+Waltham saint lawrence	4
+Uttoxeter	4
+Uppsala	4
+Treffynnon	4
+Sheffield	4
+Savannah Ga	4
+Ripon	4
+Rhaglan	4
+Portsmouth NH	4
+Porto	4
+Nurnberg	4
+Montego Bay	4
+Mannheim	4
+Machynlleth	4
+Kingstown	4
+Kings Lynn	4
+Kilmarnock	4
+Kidderminster	4
+Hull	4
+Hertford	4
+Helmstedt	4
+Haverhill Ma	4
 Harrogate	4
-Hanover Pa	4
-Frederick md	4
+Gouda	4
+Gloucester	4
+Gillingham	4
+Frome	4
 Fersfield	4
-Fairfield Ct	4
-Erfurt	4
-Epsom	4
-Dereham	4
-Crewkerne	4
-Cheshunt	4
-Carrick	4
-Cape Town	4
+Dunstable	4
+Dundee	4
+Dumfries	4
+Downham	4
+Clipstone	4
 Cap-Haitien	4
-Canaan NY	4
-Caen	4
-Cadiz	4
-Burton	4
-Burlington Vt	4
-Brookville Pa	4
-Bromley	4
-Breslau	4
-Brattleborough vt	4
-Bouillon	4
-Bologna	4
-Blandford	4
-Avignon	4
-Atherstone	4
-Andover Ma	4
-Alcester	4
-Abbeville	4
-Wycombe	3
+Bremen	4
+Brackley	4
+Berkhamsted	4
+Basseterre	4
+Barnard Castle	4
+Ashby	4
+America	4
+Abermaw	4
 Wolston	3
-Winterthur	3
-Whitburn	3
-Wellingborough	3
-Watford	3
+Windsor Vt	3
+Windham Ct	3
+Winchester salisbury england	3
+Wilmington NC	3
+Wilkes-Barre Pa	3
+Whitesboro NY	3
+Whitehall Pa	3
 Waltham	3
-Trevoux	3
-Toulouse	3
+Walsall	3
 Torrington Ct	3
-Tetbury	3
-Sydney	3
-Stuttgart	3
-Sterling	3
-St Eustatius	3
-Shepherdstown WV	3
-Selby	3
-Salem NJ	3
-Rotherham	3
-Rome NY	3
-Riga	3
-Reigate	3
-Regensburg	3
-Prague	3
-Peterhead	3
-Pembroke	3
-Padova	3
-Ormskirk	3
-Nothampton	3
-Newton abbot	3
-Newington Ct	3
-Nashville TN	3
-Nancy	3
-Münster	3
-Malmö	3
-Lugano	3
-Loreto	3
-Lille	3
-Launceston	3
-Kingston upon Thames	3
-Karlsruhe	3
-Hitchin	3
-Hexham	3
-Harlech	3
+Strabane	3
+Stonington Ct	3
+Simsbury Ct	3
+Shiffnal	3
+Saint-Germain-en-Laye	3
+Sag Harbour NY	3
+Royal Tunbridge Wells	3
+Pompton Plains NJ	3
+Peterborough	3
+Nuneaton	3
+Norton fitzwarren	3
+Norton	3
+Northumberland Pa	3
+Newton NJ	3
+Newark NJ	3
+New Britain Pa	3
+Montrose	3
+Mexico city	3
+Medford Ma	3
+Martinsburg va	3
+Marseille	3
+Lymington	3
+Lonnen	3
+Limerick	3
+Lexington KY	3
+Leek	3
+Le Havre	3
+Lanark	3
+Koningsberg	3
+Kildare	3
+Kelso	3
+Kehl	3
+Jerusalem	3
+Inverary	3
+Hwlffordd	3
+Hemel Hempstead	3
+Hatfield	3
+Hastings	3
 Harderwijk	3
-Harbor Oh	3
-Gillingham	3
-Georgetown Va	3
-Geneva NY	3
-Gdansk	3
-Friedensthal Pa	3
-Elizabethtown Md	3
-Dunkirk	3
-Dungannon	3
+Hallowell Me	3
+Guildford	3
+Görliz	3
+Frederick md	3
+Firenze	3
+Faringdon	3
+Falmouth Me	3
+Fairfield Ct	3
+Exeter NH	3
+Erlangen	3
+Duns	3
 Dunfermline	3
 Dun Laoghaire	3
-Dorking	3
-Dessau	3
-Chillicothe Oh	3
-Chesham	3
-Chertsey	3
-Charlottesville va	3
-Bonn	3
-Bewdley	3
-Besancon	3
-Barnard Castle	3
-Bannockburn	3
-Bampton	3
-Ballymena	3
-Bagdad	3
-Augsburg	3
-Ashford	3
-Zutphen	2
-Y Bont-faen	2
+Dresden Me	3
+Dresden	3
+Dover	3
+Dorset	3
+Dillingen	3
+Daventry	3
+Crieff	3
+Cricklade	3
+Colchester	3
+Coburg	3
+Clonmel	3
+Cheshire Ct	3
+Chelmsford	3
+Castlebar	3
+Cashel	3
+Carron	3
+Carmarthen	3
+Bury St Edmunds	3
+Burlington Vt	3
+Bridgnorth	3
+Bologna	3
+Bawtry	3
+Bastia	3
+Baltonsborough	3
+Athlone	3
+Alexandria Va	3
+Aldershot	3
+Yverdon-les-Bains	2
 Worms	2
-Wokingham	2
-Wilkes-Barre Pa	2
-Wargrave	2
-Vevey	2
-Tübingen	2
-Tornay	2
-Thirsk	2
+Winterthur	2
+Wigan	2
+Whitehaven	2
+Wexford	2
+Watford	2
+Verona	2
+Västerås	2
+Upton NY	2
+Trowbridge	2
+Trevoux	2
+Tewkesbury	2
 Tavistock	2
-Szczecin	2
-Strahane	2
-Stowmarket	2
-Stonor	2
+Taunton	2
+Sulechow	2
 Stokesley	2
-St John New Brunswick	2
-St austell	2
-Sligo	2
-Siena	2
-Shiffnal	2
-Settle	2
-Selkirk	2
-Schwerin	2
+Stockport	2
+St Pierre	2
+St Peter Port	2
+St germans	2
+St croix	2
+South shields	2
+Sienna	2
+Shepherdstown WV	2
+Sedbergh	2
+Scarborough	2
 Saxmundham	2
-Sandhurst	2
-Saffron walden	2
-Rodborough	2
-Ramsey	2
+Sandwich	2
+Salisbury NC	2
+Saint-Malo	2
+Romsey	2
+Rochdale	2
+Prague	2
+Potsdam	2
+Plymouth Ma	2
 Pisa	2
-Petersfield	2
+Perugia	2
+Pensacola Fl	2
 Penryn	2
-Pattingham	2
-Paramaribo	2
+Peebles	2
+Peacham Vt	2
 Padua	2
-Ossining ny	2
-Octorara Pa	2
+Oldham	2
+Offenbach	2
+Oberwesel	2
 Oakham	2
-Nuneaton	2
-Nordhausen	2
-Newton NJ	2
-Musselburgh	2
-Minorca	2
-Milton	2
+Northallerton	2
+Norristown Pa	2
+Nice	2
+New Castle De	2
+Neustadt an der Weinstraße	2
+Neuchatel	2
+Morpeth	2
+Monmouth	2
 Milborne Port	2
-Melton mowbray	2
-Mannheim	2
+Marlborough	2
+Marburg	2
+Lucca	2
 Louisville ga	2
-Lincolnton nc	2
-Koningsberg	2
+London Ct	2
+Llanymddyfri	2
+Lisburn	2
+Lille	2
+Lansingburgh NY	2
+La Trinite	2
+La rochelle	2
+Knoxville TN	2
 Kirkcaldy	2
-Johnstown NY	2
-Inishmacadurn	2
-Ilminster	2
-Howden	2
-Houghton park	2
-Hoogly	2
-Herford	2
-Helsingor	2
-Harlow	2
-Harborough	2
-Hall england	2
-Great Yarnmouth	2
-Great marlow	2
-Görliz	2
-Gera	2
+Kinlocheil	2
+Killingworth Ct	2
+Kendal	2
+Inis Córthaidh	2
+Holt	2
+High wycombe	2
+Hexham	2
+Hereford	2
+Henley-on-Thames	2
+Havanna	2
+Gdansk	2
+Gaznah	2
 Gateside	2
-Faringdon	2
+Fredicksburg Va	2
+Flushing	2
+Fleet	2
 Europe	2
-Essex	2
-Enniskillen	2
-Eastbourne	2
-Duns	2
-Dunkalk	2
-Dieppe	2
-Dewsbury	2
-Deal	2
-Darmstadt	2
-Dampierre-sur-Boutonne	2
-Dalry	2
-Colombo	2
-Chepstow	2
-Celle	2
-Cashel	2
-Carron	2
-Calne	2
-Burnley	2
-Brunswick Ma	2
-Brigg	2
-Bridgeport Ct	2
-Braunschweig	2
-Bodedern	2
-Besançon	2
-Bedale	2
-Basingstoke	2
-Bala	2
-Alfreton	2
+Dunkeld	2
+Dessau	2
+Deptford	2
+Denbigh	2
+Crewkerne	2
+Charlottesville va	2
+Chambersburg Pa	2
+Castries	2
+Carlisle	2
+Cape Town	2
+Calais	2
+Buckden	2
+Brookville Pa	2
+Bridgewater Ma	2
+Brentford	2
+Boston england	2
+Bombay	2
+Beauvais	2
+Barby	2
+Bampton	2
+Bagdad	2
+Aylesbury	2
+Appelby-in-Westmorland	2
+Ambleside	2
+Alston	2
 Aix-en-Provence	2
-Adpar	2
-Zweibrücken	1
+Abingdon	2
+Zutphen	1
 Zittau	1
-Zeiz-Bahren	1
-Yr Wyddgrug	1
 Youghal	1
-Yarm	1
+Y Bont-faen	1
+Workington	1
 Witney	1
-Wirzburg	1
-Winterslow	1
+Wiscasset me	1
+Winton	1
+Windsor Ct	1
 Wigton	1
 Wiesenthal	1
+Whitchurch	1
+Whitburn	1
 Westport Ct	1
+West Springfield Ma	1
+Wells	1
+Wellingborough	1
+Warwick	1
 Warsaw	1
+Warren	1
 Warminster Pa	1
-Wantage	1
-Waltham saint lawrence	1
+Wargrave	1
+Wakefield	1
+Vevey	1
 Versailles	1
+Vergennes vt	1
 Verdun	1
-Vatican	1
 Valencia	1
+Uniontown pa	1
 Ulm	1
-Torino	1
+Truru	1
+Trenton	1
+Trefriw	1
+Totnes	1
+Toronto	1
 Tivoli	1
+Tiverton	1
 Thurles	1
 Thetford	1
 Thame	1
+Tetbury	1
+Tamworth	1
+Szczecin	1
+Sydney	1
 Swaffham	1
-Sulechow	1
-Stow	1
+Sunbury pa	1
+Sudbury	1
+Stroud	1
+Strood	1
+Stourbridge	1
 Stoke-on-Trent	1
-St Mary's Md	1
-St germans	1
-St croix	1
-Slough	1
-Simsbury Ct	1
-Sienna	1
+Sterling	1
+Stabroek	1
+St neots	1
+St austell	1
+Spalding	1
+Siena	1
 Siegen	1
 Shippensburg pa	1
+Shepton Mallet	1
 Shelburne nova scotia	1
-Sheerness	1
 Sharon Ct	1
 Seville	1
-Sedbergh	1
+Selby	1
 Scipio NY	1
-Schleswig	1
+Schwerin	1
 Savanna-la-Mar Jamaica	1
 Sanquhar	1
-Sandwich	1
+Sandhurst	1
 Salisbury Ma	1
 Salem NC	1
-Salamanca	1
 Saint-Marie	1
+Saffron walden	1
 Saarbrucken	1
-Rugeley	1
 Rugby	1
 Royston	1
-Rousham	1
+Rotherham	1
 Rostock	1
 Roscrea	1
 Ronneburg	1
 Romford	1
+Rodborough	1
+Rochester	1
 Ringwood	1
-Rhaglan	1
-Rennes	1
+Retford	1
+Reigate	1
 Redruth	1
-Poulton-le-Fylde	1
-Potsdam	1
-Porto	1
-Pompton Plains NJ	1
+Ramsgate	1
+Ramsey	1
+Raleigh nc	1
+Poole	1
 Pittsfield ma	1
-Petworth	1
-Perugia	1
-Pensacola Fl	1
+Petersfield	1
+Peterhead	1
+Penrith	1
 Pembroke Ma	1
+Pembroke	1
 Peine	1
-Peebles	1
+Pattingham	1
 Pathhead	1
-Parr-Town	1
 Paris KY	1
-Palermo	1
+Paramaribo	1
+Paisley	1
+Padova	1
 Ottawa	1
+Ossining ny	1
 Osnabrück	1
-Orlingbury	1
+Ormskirk	1
 Ongar	1
-Omagh	1
-Oldham	1
-Offenbach	1
-Oberwesel	1
-Nurnberg	1
-Norton fitzwarren	1
-Northwich	1
 North Yarmouth Me	1
-Norrköping	1
+Norfolk	1
+Nordhausen	1
 Nimes	1
 Nijmegen	1
 Newtown Pa	1
 Newton stewart	1
+Newton abbot	1
+Newry	1
+Newmarket	1
+Newbury	1
 New Milford Ct	1
-New Britain Pa	1
-Neustadt an der Weinstraße	1
+Nantes	1
+Nancy	1
 Naas	1
-Mulberry Hill Va	1
+Musselburgh	1
+Mumbai	1
+Mullingar	1
+Mount holly nj	1
 Moscow	1
 Monmouth nj	1
+Monaghan	1
 Mole-Saint-Nicolas	1
+Minorca	1
 Milton Ernest	1
+Mifflintown pa	1
+Middlewich	1
 Middleburg netherlands	1
-Mexico city	1
-Martinsburg va	1
-Marseilles	1
-Marseille	1
+Melton mowbray	1
 Market rasen	1
-Marburg	1
+Market harborough	1
+Margate	1
+Malton	1
 Malda	1
-Maastricht	1
+Madeley	1
 Lynchburg va	1
+Ludlow	1
+Louth	1
 Long Buckby	1
-Lisburn	1
+London north	1
+Llwydlo	1
+Lincolnton nc	1
 Libanon pa	1
+Lewistown pa	1
+Leominster	1
 Lemgo	1
-Leeuwarden	1
+Leicester	1
 Lebanon pa	1
-Langport	1
+Launceston	1
 Lancester pa	1
-Lanark	1
-La Trinite	1
-Krakow	1
 Knutsford	1
 Knoxville Oh	1
-Kirkham	1
+Kirkcudbright	1
+Kirkbride	1
 Kinsale	1
 Kinross	1
 Kinnaird	1
-Kinlocheil	1
-Killingworth Ct	1
-Kildare	1
+Kingston upon Thames	1
+Kettering	1
 Keswick	1
-Kent	1
-Kenilworth	1
-Kehl	1
 Keene	1
-Kassel	1
 Karlskrona	1
-Jerusalem	1
+Johnstown NY	1
 Jedburgh	1
 Istanbul	1
 Irvine	1
-Inverlochie	1
-Inverary	1
-Inis Córthaidh	1
-Holt	1
+Ilminster	1
+Houghton park	1
+Horsham	1
+Horncastle	1
+Hoogly	1
+Honiton	1
+Hitchin	1
 Hindolverston	1
 Hildburghausen	1
 Henfield	1
-Helmstedt	1
-Helmstadt	1
-Heilbronn	1
-Hatfield	1
-Hastings	1
+Helston	1
+Harlow	1
 Harford Md	1
+Harborough	1
+Hanover Pa	1
+Hall england	1
 Halesworth	1
 Hagley	1
+Haddington	1
+Guernesey	1
 Grenada	1
 Greensburg Pa	1
+Greenock	1
 Greenlaw	1
+Great Yarnmouth	1
+Great marlow	1
+Gravesend	1
+Grantham	1
 Gotha	1
+Goshen ny	1
 Goa	1
 Gloucester Ma	1
-Glastonbury	1
-Gettysburg pa	1
-Genoa	1
+Glaucester	1
+Germantown philadelphia	1
+Georgetown Va	1
 Geneve	1
-Gaznah	1
-Gaunt	1
-Freetown	1
+Galway	1
+Fredericton	1
+Fort royal	1
 Fort McHenry Ms	1
-Folkestone	1
 Flensburg	1
-Fleet	1
 Finningham	1
 FincastleVA	1
 Fermoy	1
@@ -912,99 +873,109 @@ Featherstone	1
 Fawsley	1
 Farnham	1
 Farmington Ct	1
+Fairhaven vt	1
+Evesham	1
 Eshott	1
-Ellesmere	1
+Epsom	1
+Enniskillen	1
 Elie	1
-Elgin	1
 Elbingen	1
 Edenhall	1
-East grinstead	1
+Eastbourne	1
 Eartham	1
 Düsseldorf	1
-Dunstable	1
-Dunkeld	1
+Dunkirk	1
+Dunkalk	1
+Dungannon	1
 Duncannon	1
-Dresden Me	1
-Downham	1
-Dillingen	1
+Dunbar	1
+Dudley	1
+Dort	1
+Dorking	1
 Dijon	1
+Dieppe	1
 Devon	1
+Devizes	1
 Deventer	1
-Detroit Mi	1
-Denbigh	1
+Deal	1
+Dartmouth	1
 Dartford	1
+Darmstadt	1
+Dampierre-sur-Boutonne	1
 Cupar	1
-Crieff	1
-Cricklade	1
-Coxheath	1
 Constance	1
 Coleraine	1
 Coimbra	1
-Coburg	1
 Clones	1
 Clifton	1
-Ciutadella	1
 Christiansted VI	1
+Chippenham	1
+Chillicothe Oh	1
+Chichester	1
 Chestertown md	1
+Chesham	1
+Cheltenham	1
+Chelsea	1
+Chatham nj	1
 Cavan	1
-Castries	1
-Castleford	1
-Castlebar	1
 Cassel	1
 Carrickfergus	1
-Carrick-on-Suir	1
 Canterbury NH	1
 Canandaigua ny	1
+Canaan NY	1
 Campbeltown	1
-Calicut	1
-Calais	1
 Caergybi	1
-Bunny	1
-Budapest	1
-Buckden	1
+Burton	1
+Burslem	1
+Burnley	1
+Bungay	1
+Brunswick Ma	1
 Bristol NY	1
-Bridgeton nj	1
-Brackley	1
+Brigg	1
+Bridport	1
+Bridlington	1
+Brattleborough vt	1
 Boulogne	1
+Bouillon	1
 Bottisham	1
 Bosworth	1
-Boden	1
-Blandford va	1
+Bontfaen	1
+Bolton	1
+Bocking	1
 Blandford forum	1
+Blandford	1
 Blackwell	1
+Blackburn	1
 Birstall	1
-Birr	1
-Bideford	1
-Bethlehem Pa	1
-Bethania nc	1
+Bewdley	1
+Besançon	1
+Besancon	1
 Beloeil	1
-Beauvais	1
-Beaminster	1
+Bedford	1
+Bedale	1
 Bayreuth	1
-Bawtry	1
 Bath NY	1
-Bastia	1
+Basingstoke	1
 Barton-upon-Humber	1
 Barnstaple	1
 Barnsley	1
-Barkhamsted Ct	1
-Barby	1
-Baltonsborough	1
+Bannockburn	1
+Banff	1
+Banbury	1
+Ballymena	1
 Balfron	1
+Bala	1
 Bakewell	1
 Axminster	1
 Avranches	1
-Ashby-de-la-Zouch	1
-Ashby	1
+Atherstone	1
 Ashburton	1
 Arnhem	1
+Armagh	1
 Arezzo	1
-Appelby-in-Westmorland	1
-Ampthill	1
-Ambleside	1
-Altmore	1
+Alnwick	1
+Alfreton	1
 Aldermanbury	1
 Aberystwyth	1
-Abermaw	1
 Aberdaugleddau	1
-Aachen	1
+Abbeville	1
