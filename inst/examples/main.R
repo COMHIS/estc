@@ -21,7 +21,7 @@ ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
 
 # ----------------------------------------------------
 
-reload.data <- TRUE
+reload.data <- FALSE
 source(system.file("extdata/init.R", package = "bibliographica"))
 
 # ----------------------------------------------------
