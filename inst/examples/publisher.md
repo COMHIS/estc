@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-23"
+date: "2016-05-24"
 output: markdown_document
 ---
 
@@ -33,8 +33,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher                                                      | titles|     paper|
 |:--------------------------------------------------------------|------:|---------:|
-|cadell strand                                                  |   4640|  5.833148|
+|cadell strand                                                  |   4640|  5.778421|
 |charles stalker no stationer's court ludgate street            |   1578|  6.845424|
-|david paterson him his printing-office lawn-market booksellers |  51925| 33.158877|
+|david paterson him his printing-office lawn-market booksellers |  51925| 33.139314|
 |sowle raylton luke hinde                                       |   1067|  2.990521|
 |warner black-boy pater-noster-row                              |   1626|  3.792635|
