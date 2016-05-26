@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-05-24"
+date: "2016-05-26"
 output: markdown_document
 ---
 
@@ -36,3 +36,27 @@ Publication interval is available for 3528 documents (1%).
 [Publication interval conversions](output.tables/publication_interval_conversion.csv)
 
 [Publication interval discarded](output.tables/publication_interval_discarded.csv)
+
+
+### Editions
+
+Automated detection of potential first editions (first_edition field)
+identifies unique author-title pairs, and proposes the first
+occcurrence (earliest publication_year) as the first edition. If there
+are multiple instances from the same earliest year, they are all
+marked as potential first editions. Later need to check if this
+information is readily available in MARC.
+
+In this data we have 2
+unique documents with an identical title and author. Out of these,
+42168
+have multiple occurrences, sometimes with different publication years.
+Where multiple publication years are seen, the earliest occurrence is
+suggested as the first edition.
+
+
+
+
+
+
+

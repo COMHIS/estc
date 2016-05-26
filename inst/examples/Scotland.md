@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-05-24"
+date: "2016-05-26"
 output: markdown_document
 ---
 
@@ -204,13 +204,13 @@ We have 1998 documents from Scotland and 11707 documents from London during 1700
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 207 rows containing missing values (geom_point).
+## Warning: Removed 208 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 18416 rows containing missing values (geom_point).
+## Warning: Removed 19108 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
