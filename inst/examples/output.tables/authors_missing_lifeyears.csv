@@ -1,5 +1,11 @@
 author_name	author_birth	author_death	Count
+J	NA	NA	903
+T	NA	NA	527
+R	NA	NA	423
+W	NA	NA	417
 Cicero, Marcus Tullius	NA	NA	393
+A	NA	NA	358
+M	NA	NA	347
 Priestley, Joseph	NA	1826	316
 Horace	NA	NA	307
 Johnson, Samuel	NA	NA	283
@@ -8,24 +14,33 @@ Virgil	NA	NA	266
 Aesop	NA	NA	260
 Lady	NA	NA	242
 Taylor, John	NA	1767	230
+S	NA	NA	219
 Erskine, Ralph	1720	NA	218
+G	NA	NA	213
 Homer	NA	NA	207
 Locke, John	NA	1788	198
+H	NA	NA	189
+E	NA	NA	175
 Dilworth, Thomas	NA	1780	169
 Terence	NA	NA	164
+P	NA	NA	164
 Rider, Cardanus	NA	NA	159
+N	NA	NA	158
 Stillingfleet, Edward	NA	NA	155
 Cordier, Mathurin	1712	NA	155
 Fenning, Daniel	NA	NA	155
 Gordon, Thomas	NA	1750	150
 Person Of Quality	NA	NA	146
+C	NA	NA	134
 Xenophon	NA	NA	128
 Breton, Nicholas	NA	1658	127
 Lorrain, P	1688	NA	127
 Pitcairn, Archibald	NA	1787	126
+D	NA	NA	123
 Plutarch	NA	NA	123
 Younge, Richard	NA	NA	122
 Martin, Benjamin	NA	1625	122
+I	NA	NA	115
 Fisher, George	NA	NA	115
 Euclid	NA	NA	114
 Brooks, Thomas	NA	1681	114
@@ -43,6 +58,7 @@ Luther, Martin	1684	NA	100
 Howell, James	NA	1587	 98
 Pond, Edward	NA	1672	 97
 Penington, Isaac	NA	1758	 96
+B	NA	NA	 93
 Swallow, John	NA	NA	 92
 Layman	NA	NA	 92
 Nepos, Cornelius	NA	NA	 91
@@ -55,6 +71,7 @@ Dove, Jonathan	NA	NA	 87
 Fly	NA	NA	 87
 Juvenal	NA	NA	 87
 Burroughs, Jeremiah	NA	NA	 86
+L	NA	NA	 86
 Andrewes, Lancelot	1795	NA	 84
 Country Gentleman	NA	NA	 84
 Justinus, Marcus Junianus	NA	NA	 84
@@ -62,6 +79,7 @@ King, Thomas	NA	NA	 83
 Citizen	NA	NA	 81
 Swedenborg, Emanuel	1748	NA	 80
 Langhorne, John	1788	NA	 80
+F	NA	NA	 78
 Shebbeare, John	NA	1816	 78
 Brathwait, Richard	1727	NA	 77
 Southerne, Thomas	NA	1732	 76
@@ -176,6 +194,7 @@ Hamilton, Newburgh	NA	1828	 42
 Abercrombie, John	NA	1732	 42
 Turford, Hugh	NA	NA	 42
 Aristotle	NA	NA	 42
+J	1796	NA	 42
 Livy	NA	NA	 42
 Lucretius Carus, Titus	NA	NA	 42
 Gentleman Of Oxford	NA	NA	 42
@@ -253,18 +272,18 @@ Lover Of Truth	NA	NA	 34
 Greenwood, James	NA	1782	 34
 Hall-stevenson, John	NA	1834	 34
 Pulle, John	NA	NA	 33
+Charles	NA	NA	 33
 May, Thomas	NA	1643	 33
 Mayo, Richard	NA	1751	 33
 Citizen Of London	NA	NA	 33
 Hill, Rowland	1350	NA	 33
 Philanthropos	NA	NA	 33
-Charles I	NA	NA	 32
 Church Of England	NA	NA	 32
 Birchley, William	NA	NA	 32
 Case, Thomas	NA	1700	 32
 Price, John	NA	NA	 32
 Dibdin, Thomas	NA	1730	 32
-Merry Andrew	NA	NA	 32
+Andrew, Merry	NA	NA	 32
 Belsham, William	NA	NA	 32
 Claude, Jean	NA	NA	 32
 Adams, John	1679	NA	 32
@@ -378,7 +397,7 @@ Worrall, John	NA	1771	 25
 Gordon, Patrick	1749	NA	 25
 Berault, Peter	NA	NA	 25
 Gentleman In Town	NA	NA	 25
-Charles Ii	NA	NA	 24
+Ii, Charles	NA	NA	 24
 Browne, John	NA	NA	 24
 Cruden, Alexander	NA	1799	 24
 Taylor, William	NA	NA	 24
@@ -414,7 +433,7 @@ Clark, Hugh	NA	1780	 23
 De Britaine, William	NA	NA	 23
 Rumford, Benjamin	NA	1792	 23
 Snell, Charles	1723	NA	 23
-Petronius Arbiter	NA	NA	 23
+Arbiter, Petronius	NA	NA	 23
 Elector	NA	NA	 23
 Desaguliers, J T	NA	1824	 23
 Elphinston, James	NA	1839	 22
@@ -430,7 +449,7 @@ Brown, Robert	NA	NA	 22
 Muggleton, Lodowick	1664	NA	 22
 Vallance, James	NA	NA	 22
 Jortin, John	NA	1764	 22
-Country Clergyman	1645	NA	 22
+Clergyman, Country	1645	NA	 22
 Scott, Sarah	NA	1776	 22
 Cato	NA	NA	 22
 Lowth, William	1658	NA	 22
@@ -440,6 +459,7 @@ Auborn, A D'	NA	NA	 22
 Metonicus	NA	NA	 21
 Withals, John	NA	NA	 21
 Hemmingsen, Niels	NA	1651	 21
+J	NA	1643	 21
 Mayne, Jasper	NA	1566	 21
 Phayer, Thomas	NA	1703	 21
 Walker, Obadiah	NA	1704	 21
@@ -473,7 +493,7 @@ Sheppard, S	NA	NA	 20
 Rule, Gilbert	1636	NA	 20
 Herle, Charles	NA	1600	 20
 Bürger, Gottfried August	1747	NA	 20
-Poor Adam	NA	1777	 20
+Adam, Poor	NA	1777	 20
 Hayward, John	NA	NA	 20
 Arnold, Theodor	1751	NA	 20
 Plain Man	NA	NA	 20
@@ -631,6 +651,7 @@ Broughton, Richard	NA	NA	 16
 Ives, Jeremiah	NA	1708	 16
 Ollyffe, John	NA	1819	 16
 Thorndike, Herbert	NA	1719	 16
+H	NA	1714	 16
 Minucius Felix, Marcus	NA	NA	 16
 Préchac, Jean De	NA	NA	 16
 Grove, Robert	1616	NA	 16
@@ -702,7 +723,9 @@ Gilden, G	NA	1768	 15
 Nabbes, Thomas	NA	1651	 15
 Stevens, J	NA	NA	 15
 Robertson, John	NA	NA	 15
+O	NA	NA	 15
 Bolton, Samuel	1672	NA	 15
+J	NA	1684	 15
 Tomkis, Thomas	NA	1663	 15
 Kitchin, John	NA	NA	 15
 Whitaker, Edward	NA	NA	 15
@@ -817,7 +840,7 @@ Deans, Archibald	NA	NA	 14
 Atholl, James Murray	NA	1845	 14
 Sprint, John	NA	NA	 14
 Ruffhead, Owen	NA	1722	 14
-Lady Wallace	NA	1800	 14
+Wallace, Lady	NA	1800	 14
 Everard, Thomas	NA	1643	 14
 Cowley, J	NA	NA	 14
 Lindsay, John	NA	1783	 14
@@ -858,6 +881,7 @@ Adamson, Patrick	NA	NA	 13
 Hobson, Paul	NA	NA	 13
 Murray, Robert	NA	1659	 13
 Benlowes, Edward	NA	1677	 13
+G	1638	NA	 13
 Edwards, Thomas	NA	1709	 13
 Altham, Michael	NA	1683	 13
 Mason, Martin	NA	1669	 13
@@ -920,7 +944,7 @@ Bristow, Peter	NA	1793	 13
 One Of The People	NA	NA	 13
 Hayley, Thomas	NA	1792	 13
 Ward, Henry	NA	NA	 13
-Minister Of The Church Of Scotland	NA	NA	 13
+Scotland, Minister	NA	NA	 13
 Herodotus	NA	NA	 13
 Jones, Robert	NA	NA	 13
 Watkinson, Edward	NA	NA	 13
@@ -952,6 +976,7 @@ Ovidius Naso, Publius	NA	NA	 12
 Bretnor, Thomas	NA	1760	 12
 Hawes, Stephen	NA	1471	 12
 L'espine, Jean De	NA	1315	 12
+S	NA	1682	 12
 Gardiner, Stephen	1588	NA	 12
 Twyne, Thomas	1577	NA	 12
 Attersoll, William	1623	NA	 12
@@ -970,6 +995,7 @@ Cotgrave, Randle	NA	1673	 12
 Symonds, Joseph	NA	NA	 12
 Festeau, Paul	NA	NA	 12
 Marlow, Isaac	NA	NA	 12
+D	NA	1670	 12
 Hussey, Joseph	NA	1726	 12
 Ryves, Bruno	NA	1691	 12
 Gibson, William	1590	NA	 12
@@ -1025,7 +1051,7 @@ Knight, Titus	NA	NA	 12
 Walker, John	NA	1709	 12
 Member	NA	NA	 12
 Todd, John	NA	1811	 12
-Merry Andrew At Tam-tallan	NA	NA	 12
+Tam-tallan, Merry	NA	NA	 12
 Wood, Isaac	NA	NA	 12
 Home, George	NA	1800	 12
 Quid, Oliver	NA	NA	 12
@@ -1069,7 +1095,7 @@ Cocks, Richard	NA	1802	 12
 Rich Edward pickering	NA	NA	 12
 Moore, George	NA	NA	 12
 Lady Of Quality	NA	NA	 12
-Gentleman At London	NA	1743	 12
+London, Gentleman	NA	1743	 12
 Blane, Gilbert	1705	NA	 12
 Coade, G	NA	NA	 12
 O'brien, William	NA	1815	 12
@@ -1104,6 +1130,7 @@ Markham, Robert	NA	NA	 11
 Bullein, William	1603	NA	 11
 Worship, William	NA	NA	 11
 Lever, Thomas	NA	1627	 11
+D	NA	1837	 11
 Trigge, Francis	NA	1418	 11
 Rivers, Peregrine	NA	NA	 11
 Martin, Gregory	1534	NA	 11
@@ -1284,12 +1311,13 @@ Ingelo, Nathaniel	NA	1694	 10
 Harby, Thomas	NA	NA	 10
 Sclater, William	1653	NA	 10
 Whitfield, Thomas	NA	NA	 10
+J	NA	1760	 10
 Davies, John	NA	1695	 10
 Colvil, Samuel	NA	NA	 10
 Reverend Divine	NA	NA	 10
 Blackwood, Christopher	NA	NA	 10
 Plattes, Gabriel	1681	NA	 10
-Basilius Valentinus	NA	NA	 10
+Valentinus, Basilius	NA	NA	 10
 Peter, John	NA	NA	 10
 Littleton, Edward	NA	NA	 10
 Prance, Miles	NA	1666	 10
@@ -1343,6 +1371,7 @@ Butler	NA	NA	 10
 Rack, Edmund	NA	1710	 10
 Tyron, Richard	NA	NA	 10
 Tom	NA	NA	 10
+Burgess	NA	NA	 10
 Howard, W	NA	NA	 10
 Trowell, Samuel	NA	NA	 10
 Villars	NA	1765	 10
@@ -1399,11 +1428,12 @@ Nourse, Peter	1731	NA	 10
 Barrister At Law	NA	NA	 10
 Woodward, G M	NA	NA	 10
 Coltart, John	NA	NA	 10
+C	NA	1763	 10
 Countryman	NA	NA	 10
 Brecknock, Timothy	NA	1786	 10
 Wylie, Robert	NA	NA	 10
 Friend In The Country	NA	NA	 10
-Du Boccage	NA	1690	 10
+Boccage, Du	NA	1690	 10
 Giffard, Henry	NA	1724	 10
 Grove, Joseph	NA	1770	 10
 Campbell, Robert	NA	NA	 10
@@ -1463,7 +1493,7 @@ Fennor, William	NA	NA	  9
 Longland, John	NA	1188	  9
 Linaker, Robert	1625	NA	  9
 Murray, Robert	NA	NA	  9
-William Iii	NA	NA	  9
+Iii, William	NA	NA	  9
 Lynde, Humphrey	NA	NA	  9
 Parker, Thomas	NA	NA	  9
 Canisius, Petrus	NA	1707	  9
@@ -1487,11 +1517,12 @@ Cawdrey, Zachary	NA	1680	  9
 Dary, Michael	NA	NA	  9
 Everett, George	NA	NA	  9
 Norwood, Robert	NA	NA	  9
+F	NA	1718	  9
 Denniston, Walter	NA	NA	  9
 Dellon, Gabriel	NA	NA	  9
 Pasquil	NA	NA	  9
 Robinson, William	NA	NA	  9
-Manasseh Ben Israel	NA	1711	  9
+Israel, Manasseh	NA	1711	  9
 Kuhlmann, Quirin	1606	NA	  9
 Fernández, Jerónimo	NA	NA	  9
 Chamberlayne, Thomas	NA	NA	  9
@@ -1567,7 +1598,6 @@ Shipton, Mother	NA	NA	  9
 Wright	NA	NA	  9
 Watson, John	NA	NA	  9
 Turner, George	NA	NA	  9
-Burgess	NA	NA	  9
 Fernández, Jerónimo	NA	NA	  9
 Desboulmiers, Jean-augustin-julien	NA	1724	  9
 Bentley, William	NA	NA	  9
@@ -1583,7 +1613,7 @@ Hallifax, Charles	NA	NA	  9
 Author Of The Pastoral Letter	NA	NA	  9
 Tagg, Tommy	NA	NA	  9
 Wood, James	NA	1827	  9
-English Hand	NA	NA	  9
+Hand, English	NA	NA	  9
 Calcott, Wellins	NA	NA	  9
 Stewart, Charles Edward	NA	1842	  9
 Bussy, Roger De Rabutin	1743	NA	  9
@@ -1605,7 +1635,7 @@ Giles, W	NA	NA	  9
 Stevenson, Henry	NA	NA	  9
 Playstowe, Philip	NA	NA	  9
 Psalmanazar, George	NA	1818	  9
-Joly De Saint-vallier	NA	NA	  9
+Saint-vallier, Joly	NA	NA	  9
 Tomlinson, Kellom	NA	NA	  9
 Campbell, Alexander	NA	NA	  9
 Arnoux, Claude	NA	NA	  9
@@ -1663,7 +1693,7 @@ Meeke, Mary	NA	1763	  8
 Murray, James	NA	NA	  8
 Staunton, William	NA	NA	  8
 Hill, P	NA	NA	  8
-Le Turc	NA	NA	  8
+Turc, Le	NA	NA	  8
 Black, John	NA	NA	  8
 Richards, George	NA	1781	  8
 Thorold, John	NA	1762	  8
@@ -1754,6 +1784,7 @@ Barbour, John	NA	1683	  8
 Radcliffe, Alexander	NA	1668	  8
 Refuge	NA	1682	  8
 Stoddon, Samuel	NA	NA	  8
+G	NA	1696	  8
 Trinder, William Martin	NA	NA	  8
 Sandilands, Robert	NA	NA	  8
 Henley, Samuel	NA	1611	  8
@@ -1939,7 +1970,7 @@ Gentleman On His Travels	NA	NA	  7
 Gentleman In South brittain	NA	NA	  7
 Praval, Charles	NA	NA	  7
 Walsh, John	NA	NA	  7
-Duhamel Du Monceau	NA	1751	  7
+Monceau, Duhamel	NA	1751	  7
 Massey, Isaac	NA	NA	  7
 Armstrong, William	NA	NA	  7
 Scurlock, David	NA	NA	  7
@@ -2116,7 +2147,7 @@ Sidmouth, Henry Addington	1701	NA	  7
 Cook, John	NA	NA	  7
 Dobel, Daniel	NA	1751	  7
 Baker, J	NA	NA	  7
-Parson Of Llangtyddre	NA	NA	  7
+Llangtyddre, Parson	NA	NA	  7
 Hunter, Robert	NA	NA	  7
 Sael, George	NA	NA	  7
 Chastellux, François Jean	NA	NA	  7
@@ -2154,7 +2185,7 @@ Berry, Edward	NA	1658	  7
 Osmer, William	NA	NA	  7
 Spinke, John	NA	NA	  7
 Philologos	NA	NA	  7
-Common Sense	NA	NA	  7
+Sense, Common	NA	NA	  7
 Parker, Charles	NA	NA	  7
 Spencer, John	NA	NA	  7
 How, James	NA	NA	  7
@@ -2210,7 +2241,7 @@ Grosett, James	NA	NA	  7
 Terry, Garnet	NA	NA	  7
 Carter, Susannah	NA	NA	  7
 Logan, James	1569	NA	  7
-La Motte	1751	NA	  7
+Motte, La	1751	NA	  7
 Moore, Francis	NA	NA	  7
 Trapwit, Tommy	NA	NA	  7
 Howell, William	1656	NA	  7
@@ -2307,7 +2338,7 @@ Chaudron, Jean Simon	NA	1766	  6
 Wheaton, Hannah	NA	NA	  6
 Swan, James	NA	1824	  6
 Whitney, Josiah	1676	NA	  6
-Daneau De Laroque	NA	NA	  6
+Laroque, Daneau	NA	NA	  6
 Fanch, James	NA	NA	  6
 Observateur Impartial	NA	NA	  6
 Patono, Benedetto	NA	NA	  6
@@ -2418,6 +2449,7 @@ Ray, Thomas	NA	NA	  6
 Middleton, Patrick	1669	NA	  6
 Greatheed, Bertie	NA	NA	  6
 Craik, Jean	NA	NA	  6
+Thomas	NA	NA	  6
 Mayo, John	NA	NA	  6
 Winter, Frig	NA	NA	  6
 Boazio, Baptista	NA	NA	  6
@@ -2445,6 +2477,7 @@ Traske, John	1598	NA	  6
 Ward, William	NA	1694	  6
 Field, Richard	1585	NA	  6
 Manuzio, Aldo	1618	NA	  6
+R	NA	1538	  6
 Farley, Robert	NA	NA	  6
 Bastard, Thomas	1567	NA	  6
 Marlorat, Augustin	1589	NA	  6
@@ -2691,6 +2724,7 @@ Gulliver	NA	NA	  6
 Scott, Thomas	NA	NA	  6
 Litle, Joseph	NA	NA	  6
 Holloway, Robert	NA	NA	  6
+Y	NA	NA	  6
 Lysias	NA	NA	  6
 Giles, John	NA	NA	  6
 Fernández De Avellaneda, Alonso	NA	NA	  6
@@ -2702,7 +2736,6 @@ Orr, William	NA	1792	  6
 Bion	NA	NA	  6
 Thumb Thomas	NA	NA	  6
 Clarke, John	NA	NA	  6
-His Lordship's Chaplain	NA	NA	  6
 Wyles, Nathanael	NA	1757	  6
 Andrei, Antonio	NA	NA	  6
 Jones, Philip	1510	NA	  6
@@ -2761,7 +2794,7 @@ Bunyano, Stephano	NA	NA	  6
 Griffith, Robert	NA	1734	  6
 Jacson, Frances	NA	1756	  6
 Poulter, E	NA	NA	  6
-Linen Draper	NA	NA	  6
+Draper, Linen	NA	NA	  6
 Binning, Thomas	NA	NA	  6
 Wilson, Gabriel	NA	1750	  6
 Britannus	NA	NA	  6
@@ -2779,6 +2812,7 @@ Fisher, Daniel	1719	NA	  6
 Catesby, Mark	NA	1536	  6
 Woodfall, William	1716	NA	  6
 Campbell, Mungo	NA	1716	  6
+V	NA	NA	  6
 Stevenson, Andrew	NA	1660	  6
 Small, James	1770	NA	  6
 Sellon, Walter	NA	NA	  6
@@ -3022,7 +3056,6 @@ Elliot, William	NA	1751	  5
 Banson, William	NA	NA	  5
 Sotheran, Henry	NA	NA	  5
 Rodney, George Brydges	NA	1712	  5
-Thomas	NA	NA	  5
 Stuart, Charles	NA	NA	  5
 Scrafton, Luke	NA	1775	  5
 Johnstone, John	1628	NA	  5
@@ -3058,7 +3091,7 @@ Martin	1688	NA	  5
 Manwaring, Edward	NA	NA	  5
 Maple, William	NA	NA	  5
 Burrow, Robert	NA	1733	  5
-Israel Ben Ader	NA	NA	  5
+Ader, Israel	NA	NA	  5
 Harrington, S	NA	NA	  5
 Darres, William	NA	NA	  5
 Physician In Town	NA	NA	  5
@@ -3105,6 +3138,7 @@ Glover, George	NA	NA	  5
 Simson, William	NA	NA	  5
 Smyth, Thomas	NA	NA	  5
 Gibson, Abraham	NA	1504	  5
+J	NA	1603	  5
 Geveren, Sheltco à	NA	NA	  5
 Pocklington, John	NA	NA	  5
 Peyton, Thomas	1542	NA	  5
@@ -3254,12 +3288,13 @@ Boyce, Thomas	NA	1793	  5
 Goddard, Thomas	NA	NA	  5
 Duke, Francis	NA	NA	  5
 Giffard, John	NA	1779	  5
+R	NA	1694	  5
 Aston, Thomas	NA	NA	  5
 Lisola, François Paul	NA	1641	  5
 Bynns, Richard	NA	NA	  5
 Collins, Thomas	NA	NA	  5
 Boteler, Nathaniel	NA	NA	  5
-Vitruvius Pollio	NA	NA	  5
+Pollio, Vitruvius	NA	NA	  5
 Raworth, Francis	NA	1684	  5
 Coxe, Thomas	NA	1691	  5
 Friend, John	NA	1696	  5
@@ -3464,6 +3499,7 @@ Laporte, Joseph De	1770	NA	  5
 Cooke, William	NA	1688	  5
 Singleton, Luke	NA	NA	  5
 Carlile, James	NA	1723	  5
+His Lordship's Chaplain	NA	NA	  5
 Fitzgerald	NA	NA	  5
 O'gallagher, Felix	NA	NA	  5
 Tighe, Edward	1760	NA	  5
@@ -3494,7 +3530,7 @@ Wood, Thomas	NA	1671	  5
 Wallis, N	NA	NA	  5
 Samson, W	NA	NA	  5
 Forester, Brooke	NA	NA	  5
-Le Maire	NA	NA	  5
+Maire, Le	NA	NA	  5
 Miller, J	NA	NA	  5
 Mason, William	NA	NA	  5
 Wight, Alexander	NA	1793	  5
@@ -3543,7 +3579,7 @@ Glass house Clerk	NA	NA	  5
 Johnston, Robert	NA	NA	  5
 Johnston, Bryce	1766	NA	  5
 Posthumus	NA	NA	  5
-Alderman Of London	NA	NA	  5
+London, Alderman	NA	NA	  5
 Harris, Howell	1782	NA	  5
 Freeman, A	NA	NA	  5
 Member Of The Honourable Society Of Lincoln's Inn	NA	NA	  5
@@ -3554,7 +3590,7 @@ Bagshaw, William	NA	NA	  5
 Penrice, Gerard	NA	NA	  5
 Huntley, Thomas	NA	NA	  5
 Ballard, John	NA	NA	  5
-Brossais Du Perray	NA	NA	  5
+Perray, Brossais	NA	NA	  5
 Wynne, Ellis	NA	1726	  5
 Wrighte, William	NA	NA	  5
 Schwan, Christian Friedrich	NA	NA	  5
@@ -3697,7 +3733,7 @@ Piron, Alexis	NA	1723	  4
 Baker, David Erskine	NA	1723	  4
 Jebb, S	NA	1813	  4
 Hooper, William	1719	NA	  4
-Great Britain	NA	NA	  4
+Britain, Great	NA	NA	  4
 Brooke, Edward	NA	NA	  4
 Littell, John	NA	NA	  4
 Neale, Hannah	NA	NA	  4
@@ -3877,7 +3913,7 @@ Irwin, James	NA	NA	  4
 Fellow Citizen	NA	NA	  4
 Léonard, T	NA	NA	  4
 Philathes	NA	NA	  4
-Eminent Hand	NA	1791	  4
+Hand, Eminent	NA	1791	  4
 Sutton, Thomas	NA	NA	  4
 Iredell, Francis	NA	NA	  4
 Temple, William	NA	NA	  4
@@ -4101,6 +4137,7 @@ Hubbock, William	NA	1630	  4
 Leaver, Thomas	NA	1627	  4
 Gratarolo, Guglielmo	NA	1627	  4
 Murray, David	1568	NA	  4
+R	NA	1277	  4
 Boemus, Johannes	NA	NA	  4
 Fulbeck, William	1473	NA	  4
 Freeman, John	NA	1423	  4
@@ -4135,7 +4172,7 @@ Freake, William	NA	NA	  4
 Guthrie, William	NA	NA	  4
 Philanthropus	NA	NA	  4
 Heriot, Alexander	NA	NA	  4
-Corporation Of London England	NA	NA	  4
+England, Corporation	NA	NA	  4
 Marshall, John	NA	NA	  4
 Massachusetts Bay Colony	NA	NA	  4
 Norris, John	NA	NA	  4
@@ -4144,7 +4181,7 @@ Seymour, Thomas	NA	NA	  4
 Teramano, Pietro	NA	NA	  4
 Warner, Daniel	1598	NA	  4
 Willis, John	NA	NA	  4
-William And Mary	NA	NA	  4
+Mary, William	NA	NA	  4
 Wood, Caesar	NA	NA	  4
 Reeve, Tho	1665	NA	  4
 Fountaine, Andrew	NA	1684	  4
@@ -4166,6 +4203,7 @@ Pulleyn, John	NA	NA	  4
 Ives, John	1771	NA	  4
 Crompe, John	NA	NA	  4
 Graile, Edmond	1660	NA	  4
+K	NA	NA	  4
 Rider	NA	NA	  4
 Keble, Samuel	NA	NA	  4
 Seppens, Robert	NA	NA	  4
@@ -4201,7 +4239,7 @@ Knight, William	NA	NA	  4
 Church, Josiah	NA	NA	  4
 Rosse, William	NA	NA	  4
 Pope, Mary	NA	NA	  4
-Du Praissac	NA	NA	  4
+Praissac, Du	NA	NA	  4
 Poole, Elizabeth	NA	NA	  4
 Pickering, W	NA	NA	  4
 Airay, Christopher	NA	1396	  4
@@ -4237,7 +4275,7 @@ Donneau De Visé, Jean	NA	1800	  4
 Nicols, Thomas	NA	NA	  4
 Eizat, Edward	NA	NA	  4
 Rushworth, William	NA	NA	  4
-Bar Hebraeus	NA	1705	  4
+Hebraeus, Bar	NA	1705	  4
 Kirke, Thomas	NA	1704	  4
 Hutchinson, Richard	NA	NA	  4
 Caley, Abraham	NA	1760	  4
@@ -4304,6 +4342,7 @@ Metford, James	NA	NA	  4
 Browne, Philip	NA	NA	  4
 Okeley, William	NA	NA	  4
 Basill, William	NA	NA	  4
+S	NA	1631	  4
 Timson, John	NA	NA	  4
 Daniel, Humphry	NA	NA	  4
 Ashwood, Bartholomew	NA	1669	  4
@@ -4477,7 +4516,7 @@ Cogan, Eliezer	1812	NA	  4
 Milner, William	NA	NA	  4
 Palm, Karl Josef Von	NA	NA	  4
 Hey, J Van Der	NA	NA	  4
-Yorkshire Freeholder	NA	NA	  4
+Freeholder, Yorkshire	NA	NA	  4
 Ward, William	NA	1769	  4
 Country Parson	NA	NA	  4
 Fleming, Hamilton	NA	NA	  4
@@ -4624,7 +4663,7 @@ Northcote, Thomas	NA	NA	  4
 Calet, Jean Jacques	NA	NA	  4
 Furley, J Dennis	NA	NA	  4
 Curate	NA	NA	  4
-La Vauguion	NA	NA	  4
+Vauguion, La	NA	NA	  4
 Meredith, Nicholas	NA	NA	  4
 Watkins, George	NA	NA	  4
 Boosey, Thomas	NA	NA	  4
@@ -4697,7 +4736,7 @@ Cole, Mary	NA	NA	  4
 Stewardson, William	NA	NA	  4
 St Quentin, Dominique De	NA	NA	  4
 Lallier, Francis	NA	NA	  4
-La V-	NA	NA	  4
+V-, La	NA	NA	  4
 Lee, Weyman	NA	NA	  4
 Key, George	NA	NA	  4
 Canvane, Peter	NA	1760	  4
@@ -4728,7 +4767,7 @@ Okes, Thomas Verney	NA	NA	  4
 Member Of The Athenian Society	NA	NA	  4
 Barber	NA	NA	  4
 Armstrong, Francis	NA	NA	  4
-Achilles Tatius	NA	NA	  4
+Tatius, Achilles	NA	NA	  4
 Hendy, James	NA	NA	  4
 Baldwin, John	NA	1676	  4
 Audran, Gérard	NA	1664	  4
@@ -4809,7 +4848,7 @@ Hehl, Matthaeus Gottfried	NA	NA	  3
 Boucher-belleville, Jean Baptiste	NA	NA	  3
 Vondenvelden, William	NA	1809	  3
 Peirce, John	NA	NA	  3
-Flatbush Farmer	NA	NA	  3
+Farmer, Flatbush	NA	NA	  3
 Godfrey, T	NA	NA	  3
 Garrettson, Freeborn	NA	NA	  3
 Tucker, Thomas Tudor	NA	NA	  3
@@ -4847,10 +4886,10 @@ Blunt, Edmund M	NA	NA	  3
 Chandler, Seth	NA	NA	  3
 Gentleman Who Has Made Shooting His Favorite Amusement	NA	NA	  3
 Grey, Isaac	NA	NA	  3
-Tribunus Populi	NA	NA	  3
+Populi, Tribunus	NA	NA	  3
 Waldo, Samuel	1682	NA	  3
 Dennie, Joseph	NA	1805	  3
-Liefhebber Der Waarheid	NA	NA	  3
+Waarheid, Liefhebber	NA	NA	  3
 Rodgers, John	NA	1712	  3
 Brown, John	NA	1737	  3
 Gray, Robert	NA	1760	  3
@@ -4962,7 +5001,6 @@ Philomathes Et Philalethes	NA	NA	  3
 Roberts, Charles	NA	NA	  3
 Fabrigas, Anthony	NA	NA	  3
 Magens, Nicolas	NA	NA	  3
-Brother Liveryman	NA	NA	  3
 Wyng, John	NA	NA	  3
 Spateman, Thomas	NA	NA	  3
 Darwall, Mary	NA	NA	  3
@@ -5405,6 +5443,7 @@ Magnant, Peter	NA	NA	  3
 Gentleman In Dublin	NA	NA	  3
 Soldier	NA	NA	  3
 Well wisher To The Publick	NA	NA	  3
+Edinburgh, Burgess	NA	NA	  3
 Gentleman No Professed Author But A Lover Of History And Of The Theatre	NA	NA	  3
 Hervey, Frederic	NA	NA	  3
 Kenmure, John Gordon	NA	1782	  3
@@ -5417,7 +5456,7 @@ Newton, James	NA	1787	  3
 Mackenzie, William	NA	1792	  3
 Sinclair, John	NA	NA	  3
 Wilmer, Bradford	NA	NA	  3
-Gautier De Faget	NA	NA	  3
+Faget, Gautier	NA	NA	  3
 Rowe, Jacob	NA	NA	  3
 Montgomery, William	NA	1780	  3
 Sinclair, Henry	NA	NA	  3
@@ -5430,7 +5469,7 @@ Noon, John	NA	1776	  3
 Webley, Henry	NA	NA	  3
 Undergraduate	NA	NA	  3
 Hale, Thomas	NA	NA	  3
-Covent Garden Theatre	NA	NA	  3
+Theatre, Covent	NA	NA	  3
 Russell, William	NA	NA	  3
 Late Pupil Of Dr Leake's	NA	NA	  3
 Sommers, Thos	NA	NA	  3
@@ -5572,7 +5611,7 @@ Monro, David	NA	1759	  3
 Free thinker	NA	NA	  3
 Andrews, John	NA	1741	  3
 St Amand, George	NA	NA	  3
-Sturla þórðarson	NA	1781	  3
+þórðarson, Sturla	NA	1781	  3
 Briton, A	NA	NA	  3
 Marchi, Antonio	NA	NA	  3
 Pelier, V	NA	NA	  3
@@ -5580,7 +5619,7 @@ Author Of Will And Jean	NA	NA	  3
 Lloyd, Thomas	NA	NA	  3
 Hill, Henrietta	NA	NA	  3
 Finch, Thomas	NA	NA	  3
-Bess O'bedlam	NA	NA	  3
+O'bedlam, Bess	NA	NA	  3
 Chapman, William	NA	NA	  3
 Bonnell, Thomas	NA	NA	  3
 Nugent, Nicholas	1692	NA	  3
@@ -5614,7 +5653,7 @@ Telford, Thomas	NA	1829	  3
 Merrill, Thomas	NA	1761	  3
 Smith, T	NA	NA	  3
 Maxwell, Francis Kelly	NA	1833	  3
-Seignoret De Villiers	NA	NA	  3
+Villiers, Seignoret	NA	NA	  3
 Zucker	NA	NA	  3
 Perry	NA	NA	  3
 Nightingall, Miles	NA	NA	  3
@@ -5667,7 +5706,7 @@ Colluthus	NA	NA	  3
 Comley, William	NA	NA	  3
 Garden	NA	NA	  3
 Jeffreys, John	NA	NA	  3
-Llyfr Plygain	NA	NA	  3
+Plygain, Llyfr	NA	NA	  3
 Molyneux, Emery	NA	NA	  3
 Paris	NA	NA	  3
 Rogers, Richard	1540	NA	  3
@@ -5706,6 +5745,7 @@ Ortelius, Abraham	NA	1704	  3
 Odingsells, Charles	1551	NA	  3
 Nisbet, E	NA	NA	  3
 Moffett, Peter	NA	1682	  3
+G	NA	1268	  3
 Wilkes, William	1551	NA	  3
 Bradford, John	NA	NA	  3
 Rogers, Francis	NA	NA	  3
@@ -5733,6 +5773,7 @@ Rid, Samuel	NA	NA	  3
 Baro, Peter	NA	NA	  3
 Snawsel, Robert	NA	NA	  3
 Brisset, Georges	NA	NA	  3
+R	NA	1540	  3
 Kingsmill, Thomas	NA	NA	  3
 Harriot, Thomas	1573	NA	  3
 Bredwell, Stephen	NA	NA	  3
@@ -5781,6 +5822,7 @@ Thorie, John	NA	1639	  3
 Ryckes, John	NA	NA	  3
 Sherley, Anthony	1542	NA	  3
 Mush, John	NA	NA	  3
+W	1602	NA	  3
 Valdés, Alfonso De	1509	NA	  3
 Widdowes, Giles	NA	NA	  3
 Benvenuto	NA	NA	  3
@@ -6026,6 +6068,7 @@ Workman, Giles	NA	NA	  3
 Watkins, Richard	1617	NA	  3
 Worthy Gentleman In Sir Thomas Fairfax His Army	NA	NA	  3
 Holland, Guy	NA	1632	  3
+J	NA	1808	  3
 Gower, John	NA	NA	  3
 Stringer, Nathaniell	NA	NA	  3
 Nemesius	NA	NA	  3
@@ -6062,7 +6105,7 @@ Jones, Bassett	NA	NA	  3
 Lynam, Margaret	NA	1561	  3
 Silius Italicus, Tiberius Catius	NA	NA	  3
 Hind, James	NA	1657	  3
-Eliazar Bar-isajah	NA	NA	  3
+Bar-isajah, Eliazar	NA	NA	  3
 Bainbridge, John	NA	1720	  3
 Bufford, Samuel	NA	NA	  3
 Evance, Daniel	NA	NA	  3
@@ -6192,7 +6235,7 @@ Hacon, Joseph	NA	1654	  3
 Phillipps, W	NA	NA	  3
 Bladen, W	NA	NA	  3
 Plunket, Thomas	NA	NA	  3
-Cassius Dio Cocceianus	NA	NA	  3
+Cocceianus, Cassius	NA	NA	  3
 Polycarp, Bishop Of Smyrna	NA	NA	  3
 Line, Francis	1638	NA	  3
 Heydon, J	NA	NA	  3
@@ -6229,7 +6272,7 @@ Firmin, Thomas	NA	1654	  3
 Atwell, George	NA	NA	  3
 Rookwood, Ambrose	NA	1690	  3
 Pigot, John	NA	NA	  3
-Diogenes Laertius	NA	NA	  3
+Laertius, Diogenes	NA	NA	  3
 Reynolds, Lancelot	NA	NA	  3
 Rusden, Moses	NA	NA	  3
 English Merchant	NA	NA	  3
@@ -6287,6 +6330,7 @@ Merchant Of Bristol	NA	NA	  3
 Honest Briton	NA	NA	  3
 Garret, Daniel	NA	1744	  3
 Gentleman Of Trinity College	NA	NA	  3
+L	NA	1726	  3
 Massachusettensis	NA	1743	  3
 Dorney, Henry	NA	1799	  3
 Troughton, Thomas	NA	NA	  3
@@ -6541,7 +6585,7 @@ Box, George	NA	NA	  3
 Sydney	NA	NA	  3
 Kelly, John	NA	NA	  3
 Benouville	NA	NA	  3
-Son Of The Church Of England	1740	NA	  3
+England, Son	1740	NA	  3
 Lloyd, Thomas	1645	NA	  3
 Bishop, Thomas	NA	1726	  3
 Free holder	NA	NA	  3
@@ -6606,7 +6650,7 @@ Swing, Swithin	NA	NA	  3
 Lumley, Thomas	NA	NA	  3
 Gordon, Fr	NA	NA	  3
 Jenkins, Richard	NA	NA	  3
-Little John	NA	NA	  3
+John, Little	NA	NA	  3
 Goodhall, James	NA	1760	  3
 Russen, David	NA	NA	  3
 Young, R	NA	NA	  3
@@ -6666,7 +6710,7 @@ Dent, Digby	NA	1761	  3
 Carruthers, Francis	NA	NA	  3
 Bligh, Reginald	NA	NA	  3
 Bridel, Ed P	NA	NA	  3
-Banish'd Hermit	NA	NA	  3
+Hermit, Banish'd	NA	NA	  3
 Thompson, Jona	NA	NA	  3
 Philo Basileus	NA	NA	  3
 Cowdry, Richard	NA	NA	  3
@@ -6728,7 +6772,6 @@ Leeuwenhoek, Antoni Van	NA	1727	  3
 Olerenshaw, M	NA	NA	  3
 Friend To National Industry	NA	NA	  3
 Willis, R Legge	NA	NA	  3
-W	NA	NA	  3
 Maclaine, Alexander	NA	NA	  3
 Medical Practitioner	NA	NA	  3
 Tankerville, Forde Grey	NA	1743	  3
@@ -6784,7 +6827,7 @@ Halyburton, William	NA	NA	  3
 John the giant killer	NA	NA	  3
 Griffin, Elizabeth	NA	NA	  3
 Heckle, A	NA	NA	  3
-Field Officer Of Cavalry	NA	NA	  3
+Cavalry, Field	NA	NA	  3
 Moore, John	NA	1812	  3
 Deane, William	NA	NA	  3
 Norman, Samuel	NA	NA	  3
@@ -6828,7 +6871,7 @@ Newans, Thomas	NA	NA	  3
 Desaubiez	NA	NA	  3
 Morlet, L C	NA	NA	  3
 Sincere Lover Of The Protestant Religion	NA	NA	  3
-C, Mrs	NA	NA	  3
+C , Mrs	NA	NA	  3
 Gentleman Of Barbadoes	NA	NA	  3
 Steffe, John	NA	NA	  3
 Enemy To The War	NA	NA	  3
@@ -6855,7 +6898,7 @@ Bourne, Charles	NA	NA	  3
 Sherwood, Mary Martha	NA	1803	  3
 Prescott, Isaac	NA	1781	  3
 Bradley, Henry	NA	NA	  3
-C L St	NA	NA	  3
+St, C	NA	NA	  3
 Watson, J	NA	NA	  3
 Rogerson, John	1795	NA	  3
 Gay, Tom	NA	NA	  3
@@ -6914,7 +6957,7 @@ Caswall, John	NA	NA	  2
 Henoticus	NA	NA	  2
 Nevay, Elisabeth	NA	NA	  2
 Knoop, Johann Hermann	NA	NA	  2
-Le Maître De Claville	NA	NA	  2
+Claville, Le	NA	NA	  2
 Handy, W	NA	NA	  2
 Peirse, Henry	NA	NA	  2
 Macgregor, James	1755	NA	  2
@@ -6927,7 +6970,7 @@ Shaw, Charles	NA	NA	  2
 Dalrymple, Sarah	NA	NA	  2
 Donald, Andrew	NA	NA	  2
 Purves, Alexander	NA	1624	  2
-Solicitor Of Tithes	NA	NA	  2
+Tithes, Solicitor	NA	NA	  2
 Sinclair, Elizabeth	NA	NA	  2
 Middleton, George	NA	NA	  2
 Brander, William	NA	NA	  2
@@ -6983,12 +7026,14 @@ Scott, Charles	NA	NA	  2
 Mackenzie, Colin	NA	NA	  2
 Selkirk, John	NA	NA	  2
 Graglia, Giuseppe A	NA	NA	  2
+S	NA	1706	  2
 Payne, Henry	NA	NA	  2
 Sandilands, Catharine	NA	NA	  2
 Heather, W	NA	NA	  2
 Farewell, George	NA	NA	  2
 Smith, Is	NA	NA	  2
 Chambaud, Louis	NA	1776	  2
+T	NA	1764	  2
 Orsbridge, Philip	NA	NA	  2
 Govan, Archibald	NA	NA	  2
 Grant, John	1645	NA	  2
@@ -7029,7 +7074,7 @@ Friend To New jersey	NA	NA	  2
 One And All	NA	NA	  2
 Pelosi, Vincent M	NA	NA	  2
 Barber, Henry	NA	NA	  2
-Ibraham Ali Mahomed Hafez	NA	NA	  2
+Hafez, Ibraham	NA	NA	  2
 Tiffany, Consider	NA	1748	  2
 Hopkins, Joseph	NA	NA	  2
 Sydney, John	NA	NA	  2
@@ -7204,7 +7249,7 @@ Woltersdorf, Ernst Gottlieb	NA	NA	  2
 Bard, John	NA	1710	  2
 Whiting, Samuel	NA	NA	  2
 Oudenaarde, Hendrick	NA	NA	  2
-Nathan Ben Salomon	NA	NA	  2
+Salomon, Nathan	NA	NA	  2
 Bailey, Joseph	NA	NA	  2
 Axe	NA	NA	  2
 Blagge, Benjamin	NA	NA	  2
@@ -7248,7 +7293,7 @@ Raban, John	NA	NA	  2
 Dowie, Jean	NA	NA	  2
 Northern Divine	NA	NA	  2
 Woolley, Richard	NA	NA	  2
-Benjamin Ben Jonah	NA	NA	  2
+Jonah, Benjamin	NA	NA	  2
 Famine	NA	NA	  2
 Butcher, Robert	NA	NA	  2
 Townshend	NA	NA	  2
@@ -7291,7 +7336,7 @@ Fry, John	NA	1794	  2
 Clifford, I	NA	NA	  2
 Burnham, Thomas	NA	NA	  2
 Blundell, James	NA	NA	  2
-Le Page Du Pratz	NA	1775	  2
+Pratz, Le	NA	1775	  2
 Crossly, Aaron	NA	NA	  2
 Crome, Robert	NA	NA	  2
 Walton, Philip	NA	1771	  2
@@ -7344,8 +7389,9 @@ Cockrel, Richard	NA	NA	  2
 Morando, Bernardo	1638	NA	  2
 Funny, Ferdinando	NA	NA	  2
 Beere, Richard	NA	NA	  2
+Brother Liveryman	NA	NA	  2
 Native	NA	NA	  2
-La Chesnaye	NA	NA	  2
+Chesnaye, La	NA	NA	  2
 Clairac, Louis André De La Mamie	NA	1793	  2
 Mcalester, Angus	NA	NA	  2
 Steell, Robert	NA	1726	  2
@@ -7394,7 +7440,7 @@ Easton, Robert	NA	NA	  2
 Cunynghame, James	NA	1785	  2
 Acherley, Thomas	NA	NA	  2
 Kate, Lambert Ten	NA	1711	  2
-Weinidog O Eglwys Loegr	NA	NA	  2
+Loegr, Weinidog	NA	NA	  2
 Sedgwick, John	1621	NA	  2
 Forster, Francis	NA	NA	  2
 London, George	NA	NA	  2
@@ -7410,7 +7456,7 @@ Blackwood, Robert	NA	1813	  2
 Moeris	NA	NA	  2
 Lockington, John	NA	NA	  2
 Senhouse, Joseph	NA	NA	  2
-Le Lièvre	NA	NA	  2
+Lièvre, Le	NA	NA	  2
 Cheape, William	NA	NA	  2
 Richie, James	NA	NA	  2
 Macklin, Thomas	NA	NA	  2
@@ -7471,7 +7517,7 @@ Byres, John	NA	NA	  2
 Gautier, J	NA	NA	  2
 Bruce, Thomas	NA	NA	  2
 Sainte-maure, Charles De	NA	NA	  2
-La Rocque	NA	NA	  2
+Rocque, La	NA	NA	  2
 Bransby, Bridget	NA	NA	  2
 Jones, Jasper	NA	NA	  2
 Cushion, Mill	NA	NA	  2
@@ -7541,7 +7587,7 @@ Janus	1776	NA	  2
 Thomas, Timothy	1496	NA	  2
 Civilian	NA	NA	  2
 Moorhouse, Michael	NA	NA	  2
-ʿināyat Allāh	NA	1749	  2
+Allāh, ʿināyat	NA	1749	  2
 Fletcher, William	NA	1771	  2
 Jacomb, Robert	NA	NA	  2
 Grindley, John	NA	NA	  2
@@ -7573,7 +7619,6 @@ Gill, Jeremiah	NA	NA	  2
 Mayer, Joseph	NA	NA	  2
 Tapner, John	NA	NA	  2
 Tardy	NA	NA	  2
-Burgess And Guild Brother Of Edinburgh	NA	NA	  2
 Anburey, Thomas	NA	NA	  2
 M D J S U	NA	NA	  2
 Hawkins, James	NA	1648	  2
@@ -7582,7 +7627,7 @@ Tait, Patrick	NA	NA	  2
 Bunch	NA	NA	  2
 French, George	NA	NA	  2
 Piguenit, D J	NA	NA	  2
-Free Man	NA	NA	  2
+Man, Free	NA	NA	  2
 Fiotius, Henricus	NA	NA	  2
 Porteus, Nathan	NA	NA	  2
 Howel, Thomas	NA	NA	  2
@@ -7604,7 +7649,7 @@ Authenticus	NA	NA	  2
 Iolo, Morganwg	NA	1784	  2
 Travers, Henry	NA	1791	  2
 Nutt, Frederick	NA	NA	  2
-La Barre De Beaumarchais	NA	1757	  2
+Beaumarchais, La	NA	1757	  2
 Farrell, Charles	NA	1837	  2
 Meylett, William Gough	NA	NA	  2
 Macfait, Ebenezer	NA	1786	  2
@@ -7708,7 +7753,6 @@ Sallengre, Albert-henri De	NA	1741	  2
 Clairac, Louis-andré De La Mamie	NA	1793	  2
 Hamond, J	NA	NA	  2
 Papon, Jean-pierre	NA	1750	  2
-M	NA	NA	  2
 Hutton, John	1556	NA	  2
 Hearne, Mary	NA	NA	  2
 Shepherd, Obadiah	NA	NA	  2
@@ -7765,6 +7809,7 @@ Duppa, Richard	NA	NA	  2
 Poor Patt	NA	NA	  2
 Author Of The Familar Catechism	NA	NA	  2
 Molyneux, Thomas More	NA	1735	  2
+Z	NA	NA	  2
 Pechell, John	NA	1744	  2
 Palmer, Joseph	NA	1740	  2
 Barr, James	NA	NA	  2
@@ -7805,7 +7850,7 @@ Ahlers, Cyriacus	NA	NA	  2
 Late Right Reverend Prelate	NA	NA	  2
 Girdler, J S	NA	NA	  2
 Urmston, John	NA	NA	  2
-Half-pay Officer	NA	NA	  2
+Officer, Half-pay	NA	NA	  2
 Laybourne, Henry	NA	NA	  2
 Commoner In Town	NA	NA	  2
 Chevalier, Thomas	NA	1819	  2
@@ -7898,7 +7943,7 @@ Prat, John	NA	NA	  2
 Independant Liveryman	NA	NA	  2
 Major, Samuel	NA	NA	  2
 Jenks, James	NA	NA	  2
-Du Fresnoy	NA	NA	  2
+Fresnoy, Du	NA	NA	  2
 Todd, Thomas	NA	NA	  2
 Piguenit, C D	NA	NA	  2
 Philo Britanniæ	NA	NA	  2
@@ -7969,7 +8014,7 @@ Headington, Richard C	NA	1744	  2
 Katholicus Cheirotechnes	NA	NA	  2
 Callender, Andrew	NA	NA	  2
 Drummond, Barbara	NA	NA	  2
-Tam O'linn	NA	NA	  2
+O'linn, Tam	NA	NA	  2
 Wright, Robert	NA	NA	  2
 Sansom, John	NA	NA	  2
 Daly, Dennis	NA	NA	  2
@@ -8221,7 +8266,7 @@ Pomfret, George Fermor	NA	1763	  2
 Utilitist	NA	NA	  2
 Urquhart, Leonard	NA	1786	  2
 Vernon, Francis Venables	NA	NA	  2
-Witart De Bézu	NA	NA	  2
+Bézu, Witart	NA	NA	  2
 Pickernell, Jonathan	NA	NA	  2
 Douglas, John	1794	NA	  2
 Sykes, Francis William	NA	NA	  2
@@ -8268,7 +8313,7 @@ Brodhurst, Edward	NA	NA	  2
 Fetherstonhaugh, Henry	NA	1815	  2
 Melmoth, William Henry	NA	NA	  2
 Major, John	NA	1789	  2
-Abū Al-qāsim Khalaf Ibn ʿabbās Al-zahrāwī	NA	1813	  2
+Al-zahrāwī, Abū	NA	1813	  2
 Looker-on	1800	NA	  2
 Harries, Rowland	NA	NA	  2
 Milton, Charles William	NA	NA	  2
@@ -8292,7 +8337,7 @@ Gordon	NA	NA	  2
 Littlejohn, Alexander	NA	NA	  2
 Sharman, John	NA	NA	  2
 Hudd, John	NA	NA	  2
-Ari Thorgilsson	NA	1723	  2
+Thorgilsson, Ari	NA	1723	  2
 Mercer, Jonathan	NA	NA	  2
 Merchant In Stockholm	NA	NA	  2
 Coderc, Samuel	NA	NA	  2
@@ -8446,7 +8491,7 @@ Nicholson, James	1800	NA	  2
 Ward, H	NA	NA	  2
 Tatersal, Robert	NA	NA	  2
 Townsend, Benjamin	NA	NA	  2
-Saint From The Tabernacle	NA	NA	  2
+Tabernacle, Saint	NA	NA	  2
 Goole, John	NA	NA	  2
 Frederick	NA	NA	  2
 Tomkins, Benjamin	NA	NA	  2
@@ -8485,13 +8530,13 @@ Barr, James Smith	NA	NA	  2
 Campbell, James	NA	1759	  2
 Wollaston, William Hyde	NA	NA	  2
 Orchard, A	NA	NA	  2
-Free Weaver	NA	NA	  2
+Weaver, Free	NA	NA	  2
 Lindsay, John	NA	NA	  2
 Lyne, Samuel	NA	NA	  2
 Cut a dash Kitty	NA	NA	  2
 Kiddell, Henry	NA	NA	  2
 Stuart, Charles	NA	1712	  2
-Believer Of The Exploded And Almost Antiquated Doctrines Of Christianity	NA	NA	  2
+Christianity, Believer	NA	NA	  2
 Hewerdine	NA	NA	  2
 Betham, William	NA	1798	  2
 Jocelyn, J	NA	NA	  2
@@ -8509,7 +8554,7 @@ Kennedy, John	NA	NA	  2
 Trustee	NA	NA	  2
 Laing, Malcolm	1733	NA	  2
 Griffiths, Vaughan	NA	NA	  2
-La Touche	NA	NA	  2
+Touche, La	NA	NA	  2
 Ghigi, Stefano	NA	NA	  2
 Clarendon, R V	NA	NA	  2
 Halluin, Phil D'	NA	NA	  2
@@ -8586,7 +8631,7 @@ Graham, John	NA	1749	  2
 Norman	NA	NA	  2
 Lyon, James	1643	NA	  2
 Wagstaff, James	NA	NA	  2
-Shropshire Clergyman	NA	NA	  2
+Clergyman, Shropshire	NA	NA	  2
 Havard, Neast	NA	NA	  2
 Lambe	NA	NA	  2
 Meziere, Harriet	NA	NA	  2
@@ -8725,7 +8770,7 @@ Harpur, Singleton	NA	NA	  2
 Brewer, J N	NA	NA	  2
 Oulton, John	NA	NA	  2
 Round head	NA	NA	  2
-Le Fèvre De Morsan	NA	NA	  2
+Morsan, Le	NA	NA	  2
 Thomson, William	NA	1740	  2
 Cantab	NA	NA	  2
 Innes, Hugh	NA	NA	  2
@@ -8736,7 +8781,7 @@ Whitehouse, Thomas	NA	NA	  2
 Drayson, William	NA	NA	  2
 Salmon, W	NA	NA	  2
 Duvernet	NA	NA	  2
-Abd Al-karim Ibn Akibat Ibn Muhammad Bulaki	NA	NA	  2
+Bulaki, Abd	NA	NA	  2
 Pitcairn, George	NA	NA	  2
 Freeman, Strickland	NA	1384	  2
 One That Knew Him Before	NA	NA	  2
@@ -8763,13 +8808,13 @@ Moderator	NA	NA	  2
 Philo hibernicus	NA	NA	  2
 Poole, Thomas	NA	NA	  2
 Argles, T	NA	NA	  2
-Sincere Friend	1800	NA	  2
+Friend, Sincere	1800	NA	  2
 Author Of The Critical Review	NA	NA	  2
 Campbel, Robert	NA	NA	  2
 Ignoramus	NA	NA	  2
 Mowbray, Geoffrey	NA	NA	  2
 Parker	1645	NA	  2
-Hebe Vestina	NA	NA	  2
+Vestina, Hebe	NA	NA	  2
 Saulnier, John	NA	NA	  2
 Lions, Jean	NA	NA	  2
 Fraser, James	NA	1684	  2
@@ -8802,7 +8847,7 @@ Dungworth	NA	NA	  2
 Philo Senensis	NA	NA	  2
 Shewell, J	NA	NA	  2
 Friend Of Great Britain	NA	NA	  2
-Nathan Ben Shaddai	NA	NA	  2
+Shaddai, Nathan	NA	NA	  2
 Ayres, William Thomas	NA	NA	  2
 Funnidos, Rigdum	NA	NA	  2
 Garton, James	NA	NA	  2
@@ -8831,7 +8876,7 @@ Birks, Anthony	NA	NA	  2
 Pixell	NA	NA	  2
 Curate Of The Established Church	NA	NA	  2
 Clifford, Walter	NA	1774	  2
-King Of The Swindlers	NA	NA	  2
+Swindlers, King	NA	NA	  2
 Learned Divine Of The Church Of England	NA	NA	  2
 Morgan, M	NA	NA	  2
 Ingram, Richard	NA	NA	  2
@@ -8881,7 +8926,7 @@ Urquhart, Keith	NA	1793	  2
 Dio Chrysostom	NA	NA	  2
 Wilton, William	NA	NA	  2
 Lounger	NA	NA	  2
-Verus Scotus	NA	NA	  2
+Scotus, Verus	NA	NA	  2
 Röhrs, G J H	NA	NA	  2
 Scholefield, Radcliffe	NA	NA	  2
 Novatianus	NA	NA	  2
@@ -8922,7 +8967,7 @@ Henvill, Philip	NA	NA	  2
 Mercier, Louis	NA	NA	  2
 Corbyn, Benjamin	NA	NA	  2
 Morrison, Thomas	NA	1769	  2
-Bon Patriote Allemand	NA	NA	  2
+Allemand, Bon	NA	NA	  2
 B de	NA	NA	  2
 Montalembert, Marc-rené	NA	NA	  2
 Anglois	NA	NA	  2
@@ -8999,7 +9044,7 @@ Clark, Sarah	NA	NA	  2
 English man	NA	NA	  2
 Meredith, Royston	NA	NA	  2
 Paschall, John	NA	NA	  2
-De La Rue	NA	NA	  2
+Rue, De	NA	NA	  2
 Bodens, Charles	NA	NA	  2
 Ker, Margaret	NA	NA	  2
 Souligné, De	NA	NA	  2
@@ -9079,7 +9124,7 @@ Dugud, Patricius	NA	NA	  2
 Thompson, Gilbert	NA	1728	  2
 Erskine, John	NA	1742	  2
 Corinna	NA	NA	  2
-Le Gallois	NA	1764	  2
+Gallois, Le	NA	1764	  2
 Gentleman Of Louth	NA	NA	  2
 Saladin, Charles	NA	NA	  2
 Rayment, Robert	NA	NA	  2
@@ -9182,7 +9227,7 @@ Greenwel, Thomas	NA	NA	  2
 Twisleton, John	NA	NA	  2
 Molloy, Margaret	NA	NA	  2
 Castle, A	NA	NA	  2
-Gaius Seius	NA	NA	  2
+Seius, Gaius	NA	NA	  2
 Dunkin, John	NA	NA	  2
 Kirwan, John	NA	NA	  2
 Butler, Theobald	NA	NA	  2
@@ -9304,7 +9349,7 @@ Bridges, George Rodney	NA	NA	  2
 Phorson, William	NA	NA	  2
 Pellet, John	NA	NA	  2
 Macpherson, Laurence	NA	NA	  2
-Abraham Ben Gorion	NA	NA	  2
+Gorion, Abraham	NA	NA	  2
 Author Of Essays On Agriculture	NA	NA	  2
 Salisbury, Sally	NA	NA	  2
 Planner, John	NA	NA	  2
@@ -9417,7 +9462,7 @@ Buckmaster, Thomas	NA	1723	  2
 Thomas, Anthony	NA	NA	  2
 Barne, Thomas	NA	NA	  2
 Ascham, Anthony	NA	1634	  2
-Alonso De Madrid	NA	NA	  2
+Madrid, Alonso	NA	NA	  2
 Clarke, Eustace	NA	1797	  2
 Bretnor, Ezekiel	NA	1605	  2
 Villegas, Alfonso De	NA	NA	  2
@@ -9550,6 +9595,7 @@ Dugdale, Gilbert	NA	NA	  2
 Saviolo, Vincentio	NA	NA	  2
 Smith, Henry	NA	1508	  2
 Reginalda, Bathsua	NA	NA	  2
+T	NA	1666	  2
 Porter, Henry	NA	1601	  2
 Pilkington, Francis	NA	NA	  2
 Pett, John	NA	NA	  2
@@ -9731,7 +9777,7 @@ Bouncher, Samuel	NA	NA	  2
 Brookes, Thomas	NA	NA	  2
 Brooksbank, John I e	NA	NA	  2
 Bray, Thomas	NA	NA	  2
-Country Minister	1768	NA	  2
+Minister, Country	1768	NA	  2
 Campbel, George	NA	NA	  2
 Shallett, Arthur	NA	NA	  2
 Blake, Francis	NA	NA	  2
@@ -9744,7 +9790,7 @@ Cyprian, Saint	NA	NA	  2
 Dalhusie, John Herman	NA	NA	  2
 Dansie, John	NA	NA	  2
 Descartes, Rene	NA	NA	  2
-Edinburgh Scotland	NA	NA	  2
+Scotland, Edinburgh	NA	NA	  2
 Farinel, Michel	NA	NA	  2
 Ellyson, Thomas	NA	NA	  2
 Elston, John	NA	NA	  2
@@ -9794,7 +9840,7 @@ Lofting, John	NA	NA	  2
 London Sessions	NA	NA	  2
 Macculloch, Godfrey	NA	1561	  2
 Manningham, Thomas	NA	NA	  2
-Marguerite De Valois	NA	NA	  2
+Valois, Marguerite	NA	NA	  2
 Miller, William	NA	NA	  2
 Montrose, James Graham	NA	NA	  2
 Murray, Janet	NA	NA	  2
@@ -9808,7 +9854,7 @@ Plat, Sir Hugh	NA	NA	  2
 Plater, Felix	NA	NA	  2
 Swall, Abel	NA	NA	  2
 Gould, Ignatius	NA	NA	  2
-Alethius Phylopsyches	NA	NA	  2
+Phylopsyches, Alethius	NA	NA	  2
 Scotcher, Richard	NA	NA	  2
 Rhodokanakis, Konstantinos	NA	NA	  2
 Rous, Francis	NA	NA	  2
@@ -9927,7 +9973,7 @@ Knox, W	NA	NA	  2
 Green, Christopher	NA	1559	  2
 Kersey, John	NA	NA	  2
 Langham, William	NA	NA	  2
-Embroyan-fancy Of Anti-jack Presbyter	NA	NA	  2
+Presbyter, Embroyan-fancy	NA	NA	  2
 Goodwin, Thomas	NA	NA	  2
 Cooper, Edmund	NA	NA	  2
 Pugh, Thomas	NA	NA	  2
@@ -9973,6 +10019,7 @@ Principal Officer	NA	NA	  2
 Fathers, John	NA	NA	  2
 Stubbs, John	NA	1659	  2
 Cock, William	NA	NA	  2
+Practitioner, Able	NA	NA	  2
 Abercorn, Charles Hamilton	NA	1624	  2
 Oxwick, Robert	NA	NA	  2
 Stokes, Apjohn	NA	NA	  2
@@ -10079,7 +10126,7 @@ Dyer, William	NA	NA	  2
 Choute, George	NA	NA	  2
 Dick, Andrew	NA	NA	  2
 Franco, Solomon	NA	NA	  2
-Chevalier Del	NA	NA	  2
+Del, Chevalier	NA	NA	  2
 Wilde, Samuel	NA	NA	  2
 Strutt, Thomas	NA	NA	  2
 Burling, Elias	NA	NA	  2
@@ -10185,7 +10232,7 @@ Builder Of Zion The New Jerusalem	NA	NA	  2
 Whittle, Robert	NA	1698	  2
 Friend To The Publique	NA	NA	  2
 Des-chants	NA	NA	  2
-Fardinando Fallall	NA	NA	  2
+Fallall, Fardinando	NA	NA	  2
 Ramsey, James	NA	NA	  2
 Pight, Richard	NA	NA	  2
 Heming, Joseph	NA	NA	  2
@@ -10226,6 +10273,7 @@ Alleyn, Thomas	NA	NA	  2
 Democritus Natu Minimus	NA	NA	  2
 Faithfull Sonne Of The Late Flourishing Church Of England	NA	NA	  2
 Most Learned Lawyer	NA	NA	  2
+Truth, Lover	1768	NA	  2
 Willis, Humphrey	NA	NA	  2
 Jennings, Theodore	NA	NA	  2
 Wild, John	NA	NA	  2
@@ -10248,7 +10296,7 @@ Nicholas, Edward	NA	NA	  2
 Couch, Robert	NA	NA	  2
 Willoughby, Stephen	NA	1742	  2
 Labrune, Jean De	NA	NA	  2
-La Bizardière	NA	NA	  2
+Bizardière, La	NA	NA	  2
 Durante, Castore	1657	NA	  2
 Darrell, Marmaduke	NA	NA	  2
 Gentleman At St Germains	NA	NA	  2
@@ -10308,7 +10356,7 @@ Allein, Toby	NA	NA	  2
 Nuisement, Clovis Hesteau	NA	NA	  2
 Franckenstein, Christian Gottfried	NA	NA	  2
 Indifferent Hand	NA	NA	  2
-S C, Esquire	NA	NA	  2
+S C , Esquire	NA	NA	  2
 Well wisher To His Countrey	NA	NA	  2
 Newton, Samuel	NA	NA	  2
 Houschone, William	NA	NA	  2
@@ -10428,7 +10476,7 @@ Powell, Thomas	NA	NA	  2
 Telfair, Alexander	NA	NA	  2
 Polter, Richard	NA	NA	  2
 Gentleman Lately Arriv'd	NA	NA	  2
-Abū Al-fidāʾ Ismāʿīl Ibn ʿalī	NA	NA	  2
+ʿalī, Abū	NA	NA	  2
 Moderate Conformist	NA	NA	  2
 Carpenter, William	1682	NA	  2
 Friend To The Truth	NA	NA	  2
@@ -10443,14 +10491,14 @@ Bramley, David	NA	NA	  2
 Brooks, Francis	NA	NA	  2
 Author Of Absalom & Achitophel	NA	NA	  2
 Every, John	NA	NA	  2
-Mac Olero	NA	NA	  2
+Olero, Mac	NA	NA	  2
 Gostelo, Walter	NA	NA	  2
 Liset, Abraham	NA	NA	  2
 Alford, Joseph	NA	NA	  2
 Beane, Richard	NA	NA	  2
 Zosimus	NA	NA	  2
 Ainsworth, William	NA	1740	  2
-Valerius Maximus	NA	NA	  2
+Maximus, Valerius	NA	NA	  2
 Lineall, John	NA	NA	  2
 Ronsgore, John	NA	NA	  2
 Sterne, Richard	NA	1674	  2
@@ -10566,13 +10614,13 @@ Kemp, Edward	NA	1740	  2
 Knap, J	NA	NA	  2
 Campion, Abraham	NA	1624	  2
 Stephens, Philemon	NA	NA	  2
-Raveneau De Lussan	NA	NA	  2
+Lussan, Raveneau	NA	NA	  2
 Barecroft, Charles	NA	NA	  2
 Jones, John	NA	1837	  2
 Lover Of His Countrey's Liberty	NA	NA	  2
 Kennedy, David	NA	NA	  2
 Lardner, James	NA	1773	  2
-Burgher Of Amsterdam	NA	NA	  2
+Amsterdam, Burgher	NA	NA	  2
 True Protestant A Loyall Subject	NA	NA	  2
 Gerard, John	NA	1649	  2
 Hollister, Dennis	1697	NA	  2
@@ -10602,7 +10650,7 @@ Saunders, Humphrey	NA	NA	  2
 Hess, Johannes Armondus De	NA	NA	  2
 Wharton, Jeremiah	NA	NA	  2
 Chappell	NA	NA	  2
-Jābir Ibn ḥayyān	NA	NA	  2
+ḥayyān, Jābir	NA	NA	  2
 Universal Friend	NA	NA	  2
 Blackmore, Sir Richard	NA	NA	  2
 Jevon, Rachel	NA	NA	  2
@@ -10619,6 +10667,7 @@ Shadforth, Thomas	NA	NA	  2
 Rose, Henry	1586	NA	  2
 Person Of Worth	NA	NA	  2
 Neville, Francis De	NA	NA	  2
+N	NA	1684	  2
 Warly, John	NA	1667	  2
 Lover Of Planting	NA	NA	  2
 Adams, Edward	NA	NA	  2
@@ -10760,7 +10809,7 @@ Darell, William	NA	1788	  2
 Malatesti, Antonio	NA	1760	  2
 Officer In The Navy	NA	NA	  2
 Gentleman Totally Unconnected With Foreign Interests Or Internal Parties	NA	NA	  2
-Grenada Planter	NA	NA	  2
+Planter, Grenada	NA	NA	  2
 Burn, James	NA	1468	  2
 Tisdall, Thomas	NA	NA	  2
 Author Of The Harmony Of Reason And Christianity	NA	NA	  2
@@ -10774,7 +10823,7 @@ Povoleri, Giovanni	NA	NA	  2
 Usher, G	NA	NA	  2
 One Of The School fellows Of The Young Gentlemen Of The English Grammar School	NA	NA	  2
 Neufville, John De	NA	NA	  2
-Amīr Ḥaidar Bilgrāmī	NA	1795	  2
+Bilgrāmī, Amīr	NA	1795	  2
 Commissioner Of One Of The Aggrieved Parishes In Westminster	NA	NA	  2
 Frederic	NA	NA	  2
 Ross, David	NA	1820	  2
@@ -10821,7 +10870,7 @@ Holtrop, John	NA	NA	  2
 Freeholder In More Counties Than One	NA	NA	  2
 Member Of The University	NA	NA	  2
 Frasier, Duncan	NA	NA	  2
-Samuel Kapasoules	NA	NA	  2
+Kapasoules, Samuel	NA	NA	  2
 Botanista, Theophilus	NA	NA	  2
 Coleman, Charles	NA	NA	  2
 Sola, Sylviana	NA	NA	  2
@@ -10848,7 +10897,7 @@ Hibernia	NA	NA	  2
 Gentleman Of Bristol	NA	NA	  2
 Thompkins, Edward	NA	NA	  2
 Harwood, Louisa	NA	NA	  2
-Little Momus	NA	NA	  2
+Momus, Little	NA	NA	  2
 Christiani, Christian	NA	1800	  2
 Rievethal, I G	NA	NA	  2
 Noake, Dorothy	NA	NA	  2
@@ -10862,7 +10911,7 @@ Pasmore, George	NA	NA	  2
 Well meaning Briton	NA	NA	  2
 Livery man	NA	NA	  2
 Du Fresnoy, Mr	NA	NA	  2
-King's Letterman	NA	NA	  2
+Letterman, King's	NA	NA	  2
 Roubaud, J L Audibert	NA	NA	  2
 Douglas, John	NA	1859	  2
 No body	NA	NA	  2
@@ -10880,7 +10929,7 @@ Lindesay, John	NA	NA	  2
 Drummond, Colin	NA	NA	  2
 Sims, Robert Courthope	NA	1807	  2
 Darbey, Robert	NA	NA	  2
-Fen Parson	NA	NA	  2
+Parson, Fen	NA	NA	  2
 Carwitham, T	NA	NA	  2
 Irwin, Arthur	NA	NA	  2
 Cade, Jack	NA	NA	  2
@@ -10957,7 +11006,7 @@ Oswald, Alexander	NA	NA	  2
 Littlejohn, P	NA	NA	  2
 Palmer, W	NA	NA	  2
 Lintot, Catherine Cailleau	NA	NA	  2
-Landed Proprietor	NA	NA	  2
+Proprietor, Landed	NA	NA	  2
 Nicklin, Susan	NA	NA	  2
 Mcdonald, Patrick	NA	1671	  2
 Member Of The Association	NA	NA	  2
@@ -10982,7 +11031,7 @@ Fitzcotton, Henry	NA	NA	  2
 Lobb, Richard	1681	NA	  2
 Plunkett, Thomas	NA	NA	  2
 Brady	NA	NA	  2
-Hywgi Ap Englyn Margonwc	NA	NA	  2
+Margonwc, Hywgi	NA	NA	  2
 Jackson, Alexander	NA	NA	  2
 Pic, Jean	NA	NA	  2
 Walpole, Thomas	NA	1717	  2
@@ -11052,7 +11101,7 @@ Kindersley, Nathaniel Edward	NA	NA	  2
 German Gentleman	NA	NA	  2
 Beach, Thomas	NA	1782	  2
 Tauler, Johann	NA	NA	  2
-Southern Clergyman	NA	NA	  2
+Clergyman, Southern	NA	NA	  2
 Officer Of The King's Army	NA	NA	  2
 Horne	NA	1684	  2
 Swieten, Gottfried Van	NA	1750	  2
@@ -11082,7 +11131,7 @@ Dawson, Charles	NA	NA	  2
 Brampton, John	NA	NA	  2
 Welbe, John	NA	NA	  2
 Spitalfields Weaver	NA	NA	  2
-Grania Weal	NA	NA	  2
+Weal, Grania	NA	NA	  2
 Woodman, Thomas	NA	NA	  2
 Private Person	NA	NA	  2
 Colquhoun, Anna	NA	NA	  2
@@ -11268,7 +11317,7 @@ Kingsley, John	NA	NA	  2
 Tory Freeholder	NA	NA	  2
 Coote, Robert	NA	NA	  2
 Citizen Of Port royal In Jamaica	NA	NA	  2
-Young Clergyman	NA	NA	  2
+Clergyman, Young	NA	NA	  2
 Anderson, William	1717	NA	  2
 Wood, Basil	NA	NA	  2
 Delome, W S	NA	NA	  2
@@ -11276,7 +11325,7 @@ Tomkies, J	NA	NA	  2
 Crambo, Christopher	NA	NA	  2
 Cotsford, Edward	NA	NA	  2
 Bannac, Adolphus	NA	NA	  2
-Freeman Barber	NA	NA	  2
+Barber, Freeman	NA	NA	  2
 Courtney	NA	NA	  2
 Parker, Mary Elizabeth	NA	NA	  2
 Author Of The Design Of Creation	NA	NA	  2
@@ -11418,7 +11467,7 @@ Batavus	NA	NA	  2
 Puzzlebrains Peregrine	NA	NA	  2
 Palaeophilus Anglicanus	NA	NA	  2
 Author Of Desertion Discussed	NA	NA	  2
-Abram Ben Saddi	NA	NA	  2
+Saddi, Abram	NA	NA	  2
 Officer Present At The Expedition To Carthagena	NA	NA	  2
 Bates, Ely	NA	NA	  2
 Miles, Tho	NA	NA	  2
@@ -11505,7 +11554,7 @@ Author Of The History Of The Crown Inn	NA	NA	  2
 Mill, Job	NA	NA	  2
 Macaulay, James	NA	NA	  2
 Ellis, W	1680	NA	  2
-Juvenis Academicus	NA	NA	  2
+Academicus, Juvenis	NA	NA	  2
 M'farlane, Walter	NA	NA	  2
 Evans, William	NA	NA	  2
 Lay brother	NA	NA	  2
@@ -11536,8 +11585,8 @@ Philo Veritas	NA	NA	  2
 B gh	NA	NA	  2
 Home, M J	NA	NA	  2
 Hollander	NA	NA	  2
-Burgher Of Edinburgh	NA	NA	  2
-Downright Englishman	NA	NA	  2
+Edinburgh, Burgher	NA	NA	  2
+Englishman, Downright	NA	NA	  2
 J T-e	NA	NA	  2
 Friend To Fair Discussion	NA	NA	  2
 Philostelus	NA	NA	  2
@@ -11634,7 +11683,7 @@ Author Of The History Of The Late Septennial Parliament	NA	NA	  2
 Tennent, Robert	NA	NA	  2
 Ille Ego Qui Quondam	NA	NA	  2
 Conner	NA	NA	  2
-Ante Italianite	NA	NA	  2
+Italianite, Ante	NA	NA	  2
 Bacon, W	NA	NA	  2
 Van Mildert, William	NA	1768	  2
 Ex jesuit	NA	NA	  2
@@ -11693,7 +11742,7 @@ Scot, Charles	1785	NA	  2
 Muhammad Ali Khan, Umdat Al-mulk Anwar Al-din	NA	1730	  2
 Elector, M a	NA	NA	  2
 One Of The 'swinish Multitude'	NA	NA	  2
-Hearer Of The Apostles	NA	NA	  2
+Apostles, Hearer	NA	NA	  2
 Paxton, Nicholas	NA	NA	  2
 Rucellai, Giovanni	NA	1799	  2
 Finglass, Esther	NA	NA	  2
@@ -11729,7 +11778,7 @@ Haldane, John	NA	NA	  2
 Philibert	NA	NA	  2
 Bowden, Samuel	NA	NA	  2
 Sincerus	NA	NA	  2
-Essex Farmer	NA	NA	  2
+Farmer, Essex	NA	NA	  2
 O'roon, Hellen	NA	NA	  2
 British Officer Now In Germany	NA	NA	  2
 Cowper, William	NA	1785	  2
@@ -11785,7 +11834,7 @@ Hewit, William	NA	NA	  1
 Sun fire office	NA	NA	  1
 Barsanti, Francesco	NA	NA	  1
 Leary, Thomas	1800	NA	  1
-Frere A	NA	NA	  1
+Frere	NA	NA	  1
 Castlemaine, Richard Tylney	NA	NA	  1
 Martie	NA	NA	  1
 Fearn, George	NA	NA	  1
@@ -11822,7 +11871,7 @@ Pardie, John	NA	NA	  1
 Friend To Alderman Janssen	NA	NA	  1
 Crespin, élie	NA	NA	  1
 Keyser, Jan	NA	NA	  1
-Burgess Of -	NA	NA	  1
+Chaplain, His	NA	NA	  1
 Cadell, Thomas	NA	NA	  1
 Larudan	NA	NA	  1
 J B J N	NA	NA	  1
@@ -11855,7 +11904,7 @@ Crawford, Alexander	NA	1650	  1
 Gowdey, James	NA	NA	  1
 Lowther, William	NA	NA	  1
 Velnos, Jean-joseph Vergely De	NA	NA	  1
-Aben Zebra	NA	NA	  1
+Zebra, Aben	NA	NA	  1
 Fouquet, Marie De Maupeou	NA	NA	  1
 Tyte, G	NA	NA	  1
 Swaine, Abraham	NA	NA	  1
@@ -11884,7 +11933,7 @@ Lister, Joseph	NA	NA	  1
 Kidd, Robert	NA	NA	  1
 Forrest, Joannes	NA	NA	  1
 Crawford, Walter Kennedy	NA	NA	  1
-Alitophilo Religionis	NA	NA	  1
+Religionis, Alitophilo	NA	NA	  1
 Jefferis, Edward	NA	NA	  1
 Dungwith, William	NA	NA	  1
 Foxwell, Nathaniel	NA	NA	  1
@@ -11897,7 +11946,7 @@ Hickes, John Heathfield	NA	NA	  1
 Valmont De Bomare, Jacques Cristoph	NA	NA	  1
 Laus De Boissy, Louis De	NA	NA	  1
 Eminent Character In The Law	NA	NA	  1
-Friend To Both	NA	NA	  1
+Both, Friend	NA	NA	  1
 Rainsford, Giles	NA	NA	  1
 Hallungius, J	NA	NA	  1
 Fontaine, Jean Baptiste Le Seur	NA	NA	  1
@@ -11933,7 +11982,7 @@ Campbell, Humphrey Trafford	NA	NA	  1
 Baird, Thomas W	NA	NA	  1
 Wharton, Richd	NA	NA	  1
 Protheroe, John	NA	NA	  1
-Trinity College University Of Cambridge	NA	NA	  1
+Cambridge, Trinity	NA	NA	  1
 Crowe, William	NA	NA	  1
 Habervexl Z Habernfeldu, Ondrej	NA	NA	  1
 Ehmamp	NA	NA	  1
@@ -11981,7 +12030,7 @@ Young, Richard Nash	NA	NA	  1
 Page, James	NA	NA	  1
 Wagstaffe	NA	NA	  1
 Cardel, Jean	NA	NA	  1
-M'dowal William	NA	NA	  1
+William, M'dowal	NA	NA	  1
 Sulton, Edward	NA	NA	  1
 Lettimer, Margaret	NA	NA	  1
 Watt, Jean	NA	NA	  1
@@ -12064,7 +12113,7 @@ Hislop, John	NA	NA	  1
 Rolland, James	NA	NA	  1
 Saltoun Of Abernethy, William Fraser	NA	NA	  1
 Agnew, Montgomery	NA	NA	  1
-Stockell William	NA	1582	  1
+William, Stockell	NA	1582	  1
 Dowglas, James	NA	NA	  1
 Bethun, John	NA	NA	  1
 Kennedy, Thomas	NA	1582	  1
@@ -12106,10 +12155,10 @@ Finlay, James	NA	NA	  1
 Finlay, Thomas	NA	NA	  1
 Drummond, David	NA	NA	  1
 Rutherford, George	NA	NA	  1
-Relick Of Robert Dempster	NA	NA	  1
+Dempster, Relick	NA	NA	  1
 Dalrymple, David	NA	NA	  1
 Skene, Robert	NA	1721	  1
-Simpson James	NA	NA	  1
+James, Simpson	NA	NA	  1
 Auchinleck, James	NA	NA	  1
 Purves, Thomas	NA	NA	  1
 Rowat, Charles	NA	NA	  1
@@ -12154,7 +12203,7 @@ Hope, Helen	NA	NA	  1
 Thuillier, Jean Louis	NA	1754	  1
 Student Of The Laws Of England And A Hearty Lover Of His Country	NA	NA	  1
 Mowat, James	NA	NA	  1
-Castigator Foeneratorium	NA	NA	  1
+Foeneratorium, Castigator	NA	NA	  1
 Erskine, Thomas	1712	NA	  1
 Stuart, Grace	NA	NA	  1
 Balfour, Elizabeth	NA	NA	  1
@@ -12258,8 +12307,8 @@ Dundas, R	NA	NA	  1
 Hartley, Christopher	NA	NA	  1
 Hay, Matthew	NA	1780	  1
 Neil, Margaret	NA	NA	  1
-Gentleman In Virginia	NA	NA	  1
-Gentleman At Constantinople	NA	NA	  1
+Virginia, Gentleman	NA	NA	  1
+Constantinople, Gentleman	NA	NA	  1
 Dowley, John	NA	NA	  1
 Collins, Bartholomew	NA	NA	  1
 Keith, Robert	NA	1703	  1
@@ -12407,7 +12456,7 @@ Coutts Brothers And Company Merchants: London, England	NA	NA	  1
 Beg, Elisabeth	NA	NA	  1
 Garrioch, Margaret	NA	NA	  1
 Rutherfoord, Robert	NA	NA	  1
-Kōl Rinah	NA	NA	  1
+Rinah, Kōl	NA	NA	  1
 Hathorn, Hugh	NA	NA	  1
 Rowley, Richard	NA	NA	  1
 Stanners, George	NA	NA	  1
@@ -12418,7 +12467,7 @@ Carruthers, James	NA	NA	  1
 Hilston, John	NA	NA	  1
 Fitzmaurice, W	NA	NA	  1
 Rollot, Nicolas	NA	NA	  1
-Alloa Scotland	NA	NA	  1
+Alloa	NA	NA	  1
 Maclehose, James	NA	NA	  1
 Galloway, Henry	NA	NA	  1
 Alexander, William	NA	NA	  1
@@ -12430,7 +12479,7 @@ Author Of The Proposal For Taxing Of Slippers &c	NA	NA	  1
 Cooke, Nathaniel	NA	NA	  1
 Champion De Cice&# ;, Je&# ;ro&# ;me Marie	NA	NA	  1
 Neal, John	NA	NA	  1
-Yosef Yaakov Ben Eliezer	NA	NA	  1
+Eliezer, Yosef	NA	NA	  1
 Kinnear, David	NA	NA	  1
 Lumsden, Charles	NA	NA	  1
 Hogben, John	NA	NA	  1
@@ -12465,7 +12514,7 @@ Coker, Henry	NA	NA	  1
 Meurs, Johannes Van	NA	NA	  1
 Cumstock, Abel	NA	NA	  1
 Rémy, P	NA	NA	  1
-Philo Anglus	NA	1706	  1
+Anglus, Philo	NA	1706	  1
 Sheppard, Germanicus	NA	NA	  1
 Spilling, James	NA	NA	  1
 Trampon, John	NA	NA	  1
@@ -12485,7 +12534,7 @@ Clayton, Prebendary	NA	NA	  1
 Wister, Sarah	NA	NA	  1
 Schaw, William	NA	NA	  1
 Violaine	NA	NA	  1
-Abū Al-ʿalāʾ Al-maʿarrī	NA	NA	  1
+Al-maʿarrī, Abū	NA	NA	  1
 Barker, Robert	1556	NA	  1
 Shippen, Edward	NA	NA	  1
 Wormall, Henry	NA	NA	  1
@@ -12516,7 +12565,7 @@ Morton, Charles	1660	NA	  1
 Ashbridge, Elizabeth	NA	1722	  1
 Ferryman, Robert	NA	NA	  1
 Sauce-pan, Susan	NA	NA	  1
-Van Reekhard	NA	NA	  1
+Reekhard, Van	NA	NA	  1
 Moelder, C De	NA	NA	  1
 Toplis, Samuel	NA	NA	  1
 Gouson, Jo	NA	NA	  1
@@ -12756,7 +12805,7 @@ Schultz, Christoph	NA	NA	  1
 Prindle, Joseph	NA	NA	  1
 Catch, Nehemiah	NA	NA	  1
 Briggs, I	NA	NA	  1
-William Barton And Co	NA	NA	  1
+Co, William	NA	NA	  1
 Koppelberger, Johannes	NA	NA	  1
 Hunter, David	NA	1772	  1
 Citizen Of Northampton County	NA	NA	  1
@@ -12791,13 +12840,13 @@ Colerick, Hunter & Beaumont	NA	NA	  1
 Commonwealth	NA	NA	  1
 Swan, Amos	NA	NA	  1
 Wetherhead, John	NA	NA	  1
-King's County Freeholder	NA	NA	  1
+Freeholder, King's	NA	NA	  1
 Barrett, Michael	NA	NA	  1
 Dupré, Lewis	NA	NA	  1
 Cleator, James	NA	NA	  1
 Mölich, Jan	NA	NA	  1
 Gillon, Alexander	NA	NA	  1
-Black Whig	NA	NA	  1
+Whig, Black	NA	NA	  1
 La Chapelle, James De	NA	NA	  1
 Sincere Friend To Both Countries	NA	NA	  1
 Real Farmer	NA	NA	  1
@@ -12862,7 +12911,7 @@ Sproat, James	NA	NA	  1
 Spooner, John Jones	NA	NA	  1
 Green, Aaron	NA	NA	  1
 Noyes, Thomas	NA	NA	  1
-Truth Writer	NA	NA	  1
+Writer, Truth	NA	NA	  1
 Colton, Benjamin	NA	NA	  1
 Lewis, John	NA	1796	  1
 Riddel, William	NA	NA	  1
@@ -12954,7 +13003,7 @@ Burling, Edward	NA	NA	  1
 Lathrop, Samuel	NA	NA	  1
 Lewis, Oliver	NA	NA	  1
 Pitcher, Nathaniel	NA	NA	  1
-Republikanischer Bürger	NA	NA	  1
+Bürger, Republikanischer	NA	NA	  1
 Norvitian	NA	NA	  1
 Newland, Jeremiah	NA	NA	  1
 Buell, Abigail	NA	NA	  1
@@ -13140,11 +13189,11 @@ Yates, William	NA	NA	  1
 Webb, Conrade	NA	NA	  1
 D'happart, J L	NA	NA	  1
 Cheever, Thomas	NA	NA	  1
-Clementiae Amator	NA	NA	  1
+Amator, Clementiae	NA	NA	  1
 Mastricht, Peter Van	NA	NA	  1
 Williams, Nehemiah	NA	NA	  1
 Ruggles, Samuel	NA	NA	  1
-Justice Writer	NA	NA	  1
+Writer, Justice	NA	NA	  1
 Jackson, Jonathan	NA	1813	  1
 Greenwood, John	1654	NA	  1
 Carré, C	NA	NA	  1
@@ -13165,7 +13214,7 @@ Lafitte Du Courteil, Amable-louis-rose De	NA	NA	  1
 Townsend, David	NA	NA	  1
 Dutton, Warren	NA	NA	  1
 Agathocles	NA	NA	  1
-Believer In Politicks	NA	NA	  1
+Politicks, Believer	NA	NA	  1
 Dunlap, Jane	NA	NA	  1
 More Impartial Tho' Less Poetical Pen	NA	NA	  1
 Dodge, Paul	NA	NA	  1
@@ -13262,7 +13311,7 @@ Clarke, George	NA	NA	  1
 Eberhardi, Caspar	NA	NA	  1
 Justitius	NA	NA	  1
 Layman And Platformist	NA	NA	  1
-Joyce Junior	NA	NA	  1
+Junior, Joyce	NA	NA	  1
 Jotham	NA	NA	  1
 Hubley, A	NA	NA	  1
 Jones, Ira	NA	NA	  1
@@ -13361,7 +13410,7 @@ Trueblue Tom	NA	NA	  1
 Brayton	NA	NA	  1
 One Of The Brethren	NA	NA	  1
 Friend To Literature	NA	NA	  1
-Officer Of The St Regiment	NA	NA	  1
+Regiment, Officer	NA	NA	  1
 Anti Balthazar	NA	NA	  1
 Howland, John	NA	NA	  1
 Treat, Joseph	NA	NA	  1
@@ -13371,11 +13420,11 @@ Snyder, G W	NA	NA	  1
 Snow, William	NA	NA	  1
 Erdmann, Charles	NA	NA	  1
 Tatem, William	NA	NA	  1
-Freyer Deutscher Bürger Des Staats	NA	NA	  1
+Staats, Freyer	NA	NA	  1
 Bliss, Daniel	NA	NA	  1
 Webb, Thomas Smith	NA	NA	  1
 Hatterfly, Josiah	NA	NA	  1
-Liebhaber Der Göttlichen Warheit	NA	NA	  1
+Warheit, Liebhaber	NA	NA	  1
 Pender, Thomas	NA	NA	  1
 Giberne, Isaac William	NA	NA	  1
 Mann, Herman	NA	NA	  1
@@ -13406,7 +13455,7 @@ Stilwell, Samuel	NA	NA	  1
 Grievous, Peter	NA	NA	  1
 Serjeant-major Of Gen Hopson's Grenadiers	NA	NA	  1
 Sterling, William A	NA	NA	  1
-Senator Of The United States	NA	NA	  1
+States, Senator	NA	NA	  1
 Sears, Isaac	1769	NA	  1
 Hart, John	1756	NA	  1
 Harmar, Josiah	1722	NA	  1
@@ -13559,7 +13608,7 @@ Evitt, William	NA	NA	  1
 Everett, Charles	NA	NA	  1
 Esten, Cornelius	NA	NA	  1
 Wake, Baldwin	NA	NA	  1
-White-oak Writer	NA	NA	  1
+Writer, White-oak	NA	NA	  1
 Mixer, Elisabeth	NA	NA	  1
 Terence, Sweep	NA	NA	  1
 Moorhead, Sarah Parsons	NA	NA	  1
@@ -13580,7 +13629,7 @@ Hallett, Jacob	NA	NA	  1
 Hall, Theophilus	1700	NA	  1
 Proprietor Of Lands On The Sioto	NA	NA	  1
 Prindle, Chauncey	NA	1831	  1
-Potowmac Writer	NA	NA	  1
+Writer, Potowmac	NA	NA	  1
 Dutch Man	NA	NA	  1
 Minor, Jehu	1716	NA	  1
 Estabrook, Joseph	NA	NA	  1
@@ -13592,7 +13641,7 @@ Minister Of The Church Of Christ In America	NA	NA	  1
 Micklejohn, George	NA	NA	  1
 Durham, Ebenezer	NA	NA	  1
 Mare, J	NA	NA	  1
-Marcus Junius	NA	NA	  1
+Junius, Marcus	NA	NA	  1
 Drummond, Evan	NA	NA	  1
 Malcomson, James	NA	NA	  1
 Gatchell, Increase	NA	NA	  1
@@ -13639,14 +13688,14 @@ Shurtleff, Roswell	1755	NA	  1
 Smith, Charles	NA	1768	  1
 Richard, Andrew	NA	NA	  1
 Brodbeck, Christian	NA	NA	  1
-Douin De La Motte	NA	NA	  1
+Motte, Douin	NA	NA	  1
 Macpherson, Mary Ann	NA	NA	  1
 M'knight, Robert	NA	NA	  1
 Mckeehan, David	NA	NA	  1
 Mackay, Fitzhugh	NA	NA	  1
 Kendal, David	NA	1652	  1
 Ziguerer, Christian	NA	NA	  1
-In Seinem Leben Treu Gewesener Prediger Des Göttl Wortes	NA	NA	  1
+Wortes, In	NA	NA	  1
 Myseras, Lambrecht	NA	NA	  1
 Lucius, Samuel	NA	1856	  1
 Frantzen, Michael	NA	NA	  1
@@ -13690,7 +13739,7 @@ Archer, John	1746	NA	  1
 Penn, Hannah Callowhill	NA	1815	  1
 Witter, Ezra	NA	NA	  1
 Mather, Warham	NA	1788	  1
-Schüler In Der Uebung Dieser Gemüths-ruhe In Gott	NA	NA	  1
+Gott, Schüler	NA	NA	  1
 Otto, Johann Henrich	NA	NA	  1
 Liberalissimus Eliphaz	NA	NA	  1
 Hochmann Von Hochenau, Ernst Christoph	1728	NA	  1
@@ -13726,7 +13775,7 @@ Enslin, Georg Ernst	NA	NA	  1
 Briggs, Enos	NA	NA	  1
 Brevoort, Henry	NA	NA	  1
 Campbell, John P	NA	1690	  1
-Paulus Emilius	NA	NA	  1
+Emilius, Paulus	NA	NA	  1
 Son Of Freedom	NA	NA	  1
 Youth Of His Parish	NA	NA	  1
 Young Lady Who Was Late A Resident In That Unhappy Town	NA	NA	  1
@@ -13825,7 +13874,7 @@ Buckner, Samuel	NA	NA	  1
 Military Countryman	NA	NA	  1
 Abel, Thomas	NA	NA	  1
 Wante, Charles Etienne Pierre	NA	NA	  1
-Back Settler	NA	NA	  1
+Settler, Back	NA	NA	  1
 Venema, Pieter	NA	NA	  1
 Watkins, Robert	NA	NA	  1
 Watkins, John W	NA	NA	  1
@@ -13845,12 +13894,12 @@ Wheland	NA	NA	  1
 Young Woman In England	NA	NA	  1
 Derkinderen, James	NA	NA	  1
 Smith, John	1761	NA	  1
-Alius Et Idem	NA	NA	  1
+Idem, Alius	NA	NA	  1
 Pope, Joseph	NA	1784	  1
 Morgan, James	NA	1657	  1
 Drayton, John	NA	1742	  1
 American Citizen In Whose Heart The Amor Patriae Holds The Highest Place	NA	NA	  1
-A C-d	NA	NA	  1
+C-d, A	NA	NA	  1
 Hearsey, Freeman	NA	1782	  1
 F-l B-t	NA	NA	  1
 Ovid Americanus	NA	NA	  1
@@ -13859,7 +13908,7 @@ Best, William	NA	NA	  1
 Common Honesty	NA	NA	  1
 Tisdall, John	NA	NA	  1
 Rogers, Naomi	NA	NA	  1
-Ireneus Aletheian	NA	NA	  1
+Aletheian, Ireneus	NA	NA	  1
 Miner, John	NA	NA	  1
 General Officer	NA	NA	  1
 Crispianus	NA	NA	  1
@@ -13880,7 +13929,7 @@ Friend To The Congress	NA	NA	  1
 Brevitt, Joseph	NA	1827	  1
 Stevens, James Wilson	NA	NA	  1
 Davenport, Rufus	NA	NA	  1
-Durch Schaden Gewitzigtes Gemüth	NA	NA	  1
+Gemüth, Durch	NA	NA	  1
 Beete	NA	NA	  1
 Cranch, Robert Garland	NA	NA	  1
 Robbins, Ephraim	NA	NA	  1
@@ -13894,7 +13943,7 @@ Cox, Zachariah	NA	NA	  1
 Cox, Thomas	NA	NA	  1
 Farmer In The State Of The Massachusetts bay	NA	NA	  1
 Flanagan, Christopher	NA	NA	  1
-Aged Real Friend To The Rising Generation	NA	NA	  1
+Generation, Aged	NA	NA	  1
 Farmer Of Massachusetts	NA	NA	  1
 Holmes, Elkanah	NA	NA	  1
 Aethiopian	NA	NA	  1
@@ -13948,7 +13997,7 @@ Contemner Of Licentiousness	NA	NA	  1
 Kitchell, Aaron	NA	1743	  1
 Muchall, William	NA	NA	  1
 Sawrey, John	NA	NA	  1
-O, Dr	NA	NA	  1
+O , Dr	NA	NA	  1
 Bird, J	NA	NA	  1
 Gilson, Thomas	1781	NA	  1
 Author Of The Letter	NA	NA	  1
@@ -14021,7 +14070,7 @@ Grainger, Giles	NA	NA	  1
 Whatmore, Edward	NA	NA	  1
 Mark'em	NA	NA	  1
 Mellanby, Henry	NA	NA	  1
-Gallien De Salmorenc	NA	NA	  1
+Salmorenc, Gallien	NA	NA	  1
 Factor At Bombay	NA	NA	  1
 Tenent, William	NA	NA	  1
 Blondin, Jean-noël	NA	NA	  1
@@ -14037,7 +14086,7 @@ Millar, Margaret	NA	1726	  1
 Streit, Friedrich Wilhelm	NA	NA	  1
 Chapelain, Jean	NA	1545	  1
 J G D M F M	NA	NA	  1
-Ancien Lieutenant-colonel François	NA	NA	  1
+François, Ancien	NA	NA	  1
 Freval, De	NA	NA	  1
 D z	NA	NA	  1
 Nicolay, Ludwig Heinrich Von	NA	1780	  1
@@ -14105,7 +14154,7 @@ England, William	NA	NA	  1
 African Merchant	NA	NA	  1
 Beaumont, Charles	NA	NA	  1
 Young, George	NA	1799	  1
-ḣusain Ibn 'ali	NA	NA	  1
+'ali, ḣusain	NA	NA	  1
 Porter, Jasper	NA	NA	  1
 Under writer	NA	NA	  1
 Brandy-port, G	NA	NA	  1
@@ -14216,7 +14265,7 @@ Inhabitant Of Salford	NA	NA	  1
 W e C	NA	NA	  1
 Lancer, Edward	NA	NA	  1
 S G S S H	NA	NA	  1
-Author Of A Scheme For Establishing A Militia Of Volunteers	NA	NA	  1
+Volunteers, Author	NA	NA	  1
 Davies, E	NA	NA	  1
 Clapham, Thomas	NA	NA	  1
 Swaddling John	NA	NA	  1
@@ -14327,7 +14376,7 @@ Feist, P	NA	NA	  1
 Booth, John	NA	NA	  1
 Bell, Towers	NA	NA	  1
 Bartholomew, John	1645	NA	  1
-Brace Of White Greyhounds	NA	NA	  1
+Greyhounds, Brace	NA	NA	  1
 Hopes	NA	NA	  1
 Oxford Graduate	NA	NA	  1
 Close, Samuel	NA	NA	  1
@@ -14358,8 +14407,7 @@ Cowan, William	NA	NA	  1
 Haren, Willem Van	NA	NA	  1
 Muttukrishna	NA	NA	  1
 Sham-scribler	NA	NA	  1
-Quidnunccius Profundus	NA	NA	  1
-N J R K	NA	NA	  1
+Profundus, Quidnunccius	NA	NA	  1
 Watt, G	NA	NA	  1
 Idle Man	NA	NA	  1
 Gomes-sera, Jacob	NA	NA	  1
@@ -14429,7 +14477,7 @@ Unbeneficed Clergyman Of The Bishop Of London's Diocese	NA	NA	  1
 Mac Donald, Sawney	NA	NA	  1
 Orthodox Dissenter	NA	NA	  1
 Atton	NA	NA	  1
-Little Philosopher	NA	NA	  1
+Philosopher, Little	NA	NA	  1
 Stokes, Grace	NA	NA	  1
 Stanhope, Myles	NA	NA	  1
 Twaddle, Timothy	NA	NA	  1
@@ -14449,7 +14497,7 @@ P e John	NA	NA	  1
 Spencer, Oliph Leigh	NA	NA	  1
 Chauvet, François Siméon	NA	NA	  1
 Sprott, Thomas	NA	NA	  1
-Ebülgâzî Bahadir Han	1783	NA	  1
+Han, Ebülgâzî	1783	NA	  1
 Hardy, Thos	NA	NA	  1
 L'etang, Antoine De	NA	NA	  1
 Harikaṇa	NA	NA	  1
@@ -14477,7 +14525,7 @@ Lally Tollendal, Thomas Arthur De	NA	NA	  1
 Ibn Taghrībirdī, Abū Al-maḥāsin Yūsuf	1699	NA	  1
 Student In The Coelestial Sciences	NA	NA	  1
 Muss, Boniface	NA	NA	  1
-Abū Al-fidā'ismā'īl Ibn 'ali	NA	NA	  1
+'ali, Abū	NA	NA	  1
 Godschall, William Man	NA	NA	  1
 Fergusson, John	NA	NA	  1
 June, John	NA	NA	  1
@@ -14502,7 +14550,7 @@ Author Of The Late Exhortation To Them	NA	NA	  1
 Author Of The Life And Reign Of Henry Vi	NA	NA	  1
 Duncan, Matthew	NA	NA	  1
 Ami De La Patrie	NA	NA	  1
-Young Author	NA	NA	  1
+Author, Young	NA	NA	  1
 Hagerman, Christianus	NA	NA	  1
 Arlond	NA	NA	  1
 Flloyd, Thomas	NA	NA	  1
@@ -14556,7 +14604,7 @@ Brehm, D	NA	NA	  1
 Brazen	NA	NA	  1
 Dunkirk	NA	NA	  1
 Borthwick	NA	NA	  1
-Agricola Candidus	NA	NA	  1
+Candidus, Agricola	NA	NA	  1
 Drewitt, Thomas	NA	1800	  1
 Boucher, James	NA	NA	  1
 Bevell, James	NA	NA	  1
@@ -14581,7 +14629,7 @@ Etherington, Rich	NA	NA	  1
 Dear heart Philo	NA	NA	  1
 Lamborn, Thomas	NA	NA	  1
 Douglas, M	NA	NA	  1
-Bobby All-butt	NA	NA	  1
+All-butt, Bobby	NA	NA	  1
 T w	NA	NA	  1
 Marsollier, Jacques	1637	NA	  1
 Huse, T	NA	NA	  1
@@ -14788,7 +14836,7 @@ Stewart, Rachel	NA	NA	  1
 Rotheram, Anne	NA	NA	  1
 Browne, Ralph	NA	NA	  1
 Biddulph, Nicholas	NA	NA	  1
-Le Coq Madeleine	NA	NA	  1
+Madeleine, Le	NA	NA	  1
 M L D **	NA	NA	  1
 Kill-care	NA	NA	  1
 Renton, Thomas	NA	NA	  1
@@ -14804,7 +14852,7 @@ Hoghton, G	NA	NA	  1
 Cliff	NA	NA	  1
 Onnen, Johann	NA	NA	  1
 Vidampierre	NA	NA	  1
-Pascal De Lagouthe	NA	NA	  1
+Lagouthe, Pascal	NA	NA	  1
 Brühl, Hans Moritz	NA	1761	  1
 Officer On Board The Russian Fleet	NA	NA	  1
 Sandys, Francis	NA	NA	  1
@@ -14947,7 +14995,7 @@ Nobody Mr	NA	NA	  1
 Milliken, John	NA	NA	  1
 Haliday, William	NA	NA	  1
 Needham, W	NA	NA	  1
-Plancher Valcourt	NA	1672	  1
+Valcourt, Plancher	NA	1672	  1
 Target, Guy-jean-baptiste	NA	1739	  1
 Willson, William	NA	NA	  1
 Harrison, Gustavus	NA	NA	  1
@@ -15007,7 +15055,7 @@ Hauxley, Edward	NA	NA	  1
 Bentley, John	NA	NA	  1
 Nemesini, Vittorio	NA	NA	  1
 Le Fort, Louis François Isidore	NA	NA	  1
-Mublo Puppso	NA	NA	  1
+Puppso, Mublo	NA	NA	  1
 Hoamchi-vam	NA	NA	  1
 Vicarius	NA	NA	  1
 Cristall, Ann Batten	NA	NA	  1
@@ -15039,7 +15087,7 @@ Cathcart, James	NA	NA	  1
 De Gols, Conrade	NA	1738	  1
 Bor, Gerard	NA	NA	  1
 Alcock, William	NA	NA	  1
-Tuus Inimicus	NA	NA	  1
+Inimicus, Tuus	NA	NA	  1
 Duplain, Claude	NA	NA	  1
 Pilgrim, Edward Trapp	NA	NA	  1
 Vernon, William	NA	NA	  1
@@ -15125,7 +15173,7 @@ Parrish, John	NA	NA	  1
 Funidos, Rigdum	NA	NA	  1
 Diagoras	NA	NA	  1
 Edensor, William	NA	NA	  1
-Menasseh Ben Mirrash	NA	NA	  1
+Mirrash, Menasseh	NA	NA	  1
 Younger Brother	NA	NA	  1
 Dukes, Nicholas	NA	NA	  1
 Private Volunteer	NA	NA	  1
@@ -15256,7 +15304,7 @@ Duval	NA	NA	  1
 No body Nicholas	NA	NA	  1
 Flemming, John	NA	NA	  1
 Lanteires, Jean	NA	NA	  1
-Prentice That Is Troubled With A Stingy Mistress	NA	NA	  1
+Mistress, Prentice	NA	NA	  1
 Smackum Whackum	NA	NA	  1
 Goulon, Louis	NA	NA	  1
 Suxspeach, John	NA	NA	  1
@@ -15363,8 +15411,8 @@ Brome, John	NA	NA	  1
 Bolton, Joseph	NA	NA	  1
 Baldwyn, Samuel	NA	NA	  1
 Arbuthnot, George	NA	NA	  1
-Dean Jonathan	NA	NA	  1
-Displac'd Courtier	NA	NA	  1
+Jonathan, Dean	NA	NA	  1
+Courtier, Displac'd	NA	NA	  1
 Van-loon	NA	NA	  1
 Author Of ****	NA	NA	  1
 Buchanan, Gilbert	NA	NA	  1
@@ -15387,7 +15435,7 @@ Jacobs, Stephen Ludwig	NA	NA	  1
 Gans, Jacobus	NA	NA	  1
 Author Of The Suspicious Lovers	NA	NA	  1
 Lara, Catherine	NA	NA	  1
-Lasne D'aiguebelle	NA	NA	  1
+D'aiguebelle, Lasne	NA	NA	  1
 Crosfeild, Francis	NA	NA	  1
 Sommervail, David	NA	NA	  1
 Pitt, George	NA	NA	  1
@@ -15634,7 +15682,7 @@ Perrott, George	NA	NA	  1
 Chown, William	NA	NA	  1
 Spavens, William	NA	NA	  1
 Archer, Addis	NA	NA	  1
-Seran De La Tour	NA	NA	  1
+Tour, Seran	NA	NA	  1
 Saldern, Friedrich Christoph Von	1759	NA	  1
 Shandy	NA	NA	  1
 Birchall, Samuel	NA	NA	  1
@@ -15647,7 +15695,7 @@ Birch, George	NA	NA	  1
 Syeds, John	NA	NA	  1
 Greensword, J	NA	NA	  1
 Cockell, Teesdale	NA	NA	  1
-Deva Dāla	NA	NA	  1
+Dāla, Deva	NA	NA	  1
 Stmitrk	NA	NA	  1
 Frankeleyn, William	NA	NA	  1
 Park, H	NA	1794	  1
@@ -15670,7 +15718,7 @@ One Of The Prime Ministers Of That Court	NA	NA	  1
 Jones, Frederick	NA	NA	  1
 Nivelon, François	NA	NA	  1
 Lowe, Andrew	NA	NA	  1
-Le Brun	NA	NA	  1
+Brun, Le	NA	NA	  1
 Laborde, Jean Benjamin De	NA	NA	  1
 Burrow, Edward	NA	NA	  1
 Jarnac, Charles Rosalie De Rohan-chabot	NA	NA	  1
@@ -15731,7 +15779,7 @@ Hedges, John	NA	NA	  1
 Taylor, Benjamin	NA	NA	  1
 Hodges, W	NA	NA	  1
 Durban, Jean Baptiste Bertrand	NA	NA	  1
-Buchet Du Pavillon	NA	NA	  1
+Pavillon, Buchet	NA	NA	  1
 Turner, David	NA	NA	  1
 Orem, William	NA	NA	  1
 Astrologus	NA	NA	  1
@@ -15850,7 +15898,7 @@ Rees, Thomas David	NA	NA	  1
 Officer Who Served Last War In America	NA	NA	  1
 Tompson, Philippe	NA	NA	  1
 One Of The Body Of The Roman Catholics Of Ireland	NA	NA	  1
-Armand De Conti Bourbon	NA	NA	  1
+Bourbon, Armand	NA	NA	  1
 Moule, Henry	NA	NA	  1
 Reeves, Eliza	NA	NA	  1
 Cotes, Robert	NA	NA	  1
@@ -15908,7 +15956,7 @@ L'estrange, Henry	NA	NA	  1
 Polignac, Diane	NA	NA	  1
 Veritable Patriote Hollandois	NA	NA	  1
 Veritable Patriote	NA	NA	  1
-La Torre	NA	NA	  1
+Torre, La	NA	NA	  1
 Angloise	NA	NA	  1
 Curray, Edward	NA	NA	  1
 Citizen Of Corke	NA	NA	  1
@@ -15934,13 +15982,12 @@ Lover Of Truth And Impartiality	NA	NA	  1
 Grant, William	1781	NA	  1
 Ouiseau, J	1645	NA	  1
 Sammarco, Ottavio	NA	NA	  1
-C D R T X	NA	NA	  1
 Oldbottom, Obadiah	NA	NA	  1
 Shuttle, Thomas	NA	NA	  1
 Mayor Of The Antient Borough Of Guzzle down	NA	NA	  1
 Incognitus	NA	NA	  1
 Pimlot, James	NA	NA	  1
-Dungannon And Munster Delegate	NA	NA	  1
+Delegate, Dungannon	NA	NA	  1
 Perry, Richard Vining	NA	NA	  1
 Braddyll, John	NA	NA	  1
 Grazier	NA	NA	  1
@@ -15991,7 +16038,7 @@ Parker, Margaret	NA	NA	  1
 Harvey, Edward	NA	NA	  1
 Cornewall, Francis	NA	NA	  1
 Bowles, William	NA	NA	  1
-Du Couëdic	NA	1776	  1
+Couëdic, Du	NA	1776	  1
 Author Of Villeroy	NA	NA	  1
 Grosett, Charles	NA	NA	  1
 Eagleston, John	NA	NA	  1
@@ -16064,7 +16111,7 @@ Lambe, Thomas	NA	NA	  1
 Pickman, Cha	NA	NA	  1
 Dennett, R	NA	NA	  1
 Hacker, Thomas	NA	NA	  1
-Le Wright	NA	NA	  1
+Wright, Le	NA	NA	  1
 Wedderburn, R	NA	NA	  1
 Minister Of This Church	NA	NA	  1
 Philolutherus	NA	NA	  1
@@ -16122,7 +16169,7 @@ Mccannon, John	NA	NA	  1
 Gainsford, Sarah	NA	NA	  1
 L C M******	NA	NA	  1
 Lyde, Nehemiah	NA	NA	  1
-Gauthier De Simpré	NA	NA	  1
+Simpré, Gauthier	NA	NA	  1
 O'dunn	NA	NA	  1
 Photinus	NA	NA	  1
 Whig Gentleman In The Country	NA	NA	  1
@@ -16167,6 +16214,7 @@ Butler, S	NA	NA	  1
 Hawkins, Isaac	NA	NA	  1
 Lafitte, Pierre Michel	NA	NA	  1
 Dawson, Eli	NA	NA	  1
+D	NA	1763	  1
 Bell, Edward	NA	NA	  1
 Boswell, John Whittley	NA	NA	  1
 Nelson, S	NA	NA	  1
@@ -16234,19 +16282,18 @@ Modern Tory	NA	NA	  1
 Boone, Susanna	NA	NA	  1
 Palmer, Joseph	NA	NA	  1
 Kirkpatrick, Robert	NA	NA	  1
-Esprit Fort	NA	NA	  1
+Fort, Esprit	NA	NA	  1
 Du Barry, Jeanne Bécu	NA	NA	  1
 Cooper, Christopher	NA	NA	  1
 Hart, Christian	NA	NA	  1
-J	NA	NA	  1
 Frost, Benjamin	NA	1765	  1
 Callander, Adam	NA	NA	  1
-Sophia Charlotte	NA	NA	  1
+Charlotte, Sophia	NA	NA	  1
 Sturch, William	1502	NA	  1
 Rudd, James	NA	NA	  1
 Garner, St	NA	NA	  1
 Orthodoxus	NA	NA	  1
-Salīm Allāh	NA	NA	  1
+Allāh, Salīm	NA	NA	  1
 Clement, Aurelius	NA	NA	  1
 Bull, Patrick	NA	NA	  1
 Gentleman Lately Arrived From That Colony	NA	NA	  1
@@ -16259,7 +16306,7 @@ Ollive, Joseph	NA	1771	  1
 Caddel, Robert	NA	NA	  1
 Rouire, Jean	NA	NA	  1
 Jeffery, Robert	NA	NA	  1
-Lincolnshire Grasier	NA	NA	  1
+Grasier, Lincolnshire	NA	NA	  1
 Cornell, William	NA	NA	  1
 G J J B D D O P S M B D J C	NA	NA	  1
 Wright, Abraham Ben Little	NA	NA	  1
@@ -16364,7 +16411,7 @@ Mann, W	NA	NA	  1
 Moffat, Margaret	NA	NA	  1
 Maningford, John	NA	NA	  1
 Parkinson	NA	NA	  1
-Old Man	NA	NA	  1
+Man, Old	NA	NA	  1
 Wilde, J	NA	NA	  1
 Freeman, Charles	NA	NA	  1
 Manby, Robert	NA	NA	  1
@@ -16412,7 +16459,7 @@ Julian, Robert	NA	NA	  1
 Instone, Sarah	NA	NA	  1
 Glascott, Cradock	NA	NA	  1
 Girrard, J	NA	NA	  1
-Calvinus Minor	NA	NA	  1
+Minor, Calvinus	NA	NA	  1
 Robins, John	NA	NA	  1
 Sugar cane Roger	NA	NA	  1
 Overton, Benjamin	NA	NA	  1
@@ -16450,11 +16497,11 @@ Johnston, George Milligen	NA	NA	  1
 Fleming, Francis	NA	NA	  1
 Friend Of The Revd W Gilpin	NA	NA	  1
 Member Of The Antient Society Of Free masons	NA	NA	  1
-Silent Senator	NA	NA	  1
+Senator, Silent	NA	NA	  1
 M d Jn	NA	NA	  1
 Neophytus	NA	NA	  1
 Morgan, John Pilkington	1737	NA	  1
-Welch Attorney	NA	NA	  1
+Attorney, Welch	NA	NA	  1
 Aurangzeb	NA	1830	  1
 Morland, Thomas Hornby	NA	NA	  1
 Hunter, John	NA	1749	  1
@@ -16508,7 +16555,7 @@ Giles, Joseph	NA	NA	  1
 Friend To The Constitution To The Royal Family	NA	NA	  1
 Member Of The Amicable Society	NA	NA	  1
 Female Hand	NA	NA	  1
-Aḣmad Ibn Muḣammad	NA	NA	  1
+Muḣammad, Aḣmad	NA	NA	  1
 Downing, John	NA	NA	  1
 Tailfer, Robert	NA	NA	  1
 Crito	NA	NA	  1
@@ -16550,7 +16597,7 @@ Mac sturdy Hercules	NA	NA	  1
 Invalid	NA	NA	  1
 Gardiner, John Smallman	NA	NA	  1
 Docultree, Amos	NA	NA	  1
-Person Who Has Bred Canary Birds	NA	NA	  1
+Person Who Has Bred Canary Birds Several Years	NA	NA	  1
 Amicissimus	NA	NA	  1
 Duell, William	NA	NA	  1
 Mason, Richard Oswald	NA	NA	  1
@@ -16612,8 +16659,9 @@ Monensis	NA	NA	  1
 Popgun, Peter	NA	NA	  1
 Martin, Eugene	NA	NA	  1
 Physician In The Country	NA	NA	  1
+D	NA	1772	  1
 Gentleman Of The Bank	NA	NA	  1
-Italian Gentleman	NA	NA	  1
+Gentleman, Italian	NA	NA	  1
 North country Gentleman	NA	NA	  1
 Paley, John	NA	1742	  1
 Pajot Des Charmes, C	NA	NA	  1
@@ -16668,9 +16716,10 @@ Rawbone, Thomas	NA	NA	  1
 Ravaillac, François	NA	1750	  1
 Rāzī, Abū Bakr Muḥammad Ibn Zakarīyā	NA	1758	  1
 Muhammad Ali Khan, Umdat Al-muk Anwar Al-din	NA	1730	  1
-ʿabd Al-razzāk	NA	NA	  1
+Al-razzāk, ʿabd	NA	NA	  1
 Rauthmell, Richard	NA	NA	  1
 Mustaʿidd Khān, Muḥammad Sāqī	NA	1780	  1
+Liveryman, Brother	NA	NA	  1
 Packe, Edmund	NA	NA	  1
 Jeston, Humphrey	NA	1788	  1
 Author Of The Alchymist	NA	NA	  1
@@ -16701,7 +16750,7 @@ Sherburne, John	NA	NA	  1
 Pickersgill, Richard	NA	1782	  1
 Marriott, Charles	NA	NA	  1
 Avery, Sarah	NA	NA	  1
-Valleton De Boissière	NA	NA	  1
+Boissière, Valleton	NA	NA	  1
 Pechel, Samuel	NA	NA	  1
 German, Thomas	NA	NA	  1
 Geresteo, Aurisco	NA	NA	  1
@@ -16769,7 +16818,7 @@ Lover Of Humanity And A Friend To Learning	NA	NA	  1
 Zealous Assertor	NA	NA	  1
 Friend Of The Public	NA	NA	  1
 Wellwisher To Souls	NA	NA	  1
-Semper Anonimus	NA	NA	  1
+Anonimus, Semper	NA	NA	  1
 Jacques, Charles Austen	NA	NA	  1
 Aubrey, T	NA	NA	  1
 Aubry, James Philip	NA	NA	  1
@@ -16777,7 +16826,7 @@ Aubigny, Jacques D'	NA	NA	  1
 Barville, John	NA	NA	  1
 Bingley, William	NA	1839	  1
 Frenchman At Paris	NA	NA	  1
-Pleader For The Rights Of The People	NA	NA	  1
+People, Pleader	NA	NA	  1
 Pontoppidan, Erich	1703	NA	  1
 Vitellini, Domenico Aurelio	NA	NA	  1
 Montpensier	NA	1631	  1
@@ -16819,7 +16868,7 @@ Baring, Charles	NA	NA	  1
 Ainsworth, Thomas	NA	NA	  1
 Shopkeeper	NA	NA	  1
 True born Irishman	NA	NA	  1
-Beneficed Clergyman	NA	NA	  1
+Clergyman, Beneficed	NA	NA	  1
 Blackall, Theophilus	NA	NA	  1
 Bartlett, Jeffrey	NA	NA	  1
 Serle, John	NA	NA	  1
@@ -16858,7 +16907,7 @@ Driscol, Paddy	NA	NA	  1
 Battle, Robert Gray	NA	NA	  1
 Sutherland, Patrick	NA	NA	  1
 Alderman	NA	NA	  1
-Frère ****	NA	NA	  1
+****, Frère	NA	NA	  1
 Matius	NA	NA	  1
 Mears, Abraham	NA	NA	  1
 Salopian Butcher	NA	NA	  1
@@ -16877,7 +16926,6 @@ Sc rl ck	NA	NA	  1
 Scriblerus, Simon	NA	NA	  1
 Castellane, Michel Ange	NA	NA	  1
 Harper, Thomas	NA	NA	  1
-A D R S	NA	NA	  1
 Disgusted Brother	NA	NA	  1
 Clergyman In London	NA	NA	  1
 Réquisitionnaire	NA	NA	  1
@@ -16923,7 +16971,7 @@ Keating, Henry S	NA	1788	  1
 Author Of The Dialogue In The Gardens Of Luxemburg	NA	NA	  1
 Stanley, D	NA	NA	  1
 Philos Aletheios	NA	NA	  1
-Linen Manufacturer	NA	NA	  1
+Manufacturer, Linen	NA	NA	  1
 Foreign Minister At The Hague	NA	NA	  1
 Munster Layman	NA	NA	  1
 Vindicator	NA	NA	  1
@@ -16985,7 +17033,7 @@ Gentleman Of The Church Of Scotland	NA	NA	  1
 Gentleman Concerned In Neither Bank	NA	NA	  1
 Weldon, James	NA	NA	  1
 Proctor, Benjamin	NA	NA	  1
-Allegier De Vassol	NA	NA	  1
+Vassol, Allegier	NA	NA	  1
 Clyde, James	NA	NA	  1
 Jackson, Maria Elizabeth	NA	NA	  1
 Minister Of The Church	NA	NA	  1
@@ -17071,7 +17119,7 @@ Mervyn, Arthur	NA	NA	  1
 Strong, James	NA	NA	  1
 Spencer, George	NA	NA	  1
 Vane, William Holles	NA	1832	  1
-Henry Vane	NA	1748	  1
+Vane, Henry	NA	1748	  1
 Gregory, Susanna	NA	NA	  1
 Francis, Henry	NA	NA	  1
 Ripley, James	1781	NA	  1
@@ -17335,7 +17383,7 @@ Aram, Thomas	NA	NA	  1
 Wharton, Louisa	NA	NA	  1
 Winkfield, Unca Eliza	NA	NA	  1
 Dubé, Paul	NA	NA	  1
-La Favrye	NA	NA	  1
+Favrye, La	NA	NA	  1
 Chaloner, Thomas	NA	NA	  1
 Hopkins, John	NA	1783	  1
 Hasell, John	NA	NA	  1
@@ -17373,12 +17421,12 @@ Merchant At Amsterdam	NA	NA	  1
 Routh	NA	NA	  1
 Wiseman, Mary	NA	NA	  1
 Weatherall, W	NA	NA	  1
-Buck Of The First Order	NA	NA	  1
+Order, Buck	NA	NA	  1
 Hamlet, William	NA	NA	  1
 Wilding, Willm	NA	NA	  1
 Rigge, John	NA	NA	  1
 Welwisher Of Church And State	NA	NA	  1
-Antininny T	NA	NA	  1
+Antininny	NA	NA	  1
 Preston, Robert	NA	NA	  1
 Macneven, William James	1687	NA	  1
 Lady Late Of Mitcham	NA	NA	  1
@@ -17399,7 +17447,7 @@ Person Lately Deceased	NA	NA	  1
 Robinson, Arthur	NA	NA	  1
 Goddard, Ezekiel	NA	NA	  1
 Doctor Of Divinity In The Church	NA	NA	  1
-Field Marshal	NA	NA	  1
+Marshal, Field	NA	NA	  1
 Owaneko	NA	NA	  1
 Seymour, Claudius	NA	NA	  1
 Innes, James Dunbar	NA	NA	  1
@@ -17596,7 +17644,7 @@ Widow Lady	NA	NA	  1
 Wander, Jack	NA	NA	  1
 Preacher And Penitent	NA	NA	  1
 Francis, Clement	NA	NA	  1
-Farmer's Son	NA	NA	  1
+Son, Farmer's	NA	NA	  1
 Skinn, Ann Emelinda	1749	NA	  1
 Rich, W P	NA	NA	  1
 Machay, Archibald	NA	NA	  1
@@ -17704,6 +17752,7 @@ Man, Thomas	NA	NA	  1
 Place	NA	NA	  1
 Young Gentleman Of Hampstead	NA	NA	  1
 Gentleman Of C st C h Oxon	NA	NA	  1
+G	NA	1773	  1
 Divine Of No Church	NA	NA	  1
 Friend To Hanover Tho' An Englishman	NA	NA	  1
 Eyles, John	NA	NA	  1
@@ -17739,7 +17788,7 @@ Protestant Brother	NA	NA	  1
 Argent, Isaac-ʹetienne D'	NA	NA	  1
 Démeunier	NA	1835	  1
 Dunthorn, John	NA	NA	  1
-Abbʹe P*****	NA	NA	  1
+P*****, Abbʹe	NA	NA	  1
 L V D B	NA	NA	  1
 Pons De Verdun, Philippe-laurent	NA	NA	  1
 Officer Of Excise At Dumfries	NA	NA	  1
@@ -17768,7 +17817,7 @@ Lorme	NA	NA	  1
 Saint-germain, G D	NA	NA	  1
 Bury, Richard Girard De	NA	1819	  1
 Avocat général De ***	NA	NA	  1
-Doigny Du Ponceau	NA	1816	  1
+Ponceau, Doigny	NA	1816	  1
 Broom, Thomas	NA	NA	  1
 Magowan, P	NA	NA	  1
 Stewart, Alexander	1740	NA	  1
@@ -17783,7 +17832,7 @@ Ménard, Philippe	NA	NA	  1
 Humphry, William	NA	NA	  1
 Ball, Roger	NA	NA	  1
 Jadelot	NA	NA	  1
-Saint Jean	NA	NA	  1
+Jean, Saint	NA	NA	  1
 Davis, T	NA	NA	  1
 Heathcote, Charles	NA	NA	  1
 Fay, Patrick	NA	NA	  1
@@ -17908,7 +17957,7 @@ Erskine, Margaret	NA	NA	  1
 Stewart, Grissel	NA	NA	  1
 Struve, Jacobus Bernardus	NA	NA	  1
 Brown, John	1645	NA	  1
-Sinfrey De Villiers	NA	NA	  1
+Villiers, Sinfrey	NA	NA	  1
 Mccubine, Fergus	NA	NA	  1
 Aikman, Christian	NA	NA	  1
 Lethem, Thomas	NA	NA	  1
@@ -17935,7 +17984,7 @@ Probert, John	NA	NA	  1
 Jack, Archibald	NA	NA	  1
 Haig, George	NA	NA	  1
 Maxwell, Agnes	NA	NA	  1
-Thomas Busy Body	NA	NA	  1
+Body, Thomas	NA	NA	  1
 Phileleutherus Christianus	NA	NA	  1
 Real Friend To The Charity And The Poor	NA	NA	  1
 Montgomery, Quintin	NA	NA	  1
@@ -18039,7 +18088,7 @@ Young Mind	NA	NA	  1
 Kibble, James	NA	NA	  1
 Gifford, Isabel	NA	NA	  1
 Ralston, Walter	NA	NA	  1
-Le Ray	NA	NA	  1
+Ray, Le	NA	NA	  1
 Gardner, Matthew	NA	NA	  1
 Cleghorn, John	NA	NA	  1
 Burrows, Alexander	NA	NA	  1
@@ -18095,7 +18144,7 @@ Portuguese Officer	NA	NA	  1
 Rusticus, D	NA	NA	  1
 Rappitt, John	NA	NA	  1
 Cassent, Joseph	NA	NA	  1
-Du Bison	NA	NA	  1
+Bison, Du	NA	NA	  1
 Friend To Youth	NA	NA	  1
 Nowlan, Edmund	NA	NA	  1
 Meyers, Jacob	NA	NA	  1
@@ -18133,7 +18182,7 @@ Ross, Samuel	NA	1759	  1
 Strange, Jack	NA	NA	  1
 Huber, John-james	NA	NA	  1
 Teazle, Tom	NA	NA	  1
-Médecin Anglais	NA	NA	  1
+Anglais, Médecin	NA	NA	  1
 Smith, James	NA	1772	  1
 Martindale, John	NA	NA	  1
 Dalby, Richard	NA	NA	  1
@@ -18204,7 +18253,7 @@ Bontein, Thomas	NA	NA	  1
 Portsmouth, Henry	NA	1780	  1
 Minty, George	NA	NA	  1
 Marxwell, Pill	NA	NA	  1
-Alderman Of The City Of Dublin	NA	NA	  1
+Dublin, Alderman	NA	NA	  1
 Scot, Andrew	NA	NA	  1
 Firth, J	NA	NA	  1
 Freind To Truth	NA	NA	  1
@@ -18214,7 +18263,7 @@ M r W	NA	NA	  1
 Maddison, J	NA	NA	  1
 Cockburn, Thomas	NA	NA	  1
 Scotus	NA	NA	  1
-Burgess And Framework-knitter	NA	NA	  1
+Framework-knitter, Burgess	NA	NA	  1
 Antigalican	NA	NA	  1
 Mactavish, Dougal	NA	NA	  1
 Maclauchlan, Kenneth	NA	NA	  1
@@ -18304,7 +18353,7 @@ Dickson, Thomas	NA	NA	  1
 Author Of The First And Second	NA	NA	  1
 Leoni	NA	NA	  1
 Coleman, Mary	NA	NA	  1
-King Crispin	NA	NA	  1
+Crispin, King	NA	NA	  1
 Campbell, Archibald	NA	1793	  1
 Well Wisher To Society	NA	NA	  1
 Woodhouse, G	NA	NA	  1
@@ -18321,14 +18370,14 @@ Stolterfoht, John	NA	NA	  1
 Moors, John	NA	NA	  1
 Archididascalos, Coeruleus	NA	NA	  1
 Bourk, James	NA	NA	  1
-Bachelor In The College	NA	NA	  1
+College, Bachelor	NA	NA	  1
 Mackay, A	NA	NA	  1
 Johnston, Edward	NA	NA	  1
 Platt, Ebenezer Smith	NA	NA	  1
 Snip, Simon	NA	NA	  1
 Hipworth, Mary	NA	NA	  1
 Frossard, Benjamin-sigismond	NA	NA	  1
-Durham Layman	NA	NA	  1
+Layman, Durham	NA	NA	  1
 Independent Citizen Of Glasgow	NA	NA	  1
 Strasburgh, Solomon	NA	NA	  1
 Smyth, Robert	NA	NA	  1
@@ -18346,11 +18395,12 @@ Barnet, Joel	NA	NA	  1
 Yeoward, Richard	NA	NA	  1
 Leviti, Augustin	NA	NA	  1
 Enemy To Tyrants	NA	NA	  1
-Northumberland Freeholder	NA	NA	  1
+Freeholder, Northumberland	NA	NA	  1
 Walmsley, John	NA	NA	  1
 Lessac	NA	NA	  1
 Elmgren, Johan	NA	NA	  1
 Swit, William	NA	NA	  1
+R	NA	1773	  1
 Manesty, Joseph	NA	NA	  1
 Quondam Brother Councilman	NA	NA	  1
 Murray, L	NA	NA	  1
@@ -18362,7 +18412,6 @@ Hepburn, Janet	NA	NA	  1
 Saint-hulet	NA	NA	  1
 B n R t	NA	NA	  1
 Society Of Gentlemen	NA	NA	  1
-C	NA	NA	  1
 Charges	NA	NA	  1
 Gérard, François	NA	NA	  1
 Broomfield, Andrew	NA	NA	  1
@@ -18423,7 +18472,7 @@ Hartcup, Thomas	NA	NA	  1
 Blythe	NA	NA	  1
 Feilding, Israel	NA	NA	  1
 Lewes, Thomas	NA	NA	  1
-Johannes Clericus	NA	NA	  1
+Clericus, Johannes	NA	NA	  1
 Harreott, George	NA	NA	  1
 Fitz-gerrold, George Robert	NA	NA	  1
 Guion, Ann	NA	NA	  1
@@ -18435,7 +18484,7 @@ Hallilay, N	NA	NA	  1
 Phippard, Pinnell	NA	NA	  1
 Ibbecken, H L	NA	NA	  1
 Ore, T	NA	NA	  1
-Brown Dig-m	NA	NA	  1
+Dig-m, Brown	NA	NA	  1
 Hoggan, James	NA	NA	  1
 Mitchell, Samuel	NA	NA	  1
 Hedderwick, Thomas	NA	NA	  1
@@ -18454,7 +18503,7 @@ Pitts, Matthew	NA	NA	  1
 Fordyce, Thomas	NA	NA	  1
 Hanway, William	NA	NA	  1
 Porteous, Andrew	NA	NA	  1
-Weedonian Bard	NA	NA	  1
+Bard, Weedonian	NA	NA	  1
 Burton, Cornelius	NA	NA	  1
 Middleton, Robert	NA	NA	  1
 Lay Gentleman	NA	NA	  1
@@ -18688,7 +18737,7 @@ Friend To Liberty In Its True Light	NA	NA	  1
 Booth, Jonathan	NA	NA	  1
 Mellin, Abraham	NA	NA	  1
 Young, C	NA	NA	  1
-Dispensary And Humane Society	NA	NA	  1
+Society, Dispensary	NA	NA	  1
 Mellin	NA	NA	  1
 Higgenbroccius, Gerardus	NA	NA	  1
 Haig, James	NA	NA	  1
@@ -18752,7 +18801,7 @@ Anderson, William	NA	1793	  1
 Arrowsmith, Thomas	NA	NA	  1
 Cushnie, Alexander	NA	NA	  1
 Vernor, Thomas	NA	1793	  1
-Verovicensis Senescens	NA	NA	  1
+Senescens, Verovicensis	NA	NA	  1
 Mccallum, Neil	NA	NA	  1
 Gurney, Bartlett	NA	NA	  1
 Jameson, William	1728	NA	  1
@@ -18835,7 +18884,7 @@ Andrews, Elizabeth	NA	NA	  1
 Paterson, Peter	NA	NA	  1
 True	NA	NA	  1
 Fau, Antoine Jean	NA	NA	  1
-Country Pastor	1776	NA	  1
+Pastor, Country	1776	NA	  1
 Cork Associate	NA	NA	  1
 Brison, William	NA	NA	  1
 Carson, George	NA	NA	  1
@@ -18895,7 +18944,7 @@ De Souza, Anthony	NA	NA	  1
 Mabon, Robert	NA	NA	  1
 Nun, Joshua	NA	NA	  1
 Campbell, Anne	NA	NA	  1
-Connundrum Pantomime	NA	NA	  1
+Pantomime, Connundrum	NA	NA	  1
 Aubineau-duplessis	NA	NA	  1
 Gentleman In Cork	NA	NA	  1
 Bartleman, James	NA	NA	  1
@@ -18923,7 +18972,7 @@ Macjorrow, William	NA	NA	  1
 Ward Of Birmingham, William Humble	NA	1726	  1
 Cheislie, Samuel	NA	NA	  1
 St Clair, Sarah	NA	NA	  1
-O Rorke	NA	NA	  1
+Rorke, O	NA	NA	  1
 Gordon, Patrick	NA	NA	  1
 Moffat, Patrick	NA	NA	  1
 Kinloch, James	NA	1792	  1
@@ -19017,13 +19066,13 @@ Caster, Georgiana	NA	NA	  1
 Chisholm, William	NA	1817	  1
 Wiseman, Benjamin	NA	NA	  1
 Balfour, David Hay	NA	NA	  1
-Young Divine	NA	NA	  1
+Divine, Young	NA	NA	  1
 Valentine, Alexander	NA	NA	  1
 Thames And Severn Canal Navigation	NA	NA	  1
 Beattie, Thomas	NA	NA	  1
 Mcausland, Archibald	NA	NA	  1
 Patrick, David	NA	NA	  1
-Burgess And A Friend To His King And Country	NA	NA	  1
+Country, Burgess	NA	NA	  1
 Brown, Edward	NA	NA	  1
 Folliott, George	NA	NA	  1
 Selkrig, Robert	NA	NA	  1
@@ -19271,7 +19320,7 @@ Seaman's Friend	NA	NA	  1
 Cooke, Henry	NA	NA	  1
 Mathieson, John	NA	NA	  1
 Maclean, Hugh	NA	NA	  1
-Cobbler In Patrick-street	NA	NA	  1
+Patrick-street, Cobbler	NA	NA	  1
 Copley, Thomas	NA	NA	  1
 Healey, George	NA	NA	  1
 Baynes, W	NA	NA	  1
@@ -19376,7 +19425,7 @@ Crichton, Janet	NA	NA	  1
 Leishman, Thomas	NA	NA	  1
 Person Under Confinement	NA	NA	  1
 Tiffin, Benjamin	NA	NA	  1
-Zamir Albermaky	NA	NA	  1
+Albermaky, Zamir	NA	NA	  1
 Adams, Prudence	NA	NA	  1
 Connor, George	NA	NA	  1
 Mansergh, James	NA	NA	  1
@@ -19385,7 +19434,7 @@ Main, James	NA	NA	  1
 Borrett, Edward	NA	NA	  1
 Borrett, Trevor	NA	NA	  1
 Adolphus, Jacob	NA	NA	  1
-Peregrin Post	NA	NA	  1
+Post, Peregrin	NA	NA	  1
 Arthur, James	NA	NA	  1
 Bigger, William	NA	NA	  1
 O'donnell, Richard	NA	NA	  1
@@ -19405,7 +19454,7 @@ Townshend, Richard	NA	NA	  1
 Hartwell, Brodrick	NA	NA	  1
 King, R	NA	NA	  1
 Pepper, Anna	NA	NA	  1
-Herodotus Hodiernus	NA	NA	  1
+Hodiernus, Herodotus	NA	NA	  1
 Barwick, George	NA	NA	  1
 Lyall, Alexander	NA	NA	  1
 Brown, William	NA	1793	  1
@@ -19422,7 +19471,7 @@ Teasdale, John	1786	NA	  1
 Mitchell, Gulielmus	NA	NA	  1
 Hall, Henricus	NA	NA	  1
 Madgwick, W	NA	NA	  1
-Simple Layman	NA	NA	  1
+Layman, Simple	NA	NA	  1
 Red Hot	NA	NA	  1
 School boy At Eton	NA	NA	  1
 Wilkie, J	NA	1708	  1
@@ -19546,7 +19595,7 @@ Arcedeckne, Nicholas	NA	NA	  1
 Inhabitant Of Belfast	NA	NA	  1
 Wylie, James	NA	1708	  1
 Belzebub	NA	NA	  1
-Laique De L'eglise Anglicane	NA	NA	  1
+Anglicane, Laique	NA	NA	  1
 Saylor	NA	NA	  1
 Godschall, S Man	NA	NA	  1
 Reclaimed United Irishman	NA	NA	  1
@@ -19668,7 +19717,7 @@ Weale, Richard	NA	NA	  1
 Moakes	NA	NA	  1
 Lyde, Cornelius	NA	NA	  1
 Arden, Charles George Perceval	NA	1704	  1
-Burgess Of Warwick	NA	NA	  1
+Warwick, Burgess	NA	NA	  1
 Downie, Jacobina	NA	NA	  1
 Renton, Alexander	NA	NA	  1
 Inhabitant And Burgess Of The Borough Of Warwick	NA	NA	  1
@@ -19760,7 +19809,7 @@ Wollen, E	NA	NA	  1
 Lindsell, V	NA	NA	  1
 Toothill, Jonathan	NA	NA	  1
 Leverett, James	NA	NA	  1
-Melancholy Stander-by	NA	NA	  1
+Stander-by, Melancholy	NA	NA	  1
 Poulter, Thomas	NA	NA	  1
 Poor Burgess	NA	NA	  1
 Northesk, David Carnegie	NA	NA	  1
@@ -19861,7 +19910,7 @@ Preston, Richard	NA	1800	  1
 Binns, John	NA	NA	  1
 Asquith, J	NA	NA	  1
 Bitterzwigg, Pendavid	NA	NA	  1
-Solomon The Second	NA	NA	  1
+Second, Solomon	NA	NA	  1
 Mac Sarcasm Archy	NA	NA	  1
 M'knight, Samuel	NA	NA	  1
 Sugar Planter	NA	NA	  1
@@ -19871,7 +19920,7 @@ Descévole	NA	NA	  1
 Campbell, John	NA	1818	  1
 Humfrey, Rolston	NA	NA	  1
 Dominic, Gregory	NA	NA	  1
-Prince John	NA	NA	  1
+John, Prince	NA	NA	  1
 Tutt, Thomas	NA	NA	  1
 Harvey, Paul	NA	NA	  1
 Carolus	NA	NA	  1
@@ -20104,7 +20153,7 @@ Bye Stander	NA	NA	  1
 Macarthur, Colin	NA	NA	  1
 Serious Observer	NA	NA	  1
 Merrilies, Andrew	NA	NA	  1
-C, John	NA	NA	  1
+C , John	NA	NA	  1
 Donaldson, P	NA	NA	  1
 Kinderley, Charles	NA	NA	  1
 Webb, Mrs	NA	NA	  1
@@ -20160,7 +20209,7 @@ Gillam, Mary	NA	NA	  1
 Country man	NA	NA	  1
 Unwin, Matthew	NA	1786	  1
 K l y	NA	NA	  1
-A B Sergeant Of The Guards	NA	NA	  1
+Guards, A	NA	NA	  1
 Deering	NA	NA	  1
 Saunders, Henry Martin	NA	NA	  1
 Copinger, Edward	NA	NA	  1
@@ -20261,7 +20310,7 @@ Touchit, Timothy	NA	NA	  1
 Clay, C	NA	NA	  1
 Séguier	NA	1748	  1
 Affectionate Brother	NA	NA	  1
-Child Of Years Old	NA	NA	  1
+Old, Child	NA	NA	  1
 One At Present In The Furnace	NA	NA	  1
 William, W	NA	NA	  1
 Adamson, William	NA	NA	  1
@@ -20292,7 +20341,7 @@ Friend To Just And Honourable Dealing	NA	NA	  1
 Williams, Eliezer	NA	NA	  1
 Beaujour, Louis-auguste Félix	NA	1768	  1
 Babu, Charles Nicholas Michel	NA	NA	  1
-Van Bubble	NA	NA	  1
+Bubble, Van	NA	NA	  1
 Merchant In Scotland	NA	NA	  1
 Hyett, William	NA	NA	  1
 Upright Downright Very Odd Fellow	NA	NA	  1
@@ -20394,7 +20443,7 @@ One Of The Divine Fraternity Of White fryar street	NA	NA	  1
 Counsellor Lumber bench	NA	NA	  1
 Apothecary In The West indies	NA	NA	  1
 Yeoman Of Buckinghamshire	NA	NA	  1
-Heretor Of West-lothian	NA	NA	  1
+West-lothian, Heretor	NA	NA	  1
 Pugh, David	NA	NA	  1
 Aminadab Hotspur	NA	NA	  1
 Leach	NA	NA	  1
@@ -20418,7 +20467,7 @@ Native Of The Place	NA	NA	  1
 Campbell, Richard	NA	NA	  1
 Greig, Jean	NA	NA	  1
 Gordon, Catharine	NA	NA	  1
-Bloody Butcher	NA	NA	  1
+Butcher, Bloody	NA	NA	  1
 Oliphant, Patrick	NA	NA	  1
 Bertram, William	NA	NA	  1
 Frazer, James	NA	NA	  1
@@ -20436,6 +20485,7 @@ De La Rose, Samuel	NA	NA	  1
 Member Of A Neighbouring Congregation	NA	NA	  1
 Magistrate Of The County	NA	NA	  1
 Lover Of Pure And Undefiled Religion	NA	NA	  1
+E	NA	1646	  1
 Gentleman Who Was Concern'd	NA	NA	  1
 Kellerman, John	NA	NA	  1
 Macmahon, Hugh	NA	1782	  1
@@ -20565,7 +20615,7 @@ Taylor, John	1645	NA	  1
 Bradford, Henry	NA	NA	  1
 Hume, James	NA	1763	  1
 Hume, Joseph	NA	NA	  1
-Junius Secundus	NA	NA	  1
+Secundus, Junius	NA	NA	  1
 Little, William Charles	NA	NA	  1
 Ogilvie, George	NA	NA	  1
 M'arthur, Archibaldus	NA	NA	  1
@@ -20577,7 +20627,7 @@ Cooke, I	NA	NA	  1
 Cochran, John Henry	NA	NA	  1
 Love trade Jack	NA	NA	  1
 Lindsay-carnegie, James Fullarton	NA	1782	  1
-Leicestershire Free-holder	NA	NA	  1
+Free-holder, Leicestershire	NA	NA	  1
 Murray, John	NA	1801	  1
 Ross, John	NA	1775	  1
 Country Lay man	NA	NA	  1
@@ -20612,7 +20662,7 @@ Smarden, Ed	NA	NA	  1
 Campbell, William	NA	1815	  1
 Stone, J	NA	NA	  1
 Murdoch, Archibald	NA	1793	  1
-Young Batchelor	NA	NA	  1
+Batchelor, Young	NA	NA	  1
 Campbell, Colin	NA	1738	  1
 Broun, George	NA	1776	  1
 Hine, William	NA	NA	  1
@@ -20675,7 +20725,7 @@ Maclachlan, Donald	NA	1817	  1
 Friend To Their Persons But No Lover Of Their Principles	NA	NA	  1
 Davidson, William	NA	1742	  1
 County Meath Freeholder	NA	NA	  1
-Junius Hibernicus	NA	NA	  1
+Hibernicus, Junius	NA	NA	  1
 Armstrong, Edward	NA	1729	  1
 Cay, Robert Hodshon	NA	1774	  1
 Potts, Ralph	NA	NA	  1
@@ -20738,11 +20788,11 @@ Gentleman Of The High church	NA	NA	  1
 Taylor, David	NA	NA	  1
 Liveryman Of The Company	NA	NA	  1
 Gawsell, Samuel	NA	NA	  1
-Oliver's Porter	NA	NA	  1
+Porter, Oliver's	NA	NA	  1
 Pajon De Moncets, Pierre Abraham	NA	NA	  1
 English Periwig maker	NA	NA	  1
 Marfitt	NA	NA	  1
-Lincolnshire Freeholder	NA	NA	  1
+Freeholder, Lincolnshire	NA	NA	  1
 Friend Of The Proprietor's	NA	NA	  1
 Ross, Anne	NA	NA	  1
 Prodromus, Theodore	NA	NA	  1
@@ -20785,8 +20835,7 @@ Old Ploughman	NA	NA	  1
 Darney, William	NA	NA	  1
 Residing Englishman	NA	NA	  1
 Funnyman Frisky	NA	NA	  1
-Lover Of The Truth	1768	NA	  1
-Criticos Commingens	NA	NA	  1
+Commingens, Criticos	NA	NA	  1
 Well wisher To The Prosperity Of The Said Town	NA	NA	  1
 Redintegratus Candidus	NA	NA	  1
 Pasquinado, Cornelius	NA	NA	  1
@@ -20815,7 +20864,7 @@ Officer Of That Army	NA	NA	  1
 Billings, Peter	NA	NA	  1
 Tennoch, William	NA	NA	  1
 Aytone, Thomas	NA	NA	  1
-Guinea Subscriber	NA	NA	  1
+Subscriber, Guinea	NA	NA	  1
 Comb-brush, Catherine	NA	NA	  1
 Hall, Samuel	NA	NA	  1
 Friends Of Truth And Fidelis	NA	NA	  1
@@ -20874,7 +20923,7 @@ Copping, J	NA	NA	  1
 Parkin, James	NA	1703	  1
 Methodist Of The Church Of England	NA	NA	  1
 Hayter, Benjamin	NA	NA	  1
-James The T-d	NA	NA	  1
+T-d, James	NA	NA	  1
 Bower, William	NA	NA	  1
 Friend To Real Bible Religion And Common Sense	NA	NA	  1
 Yapp, B	NA	NA	  1
@@ -20963,7 +21012,7 @@ Smart, Jonathan	NA	NA	  1
 Irish Catholic	NA	NA	  1
 Mid lothian Farmer	NA	NA	  1
 Officer At Fort Frontenac	NA	NA	  1
-Brother Sufferer	NA	NA	  1
+Sufferer, Brother	NA	NA	  1
 G y	NA	NA	  1
 Dudgeon, Robert	NA	NA	  1
 Amherst, S	NA	NA	  1
@@ -20983,7 +21032,7 @@ Fellow Citizen And A Friend To Free Parliaments	NA	NA	  1
 Spectator Of The Proceedings At The Hall	NA	NA	  1
 Consistent Burgess	NA	NA	  1
 Du Pré, Josias	NA	NA	  1
-Herald Of Liberty	NA	NA	  1
+Liberty, Herald	NA	NA	  1
 Same Free Burgess	NA	NA	  1
 Ibraham	NA	NA	  1
 O Falvy, Dermot	NA	NA	  1
@@ -21007,7 +21056,7 @@ Vigilant	NA	NA	  1
 Oswald, Walter	NA	NA	  1
 Gentleman Of Rank At London	NA	NA	  1
 Hill, Alexander	NA	NA	  1
-Burgess And Guild Brother	NA	NA	  1
+Brother, Burgess	NA	NA	  1
 Regane, James	NA	NA	  1
 Lud	NA	NA	  1
 Burdett, Robert	NA	1753	  1
@@ -21145,7 +21194,7 @@ Maquay, Thomas	NA	1805	  1
 Neville, L	NA	NA	  1
 Morell, Mongrell	NA	NA	  1
 Author Of The Best Way To Hevven &c	NA	NA	  1
-Luce Clarius	NA	NA	  1
+Clarius, Luce	NA	NA	  1
 Friend To Britain And The Navy	NA	NA	  1
 Clarkson, Andrew	NA	NA	  1
 Hawkins, J	NA	NA	  1
@@ -21166,7 +21215,7 @@ Criche, Powell Samuel	NA	1827	  1
 Fergusson, Joshua	NA	NA	  1
 Author Of A Scheme For A Constitutional Association	NA	NA	  1
 Pickle, Peter	NA	NA	  1
-Kara Mustapha	NA	NA	  1
+Mustapha, Kara	NA	NA	  1
 Navy Chaplain	NA	NA	  1
 Houlbrooke, Theophilus	NA	1688	  1
 Dufrène	NA	NA	  1
@@ -21191,9 +21240,9 @@ Marshal	NA	NA	  1
 Finlayson, J	NA	NA	  1
 Sincere Member Of The Church Of England	NA	NA	  1
 Dominicus, G	NA	NA	  1
-Martinus Scriblerus Tertius	NA	NA	  1
+Tertius, Martinus	NA	NA	  1
 Osborne, J	NA	NA	  1
-Clero Mastix	NA	NA	  1
+Mastix, Clero	NA	NA	  1
 True Lover Of Moderation	NA	NA	  1
 Goodale, Donald	NA	NA	  1
 Laurent, Charles	NA	NA	  1
@@ -21280,7 +21329,7 @@ Timbury	NA	NA	  1
 Cobham	NA	NA	  1
 Navy Officer	NA	NA	  1
 Cosmopolites	NA	NA	  1
-Believer In The Doctrines Of The Church Of England	NA	NA	  1
+England, Believer	NA	NA	  1
 Hills, Robert	NA	NA	  1
 Moss, Thomas	NA	NA	  1
 Wilkins	NA	NA	  1
@@ -21359,7 +21408,7 @@ Holloway, W	NA	1758	  1
 Park, Gratiano	NA	NA	  1
 Probationer, Belonging To The Assoc Presb Of Glasgow	NA	NA	  1
 Archibald, Francis	NA	NA	  1
-Burges Of Edinburgh	NA	NA	  1
+Edinburgh, Burges	NA	NA	  1
 Scrimzeour, George	NA	NA	  1
 Ilchester, Henry Thomas Fox-strangways	1762	NA	  1
 Barns	NA	NA	  1
@@ -21477,6 +21526,7 @@ Jones, Joshua	NA	NA	  1
 Gibb, William	NA	1798	  1
 Ireland, Ann	NA	NA	  1
 Kinnington, John	NA	NA	  1
+E	NA	1828	  1
 Weavor, John	NA	NA	  1
 Weale, Fulk	NA	NA	  1
 Wyllie, Thomas	NA	NA	  1
@@ -21488,10 +21538,11 @@ Hodson, William	1458	NA	  1
 Modern Malecontent	NA	NA	  1
 Pastor Of A Pædobaptist Church	NA	NA	  1
 Loveday, Sarah	NA	NA	  1
-South Briton	NA	NA	  1
+Briton, South	NA	NA	  1
 Studiosus	NA	NA	  1
 Cooper	NA	NA	  1
 Whitwell	NA	NA	  1
+Q	NA	NA	  1
 Collings, J	NA	NA	  1
 Dobney, Michael	NA	NA	  1
 Murray, T Augustus	NA	NA	  1
@@ -21582,9 +21633,8 @@ Rum Fogerum	NA	NA	  1
 Cleomenes	NA	NA	  1
 Clergyman At London	NA	NA	  1
 Citizen In Town	NA	NA	  1
-Burgess Of Monaghan	NA	NA	  1
-Burgess Of Edinburgh	NA	NA	  1
-Brewer In The City	NA	NA	  1
+Monaghan, Burgess	NA	NA	  1
+City, Brewer	NA	NA	  1
 Philorthodoxus	NA	NA	  1
 Sagean, Mathieu	NA	1740	  1
 St Paul, P	NA	NA	  1
@@ -21595,7 +21645,7 @@ Officer Of The London Militia	NA	NA	  1
 Friend To The City Of Cork	NA	NA	  1
 Laws, Mary	NA	NA	  1
 Billingsgate, John	NA	NA	  1
-Lilliputian Kate	NA	NA	  1
+Kate, Lilliputian	NA	NA	  1
 Dummer, Edmund	NA	1769	  1
 Ben Shaddi, Solomon	NA	NA	  1
 Lingo, Domine	NA	NA	  1
@@ -21614,9 +21664,9 @@ Bruce, John	NA	1661	  1
 Foulis, Harry	NA	1797	  1
 Lindsay, Hercules	NA	1761	  1
 Sacchetti, Franco	NA	1711	  1
-La Tramblaye	NA	NA	  1
-Seigneur Anglois	NA	NA	  1
-Seceder In P-y	NA	NA	  1
+Tramblaye, La	NA	NA	  1
+Anglois, Seigneur	NA	NA	  1
+P-y, Seceder	NA	NA	  1
 Death, R	NA	NA	  1
 Duxfield, Ralph	NA	NA	  1
 Potts, Cuthbert	NA	NA	  1
@@ -21627,7 +21677,7 @@ Morison, George	NA	1794	  1
 Mitchell, Andrew	NA	1738	  1
 Houston, Patrick	NA	1763	  1
 Macdowal, Patrick	NA	1793	  1
-Rondonneau De La Motte	NA	NA	  1
+Motte, Rondonneau	NA	NA	  1
 Sirigatti, Lorenzo	NA	NA	  1
 Mr Secretary	NA	NA	  1
 Muraz	NA	NA	  1
@@ -21829,7 +21879,7 @@ Jenkins, J	NA	NA	  1
 Prevost De L'étorière, Louis Armand	NA	NA	  1
 Pignata, Giuseppe	NA	NA	  1
 Blomberg, Karl Johann Von	NA	NA	  1
-Legis Amator	NA	NA	  1
+Amator, Legis	NA	NA	  1
 B v r Tom	NA	NA	  1
 Iscariot Judas	NA	NA	  1
 Boot, T	NA	NA	  1
@@ -21854,7 +21904,7 @@ Stewart, Donald	NA	NA	  1
 Hernández, Jaime	NA	NA	  1
 Loofs, John Frederic	NA	NA	  1
 Patriote Suédois	NA	NA	  1
-Le Tellier	NA	NA	  1
+Tellier, Le	NA	NA	  1
 Lescallier, Antoine	NA	NA	  1
 Weston, J	NA	NA	  1
 Caius, Thomas	NA	1636	  1
@@ -21904,17 +21954,17 @@ Fletcher, Jacobus	NA	NA	  1
 Fogerty, George	NA	NA	  1
 Forrester, Robertus	NA	NA	  1
 Isnard, Achille Nicolas	NA	NA	  1
-Juif D'amsterdam	NA	NA	  1
+D'amsterdam, Juif	NA	NA	  1
 Killigrew, Thomas	NA	NA	  1
 Laccaria, Francesco Antonio	NA	NA	  1
 Lawson, George M'farquhar	NA	NA	  1
-Taḣsīn Al-dīn	NA	NA	  1
+Al-dīn, Taḣsīn	NA	NA	  1
 Belderbusch, Charles Léopold De	NA	NA	  1
 Girard, P -j -f	NA	NA	  1
 Ganifey	NA	NA	  1
 G**m	NA	NA	  1
 Pierre André ******	NA	NA	  1
-Admirateur De M Necker	NA	NA	  1
+Necker, Admirateur	NA	NA	  1
 Allingham, William	NA	NA	  1
 Amlac	NA	NA	  1
 Anderson, Alexander Purcell	NA	NA	  1
@@ -22151,7 +22201,6 @@ Beverton, Simon	NA	NA	  1
 Blewer, E	NA	NA	  1
 Philadelphus John	NA	NA	  1
 Gentleman From England	NA	NA	  1
-L	NA	NA	  1
 Fynes, Charles	NA	NA	  1
 Temple, John	NA	NA	  1
 Huggan, John	NA	NA	  1
@@ -22194,7 +22243,7 @@ Tunks, Peter	NA	NA	  1
 Bigg, H	NA	NA	  1
 Michiner, Thomas	NA	NA	  1
 Fiddes, John	NA	NA	  1
-Cobler Of Glouster	NA	NA	  1
+Glouster, Cobler	NA	NA	  1
 Libertus	NA	NA	  1
 Old Man Of The Town	NA	NA	  1
 Neither side	NA	NA	  1
@@ -22236,14 +22285,14 @@ M r y	NA	NA	  1
 Friend To The Prosperity Of Britain	NA	NA	  1
 Roubaix, Jacques De	NA	NA	  1
 Middleton, Philip	NA	NA	  1
-Iradat Khān	NA	NA	  1
+Khān, Iradat	NA	NA	  1
 Goodrick, A	NA	NA	  1
 Oneirophilos	NA	NA	  1
 Auteur Des Mémoires De Brandenbourg	NA	NA	  1
 Hudson, Edward	NA	NA	  1
 Allen, William	NA	1786	  1
 Wicksted	NA	NA	  1
-Mumblo Puppso	NA	NA	  1
+Puppso, Mumblo	NA	NA	  1
 Ides, Simon	NA	NA	  1
 Meric	NA	NA	  1
 Author Of The Immortals	NA	NA	  1
@@ -22290,7 +22339,7 @@ Lewis	1659	NA	  1
 Wauchope, Gilbert	NA	NA	  1
 Allt, William	NA	NA	  1
 Piers, Sarah	NA	1770	  1
-Esprit Desintéressé	NA	NA	  1
+Desintéressé, Esprit	NA	NA	  1
 Quayle, Basil	NA	NA	  1
 Leatham, Isaac	NA	NA	  1
 Wedge, Thomas	NA	NA	  1
@@ -22305,7 +22354,7 @@ Monk, John	NA	NA	  1
 Griggs	NA	NA	  1
 Granger, Joseph	NA	NA	  1
 Pearce, William	1692	NA	  1
-Vivant De Mezague	NA	NA	  1
+Mezague, Vivant	NA	NA	  1
 Morphett, Richard	NA	NA	  1
 Friend To Trade And Liberty	NA	NA	  1
 Cleland, Archibald	NA	NA	  1
@@ -22337,7 +22386,7 @@ Friend To K G	NA	NA	  1
 Old Gentleman Of Fourscore	NA	NA	  1
 Creed, James	NA	NA	  1
 Wingrave, John	NA	NA	  1
-Buff At Kinsale	NA	NA	  1
+Kinsale, Buff	NA	NA	  1
 D ck n R d	NA	NA	  1
 Gale, Gustavus	NA	NA	  1
 Percy	NA	NA	  1
@@ -22355,7 +22404,7 @@ Treble, Mary	NA	NA	  1
 Haas, G L	NA	NA	  1
 Halpenn, Mark	NA	NA	  1
 Arnault, A -v	NA	NA	  1
-La Fosse D'aubigny	1737	NA	  1
+D'aubigny, La	1737	NA	  1
 Squallini	NA	NA	  1
 Associator	NA	NA	  1
 Lillie, Charles	NA	NA	  1
@@ -22402,7 +22451,7 @@ Sobersides, Timothy	NA	NA	  1
 B r D	NA	NA	  1
 Weston, John Webbe	NA	NA	  1
 Old English Officer	NA	NA	  1
-Officer In India	1645	NA	  1
+India, Officer	1645	NA	  1
 Hewgoe, Walter	NA	NA	  1
 Scots Factor At London	NA	NA	  1
 Quaker In Newcastle	NA	NA	  1
@@ -22419,7 +22468,7 @@ Gentleman At Dunkirk	NA	NA	  1
 Citizen Of Worcester	NA	NA	  1
 Chancellor Out Of Office	NA	NA	  1
 Dallus, R C	NA	NA	  1
-Holland Fen-farmer	NA	NA	  1
+Fen-farmer, Holland	NA	NA	  1
 Leeson	NA	NA	  1
 Padman, John	NA	NA	  1
 Physico medical Society Of London	NA	NA	  1
@@ -22475,7 +22524,7 @@ W n J	NA	NA	  1
 Roussel, Jean Baptiste	NA	NA	  1
 Hemingus	NA	NA	  1
 Kentish Bowman	NA	NA	  1
-Moses Ben Maimūn	NA	NA	  1
+Maimūn, Moses	NA	NA	  1
 Gunner	NA	NA	  1
 Melluish, W	NA	NA	  1
 Grumbletonian	NA	NA	  1
@@ -22513,7 +22562,7 @@ Broadbent, Humphrey	NA	NA	  1
 Law, Samuel	NA	NA	  1
 Romer	NA	NA	  1
 Dyvernois, J L	NA	NA	  1
-Pavel Mikhailovich	NA	NA	  1
+Mikhailovich, Pavel	NA	NA	  1
 Swinhow, Francis	NA	NA	  1
 Wade, Charles	NA	NA	  1
 Martley, James Frederick	NA	NA	  1
@@ -22557,7 +22606,7 @@ Kirkpatrick, Martin	NA	NA	  1
 Philo strategos	NA	NA	  1
 Weichmann, Christian Friedrich	NA	1764	  1
 Dixon, A	NA	1838	  1
-Beardé De L'abbaye	NA	NA	  1
+L'abbaye, Beardé	NA	NA	  1
 Castle, Richard	NA	NA	  1
 Saunders, W	NA	NA	  1
 Lawson, Stephen	NA	NA	  1
@@ -22603,7 +22652,7 @@ Broedelet, Jean	NA	NA	  1
 Mcstuart, Sawney	NA	NA	  1
 Garbett	NA	NA	  1
 Lea, Charles Augustine	NA	NA	  1
-Le Roy De Bosroger	NA	NA	  1
+Bosroger, Le	NA	NA	  1
 Goussel, J B	NA	NA	  1
 Fearon, Joseph	NA	1708	  1
 Chapmanno wiskero	NA	NA	  1
@@ -22636,14 +22685,14 @@ Lambert, Aylmer Bourke	NA	1794	  1
 Hahn, Philipp Matthäus	NA	1748	  1
 Goodenough, Richard	NA	NA	  1
 Pacey, Henry Butler	NA	NA	  1
-Young Barrister	NA	NA	  1
+Barrister, Young	NA	NA	  1
 Whiteheart, Robert	NA	1729	  1
 Church Of England man	NA	NA	  1
 Homo	NA	NA	  1
 Waddington, William	NA	1785	  1
 Lowe, George	NA	NA	  1
 Irish Logician	NA	NA	  1
-Old Friend	NA	1749	  1
+Friend, Old	NA	1749	  1
 Campbell, J	NA	NA	  1
 Scepticus Britannicus	NA	NA	  1
 Bickerstaffe, Jacob	NA	NA	  1
@@ -22656,7 +22705,7 @@ Trimnell, William	NA	NA	  1
 Verral, William	NA	NA	  1
 Member Of The Constitutional Society	NA	NA	  1
 Censor Dramaticus	NA	NA	  1
-Wild Indian	NA	NA	  1
+Indian, Wild	NA	NA	  1
 Richardson, Francis	NA	NA	  1
 Millner, John	NA	NA	  1
 Lewis, Samuel	NA	NA	  1
@@ -22786,7 +22835,7 @@ Gentleman Who Attended Him	NA	NA	  1
 Private Member Of The Established Church Of Scotland	NA	NA	  1
 Carleton, Lancelot	NA	NA	  1
 Integritas	NA	NA	  1
-Fitz Adams	NA	NA	  1
+Adams, Fitz	NA	NA	  1
 Triton	NA	NA	  1
 Author Of The Register Of Folly	NA	NA	  1
 Williams, D	NA	NA	  1
@@ -22809,7 +22858,7 @@ Person In The Interest Of Baron Bothmar	NA	NA	  1
 Willett, Edward	NA	NA	  1
 Unitarian Christian	NA	NA	  1
 Dix, William Spicer	NA	NA	  1
-Rediviv, A	NA	NA	  1
+Rediviv , A	NA	NA	  1
 Sincere Well wisher Of The Church Of Christ In Scotland	NA	NA	  1
 Deacon, H	NA	NA	  1
 Smith, D A	NA	NA	  1
@@ -22895,8 +22944,8 @@ Burke, Rickard	NA	NA	  1
 Liquor Volatilis Cornu Cervi	NA	NA	  1
 Mitchel, Thomas	NA	NA	  1
 Brother Of The Craft	NA	NA	  1
-Cambridge Gentleman	NA	NA	  1
-Signora F-a	NA	NA	  1
+Gentleman, Cambridge	NA	NA	  1
+F-a, Signora	NA	NA	  1
 Sutcliff, Ann	NA	1765	  1
 Pern, John	NA	NA	  1
 Markes, Richard	NA	NA	  1
@@ -23028,7 +23077,7 @@ Shuckburgh, Charles	NA	NA	  1
 Woodson, Antho	NA	NA	  1
 Wardrop, Thomas	NA	NA	  1
 Donaldson, May	NA	NA	  1
-Le Blanc	NA	NA	  1
+Blanc, Le	NA	NA	  1
 Lining	NA	NA	  1
 Harvie, Elizabeth	NA	NA	  1
 Cullen, Katharine	NA	NA	  1
@@ -23097,7 +23146,7 @@ Friend To The Nation	NA	NA	  1
 Glenton, Frederick	NA	NA	  1
 Friend To Liberty And Peace	NA	NA	  1
 Collins, Walsingham	NA	NA	  1
-Buckinghamshire Farmer	NA	NA	  1
+Farmer, Buckinghamshire	NA	NA	  1
 Wetherell, William Roundell	NA	NA	  1
 Imber, Matthew	NA	NA	  1
 Blewer, William	NA	NA	  1
@@ -23289,7 +23338,7 @@ Bryson	NA	NA	  1
 Thorough work	NA	NA	  1
 Poor Weaver	NA	NA	  1
 Derok, M	NA	NA	  1
-Admiral B-g	NA	NA	  1
+B-g, Admiral	NA	NA	  1
 Man Of Reason	NA	NA	  1
 Wilkinson, Edward Thomas	NA	NA	  1
 Englishman Of The Old Sort	NA	NA	  1
@@ -23343,7 +23392,7 @@ Dunscombe, T	NA	NA	  1
 De Starck, Mauritius Adolphus Newton	NA	NA	  1
 Ives, Edward	NA	1786	  1
 Wharton, R	NA	1742	  1
-Prou De Monroy	NA	NA	  1
+Monroy, Prou	NA	NA	  1
 Antes, John	NA	NA	  1
 Touchstone	NA	NA	  1
 North Level Proprietor	NA	NA	  1
@@ -23529,7 +23578,6 @@ Paulett, Alice	NA	NA	  1
 Paine, Hugh	NA	NA	  1
 Nordan, William	NA	NA	  1
 Moundeford, Abigail	NA	NA	  1
-Thomas M	NA	NA	  1
 Doctors' Commons	NA	NA	  1
 Loftus, John	NA	NA	  1
 Lightfoot, Edward	NA	NA	  1
@@ -23608,7 +23656,7 @@ Meash, William	NA	NA	  1
 Stapleton, Theobald	NA	1747	  1
 Acontius, Jacobus	NA	NA	  1
 Agrippa, Henricus Cornelius	NA	NA	  1
-Albertus Magnus	NA	NA	  1
+Magnus, Albertus	NA	NA	  1
 Allen, Edmond	NA	NA	  1
 Adkin, M	NA	NA	  1
 Bomelius, Elis	NA	NA	  1
@@ -23620,7 +23668,7 @@ Kinde, John	NA	NA	  1
 Cambridge	NA	NA	  1
 Norton, Humfrey	NA	NA	  1
 Porter, Thomas	NA	NA	  1
-Smith Reinold	NA	NA	  1
+Reinold, Smith	NA	NA	  1
 Stephins, Thomas	NA	NA	  1
 Strof, Walter	NA	NA	  1
 Vopell, Jasper Really Kasper	NA	NA	  1
@@ -23635,7 +23683,7 @@ Arms	NA	NA	  1
 Agnostus, Irenũs	NA	NA	  1
 Audeley, Eleanor	NA	NA	  1
 Averell, William	NA	NA	  1
-B, Ed	NA	NA	  1
+B , Ed	NA	NA	  1
 Baffin, William	NA	NA	  1
 Baker, Humphrey	NA	NA	  1
 Ballads	NA	NA	  1
@@ -23665,11 +23713,10 @@ Bulmer, Bevis	NA	NA	  1
 Censures	NA	NA	  1
 Chamberliane, Bartholemew	NA	NA	  1
 Chapman, George	NA	NA	  1
-Charles Emmanuel I	NA	NA	  1
-Charles Louis	NA	NA	  1
+Louis, Charles	NA	NA	  1
 Chaves, Francesca De	NA	NA	  1
 Chedsey, William	NA	NA	  1
-Christian Iv	NA	NA	  1
+Iv, Christian	NA	NA	  1
 Clarke, T	NA	NA	  1
 Clayton, Giles	NA	NA	  1
 Closet	NA	NA	  1
@@ -23683,9 +23730,9 @@ Corderoy, Jeremy	1486	NA	  1
 Counsel	NA	NA	  1
 Coverbridge, Cranmer	NA	NA	  1
 Crakanthorp, Richard	NA	NA	  1
-Crompton Richard	NA	NA	  1
+Richard, Crompton	NA	NA	  1
 Cryghton, Andrew	NA	NA	  1
-D, I Or J	NA	NA	  1
+D , I Or J	NA	NA	  1
 Dakins, Bernard	NA	NA	  1
 Davie, Sampson	NA	NA	  1
 Davy Du Perron, Jacques	NA	NA	  1
@@ -23698,7 +23745,7 @@ Deye, William	NA	NA	  1
 Dialogue	NA	NA	  1
 Dictionary	NA	NA	  1
 Dove, John	NA	1538	  1
-Du Pin	NA	NA	  1
+Pin, Du	NA	NA	  1
 Dyke, William	NA	NA	  1
 Edinburgh	NA	NA	  1
 Young, Andreas	NA	NA	  1
@@ -23731,7 +23778,7 @@ Gryphus Or Griffi, Petrus	NA	NA	  1
 Guiana Company	NA	NA	  1
 Banister, Richard	NA	1781	  1
 Gunwyn, John	NA	NA	  1
-Gustavus Ii Adolphus	NA	NA	  1
+Adolphus, Gustavus	NA	NA	  1
 Hamilton, John	NA	1799	  1
 Hamilton, Patrick	NA	NA	  1
 Handson, Ralph	NA	NA	  1
@@ -23746,9 +23793,9 @@ Hitching, Thomas	NA	NA	  1
 Holland, Richard	NA	1808	  1
 Hume, David	NA	NA	  1
 Humphrey, Lawrence	NA	NA	  1
-Huon De Bordeaux	NA	NA	  1
-Hyde Park	NA	NA	  1
-Innocent Viii	NA	NA	  1
+Bordeaux, Huon	NA	NA	  1
+Park, Hyde	NA	NA	  1
+Viii, Innocent	NA	NA	  1
 Instruction	NA	NA	  1
 Interlude	NA	NA	  1
 Introduction	NA	NA	  1
@@ -23758,7 +23805,7 @@ Jephthah	NA	NA	  1
 Jersey	NA	NA	  1
 Jest	NA	NA	  1
 Jewel, John	NA	NA	  1
-Johann Justus	NA	NA	  1
+Justus, Johann	NA	NA	  1
 Joseph, Ben Gorion	NA	NA	  1
 Kenner, Mrs John	NA	NA	  1
 Key	NA	NA	  1
@@ -23790,7 +23837,7 @@ Nowell, Alexandra	NA	NA	  1
 Micron, Marten	NA	NA	  1
 Order	NA	NA	  1
 Oberbury, Sir Thomas	NA	NA	  1
-P, I Or J	NA	NA	  1
+P , I Or J	NA	NA	  1
 Padilla Y Manrique, Martin De	NA	NA	  1
 Page, Phillip	NA	NA	  1
 Paglia, Antonio Dalla	NA	NA	  1
@@ -23805,34 +23852,34 @@ Persius Flaccus, Aulus	NA	NA	  1
 Philip	1673	NA	  1
 Phillips, George	NA	NA	  1
 Picture	NA	NA	  1
-Pius Ii	NA	NA	  1
+Ii, Pius	NA	NA	  1
 Plain Clerk Thomas	NA	NA	  1
 Platus Or Piatti, Hieronymus	NA	NA	  1
 Pope	NA	NA	  1
 Powlter, Richard	NA	NA	  1
 Prat, Joseph	NA	NA	  1
-Publilius Syrus	NA	NA	  1
+Syrus, Publilius	NA	NA	  1
 Pylbarough, John	NA	NA	  1
 Revels	NA	NA	  1
-Reynard The Fox	NA	NA	  1
+Fox, Reynard	NA	NA	  1
 Rhumelius, Johann Pharamund	NA	NA	  1
 Rhumel, Johann Pharamund	NA	NA	  1
 Rochfort, Luke	NA	NA	  1
 Rodríguez, Alonso	NA	1818	  1
 Roos, Wilfride	NA	NA	  1
 Rudiments	NA	NA	  1
-S, Joh	NA	NA	  1
+S , Joh	NA	NA	  1
 Wedderburn, John	NA	1605	  1
-Saint Paul's Cathedral	NA	NA	  1
+Cathedral, Saint	NA	NA	  1
 Saluste Du Bartus, Guillaume De	NA	NA	  1
 Sands, Patrick	NA	NA	  1
 Schonêus, Cornelius	NA	NA	  1
 Scoggin, John	NA	NA	  1
 Sempill, Robert	NA	NA	  1
 Sharpe, Leonell	NA	NA	  1
-Shepherd's Kalendar	NA	NA	  1
+Kalendar, Shepherd's	NA	NA	  1
 Sibbes, Richard	NA	NA	  1
-Sibyllarum Icones	NA	NA	  1
+Icones, Sibyllarum	NA	NA	  1
 Sidney, Sir Henry	NA	NA	  1
 Simson, Leonard	NA	NA	  1
 Smit, Hans	NA	NA	  1
@@ -23844,17 +23891,17 @@ Sudlow, Edward	NA	NA	  1
 Swadon, William	1710	NA	  1
 Sylvester, Joshua	NA	NA	  1
 Symondson, Philip	NA	NA	  1
-T, I Or J	NA	NA	  1
+T , I Or J	NA	NA	  1
 Table	NA	NA	  1
 Tablet	NA	NA	  1
 Taylour, Nathaniel	NA	NA	  1
 Thacker, R	NA	NA	  1
-Thomas Haemmerlein	NA	NA	  1
+Haemmerlein, Thomas	NA	NA	  1
 Thomas, Oliver	NA	NA	  1
 Thornton	NA	NA	  1
 Trendle, John	NA	NA	  1
 Treswell, Ralph	NA	1639	  1
-Trogus Pompeius	NA	NA	  1
+Pompeius, Trogus	NA	NA	  1
 Trollop, Thomas	NA	NA	  1
 Tukes, Thomas	NA	NA	  1
 Turnet, Patrick	NA	NA	  1
@@ -23862,7 +23909,7 @@ Turvell, Thomas	NA	NA	  1
 Tyrwhit, Lady Elizabeth	NA	NA	  1
 Ulster	NA	NA	  1
 Unton, Sir Henry	NA	NA	  1
-Urban Viii	NA	NA	  1
+Viii, Urban	NA	NA	  1
 Vautor, Thomas	NA	NA	  1
 Vecellio, Cesare	NA	NA	  1
 Venice	NA	NA	  1
@@ -23933,7 +23980,7 @@ Swaine, Richard	NA	NA	  1
 Kellicke, Richard	NA	NA	  1
 Donne, George	NA	NA	  1
 Bloy, Nicholas	NA	NA	  1
-De La Barre	NA	NA	  1
+Barre, De	NA	NA	  1
 Whitgre, Thomas	NA	NA	  1
 Smethwike, Thomas	NA	NA	  1
 Philips, Thomas	NA	NA	  1
@@ -23955,13 +24002,13 @@ Gurth, Alexander	NA	NA	  1
 Brossier, Jean	NA	NA	  1
 Patten, W	NA	NA	  1
 Dicker, George	NA	NA	  1
-D, John	NA	NA	  1
+D , John	NA	NA	  1
 Symon, John	NA	NA	  1
 Herbert, Arnold	NA	NA	  1
 Trolloppe, Thomas	NA	NA	  1
 Shackley, William	NA	NA	  1
 Bargrave, John	NA	NA	  1
-M, Ch	NA	NA	  1
+M , Ch	NA	NA	  1
 Dowson, James	NA	NA	  1
 Murton, John	NA	NA	  1
 Neve, Jeffrey	1557	NA	  1
@@ -24011,6 +24058,7 @@ Raworth, Margaret	NA	NA	  1
 Caudry, Thomas	NA	NA	  1
 Rich, Richard	NA	1684	  1
 Gesner, Jacob	NA	NA	  1
+S	NA	1684	  1
 Hildebrandt, Andreas	1551	NA	  1
 Velthoven, Adrian	NA	NA	  1
 Amner, John	NA	1721	  1
@@ -24028,7 +24076,7 @@ Cro, François De	NA	NA	  1
 Prempart, Jacques	NA	NA	  1
 Wyer, Robert	NA	1729	  1
 Sterrie, D	NA	NA	  1
-Close Prisonner	NA	NA	  1
+Prisonner, Close	NA	NA	  1
 Whight Nicholas	NA	NA	  1
 Wollay, Edward	NA	NA	  1
 Sharpe, Robert	NA	NA	  1
@@ -24038,6 +24086,7 @@ Norris, Ralph	NA	NA	  1
 Schan, Jörg	NA	NA	  1
 Fering, W	NA	NA	  1
 Denton, John	NA	NA	  1
+R	NA	1666	  1
 Smart, Ralph	NA	NA	  1
 Lathbery, John	NA	NA	  1
 Studley, Christopher	NA	NA	  1
@@ -24061,11 +24110,13 @@ Bogaert, Arnould	NA	NA	  1
 Yaxlee, Henry	NA	NA	  1
 Caussé, Barthélemy	NA	NA	  1
 Fradelius, Petrus	NA	NA	  1
+I	NA	1731	  1
 Micheli, Raphel	NA	NA	  1
 Wybarne, Joseph	NA	NA	  1
 Lindsay, David	1704	NA	  1
 Butterfield, Robert	NA	NA	  1
 Worsop, Edward	NA	NA	  1
+I	NA	1605	  1
 Elborough, Jeremiah	NA	NA	  1
 Willes, Richard	NA	1651	  1
 Le Mac̦on, Robert	NA	NA	  1
@@ -24097,6 +24148,7 @@ Bluet, Thomas	NA	NA	  1
 Vadianus, Joachim	NA	1642	  1
 Wastell, Simon	NA	1694	  1
 Warburton, G	NA	1641	  1
+I	NA	1423	  1
 Inman, Francis	NA	NA	  1
 Waferer, Myrth	NA	NA	  1
 Voilleret, François	NA	NA	  1
@@ -24174,6 +24226,7 @@ Colman, Morgan	NA	NA	  1
 Shirley, Henry	1689	NA	  1
 Cepari, Virgilio	NA	NA	  1
 Shute, Nathaniel	NA	NA	  1
+H	NA	1723	  1
 Sharpe, James	NA	1620	  1
 Batt, John	NA	NA	  1
 Bate, Randal	NA	NA	  1
@@ -24192,6 +24245,7 @@ Bellerson, Philip	NA	NA	  1
 Beale, William	NA	NA	  1
 Chaloner, Thomas	NA	1604	  1
 White, Andrew	1605	NA	  1
+H	NA	1260	  1
 Góis, Damião De	NA	1645	  1
 Hayes, William	NA	1587	  1
 Hepburn, Alexander	NA	NA	  1
@@ -24206,6 +24260,7 @@ Cosyn, John	NA	NA	  1
 Cottesford, Thomas	NA	NA	  1
 Hic Mulier	NA	NA	  1
 Rush, Anthony	1542	NA	  1
+J	1540	NA	  1
 Browne, Gregory	NA	NA	  1
 Boquin, Pierre	1534	NA	  1
 Ranchin, Guillaume	NA	1630	  1
@@ -24225,6 +24280,8 @@ Allwyn, Robert	NA	NA	  1
 Achelley, Thomas	NA	NA	  1
 Allin, Ralph	NA	NA	  1
 Betti, Francesco	NA	1634	  1
+T	NA	1605	  1
+I	NA	1556	  1
 Bury, George	NA	NA	  1
 Brouncker, Edward	NA	NA	  1
 Reeks, Richard	NA	NA	  1
@@ -24253,6 +24310,7 @@ Bland, George	NA	NA	  1
 Pick, Samuel	NA	NA	  1
 Cattan, Christoforo	NA	NA	  1
 Pilkington, Richard	1636	NA	  1
+T	NA	1731	  1
 Farewell, Christopher	NA	NA	  1
 Petley, Elias	NA	NA	  1
 Petri, Nicolaus	NA	1578	  1
@@ -24269,7 +24327,7 @@ Mountford, Thomas	NA	1694	  1
 Pellham, Edward	NA	1731	  1
 Arthus, Gotthard	NA	1639	  1
 Artemidorus, Daldianus	NA	NA	  1
-Ammianus Marcellinus	NA	NA	  1
+Marcellinus, Ammianus	NA	NA	  1
 Medeley, Thomas	NA	NA	  1
 Patrizi, Francesco	NA	NA	  1
 Paybody, Thomas	1662	NA	  1
@@ -24288,12 +24346,13 @@ Outreman, Philippe D'	NA	1615	  1
 Doolittle, E	NA	NA	  1
 Goodfellow, Robin	NA	1731	  1
 Crosse, Henry	NA	NA	  1
+J	NA	1666	  1
 Oldcastle, Hugh	NA	NA	  1
 Saintbarb, Richard	NA	NA	  1
 Numan, Philippe	NA	1682	  1
 Damman, Adrianus	NA	NA	  1
 Jackson, Bonaventure	NA	NA	  1
-Joannes Canonicus	NA	1624	  1
+Canonicus, Joannes	NA	1624	  1
 Nid, Gervase	NA	1672	  1
 Johnson, Fabian	NA	NA	  1
 Brasier, Richard	NA	NA	  1
@@ -24308,7 +24367,7 @@ Aldem, Mordecai	NA	1515	  1
 Mote, Humphrey	NA	NA	  1
 Morice, James	NA	NA	  1
 Pembroke, Simon	NA	NA	  1
-Guillermus Parisiensis	NA	NA	  1
+Parisiensis, Guillermus	NA	NA	  1
 Gohaeus, Gulielmus	NA	NA	  1
 Monings, Edward	NA	NA	  1
 Fredericke	NA	NA	  1
@@ -24330,6 +24389,7 @@ Attowell, George	NA	NA	  1
 Marshall, George	NA	NA	  1
 Pelletier, Thomas	NA	NA	  1
 Stinnet, William	NA	NA	  1
+W	NA	1535	  1
 Blakman, John	NA	NA	  1
 Rhodoman, Lorenz	NA	1566	  1
 Marandé, Léonard De	NA	NA	  1
@@ -24367,6 +24427,7 @@ Dedecus, John	NA	NA	  1
 Joannes, De Mediolano	NA	NA	  1
 Raymonde, Henry	NA	NA	  1
 Pyrrye, C	NA	NA	  1
+D	NA	1167	  1
 Puckell, Steven	NA	NA	  1
 Evesdropper, Adam	NA	NA	  1
 Piscator, Johann	NA	NA	  1
@@ -24381,10 +24442,10 @@ Panke, William	NA	NA	  1
 Oat-meale, Oliver	NA	NA	  1
 Neville, William	NA	NA	  1
 Negri, Francesco	NA	NA	  1
-Joannes Baptista Guardano Lodovico Puncto	NA	NA	  1
+Puncto, Joannes	NA	NA	  1
 Melbancke, Brian	NA	NA	  1
 Ducci, Lorenzo	NA	NA	  1
-Du Boscq	NA	NA	  1
+Boscq, Du	NA	NA	  1
 Fourquevaux, Raimond De Beccarie De Pavie	NA	1658	  1
 Mason, John	NA	1572	  1
 Churchson, John	NA	NA	  1
@@ -24441,6 +24502,7 @@ Lyte, Henry	NA	1722	  1
 Mar phoreus	NA	NA	  1
 Lanyer, Aemilia	NA	NA	  1
 Johnson, Laurence	NA	NA	  1
+A	1510	NA	  1
 Well willer Of The Common wealth	NA	NA	  1
 Clerke, Bartholomew	1613	NA	  1
 King, John	NA	1607	  1
@@ -24469,14 +24531,15 @@ Caesar, Philipp	NA	NA	  1
 Mellys, John	NA	NA	  1
 Monacius, Janus Julius	NA	NA	  1
 Barry, Gerat	NA	NA	  1
-Le Sylvain	1412	NA	  1
-M, Io	NA	NA	  1
+Sylvain, Le	1412	NA	  1
+M , Io	NA	NA	  1
 Le Challeux, Nicolas	NA	NA	  1
 Thorne, William	NA	1625	  1
 Knight, Edward	NA	NA	  1
 Lechmere	 450	NA	  1
 Salomon	NA	NA	  1
 Mussemius, Johannes	NA	NA	  1
+I	1510	NA	  1
 Guédron, Pierre	1525	NA	  1
 Attey, John	1623	NA	  1
 Tomlinson, Francis	NA	NA	  1
@@ -24542,6 +24605,7 @@ Ditchfield, Edward	NA	NA	  1
 Polo, Marco	NA	1621	  1
 Colse, Peter	NA	NA	  1
 Coligny, Gaspard De	1578	NA	  1
+A	NA	1723	  1
 Sirectus, Antonius	NA	1639	  1
 Davies, Richard	NA	1684	  1
 Geuffroy, Antoine	NA	NA	  1
@@ -24554,6 +24618,7 @@ Carlton, Richard	NA	1601	  1
 Student In Cambridge	NA	NA	  1
 Butts, Henry	NA	1694	  1
 Griffin, B	NA	NA	  1
+B	NA	1601	  1
 Woodcoke, Richard	NA	NA	  1
 Berzetti, Nicolas	NA	NA	  1
 Chelidonius	NA	NA	  1
@@ -24565,6 +24630,7 @@ Bennet, John	NA	1636	  1
 Barton, William	NA	NA	  1
 Barker, Andrew	NA	NA	  1
 Bansley, Charles	NA	NA	  1
+I	1564	NA	  1
 Bostocke, Richard	NA	NA	  1
 Maillet, Marc De	NA	NA	  1
 Avale, Lemeke	NA	NA	  1
@@ -24610,6 +24676,7 @@ Welstead, Robert	NA	1292	  1
 La Faye, Antoine De	NA	NA	  1
 Macey, George	NA	NA	  1
 Swift, John	NA	1535	  1
+I	1560	NA	  1
 Taylor, Theophilus	1623	NA	  1
 Saparton, John	NA	NA	  1
 Kraus, Daniel	NA	NA	  1
@@ -24648,6 +24715,7 @@ Man, Stephen	NA	NA	  1
 Penuen, Sands	NA	NA	  1
 Menantel, François De	NA	NA	  1
 Forset, Edward	1609	NA	  1
+R	NA	1605	  1
 Martin, Jacob	NA	NA	  1
 Ford, William	1440	NA	  1
 Verslyn, Francis	NA	NA	  1
@@ -24657,6 +24725,7 @@ Fosbroke, John	NA	NA	  1
 Simpson, Edward	1563	NA	  1
 Parsons, Robert-c -	NA	NA	  1
 Watson, Robert	1560	NA	  1
+J	NA	1605	  1
 Winne, Edward	NA	NA	  1
 Williams, Caleb	NA	NA	  1
 Ligolnes, Jean	NA	NA	  1
@@ -24675,7 +24744,7 @@ Schloer, Friedrich	NA	NA	  1
 Purchas, Ambrose	NA	NA	  1
 Favour, John	1547	NA	  1
 Youll, Henry	NA	NA	  1
-Kinde Kit Of Kingstone	NA	NA	  1
+Kingstone, Kinde	NA	NA	  1
 Webster, William	NA	NA	  1
 Bignon, Jérôme	1638	NA	  1
 Vrillac, Monsieur De	NA	NA	  1
@@ -24741,7 +24810,7 @@ Baronio, Cesare	1559	NA	  1
 Tayler, Francis	NA	NA	  1
 Bracciolini, Francesco	NA	NA	  1
 Adamson, Henry	NA	NA	  1
-Avraham Ibn ḥassan	NA	NA	  1
+ḥassan, Avraham	NA	NA	  1
 Poore Pratte	NA	NA	  1
 Achesone, James	NA	NA	  1
 Acosta, José De	NA	NA	  1
@@ -24755,7 +24824,7 @@ Archibold, John	NA	NA	  1
 Eaton, Richard	NA	1558	  1
 Aretius, Jacobus	NA	NA	  1
 Arcaeus, Franciscus	NA	NA	  1
-Ar, A	NA	NA	  1
+Ar , A	NA	NA	  1
 Appelius, Joannes	NA	NA	  1
 Du Val, Michael	NA	NA	  1
 Buck, Thomas	NA	NA	  1
@@ -24820,17 +24889,18 @@ Boteler, Oliver	NA	NA	  1
 Savidge, Ann	NA	NA	  1
 Culpepper, Nicholas	NA	NA	  1
 Craven, John	1500	NA	  1
-Peirce Plainman	NA	NA	  1
+Plainman, Peirce	NA	NA	  1
 Barber, Jacob	NA	NA	  1
 Weir, James	NA	NA	  1
 Deane, Richard	NA	1563	  1
 Wiedt, Frederick	NA	NA	  1
+D	NA	1714	  1
 O'donnell, Cornelius	NA	NA	  1
 De La Garde, Borealis	NA	NA	  1
 Maurice, David	NA	NA	  1
 Mathew, N	NA	NA	  1
 Macollo, John	NA	1633	  1
-Absent Lord	NA	NA	  1
+Lord, Absent	NA	NA	  1
 Philanax Anglophilus	NA	NA	  1
 Johnston, Sir John	NA	NA	  1
 Addam, Simon	NA	NA	  1
@@ -24864,7 +24934,7 @@ Blaxland, Stephen	NA	NA	  1
 Blight, Francis	NA	NA	  1
 Boethius, Hector	NA	NA	  1
 Bradley, Thomas	1588	NA	  1
-Cambridge University	NA	NA	  1
+University, Cambridge	NA	NA	  1
 Brilhac, Jean-baptiste De	NA	NA	  1
 Brooke, Fulke Greville	NA	NA	  1
 Bulkley, Peter	NA	NA	  1
@@ -24910,14 +24980,14 @@ Chippindell, Thomas	NA	NA	  1
 Eastern Counties Association	NA	NA	  1
 Edinburgh Town Council	NA	NA	  1
 Eed, Nich	NA	NA	  1
-Teague O Dively	NA	NA	  1
+Dively, Teague	NA	NA	  1
 Waarmond, Godelief	NA	NA	  1
 Aytoun, William	NA	NA	  1
 Alexander, Benjamin	NA	NA	  1
 Russel, Dom	NA	NA	  1
 Trigg, Thomas	NA	NA	  1
 Barkstead, Sir John	NA	NA	  1
-Ancient And Expert Mathematician	NA	NA	  1
+Mathematician, Ancient	NA	NA	  1
 Fowler, Anna	1749	NA	  1
 Ashley, Thomas	NA	NA	  1
 Babington, Abraham	NA	NA	  1
@@ -24946,7 +25016,7 @@ Browne, Sir Richard	NA	NA	  1
 Browning, Mrs Mary	NA	NA	  1
 Bryan, Doctor Of Coventry	NA	NA	  1
 Buck, John	NA	NA	  1
-Buckley Samuel	NA	1720	  1
+Samuel, Buckley	NA	1720	  1
 Brathwaite, William	NA	NA	  1
 Somner, John	NA	NA	  1
 Calamy, Edmund	NA	NA	  1
@@ -25078,6 +25148,7 @@ Cottington, Charles	NA	NA	  1
 Foulis, James	NA	NA	  1
 Foulis, William	NA	NA	  1
 Simmons, Patrick	NA	NA	  1
+E	NA	1769	  1
 Rippon, Thomas	NA	NA	  1
 Foxcroft, John	NA	1770	  1
 Fuller, Francis	1675	NA	  1
@@ -25113,7 +25184,7 @@ Haslerig, Sir Arthur	NA	NA	  1
 Hayward, Sir John	NA	NA	  1
 Henshaw, Joseph	NA	NA	  1
 Hepburn, Adam	NA	NA	  1
-Heraclitus Mythologus	NA	NA	  1
+Mythologus, Heraclitus	NA	NA	  1
 Herbert, Sir Thomas	NA	NA	  1
 Herlackenden, Thomas	NA	NA	  1
 Herne, John	NA	NA	  1
@@ -25190,7 +25261,7 @@ Lightfoot, John	1585	NA	  1
 Lilly, William	NA	NA	  1
 London Court Of Aldermen	NA	NA	  1
 Logie, Andrew	NA	NA	  1
-Ll, O	NA	NA	  1
+Ll , O	NA	NA	  1
 Louis Xiv, King Of France	NA	NA	  1
 Corporation Of London	NA	NA	  1
 Long, Richard	NA	NA	  1
@@ -25275,7 +25346,7 @@ Pilkinton, R	NA	NA	  1
 Prujean, Jean	NA	NA	  1
 Puech, James	NA	NA	  1
 Puttock, Richard	NA	NA	  1
-R, Fra	NA	NA	  1
+R , Fra	NA	NA	  1
 Rainton, E	NA	NA	  1
 Rastell, John	NA	NA	  1
 Raworth, John	NA	NA	  1
@@ -25360,7 +25431,7 @@ Tazwell, Thomas	NA	NA	  1
 Danwood, Thomas	NA	NA	  1
 Thorne, J	NA	NA	  1
 Thou, Jacques Auguste De	NA	NA	  1
-Thomas A Kempis	NA	NA	  1
+Kempis, Thomas	NA	NA	  1
 Tisdell, Jo	NA	NA	  1
 Tixier, Jean	NA	NA	  1
 Tichbourne, Henry	NA	NA	  1
@@ -25384,7 +25455,7 @@ Venn, Thomas	NA	NA	  1
 Democritus Junior	NA	NA	  1
 Voss, Gerard Johann	NA	NA	  1
 Voile, William	NA	NA	  1
-W, Jos	NA	NA	  1
+W , Jos	NA	NA	  1
 Waldegrave, Powle	NA	NA	  1
 Waller, Sir Hardresse	NA	NA	  1
 Walsh, George	NA	NA	  1
@@ -25560,7 +25631,7 @@ Baker, George	NA	1707	  1
 Abbott, Margaret	NA	NA	  1
 Winney, Samuel	NA	NA	  1
 Paston, William	NA	NA	  1
-La Haye	NA	NA	  1
+Haye, La	NA	NA	  1
 Nelthorp, John	NA	NA	  1
 Harr, Jo	NA	NA	  1
 Blague, Daniel	NA	NA	  1
@@ -25645,7 +25716,7 @@ Ordway, Adam	NA	NA	  1
 Maxsey, Andrew	NA	NA	  1
 Whittington, John	NA	NA	  1
 Isaac, Israel	NA	NA	  1
-Manby Peter	NA	1561	  1
+Peter, Manby	NA	1561	  1
 Lambermontius, Ludovicus	NA	NA	  1
 Cornelius, Gilbert	NA	NA	  1
 Sympson, Thomas	NA	NA	  1
@@ -25695,7 +25766,7 @@ Wright, Nath	NA	NA	  1
 Newman, Dorman	NA	NA	  1
 Urfé, Honoré D'	NA	1691	  1
 Conti, Louise-marguerite De Lorraine	NA	1671	  1
-Ag, Ph	NA	NA	  1
+Ag , Ph	NA	NA	  1
 Deane, John	NA	NA	  1
 Member Of The Popish Club	NA	NA	  1
 Well wisher To The Protestant Religion	NA	NA	  1
@@ -25724,7 +25795,6 @@ Hannott, James	NA	NA	  1
 Glanius, W	NA	NA	  1
 Cobbet, Robert	NA	NA	  1
 Unfeigned Friend Of Piety And Publique Liberty	NA	NA	  1
-Able And Learned Practitioner	NA	NA	  1
 Non swearing Parson	NA	NA	  1
 Bonde, Cimelgus	NA	NA	  1
 Fenn, Matthew	NA	NA	  1
@@ -25844,7 +25914,6 @@ Leech, Benjamin	NA	NA	  1
 Ellythorp, Sebastian	NA	1833	  1
 Lloyd, Thomas	NA	1684	  1
 True Lover Of His Vertues	NA	NA	  1
-A B C D E	NA	NA	  1
 One Who Was Brought To Hear Him Through Lying Reports	NA	NA	  1
 Hoffman, Benjamin	NA	NA	  1
 Hamilton, Alexander	NA	1696	  1
@@ -25932,7 +26001,6 @@ Rowe, Matthew	NA	NA	  1
 Dowdall, Gerard	NA	NA	  1
 Crosse, Jasper	NA	NA	  1
 Wall, Samuel	NA	NA	  1
-Able Practitioner	NA	NA	  1
 Blagrave, Obadiah	NA	NA	  1
 Fitzgerald, James	NA	NA	  1
 Mossom, Charles	NA	NA	  1
@@ -25965,7 +26033,7 @@ Scotlands True Friend	NA	NA	  1
 Phil alethio	NA	NA	  1
 True Lover Of The Orthodox Clergie	NA	NA	  1
 Wandesford, Mary	NA	NA	  1
-R D Jacobus Narnius	NA	NA	  1
+Narnius, R	NA	NA	  1
 Gearnon, Antoin	NA	NA	  1
 Mabbatt, John	NA	NA	  1
 Goussault, Jacques	NA	NA	  1
@@ -26023,7 +26091,7 @@ Person Of That Nation	NA	NA	  1
 Stocall, James	NA	NA	  1
 Weycoe, Ellis	NA	NA	  1
 West, Simon	NA	NA	  1
-L Ė	NA	NA	  1
+Ė, L	NA	NA	  1
 Mosse, John	NA	NA	  1
 Late Reverend Divine Of The Church Of England	NA	NA	  1
 Noble, David	1749	NA	  1
@@ -26041,7 +26109,7 @@ Late Reverend Learned And Judicious Divine	NA	NA	  1
 Fair Merchant	NA	NA	  1
 Philagathus Philanthropus	NA	NA	  1
 Wylde, Richard	NA	NA	  1
-T E Sportarivs	NA	NA	  1
+Sportarivs, T	NA	NA	  1
 Shenton, Francis	NA	NA	  1
 Sevill, William	NA	1747	  1
 Wiltens, Nikolaas	NA	NA	  1
@@ -26076,7 +26144,7 @@ Well Wisher To King And Countrey	NA	NA	  1
 Money, William	NA	NA	  1
 Valincour, Jean-baptiste-henri Du Trousset De	NA	1771	  1
 Norton, John	1673	NA	  1
-Facidicus Possiblis	NA	NA	  1
+Possiblis, Facidicus	NA	NA	  1
 Saunders, Tib	NA	NA	  1
 Sallustius	NA	NA	  1
 Kendal, John	NA	NA	  1
@@ -26098,7 +26166,7 @@ Pretty	NA	NA	  1
 One Whom The World Calls A Quaker	NA	NA	  1
 Noon, Edward	NA	NA	  1
 Wadham, William	NA	NA	  1
-T w Citizen Of Chester	NA	NA	  1
+Chester, T w	NA	NA	  1
 Theveneau, Adam	NA	NA	  1
 By A Friend To Truth And An Enemy To Lyes	NA	NA	  1
 Venn, Anne	NA	NA	  1
@@ -26142,7 +26210,7 @@ Steward, Simeon	NA	NA	  1
 Smith, Sebastian	NA	NA	  1
 Roet, Isaac	NA	NA	  1
 Risley, Thomas	NA	1592	  1
-Constant And Cordial Adherers To The Parliament And Common-wealth	NA	NA	  1
+Common-wealth, Constant	NA	NA	  1
 Mount	NA	NA	  1
 Morains, Francois De	NA	NA	  1
 Norton, Andrew	NA	NA	  1
@@ -26255,7 +26323,7 @@ Antrobus, Richard	NA	NA	  1
 Bodington, John	NA	NA	  1
 Berchet, Toussaint	NA	NA	  1
 Philalethes Theophilus	NA	NA	  1
-Brettanius Philagathus	NA	NA	  1
+Philagathus, Brettanius	NA	NA	  1
 Sandilands, Mary	NA	NA	  1
 True Friend To The Publike English Interest	NA	NA	  1
 Lutton, Edward	NA	1725	  1
@@ -26360,7 +26428,7 @@ Brusoni, Girolamo	NA	1689	  1
 Gay, William	NA	NA	  1
 Bergius, Johannes	NA	1684	  1
 Lyford, Edward	NA	NA	  1
-De Harst	NA	NA	  1
+Harst, De	NA	NA	  1
 Friend To The Protestant Interest	NA	NA	  1
 Clegate, Edward	NA	NA	  1
 Chatfield, John	NA	NA	  1
@@ -26445,10 +26513,10 @@ Several Well wishers To Our Settlement	NA	NA	  1
 By A Good Friend To Friends Of The Civill And Religious Interest Of All Good Men	NA	NA	  1
 Well wisher To The True Security Of Both Christian And Civil Liberty	NA	NA	  1
 Well wisher To England's Peace And The Gospels Prosperity	NA	NA	  1
-Member Of The So Called Parliament	NA	NA	  1
+Parliament, Member	NA	NA	  1
 Lover Of This Common wealth	NA	NA	  1
 Lover Of The Laws	NA	NA	  1
-Maid Under	NA	NA	  1
+Maid	NA	NA	  1
 Fitz-brian, R	NA	NA	  1
 Charke, Ezekiel	NA	NA	  1
 Well wishing Phylopater	NA	NA	  1
@@ -26476,7 +26544,7 @@ Rosewell, Walter	NA	NA	  1
 Clarke, Frances	NA	NA	  1
 Lover Of The Gospel Of Jesus Christ And The Wellfare Of This Nation	NA	NA	  1
 Johnson, Edward	NA	1686	  1
-Dalepater Menedemus	NA	NA	  1
+Menedemus, Dalepater	NA	NA	  1
 Nortcliffe	NA	NA	  1
 Poortmans John	NA	NA	  1
 Turmiger, Bevill	NA	NA	  1
@@ -26493,7 +26561,7 @@ Vaughan, Evan	NA	NA	  1
 Well wisher To This Commonwealth	NA	NA	  1
 Blaithwaite, Mary	NA	NA	  1
 Rogers, Malcolm	NA	NA	  1
-Post To The Muses	NA	NA	  1
+Muses, Post	NA	NA	  1
 Hinton, Benjamin	NA	NA	  1
 Warren, Thomas	1629	NA	  1
 Hoyle, Thos	NA	1700	  1
@@ -26552,13 +26620,13 @@ Vauts, Moses À	NA	NA	  1
 Strange, Jacob	NA	NA	  1
 Wilson, Johanes	NA	NA	  1
 Hill, Miles	NA	NA	  1
-Junius Anonymus	NA	NA	  1
+Anonymus, Junius	NA	NA	  1
 Lewkner, John	NA	NA	  1
 Reynor, William	NA	NA	  1
 Philanar And Misostratus	NA	NA	  1
 Faithfull And Loyall Subject To The Present King	NA	NA	  1
 Ridley, John	NA	NA	  1
-Ca, W	NA	NA	  1
+Ca , W	NA	NA	  1
 Chabbert, John	NA	NA	  1
 Banaster, Thomas	NA	NA	  1
 Drew, John	NA	1693	  1
@@ -26599,7 +26667,7 @@ Tracey, H	NA	NA	  1
 Basilius Anonymus	NA	NA	  1
 Levitt, William	NA	NA	  1
 Philoctetes Eyreneus	NA	NA	  1
-Jābir Ibn Ḥayyān	NA	NA	  1
+Ḥayyān, Jābir	NA	NA	  1
 Servant Of Christ In The Work Of His Gospel	NA	NA	  1
 Worcester, Henry Somerset	NA	1689	  1
 Wood, Adam	NA	NA	  1
@@ -26623,7 +26691,7 @@ Short, Ames	NA	NA	  1
 Learned Author	NA	NA	  1
 Loyal Lover Of Peace And Truth	NA	NA	  1
 Hearty Friend To The Publike	NA	NA	  1
-P, Theophilus	NA	NA	  1
+P , Theophilus	NA	NA	  1
 True Lover To The Peace And Wellfare Of His Countrey	NA	NA	  1
 Rich, Nathaniel	NA	1624	  1
 Rishton, A	NA	NA	  1
@@ -26682,7 +26750,7 @@ Wel wisher To The Safety And Freedom	NA	NA	  1
 Lover Of His Country That Desires At This Time To Be Namelesse	NA	NA	  1
 Friend To The Commonwealth Of England	NA	NA	  1
 Well wisher Of The Peace And Happiness Of The Three Nations	NA	NA	  1
-Heraclitus Junior	NA	NA	  1
+Junior, Heraclitus	NA	NA	  1
 Wheatly, W	NA	NA	  1
 Impartiall Well willer To The Peace And Well beeing Of All	NA	NA	  1
 Everardt, Job	NA	NA	  1
@@ -26713,7 +26781,6 @@ Reymes, B	NA	NA	  1
 Well wisher To What Himselfe Once Was	NA	NA	  1
 Pounset, John	NA	NA	  1
 Smart, Roger	NA	NA	  1
-Lover Of And Sufferer For The Truth	NA	NA	  1
 Gentleman Of Worth From Corke In Munster	NA	NA	  1
 Whatman, Edward	NA	NA	  1
 Philanactodemus	NA	NA	  1
@@ -26726,7 +26793,7 @@ Sitrauk, W	NA	NA	  1
 Eldred, William	NA	1662	  1
 True Lover Of His Nation And Especially Of The Said City	NA	NA	  1
 Her Crete Prophet Of Wales	NA	NA	  1
-Foy De La Neuville	NA	NA	  1
+Neuville, Foy	NA	NA	  1
 Umfrevile, William	NA	NA	  1
 Toxander, Theophilus Philalethes	NA	NA	  1
 Ardron, Nicholas	NA	NA	  1
@@ -26743,7 +26810,7 @@ Wills, Humphrey	NA	NA	  1
 Theophilos	NA	NA	  1
 Alle, Thomas	NA	NA	  1
 Bowne, Martin	NA	NA	  1
-Cordiall Wel-willer To The Peace Of This Famous City	NA	NA	  1
+City, Cordiall	NA	NA	  1
 Till	NA	NA	  1
 Lloyd, M	NA	NA	  1
 Whinnell, James	NA	NA	  1
@@ -26775,12 +26842,12 @@ Commander In The Army	NA	NA	  1
 Old Grand jury man Of Oxford shire	NA	NA	  1
 Lysimachus, Irenaeus	NA	NA	  1
 Well willer To The Peace Of Sion	NA	NA	  1
-La Roche-guihen	NA	NA	  1
+Roche-guihen, La	NA	NA	  1
 Petre, William	NA	1683	  1
 Debes, Lucas Jacobsen	1775	NA	  1
 Gentleman At York	NA	NA	  1
 Gentleman That Was An Eyewitnesse Of The Same	NA	NA	  1
-Privy Councellor To King James The Th Of Scotland	NA	NA	  1
+Scotland, Privy	NA	NA	  1
 Willan, Edward	NA	NA	  1
 Hay, T De	NA	NA	  1
 Wel wisher To Religion And Proprietie	NA	NA	  1
@@ -26812,12 +26879,12 @@ Keeling, Josias	NA	NA	  1
 Price, Evan	NA	NA	  1
 Lilburne, George	NA	NA	  1
 Gilbert, Eleazar	NA	NA	  1
-Ap William	NA	NA	  1
+William, Ap	NA	NA	  1
 Gentleman Belonging To The Bishop Of Londonderry	NA	NA	  1
 Mazzella, Scipione	NA	NA	  1
-De La Grange	NA	NA	  1
+Grange, De	NA	NA	  1
 Prowd, Joseph	NA	NA	  1
-One Of The Same Prisoners	NA	NA	  1
+Prisoners, One	NA	NA	  1
 Gentleman In Algier	NA	NA	  1
 Thorogood, B	NA	NA	  1
 Brummet, Christoph	NA	NA	  1
@@ -26828,7 +26895,7 @@ Hales, Edward	NA	1833	  1
 Decius, Theophilus Philanax Gerusiphilus Philalethes	NA	NA	  1
 Poseley, M	NA	NA	  1
 Erswicke, John	NA	NA	  1
-Manṣūr Ibn Abī ʿāmir	NA	1651	  1
+ʿāmir, Manṣūr	NA	1651	  1
 Beamount, Thomas	NA	NA	  1
 Loyal Protestant	NA	NA	  1
 Loyd, Morgan	NA	NA	  1
@@ -26913,7 +26980,7 @@ Flavell, Phineas	NA	NA	  1
 Revett, Eldred	NA	NA	  1
 Abadie, J G D'	NA	1769	  1
 Kemp, W	NA	NA	  1
-Dionysius Bar ṣalībī	1657	NA	  1
+ṣalībī, Dionysius	1657	NA	  1
 Pulleyn, Octavian	NA	NA	  1
 La Roberdière, Alexandre De	NA	NA	  1
 Tilbury, Samuel	NA	NA	  1
@@ -26943,10 +27010,10 @@ Hawkins, Francis	NA	1694	  1
 One Of Her Majesties Servants	NA	NA	  1
 Shotterel, Robert	NA	NA	  1
 Creamor, Thomas	NA	NA	  1
-Alius Medicus	NA	NA	  1
+Medicus, Alius	NA	NA	  1
 Parliament man In Cornwall	NA	NA	  1
-Laophilus Misotyrannus	NA	NA	  1
-Queen Elizabeth Protestant	NA	NA	  1
+Misotyrannus, Laophilus	NA	NA	  1
+Protestant, Queen	NA	NA	  1
 I'anson, Brian	NA	NA	  1
 Well wisher To The Jesuits	NA	NA	  1
 Tempest, George	NA	NA	  1
@@ -26980,6 +27047,7 @@ Tell Troath Tom	NA	NA	  1
 Lainé, Pierre De	NA	NA	  1
 One Of The Brethren Of That Function	NA	NA	  1
 Officer Out Of Scotland	NA	NA	  1
+T	NA	1706	  1
 Hutchinson, C	NA	NA	  1
 Hubbert, Thomas	NA	NA	  1
 Frankland, Thomas	1632	NA	  1
@@ -26995,7 +27063,6 @@ Well wisher To Both Peace And Honour	NA	NA	  1
 Plowden, Ricardus	NA	NA	  1
 Smith, Jacob	NA	NA	  1
 Philostratus	NA	NA	  1
-T Van C	NA	NA	  1
 Béguin, Jean	NA	NA	  1
 Alton	NA	NA	  1
 Person Of Great Experience In Military Affairs	NA	NA	  1
@@ -27094,7 +27161,7 @@ Hutchinson, William	NA	1703	  1
 Hearty Lover Of King William And The Protestant Religion	NA	NA	  1
 True Son Of The Protestant Church Of England	NA	NA	  1
 Argences, D'	NA	NA	  1
-New Adventurer	NA	NA	  1
+Adventurer, New	NA	NA	  1
 Fairman, Lydia	NA	NA	  1
 Gage, John	NA	NA	  1
 Son Of The Church	NA	NA	  1
@@ -27106,6 +27173,7 @@ Long, Benjamin	NA	NA	  1
 Coale, Leonard	NA	NA	  1
 Chaucer	NA	NA	  1
 Thomas, Gabriel	NA	NA	  1
+T	NA	1769	  1
 Pierson, David	NA	NA	  1
 Pond, Benjamin	NA	NA	  1
 Piers, Matthew	NA	NA	  1
@@ -27159,7 +27227,7 @@ Owen, Matthew	NA	NA	  1
 Turner, J	NA	NA	  1
 Thomas, Lambrocke	NA	NA	  1
 Pageau	NA	NA	  1
-Maḥmūd Shāh Khuljī	NA	NA	  1
+Khuljī, Maḥmūd	NA	NA	  1
 Godolphin, Francis	NA	NA	  1
 Clipsham, Robert	NA	NA	  1
 Blacklach, John	NA	NA	  1
@@ -27169,9 +27237,9 @@ One Who Dearly Loves All Those Whose Conversation Becomes Christ's Gospel	NA	NA	
 C -s	NA	NA	  1
 Anonymus Eugenius	NA	NA	  1
 Jeckell, Robert	NA	1713	  1
-Cordiall Well-wisher To That Unity And Peace Which Are No Conspiratours Against The Truth	NA	NA	  1
+Truth, Cordiall	NA	NA	  1
 Denus	NA	NA	  1
-Heraclitus His Ghost	NA	NA	  1
+Ghost, Heraclitus	NA	NA	  1
 Sliter, Robert	NA	NA	  1
 Readman, William	NA	NA	  1
 Philo anglicus	NA	NA	  1
@@ -27179,9 +27247,10 @@ Lover Of His Countrey Peace	NA	NA	  1
 Woolley, Charles	NA	NA	  1
 Miso spilus	NA	NA	  1
 Wilson, Elias	NA	NA	  1
+N	NA	1667	  1
 Vere, Thomas	NA	NA	  1
 Tena, Ludovicus De	NA	NA	  1
-Sh, Jo	NA	NA	  1
+Sh , Jo	NA	NA	  1
 Author Of The Broad side	NA	NA	  1
 Flemming, Oliver	NA	NA	  1
 John, Theodore	NA	NA	  1
@@ -27201,7 +27270,7 @@ Trye, Mary	NA	NA	  1
 Pratt, Daniel	NA	1645	  1
 Layton, Joseph	NA	NA	  1
 Lawrence, John	NA	NA	  1
-Kosa Pan	NA	NA	  1
+Pan, Kosa	NA	NA	  1
 Clermont, Charles	NA	NA	  1
 Le Clercq, Jacquemine	NA	NA	  1
 Keymor, John	NA	1598	  1
@@ -27249,7 +27318,7 @@ Carles, Thomas	1643	NA	  1
 Gentleman Of The Town Of Elvas	NA	NA	  1
 Jean	NA	1641	  1
 Lortie, André	NA	NA	  1
-Gratius Faliscus	NA	NA	  1
+Faliscus, Gratius	NA	NA	  1
 Flamant	1627	NA	  1
 Davy, Sarah	NA	NA	  1
 Gittos, George	NA	NA	  1
@@ -27257,7 +27326,7 @@ Nash, John	NA	NA	  1
 Overbury, Sir	NA	1707	  1
 Tatnall, Robert	NA	NA	  1
 Well wisher To The Royal Navy Of England	NA	NA	  1
-Embroyan Fancy Of Anti-jack-presbyter	NA	NA	  1
+Anti-jack-presbyter, Embroyan	NA	NA	  1
 Grey, Thomas	NA	NA	  1
 Gawen, Nicholas	NA	NA	  1
 One Of The Company	NA	NA	  1
@@ -27273,19 +27342,19 @@ Treffry, John	NA	NA	  1
 Gulter, Giles	NA	NA	  1
 Castamore	NA	NA	  1
 Lover Of His Countrey And Well wisher To The Prosperity Both Of The King And Kingdoms	NA	NA	  1
-Andrew All Truth	NA	NA	  1
+Truth, Andrew	NA	NA	  1
 Author Of The Abdicated Prince	NA	NA	  1
 Charters, Alexander	NA	1700	  1
 Emersone, John	NA	NA	  1
 Ellyson, John	NA	NA	  1
-Yorke-shire Gentleman	NA	NA	  1
+Gentleman, Yorke-shire	NA	NA	  1
 Gent Of Lincoln's-inne	NA	NA	  1
 Loyal Apprentice Of The Honourable City Of London	NA	NA	  1
 Orme, William	NA	NA	  1
 Lakin, Daniel	NA	NA	  1
 Gonzalo	NA	NA	  1
 Eminent Person Out Of The Leaguer	NA	NA	  1
-Ignatius Franciscus	NA	NA	  1
+Franciscus, Ignatius	NA	NA	  1
 Harmar, Samuel	NA	NA	  1
 Ellis, Edward	NA	NA	  1
 Cillard	NA	NA	  1
@@ -27308,7 +27377,7 @@ Stirling, Mary Vanlore Alexander	NA	NA	  1
 True Lover Of God And King Charles	NA	NA	  1
 Bairdy, John	NA	NA	  1
 Adee, N	NA	1624	  1
-Du Vignau	NA	NA	  1
+Vignau, Du	NA	NA	  1
 Rigby, Joseph	NA	1740	  1
 Golbee, John	NA	NA	  1
 Hippisley, Edmund	NA	NA	  1
@@ -27352,7 +27421,7 @@ Voluntier In That Service	NA	NA	  1
 Shafte, J	NA	NA	  1
 Howe, Josias	NA	1664	  1
 Leigh, Richard	1640	NA	  1
-Ill Willer To The Romish Brood	NA	NA	  1
+Brood, Ill	NA	NA	  1
 Smalbroke, Thomas	NA	NA	  1
 Brocardo, Francisco	NA	NA	  1
 Lovel, Henry	NA	NA	  1
@@ -27410,9 +27479,9 @@ Riville, P	NA	NA	  1
 Wilks, Judith	NA	NA	  1
 Minister Of The Gospell	NA	NA	  1
 Minister In London	NA	NA	  1
-Br, D	NA	NA	  1
+Br , D	NA	NA	  1
 Scholar In The University	NA	NA	  1
-Br, J	NA	NA	  1
+Br , J	NA	NA	  1
 Southland, Thomas	NA	NA	  1
 Yarner	NA	NA	  1
 One Who Hath Heard And Seen Somewhat Said And Done For And Against The Same Motion	NA	NA	  1
@@ -27437,7 +27506,7 @@ Carrington, S	NA	NA	  1
 Person Of Qualities	NA	NA	  1
 Vaughan, Hugh	NA	NA	  1
 Power, Henry	NA	1678	  1
-Ludlow Redivivus	NA	NA	  1
+Redivivus, Ludlow	NA	NA	  1
 Eminent Cavalier	NA	NA	  1
 Jesop, William	NA	NA	  1
 Under drawer At The 's head tavern In Gate street	NA	NA	  1
@@ -27457,15 +27526,15 @@ Vanel, M	NA	NA	  1
 Honest Gent And A True Lover Of All Such	NA	NA	  1
 Heyns, Bryan	NA	NA	  1
 Sammel, L	NA	NA	  1
-Rege Sincera	NA	NA	  1
+Sincera, Rege	NA	NA	  1
 Blake, Stephen	NA	NA	  1
 Montpensier, Anne-marie-louise D'orléans	NA	1631	  1
 Stott, Richard	NA	NA	  1
 Everard, Giles	NA	NA	  1
 Scholler Of Oxford	NA	NA	  1
-Barrester Of The Middle Temple	NA	NA	  1
+Temple, Barrester	NA	NA	  1
 Wittewrong, John	NA	NA	  1
-Ali Puli	NA	NA	  1
+Puli, Ali	NA	NA	  1
 Bridgewater, Benjamin	NA	NA	  1
 Alexander, John	NA	NA	  1
 Student In The Said Art	NA	NA	  1
@@ -27507,7 +27576,7 @@ One Of The Loyal Inhabitants Of That Antient Burrough	NA	NA	  1
 Makowski, Jan	NA	NA	  1
 Gentleman In Dort	NA	NA	  1
 Oates, Constant	NA	NA	  1
-Emminent Officer Of The Army	NA	NA	  1
+Army, Emminent	NA	NA	  1
 Jesserson, Susanna	NA	NA	  1
 Divine Of That Church	NA	NA	  1
 Dulany, Edmond	NA	NA	  1
@@ -27557,7 +27626,7 @@ Well wisher To The Publick Interest Of The Nation	NA	NA	  1
 Salvin, John	NA	NA	  1
 Worthy Gentleman Who Was Present At Both These Services	NA	NA	  1
 Kittermaster, Thomas	NA	NA	  1
-Sad Spectator	NA	NA	  1
+Spectator, Sad	NA	NA	  1
 Wood, Fitz Norris	NA	NA	  1
 Peyton, Robert	NA	NA	  1
 Isack, J	NA	NA	  1
@@ -27565,7 +27634,7 @@ Protestant And True English man	NA	NA	  1
 Huyberts, Adrian	NA	NA	  1
 One That Earnestly Desires The Prosperity Of England	NA	NA	  1
 Dunstervill, Edward	NA	NA	  1
-La Vallette	NA	NA	  1
+Vallette, La	NA	NA	  1
 Bispham, Thomas	NA	NA	  1
 Rogers, Samuel	NA	NA	  1
 True Son Of The Catholick Apostolick Church	NA	NA	  1
@@ -27574,6 +27643,7 @@ Lytler, Richard	NA	NA	  1
 Dickinson, Francisco	NA	NA	  1
 Ward, S	NA	NA	  1
 Hebden, Roger	NA	1689	  1
+R	NA	1683	  1
 Gentleman Of Good Worth	NA	NA	  1
 Periwig, Nicholas	NA	NA	  1
 Hauskins, Thomas	NA	NA	  1
@@ -27581,7 +27651,7 @@ Rr	NA	NA	  1
 Truly Loyal Subject	NA	NA	  1
 Coppinger, Nathaniel	NA	NA	  1
 Bullinger	NA	NA	  1
-S, Mr Of Art	NA	NA	  1
+S , Mr Of Art	NA	NA	  1
 Eeds, Judith	NA	NA	  1
 Edgar, Thomas	NA	NA	  1
 Person Who Has Conversed No Otherwise In Above Nine Years	NA	NA	  1
@@ -27698,7 +27768,7 @@ Philadept	NA	NA	  1
 Hallowes, John	NA	NA	  1
 Hockin, Thomas	NA	NA	  1
 Skout, J	NA	NA	  1
-T R, Gent	NA	NA	  1
+T R , Gent	NA	NA	  1
 Friend To The Coole Conference	NA	NA	  1
 Sartwell, G	NA	NA	  1
 Busschof, Hermann	NA	NA	  1
@@ -27724,7 +27794,7 @@ Care, John	NA	NA	  1
 Sampson, Lat	NA	NA	  1
 True Friend To The Publike Interest	NA	NA	  1
 Jenkyn, Pathericke	NA	NA	  1
-Nullius Nominus	NA	NA	  1
+Nominus, Nullius	NA	NA	  1
 Hearne, Thomas	NA	NA	  1
 Hetherington, William	NA	NA	  1
 Whiddon, Francis	1626	NA	  1
@@ -27753,7 +27823,7 @@ Meighan, P	NA	NA	  1
 Prys, John	1659	NA	  1
 Guildhall Chapel Ratcatcher	NA	NA	  1
 Cliffe, John	NA	NA	  1
-Monsieur L'abbe' D'hauteville	NA	NA	  1
+D'hauteville, Monsieur	NA	NA	  1
 Rowley, Joshua	NA	1732	  1
 Quarles, William	NA	NA	  1
 Buckeridge, W	NA	NA	  1
@@ -27829,7 +27899,7 @@ Officer Now In The Service	NA	NA	  1
 Vertamont	NA	NA	  1
 Norton, Heneage	NA	NA	  1
 Ripardieri, Niccolo	NA	NA	  1
-Little Isaac	NA	NA	  1
+Isaac, Little	NA	NA	  1
 Collins, Greenville	NA	1610	  1
 Well Wisher To The Mathematicks	NA	NA	  1
 Poole, Richard	NA	NA	  1
@@ -27858,11 +27928,11 @@ Baker, I P	NA	NA	  1
 Prescot, B	NA	NA	  1
 James, S	NA	NA	  1
 Fournier, A G	NA	NA	  1
-Tully In The Shades	NA	NA	  1
+Shades, Tully	NA	NA	  1
 Tweed, John	NA	NA	  1
 Bruce, Basil	NA	NA	  1
 Bartlam, John	NA	NA	  1
-Octavius Terminalis	NA	NA	  1
+Terminalis, Octavius	NA	NA	  1
 Philalethes Philantopos	NA	NA	  1
 Officer Formerly Of The Army	NA	NA	  1
 Gentleman Very Intimate With The Unfortunate Families	NA	NA	  1
@@ -27871,7 +27941,7 @@ Payne, J	NA	NA	  1
 Jee, Jonathan	NA	NA	  1
 Richer, Hilary	NA	NA	  1
 Nasmith, James	NA	NA	  1
-Maistre De La Tour	NA	NA	  1
+Tour, Maistre	NA	NA	  1
 Countrey Gentleman	NA	NA	  1
 Honest Old Whig In The Country	NA	NA	  1
 Author Of The Fifteen Comforts Of Matrimony	NA	NA	  1
@@ -27883,7 +27953,7 @@ Harries, Georgius	NA	NA	  1
 Goold, Simon	NA	NA	  1
 Galley, Thomas	NA	NA	  1
 Wilson, Josephus Nicholes	NA	NA	  1
-Gentleman Not Concern'd	NA	NA	  1
+Concern'd, Gentleman	NA	NA	  1
 Calder, Gulielmus	NA	NA	  1
 Macartney, Franciscus	NA	NA	  1
 Buchanan, Robertus	NA	NA	  1
@@ -28010,8 +28080,8 @@ Susan	NA	NA	  1
 Osborn, John	NA	NA	  1
 Kennedy, William	NA	NA	  1
 Member Of Last General Assembly	NA	NA	  1
-A Smith &c	NA	NA	  1
-A Smith And Assistants	NA	NA	  1
+&c, A	NA	NA	  1
+Assistants, A	NA	NA	  1
 Patrick, J	NA	NA	  1
 Fryer, W	NA	NA	  1
 Montgomery, J	NA	NA	  1
@@ -28070,7 +28140,7 @@ Bromley, Richard	NA	NA	  1
 Nettle, Peter	NA	NA	  1
 Boreland, Francis	NA	NA	  1
 Barwell, William	NA	NA	  1
-Absent Husband	NA	NA	  1
+Husband, Absent	NA	NA	  1
 Ticklepitcher, Toby	NA	NA	  1
 Chamberlain, Elizabeth	NA	NA	  1
 Windham, Joseph	NA	1841	  1
@@ -28222,7 +28292,7 @@ Crauford, George	NA	NA	  1
 Stover, Christian	NA	NA	  1
 M r P t	NA	NA	  1
 Kunastrokius, Jeremiah	NA	NA	  1
-Attentive Observer	NA	NA	  1
+Observer, Attentive	NA	NA	  1
 Gordon, Cosmo	NA	NA	  1
 Mackworth, H	NA	NA	  1
 Goose	NA	NA	  1
@@ -28311,7 +28381,7 @@ Cliff, Nathaniel	NA	NA	  1
 Corbridge	NA	NA	  1
 Haxby, Joannes	NA	NA	  1
 Campbell, Jacobus	NA	NA	  1
-H B Of Westminster	NA	NA	  1
+Westminster, H	NA	NA	  1
 Barnett, Joannes	NA	NA	  1
 Maxwell, Franciscus	NA	NA	  1
 Ledger, Gulielmus	NA	NA	  1
@@ -28439,7 +28509,7 @@ Salu	NA	NA	  1
 Lipserl, Saulem	NA	NA	  1
 Friend Of The Lady's	NA	NA	  1
 Moderate Union Pen	NA	NA	  1
-Medley's Footman	NA	NA	  1
+Footman, Medley's	NA	NA	  1
 Laurance, P	NA	NA	  1
 C m C	NA	NA	  1
 How, John	NA	1648	  1
@@ -28502,9 +28572,9 @@ Lacour	NA	NA	  1
 Free And Independant Liveryman	NA	NA	  1
 Old Liveryman And A Detester Of Falshood	NA	NA	  1
 Bertin, Joseph	NA	NA	  1
-Samuel Slitsleeves	NA	NA	  1
+Slitsleeves, Samuel	NA	NA	  1
 Rosibonne, M	NA	NA	  1
-Giustizia Of Lucca	NA	NA	  1
+Lucca, Giustizia	NA	NA	  1
 Old Inn keeper	NA	NA	  1
 Philologos Timothy	NA	NA	  1
 Heckford, Thomas	NA	1793	  1
@@ -28562,7 +28632,7 @@ Addresser	NA	NA	  1
 Gibraltar, George	NA	NA	  1
 Stradiotti, Antonio	NA	NA	  1
 Condon	NA	NA	  1
-ʿin⁻ayat All⁻ah	NA	1749	  1
+All⁻ah, ʿin⁻ayat	NA	1749	  1
 Kearly, James	NA	NA	  1
 Shaw, Gideon	NA	NA	  1
 Cotter, James Laurence	NA	NA	  1
@@ -28586,7 +28656,7 @@ Cordwell, J	NA	NA	  1
 Courtenay, Robert	NA	NA	  1
 Street, Thomas	NA	NA	  1
 Rycaut, James	NA	NA	  1
-L'hermite De Sainte-marguerite	NA	NA	  1
+Sainte-marguerite, L'hermite	NA	NA	  1
 Discriminator	NA	NA	  1
 Drogheda, Charles Moore	1708	NA	  1
 Barnewall, Bartholomew	NA	NA	  1
@@ -28652,7 +28722,7 @@ Member Of The Baptist Society	NA	NA	  1
 Plummer, Thomas	NA	NA	  1
 Clerici	NA	NA	  1
 Paice, Henry	NA	NA	  1
-East Country Gentleman	NA	NA	  1
+Gentleman, East	NA	NA	  1
 Adams, Thomas	1800	NA	  1
 Goddard, W s	NA	NA	  1
 Sheepey, M	NA	NA	  1
@@ -28695,7 +28765,7 @@ Andrew, Thomas Harrison	NA	NA	  1
 Homer, Harry	NA	NA	  1
 L a d l e l e p t e v e e c a i	NA	NA	  1
 Philo pacis	NA	NA	  1
-J E, Gent	NA	NA	  1
+J E , Gent	NA	NA	  1
 Miss *****	NA	NA	  1
 Gentleman That Has A Mortal Aversion To Small Beer	NA	NA	  1
 Baird, John	1756	NA	  1
@@ -28735,12 +28805,12 @@ Valton, John	NA	NA	  1
 Philips, Diana	NA	NA	  1
 Brown, Peleg	NA	NA	  1
 Chever, Ezekiel	NA	NA	  1
-Calm Observer	NA	NA	  1
+Observer, Calm	NA	NA	  1
 Teakel, John	NA	NA	  1
 Card, W	NA	NA	  1
 Walker, John	NA	1802	  1
 Maclane, Donald	NA	NA	  1
-Field Officer	NA	NA	  1
+Officer, Field	NA	NA	  1
 Rogers, Arthur	NA	NA	  1
 Anonymous Author Of Some Late Publications	NA	NA	  1
 Catanzaro, Gaëtan Rossi De	NA	NA	  1
@@ -28753,7 +28823,7 @@ Seewell, Frederick	NA	NA	  1
 Rinaldo	NA	NA	  1
 Young Gentleman Of The Chruch Of England	NA	NA	  1
 Bourboulon	NA	NA	  1
-Amateur Des Saintes Lettres	NA	NA	  1
+Lettres, Amateur	NA	NA	  1
 Des Champs, Jean	1700	NA	  1
 Freeman, G	NA	NA	  1
 Ebsworth, R	NA	NA	  1
@@ -28866,7 +28936,7 @@ Pons Y Andreu, John	NA	NA	  1
 Dennis	NA	NA	  1
 Young, Peter	NA	NA	  1
 Reay, Henry U	NA	NA	  1
-Plinius Tertius	NA	NA	  1
+Tertius, Plinius	NA	NA	  1
 Fourn	NA	NA	  1
 Celebrated Commoner	NA	NA	  1
 Mealmaker, George	NA	NA	  1
@@ -28932,7 +29002,7 @@ Magapica, Magi	NA	NA	  1
 Dun, Charles	NA	NA	  1
 Atkinson, Jno	NA	NA	  1
 Barrell, R Willhelmina	NA	NA	  1
-Bacchusarian Professer	NA	NA	  1
+Professer, Bacchusarian	NA	NA	  1
 Plain Honest Countryman	NA	NA	  1
 Pilians, Robert	NA	NA	  1
 Friend To The Freedom Of Trade And An Enemy To Monopolies	NA	NA	  1
@@ -28943,7 +29013,7 @@ Fullerton, James	NA	NA	  1
 Jamaicanus	NA	NA	  1
 Easton, John	NA	NA	  1
 Samuel, Keimer	NA	NA	  1
-Franc Anglois	NA	NA	  1
+Anglois, Franc	NA	NA	  1
 Schoolmaster	NA	NA	  1
 R t B r	NA	NA	  1
 Hall, Eben	NA	NA	  1
@@ -28973,7 +29043,7 @@ Revolutionist	NA	NA	  1
 L'hospital, Jean Eléazar	NA	NA	  1
 Hollyer, James	NA	NA	  1
 Warnick, W	NA	NA	  1
-Chevalier De *** Emigré François	NA	NA	  1
+François, Chevalier	NA	NA	  1
 Macpherson, Lachlan	NA	NA	  1
 Parmyter, Paroculus	NA	NA	  1
 Crokatt, James	NA	NA	  1
@@ -29099,7 +29169,7 @@ Ithuriel, Knight Of The Magic Spear	NA	NA	  1
 Perspective, John	NA	NA	  1
 Rodorigo	NA	NA	  1
 Northamptonshire Gentleman	NA	NA	  1
-Little Master Gessner	NA	NA	  1
+Gessner, Little	NA	NA	  1
 Rogers, Clement	NA	NA	  1
 One Of The Publick	NA	NA	  1
 Dogerel, Daniel	NA	NA	  1
@@ -29317,10 +29387,10 @@ Volunteer Of C R L D	NA	NA	  1
 Carteret, William	NA	NA	  1
 Author Of The Field Negroe	NA	NA	  1
 Pegorier, C	NA	NA	  1
-N, Fr	NA	NA	  1
+N , Fr	NA	NA	  1
 Sage Of The Empire Of Indostan	NA	NA	  1
 Grégoire, Gaspard	NA	NA	  1
-Friend In The City	NA	1763	  1
+City, Friend	NA	1763	  1
 Author Of A Meditation On A Great Man	NA	NA	  1
 Trail, David	NA	NA	  1
 Manley, James	NA	NA	  1
@@ -29380,7 +29450,7 @@ Bedingfeld, Edward	NA	NA	  1
 Bavarian Officer	NA	NA	  1
 Spy	NA	NA	  1
 Piercy, John Saunders	NA	NA	  1
-Earl At London	NA	NA	  1
+London, Earl	NA	NA	  1
 Merchant In Halifax	NA	NA	  1
 Gentleman At Leyden	NA	NA	  1
 Freeholder In Sussex	NA	NA	  1
@@ -29401,7 +29471,7 @@ Member Of The British Parliament	NA	NA	  1
 Parent	NA	NA	  1
 True Englishman Without Disguise	NA	NA	  1
 Jobson, Jeremiah	NA	NA	  1
-Savoyard émigré	NA	NA	  1
+émigré, Savoyard	NA	NA	  1
 True Bleu	NA	NA	  1
 B y	NA	NA	  1
 Author Of The Ring	NA	NA	  1
@@ -29410,7 +29480,7 @@ Killegrew, Ferdinando	NA	NA	  1
 Taylor, Thomas	NA	1648	  1
 Gentleman Of Eighteen Years Of Age Late Of Eton College	NA	NA	  1
 Author Of The Benevolent Quixote	NA	NA	  1
-National Guard	NA	NA	  1
+Guard, National	NA	NA	  1
 Tory Lawyer	NA	NA	  1
 Whigg At Rome	NA	NA	  1
 Hay, Charles	NA	NA	  1
@@ -29419,7 +29489,7 @@ Piper, Hugh	NA	NA	  1
 Charnock, Benjamin	NA	NA	  1
 Burnet, Robert	NA	NA	  1
 Millikin, Anna	NA	NA	  1
-Friend Of Youth	1800	NA	  1
+Youth, Friend	1800	NA	  1
 Nimmo, George	NA	NA	  1
 Firebrand	NA	NA	  1
 Dyer, W	NA	NA	  1
@@ -29457,7 +29527,7 @@ Rouffignac, Guy	NA	NA	  1
 Dyke, Ann	NA	NA	  1
 Rational Christian	NA	NA	  1
 Constant, Timothy	NA	NA	  1
-Person Altogether Independent Of Ministerial Influence And A Lover Of Real Facts	NA	NA	  1
+Person Altogether Independent Of Ministerial Influence And A Lover Of Real Facts Not Of Caprice Or Common Report	NA	NA	  1
 Sophronikos	NA	NA	  1
 Citizen Of The World Residing In London	NA	NA	  1
 Warrent Officer Belonging To The Navy	NA	NA	  1
@@ -29493,7 +29563,7 @@ Scholar Of Blackheath School	NA	NA	  1
 Careless, Charles	NA	NA	  1
 Mceuen, John	NA	NA	  1
 Don, William	NA	NA	  1
-Fizzle Rumpff	NA	NA	  1
+Rumpff, Fizzle	NA	NA	  1
 Gildart, Richard	NA	NA	  1
 Ross, Thomas	NA	NA	  1
 Purdie, Thomas	NA	NA	  1
@@ -29541,7 +29611,7 @@ Baba Mongo	NA	NA	  1
 Truswell, Jane	NA	NA	  1
 Gurney, Aminadab	NA	NA	  1
 Dennis, Henry	NA	NA	  1
-Believer Of The Gospel	NA	NA	  1
+Gospel, Believer	NA	NA	  1
 Society Of Anatomists	NA	NA	  1
 Van Reinhardt, J C	NA	NA	  1
 Gentleman Of The Society	NA	NA	  1
@@ -29579,8 +29649,8 @@ Moore, W	NA	NA	  1
 Nevill, James	NA	NA	  1
 Gentleman Resident In The Island Of Jamaica	NA	NA	  1
 Rusher, Philip	NA	NA	  1
-L'auteur D'azémor	NA	NA	  1
-Brewer Of Extensive Practice	NA	NA	  1
+D'azémor, L'auteur	NA	NA	  1
+Practice, Brewer	NA	NA	  1
 Woodyer, John	NA	NA	  1
 Wilton	NA	NA	  1
 Bellmour, Charlotte	NA	NA	  1
@@ -29617,7 +29687,7 @@ Philalethes Iranæus	NA	NA	  1
 Child Of Peace	NA	NA	  1
 Bilton, Thomas	NA	NA	  1
 Longridge, Michael	NA	NA	  1
-Ab W	NA	NA	  1
+Ab	NA	NA	  1
 Houghhim, Phelim Mc	NA	NA	  1
 Conscientious Liveryman	NA	NA	  1
 Chirurgien	NA	NA	  1
@@ -29654,7 +29724,7 @@ Plain Man In A Plain Dress	NA	NA	  1
 One Of Her Companions	NA	NA	  1
 Vievar, Alexander	NA	NA	  1
 Chemical Member Of The Church Of England	NA	NA	  1
-Garde National	NA	NA	  1
+National, Garde	NA	NA	  1
 Caius	NA	NA	  1
 Culture	NA	NA	  1
 Seaton, Isabel	NA	NA	  1
@@ -29667,7 +29737,7 @@ Author Of 'the Masqueraders'	NA	NA	  1
 True Brother Of The Faithful	NA	NA	  1
 Real Friend Of The People	NA	NA	  1
 Dray, Thomas	NA	NA	  1
-Younger Junius	NA	NA	  1
+Junius, Younger	NA	NA	  1
 Lowder, Samuel Molineux	NA	1788	  1
 Corregidor	NA	NA	  1
 Old Whigg	NA	NA	  1
@@ -29705,7 +29775,7 @@ Belchier, J	NA	NA	  1
 Lady In The West Of England	NA	NA	  1
 Meanwell, J	NA	NA	  1
 Sincere Friend To Humanity To Peace	NA	NA	  1
-One Clergy-man	NA	NA	  1
+Clergy-man, One	NA	NA	  1
 Freeman, Byam	NA	NA	  1
 **** William	NA	NA	  1
 O'queer, Simon	NA	NA	  1
@@ -29757,14 +29827,14 @@ Beverley, Charlotte	NA	NA	  1
 Hamilton, John	NA	1780	  1
 Coste, Fr	NA	NA	  1
 Jeney	NA	NA	  1
-Ch De G	NA	NA	  1
+Ch	NA	NA	  1
 Freeholder In The Country	NA	NA	  1
 Author Of Baalam And His Ass	NA	NA	  1
 Author Of The Poem On The Cambridge Ladies	NA	NA	  1
 Green, Thomas	NA	1775	  1
 Author Of The Carpenter's Daughter	NA	NA	  1
 Morton, John Latimer	NA	NA	  1
-A C, P S	NA	NA	  1
+A C , P S	NA	NA	  1
 Country Justice	NA	NA	  1
 Manlius	NA	NA	  1
 Corderius	NA	NA	  1
@@ -29778,7 +29848,7 @@ Lord Of P ke	NA	NA	  1
 Quaker preacher	NA	NA	  1
 Drysdale, Margaret	NA	NA	  1
 Lyon, Angel	NA	NA	  1
-Fen Farmer	NA	NA	  1
+Farmer, Fen	NA	NA	  1
 Heritor	NA	NA	  1
 Scots Tory At London	NA	NA	  1
 Revolutioner	NA	NA	  1
@@ -29791,7 +29861,6 @@ Pratewell, Peter	NA	NA	  1
 Hutchinson, J	NA	NA	  1
 Kelly, Richard	NA	NA	  1
 Godly And Learned Father Of The Church Of England	NA	NA	  1
-P	NA	NA	  1
 Author Of Edward And Sophia	NA	NA	  1
 Mandey	NA	NA	  1
 Merchant Of The City Of London	NA	NA	  1
@@ -29799,7 +29868,7 @@ Milesian	NA	NA	  1
 Gentleman At Glasgow	NA	NA	  1
 Gentleman In East lothian	NA	NA	  1
 Melanchton	NA	NA	  1
-Gacon De Louancy	NA	NA	  1
+Louancy, Gacon	NA	NA	  1
 Baldwyn, George Augustus	NA	NA	  1
 Independent Interest	NA	NA	  1
 Presbyterian Minister In The Country	NA	NA	  1
@@ -29808,7 +29877,7 @@ Howard, John Flory	NA	NA	  1
 Author Of The Two Letters To The Clergy Of Norfolk And Suffolk	NA	NA	  1
 Wall, J	NA	NA	  1
 Searcher After Truth	NA	NA	  1
-Genevan Residing At London	NA	NA	  1
+London, Genevan	NA	NA	  1
 Anglicanus	NA	NA	  1
 Sage, Charles	NA	NA	  1
 Cadwallader, Jonathan	NA	NA	  1
@@ -29824,7 +29893,7 @@ Gordon, Duncan	NA	NA	  1
 Doria, Andrew	NA	NA	  1
 Descahos	NA	NA	  1
 Mason, H	NA	NA	  1
-A** C**	NA	NA	  1
+C**, A**	NA	NA	  1
 Parsons, Giles	NA	NA	  1
 J P T L S	NA	NA	  1
 Lawyer At Edinburgh	NA	NA	  1
@@ -29870,7 +29939,7 @@ Coursiaux	NA	NA	  1
 Cowley, Charles Augustus	NA	NA	  1
 Stephen, George	NA	NA	  1
 Saunders, John	NA	NA	  1
-Nathan Ben Saddi	NA	NA	  1
+Saddi, Nathan	NA	NA	  1
 D'anvers, Gregory	NA	NA	  1
 Calvin, Robert	NA	NA	  1
 Bowden, Thomas	NA	NA	  1
@@ -29895,7 +29964,7 @@ Bonar, Archibald	NA	NA	  1
 Eminent Dutch Patriot	NA	NA	  1
 Late Eminent Professor Of The Mathematicks	NA	NA	  1
 Gentleman Of The Army	NA	NA	  1
-Court Evil	NA	NA	  1
+Evil, Court	NA	NA	  1
 Scotch man	NA	NA	  1
 Sparke, Joseph	NA	1737	  1
 Monsieur L C D C ***	NA	NA	  1
@@ -29903,7 +29972,7 @@ Lover Of All Truth And Vertue	NA	NA	  1
 Oliphant, Edward	NA	NA	  1
 Author Of 'some Considerations Touching The Sugar Colonies'	NA	NA	  1
 Author Of Leonora	NA	NA	  1
-Lien Chi	NA	NA	  1
+Chi, Lien	NA	NA	  1
 Martin, Thomas	1645	NA	  1
 Goodtitle, Joseph	NA	NA	  1
 Mullinger, R	NA	NA	  1
@@ -29918,7 +29987,7 @@ Mitchell, Matthaeus	NA	NA	  1
 Scanlan, Johannes	NA	NA	  1
 Boswel, Jacobus	NA	NA	  1
 Earl Of Funsborough	NA	NA	  1
-Newly Elected Member	NA	NA	  1
+Member, Newly	NA	NA	  1
 Quesnay, François	NA	1813	  1
 Principal Editor Of The Baron's Writings	NA	NA	  1
 Tradesman In Norfolk	NA	NA	  1
@@ -29965,7 +30034,7 @@ Birt, William	NA	NA	  1
 Impartiality	NA	NA	  1
 Faithful Subject Of The Best Of Kings	NA	NA	  1
 Sutherland, Mary	NA	NA	  1
-Anderson's Institution	NA	NA	  1
+Institution, Anderson's	NA	NA	  1
 Mcgripes	NA	NA	  1
 Cairns, Thomas	NA	NA	  1
 Peerless Poetess	NA	NA	  1
@@ -30070,7 +30139,7 @@ M'ilwraith, William	NA	NA	  1
 M'kelvie, John	NA	NA	  1
 Macfarlane, Jacobina	NA	NA	  1
 Sibbald, John	NA	NA	  1
-Elder In The Country	NA	NA	  1
+Country, Elder	NA	NA	  1
 Fergusson, Peggy	NA	NA	  1
 Octavia	NA	NA	  1
 Dougall, Alexander	NA	NA	  1
@@ -30091,8 +30160,8 @@ Maxwell, Gualterus	NA	NA	  1
 Sylvia	NA	NA	  1
 Late Member Of The Continental Congress	NA	NA	  1
 Convert From The 'society For Revolutions'	NA	NA	  1
-Bedfordshire Minister	NA	NA	  1
-Shenkin Ap Morgan	NA	NA	  1
+Minister, Bedfordshire	NA	NA	  1
+Morgan, Shenkin	NA	NA	  1
 Paterson, D	NA	NA	  1
 Noble man Of France	NA	NA	  1
 Campbell, Charles Collins	NA	NA	  1
@@ -30246,7 +30315,7 @@ Johnson, Theophilus	NA	NA	  1
 Oliphant, Andrew	NA	NA	  1
 Clara	NA	NA	  1
 Emilia	NA	NA	  1
-Weaver At Norwich	NA	NA	  1
+Norwich, Weaver	NA	NA	  1
 Gifford, Arthur	NA	NA	  1
 Daniell, Meade H	NA	NA	  1
 Elliot, Philippus	NA	NA	  1
@@ -30288,7 +30357,7 @@ One Who Wishes To Be Thought A Good Subject	NA	NA	  1
 Clout, Colin	NA	NA	  1
 Gr n da Proprietor	NA	NA	  1
 Hertfordshire Freeholder	NA	NA	  1
-Pliny Junior	NA	NA	  1
+Junior, Pliny	NA	NA	  1
 Gilliam, James Skelton	NA	1784	  1
 Gourlay, William	NA	NA	  1
 Author Of 'the Defence Of The American Congress'	NA	NA	  1

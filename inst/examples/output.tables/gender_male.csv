@@ -2,14 +2,14 @@ Name	Count
 Marcus Tullius	393
 Desiderius	272
 Giles	265
-Johannes	199
+Johannes	200
 Lancelot	170
 Increase	166
 Pietro	166
 Mathurin	164
 Lucius Annaeus	138
+Friedrich	120
 Jean-baptiste	117
-Friedrich	114
 Matthias	111
 Bartholomew	106
 Rowland	104
@@ -54,11 +54,12 @@ Giovan Gualberto	36
 Godfrey	36
 Jean-pierre	36
 Eliphalet	35
+Alessandro	33
 Mungo	33
 Barnabas	32
 Hendrik	32
 Kenelm	32
-Alessandro	31
+Mallet	31
 Edward Burnaby	30
 Georgius	30
 Eusebius	28
@@ -78,6 +79,7 @@ Battista	23
 Cyprian	23
 Jaspar	23
 Niels	23
+Petronius	23
 Serenus	23
 Tristram	23
 Victorinus	23
@@ -102,6 +104,7 @@ Digby	18
 Hayman	18
 Alberico	17
 Degory	17
+Friend	17
 Gerhard	17
 Newcome	17
 Adriaan	16
@@ -137,11 +140,13 @@ Zabdiel	14
 Alured	13
 Dugald	13
 Guido	13
+Minister	13
 Muḥammad Ibn ʿabd Al-malik	13
 Zacharie	13
 Amyas	12
 Bruno	12
 Cadwallader	12
+Essex	12
 Gawin	12
 John Nicholson	12
 Ludovick	12
@@ -164,7 +169,7 @@ Lambert	11
 Lysimachus	11
 Theobald Wolfe	11
 Barten	10
-Essex	10
+Basilius	10
 James Pettit	10
 John Bourke	10
 John Digby	10
@@ -178,6 +183,7 @@ Polydore	10
 Shadrach	10
 Timothie	10
 Weeden	10
+Abram	9
 Bernhardus	9
 Bonaventure	9
 Ezechiel	9
@@ -193,6 +199,7 @@ Quirin	9
 Renwick	9
 Thomas Dunham	9
 Abiezer	8
+Achilles	8
 Dominicus	8
 Ferrante	8
 Friedrich Michael	8
@@ -204,16 +211,18 @@ Jelinger	8
 Jerom	8
 John Drummond	8
 John Hurford	8
+Junius	8
 Konrad	8
 Lauchlan	8
 Murtaugh	8
 Nathaneel	8
+Oxford	8
 Simonds	8
 Ulrich	8
-Abram	7
 Adolphus	7
 Bonaventura	7
 Christofer	7
+Common	7
 Gabrielle-suzanne Barbot Gallon	7
 Gaspare	7
 Hieronymus	7
@@ -222,6 +231,7 @@ Ignaz	7
 Jacopo	7
 James Maurus	7
 Johannes Ab	7
+Ludwig	7
 Mathieu	7
 Melvill	7
 Nicaise	7
@@ -233,11 +243,14 @@ Sir Roger	7
 Sir Thomas	7
 Swithin	7
 Agostino	6
+Alderman	6
 Archibald Steuart	6
 Ashbel	6
 Aurelian	6
 Bishop Of Hippo	6
 Christof	6
+Cyrano	6
+Daneau	6
 Edward Hussey	6
 Evaldus	6
 Frederik Ludvig	6
@@ -247,11 +260,11 @@ Gasparo	6
 Giulio	6
 Gotthold Ephraim	6
 Greville	6
+Innocent	6
 James Carmichael	6
 John Southey	6
 Karl Friedrich	6
 Knightly	6
-Ludwig	6
 Magnus	6
 Munro	6
 Rembert	6
@@ -265,11 +278,13 @@ Aegidius	5
 Annibale	5
 Aulay	5
 Baldassarre	5
+Baudouin	5
 Benedictus	5
 Bernhard Christoph	5
 Chaloner	5
 Conradus	5
 Crisp	5
+Dionysius	5
 Eliab	5
 Elihu	5
 Gad	5
@@ -283,7 +298,6 @@ Howell	5
 Humphry Tristram	5
 Ichabod	5
 Ignazio	5
-Innocent	5
 Jacob Friedrich	5
 Jermyn	5
 Johannes H	5
@@ -291,7 +305,6 @@ John Clerk	5
 John Ferdinand Smyth	5
 John Mitford	5
 Judas Thaddaeus	5
-Junius	5
 Kenrick	5
 Leopold	5
 Lodwick	5
@@ -316,7 +329,6 @@ Thomas O'brien	5
 Vincenzio	5
 Wilhelm Adolf	5
 Zedekiah	5
-Achilles	4
 Arnoldus	4
 Arthur Capel	4
 Arundel	4
@@ -333,6 +345,7 @@ Ewald Friedrich	4
 Fielding	4
 Fleury	4
 Friedrich Wilhelm	4
+Gautier	4
 Gerardus	4
 Giambattista Della	4
 Giuseppe Dʾippolito	4
@@ -373,14 +386,18 @@ Bartolomeo	3
 Beauchamp	3
 Bunker	3
 Cave	3
+Chevalier	3
 Christophorus	3
+Citizen	3
 Cristof Hermann	3
 Cromwell	3
 Dewitt	3
+Diogenes	3
 Doroteo	3
 Dudley Carleton	3
 Edvardus	3
 Edward Southwell	3
+Eliazar	3
 Ernst Gottlieb	3
 Florentius	3
 Floyer	3
@@ -421,6 +438,7 @@ Morrough O'brien	3
 Murtagh	3
 Nathaniell	3
 Ottaviano	3
+Peirce	3
 Peirson	3
 Phelim	3
 Phinehas	3
@@ -435,15 +453,21 @@ Sinclare	3
 Staats Long	3
 Stafford	3
 Stevenson	3
+Sturla	3
 Thomas Cushing	3
+Valerius	3
 West	3
 Zebulon	3
+Abd	2
 Abdias	2
 Abner	2
+Absent	2
 Adolf Fredrik	2
+Agricola	2
 Alastair	2
 Alessandro Ercole	2
 Alessandro Vittorio	2
+Alius	2
 Ambrosius	2
 Asbury	2
 Aulus	2
@@ -472,10 +496,12 @@ Cutts	2
 Cyriacus	2
 Dafydd	2
 Dermot	2
+Dimitrie	2
 Dod	2
 Domenico Luigi	2
 Durant	2
 Eardley	2
+Edinburgh	2
 Eduardus	2
 Effingham	2
 Eleasar	2
@@ -497,6 +523,7 @@ Giles S	2
 Giuseppe A	2
 Granville Leveson-gower	2
 Gregore	2
+Gruffudd	2
 Gruffydd	2
 Gurdon	2
 Gwilim	2
@@ -508,9 +535,11 @@ Henrietta Knight	2
 Hermannus	2
 Hovenden	2
 Hugues Sureau	2
+Ibraham	2
 Ichabod L	2
 Ignatious	2
 Ignazy	2
+Ireneus	2
 Ishmael	2
 James Drummond	2
 James Hepburn	2
@@ -539,6 +568,7 @@ Launcelot	2
 Levinius	2
 Lockhart	2
 Lucius Junius Moderatus	2
+Ludlow	2
 Ludwig Wilhelm	2
 Maciej Kazimierz	2
 Marcus Friedrich	2
@@ -553,8 +583,8 @@ Nathaniel Curzon	2
 Nestore	2
 Nikolaos	2
 Nikolaus	2
+Officer	2
 Peder	2
-Peirce	2
 Preserved	2
 Radcliffe	2
 Radford	2
@@ -573,6 +603,7 @@ Sir Aston	2
 Sir Balthazar	2
 Sir James	2
 Sir Kenelm	2
+Solicitor	2
 Somerville	2
 Stamford	2
 Standish	2
@@ -589,13 +620,15 @@ Vicary	2
 Washington	2
 Webster	2
 Abd All-ah Ibn Ahmad	1
+Aben	1
 Abernethy	1
 Absalon	1
+Abu	1
 Abū Bakr Muḥammad Ibn Zakarīyā	1
 Achilles Pirmin	1
+Admiral	1
 Aesop	1
 Agostinho	1
-Agricola	1
 Ahmad Ibn Muhammad	1
 Albigence	1
 Albrecht	1
@@ -604,6 +637,7 @@ Alexr	1
 Al-ḥusayn Ibn ʿalī	1
 Allexander	1
 Alvan	1
+Amateur	1
 Ambrosius Aurelius Theodosius	1
 André Guillaume	1
 Ann Batten	1
@@ -616,14 +650,18 @@ Arch	1
 Archbishop Of Uppsala	1
 Archelaus	1
 Arentius Ferdinand	1
+Arnauld	1
 Arnauld Thomas	1
 Arthur Anselm	1
 Ascanio De'	1
 Atkinson	1
+Author	1
+Avraham	1
 Aylmar	1
 Aylmer Bourke	1
 Balfour	1
 Balthazar Georges	1
+Barlaam	1
 Baro	1
 Bartholdus	1
 Bartholomaus	1
@@ -645,6 +683,7 @@ Bowater	1
 Bowyer Edward	1
 Bradshaw	1
 Brodrick	1
+Burges	1
 Buxton	1
 Byam	1
 Caesar A	1
@@ -663,6 +702,7 @@ C Hristopher	1
 Christoph Ludwig	1
 Claes Jansz	1
 Clerk	1
+Close	1
 Colston	1
 Conly	1
 Constantijn	1
@@ -673,24 +713,26 @@ Cornwall	1
 Cort	1
 Cortes	1
 Creswell	1
+Crompton	1
 Culmer	1
 Cushing	1
 Daddy	1
 Dāwūd Ibn ʿumar	1
 Dermond	1
 D Haymon	1
-Dionysius	1
 Dionysius Petrus	1
 Dirk	1
 Doctor Of Coventry	1
 Dolorio	1
 Dougald	1
 Dougall	1
+Dreux	1
 Duarte	1
 Duel	1
 Dugal	1
 Duncombe	1
 Dunstan	1
+Durham	1
 Ebenezor	1
 Eberhard Friedrich	1
 Edmund Sigismund	1
@@ -760,13 +802,16 @@ Gulielmus Somervell	1
 Gunning	1
 Gustaf	1
 Gustaf Mauritz	1
+Haidar	1
 Hampden	1
 Harim	1
 Hayward	1
 Heinrich Matthias	1
 Hendrik Cornelis	1
 Henrik	1
+Herald	1
 Hernry	1
+Herodotus	1
 Hewett	1
 Hezekiah Stites	1
 Hickman	1
@@ -778,11 +823,11 @@ Hunter & Beaumont	1
 Huntingdon	1
 Huson	1
 Huw	1
+Ibn	1
 Ibrāhīm Ibn Muḥammad	1
 Ifan	1
 Ignazio Saverio	1
 Ippolito	1
-Ireneus	1
 Ireton	1
 Isabella Fitzroy	1
 Isac	1
@@ -867,7 +912,6 @@ Lucas Jacobsen	1
 Lucius	1
 Lucius Quintius	1
 Lucius Severus	1
-Ludlow	1
 Ludovicus	1
 Ludwig Benedict Franz	1
 Ludwig Maximilian	1
@@ -888,13 +932,16 @@ Melmouth	1
 Metcalf	1
 Michael Benedict	1
 Mohammed	1
+Monsieur	1
 Montagu Venables-bertie	1
 Moreton	1
 Muhammad	1
 Muḥammad Ibn ʻabd Al-malik	1
 Muḥammad Ibn Áli	1
 Naṣīr Al-dīn Muḥammad Ibn Muḥammad	1
+National	1
 Nevill	1
+Newly	1
 Nian	1
 Nich	1
 Nicholas Lawless	1
@@ -918,6 +965,7 @@ Patrick Davidson	1
 Pellegrino Antonio	1
 Penuel	1
 Perceval	1
+Peregrin	1
 Perseval	1
 Petrus Ab	1
 P Gulielmus	1
@@ -927,7 +975,9 @@ Phocion	1
 Pietro Martiro D'	1
 Pietro Paolo	1
 Pill	1
+Pius	1
 Poul	1
+Privy	1
 Prosper	1
 Prospero	1
 Ptolomy	1
@@ -940,8 +990,10 @@ Rauf	1
 Raymund	1
 Rayner	1
 Reading	1
+Rege	1
 Remigio	1
 Reymer	1
+Reynard	1
 Ricardus Sharpe	1
 Richardus Johannes Horatius	1
 Richd	1
@@ -966,6 +1018,7 @@ Scipio	1
 Scipion	1
 Scroop Egerton	1
 Sem	1
+Senator	1
 Sextus	1
 Sextus Aurelius	1
 Sholto	1
@@ -973,6 +1026,7 @@ Shubael	1
 Siegmund Jakob	1
 Sigismond	1
 Sigismund	1
+Simpson	1
 Sir	1
 Sirāj Al-dīn Muḥammad Ibn Muḥammad	1
 Sir Arthur	1
@@ -1032,8 +1086,8 @@ Tullius	1
 Tymothy	1
 Ulick	1
 Up Shinkin	1
+Urban	1
 Valentinus	1
-Valerius	1
 Venantius Honorius Clementianus	1
 Venture	1
 Vincentius	1
@@ -1046,6 +1100,7 @@ Wanley	1
 Warham	1
 Watson	1
 W Beauchamp	1
+Whig	1
 Whitmore	1
 Wilfride	1
 Wilhelm Erasmus	1
@@ -1055,6 +1110,8 @@ Wilkinson	1
 Willem Adriaan	1
 Wolf	1
 Yorick	1
+Yosef	1
 Zaccaria	1
 Zacheus	1
 Zadock	1
+Zamir	1

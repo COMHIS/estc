@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-05-24"
+date: "2016-05-26"
 output: markdown_document
 ---
 
@@ -16,7 +16,7 @@ output: markdown_document
   * [Publication year info](publicationyear.md)
   * [Titles](title.md)  
   * [Document sizes](size.md)
-  * [Document topics](topic.md)
+  * [Document and subject topics](topic.md)
   * [Languages](language.md)
 
 ## Field conversions
@@ -46,13 +46,14 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_topic                       |        81.7|          18.3|         84098|       4888|
 |publication_year_till                   |        79.6|          20.4|         93878|        354|
 |publication_geography                   |        71.7|          28.3|        130009|      12221|
-|author_gender                           |        70.3|          29.7|        136627|          4|
-|author_birth                            |        58.7|          41.3|        189952|        467|
-|author_death                            |        55.8|          44.2|        203258|        514|
-|self_published                          |        49.0|          51.0|        234234|          3|
+|author_gender                           |        70.4|          29.6|        136162|          4|
+|first_edition                           |        67.9|          32.1|        147418|          3|
+|author_birth                            |        58.4|          41.6|        191075|        468|
+|author_death                            |        55.5|          44.5|        204514|        517|
+|self_published                          |        48.0|          52.0|        239232|          3|
 |subject_topic                           |        45.1|          54.9|        252317|      53465|
-|author_name                             |        41.1|          58.9|        270903|      46749|
-|author                                  |        41.1|          58.9|        270903|      53590|
+|author_name                             |        39.7|          60.3|        276964|      46750|
+|author                                  |        39.7|          60.3|        276964|      53908|
 |publisher                               |        16.5|          83.5|        383581|     162946|
 |country                                 |         3.7|          96.3|        442575|         53|
 |publication_place                       |         3.7|          96.3|        442600|       1001|
@@ -119,9 +120,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings.original                     |         0.0|         100.0|        459644|         18|
 |obl.original                            |         0.0|         100.0|        459644|          2|
 |original_row                            |         0.0|         100.0|        459644|     459644|
+|author_pseudonyme                       |         0.0|         100.0|        459644|          2|
 |publication_year                        |         0.0|         100.0|        459644|        348|
 |publication_decade                      |         0.0|         100.0|        459644|         37|
-|author_pseudonyme                       |         0.0|         100.0|        459644|          2|
 |gatherings                              |         0.0|         100.0|        459644|         18|
 
 
