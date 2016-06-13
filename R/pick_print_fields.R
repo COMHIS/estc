@@ -1,7 +1,7 @@
 #' @title Pick print fields
 #' @description Pick print fields from publisher vector.
-#' @param1 x list of strings
-#' @param2 fields2 c(string_field1, string_field2...)
+#' @param x list of strings
+#' @param fields2 c(string_field1, string_field2...)
 #' @return for each x, the string after last field that has been found, else the string after first one, else NA
 #' @export
 #' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
