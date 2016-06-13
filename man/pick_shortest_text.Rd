@@ -7,13 +7,13 @@
 pick_shortest_text(vec)
 }
 \arguments{
-\item{vector}{of strings}
+\item{vec}{vector of strings}
 }
 \value{
 shortest string
 }
 \description{
-returns text which is shortest from vector of  strings
+Returns text which is shortest from vector of strings.
 }
 \author{
 Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
