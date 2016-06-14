@@ -39,8 +39,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height.original                         |        96.3|           3.7|          1669|         55|
 |volcount                                |        95.0|           5.0|          2265|        106|
 |document.items                          |        95.0|           5.0|          2265|        106|
-|latitude                                |        84.1|          15.9|          7250|         19|
-|longitude                               |        84.1|          15.9|          7250|         19|
 |author_gender                           |        77.6|          22.4|         10212|          4|
 |first_edition                           |        74.6|          25.4|         11605|          3|
 |publication_year_till                   |        73.9|          26.1|         11908|        228|
@@ -52,6 +50,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author                                  |        55.5|          44.5|         20306|       7249|
 |publisher                               |        21.1|          78.9|         36010|      19903|
 |publication_topic                       |        16.7|          83.3|         38035|       3876|
+|latitude                                |        15.5|          84.5|         38575|         19|
+|longitude                               |        15.5|          84.5|         38575|         19|
 |publication_geography                   |         7.4|          92.6|         42276|       5447|
 |obl                                     |         5.4|          94.6|         43175|          3|
 |paper.consumption.km2                   |         4.8|          95.2|         43434|       2635|
@@ -59,10 +59,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                                  |         3.8|          96.2|         43894|         60|
 |area                                    |         3.8|          96.2|         43894|        287|
 |pagecount.orig                          |         3.3|          96.7|         44133|        893|
-|publication_place                       |         3.0|          97.0|         44293|        387|
-|country                                 |         3.0|          97.0|         44293|         33|
 |publication_year_from                   |         2.4|          97.6|         44557|        309|
 |pagecount                               |         1.0|          99.0|         45185|        953|
+|country                                 |         0.8|          99.2|         45269|         31|
+|publication_place                       |         0.8|          99.2|         45270|        376|
 |language                                |         0.0|         100.0|         45641|         21|
 |language.English                        |         0.0|         100.0|         45647|          2|
 |language.French                         |         0.0|         100.0|         45647|          2|
@@ -101,12 +101,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ## Histograms of the top entries for factor variables
 
-
-```
-## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 20, 0
-```
-
-<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
+<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
 
 
 

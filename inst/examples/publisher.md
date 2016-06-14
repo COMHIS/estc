@@ -17,11 +17,6 @@ output: markdown_document
 The 20 most common publishers are shown with the number of documents. Publisher information is available for 36010 documents (79%). There are 21705 unique publisher names (some may be synonymes, though).
 
 
-
-```
-## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 20, 0
-```
-
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
 
 ### Publication timeline for top publishers

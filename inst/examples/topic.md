@@ -16,11 +16,6 @@ output: markdown_document
 
 Top-20 subject topics and number of documents for each.
 
-
-```
-## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 20, 0
-```
-
 ![plot of chunk summarytopics22](figure/summarytopics22-1.png)
 
 ### Publication topic
@@ -35,10 +30,5 @@ We also have the publication_topic field.
 
 
 Top-20 publication topics and number of documents for each.
-
-
-```
-## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 20, 0
-```
 
 ![plot of chunk summarytopics223](figure/summarytopics223-1.png)

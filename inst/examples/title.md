@@ -15,10 +15,5 @@ output: markdown_document
 
 Top-20 titles are shown together with the number of documents.
 
-
-```
-## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 20, 0
-```
-
 ![plot of chunk summarytitle](figure/summarytitle-1.png)
 
