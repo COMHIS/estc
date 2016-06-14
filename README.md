@@ -17,17 +17,29 @@ An overview of knowledge production between 1477-1800 based on the ESTC metadata
  * [Page count summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/pagecounts.md)
  * Various [summary tables](https://github.com/rOpenGov/estc/tree/master/inst/examples/output.tables) of the data. 
 
+The steps to reproduce these summaries from the raw data are fully
+described at the [tutorial
+page](https://github.com/rOpenGov/estc/blob/master/vignettes/tutorial.md). This
+includes several steps from raw data extraction to harmonizing the
+textual annotation fields, preprocessing the information, and carrying
+out statistical analysis and visualization. Whereas this package
+focuses on the ESTC data, it utilizes additional tools from the more
+generic [bibliographica](https://github.com/rOpenGov/bibliographica)
+and many other R packages listed in the
+[DESCRIPTION](https://github.com/rOpenGov/estc/blob/master/DESCRIPTION)
+file. The ESTC raw data is confidential and available only on a
+separate agreement, so we can only publish statistical summaries and
+our own analysis source code at this site. The process is fully
+automated, and can be easily repeated with different subsets of the
+data.
 
-### Reproducible analysis
 
- * [LIBER publication Oct 2015](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
+### Reproducible analysis 
 
-The steps to reproduce these summaries from the raw data are fully described at the [tutorial page](https://github.com/rOpenGov/estc/blob/master/vignettes/tutorial.md). This includes several steps from raw data extraction to harmonizing the textual annotation fields, preprocessing the information, and carrying out statistical analysis and visualization. The ESTC raw data is confidential and available only on a separate agreement, so we can only publish statistical summaries and our own analysis source code at this site. The process is fully automated, and can be easily repeated with different subsets of the data.
+Analyses are frozen for already published material:
 
-Whereas this package focuses on the ESTC data, it utilizes additional
-tools from the more generic
-[bibliographica](https://github.com/rOpenGov/bibliographica) and many
-other R packages. We are also working on similar tools for Finnish and other data collections, see for example [Fennica](https://github.com/rOpenGov/fennica).
+ * [LIBER ](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
+
 
 
 ### Acknowledgements

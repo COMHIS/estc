@@ -12,7 +12,7 @@ output: markdown_document
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
-Publication year is available for 45647 documents (100%). The publication years span 1462-1802.
+Publication year is available for 50288 documents (100%). The publication years span 1462-1802.
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 
@@ -49,7 +49,7 @@ information is readily available in MARC.
 
 In this data we have 2
 unique documents with an identical title and author. Out of these,
-3862
+4312
 have multiple occurrences, sometimes with different publication years.
 Where multiple publication years are seen, the earliest occurrence is
 suggested as the first edition.

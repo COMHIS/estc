@@ -14,7 +14,7 @@ output: markdown_document
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 36010 documents (79%). There are 21705 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 40327 documents (80%). There are 21806 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
@@ -31,10 +31,10 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                                                                                                                    | titles|     paper|
-|:----------------------------------------------------------------------------------------------------------------------------|------:|---------:|
-|assigns his majesty's henry hills deceased                                                                                   |    187| 0.2050622|
-|author c moran great piazza covent garden                                                                                    |    568| 0.6722392|
-|morphew near stationers-hall                                                                                                 |    210| 0.4832368|
-|sumptibus theodori veridici                                                                                                  |    263| 0.3181479|
-|w rogers abel roper fleet-street harris nicholson little-britain newborough st paul's church-yard cockerill pater-noster-row |    151| 0.0689600|
+|publisher                                                                   | titles|     paper|
+|:---------------------------------------------------------------------------|------:|---------:|
+|charles bill executrix thomas newcomb deceas'd kings most excellent majesty |    229| 0.2803011|
+|edward husband honorable house commons                                      |    154| 0.0699456|
+|john bill christopher barker kings most excellent majesty                   |    267| 0.3205543|
+|leonard lichfield                                                           |    158| 0.0654610|
+|robert barker kings most excellent majestie assignes john bill              |    269| 0.1833965|

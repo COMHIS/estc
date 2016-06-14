@@ -34,64 +34,64 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                              | missing (%)| available (%)| available (n)| unique (n)|
 |:---------------------------------------|-----------:|-------------:|-------------:|----------:|
-|volnumber                               |        99.7|           0.3|           134|         14|
-|width.original                          |        98.7|           1.3|           596|         50|
-|height.original                         |        96.3|           3.7|          1669|         55|
-|volcount                                |        95.0|           5.0|          2265|        106|
-|document.items                          |        95.0|           5.0|          2265|        106|
-|author_gender                           |        77.6|          22.4|         10212|          4|
-|first_edition                           |        74.6|          25.4|         11605|          3|
-|publication_year_till                   |        73.9|          26.1|         11908|        228|
-|author_birth                            |        67.8|          32.2|         14710|        345|
-|author_death                            |        67.1|          32.9|         15015|        361|
-|self_published                          |        64.1|          35.9|         16394|          3|
-|subject_topic                           |        57.1|          42.9|         19582|       6986|
-|author_name                             |        55.5|          44.5|         20306|       6907|
-|author                                  |        55.5|          44.5|         20306|       7249|
-|publisher                               |        21.1|          78.9|         36010|      19903|
-|publication_topic                       |        16.7|          83.3|         38035|       3876|
-|latitude                                |        15.5|          84.5|         38575|         19|
-|longitude                               |        15.5|          84.5|         38575|         19|
-|publication_geography                   |         7.4|          92.6|         42276|       5447|
-|obl                                     |         5.4|          94.6|         43175|          3|
-|paper.consumption.km2                   |         4.8|          95.2|         43434|       2635|
-|width                                   |         3.8|          96.2|         43894|         57|
-|height                                  |         3.8|          96.2|         43894|         60|
-|area                                    |         3.8|          96.2|         43894|        287|
-|pagecount.orig                          |         3.3|          96.7|         44133|        893|
-|publication_year_from                   |         2.4|          97.6|         44557|        309|
-|pagecount                               |         1.0|          99.0|         45185|        953|
-|country                                 |         0.8|          99.2|         45269|         31|
-|publication_place                       |         0.8|          99.2|         45270|        376|
-|language                                |         0.0|         100.0|         45641|         21|
-|language.English                        |         0.0|         100.0|         45647|          2|
-|language.French                         |         0.0|         100.0|         45647|          2|
-|language.Latin                          |         0.0|         100.0|         45647|          2|
-|language.Welsh                          |         0.0|         100.0|         45647|          2|
-|language.Italian                        |         0.0|         100.0|         45647|          2|
-|language.German                         |         0.0|         100.0|         45647|          2|
-|language.Greek, Modern (1453-)          |         0.0|         100.0|         45647|          1|
-|language.Greek, Ancient (to 1453)       |         0.0|         100.0|         45647|          1|
-|language.Dutch                          |         0.0|         100.0|         45647|          2|
-|language.Spanish                        |         0.0|         100.0|         45647|          2|
-|language.French, Middle (ca. 1300-1600) |         0.0|         100.0|         45647|          1|
-|language.Newari                         |         0.0|         100.0|         45647|          2|
-|language.Scots                          |         0.0|         100.0|         45647|          2|
-|language.Romance (Other)                |         0.0|         100.0|         45647|          1|
-|language.Icelandic                      |         0.0|         100.0|         45647|          2|
-|language.Portuguese                     |         0.0|         100.0|         45647|          2|
-|language.Scottish Gaelic                |         0.0|         100.0|         45647|          2|
-|language.Armenian                       |         0.0|         100.0|         45647|          2|
-|language.Algonquian (Other)             |         0.0|         100.0|         45647|          1|
-|language.Multiple languages             |         0.0|         100.0|         45647|          2|
-|title                                   |         0.0|         100.0|         45647|      37641|
-|gatherings.original                     |         0.0|         100.0|         45647|         16|
-|obl.original                            |         0.0|         100.0|         45647|          2|
-|original_row                            |         0.0|         100.0|         45647|      45647|
-|author_pseudonyme                       |         0.0|         100.0|         45647|          2|
-|publication_year                        |         0.0|         100.0|         45647|        308|
-|publication_decade                      |         0.0|         100.0|         45647|         35|
-|gatherings                              |         0.0|         100.0|         45647|         16|
+|volnumber                               |        99.7|           0.3|           136|         16|
+|width.original                          |        98.7|           1.3|           674|         50|
+|publication_year_till                   |        97.2|           2.8|          1403|        228|
+|height.original                         |        96.6|           3.4|          1706|         55|
+|volcount                                |        95.1|           4.9|          2465|        102|
+|document.items                          |        95.1|           4.9|          2465|        102|
+|author_gender                           |        77.8|          22.2|         11165|          4|
+|first_edition                           |        74.1|          25.9|         13036|          3|
+|author_birth                            |        68.4|          31.6|         15899|        356|
+|author_death                            |        67.0|          33.0|         16593|        373|
+|self_published                          |        63.6|          36.4|         18328|          3|
+|subject_topic                           |        56.3|          43.7|         21970|       7639|
+|author_name                             |        55.8|          44.2|         22221|       7384|
+|author                                  |        55.8|          44.2|         22221|       7718|
+|publisher                               |        19.8|          80.2|         40327|      21495|
+|publication_topic                       |        17.0|          83.0|         41736|       4139|
+|latitude                                |         8.7|          91.3|         45933|         19|
+|longitude                               |         8.7|          91.3|         45933|         19|
+|publication_geography                   |         7.5|          92.5|         46538|       5844|
+|obl                                     |         5.9|          94.1|         47305|          3|
+|paper.consumption.km2                   |         5.2|          94.8|         47654|       2776|
+|width                                   |         4.3|          95.7|         48127|         57|
+|height                                  |         4.3|          95.7|         48127|         60|
+|area                                    |         4.3|          95.7|         48127|        306|
+|pagecount.orig                          |         3.2|          96.8|         48675|        932|
+|publication_place                       |         1.0|          99.0|         49803|        413|
+|country                                 |         1.0|          99.0|         49803|         33|
+|pagecount                               |         0.9|          99.1|         49814|        990|
+|publication_year_from                   |         0.4|          99.6|         50080|        309|
+|language                                |         0.0|         100.0|         50281|         21|
+|language.English                        |         0.0|         100.0|         50288|          2|
+|language.French                         |         0.0|         100.0|         50288|          2|
+|language.Latin                          |         0.0|         100.0|         50288|          2|
+|language.Welsh                          |         0.0|         100.0|         50288|          2|
+|language.Italian                        |         0.0|         100.0|         50288|          2|
+|language.German                         |         0.0|         100.0|         50288|          2|
+|language.Greek, Modern (1453-)          |         0.0|         100.0|         50288|          1|
+|language.Greek, Ancient (to 1453)       |         0.0|         100.0|         50288|          1|
+|language.Dutch                          |         0.0|         100.0|         50288|          2|
+|language.Spanish                        |         0.0|         100.0|         50288|          2|
+|language.French, Middle (ca. 1300-1600) |         0.0|         100.0|         50288|          1|
+|language.Newari                         |         0.0|         100.0|         50288|          2|
+|language.Scots                          |         0.0|         100.0|         50288|          2|
+|language.Romance (Other)                |         0.0|         100.0|         50288|          1|
+|language.Icelandic                      |         0.0|         100.0|         50288|          2|
+|language.Portuguese                     |         0.0|         100.0|         50288|          2|
+|language.Scottish Gaelic                |         0.0|         100.0|         50288|          2|
+|language.Armenian                       |         0.0|         100.0|         50288|          2|
+|language.Algonquian (Other)             |         0.0|         100.0|         50288|          1|
+|language.Multiple languages             |         0.0|         100.0|         50288|          2|
+|title                                   |         0.0|         100.0|         50288|      41247|
+|gatherings.original                     |         0.0|         100.0|         50288|         16|
+|obl.original                            |         0.0|         100.0|         50288|          2|
+|original_row                            |         0.0|         100.0|         50288|      50288|
+|author_pseudonyme                       |         0.0|         100.0|         50288|          2|
+|publication_year                        |         0.0|         100.0|         50288|        308|
+|publication_decade                      |         0.0|         100.0|         50288|         35|
+|gatherings                              |         0.0|         100.0|         50288|         16|
 
 
 
