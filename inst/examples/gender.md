@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Leo Lahti"
-date: "2016-05-26"
+date: "2016-06-14"
 output: markdown_document
 ---
 
@@ -9,15 +9,15 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 3105 unique male authors
+ * 412 unique male authors
  
- * 322 unique female authors
+ * 26 unique female authors
  
- * 14125 documents (3.1%) with a male author
+ * 1213 documents (2.7%) with a male author
  
- * 1484 documents (0.3%) with a female author
+ * 52 documents (0.1%) with a female author
  
- * 444035 documents (96.6%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
+ * 44382 documents (97.2%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
 
  * [First names identified as female](output.tables/gender_female.csv) in the preprocessed data (including pseudonymes)
 
@@ -40,7 +40,16 @@ output: markdown_document
    or the [custom author information
    table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/author_info.csv)
 
-<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-4.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" />
+
+```
+## Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+```
+
+```
+## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 20, 0
+```
+
+<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" />
 
 
 Author gender distribution in the complete data:
@@ -48,10 +57,10 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|ambiguous |        120553|        26.23|
-|female    |          1484|         0.32|
-|male      |         14125|         3.07|
-|NA        |        323482|        70.38|
+|ambiguous |          8947|        19.60|
+|female    |            52|         0.11|
+|male      |          1213|         2.66|
+|NA        |         35435|        77.63|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 

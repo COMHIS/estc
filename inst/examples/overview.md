@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-05-26"
+date: "2016-06-14"
 output: markdown_document
 ---
 
@@ -34,96 +34,64 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                              | missing (%)| available (%)| available (n)| unique (n)|
 |:---------------------------------------|-----------:|-------------:|-------------:|----------:|
-|volnumber                               |        99.8|           0.2|           936|         31|
-|publication_frequency                   |        99.3|           0.7|          3101|        144|
-|width.original                          |        99.2|           0.8|          3454|         72|
-|publication_interval                    |        99.2|           0.8|          3528|       3504|
-|height.original                         |        98.4|           1.6|          7548|         87|
-|volcount                                |        96.5|           3.5|         16239|        147|
-|document.items                          |        96.5|           3.5|         16239|        147|
-|latitude                                |        93.8|           6.2|         28722|         19|
-|longitude                               |        93.8|           6.2|         28722|         19|
-|publication_topic                       |        81.7|          18.3|         84098|       4888|
-|publication_year_till                   |        79.6|          20.4|         93878|        354|
-|publication_geography                   |        71.7|          28.3|        130009|      12221|
-|author_gender                           |        70.4|          29.6|        136162|          4|
-|first_edition                           |        67.9|          32.1|        147418|          3|
-|author_birth                            |        58.4|          41.6|        191075|        468|
-|author_death                            |        55.5|          44.5|        204514|        517|
-|self_published                          |        48.0|          52.0|        239232|          3|
-|subject_topic                           |        45.1|          54.9|        252317|      53465|
-|author_name                             |        39.7|          60.3|        276964|      46750|
-|author                                  |        39.7|          60.3|        276964|      53908|
-|publisher                               |        16.5|          83.5|        383581|     162946|
-|country                                 |         3.7|          96.3|        442575|         53|
-|publication_place                       |         3.7|          96.3|        442600|       1001|
-|pagecount.orig                          |         3.6|          96.4|        443181|       1452|
-|obl                                     |         3.4|          96.6|        443830|          3|
-|paper.consumption.km2                   |         2.4|          97.6|        448384|       6659|
-|width                                   |         2.2|          97.8|        449365|         78|
-|height                                  |         2.2|          97.8|        449365|         94|
-|area                                    |         2.2|          97.8|        449365|        619|
-|publication_year_from                   |         1.3|          98.7|        453788|        348|
-|pagecount                               |         0.2|          99.8|        458646|       1629|
-|language                                |         0.0|         100.0|        459598|         49|
-|title                                   |         0.0|         100.0|        459643|     345783|
-|control_number                          |         0.0|         100.0|        459644|     459644|
-|language.English                        |         0.0|         100.0|        459644|          2|
-|language.French                         |         0.0|         100.0|        459644|          2|
-|language.Latin                          |         0.0|         100.0|        459644|          2|
-|language.German                         |         0.0|         100.0|        459644|          2|
-|language.Scottish Gaelic                |         0.0|         100.0|        459644|          2|
-|language.Italian                        |         0.0|         100.0|        459644|          2|
-|language.Greek, Ancient (to 1453)       |         0.0|         100.0|        459644|          1|
-|language.Welsh                          |         0.0|         100.0|        459644|          2|
-|language.Portuguese                     |         0.0|         100.0|        459644|          2|
-|language.Dutch                          |         0.0|         100.0|        459644|          2|
-|language.Greek, Modern (1453-)          |         0.0|         100.0|        459644|          1|
-|language.Hebrew                         |         0.0|         100.0|        459644|          2|
-|language.Spanish                        |         0.0|         100.0|        459644|          2|
-|language.Pahlavi                        |         0.0|         100.0|        459644|          2|
-|language.Swedish                        |         0.0|         100.0|        459644|          2|
-|language.Irish                          |         0.0|         100.0|        459644|          2|
-|language.Manx                           |         0.0|         100.0|        459644|          2|
-|language.Romance (Other)                |         0.0|         100.0|        459644|          1|
-|language.Algonquian (Other)             |         0.0|         100.0|        459644|          1|
-|language.Lithuanian                     |         0.0|         100.0|        459644|          2|
-|language.Turkish                        |         0.0|         100.0|        459644|          2|
-|language.English, Old (ca. 450-1100)    |         0.0|         100.0|        459644|          1|
-|language.Scots                          |         0.0|         100.0|        459644|          2|
-|language.Arabic                         |         0.0|         100.0|        459644|          2|
-|language.North American Indian (Other)  |         0.0|         100.0|        459644|          1|
-|language.Persian                        |         0.0|         100.0|        459644|          2|
-|language.French, Middle (ca. 1300-1600) |         0.0|         100.0|        459644|          1|
-|language.Newari                         |         0.0|         100.0|        459644|          2|
-|language.Armenian                       |         0.0|         100.0|        459644|          2|
-|language.Tamil                          |         0.0|         100.0|        459644|          2|
-|language.Icelandic                      |         0.0|         100.0|        459644|          2|
-|language.Bengali                        |         0.0|         100.0|        459644|          2|
-|language.Russian                        |         0.0|         100.0|        459644|          2|
-|language.Malayalam                      |         0.0|         100.0|        459644|          2|
-|language.Danish                         |         0.0|         100.0|        459644|          2|
-|language.English, Middle (1100-1500)    |         0.0|         100.0|        459644|          1|
-|language.Coptic                         |         0.0|         100.0|        459644|          2|
-|language.Mongolian                      |         0.0|         100.0|        459644|          2|
-|language.Gujarati                       |         0.0|         100.0|        459644|          2|
-|language.Malay                          |         0.0|         100.0|        459644|          2|
-|language.Sanskrit                       |         0.0|         100.0|        459644|          2|
-|language.Gothic                         |         0.0|         100.0|        459644|          2|
-|language.Mohawk                         |         0.0|         100.0|        459644|          2|
-|language.Delaware                       |         0.0|         100.0|        459644|          2|
-|language.Iroquoian (Other)              |         0.0|         100.0|        459644|          1|
-|language.Palauan                        |         0.0|         100.0|        459644|          2|
-|language.Arawak                         |         0.0|         100.0|        459644|          2|
-|language.Scottish Gaelix                |         0.0|         100.0|        459644|          1|
-|language.Multiple languages             |         0.0|         100.0|        459644|          2|
-|gatherings.original                     |         0.0|         100.0|        459644|         18|
-|obl.original                            |         0.0|         100.0|        459644|          2|
-|original_row                            |         0.0|         100.0|        459644|     459644|
-|author_pseudonyme                       |         0.0|         100.0|        459644|          2|
-|publication_year                        |         0.0|         100.0|        459644|        348|
-|publication_decade                      |         0.0|         100.0|        459644|         37|
-|gatherings                              |         0.0|         100.0|        459644|         18|
+|volnumber                               |        99.7|           0.3|           134|         14|
+|width.original                          |        98.7|           1.3|           596|         50|
+|height.original                         |        96.3|           3.7|          1669|         55|
+|volcount                                |        95.0|           5.0|          2265|        106|
+|document.items                          |        95.0|           5.0|          2265|        106|
+|latitude                                |        84.1|          15.9|          7250|         19|
+|longitude                               |        84.1|          15.9|          7250|         19|
+|author_gender                           |        77.6|          22.4|         10212|          4|
+|first_edition                           |        74.6|          25.4|         11605|          3|
+|publication_year_till                   |        73.9|          26.1|         11908|        228|
+|author_birth                            |        67.8|          32.2|         14710|        345|
+|author_death                            |        67.1|          32.9|         15015|        361|
+|self_published                          |        64.1|          35.9|         16394|          3|
+|subject_topic                           |        57.1|          42.9|         19582|       6986|
+|author_name                             |        55.5|          44.5|         20306|       6907|
+|author                                  |        55.5|          44.5|         20306|       7249|
+|publisher                               |        21.1|          78.9|         36010|      19903|
+|publication_topic                       |        16.7|          83.3|         38035|       3876|
+|publication_geography                   |         7.4|          92.6|         42276|       5447|
+|obl                                     |         5.4|          94.6|         43175|          3|
+|paper.consumption.km2                   |         4.8|          95.2|         43434|       2635|
+|width                                   |         3.8|          96.2|         43894|         57|
+|height                                  |         3.8|          96.2|         43894|         60|
+|area                                    |         3.8|          96.2|         43894|        287|
+|pagecount.orig                          |         3.3|          96.7|         44133|        893|
+|publication_place                       |         3.0|          97.0|         44293|        387|
+|country                                 |         3.0|          97.0|         44293|         33|
+|publication_year_from                   |         2.4|          97.6|         44557|        309|
+|pagecount                               |         1.0|          99.0|         45185|        953|
+|language                                |         0.0|         100.0|         45641|         21|
+|language.English                        |         0.0|         100.0|         45647|          2|
+|language.French                         |         0.0|         100.0|         45647|          2|
+|language.Latin                          |         0.0|         100.0|         45647|          2|
+|language.Welsh                          |         0.0|         100.0|         45647|          2|
+|language.Italian                        |         0.0|         100.0|         45647|          2|
+|language.German                         |         0.0|         100.0|         45647|          2|
+|language.Greek, Modern (1453-)          |         0.0|         100.0|         45647|          1|
+|language.Greek, Ancient (to 1453)       |         0.0|         100.0|         45647|          1|
+|language.Dutch                          |         0.0|         100.0|         45647|          2|
+|language.Spanish                        |         0.0|         100.0|         45647|          2|
+|language.French, Middle (ca. 1300-1600) |         0.0|         100.0|         45647|          1|
+|language.Newari                         |         0.0|         100.0|         45647|          2|
+|language.Scots                          |         0.0|         100.0|         45647|          2|
+|language.Romance (Other)                |         0.0|         100.0|         45647|          1|
+|language.Icelandic                      |         0.0|         100.0|         45647|          2|
+|language.Portuguese                     |         0.0|         100.0|         45647|          2|
+|language.Scottish Gaelic                |         0.0|         100.0|         45647|          2|
+|language.Armenian                       |         0.0|         100.0|         45647|          2|
+|language.Algonquian (Other)             |         0.0|         100.0|         45647|          1|
+|language.Multiple languages             |         0.0|         100.0|         45647|          2|
+|title                                   |         0.0|         100.0|         45647|      37641|
+|gatherings.original                     |         0.0|         100.0|         45647|         16|
+|obl.original                            |         0.0|         100.0|         45647|          2|
+|original_row                            |         0.0|         100.0|         45647|      45647|
+|author_pseudonyme                       |         0.0|         100.0|         45647|          2|
+|publication_year                        |         0.0|         100.0|         45647|        308|
+|publication_decade                      |         0.0|         100.0|         45647|         35|
+|gatherings                              |         0.0|         100.0|         45647|         16|
 
 
 
@@ -133,7 +101,12 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ## Histograms of the top entries for factor variables
 
-<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-11.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-12.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
+
+```
+## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 20, 0
+```
+
+<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
 
 
 

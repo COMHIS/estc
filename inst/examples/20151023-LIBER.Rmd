@@ -7,6 +7,27 @@ output: markdown_document
 
 ## LIBER Analyses
 
+<<setup, include="FALSE">>=
+opts_chunk$set(fig.path = "figure_20151023_LIBER/",
+#fig.lp = "",
+#out.width=".05\\textwidth",
+#fig.pos="b",
+#fig.keep="high",
+#fig.show="hold",
+#fig.align="center",
+#comment=NA
+)
+#knit_hooks$set(inline = function(x) {
+#if (is.numeric(x)) return(knitr:::format_sci(x, 'latex'))
+#x = as.character(x)
+#h = knitr:::hilight_source(x, 'latex', list(prompt=FALSE, size='normalsize', highlight=FALSE))
+#h = gsub("([_#$%&])", "\\\\\\1", h)
+#h = gsub('(["\'])', '\\1{}', h)
+#gsub('^\\\\begin\\{alltt\\}\\s*|\\\\end\\{alltt\\}\\s*$', '', h)})
+#par(las = 1)
+#options(width = 30, scipen = 4, digits = 3)
+@
+
 ```{r summaryinit, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
 library(stringr)
 library(bibliographica)
@@ -25,11 +46,12 @@ df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_y
 df <- df.preprocessed
 ```
 
-This document provides a reproducible summary of the ESTC history data set (roughly 50,000 documents) as prepared for our [Liber Quarterly article](http://liber.library.uu.nl/index.php/lq) ([Tolonen](https://github.com/tolonen), [Ilomäki](https://github.com/NVI/), [Lahti](http://www.iki.fi/Leo.Lahti); in review). See also further analyses of this data collection listed in the [README file](https://github.com/rOpenGov/estc). For details on the data and analysis, see the manuscript (link will be added here when the article is out!). Do not hesitate to contact us if you have questions. The figures may be slightly different than in the original article due to improvements in the analysis pipeline.
+This document provides a reproducible summary of the ESTC history data set (roughly 50,000 documents) used in [Tolonen, Ilomaki, Lahti; Liber Quarterly 25(2), pp.87–116](http://doi.org/10.18352/lq.10112). For details on the data and analysis, see the manuscript. The figures presented on this page may be slightly different than in the original article due to improvements in the analysis pipeline. Further analysis of the overall ESTC data collection (roughly 500,000 documents) are linked in the [README file](https://github.com/rOpenGov/estc). 
+
 
 ### Reproducing the analyses
 
-The ESTC data set obtained from the British Library is not public. If you have access to the ESTC data, you can reproduce the analyses by first cloning this repository and parsing the raw data file ([instructions](https://github.com/rOpenGov/estc/blob/master/vignettes/tutorial.md)). Note that this workflow is updated with new information and is under constant improvement; therefore the figures are not necessarily identical to the ones shown in the publication. Full details for reproducing the figures are in the [Rmarkdown source code](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.Rmd). After parsing the raw data file and installing the required R packages, you can run the following commands in R (use the inst/examples folder of this repository as the working directory) to generate all the figures:
+The analysis on this page rely on access to the ESTC data. This data set was obtained from the British Library and is not public. Assuming you have access to the ESTC data, you can reproduce the analyses by first cloning this repository and parsing the raw data file ([instructions](https://github.com/rOpenGov/estc/blob/master/vignettes/tutorial.md)). Full details for reproducing the figures are in the [Rmarkdown source code](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.Rmd) of this document that you are reading now. After parsing the raw data file and installing the required R packages, you can run the following commands in R (use the inst/examples folder of this repository as the working directory) to generate all the figures:
 
 
 ```{r, echo=TRUE, message=FALSE, warning=FALSE, eval=FALSE}
