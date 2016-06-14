@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-05-26"
+date: "2016-06-15"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 2406 documents from Scotland.
+We have 40244 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -42,6 +42,11 @@ We have 2406 documents from Scotland.
 
 Authors born before 500 AD: paper consumption per decade in Scotland and globally. Top-10 authors shown for clarity in each case.
 
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
 ![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)
 
 
@@ -50,11 +55,11 @@ List of authors born before 500AD:
 
 ```
 ## 
-## Gerard, Alexander (1-NA) 
-##                        4
+##      Aelian,  (3-NA) Hierocles,  (430-NA)    Longinus,  (1-NA) 
+##                    1                    2                    6
 ```
 
-We have 4 documents from 1 unique
+We have 9 documents from 3 unique
 authors born before 500 AD who have published in Scotland.
 
 
@@ -157,7 +162,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error: Insufficient values in manual scale. 51 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 54 needed but only 5 provided.
 ```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
@@ -167,7 +172,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 1998 documents from Scotland and 11707 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34465 documents from Scotland and 204975 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
@@ -190,11 +195,11 @@ We have 1998 documents from Scotland and 11707 documents from London during 1700
 ## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
 
-![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
-
 ```
 ## Error in eval(expr, envir, enclos): object 'publication_decade' not found
 ```
+
+![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
 
 
 
@@ -204,13 +209,13 @@ We have 1998 documents from Scotland and 11707 documents from London during 1700
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 208 rows containing missing values (geom_point).
+## Warning: Removed 6078 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 19108 rows containing missing values (geom_point).
+## Warning: Removed 1978 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
