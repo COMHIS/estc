@@ -42,6 +42,7 @@ dir.create(output.folder)
 
 # ----------------------------------------------------
 
+gendermap.file = system.file("extdata/gendermap_english.csv", package = "bibliographica")
 source(system.file("extdata/preprocessing.R", package = "bibliographica"))
 
 # ----------------------------------------------------

@@ -162,6 +162,7 @@ p <- p + ggtitle("Title count versus paper (authors)")
 print(p)	 
 ```
 
+<!--
 
 ### The most active known female authors based on the title count
 
@@ -188,6 +189,9 @@ p <- p + ggtitle("Top female authors")
 p <- p + theme(axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 22), title = element_text(size = 22))
 print(p)	 
 ```
+
+--> 
+
 
 ## Where was history published ?
 
