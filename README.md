@@ -38,7 +38,7 @@ data.
 
 Analyses are frozen for already published material:
 
- * [LIBER ](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
+ * [Liber Quarterly 25(2), pp.87–116, 2015](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
 
 
 
