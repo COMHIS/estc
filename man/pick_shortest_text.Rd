@@ -2,7 +2,7 @@
 % Please edit documentation in R/pick_shortest_text.R
 \name{pick_shortest_text}
 \alias{pick_shortest_text}
-\title{Pick shorter text}
+\title{Pick Shorter Text}
 \usage{
 pick_shortest_text(vec)
 }
