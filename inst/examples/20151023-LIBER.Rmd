@@ -7,27 +7,6 @@ output: markdown_document
 
 ## LIBER Analyses
 
-<<setup, include="FALSE">>=
-opts_chunk$set(fig.path = "figure_20151023_LIBER/",
-#fig.lp = "",
-#out.width=".05\\textwidth",
-#fig.pos="b",
-#fig.keep="high",
-#fig.show="hold",
-#fig.align="center",
-#comment=NA
-)
-#knit_hooks$set(inline = function(x) {
-#if (is.numeric(x)) return(knitr:::format_sci(x, 'latex'))
-#x = as.character(x)
-#h = knitr:::hilight_source(x, 'latex', list(prompt=FALSE, size='normalsize', highlight=FALSE))
-#h = gsub("([_#$%&])", "\\\\\\1", h)
-#h = gsub('(["\'])', '\\1{}', h)
-#gsub('^\\\\begin\\{alltt\\}\\s*|\\\\end\\{alltt\\}\\s*$', '', h)})
-#par(las = 1)
-#options(width = 30, scipen = 4, digits = 3)
-@
-
 ```{r summaryinit, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
 library(stringr)
 library(bibliographica)
@@ -65,7 +44,7 @@ library(knitr)
 library(ggplot2)
 library(estc)
 library(bibliographica)
-opts_chunk$set(cache=FALSE)
+opts_chunk$set(cache=FALSE, fig.path = "figure_20151023_LIBER/")
 library(dplyr)
 library(ggthemes)
 ```
