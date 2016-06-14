@@ -40,11 +40,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height.original                         |        96.6|           3.4|          1706|         55|
 |volcount                                |        95.1|           4.9|          2465|        102|
 |document.items                          |        95.1|           4.9|          2465|        102|
-|author_gender                           |        77.8|          22.2|         11165|          4|
 |first_edition                           |        74.1|          25.9|         13036|          3|
 |author_birth                            |        68.4|          31.6|         15899|        356|
 |author_death                            |        67.0|          33.0|         16593|        373|
 |self_published                          |        63.6|          36.4|         18328|          3|
+|author_gender                           |        62.4|          37.6|         18891|          4|
 |subject_topic                           |        56.3|          43.7|         21970|       7639|
 |author_name                             |        55.8|          44.2|         22221|       7384|
 |author                                  |        55.8|          44.2|         22221|       7718|

@@ -36,9 +36,9 @@ data.
 
 ### Reproducible analysis 
 
-Analyses are frozen for already published material:
+We have frozen the analysis for already published material:
 
- * [Liber Quarterly 25(2), pp.87–116, 2015](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
+ * [Figures for Lahti, Ilomaki, Tolonen (2015). Liber Quarterly 25(2), pp.87–116](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
 
 
 

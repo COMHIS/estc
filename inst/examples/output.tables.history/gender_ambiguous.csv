@@ -1,57 +1,94 @@
 Name	Count
+john	2669
 william	1757
+thomas	1359
 richard	585
 george	554
+james	551
 robert	538
+edward	397
 henry	376
+samuel	320
 joseph	275
 charles	259
 francis	241
 david	228
+edmund	221
 oliver	194
 daniel	181
 benjamin	141
+peter	136
+gilbert	135
 alexander	127
+roger	110
+nathaniel	107
+philip	103
+hugh	88
+isaac	88
 matthew	85
+jonathan	82
 laurence	69
 clement	64
+edward hyde	64
+anthony	63
+arthur	63
 giovanni paolo	62
+andrew	58
 christopher	57
+julius	56
+stephen	56
 walter	54
+nicholas	53
+josiah	46
 ralph	46
 cornelius	45
+michael	44
+thomas wentworth	42
 henry st john	41
+patrick	41
 abel	35
 paul	35
 adam	34
 jean	34
+john fitzgibbon	32
 mary	29
 george monck	27
+nicolas	27
+pierre	27
 robert devereux	27
 robert goodloe	27
 simon	27
+denzil	26
 eleanor	26
 louis	26
 abraham	25
+hugo	25
+jacob	25
 francis d'	23
 lewis	23
 elizabeth	22
+israel	22
 jacques	22
 joshua	22
 maurice	22
+jeremiah	21
 jeremy	21
 helen maria	20
+luke	20
 martin	20
 thomas lewis	20
 titus	20
 tobias george	20
 archibald campbell	19
+james butler	19
 george digby	18
 george savile	18
 jean de	18
-arise	17
+john hamilton	18
 claude	17
+john thompson	17
 pierre mathurin de	17
+timothy	17
 gabriel-honoré de riquetti	16
 guillaume de salluste	16
 warren	16
@@ -60,45 +97,59 @@ audley	15
 charles alexandre de	15
 charles de secondat	15
 gabriel	15
+jonas	15
 mary white	15
 william cavendish	15
 margaret	14
 michel	14
 temple	14
 william cusack	14
+aaron	13
 ebenezer	13
+edward montagu	13
 frances	13
 george mackenzie	13
+nathanael	13
 philippe de	13
+vincent	13
 william augustus	13
 antonio de	12
+dudley	12
 elisha	12
 henri	12
 lionel	12
 robert rich	12
+thomas osborne	12
 ethan	11
 hannah	11
 louis ellies	11
+nathan	11
 payne	11
 anthony ashley cooper	10
-conyers	10
 de	10
+gregorio	10
 joel	10
 matthew robinson-morris	10
 valentine	10
 william cecil	10
 william henry	10
 antoine	9
-browne	9
 charles john ann	9
+edmond	9
 edward russell	9
+herbert	9
 horace	9
 james graham	9
+james stanley	9
 johann caspar	9
+john digby	9
 sarah churchill	9
 simon nicolas henri	9
+zachary	9
 anna	8
+caleb	8
 charles kendal	8
+donald	8
 fabian	8
 george villiers	8
 gerard	8
@@ -106,59 +157,81 @@ gilbert elliot	8
 henry dundas	8
 henry home	8
 ira	8
+james thomson	8
 jean pierre	8
+john holroyd	8
 la	8
+marcus junianus	8
 nathaniel william	8
 philip morin	8
 silas	8
 anne	7
-ant -fr	7
+arthur annesley	7
 bryan	7
+duncan	7
+edward somerset	7
+eliza fowler	7
 ellis	7
 ezekiel	7
+james edward	7
 jean-antoine-nicolas de caritat	7
 john dalrymple	7
+john sheffield	7
 louis de	7
+manasseh	7
 pier giovanni	7
 raphael	7
 robert stewart	7
 sarah	7
 antoine de pas	6
+antonio	6
 armand jean du plessis	6
-arrigo caterino	6
 arthur ashley	6
 brian	6
 charles francis	6
 charles pinot-	6
 dominique	6
-foote	6
+elias	6
 frederick howard	6
 geoffrey	6
 georg friedrich	6
+gorges edmond	6
 guy	6
+herman	6
 james douglas	6
 johann georg	6
 johann jakob	6
+john huddlestone	6
+karl	6
+marcus tullius	6
 marie	6
 noah	6
 robert treat	6
 roger palmer	6
+thomas bradbury	6
 wentworth dillon	6
 william alexander	6
 alexander leslie	5
+anthony à	5
 bernard	5
 charles de	5
 dennis	5
 eleazar	5
 éléazar de	5
 ely	5
+ezra	5
+frederick	5
 george bubb	5
 george warter	5
 henry rich	5
 isaac de	5
+james touchet	5
 jean baptiste	5
 jean louis	5
 john campbell	5
+john foster	5
+john joachim	5
+jonathan mitchell	5
 juan de	5
 lawrence	5
 leonard	5
@@ -174,6 +247,7 @@ amos	4
 augustus	4
 bishop of carthage	4
 carl	4
+carlo	4
 charles irénée castel de	4
 charles james	4
 claude carloman de	4
@@ -192,9 +266,12 @@ giovanni battista	4
 henry addington	4
 henry booth	4
 henry clifford	4
+jacob nicolas	4
 jacques-auguste de	4
+james pettit	4
 jan	4
 jan philipsz	4
+jasper	4
 jean françois	4
 jean jacques	4
 jeanne de saint-rémy de valois	4
@@ -204,18 +281,23 @@ le	4
 louis claude	4
 louis de rouvroy	4
 lucius cary	4
+marcus	4
 mathew	4
+miles	4
+patrick hume	4
 percy	4
 prudencio de	4
 richard owen	4
 robert john	4
 simeon	4
 sylvester	4
+thaddeus	4
 théodore de	4
 thomas brooke	4
 william seymour	4
 william wyndham	4
 zephaniah	4
+abiel	3
 alexandre	3
 alfonso de	3
 alice	3
@@ -224,6 +306,8 @@ andrea	3
 andreas	3
 ange	3
 antoine marie	3
+arthur capel	3
+arthur wolfe	3
 auguste	3
 barry maxwell	3
 benjamin young	3
@@ -238,6 +322,8 @@ consort of charles i	3
 david stewart erskine	3
 diego de	3
 divine	3
+dorothy	3
+edmund john	3
 edward cecil	3
 emmanuel-louis-henri-alexandre de launay	3
 evan	3
@@ -250,13 +336,16 @@ gaultier de coste	3
 georg ludwig	3
 gervase	3
 giovanni francesco	3
+gordon	3
 gregory	3
+hans	3
 henry carey	3
 henry george	3
 henry hyde	3
 henry neville	3
 henry sidney	3
 hermon	3
+hezekiah	3
 jacques bénigne	3
 james scott	3
 jane	3
@@ -266,6 +355,7 @@ johann	3
 johann amos	3
 john henry	3
 john murray	3
+john perceval	3
 juan bautista	3
 landon	3
 levi	3
@@ -275,36 +365,47 @@ mathieu françois pidanzat de	3
 mathieu françois pidanzat de	3
 micaiah	3
 moses	3
+mostyn john	3
+myles	3
+nicholas philpot	3
+pedro	3
 peregrine bertie	3
 philippus van	3
 pierre-françois-xavier de	3
 pierre joseph d'	3
+reginald	3
 richard brinsley	3
 richard joseph	3
 robert greville	3
 robert r	3
 roderick	3
 saint	3
+samuel stanhope	3
+solomon	3
 sylvester douglas	3
 tam	3
 tate	3
-theodorus	3
+thomas o'brien	3
+thomas pelham-holles	3
 thomas richard	3
 val	3
 willoughby bertie	3
 agamemnon shaglock van	2
+albert	2
 algernon percy	2
 alonso de	2
 álvaro de	2
+ann	2
 anna maria	2
-ant jaq	2
 anton	2
 ari	2
 barry yelverton	2
+basil	2
 basil william	2
 benjamin andrewes	2
 benoı̂t de	2
 bernardin de	2
+bishop of hippo	2
 carlos martínez de yrujo y tacón	2
 catherine sedley	2
 charles coote	2
@@ -319,7 +420,10 @@ connor maguire	2
 constantine	2
 cooper	2
 david erskine	2
+dudley carleton	2
 edmond charles	2
+edward seymour	2
+elijah	2
 ellis cornelia	2
 etienne	2
 félix de	2
@@ -327,6 +431,7 @@ filliberto sallier de	2
 francisco	2
 francis grant	2
 francis venables	2
+françois pierre	2
 françois xavier	2
 friedrich von	2
 george gordon	2
@@ -335,12 +440,15 @@ george marie	2
 gervase parker	2
 guillaume-alexandre de	2
 hector	2
+henrietta	2
 henry grey	2
 henry scott	2
 i f henry	2
 jacques antoine hippolyte	2
 jacques auguste de	2
 jacques bénigne	2
+james digges	2
+james erskine	2
 james maitland	2
 james wilson	2
 jan janszn	2
@@ -350,16 +458,27 @@ jean cornand de	2
 jeanne bécu	2
 jean-nicolas de	2
 jean sylvain	2
+jedidiah	2
+jeffery	2
 jo	2
 joan	2
 johann friedrich	2
 johann heinrich	2
 johann joachim von	2
 johann stephan	2
+john bourke	2
+john c	2
+john coakley	2
+john drummond	2
 john gay	2
+john gordon	2
+john graves	2
+john horne	2
+john jervis white	2
 john joshua proby	2
 john mason	2
 john paul	2
+john robartes	2
 john stewart	2
 john sylvester john	2
 john talbot	2
@@ -367,6 +486,7 @@ joseph c	2
 judah	2
 karl josef von	2
 katherine	2
+lachlan	2
 lawrence parsons	2
 louis philippe joseph	2
 louis sébastien	2
@@ -379,13 +499,17 @@ marco antonio	2
 martha arundel	2
 matthieu de	2
 montague bertie	2
+nicholas preston	2
 nicolas de koning	2
 ogier ghislain de	2
 owen roe	2
 patrick ruthven	2
 peter gally de	2
 philémon de	2
+philip dormer	2
+philip john	2
 philippe de clérembault	2
+pierre françois	2
 pierre jean	2
 randal macdonnell	2
 richard boyle	2
@@ -399,11 +523,16 @@ robert kerr	2
 robert sidney	2
 roger boyle	2
 r plumer	2
+salvatore	2
+samuel waller	2
 seth	2
 shon ap	2
+spencer compton	2
+stanley	2
 thomas addis	2
 thomas grey	2
 thomas howard	2
+thomas ledlie	2
 thomas livingston	2
 tom	2
 wendy	2
@@ -422,37 +551,39 @@ alfonso avalos	1
 alicia	1
 allen	1
 alured henry	1
+alvaro	1
 andré de	1
 angelo	1
 anne-hilarion de cotentin	1
 anne jean	1
+ann eliza	1
 anthony ashly cooper	1
+anthony preston	1
 antoine alexandre	1
 antoine louis claude	1
 antoine perrenot de	1
 anton friedrich	1
 antónio de	1
 antónio de	1
+antonio d r	1
 antonio pereira de	1
-ap	1
 armand de gramont	1
 armand louis	1
+arnold	1
+arthur herbert	1
 aubry de	1
 augustus john hervey	1
-back	1
 bar	1
 bartholomé de	1
-bassett	1
 ben	1
-benjamine	1
 bernard de	1
 bernardino de	1
 bertrand poirier de	1
+bob	1
 calvin	1
 camille	1
 carl heinrich von	1
 caroline	1
-casto innocente	1
 catherine	1
 chandler	1
 charles alexander	1
@@ -479,6 +610,7 @@ charles stanley	1
 charles william	1
 charlotte	1
 charlotte saumaise de chazan	1
+chauncey	1
 chrétien guillaume de lamoignon de	1
 christiaan van	1
 christian frederick	1
@@ -486,9 +618,9 @@ christian wilhelm franz	1
 christoph martin	1
 cipriano de	1
 claude prosper jolyot de	1
-consider	1
+consort of frederick i	1
 constant	1
-dalby	1
+corbyn	1
 damião de	1
 daniel roderick	1
 david leslie	1
@@ -504,23 +636,27 @@ dirk van	1
 domingo	1
 donatien-marie-joseph de vimeur	1
 donell	1
-east	1
+dwight	1
 eberhard august wilhelm von	1
 edmond alexander	1
 edward henry	1
 edward la	1
 edward rowe	1
+edward sackville	1
 edward wortley	1
+edwin	1
 eli	1
 elie	1
 ellert de	1
+emanuel	1
+emanuel d'	1
 emmanuel joseph	1
 emmanuel van	1
 english	1
+en philadelphia	1
 esaïe du mats de	1
 etienne de	1
 euphemia maria dungan	1
-eyre	1
 fernando alvarez de toledo	1
 fer~nao lopes de	1
 florence	1
@@ -538,9 +674,11 @@ françois paul	1
 françois rené jean de	1
 frederick morton	1
 frederick william hervey	1
+freeman	1
 french	1
 friedrich daniel	1
 friedrich ernst von	1
+friedrich karl casimir	1
 gabriel d'	1
 gabriel-honoré de riquetti	1
 garnet	1
@@ -556,7 +694,9 @@ george richards	1
 george robert	1
 george william	1
 georg georgson	1
+gerald	1
 gerolamo franchi di	1
+gideon	1
 giovanni domenico	1
 giovanni tommaso	1
 griffin	1
@@ -578,13 +718,21 @@ henry sacheverell	1
 henry seymour	1
 henry somerset	1
 hubert	1
+hugh o'neill	1
 in pensylvanien	1
 isaac burke	1
 israël-bernard de	1
 jacques pineton de	1
+james a	1
+james burnet	1
 james dalrymple	1
+james fitzjames	1
 james harris	1
+james hay	1
 james henry	1
+james jones	1
+james m	1
+james solas	1
 jared	1
 jas	1
 jason	1
@@ -609,7 +757,6 @@ jean t'serclaes	1
 jean-yrieux de beaupoil	1
 jerome	1
 joan derk van der	1
-joannes georgius	1
 johan	1
 johann bernhard	1
 johann david	1
@@ -622,14 +769,38 @@ johann philipp	1
 johann wilhelm von	1
 johan van	1
 john abraham	1
+john baptist	1
 john bernard	1
 john blair	1
 john christopher	1
+john churchill	1
+john clotworthy	1
+john cosens	1
+john cox	1
+john edward	1
+john elphinstone	1
+john fauchereaud	1
+john ferdinand smyth	1
 john francis	1
+john frederick	1
 john gabriel	1
 john glen	1
+john hay	1
+john i	1
 john joshua	1
+john k	1
+john manners	1
+john mascoll	1
+john monck	1
+john pennington	1
 john prior	1
+john rogerson	1
+john shute	1
+john singleton	1
+john spencer	1
+john thomas	1
+john webbe	1
+jonathan l	1
 jonathan williams	1
 jone	1
 joris van	1
@@ -642,9 +813,9 @@ joseph octave	1
 joseph pitton de	1
 joseph wilkinson	1
 joseph yesurun	1
-josias carvil	1
 josse de	1
 joyce	1
+j samuel	1
 juan luis	1
 juan tomás enríquez de	1
 judith	1
@@ -664,15 +835,16 @@ louise françoise de houssay de	1
 louise-marguerite de lorraine	1
 louis françois armand du plessis	1
 louis-rené de caradeuc de	1
-lover	1
 ludovic lindsay	1
 luis	1
 luis de	1
 luís de	1
+lydia	1
 mack me	1
 major	1
 marco	1
 marc-rené-marie d'amarzit de sahuguet d'	1
+marcus friedrich	1
 margaret askew fell	1
 marguerite de	1
 mariana	1
@@ -687,35 +859,43 @@ mary vanlore alexander	1
 maurice auguste	1
 maximilien de béthune	1
 maximilien de bthune	1
-member	1
-meriwether	1
 mervyn	1
 michael von	1
 michel armand	1
 michiel van	1
+miguel	1
 miguel de	1
+mikhail vasilʹevich	1
 molly	1
 morgan j	1
 moses c	1
-nat	1
+mylo	1
+nathaniel brassey	1
+neil	1
 noël antoine	1
-old	1
+norman	1
 oliver st john	1
-ottoe enrico dal carretto	1
+owen	1
+patience	1
 patrick grant	1
 patrick murray	1
 paul françois	1
 paul philippe	1
-pavel	1
 pedro de la	1
 peregrine osborne	1
 peter brady	1
-ph	1
+peter philanthropos	1
+philip carteret	1
+philip herbert	1
 philippe-auguste de sainte-foix	1
 philippe de montault de bénac	1
 philipp georg friedrich von	1
 philip sidney	1
+philip stanhope	1
 philips van	1
+philip yorke	1
+phillip	1
+phillis	1
 pierre augustin caron de	1
 pierre de bourdeille	1
 pierre drapeyron de	1
@@ -724,6 +904,8 @@ pierre le pesant	1
 pierre louis	1
 pieter de	1
 pons de lauzière	1
+priscilla	1
+queen	1
 rachel	1
 randall	1
 randle	1
@@ -731,6 +913,8 @@ raymond de	1
 reeve	1
 rené goulaine de	1
 rené-louis de voyer	1
+return jonathan	1
+reuben	1
 richard bankes	1
 richard coote	1
 richard de	1
@@ -746,7 +930,7 @@ robert pool	1
 robert ridgeway	1
 robert spencer	1
 roger de rabutin	1
-sad	1
+rudolf erich	1
 sake deen	1
 samuel morton	1
 samuel taylor	1
@@ -756,6 +940,7 @@ sayer	1
 scévole de	1
 sebastian	1
 sharon	1
+sherman	1
 shon up	1
 sieur de	1
 simon de	1
@@ -766,7 +951,10 @@ sir maurice	1
 sir william	1
 sophia	1
 stephen martin	1
+stephen row	1
 st george	1
+st john	1
+stuart moncrieff	1
 temple henry	1
 thaddeus mason	1
 thémiseul de	1
@@ -774,10 +962,21 @@ tho	1
 thomas arthur de	1
 thomas augustus	1
 thomas de	1
+thomas dongan	1
+thomas dungan	1
+thomas edward	1
+thomas green	1
+thomas hamilton	1
 thomas henry	1
+thomas hooper	1
+thomas p	1
+thomas pope	1
 thomas terry	1
 thomas turner	1
+thomas w	1
+thomas west	1
 tim	1
+timothy mather	1
 treadway russell	1
 true	1
 uriah	1
@@ -800,3 +999,4 @@ william richardson	1
 william russell	1
 william stanhope	1
 william steel	1
+winston	1

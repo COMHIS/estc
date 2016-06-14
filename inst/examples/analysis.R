@@ -37,9 +37,6 @@ df <- df.preprocessed <- df.preprocessed.orig
 knit("pagecounts.Rmd")
 
 df <- df.preprocessed <- df.preprocessed.orig
-knit("20151023-LIBER.Rmd") # For journal
-
-df <- df.preprocessed <- df.preprocessed.orig
 
 # Archived - done with history data
 # do not work (yet) with the full data
@@ -51,6 +48,10 @@ df <- df.preprocessed <- df.preprocessed.orig
 
 # Requires local XLS files 
 # source("Shakespeare400.R")
+
+# Frozen analyses are commented out.
+# Not tested with newer package versions.
+# source("20151023-LIBER.R") 
 
 # -------------------------------------------------
 
