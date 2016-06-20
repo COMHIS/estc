@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-06-15"
+date: "2016-06-20"
 output: markdown_document
 ---
 
@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 16627 documents and updated (changed) for 4279 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 15549 documents and updated (changed) for 4279 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -71,11 +71,11 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
 |1to           |                   NA|                     NA|          16|                  NA|                    NA|         NA|               NA|                 NA|      NA|
 |2long         |                   NA|                     NA|           5|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|2fo           |              1371.00|                1004.00|        1389|              351.64|                500.00|       1340|            38.00|                 38|      39|
+|2fo           |              1425.62|                1008.00|        1389|              511.85|                500.00|       1093|            38.00|                 38|       2|
 |4long         |                  NaN|                     NA|           2|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4to           |               213.33|                  64.00|        1507|               82.37|                 32.00|        902|            31.84|                 32|     129|
+|4to           |               140.46|                   4.00|        1507|              338.13|                341.17|        180|            25.33|                 32|       3|
 |8long         |                15.33|                  15.33|           2|                4.33|                  4.33|          2|               NA|                 NA|      NA|
-|8vo           |                 -Inf|                 584.00|        7187|              275.91|                290.00|       7432|            25.18|                 26|      17|
+|8vo           |                 -Inf|                 583.00|        7187|              289.46|                289.50|       7327|            21.33|                 26|       3|
 |12long        |                99.43|                  48.00|           7|               44.40|                 24.00|          6|               NA|                 NA|      NA|
 |12mo          |               445.85|                 314.00|        6826|              157.93|                155.00|       7028|               NA|                 NA|      NA|
 |16mo          |               790.85|                 588.00|          48|              292.04|                292.00|         50|               NA|                 NA|      NA|
