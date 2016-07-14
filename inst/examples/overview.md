@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-06-15"
+date: "2016-06-20"
 output: markdown_document
 ---
 
@@ -35,8 +35,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |field name                              | missing (%)| available (%)| available (n)| unique (n)|
 |:---------------------------------------|-----------:|-------------:|-------------:|----------:|
 |volnumber                               |        99.8|           0.2|           946|         31|
-|publication_frequency                   |        99.3|           0.7|          3263|        149|
-|publication_interval                    |        99.2|           0.8|          3694|       3665|
 |width.original                          |        99.2|           0.8|          3731|         72|
 |height.original                         |        98.3|           1.7|          8153|         88|
 |publication_year_till                   |        97.8|           2.2|         10552|        354|
@@ -55,16 +53,16 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                               |        24.3|          75.7|        364223|     169432|
 |latitude                                |        11.1|          88.9|        427641|         19|
 |longitude                               |        11.1|          88.9|        427641|         19|
-|pagecount.orig                          |         3.7|          96.3|        463552|       1477|
+|pagecount.orig                          |         3.7|          96.3|        463556|       1477|
 |obl                                     |         3.5|          96.5|        464209|          3|
-|paper.consumption.km2                   |         2.5|          97.5|        469233|       6824|
+|paper.consumption.km2                   |         2.7|          97.3|        468159|       6638|
 |width                                   |         2.3|          97.7|        470237|         78|
 |height                                  |         2.3|          97.7|        470237|         95|
 |area                                    |         2.3|          97.7|        470237|        629|
 |publication_place                       |         0.5|          99.5|        478663|       1028|
 |country                                 |         0.5|          99.5|        478663|         55|
+|pagecount                               |         0.4|          99.6|        479105|       1573|
 |publication_year_from                   |         0.2|          99.8|        480080|        348|
-|pagecount                               |         0.2|          99.8|        480179|       1657|
 |language                                |         0.0|         100.0|        481140|         50|
 |title                                   |         0.0|         100.0|        481203|     360647|
 |control_number                          |         0.0|         100.0|        481205|     481205|
@@ -133,7 +131,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ## Histograms of the top entries for factor variables
 
-<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-11.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-12.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
+<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
 
 
 
