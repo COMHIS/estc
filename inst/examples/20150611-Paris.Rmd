@@ -63,12 +63,12 @@ df <- df.preprocessed
  * Quantitative knowledge production: book sizes, publishers, authors..
 
 ```{r 20150611paris-intro, echo=FALSE, message=FALSE, cache=TRUE, fig.height=5, fig.width=12}
-df2 <- df %>% group_by(publication_year) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 library(sorvi)
-p <- regression_plot(paper.consumption.km2 ~ publication_year, df2) 
+p <- regression_plot(paper ~ publication_year, df2) 
 p <- p + ggtitle("Total annual paper consumption")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 ```
 
@@ -249,7 +249,7 @@ library(dplyr)
 df2 <- df %>%
     filter(!is.na(author.unique)) %>%
     group_by(author.unique) %>%
-    summarize(paper = sum(paper.consumption.km2, na.rm = TRUE),
+    summarize(paper = sum(paper, na.rm = TRUE),
 	      docs = n()) %>%
     arrange(desc(docs))
 ```
@@ -316,7 +316,7 @@ top_plot(df, "publication_place", 10)
 ```{r 20150611paris-places1bc, message=FALSE}
 df2 <- df %>% filter(publication_country %in% c("France", "Germany")) %>%
     group_by(publication_decade, publication_country) %>%
-    summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), docs = n()) 
+    summarize(paper = sum(paper, na.rm = TRUE), docs = n()) 
 p <- ggplot(df2, aes(x = publication_decade, y = docs, color = publication_country)) +
      geom_point() + geom_smooth()
 print(p)     
@@ -332,7 +332,7 @@ print(p)
 df2 <- df %>%
     filter(!is.na(publication_place)) %>%
     group_by(publication_place) %>%
-    summarize(paper = sum(paper.consumption.km2, na.rm = TRUE),
+    summarize(paper = sum(paper, na.rm = TRUE),
 	      docs = n()) %>%
     arrange(desc(docs))
 kable(df2)
@@ -353,7 +353,7 @@ Scotland, Ireland, US comparison:
 df2 <- df %>%
     filter(!is.na(publication_country)) %>%
     group_by(publication_country) %>%
-    summarize(paper = sum(paper.consumption.km2, na.rm = TRUE),
+    summarize(paper = sum(paper, na.rm = TRUE),
 	      docs = n()) %>%
     arrange(desc(docs)) %>%
     filter(publication_country %in% c("Scotland", "Ireland", "USA"))
@@ -383,13 +383,13 @@ df$document.type[df$pagecount > 32] <- "book"
 df$document.type[df$pagecount <= 32] <- "pamphlet"
 df$document.type <- factor(df$document.type)
 
-df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2, group = document.type, color = document.type))
+df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = document.type, color = document.type))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess")
 p <- p + ggtitle("Paper consumption per document document.type")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 ```
 
@@ -404,7 +404,7 @@ print(p)
 library(dplyr)
 library(ggplot2)
 
-df2 <- df %>% group_by(publication_year) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 library(sorvi)
 p <- regression_plot(n ~ publication_year, df2) 
 p <- p + ggtitle("Title count")
@@ -412,10 +412,10 @@ p <- p + xlab("Year")
 p <- p + ylab("Documents (n)")
 p1 <- p
 
-p <- regression_plot(paper.consumption.km2 ~ publication_year, df2) 
+p <- regression_plot(paper ~ publication_year, df2) 
 p <- p + ggtitle("Paper consumption")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 p2 <- p
 
 grid.arrange(p1, p2, nrow = 1)
@@ -427,14 +427,14 @@ grid.arrange(p1, p2, nrow = 1)
 Estimated paper consumption by document size
 
 ```{r 20150611paris-paper6, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=7}
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
-p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_year, group = gatherings, color = gatherings))
+p <- ggplot(df2, aes(y = paper, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Annual paper consumption by gatherings")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 ```
 
@@ -445,13 +445,13 @@ print(p)
 
 ```{r 20150611paris-paper3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=7}
 
-df2 <- df %>% group_by(publication_year) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2/n))
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper/n))
 p <- p + geom_point()
 p <- p + geom_line()
 p <- p + ggtitle("Average paper consumption per document")
 p <- p + xlab("Year")
-p <- p + ylab("Average paper consumption per document (km2)")
+p <- p + ylab("Average paper consumption per document")
 p1 <- p
 
 df2 <- filter(df, !is.na(gatherings.original) & (!is.na(height.original) | !is.na(width.original))) %>% group_by(gatherings.original, publication_decade) %>% 
@@ -631,7 +631,7 @@ grid.arrange(p1, p2, nrow = 1)
 ## How does the history publishing change in the early modern period ?
 
 ```{r 20150611paris-time2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
-df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 p <- ggplot(df2, aes(x = publication_year, y = n, group = document.type, color = document.type))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess")
@@ -646,7 +646,7 @@ print(p)
 Estimated title count by document size
 
 ```{r 20150611paris-paper7, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
 p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
@@ -662,14 +662,14 @@ print(p)
 
 ```{r 20150611-topauth1, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
 top.authors <- names(rev(sort(table(df$author.unique))))[1:10]
-df2 <- df %>% filter(author.unique %in% top.authors) %>% group_by(publication_year, author.unique) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2, group = author.unique, color = author.unique))
+df2 <- df %>% filter(author.unique %in% top.authors) %>% group_by(publication_year, author.unique) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = author.unique, color = author.unique))
 p <- p + geom_point()
 p <- p + geom_line()
 #p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Paper consumption per author")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 ```
 
@@ -706,7 +706,7 @@ df2 <- df %>% group_by(publication_place) %>% tally() %>% arrange(desc(n))
 top.places <- df2$publication_place[1:4]
 df2 <- df %>% filter(publication_place %in% top.places) %>%
        group_by(publication_decade, publication_place) %>%
-       summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n(), mean.pagecount = mean(pagecount, na.rm = TRUE)) %>%
+       summarize(paper = sum(paper, na.rm = TRUE), n = n(), mean.pagecount = mean(pagecount, na.rm = TRUE)) %>%
        arrange(desc(mean.pagecount))
 p <- ggplot(df2, aes(x = publication_decade, y = mean.pagecount, color = publication_place))
 p <- p + geom_point() + geom_smooth()

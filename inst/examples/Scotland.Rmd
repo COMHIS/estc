@@ -88,7 +88,7 @@ top <- names(rev(sort(tab))[1:10])
 
 dfss <- dfs %>% filter(author %in% top) %>%
         group_by(author, publication_decade) %>%
-	summarize(paper = sum(paper.consumption.km2))
+	summarize(paper = sum(paper))
 p <- ggplot(dfss, aes(x = publication_decade, y = paper, fill = author)) + geom_bar(stat = "identity") + ggtitle("All countries (ancient authors)")
 print(p)
 
@@ -100,7 +100,7 @@ tab <- table(dfs$author)
 top <- names(rev(sort(tab))[1:10])
 dfss <- dfs %>% filter(author %in% top) %>%
         group_by(author, publication_decade) %>%
-	summarize(paper = sum(paper.consumption.km2))
+	summarize(paper = sum(paper))
 p <- ggplot(dfss, aes(x = publication_decade, y = paper, fill = author)) + geom_bar(stat = "identity") + ggtitle("Scotland (ancient authors)")
 print(p)
 ```
@@ -218,7 +218,7 @@ df.london$publication_place2 <- droplevels(df.london$publication_place)
 df.scotland$publication_place2 <- droplevels(df.scotland$country)
 df <- rbind(df.london, df.scotland)
 # use average annual output therefore divide by 10
-dfm <- df %>% group_by(publication_decade, publication_place2) %>% summarize(paper = sum(paper.consumption.km2, na.rm = T)/10, n = n()/10)
+dfm <- df %>% group_by(publication_decade, publication_place2) %>% summarize(paper = sum(paper, na.rm = T)/10, n = n()/10)
 
 theme_set(theme_bw(20))
 p <- ggplot(dfm, aes(x = publication_decade, y = n, color = publication_place2))
@@ -235,7 +235,7 @@ theme_set(theme_bw(20))
 p <- ggplot(dfm, aes(x = publication_decade, y = paper, color = publication_place2))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess")
-p <- p + xlab("Year") + ylab("Annual paper consumption (km2)")
+p <- p + xlab("Year") + ylab("Annual paper consumption")
 p <- p + ggtitle("Paper consumption")
 p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
 p <- p + guides(color = guide_legend(title="Publication place"))

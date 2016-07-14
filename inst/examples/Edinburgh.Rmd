@@ -121,7 +121,7 @@ print(p)
 
 ```{r Edinburgh2, echo=FALSE, fig.width=12, fig.height=5, warning=FALSE, message=FALSE}
 # use average annual output therefore divide by 10
-dfm <- df %>% group_by(publication_decade, publication_place) %>% summarize(paper = sum(paper.consumption.km2, na.rm = T)/10, n = n()/10)
+dfm <- df %>% group_by(publication_decade, publication_place) %>% summarize(paper = sum(paper, na.rm = T)/10, n = n()/10)
 
 theme_set(theme_bw(20))
 p <- ggplot(dfm, aes(x = publication_decade, y = n, color = publication_place))
@@ -139,7 +139,7 @@ p <- ggplot(dfm, aes(x = publication_decade, y = paper, color = publication_plac
 p <- p + geom_point()
 p <- p + geom_line()
 #p <- p + geom_smooth(method = "loess")
-p <- p + xlab("Decade") + ylab("Annual paper consumption (km2)")
+p <- p + xlab("Decade") + ylab("Annual paper consumption")
 p <- p + ggtitle("Paper consumption")
 #p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
 p <- p + guides(color = guide_legend(title="Publication place"))
