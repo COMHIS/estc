@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-06-20"
+date: "2016-07-26"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40244 documents from Scotland.
+We have 40236 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -172,7 +172,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34465 documents from Scotland and 204975 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34463 documents from Scotland and 204962 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
@@ -184,7 +184,7 @@ We have 34465 documents from Scotland and 204975 documents from London during 17
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'publication_place2'
+## Error in eval(expr, envir, enclos): unknown variable to group by : publication_place2
 ```
 
 ```
@@ -209,13 +209,13 @@ We have 34465 documents from Scotland and 204975 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 6078 rows containing missing values (geom_point).
+## Warning: Removed 6076 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 1978 rows containing missing values (geom_point).
+## Warning: Removed 1980 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)

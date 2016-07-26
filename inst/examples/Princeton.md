@@ -1,7 +1,7 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2016-06-20"
+date: "2016-07-26"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ output: markdown_document
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'topic'
+## Error in eval(expr, envir, enclos): unknown variable to group by : topic
 ```
 
 ```

@@ -1,5 +1,5 @@
 original_name	original_date	final_author_id	final_author_birth	final_author_death	Count
-Total count: 	220096				
+Total count: 	220100				
 Wesley, John	1703-1791.	Wesley, John (1703-1791)	1703	1791	1195
 Shakespeare, William	1564-1616.	Shakespeare, William (1564-1616)	1564	1616	1070
 Defoe, Daniel	1661?-1731.	Defoe, Daniel (1661-1731)	1661	1731	1036
@@ -48,7 +48,7 @@ Congreve, William	1670-1729.	Congreve, William (1670-1729)	1670	1729	 269
 Pindar, Peter	1738-1819.	Pindar, Peter (1738-1819)	1738	1819	 269
 Steele, Richard	1672-1729.	Steele, Richard (1672-1729)	1672	1729	 266
 Sherlock, William	1641?-1707.	Sherlock, William (1641-1707)	1641	1707	 263
-Burke, Edmund	1729-1797.	Burke, Edmund (1729-1797)	1729	1797	 259
+Burke, Edmund	1729-1797.	Burke, Edmund (1729-1797)	1729	1797	 260
 Synge, Edward	1659-1741.	Synge, Edward (1659-1741)	1659	1741	 250
 Taylor, John	1580-1653.	Taylor, John (1580-1653)	1580	1653	 248
 Cennick, John	1718-1755.	Cennick, John (1718-1755)	1718	1755	 247
@@ -710,6 +710,7 @@ Walker, Clement	1595-1651.	Walker, Clement (1595-1651)	1595	1651	  49
 Payne, Thomas	1719-1799.	Payne, Thomas (1719-1799)	1719	1799	  49
 Rogers, John	1679-1729.	Rogers, John (1679-1729)	1679	1729	  49
 Du Pin, Louis Ellies	1657-1719.	Du Pin, Louis Ellies (1657-1719)	1657	1719	  49
+Oates, Titus	1649-1705.	Oates, Titus (1649-1705)	1649	1705	  49
 Fisher, A	1719?-1778.	Fisher, A (1719-1778)	1719	1778	  49
 Drexel, Jeremias	1581-1638.	Drexel, Jeremias (1581-1638)	1581	1638	  49
 Zimmermann, Johann Georg	1728-1795.	Zimmermann, Johann Georg (1728-1795)	1728	1795	  49
@@ -725,7 +726,6 @@ Wallin, Benjamin	1711-1782.	Wallin, Benjamin (1711-1782)	1711	1782	  48
 Mandeville, Bernard	1670-1733.	Mandeville, Bernard (1670-1733)	1670	1733	  48
 Scott, Thomas	1747-1821.	Scott, Thomas (1747-1821)	1747	1821	  48
 Kidder, Richard	1633-1703.	Kidder, Richard (1633-1703)	1633	1703	  48
-Oates, Titus	1649-1705.	Oates, Titus (1649-1705)	1649	1705	  48
 Manningham, Thomas	1651?-1722.	Manningham, Thomas (1651-1722)	1651	1722	  48
 Norwood, Richard	1590?-1675.	Norwood, Richard (1590-1675)	1590	1675	  48
 Jenks, Benjamin	1646-1724.	Jenks, Benjamin (1646-1724)	1646	1724	  48
@@ -736,6 +736,7 @@ Clayton, Robert	1695-1758.	Clayton, Robert (1695-1758)	1695	1758	  48
 Earbery, Matthias	1690-1740.	Earbery, Matthias (1690-1740)	1690	1740	  48
 Francke, August Hermann	1663-1727.	Francke, August Hermann (1663-1727)	1663	1727	  48
 Calamy, Edmund	1671-1732.	Calamy, Edmund (1671-1732)	1671	1732	  48
+Miege, Guy	1644-1718?.	Miege, Guy (1644-1718)	1644	1718	  48
 Goodman, John	1625 or 1626-1690.	Goodman, John (NA-1690)	NA	1690	  48
 Lansdowne, George Granville	1667-1735.	Lansdowne, George Granville (1667-1735)	1667	1735	  48
 Galloway, Joseph	1731-1803.	Galloway, Joseph (1731-1803)	1731	1803	  48
@@ -756,7 +757,6 @@ Burton, John	1696-1771.	Burton, John (1696-1771)	1696	1771	  47
 Cross, J. C	-1809.	Cross, J C (NA-1809)	NA	1809	  47
 Evans, John	1680-1730.	Evans, John (1680-1730)	1680	1730	  47
 Belhaven, John Hamilton	1656-1708.	Belhaven, John Hamilton (1656-1708)	1656	1708	  47
-Miege, Guy	1644-1718?.	Miege, Guy (1644-1718)	1644	1718	  47
 Povey, Charles	1652?-1743.	Povey, Charles (1652-1743)	1652	1743	  47
 Churchyard, Thomas	1520?-1604.	Churchyard, Thomas (1520-1604)	1520	1604	  46
 Petiver, James	1663 or 1664-1718.	Petiver, James (NA-1718)	NA	1718	  46
@@ -5038,6 +5038,7 @@ Simco, John	1749?-1824.	Simco, John (1749-1824)	1749	1824	   8
 Cunynghame, David	1700-1767.	Cunynghame, David (1700-1767)	1700	1767	   8
 Mildmay, William	approximately 1705-1771.	Mildmay, William (1705-1771)	1705	1771	   8
 Kemble, Stephen	1758-1822.	Kemble, Stephen (1758-1822)	1758	1822	   8
+Nieto, David	1654-1728.	Nieto, David (1654-1728)	1654	1728	   8
 Campbell, Daniel	-1777.	Campbell, Daniel (NA-1777)	NA	1777	   8
 Lauderdale, James Maitland	1718-1789.	Lauderdale, James Maitland (1718-1789)	1718	1789	   8
 Sinclair, David Threipland	-1773.	Sinclair, David Threipland (NA-1773)	NA	1773	   8
@@ -5623,7 +5624,6 @@ Caithness, William Sinclair	1727-1779.	Caithness, William Sinclair (1727-1779)	1
 Moore, William	1748 or 1749-1798.	Moore, William (NA-1798)	NA	1798	   7
 Tench, Watkin	1759?-1833.	Tench, Watkin (1759-1833)	1759	1833	   7
 Covington, Alexander Lockhart	1700-1782.	Covington, Alexander Lockhart (1700-1782)	1700	1782	   7
-Nieto, David	1654-1728.	Nieto, David (1654-1728)	1654	1728	   7
 Sutherland, Elizabeth Leveson-Gower	1765-1839.	Sutherland, Elizabeth Leveson-gower (1765-1839)	1765	1839	   7
 Kinnaird of Inchture, Charles Kinnaird	-1767.	Kinnaird Of Inchture, Charles (NA-1767)	NA	1767	   7
 Torbuck, John	active 1736-1742.	Torbuck, John (1736-1742)	1736	1742	   7
