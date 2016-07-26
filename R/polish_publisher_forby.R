@@ -3,9 +3,6 @@
 #' @param x Publisher vector
 #' @return Polished vector
 #' @export
-#' @importFrom bibliographica condense_spaces
-#' @importFrom bibliographica harmonize_names
-#' @importFrom bibliographica harmonize_print_statements
 #' @details Polish publisher field. 
 #' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("bibliographica")
@@ -19,15 +16,12 @@ polish_publisher_forby <- function (x) {
   
   x1 <- gsub("\\[", "", x)
   x1 <- gsub("\\]", "", x1)
-  #x1 <- gsub("\\.$", "", x1)
-  #x1 <- gsub("\\,$", "", x1)
-  #x1 <- gsub("^s\\.n$", "s\\.n\\.", x1)
 
   # Change print statements into lowercase
   x1 <- tolower(x1)
   
-  x1 = gsub("printed: and sold by ","printed and sold by ",x1)
-  x1 = gsub("printed, and sold by ","printed and sold by ",x1)
+  x1 <- gsub("printed: and sold by ","printed and sold by ",x1)
+  x1 <- gsub("printed, and sold by ","printed and sold by ",x1)
   
   # Other text replacements add more if found from results at rest
   xsoldby <- sapply(pick_print_fields(x1, c("sold by ","printed and sold by ")), function (x) {x})

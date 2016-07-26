@@ -1,7 +1,7 @@
 #' @importFrom bibliographica condense_spaces
-#' @importFrom bibliographica harmonize_names
+#' @importFrom bibliographica map
 #' @importFrom bibliographica harmonize_print_statements
-#' @importFrom bibliographica read_synonymes
+#' @importFrom bibliographica read_mapping
 #' @importFrom bibliographica check_synonymes
 #' @import dplyr
 #' @import ggplot2

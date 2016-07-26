@@ -1,11 +1,16 @@
-#library(devtools)
-#load_all("../../../bibliographica/")
+library(devtools)
+load_all("../../../bibliographica/")
 
 # I/O definitions
 output.folder <- "output.tables/"
 
 # List preprocessed data files
 fs <- "estc.csv.gz"
+catalog <- "estc"
+
+# Languages to consider in cleanup.
+# TODO: recognize the necessary languages automatically ?
+languages <- c("english")
 
 # Cores
 mc.cores <- 4

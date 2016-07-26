@@ -12,8 +12,8 @@ harmonize_pages_specialcases <- function (x) {
   x <- as.character(x)
 
   f <- system.file("extdata/harmonize_pages_estc.csv", package = "estc")
-  sn <- read_synonymes(f, sep = "\t", mode = "table")
-  x <- harmonize_names(x, sn, verbose = FALSE)
+  sn <- read_mapping(f, sep = "\t", mode = "table")
+  x <- map(x, sn, verbose = FALSE)
   x[grep("Caption title", x)] <- NA
 
   x
