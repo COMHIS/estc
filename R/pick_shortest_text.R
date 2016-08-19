@@ -1,6 +1,6 @@
-#' @title Pick Shorter Text
-#' @description Returns text which is shortest from vector of strings.
-#' @param vec vector of strings
+#' @title Pick shorter text
+#' @description returns text which is shortest from vector of strings
+#' @param vector of strings
 #' @return shortest string
 #' @export
 #' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
@@ -8,8 +8,8 @@
 #' @keywords utilities
 
 pick_shortest_text <- function(vec){
-  vec2 <- nchar(vec)
-  idx <- which.min(vec2)
-  txt <- vec[idx]
+  vec2=nchar(vec)
+  idx=which.min(vec2)
+  txt = vec[idx]
   return(txt)
 }    

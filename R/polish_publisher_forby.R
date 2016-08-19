@@ -3,34 +3,58 @@
 #' @param x Publisher vector
 #' @return Polished vector
 #' @export
+#' @importFrom bibliographica condense_spaces
+#' @importFrom bibliographica harmonize_names
+#' @importFrom bibliographica harmonize_print_statements
 #' @details Polish publisher field. 
 #' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("bibliographica")
 #' @examples # polish_publisher("printed and sold by R. Marchbank")
 #' @keywords utilities
 
+
 polish_publisher_forby <- function (x) {
-  
+  #x=df100$publisher
+
   x <- as.character(x)
   xorig <- x
   
   x1 <- gsub("\\[", "", x)
   x1 <- gsub("\\]", "", x1)
+  #x1 <- gsub("\\.$", "", x1)
+  #x1 <- gsub("\\,$", "", x1)
+  #x1 <- gsub("^s\\.n$", "s\\.n\\.", x1)
 
   # Change print statements into lowercase
   x1 <- tolower(x1)
+
+  # Preprocess [printed and sold by] varying versions
+  x1 = gsub("printed: and sold by ","printed and sold by ",x1)
+  x1 = gsub("printed, and sold by ","printed and sold by ",x1)
   
-  x1 <- gsub("printed: and sold by ","printed and sold by ",x1)
-  x1 <- gsub("printed, and sold by ","printed and sold by ",x1)
+  #cc="printed by wilson, spence, and mawman; sold by g. g. j. and j. robinson, t. cadell, b. white, j. robson, and j. murray, london; and by all the booksellers in york"   
   
-  # Other text replacements add more if found from results at rest
-  xsoldby <- sapply(pick_print_fields(x1, c("sold by ","printed and sold by ")), function (x) {x})
-  xby <- sapply(pick_print_fields(x1, c("printed by ","printed and sold by ")), function (x) {x})
-  xfor <- sapply(pick_print_fields(x1, c("printed for ","printed for and sold by ")), function (x) {x})
+  # Search for special fields: 
+  #Splits every string in vector x1 by last column of c if found else second last then third last until found.
+  #for example:
+  #str="printed by wilson, spence, and mawman; sold by g. g. j. and j. robinson, t. cadell, b. white, j. robson, and j. murray, london; and by all the booksellers in york"   
+  #pick_print_fields(str,c(" by ",", and ")) 
+  #"mawman; sold by g. g. j. and j. robinson, t. cadell, b. white, j. robson"
+  #pick_print_fields(str,c(" by ","not exist")) 
+  #"wilson, spence, and mawman; sold"
+  xsoldby <- sapply(pick_print_fields(x1, c("sold by ","sold at the ", 
+                                            "printed and sold by ","printed for and sold by ",
+                                            "printed for, and sold by ")), function (x) {x})
+  xby <- sapply(pick_print_fields(x1, c("printed by ","printed and sold by ",
+                                        "printed by and for ")), function (x) {x})
+  xfor <- sapply(pick_print_fields(x1, c("printed for ","printed for and sold by ",
+                                         "printed for, and sold by ","printed by and for "
+                                         )), function (x) {x})
   
-  #extra rules for splitting fields
+
+  #Check for more specific rules:
   for(ind2 in 1:length(x1)){
-    # comparison if there is no sold by and printed by then by is accepted as [printed by]
+    # Check if there is no sold by and printed by then by is accepted as [printed by]
     if(is.na(xsoldby[ind2]) & is.na(xby[ind2])){
       xby[ind2]=pick_print_fields(x1[ind2],'by ')
       #if [printed by] is not empty and contains also "for"
@@ -40,62 +64,79 @@ polish_publisher_forby <- function (x) {
       #the part before is only printed for; so the end part is removed
       xby[ind2]=strsplit(text,'for ')[[1]][1]
     } 
-  
-    #here if want to try split the [printed for] results more into more detailed categories such as
-    #Jer. Batley, at the Dove in Pater-Noster Row.
-    #it is problematic with another row such as
-    # [t. cadell], in the strand; richardson and urquhart, under the royal exchange; and [t. wilson], at york"
-    # possibly split with , in , at , and ...? --> 
-    # "printed for j. cooke[, at] shakespeare's head[, in] pater-noster-row"
-    
-    #if(!is.na(xfor[ind]))
-    #{
-    #  text2=xfor[ind2]
-    #  
-    #  xby[ind2]=strsplit(text2,', in ')[[1]][1] ??
-    #}
   }
   
-  xfor <- gsub(", and ", ",", xfor)
-  xfor <- gsub(" and ", ",", xfor)
-  xfor <- gsub(";,", " ", xfor)
-  xfor <- gsub("; ", "", xfor)
-  xfor <- gsub(", ", ",", xfor)
- 
-  for (ind in 1:length(xfor)){
-    len=nchar(xfor[ind])
-    xfor[ind]=ifelse(substr(xfor[ind],len,len)==",", substr(xfor[ind],1,len-1),xfor[ind])
-  }
-  
-  xby <- gsub(", and ", ",", xby)
-  xby <- gsub(" and ", ",", xby)
-  xby <- gsub(";,", " ", xby)
-  xby <- gsub("; ", "", xby)
-  xby <- gsub(", ", ",", xby)
-  
-  for (ind in 1:length(xby)){
-    len=nchar(xby[ind])
-    xby[ind]=ifelse(substr(xby[ind],len,len)==",", substr(xby[ind],1,len-1),xby[ind])
-  }
-  
-  xsoldby <- gsub(", and ", ",", xsoldby)
-  xsoldby <- gsub(" and ", ",", xsoldby)
-  xsoldby <- gsub(";,", " ", xsoldby)
-  xsoldby <- gsub("; ", "", xsoldby)
-  xsoldby <- gsub(", ", ",", xsoldby)
+  #for(ind2 in 1:length(x1)){
+  #  text=xfor[ind2]
+  #  xfor[ind2]=strsplit(text,'sold by')
+  #}
 
-    for (ind in 1:length(xsoldby)){
-    len=nchar(xsoldby[ind])
-    xsoldby[ind]=ifelse(substr(xsoldby[ind],len,len)==",", substr(xsoldby[ind],1,len-1),xsoldby[ind])
-  }
+  #here split the [printed for] results more into more detailed categories such as
+  #see below the values that are chosen into split the only first found value is used
+  # f.noble at his circulating-library in king-street,coven ->
+  # [f.noble] and [his circulating-library in kings-street,coven]
   
+  #removes if last character is ","
+  xfor=remove_ending_chars(xfor)
+  xby=remove_ending_chars(xby)
+  xsoldby=remove_ending_chars(xsoldby)
+  
+  #splitting xfor into xfor_1st and xfor_at
+  output=split_doer_and_place(xfor)
+  xfor_at=output$x_place
+  xfor_1st=output$x_doer
+  
+  #splitting xby into xby_1st and xby_at
+  output2=split_doer_and_place(xby)
+  xby_at=output2$x_place
+  xby_1st=output2$x_doer
+  
+  #splitting xfor into xby_1st and xby_at
+  output3=split_doer_and_place(xsoldby)
+  xsoldby_at=output3$x_place
+  xsoldby_1st=output3$x_doer
+  
+  
+  #xfor <- gsub(", and ", ",", xfor)
+  #xfor <- gsub(" and ", ",", xfor)
+  #xfor <- gsub(";,", " ", xfor)
+  #xfor <- gsub("; ", " ", xfor)
+  #xfor <- gsub(", ", ",", xfor)
+  
+  
+
+  
+  #xby <- gsub(", and ", ",", xby)
+  #xby <- gsub(" and ", ",", xby)
+  #xby <- gsub(";,", " ", xby)
+  #xby <- gsub("; ", " ", xby)
+  #xby <- gsub(", ", ",", xby)
+
+
+  #xsoldby <- gsub(", and ", ",", xsoldby)
+  #xsoldby <- gsub(" and ", ",", xsoldby)
+  #xsoldby <- gsub(";,", " ", xsoldby)
+  #xsoldby <- gsub("; ", " ", xsoldby)
+  #xsoldby <- gsub(", ", ",", xsoldby)
+
+
+  
+
+  #create final dataframe
   xorig[xorig == ""] <- NA
   xrest <- xorig
   xrest[which(!is.na(xfor) | !is.na(xby) | !is.na(xsoldby))] <- NA
-  res <- list(original = xorig, printedfor = xfor, printedby = xby, soldby=xsoldby, rest = xrest)
+  res <- list(original = xorig, printedfor = xfor,
+              printedfor_doer = xfor_1st,printedfor_place = xfor_at, 
+              printedby = xby, printedby_doer = xby_1st,
+              printedby_place = xby_at, 
+              soldby=xsoldby, soldby_doer = xsoldby_1st, 
+              soldby_place = xsoldby_at, 
+              rest = xrest)
   as.data.frame(res)
 
 }
+
 
 
 
