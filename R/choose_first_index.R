@@ -1,6 +1,7 @@
-#' @title choose_first_index
-#' @description Find the first index of the splitting token arrays in a string
-#' @param string text, vector split_w
+#' @title Choose first index
+#' @description Find the first index of the splitting token arrays in a string.
+#' @param text2 string text, vector split_w
+#' @param split_w split_w
 #' @return the string which is first in the text field (from strings in the vector)
 #' @export
 #' @details finds the first index of the splitting token arrays in a string 

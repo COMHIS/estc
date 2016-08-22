@@ -1,6 +1,6 @@
-#' @title split_doer_and_place
-#' @description splits string by the first index values of split_w <- c(" in "," at ",", at ","; at ", ",at", ",in", ", in",", near ",",no. ",", no. ")
-#' @param vector of strings (data)
+#' @title Split doer and place
+#' @description Splits string by the first index values of split_w <- c(" in "," at ",", at ","; at ", ",at", ",in", ", in",", near ",",no. ",", no. ").
+#' @param data vector of strings
 #' @return list(x_doer,x_place)
 #' @export
 #' @details split_doer_and_place 
@@ -8,8 +8,7 @@
 #' @references See citation("bibliographica")
 #' @examples # split_does_and_place("printed and sold by R. Marchbank")
 #' @keywords utilities
-
-split_doer_and_place=function(data){
+split_doer_and_place <- function(data){
   x_doer=rep(NA,length(data))
   x_place=rep(NA,length(data))
   

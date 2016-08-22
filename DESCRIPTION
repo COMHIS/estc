@@ -1,7 +1,7 @@
 Package: estc
 Type: Package
 Title: English Short Title Catalogue (ESTC) Metadata Toolkit
-Version: 0.1.43
+Version: 0.1.44
 Date: 2016-06-13
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
