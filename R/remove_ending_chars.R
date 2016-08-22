@@ -3,9 +3,6 @@
 #' @param vector of strings
 #' @return vector cleaned 
 #' @export
-#' @importFrom 
-#' @importFrom 
-#' @importFrom 
 #' @details removes ending characters and , ; from every string in a vector.
 #' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("bibliographica")

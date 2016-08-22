@@ -3,9 +3,6 @@
 #' @param vector of strings (data)
 #' @return list(x_doer,x_place)
 #' @export
-#' @importFrom 
-#' @importFrom 
-#' @importFrom 
 #' @details split_doer_and_place 
 #' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("bibliographica")

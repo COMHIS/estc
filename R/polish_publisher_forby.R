@@ -3,16 +3,11 @@
 #' @param x Publisher vector
 #' @return Polished vector
 #' @export
-#' @importFrom bibliographica condense_spaces
-#' @importFrom bibliographica harmonize_names
-#' @importFrom bibliographica harmonize_print_statements
 #' @details Polish publisher field. 
 #' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("bibliographica")
 #' @examples # polish_publisher("printed and sold by R. Marchbank")
 #' @keywords utilities
-
-
 polish_publisher_forby <- function (x) {
   #x=df100$publisher
 
