@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-07-26"
+date: "2016-09-11"
 output: markdown_document
 ---
 
@@ -38,8 +38,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                           | missing (%)| available (%)| available (n)| unique (n)|
 |:------------------------------------|-----------:|-------------:|-------------:|----------:|
-|publisher                            |       100.0|           0.0|             0|          1|
-|self_published                       |       100.0|           0.0|             0|          1|
 |parts                                |       100.0|           0.0|           239|         57|
 |volnumber                            |        99.8|           0.2|           946|         31|
 |publication_frequency                |        99.3|           0.7|          3263|        149|
@@ -51,23 +49,25 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |document.items                       |        96.3|           3.7|         17884|        154|
 |publication_topic                    |        81.7|          18.3|         87968|       5067|
 |publication_geography                |        71.6|          28.4|        136615|      12717|
-|author_gender                        |        70.4|          29.6|        142461|          4|
+|author_gender                        |        70.4|          29.6|        142517|          5|
 |first_edition                        |        67.6|          32.4|        155943|          3|
 |author_birth                         |        58.9|          41.1|        197601|        469|
 |author_death                         |        55.8|          44.2|        212915|        517|
+|self_published                       |        50.2|          49.8|        239864|          2|
 |subject_topic                        |        44.9|          55.1|        265152|      55732|
 |author_name                          |        39.9|          60.1|        289094|      47967|
 |author                               |        39.9|          60.1|        289094|      54742|
-|latitude                             |         8.6|          91.4|        439924|        190|
-|longitude                            |         8.6|          91.4|        439924|        190|
+|publisher                            |        23.1|          76.9|        370284|     218916|
+|latitude                             |         8.6|          91.4|        439925|        190|
+|longitude                            |         8.6|          91.4|        439925|        190|
 |pagecount.orig                       |         3.7|          96.3|        463555|       1476|
 |obl                                  |         3.5|          96.5|        464214|          3|
 |paper                                |         2.6|          97.4|        468601|       6606|
 |width                                |         2.3|          97.7|        470242|         78|
 |height                               |         2.3|          97.7|        470242|         95|
 |area                                 |         2.3|          97.7|        470242|        629|
-|country                              |         0.7|          99.3|        477930|         55|
-|publication_place                    |         0.6|          99.4|        478533|       1095|
+|country                              |         0.7|          99.3|        477929|         55|
+|publication_place                    |         0.6|          99.4|        478532|       1094|
 |pagecount                            |         0.4|          99.6|        479154|       1565|
 |publication_year_from                |         0.2|          99.8|        480082|        348|
 |language                             |         0.0|         100.0|        481145|         50|

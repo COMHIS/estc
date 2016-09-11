@@ -1,16 +1,16 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-07-26"
+date: "2016-09-11"
 output: markdown_document
 ---
 
 ### Publication places
 
- * 1095 [publication places](output.tables/publication_place_accepted.csv)
+ * 1094 [publication places](output.tables/publication_place_accepted.csv)
  * 55 [publication countries](output.tables/country_accepted.csv) 
- * Publication place is identified for 478533 documents (99%). 
- * Publication country is identified for 477930 documents (99%).
+ * Publication place is identified for 478532 documents (99%). 
+ * Publication country is identified for 477929 documents (99%).
  * 91.4% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``8.58``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
