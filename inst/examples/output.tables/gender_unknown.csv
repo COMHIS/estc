@@ -1,31 +1,31 @@
 Name	Count
-john	39360
-thomas	20704
-james	9312
-samuel	6601
-edward	5954
-isaac	2083
-edmund	1789
+john	39378
+thomas	20709
+james	9321
+samuel	6612
+edward	5961
+isaac	2085
+edmund	1790
 peter	1652
-jonathan	1521
-andrew	1419
+jonathan	1527
+andrew	1423
 nathaniel	1331
-nicholas	1253
-philip	1132
-hugh	1034
-anthony	989
+nicholas	1250
+philip	1133
+hugh	1040
+anthony	991
 arthur	975
-stephen	838
+stephen	840
 gilbert	795
-archibald	683
-patrick	656
-josiah	619
+archibald	681
+patrick	657
+josiah	620
 michael	554
-roger	554
-cotton	483
+roger	553
+cotton	484
 pierre	478
 humphrey	450
-jeremiah	389
+jeremiah	391
 nathanael	364
 timothy	349
 colley	348
@@ -35,7 +35,7 @@ nicolas	294
 caleb	273
 ambrose	226
 vincent	212
-elkanah	195
+elkanah	196
 jonas	194
 emanuel	189
 zachary	184
@@ -47,8 +47,8 @@ aaron	165
 frederick	164
 cardanus	163
 luke	163
+herbert	161
 françois	160
-herbert	160
 solomon	154
 nathan	149
 hugo	139
@@ -57,16 +57,16 @@ white	131
 francesco	128
 nahum	123
 julius	122
+catharine	119
 herman	118
-catharine	117
-ferdinando	116
+ferdinando	115
 job	114
 paolo	112
 flavius	111
+tobias	109
 donald	108
-tobias	108
-duncan	101
-dorothy	100
+duncan	102
+dorothy	101
 antonio	95
 elias	95
 sébastien	92
@@ -81,7 +81,7 @@ beilby	81
 elinor	81
 miles	81
 offspring	79
-soame	77
+soame	78
 claudius	74
 heinrich	72
 thomas wentworth	72
@@ -115,25 +115,25 @@ john sheffield	47
 marchamont	47
 newburgh	47
 barnabe	46
-phillip	46
 wm	46
 niccolò	44
 cornelis	43
 penelope	43
 stéphanie félicité	43
-carington	42
 lemuel	42
+phillip	42
 theophs j	42
 dougal	41
 nathaniel brassey	41
+carington	40
 du	40
 rené	40
 augustin	39
-ninian	39
 reginald	39
 stéphanie félicité	39
 henrietta	38
 hezekiah	38
+ninian	38
 spencer	38
 gabriel-françois	37
 john fitzgibbon	37
@@ -144,17 +144,17 @@ ezra	34
 gregorio	34
 hans	34
 isabella	34
+john huddlestone	34
 malcolm	34
 nicolaus	34
 philippe	34
-john huddlestone	33
 algernon	32
 mcnamara	32
 miles peter	32
-cesare	31
 john holroyd	31
 mather	31
 sampson	31
+cesare	30
 james butler	30
 james duff	30
 james thomson	30
@@ -177,6 +177,7 @@ enoch	27
 joachim heinrich	27
 louis-sébastien	27
 myles	27
+philipp	27
 reuben	27
 roberto francesco romolo	27
 felix	26
@@ -184,7 +185,6 @@ franciscus	26
 hanserd	26
 harriet	26
 john churchill	26
-philipp	26
 georges	25
 harbottle	25
 john peter	25
@@ -212,6 +212,7 @@ john joachim	21
 marie-catherine	21
 mercurius	21
 pacificus	21
+restif	21
 slingsby	21
 andré	20
 antony	20
@@ -225,8 +226,8 @@ pawlet	20
 pierre françois	20
 pierre-daniel	20
 poor	20
-restif	20
 charles-françois du périer	19
+chauncey	19
 edwin	19
 gerald	19
 gustavus	19
@@ -235,19 +236,18 @@ james hamilton	19
 jean-henri	19
 jerónimo	19
 john cosens	19
+john gilbert	19
 mathias	19
-chauncey	18
+bevill	18
 corbyn	18
+gentleman	18
 james stuart	18
 jean-armand	18
-john gilbert	18
 manoah	18
 thomas osborne	18
 tiberius	18
 arnold	17
-bevill	17
 bulstrode	17
-gentleman	17
 giacomo	17
 grantham	17
 james digges	17
@@ -262,7 +262,6 @@ immanuel	16
 isaac hawkins	16
 james edward	16
 james makittrick	16
-jean-gabriel	16
 joachim	16
 marius	16
 steven	16
@@ -270,6 +269,7 @@ antoinette	15
 daines	15
 heneage finch	15
 ignatius	15
+jean-gabriel	15
 lockyer	15
 niel	15
 orlando	15
@@ -299,6 +299,7 @@ james primrose	13
 joanna	13
 john frederick	13
 lydia	13
+richardson	13
 scipione	13
 silvester	13
 thomas hamilton	13
@@ -328,7 +329,6 @@ mouffle	12
 murdoch	12
 petruccio	12
 pomponius	12
-richardson	12
 roland	12
 samuel l	12
 thomas tregenna	12
@@ -376,6 +376,7 @@ niccolò	10
 rich	10
 ronald	10
 stuart	10
+wellins	10
 willem janszoon	10
 aedanus	9
 alvaro alonso	9
@@ -408,7 +409,6 @@ thomas edlyne	9
 thomas fyshe	9
 thomas hyde	9
 urian	9
-wellins	9
 a -g	8
 abū	8
 anders	8
@@ -469,6 +469,7 @@ lilias	7
 louis-jean	7
 louis-pierre	7
 luther	7
+marten	7
 martín	7
 martinus	7
 melchior	7
@@ -532,7 +533,6 @@ lachlan	6
 leman thomas	6
 ludovico	6
 marguerite-jeanne	6
-marten	6
 mileson	6
 muḥammad qāsim hindū shāh astarābādī	6
 patrick hume	6
@@ -558,7 +558,6 @@ tomaso	6
 urbano	6
 warner	6
 weaver	6
-wilfrid	6
 àbd	5
 adriano	5
 alssenadro	5
@@ -572,6 +571,7 @@ bridel	5
 brossais	5
 busick	5
 cassandra	5
+charles-françois	5
 christoph theodosius	5
 cleave	5
 cornélie wouters	5
@@ -629,6 +629,7 @@ thomé	5
 tribunus	5
 valentin	5
 vitruvius	5
+wilfrid	5
 woodes	5
 yves-joseph	5
 a -j	4
@@ -647,7 +648,6 @@ bridgis	4
 brudenell	4
 burgher	4
 carlo antonio	4
-charles-françois	4
 charles-georges	4
 christiana	4
 claude-françois milliet	4
@@ -737,6 +737,7 @@ thomas hay	4
 thomas ledlie	4
 thomas pelham-clinton	4
 thomas verney	4
+thomas w	4
 toussaint	4
 trophime-gérard	4
 waltho	4
@@ -917,7 +918,6 @@ tanfield	3
 thomas boothby	3
 thomas lyon	3
 thomas tudor	3
-thomas w	3
 tiberius catius	3
 torial	3
 tunis	3
@@ -1047,6 +1047,7 @@ fynes	2
 gabriel-raimond-jean-de-dieu françois d'	2
 gaius	2
 galart	2
+galfredus	2
 gent	2
 gentil-homme	2
 georges-henri-victor	2
@@ -1616,7 +1617,6 @@ freyer	1
 fusée	1
 gabrieldo	1
 gacon	1
-galfredus	1
 gamaliel fitz-gerald	1
 gaultier	1
 gauthier	1
@@ -2196,6 +2196,7 @@ syl	1
 sylas	1
 t j horsley	1
 t needham	1
+t-s	1
 tadēos	1
 taḣsīn	1
 teague	1
@@ -2275,6 +2276,7 @@ vendramino	1
 verovicensis	1
 w edward	1
 w illiam	1
+w owen	1
 waitwell	1
 walsh	1
 wardhaugh	1

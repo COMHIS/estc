@@ -1,40 +1,40 @@
 Name	Count
-william	23994
-richard	8283
-george	8122
-robert	7908
-henry	5502
-charles	4748
-joseph	4212
-francis	3186
-alexander	3157
-daniel	2674
+william	24014
+richard	8295
+george	8126
+robert	7906
+henry	5509
+charles	4755
+joseph	4215
+francis	3187
+alexander	3160
+daniel	2687
 david	2560
-benjamin	2475
-matthew	1293
-christopher	1010
-walter	785
-oliver	744
-mary	735
-jean	650
+benjamin	2474
+matthew	1295
+christopher	1009
+walter	784
+oliver	743
+mary	736
+jean	652
 ralph	645
-laurence	632
+laurence	633
 hannah	615
-elizabeth	599
-simon	571
-abraham	480
-lewis	455
+elizabeth	600
+simon	570
+abraham	481
+lewis	456
 martin	421
-jeremy	392
-sarah	387
+jeremy	394
+sarah	388
 allan	365
 ebenezer	360
 adam	338
-paul	331
+paul	332
 joshua	307
 margaret	266
 cornelius	259
-johann	247
+johann	245
 tobias george	232
 leonard	231
 moses	224
@@ -50,26 +50,26 @@ gabriel	196
 richard brinsley	190
 giovanni	174
 henry st john	174
+philip dormer stanhope	174
 elisha	173
 nehemiah	173
-philip dormer stanhope	172
 jane	169
+louis	161
 bernard	160
-louis	160
 elizabeth singer	154
 mark	152
 alain rené	139
 ben	133
+horace	127
 frances	126
-horace	126
 charles james	118
-maurice	116
 geoffrey	114
+maurice	114
 titus	112
 janet	110
 george villiers	107
-conyers	102
-gerard	101
+conyers	103
+gerard	103
 ezekiel	100
 guy	92
 la	92
@@ -83,40 +83,40 @@ ellis	77
 gregory	76
 william augustus	76
 george alexander	75
+batty	73
 giovanni paolo	73
 sophia	73
+christian	72
 divine	72
-batty	71
-christian	71
 joel	70
 mary wortley	70
 catherine	69
+johann georg	69
+prince	69
 simon nicolas henri	69
 mathew	68
-prince	68
-johann georg	67
 seth	67
 johann amos	66
 anna	65
 augustus	65
 bryan	64
 jean frédéric	63
+paul henri thiry	62
 henry home	61
 micaiah	61
-paul henri thiry	61
 henri	59
 maria	58
 denis	57
 michel	57
+simeon	57
 john campbell	56
-simeon	56
 salem	55
 valentine	55
 h bate	54
 john wilmot	54
 andrea	53
+andreas	53
 james george	53
-andreas	52
 george monck	52
 helen	52
 william henry	52
@@ -144,15 +144,15 @@ william eden	45
 amos	44
 harry	44
 roderick	44
-archibald campbell	43
 evan	43
+giovanni battista	43
 helen maria	43
 juan luis	43
 dennis	42
 george saville	42
-giovanni battista	42
 johann wolfgang von	42
 ann ward	41
+archibald campbell	41
 johann caspar	41
 lucy	40
 theodore	40
@@ -167,19 +167,18 @@ kenneth	36
 levi	36
 lorenzo	36
 peter leslie	36
+thomas lewis	36
 george digby	35
 le	35
 lionel	35
-thomas lewis	35
+simon fraser	35
 george mackenzie	34
 james douglas	34
 john henry	34
 juan	34
 robert devereux	34
-simon fraser	34
 william cavendish	34
 fabian	33
-francis d'	33
 frederick howard	33
 marie	33
 browne	32
@@ -190,12 +189,13 @@ carl von	31
 hector	31
 jean d'	31
 marco girolamo	31
-marcello	30
+francis d'	30
 nicola francesco	30
 sylvester	30
 willoughby bertie	30
 arise	29
 frances chamberlaine	29
+marcello	29
 noël antoine	29
 thomas augustine	29
 georges louis leclerc	28
@@ -208,6 +208,7 @@ nathaniel william	28
 sarah churchill	28
 tom	28
 william cecil	28
+jesse	27
 noël antoine	27
 alice	26
 carl heinrich von	26
@@ -217,23 +218,22 @@ george isaac	26
 henry james	26
 henry montagu	26
 jean baptiste	26
-jesse	26
 juan eusebio	26
 margaret cavendish	26
 philip morin	26
 rachel	26
 raphael	26
+robert john	26
 sayer	26
 william cusack	26
 anna maria	25
+blaise	25
 christoph christian	25
 rebecca	25
-robert john	25
 robertus	25
 alexander stewart	24
 audley	24
 augustine	24
-blaise	24
 john wynn	24
 charles henry	23
 elizabeth sibthorpe	23
@@ -364,6 +364,7 @@ adrien	13
 alexander fraser	13
 alexander wedderburn	13
 ant -fr	13
+antonio del	13
 armand jean du plessis	13
 charles coote	13
 david stewart erskine	13
@@ -385,7 +386,6 @@ samuel taylor	13
 willoughby	13
 angelo	12
 anne douglas	12
-antonio del	12
 benjamin andrewes	12
 caroline	12
 charles schaw	12
@@ -444,6 +444,7 @@ johann philipp	11
 john robert	11
 john talbot	11
 mrs	11
+noel	11
 whiting	11
 william bromley	11
 william fiennes	11
@@ -461,6 +462,7 @@ daniel peter	10
 douglas	10
 edward wortley	10
 elizabeth robinson	10
+elizabeth sarah villa-real	10
 george booth	10
 george frederick	10
 george onesiphorus	10
@@ -496,7 +498,6 @@ charles john ann	9
 charles kendal	9
 charles louis	9
 charles peter	9
-elizabeth sarah villa-real	9
 franciscus mercurius van	9
 george anne	9
 george warter	9
@@ -521,7 +522,6 @@ louis charles	9
 mary julia	9
 mercy otis	9
 mother	9
-noel	9
 pierre jean	9
 rees	9
 reeve	9
@@ -576,7 +576,6 @@ thomas clio	8
 william peere	8
 young	8
 alex	7
-alexander leslie	7
 alexander lockhart	7
 alexis	7
 angelus	7
@@ -683,6 +682,7 @@ francis garden	6
 francis henry	6
 francis rawdon-hastings	6
 frig	6
+george richards	6
 guy toussaint julien	6
 hen	6
 henry barry	6
@@ -732,6 +732,7 @@ wheeler	6
 william davies	6
 william russell	6
 alden	5
+alexander leslie	5
 alicia	5
 amelia	5
 antoine marie	5
@@ -773,11 +774,11 @@ george buchan	5
 george edward	5
 george griffin	5
 george pitt	5
-george richards	5
 gervase parker	5
 henry rich	5
 hermon	5
 j hector	5
+jacques andré	5
 james ph	5
 jean sylvain	5
 johann adam	5
@@ -908,6 +909,7 @@ giles linnett	4
 giuseppe loreto	4
 gustav anton	4
 henry cary	4
+henry charles	4
 henry clifford	4
 henry david erskine	4
 henry fox	4
@@ -923,7 +925,6 @@ hull	4
 is	4
 j dennis	4
 j van der	4
-jacques andré	4
 jacques bénigne	4
 james augustus	4
 james harris	4
@@ -1091,7 +1092,6 @@ françois xavier	3
 frederick morton	3
 friedrich wilhelm ludolf gerhard augustin	3
 georg andreas	3
-georg ludwig	3
 george cadogan	3
 george cockburn	3
 george douglas	3
@@ -1185,6 +1185,7 @@ legard	3
 lorenzo guglielmo	3
 louis bernard	3
 louis d'	3
+louis françois armand du plessis	3
 louis marie	3
 louis philippe joseph	3
 luke plunkett	3
@@ -1434,7 +1435,6 @@ harriot steuart	2
 henrietta cavendish holles harley	2
 henrik van	2
 henry benedict	2
-henry charles	2
 henry charles christian	2
 henry digby	2
 henry draper	2
@@ -1449,7 +1449,6 @@ hyacinth	2
 i f henry	2
 innes	2
 irenaeus	2
-italian	2
 jacob lopes	2
 james cecil	2
 james king	2
@@ -1527,7 +1526,6 @@ leopold william	2
 lewis clove bovoin	2
 lewis henry	2
 lorenzo de'	2
-louis françois armand du plessis	2
 louis françois armand du plessis	2
 louis gabriel	2
 louis joseph	2
@@ -1565,6 +1563,7 @@ nicholaas ten	2
 nicolas etienne	2
 nicolas germain	2
 norborne berkeley	2
+one	2
 orlando di	2
 parker	2
 pascal	2
@@ -2078,6 +2077,7 @@ françois marie	1
 francois paul	1
 françois simon	1
 franc̜oise marie antoinette	1
+franz andreas	1
 franz christopher august	1
 frederick armand	1
 frederick august ludowig	1
@@ -2275,6 +2275,7 @@ isaac mendes	1
 isaac william	1
 isidore	1
 israel beard	1
+italian	1
 ivan andreevich	1
 j bradley	1
 j daniel	1
@@ -2872,6 +2873,7 @@ ward	1
 ward nicholas	1
 washington shirley	1
 welbore ellis	1
+wells	1
 wild	1
 wilhelmine karoline von	1
 willemina sasbout van	1

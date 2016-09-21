@@ -1,11 +1,11 @@
 Name	Count
-Marcus Tullius	405
-Desiderius	291
-Giles	271
-Johannes	211
+Marcus Tullius	406
+Desiderius	292
+Giles	272
+Johannes	212
 Lancelot	182
-Joannes	179
-Increase	174
+Joannes	180
+Increase	175
 Mathurin	174
 Pietro	174
 Lucius Annaeus	140
@@ -18,9 +18,9 @@ Rowland	107
 Obadiah	102
 Erasmus	101
 Tho	100
-Humphry	97
+Humphry	98
 Giuseppe	89
-Girolamo	79
+Girolamo	80
 Granville	77
 Jabez	69
 Petrus	69
@@ -31,8 +31,8 @@ John Horne	64
 Salomon	61
 Jan	60
 Titan	60
-Jakob	59
-Lodowick	56
+Jakob	58
+Lodowick	57
 Gulielmus	53
 John Perceval	51
 Guillaume	49
@@ -53,12 +53,12 @@ Eliphalet	39
 Godfrey	39
 Hercules	39
 Capel	38
+Mungo	38
 Nicolaus Ludwig	38
 Balthazar	37
 Ezekias	37
 Giovan Gualberto	37
 Jean-pierre	37
-Mungo	37
 Alessandro	35
 Kenelm	34
 Barnabas	32
@@ -95,6 +95,7 @@ Lazare	22
 Malachy	22
 Adrianus	21
 Oswald	21
+Pelatiah	21
 Publius	21
 Tench	21
 Thomas Bradbury	21
@@ -102,7 +103,6 @@ Digby	20
 Elnathan	20
 Eyles	20
 Hayman	20
-Pelatiah	20
 Baltasar	19
 Horatio	19
 Jacques Antoine Hippolyte	19
@@ -126,6 +126,7 @@ Matthieu	17
 Mostyn John	17
 Newcome	17
 Urbanus	17
+Wenceslaus	17
 Anselm	16
 Eustache	16
 Filippo	16
@@ -135,7 +136,6 @@ James Solas	16
 Leonardus	16
 Niccolo	16
 Phillips	16
-Wenceslaus	16
 Whiston	16
 Wolfgang	16
 Alured	15
@@ -143,6 +143,7 @@ Dugald	15
 Sir John	15
 Traiano	15
 Uzal	15
+Carew	14
 Egerton	14
 Gaius Valerius	14
 Guido	14
@@ -155,8 +156,8 @@ Murrough O'brien	14
 Shute	14
 Wyndham	14
 Zabdiel	14
+Baldassare	13
 Cadwallader	13
-Carew	13
 Devereux	13
 Gawin	13
 Joannes Ernestus	13
@@ -164,10 +165,10 @@ Muḥammad Ibn ʿabd Al-malik	13
 Theodorus	13
 Zacharie	13
 Amyas	12
-Baldassare	12
 Bernhardus	12
 Bruno	12
 Essex	12
+Fulke	12
 Lysimachus	12
 Philip Yorke	12
 Pietro Martire	12
@@ -178,7 +179,6 @@ Watkin	12
 Christoph Gottlieb	11
 Edward Somerset	11
 Frederick Calvert	11
-Fulke	11
 Helenus	11
 James Pettit	11
 Josua	11
@@ -204,6 +204,7 @@ Shadrach	10
 Timothie	10
 Ulrich	10
 Weeden	10
+Abner	9
 Dominicus	9
 Ezechiel	9
 Gershom	9
@@ -221,7 +222,6 @@ Quirin	9
 Renwick	9
 Thomas Dunham	9
 Abiezer	8
-Abner	8
 Achilles	8
 Ashbel	8
 Aulay	8
@@ -246,6 +246,7 @@ Agostino	7
 Christof	7
 Christofer	7
 Common	7
+Elihu	7
 Evaldus	7
 Gabrielle-suzanne Barbot Gallon	7
 Gaspare	7
@@ -278,7 +279,6 @@ Christophorus	6
 Cyrano	6
 Daneau	6
 Edward Hussey	6
-Elihu	6
 Frederik Ludvig	6
 Gabriello	6
 Galileo	6
@@ -365,6 +365,7 @@ Arthur Capel	4
 Arundel	4
 Benajah	4
 Brampton	4
+Bunker	4
 Caleb Hillier	4
 Christoffel	4
 Citizen	4
@@ -392,6 +393,7 @@ John Weddell	4
 Lambertus	4
 Ludovic	4
 Ludwig Friedrich	4
+Manison	4
 Moyse	4
 Nathaniell	4
 Nikolaus	4
@@ -421,7 +423,6 @@ Barent	3
 Bartolomeo	3
 Beauchamp	3
 Beaumont	3
-Bunker	3
 Cave	3
 Chevalier	3
 Conrade	3
@@ -475,7 +476,6 @@ Littleton	3
 Lodovico Antonio	3
 Lyman	3
 Maarten Harpertsz	3
-Manison	3
 Matthaeus Gottfried	3
 Methuselah	3
 Morrough O'brien	3
@@ -625,6 +625,7 @@ Melmoth	2
 Michael Benedict	2
 Michael Bourke	2
 Middleton	2
+Muhammad	2
 Myndert	2
 Naṣīr Al-dīn Muḥammad Ibn Muḥammad	2
 Nassau	2
@@ -865,6 +866,7 @@ Haidar	1
 Halliday	1
 Hampden	1
 Harim	1
+Hast	1
 Hayward	1
 Heinrich Matthias	1
 Heinrich Moritz Gottlieb	1
@@ -1025,7 +1027,6 @@ Monsieur	1
 Montagu Venables-bertie	1
 Moreton	1
 Mosheh	1
-Muhammad	1
 Muḥammad Ibn Áli	1
 Muḥammad Ibn ʻabd Al-malik	1
 National	1
@@ -1133,6 +1134,7 @@ Sir Peter	1
 Sir Philip	1
 Sir Samuel	1
 Sirāj Al-dīn Muḥammad Ibn Muḥammad	1
+Sixtus	1
 Smithson	1
 Sollom	1
 Somerset Hamilton Butler	1

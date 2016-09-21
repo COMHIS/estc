@@ -1,14 +1,14 @@
 name	count
-New York NY	4689
-Birmingham	1282
-Bath	1118
+New York NY	4696
+Birmingham	1283
+Bath	1119
 New London Ct	1013
-Providence RI	964
+Providence RI	965
 Salisbury	846
 Exeter	837
-Belfast	796
+Belfast	797
 Cork	722
-Newport RI	652
+Newport RI	653
 Charleston SC	638
 Shrewsbury	597
 Liverpool	550
@@ -19,37 +19,37 @@ Coventry	499
 Halifax	493
 Annapolis Md	493
 Portsmouth NH	485
-Worcester Ma	469
+Worcester Ma	470
 Royal Tunbridge Wells	451
 Williamsburg Va	409
-Newburyport Ma	395
-Germantown Pa	388
+Newburyport Ma	399
+Germantown Pa	389
 Chester	369
 Northampton	368
-Lancaster Pa	351
+Lancaster Pa	352
 Albany NY	350
-Ipswich	347
+Ipswich	348
 Salem Ma	327
-Cambridge Ma	326
+Cambridge Ma	325
 Norwich Ct	319
 Maidstone	309
 Hull	306
 Eton	303
 Warrington	290
-Calcutta	282
-Perth	274
+Calcutta	283
+Perth	275
 Exeter NH	273
 Trenton	254
 Reading	253
 Berwick-upon-Tweed	247
-Falkirk	233
-Omer	232
-Sheffield	206
+Falkirk	234
+Omer	233
+Sheffield	207
 Caerfyrddin	179
 Leicester	176
 Bury	175
 Warwick	168
-Bennington Vt	161
+Bennington Vt	162
 Derby	160
 Kingston	159
 Windsor Vt	156
@@ -62,7 +62,7 @@ Burlington NJ	148
 Wolverhampton	147
 Darlington	145
 Preston	144
-Montreal	143
+Montreal	144
 Kendal	143
 Middelburg	140
 Downpatrick	135
@@ -77,11 +77,11 @@ St Omer	119
 Colchester	119
 Limerick	118
 Woodbridge NJ	115
-Carlisle	113
+Carlisle	114
 Ephrata Pa	112
+Portsmouth	106
 Newry	106
 Hereford	106
-Portsmouth	105
 Newark NJ	105
 Halifax NS	102
 Yarmouth	98
@@ -92,11 +92,11 @@ Portland Me	92
 Madras India	91
 Dumfries	90
 Gainsborough	88
-Waterford	86
+Waterford	87
 Poughkeepsie NY	83
+Richmond Va	81
 Ludlow	81
 Lexington KY	81
-Richmond Va	80
 Twickenham	78
 Rutland Vt	77
 Carmarthen	77
@@ -104,10 +104,10 @@ Banbury	77
 Concord NH	76
 Chelmsford	74
 Windsor	72
+Aldershot	72
 Wrexham	70
 New Brunswick NJ	69
 Hudson NY	69
-Aldershot	69
 Doncaster	64
 Danbury Ct	64
 Chichester	64
@@ -133,8 +133,8 @@ Trefeca	55
 Stafford	55
 St Johns Antiqua	55
 Stockport	54
-Hanover NH	54
 Stockbridge Ma	53
+Hanover NH	53
 Stockton	52
 Newport	52
 Kilmarnock	50
@@ -151,14 +151,14 @@ Aberhonddu	47
 Keene NH	46
 Wisbech	45
 Windham Ct	45
-Wesel	45
 Walpole NH	45
 Roseau Dominica	45
 Bradford	45
+Wesel	44
 St Andrews	44
+Dunbar	44
 Port-au-Prince	43
 Edenton NC	43
-Dunbar	43
 Carlisle Pa	42
 New Bedford Ma	41
 Macclesfield	41
@@ -228,12 +228,12 @@ Fairhaven vt	20
 Dudley	20
 Drogheda	20
 Cheshire Ct	20
+Chambersburg Pa	20
 Strabane	19
 Leominster	19
 Hamilton	19
 Columbia SC	19
 Clipstone	19
-Chambersburg Pa	19
 Whitehall Pa	18
 Pontefract	18
 Nantwich	18
@@ -381,6 +381,7 @@ Kettering	6
 Hwlffordd	6
 Haverhill NH	6
 Gilmanton NH	6
+Ennis	6
 Devonport	6
 Croesoswallt	6
 Bridlington	6
@@ -408,7 +409,6 @@ Frome	5
 Fredericktown	5
 Fort royal	5
 Flushing	5
-Ennis	5
 Dover De	5
 Dorset	5
 Dolgellau	5
@@ -430,6 +430,7 @@ Pointe-A-Pitre	4
 Penzance	4
 Oakham	4
 Northallerton	4
+New brunswick jersey	4
 Mansfield	4
 Malo	4
 Lustleigh	4
@@ -490,7 +491,6 @@ Ormskirk	3
 Nothampton	3
 Newton abbot	3
 Newington Ct	3
-New brunswick jersey	3
 Nashville TN	3
 Milton	3
 Lugano	3
@@ -512,7 +512,6 @@ Dunkirk	3
 Dungannon	3
 Dunfermline	3
 Dun Laoghaire	3
-Dorking	3
 Chillicothe Oh	3
 Chesham	3
 Chertsey	3
@@ -590,6 +589,7 @@ Elizabethtown Md	2
 Eastbourne	2
 Duns	2
 Dunkalk	2
+Dorking	2
 Dieppe	2
 Dewsbury	2
 Deal	2
@@ -732,6 +732,7 @@ Mare	1
 Malda	1
 Lynchburg va	1
 Loundres moy redman	1
+Lonnen	1
 Long Buckby	1
 Litch conn	1
 Lisburn	1

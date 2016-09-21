@@ -1,7 +1,7 @@
 library(devtools)
-library(bibliographica)
-# load_all("../../../bibliographica/")
-# load_all()
+#library(bibliographica)
+load_all("../../../bibliographica/")
+load_all()
 
 # I/O definitions
 output.folder <- "output.tables/"
