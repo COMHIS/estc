@@ -144,7 +144,6 @@ Lover Of His Country	NA	NA	 47
 Buckingham, John Sheffield	1648	NA	 47
 Cross, J C	NA	1809	 47
 Gentleman In The Country	NA	NA	 47
-Fox, George	NA	1661	 46
 Pelling, Edward	NA	1718	 46
 Turford, Hugh	NA	1713	 46
 Prestage, John	NA	1767	 46
@@ -166,6 +165,7 @@ Willymott, William	NA	1737	 42
 Spauter, Johannes De	NA	1520	 41
 Isocrates	NA	NA	 41
 Tyndale, William	1536	NA	 40
+Fox, George	NA	1661	 40
 Lupton, Thomas	NA	NA	 40
 Pope, Walter	NA	1714	 40
 Swan, John	NA	1671	 39
@@ -180,6 +180,7 @@ Freeman	NA	1802	 39
 Hawkins, John	NA	NA	 39
 Ames, Richard	1693	NA	 39
 Stubbes, Phillip	NA	NA	 38
+Digges, Leonard	1559	NA	 38
 Neale, Thomas	NA	1699	 38
 Chamberlen, Hugh	1720	NA	 38
 Coote, Edmund	1597	NA	 38
@@ -320,6 +321,7 @@ Gentleman Of Lincoln's inn	NA	NA	 26
 Moore, Thomas	1737	NA	 26
 Withers, Philip	NA	1790	 26
 Shadwell, Charles	NA	1726	 26
+Atwood, William	1705	NA	 26
 Bennett	NA	1808	 26
 Berault, Peter	NA	NA	 26
 Mirk, John	1403	NA	 25
@@ -736,7 +738,6 @@ Salgado, James	1680	NA	 14
 Whitlocke, Bulstrode	1605	NA	 14
 Shipton	NA	NA	 14
 Rudyard, Thomas	NA	1692	 14
-Vincent	1690	NA	 14
 Melancholicus, Mercurius	1648	NA	 14
 Gordon, James	NA	NA	 14
 Guillemain De Saint-victor, Louis	NA	NA	 14
@@ -821,6 +822,7 @@ Scobell, Henry	NA	1660	 13
 Bradshaw, Ellis	NA	NA	 13
 Aelfric	NA	NA	 13
 Villedieu	NA	1683	 13
+Vincent	NA	NA	 13
 Adis, Henry	NA	NA	 13
 Philipot, Thomas	NA	1682	 13
 Udall, Ephraim	NA	1647	 13
@@ -2375,6 +2377,7 @@ Blum, Hans	1567	NA	  6
 Collins, John	NA	NA	  6
 Morgan, William	NA	1690	  6
 Murray, Robert	NA	NA	  6
+Fox, George	NA	NA	  6
 Pilanus, Jacobus	NA	NA	  6
 Pricke, Robert	NA	1608	  6
 Snelling, Thomas	1712	NA	  6
@@ -4149,6 +4152,7 @@ Barton, John	NA	NA	  4
 Callander, John	NA	1711	  4
 Campbell, William	NA	NA	  4
 Cicero	NA	NA	  4
+Crouch, Nathaniel	1632	NA	  4
 Church Of Ireland	NA	NA	  4
 Dunton, John	NA	NA	  4
 Benedict	NA	1193	  4
@@ -6390,6 +6394,7 @@ Carver, Marmaduke	NA	NA	  3
 Coppinger, Matthew	NA	NA	  3
 Cudmore, Daniel	NA	NA	  3
 Bradley, Christopher	NA	1678	  3
+Buck, George	1623	NA	  3
 Bryan, Matthew	NA	1699	  3
 Browne, H	NA	NA	  3
 Meeke, William	NA	NA	  3
@@ -7096,6 +7101,7 @@ Shirley, Thomas	NA	NA	  3
 Irish, David	NA	NA	  3
 Nairn, John	NA	NA	  3
 Buchanan-kincaid, John	NA	NA	  3
+Wilkes, John	NA	1797	  3
 Aureli, Aurelio	NA	1708	  3
 Newans, Thomas	NA	NA	  3
 Desaubiez	NA	NA	  3
@@ -10311,6 +10317,7 @@ Vox Populi	NA	NA	  2
 Lindsay, Sir David	NA	NA	  2
 Ling, Nicholas	NA	NA	  2
 Littlebury, Robert	NA	NA	  2
+Lilly, William	1602	NA	  2
 Lockhart, George	NA	NA	  2
 Lofting, John	NA	NA	  2
 Logie, Andrew	NA	NA	  2
@@ -23095,6 +23102,7 @@ Stephens, Philadelphia	NA	NA	  1
 Rawles, John Strangewayes	NA	NA	  1
 Betts, Edward	NA	NA	  1
 Paterson, James	NA	1729	  1
+Ramsay, Alexander	1754	NA	  1
 Kennedy, David	NA	1754	  1
 Couper, Andrew	NA	1707	  1
 Bethune, James	NA	1719	  1
@@ -25424,6 +25432,7 @@ Comedy	NA	NA	  1
 Compendium	NA	NA	  1
 Copies	NA	NA	  1
 Copy	NA	NA	  1
+Corderoy, Jeremy	NA	NA	  1
 Counsel	NA	NA	  1
 Coverbridge, Cranmer	NA	NA	  1
 Crakanthorp, Richard	NA	NA	  1
@@ -25691,6 +25700,7 @@ Parisius	1620	NA	  1
 Goodwin, Christopher	NA	NA	  1
 Holinshead, Raphael	NA	1580	  1
 Miles, James	NA	NA	  1
+Corderoy, Jeremy	1562	NA	  1
 Darcie, Grace	NA	NA	  1
 Elliots, William	NA	NA	  1
 Silvestris, Bernard	1136	NA	  1
@@ -26782,6 +26792,7 @@ Webb, Nathaniel	1690	NA	  1
 Paulin, William	NA	NA	  1
 Wiseman, Anne	1690	NA	  1
 Parker, Martha	1690	NA	  1
+Vincent	1690	NA	  1
 Twyford, James	NA	NA	  1
 Gee, Francis	NA	1751	  1
 Turnour, Mary	NA	NA	  1
@@ -27304,6 +27315,7 @@ Luis, Of Grenada	NA	NA	  1
 Luxemburg, Francois Henri De Montmorency-bouteville	NA	NA	  1
 Manning, Francis	NA	NA	  1
 Mainwaring, Randall	NA	NA	  1
+Mall, Thomas	NA	NA	  1
 Martin, L	NA	NA	  1
 Martyn, John	NA	NA	  1
 Masterson, Geo	NA	NA	  1
@@ -27446,6 +27458,7 @@ Sherdley, R	NA	NA	  1
 Sherlock, Richard	NA	NA	  1
 Shore, William	NA	NA	  1
 Culliford, William	1698	NA	  1
+Simon, Richard	NA	1712	  1
 Simonds, Thomas	NA	1666	  1
 Simpkin, Charles	NA	NA	  1
 S Impson, T Homas	NA	NA	  1
@@ -28435,6 +28448,7 @@ Morland, Israel	NA	NA	  1
 Morey, Dewans	NA	NA	  1
 Heynes, John	NA	NA	  1
 Moon, Paul	NA	NA	  1
+Du Moulin, Lewis	1606	NA	  1
 Davenport, Francis	NA	NA	  1
 Linch, Sam	NA	NA	  1
 Mascall, William	NA	NA	  1
@@ -30111,6 +30125,7 @@ Country Scholar	NA	NA	  1
 Brown, Edward	NA	1711	  1
 Marlow, Jeremiah	NA	NA	  1
 Bryan, Robert	NA	NA	  1
+Mall, Thomas	1629	NA	  1
 Brooke, Nathaniel	NA	NA	  1
 Denton, Daniel	NA	NA	  1
 French Catholick	NA	NA	  1

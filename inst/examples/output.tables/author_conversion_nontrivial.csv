@@ -163,7 +163,7 @@ Hanway, Jonas	1712-1786.	Hanway, Jonas (1712-1786)	1712	1786	 126
 Pitcairn, Archibald	1652-1713.	Pitcairn, Archibald (1652-1713)	1652	1713	 125
 Cocker, Edward	1631-1675.	Cocker, Edward (1631-1675)	1631	1675	 124
 Walpole, Horace	1717-1797.	Walpole, Horace (1717-1797)	1717	1797	 124
-Bayly, Lewis	-1631.	Bayly, Lewis (1631-NA)	1631	NA	 123
+Bayly, Lewis	-1631.	Bayly, Lewis (1631-1631)	1631	NA	 123
 Challoner, Richard	1691-1781.	Challoner, Richard (1691-1781)	1691	1781	 123
 Arbuthnot, John	1667-1735.	Arbuthnot, John (1667-1735)	1667	1735	 123
 Calvin, Jean	1509-1564.	Calvin, Jean (1509-1564)	1509	1564	 122
@@ -369,7 +369,7 @@ Entick, John	1703?-1773.	Entick, John (1703-1773)	1703	1773	  74
 Fordyce, James	1720-1796.	Fordyce, James (1720-1796)	1720	1796	  74
 Smith, Charlotte Turner	1749-1806.	Smith, Charlotte Turner (1749-1806)	1749	1806	  74
 Saint-Pierre, Bernardin de	1737-1814.	Saint-pierre, Bernardin De (1737-1814)	1737	1814	  74
-Sternhold, Thomas	-1549.	Sternhold, Thomas (1549-NA)	1549	NA	  73
+Sternhold, Thomas	-1549.	Sternhold, Thomas (1549-1549)	1549	NA	  73
 Smith, William	-1673.	Smith, William (NA-1673)	NA	1673	  73
 Cotton, John	1584-1652.	Cotton, John (1584-1652)	1584	1652	  73
 Goodwin, Thomas	1600-1680.	Goodwin, Thomas (1600-1680)	1600	1680	  73
@@ -386,7 +386,7 @@ Bentley, Richard	1662-1742.	Bentley, Richard (1662-1742)	1662	1742	  73
 Smith, William	1727-1803.	Smith, William (1727-1803)	1727	1803	  73
 Fitzherbert, Anthony	1470-1538.	Fitzherbert, Anthony (1470-1538)	1470	1538	  73
 Hobbes, Thomas	1588-1679.	Hobbes, Thomas (1588-1679)	1588	1679	  72
-Goldsmith, John	active 1656.	Goldsmith, John (1656-NA)	1656	NA	  72
+Goldsmith, John	active 1656.	Goldsmith, John (1656-1656)	1656	NA	  72
 Johnson, John	1706-1791.	Johnson, John (1706-1791)	1706	1791	  72
 Lucas, Richard	1648-1715.	Lucas, Richard (1648-1715)	1648	1715	  72
 Mackenzie, Henry	1745-1831.	Mackenzie, Henry (1745-1831)	1745	1831	  72
@@ -513,7 +513,7 @@ Benezet, Anthony	1713-1784.	Benezet, Anthony (1713-1784)	1713	1784	  62
 Bèze, Théodore de	1519-1605.	Bèze, Théodore De (1519-1605)	1519	1605	  61
 Cromwell, Oliver	1599-1658.	Cromwell, Oliver (1599-1658)	1599	1658	  61
 Gataker, Thomas	1574-1654.	Gataker, Thomas (1574-1654)	1574	1654	  61
-Ferguson, Robert	-1714.	Ferguson, Robert (1714-NA)	1714	NA	  61
+Ferguson, Robert	-1714.	Ferguson, Robert (1714-1714)	1714	NA	  61
 More, Henry	1614-1687.	More, Henry (1614-1687)	1614	1687	  61
 Season, Henry	1693-1775.	Season, Henry (1693-1775)	1693	1775	  61
 Towgood, Micaiah	1700-1792.	Towgood, Micaiah (1700-1792)	1700	1792	  61
@@ -764,7 +764,7 @@ Venning, Ralph	1621?-1674.	Venning, Ralph (1621-1674)	1621	1674	  46
 Morton, Thomas	1564-1659.	Morton, Thomas (1564-1659)	1564	1659	  46
 Willis, Thomas	1621-1675.	Willis, Thomas (1621-1675)	1621	1675	  46
 Wharton, George	1617-1681.	Wharton, George (1617-1681)	1617	1681	  46
-Smith, Humphrey	-1663.	Smith, Humphrey (1663-NA)	1663	NA	  46
+Smith, Humphrey	-1663.	Smith, Humphrey (1663-1663)	1663	NA	  46
 Dickson, David	1583?-1663.	Dickson, David (1583-1663)	1583	1663	  46
 Chamberlayne, Edward	1616-1703.	Chamberlayne, Edward (1616-1703)	1616	1703	  46
 Talbot, William	1658 or 1659-1730.	Talbot, William (1658-1730)	1658	1730	  46
@@ -774,7 +774,7 @@ Turford, Hugh	-1713.	Turford, Hugh (NA-1713)	NA	1713	  46
 Bates, William	1625-1699.	Bates, William (1625-1699)	1625	1699	  46
 Prestage, John	-1767.	Prestage, John (NA-1767)	NA	1767	  46
 Harris, William	1675?-1740.	Harris, William (1675-1740)	1675	1740	  46
-Longinus	active 1st century.	Longinus, 	NA	NA	  46
+Longinus	active 1st century.	Longinus,  (1-1)	NA	NA	  46
 Adams, William	1706-1789.	Adams, William (1706-1789)	1706	1789	  46
 Purney, Thomas	1695-approximately 1727.	Purney, Thomas (1695-1727)	1695	1727	  46
 Amhurst, N	1697-1742.	Amhurst, N (1697-1742)	1697	1742	  46
@@ -1028,7 +1028,7 @@ Lydgate, John	1370?-1451?.	Lydgate, John (1370-1451)	1370	1451	  37
 Dyer, William	1632/3-1696.	Dyer, William (1632-1696)	1632	1696	  37
 Hutton, Richard	1561?-1639.	Hutton, Richard (1561-1639)	1561	1639	  37
 Vaux, John	approximately 1575-1651.	Vaux, John (1575-1651)	1575	1651	  37
-Digges, Leonard	-approximately 1559.	Digges, Leonard (1559-1571)	1559	1571	  37
+Digges, Leonard	-approximately 1559.	Digges, Leonard (1559-1559)	1559	NA	  37
 Burges, Cornelius	1589?-1665.	Burges, Cornelius (1589-1665)	1589	1665	  37
 Stubbe, Henry	1632-1676.	Stubbe, Henry (1632-1676)	1632	1676	  37
 Woodward, Ezekias	1590-1675.	Woodward, Ezekias (1590-1675)	1590	1675	  37
@@ -1063,7 +1063,7 @@ Serle, Ambrose	1742-1812.	Serle, Ambrose (1742-1812)	1742	1812	  37
 Daboll, Nathan	1750-1818.	Daboll, Nathan (1750-1818)	1750	1818	  36
 Cheesman, T	active 1794-1797.	Cheesman, T (1794-1797)	1794	1797	  36
 Habermann, Johann	1516-1590.	Habermann, Johann (1516-1590)	1516	1590	  36
-Tyndale, William	-1536.	Tyndale, William (1536-NA)	1536	NA	  36
+Tyndale, William	-1536.	Tyndale, William (1536-1536)	1536	NA	  36
 Marlowe, Christopher	1564-1593.	Marlowe, Christopher (1564-1593)	1564	1593	  36
 Ramus, Petrus	1515-1572.	Ramus, Petrus (1515-1572)	1515	1572	  36
 Baker, Richard	1568-1645.	Baker, Richard (1568-1645)	1568	1645	  36
@@ -1072,7 +1072,7 @@ Crown	1640?-1712.	Crown,  (1640-1712)	1640	1712	  36
 Spelman, Henry	1564?-1641.	Spelman, Henry (1564-1641)	1564	1641	  36
 Long, Thomas	1621-1707.	Long, Thomas (1621-1707)	1621	1707	  36
 Dalrymple, David	1726-1792.	Dalrymple, David (1726-1792)	1726	1792	  36
-Ames, Richard	-1693.	Ames, Richard (1693-NA)	1693	NA	  36
+Ames, Richard	-1693.	Ames, Richard (1693-1693)	1693	NA	  36
 Sergeant, John	1622-1707.	Sergeant, John (1622-1707)	1622	1707	  36
 Owen, W	-1793.	Owen, W (NA-1793)	NA	1793	  36
 Stockwood, John	-1610.	Stockwood, John (NA-1610)	NA	1610	  36
@@ -1567,7 +1567,7 @@ Powell, Vavasor	1617-1670.	Powell, Vavasor (1617-1670)	1617	1670	  26
 Hartlib, Samuel	-1662.	Hartlib, Samuel (NA-1662)	NA	1662	  26
 Udall, John	1560?-1592.	Udall, John (1560-1592)	1560	1592	  26
 Newcastle, Margaret Cavendish	1624?-1674.	Newcastle, Margaret Cavendish (1624-1674)	1624	1674	  26
-Smythies, William	-1715.	Smythies, William (1715-NA)	1715	NA	  26
+Smythies, William	-1715.	Smythies, William (1715-1715)	1715	NA	  26
 Quarles, John	1624-1665.	Quarles, John (1624-1665)	1624	1665	  26
 Jackson, Thomas	1579-1640.	Jackson, Thomas (1579-1640)	1579	1640	  26
 Tatham, John	active 1632-1664.	Tatham, John (1632-1664)	1632	1664	  26
@@ -1709,7 +1709,7 @@ Lipsius, Justus	1547-1606.	Lipsius, Justus (1547-1606)	1547	1606	  24
 Bastwick, John	1593-1654.	Bastwick, John (1593-1654)	1593	1654	  24
 Smith, Samuel	1620-1698.	Smith, Samuel (1620-1698)	1620	1698	  24
 Reyner, Edward	1600-1668.	Reyner, Edward (1600-1668)	1600	1668	  24
-Slater, Samuel	-1704.	Slater, Samuel (1704-NA)	1704	NA	  24
+Slater, Samuel	-1704.	Slater, Samuel (1704-1704)	1704	NA	  24
 Belknap, Jeremy	1744-1798.	Belknap, Jeremy (1744-1798)	1744	1798	  24
 Clarke, Richard	1723-approximately 1780.	Clarke, Richard (1723-1780)	1723	1780	  24
 Cruden, Alexander	1701-1770.	Cruden, Alexander (1701-1770)	1701	1770	  24
@@ -1797,9 +1797,9 @@ Heywood, Oliver	1629-1702.	Heywood, Oliver (1629-1702)	1629	1702	  23
 Flatman, Thomas	1637-1688.	Flatman, Thomas (1637-1688)	1637	1688	  23
 Chamberlen, Peter	1601-1683.	Chamberlen, Peter (1601-1683)	1601	1683	  23
 Sclater, William	1575-1626.	Sclater, William (1575-1626)	1575	1626	  23
-Mervyn, Audley	-1675.	Mervyn, Audley (1675-NA)	1675	NA	  23
+Mervyn, Audley	-1675.	Mervyn, Audley (1675-1675)	1675	NA	  23
 Phillippes, Henry	-1677?.	Phillippes, Henry (NA-1677)	NA	1677	  23
-Atwood, William	-1705?.	Atwood, William (1705-1824)	1705	1824	  23
+Atwood, William	-1705?.	Atwood, William (1705-1705)	1705	NA	  23
 Taylor, Thomas	1618-1682.	Taylor, Thomas (1618-1682)	1618	1682	  23
 Casaubon, Meric	1599-1671.	Casaubon, Meric (1599-1671)	1599	1671	  23
 Alsop, Vincent	1629 or 1630-1703.	Alsop, Vincent (1629-1703)	1629	1703	  23
@@ -2207,7 +2207,7 @@ Vane, Henry	1612?-1662.	Vane, Henry (1612-1662)	1612	1662	  19
 Ley, John	1583-1662.	Ley, John (1583-1662)	1583	1662	  19
 Manchester, Edward Montagu	1602-1671.	Manchester, Edward Montagu (1602-1671)	1602	1671	  19
 King, Peter King	1669-1734.	King, Peter (1669-1734)	1669	1734	  19
-Hierocles	active 430.	Hierocles, 	NA	NA	  19
+Hierocles	active 430.	Hierocles,  (430-430)	NA	NA	  19
 Rutherforth, T	1712-1771.	Rutherforth, T (1712-1771)	1712	1771	  19
 Nichols, John	1745-1826.	Nichols, John (1745-1826)	1745	1826	  19
 Boyle, P	-1808?.	Boyle, P (NA-1808)	NA	1808	  19
@@ -3009,7 +3009,7 @@ Sewall, Samuel	1652-1730.	Sewall, Samuel (1652-1730)	1652	1730	  14
 Montagu, Richard	1577-1641.	Montagu, Richard (1577-1641)	1577	1641	  14
 D. R	1573-1652.	D,  (1573-1652)	1573	1652	  14
 Alemán, Mateo	1547-1614?.	Alemán, Mateo (1547-1614)	1547	1614	  14
-Collins, Hercules	-1702.	Collins, Hercules (1702-NA)	1702	NA	  14
+Collins, Hercules	-1702.	Collins, Hercules (1702-1702)	1702	NA	  14
 Temple, John	1600-1677.	Temple, John (1600-1677)	1600	1677	  14
 Cradock, Walter	1606?-1659.	Cradock, Walter (1606-1659)	1606	1659	  14
 Coale, Josiah	1632?-1668.	Coale, Josiah (1632-1668)	1632	1668	  14
@@ -3234,7 +3234,7 @@ Abbot, Robert	1588?-1662?.	Abbot, Robert (1588-1662)	1588	1662	  13
 Goodman, Godfrey	1583-1656.	Goodman, Godfrey (1583-1656)	1583	1656	  13
 Newcome, Peter	1656-1738.	Newcome, Peter (1656-1738)	1656	1738	  13
 Rogers, John	1572?-1636.	Rogers, John (1572-1636)	1572	1636	  13
-Foster, Samuel	-1652.	Foster, Samuel (1652-NA)	1652	NA	  13
+Foster, Samuel	-1652.	Foster, Samuel (1652-1652)	1652	NA	  13
 Gratton, John	1641-1712.	Gratton, John (1641-1712)	1641	1712	  13
 Whitfeld, William	1658-1717.	Whitfeld, William (1658-1717)	1658	1717	  13
 Cant, Andrew	1590?-1663.	Cant, Andrew (1590-1663)	1590	1663	  13
@@ -3855,7 +3855,7 @@ Huarte, Juan	1529?-1588.	Huarte, Juan (1529-1588)	1529	1588	  11
 Gaule, John	1604?-1687.	Gaule, John (1604-1687)	1604	1687	  11
 Crisp, Tobias	1600-1643.	Crisp, Tobias (1600-1643)	1600	1643	  11
 Molesworth, Robert Molesworth	1656-1725.	Molesworth, Robert (1656-1725)	1656	1725	  11
-Walford, Benjamin	-approximately 1710.	Walford, Benjamin (1710-NA)	1710	NA	  11
+Walford, Benjamin	-approximately 1710.	Walford, Benjamin (1710-1710)	1710	NA	  11
 Prideaux, Mathias	1622-1646?.	Prideaux, Mathias (1622-1646)	1622	1646	  11
 Macropedius, Georgius	1487-1558.	Macropedius, Georgius (1487-1558)	1487	1558	  11
 Parker, Alexander	1628-1689.	Parker, Alexander (1628-1689)	1628	1689	  11
@@ -3898,7 +3898,7 @@ Downing, Calybute	1606-1644.	Downing, Calybute (1606-1644)	1606	1644	  11
 Cartwright, Christopher	1602-1658.	Cartwright, Christopher (1602-1658)	1602	1658	  11
 J. V. C	-1672.	J,  (NA-1672)	NA	1672	  11
 Allington, John	-1682.	Allington, John (NA-1682)	NA	1682	  11
-Falkner, William	-1682.	Falkner, William (1682-NA)	1682	NA	  11
+Falkner, William	-1682.	Falkner, William (1682-1682)	1682	NA	  11
 Jekyll, Thomas	1646-1698.	Jekyll, Thomas (1646-1698)	1646	1698	  11
 Dangerfield, Thomas	1650?-1685.	Dangerfield, Thomas (1650-1685)	1650	1685	  11
 Bayfield, Robert	1629-	Bayfield, Robert (1629-NA)	1629	NA	  11
@@ -5119,7 +5119,7 @@ Pitt, Robert	1653-1713.	Pitt, Robert (1653-1713)	1653	1713	   8
 Townsend, John	1757-1826.	Townsend, John (1757-1826)	1757	1826	   8
 Love, David	1750-1827.	Love, David (1750-1827)	1750	1827	   8
 Burton, Gregory	active 1613-1621.	Burton, Gregory (1613-1621)	1613	1621	   8
-Elderton, William	-1592?.	Elderton, William (1592-NA)	1592	NA	   8
+Elderton, William	-1592?.	Elderton, William (1592-1592)	1592	NA	   8
 Einer, N	active 1620-1626.	Einer, N (1620-1626)	1620	1626	   8
 Gray, Walter	-1613.	Gray, Walter (NA-1613)	NA	1613	   8
 Sharpe, Leonel	1559-1631.	Sharpe, Leonel (1559-1631)	1559	1631	   8
@@ -5322,7 +5322,7 @@ Ware, Isaac	-1766.	Ware, Isaac (NA-1766)	NA	1766	   8
 Le Comte, Louis	1655-1728.	Le Comte, Louis (1655-1728)	1655	1728	   8
 Gunton, Simon	1609-1676.	Gunton, Simon (1609-1676)	1609	1676	   8
 De Gamerra, Giovanni	1743-1803.	De Gamerra, Giovanni (1743-1803)	1743	1803	   8
-Philips, William	-1734.	Philips, William (1734-NA)	1734	NA	   8
+Philips, William	-1734.	Philips, William (1734-1734)	1734	NA	   8
 Dobel, Daniel	1700-1782.	Dobel, Daniel (1700-1782)	1700	1782	   8
 Pasquali, Nicolo	approximately 1718-1757.	Pasquali, Nicolo (1718-1757)	1718	1757	   8
 Morrice, John	1685-1740.	Morrice, John (1685-1740)	1685	1740	   8
@@ -5742,7 +5742,7 @@ Holinshed, Raphael	-1580?.	Holinshed, Raphael (NA-1580)	NA	1580	   7
 Harris, Paul	1573-1635?.	Harris, Paul (1573-1635)	1573	1635	   7
 Edmondes, Clement	1566 or 1567-1622.	Edmondes, Clement (1566-1622)	1566	1622	   7
 Martin, Robert	active 1635-1641.	Martin, Robert (1635-1641)	1635	1641	   7
-Elderton, William	-1592?	Elderton, William (1592-NA)	1592	NA	   7
+Elderton, William	-1592?	Elderton, William (1592-1592)	1592	NA	   7
 Mulcaster, Richard	1530?-1611.	Mulcaster, Richard (1530-1611)	1530	1611	   7
 Scot, Tho	active 1605.	Scot, Tho (1605-NA)	1605	NA	   7
 Valera, Cipriano de	1532?-1625.	Valera, Cipriano De (1532-1625)	1532	1625	   7
@@ -5975,7 +5975,7 @@ Leopold	1640-1705.	Leopold,  (1640-1705)	1640	1705	   7
 Hotham, Charles	1615-1672?.	Hotham, Charles (1615-1672)	1615	1672	   7
 Lowth, Simon	1630?-1720.	Lowth, Simon (1630-1720)	1630	1720	   7
 Shawe, John	1608-1672.	Shawe, John (1608-1672)	1608	1672	   7
-Vincent	-approximately 450.	Vincent,  (1690-NA)	1690	NA	   7
+Vincent	-approximately 450.	Vincent,  (450-450)	NA	NA	   7
 R. B	-1675.	R,  (NA-1675)	NA	1675	   7
 Winthrop, John	1588-1649.	Winthrop, John (1588-1649)	1588	1649	   7
 Jones, James	active 1683-1684.	Jones, James (1683-1684)	1683	1684	   7
@@ -6610,7 +6610,7 @@ Ward, William	-1632.	Ward, William (NA-1632)	NA	1632	   6
 Nausea, Friedrich	-1552.	Nausea, Friedrich (NA-1552)	NA	1552	   6
 Fisher, John	1569-1641.	Fisher, John (1569-1641)	1569	1641	   6
 Gwalther, Rudolf	1519-1586.	Gwalther, Rudolf (1519-1586)	1519	1586	   6
-Vincent	cd. approximately 450.	Vincent,  (1690-NA)	1690	NA	   6
+Vincent	cd. approximately 450.	Vincent,  (450-450)	NA	NA	   6
 Field, Richard	1561-1616.	Field, Richard (1561-1616)	1561	1616	   6
 S. N	1572-1630.	S,  (1572-1630)	1572	1630	   6
 Fawkner, Antony	1601 or 1602-	Fawkner, Antony (1601-1602)	1601	1602	   6
@@ -6735,7 +6735,7 @@ Barber, Edward	-1674?.	Barber, Edward (NA-1674)	NA	1674	   6
 Gataker, Charles	1614 or 1615-1680.	Gataker, Charles (1614-1680)	1614	1680	   6
 Dare, Josiah	active 17th century.	Dare, Josiah	NA	NA	   6
 Taylor, John	1666 or 1667-1687.	Taylor, John (1666-1687)	1666	1687	   6
-Aelian	active 3rd century.	Aelian, 	NA	NA	   6
+Aelian	active 3rd century.	Aelian,  (3-3)	NA	NA	   6
 Chetham, James	1640-1692.	Chetham, James (1640-1692)	1640	1692	   6
 Sturmy, Samuel	1633-1669.	Sturmy, Samuel (1633-1669)	1633	1669	   6
 Prince, John	1643-1723.	Prince, John (1643-1723)	1643	1723	   6
@@ -6780,7 +6780,7 @@ Burton, Hezekiah	1631 or 1632-1681.	Burton, Hezekiah (1631-1681)	1631	1681	   6
 Shannon, Francis Boyle	1623-1699.	Shannon, Francis Boyle (1623-1699)	1623	1699	   6
 Orrery, Charles Boyle	1676-1731.	Orrery, Charles Boyle (1676-1731)	1676	1731	   6
 Whittaker, Jeremiah	1599-1654.	Whittaker, Jeremiah (1599-1654)	1599	1654	   6
-Story, George Warter	-1721.	Story, George Warter (1721-NA)	1721	NA	   6
+Story, George Warter	-1721.	Story, George Warter (1721-1721)	1721	NA	   6
 Macedo, Francisco de	1596-1681.	Macedo, Francisco De (1596-1681)	1596	1681	   6
 Gell, Robert	1595-1665.	Gell, Robert (1595-1665)	1595	1665	   6
 Archer, John	active 1660-1684.	Archer, John (1660-1684)	1660	1684	   6
@@ -7686,7 +7686,7 @@ Chaloner, Edward	1590 or 1591-1625.	Chaloner, Edward (1590-1625)	1590	1625	   5
 Johnstoun, Arthur	1587-1641.	Johnstoun, Arthur (1587-1641)	1587	1641	   5
 Benedetto	active 1534-1541.	Benedetto,  (1534-1541)	1534	1541	   5
 Barnes, Barnabe	1569?-1609.	Barnes, Barnabe (1569-1609)	1569	1609	   5
-Aelianus	active 2nd century.	Aelianus, 	NA	NA	   5
+Aelianus	active 2nd century.	Aelianus,  (2-2)	NA	NA	   5
 Brunschwig, Hieronymus	approximately 1450-approximately 1512.	Brunschwig, Hieronymus (1450-1512)	1450	1512	   5
 Hakluyt, Richard	1552?-1616.	Hakluyt, Richard (1552-1616)	1552	1616	   5
 Christine	approximately 1364-approximately 1431.	Christine,  (1364-1431)	1364	1431	   5
@@ -7826,7 +7826,7 @@ Meadows, Philip	1626-1718.	Meadows, Philip (1626-1718)	1626	1718	   5
 Hoddesdon, John	active 1650.	Hoddesdon, John (1650-NA)	1650	NA	   5
 Chamberlain, Robert	active 1678-1679.	Chamberlain, Robert (1678-1679)	1678	1679	   5
 Gill, Alexander	1597-1642.	Gill, Alexander (1597-1642)	1597	1642	   5
-Gildas	516?-570?.	Gildas,  (516-NA)	516	NA	   5
+Gildas	516?-570?.	Gildas,  (516-516)	516	NA	   5
 Edmundson, Henry	1607?-1659.	Edmundson, Henry (1607-1659)	1607	1659	   5
 Mure, William	1594-1657.	Mure, William (1594-1657)	1594	1657	   5
 Holland, John	-1722.	Holland, John (NA-1722)	NA	1722	   5
@@ -7865,7 +7865,7 @@ Holden, Henry	1596-1662.	Holden, Henry (1596-1662)	1596	1662	   5
 Adrichem, Christiaan van	1533-1585.	Adrichem, Christiaan Van (1533-1585)	1533	1585	   5
 Friedrich Wilhelm	1620-1688.	Wilhelm, Friedrich (1620-1688)	1620	1688	   5
 Audiguier, Vital d'	1569-1624.	Audiguier, Vital D' (1569-1624)	1569	1624	   5
-Ptolemy	active 2nd century.	Ptolemy, 	NA	NA	   5
+Ptolemy	active 2nd century.	Ptolemy,  (2-2)	NA	NA	   5
 Gillespie, Patrick	1617-1675.	Gillespie, Patrick (1617-1675)	1617	1675	   5
 Eccles, Solomon	1618-1683.	Eccles, Solomon (1618-1683)	1618	1683	   5
 W. C	-1670.	W,  (NA-1670)	NA	1670	   5
@@ -9316,10 +9316,10 @@ Kirkwood, James	1650?-1708.	Kirkwood, James (1650-1708)	1650	1708	   4
 Murray, Robert	1635-1725?	Murray, Robert (1635-1725)	1635	1725	   4
 Speke, Hugh	1656-1724?	Speke, Hugh (1656-1724)	1656	1724	   4
 Smith, William	d. 1673]	Smith, William (1673-NA)	1673	NA	   4
-Smith, Humphrey	d. 1663.	Smith, Humphrey (1663-NA)	1663	NA	   4
+Smith, Humphrey	d. 1663.	Smith, Humphrey (1663-1663)	1663	NA	   4
 Powell, Robert	active 1636-1652.	Powell, Robert (1636-1652)	1636	1652	   4
 Googe, Barnabe	1540-1594.	Googe, Barnabe (1540-1594)	1540	1594	   4
-Athenagoras	active 2nd century.	Athenagoras, 	NA	NA	   4
+Athenagoras	active 2nd century.	Athenagoras,  (2-2)	NA	NA	   4
 Wilson, John	1588-1667.	Wilson, John (1588-1667)	1588	1667	   4
 Fancy, P	active 1675.	Fancy, P (1675-NA)	1675	NA	   4
 Winter, John	1621?-1698?.	Winter, John (1621-1698)	1621	1698	   4
@@ -9328,7 +9328,7 @@ Stedman, Fabian	1640-1713.	Stedman, Fabian (1640-1713)	1640	1713	   4
 Scoryer, Richard	1648?-1715.	Scoryer, Richard (1648-1715)	1648	1715	   4
 Graile, Edmond	approximately 1577-	Graile, Edmond (1577-NA)	1577	NA	   4
 Praed, John	active 1711.	Praed, John (1711-NA)	1711	NA	   4
-Martinez, Pierre	-1594.	Martinez, Pierre (1594-NA)	1594	NA	   4
+Martinez, Pierre	-1594.	Martinez, Pierre (1594-1594)	1594	NA	   4
 Whitaker, Thomas	1650 or 1651-1710.	Whitaker, Thomas (1650-1710)	1650	1710	   4
 Spalding, John	1633?-1699.	Spalding, John (1633-1699)	1633	1699	   4
 Powell, Griffith	1561-1620.	Powell, Griffith (1561-1620)	1561	1620	   4
@@ -9420,7 +9420,7 @@ Gery, Thomas	-1670?.	Gery, Thomas (NA-1670)	NA	1670	   4
 Watson, Thomas	active 17th century-18th century.	Watson, Thomas	NA	NA	   4
 Wells, John	1623-1676.	Wells, John (1623-1676)	1623	1676	   4
 More, Cresacre	1572-1649.	More, Cresacre (1572-1649)	1572	1649	   4
-Ignatius	-approximately 110.	Ignatius,  (1556-1556)	1556	NA	   4
+Ignatius	-approximately 110.	Ignatius,  (110-1556)	1556	NA	   4
 Blayney, Allan	1610-	Blayney, Allan (1610-NA)	1610	NA	   4
 Roderick, Richard	1647 or 1648-1730.	Roderick, Richard (1647-1730)	1647	1730	   4
 Brooke, Humphrey	1617-1693.	Brooke, Humphrey (1617-1693)	1617	1693	   4
@@ -9644,7 +9644,7 @@ Smallwood, Allan	1608-1686.	Smallwood, Allan (1608-1686)	1608	1686	   4
 Fenwicke, John	1593?-approximately 1670.	Fenwicke, John (1593-1670)	1593	1670	   4
 Stuckley, Lewis	1621 or 1622-1687.	Stuckley, Lewis (1621-1687)	1621	1687	   4
 Colvill, William	-1675.	Colvill, William (NA-1675)	NA	1675	   4
-Caradoc	-1147?.	Caradoc,  (1147-NA)	1147	NA	   4
+Caradoc	-1147?.	Caradoc,  (1147-1147)	1147	NA	   4
 Smith, John	1630-1679.	Smith, John (1630-1679)	1630	1679	   4
 Eutychius	877-940.	Eutychius,  (877-940)	877	940	   4
 Fabricius Hildanus, Wilhelm	1560-1634.	Fabricius Hildanus, Wilhelm (1560-1634)	1560	1634	   4
@@ -11443,7 +11443,7 @@ Tooker, William	1558?-1621.	Tooker, William (1558-1621)	1558	1621	   3
 Hastings, Francis	-1610.	Hastings, Francis (NA-1610)	NA	1610	   3
 Heywood, John	1497?-1580?	Heywood, John (1497-1580)	1497	1580	   3
 Stradling, John	1563-1637.	Stradling, John (1563-1637)	1563	1637	   3
-Solinus, C. Julius	active 3rd century?.	Solinus, C Julius	NA	NA	   3
+Solinus, C. Julius	active 3rd century?.	Solinus, C Julius (3-3)	NA	NA	   3
 Carter, Bezaleel	-1629.	Carter, Bezaleel (NA-1629)	NA	1629	   3
 Estienne, Robert	1503?-1559.	Estienne, Robert (1503-1559)	1503	1559	   3
 R. S	active 1613.	R,  (1613-NA)	1613	NA	   3
@@ -11848,7 +11848,7 @@ Collins, William	active 17th century.	Collins, William (1721-NA)	1721	NA	   3
 Brewer, Anthony	active 1630-1655.	Brewer, Anthony (1630-1655)	1630	1655	   3
 Young, Thomas	1587-1655.	Young, Thomas (1587-1655)	1587	1655	   3
 Struys, Jan Janszoon	-1694.	Struys, Jan Janszoon (NA-1694)	NA	1694	   3
-Maximus	active 2nd century.	Maximus, 	NA	NA	   3
+Maximus	active 2nd century.	Maximus,  (2-2)	NA	NA	   3
 Beale, John	1603-1683?.	Beale, John (1603-1683)	1603	1683	   3
 Topham, George	-1694.	Topham, George (NA-1694)	NA	1694	   3
 Miles, John	active 1684.	Miles, John (1684-NA)	1684	NA	   3
@@ -12026,7 +12026,7 @@ Bragge, Robert	1627-1704.	Bragge, Robert (1627-1704)	1627	1704	   3
 Montanus, Arnoldus	1625?-1683.	Montanus, Arnoldus (1625-1683)	1625	1683	   3
 Braithwaite, John	active 1660.	Braithwaite, John (1660-1768)	1660	1768	   3
 Alber, Erasmus	approximately 1500-1553.	Alber, Erasmus (1500-1553)	1500	1553	   3
-Buck, George	-1623.	Buck, George (1623-1646)	1623	1646	   3
+Buck, George	-1623.	Buck, George (1623-1623)	1623	NA	   3
 Bryan, Matthew	-1699.	Bryan, Matthew (NA-1699)	NA	1699	   3
 Howard, James	active 1672-1674.	Howard, James (1672-1674)	1672	1674	   3
 Atterbury, Lewis	-1693.	Atterbury, Lewis (1656-1693)	1656	1693	   3
@@ -12328,7 +12328,7 @@ Dalhousie, George Ramsay	-1787.	Dalhousie, George Ramsay (1770-1787)	1770	1787	 
 Nicholson, Edward	approximately 1708.	Nicholson, Edward (1708-NA)	1708	NA	   3
 Luzac, Élie	1723-1796.	Luzac, élie (1723-1796)	1723	1796	   3
 Filson, John	1753?-1788.	Filson, John (1753-1788)	1753	1788	   3
-Llywarch	496?-646?.	Llywarch, 	NA	NA	   3
+Llywarch	496?-646?.	Llywarch,  (496-496)	NA	NA	   3
 Hazard, Joseph	1750 or 1751-	Hazard, Joseph (1750-1751)	1750	1751	   3
 Patch, Thomas	1725-1782.	Patch, Thomas (1725-1782)	1725	1782	   3
 Mackenzie, John	-1778.	Mackenzie, John (NA-1778)	NA	1778	   3
@@ -13565,7 +13565,7 @@ Snelgrave, William	-1763.	Snelgrave, William (NA-1763)	NA	1763	   2
 Denholm, James	1772-1818.	Denholm, James (1772-1818)	1772	1818	   2
 Demetrius	350 B.C.-	Demetrius,  (350-NA)	350	NA	   2
 Dimitrie Cantemir	1673-1723.	Cantemir, Dimitrie (1673-1723)	1673	1723	   2
-Oppian	active 2nd century.	Oppian, 	NA	NA	   2
+Oppian	active 2nd century.	Oppian,  (2-2)	NA	NA	   2
 Parisot, Pierre-Curel	1697-1769.	Parisot, Pierre-curel (1697-1769)	1697	1769	   2
 Hancarville Pierre d'	1719-1805.	D', Hancarville (1719-1805)	1719	1805	   2
 Norford, William	1715-1793.	Norford, William (1715-1793)	1715	1793	   2
@@ -15376,13 +15376,13 @@ Mariottini, Felice	1756-1827.	Mariottini, Felice (1756-1827)	1756	1827	   2
 Leoni, Giacomo	1686-1746.	Leoni, Giacomo (1686-1746)	1686	1746	   2
 Farley, Charles	1771-1859.	Farley, Charles (1771-1859)	1771	1859	   2
 Harbin, Thomas	-1737.	Harbin, Thomas (NA-1737)	NA	1737	   2
-Bealing, Benjamin	-1739.	Bealing, Benjamin (1739-NA)	1739	NA	   2
+Bealing, Benjamin	-1739.	Bealing, Benjamin (1739-1739)	1739	NA	   2
 Loveling, Benjamin	1710 or 1711-	Loveling, Benjamin (1710-1711)	1710	1711	   2
 Mingotti, Regina	1728-1807.	Mingotti, Regina (1728-1807)	1728	1807	   2
 Bignon, Jean Paul	1662-1743.	Bignon, Jean Paul (1662-1743)	1662	1743	   2
 Turton, Thomas	1764-1844.	Turton, Thomas (1764-1844)	1764	1844	   2
 Macro, Thomas	1681 or 1682-1744.	Macro, Thomas (1681-1744)	1681	1744	   2
-Astell, William	-1740.	Astell, William (1740-NA)	1740	NA	   2
+Astell, William	-1740.	Astell, William (1740-1740)	1740	NA	   2
 Knott, John	1753-1818.	Knott, John (1753-1818)	1753	1818	   2
 Wolstenholme, John	approximately 1650-1709.	Wolstenholme, John (1650-1709)	1650	1709	   2
 Berriman, John	1691-1768.	Berriman, John (1691-1768)	1691	1768	   2
@@ -15579,7 +15579,7 @@ Laneham, Robert	active 16th century.	Laneham, Robert	NA	NA	   2
 Greenham, Richard	1535?-1594?	Greenham, Richard (1535-1594)	1535	1594	   2
 Buckmaster, Thomas	active 1566.	Buckmaster, Thomas (1566-NA)	1566	NA	   2
 Baldwin, William	approximately 1518-1563?	Baldwin, William (1518-1563)	1518	1563	   2
-Elderton, William	. 1592?	Elderton, William (1592-NA)	1592	NA	   2
+Elderton, William	. 1592?	Elderton, William (1592-1592)	1592	NA	   2
 Cole, Thomas	-1571.	Cole, Thomas (NA-1571)	NA	1571	   2
 Savage, William	active 1610.	Savage, William (1610-1736)	1610	1736	   2
 Bowne, Peter	1575-1624?.	Bowne, Peter (1575-1624)	1575	1624	   2
@@ -15626,7 +15626,7 @@ Paradin, Claude	16th century.	Paradin, Claude	NA	NA	   2
 Walsingham, Francis	1577-1647.	Walsingham, Francis (1577-1647)	1577	1647	   2
 R. W	active 1591.	R,  (1591-NA)	1591	NA	   2
 Bracton, Henry de	-1268.	Bracton, Henry De (NA-1268)	NA	1268	   2
-Sternhold, Thomas	d. 1549.	Sternhold, Thomas (1549-NA)	1549	NA	   2
+Sternhold, Thomas	d. 1549.	Sternhold, Thomas (1549-1549)	1549	NA	   2
 Alessandro Farnese	1545-1592.	Farnese, Alessandro (1545-1592)	1545	1592	   2
 Valerius, Cornelius	1512-1578.	Valerius, Cornelius (1512-1578)	1512	1578	   2
 Gentil-homme francois	active 1588.	Francois, Gentil-homme (1588-NA)	1588	NA	   2
@@ -15668,7 +15668,7 @@ Robartes, Foulke	1580?-1650.	Robartes, Foulke (1580-1650)	1580	1650	   2
 Buckland, Ralph	1564-1611.	Buckland, Ralph (1564-1611)	1564	1611	   2
 Aytoun, Robert	1570-1638.	Aytoun, Robert (1570-1638)	1570	1638	   2
 Bazan, Álvaro de	1526-1588.	Bazan, Álvaro De (1526-1588)	1526	1588	   2
-Tyndale, William	d. 1536.	Tyndale, William (1536-NA)	1536	NA	   2
+Tyndale, William	d. 1536.	Tyndale, William (1536-1536)	1536	NA	   2
 Gribaldi, Matteo	-1564.	Gribaldi, Matteo (NA-1564)	NA	1564	   2
 Rainolds, William	1544?-1594.	Rainolds, William (1544-1594)	1544	1594	   2
 Anyan, Thomas	1580 or 1581-1632.	Anyan, Thomas (1580-1632)	1580	1632	   2
@@ -15976,7 +15976,7 @@ Barlow, William	-1568.	Barlow, William (1527-1568)	1527	1568	   2
 Chapman, Alexander	1576 or 1577-1629.	Chapman, Alexander (1576-1629)	1576	1629	   2
 Barclay, William	1546 or 1547-1608.	Barclay, William (1546-1608)	1546	1608	   2
 Johnson, Jacob	active 1615.	Johnson, Jacob (1615-1797)	1615	1797	   2
-Jerome	-419 or 420.	Jerome, 	NA	NA	   2
+Jerome	-419 or 420.	Jerome,  (419-420)	NA	NA	   2
 Osiander, Lucas	1571-1638.	Osiander, Lucas (1571-1638)	1571	1638	   2
 A. D. B	active 1619.	A,  (1619-1666)	1619	1666	   2
 Airay, Henry	1560?-1616.	Airay, Henry (1560-1616)	1560	1616	   2
@@ -16128,7 +16128,7 @@ Duncombe, William	active 1683.	Duncombe, William (1683-NA)	1683	NA	   2
 Bythner, Victorinus	1605?-1670?	Bythner, Victorinus (1605-1670)	1605	1670	   2
 Scudder, Henry	-1659?	Scudder, Henry (NA-1659)	NA	1659	   2
 Bonilla, Jean de	active 16th century.	Bonilla, Jean De	NA	NA	   2
-Sixmith, Bryan	-1679.	Sixmith, Bryan (1679-NA)	1679	NA	   2
+Sixmith, Bryan	-1679.	Sixmith, Bryan (1679-1679)	1679	NA	   2
 Miller, William	-1693.	Miller, William (NA-1693)	NA	1693	   2
 True, Patrick	active 1666.	True, Patrick (1666-NA)	1666	NA	   2
 Ockanikon	-1682?	Ockanikon,  (NA-1682)	NA	1682	   2
@@ -16136,7 +16136,7 @@ Turner, John	active 1659.	Turner, John (1659-NA)	1659	NA	   2
 Gething, Richard	1585?-1652?	Gething, Richard (1585-1652)	1585	1652	   2
 Lilly, William	1602-1675.	Lilly, William (1602-1675)	1602	1675	   2
 Leybourn, William	1626-1700?	Leybourn, William (1626-1700)	1626	1700	   2
-Fox, George	d. 1661.	Fox, George (1661-1661)	1661	NA	   2
+Fox, George	d. 1661.	Fox, George (1661-NA)	1661	NA	   2
 Mehmet	1642-1693.	Mehmet,  (1642-1693)	1642	1693	   2
 Holt, Thomas	1570 or 1571-1654.	Holt, Thomas (1570-1654)	1570	1654	   2
 Foley, Thomas	1617-1677.	Foley, Thomas (1617-1677)	1617	1677	   2
@@ -16215,7 +16215,7 @@ Derby, William George Richard Stanley	approximately 1655-1702.	Derby, William Ge
 Wentworth, Henrietta Maria Wentworth	1657?-1686.	Wentworth, Henrietta Maria (1657-1686)	1657	1686	   2
 Alston, Edward	1642 or 1643-1722.	Alston, Edward (1642-1722)	1642	1722	   2
 Swinton, John	-1723.	Swinton, John (NA-1723)	NA	1723	   2
-Martinez, Pierre	d. 1594.	Martinez, Pierre (1594-NA)	1594	NA	   2
+Martinez, Pierre	d. 1594.	Martinez, Pierre (1594-1594)	1594	NA	   2
 Banister, John	1630-1679.	Banister, John (1630-1679)	1630	1679	   2
 Le Boë, Frans de	1614-1672.	Le Boë, Frans De (1614-1672)	1614	1672	   2
 White, Robert	active 1643.	White, Robert (1643-NA)	1643	NA	   2
@@ -16679,7 +16679,7 @@ Abū al-Fidāʾ Ismāʿīl ibn ʿAlī	1273-1331.	ʿalī, Abū (1273-1331)
 Villault, Nicolas	active 17th century.	Villault, Nicolas	NA	NA	   2
 Vesling, Johann	1598-1649.	Vesling, Johann (1598-1649)	1598	1649	   2
 Stripling, Thomas	1652?-1679.	Stripling, Thomas (1652-1679)	1652	1679	   2
-Bayly, Lewis	d. 1631.	Bayly, Lewis (1631-NA)	1631	NA	   2
+Bayly, Lewis	d. 1631.	Bayly, Lewis (1631-1631)	1631	NA	   2
 Rowlandson, Joseph	1631?-1678.	Rowlandson, Joseph (1631-1678)	1631	1678	   2
 Urfé, Honoré d'	1567-1625.	Urfé, Honoré D' (1567-1625)	1567	1625	   2
 Taylor, Thomas	1669 or 1670-1735.	Taylor, Thomas (1669-1735)	1669	1735	   2
@@ -17748,7 +17748,7 @@ Rush, Jacob	1746-1820.	Rush, Jacob (1746-1820)	1746	1820	   2
 Burges, James	1687-1771.	Burges, James (1687-1771)	1687	1771	   2
 Waller, Edmund	approximately 1699-1771.	Waller, Edmund (1699-1771)	1699	1771	   2
 Wilson, James	active 18th century.	Wilson, James	NA	NA	   2
-Ferguson, Robert	active 18th century.	Ferguson, Robert (1714-NA)	1714	NA	   2
+Ferguson, Robert	active 18th century.	Ferguson, Robert (1714-1714)	1714	NA	   2
 Dick, John	active 18th century.	Dick, John (1764-NA)	1764	NA	   2
 Brown, Janet	active 18th century.	Brown, Janet	NA	NA	   2
 Uztáriz, Gerónimo de	1670-1732.	Uztáriz, Gerónimo De (1670-1732)	1670	1732	   2
@@ -17826,7 +17826,7 @@ Harrison, John	active 1784-1792.	Harrison, John (1784-1792)	1784	1792	   2
 Havers, Clopton	-1702.	Havers, Clopton (NA-1702)	NA	1702	   2
 Hough, J	active 1778.	Hough, J (1778-NA)	1778	NA	   2
 Robinson, Samuel	active 18th century.	Robinson, Samuel	NA	NA	   2
-Ames, Richard	active 18th century.	Ames, Richard (1693-NA)	1693	NA	   2
+Ames, Richard	active 18th century.	Ames, Richard (1693-1693)	1693	NA	   2
 Franks, James	1760-1829.	Franks, James (1760-1829)	1760	1829	   2
 Woodman, Philip	-1728.	Woodman, Philip (NA-1728)	NA	1728	   2
 Charles, Richard	1755-	Charles, Richard (1755-NA)	1755	NA	   2
@@ -18086,7 +18086,7 @@ Hauthorndean	active 17th century]	Hauthorndean, 	NA	NA	   1
 Scott, William	-1707.	Scott, William (NA-1707)	NA	1707	   1
 Smith, David	active 17th century]	Smith, David (1738-1792)	1738	1792	   1
 Lawrie, Robert	-1698.	Lawrie, Robert (NA-1698)	NA	1698	   1
-Scots-Tarbat	active 17th century]	Scots tarbat, 	NA	NA	   1
+Scots-Tarbat	active 17th century]	Scots tarbat	NA	NA	   1
 Adamtoun	active 17th century]	Adamtoun, 	NA	NA	   1
 Dickson, George	active 17th century.	Dickson, George (1690-NA)	1690	NA	   1
 Carre, John	of Cavers.	Carre, John (1682-1746)	1682	1746	   1
@@ -18179,7 +18179,7 @@ Robertson, Duncan	active 1695.	Robertson, Duncan (1695-NA)	1695	NA	   1
 Stair, John Dalrymple	1648-1707.	Stair, John Dalrymple (1648-1707)	1648	1707	   1
 Boswell, Alexander	1775-1822.	Boswell, Alexander (1775-1822)	1775	1822	   1
 Robertson, James	active 1800]	Robertson, James (1800-NA)	1800	NA	   1
-Hierocles	fl. 430.	Hierocles, 	NA	NA	   1
+Hierocles	fl. 430.	Hierocles,  (430-430)	NA	NA	   1
 Watson, Adam	writer in Dunse.	Watson, Adam	NA	NA	   1
 Browne, John	fl 1777-1798.	Browne, John (1777-1798)	1777	1798	   1
 Tang, Abraham ben Naphtali	-1792]	Tang, Abraham Ben Naphtali (NA-1792)	NA	1792	   1
@@ -18490,7 +18490,7 @@ Bruce, William	1630-1710	Bruce, William (1630-1710)	1630	1710	   1
 Rathbone, William	1757-1809.	Rathbone, William (1757-1809)	1757	1809	   1
 Clark, Samuel	-1769.	Clark, Samuel (NA-1769)	NA	1769	   1
 Bayly, William	1737-1810.	Bayly, William (1737-1810)	1737	1810	   1
-Bealing, Benjamin	d. 1739	Bealing, Benjamin (1739-NA)	1739	NA	   1
+Bealing, Benjamin	d. 1739	Bealing, Benjamin (1739-1739)	1739	NA	   1
 Rous, John	d. 1695.	Rous, John (1695-NA)	1695	NA	   1
 Maw, Mary	1733-1787]	Maw, Mary (1733-1787)	1733	1787	   1
 Goldsmith, Oliver	1730?-1774	Goldsmith, Oliver (1730-1774)	1730	1774	   1
@@ -21212,7 +21212,7 @@ Saunders, George	1762-1839.	Saunders, George (1762-1839)	1762	1839	   1
 Papacino d'Antoni, Alessandro Vittorio	1714-1786.	Papacino D'antoni, Alessandro Vittorio (1714-1786)	1714	1786	   1
 Grandval, Nicolas Ragot de	1676-1753.	Grandval, Nicolas Ragot De (1676-1753)	1676	1753	   1
 Robertson, J	1714-1795	Robertson, J (1714-1795)	1714	1795	   1
-Stobo, Robert	1727-1727?.	Stobo, Robert (1727-NA)	1727	NA	   1
+Stobo, Robert	1727-1727?.	Stobo, Robert (1727-1727)	1727	NA	   1
 Petit, Jean-Louis	1674-1750.	Petit, Jean-louis (1674-1750)	1674	1750	   1
 Merveilleux, David-François de	-1748.	Merveilleux, David-françois De (NA-1748)	NA	1748	   1
 Hoin, Jean Jacques Louis	1722-1772.	Hoin, Jean Jacques Louis (1722-1772)	1722	1772	   1
@@ -21835,7 +21835,7 @@ Roget, Peter Mark	1779-1869.	Roget, Peter Mark (1779-1869)	1779	1869	   1
 Fermor, William	1737-1806.	Fermor, William (1737-1806)	1737	1806	   1
 Rouppe, Louis	1728-	Rouppe, Louis (1728-NA)	1728	NA	   1
 Savery, Tho	1650?-1715.	Savery, Tho (1650-1715)	1650	1715	   1
-Theodosius	active 1st century B.C.	Theodosius, 	NA	NA	   1
+Theodosius	active 1st century B.C.	Theodosius,  (1-1)	NA	NA	   1
 Alexander, John	1736-1765.	Alexander, John (1736-1765)	1736	1765	   1
 Jones, Robert	active 1792.	Jones, Robert (1792-NA)	1792	NA	   1
 Weller, John	-1772.	Weller, John (NA-1772)	NA	1772	   1
@@ -22100,7 +22100,7 @@ Walker, William	active 1698-1704.	Walker, William (1698-1704)	1698	1704	   1
 Williamson, John	-1767.	Williamson, John (NA-1767)	NA	1767	   1
 Marsay, Charles Hector de Saint George	1688-1753.	Marsay, Charles Hector De Saint George (1688-1753)	1688	1753	   1
 Ravaillac, François	1578-1610.	Ravaillac, François (1578-1610)	1578	1610	   1
-Rāzī, Abū Bakr Muḥammad ibn Zakarīyā	865?-925?.	Rāzī, Abū Bakr Muḥammad Ibn Zakarīyā (865-NA)	865	NA	   1
+Rāzī, Abū Bakr Muḥammad ibn Zakarīyā	865?-925?.	Rāzī, Abū Bakr Muḥammad Ibn Zakarīyā (865-865)	865	NA	   1
 Muhammad Ali Khan, Umdat al-Muk Anwar al-Din	1717 or 1718-1795.	Muhammad Ali Khan, Umdat Al-muk Anwar Al-din (1717-1795)	1717	1795	   1
 Baker, William	1742-1785.	Baker, William (1742-1785)	1742	1785	   1
 Mustaʿidd Khān, Muḥammad Sāqī	-1724.	Mustaʿidd Khān, Muḥammad Sāqī (NA-1724)	NA	1724	   1
@@ -23321,7 +23321,7 @@ Stewart, John	-1794.	Stewart, John (NA-1794)	NA	1794	   1
 Power, David	1682 or 1683-	Power, David (1682-1683)	1682	1683	   1
 Russell, John	-1804.	Russell, John (NA-1804)	NA	1804	   1
 Eamer, John	1748 or 1749-1823.	Eamer, John (1748-1823)	1748	1823	   1
-Astell, William	d. 1740.	Astell, William (1740-NA)	1740	NA	   1
+Astell, William	d. 1740.	Astell, William (1740-1740)	1740	NA	   1
 Byrne, Mary	1770 or 1771-	Byrne, Mary (1770-1771)	1770	1771	   1
 Chadwick, John	active 1794.	Chadwick, John (1794-NA)	1794	NA	   1
 Hill, Peter	active 1788-1800.	Hill, Peter (1788-1800)	1788	1800	   1
@@ -25372,7 +25372,7 @@ Cokburne, George	1729-1799.	Cokburne, George (1729-1799)	1729	1799	   1
 Dick, Robert	-1796.	Dick, Robert (1722-1796)	1722	1796	   1
 Innes, John	active 17-18th century.	Innes, John	NA	NA	   1
 Scot, David	active 17th century-18th century.	Scot, David	NA	NA	   1
-Ramsay, Alexander	-1754.	Ramsay, Alexander (1754-1824)	1754	1824	   1
+Ramsay, Alexander	-1754.	Ramsay, Alexander (1754-1754)	1754	NA	   1
 Kennedy, David	-1754.	Kennedy, David (NA-1754)	NA	1754	   1
 Smollet, James	1683-1714.	Smollet, James (1683-1714)	1683	1714	   1
 Lundin, David	active 1707-1728.	Lundin, David (1707-1728)	1707	1728	   1
@@ -25492,7 +25492,7 @@ Sestini, Domenico	1750-1832.	Sestini, Domenico (1750-1832)	1750	1832	   1
 Bingham, George	1715-1800.	Bingham, George (1715-1800)	1715	1800	   1
 White, John	1716 or 1717-	White, John (1716-1717)	1716	1717	   1
 Keysall, John	1760 or 1761-1836.	Keysall, John (1760-1836)	1760	1836	   1
-Iscariot, Judas	active 18th century.	Iscariot Judas, 	NA	NA	   1
+Iscariot, Judas	active 18th century.	Iscariot Judas	NA	NA	   1
 Denham, Thomas	active 1780.	Denham, Thomas (1780-NA)	1780	NA	   1
 Harris, Henry	active 18th century.	Harris, Henry	NA	NA	   1
 Rothe, Gottfried	1679-1710.	Rothe, Gottfried (1679-1710)	1679	1710	   1
@@ -25895,7 +25895,7 @@ Cook, Thomas	approximately 1744-1818.	Cook, Thomas (1744-1818)	1744	1818	   1
 Sidney, Philip	1544-1586.	Sidney, Philip (1544-1586)	1544	1586	   1
 Fordyce, John	1716-1760.	Fordyce, John (1716-1760)	1716	1760	   1
 Plumptre, Robert	1723-1788.	Plumptre, Robert (1723-1788)	1723	1788	   1
-Philips, William	d. 1734.	Philips, William (1734-NA)	1734	NA	   1
+Philips, William	d. 1734.	Philips, William (1734-1734)	1734	NA	   1
 Burke, Thomas	approximately 1710-1776.	Burke, Thomas (1710-1776)	1710	1776	   1
 Hart, Samuel	1720-1783.	Hart, Samuel (1720-1783)	1720	1783	   1
 Steuart, William	-1736.	Steuart, William (NA-1736)	NA	1736	   1
@@ -26739,7 +26739,7 @@ Cockburne, James	active 1605.	Cockburne, James (1605-NA)	1605	NA	   1
 Cotta, John	1575?-1650?	Cotta, John (1575-1650)	1575	1650	   1
 Davidson, John	1549?-1603.	Davidson, John (1549-1603)	1549	1603	   1
 Hollyband, Claudius	16th cent.	Hollyband, Claudius	NA	NA	   1
-Digges, Leonard	d. ca. 1559.	Digges, Leonard (1559-1571)	1559	1571	   1
+Digges, Leonard	d. ca. 1559.	Digges, Leonard (1559-NA)	1559	NA	   1
 Dorman, Thomas	-1577?	Dorman, Thomas (NA-1577)	NA	1577	   1
 Downe, John	1570?-1631	Downe, John (1570-1631)	1570	1631	   1
 Leicester, Robert Dudley	1532?-1588	Leicester, Robert Dudley (1532-1588)	1532	1588	   1
@@ -26864,7 +26864,7 @@ Chamberlain, Bartholomew	1545 or 1546-1621.	Chamberlain, Bartholomew (1545-1621)
 Covell, William	-1614?	Covell, William (NA-1614)	NA	1614	   1
 Selden, John	1586-1654.	Selden, John (1586-1654)	1586	1654	   1
 Holinshead, Raphael	-1580?	Holinshead, Raphael (NA-1580)	NA	1580	   1
-Corderoy, Jeremy	b. 1562 or 3.	Corderoy, Jeremy (1562-1563)	1562	1563	   1
+Corderoy, Jeremy	b. 1562 or 3.	Corderoy, Jeremy (3-1562)	1562	NA	   1
 Teixera, José	1543-1620.	Teixera, José (1543-1620)	1543	1620	   1
 Stafford, Thomas	active 1633.	Stafford, Thomas (1633-NA)	1633	NA	   1
 Bernard Silvestris	active 1136.	Silvestris, Bernard (1136-NA)	1136	NA	   1
@@ -26879,7 +26879,7 @@ Rowley, William	1585?-1642?	Rowley, William (1585-1642)	1585	1642	   1
 Turberville, George	1540?-1610?	Turberville, George (1540-1610)	1540	1610	   1
 R. V	-1615?	R,  (NA-1615)	NA	1615	   1
 Barker, Christopher	1529-1599.	Barker, Christopher (1529-1599)	1529	1599	   1
-Elderton, WIlliam	. 1592?	Elderton, William (1592-NA)	1592	NA	   1
+Elderton, WIlliam	. 1592?	Elderton, William (1592-1592)	1592	NA	   1
 Thorne, Henry	active 1567-1584.	Thorne, Henry (1567-1584)	1567	1584	   1
 Pegas, Meletios	1550?-1601?	Pegas, Meletios (1550-1601)	1550	1601	   1
 Maxwell, James	1581-1640?	Maxwell, James (1581-1640)	1581	1640	   1
@@ -27266,7 +27266,7 @@ Croke, Charles	1590 or 1591-1657.	Croke, Charles (1590-1657)	1590	1657	   1
 Coxe, Richard	-1596.	Coxe, Richard (NA-1596)	NA	1596	   1
 Comyns, John	1587 or 1588-	Comyns, John (1587-1588)	1587	1588	   1
 Mayerne, Louis Turquet de	-1618.	Mayerne, Louis Turquet De (NA-1618)	NA	1618	   1
-Athenagoras	2nd century.	Athenagoras, 	NA	NA	   1
+Athenagoras	2nd century.	Athenagoras,  (2-2)	NA	NA	   1
 Jones, Anthony	active 1622.	Jones, Anthony (1622-NA)	1622	NA	   1
 Capilla, Andrés	-1610.	Capilla, Andrés (NA-1610)	NA	1610	   1
 E. C	active 1626.	E,  (1626-NA)	1626	NA	   1
@@ -27347,7 +27347,7 @@ Carr, Nicholas	1524-1568.	Carr, Nicholas (1524-1568)	1524	1568	   1
 Capilupi, Lelio	1497?-1560?.	Capilupi, Lelio (1497-1560)	1497	1560	   1
 Mehmed	1432-1481.	Mehmed,  (1432-1481)	1432	1481	   1
 Morton, David	active 1663.	Morton, David (1663-NA)	1663	NA	   1
-Caradoc	dd. 1147?.	Caradoc,  (1147-NA)	1147	NA	   1
+Caradoc	dd. 1147?.	Caradoc,  (1147-1147)	1147	NA	   1
 Nicholas, Thomas	approximately 1532-	Nicholas, Thomas (1532-NA)	1532	NA	   1
 Buckley, William	1518 or 1519-approximately 1570.	Buckley, William (1518-1570)	1518	1570	   1
 Middleton, William	-1613.	Middleton, William (1738-1613)	1738	1613	   1
@@ -27933,7 +27933,7 @@ Waring, Richard	active 1691.	Waring, Richard (1691-NA)	1691	NA	   1
 Dudley, Edward Ward	1683-1704.	Dudley, Edward Ward (1683-1704)	1683	1704	   1
 Wiseman, Anne	active 1690.	Wiseman, Anne (1690-NA)	1690	NA	   1
 Parker, Martha	active 1690.	Parker, Martha (1690-NA)	1690	NA	   1
-Vincent, Vincent	active 1690.	Vincent,  (1690-NA)	1690	NA	   1
+Vincent, Vincent	active 1690.	Vincent,  (1690-450)	1690	NA	   1
 Gee, Francis	-1751.	Gee, Francis (NA-1751)	NA	1751	   1
 Took, Thomas	active 1692.	Took, Thomas (1692-NA)	1692	NA	   1
 Smith, Thomas	active 1689.	Smith, Thomas (1689-NA)	1689	NA	   1
@@ -27990,7 +27990,7 @@ Jones, Giles	active 1664.	Jones, Giles (1664-NA)	1664	NA	   1
 Southwell, Robert	1635-1702.	Southwell, Robert (1635-1702)	1635	1702	   1
 Pelling, Thomas	1598-	Pelling, Thomas (1598-NA)	1598	NA	   1
 Deane, Richard	1610-1653.	Deane, Richard (1610-1653)	1610	1653	   1
-Smythies, William	d. 1715.	Smythies, William (1715-NA)	1715	NA	   1
+Smythies, William	d. 1715.	Smythies, William (1715-1715)	1715	NA	   1
 D. R	-1714]	D,  (NA-1714)	NA	1714	   1
 Mocket, Thomas	1602-1670?	Mocket, Thomas (1602-1670)	1602	1670	   1
 Mocket, Thomas	1602-1670.	Mocket, Thomas (1602-1670)	1602	1670	   1
@@ -28138,7 +28138,7 @@ Hyde, Robert	active 1686.	Hyde, Robert (1686-NA)	1686	NA	   1
 Elson, Mary	1623 or 1624-1707.	Elson, Mary (1623-1707)	1623	1707	   1
 Emerton, John	1659-	Emerton, John (1659-NA)	1659	NA	   1
 Ailesbury, Robert Bruce	-1685.	Ailesbury, Robert Bruce (NA-1685)	NA	1685	   1
-Goldsmith, John	-1656.	Goldsmith, John (1656-NA)	1656	NA	   1
+Goldsmith, John	-1656.	Goldsmith, John (1656-1656)	1656	NA	   1
 Horton, George	active 1647-1660.	Horton, George (1647-1660)	1647	1660	   1
 Anderson, Thomas	active 1696.	Anderson, Thomas (1696-NA)	1696	NA	   1
 Borlase, Edmund	-1682?	Borlase, Edmund (NA-1682)	NA	1682	   1
@@ -28284,7 +28284,7 @@ Marston, John	1575?-1634	Marston, John (1575-1634)	1575	1634	   1
 Martine, William	active 1695.	Martine, William (1695-NA)	1695	NA	   1
 Maxwell, Robert	-1672.	Maxwell, Robert (NA-1672)	NA	1672	   1
 Menzies, Alexander	-1736]	Menzies, Alexander (NA-1736)	NA	1736	   1
-Mervyn, Audley	d. 1675.	Mervyn, Audley (1675-NA)	1675	NA	   1
+Mervyn, Audley	d. 1675.	Mervyn, Audley (1675-1675)	1675	NA	   1
 Middleton, Charles Middleton	approximately 1650-1719.	Middleton, Charles (1650-1719)	1650	1719	   1
 Milward, William	active 1661]	Milward, William (1661-NA)	1661	NA	   1
 Lee	active 1695.	Lee,  (1695-NA)	1695	NA	   1
@@ -28375,7 +28375,7 @@ Skinner, John	active 1681.	Skinner, John (1681-NA)	1681	NA	   1
 Smith, Frances	active 1677]	Smith, Frances (1677-NA)	1677	NA	   1
 Smith, Francis	active 1698.	Smith, Francis (1698-NA)	1698	NA	   1
 Smith, James	1645-1731]	Smith, James (1645-1731)	1645	1731	   1
-Walford, Benjamin	d. ca. 1710.	Walford, Benjamin (1710-NA)	1710	NA	   1
+Walford, Benjamin	d. ca. 1710.	Walford, Benjamin (1710-1710)	1710	NA	   1
 Smith, John	1647 or 1648-1727?.	Smith, John (1647-1727)	1647	1727	   1
 Smith, Samuel	1584?-1662?]	Smith, Samuel (1584-1662)	1584	1662	   1
 Stearne, John	1624-1669	Stearne, John (1624-1669)	1624	1669	   1
@@ -28582,7 +28582,7 @@ Limerick, Thomas Dungan	1634-1715.	Limerick, Thomas Dungan (1634-1715)	1634	1715
 Gormanston, Anthony Preston	-1716.	Gormanston, Anthony Preston (NA-1716)	NA	1716	   1
 Newcomb, Thomas	-1691.	Newcomb, Thomas (1682-1691)	1682	1691	   1
 Reynolds, Robert	approximately 1601-1661?	Reynolds, Robert (1601-1661)	1601	1661	   1
-Ames, Richard	d. 1693.	Ames, Richard (1693-NA)	1693	NA	   1
+Ames, Richard	d. 1693.	Ames, Richard (1693-1693)	1693	NA	   1
 Alemán, Mateo	1547-1614?	Alemán, Mateo (1547-1614)	1547	1614	   1
 Arch, Susannah	active 1690-1694.	Arch, Susannah (1690-1694)	1690	1694	   1
 Harlay de Champvallon, François de	1625-1695.	Harlay De Champvallon, François De (1625-1695)	1625	1695	   1
@@ -28611,7 +28611,7 @@ North, William	active 1695.	North, William (1695-NA)	1695	NA	   1
 Hill, William	active 1662.	Hill, William (1662-1667)	1662	1667	   1
 Manby. Peter	-1697.	Peter, Manby (NA-1697)	NA	1697	   1
 Elys, Edmund	ca. 1634-ca. 1707.	Elys, Edmund (1634-1707)	1634	1707	   1
-Atwood, William	d. 1705?	Atwood, William (1705-1824)	1705	1824	   1
+Atwood, William	d. 1705?	Atwood, William (1705-NA)	1705	NA	   1
 Allen, Hannah	active 1683.	Allen, Hannah (1683-NA)	1683	NA	   1
 Williams, P	active 1686.	Williams, P (1686-NA)	1686	NA	   1
 Cromwell, John	1632 or 1633-1685.	Cromwell, John (1632-1685)	1632	1685	   1
@@ -28644,7 +28644,7 @@ Bonet, Théophile	1620-1689.	Bonet, Théophile (1620-1689)	1620	1689	   1
 Leach, Simon	-1708.	Leach, Simon (NA-1708)	NA	1708	   1
 Martin, Thomas	active 1696.	Martin, Thomas (1696-NA)	1696	NA	   1
 Magnen, Jean Chrysostôme	active 17th century.	Magnen, Jean Chrysostôme	NA	NA	   1
-Collins, Hercules	d. 1702.	Collins, Hercules (1702-NA)	1702	NA	   1
+Collins, Hercules	d. 1702.	Collins, Hercules (1702-1702)	1702	NA	   1
 Urfé, Honoré d'	1567-1625.	Urfé, Honoré D' (1567-1625)	1567	1625	   1
 Butter, Nathaniel	-1664.	Butter, Nathaniel (NA-1664)	NA	1664	   1
 Conti, Louise-Marguerite de Lorraine	1574-1631.	Conti, Louise-marguerite De Lorraine (1574-1631)	1574	1631	   1
@@ -28663,7 +28663,7 @@ Blackwell, John	active 1665.	Blackwell, John (1665-1739)	1665	1739	   1
 Ray, John	1627-1705	Ray, John (1627-1705)	1627	1705	   1
 Winter, Samuel	1603-1666.	Winter, Samuel (1603-1666)	1603	1666	   1
 Śmiglecki, Marcin	1564-1618.	Śmiglecki, Marcin (1564-1618)	1564	1618	   1
-Sixmith, Bryan	d. 1679.	Sixmith, Bryan (1679-NA)	1679	NA	   1
+Sixmith, Bryan	d. 1679.	Sixmith, Bryan (1679-1679)	1679	NA	   1
 Shaftesbury, Anthony Ashly Cooper	1621-1683.	Shaftesbury, Anthony Ashly Cooper (1621-1683)	1621	1683	   1
 Prideaux, Mathias	1622-1646?	Prideaux, Mathias (1622-1646)	1622	1646	   1
 Luxembourg, François-Henri de Montmorency	1628-1695.	Luxembourg, François-henri De Montmorency (1628-1695)	1628	1695	   1
@@ -28705,9 +28705,9 @@ Latch, John	1588 or 1589-1655.	Latch, John (1588-1655)	1588	1655	   1
 White, Thomas	-1682]	White, Thomas (NA-1682)	NA	1682	   1
 Bussieres, Jean de	1607-1678.	Bussieres, Jean De (1607-1678)	1607	1678	   1
 Froger, François	1676-	Froger, François (1676-NA)	1676	NA	   1
-Foster, Samuel	d. 1652.	Foster, Samuel (1652-NA)	1652	NA	   1
+Foster, Samuel	d. 1652.	Foster, Samuel (1652-1652)	1652	NA	   1
 Zacharie	1596-1661.	Zacharie,  (1596-1661)	1596	1661	   1
-Ferguson, Robert	d. 1714.	Ferguson, Robert (1714-NA)	1714	NA	   1
+Ferguson, Robert	d. 1714.	Ferguson, Robert (1714-1714)	1714	NA	   1
 Dalison, William	-1559.	Dalison, William (NA-1559)	NA	1559	   1
 Blair, Hew	approximately 1602-1663.	Blair, Hew (1602-1663)	1602	1663	   1
 Würtz, Felix	1517-1575?	Würtz, Felix (1517-1575)	1517	1575	   1
@@ -28883,7 +28883,7 @@ Sevill, William	1667 or 1668-	Sevill, William (1667-1668)	1667	1668	   1
 Wynn, Henry	-1709.	Wynn, Henry (NA-1709)	NA	1709	   1
 I. L	active 17th century.	I, 	NA	NA	   1
 Wentworth, William	active 1685.	Wentworth, William (1685-NA)	1685	NA	   1
-Slater, Samuel	d. 1704.	Slater, Samuel (1704-NA)	1704	NA	   1
+Slater, Samuel	d. 1704.	Slater, Samuel (1704-1704)	1704	NA	   1
 Traherne, Philip	-approximately 1725.	Traherne, Philip (NA-1725)	NA	1725	   1
 Jenney, John	-1697.	Jenney, John (NA-1697)	NA	1697	   1
 Reid, Robert	active 1689.	Reid, Robert (1689-NA)	1689	NA	   1
@@ -28995,7 +28995,7 @@ Ramsay, Thomas	approximately 1631-	Ramsay, Thomas (1631-NA)	1631	NA	   1
 Hodge, John	active 1661.	Hodge, John (1661-1767)	1661	1767	   1
 Peake, Humphrey	-1645.	Peake, Humphrey (NA-1645)	NA	1645	   1
 Hill, Oliver	active 1698.	Hill, Oliver (1698-NA)	1698	NA	   1
-Hermas	active 2nd century.	Hermas, 	NA	NA	   1
+Hermas	active 2nd century.	Hermas,  (2-2)	NA	NA	   1
 Morton, Charles	1659 or 1660-1731.	Morton, Charles (1659-1731)	1659	1731	   1
 Heblethwaite, Robert	-1648.	Heblethwaite, Robert (NA-1648)	NA	1648	   1
 Heath, Henry	1599-1643.	Heath, Henry (1599-1643)	1599	1643	   1
@@ -29234,7 +29234,7 @@ Pooly, Christopher	1575 or 1576-1653.	Pooly, Christopher (1575-1653)	1575	1653	 
 Hammond, Charles	17th century.	Hammond, Charles	NA	NA	   1
 Addamson, William	17th century.	Addamson, William	NA	NA	   1
 Ball, Thomas	1589 or 1590-1659.	Ball, Thomas (1589-1659)	1589	1659	   1
-Killam, Margaret	-1672.	Killam, Margaret (1672-NA)	1672	NA	   1
+Killam, Margaret	-1672.	Killam, Margaret (1672-1672)	1672	NA	   1
 Gayton, Edmund	1606-1666.	Gayton, Edmund (1606-1666)	1606	1666	   1
 Jones, William	active 1655.	Jones, William (1655-NA)	1655	NA	   1
 Chambers, Peter	active 1652.	Chambers, Peter (1652-NA)	1652	NA	   1
@@ -29404,7 +29404,7 @@ Hutton, Charles	1652 or 1653-	Hutton, Charles (1652-1653)	1652	1653	   1
 Anthony, Charles	1600-1685.	Anthony, Charles (1600-1685)	1600	1685	   1
 Conway, Anne	1631-1679.	Conway, Anne (1631-1679)	1631	1679	   1
 Saumières, Jacques de Langlade	approximately 1620-1680.	Saumières, Jacques De Langlade (1620-1680)	1620	1680	   1
-Killam, Margaret	d. 1672.	Killam, Margaret (1672-NA)	1672	NA	   1
+Killam, Margaret	d. 1672.	Killam, Margaret (1672-1672)	1672	NA	   1
 Hus, Jan	1369?-1415.	Hus, Jan (1369-1415)	1369	1415	   1
 Goodall, Charles	1671-1689.	Goodall, Charles (1671-1689)	1671	1689	   1
 Wynell, Thomas	1599 or 1600-	Wynell, Thomas (1599-1600)	1599	1600	   1
@@ -29673,7 +29673,7 @@ Byam, William	1623-1670.	Byam, William (1623-1670)	1623	1670	   1
 Burrows, Ishmael	1657 or 1658-1734.	Burrows, Ishmael (1657-1734)	1657	1734	   1
 T. B	active 1676.	T,  (1676-NA)	1676	NA	   1
 Brand, Adam	-1713.	Brand, Adam (NA-1713)	NA	1713	   1
-Lord, John	active 17th century.	Lord John, 	NA	NA	   1
+Lord, John	active 17th century.	Lord John	NA	NA	   1
 Kingsnorth, Richard	-1677.	Kingsnorth, Richard (NA-1677)	NA	1677	   1
 Barton, Nathaniel	1616-	Barton, Nathaniel (1616-NA)	1616	NA	   1
 Scultetus, Johannes	1595-1645.	Scultetus, Johannes (1595-1645)	1595	1645	   1
@@ -29702,7 +29702,7 @@ Waterman, Hugh	1664?-1746.	Waterman, Hugh (1664-1746)	1664	1746	   1
 Barret, Joseph	1665-1699.	Barret, Joseph (1665-1699)	1665	1699	   1
 Barnardiston, G	-1680.	Barnardiston, G (NA-1680)	NA	1680	   1
 Ball, Thomas	1669 or 1670-1723.	Ball, Thomas (1669-1723)	1669	1723	   1
-Atwood, William	-1705?	Atwood, William (1705-1824)	1705	1824	   1
+Atwood, William	-1705?	Atwood, William (1705-1705)	1705	NA	   1
 Hieron, John	1608?-1681.	Hieron, John (1608-1681)	1608	1681	   1
 Hill, Henry	active 17th century.	Hill, Henry (1643-NA)	1643	NA	   1
 Bentley, Thomas	active 1687-1695.	Bentley, Thomas (1687-1695)	1687	1695	   1
@@ -30062,7 +30062,7 @@ Yonge, William	-1663.	Yonge, William (NA-1663)	NA	1663	   1
 Griffin, William	active 17th century.	Griffin, William	NA	NA	   1
 Chalfont, R. (Richard)	1607 or 1608-1648.	Chalfont, R Richard (1607-1648)	1607	1648	   1
 Boden, Joseph	1605 or 1606-	Boden, Joseph (1605-1606)	1605	1606	   1
-Patrick	373?-463?.	Patrick, 	NA	NA	   1
+Patrick	373?-463?.	Patrick,  (373-373)	NA	NA	   1
 Reyner, Samuel	1622 or 1623-	Reyner, Samuel (1622-1623)	1622	1623	   1
 Meldrum, John	-1645.	Meldrum, John (NA-1645)	NA	1645	   1
 Fulwar, Thomas	1593-1667.	Fulwar, Thomas (1593-1667)	1593	1667	   1
@@ -30159,7 +30159,7 @@ Magalhães, Gabriel de	1609-1677.	Magalhães, Gabriel De (1609-1677)	1609	1677
 Grice, Thomas	1655 or 1656-	Grice, Thomas (1655-1656)	1655	1656	   1
 Le Gendre, Louis	1655-1733.	Le Gendre, Louis (1655-1733)	1655	1733	   1
 Bryan, Robert	active 17th century.	Bryan, Robert	NA	NA	   1
-Mall, Thomas	b. 1629 or 30.	Mall, Thomas (1629-1630)	1629	1630	   1
+Mall, Thomas	b. 1629 or 30.	Mall, Thomas (30-1629)	1629	NA	   1
 Brooke, John	1633 or 1634-1716?.	Brooke, John (1633-1716)	1633	1716	   1
 Harrison, Richard	active 17th century.	Harrison, Richard	NA	NA	   1
 Price, Elizabeth	active 17th century.	Price, Elizabeth	NA	NA	   1
@@ -30862,7 +30862,7 @@ Matthews, John	-1711.	Matthews, John (NA-1711)	NA	1711	   1
 Parkin, Miles	1749 or 1750-	Parkin, Miles (1749-1750)	1749	1750	   1
 Trapp, Joseph	1769-1747.	Trapp, Joseph	NA	NA	   1
 Glas, George	1725-1765.	Glas, George (1725-1765)	1725	1765	   1
-Falkner, William	d. 1682.	Falkner, William (1682-NA)	1682	NA	   1
+Falkner, William	d. 1682.	Falkner, William (1682-1682)	1682	NA	   1
 Haskett, Elias	1670-1739.	Haskett, Elias (1670-1739)	1670	1739	   1
 Steven, John	active 1761.	Steven, John (1761-NA)	1761	NA	   1
 Christie, John	active 1797.	Christie, John (1797-1762)	1797	1762	   1
@@ -30969,7 +30969,7 @@ Ramshaw, George	-1776.	Ramshaw, George (NA-1776)	NA	1776	   1
 Courtney, John	1769-1845.	Courtney, John (1769-1845)	1769	1845	   1
 Tippet, Edward	1769-1840.	Tippet, Edward (1769-1840)	1769	1840	   1
 Dupré, Michael	1766 or 1767-1818.	Dupré, Michael (1766-1818)	1766	1818	   1
-Story, George Warter	d. 1721.	Story, George Warter (1721-NA)	1721	NA	   1
+Story, George Warter	d. 1721.	Story, George Warter (1721-1721)	1721	NA	   1
 Hook, James	1772?-1828.	Hook, James (1772-1828)	1772	1828	   1
 Mace, Daniel	-1753.	Mace, Daniel (NA-1753)	NA	1753	   1
 Gronovius, Joannes Fredericus	1611-1671.	Gronovius, Joannes Fredericus (1611-1671)	1611	1671	   1

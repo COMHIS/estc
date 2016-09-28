@@ -1,13 +1,13 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2016-09-21"
+date: "2016-09-28"
 output: markdown_document
 ---
 
 ## Language
 
- * 47 [unique languages](output.tables/language_accepted.csv)
+ * 57 [unique languages](output.tables/language_accepted.csv)
  * The languages may come in [combinations](output.tables/language_conversions.csv)
  * 279 multilingual documents (0.06%)  
  * 66 docs (0.01%) with empty or [unrecognized language](output.tables/language_discarded.csv)
@@ -27,7 +27,7 @@ see [accepted languages](output.tables/language_accepted.csv).
 
 |Language      | Documents (n)| Fraction (%)|
 |:-------------|-------------:|------------:|
-|English       |        451789|         93.9|
+|English       |        451789|         93.8|
 |Latin         |         16078|          3.3|
 |French        |          7791|          1.6|
 |German        |          1649|          0.3|
