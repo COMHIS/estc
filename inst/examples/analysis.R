@@ -53,6 +53,9 @@ df <- df.preprocessed <- df.preprocessed.orig
 # Not tested with newer package versions.
 # source("20151023-LIBER.R") 
 
+# Data for Tue
+source("Tue.R")
+
 # -------------------------------------------------
 
 system("git add -f figure/*.png")

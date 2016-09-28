@@ -1,5 +1,7 @@
 ### Technical
 
+  * Clean up Tue.R output for Cicero.
+
   * items / parts poistettiin aiemmin kun oli hankalaa. pitäiskö
     ottaa takaisin (affects items and hence pages estimates)
     print("Estimate number of separate parts in a document") parts,
