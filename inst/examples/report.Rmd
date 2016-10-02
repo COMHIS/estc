@@ -29,10 +29,6 @@ params:
     label: "End year:"
     input: numeric
     value: 1880
-  data: 
-    label: "Input dataset:"
-    value: df.Rds
-    input: file
   id.file: 
     label: "Document ID file:"
     value: estc_id_list.txt
@@ -98,7 +94,7 @@ ntop <- 20
 
 ```{r data, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
 # Read the preprocessed data
-df.preprocessed <- readRDS(params$data)
+df.preprocessed <- readRDS("df.Rds")
 
 # Metadata field for the IDs
 #idfield <- "control_number"
@@ -133,8 +129,6 @@ hitp1 <- 100 * hitn1/length(ids)
 
 Entry IDs (n=`r length(ids)`) are read from the file:  `r params$id.file`
 
-Preprocessed data is from the file: `r params$data`
-
 Custom identifiers found from complete ESTC: n=`r hitn0` (`r round(hitp0, 2)` %)
 
 Custom identifiers found after subsetting: n=`r hitn1` (`r round(hitp1, 2)` %) 
@@ -144,9 +138,13 @@ Custom identifiers found after subsetting: n=`r hitn1` (`r round(hitp1, 2)` %)
 
 ### Histogrammi jossa kaikki teokset
 
-Histogrammi minkä muuttujan suhteen ? Vai tarkoitatko barplottia joka
-näyttää aikajanalla dokumenttien määrän kunakin vuonna /
-vuosikymmenenä?
+
+```{r titlecount, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE, fig.width=9, fig.height=7}
+#source("~/Rpackages/bibliographica/R/titlecount_timeline.R")
+#df <- df0
+#p <- titlecount_timeline(df, nmin = 0, mode = "n") 
+#print(p)
+```
 
 
 ### Paper consumption histogram
