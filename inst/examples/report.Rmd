@@ -1,0 +1,124 @@
+---
+title: "Overview of a list of ESTC entries `r params$min.year`-`r params$max.year`"
+subtitle: "Subtitle here"
+author: "Mikko Tolonen, Leo Lahti et al."
+date: "`r Sys.Date()`"
+fontsize: 13pt
+geometry: margin=1in
+linkcolor: magenta
+urlcolor: blue
+citecolor: black
+institute: "University of Helsinki"
+output: 
+  beamer_presentation:
+    theme: "boxes"
+    colortheme: "orchid"
+    fonttheme: "professionalfonts"
+  pdf_document:
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
+    includes:
+      in_header: header.tex
+params:
+  min.year: 
+    label: "Start year:"
+    input: numeric
+    value: 1488
+  max.year: 
+    label: "End year:"
+    input: numeric
+    value: 1828
+  journals:
+    label: "Include journals:"
+    value: TRUE
+    input: checkbox
+  catalogue:
+    label: "Library catalog:"
+    value: all
+    input: select
+    multiple: TRUE
+    choices: [fennica, kungliga, all]
+  language:
+    label: "Language:"
+    value: all
+    input: radio
+    choices: [finnish, swedish, all]
+  data: 
+    label: "Input dataset:"
+    value: df.combined.Rds
+    input: file
+  slideparameter: 
+    label: "Sliding value:"
+    value: 100
+    input: slider
+    min: 0
+    max: 1000
+  date: 
+    label: "Date:"
+    value: !r date()
+    input: date
+  text: 
+    label: "Text:"
+    value: Some test text
+    input: text
+---
+
+```{r init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
+
+# For all parameter options for rmarkdown slide rendering, see:
+# http://rmarkdown.rstudio.com/developer_parameterized_reports.html
+# More header options in Pandoc manual
+# http://pandoc.org/MANUAL.html#templates
+
+# Read parameters from the header
+mydate <- params$start
+min.year <- params$min.year
+max.year <- params$max.year
+
+library(estc)
+library(magrittr)
+library(sorvi)
+library(reshape2)
+library(gridExtra)
+library(knitr)
+library(ggmap)
+library(stringr)
+library(dplyr)
+library(tidyr)
+library(reshape2)
+library(ggplot2)
+library(bibliographica)
+library(sorvi)
+library(devtools)
+knitr::opts_chunk$set(echo = FALSE)
+#knitr::opts_chunk$set(fig.path = "figure_slides/", dev="CairoPNG")
+knitr::opts_chunk$set(fig.path = "figure_slides/")
+
+# Set locale
+# tmp <- Sys.setlocale(locale="UTF-8") 
+
+# Nice theme
+theme_set(theme_bw(26))
+
+# Nice default themes
+# https://github.com/cttobin/ggthemr#palettes
+#ggthemr('fresh', text_size = 20)
+# ggthemr('greyscale', text_size = 20)
+#ggthemr('light', text_size = 20)
+# ggthemr('pale', text_size = 20)
+#ggthemr_reset() # Reset theme
+```
+
+
+```{r data, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
+# Read the preprocessed data
+df.preprocessed <- readRDS(params$data)
+
+# Custom subsetting
+df0 <- df.preprocessed %>% filter(publication_year >= min.year &
+			          publication_year <= max.year)
+```
+
+
+### First slide

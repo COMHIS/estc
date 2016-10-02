@@ -56,6 +56,9 @@ df <- df.preprocessed <- df.preprocessed.orig
 # Data for Tue
 source("Tue.R")
 
+# Interactive reports
+source("report.R")
+
 # -------------------------------------------------
 
 system("git add -f figure/*.png")
