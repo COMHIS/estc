@@ -102,7 +102,7 @@ idfield <- "system_control_number"
 
 # Read the custom list of entry IDs
 idfile   <- params$id.file
-stop(idfile)
+stop(paste("BUNBUM", idfile, "PAMPAM"))
 ids <- as.character(unlist(read.csv(idfile), use.names = FALSE))
 #ids <- as.character(sample(df0[, idfield], 1e4)) # Random IDs
 
