@@ -107,7 +107,10 @@ idfield <- "system_control_number"
 
 # Read the custom list of entry IDs
 idfile <- params$idsource
-ids <- as.character(unlist(read.csv(idfile), use.names = FALSE))
+ids0 <- as.character(unlist(read.csv(idfile), use.names = FALSE))
+# Remove leading zeroes
+ids <- ids0
+ids <- apply(cbind(substr(ids, 1, 1), gsub("^[A-Z]0*", "", ids)), 1, function (x) {paste(x, collapse = "")})
 
 # Custom subsetting by years
 df0 <- df.preprocessed
@@ -116,6 +119,7 @@ df0 <- df.preprocessed
 # .. must remove the source ID from the ESTC strings
 #ids3 <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[1]]})
 ids2 <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[length(xi)]]})
+
 df0 <- df0[ids2 %in% ids,]
 
 # Not found
@@ -151,7 +155,7 @@ Custom identifiers found after subsetting: n=`r hitn1` (`r round(hitp1, 2)` %)
 #source("~/Rpackages/bibliographica/R/timeline.R")
 df <- df0
 res <- timeline(df, field = "titlecount", nmin = 0, mode = "absolute") 
-print(res$plot)
+print(res$plot + ylab(paste("Title count (n)")))
 ```
 
 
@@ -162,7 +166,7 @@ print(res$plot)
 ```{r paper, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE, fig.width=9, fig.height=7}
 df <- df0
 res <- timeline(df, field = "paper", nmin = 0, mode = "absolute") 
-print(res$plot)
+print(res$plot + ylab("Paper (sheets)"))
 #df <- df0
 #v <- 10^(1:max(na.omit(round(log10(df$paper)))))
 #p <- ggplot(df, aes(x = paper)) +
