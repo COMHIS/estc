@@ -29,10 +29,6 @@ params:
     label: "End year:"
     input: numeric
     value: 1880
-  id.file: 
-    label: "Document ID file:"
-    value: estc_id_list.txt
-    input: file
   date: 
     label: "Date:"
     value: !r date()
@@ -40,6 +36,10 @@ params:
   subtitle: 
     label: "Subtitle:"
     value: Consciousness
+    input: text
+  idsource: 
+    label: "Document IDs:"
+    value: estc_id_list.txt
     input: text
 ---
 
@@ -101,10 +101,8 @@ df.preprocessed <- readRDS("df.Rds")
 idfield <- "system_control_number"
 
 # Read the custom list of entry IDs
-idfile   <- params$id.file
-stop(paste("BUNBUM", idfile, "PAMPAM"))
+idfile <- params$idsource
 ids <- as.character(unlist(read.csv(idfile), use.names = FALSE))
-#ids <- as.character(sample(df0[, idfield], 1e4)) # Random IDs
 
 # Custom subsetting by years
 df0 <- df.preprocessed
