@@ -74,6 +74,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount                            |         0.5|          99.5|        478966|       1624|
 |publication_year_from                |         0.2|          99.8|        480589|        348|
 |language                             |         0.0|         100.0|        481397|         50|
+|system_control_number                |         0.0|         100.0|        481446|     481437|
 |title                                |         0.0|         100.0|        481461|     360772|
 |control_number                       |         0.0|         100.0|        481463|     481463|
 |language.English                     |         0.0|         100.0|        481463|          2|
