@@ -49,6 +49,11 @@ params:
 # More header options in Pandoc manual
 # http://pandoc.org/MANUAL.html#templates
 
+#library(devtools)
+#library(bibliographica)
+#load_all("~/Rpackages/bibliographica")
+#install_github("ropengov/bibliographica")
+
 # Read parameters from the header
 mydate <- params$start
 min.year <- params$min.year
@@ -109,15 +114,20 @@ df0 <- df.preprocessed
 
 # Pick entries with the given IDs
 # .. must remove the source ID from the ESTC strings
+#ids3 <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[1]]})
 ids2 <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[length(xi)]]})
 df0 <- df0[ids2 %in% ids,]
+
+# Not found
+notfound <- setdiff(ids, ids2)
+
 
 # Number and percentage of the custom list IDs that were found
 hitn0 <- sum(ids %in% ids2, na.rm = TRUE)
 hitp0 <- 100 * hitn0/length(ids)
 
 df0 <- df0 %>% filter(publication_year >= min.year &
-			          publication_year <= max.year)
+			                publication_year <= max.year)
 
 # Hits after subsetting
 hitn1 <- nrow(df0)
@@ -126,7 +136,7 @@ hitp1 <- 100 * hitn1/length(ids)
 
 ### Technical notes
 
-Entry IDs (n=`r length(ids)`) are read from the file:  `r params$id.file`
+Entry IDs (n=`r length(ids)`) are read from the file:  `r params$idsource`
 
 Custom identifiers found from complete ESTC: n=`r hitn0` (`r round(hitp0, 2)` %)
 
@@ -135,27 +145,31 @@ Custom identifiers found after subsetting: n=`r hitn1` (`r round(hitp1, 2)` %)
 
 
 
-### Histogrammi jossa kaikki teokset
-
+### Timeline for title count
 
 ```{r titlecount, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE, fig.width=9, fig.height=7}
-#source("~/Rpackages/bibliographica/R/titlecount_timeline.R")
-#df <- df0
-#p <- titlecount_timeline(df, nmin = 0, mode = "n") 
-#print(p)
+#source("~/Rpackages/bibliographica/R/timeline.R")
+df <- df0
+res <- timeline(df, field = "titlecount", nmin = 0, mode = "absolute") 
+print(res$plot)
 ```
 
 
-### Paper consumption histogram
+
+
+### Timeline for paper consumption
 
 ```{r paper, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE, fig.width=9, fig.height=7}
 df <- df0
-v <- 10^(1:max(na.omit(round(log10(df$paper)))))
-p <- ggplot(df, aes(x = paper)) +
-       geom_histogram() +
-       xlab("Paper (sheets)") + ylab("Title count (n)") +
-       scale_x_log10(breaks = v, labels = v, limits = c(min(v), 1.1*max(v))) 
-print(p)       
+res <- timeline(df, field = "paper", nmin = 0, mode = "absolute") 
+print(res$plot)
+#df <- df0
+#v <- 10^(1:max(na.omit(round(log10(df$paper)))))
+#p <- ggplot(df, aes(x = paper)) +
+#       geom_histogram() +
+#       xlab("Paper (sheets)") + ylab("Title count (n)") +
+#       scale_x_log10(breaks = v, labels = v, limits = c(min(v), 1.1*max(v))) 
+#print(p)       
 ```
 
 
