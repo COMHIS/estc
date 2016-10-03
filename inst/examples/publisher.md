@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-09-28"
+date: "2016-10-02"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 219054 [unique publishers](output.tables/publisher_accepted.csv)
+ * 219114 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 370518 documents have unambiguous publisher information (77%). 
+ * 370519 documents have unambiguous publisher information (77%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -42,8 +42,8 @@ Title count versus paper consumption (top publishers):
 |printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1986108|
 |printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6390041|
 |printed for T. Cadell, in the Strand                                                     |    517|  1459797|
-|printed for the author                                                                   |   1292|  4374141|
-|printed in the year                                                                      |   2961|  4654281|
-|Printed in the year                                                                      |   1797|  4235068|
+|printed for the author                                                                   |   1291|  4369853|
+|printed in the year                                                                      |   2953|  4645494|
+|Printed in the year                                                                      |   1779|  4192815|
 
 

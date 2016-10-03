@@ -1,0 +1,269 @@
+---
+title: "Overview of a list of ESTC entries `r params$min.year`-`r params$max.year`"
+subtitle: "`r params$subtitle`"
+author: "Mikko Tolonen, Leo Lahti et al."
+date: "`r Sys.Date()`"
+fontsize: 13pt
+geometry: margin=1in
+linkcolor: magenta
+urlcolor: blue
+citecolor: black
+institute: "University of Helsinki & University of Turku"
+output: 
+  beamer_presentation:
+    theme: "boxes"
+    colortheme: "orchid"
+    fonttheme: "professionalfonts"
+  pdf_document:
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
+    includes:
+      in_header: header.tex
+params:
+  min.year: 
+    label: "Start year:"
+    input: numeric
+    value: 1470
+  max.year: 
+    label: "End year:"
+    input: numeric
+    value: 1880
+  date: 
+    label: "Date:"
+    value: !r date()
+    input: date
+  subtitle: 
+    label: "Subtitle:"
+    value: Consciousness
+    input: text
+  idsource: 
+    label: "Document IDs:"
+    value: estc_id_list.txt
+    input: text
+---
+
+```{r init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
+# For all parameter options for rmarkdown slide rendering, see:
+# http://rmarkdown.rstudio.com/developer_parameterized_reports.html
+# More header options in Pandoc manual
+# http://pandoc.org/MANUAL.html#templates
+
+#library(devtools)
+#library(bibliographica)
+#load_all("~/Rpackages/bibliographica")
+#install_github("ropengov/bibliographica")
+
+# Read parameters from the header
+mydate <- params$start
+min.year <- params$min.year
+max.year <- params$max.year
+
+library(estc)
+library(magrittr)
+library(sorvi)
+library(reshape2)
+library(gridExtra)
+library(knitr)
+library(ggmap)
+library(stringr)
+library(dplyr)
+library(tidyr)
+library(reshape2)
+library(ggplot2)
+library(bibliographica)
+library(sorvi)
+library(devtools)
+knitr::opts_chunk$set(echo = FALSE)
+#knitr::opts_chunk$set(fig.path = "figure_slides/", dev="CairoPNG")
+knitr::opts_chunk$set(fig.path = "figure_slides/")
+
+# Set locale
+# tmp <- Sys.setlocale(locale="UTF-8") 
+
+# Nice theme
+theme_set(theme_bw(26))
+
+# Nice default themes
+# https://github.com/cttobin/ggthemr#palettes
+#ggthemr('fresh', text_size = 20)
+# ggthemr('greyscale', text_size = 20)
+#ggthemr('light', text_size = 20)
+# ggthemr('pale', text_size = 20)
+#ggthemr_reset() # Reset theme
+
+# Default number of top hits to show
+ntop <- 20
+```
+
+
+```{r data, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
+# Read the preprocessed data
+df.preprocessed <- readRDS("df.Rds")
+
+# Metadata field for the IDs
+#idfield <- "control_number"
+idfield <- "system_control_number"
+
+# Read the custom list of entry IDs
+idfile <- params$idsource
+ids0 <- as.character(unlist(read.csv(idfile), use.names = FALSE))
+# Remove leading zeroes
+ids <- ids0
+ids <- apply(cbind(substr(ids, 1, 1), gsub("^[A-Z]0*", "", ids)), 1, function (x) {paste(x, collapse = "")})
+
+# Custom subsetting by years
+df0 <- df.preprocessed
+
+# Pick entries with the given IDs
+# .. must remove the source ID from the ESTC strings
+#ids3 <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[1]]})
+ids2 <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[length(xi)]]})
+
+df0 <- df0[ids2 %in% ids,]
+
+# Not found
+notfound <- setdiff(ids, ids2)
+
+
+# Number and percentage of the custom list IDs that were found
+hitn0 <- sum(ids %in% ids2, na.rm = TRUE)
+hitp0 <- 100 * hitn0/length(ids)
+
+df0 <- df0 %>% filter(publication_year >= min.year &
+			                publication_year <= max.year)
+
+# Hits after subsetting
+hitn1 <- nrow(df0)
+hitp1 <- 100 * hitn1/length(ids)
+```
+
+### Technical notes
+
+Entry IDs (n=`r length(ids)`) are read from the file:  `r params$idsource`
+
+Custom identifiers found from complete ESTC: n=`r hitn0` (`r round(hitp0, 2)` %)
+
+Custom identifiers found after subsetting: n=`r hitn1` (`r round(hitp1, 2)` %) 
+
+
+
+
+### Timeline for title count
+
+```{r titlecount, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE, fig.width=9, fig.height=7}
+#source("~/Rpackages/bibliographica/R/timeline.R")
+df <- df0
+res <- timeline(df, field = "titlecount", nmin = 0, mode = "absolute") 
+print(res$plot + ylab(paste("Title count (n)")))
+```
+
+
+
+
+### Timeline for paper consumption
+
+```{r paper, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE, fig.width=9, fig.height=7}
+df <- df0
+res <- timeline(df, field = "paper", nmin = 0, mode = "absolute") 
+print(res$plot + ylab("Paper (sheets)"))
+#df <- df0
+#v <- 10^(1:max(na.omit(round(log10(df$paper)))))
+#p <- ggplot(df, aes(x = paper)) +
+#       geom_histogram() +
+#       xlab("Paper (sheets)") + ylab("Title count (n)") +
+#       scale_x_log10(breaks = v, labels = v, limits = c(min(v), 1.1*max(v))) 
+#print(p)       
+```
+
+
+
+### Paper consumption: books vs. pamphlets
+
+```{r bookvspamphlets, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7}
+df <- df0
+df$type <- rep(NA, nrow(df))
+df$type[df$pagecount > 32] <- "book"
+df$type[df$pagecount <= 32] <- "pamphlet"
+df$type <- factor(df$type)
+
+df2 <- df %>% group_by(publication_year, type) %>%
+              summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
+	      filter(!is.na(type))
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = type, color = type))
+p <- p + geom_point() + scale_y_log10() 
+p <- p + geom_smooth(method = "loess")
+p <- p + xlab("Year")
+p <- p + ylab("Paper (sheets)")
+print(p)
+```
+
+
+### Top authors
+
+```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=6}
+df <- df0
+p <- NULL
+p <- top_plot(df, "author", ntop) +
+     		  # ggtitle(paste("Top authors")) +
+		  ylab("Title count (n)")
+print(p)
+```
+
+
+### Title count timeline for top 10 authors
+
+```{r topauthorstimeline, fig.height=4, fig.width=10, echo=FALSE}
+df <- df0
+theme_set(theme_bw(20))
+top.authors <- names(top(df, field = "author", n = 10))
+dfs <- df %>% filter(author %in% top.authors) %>%
+     	 group_by(author, publication_decade) %>%
+     	 tally() %>%
+     	 arrange(publication_decade)
+v <- seq(min(dfs$publication_decade), max(dfs$publication_decade), 20)
+p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication decade") +
+       ylab("Title count (n)") +
+       scale_fill_grey() +
+       scale_x_continuous(breaks = v, labels = v) +
+       guides(fill = guide_legend("Author", reverse = TRUE)) 
+       #ggtitle("Title count timeline for the top authors")
+print(p)
+```
+
+
+
+### Top publication places
+
+```{r topplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=7, fig.height=5}
+df <- df0
+p <- top_plot(df, "publication_place", ntop)
+p <- p + ggtitle(paste("Top publication places"))
+p <- p + ylab("Title count (n)")
+v <- 10^(1:max(na.omit(round(log10(df0$paper)))))
+p <- p + scale_y_log10(breaks = v, labels = v)
+print(p)
+```
+
+
+
+### Top titles
+
+```{r toptitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=11, fig.height=5}
+df <- df0
+p <- top_plot(df, "title", ntop = ntop) +
+  ggtitle(paste("Top titles")) +
+  scale_y_log10() +
+  ylab("Title count (n)")
+print(p)
+```
+
+
+
+
+
+
+
+
