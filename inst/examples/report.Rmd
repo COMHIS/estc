@@ -110,6 +110,7 @@ idfield <- "system_control_number"
 idfile <- params$idsource
 #ids0 <- as.character(unlist(read.csv(idfile), use.names = FALSE))
 custom.ids <- read.table(idfile, skip = 1)[, c(1, 2, 4)]
+ids.orig <- as.character(custom.ids[,1])
 custom.ids[,1] <- gsub("\\,$", "", as.character(custom.ids[,1]))
 custom.ids[,2] <- as.numeric(as.character(custom.ids[,2]))
 custom.ids[,3] <- as.numeric(as.character(custom.ids[,3]))
@@ -119,24 +120,24 @@ names(custom.ids) <- c("id", "freq", "length")
 # Add normalization field: hits per 1000 words
 custom.ids$freq.normalized <- 1e3 * custom.ids$freq/custom.ids$length
 
-
 # Remove leading zeroes from the IDs to get them
 # compatible with our versions
 custom.ids$id <- apply(cbind(substr(custom.ids$id, 1, 1), gsub("^[A-Z]0*", "", custom.ids$id)), 1, function (x) {paste(x, collapse = "")})
+#rownames(custom.ids) <- custom.ids$id
 
 # Custom subsetting by years
 df0 <- df.preprocessed
 
 # Pick entries with the given IDs
 # .. must remove the source ID from the ESTC strings
-ids2 <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[length(xi)]]})
-df0 <- df0[ids2 %in% custom.ids$id,]
+df0$id <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[length(xi)]]})
+df0 <- df0[df0$id %in% custom.ids$id,]
 
 # Not found
-notfound <- setdiff(custom.ids$id, ids2)
+notfound <- setdiff(custom.ids$id, df0$id)
 
 # Number and percentage of the custom list IDs that were found
-hitn0 <- sum(custom.ids$id %in% ids2, na.rm = TRUE)
+hitn0 <- sum(custom.ids$id %in% df0$id, na.rm = TRUE)
 hitp0 <- 100 * hitn0/nrow(custom.ids)
 
 df0 <- df0 %>% filter(publication_year >= min.year &
@@ -262,13 +263,39 @@ print(p)
 
 ### Top authors
 
-```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=6}
+The top authors can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (middle).
+
+```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
 p <- NULL
-p <- top_plot(df, "author", ntop) +
-     		  # ggtitle(paste("Top authors")) +
-		  ylab("Title count (n)")
-print(p)
+p1 <- top_plot(df, "author", ntop) +
+     		  ggtitle("Title count") +
+		  ylab("Title count (n)") 
+
+# Use unnormalized frequency for now
+field <- "author"
+df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
+df$names <- df[[field]]
+dfs <- df %>% group_by(names) %>%
+              filter(!is.na(names)) %>% 
+              summarise(count = sum(hits, na.rm = T)) %>%
+	      arrange(desc(count)) %>%
+	      head(ntop) 
+
+  dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
+  theme_set(theme_bw(15))  
+  p <- ggplot(dfs, aes(x = names, y = count))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  p <- p + ylab("Term occurrences (n)") + xlab("")
+  p <- p + ggtitle("Query hits")
+  p2 <- p
+
+# Timeline for hits
+#res <- timeline(df, field = "hits", nmin = 0, mode = "absolute") 
+#p3 <- res$plot
+
+grid.arrange(p1, p2, nrow = 1)
 ```
 
 
@@ -296,17 +323,48 @@ print(p)
 
 
 
-### Top publication places
+### Top places
 
-```{r topplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=7, fig.height=5}
+The top places can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (middle).
+
+```{r topplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
-p <- top_plot(df, "publication_place", ntop)
-p <- p + ggtitle(paste("Top publication places"))
-p <- p + ylab("Title count (n)")
-v <- 10^(1:max(na.omit(round(log10(df0$paper)))))
-p <- p + scale_y_log10(breaks = v, labels = v)
-print(p)
+p <- NULL
+v <- 10^(1:max(na.omit(round(log10(max(table(df$publication_place)))))))
+p1 <- top_plot(df, "publication_place", ntop) +
+     		  ggtitle(paste("Title count")) +
+		  ylab("Title count (n)") +
+  		  scale_y_log10(breaks = v, labels = v)    		  
+
+# Use unnormalized frequency for now
+field <- "publication_place"
+df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
+df$names <- df[[field]]
+dfs <- df %>% group_by(names) %>%
+              filter(!is.na(names)) %>% 
+              summarise(count = sum(hits, na.rm = T)) %>%
+	      arrange(desc(count)) %>%
+	      head(ntop) 
+
+  dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
+  theme_set(theme_bw(15))  
+  p <- ggplot(dfs, aes(x = names, y = count))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$count))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  #p <- p + scale_y_log10(breaks = v, labels = v)    
+  p <- p + ylab("Term occurrences (n)") + xlab("")
+  p <- p + ggtitle("Query hits")
+  p2 <- p
+
+# Timeline for hits
+# res <- timeline(df, field = "hits", nmin = 0, mode = "absolute") 
+# p3 <- res$plot
+
+grid.arrange(p1, p2, nrow = 1)
 ```
+
 
 
 
