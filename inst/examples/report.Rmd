@@ -445,7 +445,6 @@ The top publishers can be defined by title count (regardless of number of hits i
 df <- df0
 field <- "publisher"
 
-
 p <- NULL
 p1 <- top_plot(df, field, ntop, max.char = nchar) +
      		  ggtitle("Title count") +
