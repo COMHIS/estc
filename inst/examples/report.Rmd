@@ -263,7 +263,7 @@ print(p)
 
 ### Top authors
 
-The top authors can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (middle).
+The top authors can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (right).
 
 ```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
@@ -325,7 +325,9 @@ print(p)
 
 ### Top places
 
-The top places can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (middle).
+The top places defined by title count (left); Relation between
+titlecount and query hits (right). Note that document lengths are not
+taken into account here.
 
 ```{r topplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
@@ -336,15 +338,77 @@ p1 <- top_plot(df, "publication_place", ntop) +
 		  ylab("Title count (n)") +
   		  scale_y_log10(breaks = v, labels = v)    		  
 
-# Use unnormalized frequency for now
+
 field <- "publication_place"
+df$names <- df[[field]]
+df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
+
+# Title counts
+dfs <- df %>% group_by(names) %>%
+              filter(!is.na(names)) %>% 
+              summarise(n = n(), hits = sum(hits, na.rm = T))
+
+p2 <- ggplot(dfs, aes(x = n, y = hits, label = names)) +
+       geom_text() + geom_smooth(method = "lm") +
+       scale_x_log10() + scale_y_log10() +
+       xlab("Title count") + ylab("Query hits") +
+       ggtitle("Comparison of title count vs. query hits")
+
+grid.arrange(p1, p2, nrow = 1)
+```
+
+
+
+
+### Top titles by title count
+
+```{r toptitles-init, echo=FALSE, message=FALSE, warning=FALSE}
+nchar <- 40
+```
+
+Up to `r nchar` first characters for each title are shown.
+
+```{r toptitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+df <- df0
+# Limit title length
+df$title <- substr(as.character(df$title), 1, nchar)
+p <- NULL
+v <- 10^(1:max(na.omit(round(log10(max(table(df$title)))))))
+p1 <- top_plot(df, "title", ntop) +
+     		  ggtitle(paste("Title count")) +
+		  ylab("Title count (n)") +
+  		  scale_y_log10(breaks = v, labels = v)    		  
+
+print(p1)
+```
+
+
+
+
+### Top hits/title
+
+The title length is here limited; up to `r nchar` first characters are shown:
+
+```{r toptitles2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+df <- df0
+v <- 10^(1:max(na.omit(round(log10(max(table(df$title)))))))
+
+# Use unnormalized frequency for now
+field <- "title"
 df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
 df$names <- df[[field]]
+
 dfs <- df %>% group_by(names) %>%
               filter(!is.na(names)) %>% 
               summarise(count = sum(hits, na.rm = T)) %>%
 	      arrange(desc(count)) %>%
 	      head(ntop) 
+
+# Retrieve document length from the ID info
+dfs$document_length <- custom.ids[match(df$id[match(dfs$names, df$title)], custom.ids$id), "length"]
+
+# Limit title length
+dfs$names <- substr(as.character(dfs$names), 1, nchar)
 
   dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
   theme_set(theme_bw(15))  
@@ -356,11 +420,17 @@ dfs <- df %>% group_by(names) %>%
   #p <- p + scale_y_log10(breaks = v, labels = v)    
   p <- p + ylab("Term occurrences (n)") + xlab("")
   p <- p + ggtitle("Query hits")
-  p2 <- p
+  p1 <- p
 
-# Timeline for hits
-# res <- timeline(df, field = "hits", nmin = 0, mode = "absolute") 
-# p3 <- res$plot
+
+p <- ggplot(dfs, aes(x = names, y = document_length))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$document_length))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  p <- p + ylab("Document length (n)") + xlab("")
+  p <- p + ggtitle("Document length")
+  p2 <- p
 
 grid.arrange(p1, p2, nrow = 1)
 ```
@@ -368,28 +438,45 @@ grid.arrange(p1, p2, nrow = 1)
 
 
 
-### Top titles
 
-```{r toptitles-init, echo=FALSE, message=FALSE, warning=FALSE}
-nchar <- 40
-```
+### Top publishers
 
-The title length is here limited; up to `r nchar` first characters are shown:
+The top publishers can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (right).
 
-```{r toptitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=11, fig.height=5}
+```{r toppublishers, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
+field <- "publisher"
+
+
+p <- NULL
+p1 <- top_plot(df, field, ntop, max.char = nchar) +
+     		  ggtitle("Title count") +
+		  ylab("Title count (n)") 
+
+
+# Use unnormalized frequency for now
+df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
+df$names <- df[[field]]
+dfs <- df %>% group_by(names) %>%
+              filter(!is.na(names)) %>% 
+              summarise(count = sum(hits, na.rm = T)) %>%
+	      arrange(desc(count)) %>%
+	      head(ntop) 
+
 # Limit title length
-df$title <- substr(as.character(df$title), 1, nchar)
-p <- top_plot(df, "title", ntop = ntop) +
-  ggtitle(paste("Top titles")) +
-  scale_y_log10() +
-  ylab("Title count (n)")
-print(p)
+dfs$names <- substr(as.character(dfs$names), 1, nchar)
+
+  dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
+  theme_set(theme_bw(15))  
+  p <- ggplot(dfs, aes(x = names, y = count))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  p <- p + ylab("Term occurrences (n)") + xlab("")
+  p <- p + ggtitle("Query hits")
+  p2 <- p
+
+grid.arrange(p1, p2, nrow = 1)
 ```
-
-
-
-
 
 
 
