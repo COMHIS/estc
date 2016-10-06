@@ -301,6 +301,7 @@ dfs <- df %>% group_by(names)
 
 ```{r topauthors2b, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 dfs <- dfs %>% dplyr::filter(!is.na(names))
+save(dfs, df, file = "tmp.RData")
 ```
 
 ```{r topauthors2c, echo=FALSE, message=FALSE, warning=FALSE}
