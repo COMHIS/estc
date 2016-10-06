@@ -282,13 +282,15 @@ The top authors can be defined by title count (regardless of number of hits in e
 
 ```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
-p <- NULL
-p1 <- top_plot(df, "author", ntop) +
+field <- "author"
+
+p1 <- NULL
+p1 <- top_plot(df, field, ntop) +
      		  ggtitle("Title count") +
 		  ylab("Title count (n)") 
 
+
 # Use unnormalized frequency for now
-field <- "author"
 df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
 df$names <- df[[field]]
 dfs <- df %>% group_by(names) %>%
@@ -305,10 +307,6 @@ dfs <- df %>% group_by(names) %>%
   p <- p + ylab("Term occurrences (n)") + xlab("")
   p <- p + ggtitle("Query hits")
   p2 <- p
-
-# Timeline for hits
-#res <- timeline(df, field = "hits", nmin = 0, mode = "absolute") 
-#p3 <- res$plot
 
 grid.arrange(p1, p2, nrow = 1)
 ```
@@ -461,7 +459,6 @@ The top publishers can be defined by title count (regardless of number of hits i
 ```{r toppublishers, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
 field <- "publisher"
-
 
 p <- NULL
 p1 <- top_plot(df, field, ntop, max.char = nchar) +
