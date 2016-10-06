@@ -300,11 +300,12 @@ dfs <- df %>% group_by(names)
 ```
 
 ```{r topauthors2b, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% filter(!is.na(names))
+dfs <- dfs %>% dplyr::filter(!is.na(names))
 ```
 
-```{r topauthors2c, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% summarise(count = sum(hits, na.rm = T))
+```{r topauthors2c, echo=FALSE, message=FALSE, warning=FALSE}
+dfs <- dfs %>% dplyr::summarise(count = sum(hits, na.rm = T))
+```
 
 ```{r topauthors2d, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 dfs <- dfs %>% arrange(desc(count))
