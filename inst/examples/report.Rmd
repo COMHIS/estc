@@ -426,7 +426,7 @@ print(p1)
 
 The title length is limited up to `r nchar` first characters:
 
-```{r toptitles2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+```{r toptitles2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 df <- df0
 v <- 10^(1:max(na.omit(round(log10(max(table(df$title)))))))
 
@@ -435,20 +435,21 @@ field <- "title"
 df$hits <-  unlist(custom.ids[match(df$id, custom.ids$id), "freq"], use.names = F)
 df$names <- df[[field]]
 
-dfs <- df %>% group_by(names) %>%
+dfs.total <- df %>% group_by(names) %>%
               filter(!is.na(names)) %>% 
               summarise(n = n(), # number of editions
 	                count = sum(hits, na.rm = T)) %>% # number of hits
-	      arrange(desc(count)) %>%
-	      head(ntop) 
+	      mutate(hits.per.edition = count/n)
+
+# Limit title length
+dfs.total$names <- substr(as.character(dfs.total$names), 1, nchar)
+
+# Select top-N
+dfs <- dfs.total %>% arrange(desc(count)) %>% head(ntop) 
 
 # Retrieve document length from the ID info
 dfs$document_length <- custom.ids[match(df$id[match(dfs$names, df$title)], custom.ids$id), "length"]
-
-# Limit title length
-dfs$names <- substr(as.character(dfs$names), 1, nchar)
-
-  dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
+dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
 
 theme_set(theme_bw(15))  
 
@@ -462,8 +463,6 @@ p <- ggplot(dfs, aes(x = names, y = count))
   p <- p + ggtitle("Total hits")
   p1 <- p
 
-
-dfs <- dfs %>% mutate(hits.per.edition = count/n)
 p <- ggplot(dfs, aes(x = names, y = hits.per.edition))
   p <- p + geom_bar(stat = "identity")
   p <- p + coord_flip()
@@ -473,7 +472,19 @@ p <- ggplot(dfs, aes(x = names, y = hits.per.edition))
   p <- p + ggtitle("Hits/edition")
   p2 <- p
 
-grid.arrange(p1, p2, nrow = 1)
+# Select top-N
+dfs.total <- dfs.total %>% arrange(desc(hits.per.edition)) %>% head(ntop) 
+dfs.total$names <- droplevels(factor(dfs.total$names, levels = rev(dfs.total$names)))
+p <- ggplot(dfs.total, aes(x = names, y = hits.per.edition))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$hits.per.edition))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  p <- p + ylab("Hits per edition (n)") + xlab("")
+  p <- p + ggtitle("Hits/edition")
+  p3 <- p
+
+grid.arrange(p1, p2, p3, nrow = 1)
 ```
 
 
