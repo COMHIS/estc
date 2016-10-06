@@ -378,7 +378,7 @@ p1 <- top_plot(df, "publication_place", ntop) +
 
 field <- "publication_place"
 df$names <- df[[field]]
-df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
+df$hits <-  unlist(custom.ids[match(df$id, custom.ids$id), "freq"], use.names = F)
 
 # Title counts
 dfs <- df %>% group_by(names) %>%
@@ -432,7 +432,7 @@ v <- 10^(1:max(na.omit(round(log10(max(table(df$title)))))))
 
 # Use unnormalized frequency for now
 field <- "title"
-df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
+df$hits <-  unlist(custom.ids[match(df$id, custom.ids$id), "freq"], use.names = F)
 df$names <- df[[field]]
 
 dfs <- df %>% group_by(names) %>%
@@ -495,7 +495,7 @@ p1 <- top_plot(df, field, ntop, max.char = nchar) +
 
 
 # Use unnormalized frequency for now
-df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
+df$hits <-  unlist(custom.ids[match(df$id, custom.ids$id), "freq"], use.names = F)
 df$names <- df[[field]]
 dfs <- df %>% group_by(names) %>%
               filter(!is.na(names)) %>% 
