@@ -41,6 +41,10 @@ params:
     label: "Document IDs:"
     value: history_of_england_headings.txt
     input: text
+  update.bibliographica: 
+    label: "Update bibliographica"
+    value: FALSE
+    input: checkbox
 ---
 
 
@@ -50,9 +54,10 @@ params:
 # More header options in Pandoc manual
 # http://pandoc.org/MANUAL.html#templates
 
-#library(devtools)
-#library(bibliographica)
-#install_github("ropengov/bibliographica")
+if (params$update.bibliographica) {
+  library(devtools)
+  install_github("ropengov/bibliographica")
+}
 
 # Read parameters from the header
 mydate <- params$start
@@ -66,7 +71,7 @@ library(reshape2)
 library(gridExtra)
 library(knitr)
 library(ggmap)
-library(stringr)
+#library(stringr)
 library(dplyr)
 library(tidyr)
 library(reshape2)
@@ -183,7 +188,6 @@ print(p)
 ### Timeline for title count
 
 ```{r titlecount, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE, fig.width=15, fig.height=7}
-
 # TODO could make custom function to show relative fraction compared to the complete database
 # now done manually here.
 
@@ -299,6 +303,7 @@ dfs <- df %>% group_by(names) %>%
 	      arrange(desc(count)) %>%
 	      head(ntop) 
 
+if (nrow(dfs) > 0) {
   dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
   theme_set(theme_bw(15))  
   p <- ggplot(dfs, aes(x = names, y = count))
@@ -307,7 +312,9 @@ dfs <- df %>% group_by(names) %>%
   p <- p + ylab("Term occurrences (n)") + xlab("")
   p <- p + ggtitle("Query hits")
   p2 <- p
-
+} else {
+  p2 <- ggplot() + ggtitle("No data for this selection")
+}
 grid.arrange(p1, p2, nrow = 1)
 ```
 
@@ -400,7 +407,7 @@ print(p1)
 
 ### Top hits/title
 
-The title length is here limited; up to `r nchar` first characters are shown:
+The title length is limited up to `r nchar` first characters:
 
 ```{r toptitles2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
 df <- df0
@@ -413,7 +420,8 @@ df$names <- df[[field]]
 
 dfs <- df %>% group_by(names) %>%
               filter(!is.na(names)) %>% 
-              summarise(count = sum(hits, na.rm = T)) %>%
+              summarise(n = n(), # number of editions
+	                count = sum(hits, na.rm = T)) %>% # number of hits
 	      arrange(desc(count)) %>%
 	      head(ntop) 
 
@@ -424,25 +432,28 @@ dfs$document_length <- custom.ids[match(df$id[match(dfs$names, df$title)], custo
 dfs$names <- substr(as.character(dfs$names), 1, nchar)
 
   dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
-  theme_set(theme_bw(15))  
-  p <- ggplot(dfs, aes(x = names, y = count))
+
+theme_set(theme_bw(15))  
+
+p <- ggplot(dfs, aes(x = names, y = count))
   p <- p + geom_bar(stat = "identity")
   p <- p + coord_flip()
   v <- 10^(1:max(na.omit(round(log10(max(dfs$count))))))
   p <- p + scale_y_log10(breaks = v, labels = v)
   #p <- p + scale_y_log10(breaks = v, labels = v)    
   p <- p + ylab("Term occurrences (n)") + xlab("")
-  p <- p + ggtitle("Query hits")
+  p <- p + ggtitle("Total hits")
   p1 <- p
 
 
-p <- ggplot(dfs, aes(x = names, y = document_length))
+dfs <- dfs %>% mutate(hits.per.edition = count/n)
+p <- ggplot(dfs, aes(x = names, y = hits.per.edition))
   p <- p + geom_bar(stat = "identity")
   p <- p + coord_flip()
-  v <- 10^(1:max(na.omit(round(log10(max(dfs$document_length))))))
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$hits.per.edition))))))
   p <- p + scale_y_log10(breaks = v, labels = v)
-  p <- p + ylab("Document length (n)") + xlab("")
-  p <- p + ggtitle("Document length")
+  p <- p + ylab("Hits per edition (n)") + xlab("")
+  p <- p + ggtitle("Hits/edition")
   p2 <- p
 
 grid.arrange(p1, p2, nrow = 1)
