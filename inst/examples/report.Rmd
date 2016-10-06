@@ -64,9 +64,10 @@ mydate <- params$start
 min.year <- params$min.year
 max.year <- params$max.year
 
+library(devtools)
 library(estc)
 library(magrittr)
-library(sorvi)
+library(bibliographica)
 library(reshape2)
 library(gridExtra)
 library(knitr)
@@ -74,11 +75,8 @@ library(ggmap)
 #library(stringr)
 library(dplyr)
 library(tidyr)
-library(reshape2)
 library(ggplot2)
-library(bibliographica)
 library(sorvi)
-library(devtools)
 knitr::opts_chunk$set(echo = FALSE)
 #knitr::opts_chunk$set(fig.path = "figure_slides/", dev="CairoPNG")
 knitr::opts_chunk$set(fig.path = "figure_slides/")
@@ -293,7 +291,9 @@ p1 <- top_plot(df, field, ntop) +
      		  ggtitle("Title count") +
 		  ylab("Title count (n)") 
 
+```
 
+```{r topauthors2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 # Use unnormalized frequency for now
 df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
 df$names <- df[[field]]
@@ -302,7 +302,10 @@ dfs <- df %>% group_by(names) %>%
               summarise(count = sum(hits, na.rm = T)) %>%
 	      arrange(desc(count)) %>%
 	      head(ntop) 
+```
 
+
+```{r topauthors3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 if (nrow(dfs) > 0) {
   dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
   theme_set(theme_bw(15))  
@@ -315,6 +318,10 @@ if (nrow(dfs) > 0) {
 } else {
   p2 <- ggplot() + ggtitle("No data for this selection")
 }
+```
+
+
+```{r topauthors4, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 grid.arrange(p1, p2, nrow = 1)
 ```
 
