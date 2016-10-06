@@ -1,14 +1,14 @@
 ---
-title: "Overview of a list of ESTC entries `r params$min.year`-`r params$max.year`"
+title: "Overview of an ESTC query `r params$min.year`-`r params$max.year`"
 subtitle: "`r params$subtitle`"
 author: "Mikko Tolonen, Leo Lahti, Eetu Makela et al."
 date: "`r Sys.Date()`"
-fontsize: 13pt
+fontsize: 11pt
 geometry: margin=1in
 linkcolor: magenta
 urlcolor: blue
 citecolor: black
-institute: "University of Helsinki & University of Turku"
+institute: "Universities of Helsinki & Turku"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -42,6 +42,7 @@ params:
     value: history_of_england_headings.txt
     input: text
 ---
+
 
 ```{r init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
 # For all parameter options for rmarkdown slide rendering, see:
@@ -117,9 +118,6 @@ custom.ids[,3] <- as.numeric(as.character(custom.ids[,3]))
 names(custom.ids) <- c("id", "freq", "length")
 #ids0 <- as.character(unlist(read.csv(idfile), use.names = FALSE))
 
-# Add normalization field: hits per 1000 words
-custom.ids$freq.normalized <- 1e3 * custom.ids$freq/custom.ids$length
-
 # Remove leading zeroes from the IDs to get them
 # compatible with our versions
 custom.ids$id <- apply(cbind(substr(custom.ids$id, 1, 1), gsub("^[A-Z]0*", "", custom.ids$id)), 1, function (x) {paste(x, collapse = "")})
@@ -131,10 +129,23 @@ df0 <- df.preprocessed
 # Pick entries with the given IDs
 # .. must remove the source ID from the ESTC strings
 df0$id <- sapply(strsplit(as.character(df0[, idfield]), ")"), function (xi) {xi[[length(xi)]]})
+
+duplicated.ids.in.estc <- sum(duplicated(df0$id), na.rm = T)
+duplicated.ids.in.query <- sum(duplicated(custom.ids$id), na.rm = T)
+
 df0 <- df0[df0$id %in% custom.ids$id,]
 
 # Not found
 notfound <- setdiff(custom.ids$id, df0$id)
+
+# Now combine the duplicated customIDs
+custom.ids <- custom.ids %>% group_by(id) %>%
+	                     summarise(freq = sum(freq, na.rm = T),
+	                     	       length = sum(length, na.rm = T)
+			     )
+
+# Add normalization field: hits per 1000 words
+custom.ids$freq.normalized <- 1e3 * custom.ids$freq/custom.ids$length
 
 # Number and percentage of the custom list IDs that were found
 hitn0 <- sum(custom.ids$id %in% df0$id, na.rm = TRUE)
@@ -150,15 +161,19 @@ hitp1 <- 100 * hitn1/nrow(custom.ids)
 
 ### Technical notes
 
-Entry IDs (n=`r nrow(custom.ids)`) are read from the file:  `r params$idsource`
+Query IDs (n=`r nrow(custom.ids)`) from file:  `r params$idsource`  
 
-Custom identifiers found from complete ESTC: n=`r hitn0` (`r round(hitp0, 2)` %)
+IDs found from complete ESTC: n=`r hitn0` (`r round(hitp0, 2)` %)  
 
-Custom identifiers found after subsetting: n=`r hitn1` (`r round(hitp1, 2)` %) 
+IDs found after the subset: n=`r hitn1` (`r round(hitp1, 2)` %)   
 
-Figure shows how document length and number of hits are related:
+Duplicated IDs in ESTC: n = `r duplicated.ids.in.estc` (`r round(100 * duplicated.ids.in.estc/nrow(df.preprocessed), 1)`%). Very few, each occurrence is considered separately.  
 
-```{r normalization, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.width=7, fig.height=7, out.width="150px"}
+Duplicated IDs in the query: `r duplicated.ids.in.query` (`r round(100 * duplicated.ids.in.query/nrow(custom.ids), 1)`%). According to a single check, these are often series with same ID over many issues. The total sum of query hits and lengths is used.  
+
+Document length vs. normalized hit frequency:
+
+```{r normalization, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.width=7, fig.height=7, out.width="100px"}
 p <- ggplot(custom.ids, aes(x = length, y = freq.normalized)) + 
        geom_point() + scale_x_log10() + scale_y_log10() +
        xlab("Document length") + ylab("Hits per unit length (x1000)")
