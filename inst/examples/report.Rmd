@@ -285,7 +285,6 @@ The top authors can be defined by title count (regardless of number of hits in e
 ```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
 field <- "author"
-
 p1 <- NULL
 p1 <- top_plot(df, field, ntop) +
      		  ggtitle("Title count") +
@@ -293,17 +292,27 @@ p1 <- top_plot(df, field, ntop) +
 
 ```
 
-```{r topauthors2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+```{r topauthors2a, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 # Use unnormalized frequency for now
 df$hits <- custom.ids[match(df$id, custom.ids$id), "freq"]
 df$names <- df[[field]]
-dfs <- df %>% group_by(names) %>%
-              filter(!is.na(names)) %>% 
-              summarise(count = sum(hits, na.rm = T)) %>%
-	      arrange(desc(count)) %>%
-	      head(ntop) 
+dfs <- df %>% group_by(names)
 ```
 
+```{r topauthors2b, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+dfs <- dfs %>% filter(!is.na(names))
+```
+
+```{r topauthors2c, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+dfs <- dfs %>% summarise(count = sum(hits, na.rm = T))
+
+```{r topauthors2d, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+dfs <- dfs %>% arrange(desc(count))
+```
+
+```{r topauthors2e, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+dfs <- dfs %>% head(ntop) 
+```
 
 ```{r topauthors3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 if (nrow(dfs) > 0) {
