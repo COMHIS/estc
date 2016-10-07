@@ -64,6 +64,9 @@ mydate <- params$start
 min.year <- params$min.year
 max.year <- params$max.year
 
+# Limit the length of names to print on screen / figures
+nchar <- 40
+
 library(devtools)
 library(estc)
 library(magrittr)
@@ -280,60 +283,70 @@ print(p)
 
 ### Top authors
 
-The top authors can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (right).
+The top authors by title count (left; total hits across all editions
+shown in the middle); or by hits per edition (right)
 
-```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
+
 df <- df0
 field <- "author"
-p1 <- NULL
+
+p1 <- p2 <- p3 <- NULL
+
 p1 <- top_plot(df, field, ntop) +
      		  ggtitle("Title count") +
 		  ylab("Title count (n)") 
 
-```
-
-```{r topauthors2a, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 # Use unnormalized frequency for now
 df$hits <-  unlist(custom.ids[match(df$id, custom.ids$id), "freq"], use.names = F) 
 df$names <- df[[field]]
-dfs <- df %>% group_by(names)
-```
+dfs.total <- df %>% group_by(names) %>%
+              filter(!is.na(names)) %>%
+	      summarise(count = sum(hits, na.rm = T), n = n()) %>%
+	      mutate(hits.per.edition = count/n)
 
-```{r topauthors2b, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% dplyr::filter(!is.na(names))
-```
+# Limit title length
+dfs.total$names <- substr(as.character(dfs.total$names), 1, nchar)
 
-```{r topauthors2c, echo=FALSE, message=FALSE, warning=FALSE}
-dfs <- dfs %>% dplyr::summarise(count = sum(hits, na.rm = T))
-```
+# Select top-N
+dfs <- dfs.total %>% arrange(desc(count)) %>% head(ntop) 
+dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
 
-```{r topauthors2d, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% arrange(desc(count))
-```
-
-```{r topauthors2e, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% head(ntop) 
-```
-
-```{r topauthors3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-if (nrow(dfs) > 0) {
-  dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
-  theme_set(theme_bw(15))  
-  p <- ggplot(dfs, aes(x = names, y = count))
+theme_set(theme_bw(15))  
+p <- ggplot(dfs, aes(x = names, y = count))
   p <- p + geom_bar(stat = "identity")
   p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$count))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  #p <- p + scale_y_log10(breaks = v, labels = v)    
   p <- p + ylab("Term occurrences (n)") + xlab("")
-  p <- p + ggtitle("Query hits")
+  p <- p + ggtitle("Total hits")
+  p1 <- p
+
+p <- ggplot(dfs, aes(x = names, y = hits.per.edition))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$hits.per.edition))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  p <- p + ylab("Hits per edition (n)") + xlab("")
+  p <- p + ggtitle("Hits/edition")
   p2 <- p
-} else {
-  p2 <- ggplot() + ggtitle("No data for this selection")
-}
+
+# Select top-N
+dfs2 <- dfs.total %>% arrange(desc(hits.per.edition)) %>% head(ntop) 
+dfs2$names <- droplevels(factor(dfs2$names, levels = rev(dfs2$names)))
+p <- ggplot(dfs2, aes(x = names, y = hits.per.edition))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$hits.per.edition))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  p <- p + ylab("Hits per edition (n)") + xlab("")
+  p <- p + ggtitle("Hits/edition")
+  p3 <- p
+
+grid.arrange(p1, p2, p3, nrow = 1)
 ```
 
-
-```{r topauthors4, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-grid.arrange(p1, p2, nrow = 1)
-```
 
 
 ### Title count timeline for top 10 authors
@@ -398,10 +411,6 @@ grid.arrange(p1, p2, nrow = 1)
 
 
 ### Top titles by title count
-
-```{r toptitles-init, echo=FALSE, message=FALSE, warning=FALSE}
-nchar <- 40
-```
 
 Up to `r nchar` first characters for each title are shown.
 
@@ -493,7 +502,8 @@ grid.arrange(p1, p2, p3, nrow = 1)
 
 ### Top publishers
 
-The top publishers can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (right).
+The top publishers can be defined by title count (left) or by the total hits
+across all documents (right).
 
 ```{r toppublishers, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0
