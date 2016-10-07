@@ -1,10 +1,10 @@
 library(devtools)
 library(dplyr)
-library(bibliographica)
 library(sorvi)
-
 load_all("../../../bibliographica/")
+library(bibliographica)
 load_all()
+
 
 # I/O definitions
 output.folder <- "output.tables/"
@@ -92,6 +92,7 @@ data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
 # some function(s) need df.orig. Should tidy that up? -vv
 rm(data.validated)
 
+# TODO make enrich.estc.R into function -vv
 df.preprocessed <- data.enriched[[1]]
 update.fields   <- data.enriched[[2]]
 conversions     <- data.enriched[[3]]
