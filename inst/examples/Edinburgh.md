@@ -55,10 +55,24 @@ output: markdown_document
 ```
 
 ```
-## Error in seq(min(dfm$Time), max(dfm$Time), 20): object 'dfm' not found
+## Error in eval(expr, envir, enclos): object 'p' not found
 ```
 
-![plot of chunk EdinburghPubs](figure/EdinburghPubs-1.png)
+```
+## Error in eval(expr, envir, enclos): object 'p' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'p' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'p' not found
+```
+
+```
+## Error in print(p): object 'p' not found
+```
 
 ```
 ## Error in tapply(df$unity, list(df$publication.timeunit, df$publication_place), : arguments must have same length
@@ -128,7 +142,7 @@ output: markdown_document
 ## Error in seq(min(dfs$date), max(dfs$date), 20): object 'dfs' not found
 ```
 
-![plot of chunk EdinburghPubs](figure/EdinburghPubs-2.png)
+![plot of chunk EdinburghPubs](figure/EdinburghPubs-1.png)
 
 ```
 ## Error in nrow(dfs): object 'dfs' not found
@@ -146,7 +160,7 @@ output: markdown_document
 ## Error in seq(min(dfs$date), max(dfs$date), 20): object 'dfs' not found
 ```
 
-![plot of chunk EdinburghPubs](figure/EdinburghPubs-3.png)
+![plot of chunk EdinburghPubs](figure/EdinburghPubs-2.png)
 
 
 
