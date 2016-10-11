@@ -7,7 +7,11 @@ load_all()
 
 
 # I/O definitions
-output.folder <- "output.tables/"
+# make daily output folders TODO convert into function -vv
+today.str <- as.character(Sys.Date())
+output.folder <- paste("output.tables/", today.str, "/", sep = '')
+# old version:
+# output.folder <- "output.tables/"
 dir.create(output.folder)
 
 # List preprocessed data files
@@ -43,6 +47,12 @@ source(system.file("extdata/init.R", package = "bibliographica"))
 # load initial data
 df.orig <- load_initial_datafile(fs, ignore.fields, reload.data = FALSE)
 # returns: df.orig
+
+# Test with small data test set
+# df.orig <- df.orig[sample(1:nrow(df.orig), 1000),] # random 1000
+# df.orig <- df.orig[1:1000, ] # first 1000
+
+
 
 # load data for preprocessing
 data.preprocessing <- get_preprocessing_data(df.orig, 
@@ -92,13 +102,10 @@ data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
 # some function(s) need df.orig. Should tidy that up? -vv
 rm(data.validated)
 
-# TODO make enrich.estc.R into function -vv
-df.preprocessed <- data.enriched[[1]]
-update.fields   <- data.enriched[[2]]
-conversions     <- data.enriched[[3]]
+source("enrich.estc.R") # load function: enrich_estc
+data.enriched.estc <- enrich_estc(data.enriched)
 
-source("enrich.estc.R")
-
+df.preprocessed <- data.enriched.estc$df.preprocessed
 # ----------------------------------------------------
 
 print("Saving updates on preprocessed data")
