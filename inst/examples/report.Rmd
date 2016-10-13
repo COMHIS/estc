@@ -29,6 +29,10 @@ params:
     label: "End year:"
     input: numeric
     value: 1880
+  time.window: 
+    label: "Time window:"
+    input: numeric
+    value: 10
   date: 
     label: "Date:"
     value: !r date()
@@ -63,6 +67,12 @@ if (params$update.bibliographica) {
 mydate <- params$start
 min.year <- params$min.year
 max.year <- params$max.year
+
+# Time window for the plots
+time.window <- params$time.window
+
+# Limit the length of names to print on screen / figures
+nchar <- 40
 
 library(devtools)
 library(estc)
@@ -103,6 +113,16 @@ ntop <- 20
 ```{r data, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
 # Read the preprocessed data
 df.preprocessed <- readRDS("df.Rds")
+
+# Set the desired time window (default one decade)
+if (time.window == 10) {
+  df.preprocessed$publication_time <- df.preprocessed$publication_decade
+} else {
+  df.preprocessed$publication_time <- time.window * floor(df.preprocessed$publication_year / time.window)
+}
+
+
+
 
 # Metadata field for the IDs
 #idfield <- "control_number"
@@ -157,6 +177,7 @@ hitp0 <- 100 * hitn0/nrow(custom.ids)
 df0 <- df0 %>% filter(publication_year >= min.year &
 			                publication_year <= max.year)
 
+
 # Hits after subsetting
 hitn1 <- nrow(df0)
 hitp1 <- 100 * hitn1/nrow(custom.ids)
@@ -191,6 +212,7 @@ print(p)
 
 # Stats for our custom list
 myfield <- "titlecount"
+
 res0 <- timeline(df0, field = myfield, nmin = 0, mode = "absolute") 
 fig0 <- res0$plot
 tab0 <- res0$table
@@ -200,19 +222,19 @@ tab0$group <- rep("Custom", nrow(tab0))
 # Limit the analysis on the same time window
 tab <- timeline(df.preprocessed, field = myfield, nmin = 0, mode = "absolute")$table
 tab$group <- rep("ESTC", nrow(tab))
-tab <- subset(tab, publication_decade >= min(tab0$publication_decade) &
-                   publication_decade <= max(tab0$publication_decade))
+tab <- subset(tab, publication_time >= min(tab0$publication_time) &
+                   publication_time <= max(tab0$publication_time))
 
 df <- bind_rows(tab, tab0)
 df$group <- factor(df$group)
-df <- df %>% select(publication_decade, group, absolute) %>% 
+df <- df %>% select(publication_time, group, absolute) %>% 
              spread(key = "group", value = "absolute", fill = 0) 
 df <- df %>%mutate(fraction = 100 * Custom/ESTC)
 
-p <- ggplot(df, aes(y = fraction, x = publication_decade)) + 
+p <- ggplot(df, aes(y = fraction, x = publication_time)) + 
        geom_bar(stat = "identity") + 
        ylab("Fraction of total documents (%)")  + 
-       xlab("Publication decade") +
+       xlab("Publication time") +
 	     ggtitle("Relative to all documents") 
 
 p1 <- fig0 + ylab("Title count (n)") + ggtitle("Absolute")
@@ -237,19 +259,19 @@ tab0$group <- rep("Custom", nrow(tab0))
 # Limit the analysis on the same time window
 tab <- timeline(df.preprocessed, field = myfield, nmin = 0, mode = "absolute")$table
 tab$group <- rep("ESTC", nrow(tab))
-tab <- subset(tab, publication_decade >= min(tab0$publication_decade) &
-                   publication_decade <= max(tab0$publication_decade))
+tab <- subset(tab, publication_time >= min(tab0$publication_time) &
+                   publication_time <= max(tab0$publication_time))
 
 df <- bind_rows(tab, tab0)
 df$group <- factor(df$group)
-df <- df %>% select(publication_decade, group, absolute) %>% 
+df <- df %>% select(publication_time, group, absolute) %>% 
              spread(key = "group", value = "absolute", fill = 0) 
 df <- df %>%mutate(fraction = 100 * Custom/ESTC)
 
-p <- ggplot(df, aes(y = fraction, x = publication_decade)) + 
+p <- ggplot(df, aes(y = fraction, x = publication_time)) + 
        geom_bar(stat = "identity") + 
        ylab("Fraction of total documents (%)")  + 
-       xlab("Publication decade") +
+       xlab("Publication time") +
 	     ggtitle("Relative to all documents") 
 
 p1 <- fig0 + ylab("Paper (sheets)") + ggtitle("Absolute")
@@ -280,60 +302,70 @@ print(p)
 
 ### Top authors
 
-The top authors can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (right).
+The top authors by title count (left; total hits across all editions
+shown in the middle); or by hits per edition (right)
 
-```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+```{r topauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
+
 df <- df0
 field <- "author"
-p1 <- NULL
+
+p1 <- p2 <- p3 <- NULL
+
 p1 <- top_plot(df, field, ntop) +
      		  ggtitle("Title count") +
 		  ylab("Title count (n)") 
 
-```
-
-```{r topauthors2a, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 # Use unnormalized frequency for now
 df$hits <-  unlist(custom.ids[match(df$id, custom.ids$id), "freq"], use.names = F) 
 df$names <- df[[field]]
-dfs <- df %>% group_by(names)
-```
+dfs.total <- df %>% group_by(names) %>%
+              filter(!is.na(names)) %>%
+	      summarise(count = sum(hits, na.rm = T), n = n()) %>%
+	      mutate(hits.per.edition = count/n)
 
-```{r topauthors2b, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% dplyr::filter(!is.na(names))
-```
+# Limit title length
+dfs.total$names <- substr(as.character(dfs.total$names), 1, nchar)
 
-```{r topauthors2c, echo=FALSE, message=FALSE, warning=FALSE}
-dfs <- dfs %>% dplyr::summarise(count = sum(hits, na.rm = T))
-```
+# Select top-N
+dfs <- dfs.total %>% arrange(desc(count)) %>% head(ntop) 
+dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
 
-```{r topauthors2d, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% arrange(desc(count))
-```
-
-```{r topauthors2e, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-dfs <- dfs %>% head(ntop) 
-```
-
-```{r topauthors3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-if (nrow(dfs) > 0) {
-  dfs$names <- droplevels(factor(dfs$names, levels = rev(dfs$names)))
-  theme_set(theme_bw(15))  
-  p <- ggplot(dfs, aes(x = names, y = count))
+theme_set(theme_bw(15))  
+p <- ggplot(dfs, aes(x = names, y = count))
   p <- p + geom_bar(stat = "identity")
   p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$count))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  #p <- p + scale_y_log10(breaks = v, labels = v)    
   p <- p + ylab("Term occurrences (n)") + xlab("")
-  p <- p + ggtitle("Query hits")
+  p <- p + ggtitle("Total hits")
+  p1 <- p
+
+p <- ggplot(dfs, aes(x = names, y = hits.per.edition))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$hits.per.edition))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  p <- p + ylab("Hits per edition (n)") + xlab("")
+  p <- p + ggtitle("Hits/edition")
   p2 <- p
-} else {
-  p2 <- ggplot() + ggtitle("No data for this selection")
-}
+
+# Select top-N
+dfs2 <- dfs.total %>% arrange(desc(hits.per.edition)) %>% head(ntop) 
+dfs2$names <- droplevels(factor(dfs2$names, levels = rev(dfs2$names)))
+p <- ggplot(dfs2, aes(x = names, y = hits.per.edition))
+  p <- p + geom_bar(stat = "identity")
+  p <- p + coord_flip()
+  v <- 10^(1:max(na.omit(round(log10(max(dfs$hits.per.edition))))))
+  p <- p + scale_y_log10(breaks = v, labels = v)
+  p <- p + ylab("Hits per edition (n)") + xlab("")
+  p <- p + ggtitle("Hits/edition")
+  p3 <- p
+
+grid.arrange(p1, p2, p3, nrow = 1)
 ```
 
-
-```{r topauthors4, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
-grid.arrange(p1, p2, nrow = 1)
-```
 
 
 ### Title count timeline for top 10 authors
@@ -343,13 +375,13 @@ df <- df0
 theme_set(theme_bw(20))
 top.authors <- names(top(df, field = "author", n = 10))
 dfs <- df %>% filter(author %in% top.authors) %>%
-     	 group_by(author, publication_decade) %>%
+     	 group_by(author, publication_time) %>%
      	 tally() %>%
-     	 arrange(publication_decade)
-v <- seq(min(dfs$publication_decade), max(dfs$publication_decade), 20)
-p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
+     	 arrange(publication_time)
+v <- seq(min(dfs$publication_time), max(dfs$publication_time), 20)
+p <- ggplot(dfs, aes(x = publication_time, y = n, fill = author)) +
        geom_bar(stat = "identity", position = "stack", color = "black") +
-       xlab("Publication decade") +
+       xlab("Publication time") +
        ylab("Title count (n)") +
        scale_fill_grey() +
        scale_x_continuous(breaks = v, labels = v) +
@@ -398,10 +430,6 @@ grid.arrange(p1, p2, nrow = 1)
 
 
 ### Top titles by title count
-
-```{r toptitles-init, echo=FALSE, message=FALSE, warning=FALSE}
-nchar <- 40
-```
 
 Up to `r nchar` first characters for each title are shown.
 
@@ -493,7 +521,8 @@ grid.arrange(p1, p2, p3, nrow = 1)
 
 ### Top publishers
 
-The top publishers can be defined by title count (regardless of number of hits in each title; left) or by the total sum of query hits across all documents (right).
+The top publishers can be defined by title count (left) or by the total hits
+across all documents (right).
 
 ```{r toppublishers, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 df <- df0

@@ -10,7 +10,7 @@ Authors@R: c(
     person("Tolonen", "Mikko", role = "aut"))
 MailingList: rOpenGov <ropengov-forum@googlegroups.com>
 Description: Algorithms for British Library ESTC data collection.
-License: BSD_2_clause + file LICENSE
+License: GPL-3 + file LICENSE
 VignetteBuilder: knitr
 Encoding: UTF-8
 BugReports: https://github.com/ropengov/estc/issues
