@@ -291,6 +291,7 @@ df$type <- factor(df$type)
 df2 <- df %>% group_by(publication_year, type) %>%
               summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
 	      filter(!is.na(type))
+
 p <- ggplot(df2, aes(x = publication_year, y = paper, group = type, color = type))
 p <- p + geom_point() + scale_y_log10() 
 p <- p + geom_smooth(method = "loess")

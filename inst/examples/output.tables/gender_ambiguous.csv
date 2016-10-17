@@ -430,8 +430,8 @@ edward augustus	11
 edward william	11
 ely	11
 fr	11
-george smith	11
 georg friedrich	11
+george smith	11
 gilbert elliot	11
 henry evans	11
 henry redhead	11
@@ -580,8 +580,8 @@ alexander lockhart	7
 alexis	7
 angelus	7
 archer	7
-auguste heinrich julius	7
 august wilhelm	7
+auguste heinrich julius	7
 azel	7
 bennett	7
 billy	7
@@ -764,6 +764,8 @@ francis stoughton	5
 françois jean	5
 françois paul	5
 french	5
+g neville	5
+georg paul	5
 george andrew	5
 george augustus william	5
 george brudenell	5
@@ -772,15 +774,13 @@ george buchan	5
 george edward	5
 george griffin	5
 george pitt	5
-georg paul	5
 gervase parker	5
-g neville	5
 henry rich	5
 hermon	5
+j hector	5
 jacques andré	5
 james ph	5
 jean sylvain	5
-j hector	5
 johann adam	5
 johann clemens	5
 johann gottfried	5
@@ -804,8 +804,8 @@ margaret blair	5
 matthew white	5
 mervyn touchet	5
 noel joseph	5
-philip david	5
 ph levi	5
+philip david	5
 richard bankes	5
 richard graham	5
 richard henry	5
@@ -865,8 +865,8 @@ charles calvert	4
 charles fitzroy	4
 charles frederick	4
 charles gerard	4
-charles-marguerite-jean-baptiste mercier	4
 charles theodore	4
+charles-marguerite-jean-baptiste mercier	4
 christian heinrich	4
 christian peter von	4
 christopher daniel	4
@@ -902,9 +902,9 @@ george goring	4
 george montgomery	4
 george parker	4
 george ramsay	4
-georges-louis de	4
 george van den bempdé	4
 george william	4
+georges-louis de	4
 giles linnett	4
 giuseppe loreto	4
 gustav anton	4
@@ -917,12 +917,14 @@ henry francis	4
 henry loftus	4
 henry petty	4
 hermann van der	4
-hipólito san joseph	4
 hipólito san joseph	4
+hipólito san joseph	4
 home riggs	4
 hugh percy	4
 hull	4
 is	4
+j dennis	4
+j van der	4
 jacques bénigne	4
 james augustus	4
 james harris	4
@@ -931,11 +933,11 @@ james lindsay	4
 james scott	4
 james stewart	4
 jas	4
-j dennis	4
 jean rodolphe d'	4
 jean siffrein	4
 jemmy	4
 jenkin	4
+jo jacob	4
 johan	4
 johann christian	4
 johann conrad	4
@@ -948,7 +950,6 @@ john miller	4
 john paul	4
 john russell	4
 john sylvester john	4
-jo jacob	4
 jon	4
 jona	4
 jordan	4
@@ -957,7 +958,6 @@ joseph jacob ritter von	4
 joseph jekyll	4
 joshua l	4
 julien	4
-j van der	4
 karl josef von	4
 lemuel dole	4
 libert	4
@@ -965,13 +965,13 @@ louis claude	4
 louis edmé	4
 louis guillaume	4
 lucius henry	4
+m le roy	4
 mary dawes	4
 mary elizabeth	4
 matteo maria	4
 maurice auguste	4
 maxwell	4
 mead	4
-m le roy	4
 morgan j	4
 murray	4
 neal	4
@@ -1132,6 +1132,7 @@ higgins	3
 hugh murray	3
 isabella howard	3
 ivory	3
+j g van	3
 jacob judah aryeh leon	3
 jacques benigne	3
 jakob von	3
@@ -1147,16 +1148,15 @@ jean nicolas	3
 jean philippe	3
 jeremiah van	3
 jerry	3
-j g van	3
 joe	3
 johann albrecht	3
 johann christoph	3
 johann christophorus	3
 johann ernst	3
-johannes van	3
 johann gotthilf	3
 johann liborius	3
 johann nepomuck	3
+johannes van	3
 john bernard	3
 john cole	3
 john george	3
@@ -1256,6 +1256,8 @@ adam cockburn	2
 addison	2
 agamemnon shaglock van	2
 agrippa d'	2
+al -phil	2
+al qāsim ibn ḁlı̄	2
 alexander bruce	2
 alexander doriack	2
 alexander gibson	2
@@ -1263,16 +1265,14 @@ alexander herman	2
 alexander murray	2
 alexander ogilvy	2
 allyn	2
-al -phil	2
-al qāsim ibn ḁlı̄	2
 amelia fraser	2
 amy	2
 andres	2
 angell dillon	2
-anne hamilton	2
 ann elizabeth	2
 ann julia	2
 ann maria	2
+anne hamilton	2
 anthony da	2
 anthony james radclyffe	2
 antoine alexandre henri	2
@@ -1281,9 +1281,9 @@ antoine grimoald	2
 antoine john	2
 antoine urbain	2
 anton ferdinand von	2
+anton raphael	2
 antonia	2
 antonie	2
-anton raphael	2
 aquila	2
 ari	2
 ariel	2
@@ -1297,10 +1297,10 @@ barbara villiers palmer	2
 barnett	2
 barry yelverton	2
 beau	2
-benjamina	2
-benjamine	2
 benjamin franklin	2
 benjamin habakkuk	2
+benjamina	2
+benjamine	2
 bernard edward howard	2
 bernardus	2
 betty	2
@@ -1351,12 +1351,12 @@ collin	2
 connor maguire	2
 da	2
 da milano	2
+da vinci	2
 daniel augustus	2
 daniel tnangam	2
 darcy	2
 david c	2
 david francesco	2
-da vinci	2
 dietrich ludwig gustav	2
 dillon	2
 dionis	2
@@ -1378,7 +1378,6 @@ fernando	2
 frances dillon	2
 frances maria	2
 frances teresa stuart	2
-francisco solano	2
 francis daniel	2
 francis ferrand	2
 francis john hyde	2
@@ -1388,6 +1387,7 @@ francis seymour	2
 francis stuart	2
 francis thomas	2
 francis venables	2
+francisco solano	2
 francois	2
 françois marc	2
 frans van den	2
@@ -1400,6 +1400,10 @@ gabriel james	2
 gael	2
 geo alex	2
 georg adam	2
+georg ernst	2
+georg joachim	2
+georg jonathan von	2
+georg rodolf	2
 george campbell	2
 george fermor	2
 george forbes	2
@@ -1411,14 +1415,10 @@ george keith	2
 george montagu	2
 george peter	2
 george poyntz	2
-georg ernst	2
 george rodney	2
 george symes	2
 george talbot	2
 george woodford	2
-georg joachim	2
-georg jonathan von	2
-georg rodolf	2
 gerard fridrikh	2
 german	2
 gershom mendes	2
@@ -1458,15 +1458,15 @@ james ross	2
 james smith	2
 jane elizabeth leslie	2
 jean denis	2
-jeane	2
 jean marie jérôme	2
+jeane	2
 jirah	2
 joannes maria de	2
 johan daniel	2
+johan van	2
 johann august	2
 johann bernhard	2
 johann daniel	2
-johannes justus	2
 johann gottlob	2
 johann heinrich von	2
 johann hermann	2
@@ -1481,7 +1481,7 @@ johann philip	2
 johann seger	2
 johann stephan	2
 johann wolfgang andreas	2
-johan van	2
+johannes justus	2
 john brice	2
 john charles	2
 john gabriel	2
@@ -1490,13 +1490,13 @@ john hermon	2
 john le	2
 john lewis	2
 john neal	2
-johnny	2
 john pascal	2
 john ralph	2
 john ruthven	2
 john sidney	2
 john tracy	2
 john villiers	2
+johnny	2
 johny	2
 jonathan williams	2
 joseph adolphe	2
@@ -1578,9 +1578,9 @@ peter brady	2
 peter henry	2
 phil d'	2
 philip howard	2
-philippe louis franc̜ois	2
 philip pitt	2
 philipp johann	2
+philippe louis franc̜ois	2
 pier francesco	2
 pierre étienne auguste	2
 pierre hubert	2
@@ -1588,6 +1588,7 @@ pierre jean baptiste	2
 pierre marie auguste	2
 pieter van	2
 polly	2
+r plumer	2
 randal macdonnell	2
 raph	2
 reader	2
@@ -1612,7 +1613,6 @@ robert macqueen	2
 robert sidney	2
 robert thomas	2
 roman	2
-r plumer	2
 sands	2
 sarah harriet	2
 sholto charles douglas	2
@@ -1685,6 +1685,8 @@ william west	2
 wilson	2
 wm geo	2
 zephaniah swift	2
+a charles	1
+a henry	1
 abbe	1
 abijah	1
 abraham ben little	1
@@ -1696,7 +1698,6 @@ abraham l	1
 abraham nicolas	1
 abraham redwood	1
 abraham richard	1
-a charles	1
 adam crawfurd	1
 adam friedrich wilhelm	1
 adam john	1
@@ -1710,7 +1711,6 @@ adrian hardy	1
 adrian von	1
 adrien quentin	1
 aemilius van	1
-a henry	1
 al	1
 albany	1
 alexander c	1
@@ -1745,9 +1745,10 @@ and a citizen of dublin	1
 andrea giuseppe	1
 andreas elias	1
 andrew wilson	1
-angela margarita	1
 ange marie	1
+angela margarita	1
 angier	1
+ann sophia	1
 anna d'or	1
 anna dorothea	1
 anna elizabeth grenville	1
@@ -1762,7 +1763,6 @@ anne marie	1
 anne moore	1
 anne pawlet	1
 anne west	1
-ann sophia	1
 antho	1
 anthony adrian keith-falconer	1
 anthony ashly cooper	1
@@ -1771,13 +1771,13 @@ antoine alexandre	1
 antoine jean	1
 antoine louis claude	1
 antoine simon	1
+anton maria	1
+anton van	1
 antonio dalla	1
 antonio jayme	1
 antonio mario	1
 antonió nunes ribeiro	1
 antonius da rocha	1
-anton maria	1
-anton van	1
 ap	1
 armand	1
 armand john	1
@@ -1788,12 +1788,12 @@ arthur scott	1
 ascanius christopher	1
 asher anshel	1
 at cove	1
+august friedrich wilhelm	1
+august william	1
 auguste david	1
 auguste guillaume	1
-august friedrich wilhelm	1
 augustus montague	1
 augustus quirinus	1
-august william	1
 aurelio lippo	1
 austin	1
 back	1
@@ -1821,6 +1821,9 @@ bryant	1
 buff	1
 but no stoup and rail man	1
 but no tory	1
+c h f von	1
+c jun	1
+c p claret	1
 cadwallader blaney	1
 caleb page	1
 calm	1
@@ -1828,12 +1831,12 @@ carina	1
 carl august	1
 carl fredrik	1
 carl ignaz	1
-carlisle	1
 carl johan von	1
 carl ludwig	1
+carl philipp caspar von	1
+carlisle	1
 carlo emanuele filiberto giacinto da	1
 carlo monte	1
-carl philipp caspar von	1
 carney cavanaugh	1
 carter	1
 carter burwell	1
@@ -1894,7 +1897,6 @@ charley	1
 charlotte rose de	1
 charlotte saumaise de chazan	1
 chase	1
-c h f von	1
 child	1
 christian adolph	1
 christian daniel von	1
@@ -1905,13 +1907,12 @@ christian jacob	1
 christian l a	1
 christian severin	1
 christian wilhelm franz	1
+christoph ludwig von	1
+christoph otto von	1
 christopher bridge	1
 christopher ernest	1
 christopher lake	1
 christopher william	1
-christoph ludwig von	1
-christoph otto von	1
-c jun	1
 claude antoine	1
 claude boniface	1
 claude emmanuel joseph pierre	1
@@ -1929,7 +1930,6 @@ cook	1
 corbin	1
 cornelis van	1
 cosmo george gordan	1
-c p claret	1
 crean	1
 crispin paul	1
 dacre barrett	1
@@ -2030,20 +2030,21 @@ eyre burton	1
 ez	1
 ezekiel john	1
 ezekiel l	1
+f h af	1
+f william	1
 faith	1
 farrell	1
 fath ʿali	1
 ferdinand jean maximilien	1
-f h af	1
 fleury paulet	1
 foy	1
 franc	1
-francesco maria	1
 frances hastings	1
 frances howard carr	1
 frances lane	1
 frances seymour	1
 frances talbot	1
+francesco maria	1
 francis adrian	1
 francis ægidius	1
 francis aspry	1
@@ -2052,11 +2053,6 @@ francis balladon	1
 francis bernard	1
 francis blake	1
 francis bowes	1
-francisca	1
-francisco antonio	1
-francisco baltheo	1
-francisco moles	1
-francisco xaverio	1
 francis egerton	1
 francis frye	1
 francis hamilton	1
@@ -2068,14 +2064,19 @@ francis paul	1
 francis rigby	1
 francis thomas fitzmaurice	1
 francis tracy	1
+francisca	1
+francisco antonio	1
+francisco baltheo	1
+francisco moles	1
+francisco xaverio	1
 françois armand	1
 françois charles	1
-franc̜oise marie antoinette	1
 françois germain	1
 françois joseph	1
 françois marie	1
 francois paul	1
 françois simon	1
+franc̜oise marie antoinette	1
 franz andreas	1
 franz christopher august	1
 frederick armand	1
@@ -2093,7 +2094,6 @@ friedrich ernst von	1
 friedrich ludwig anton	1
 friedrich ludwig von	1
 friedrich sebastian	1
-f william	1
 gabriel d'	1
 gabriele	1
 gaius cornelius	1
@@ -2104,6 +2104,16 @@ general don	1
 georg christ	1
 georg christoph	1
 georg dionysius	1
+georg franz	1
+georg friedrich von	1
+georg georgson	1
+georg gottfried	1
+georg heinrich	1
+georg heinrich von	1
+georg henning	1
+georg michael	1
+georg wilhelm	1
+georg wolffgang	1
 george andrew patrick	1
 george augustine	1
 george augustus	1
@@ -2130,8 +2140,8 @@ george legge	1
 george lethieullier	1
 george lewis	1
 george m	1
-george mackay	1
 george m'farquhar	1
+george mackay	1
 george milligen	1
 george montagu-dunk	1
 george o'brien wyndham	1
@@ -2150,18 +2160,8 @@ george vincent	1
 george ward	1
 george whitfield	1
 george william frederick osborne	1
-georg franz	1
-georg friedrich von	1
-georg georgson	1
-georg gottfried	1
-georg heinrich	1
-georg heinrich von	1
-georg henning	1
 georgio	1
 georgius fredericus	1
-georg michael	1
-georg wilhelm	1
-georg wolffgang	1
 gerard johann	1
 gerard noel	1
 gerard william	1
@@ -2200,8 +2200,8 @@ hayyim joseph david	1
 hector gottfried	1
 heinrich anshelm von	1
 hendrick van	1
-henrich rupert	1
 henri louis	1
+henrich rupert	1
 henry allen	1
 henry arthur herbert	1
 henry augustus montagu	1
@@ -2266,8 +2266,8 @@ hugh hare	1
 ignacio marı́a	1
 ill	1
 in	1
-indiana	1
 in pensylvanien	1
+indiana	1
 io	1
 isaac burke	1
 isaac francis	1
@@ -2277,12 +2277,16 @@ isidore	1
 israel beard	1
 italian	1
 ivan andreevich	1
+j bradley	1
+j daniel	1
+j henry	1
+j lee	1
 jacob bernard	1
 jacob conelissoon van	1
+jacob van	1
 jacobus barter makittrick	1
 jacobus bernardus	1
 jacobus pearson	1
-jacob van	1
 jacopo di	1
 jacques antoine	1
 jacques cristoph	1
@@ -2310,11 +2314,10 @@ james roch	1
 james wilmot	1
 jamie	1
 jane cochrane	1
-janet carmichael	1
 jane ward	1
+janet carmichael	1
 janus julius	1
-j bradley	1
-j daniel	1
+je&# ;ro&# ;me marie	1
 jean albert d'	1
 jean alexandre	1
 jean baptiste bertrand	1
@@ -2341,35 +2344,29 @@ jean le royer	1
 jean lindsay-crawford	1
 jean louis marie	1
 jean maria	1
+jean renʹe	1
+jean rodolphe	1
 jeanne bécu	1
 jeanne bécu	1
 jeanne margeritte	1
-jean renʹe	1
-jean rodolphe	1
 jehan	1
 jemima maria	1
 jeremia	1
 jeremiah gates	1
 jeremias david	1
-je&# ;ro&# ;me marie	1
 jerzy	1
 jerzy daniel	1
-j henry	1
-j lee	1
+jo jac	1
 joan derk van der	1
 joannes baptista de	1
 joannes cornelius de	1
 joannes de	1
-johanes	1
 johan henrich	1
+johan splinter	1
+johanes	1
 johann albert	1
 johann dietrich philipp christian	1
 johann elias	1
-johannes aegidius van	1
-johannes augustus	1
-johannes thedorus van der	1
-johannes velmont van	1
-johannes von	1
 johann eustachius	1
 johann ferdinand	1
 johann friedrich august	1
@@ -2394,7 +2391,11 @@ johann valentin	1
 johann van der	1
 johann von	1
 johann wolfgang	1
-johan splinter	1
+johannes aegidius van	1
+johannes augustus	1
+johannes thedorus van der	1
+johannes velmont van	1
+johannes von	1
 john abraham	1
 john alexander	1
 john baker	1
@@ -2434,7 +2435,6 @@ john prichard	1
 john ross	1
 john taylor	1
 john willoughby cole	1
-jo jac	1
 jonas smith	1
 jonathan carter	1
 jonathan loring	1
@@ -2515,12 +2515,12 @@ lotis	1
 louis amédée	1
 louis antoine	1
 louis armand	1
-louise marguerite jeanne madeleine	1
 louis françois isidore	1
 louis henry	1
 louis hue	1
 louis jules barbon mancini-mazarini	1
 louis moreau	1
+louise marguerite jeanne madeleine	1
 lovel	1
 luca antonio	1
 lucius henry cary	1
@@ -2530,6 +2530,7 @@ ludwig heinrich von	1
 lunar	1
 lydia mariana	1
 lyrick	1
+m radclyffe	1
 mack me	1
 macktellina livingston	1
 manby	1
@@ -2548,15 +2549,15 @@ margaret somerset	1
 margaret stuart	1
 maria elizabeth	1
 maria hester	1
-marian	1
 maria theresa	1
 maria woodley	1
+marian	1
 marie armande jeanne	1
 marie joseph paul yves roch gilbert du motier	1
 marie thérèse	1
-marina	1
 marin grostête	1
 marin leroy	1
+marina	1
 mark alexander	1
 mark moses	1
 martha thompson	1
@@ -2595,8 +2596,8 @@ michael von	1
 michel ange	1
 michel armand	1
 michel coltelli	1
-michele	1
 michel pedersøn	1
+michele	1
 michiel van	1
 miers	1
 miriam	1
@@ -2605,7 +2606,6 @@ mordecai gumpel levi	1
 moses à	1
 moses ben isaac	1
 moses leavitt	1
-m radclyffe	1
 mr of art	1
 mrs aphra	1
 mrs john	1
@@ -2640,9 +2640,9 @@ paul eurialius	1
 paul françois	1
 paul h	1
 paul henri	1
-paulino da	1
 paul philippe	1
 paul stevens	1
+paulino da	1
 paulus van	1
 pavel	1
 pedro pablo	1
@@ -2654,13 +2654,13 @@ petrus van	1
 phelim mc	1
 philip henry	1
 philip parry price	1
-philippe henri	1
-philippe louis	1
-philipp georg friedrich von	1
-philipp johann von	1
 philip sidney	1
 philip smythe	1
 philip william	1
+philipp georg friedrich von	1
+philipp johann von	1
+philippe henri	1
+philippe louis	1
 pier	1
 pierre abraham	1
 pierre amable	1
@@ -2678,6 +2678,7 @@ plunkett	1
 post	1
 prentice	1
 quin mackenzie	1
+r richard	1
 ralph fl	1
 ralph hanson	1
 ramsay	1
@@ -2764,16 +2765,16 @@ robert robinson watson	1
 robert rochfort	1
 robert ryves	1
 robert tilson deane	1
+robert w	1
 robertus mackewn	1
 robertus rogers	1
-robert w	1
 rogers	1
 rorie	1
 rowan	1
 rowland otto	1
-r richard	1
 rudolph august	1
 russell	1
+s man	1
 sad	1
 sake deen	1
 sally sayward barrell keating	1
@@ -2806,22 +2807,21 @@ sir paul	1
 sir robert	1
 sir walter	1
 sloane	1
-s man	1
 sophie	1
 stephen abel	1
 stephen bloomer	1
 susan kennedy	1
 sylvia	1
+t augustus	1
 talbot	1
 tanneguy joseph cauvin	1
-t augustus	1
 tedy	1
 temple simon	1
 theod	1
 theodoor jansson van	1
-theodore forbes	1
 theodor gottlieb von	1
 theodor van der	1
+theodore forbes	1
 theophilus henry	1
 theophilus lewis	1
 thieleman j van	1
@@ -2854,8 +2854,8 @@ trinity	1
 truth	1
 umdat al-muk anwar al-din	1
 uriel	1
-valentine browne lawless	1
 valentin jean	1
+valentine browne lawless	1
 van hugo gasper	1
 victor	1
 vincenzo da	1
@@ -2888,9 +2888,9 @@ william beeston	1
 william bellingham	1
 william benson	1
 william burton	1
+william c c	1
 william capel	1
 william carrique	1
-william c c	1
 william chambers	1
 william charles farrell	1
 william charles keppel	1
@@ -2943,14 +2943,13 @@ william r	1
 william robinson	1
 william roundell	1
 william rowland	1
-williams	1
 william saunders	1
 william sidney	1
 william soranzo	1
 william spicer	1
+william st lawrence	1
 william stafford	1
 william stanhope	1
-william st lawrence	1
 william tileston	1
 william urban	1
 william vans	1
@@ -2959,6 +2958,7 @@ william wilberforce	1
 william wildman	1
 william wilmot	1
 william windle	1
+williams	1
 willielma campbell	1
 willm	1
 willmot	1
