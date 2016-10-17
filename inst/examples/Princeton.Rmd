@@ -23,7 +23,7 @@ df <- df.preprocessed
 selected.topics <- c("Thirty Years' War, 1618-1648", "Popish Plot, 1678")
 dfs <- filter(df, topic %in% selected.topics)
    
-dfs <- dfs %>% group_by(topic, publication_decade) %>% summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), documents = n())
+dfs <- dfs %>% group_by(topic, publication_decade) %>% summarize(paper = sum(paper, na.rm = TRUE), documents = n())
 
 theme_set(theme_bw(20))
 p <- ggplot(dfs, aes(x = publication_decade, y = documents, group = topic))
@@ -37,7 +37,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = paper, group = topic))
 p <- p + geom_point(aes(col = topic))
 p <- p + geom_line(aes(col = topic))
 p <- p + xlab("Publication Decade")
-p <- p + ylab("Paper (km2)")
+p <- p + ylab("Paper")
 p2 <- p
 
 library(gridExtra)
@@ -53,7 +53,7 @@ dfs <- filter(df, country %in% selected.countries)
 dfs <- dfs %>% filter(!is.na(country))
 dfs$country <- droplevels(dfs$country)
 
-dfs <- dfs %>% group_by(country, publication_decade) %>% summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), documents = n())
+dfs <- dfs %>% group_by(country, publication_decade) %>% summarize(paper = sum(paper, na.rm = TRUE), documents = n())
 theme_set(theme_bw(20))
 
 p <- ggplot(dfs, aes(x = publication_decade, y = documents, group = country))
@@ -67,7 +67,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = paper, group = country))
 p <- p + geom_point(aes(col = country))
 p <- p + geom_line(aes(col = country))
 p <- p + xlab("Publication Decade")
-p <- p + ylab("Paper (km2)")
+p <- p + ylab("Paper")
 p2 <- p
 
 library(gridExtra)

@@ -106,20 +106,20 @@ Note: there are `r length(which(is.na(df$cm2) & (!is.na(df$gatherings.original) 
 library(dplyr)
 library(ggplot2)
 df <- df.preprocessed
-df2 <- df %>% group_by(publication_year) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 library(sorvi)
-p <- regression_plot(paper.consumption.km2 ~ publication_year, df2) 
+p <- regression_plot(paper ~ publication_year, df2) 
 p <- p + ggtitle("Total annual paper consumption")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 
 # Year vs paper with text
-#p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_year))
+#p <- ggplot(df2, aes(y = paper, x = publication_year))
 #p <- p + geom_text(aes(label = publication_year))
 #p <- p + ggtitle("Total annual paper consumption")
 #p <- p + xlab("Year")
-#p <- p + ylab("Paper consumption (km2)")
+#p <- p + ylab("Paper consumption")
 #print(p)
 
 p <- regression_plot(n ~ publication_year, df2) 
@@ -131,16 +131,16 @@ print(p)
 
 ```{r paperconsumption2b, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
 df <- df.preprocessed
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
-p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_year, group = gatherings, color = gatherings))
+p <- ggplot(df2, aes(y = paper, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
 #p <- p + geom_line()
 #p <- p + scale_y_log10()
 p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Annual paper consumption by gatherings")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 p <- p + scale_color_discrete(guide = guide_legend(title = "Doc. Size"))
 print(p)
 
@@ -159,7 +159,7 @@ print(p)
 
 ```{r pagecounts-gatherings-relab, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
 df <- df.preprocessed
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
 
 p <- ggplot(df2, aes(x = publication_year, fill = gatherings)) + geom_bar(position = "stack", stat = "bin")
@@ -183,13 +183,13 @@ print(p)
 
 ```{r paperconsumption2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
 df <- df.preprocessed
-df2 <- df %>% group_by(publication_year) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2/n))
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper/n))
 p <- p + geom_point()
 p <- p + geom_line()
 p <- p + ggtitle("Average paper consumption per document")
 p <- p + xlab("Year")
-p <- p + ylab("Average paper consumption per document (km2)")
+p <- p + ylab("Average paper consumption per document")
 print(p)
 ```
 
@@ -206,13 +206,13 @@ df$type[df$pagecount > 32] <- "book"
 df$type[df$pagecount <= 32] <- "pamphlet"
 df$type <- factor(df$type)
 
-df2 <- df %>% group_by(publication_year, type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2, group = type, color = type))
+df2 <- df %>% group_by(publication_year, type) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = type, color = type))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess")
 p <- p + ggtitle("Paper consumption per document type")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 
 p <- ggplot(df2, aes(x = publication_year, y = n, group = type, color = type))
@@ -228,13 +228,13 @@ print(p)
 ```{r doctypes2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
 df <- mutate(df, length = cut(pagecount, c(0, 32, 72, 148, 250, 450, 800, 2000, 5000, Inf)))
 
-df2 <- df %>% group_by(publication_decade, length) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = length, color = length))
+df2 <- df %>% group_by(publication_decade, length) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_decade, y = paper, group = length, color = length))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Paper consumption per document type")
 p <- p + xlab("Decade")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 
 p <- ggplot(df2, aes(x = publication_decade, y = n, group = length, color = length))
@@ -252,15 +252,15 @@ print(p)
 ```{r topauth, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
 df <- df.preprocessed
 top.authors <- names(rev(sort(table(df.preprocessed$author))))[1:10]
-df2 <- df %>% filter(author %in% top.authors) %>% group_by(publication_year, author) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% filter(author %in% top.authors) %>% group_by(publication_year, author) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 
-p <- ggplot(df2, aes(x = publication_year, y = paper.consumption.km2, group = author, color = author))
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = author, color = author))
 p <- p + geom_point()
 p <- p + geom_line()
 #p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Paper consumption per author")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 
 p <- ggplot(df2, aes(x = publication_year, y = n, group = author, color = author))
@@ -281,14 +281,14 @@ print(p)
 Estimated paper consumption by document size
 
 ```{r 20150611paris-paper6, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=7}
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
 df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
-p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_year, group = gatherings, color = gatherings))
+p <- ggplot(df2, aes(y = paper, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
 p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Annual paper consumption by gatherings")
 p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
+p <- p + ylab("Paper consumption")
 print(p)
 ```
 

@@ -1,20 +1,22 @@
 publication_place	country	Count
-Total count: 	481205	
+Total count: 	481463	
 Aachen	Germany	     1
 Abartawe	England	    14
 Abbeville	France	     4
 Aberdaugleddau	England	     1
-Aberdeen	Scotland	  1144
+Aberdeen	Scotland	  1142
 Aberhonddu	England	    47
 Abermaw	England	     1
 Aberystwyth	England	     1
 Abingdon	England	    14
+Actually	NA	     1
 Adpar	England	     2
 Aix-en-Provence	France	     2
+Albans	NA	     1
 Albany NY	USA	   350
 Alcester	England	     4
 Aldermanbury	England	     1
-Aldershot	England	    69
+Aldershot	England	    72
 Alexandria Va	USA	    40
 Alfreton	England	     2
 Alnwick	England	    61
@@ -23,27 +25,32 @@ Altenburg	Germany	    21
 Altmore	Northern Ireland	     1
 Altona	Germany	    10
 Ambleside	England	     1
-America	USA	     8
+America	USA	    11
 Amherst NH	USA	    50
 Ampthill	England	     1
-Amsterdam	Netherlands	  1180
-Amwythig	England	   123
+Amsterdam	Netherlands	  1193
+Amwythig	England	   122
 Andover Ma	USA	     4
+Andrews	NA	     1
 Annapolis Md	USA	   493
-Antwerp	Belgium	   380
+Antwerp	Belgium	   383
 Appelby-in-Westmorland	England	     1
 Arezzo	Italy	     1
 Armagh	Northern Ireland	    28
 Arnhem	Netherlands	     1
 Ashburton	England	     1
 Ashby	England	     1
-Ashby-de-la-Zouch	England	     1
+Ashby la zouch	NA	     1
 Ashford	England	     3
+Ata so na chur gclo mbaile atha cliath	NA	     2
 Atherstone	England	     4
 Athlone	Ireland	     5
 Augsburg	Germany	     3
-Augusta	USA	    57
-Augusta Me	USA	    12
+Augusta	USA	    59
+Augusta Me	USA	    22
+Augustine	NA	     5
+Au port prince	NA	     4
+Au port prince haiti	NA	     1
 Avignon	France	     4
 Avranches	France	     1
 Axminster	England	     1
@@ -53,9 +60,10 @@ Bagdad	Iraq	     3
 Bakewell	England	     1
 Bala	England	     2
 Balfron	Scotland	     1
-Ballston Spa NY	USA	     5
+Ballston saratoga county spa ny	NA	     1
+Ballston Spa NY	USA	     4
 Ballymena	England	     3
-Baltimore Md	USA	   537
+Baltimore Md	USA	   540
 Baltonsborough	England	     1
 Bampton	England	     3
 Banbury	England	    77
@@ -70,9 +78,9 @@ Barton-upon-Humber	England	     1
 Basel	Switzerland	   120
 Basingstoke	England	     2
 Basseterre	Saint Kitts and Nevis	     5
-Basseterre Saint Kitts	Saint Kitts and Nevis	    33
+Basseterre Saint Kitts	Saint Kitts and Nevis	    31
 Bastia	France	     1
-Bath	England	  1118
+Bath	England	  1119
 Bath NY	USA	     1
 Bawtry	England	     1
 Bayreuth	Germany	     1
@@ -80,24 +88,25 @@ Beaminster	England	     1
 Beauvais	France	     1
 Bedale	England	     2
 Bedford	England	   137
-Belfast	Northern Ireland	   796
+Belfast	Northern Ireland	   797
 Beloeil	Canada	     1
-Bennington Vt	USA	   161
+Bennington Vt	USA	   162
 Berkhamsted	England	     9
 Berlin	Germany	    81
 Bern	Switzerland	    11
 Berwick-upon-Tweed	Scotland	   247
-Besancon	France	     3
-Besançon	France	     2
+Besançon	France	     5
 Bethania nc	USA	     1
-Bethlehem Pa	USA	     1
+Bethlehem pa fork dellawar	NA	     1
 Beverley	England	    11
 Bewdley	England	     3
 Bideford	England	     1
-Birmingham	England	  1282
+Birmingham	England	  1283
 Birr	Ireland	     1
 Birstall	England	     1
+Bishop castle	NA	     1
 Bishopstone	England	     6
+Black	NA	     1
 Blackburn	England	    35
 Blackwell	England	     1
 Blandford	England	     4
@@ -113,8 +122,7 @@ Bombay	India	    24
 Bonn	Germany	     3
 Bontfaen	England	     6
 Bordeaux	France	    12
-Boston england	England	    20
-Boston Ma	USA	 10598
+Boston Ma	USA	 10602
 Bosworth	England	     1
 Bottisham	England	     1
 Bouillon	Belgium	     4
@@ -125,7 +133,7 @@ Brattleborough vt	USA	     4
 Brattleboro Vt	USA	     7
 Braunschweig	Germany	     2
 Bremen	Germany	     9
-Brentford	England	    66
+Brentford	England	    62
 Breslau	Poland	     4
 Bridgeport Ct	USA	     2
 Bridgeton nj	USA	     1
@@ -136,11 +144,11 @@ Bridlington	England	     6
 Bridport	England	     7
 Brigg	England	     2
 Brighton	England	    15
-Bristol	England	  1789
+Bristol	England	  1790
 Bristol NY	USA	     1
 Bromley	England	     4
 Brookfield Ma	USA	    32
-Brookville Pa	USA	     4
+Brookville PA	USA	     4
 Bruges	Belgium	    30
 Brunswick Ma	USA	     2
 Brussels	Belgium	    63
@@ -164,11 +172,12 @@ Caergybi	England	     1
 Caerleon	England	    16
 Caernarfon	England	    17
 Calais	France	     1
-Calcutta	India	   282
+Calcutta	India	   283
 Calicut	India	     1
 Calne	England	     2
-Cambridge	England	  4353
-Cambridge Ma	USA	   327
+Cambridge	England	  4351
+Cambridge b legge vniversitie	NA	     1
+Cambridge Ma	USA	   325
 Campbeltown	Scotland	     1
 Canaan NY	USA	     4
 Canandaigua ny	USA	     1
@@ -176,7 +185,7 @@ Canterbury	England	   510
 Canterbury NH	USA	     1
 Cape Town	South Africa	     4
 Cap-Haitien	Haiti	     4
-Carlisle	England	   113
+Carlisle	England	   114
 Carlisle Pa	USA	    42
 Carlow	Ireland	     8
 Carmarthen	England	    77
@@ -185,22 +194,24 @@ Carrickfergus	Northern Ireland	     1
 Carrick-on-Suir	Ireland	     1
 Carron	Scotland	     2
 Cashel	Ireland	     2
-Cassel	France	     1
-Castine Me	USA	     6
+Castine Me	USA	     5
 Castlebar	Ireland	     1
 Castleford	England	     1
 Castries	Saint Lucia	     1
 Catskill NY	USA	    26
 Cavan	Ireland	     1
+Cell brigid	NA	     1
 Celle	Germany	     2
-Chambersburg Pa	USA	    19
-Charleston SC	USA	   729
+Chambersburg Pa	USA	    20
+Charleston SC	USA	   638
 Charlottesville va	USA	     3
-Charlottetown	Canada	    40
+Charlottetown	Canada	    31
+Charlotte town island john	NA	     9
+Charlston	NA	     1
 Chatham	England	    11
 Chatham nj	USA	    18
-Chelmsford	England	    73
-Chelmsford Ma	USA	     8
+Chelmsford	England	    74
+Chelmsford Ma	USA	     7
 Chelsea	England	    22
 Cheltenham	England	    14
 Chennai	India	    14
@@ -211,12 +222,13 @@ Cheshire Ct	USA	    20
 Cheshunt	England	     4
 Chester	England	   369
 Chesterfield	England	    35
-Chestertown md	USA	     1
+Chestertown	NA	     1
 Chestnut Hill Pa	USA	    26
 Chichester	England	    64
 Chillicothe Oh	USA	     3
 Chippenham	England	     9
-Christiansted VI	USA	     1
+Christiansted st croix	NA	     1
+Christopher	NA	     2
 Cincinnati Oh	USA	    11
 Cirencester	England	    59
 Ciutadella	Spain	     1
@@ -235,6 +247,7 @@ Concord	USA	     7
 Concord Ma	USA	     5
 Concord NH	USA	    76
 Congleton	England	    23
+Conn	NA	     1
 Constance	Germany	     1
 Cooperstown NY	USA	    13
 Copenhagen	Denmark	    36
@@ -272,12 +285,12 @@ Devonport	England	     6
 Dewsbury	England	     2
 Dieppe	France	     2
 Dijon	France	     1
-Dillingen	Germany	     1
+Dillingen an der Donau	NA	     1
 Dolgellau	England	     5
 Doncaster	England	    64
 Dorchester	England	    21
 Dordrecht	Netherlands	    19
-Dorking	England	     3
+Dorking	England	     2
 Dorset	England	     5
 Dort	Netherlands	    18
 Douai	France	   240
@@ -291,10 +304,10 @@ Dresden	Germany	    20
 Dresden Me	USA	     1
 Drogheda	Ireland	    20
 Drumfries	Scotland	    10
-Dublin	Ireland	 26156
+Dublin	Ireland	 26173
 Dudley	England	    20
 Dumfries	Scotland	    90
-Dunbar	Scotland	    43
+Dunbar	Scotland	    44
 Duncannon	Ireland	     1
 Dundee	Scotland	   140
 Dunfermline	Scotland	     3
@@ -313,83 +326,96 @@ East grinstead	England	     1
 Easton Pa	USA	    10
 Edenhall	England	     1
 Edenton NC	USA	    43
-Edinburgh	Scotland	 32073
+Edinburgh	Scotland	 32068
+Edin nburg	NA	     1
 Egham	England	    18
 Elbingen	Germany	     1
+Eleutheres	NA	     1
 Elgin	Scotland	     1
 Elie	Scotland	     1
 Elizabeth NJ	USA	    94
-Elizabethtown Md	USA	     3
+Elizabethtown	NA	     1
+Elizabethtown Md	USA	     2
 Ellesmere	England	     1
-Ely	England	     5
 Emden	Germany	    37
-Ennis	Ireland	     5
+Ennis	Ireland	     6
 Enniskillen	Northern Ireland	     2
-Ephrata Pa	USA	   113
+Ephrata Pa	USA	   112
+Ephrata PA	USA	     1
 Epsom	England	     4
+Erdeen	NA	     1
 Erfurt	Germany	     4
 Erlangen	Germany	     5
 Eshott	England	     1
 Essex	England	     2
 Eton	England	   303
 Europe	Ambiguous	     2
+Eustatius	NA	     1
 Evesham	England	    32
-Exeter	England	   838
-Exeter NH	USA	   274
+Exeter	England	   837
+Exeter NH	USA	   273
 Fairfield Ct	USA	     4
 Fairhaven vt	USA	    20
-Falkirk	Scotland	   233
+Falkirk	Scotland	   234
 Falmouth Me	USA	    31
 Faringdon	England	     2
 Farmington Ct	USA	     1
 Farnham	England	     1
 Fawsley	England	     1
-Fayetteville NC	USA	     9
+Fayetteville NC	USA	     8
 Featherstone	England	     1
 Fermoy	Ireland	     1
 Fersfield	England	     4
-FincastleVA	USA	     1
+Fincastle VA	USA	     1
 Finningham	England	     1
 Firenze	Italy	     6
 Fishkill NY	USA	    50
 Fleet	England	     1
 Flensburg	Germany	     1
-Florence	Italy	    23
+Florence	Italy	    22
+Florence cartie tralee	NA	     1
 Flushing	England	     5
 Folkestone	USA	     1
 Fort McHenry Ms	USA	     1
 Fort royal	Martinique	     5
 Frankfort Ky	USA	    34
-Frankfurt	Germany	    73
-Frederick md	USA	     4
-Fredericktown Md	USA	    33
+Frankfurt	Germany	    72
+Frederick	NA	     4
+Fredericktown	NA	     5
+Frederick town	NA	    14
+Fredericktown Md	USA	     1
 Fredericton	Canada	    10
 Fredicksburg Va	USA	    16
 Freetown	Sierra Leone	     1
-Friedensthal Pa	USA	     3
+Friedensthal bethlehem pa	NA	     2
+Friedensthal Pa	USA	     1
 Frome	England	     5
 Fryeburg Me	USA	     7
+Fuit op us hoc tu albanum	NA	     1
 Gainsborough	England	    88
 Galway	Ireland	     9
 Gateside	Scotland	     2
 Gaunt	unknown	     1
+Gaunte	NA	     1
 Gaznah	Iraq	     1
-Gdansk	Poland	     3
-Geneva	Switzerland	    95
-Geneva NY	USA	     3
-Geneve	Switzerland	     1
+Gdansk	Poland	     2
+Gdańsk	Poland	     1
+Geneva	Switzerland	    98
+Geneva NY	USA	     2
 Genoa	Italy	     1
+George town	NA	     4
 Georgetown Va	USA	     3
-Georgetown Washington DC	USA	    22
+Georgetown Washington DC	USA	    18
 Gera	Germany	     2
-Germantown Pa	USA	   388
+Germain laye	NA	     2
+Germantown Pa	USA	   389
 Gettysburg pa	USA	     1
 Ghent	Belgium	    18
 Gillingham	England	     3
 Gilmanton NH	USA	     6
-Glasgow	Scotland	  5343
+Glasgow	Scotland	  5344
 Glastonbury	England	     1
-Gloucester	England	   314
+Gloucester	England	   315
 Gloucester Ma	USA	     1
 Goa	India	     1
 Görliz	Germany	     2
@@ -410,22 +436,27 @@ Greenock	Scotland	     8
 Greensburg Pa	USA	     1
 Grenada	Grenada	     1
 Guernesey	Guernesey	    13
+Guernesey st port	NA	     1
 Guildford	England	    48
 Haarlem	Netherlands	    15
 Haddington	Scotland	    16
-Hagerstown Md	USA	    23
+Hägerstaun	NA	     5
+Hägers taun hagerstown	NA	     1
+Hagerstown	NA	    14
+Hagers town	NA	     1
+Hagerstown gruber	NA	     1
+Hagerstown Md	USA	     1
 Hagley	England	     1
 Halesworth	England	     1
 Halifax	England	   493
-Halifax NS	USA	   102
-Halle	Germany	    43
-Hall england	England	     2
-Hallowell Me	USA	    25
+Halifax NS	Canada	   102
+Halle	Germany	    50
+Hallowell Me	USA	    14
 Hamburg	Germany	   151
 Hamilton	USA	    19
 Hanau	Germany	     8
 Hannover	Germany	    25
-Hanover NH	USA	    54
+Hanover NH	USA	    53
 Hanover Pa	USA	     4
 Harbor Oh	USA	     3
 Harborough	England	     2
@@ -433,10 +464,11 @@ Harderwijk	Netherlands	     3
 Harford Md	USA	     1
 Harlech	England	     3
 Harlow	England	     2
-Harrisburgh	USA	    14
-Harrisburgh Pa	USA	    14
+Harrisburgh	USA	     3
+Harrisburgh pa	USA	    10
+Harrisburg Pa	NA	    15
 Harrogate	England	     4
-Hartford Ct	USA	   962
+Hartford Ct	USA	   963
 Hastings	England	     1
 Hatfield	England	     1
 Havanna	Cuba	     4
@@ -447,7 +479,7 @@ Heidelberg	Germany	    11
 Heilbronn	Germany	     1
 Helmstadt	Germany	     1
 Helmstedt	Germany	     1
-Helsingor	NA	     2
+Helsingør	Denmark	     2
 Helston	England	     7
 Hemel Hempstead	England	     9
 Henfield	England	     1
@@ -463,11 +495,12 @@ Hinckley	England	    14
 Hindolverston	England	     1
 Hitchin	England	     3
 Holt	Germany	     1
+Holy rood	NA	     3
 Honiton	England	     8
 Hoogly	India	     2
 Horncastle	England	    14
 Horsham	England	     5
-Houghton park	England	     2
+Houghton Mi	USA	     2
 Howden	England	     2
 Huddersfield	England	    63
 Hudson NY	USA	    69
@@ -476,18 +509,22 @@ Hungerford	England	     5
 Huntingdon	England	    39
 Hwlffordd	England	     6
 Ilminster	England	     2
+Imprinte lon don	NA	     1
 Inis Córthaidh	Ireland	     1
 Inishmacadurn	Ireland	     2
 Inverary	Scotland	     1
 Inverlochie	Scotland	     1
 Inverness	Scotland	    15
-Ipswich	England	   347
+Ipswich	England	   348
 Irvine	Scotland	     1
 Istanbul	Turkey	     1
-Jacksonburgh sc	USA	     4
+Jacksonburgh	NA	     4
+Jago la vega	NA	    36
 Jedburgh	Scotland	     1
-Jena	Germany	    12
+Jena	Germany	     7
 Jerusalem	Israel	     1
+John	NA	     3
+John nb	NA	     3
 Johnstown NY	USA	     2
 Karlskrona	Sweden	     1
 Karlsruhe	Germany	     3
@@ -502,14 +539,13 @@ Kent	England	     1
 Keswick	England	     1
 Kettering	England	     6
 Kidderminster	England	    47
-Kildare	Ireland	     1
 Kilkenny	Ireland	    57
 Killingworth Ct	USA	     1
 Kilmarnock	Ireland	    50
 Kings Lynn	England	   106
-Kingston	Jamaica	   146
+Kingston	Jamaica	   159
 Kingston NY	USA	    18
-Kingston upon Thames	NA	     3
+Kingston upon Thames	England	     3
 Kingstown	St Vincent	    37
 Kinlocheil	Scotland	     1
 Kinnaird	Scotland	     1
@@ -526,21 +562,23 @@ Knutsford	England	     1
 Koningsberg	Germany	     2
 Krakow	Poland	     1
 Lanark	Scotland	     1
-Lancaster Pa	USA	   351
+Lancaster Pa	USA	   352
 Lancester pa	USA	     1
 Langport	England	     1
-Lansingburgh NY	USA	    33
+Lansingburgh NY	USA	    32
 La rochelle	France	     6
 La Trinite	Martinique	     1
 Launceston	England	     3
 Lausanne	Switzerland	    31
-Lebanon pa	USA	     1
+Lebanon PA	USA	     1
 Leeds	England	   633
 Leek	England	     4
 Leeuwarden	Netherlands	     1
+Legat	NA	     1
+Le Havre	France	     1
 Leicester	England	   176
-Leiden	Netherlands	   110
-Leipzig	Germany	   122
+Leiden	Netherlands	   111
+Leipzig	Germany	   121
 Lemgo	Germany	     1
 Leominster	England	    19
 Leominster Ma	USA	    62
@@ -555,18 +593,21 @@ Lincoln	England	   147
 Lincolnton nc	USA	     2
 Lisbon	Portugal	     9
 Lisburn	Northern Ireland	     1
-Litchfield Ct	USA	   251
+Litch conn	NA	     1
+Litchfield Ct	USA	   180
 Liverpool	England	   550
 Livorno	Italy	    63
 Llanymddyfri	England	     7
 Llwydlo	England	     5
-London	England	317646
-London Ct	USA	     6
+London	England	317782
 Londonderry	Northern Ireland	    28
 Long Buckby	England	     1
+Lonnen	NA	     1
 Loreto	Italy	     3
+Lorient	NA	     6
 Loughborough	England	    11
 Louisville ga	USA	     2
+Loundres moy redman	NA	     1
 Louth	England	    13
 Louvain	Belgium	    30
 Lucca	Italy	     5
@@ -587,11 +628,13 @@ Maidstone	England	   309
 Mainz	Germany	    11
 Malda	India	     1
 Malmö	Sweden	     3
+Malo	NA	     4
 Malton	England	     7
-Manchester	England	  1208
+Manchester	England	  1209
 Mannheim	Germany	     2
 Mansfield	England	     4
 Marburg	Germany	     1
+Mare	NA	     1
 Margate	England	    72
 Market harborough	England	    20
 Market rasen	England	     1
@@ -602,23 +645,20 @@ Martinsburg va	USA	     1
 Mechelen	Belgium	     8
 Medford Ma	USA	    12
 Melton mowbray	England	     2
-Mexico city	Mexico	     1
-Middelburg	Netherlands	   139
+Mexico City	Mexico	     1
+Middelburg	Netherlands	   140
 Middleborough Ma	USA	     6
-Middleburg netherlands	Netherlands	     1
 Middletown Ct	USA	    58
 Middlewich	England	     6
 Milan	Italy	     6
 Milborne Port	England	     2
-Milton	England	     2
-Milton Ernest	England	     1
+Milton	England	     3
 Minorca	Spain	     2
-Mole-Saint-Nicolas	Haiti	     1
+Mole nicholas	NA	     1
 Monaghan	Ireland	    25
-Monmouth	England	    14
-Monmouth nj	USA	     1
+Monmouth	England	    15
 Montego Bay	Jamaica	     9
-Montreal	Canada	   143
+Montreal	Canada	   144
 Montrose	Scotland	    39
 Morpeth	England	     6
 Morristown NJ	USA	     9
@@ -630,6 +670,8 @@ Mullingar	Ireland	    11
 Münster	Germany	     3
 Musselburgh	Scotland	     2
 Naas	Ireland	     1
+Na chur gclo nglasgo	NA	     1
+Na copy schotland	NA	     1
 Nancy	France	     3
 Nantes	France	    11
 Nantwich	England	    18
@@ -638,36 +680,38 @@ Nashville TN	USA	     3
 Nassau	Bahamas	    24
 Natchez Ms	USA	    10
 Neuchatel	Switzerland	    16
-Neuschottland amerika	NA	     1
+Neuschottland	NA	     1
 Neustadt an der Weinstraße	Germany	     1
 Newark	England	   123
 Newark NJ	USA	   105
+New bbunswick jersey	NA	     1
 New Bedford Ma	USA	    41
 New Bern NC	USA	   149
 New Britain Pa	USA	     1
-New Brunswick NJ	USA	    72
+New brunswick jersey	NA	     4
+New Brunswick NJ	USA	    69
 Newburgh NY	USA	    14
 Newbury	England	     9
-Newburyport Ma	USA	   395
+Newburyport Ma	USA	   399
 Newbury Vt	USA	     6
 Newcastle	England	  2715
 New Castle De	USA	    15
 Newfield Ct	USA	    21
-New Haven Ct	USA	   774
+New Haven Ct	USA	   771
 Newington Ct	USA	     3
-New London Ct	USA	  1004
-Newly gaunte	NA	     1
+New London Ct	USA	  1013
 Newmarket	England	    11
 New Milford Ct	USA	     1
-New Orleans La	USA	    62
+New Orleans La	USA	    61
 Newport	England	    52
 Newport RI	USA	   653
+Newport r ne	NA	     1
 Newry	Ireland	   106
 Newton abbot	England	     3
 Newton NJ	USA	     2
 Newton stewart	Scotland	     1
 Newtown Pa	USA	     1
-New York NY	USA	  4672
+New York NY	USA	  4696
 Niagara	Canada	    31
 Nice	France	     4
 Nijmegen	Netherlands	     1
@@ -689,15 +733,19 @@ Norwich	England	   947
 Norwich Ct	USA	   319
 Nothampton	England	     3
 Nottingham	England	   530
+Nouvelle orleans new	NA	     1
 Nuneaton	England	     2
-Nurnberg	Germany	     1
-Nürnberg	Germany	    13
-Oakham	England	     2
+Nürnberg	Germany	    14
+Oakham	England	     4
 Oberwesel	Germany	     1
 Octorara Pa	USA	     2
 Offenbach	Germany	     1
 Oldham	England	     1
+Omaers	NA	     1
 Omagh	Northern Ireland	     1
+Omer	NA	   233
+Ondini	NA	     1
+Ondo n	NA	     1
 Ongar	England	     1
 Orleans	France	     5
 Orlingbury	England	     1
@@ -706,14 +754,14 @@ Osnabrück	Germany	     1
 Ossining ny	USA	     2
 Oswestry	England	    10
 Ottawa	Canada	     1
-Oxford	England	  7391
-Padova	Italy	     3
-Padua	Italy	     2
+Oxford	England	  7392
+Padua	Italy	     5
 Paisley	Scotland	   200
 Palermo	Italy	     1
 Paramaribo	Suriname	     2
-Paris	France	  2674
+Paris	France	  2677
 Paris KY	USA	     1
+Pariss suburbiis sc⁻i germani pratis	NA	     1
 Parma	Italy	    14
 Parr-Town	Canada	     1
 Pathhead	Scotland	     1
@@ -727,44 +775,50 @@ Penrith	England	    57
 Penryn	England	     2
 Pensacola Fl	USA	     1
 Penzance	England	     4
-Perth	Scotland	   274
+Perth	Scotland	   275
 Perugia	Italy	     1
 Peterborough	England	    58
 Peterhead	Scotland	     3
 Petersburg Va	USA	    26
 Petersfield	England	     2
 Petworth	England	     1
-Philadelphia Pa	USA	 10223
+Philadelphia Pa	USA	 10229
 Pisa	Italy	     2
 Pittsburgh Pa	USA	     9
 Pittsfield ma	USA	     1
 Plymouth	England	   151
 Plymouth Ma	USA	     7
-Pointe-A-Pitre	Guadaloupe	     8
+Pointe-A-Pitre	Guadaloupe	     4
 Pompton Plains NJ	USA	     1
 Pondicherry	India	    10
 Pontefract	England	    18
 Poole	England	     9
-Port-au-Prince	Haiti	    48
+Port-au-Prince	Haiti	    43
+Port la liberte	NA	     3
+Port la liberte guadeloupe	NA	     1
 Portland Me	USA	    92
 Porto	Portugal	     1
-Port-of-Spain	Trinidad and Tobago	     4
-Portsmouth	England	   133
+Port-of-Spain	Trinidad and Tobago	     3
+Portsmouth	England	   106
 Portsmouth NH	USA	   485
 Potsdam	Germany	     1
-Poughkeepsie NY	USA	    86
+Poughkeepsie NY	USA	    83
 Poulton-le-Fylde	England	     1
 Prague	Czech Republic	     3
 Prescot	England	     5
 Preston	England	   144
 Princeton NJ	USA	     6
-Providence RI	USA	   964
+Providence RI	USA	   965
+Puerto espana	NA	     1
 Putney Vt	USA	     9
-Quebec	Canada	   510
-Raleigh nc	USA	    20
+Quebec	Canada	   509
+Quebec province	NA	     1
+Raleigh	NA	    20
 Ramsey	England	     2
 Ramsgate	England	    11
 Reading	England	   253
+Really	NA	     3
+Redoniae	NA	     1
 Redruth	England	     1
 Regensburg	Germany	     3
 Reigate	England	     3
@@ -773,7 +827,7 @@ Rennes	France	     1
 Retford	England	     7
 Rhaglan	England	     1
 Richmond	England	   349
-Richmond Va	USA	    80
+Richmond Va	USA	    81
 Riga	Latvia	     3
 Ringwood	England	     1
 Ripon	England	    17
@@ -781,7 +835,7 @@ Rochdale	England	    10
 Rochester	England	   221
 Rodborough	England	     2
 Rome	Italy	    23
-Rome NY	USA	     3
+Rome NY	USA	     2
 Romford	England	     1
 Romsey	England	     9
 Ronneburg	Germany	     1
@@ -789,25 +843,24 @@ Roscrea	Ireland	     1
 Roseau Dominica	Dominica	    45
 Rostock	Germany	     1
 Rotherham	England	     3
-Rotterdam	Netherlands	   126
-Rouen	France	   265
+Rothomagensi	NA	     1
+Rotterdam	Netherlands	   127
+Rouen	France	   264
 Rousham	England	     1
 Royal Tunbridge Wells	England	   451
 Royston	England	     1
 Rugby	England	     1
 Rugeley	England	     1
-Rutland Vt	USA	    79
+Rutland Vt	USA	    77
 Rye	England	     4
-Saarbrucken	Germany	     1
+Saarbrücken	NA	     1
 Saffron walden	England	     2
 Sag Harbour NY	USA	     8
-Saint-Germain-en-Laye	France	     6
-Saint John	Canada	    13
-Saint-Malo	France	     4
-Saint-Marie	Martinique	     1
+Saint-Germain-en-Laye	France	     4
+Saint John	Canada	     7
 Salamanca	Spain	     1
-Salem	USA	     5
-Salem Ma	USA	   312
+Salem	USA	    12
+Salem Ma	USA	   327
 Salem NC	USA	     1
 Salem NJ	USA	     3
 Salem NY	USA	     5
@@ -816,6 +869,7 @@ Salisbury Ma	USA	     1
 Salisbury NC	USA	    12
 Sandhurst	England	     2
 Sandwich	England	     1
+Sanktpeterburgie	NA	     2
 Sanquhar	Scotland	     1
 Savannah Ga	USA	   150
 Savanna-la-Mar Jamaica	Jamaica	     1
@@ -824,7 +878,7 @@ Scarborough	England	    16
 Schenectady NY	USA	    12
 Schleswig	Germany	     1
 Schwerin	Germany	     2
-Scipio NY	USA	     1
+Scipio onondaga county ny	NA	     1
 Sedbergh	England	     1
 Selby	England	     3
 Selkirk	Scotland	     2
@@ -833,10 +887,12 @@ Sevenoaks	England	    16
 Seville	Spain	     1
 Sharon Ct	USA	     1
 Sheerness	England	     1
-Sheffield	England	   206
+Sheffield	England	   207
 Shelburne	Canada	     8
 Shelburne nova scotia	Canada	     1
-Shepherdstown WV	USA	     3
+Shepherdstown WV	USA	     1
+Shepherd town va	NA	     1
+Shepherd town w va	NA	     1
 Shepton Mallet	England	     6
 Sherborne	England	   155
 Shiffnal	England	     2
@@ -849,30 +905,35 @@ Simsbury Ct	USA	     1
 Sligo	Ireland	     2
 Slough	England	     1
 Southampton	England	   123
+South carolina town	NA	    49
 South molton	England	     5
 South shields	England	    10
 Spalding	England	    27
-Spanish Town	Jamaica	   107
+Spanish Town	Jamaica	    26
 Springfield Ma	USA	    93
 Stabroek	Guyana	    15
+Stadt	NA	    13
 Stafford	England	    55
-St Albans	England	    15
-Stamford	England	    97
-St Andrews	Scotland	    46
-St Augustine Fl	USA	     8
+St Albans	England	    13
+Stamford	England	    96
+St Andrews	Scotland	    44
+St Augustine Fl	USA	     3
 Staunton Va	USA	     5
 St austell	England	     2
 St croix	USA	     1
 Sterling	Scotland	     3
-St Eustatius	St Eustatius	     3
-St George	Grenada	    30
+St Eustatius	St Eustatius	     1
+St George	Grenada	    29
+St george fields	NA	     1
+St george town grenada	NA	     1
 St germans	England	     1
 St Helier	England	    28
 Stirling	Scotland	   159
 St Ives	England	    23
-St John New Brunswick	Canada	     2
+St jago la vega	NA	    32
+St John New Brunswick	Canada	     1
 St Johns Antiqua	Antiqua	    55
-St Mary's Md	USA	     1
+St mary	NA	     1
 St neots	England	     5
 Stockbridge Ma	USA	    53
 Stockholm	Sweden	     7
@@ -880,21 +941,22 @@ Stockport	England	    54
 Stockton	England	    52
 Stoke-on-Trent	England	     1
 Stokesley	England	     2
-St Omer	France	   352
+St Omer	France	   119
 Stonington Ct	USA	    10
-Stonor	England	     2
+Stonor	England	     3
 Stourbridge	England	    23
 Stow	England	     1
 Stowmarket	England	     2
-St Peter Port	Guernsey	    11
-St Petersburg	Russia	    25
-St Pierre	Martinique	    22
+St Peter Port	Guernsey	    10
+St Petersburg	Russia	    23
+St Pierre	Martinique	     5
 Strabane	Northern Ireland	    19
 Strahane	England	     2
-Strasbourg	France	    35
+Strasbourg	France	    36
 Stratford-upon-Avon	England	     7
 Strood	England	     8
 Stroud	England	    10
+St s	NA	     1
 Stuttgart	Germany	     3
 Sudbury	England	    20
 Suffield Ct	USA	    30
@@ -911,7 +973,7 @@ Tetbury	England	     3
 Tewkesbury	England	   132
 Thame	England	     1
 Tharangampadi	India	   155
-The Hague	Netherlands	   333
+The Hague	Netherlands	   332
 Thetford	England	     1
 Thirsk	England	     2
 Thurles	Ireland	     1
@@ -923,6 +985,8 @@ Toronto	Canada	     4
 Torrington Ct	USA	     3
 Totnes	England	     5
 Toulouse	France	     3
+Town	NA	    32
+Town south carolina	NA	     9
 Trefeca	England	    55
 Treffynnon	England	     8
 Trefriw	England	    40
@@ -930,14 +994,14 @@ Trenton	Canada	   254
 Trenton nj	USA	    48
 Trevoux	France	     3
 Trowbridge	England	    22
-Troy NY	USA	    24
+Troy NY	USA	    25
 Truru	England	    16
 Tübingen	Germany	     2
 Twickenham	England	    78
 Ulm	Germany	     1
 Ulverston	England	     6
 Uppsala	Sweden	     7
-USA	USA	   304
+USA	USA	   305
 Utica ny	USA	     4
 Utrecht	Netherlands	    32
 Uttoxeter	England	     6
@@ -951,12 +1015,12 @@ Vergennes vt	USA	    12
 Verona	Italy	     4
 Versailles	France	     1
 Vevey	Switzerland	     2
-Vienna	Austria	    37
+Vienna	Austria	    39
 Wakefield	England	    63
 Walpole NH	USA	    45
 Walsall	England	     9
 Waltham	England	     3
-Waltham saint lawrence	England	     1
+Waltham lawrence	NA	     1
 Wantage	England	     1
 Wargrave	England	     2
 Warminster	England	     6
@@ -968,12 +1032,13 @@ Warsaw	Poland	     1
 Warwick	England	   168
 Washington DC	USA	    54
 Washington Pa	USA	    24
-Waterford	Ireland	    86
+Waterford	Ireland	    87
 Watertown Ma	USA	   136
 Watford	England	     3
+Weißenfels	NA	     1
 Wellingborough	England	     3
 Wells	England	     5
-Wesel	Germany	    45
+Wesel	Germany	    44
 Westport Ct	USA	     1
 West Springfield Ma	USA	    20
 Wexford	England	    17
@@ -981,7 +1046,7 @@ Weymouth	England	    17
 Whitburn	Scotland	     3
 Whitby	England	    33
 Whitchurch	England	     4
-Whitehall Pa	USA	    19
+Whitehall Pa	USA	    18
 Whitehaven	England	   131
 Whitesboro NY	USA	     9
 Wiesenthal	Germany	     1
@@ -993,7 +1058,7 @@ Wilmington De	USA	   393
 Wilmington NC	USA	    14
 Winchester	England	   128
 Windham Ct	USA	    45
-Windsor	England	    75
+Windsor	England	    72
 Windsor Ct	USA	     5
 Windsor Vt	USA	   156
 Winterslow	England	     1
@@ -1009,7 +1074,7 @@ Wolston	England	     3
 Wolverhampton	England	   147
 Woodbridge NJ	USA	   115
 Worcester	England	   456
-Worcester Ma	USA	   469
+Worcester Ma	USA	   470
 Workington	England	     6
 Worms	Germany	     2
 Wotton-under-Edge	England	     9
@@ -1017,16 +1082,16 @@ Wrexham	England	    70
 Wycombe	England	     3
 Yarm	England	     1
 Yarmouth	England	    98
-Y Bont-faen	England	     2
+Y Bont-Faen	England	     2
 Yeovil	England	     4
-York	England	  1774
+York	England	  1754
 York Pa	USA	    49
 Youghal	Ireland	     1
 Yr Wyddgrug	England	     1
 Yverdon-les-Bains	Switzerland	     5
 Zeiz-Bahren	Germany	     1
 Zittau	Germany	     1
-Zürich	Germany	    22
+Zürich	Germany	    23
 Zutphen	Netherlands	     2
 Zweibrücken	Germany	     1
-NA	NA	  2542
+NA	NA	  2681

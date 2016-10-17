@@ -15,7 +15,7 @@ mapdata <- df2
 
 source("funcs.R")
 
-video.file <- "liber.mp4"
+video.file <- "figure_20151023_LIBER/liber.mp4"
 system(paste("rm", video.file))
 fps <- 10 # frames per second in animation
 window <- 10 # sliding window size

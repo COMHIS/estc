@@ -1,9 +1,9 @@
 theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = paper.consumption.km2))
+p <- ggplot(df, aes(x = paper))
 p <- p + geom_histogram()
 p <- p + scale_x_log10()
 p <- p + ggtitle("Paper consumption per document")
-p <- p + xlab("Paper use (km2)")
+p <- p + xlab("Paper consumption")
 p <- p + ylab("Frequency")
 #print(p)
 

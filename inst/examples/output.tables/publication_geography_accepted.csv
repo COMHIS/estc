@@ -1,60 +1,60 @@
 Name	Count
-Total count: 	136613
-Great Britain	26286
-England	12284
-Great Britain;Great Britain	 6790
-Great Britain.	 6480
-England;England	 3728
-Ireland	 3584
-Scotland	 3560
-England;Great Britain	 2762
-United States	 2752
-France	 1981
-England;London	 1914
-England.	 1418
-Ireland;Ireland	 1250
-Great Britain;Great Britain;Great Britain	 1178
-England;England;England	 1157
+Total count: 	136555
+Great Britain	26275
+England	12292
+Great Britain;Great Britain	 6784
+Great Britain.	 6481
+England;England	 3732
+Ireland	 3583
+Scotland	 3557
+United States	 2759
+England;Great Britain	 2756
+France	 1980
+England;London	 1912
+England.	 1419
+Ireland;Ireland	 1248
+Great Britain;Great Britain;Great Britain	 1179
+England;England;England	 1159
 Scotland;Scotland	 1092
-Europe	  908
-United States.	  790
-Great Britain.;Great Britain	  764
-Great Britain.;Great Britain.	  744
+Europe	  909
+United States.	  791
+Great Britain.;Great Britain	  766
+Great Britain.;Great Britain.	  745
 Rome	  743
 London (England)	  739
-England;England;Great Britain	  706
+England;England;Great Britain	  703
 Ireland;Ireland;Ireland	  694
-Ireland.	  621
+Ireland.	  622
 Massachusetts	  559
 United States;United States	  559
 England;Great Britain;Great Britain	  503
 Scotland.	  464
-France;France	  450
-New York (State)	  371
+France;France	  447
+New York (State)	  373
 England;London;England	  357
 Great Britain;Ireland	  352
 Massachusetts.	  339
 Pennsylvania	  333
-Great Britain;Scotland	  309
-England;London.	  300
+Great Britain;Scotland	  306
+England;London.	  301
 England;London;England;London	  289
 Pennsylvania;Philadelphia.	  280
-Netherlands	  277
-Scotland;Scotland;Scotland	  277
+Scotland;Scotland;Scotland	  276
+Netherlands	  275
 Great Britain;Great Britain;Great Britain;Great Britain	  274
 New York (State);New York (State)	  269
 Scotland;Edinburgh	  260
-Pennsylvania.	  249
+Pennsylvania.	  250
 England;London;Great Britain	  248
 Massachusetts;Boston.	  248
 United States.;United States.	  248
-Ireland;Great Britain	  244
+Ireland;Great Britain	  243
 United States.;United States	  242
 Great Britain;England	  239
 Great Britain;London (England)	  232
-Scotland;Great Britain	  231
+Scotland;Great Britain	  229
 India	  224
-England;England;England;England	  222
+England;England;England;England	  221
 Great Britain.;Great Britain.;Great Britain.	  202
 Ireland;Dublin	  197
 Greece	  189
@@ -69,7 +69,7 @@ Spain	  151
 France.	  148
 New York (State);New York.	  147
 England.;England.	  144
-England.;Great Britain	  142
+England.;Great Britain	  143
 Oxford Canal (England)	  137
 Virginia	  136
 France;Great Britain	  134
@@ -78,8 +78,8 @@ Great Britain;United States	  125
 Great Britain;France	  123
 Coventry (England);Great Britain	  121
 Germany	  121
-France;France;France	  117
 Massachusetts.;Massachusetts.	  117
+France;France;France	  116
 England;England;London	  114
 Europe;Europe	  112
 London (England);Great Britain	  112
@@ -87,15 +87,15 @@ Pennsylvania;Philadelphia.;Philadelphia (Pa.)	  112
 Canada	  111
 Jamaica	  111
 Pennsylvania.;Pennsylvania	  111
-Massachusetts;Massachusetts	  108
-England;England;England;Great Britain	  107
+Massachusetts;Massachusetts	  109
+England;England;England;Great Britain	  108
+England;Great Britain;Great Britain;Great Britain	  106
 London (England);London (England)	  106
-England;Great Britain;Great Britain;Great Britain	  105
-Turkey	  104
-Europe;Great Britain	  101
+Turkey	  105
+Europe;Great Britain	  102
 England;England;Great Britain;Great Britain	  100
 England;London (England)	   99
-Rhode Island	   98
+Rhode Island	   97
 Rhode Island.;Rhode Island	   96
 Venice (Italy)	   95
 Sweden	   94
@@ -104,7 +104,7 @@ Bath (England)	   91
 Maryland;Baltimore.	   91
 Pennsylvania;Philadelphia.;Pennsylvania;Philadelphia.	   90
 United States.;United States.;United States	   90
-England;London;England;Great Britain	   88
+England;London;England;Great Britain	   87
 Ireland.;Ireland	   87
 Great Britain;United States;America.	   85
 North America.	   84
@@ -125,23 +125,23 @@ Egypt	   74
 Ireland.;Ireland.	   71
 New York (State);New York.;New York (N.Y.)	   71
 England;Oxford	   70
-Great Britain;Great Britain.	   69
-England;Great Britain;England	   68
+Great Britain;Great Britain.	   70
+England;Great Britain;England	   69
 Georgia	   68
 South Carolina.	   68
-England;Wales	   67
 Scotland;Edinburgh;Scotland;Edinburgh	   67
+England;Wales	   66
 London	   66
 Maryland	   66
 New England;New England	   66
 Rhode Island.	   66
 Massachusetts;Boston.;Massachusetts;Boston.	   65
+Great Britain;America.	   64
 Great Britain;Europe	   64
 Africa.	   63
 England;England;Norfolk (England)	   63
 Greece;Rome	   63
 Boston (Mass.);Boston (Mass.)	   62
-Great Britain;America.	   62
 Great Britain;England;Great Britain	   62
 New England.	   62
 New South Wales.	   62
@@ -150,19 +150,19 @@ America	   61
 Dublin (Ireland)	   61
 England;England;London;England	   61
 Great Britain;Hull (England)	   61
+Scotland.;Scotland.	   61
 Russia	   60
-Scotland.;Scotland.	   60
 South Carolina	   59
 Boston (Mass.)	   58
 England;Northampton	   58
 Great Britain.;Great Britain.;Great Britain.;Great Britain.	   58
 Ireland;Ireland;Ireland;Ireland;Ireland	   58
-England;London.;London (England)	   57
 Ireland.;Ireland;Ireland	   57
 United States;Great Britain;America.	   57
 United States;United States;United States	   57
 West Indies	   57
 Africa	   56
+England;London.;London (England)	   56
 Great Britain;Netherlands;Netherlands;Great Britain	   56
 Great Britain;Spain.	   56
 United States;Massachusetts	   56
@@ -182,20 +182,20 @@ Virginia.	   50
 Great Britain;Netherlands	   49
 Netherlands;Netherlands	   49
 Northern Ireland;Down (County)	   49
-Yorkshire (England)	   49
 Edinburgh (Scotland)	   48
 North America	   48
+Yorkshire (England)	   48
 England;London;England;London;London (England)	   47
-Great Britain;Great Britain;London (England)	   47
 Troy (Extinct city)	   47
 New Hampshire.	   46
 Poland	   46
 Bengal (India)	   45
+Great Britain;England;England	   45
+Great Britain;Great Britain;London (England)	   45
 Ireland;Ireland;Great Britain	   45
 Jerusalem	   45
 England.;Great Britain.	   44
 England;London;London (England);London (England)	   44
-Great Britain;England;England	   44
 Great Britian	   44
 South Carolina;Charleston.	   44
 West Indies, British	   44
@@ -217,15 +217,15 @@ England;London;England;London;England;London	   41
 Great Britain.;Great Britain;Great Britain;Great Britain	   41
 Suriname	   41
 Atlantic coast (North America)	   40
-England;England;London;Great Britain	   40
 New Jersey	   40
 Thames River (England)	   40
+England;England;London;Great Britain	   39
 England;Scotland	   39
 Great Britain;France;France;Great Britain	   39
-Great Britain;Oxford (England)	   39
 Middle East	   39
 West Indies, British.	   39
 England;England;England;England;England	   38
+Great Britain;Oxford (England)	   38
 Vermont	   38
 England;Oxford.	   37
 Massachusetts.;Massachusetts.;Massachusetts.	   37
@@ -242,6 +242,7 @@ Jamaica;Jamaica	   34
 Rome (Italy)	   34
 China	   33
 Connecticut;Connecticut	   33
+England;London.;England;London.	   33
 England;York	   33
 Great Britain;America	   33
 Great Britain;Colchester (England)	   33
@@ -249,10 +250,9 @@ Great Britain;Great Britain;America	   33
 Great Britain;Great Britain;France	   33
 Great Britain;Great Britain;France;France.;Great Britain.	   33
 Great Britain;Great Britain;Great Britain;Great Britain;Great Britain	   33
-Great Britain;Great Britain;Scotland	   33
-England;London.;England;London.	   32
 France;France;France;France	   32
 Great Britain.;Great Britain.;Great Britain.;Great Britain	   32
+Great Britain;Great Britain;Scotland	   32
 Great Britain;Kent (England)	   32
 Ireland;Dublin;Ireland;Dublin	   32
 Earth	   31
@@ -261,7 +261,6 @@ England;England.	   31
 England;Nottingham (England)	   31
 Ethiopia	   31
 Great Britain;Ireland.	   31
-Great Britain;Yorkshire (England)	   31
 Scotland;Glasgow	   31
 England.;England.;England.	   30
 England;England;London (England)	   30
@@ -273,13 +272,13 @@ Scotland;Scotland;Scotland;Scotland	   30
 Connecticut.;Connecticut	   29
 England.;England.;Great Britain	   29
 England;London;England;Great Britain;Great Britain	   29
+Great Britain;Yorkshire (England)	   29
 Massachusetts;Boston	   29
 Peru	   29
 Scotland;Scotland;Great Britain	   29
 Spain.	   29
 Spain;Spain	   29
 England;London.;Great Britain.	   28
-France.;France	   28
 France;Great Britain;Great Britain;France	   28
 Georgia.;Georgia.	   28
 Maryland.	   28
@@ -291,11 +290,11 @@ United States.;United States;United States	   28
 Dunkerque (France)	   27
 England;England;England;England;Great Britain	   27
 England;Norwich	   27
+France.;France	   27
 Gaul	   27
 New York (State);United States	   27
 Wales;Wales	   27
 York (England)	   27
-England;London;England;England;Great Britain	   26
 France;France;Great Britain;Great Britain;Great Britain.;France.	   26
 Great Britain;England;London	   26
 Great Britain;Scotland;Scotland	   26
@@ -308,6 +307,7 @@ Scotland;Great Britain;Great Britain	   26
 Vermont.	   26
 America;America	   25
 Denmark	   25
+England;London;England;England;Great Britain	   25
 France;Great Britain;Great Britain.;France.	   25
 Great Britain;Great Britain;Spain;Spain;Great Britain	   25
 Ireland.;Ireland.;Ireland	   25
@@ -316,21 +316,22 @@ United States;Massachusetts;Massachusetts	   25
 Barbados	   24
 England;Bath	   24
 England;England;England;Great Britain;Great Britain	   24
+England;England;England;London	   24
 England;France	   24
 Great Britain;France;France.;Great Britain.	   24
 Liverpool (England)	   24
 New London (Conn.);New London (Conn.)	   24
 New York (N.Y.);New York (N.Y.)	   24
 Scotland;England	   24
-Bristol (England);Great Britain	   23
-England;England;England;London	   23
 England;York;England;York	   23
 Massachusetts.;Massachusetts;Massachusetts	   23
 United States;Virginia	   23
 Westminster (London, England)	   23
 Belgium	   22
+Bristol (England);Great Britain	   22
 England;Bath.	   22
 Exeter (England)	   22
+France;Great Britain;Great Britain	   22
 France;Great Britain;Great Britain;Great Britain.;France.	   22
 Gaul;Rome	   22
 Great Britain;India	   22
@@ -359,7 +360,6 @@ England;Oxford;England;Oxford	   21
 Europe;Europe;Europe	   21
 France;Europe	   21
 France;France;Great Britain;Great Britain.;France.	   21
-France;Great Britain;Great Britain	   21
 Great Britain;Great Britain;England	   21
 Great Britain;London (England);Great Britain	   21
 Great Britain;Scotland;Great Britain	   21
@@ -381,7 +381,6 @@ Winchester (England)	   21
 Aberdeen (Scotland)	   20
 Asia	   20
 Charleston (S.C.)	   20
-Colchester (England);Great Britain	   20
 England;Great Britain;Ireland	   20
 England;Lincoln;England;Lincoln	   20
 England;London;England;London;Great Britain	   20
@@ -389,7 +388,6 @@ Europe;France	   20
 Great Britain.;Great Britain;Great Britain;Great Britain;Great Britain	   20
 Great Britain;Great Britain;United States	   20
 Great Britain;India;India;Great Britain	   20
-Hull (England)	   20
 Ireland.;Ireland.;Ireland;Ireland	   20
 Jamaica.	   20
 Massachusetts.;Massachusetts.;Massachusetts	   20
@@ -399,6 +397,7 @@ Oceania	   20
 Rhode Island.;United States	   20
 United States;France	   20
 Canada;Canada	   19
+Colchester (England);Great Britain	   19
 Damascus (Syria)	   19
 England;Birmingham	   19
 England;Durham	   19
@@ -413,6 +412,7 @@ France;Netherlands	   19
 Great Britain;East Indies	   19
 Great Britain.;England.	   19
 Great Britain;Wales	   19
+Hull (England)	   19
 Hull (England);Great Britain	   19
 Louisiana	   19
 Malta;Sicily (Italy)	   19
@@ -463,14 +463,12 @@ England;Warrington;Warrington (England)	   17
 France;France;Great Britain	   17
 Geneva (Switzerland)	   17
 Great Britain;Great Britain;France;France;Great Britain	   17
-Great Britain;Lincolnshire (England)	   17
 Great Britain;London	   17
 India;Great Britain	   17
 Iran	   17
 Ireland;Ireland;Ireland;Ireland;Ireland;Ireland	   17
 Isle of Wight (England)	   17
 Massachusetts;Boston.;Massachusetts;Boston.;Boston (Mass.)	   17
-New England;Massachusetts	   17
 Pennsylvania.;Pennsylvania.;Pennsylvania	   17
 Pennsylvania;United States	   17
 Quebec;Canada	   17
@@ -489,6 +487,7 @@ England;Scotland;Scotland;England	   16
 Essex (England)	   16
 Great Britain;Great Britain;France.	   16
 Great Britain;Ireland;Great Britain	   16
+Great Britain;Lincolnshire (England)	   16
 Great Britain.;Scotland;Edinburgh.	   16
 Great Britain;United States.	   16
 Greece;Greece;Greece	   16
@@ -496,6 +495,7 @@ Italy.	   16
 Londonderry (Northern Ireland)	   16
 Louisbourg (N.S.);United States	   16
 Middlesex (England)	   16
+New England;Massachusetts	   16
 New Hampshire.;New Hampshire	   16
 New York (N.Y.);New York (State);United States	   16
 New York (State);New York.;New York (State);New York.;New York (N.Y.)	   16
@@ -527,6 +527,7 @@ Northwest Passage.	   15
 Pennsylvania;Philadelphia (Pa.)	   15
 Portugal;Portugal	   15
 Scotland;Edinburgh;Scotland	   15
+United States;United States.;United States.	   15
 Africa, North	   14
 Canada.	   14
 Cartagena (Colombia)	   14
@@ -534,6 +535,7 @@ Colchester (England)	   14
 Concord (N.H.)	   14
 England;Cambridgeshire	   14
 England;Middlesex	   14
+England;Netherlands	   14
 England;Norfolk	   14
 England;Spain;Spain;England	   14
 Europe;Europe;Great Britain	   14
@@ -556,14 +558,12 @@ Naples (Kingdom)	   14
 New England.;New England.	   14
 New York (State);New York;New York (State);New York	   14
 Northwest, Old	   14
-Oxfordshire (England)	   14
 Rhode Island.;Rhode Island;Rhode Island	   14
 Rhode Island.;Rhode Island.;Rhode Island	   14
 Rhode Island;United States	   14
 Southampton (England)	   14
 South Carolina.;South Carolina.	   14
 United States;New York (State)	   14
-United States;United States.;United States.	   14
 Vienna (Austria)	   14
 Washington (D.C.)	   14
 Canada;Quebec	   13
@@ -574,10 +574,8 @@ East Indies.	   13
 England;Bristol;Bristol (England)	   13
 England;Cambridge;England;Cambridge	   13
 England;Europe	   13
-England;Netherlands	   13
 England;Oxfordshire.	   13
 Germany;Frankfurt	   13
-Great Britain;Essex (England)	   13
 Great Britain;Great Britain;Europe	   13
 Great Britain;Massachusetts;United States;America	   13
 Great Britain;United States;United States.;Great Britain.	   13
@@ -592,8 +590,8 @@ Newcastle upon Tyne (England);Great Britain	   13
 New South Wales	   13
 New York (N.Y.);United States	   13
 North Carolina.	   13
+Oxfordshire (England)	   13
 Pennsylvania;Philadelphia.;Pennsylvania;Philadelphia.;Pennsylvania;Philadelphia.	   13
-Philadelphia (Pa.);Philadelphia (Pa.)	   13
 Sweden;Sweden	   13
 Tangier (Morocco)	   13
 Turkey;Turkey;Turkey	   13
@@ -601,7 +599,6 @@ Warkworth (Northumberland, England)	   13
 Bath (England);Bath (England)	   12
 Byzantine Empire;Rome	   12
 Canterbury (England)	   12
-Cheshire (England);Great Britain	   12
 Connecticut;New Haven.;Connecticut;Bethany.	   12
 Corsica (France)	   12
 Delaware.	   12
@@ -616,6 +613,7 @@ Germany;Prussia.;Germany;Prussia.;Austria;Prussia (Germany)	   12
 Great Britain;Africa	   12
 Great Britain.;England;England	   12
 Great Britain.;England;Great Britain	   12
+Great Britain;Essex (England)	   12
 Great Britain;Great Britain;Great Britain;Great Britain;Great Britain;Great Britain	   12
 Great Britain.;Great Britain;United States	   12
 Great Britain;Ireland;Ireland.;Great Britain.	   12
@@ -629,6 +627,7 @@ North Carolina;United States	   12
 Northern Ireland;Down	   12
 Palatinate (Germany)	   12
 Pennsylvania;Philadelphia.;Pennsylvania	   12
+Philadelphia (Pa.);Philadelphia (Pa.)	   12
 Prussia (Germany);Prussia (Germany)	   12
 Scotland;Hebrides (Scotland)	   12
 Solar system	   12
@@ -637,21 +636,22 @@ Wye, River (Wales and England)	   12
 Yorkshire (England);Great Britain	   12
 Austria	   11
 Brighton (England)	   11
-Chester (England);Great Britain	   11
+Cheshire (England);Great Britain	   11
 Chichester (England)	   11
 Cornwall (England : County)	   11
 England;Birmingham.	   11
 England;England;Great Britain;Great Britain;Great Britain;Great Britain	   11
-England;Ireland;Great Britain	   11
 England;Lancashire.	   11
 England;London.;England;London.;England;London.	   11
 England;London;London (England);Great Britain	   11
 England;Thames River	   11
 Europe;Breda (Netherlands)	   11
+Europe;Great Britain;Ireland	   11
 Falkland Islands.	   11
 France;Italy	   11
 Germany;Halle an der Saale	   11
 Gloucester (England)	   11
+Great Britain;England;Canterbury (Province)	   11
 Great Britain;Great Britain;Africa, West;Africa, West;Great Britain	   11
 Great Britain;Great Britain.;Great Britain.	   11
 Great Britain;New York (State);America.	   11
@@ -687,6 +687,7 @@ Atlantic Ocean	   10
 Barbados;Barbados	   10
 British Isles;British Isles	   10
 Cambridge (England)	   10
+Chester (England);Great Britain	   10
 Connecticut;Wethersfield.;Connecticut;Wethersfield.;Connecticut;Wethersfield.;Connecticut;Wethersfield.	   10
 Durham (England : County)	   10
 England;Derby;England;Derby	   10
@@ -696,25 +697,22 @@ England;Fens, The (England)	   10
 England;Great Britain.	   10
 England;Great Britain;England;Great Britain	   10
 England.;Great Britain.;Great Britain.	   10
+England;Ireland;Great Britain	   10
 England;London;England;London;England;London;London (England)	   10
 England;Norwich.	   10
 England;Shrewsbury	   10
 England;Suffolk	   10
 England;Warwick;England;Warwick	   10
-Europe;Great Britain;Ireland	   10
 Europe;Holy Roman Empire	   10
 Georgia.;Georgia	   10
-Great Britain;England;Canterbury (Province)	   10
 Great Britain.;France	   10
 Great Britain;France;France;France.;Great Britain.	   10
 Great Britain.;Great Britain.;England;London.	   10
 Great Britain;Great Britain.;Great Britain	   10
-Great Britain;Hereford (England)	   10
 Great Britain;Lancashire (England)	   10
 Great Britain;Manchester (England)	   10
 Hampshire (England)	   10
 Ireland;Great Britain;Ireland;Ireland	   10
-Lincolnshire (England)	   10
 London (England);London (England);London (England)	   10
 Mahón (Spain)	   10
 Maine.	   10
@@ -738,7 +736,6 @@ Rhode Island;Rhode Island	   10
 Scotland;Aberdeen (Scotland)	   10
 Scotland;Edinburgh.;Scotland;Edinburgh.	   10
 Scotland.;Great Britain.;Great Britain.	   10
-Somerset (England)	   10
 Spain;Great Britain;Great Britain;Great Britain.;Spain.	   10
 Spain;Great Britain;Great Britain;Spain	   10
 Surrey (England)	   10
@@ -777,16 +774,16 @@ Glasgow (Scotland)	    9
 Great Britain;England;Scotland;Scotland;England	    9
 Great Britain.;Great Britain.;Great Britain;Newfoundland and Labrador.;Great Britain.;Great Britain	    9
 Great Britain;Great Britain;Spain;Spain.;Great Britain.	    9
+Great Britain;Hereford (England)	    9
 Great Britain;London (England);London (England)	    9
 Great Britain;North America	    9
-Great Britain;Portsmouth (England)	    9
 Great Britain;Turkey;Turkey;Great Britain	    9
 India.;India	    9
 Ireland;Dublin (Ireland)	    9
 Japan	    9
 Latin America	    9
+Lincolnshire (England)	    9
 London (England);London (England);Great Britain	    9
-Manchester (England)	    9
 Maryland;Baltimore.;Maryland;Baltimore.	    9
 Maryland.;Maryland.	    9
 Massachusetts;Boston;Massachusetts;Boston	    9
@@ -799,6 +796,7 @@ Portugal.	    9
 Russia;Russia;Russia	    9
 Salisbury (England)	    9
 Scotland;Glasgow;Scotland;Glasgow	    9
+Somerset (England)	    9
 South Carolina;South Carolina	    9
 South Carolina;United States	    9
 Spa (Belgium)	    9
@@ -850,6 +848,7 @@ France;France;Great Britain;Great Britain;France	    8
 France;Great Britain;France	    8
 France;Paris	    8
 Georgia;Georgia	    8
+Germany;Great Britain	    8
 Granada (Kingdom)	    8
 Great Britain;France;France	    8
 Great Britain;France;Great Britain;France;Great Britain	    8
@@ -863,6 +862,7 @@ Great Britain.;Ireland;Great Britain	    8
 Great Britain;Middlesex (England)	    8
 Great Britain;Netherlands;Great Britain	    8
 Great Britain;Netherlands;Great Britain;Netherlands;Great Britain	    8
+Great Britain;Portsmouth (England)	    8
 Great Britain;United States;France	    8
 Great Britain;United States;United States	    8
 Great Britain;United States;United States;United States;United States.;Great Britain.	    8
@@ -878,6 +878,7 @@ Limerick (Limerick, Ireland);Ireland	    8
 Litchfield (Conn.)	    8
 Londonderry (Northern Ireland);Ireland	    8
 Madagascar	    8
+Manchester (England)	    8
 Maryland;Baltimore.;Baltimore (Md.)	    8
 Massachusetts;Boston.;Massachusetts	    8
 Massachusetts;Brookfield.;Massachusetts;Worcester.;Massachusetts;Brookfield.	    8
@@ -945,7 +946,6 @@ Flanders	    7
 France;Italy;France;Italy	    7
 France;Netherlands;Netherlands;France	    7
 France;Switzerland	    7
-Germany;Great Britain	    7
 Great Britain;Bristol (England)	    7
 Great Britain;England;England;England	    7
 Great Britain;Great Britain;East Indies	    7
@@ -1090,7 +1090,6 @@ England;London;England;London;England;London;England;London	    6
 England;London.;England;London.;England;London.;London (England)	    6
 England;London;Ireland;Ireland	    6
 England;London;London	    6
-England;London;Scotland;Great Britain	    6
 England;London;Southwark (London, England)	    6
 England;Netherlands;Netherlands;England	    6
 England;Northampton;Northampton (England)	    6
@@ -1105,7 +1104,6 @@ Europe;England	    6
 Europe.;Europe	    6
 Europe.;Europe.	    6
 Europe;Spain	    6
-Exeter (England);Great Britain	    6
 Florida, Straits of.	    6
 Fort Oswego (Oswego, N.Y.);United States	    6
 France.;France;France;France	    6
@@ -1114,7 +1112,6 @@ France;Paris (France)	    6
 France;United States;Great Britain	    6
 Genoa (Italy)	    6
 Gloucester (England);Great Britain	    6
-Gloucestershire (England);Great Britain	    6
 Great Britain;Africa, West;Africa, West;Great Britain	    6
 Great Britain;Banbury (England)	    6
 Great Britain;England;England;Great Britain	    6
@@ -1127,6 +1124,7 @@ Great Britain;Hertfordshire (England)	    6
 Great Britain;Leicester (England)	    6
 Great Britain;Massachusetts;America.	    6
 Great Britain;Massachusetts;United States;America.	    6
+Great Britain;Newark (England)	    6
 Great Britain;Newcastle upon Tyne (England)	    6
 Great Britain;New England	    6
 Great Britain;Pontefract (England)	    6
@@ -1141,7 +1139,6 @@ Great Yarmouth (England)	    6
 Guiana	    6
 Guinea	    6
 Hereford (England)	    6
-Hertford (England)	    6
 Hungary;Turkey	    6
 India;Bengal	    6
 India;Bengal;India;Bengal	    6
@@ -1262,6 +1259,7 @@ England;London.;Great Britain.;Great Britain	    5
 England;London;Great Britain;Great Britain;London (England)	    5
 England;London;Great Britain;Scotland	    5
 England;London;Scotland	    5
+England;London;Scotland;Great Britain	    5
 England;Newcastle;England;Newcastle;Newcastle (England)	    5
 England;Newcastle-under-Lyme	    5
 England;Nobility;Nobility;Ireland;Scotland	    5
@@ -1280,6 +1278,7 @@ English Channel	    5
 Ethiopia;Ethiopia	    5
 Europe;Turkey	    5
 Europe;United States;Virginia	    5
+Exeter (England);Great Britain	    5
 Flanders.;Flanders;Flanders	    5
 Florida.;Florida.;Florida	    5
 France;Great Britain;United States;United States;United States;United States.;United States.;France.;Great Britain.	    5
@@ -1289,6 +1288,7 @@ Georgia.;Georgia.;Georgia.	    5
 Georgia;Savannah.	    5
 Gibraltar.;Great Britain;Great Britain	    5
 Glastonbury Tor (England)	    5
+Gloucestershire (England);Great Britain	    5
 Great Britain;Africa;Africa;Great Britain	    5
 Great Britain;Denmark;Denmark;Great Britain	    5
 Great Britain;England.	    5
@@ -1312,7 +1312,6 @@ Great Britain.;Ireland.	    5
 Great Britain;Kineton (Warwickshire)	    5
 Great Britain;Lincoln (England)	    5
 Great Britain;Massachusetts	    5
-Great Britain;Newark (England)	    5
 Great Britain;New York (N.Y.);America.	    5
 Great Britain;Norwich (England)	    5
 Great Britain;Palatinate (Germany);Palatinate (Germany);Great Britain	    5
@@ -1325,6 +1324,7 @@ Greece;Middle East;Africa	    5
 Grenada	    5
 Herculaneum (Extinct city)	    5
 Herefordshire (England);Herefordshire (England)	    5
+Hertford (England)	    5
 Highlands (Scotland);Scotland	    5
 India;Mogul Empire	    5
 Iran;Middle East	    5
@@ -1343,7 +1343,6 @@ Knaresborough (England)	    5
 La Rochelle (France)	    5
 Leicester (England)	    5
 Leith (Edinburgh, Scotland)	    5
-Lincolnshire (England);Great Britain	    5
 London (England);England;Great Britain	    5
 London (England).;London (England)	    5
 Maine.;Maine.;Maine.	    5
@@ -1370,7 +1369,6 @@ New York (State);Albany.;Albany (N.Y.)	    5
 New York (State).;New York (State);New York (State);New York (State)	    5
 Norfolk (England);Norfolk (England)	    5
 North America.;United States;Mississippi River.;Northwest, Old.	    5
-Northamptonshire (England)	    5
 North Carolina.;North Carolina	    5
 Padua (Italy)	    5
 Pelew Islands.	    5
@@ -1407,7 +1405,6 @@ Suffolk (England);Suffolk (England)	    5
 Surinam	    5
 Sussex (England)	    5
 Taunton (England)	    5
-Taunton (England);Great Britain	    5
 Toulon (France)	    5
 Tweed River (Scotland and England)	    5
 United States;Deerfield (Mass.)	    5
@@ -1464,6 +1461,7 @@ Delaware;Wilmington.;Delaware;Wilmington.	    4
 Denmark;Denmark	    4
 Denmark;Sweden	    4
 Dublin (Ireland);Great Britain;Ireland	    4
+Dunkerque (France);Great Britain	    4
 Edinburgh (Scotland);Edinburgh (Scotland)	    4
 Edinburgh (Scotland);Great Britain;Scotland	    4
 England and Wales. Parliament. House of Commons;Great Britain;Great Britain	    4
@@ -1473,6 +1471,7 @@ England;Bedford	    4
 England;Bristol (England)	    4
 England;Cambridge.	    4
 England;Cambridgeshire;England;Cambridgeshire	    4
+England;Canterbury (Province);Great Britain	    4
 England;Dorset.	    4
 England;Early works to 1800.	    4
 England;England and Wales;India	    4
@@ -1494,6 +1493,7 @@ England;Great Britain.;Great Britain	    4
 England;Great Britain.;Great Britain.;Great Britain.	    4
 England;Great Britain;Great Britain;London (England)	    4
 England;Great Britain;Great Britain;Spain;Spain;Great Britain	    4
+England;Great Britain;Oxford (England)	    4
 England;Great Britain;Scotland;Ireland	    4
 England;Great Britain;Wales	    4
 England;Greece	    4
@@ -1558,6 +1558,7 @@ Germany.	    4
 Germany;Prussia	    4
 Gibraltar;Gibraltar	    4
 Great Britain;Brentford (England)	    4
+Great Britain;Cornwall (England: County)	    4
 Great Britain;East Indies.	    4
 Great Britain;England and Wales	    4
 Great Britain.;England.;Great Britain	    4
@@ -1571,7 +1572,6 @@ Great Britain.;Europe;Great Britain	    4
 Great Britain;Europe;Ireland	    4
 Great Britain;Europe;Lancashire (England)	    4
 Great Britain;Europe;Somerset (England)	    4
-Great Britain;Exeter (England)	    4
 Great Britain;Fens, The (England)	    4
 Great Britain;France;Great Britain;France	    4
 Great Britain;France;Great Britain;Great Britain;France	    4
@@ -1600,7 +1600,6 @@ Great Britain;Jamaica	    4
 Great Britain;Massachusetts;United States;Great Britain;America	    4
 Great Britain;Morocco;Morocco;Great Britain	    4
 Great Britain;New York (State);America	    4
-Great Britain;Northamptonshire (England)	    4
 Great Britain;Portugal;Portugal;Great Britain	    4
 Great Britain;Queens;Great Britain	    4
 Great Britain;Scotland;England;England;Scotland	    4
@@ -1621,6 +1620,7 @@ Halley's comet	    4
 Halley's comet.	    4
 Hebrides (Scotland);Scotland	    4
 Hertfordshire (England)	    4
+Holy Roman Empire;Europe	    4
 Hungary;Hungary	    4
 India;Bengal.	    4
 India.;Europe;India	    4
@@ -1686,7 +1686,6 @@ Munster (Ireland)	    4
 Nantucket (Mass.);United States	    4
 Netherlands;Amsterdam	    4
 Netherlands;Great Britain;France	    4
-Newark (England);Great Britain	    4
 Newburyport (Mass.)	    4
 New England;Massachusetts;Boston.	    4
 New Hampshire;Portsmouth.;New Hampshire;Portsmouth.	    4
@@ -1703,6 +1702,7 @@ New York (State);New York (State);New York (State);New York (N.Y.)	    4
 New York (State);New York (State);New York (State);United States	    4
 New York (State);New York.;United States	    4
 New York (State);United States;New York (State)	    4
+Northamptonshire (England)	    4
 Northumberland (England)	    4
 Northwest, Old;United States	    4
 Nova Scotia.	    4
@@ -1769,6 +1769,7 @@ Spain;Great Britain;Great Britain	    4
 Spain;Portugal	    4
 Spain.;Spain	    4
 Switzerland.	    4
+Taunton (England);Great Britain	    4
 Thailand	    4
 Therapeutic use	    4
 Toulon (France);Great Britain	    4
@@ -1885,7 +1886,6 @@ Derby (England);Great Britain;Great Britain;Europe;United States	    3
 Devon (England);Great Britain;Plymouth (England)	    3
 Dover (N.H.)	    3
 Down (Ireland : County)	    3
-Dunkerque (France);Great Britain	    3
 Dunkerque (France);Great Britain;France;France;Great Britain	    3
 Durham (England)	    3
 Durham (England : County);Great Britain	    3
@@ -1908,7 +1908,6 @@ England;Birmingham;England;Worcester	    3
 England;Buckinghamshire (England);Great Britain	    3
 England;Buxton (Derbyshire, England);Derbyshire (England)	    3
 England;Canterbury (England)	    3
-England;Canterbury (Province);Great Britain	    3
 England;Cheltenham.	    3
 England;Chester;Chester (England)	    3
 England;Colchester (England)	    3
@@ -1949,7 +1948,6 @@ England;Great Britain;England;England;Great Britain	    3
 England;Great Britain;England;Great Britain;Great Britain	    3
 England;Great Britain;Great Britain;Yorkshire (England)	    3
 England;Great Britain;India	    3
-England;Great Britain;Oxford (England)	    3
 England;Great Britain;Scotland;Scotland	    3
 England;Great Britian	    3
 England;Greenwich.	    3
@@ -2043,7 +2041,6 @@ France.;Great Britain;Great Britain	    3
 France;Great Britain;Ohio River Valley;United States;Great Britain.;France.	    3
 France;Great Britain;Spain;United States	    3
 France;Marseille.	    3
-France;Prussia (Germany);Prussia (Germany);France	    3
 France;Prussia (Germany);Prussia (Germany);Germany;France	    3
 Gentry;Great Britain	    3
 Georgia.;Georgia;Georgia	    3
@@ -2062,7 +2059,7 @@ Grave (Netherlands)	    3
 Great Britain;Africa.	    3
 Great Britain.;America;Europe;Great Britain;Great Britain;Great Britain;Great Britain	    3
 Great Britain;Barbados	    3
-Great Britain;Cornwall (England: County)	    3
+Great Britain;Cartagena (Colombia)	    3
 Great Britain;Denmark;Great Britain;Denmark;Great Britain	    3
 Great Britain;East Indies;East Indies;Great Britain	    3
 Great Britain;England.;Great Britain	    3
@@ -2073,6 +2070,7 @@ Great Britain;Europe.	    3
 Great Britain;Europe;Bath (Somerset, England);Somerset (England)	    3
 Great Britain;Europe;France;Bath (Somerset, England);Somerset (England)	    3
 Great Britain;Europe;Kent (England)	    3
+Great Britain;Exeter (England)	    3
 Great Britain;Foreign countries.	    3
 Great Britain;France;Europe;France.;Great Britain.	    3
 Great Britain;France;Great Britain;France.	    3
@@ -2096,7 +2094,6 @@ Great Britain;Great Britain;Great Britain;London (England)	    3
 Great Britain;Great Britain;Great Britain;Scotland;Scotland	    3
 Great Britain;Great Britain;Great Britain;Spain.	    3
 Great Britain;Great Britain;Great Britain;United States	    3
-Great Britain;Great Britain;Leicestershire (England)	    3
 Great Britain;Great Britain;London (England);Great Britain	    3
 Great Britain.;Great Britain.;Massachusetts	    3
 Great Britain.;Great Britain.;Scotland.	    3
@@ -2124,6 +2121,7 @@ Great Britain;Maryland;America.;Great Britain.	    3
 Great Britain;Netherlands;Great Britain;Netherlands;England	    3
 Great Britain;Netherlands;Great Britain;United Provinces of the Netherlands;Netherlands;Great Britain;Netherlands;England	    3
 Great Britain;Norfolk (England)	    3
+Great Britain;Northamptonshire (England)	    3
 Great Britain;Nottingham (England)	    3
 Great Britain;Nottingham (England);Yorkshire (England)	    3
 Great Britain;Pennsylvania	    3
@@ -2131,14 +2129,11 @@ Great Britain;Rome;Public lands;Great Britain	    3
 Great Britain.;Scotland.	    3
 Great Britain;Scotland;Great Britain;England;Scotland;Scotland;England	    3
 Great Britain;Scotland;Ireland	    3
-Great Britain;Scotland;Yorkshire (England)	    3
 Great Britain;Shrewsbury (England)	    3
 Great Britain.;Sierra Leone.;Sierra Leone	    3
-Great Britain;Somerset (England)	    3
 Great Britain;Spain;Great Britain;France;Great Britain;Spain;Great Britain;France;Great Britain	    3
 Great Britain;Spain;Netherlands;Spain;Spain;Great Britain	    3
 Great Britain;Suffolk (England)	    3
-Great Britain;Sweden	    3
 Great Britain;Taxation;England	    3
 Great Britain;Troy (Extinct city)	    3
 Great Britain;Turkey	    3
@@ -2159,9 +2154,7 @@ Hamburg (Germany)	    3
 Hampshire (England);Great Britain	    3
 Hannover (Germany)	    3
 Harwich (England)	    3
-Hereford (England);Great Britain	    3
 Holland (Netherlands : Province)	    3
-Holy Roman Empire;Europe	    3
 Hungary;Transylvania (Romania)	    3
 Hungary;Transylvania (Romania);Nové Zámky (Czechoslovakia)	    3
 Illinois	    3
@@ -2217,6 +2210,7 @@ Lancaster (England : County Palatine);Lancaster (England : Duchy)	    3
 Langport (England);Great Britain	    3
 Leicester (England);Great Britain	    3
 Lincoln (England);Great Britain	    3
+Lincolnshire (England);Great Britain	    3
 Londonderry (Northern Ireland: county);Ireland	    3
 London (England);Great Britain;London (England)	    3
 London (England);Thames River (England)	    3
@@ -2264,7 +2258,6 @@ Mississippi.;Mississippi	    3
 Mogul Empire	    3
 Moon.	    3
 Morocco;Morocco;Morocco	    3
-Nantwich (England)	    3
 Naseby (England);Great Britain	    3
 Netherlands;Amsterdam (Netherlands)	    3
 Netherlands;East Indies	    3
@@ -2908,6 +2901,7 @@ England;London;England;London;Europe	    2
 England;London.;England;London.;Great Britain	    2
 England;London;England;London;Great Britain;Great Britain;Great Britain;London (England)	    2
 England;London;England;London;London	    2
+England;London;England;London;Thames River (England)	    2
 England;London;England;London;Thames River (England);London (England)	    2
 England;London.;England;Middlesex.	    2
 England;London;England;Westminster	    2
@@ -2934,7 +2928,6 @@ England;London;York (England);Great Britain	    2
 England;Manchester;England;Manchester	    2
 England;Middlesex (England)	    2
 England;Middlesex;England;Middlesex;England;Middlesex	    2
-England;Newcastle	    2
 England;Newcastle-upon-Tyne	    2
 England;Newcastle-upon-Tyne.	    2
 England;Newcastle upon Tyne (England);Great Britain	    2
@@ -3001,7 +2994,6 @@ England;Surrey;England;Surrey;England;Surrey	    2
 England;Surrey.;Ireland;Kingston.	    2
 England;Thames River;England	    2
 England.;Thames River (England)	    2
-England;Thames River (England);Thames River (England)	    2
 England;Thames River;England;Thames River;Thames River (England)	    2
 England;Thames River;Thames River (England);Thames River (England)	    2
 England;Tiverton (England);Tiverton (England)	    2
@@ -3022,7 +3014,6 @@ England;Wisbech	    2
 England;York.	    2
 England;York.;England;York	    2
 England;York.;Great Britain.	    2
-England;Yorkshire (England);Great Britain	    2
 England;Yorkshire.;England;North Riding of Yorkshire.;North Riding of Yorkshire (England)	    2
 England;Yorkshire;England;Yorkshire;England;Yorkshire	    2
 England;Yorkshire;England;Yorkshire;Yorkshire (England)	    2
@@ -3111,6 +3102,7 @@ France;Netherlands;France;Germany;Netherlands;France	    2
 France;Normandy.	    2
 France;Paris.	    2
 France;Paris.;France;Paris.	    2
+France;Prussia (Germany);Prussia (Germany);France	    2
 France;Rochel	    2
 France;Saint Germain-en-laye (France)	    2
 France;Scotland	    2
@@ -3169,7 +3161,6 @@ Great Britain;Buckinghamshire (England)	    2
 Great Britain;Canada	    2
 Great Britain.;Canada	    2
 Great Britain;Carlisle (England)	    2
-Great Britain;Cartagena (Colombia)	    2
 Great Britain;Cheapside Cross (London, England)	    2
 Great Britain;Cheshire (England)	    2
 Great Britain;Chester (England)	    2
@@ -3309,7 +3300,6 @@ Great Britain;Mahon (Spain)	    2
 Great Britain;Mahon (Spain);Mahón (Spain);Great Britain	    2
 Great Britain;Maidstone (England)	    2
 Great Britain;Massachusetts;Great Britain;America.	    2
-Great Britain;Milford Haven (Wales)	    2
 Great Britain;Montgomeryshire (Wales)	    2
 Great Britain;Naseby (England)	    2
 Great Britain;Netherlands;England;England;Netherlands	    2
@@ -3349,13 +3339,16 @@ Great Britain.;Scotland;Scotland	    2
 Great Britain;Scotland;Scotland;England	    2
 Great Britain;Scotland;Scotland;Great Britain	    2
 Great Britain;Scotland;United States	    2
+Great Britain;Scotland;Yorkshire (England)	    2
 Great Britain;Sherborne (Dorset, England)	    2
+Great Britain;Somerset (England)	    2
 Great Britain;South America;West Indies;South America.;Great Britain.	    2
 Great Britain;Spain;Europe;Great Britain;Great Britain;Spain.;Great Britain.	    2
 Great Britain;Spain;Great Britain;Guiana;Spain;Great Britain	    2
 Great Britain;Spain;Great Britain;Spain;Spain;Great Britain	    2
 Great Britain;Spain;Spain	    2
 Great Britain;Staffordshire (England)	    2
+Great Britain;Sweden	    2
 Great Britain;Sweden;Great Britain;Sweden.;Great Britain.	    2
 Great Britain;Sweden;Sweden;Great Britain	    2
 Great Britain;Sweden;Sweden.;Great Britain.	    2
@@ -3376,7 +3369,6 @@ Great Britain;United States;West Indies, British;Colonies;West Indies.;West Indi
 Great Britain;Wakefield (England)	    2
 Great Britain;Wakefield (West Yorkshire)	    2
 Great Britain;Wales;Great Britain	    2
-Great Britain;Wallingford (Oxfordshire);Wallingford (England)	    2
 Great Britain;Warwick (England)	    2
 Great Britain.;West Florida	    2
 Great Britain;West Indies.	    2
@@ -3388,7 +3380,6 @@ Great Britain.;West Indies.;Great Britain.	    2
 Great Britain;Westminster (London, England)	    2
 Great Britain;Weymouth and Melcombe Regis(England)	    2
 Great Britain;York (England);Great Britain	    2
-Great Britain;York (England);Hull (England)	    2
 Great Britian;Great Britain;Great Britain	    2
 Great Britian;Ireland	    2
 Great Torrington (England);Great Britain	    2
@@ -3420,7 +3411,6 @@ Holland	    2
 Holland;Germany	    2
 Holy Roman Empire;France;France;Holy Roman Empire	    2
 Holy Roman Empire;Holy Roman Empire;Germany;Rome (Italy)	    2
-Holy Roman Empire;Holy Roman Empire;Great Britain;Great Britain;Holy Roman Empire	    2
 Hudson Bay	    2
 Hudson Bay;Northwest Passage	    2
 Hull, River (England)	    2
@@ -3544,6 +3534,7 @@ Lapland	    2
 Latin America;America	    2
 Latin America;Mexico;Central America	    2
 Latin America;Spain;America	    2
+Launceston (England)	    2
 Law and legislation;Great Britain;Great Britain	    2
 Law and legislations;England	    2
 Law;Scotland;Scotland	    2
@@ -3585,6 +3576,7 @@ Luxembourg;France;Luxembourg (Luxembourg)	    2
 Lyme Regis (England)	    2
 Madeira (Madeira Islands)	    2
 Magdeburg (Germany)	    2
+Maharashtra (India)	    2
 Mahón (Spain);Port Mahon (Del.)	    2
 Mahoþn (Spain)	    2
 Maine;Bath.;Bath (Me.)	    2
@@ -3693,6 +3685,7 @@ Moral and ethical aspects	    2
 Moray, Scotland (Province)	    2
 Morocco.;Morocco;Great Britain	    2
 Morocco;Spain;Spain	    2
+Nantwich (England)	    2
 Naples, 1656.;England;London	    2
 Needwood Forest	    2
 Netherlands.;Earth	    2
@@ -3708,6 +3701,7 @@ Netherlands;Great Britain;New York (State);Great Britain;Netherlands	    2
 Netherlands;Indonesia	    2
 Netherlands;Netherlands;France;France;Netherlands	    2
 Netherlands;Scotland	    2
+Newark (England);Great Britain	    2
 Newark (England);Great Britain;Scotland	    2
 Newbury (England);Gloucester (England)	    2
 New Caledonia (Colony);Great Britain	    2
@@ -4985,7 +4979,6 @@ Cochin China.;Cochin China.	    1
 Cockburne (N.H.)	    1
 Cockermouth (England)	    1
 Coe, Glen (Scotland)	    1
-Colchester (England);Colchester (England);Great Britain;Great Britain	    1
 Colchester (England);Essex (England);Great Britain	    1
 Colchester (England);Great Britain;Kent (England)	    1
 Colchester (England);Great Britain;Scotland	    1
@@ -5014,6 +5007,7 @@ Connecticut.;Connecticut;Colchester.;Connecticut.;Connecticut;Colchester.	    1
 Connecticut.;Connecticut;Connecticut;Connecticut	    1
 Connecticut.;Connecticut.;Connecticut;Connecticut	    1
 Connecticut.;Connecticut.;Connecticut.;Connecticut.;Connecticut	    1
+Connecticut.;Connecticut.;Connecticut.;Connecticut;Connecticut;Connecticut	    1
 Connecticut.;Connecticut.;Connecticut.;Connecticut.;Connecticut.;United States	    1
 Connecticut.;Connecticut.;Connecticut.;Connecticut.;United States	    1
 Connecticut.;Connecticut.;Connecticut.;Hartford and New-Haven Turnpike (Conn.)	    1
@@ -5285,7 +5279,6 @@ Dutch War, 1672-1678	    1
 Early works to 1800.;Early works to 1800.	    1
 Early works to 1800.;England;Great Britain	    1
 Early works to 1800.;Great Britain;Scotland	    1
-Earthquakes;London (England);England;London	    1
 East Asia;Indonesia;Madagascar	    1
 East Avon River (Wiltshire and Hampshire)	    1
 Eastbourne (East Sussex, England)	    1
@@ -5300,7 +5293,6 @@ East Indies;East Indies;Indonesia	    1
 East Indies;Great Britain	    1
 East Indies;Great Britain;Great Britain;Great Britain;East Indies	    1
 East Indies;Great Britain;India	    1
-East Indies;Middle East	    1
 East Indies;Mogul Empire	    1
 East Indies;Netherlands;East Indies	    1
 East Indies.;Southeast Asia.	    1
@@ -5320,7 +5312,6 @@ Edinburgh (Lothian)	    1
 Edinburgh (Lothian);Edinburgh (Lothian)	    1
 Edinburgh (Scotland);Edinburgh (Scotland);Midlothian (Scotland)	    1
 Edinburgh (Scotland);England;Scotland;Scotland;England	    1
-Edinburgh (Scotland);Great Britain	    1
 Edinburgh (Scotland);Great Britain;London (England);Scotland	    1
 Edinburgh (Scotland);Great Britain;North America	    1
 Edinburgh (Scotland);Scotland;Edinburgh (Scotland);Edinburgh (Scotland)	    1
@@ -5565,7 +5556,6 @@ England;Coventry (England);Great Britain;Europe	    1
 England;Coventry;Exhall	    1
 England;Coychurch;Great Britain;Coychurch	    1
 England;Cradley (Hereford and Worcestershire, England);Halesowen (England)	    1
-England;Cramlington (England)	    1
 England;Crediton.	    1
 England;Crediton.;Crediton (Devon)	    1
 England;Crewkerne	    1
@@ -5809,7 +5799,6 @@ England;England;Great Britain;Great Britian	    1
 England;England;Great Britain;Ireland	    1
 England;England;Great Britain;North America;Europe	    1
 England;England;Great Britain;Oxford (England)	    1
-England;England;Great Britain;Scotland;Great Britain;Great Britain	    1
 England;England;Great Britain;Stafford (England)	    1
 England;England;Great Britain;Wales	    1
 England;England;Great Britain;York (England);Great Britain	    1
@@ -6017,6 +6006,7 @@ England;Great Britain;England.;England.;England;Great Britain	    1
 England;Great Britain;England;England;Suffolk	    1
 England.;Great Britain;England.;Great Britain	    1
 England;Great Britain;England;Great Britain;Great Britain;Great Britain	    1
+England;Great Britain;England;Great Britain;Great Britain;Ireland	    1
 England;Great Britain;England;Great Britain;Netherlands;Netherlands;Great Britain	    1
 England;Great Britain;England;Lincoln (England : County)	    1
 England;Great Britain;England;London;England;London	    1
@@ -6413,7 +6403,6 @@ England;London.;England;London.;London (England);London (England)	    1
 England;London;England;London;London (England);Thames River (England)	    1
 England;London;England;London metropolitan area	    1
 England;London;England;London;Poor;England;London	    1
-England;London;England;London;Thames River (England)	    1
 England;London.;England;London.;Westminster (London, England);Great Britain	    1
 England;London;England;Middlesex (England)	    1
 England;London;England;Middlesex;London (England)	    1
@@ -6475,7 +6464,6 @@ England;London;Great Britain;Ireland;Ireland	    1
 England;London;Great Britain;Kingston upon Thames (London, England)	    1
 England;London;Great Britain;Lincolnshire (England)	    1
 England;London;Great Britain;London (England;London (England);Middlesex (England)	    1
-England;London;Great Britain;London (England);Westminster (London, England)	    1
 England;London;Great Britain;London;Pimlico (London, England)	    1
 England;London;Great Britain;Lyme Regis (England)	    1
 England;London;Great Britain;Muggleswick (England)	    1
@@ -6619,6 +6607,7 @@ England;Newark.	    1
 England;Newark (England);Lincolnshire (England);Great Britain	    1
 England;Newark (Nottinghamshire);Newark (Nottinghamshire, England)	    1
 England;Newark upon Trent;England;Newark upon Trent	    1
+England;Newcastle	    1
 England;Newcastle;Great Britain;Great Britain	    1
 England;Newcastle upon Tyne (England)	    1
 England;Newcastle upon Tyne.;England.	    1
@@ -6906,6 +6895,7 @@ England;Thames River (England);London (England)	    1
 England;Thames River (England);Massachusetts	    1
 England;Thames River;England;Medway, River	    1
 England;Thames River;England;Thames River	    1
+England;Thames River (England);Thames River (England)	    1
 England;Thames River;England;Thames River (England)	    1
 England;Thames River (England);Thames River (England);London (England)	    1
 England;Thames River;Great Britain	    1
@@ -6973,7 +6963,6 @@ England;Warwick;Pryors-Marston;England;Warwick;Pryors-Marston	    1
 England;Warwick;Ryton;England;Warwick;Ryton	    1
 England;Warwickshire (England)	    1
 England;Warwickshire.;England;Warwickshire.;England;Warwickshire.	    1
-England;Warwickshire;Warwickshire (England)	    1
 England;Warwickshire.;Warwickshire (England)	    1
 England;Warwick;Southam;England;Warwick;Southam	    1
 England;Warwick;Warwick (England)	    1
@@ -7041,6 +7030,7 @@ England;Yorkshire (England);Derbyshire (England)	    1
 England;Yorkshire.;England;East Riding of Yorkshire.;East Riding of Yorkshire (Great Britain)	    1
 England;Yorkshire;England;England;England	    1
 England;Yorkshire (England);Europe	    1
+England;Yorkshire (England);Great Britain	    1
 England;Yorkshire (England);North America;Turkey	    1
 England;Yorkshire.;England;West Riding of Yorkshire.;West Riding of Yorkshire (England)	    1
 England;Yorkshire.;England;Yorkshire	    1
@@ -7611,7 +7601,6 @@ Glasgow (Scotland);Greenock (Scotland);Paisley (Scotland)	    1
 Glastonbury (England)	    1
 Glossaries, vocabularies, etc.	    1
 Gloucester (England);Gloucester (England)	    1
-Gloucester (England);Gloucester (England);Great Britain	    1
 Gloucester (England);Tewkesbury (England)	    1
 Gloucester (Mass.)	    1
 Gloucester (Mass.);United States	    1
@@ -7676,7 +7665,6 @@ Great Britain;Bahamas;Bahamas;America	    1
 Great Britain.;Barbados	    1
 Great Britain;Barbados;Antigua;Leeward Islands (West Indies)	    1
 Great Britain;Barbados;Barbados;Great Britain	    1
-Great Britain;Barnstaple (England)	    1
 Great Britain;Belgium	    1
 Great Britain;Belgium;Great Britain;Belgium;Belgium;England;Belgium;England	    1
 Great Britain;Bermuda Islands;Great Britain	    1
@@ -7697,6 +7685,7 @@ Great Britain;Calais (France)	    1
 Great Britain;Cambridge	    1
 Great Britain;Cambridgeshire (England);Isle of Ely (England)	    1
 Great Britain;Canterbury (England)	    1
+Great Britain;Cardiff (Wales);Wales	    1
 Great Britain;Carron river, Scot;Clyde River (Scotland)	    1
 Great Britain;Catholics;Great Britain	    1
 Great Britain;Church and state;England.	    1
@@ -7810,7 +7799,6 @@ Great Britain.;England;London.;England;Kingston-upon-Thames.	    1
 Great Britain.;England;London;England;London	    1
 Great Britain;England;London;England;London;London (England)	    1
 Great Britain;England;London;England;London;Westminster (London, England)	    1
-Great Britain.;England;London (England);Thames River (England);Thames River (England)	    1
 Great Britain.;England;London.;Great Britain.	    1
 Great Britain;England;London;Great Britain;England;London;Childbirth at home;Great Britain;England;London	    1
 Great Britain;England;London;Great Britain;England;London;London (England)	    1
@@ -7872,10 +7860,8 @@ Great Britain;Europe;Spain;France;Denmark;Netherlands;Tripoli (Libya);Turkey;Alg
 Great Britain;Europe;Suffolk (England)	    1
 Great Britain;Europe;Suffolk (England);Norfolk (England)	    1
 Great Britain;Europe;Yorkshire (England)	    1
-Great Britain;Evesham (England)	    1
 Great Britain;Exeter (England);Devon (England)	    1
 Great Britain;Fairs;Scotland;Scotland	    1
-Great Britain;Faringdon (England)	    1
 Great Britain;Fens, The (England);Great Britain;Great Britain;Bedford (England);Great Britain	    1
 Great Britain;Fens, The (England);Lincolnshire (England)	    1
 Great Britain.;Fens, The (England);Nene River (England)	    1
@@ -7884,7 +7870,6 @@ Great Britain;Finance, Public;Great Britain	    1
 Great Britain;Firearms;England;London	    1
 Great Britain;Flanders	    1
 Great Britain;Flanders;Great Britain;Great Britain;Flanders	    1
-Great Britain;Flintshire (Wales)	    1
 Great Britain;Florida	    1
 Great Britain;Florida;America	    1
 Great Britain.;France.	    1
@@ -8135,6 +8120,7 @@ Great Britain;Great Britain;Kent (England);Essex (England)	    1
 Great Britain;Great Britain;Lancashire (England);Westmorland (England)	    1
 Great Britain;Great Britain;Leases;Great Britain	    1
 Great Britain.;Great Britain.;Legal status, laws, etc.;Great Britain.	    1
+Great Britain;Great Britain;Leicestershire (England)	    1
 Great Britain;Great Britain;Letters.	    1
 Great Britain;Great Britain;Liverpool (England)	    1
 Great Britain;Great Britain;London (England	    1
@@ -8228,6 +8214,7 @@ Great Britain;Great Britsin	    1
 Great Britain;Great Brtitain;Great Britain;Great Britain	    1
 Great Britain;Great Ouse River (England)	    1
 Great Britain;Great Yarmouth (England);London (England)	    1
+Great Britain;Great Yarmouth (England);Norwich (England);Thetford (England)	    1
 Great Britain;Greenwich	    1
 Great Britain;Gret Britain	    1
 Great Britain;Guernsey (England)	    1
@@ -8249,7 +8236,6 @@ Great Britain;Holderness (England)	    1
 Great Britain;Holy Roman Empire	    1
 Great Britain;Holy Roman Empire;Great Britain;France;Holy Roman Empire;Great Britain;France;Great Britain	    1
 Great Britain;Holy Roman Empire;Holy Roman Empire;Great Britain	    1
-Great Britain;Holy Roman Empire;Holy Roman Empire;Holy Roman Empire;Great Britain	    1
 Great Britain;Hougham (Lincolnshire, England);Lincolnshire (England)	    1
 Great Britain;Hull(England)	    1
 Great Britain;Hull (England);Beverley (Humberside)	    1
@@ -8301,7 +8287,6 @@ Great Britain.;Ireland.;Ireland;Great Britain;Ireland;Ireland.;Great Britain.	  
 Great Britain;Ireland;Ireland;Ireland.	    1
 Great Britain.;Ireland;Ireland;Ireland	    1
 Great Britain;Ireland;Ireland;Ireland;England	    1
-Great Britain;Ireland;Ireland;Ireland;Great Britain	    1
 Great Britain;Ireland;Ireland;Shannon River (Ireland);Ireland;Great Britain	    1
 Great Britain;Ireland;Lancashire (England)	    1
 Great Britain.;Ireland;Northern Ireland	    1
@@ -8376,6 +8361,7 @@ Great Britain;Medway, River (England);Thames River (England)	    1
 Great Britain;Middle East.	    1
 Great Britain;Middle East;Great Britain;Great Britain.;Middle East.	    1
 Great Britain;Middlesex;Great Britain	    1
+Great Britain;Milford Haven (Wales)	    1
 Great Britain;Minorca (Spain)	    1
 Great Britain;Monarchy;Great Britain	    1
 Great Britain;Monmouth (England)	    1
@@ -8536,7 +8522,6 @@ Great Britain;Scotland;Scotland;Scotland	    1
 Great Britain.;Scotland;Scotland;Scotland;Great Britain	    1
 Great Britain.;Scotland;Zetland.;Peterhead (Scotland)	    1
 Great Britain;Sherborne (Dorset, England)]	    1
-Great Britain;Sherburn in Elmet (England)	    1
 Great Britain;Sherburn (North Yorkshire, England)	    1
 Great Britain.;Shrewsbury (England)	    1
 Great Britain;Sicily (Italy)	    1
@@ -8640,12 +8625,11 @@ Great Britain.;Wales;England;Wales;England;Wales;England	    1
 Great Britain.;Wales.;Great Britain;Great Britain	    1
 Great Britain;Wales;Monmouth (Wales)	    1
 Great Britain;Wales, North	    1
-Great Britain;Wales;Scotland;Wales	    1
 Great Britain;Wales;Wales	    1
+Great Britain;Wallingford (Oxfordshire);Wallingford (England)	    1
 Great Britain;Waltham Abbey (Essex)	    1
 Great Britain;Wellingborough (England)	    1
 Great Britain;Wells (England)	    1
-Great Britain;Wells (Somerset)	    1
 Great Britain.;West Indies	    1
 Great Britain;West Indies, British;Bahamas;Nassau (Bahamas)	    1
 Great Britain;West Indies, British;Colonies;West Indies.	    1
@@ -8675,7 +8659,6 @@ Great Britain;Winchester (England);Manchester (England)	    1
 Great Britain;Windsor and Maidenhead (England);Windsor and Maidenhead (England)	    1
 Great Britain;Windsor (England)	    1
 Great Britain;Winterton	    1
-Great Britain;Worcester (England)	    1
 Great Britain;Worcester(England)	    1
 Great Britain;Worchester (England)	    1
 Great Britain;World history	    1
@@ -8684,10 +8667,12 @@ Great BritainxEarly works to 1800.;Great Britain	    1
 Great Britain;xGreat Britain	    1
 Great Britain x History;Great Britain x History;Great Britain	    1
 Great Britain;Yarmouth	    1
+Great Britain;York (England);Hull (England)	    1
 Great Britain;York (England);Yorkshire (England);Great Britain	    1
 Great Britain;Yorkshire(England)	    1
 Great Britain;Yorkshire (England) History	    1
 Great Britain;Yorkshire (England);Hull (England)	    1
+Great Britain;Yorkshire (England);Yorkshire (England)	    1
 Great Britain;Yorksire	    1
 Great Britatin;Great Britain;Great Britain	    1
 Great Britatin;Scotland	    1
@@ -8824,7 +8809,7 @@ Herculaneum (Extinct city);Vesuvius (Italy)	    1
 Hereford	    1
 Hereford Cathedral Close Site (Hereford, England);Herefordshire (England)	    1
 Hereford (England);Gloucester (England);Great Britain	    1
-Hereford (England);Great Britain;Scotland	    1
+Hereford (England);Great Britain	    1
 Hereford (England);Hereford (England)	    1
 Herefordshire (England);Great Britain	    1
 Herkimer County (N.Y.);Oneida County (N.Y.);Rome (N.Y.)	    1
@@ -8924,6 +8909,7 @@ India;India;Great Britain;France;France;Great Britain	    1
 India;India;Great Britain;Great Britain.;India.	    1
 India.;India;Great Britain;India;India;Great Britain.;India.	    1
 India.;India.;India;Great Britain;Bengal (India);Asia.	    1
+India;India;India;India;Asia	    1
 India;India;India;Mogul Empire	    1
 India;India;Madras (India)	    1
 India;India;Mogul Empire	    1
@@ -9222,6 +9208,7 @@ Ireland;Scotland;Ireland	    1
 Ireland;Scotland;Scotland;Ireland	    1
 Ireland;Shannon River (Ireland)	    1
 Ireland;Shannon River Valley (Ireland)	    1
+Ireland;Sligo (Ireland)	    1
 Ireland;Spain	    1
 Ireland.;Spain;Gibraltar	    1
 Ireland.;Spain;Great Britain;Great Britain	    1
@@ -9434,7 +9421,6 @@ La Rochelle (France);La Rochelle (France)	    1
 Latin America.	    1
 Latin America;Great Britain;South America;South America.;Great Britain.	    1
 Latin America;Spain;Spain;Spain;Latin America;America	    1
-Launceston (England)	    1
 Law and legislation	    1
 Law and legislation;England	    1
 Law and legislation;England;Great Britain	    1
@@ -9485,9 +9471,7 @@ Liffey, River (Ireland);Ireland	    1
 Lille (France)	    1
 Limerick (Ireland : County);Limerick (Limerick, Ireland)	    1
 Lincoln (England)	    1
-Lincoln (England);Cheshire (England);Great Britain	    1
 Lincoln (England : County)	    1
-Lincoln (England);Wales;Clwyd (Wales);Gwynedd (Wales);West Glamorgan;South Glamorgan (Wales);Mid Glamorgan;Great Britain	    1
 Lincolnshire (England);Lincolnshire (England);Lincolnshire (England)	    1
 Lisbon	    1
 Lisbon Earthquake, Portugal,1755	    1
@@ -9607,7 +9591,6 @@ Madras (India : Presidency)	    1
 Madrid (Spain);Vienna (Austria)	    1
 Magellan, Strait of (Chile and Argentina);Falkland Islands	    1
 Magellan, Strait of (Chile and Argentina);Spitsbergen Island (Norway)	    1
-Maharashtra (India)	    1
 Mahon (Minorca);Mahón (Spain)	    1
 Mahón (Minorca);Mahón (Spain)	    1
 Mahón (Spain);Great Britain	    1
@@ -10120,6 +10103,7 @@ Naples (Kingdom);France;France	    1
 Naples (Kingdom);Great Britain;Spain;Spain;England	    1
 Naples (Kingdom);Italy;Sicily (Italy)	    1
 Naples (Kingdom);Local histories.	    1
+Naples (Kingdom).;Naples (Kingdom);Italy;Naples.;Naples (Italy)	    1
 Naples (Kingdom);Sicily (Italy);Italy	    1
 Naples;Sicily	    1
 Narragansett Bay (R.I.);Rhode Island;Rhode Island;Massachusetts;Massachusetts.;Rhode Island.	    1
@@ -10276,6 +10260,7 @@ New England.;New England;United States;New England	    1
 New England;New Hampshire;Vermont	    1
 New England;New York (State)	    1
 New England;New York (State);New York;New England;Timetables;New England	    1
+New England;North America;Atlantic Coast;North America	    1
 New England.;Nova Scotia.;New England;Nova Scotia;New England;Nova Scotia;New England;Nova Scotia	    1
 New England.;United States;Massachusetts	    1
 New Forest (England: Forest)	    1
@@ -10869,6 +10854,7 @@ Palmyra (Syria)	    1
 Papal States	    1
 Paris	    1
 Paris (France);France;Italy;Italy	    1
+Paris (France);London (England);Europe;Netherlands	    1
 Parish of Kilronan (Ireland)	    1
 Parker Hill (N.H.)	    1
 Parthia;Parthia (Iran)	    1
@@ -11610,7 +11596,6 @@ Scotland;Scotland;Edinburgh.;Scotland;Edinburgh.;Edinburgh (Scotland)	    1
 Scotland;Scotland;Edinburgh;Scotland;Edinburgh.;Scotland;Edinburgh.;Edinburgh (Scotland)	    1
 Scotland;Scotland;Edinburgh (Scotland);Scotland	    1
 Scotland;Scotland;England.	    1
-Scotland;Scotland;England;Great Britain;England;Scotland	    1
 Scotland.;Scotland.;England;London.	    1
 Scotland;Scotland;England;London.;Scotland	    1
 Scotland;Scotland;England;Scotland	    1

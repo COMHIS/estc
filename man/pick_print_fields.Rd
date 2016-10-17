@@ -4,15 +4,15 @@
 \alias{pick_print_fields}
 \title{Pick print fields}
 \usage{
-pick_print_fields(x, field)
+pick_print_fields(x, fields2)
 }
 \arguments{
-\item{x}{A vector}
+\item{x}{list of strings}
 
-\item{field}{field names}
+\item{fields2}{c(string_field1, string_field2...)}
 }
 \value{
-fields
+for each x, the string after last field that has been found, else the string after first one, else NA
 }
 \description{
 Pick print fields from publisher vector.
@@ -21,7 +21,7 @@ Pick print fields from publisher vector.
 \dontrun{x2 <- pick_print_fields(x, field)}
 }
 \author{
-Leo Lahti \email{leo.lahti@iki.fi}
+Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
 }
 \references{
 See citation("estc")

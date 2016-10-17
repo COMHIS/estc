@@ -1,3 +1,11 @@
+# Load the polishing function
+#source("/home/mckoistt/Documents/r_scripts_mk/ESTC__/estc/R/polish_publisher_forby.R") # Modify freely polish_forby.R
+#source("/home/mckoistt/Documents/r_scripts_mk/ESTC__/estc/R/pick_print_fields.R") # Modify freely polish_forby.R
+#source("/home/mckoistt/Documents/r_scripts_mk/ESTC__/estc/R/pick_shortest_text.R") # Modify freely polish_forby.R
+#source("/home/mckoistt/Documents/r_scripts_mk/ESTC__/estc/R/remove_ending_chars.R") # Modify freely polish_forby.R
+#source("/home/mckoistt/Documents/r_scripts_mk/ESTC__/estc/R/split_doer_and_place.R") # Modify freely polish_forby.R
+#source("/home/mckoistt/Documents/r_scripts_mk/ESTC__/estc/R/choose_first_index.R") # Modify freely polish_forby.R
+
 
 library(gdata)
 my.authors <- c(Shakespeare = "Shakespeare, William (1564-1616)",

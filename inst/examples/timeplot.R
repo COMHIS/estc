@@ -59,7 +59,7 @@ dev.off()
 # ------------------------------------------------------------------
 
 
-#onko mahdollista ottaa historia-datasta maakohtaisesti erikseen 
+#historia-datasta maakohtaisesti erikseen 
 #Englantia, Skotlantia ja Yhdysvaltoja 
 #koskeva sama julkaisuvoluumia koskeva aikajana 
 
