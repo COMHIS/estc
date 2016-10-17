@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-10-06"
+date: "2016-10-17"
 output: markdown_document
 ---
 
@@ -62,7 +62,11 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 
 
 ```
-## Error: Unknown column 'percentage'
+## Error in `[.data.frame`(x, , c("publication_time", group)): undefined columns selected
+```
+
+```
+## Error in `[.data.frame`(x, , c("publication_time", group)): undefined columns selected
 ```
 
 <img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
