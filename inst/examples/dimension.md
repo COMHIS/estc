@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-10-07"
+date: "2016-10-17"
 output: markdown_document
 ---
 
@@ -59,6 +59,15 @@ Right: title count per gatherings.
 
 Popularity of different document sizes over time. Left: absolute title counts. Right: relative title counts. Gatherings with less than 15 documents at every decade are excluded:
 
+
+
+```
+## Error in `[.data.frame`(x, , c("publication_time", group)): undefined columns selected
+```
+
+```
+## Error in `[.data.frame`(x, , c("publication_time", group)): undefined columns selected
+```
 
 <img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
 
