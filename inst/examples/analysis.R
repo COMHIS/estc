@@ -61,8 +61,8 @@ source("report.R")
 
 # -------------------------------------------------
 
-system("git add -f figure/*.png")
-# system("git add -f output.tables/*.csv")
-system("git add output.tables/*.csv")
-system("git commit -a -m'Rmd update'")
-system("git push")
+# system("git add -f figure/*.png")
+# # system("git add -f output.tables/*.csv")
+# system("git add output.tables/*.csv")
+# system("git commit -a -m'Rmd update'")
+# system("git push")

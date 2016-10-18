@@ -37,26 +37,18 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 Multi-volume documents average page counts are given per volume.
 
 
-|doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
-|:-------------|--------------------:|----------------------:|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
-|2fo           |               115.31|                   93.5|       95218|               89.55|                  2.00|       1046|            17.02|               2.00|     257|
-|4long         |                  NaN|                     NA|          22|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|4to           |               121.14|                  108.0|      100609|                  NA|                    NA|         NA|            27.26|               1.63|     162|
-|8long         |                  NaN|                     NA|          40|                3.00|                  3.00|          1|               NA|                 NA|      NA|
-|8vo           |                71.79|                    5.0|      160914|               27.96|                  2.00|       6833|            10.87|               1.05|     392|
-|12long        |               226.00|                  226.0|         260|               42.00|                 18.00|          5|            18.00|              18.00|       4|
-|12mo          |               550.91|                  552.5|       64057|               13.80|                  1.33|       6713|            10.63|               1.33|      94|
-|16long        |                  NaN|                     NA|           1|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|16mo          |                  NaN|                     NA|        2340|               19.59|                  2.00|         45|               NA|                 NA|      NA|
-|18mo          |                  NaN|                     NA|        1757|                7.02|                  1.33|        245|             0.50|               0.33|       8|
-|24long        |                  NaN|                     NA|          82|                  NA|                    NA|         NA|               NA|                 NA|      NA|
-|24mo          |                  NaN|                     NA|        1815|               10.85|                  1.00|         55|             1.00|               1.00|       2|
-|32mo          |                  NaN|                     NA|         744|                2.00|                  2.00|          7|             2.00|               2.00|       1|
-|48mo          |                  NaN|                     NA|          21|                 NaN|                    NA|          2|               NA|                 NA|      NA|
-|64mo          |                  NaN|                     NA|         123|              147.17|                147.00|          6|               NA|                 NA|      NA|
-|NA            |                  NaN|                     NA|       16763|                2.48|                  1.33|        199|             1.04|               1.03|     116|
-|1to           |                   NA|                     NA|          NA|                  NA|                    NA|         NA|              NaN|                 NA|      10|
-|2long         |                   NA|                     NA|          NA|                  NA|                    NA|         NA|              NaN|                 NA|       1|
+```
+## Error in inherits(x, "list"): object 'mean.pagecounts' not found
+```
+
+
+```
+## Error in melt(mean.pagecounts[, c("median.pages.multivol", "median.pages.singlevol", : object 'mean.pagecounts' not found
+```
+
+```
+## Error in melt(mean.pagecounts[, c("mean.pages.multivol", "mean.pages.singlevol", : object 'mean.pagecounts' not found
+```
 
 ![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
 
