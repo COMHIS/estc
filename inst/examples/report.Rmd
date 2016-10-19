@@ -1,6 +1,6 @@
 ---
-title: "Overview of an ESTC query `r params$min.year`-`r params$max.year`"
-subtitle: "`r params$subtitle`"
+title: "ESTC: `r params$place` documents in `r params$language` language `r params$min.year`-`r params$max.year`"
+subtitle: "`r paste(params$subtitle)`"
 author: "Mikko Tolonen, Leo Lahti, Eetu Makela et al."
 date: "`r Sys.Date()`"
 fontsize: 11pt
@@ -37,6 +37,17 @@ params:
     label: "Date:"
     value: !r date()
     input: date
+  place: 
+    label: "Publication place:"
+    value: "All"
+    choices: !r c("All", "London", "Edinburgh", "Dublin", "Boston Ma", "Philadelphia Pa", "Oxford", "Glasgow", "New York NY", "Cambridge", "Newcastle")
+    input: select
+  language:
+    label: "Language: "
+    value: "any"
+    choices: !r c("any", "English", "Latin",  "French", "German", "Welsh")  
+    input: radio
+    inline: TRUE
   subtitle: 
     label: "Subtitle:"
     value: My subtitle
@@ -67,6 +78,9 @@ if (params$update.bibliographica) {
 mydate <- params$start
 min.year <- params$min.year
 max.year <- params$max.year
+
+# Selected place (if any)
+selected.place <- params$place
 
 # Time window for the plots
 time.window <- params$time.window
@@ -113,6 +127,16 @@ ntop <- 20
 ```{r data, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
 # Read the preprocessed data
 df.preprocessed <- readRDS("df.Rds")
+
+# Selected place
+if (!selected.place == "All") {
+  df.preprocessed <- df.preprocessed %>% filter(publication_place %in% selected.place)
+}
+
+# Selected language
+if (!params$language == "any") {
+  df.preprocessed <- df.preprocessed %>% filter(language %in% params$language)
+}
 
 # Set the desired time window (default one decade)
 if (time.window == 10) {
@@ -185,19 +209,23 @@ hitp1 <- 100 * hitn1/nrow(custom.ids)
 
 ### Technical notes
 
+Selected place: `r params$place`
+
+Selected language: `r params$language`
+
 Query IDs (n=`r nrow(custom.ids)`) from file:  `r params$idsource`  
 
 IDs found from complete ESTC: n=`r hitn0` (`r round(hitp0, 2)` %)  
 
-IDs found after the subset: n=`r hitn1` (`r round(hitp1, 2)` %)   
+IDs found after subsetting (time and place selection): n=`r hitn1` (`r round(hitp1, 2)` %)   
 
 Duplicated IDs in ESTC: n = `r duplicated.ids.in.estc` (`r round(100 * duplicated.ids.in.estc/nrow(df.preprocessed), 1)`%). Very few, each occurrence is considered separately.  
 
 Duplicated IDs in the query: `r duplicated.ids.in.query` (`r round(100 * duplicated.ids.in.query/nrow(custom.ids), 1)`%). According to a single check, these are often series with same ID over many issues. The total sum of query hits and lengths is used.  
 
-Document length vs. normalized hit frequency:
 
-```{r normalization, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.width=7, fig.height=7, out.width="100px"}
+```{r normalization, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.width=7, fig.height=7, out.width="100px", eval=FALSE}
+# Document length vs. normalized hit frequency:
 p <- ggplot(custom.ids, aes(x = length, y = freq.normalized)) + 
        geom_point() + scale_x_log10() + scale_y_log10() +
        xlab("Document length") + ylab("Hits per unit length (x1000)")
