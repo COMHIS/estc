@@ -44,7 +44,7 @@ We have frozen the analysis for already published material:
 
 ### Acknowledgements
 
-Authors: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](https://github.com/NVI/), [Mikko Tolonen](http://375humanistia.helsinki.fi/en/humanists/mikko-tolonen). Part of [rOpenGov](http://ropengov.github.io/).
+Authors: [Leo Lahti](https://github.com/antagomir/), [Ville Vaara](https://github.com/villevaara/), [Mikko Tolonen](http://375humanistia.helsinki.fi/en/humanists/mikko-tolonen). Part of [rOpenGov](http://ropengov.github.io/).
 
 
 You are welcome to:
