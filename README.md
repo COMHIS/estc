@@ -52,3 +52,9 @@ You are welcome to:
   * [send a pull request](https://github.com/ropengov/estc/) (we will acknowledge contributions)
   * join IRC at !ropengov@Freenode
   * [contact or follow us](http://ropengov.github.io/contribute/)
+
+
+### Project activity
+
+[![Throughput Graph](https://graphs.waffle.io/rOpenGov/estc/throughput.svg)](https://waffle.io/rOpenGov/estc/metrics/throughput)
+
