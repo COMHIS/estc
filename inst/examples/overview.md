@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-10-21"
+date: "2016-10-22"
 output: markdown_document
 ---
 
@@ -62,16 +62,16 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                            |        23.0|          77.0|        370519|     219114|
 |latitude                             |         8.6|          91.4|        440143|        190|
 |longitude                            |         8.6|          91.4|        440143|        190|
-|pagecount.orig                       |         3.7|          96.3|        463752|       1482|
+|pagecount.orig                       |         3.7|          96.3|        463749|       1479|
 |obl                                  |         3.5|          96.5|        464451|          3|
-|paper                                |         2.7|          97.3|        468425|       6605|
-|paper.check                          |         2.7|          97.3|        468425|       6605|
+|paper                                |         2.7|          97.3|        468425|       6602|
+|paper.check                          |         2.7|          97.3|        468425|       6602|
 |width                                |         2.3|          97.7|        470486|         78|
 |height                               |         2.3|          97.7|        470486|         95|
 |area                                 |         2.3|          97.7|        470486|        628|
 |country                              |         0.7|          99.3|        478176|         55|
 |publication_place                    |         0.6|          99.4|        478782|       1095|
-|pagecount                            |         0.5|          99.5|        478966|       1624|
+|pagecount                            |         0.5|          99.5|        478966|       1621|
 |publication_year_from                |         0.2|          99.8|        480589|        348|
 |language                             |         0.0|         100.0|        481397|         50|
 |system_control_number                |         0.0|         100.0|        481446|     481437|
