@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-10-17"
+date: "2016-10-21"
 output: markdown_document
 ---
 
