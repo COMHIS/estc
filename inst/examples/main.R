@@ -85,7 +85,6 @@ rm(data.preprocessing)
 # ----------------------------------------------------
 
 source(system.file("extdata/validation.R", package = "bibliographica"))
-
 data.validated <- validate_preprocessed_data(data.preprocessed)
 # returns list of 3 (df.preprocessed, update.fields, conversions)
 rm(data.preprocessed)
