@@ -25,7 +25,7 @@ datafile.orig <- "df.raw.Rds"
 
 print("Prepare the final data set")
 
-# Read the preprocessed data
+# Read the preprocessed and raw data
 df <- readRDS(datafile.preprocessed)
 df.orig <- readRDS(datafile.orig)
 
