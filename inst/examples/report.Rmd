@@ -50,7 +50,7 @@ params:
   document.type:
     label: "Document type: "
     value: "All"
-    choices: !r c("All", "Books", "Pahmplets")
+    choices: !r c("All", "Books", "Pamphlets")
     input: select    
   subtitle: 
     label: "Subtitle:"
@@ -170,7 +170,13 @@ if (!params$language == "any") {
 # Selected document type
 if (!params$document.type == "All") {  
   df.preprocessed <- df.preprocessed %>% filter(document_type %in% params$document.type)
-}
+
+  # Remove issues if Pamphlets are selected
+  if (params$document.type == "Pamphlets") {
+    df.preprocessed <- df.preprocessed %>% filter(!issue)
+  }
+  
+} 
 
 # Selected place
 df.preprocessed.allplaces <- df.preprocessed
