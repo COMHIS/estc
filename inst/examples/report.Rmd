@@ -1,5 +1,5 @@
 ---
-title: "ESTC: `r params$place` documents in `r params$language` language `r params$min.year`-`r params$max.year`"
+title: "ESTC: `r params$place` docs (`r params$document.type`) in `r params$language` language `r params$min.year`-`r params$max.year`"
 subtitle: "`r paste(params$subtitle)`"
 author: "Mikko Tolonen, Leo Lahti, Eetu Makela et al."
 date: "`r Sys.Date()`"
@@ -47,6 +47,11 @@ params:
     value: "any"
     choices: !r c("any", "English", "Latin",  "French", "German", "Welsh")  
     input: select
+  document.type:
+    label: "Document type: "
+    value: "All"
+    choices: !r c("All", "Books", "Pahmplets")
+    input: select    
   subtitle: 
     label: "Subtitle:"
     value: My subtitle
@@ -133,6 +138,12 @@ df.orig <- readRDS("df.Rds") # Keep the complete data
 idfield <- "system_control_number"
 df.orig$id <- sapply(strsplit(as.character(df.orig[, idfield]), ")"), function (xi) {xi[[length(xi)]]})
 
+# Add document type
+df.orig$document_type <- rep(NA, nrow(df.orig))
+df.orig$document_type[df.orig$pagecount > 32] <- "Books"
+df.orig$document_type[df.orig$pagecount <= 32] <- "Pamphlets"
+df.orig$document_type <- factor(df.orig$document_type)
+
 # Set the desired time window (default one decade)
 if (time.window == 10) {
   df.orig$publication_time <- df.orig$publication_decade
@@ -156,6 +167,11 @@ if (!params$language == "any") {
   df.preprocessed <- df.preprocessed %>% filter(language %in% params$language)
 }
 
+# Selected document type
+if (!params$document.type == "All") {  
+  df.preprocessed <- df.preprocessed %>% filter(document_type %in% params$document.type)
+}
+
 # Selected place
 df.preprocessed.allplaces <- df.preprocessed
 if (!selected.place == "All") {
@@ -163,6 +179,8 @@ if (!selected.place == "All") {
   # Make version with selected place
   df.preprocessed <- df.preprocessed %>% filter(publication_place %in% selected.place)
 }
+
+
 
 # ---------------------------------------
 
@@ -223,11 +241,13 @@ Selected place: `r params$place`
 
 Selected language: `r params$language`
 
+Document format: `r params$document.type`
+
 Query IDs (n=`r nrow(custom.ids)`) from file:  `r params$idsource`  
 
 IDs found from complete ESTC: n=`r hitn0` (`r round(hitp0, 2)` %)  
 
-IDs found after subsetting (time and place selection): n=`r hitn1` (`r round(hitp1, 2)` %)   
+IDs found after subsetting (time, place, language, document type): n=`r hitn1` (`r round(hitp1, 2)` %)   
 
 Duplicated IDs in ESTC: n = `r duplicated.ids.in.estc` (`r round(100 * duplicated.ids.in.estc/nrow(df.preprocessed), 1)`%). Very few, each occurrence is considered separately.  
 
@@ -378,23 +398,22 @@ grid.arrange(p1, p2, nrow = 1)
 
 ### Paper consumption: books vs. pamphlets
 
+This figure is shown only when document.type "All" is selected.
+
 ```{r bookvspamphlets, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7}
-df <- df0
-df$type <- rep(NA, nrow(df))
-df$type[df$pagecount > 32] <- "book"
-df$type[df$pagecount <= 32] <- "pamphlet"
-df$type <- factor(df$type)
-
-df2 <- df %>% group_by(publication_year, type) %>%
+if (params$document.type == "All") {
+  df <- df0
+  df2 <- df %>% group_by(publication_year, document_type) %>%
               summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
-	      filter(!is.na(type))
+	      filter(!is.na(document_type))
 
-p <- ggplot(df2, aes(x = publication_year, y = paper, group = type, color = type))
-p <- p + geom_point() + scale_y_log10() 
-p <- p + geom_smooth(method = "loess")
-p <- p + xlab("Year")
-p <- p + ylab("Paper (sheets)")
-print(p)
+  p <- ggplot(df2, aes(x = publication_year, y = paper, group = document_type, color = document_type))
+  p <- p + geom_point() + scale_y_log10() 
+  p <- p + geom_smooth(method = "loess")
+  p <- p + xlab("Year")
+  p <- p + ylab("Paper (sheets)")
+  print(p)
+} 
 ```
 
 
