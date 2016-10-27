@@ -9,9 +9,23 @@ load_all()
 # I/O definitions
 # make daily output folders TODO convert into function -vv
 today.str <- as.character(Sys.Date())
-output.folder <- paste("output.tables/", today.str, "/", sep = '')
+# NOTE / LL: I now discard this change and return the earlier output.tables
+# for two key reasons:
+# 1) the modification date is visible in the github stamps in any case
+# 2) it is quite beneficial for cross-linking and other purposes
+#    to have a static url
+#    for these key summary tables - the idea is that they are always up-to-date
+#    with the most recent package versions and for that the date does not
+#    matter; the date can be included if we freeze some versions
+#    of the data, but this can be done separately when it really matters
+#    (for instance for conferences & publications)
+#    This also helps to keep the code more simple. We are linking to these
+#    tables for instance from the github summary pages.
+# -> However we can discuss and change these policies if you have
+#    good arguments.
+#output.folder <- paste("output.tables/", today.str, "/", sep = '')
 # old version:
-# output.folder <- "output.tables/"
+output.folder <- "output.tables/"
 dir.create(output.folder)
 
 # List preprocessed data files
