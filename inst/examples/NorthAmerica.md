@@ -1,7 +1,7 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "2016-10-26"
+date: "2016-10-27"
 output: markdown_document
 ---
 
@@ -16,7 +16,7 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 41017 documents from USA.
+We have 41032 documents from USA.
 
 
 ## Most common authors from USA

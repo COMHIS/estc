@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-10-26"
+date: "2016-10-27"
 output: markdown_document
 ---
 
@@ -60,8 +60,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                          |        39.9|          60.1|        289312|      47974|
 |author                               |        39.9|          60.1|        289312|      55089|
 |publisher                            |        23.0|          77.0|        370519|     219114|
-|latitude                             |         8.6|          91.4|        440143|        190|
-|longitude                            |         8.6|          91.4|        440143|        190|
+|latitude                             |         8.6|          91.4|        440144|        190|
+|longitude                            |         8.6|          91.4|        440144|        190|
 |pagecount.orig                       |         3.7|          96.3|        463749|       1479|
 |obl                                  |         3.5|          96.5|        464451|          3|
 |paper                                |         2.7|          97.3|        468425|       6602|
@@ -69,8 +69,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                                |         2.3|          97.7|        470486|         78|
 |height                               |         2.3|          97.7|        470486|         95|
 |area                                 |         2.3|          97.7|        470486|        628|
-|country                              |         0.7|          99.3|        478176|         55|
-|publication_place                    |         0.6|          99.4|        478782|       1094|
+|country                              |         0.7|          99.3|        478202|         55|
+|publication_place                    |         0.6|          99.4|        478782|       1092|
 |pagecount                            |         0.5|          99.5|        478966|       1621|
 |publication_year_from                |         0.2|          99.8|        480589|        348|
 |language                             |         0.0|         100.0|        481397|         50|
@@ -137,11 +137,20 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |multivol                             |         0.0|         100.0|        481463|          2|
 |issue                                |         0.0|         100.0|        481463|          2|
 
+```
+##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells  2845007 152.0    6861544  366.5   6861544  366.5
+## Vcells 94319919 719.7  272842314 2081.7 272842312 2081.7
+```
+
 
 
 ## Histograms of all entries for numeric variables
 
-<img src="figure/summary-histograms-1.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-2.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-3.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-4.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-5.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-6.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-7.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-8.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-9.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-10.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-11.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-12.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-13.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-14.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-15.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-16.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-17.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-18.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-19.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-20.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-21.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-22.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-23.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-24.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-25.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" />
+
+```
+## Error in freq && !equidist: invalid 'x' type in 'x && y'
+```
 
 
 ## Histograms of the top entries for factor variables

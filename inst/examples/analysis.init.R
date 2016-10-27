@@ -19,7 +19,12 @@ datafile.preprocessed <- "df.Rds"
 datafile.orig <- "df.raw.Rds"
 
 # already defined in main -vv
-# output.folder <- "output.tables/"
+# LL: we need to define it here as well because we sometimes want to
+# run analysis.R independently. The preprocessing before analysis.R is
+# more time-consuming and sometimes we only like to update the final
+# analyses. It is therefore handy that the analysis.R can run independently,
+# although it is also run as part of the main workflow in main.R
+output.folder <- "output.tables/"
 
 # ---------------------------------
 
