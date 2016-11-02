@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-10-27"
+date: "2016-11-02"
 output: markdown_document
 ---
 
@@ -35,15 +35,15 @@ Title count versus paper consumption (top publishers):
 
 |publisher                                                                                | titles|    paper|
 |:----------------------------------------------------------------------------------------|------:|--------:|
-|printed by Charles Eyre and Andrew Strahan                                               |    918|  8368398|
-|printed by Charles Eyre and William Strahan                                              |   1566| 11900266|
+|printed by Charles Eyre and Andrew Strahan                                               |    918|  8372910|
+|printed by Charles Eyre and William Strahan                                              |   1566| 12013001|
 |printed by George Eyre and Andrew Strahan                                                |    940|  4633455|
-|printed by John Baskett                                                                  |    707|  3341314|
-|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1986108|
-|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6390041|
-|printed for T. Cadell, in the Strand                                                     |    517|  1459797|
-|printed for the author                                                                   |   1291|  4369853|
-|printed in the year                                                                      |   2953|  4645494|
-|Printed in the year                                                                      |   1779|  4192815|
+|printed by John Baskett                                                                  |    707|  3398788|
+|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1995132|
+|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6439670|
+|printed for T. Cadell, in the Strand                                                     |    517|  2055932|
+|printed for the author                                                                   |   1291|  5014334|
+|printed in the year                                                                      |   2953|  5214929|
+|Printed in the year                                                                      |   1779|  4572037|
 
 
