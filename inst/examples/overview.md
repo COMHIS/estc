@@ -60,8 +60,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                          |        39.9|          60.1|        289312|      47974|
 |author                               |        39.9|          60.1|        289312|      55089|
 |publisher                            |        23.0|          77.0|        370519|     219114|
-|latitude                             |         8.6|          91.4|        440144|        190|
-|longitude                            |         8.6|          91.4|        440144|        190|
+|latitude                             |         8.6|          91.4|        440165|        189|
+|longitude                            |         8.6|          91.4|        440165|        189|
 |pagecount.orig                       |         4.7|          95.3|        459058|       1479|
 |obl                                  |         3.5|          96.5|        464451|          3|
 |paper                                |         2.8|          97.2|        467927|       6726|
@@ -69,9 +69,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                                |         2.3|          97.7|        470486|         78|
 |height                               |         2.3|          97.7|        470486|         95|
 |area                                 |         2.3|          97.7|        470486|        628|
-|country                              |         0.7|          99.3|        478201|         55|
 |pagecount                            |         0.6|          99.4|        478470|       1651|
-|publication_place                    |         0.6|          99.4|        478782|       1093|
+|country                              |         0.6|          99.4|        478677|         55|
+|publication_place                    |         0.6|          99.4|        478782|       1036|
 |publication_year_from                |         0.2|          99.8|        480589|        348|
 |language                             |         0.0|         100.0|        481397|         50|
 |system_control_number                |         0.0|         100.0|        481446|     481437|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2845370 152.0    6861544  366.5   6861544  366.5
-## Vcells 94322762 719.7  270420965 2063.2 270395707 2063.0
+## Ncells  2845307 152.0    6861544  366.5   6861544  366.5
+## Vcells 94322480 719.7  270420552 2063.2 270395421 2063.0
 ```
 
 

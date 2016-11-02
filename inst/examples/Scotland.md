@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40239 documents from Scotland.
+We have 40246 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -172,7 +172,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34468 documents from Scotland and 205127 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34468 documents from Scotland and 205128 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
@@ -209,7 +209,7 @@ We have 34468 documents from Scotland and 205127 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 6079 rows containing missing values (geom_point).
+## Warning: Removed 6081 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
