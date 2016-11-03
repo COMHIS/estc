@@ -1,4 +1,5 @@
 .RData
+.Rproj.user
 *Rcheck*
 inst/extras
 inst/extras/..Rcheck
