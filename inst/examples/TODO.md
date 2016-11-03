@@ -2,6 +2,10 @@
 
 ### Technical
 
+  * Maintain the repo on automatically updated server where the result
+    files are shared. This way we can avoid keeping all the csv:s and
+    figures in github, making it lighter and more appropriate.
+
   * Clean up Tue.R output for Cicero.
 
   * items / parts poistettiin aiemmin kun oli hankalaa. pitäiskö
