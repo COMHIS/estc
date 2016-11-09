@@ -16,18 +16,18 @@ Nottingham	530
 Quebec	510
 Canterbury	510
 Coventry	499
-Halifax	494
 Annapolis Md	492
 Portsmouth NH	485
 Worcester Ma	470
-Royal Tunbridge Wells	451
+Tunbridge Wells	449
+Halifax	446
 Williamsburg Va	409
 Newburyport Ma	399
 Germantown Pa	389
 Chester	369
 Northampton	368
 St Omer	353
-Lancaster Pa	352
+Lancaster Pa	351
 Albany NY	350
 Ipswich	348
 Salem Ma	327
@@ -41,9 +41,9 @@ Calcutta	283
 Perth	275
 Exeter NH	273
 Trenton	254
-Reading	253
 Berwick-upon-Tweed	247
 Falkirk	234
+Reading	212
 Sheffield	207
 Caerfyrddin	179
 Leicester	176
@@ -64,11 +64,10 @@ Darlington	145
 Preston	144
 Montreal	144
 Kendal	143
-Middelburg	140
+Middelburg	139
 Downpatrick	135
 Tewkesbury	132
 Whitehaven	131
-Winchester	128
 Lewes	128
 Southampton	123
 Newark	123
@@ -78,21 +77,23 @@ Limerick	118
 Woodbridge NJ	115
 Carlisle	114
 Ephrata Pa	113
+Winchester	111
 Portsmouth	106
 Newry	106
 Hereford	106
 Newark NJ	105
 Halifax NS	102
 Yarmouth	98
+Spanish Town	97
 Taunton	96
-Spanish Town	94
 Elizabeth NJ	94
 Springfield Ma	93
 Portland Me	92
 Madras India	91
-Dumfries	90
 Gainsborough	88
 Waterford	87
+Dumfries	85
+Concord NH	84
 Poughkeepsie NY	83
 Richmond Va	81
 Ludlow	81
@@ -101,13 +102,12 @@ Twickenham	78
 Rutland Vt	77
 Carmarthen	77
 Banbury	77
-Concord NH	76
 Chelmsford	74
+New Brunswick NJ	73
 Windsor	72
 Aldershot	72
 Wrexham	70
 Hudson NY	69
-New Brunswick NJ	68
 Doncaster	64
 Danbury Ct	64
 Chichester	64
@@ -135,7 +135,8 @@ Stockport	54
 Stockbridge Ma	53
 Hanover NH	53
 Stockton	52
-Newport	52
+Augusta GA	52
+Newport	50
 Kilmarnock	50
 Hertford	50
 Fishkill NY	50
@@ -143,12 +144,12 @@ Bolton	50
 Amherst NH	50
 York Pa	49
 St Johns Antiqua	49
-Trenton nj	48
+Trenton Nj	48
+Port-au-Prince	48
+Halifax NC	48
 Guildford	48
-Port-au-Prince	47
 Kidderminster	47
 Aberhonddu	47
-Keene NH	46
 Wisbech	45
 Windham Ct	45
 Walpole NH	45
@@ -159,12 +160,13 @@ Wesel	44
 Dunbar	44
 Edenton NC	43
 Carlisle Pa	42
+Reading Pa	41
 New Bedford Ma	41
 Macclesfield	41
 Trefriw	40
 Charlottetown	40
 Alexandria Va	40
-Huntingdon	39
+Huntingdon	38
 Kingstown	37
 Emden	37
 Greenfield Ma	36
@@ -172,6 +174,7 @@ Chesterfield	35
 Blackburn	35
 Knaresborough	34
 Kelso	34
+Keene NH	34
 Frankfort Ky	34
 Whitby	33
 Town	32
@@ -199,12 +202,14 @@ Petersburg Va	26
 Chestnut Hill Pa	26
 Catskill NY	26
 Troy NY	25
+North Shields	25
 Monaghan	25
 Fredericktown Md	25
 Washington Pa	24
 Nassau	24
 Deptford	24
 Danvers Ma	24
+Westminster Vt	23
 Stourbridge	23
 St Ives	23
 Hagerstown Md	23
@@ -213,7 +218,6 @@ Congleton	23
 Trowbridge	22
 Marlborough	22
 Georgetown Washington DC	22
-Chelsea	22
 Aylesbury	22
 Augusta Me	22
 Newfield Ct	21
@@ -221,13 +225,14 @@ Dorchester	21
 Winton	20
 West Springfield Ma	20
 Sudbury	20
-Raleigh	20
-Market harborough	20
-Fairhaven vt	20
+Raleigh NC	20
+Market Harborough	20
+Fairhaven Vt	20
 Dudley	20
 Drogheda	20
 Cheshire Ct	20
 Chambersburg Pa	20
+Boston England	20
 Strabane	19
 Leominster	19
 Hamilton	19
@@ -238,14 +243,15 @@ Pontefract	18
 Nantwich	18
 Leuven	18
 Kingston NY	18
+Harrisburg Pa	18
 Egham	18
 Douglas	18
-Dort	18
-Chatham nj	18
+Chatham Nj	18
+Winchester Va	17
 Weymouth	17
 Wexford	17
 Ripon	17
-Goshen ny	17
+Goshen Ny	17
 Caernarfon	17
 Buckingham	17
 Truru	16
@@ -254,12 +260,12 @@ Scarborough	16
 Haddington	16
 Fredicksburg Va	16
 Caerleon	16
-Stabroek	15
 St Albans	15
+Stabroek	15
 New Castle De	15
 Machynlleth	15
 Inverness	15
-Harrisburg Pa	15
+Ewood Hall	15
 Brighton	15
 Wilmington NC	14
 St John New Brunswick	14
@@ -268,7 +274,7 @@ Newburgh NY	14
 Madeley	14
 Horncastle	14
 Hinckley	14
-High wycombe	14
+High Wycombe	14
 Hallowell Me	14
 Chennai	14
 Cheltenham	14
@@ -276,19 +282,20 @@ Abingdon	14
 Abartawe	14
 Tamworth	13
 Stadt	13
-Mount holly nj	13
+Mount Holly Nj	13
 Louth	13
+Keene	13
 Guernesey	13
 Gravesend	13
 Dover	13
 Cooperstown NY	13
-Vergennes vt	12
+Vergennes Vt	12
 Schenectady NY	12
 Salisbury NC	12
 Salem	12
 Northumberland Pa	12
 Medford Ma	12
-Wiscasset me	11
+Wiscasset Me	11
 St Peter Port	11
 Ramsgate	11
 Newmarket	11
@@ -303,13 +310,14 @@ America	11
 Valletta	10
 Stroud	10
 Stonington Ct	10
-South shields	10
+South Shields	10
 Rochdale	10
 Pondicherry	10
 Peacham Vt	10
 Oswestry	10
+Newbury	10
 Natchez Ms	10
-Harrisburgh pa	10
+Harrisburgh Pa	10
 Grantham	10
 Fredericton	10
 Easton Pa	10
@@ -319,11 +327,11 @@ Wotton-under-Edge	9
 Whitesboro NY	9
 Walsall	9
 Town south carolina	9
+Shelburne	9
 Romsey	9
 Putney Vt	9
 Poole	9
 Pittsburgh Pa	9
-Newbury	9
 Morristown NJ	9
 Montego Bay	9
 Hillsborough NC	9
@@ -335,7 +343,6 @@ Berkhamsted	9
 Treffynnon	8
 Strood	8
 St Augustine Fl	8
-Shelburne	8
 Sag Harbour NY	8
 Lymington	8
 Honiton	8
@@ -355,7 +362,6 @@ Helston	7
 Greenfield	7
 Fryeburg Me	7
 Dunkirk	7
-Concord	7
 Chelmsford Ma	7
 Bridport	7
 Brattleboro Vt	7
@@ -375,7 +381,7 @@ Morpeth	6
 Middlewich	6
 Middleborough Ma	6
 Lorient	6
-La rochelle	6
+La Rochelle	6
 Kettering	6
 Hwlffordd	6
 Haverhill NH	6
@@ -385,6 +391,7 @@ Devonport	6
 Croesoswallt	6
 Bridlington	6
 Bontfaen	6
+Blandford Va	6
 Bishopstone	6
 Alston	6
 Yverdon-les-Bains	5
@@ -392,10 +399,10 @@ Windsor Ct	5
 Wells	5
 Totnes	5
 Taunton Ma	5
-Staunton Va	5
 St Pierre	5
-St neots	5
-South molton	5
+St Neots	5
+Staunton Va	5
+South Molton	5
 Salem NY	5
 Prescot	5
 Pointe-A-Pitre	5
@@ -405,8 +412,9 @@ Kirkcudbright	5
 Hungerford	5
 Horsham	5
 Frome	5
-Fort royal	5
+Fort Royal	5
 Flushing	5
+Dumfries Va	5
 Dover De	5
 Dorset	5
 Dolgellau	5
@@ -415,19 +423,19 @@ Dartmouth	5
 Cranbrook	5
 Concord Ma	5
 Castine Me	5
+Carrickfergus	5
 Bödingen	5
 Basseterre	5
 Ballston Spa NY	5
 Athlone	5
 Yeovil	4
 Whitchurch	4
-Utica ny	4
+Utica Ny	4
 Rye	4
 Port-of-Spain	4
 Penzance	4
 Oakham	4
 Northallerton	4
-New brunswick jersey	4
 Mansfield	4
 Lustleigh	4
 Leek	4
@@ -442,17 +450,15 @@ Epsom	4
 Dereham	4
 Crewkerne	4
 Cheshunt	4
-Carrick	4
 Cap-Haitien	4
 Canaan NY	4
-Cadiz	4
+Cádiz	4
 Burton	4
 Burlington Vt	4
 Brookville PA	4
 Bromley	4
-Brattleborough vt	4
+Brattleborough Vt	4
 Bouillon	4
-Blandford	4
 Atherstone	4
 Andover Ma	4
 Alcester	4
@@ -462,7 +468,7 @@ Wolston	3
 Whitburn	3
 Wellingborough	3
 Watford	3
-Waltham	3
+Waltham Ma	3
 Trevoux	3
 Torrington Ct	3
 Tetbury	3
@@ -475,35 +481,32 @@ Salem NJ	3
 Rotherham	3
 Reigate	3
 Really	3
-Port la liberte	3
 Peterhead	3
 Pembroke	3
 Ormskirk	3
 Nothampton	3
-Newton abbot	3
-Newington Ct	3
+Newton Abbot	3
 Nashville TN	3
-Milton	3
 Lugano	3
 Loreto	3
 Launceston	3
 Kingston upon Thames	3
 Hitchin	3
 Hexham	3
-Harrisburgh	3
 Harlech	3
 Harderwijk	3
 Harbor Oh	3
 Gillingham	3
 Georgetown Va	3
 Elizabethtown Md	3
+Dun Laoghaire	3
 Dungannon	3
 Dunfermline	3
-Dun Laoghaire	3
 Chillicothe Oh	3
 Chesham	3
 Chertsey	3
-Charlottesville va	3
+Charlottesville Va	3
+Brearley Hall	3
 Bewdley	3
 Bethlehem Pa	3
 Barnard Castle	3
@@ -524,7 +527,8 @@ Tavistock	2
 Strahane	2
 Stowmarket	2
 Stokesley	2
-St austell	2
+Stoke Newington	2
+St Austell	2
 Sligo	2
 Siena	2
 Shiffnal	2
@@ -532,7 +536,8 @@ Settle	2
 Selkirk	2
 Saxmundham	2
 Sandhurst	2
-Saffron walden	2
+Saffron Walden	2
+Royal Tunbridge Wells	2
 Rome NY	2
 Rodborough	2
 Ramsey	2
@@ -541,30 +546,33 @@ Petersfield	2
 Penryn	2
 Pattingham	2
 Paramaribo	2
-Ossining ny	2
+Ossining Ny	2
 Oranjestad	2
 Octorara Pa	2
 Nuneaton	2
 Nordhausen	2
+New Windsor NY	2
 Newton NJ	2
-Musselburgh	2
+Newport Pagnell	2
 Minorca	2
+Milton	2
 Milborne Port	2
-Melton mowbray	2
-Louisville ga	2
-Lincolnton nc	2
+Melton Mowbray	2
+Louisville Ga	2
+Lincolnton Nc	2
 Kirkcaldy	2
 Johnstown NY	2
 Inishmacadurn	2
 Ilminster	2
 Howden	2
-Houghton Mi	2
+Houghton Park	2
 Hoogly	2
 Herford	2
 Harlow	2
 Harborough	2
+Hall England	2
 Great Yarnmouth	2
-Great marlow	2
+Great Marlow	2
 Geneva NY	2
 Gdansk	2
 Gateside	2
@@ -594,6 +602,7 @@ Bodedern	2
 Bedale	2
 Basingstoke	2
 Bala	2
+Ashby-de-la-Zouch	2
 Alfreton	2
 Adpar	2
 Zweibrücken	1
@@ -611,7 +620,7 @@ Westport Ct	1
 Weißenfels	1
 Warminster Pa	1
 Wantage	1
-Waltham lawrence	1
+Waltham St Lawrence	1
 Versailles	1
 Verdun	1
 Vatican	1
@@ -622,18 +631,17 @@ Thetford	1
 Thame	1
 Swaffham	1
 Sulechow	1
+St s	1
 Stow	1
 Stoke-on-Trent	1
-St s	1
 St Mary's Md	1
-St germans	1
+St Germans	1
 St Eustatius	1
-St croix	1
+St Croix	1
 Slough	1
 Simsbury Ct	1
 Sienna	1
-Shippensburg pa	1
-Shelburne nova scotia	1
+Shippensburg Pa	1
 Sheerness	1
 Sharon Ct	1
 Seville	1
@@ -658,7 +666,7 @@ Rhaglan	1
 Redruth	1
 Poulton-le-Fylde	1
 Pompton Plains NJ	1
-Pittsfield ma	1
+Pittsfield Ma	1
 Petworth	1
 Perugia	1
 Pensacola Fl	1
@@ -676,36 +684,40 @@ Omagh	1
 Oldham	1
 Offenbach	1
 Oberwesel	1
-Norton fitzwarren	1
-Northwich	1
+Norton Fitzwarren	1
 North Yarmouth Me	1
+Northwich	1
 Newtown Pa	1
-Newton stewart	1
+Newton Stewart	1
 New Milford Ct	1
+Newington Ct	1
 New Britain Pa	1
-New bbunswick jersey	1
 Neustadt an der Weinstraße	1
 Naas	1
 Mulberry Hill Va	1
+Monmouth NJ	1
 Môle-Saint-Nicolas	1
+Milton Abbas	1
+Middleburg Netherlands	1
 Mexico City	1
-Martinsburg va	1
+Martinsburg Va	1
 Marseilles	1
 Marseille	1
-Market rasen	1
+Market Rasen	1
 Mare	1
 Malda	1
-Lynchburg va	1
+Lynchburg Va	1
 Long Buckby	1
 Lisburn	1
-Libanon pa	1
-Legat	1
-Lebanon PA	1
+Libanon Pa	1
 Le Havre	1
-Langport	1
-Lancester pa	1
-Lanark	1
+Legat	1
+Lebanon Pa	1
 La Trinite	1
+Langport	1
+Lancester Pa	1
+Lancaster NJ	1
+Lanark	1
 Knutsford	1
 Knoxville Oh	1
 Kirkham	1
@@ -719,12 +731,12 @@ Keswick	1
 Kent	1
 Kenilworth	1
 Kehl	1
-Keene	1
 Jedburgh	1
-Irvine	1
+Irvine Ca	1
 Inverlochie	1
-Inverary	1
+Inveraray	1
 Inis Córthaidh	1
+Huntingdon Pa	1
 Holt	1
 Hindolverston	1
 Hildburghausen	1
@@ -740,7 +752,7 @@ Greenlaw	1
 Goa	1
 Gloucester Ma	1
 Glastonbury	1
-Gettysburg pa	1
+Gettysburg Pa	1
 Gaznah	1
 Gaunte	1
 Gaunt	1
@@ -750,7 +762,7 @@ Fort McHenry Ms	1
 Folkestone	1
 Fleet	1
 Finningham	1
-Fincastle VA	1
+Fincastle Va	1
 Fermoy	1
 Featherstone	1
 Fawsley	1
@@ -763,7 +775,7 @@ Elie	1
 Elgin	1
 Eleutheres	1
 Edenhall	1
-East grinstead	1
+East Grinstead	1
 Eartham	1
 Dunstable	1
 Dunkeld	1
@@ -792,10 +804,9 @@ Cavan	1
 Castries	1
 Castleford	1
 Castlebar	1
-Carrickfergus	1
 Carrick-on-Suir	1
 Canterbury NH	1
-Canandaigua ny	1
+Canandaigua Ny	1
 Campbeltown	1
 Calicut	1
 Calais	1
@@ -803,20 +814,18 @@ Caergybi	1
 Bunny	1
 Buckden	1
 Bristol NY	1
-Bridgeton nj	1
+Bridgeton Nj	1
 Brackley	1
-Boulogne	1
+Boulogne-sur-Mer	1
 Bottisham	1
 Bosworth	1
-Blandford va	1
-Blandford forum	1
 Blackwell	1
 Black	1
-Bishop castle	1
+Bishop Castle	1
 Birstall	1
 Birr	1
 Bideford	1
-Bethania nc	1
+Bethania Nc	1
 Beloeil	1
 Beauvais	1
 Beaminster	1
@@ -833,16 +842,12 @@ Balfron	1
 Bakewell	1
 Axminster	1
 Avranches	1
-Au port prince haiti	1
-Ashby-de-la-Zouch	1
-Ashby	1
 Ashburton	1
 Arezzo	1
 Appelby-in-Westmorland	1
 Ampthill	1
 Ambleside	1
 Altmore	1
-Aldermanbury	1
 Aberystwyth	1
 Abermaw	1
 Aberdaugleddau	1

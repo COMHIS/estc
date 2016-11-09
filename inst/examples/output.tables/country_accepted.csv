@@ -1,21 +1,21 @@
 Name	Count
-Total count: 	478677
-England	358396
-USA	 41149
-Scotland	 40246
-Ireland	 27567
-France	  3737
+Total count: 	478366
+England	358277
+USA	 41264
+Scotland	 40187
+Ireland	 27420
+France	  3736
 Netherlands	  2036
-Canada	  1140
-Germany	   913
-Northern Ireland	   882
-Belgium	   607
-India	   582
+Canada	  1128
+Germany	   892
+Northern Ireland	   845
+Belgium	   603
+India	   580
 Switzerland	   289
-Jamaica	   263
+Jamaica	   266
 Italy	   234
 Barbados	    60
-Haiti	    51
+Haiti	    52
 Antiqua	    49
 Dominica	    45
 Austria	    39
@@ -27,15 +27,13 @@ Grenada	    31
 Russia	    26
 Bahamas	    24
 Isle of Man	    18
-Guyana	    15
-Spain	    15
 Guernesey	    13
 Poland	    12
 Guernsey	    11
-Martinique	    11
 Portugal	    11
+Spain	    11
 Malta	    10
-Ambiguous	     6
+Martinique	     6
 Guadaloupe	     5
 Cuba	     4
 Iraq	     4
@@ -44,6 +42,7 @@ Trinidad and Tobago	     4
 Australia	     3
 Czech Republic	     3
 Latvia	     3
+Ambiguous	     2
 Sri Lanka	     2
 Suriname	     2
 Hungary	     1

@@ -1,7 +1,7 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "2016-11-02"
+date: "2016-11-03"
 output: markdown_document
 ---
 
@@ -16,7 +16,7 @@ sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
 ```
 
-We have 41149 documents from USA.
+We have 41264 documents from USA.
 
 
 ## Most common authors from USA
@@ -100,7 +100,7 @@ Average annual output for each decade is shown by lines, the actual annual docum
 ```
 
 ```
-## Error: Insufficient values in manual scale. 54 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 40 needed but only 5 provided.
 ```
 
 ![plot of chunk NApubvols](figure/NApubvols-1.png)
