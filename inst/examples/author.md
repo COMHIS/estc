@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-11-09"
 output: markdown_document
 ---
 
@@ -43,7 +43,10 @@ Ordered by productivity (number of documents))
 
 Title count versus paper consumption (all authors):
 
-![plot of chunk authortitlespapers](figure/authortitlespapers-1.png)
+
+```
+## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
+```
 
 
 ![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)

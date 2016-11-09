@@ -1,7 +1,7 @@
 ---
 title: "Document dimension size summary"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-11-09"
 output: markdown_document
 ---
 

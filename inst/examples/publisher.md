@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-11-09"
 output: markdown_document
 ---
 
@@ -31,19 +31,24 @@ Title count
 
 Title count versus paper consumption (top publishers):
 
+
+```
+## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
+```
+
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                                                                                | titles|    paper|
-|:----------------------------------------------------------------------------------------|------:|--------:|
-|printed by Charles Eyre and Andrew Strahan                                               |    918|  8372910|
-|printed by Charles Eyre and William Strahan                                              |   1566| 12013001|
-|printed by George Eyre and Andrew Strahan                                                |    940|  4633455|
-|printed by John Baskett                                                                  |    707|  3398788|
-|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1995132|
-|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6439670|
-|printed for T. Cadell, in the Strand                                                     |    517|  2055932|
-|printed for the author                                                                   |   1291|  5014334|
-|printed in the year                                                                      |   2953|  5214929|
-|Printed in the year                                                                      |   1779|  4572037|
+|publisher                                                                                | titles| paper|
+|:----------------------------------------------------------------------------------------|------:|-----:|
+|printed by Charles Eyre and Andrew Strahan                                               |    918|     0|
+|printed by Charles Eyre and William Strahan                                              |   1566|     0|
+|printed by George Eyre and Andrew Strahan                                                |    940|     0|
+|printed by John Baskett                                                                  |    707|     0|
+|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|     0|
+|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|     0|
+|printed for T. Cadell, in the Strand                                                     |    517|     0|
+|printed for the author                                                                   |   1291|     0|
+|printed in the year                                                                      |   2953|     0|
+|Printed in the year                                                                      |   1779|     0|
 
 

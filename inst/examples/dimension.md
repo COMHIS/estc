@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-11-09"
 output: markdown_document
 ---
 
@@ -66,15 +66,28 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 ```
 
 ```
+## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
+```
+
+```
 ## Error in `[.data.frame`(x, , c("publication_time", group)): undefined columns selected
 ```
 
-<img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
+```
+## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
+```
+
+<img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
 
 
 ### Title count versus paper consumption
 
 
+
+
+```
+## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
+```
 
 ![plot of chunk title_vs_paper](figure/dimension-title_vs_paper-1.png)
 

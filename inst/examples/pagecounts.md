@@ -1,7 +1,7 @@
 ---
 title: "Page count summary"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-11-09"
 output: markdown_document
 ---
 
@@ -44,10 +44,28 @@ Note: there are 0 documents that have some dimensions information but sheet area
 
 ## Pamphlets vs. Books
 
-![plot of chunk doctypes](figure/doctypes-1.png)![plot of chunk doctypes](figure/doctypes-2.png)
+
+```
+## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
+```
+
+```
+## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
+```
+
+![plot of chunk doctypes](figure/doctypes-1.png)
 
 
-![plot of chunk doctypes2](figure/doctypes2-1.png)![plot of chunk doctypes2](figure/doctypes2-2.png)
+
+```
+## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
+```
+
+```
+## Error in seq.default(h[1], h[2], length.out = n): 'to' cannot be NA, NaN or infinite
+```
+
+![plot of chunk doctypes2](figure/doctypes2-1.png)
 
 
 ## Top authors
