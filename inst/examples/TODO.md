@@ -1,3 +1,12 @@
+### Gaud artsu
+
+Vaasa-kuva voisi pysyä samana -> Vähän suttuisen näköinen mutta
+menköön nyt. Voin viilata sitten review-kierroksella.
+
+Publishing activity in Edinburgh: voitaisiin viilata niin että mukana
+on koko data verrattuna historia-dataan. 
+
+
 ### Technical
 
   * Maintain the repo on automatically updated server where the result
