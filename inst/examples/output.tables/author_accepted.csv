@@ -87,7 +87,7 @@ Abercromby, Alexander (1677-1729)	ambiguous	     2
 Abercromby, Alexander (1745-1795)	ambiguous	     1
 Abercromby, Alexander (NA-1804)	ambiguous	     1
 Abercromby, Christopher	ambiguous	     1
-Abercromby, David (1701-1702)	ambiguous	    16
+Abercromby, David	ambiguous	     1
 Abercromby, George (1750-1831)	ambiguous	     2
 Abercromby, James (1747-NA)	NA	     2
 Abercromby, Patrick (1656-1716)	NA	     3
@@ -199,7 +199,6 @@ Adams, George (1750-1795)	ambiguous	    28
 Adams, Gulielmus	male	     1
 Adams, Hannah (1755-1831)	ambiguous	     3
 Adams, J	NA	     1
-Adams, Jack (1664-NA)	NA	     2
 Adams, James	NA	     1
 Adams, James (1677-1734)	NA	     5
 Adams, James (1737-1802)	NA	     3
@@ -779,7 +778,7 @@ Allix, Pierre (1614-1717)	NA	     1
 Allix, Pierre (1641-1717)	NA	    23
 Alloa, 	female	     1
 Allott, Bryan (1738-1803)	ambiguous	     1
-Allott, Robert (1600-NA)	ambiguous	     6
+Allott, Robert (1600-NA)	ambiguous	     4
 Alloway, David Cathcart (1764-1829)	ambiguous	     1
 Allport, John	NA	     1
 Allsopp, Nicholas	NA	     1
@@ -873,11 +872,10 @@ Ames, Nathaniel (1708-1764)	NA	    70
 Ames, Nathaniel (1741-1822)	NA	    58
 Ames, Philomath N	NA	     1
 Ames, Richard (1693-1693)	ambiguous	    39
-Ames, William	ambiguous	     2
 Ames, William (1576-1633)	ambiguous	    30
-Ames, William (1662-NA)	ambiguous	     1
-Ames, William (NA-1662)	ambiguous	     5
-Ames, William (NA-1689)	ambiguous	     1
+Ames, William (1576-1662)	ambiguous	     5
+Ames, William (1576-1689)	ambiguous	     1
+Ames, William (1576-NA)	ambiguous	     2
 Ameyden, Dirk (1586-1656)	male	     1
 Amherst, Charles Selby	ambiguous	     1
 Amherst, Jeffery (1717-1797)	NA	     3
@@ -990,7 +988,7 @@ Anderson, William (1669-1711)	ambiguous	     2
 Anderson, William (1720-1767)	ambiguous	     1
 Anderson, William (1799-NA)	ambiguous	     2
 Anderson, William (NA-1774)	ambiguous	     1
-Anderton, James (1624-NA)	NA	     7
+Anderton, James (1624-NA)	NA	     1
 Anderton, Lawrence	ambiguous	     5
 Anderton, Thomas (1671-NA)	NA	     3
 Anderton, William (NA-1693)	ambiguous	     2
@@ -1019,7 +1017,7 @@ Andrewe, George (1575-1648)	ambiguous	     1
 Andrewe, Thomas	NA	     1
 Andrewes, Bartimaeus	NA	     3
 Andrewes, Gerrard (1750-1825)	NA	     2
-Andrewes, John (1615-NA)	NA	    32
+Andrewes, John (1615-NA)	NA	    31
 Andrewes, Lancelot (1555-1626)	male	    94
 Andrewes, R	NA	     2
 Andrewes, Thomas (1687-1688)	NA	     7
@@ -1035,7 +1033,6 @@ Andrews, Eusebius (NA-1650)	male	     2
 Andrews, George (1666-1705)	ambiguous	     1
 Andrews, George (1797-1705)	ambiguous	     1
 Andrews, Henry	ambiguous	     1
-Andrews, Henry Charles (1799-1828)	ambiguous	     3
 Andrews, James Pettit (1737-1797)	male	    11
 Andrews, John	NA	     4
 Andrews, John (1582-1583)	NA	     4
@@ -1277,7 +1274,7 @@ Archer, John (NA-1642)	NA	    12
 Archer, John (NA-1733)	NA	     4
 Archer, Nicholaus	male	     1
 Archer, T (1797-NA)	NA	     2
-Archer, Thomas (1798-NA)	NA	     2
+Archer, Thomas (1798-NA)	NA	     1
 Archer, W	NA	     1
 Archibald, Alexander (NA-1766)	ambiguous	     1
 Archibald, David	ambiguous	     1
@@ -1354,7 +1351,7 @@ Arlington, Henry Bennet (1618-1685)	ambiguous	     1
 Arlond, 	male	     1
 Armand, Jacques	ambiguous	     3
 Armfelt, Gustaf Mauritz (1757-1814)	male	     1
-Armin, Robert (1610-NA)	ambiguous	     7
+Armin, Robert (1610-NA)	ambiguous	     1
 Arminius, Jacobus (1560-1609)	NA	     3
 Armistead, Henry	ambiguous	     1
 Armistead, James	NA	     1
@@ -1363,7 +1360,7 @@ Armitage, Timothy (NA-1655)	NA	     4
 Armitstead, James	NA	     1
 Armitstead, Thomas (NA-1827)	NA	     1
 Armor, Samuel (1766-1831)	NA	     1
-Armour, James (1702-1722)	NA	     7
+Armour, James (1702-1722)	NA	     6
 Armour, John (1635-NA)	NA	     1
 Armour, Robert	ambiguous	     2
 Armour, Thomas	NA	     1
@@ -1383,7 +1380,7 @@ Armstrong, James	NA	     1
 Armstrong, John	NA	     2
 Armstrong, John (1634-1698)	NA	     2
 Armstrong, John (1674-1742)	NA	     1
-Armstrong, John (1709-1779)	NA	    87
+Armstrong, John (1709-1779)	NA	    86
 Armstrong, John (1758-1843)	NA	     1
 Armstrong, John (1771-1758)	NA	     3
 Armstrong, John (NA-1758)	NA	     4
@@ -1432,7 +1429,7 @@ Arnold, Samuel James (1774-1852)	NA	     9
 Arnold, Stuart Amos	ambiguous	     2
 Arnold, Theodor (1683-1771)	male	    20
 Arnold, Thomas (1742-1816)	NA	     3
-Arnold, William (1768-NA)	ambiguous	     4
+Arnold, William (1768-NA)	ambiguous	     3
 Arnot, Hugo (1749-1786)	NA	    12
 Arnot, James	NA	     2
 Arnot, John (1707-1752)	NA	     2
@@ -1487,7 +1484,6 @@ Arvieux, Laurent D' (1635-1702)	NA	     3
 Arvisenet, Claude (1755-1831)	ambiguous	     3
 Arwaker, Edmund (NA-1730)	NA	    19
 Asbury, Francis (1745-1816)	ambiguous	     2
-Ascham, Anthony (1553-NA)	NA	     2
 Ascham, Antony (NA-1650)	NA	    10
 Ascham, Roger (1515-1568)	NA	    21
 Asgill, John (1659-1738)	NA	    59
@@ -1523,7 +1519,7 @@ Ashe, Nicholas	NA	     1
 Ashe, Robert Hoadly (1751-1826)	ambiguous	     1
 Ashe, Simeon (NA-1662)	ambiguous	    25
 Ashe, St George (1658-1718)	ambiguous	     1
-Ashe, Thomas (1600-1618)	NA	    13
+Ashe, Thomas (1600-1618)	NA	    12
 Ashe, Trevor Lloyd (1758-1759)	ambiguous	     1
 Ashenden, Thomas (1648-1723)	NA	     2
 Ashfeild, Thomas	NA	     1
@@ -1567,14 +1563,14 @@ Askew, 	male	     1
 Askew, Ann	NA	     1
 Askew, Anne (1521-1546)	ambiguous	     7
 Askew, Egeon (1576-NA)	NA	     1
-Askham, Anthony (1553-NA)	NA	    16
+Askham, Anthony (1553-NA)	NA	    12
 Askins, 	male	     1
 Aslakssøn, Cort (1564-1624)	male	     1
 Asmodeus, 	NA	     1
 Aspin, William (1635-1714)	ambiguous	     1
 Aspinwall, Edward (1678-1732)	NA	     3
 Aspinwall, George (1774-1804)	ambiguous	     1
-Aspinwall, William (1648-1662)	ambiguous	     8
+Aspinwall, William (1648-1662)	ambiguous	     7
 Aspley, John	NA	     9
 Aspley, Rich	NA	     1
 Asplin, Jonas (1770-NA)	NA	     1
@@ -1596,7 +1592,7 @@ Astarābādī, Mahdī (1733-1759)	NA	     2
 Astbury, John	NA	     1
 Astell, Mary (1668-1731)	ambiguous	    25
 Astell, Ralph	ambiguous	     1
-Astell, William (1740-1740)	ambiguous	     3
+Astell, William (NA-1740)	ambiguous	     2
 Astle, Daniel	ambiguous	     1
 Astle, Thomas (1735-1803)	NA	     8
 Astley, Isaac	NA	     1
@@ -1707,9 +1703,9 @@ Atwood, G (1746-1807)	NA	     9
 Atwood, George (1685-1752)	ambiguous	     3
 Atwood, Joshua (1756-1813)	ambiguous	     1
 Atwood, Thomas (NA-1793)	NA	     3
-Atwood, William (1705-1705)	ambiguous	    24
-Atwood, William (1705-1824)	ambiguous	     1
-Atwood, William (1705-NA)	ambiguous	     2
+Atwood, William	ambiguous	     1
+Atwood, William (NA-1705)	ambiguous	    24
+Atwood, William (NA-1824)	ambiguous	     1
 Aubarede, William Claude	ambiguous	     2
 Auberade, 	NA	     2
 Aubert,  (1719-NA)	male	     1
@@ -1807,7 +1803,7 @@ Austin, William (1754-1793)	ambiguous	     4
 Austin, William (1778-1841)	ambiguous	     1
 Authenticus, 	NA	     2
 Auther, John (1688-1762)	NA	     3
-Auther, John (1777-1762)	NA	     2
+Auther, John (1777-1762)	NA	     1
 Author Of 'a Poetical And Complimentary Epistle To R Brothers', 	ambiguous	     1
 Author Of 'the Impossibility Of Witchcraft, &c '	NA	     1
 Author Of A Late Anonymous Letter To Dr J C Lettsom, 	ambiguous	     1
@@ -2025,7 +2021,7 @@ Bagnyon, Jehan (1412-NA)	ambiguous	     1
 Bagot, Daniel	ambiguous	     3
 Bagot, Eleanor	female	     2
 Bagot, John	NA	     1
-Bagot, Lewis (1741-1802)	ambiguous	    10
+Bagot, Lewis (1741-1802)	ambiguous	     9
 Bagshaw, Christopher (NA-1625)	ambiguous	     3
 Bagshaw, Edward (1629-1662)	NA	    42
 Bagshaw, H (1669-1739)	NA	     1
@@ -2052,7 +2048,7 @@ Bailey, John (1644-1697)	NA	     1
 Bailey, John (1771-1790)	NA	     1
 Bailey, Joseph	ambiguous	     2
 Bailey, N (NA-1742)	NA	   111
-Bailey, William (1770-NA)	ambiguous	    13
+Bailey, William (1770-NA)	ambiguous	    12
 Bailey, Zachary	NA	     1
 Baillet De Saint Julien, Louis Guillaume (1715-NA)	ambiguous	     4
 Baillet, Adrien (1649-1706)	ambiguous	     1
@@ -2097,7 +2093,7 @@ Bain, W	NA	     1
 Bainbridge, 	male	     1
 Bainbridge, John (1582-1643)	NA	     3
 Bainbrigg, Thomas (1636-1703)	NA	     2
-Baine, James (1710-1790)	NA	    10
+Baine, James (1710-1790)	NA	     9
 Baine, John	NA	     1
 Baines, Richard	ambiguous	     2
 Baird, Andrew	NA	     1
@@ -2239,7 +2235,6 @@ Balfour, Arthur (1717-NA)	NA	     1
 Balfour, David Hay	ambiguous	     1
 Balfour, Elizabeth	ambiguous	     1
 Balfour, Elphingston	NA	     1
-Balfour, Francis (1812-NA)	ambiguous	     7
 Balfour, George	ambiguous	     1
 Balfour, Henry	ambiguous	     1
 Balfour, James	NA	     1
@@ -2396,7 +2391,7 @@ Banks, J	NA	     1
 Banks, Jacob	NA	     1
 Banks, John (1637-1710)	NA	    13
 Banks, John (1721-NA)	NA	     1
-Banks, John (1795-1803)	NA	     6
+Banks, John (1795-1803)	NA	     2
 Banks, John (NA-1706)	NA	    66
 Banks, John (NA-1784)	NA	     1
 Banks, Jonathan	NA	     4
@@ -2500,7 +2495,7 @@ Barclay, James	NA	     4
 Barclay, James (1631-NA)	NA	     1
 Barclay, James (1746-1747)	NA	     1
 Barclay, James (1752-NA)	NA	     1
-Barclay, James (1763-1774)	NA	     8
+Barclay, James (1763-1774)	NA	     7
 Barclay, James (NA-1758)	NA	     1
 Barclay, Joannes	male	     1
 Barclay, John (1582-1621)	NA	    22
@@ -2593,7 +2588,6 @@ Barker, Thomas (1722-1809)	NA	     5
 Barker, Thomas (1769-1847)	NA	     1
 Barker, W H (1744-1815)	NA	     2
 Barker, William	ambiguous	     3
-Barker, William (1572-NA)	ambiguous	     1
 Barker, William (1651-1719)	ambiguous	     1
 Barker, William (1677-1746)	ambiguous	     6
 Barkley, Andrew	NA	     1
@@ -2601,7 +2595,7 @@ Barkly, Gilbert	NA	     1
 Barksdale, Clement (1609-1687)	ambiguous	    31
 Barkstead, John (NA-1662)	NA	     7
 Barkstead, Sir John	male	     1
-Barksted, William (1611-NA)	ambiguous	     2
+Barksted, William (1611-NA)	ambiguous	     1
 Barlee, Charles	ambiguous	     1
 Barlee, William	ambiguous	     2
 Barleti, Marin (1460-NA)	ambiguous	     1
@@ -2668,7 +2662,7 @@ Barnes, George	ambiguous	     3
 Barnes, Isaac	NA	     1
 Barnes, John (1765-1661)	NA	     1
 Barnes, John (1765-1708)	NA	     3
-Barnes, John (1765-NA)	NA	     7
+Barnes, John (1765-NA)	NA	     4
 Barnes, Joseph	ambiguous	     3
 Barnes, Joshua (1654-1712)	ambiguous	    14
 Barnes, R	NA	     1
@@ -2728,7 +2722,7 @@ Barrell, Robert	ambiguous	     1
 Barret, John (1631-1713)	NA	    17
 Barret, Joseph (1665-1699)	ambiguous	     1
 Barret, Martha	ambiguous	     1
-Barret, Robert (1600-NA)	ambiguous	     3
+Barret, Robert	ambiguous	     2
 Barret, William	ambiguous	     2
 Barrett, Andrew	NA	     1
 Barrett, Ann (1788-NA)	NA	     1
@@ -2771,7 +2765,7 @@ Barroll, William (1734-1778)	ambiguous	     1
 Barron, Charles (1775-NA)	ambiguous	     1
 Barron, Patrick (1769-NA)	NA	     2
 Barron, William (NA-1803)	ambiguous	     3
-Barrough, Philip (1590-NA)	NA	    10
+Barrough, Philip (1590-NA)	NA	     9
 Barrow, David (1753-1819)	ambiguous	     1
 Barrow, Henry (1550-1593)	ambiguous	    16
 Barrow, Humphrey	NA	     3
@@ -2965,7 +2959,7 @@ Bate, Randal	ambiguous	     1
 Bate, Thomas (NA-1727)	NA	     2
 Bateman, Charles	ambiguous	     3
 Bateman, Christopher (1689-1730)	ambiguous	     1
-Bateman, Christopher (1698-1730)	ambiguous	    11
+Bateman, Christopher (1698-1730)	ambiguous	     9
 Bateman, Christopher (NA-1730)	ambiguous	     1
 Bateman, Edmund (1703-1751)	NA	     4
 Bateman, John	NA	     3
@@ -2977,7 +2971,7 @@ Bateman, Tho	male	     9
 Bateman, Thomas (1622-1685)	NA	     2
 Bateman, Wynne (1713-1782)	ambiguous	     1
 Bates, 	NA	     1
-Bates, David (1784-NA)	ambiguous	     2
+Bates, David (1784-NA)	ambiguous	     1
 Bates, Edmund	NA	     1
 Bates, Ely	ambiguous	     2
 Bates, Isaac (NA-1758)	NA	     1
@@ -3005,7 +2999,6 @@ Bathurst, Benjamin (1711-1767)	ambiguous	     1
 Bathurst, Charles (NA-1700)	ambiguous	     6
 Bathurst, Elizabeth (NA-1691)	ambiguous	    13
 Bathurst, Henry (1714-1794)	ambiguous	     6
-Bathurst, Henry (1814-1794)	ambiguous	     1
 Bathurst, Theodore (NA-1651)	ambiguous	     1
 Batison, John	NA	     1
 Batley, Jeremiah (1782-1737)	NA	     4
@@ -3070,7 +3063,7 @@ Baxter, Benjamin	ambiguous	     7
 Baxter, J	NA	     2
 Baxter, John (1686-1767)	NA	     9
 Baxter, Joseph (1676-1745)	ambiguous	     3
-Baxter, Nathaniel (1606-NA)	NA	     5
+Baxter, Nathaniel (1606-NA)	NA	     4
 Baxter, Richard (1615-1691)	ambiguous	   474
 Baxter, Simeon	ambiguous	     1
 Baxter, Simon	ambiguous	     1
@@ -3130,9 +3123,7 @@ Bayly, Mary	ambiguous	     2
 Bayly, Nathaniel (1726-1798)	NA	     1
 Bayly, Richard (1640-NA)	ambiguous	     1
 Bayly, Thomas (NA-1657)	NA	    22
-Bayly, William (1737-1675)	ambiguous	    35
-Bayly, William (1737-1810)	ambiguous	     1
-Bayly, William (1737-NA)	ambiguous	     1
+Bayly, William (NA-1675)	ambiguous	    36
 Baylye, Thomas	NA	     1
 Baynard, Edward (1641-NA)	NA	    21
 Bayne, A	NA	     1
@@ -3175,7 +3166,7 @@ Beale, Thomas	NA	     2
 Beale, William	ambiguous	     1
 Bealey, Joseph	ambiguous	     2
 Bealey, Josephus	NA	     1
-Bealing, Benjamin (1739-1739)	ambiguous	     3
+Bealing, Benjamin (NA-1739)	ambiguous	     2
 Beall, Isaac (1751-1833)	NA	     1
 Beamish, Joannes (1796-NA)	male	     2
 Beamount, Thomas	NA	     1
@@ -3194,9 +3185,8 @@ Bearcroft, Philip (1697-1761)	NA	    10
 Beard, John (1715-1791)	NA	     2
 Beard, Miriam	ambiguous	     1
 Beard, Richard	ambiguous	     1
-Beard, Thomas (1632-NA)	NA	     1
+Beard, Thomas (1693-1632)	NA	    12
 Beard, Thomas (1693-1710)	NA	     1
-Beard, Thomas (NA-1632)	NA	    12
 Beardmore, J	NA	     1
 Beardshaw, William	ambiguous	     1
 Beare, Matthew	ambiguous	     1
@@ -3268,7 +3258,7 @@ Beauvais, Charles De		     5
 Beauvais, Jean Baptiste Charles Marie De (1731-1790)		     2
 Beavan, Edward	NA	     1
 Beaven, Samuel	NA	     2
-Beaven, Thomas (1720-NA)	NA	    16
+Beaven, Thomas	NA	    13
 Beaver, George (1730-1731)	ambiguous	     4
 Beaver, John	NA	     3
 Beawes, Wyndham	male	    14
@@ -4182,7 +4172,7 @@ Birch, R	NA	     1
 Birch, Robert (1800-NA)	ambiguous	     2
 Birch, Samuel (1757-1841)	NA	    17
 Birch, Thomas (1691-1692)	NA	     2
-Birch, Thomas (1755-1766)	NA	    22
+Birch, Thomas (1755-1766)	NA	    21
 Birch, Thomas Ledlie (NA-1808)	NA	     4
 Birch, Tim	ambiguous	     1
 Birch, William (1562-1571)	ambiguous	     5
@@ -4192,7 +4182,6 @@ Birchall, Robert	ambiguous	     1
 Birchall, Samuel	NA	     1
 Birchall, William	ambiguous	     1
 Birchall, Wm	NA	     1
-Birchensha, John (1664-1672)	NA	     4
 Birchley, William (1613-1669)	ambiguous	    32
 Birckbek, Simon (1584-1656)	ambiguous	     6
 Bird, Benjamin	ambiguous	     7
@@ -4339,7 +4328,7 @@ Blacke, George (1641-NA)	ambiguous	     1
 Blacker, Samuel	NA	     2
 Blacker, William (1709-1783)	ambiguous	     1
 Blackerby, Nathaniel	NA	     1
-Blackerby, S (1712-1749)	NA	    14
+Blackerby, S (1712-1749)	NA	    13
 Blackerby, Samuel (NA-1714)	NA	     3
 Blackett, Edward Bridges (1713-1791)	NA	     2
 Blackett, Mary Dawes	ambiguous	     4
@@ -4426,7 +4415,7 @@ Blainville, 	NA	     9
 Blair, 	ambiguous	     1
 Blair, Alexander	ambiguous	     3
 Blair, Alexander (1738-NA)	ambiguous	     4
-Blair, Alexander (1766-NA)	ambiguous	     3
+Blair, Alexander (1766-NA)	ambiguous	     1
 Blair, Anna (NA-1775)	ambiguous	     4
 Blair, Archibald	NA	     1
 Blair, Bryce	ambiguous	     1
@@ -4571,7 +4560,7 @@ Blatcher, John	NA	     1
 Blatchford, John (1762-1794)	NA	     4
 Blatchford, Samuel (1767-1826)	NA	     1
 Blatchford, Samuel (1767-1828)	NA	     3
-Blau, Robert (1710-NA)	ambiguous	     9
+Blau, Robert (1710-NA)	ambiguous	     1
 Blaugdone, Barbara (1608-1704)	ambiguous	     1
 Blauvelt, Abraham (1764-1838)	ambiguous	     1
 Blaxland, Stephen	NA	     1
@@ -4703,7 +4692,7 @@ Blyth, Joseph	ambiguous	     1
 Blyth, Samuel	NA	     1
 Blythe, 	ambiguous	     1
 Blythe, Henry	ambiguous	     1
-Blythe, John (1792-NA)	NA	     2
+Blythe, John (1792-NA)	NA	     1
 Boad, Henry	ambiguous	    11
 Boaden, James (1762-1839)	NA	    16
 Boaistuau, Pierre (NA-1566)	NA	     9
@@ -5244,7 +5233,7 @@ Bowen, John (1708-1713)	NA	     2
 Bowen, Mary	ambiguous	     1
 Bowen, Nathan (1698-1776)	NA	    18
 Bowen, Penuel (1742-1788)	male	     1
-Bowen, Thomas (1787-1799)	NA	    14
+Bowen, Thomas (1787-1799)	NA	    12
 Bowen, William	ambiguous	     1
 Bowen, William Mogg	ambiguous	     1
 Bower, Alexander	ambiguous	     2
@@ -5252,7 +5241,7 @@ Bower, Archibald (1686-1766)	NA	    29
 Bower, Edmund	NA	     2
 Bower, John (1729-NA)	NA	     1
 Bower, John (1743-NA)	NA	     1
-Bower, Richard (1662-NA)	ambiguous	     4
+Bower, Richard (1662-NA)	ambiguous	     2
 Bower, William	ambiguous	     1
 Bowers, Bathsheba (1672-1718)	female	     1
 Bowers, James (NA-1834)	NA	     2
@@ -5323,7 +5312,7 @@ Boyce, William (1711-1779)	ambiguous	     8
 Boyd, Adam (1738-1803)	ambiguous	     3
 Boyd, Allan	ambiguous	     9
 Boyd, Andrew	NA	     2
-Boyd, Elizabeth (1730-1744)	ambiguous	    19
+Boyd, Elizabeth (1730-1744)	ambiguous	    18
 Boyd, George	ambiguous	     3
 Boyd, Henry (1780-1832)	ambiguous	     3
 Boyd, Hugh (1746-1794)	NA	    10
@@ -5560,7 +5549,7 @@ Brant, Sebastian (1458-1521)	ambiguous	     4
 Brantôme, Pierre De Bourdeille (NA-1614)		    10
 Brard, J	NA	     1
 Brasbridge, Joseph (1743-1832)	ambiguous	     1
-Brasbridge, Thomas (1590-NA)	NA	     8
+Brasbridge, Thomas (1590-NA)	NA	     2
 Brasier, Richard	ambiguous	     1
 Brasse, Samuel	NA	     1
 Brasset, Joseph	ambiguous	     1
@@ -5643,7 +5632,7 @@ Brereton, Thomas (1691-1722)	NA	     6
 Brereton, Thomas (NA-1722)	NA	     1
 Brereton, Urian	NA	     1
 Brereton, William (1604-1661)	ambiguous	    10
-Brerewood, Edward (1565-1613)	NA	    27
+Brerewood, Edward (1565-1613)	NA	    26
 Brerewood, Thomas (NA-1748)	NA	     2
 Brès, Guy De (1522-1567)		     2
 Brès, Guy De (1522-1567)		     1
@@ -5707,7 +5696,7 @@ Brewster, John (1753-1842)	NA	     8
 Brewster, Martha	ambiguous	     2
 Brewster, Richard (1716-1772)	ambiguous	     2
 Brewster, Samuel (1700-1725)	NA	     7
-Brewster, Samuel (1752-1725)	NA	     2
+Brewster, Samuel (1752-1725)	NA	     1
 Brian, Thomas	NA	     3
 Briant, Lemuel (1722-1754)	NA	     3
 Briant, Timothy	NA	     1
@@ -5745,7 +5734,7 @@ Bridgen, William (1688-1738)	ambiguous	     1
 Bridger,  (1705-NA)	NA	     1
 Bridger, John	NA	     1
 Bridger, Saml	male	     1
-Bridges,  (1737-1739)	NA	     5
+Bridges,  (1737-1739)	NA	     4
 Bridges, Brook (1725-1801)	ambiguous	     2
 Bridges, Francis (1630-NA)	ambiguous	     1
 Bridges, George	ambiguous	     7
@@ -5832,7 +5821,6 @@ Brinsley, John	NA	     1
 Brinsley, John (1531-1624)	NA	     1
 Brinsley, John (1581-1624)	NA	    50
 Brinsley, John (1600-1665)	NA	    39
-Brinsley, John (1660-1665)	NA	     1
 Brinvilliers, Marie-madeleine Gobelin (1630-1676)	NA	     1
 Briord, Gabriel De (NA-1703)		     1
 Brisbaine, Matthew	ambiguous	     1
@@ -5843,7 +5831,7 @@ Brisbane, Robert	ambiguous	     1
 Brisco, John	NA	     1
 Briscoe, C W	NA	     1
 Briscoe, Catherine	ambiguous	     1
-Briscoe, John (1695-NA)	NA	    35
+Briscoe, John (1695-NA)	NA	    31
 Briscoe, Samuel (1691-1727)	NA	     3
 Briscoe, Sophia	ambiguous	     4
 Briscoe, William	ambiguous	     2
@@ -5926,7 +5914,7 @@ Brodhurst, Edward	NA	     2
 Brodie, Alexander	ambiguous	     1
 Brodie, Alexander (1617-1680)	ambiguous	     1
 Brodie, Alexander (1701-1781)	ambiguous	     1
-Brodie, Alexander (1722-NA)	ambiguous	     2
+Brodie, Alexander (1722-NA)	ambiguous	     1
 Brodie, Alexander (NA-1754)	ambiguous	     2
 Brodie, Alexander (NA-1770)	ambiguous	     9
 Brodie, David	ambiguous	     1
@@ -5950,7 +5938,7 @@ Brogdingnagian, 	NA	     1
 Broglio, François Marie (1671-1745)	ambiguous	     1
 Brograve, Berney (1726-NA)	NA	     1
 Brograve, Robert (1656-1657)	ambiguous	     1
-Broke, Thomas (1570-NA)	NA	     5
+Broke, Thomas (1570-NA)	NA	     3
 Brokeman, J	NA	     1
 Broker, 	male	     1
 Brokesby, Francis (1637-1714)	ambiguous	    10
@@ -6142,7 +6130,7 @@ Brown, Henry (1703-NA)	ambiguous	     1
 Brown, Henton (1698-1776)	male	     4
 Brown, Hugo	NA	     1
 Brown, Humfrey (1620-1621)	male	     1
-Brown, Humphrey (1699-NA)	NA	     3
+Brown, Humphrey (1699-NA)	NA	     1
 Brown, Ignatius (1630-1679)	NA	     2
 Brown, Isaac (1731-NA)	NA	     1
 Brown, Isidore	ambiguous	     1
@@ -6205,7 +6193,7 @@ Brown, Richard (1712-1780)	ambiguous	     2
 Brown, Richard (NA-1713)	ambiguous	     1
 Brown, Richards (NA-1798)	NA	     1
 Brown, Robert	ambiguous	    22
-Brown, Robert (1668-NA)	ambiguous	     5
+Brown, Robert (1668-NA)	ambiguous	     2
 Brown, Robert (1680-NA)	ambiguous	     1
 Brown, Robert (1757-1831)	ambiguous	     2
 Brown, Robert (NA-1832)	ambiguous	     1
@@ -6284,7 +6272,7 @@ Browne, Samuel (1575-1632)	NA	     1
 Browne, Samuel (1693-1632)	NA	     1
 Browne, Simon (1680-1732)	ambiguous	    35
 Browne, Sir Richard	ambiguous	     1
-Browne, Stephen (1767-NA)	NA	     2
+Browne, Stephen (1767-NA)	NA	     1
 Browne, Theophilus (NA-1700)	NA	     1
 Browne, Thomas	NA	    11
 Browne, Thomas (1604-1673)	NA	     3
@@ -6315,7 +6303,7 @@ Brownlow, Richard (1553-1638)	ambiguous	    15
 Brownrig, Matthew	ambiguous	     1
 Brownrig, Ralph (1592-1659)	ambiguous	    14
 Brownrigg, James	NA	     2
-Brownrigg, William (1711-1800)	ambiguous	     4
+Brownrigg, William (1711-1800)	ambiguous	     3
 Brownsmith, John	NA	     5
 Brownson, Oliver (1746-1815)	ambiguous	     2
 Brownswerd, John (1540-1589)	NA	     2
@@ -6333,7 +6321,7 @@ Bruce, Andrew	NA	     2
 Bruce, Ann	NA	     6
 Bruce, Archibald (1746-1816)	NA	    20
 Bruce, Basil	NA	     1
-Bruce, Charles (1748-NA)	ambiguous	     2
+Bruce, Charles (1748-NA)	ambiguous	     1
 Bruce, Colin	ambiguous	     1
 Bruce, Daniel	ambiguous	     1
 Bruce, David	ambiguous	     5
@@ -6429,7 +6417,7 @@ Bruyn, Ambrosius De		     4
 Bruyn, Cornelis De (1652-1727)		     4
 Bruys, François (1708-1738)	NA	     4
 Bruzeau, Paul	ambiguous	     1
-Bryan,  (1709-NA)	ambiguous	     2
+Bryan,  (1709-NA)	ambiguous	     1
 Bryan, Augustin (NA-1726)	NA	     1
 Bryan, Daniel (1755-1823)	ambiguous	     1
 Bryan, Doctor Of Coventry	male	     1
@@ -6437,7 +6425,6 @@ Bryan, Hugh (1699-1753)	NA	     1
 Bryan, James	NA	     1
 Bryan, John (NA-1676)	NA	     8
 Bryan, John Hermon (NA-1707)	ambiguous	     2
-Bryan, Margaret (1815-NA)	ambiguous	     3
 Bryan, Matthew (NA-1699)	ambiguous	     3
 Bryan, Michael (1757-1821)	NA	     4
 Bryan, Onuphrius Aram	ambiguous	     1
@@ -6693,10 +6680,9 @@ Bullock, Jeffery	NA	     5
 Bullock, R (1793-NA)	NA	     1
 Bullock, Richard (1729-1809)	ambiguous	     4
 Bullock, Thomas (1693-1760)	NA	    12
-Bullock, W (1808-1828)	NA	     1
 Bullock, William (1617-NA)	ambiguous	     2
 Bullokar, Iohn	NA	     1
-Bullokar, William (1586-NA)	ambiguous	     4
+Bullokar, William (1586-NA)	ambiguous	     1
 Bullord, John	NA	    75
 Bulman, John	NA	     2
 Bulmer, Bevis	male	     1
@@ -6705,7 +6691,7 @@ Bulmer, Peter (1755-1834)	NA	     1
 Bulstrode, Edward (1588-1659)	NA	     1
 Bulstrode, Richard (1610-1711)	ambiguous	     5
 Bulstrode, Whitelocke (1650-1724)	NA	    12
-Bulteel, John (1683-NA)	NA	     4
+Bulteel, John	NA	     1
 Bulwarke, William	ambiguous	     1
 Bumpkin, Henry	ambiguous	     1
 Bumpsted, Robert	ambiguous	     3
@@ -7293,11 +7279,10 @@ C,  (1590-NA)	NA	     1
 C,  (1595-NA)	NA	     1
 C,  (1596-NA)	NA	     2
 C,  (1616-NA)	NA	     1
-C,  (1623-NA)	NA	     2
+C,  (1623-NA)	NA	     1
 C,  (1624-NA)	NA	     1
 C,  (1674-1675)	NA	     1
 C,  (1773-NA)	NA	     1
-C,  (1978-NA)	NA	    10
 C,  (NA-1709)	NA	    10
 C**, A**	NA	     1
 Ca , W	NA	     1
@@ -7456,7 +7441,7 @@ Callières,  (1645-1717)	NA	    10
 Callimachus, 	NA	     7
 Callin, John	NA	     3
 Callis, Robert (1634-NA)	ambiguous	     5
-Callow, John (1794-1830)	NA	     2
+Callow, John (1794-1830)	NA	     1
 Calloway, William	ambiguous	     1
 Calmet, Augustin (1672-1757)	NA	    13
 Calonges, P V De		     2
@@ -7467,7 +7452,7 @@ Calthorpe, Mary	ambiguous	     2
 Calthorpe, Reynolds (NA-1720)	NA	     2
 Calthrop, Henry (1586-1637)	ambiguous	     4
 Calthrope, Charles (NA-1616)	ambiguous	     3
-Calver, Edward (1649-NA)	NA	     9
+Calver, Edward (1649-NA)	NA	     2
 Calverley-blackett, Walter (1707-1777)	ambiguous	     1
 Calverley, Francis	ambiguous	     3
 Calverley, William	ambiguous	     1
@@ -7695,7 +7680,7 @@ Camplin, John (1753-1754)	NA	     2
 Camplin, Joseph	ambiguous	     1
 Camus, Jean-pierre (1584-1652)	male	    19
 Canaries, James	NA	     5
-Cancellar, James (1564-NA)	NA	     9
+Cancellar, James (1564-NA)	NA	     7
 Candidus, Agricola	male	     1
 Candlesticks, Humphry	male	     1
 Candy, Nathaniel	NA	     1
@@ -7798,8 +7783,7 @@ Carew, Abel	ambiguous	     4
 Carew, Alexander (1609-1644)	ambiguous	     1
 Carew, George (NA-1612)	ambiguous	    14
 Carew, Richard (1555-1620)	ambiguous	     4
-Carew, Richard (1703-1704)	ambiguous	     1
-Carew, Richard (NA-1643)	ambiguous	     5
+Carew, Richard (1555-1643)	ambiguous	     5
 Carew, Shapland (1716-NA)	NA	     2
 Carew, Thomas	NA	     2
 Carew, Thomas (1595-1639)	NA	    10
@@ -8008,7 +7992,7 @@ Carter, John (1749-1816)	NA	     6
 Carter, John (NA-1655)	NA	     5
 Carter, John (NA-1745)	NA	     1
 Carter, Landon (1710-1778)	ambiguous	     5
-Carter, Matthew (1660-NA)	ambiguous	    10
+Carter, Matthew (1660-NA)	ambiguous	     7
 Carter, Nicholas (1690-1774)	NA	    11
 Carter, Oliver (1540-1605)	ambiguous	     1
 Carter, R	NA	     1
@@ -8034,7 +8018,7 @@ Cartwright, Charlotte	female	     2
 Cartwright, Christopher (1602-1658)	ambiguous	    11
 Cartwright, Edmund (1743-1823)	NA	    21
 Cartwright, Francis	ambiguous	     1
-Cartwright, George (1661-1819)	ambiguous	     2
+Cartwright, George (1661-1819)	ambiguous	     1
 Cartwright, George (1739-1819)	ambiguous	     6
 Cartwright, H (1777-NA)	NA	     8
 Cartwright, Johanna	NA	     1
@@ -8212,7 +8196,6 @@ Cather, John	NA	     2
 Catherall, Samuel (1661-1723)	NA	     6
 Catherine,  (1729-1796)	ambiguous	     3
 Catherwood, John (1686-NA)	NA	     2
-Catholic, Roman (1826-NA)	ambiguous	     2
 Cathrall, Isaac (1764-1819)	NA	     3
 Catlett, John	NA	     1
 Catlin, Jacob (1758-1826)	NA	     4
@@ -8312,7 +8295,7 @@ Celadon, 	NA	     1
 Celesia, Dorothea (1738-1790)	NA	     4
 Cellarius, Christoph (1638-1707)	NA	    24
 Cellier, Elizabeth (1650-NA)	ambiguous	     1
-Cellier, Elizabeth (1680-NA)	ambiguous	    10
+Cellier, Elizabeth (1680-NA)	ambiguous	     9
 Cellini, Benvenuto (1500-1571)	male	     2
 Celsus, Aulus Cornelius	ambiguous	     2
 Cennick, John (1718-1755)	NA	   247
@@ -8430,7 +8413,7 @@ Chamberlayne, Thomas	NA	     9
 Chamberlayne, William (1619-1689)	ambiguous	     6
 Chamberlen, 	NA	     1
 Chamberlen, Hope	ambiguous	     1
-Chamberlen, Hugh (1720-NA)	NA	    38
+Chamberlen, Hugh	NA	    35
 Chamberlen, Paul (1635-1717)	ambiguous	    12
 Chamberlen, Peter (1601-1683)	NA	    23
 Chamberliane, Bartholemew	male	     1
@@ -8605,7 +8588,6 @@ Charles,  (1600-1649)	ambiguous	    50
 Charles,  (1622-1660)	ambiguous	     2
 Charles,  (1630-1685)	ambiguous	    41
 Charles,  (1643-1690)	ambiguous	     2
-Charles,  (1660-1685)	ambiguous	     2
 Charles,  (1661-1700)	ambiguous	     4
 Charles,  (1685-1740)	ambiguous	     7
 Charles,  (1697-1745)	ambiguous	     1
@@ -8870,7 +8852,6 @@ Children, George	ambiguous	     1
 Children, John	NA	     3
 Childrey, J (1623-1670)	NA	     5
 Childs, Isaac	NA	     2
-Chillenden, Edmund (1656-NA)	NA	     4
 Chillester, Henry	ambiguous	     1
 Chillingworth, Thomas	NA	     1
 Chillingworth, William (1602-1644)	ambiguous	    35
@@ -9116,7 +9097,7 @@ Claridge, John	NA	    12
 Claridge, Richard (1649-1723)	ambiguous	    26
 Clarik, 	ambiguous	     1
 Clarius, Luce	ambiguous	     1
-Clark,  (1633-1638)	NA	     7
+Clark,  (1633-1638)	NA	     6
 Clark,  (1720-1638)	NA	     1
 Clark, A (1790-NA)	NA	     1
 Clark, Alexander	ambiguous	     4
@@ -9131,7 +9112,7 @@ Clark, Edward (NA-1789)	NA	     1
 Clark, Emily	ambiguous	     2
 Clark, Ephraim (1722-1797)	NA	     2
 Clark, Ewan	NA	     1
-Clark, G (1787-NA)	NA	     3
+Clark, G (1787-NA)	NA	     2
 Clark, George	ambiguous	     9
 Clark, Gilbert	NA	     4
 Clark, Henry	ambiguous	     9
@@ -9161,7 +9142,7 @@ Clark, Joseph Wilkinson	ambiguous	     1
 Clark, Josiah (1741-1819)	NA	     1
 Clark, Margaret (1767-1680)	ambiguous	     2
 Clark, Mary (1685-1700)	ambiguous	     2
-Clark, Nicholas (1718-NA)	NA	     3
+Clark, Nicholas (1718-NA)	NA	     2
 Clark, Peter (1694-1768)	NA	    16
 Clark, Richard (1739-1831)	ambiguous	     4
 Clark, Robert	ambiguous	     2
@@ -9190,10 +9171,10 @@ Clarke, Bernard	ambiguous	     3
 Clarke, Charles (1718-1780)	ambiguous	     1
 Clarke, Charles (1718-1840)	ambiguous	     2
 Clarke, Charles (1718-NA)	ambiguous	     1
-Clarke, Cuthbert (1777-NA)	NA	     5
+Clarke, Cuthbert (1777-NA)	NA	     4
 Clarke, Edward (1657-1658)	NA	     4
 Clarke, Edward (1730-1786)	NA	     4
-Clarke, Edward (1768-NA)	NA	     2
+Clarke, Edward (1768-NA)	NA	     1
 Clarke, Edward Daniel (1769-1822)	ambiguous	     5
 Clarke, Edward Goodman (NA-1811)	NA	     1
 Clarke, Elijah (1733-1799)	NA	     2
@@ -9240,7 +9221,7 @@ Clarke, Matthew (1664-1786)	ambiguous	     1
 Clarke, Pitt (1763-1835)	ambiguous	     1
 Clarke, Reuben	NA	     1
 Clarke, Richard (1723-1780)	ambiguous	    27
-Clarke, Robert (1718-NA)	ambiguous	     2
+Clarke, Robert (1718-NA)	ambiguous	     1
 Clarke, S (1771-NA)	NA	     1
 Clarke, Sabaoth	NA	     1
 Clarke, Samuel	NA	     2
@@ -9454,7 +9435,6 @@ Clerke, Jonathan	NA	     1
 Clerke, Josiah (1737-NA)	NA	     1
 Clerke, Richard (NA-1634)	ambiguous	     1
 Clerke, Samuel	NA	     4
-Clerke, William (1595-NA)	ambiguous	     1
 Clerke, William Henry (1751-1818)	ambiguous	     2
 Clerkson, Thomas	NA	     1
 Clermont-tonnerre, Stanislas (1747-1792)	NA	     1
@@ -9685,7 +9665,7 @@ Cockell, Teesdale	NA	     1
 Cockell, William	ambiguous	     1
 Cocken, David	ambiguous	     1
 Cocker, Edward (1631-1675)	NA	   131
-Cockeram, Henry (1650-NA)	ambiguous	    18
+Cockeram, Henry (1650-NA)	ambiguous	     7
 Cockerill, Culmer	male	     1
 Cockin, Francis	ambiguous	     1
 Cockin, William (1736-1801)	ambiguous	     6
@@ -9774,7 +9754,7 @@ Coke, Edward (1552-1634)	NA	   168
 Coke, Edward (1689-1634)	NA	     2
 Coke, John (1689-NA)	NA	     2
 Coke, Robert	ambiguous	     1
-Coke, Roger (1696-NA)	NA	    16
+Coke, Roger (1696-NA)	NA	     6
 Coke, Sir Edward	male	     1
 Coke, Thomas (1747-1814)	NA	    55
 Coke, William	ambiguous	     2
@@ -9930,7 +9910,7 @@ Collier, Philip (1677-1678)	NA	     1
 Collier, R	NA	     1
 Collier, Richard	ambiguous	     1
 Collier, S	NA	     1
-Collier, Thomas (1691-1842)	NA	    43
+Collier, Thomas (1691-1842)	NA	     2
 Collier, Thomas (1761-1842)	NA	     1
 Collier, W	NA	     1
 Collier, William	ambiguous	     1
@@ -9964,7 +9944,7 @@ Collins, Edward	NA	     2
 Collins, Emanuel (1711-1712)	NA	     2
 Collins, Greenvile (1669-1698)	female	    12
 Collins, Greenville (1679-1693)	NA	     1
-Collins, Hercules (1702-1702)	male	    15
+Collins, Hercules (NA-1702)	male	    14
 Collins, Isaac (1746-1817)	NA	     8
 Collins, John	NA	     6
 Collins, John (1625-1683)	NA	    23
@@ -10101,10 +10081,9 @@ Comazzi, Giovanni Battista (1654-1711)	ambiguous	     2
 Comb-brush, Catherine	ambiguous	     1
 Combach, Ludwig (1590-1657)	male	     1
 Combachius, Johannes (1585-1651)	male	     3
-Combe, Andrew (1797-1847)	NA	     1
 Combe, Charles (1743-1817)	ambiguous	     3
 Combe, Edward (1660-1738)	NA	     3
-Combe, William (1742-1823)	ambiguous	   136
+Combe, William (1742-1823)	ambiguous	   135
 Comber, John (NA-1725)	NA	     3
 Comber, Thomas	NA	     3
 Comber, Thomas (1645-1699)	NA	    91
@@ -10259,7 +10238,6 @@ Conway, John (NA-1603)	NA	     5
 Conway, William (1550-NA)	ambiguous	     1
 Cony, Thomas	NA	     1
 Conybeare, John (1692-1755)	NA	    38
-Conyers, George (1739-1740)	ambiguous	     1
 Conyers, James	NA	     1
 Conyers, Richard (1707-1759)	ambiguous	     2
 Conyers, Richard (1723-1786)	ambiguous	     5
@@ -10277,10 +10255,9 @@ Cook, J	NA	     2
 Cook, James	NA	     3
 Cook, James (1571-1611)	NA	     1
 Cook, James (1728-1779)	NA	    53
-Cook, John	NA	     7
-Cook, John (1660-NA)	NA	     1
+Cook, John (1705-1660)	NA	    17
 Cook, John (1705-1777)	NA	     7
-Cook, John (NA-1660)	NA	    17
+Cook, John (1705-NA)	NA	     7
 Cook, M	NA	     1
 Cook, Moses	ambiguous	     4
 Cook, Obed	male	     1
@@ -10293,7 +10270,7 @@ Cooke, Alexander (1564-1632)	ambiguous	    17
 Cooke, Andrew	NA	     1
 Cooke, Benjamin (1734-1793)	ambiguous	     2
 Cooke, Cassandra	NA	     1
-Cooke, Charles (1789-1817)	ambiguous	    19
+Cooke, Charles (1789-1817)	ambiguous	    18
 Cooke, Daniel	ambiguous	     1
 Cooke, Ebenezer (1667-1732)	ambiguous	     4
 Cooke, Edward	NA	    12
@@ -10318,7 +10295,7 @@ Cooke, I	NA	     1
 Cooke, James (1614-1694)	NA	    12
 Cooke, James (1729-1694)	NA	     1
 Cooke, James (NA-1694)	NA	     6
-Cooke, Jo (1614-NA)	ambiguous	     6
+Cooke, Jo (1614-NA)	ambiguous	     4
 Cooke, John	NA	     4
 Cooke, John (1646-1726)	NA	     4
 Cooke, John (1731-1810)	NA	     8
@@ -10358,7 +10335,6 @@ Cooke, William (1755-NA)	ambiguous	     1
 Cooke, William (1757-1832)	ambiguous	     7
 Cooke, William (NA-1780)	ambiguous	     3
 Cookesey, John (NA-1777)	NA	     2
-Cooksey, Paul H (1948-NA)	ambiguous	     1
 Cooksey, Richard	ambiguous	     5
 Cookson, Ambrose (NA-1836)	NA	     1
 Cookson, James (1752-1835)	NA	     1
@@ -10374,13 +10350,11 @@ Coombe, Thomas (1747-1822)	NA	    13
 Coombes, William (NA-1789)	ambiguous	     1
 Coombes, William Henry (1767-1850)	ambiguous	     2
 Coope, Richard	ambiguous	     4
-Cooper, 	ambiguous	     1
-Cooper,  (1737-NA)	ambiguous	     1
-Cooper,  (1770-NA)	ambiguous	     1
+Cooper,  (1770-NA)	ambiguous	     2
 Cooper, A	NA	     4
 Cooper, Alexander	ambiguous	     3
 Cooper, Allen	ambiguous	     1
-Cooper, Andrew (1660-NA)	NA	     4
+Cooper, Andrew (1660-NA)	NA	     3
 Cooper, Astley (1768-1841)	NA	     1
 Cooper, C (NA-1698)	NA	     4
 Cooper, Charles	ambiguous	     1
@@ -10393,7 +10367,7 @@ Cooper, Edmund	NA	     2
 Cooper, Edward (1739-NA)	NA	     2
 Cooper, Ezekiel (1763-1847)	ambiguous	     1
 Cooper, George	ambiguous	     1
-Cooper, Grey (1726-1801)	ambiguous	     7
+Cooper, Grey (1726-1801)	ambiguous	     6
 Cooper, James	NA	     3
 Cooper, Jane (1738-1762)	ambiguous	    11
 Cooper, John (1725-1845)	NA	     1
@@ -10415,7 +10389,7 @@ Cooper, Samuel (1759-1809)	NA	     1
 Cooper, Samuel (1772-1798)	NA	     1
 Cooper, Thomas	NA	     6
 Cooper, Thomas (1517-1594)	NA	    15
-Cooper, Thomas (1626-NA)	NA	    22
+Cooper, Thomas (1626-NA)	NA	     1
 Cooper, Thomas (1675-1755)	NA	     1
 Cooper, Thomas (1759-1839)	NA	    23
 Cooper, Thomas (NA-1743)	NA	     1
@@ -10430,7 +10404,7 @@ Coore, Richard	ambiguous	     3
 Coote, Charles (1761-1835)	ambiguous	     6
 Coote, Chidley	male	     1
 Coote, Chidly	NA	     1
-Coote, Edmund (1597-NA)	NA	    38
+Coote, Edmund (1597-NA)	NA	    37
 Coote, Eyre (1726-1783)	ambiguous	     1
 Coote, Robert	ambiguous	     2
 Cope, 	NA	     3
@@ -10628,7 +10602,6 @@ Costa, Anthony Da (NA-1747)	ambiguous	     2
 Costa, Juan Da	ambiguous	     3
 Costa, Uriel (1585-1640)	ambiguous	     1
 Costansó, Miguel	NA	     1
-Costantini, Angelo (1729-1730)	ambiguous	     1
 Costard, George (1710-1782)	ambiguous	    12
 Coste, Fr	ambiguous	     1
 Coste, Jean François (1741-1819)	ambiguous	     1
@@ -10804,7 +10777,7 @@ Covolo, Giovambatista Dal (1739-1768)	NA	     1
 Cowan, 	NA	     1
 Cowan, Henry	ambiguous	     1
 Cowan, James (1738-1795)	NA	     4
-Cowan, John (1795-NA)	NA	     7
+Cowan, John (1795-NA)	NA	     4
 Cowan, Marion	ambiguous	     1
 Cowan, Robert	ambiguous	     3
 Cowan, William	ambiguous	     1
@@ -10818,7 +10791,6 @@ Cowell, John (1554-1611)	NA	    16
 Cowell, John (1554-1680)	NA	     3
 Cowell, John (1554-NA)	NA	     4
 Cowie, George (NA-1806)	ambiguous	     1
-Cowie, John (1683-NA)	NA	     1
 Cowles, Giles H (1766-1835)	male	     1
 Cowley, Abraham (1618-1667)	ambiguous	    75
 Cowley, Charles Augustus	ambiguous	     1
@@ -10861,7 +10833,6 @@ Cox, Johannes	male	     1
 Cox, John (1683-1689)	NA	     7
 Cox, John Henry	ambiguous	     1
 Cox, Joseph (NA-1760)	ambiguous	     3
-Cox, Leonard (1572-NA)	ambiguous	     2
 Cox, Michael (1690-1779)	NA	     2
 Cox, Nicholas (1673-1731)	NA	    15
 Cox, Owen	NA	     1
@@ -11058,7 +11029,6 @@ Craw, Margaret	ambiguous	     1
 Crawford-lindsay, John Lindsay (1596-1678)	ambiguous	     1
 Crawford, Adair (1748-1795)	ambiguous	     3
 Crawford, Alexander (1774-NA)	ambiguous	     1
-Crawford, Andrew (1815-NA)	NA	     1
 Crawford, Archibald (NA-1786)	NA	     1
 Crawford, Charles (1752-NA)	ambiguous	    26
 Crawford, Dugald	male	     2
@@ -11379,7 +11349,7 @@ Crotch, Thomas	NA	     2
 Crouch, Henry (NA-1732)	ambiguous	    10
 Crouch, Humphrey (1635-1671)	NA	    43
 Crouch, Isaac (1756-1757)	NA	     1
-Crouch, John (1660-1681)	NA	    22
+Crouch, John (1660-1681)	NA	    20
 Crouch, Nathaniel (1632-1752)	NA	    84
 Crouch, Nathaniel (1632-NA)	NA	     4
 Crouch, William (1628-1710)	ambiguous	     2
@@ -11393,7 +11363,7 @@ Crowe, Thomas (1788-NA)	NA	     3
 Crowe, William (1616-1675)	ambiguous	     3
 Crowe, William (1745-1829)	ambiguous	     8
 Crowe, William (NA-1743)	ambiguous	    13
-Crowley, Ambrose (1713-1714)	NA	     3
+Crowley, Ambrose	NA	     1
 Crowley, Ann (1757-1774)	NA	     5
 Crowley, Miles	NA	     1
 Crowley, Robert (1518-1588)	ambiguous	    28
@@ -11626,7 +11596,7 @@ Currie, Foulkes	NA	     1
 Currie, George (NA-1816)	ambiguous	     1
 Currie, James (1756-1805)	NA	    11
 Currie, John (1679-1720)	NA	     1
-Currie, John (1679-1765)	NA	    20
+Currie, John (1679-1765)	NA	    19
 Currie, John (1679-NA)	NA	     2
 Currie, Thomas	NA	     1
 Currie, William	ambiguous	     2
@@ -11900,7 +11870,7 @@ Dalrymple, Hugh (1690-1774)	NA	     7
 Dalrymple, Hugh (1690-1784)	NA	     1
 Dalrymple, Hugh (1690-NA)	NA	     1
 Dalrymple, James (1692-1751)	NA	     2
-Dalrymple, James (1714-1751)	NA	     5
+Dalrymple, James (1714-1751)	NA	     2
 Dalrymple, James (NA-1751)	NA	    12
 Dalrymple, Jean (1770-NA)	ambiguous	     1
 Dalrymple, John (1682-1743)	NA	     5
@@ -12000,7 +11970,7 @@ Daniel, Gabriel (1649-1728)	ambiguous	     8
 Daniel, Humphry	male	     4
 Daniel, J M (1791-NA)	NA	     1
 Daniel, John	NA	     4
-Daniel, Richard (1664-1739)	ambiguous	    15
+Daniel, Richard (1664-1739)	ambiguous	    14
 Daniel, Samuel (1562-1619)	NA	    43
 Daniel, T	NA	     1
 Daniel, Thomas	NA	     2
@@ -12044,9 +12014,9 @@ Darby, Samuel (1722-1794)	NA	     3
 Darby, Sarah	ambiguous	     1
 Darbyshire, William	ambiguous	     1
 Darch, John (1723-1724)	NA	     1
-Darcie, Abraham (1625-NA)	ambiguous	     9
+Darcie, Abraham (1625-NA)	ambiguous	     5
 Darcie, Grace	ambiguous	     1
-Darcy,  (1732-1749)	ambiguous	     4
+Darcy,  (1732-1749)	ambiguous	     3
 Darcy, Edward	NA	     2
 Darcy, Francis	ambiguous	     1
 Darcy, Hyacinthus (NA-1743)	NA	     2
@@ -12110,7 +12080,7 @@ Daulen, William	ambiguous	     1
 Daun, Leopold Joseph Maria Von (1705-1766)	ambiguous	     2
 Daunce, Edward	NA	     2
 Dauncey, John (1633-NA)	NA	     1
-Dauncey, John (1663-NA)	NA	    10
+Dauncey, John (1663-NA)	NA	     1
 Dauncy, Gervase	ambiguous	     2
 Daut, Johannes Maximilian (1656-1736)	male	     2
 Daval, Peter (NA-1763)	NA	     1
@@ -12152,7 +12122,7 @@ Davidson, Alexander (NA-1734)	ambiguous	     1
 Davidson, Andrew	NA	     3
 Davidson, David	ambiguous	     1
 Davidson, George	ambiguous	     1
-Davidson, George (1717-NA)	ambiguous	     2
+Davidson, George (1717-NA)	ambiguous	     1
 Davidson, George (1784-NA)	ambiguous	     1
 Davidson, Harry	ambiguous	     1
 Davidson, Henry (1687-1756)	ambiguous	     3
@@ -12370,7 +12340,7 @@ Day, John (1522-1584)	NA	     1
 Day, John (1566-1628)	NA	     7
 Day, John (1574-1640)	NA	     8
 Day, John (1653-NA)	NA	     1
-Day, John (1787-1789)	NA	     3
+Day, John (1787-1789)	NA	     2
 Day, John (NA-1777)	NA	     1
 Day, Joseph	ambiguous	     3
 Day, Lionel (1569-1640)	ambiguous	     1
@@ -12386,7 +12356,7 @@ Day, Thomas (1749-1818)	NA	     3
 Day, Thomas (1777-1855)	NA	     2
 Day, Valentine (1589-1590)	ambiguous	     1
 Day, William (1605-1684)	ambiguous	     2
-Day, William (1713-1684)	ambiguous	     2
+Day, William (1713-1684)	ambiguous	     1
 Day, William (NA-1684)	ambiguous	     9
 Daye, James	NA	     2
 Dayrell, Richard (1720-1767)	ambiguous	     1
@@ -12441,7 +12411,6 @@ De Luzancy, H C (NA-1713)	NA	    14
 De Mainauduc, John Boniot (NA-1797)	NA	     5
 De Maribus, Micaele	female	     1
 De Medina, Solomon (1650-1730)	NA	     1
-De Peystor, J Watts (1821-1907)	NA	     1
 De Ronde, Lambertus (1720-1795)	male	     4
 De Rosset, Armand John (1767-1859)	ambiguous	     1
 De Saumarez, Henry (1655-NA)	ambiguous	     2
@@ -12471,7 +12440,7 @@ Dealtry, R B (1755-1830)	NA	     1
 Dealtry, William (NA-1834)	ambiguous	     1
 Dealy, James (NA-1727)	NA	     1
 Dean, Adam	ambiguous	     1
-Dean, J (1679-1685)	NA	     9
+Dean, J (1679-1685)	NA	     8
 Dean, John (1679-1761)	NA	    12
 Dean, Richard (1693-1778)	ambiguous	     1
 Dean, Richard (1727-1778)	ambiguous	     3
@@ -12508,7 +12477,7 @@ Debordes, Lewis (NA-1733)	ambiguous	     2
 Debra, John	NA	     1
 Debrett, John (NA-1822)	NA	    39
 Decalves, Alonso	NA	    17
-Decan, F (1784-NA)	NA	     3
+Decan, F (1784-NA)	NA	     2
 Dechales, Claude-françois Milliet (1621-1678)	NA	     4
 Decius, 	male	     2
 Decius, Theophilus Philanax Gerusiphilus Philalethes	NA	     1
@@ -12549,8 +12518,7 @@ Delafaye, Theodore (1703-1772)	ambiguous	    12
 Delafosse, B	NA	     2
 Delaire, Jas	ambiguous	     1
 Delamain, Henry (NA-1796)	ambiguous	     1
-Delamain, Richard (1631-NA)	ambiguous	     5
-Delamain, Richard (1654-NA)	ambiguous	     1
+Delamain, Richard (1631-NA)	ambiguous	     4
 Delamaine, Edward	NA	     2
 Delamaine, Robert	ambiguous	     1
 Delamar, Walter	ambiguous	     4
@@ -12643,7 +12611,7 @@ Denis, Charles (NA-1772)	ambiguous	     1
 Denis, Jean-baptiste (1676-NA)	male	     5
 Denison, John (NA-1629)	NA	    19
 Denison, Joseph (1765-1789)	ambiguous	     1
-Denison, Stephen (1649-1650)	NA	    22
+Denison, Stephen	NA	     2
 Denley,  (1795-NA)	male	     1
 Denman, Joseph	ambiguous	     1
 Denman, Thomas (1733-1815)	NA	    24
@@ -12855,7 +12823,7 @@ Dexter, Samuel (1726-1810)	NA	     1
 Dexter, Samuel (1761-1816)	NA	     1
 Dey, James	NA	     1
 Dey, Richard	ambiguous	     4
-Deye, John (1699-NA)	NA	     8
+Deye, John (1699-NA)	NA	     6
 Deye, William	ambiguous	     1
 Deyman, William (1720-NA)	ambiguous	     2
 Dézallier D'argenville, A -j (1680-1765)	NA	     4
@@ -13157,7 +13125,7 @@ Dodd, Bethuel (1767-1804)	NA	     1
 Dodd, Charles (1672-1743)	ambiguous	     9
 Dodd, Edward	NA	     1
 Dodd, J	NA	     1
-Dodd, James (1727-1740)	NA	     4
+Dodd, James (1727-1740)	NA	     3
 Dodd, James Solas (1721-1805)	male	    16
 Dodd, Philip Stanhope (1775-1852)	male	     2
 Dodd, Ralph (1756-1822)	ambiguous	    15
@@ -13175,7 +13143,7 @@ Dodington, George Bubb (1691-1762)	ambiguous	    16
 Dodoens, Rembert (1517-1585)	male	     6
 Dods, Stephen	NA	     1
 Dodsley, James (1724-1797)	NA	     1
-Dodsley, Robert (1703-1764)	ambiguous	   362
+Dodsley, Robert (1703-1764)	ambiguous	   361
 Dodson, James (NA-1757)	NA	     7
 Dodson, Jeremiah	NA	     1
 Dodson, Joseph (1708-1724)	ambiguous	     3
@@ -13187,7 +13155,7 @@ Dodsworth, Joannes	male	     1
 Dodsworth, William (1792-1814)	ambiguous	     4
 Dodwell, Edward (1770-1789)	NA	     2
 Dodwell, George (1765-1777)	ambiguous	     2
-Dodwell, Henry (1641-1711)	ambiguous	    55
+Dodwell, Henry (1641-1711)	ambiguous	    54
 Dodwell, Henry (1641-1784)	ambiguous	     5
 Dodwell, Henry (1641-NA)	ambiguous	     2
 Dodwell, William (1709-1785)	ambiguous	    23
@@ -13216,7 +13184,7 @@ Dolins, Daniel (NA-1728)	ambiguous	     4
 Dollitt, George	ambiguous	     1
 Dollond, John (NA-1804)	NA	     1
 Dollond, Peter (1730-1820)	NA	     6
-Dolman, John (1758-1765)	NA	     6
+Dolman, John (1758-1765)	NA	     3
 Dolman, Robert (NA-1792)	ambiguous	     1
 Dolman, Thomas (NA-1711)	NA	     1
 Dolphin, William (1698-NA)	ambiguous	     1
@@ -13497,7 +13465,6 @@ Downes, J (NA-1830)	NA	     1
 Downes, James	NA	     1
 Downes, John (1657-1736)	NA	     1
 Downes, John (1661-1719)	NA	     2
-Downes, John (1666-NA)	NA	     1
 Downes, John (1690-1760)	NA	    11
 Downes, Joseph	ambiguous	     1
 Downes, Robert (1704-1763)	ambiguous	     3
@@ -13686,7 +13653,7 @@ Drummond, May (NA-1772)	ambiguous	     5
 Drummond, Patrick	NA	     1
 Drummond, Riccardton	NA	     1
 Drummond, Robert (1776-1789)	ambiguous	     2
-Drummond, Robert Hay (1711-1776)	ambiguous	    18
+Drummond, Robert Hay (1711-1776)	ambiguous	    17
 Drummond, Sarah	ambiguous	     1
 Drummond, Thomas (NA-1780)	NA	     9
 Drummond, William	ambiguous	     6
@@ -13698,7 +13665,7 @@ Drury, D (1725-1803)	NA	     2
 Drury, Edward (1671-1672)	NA	     3
 Drury, Martha (1710-1768)	ambiguous	     1
 Drury, Robert (1687-1734)	ambiguous	     4
-Drury, Robert (1732-1735)	ambiguous	    14
+Drury, Robert (1732-1735)	ambiguous	    13
 Drury, William O'brien	ambiguous	     1
 Dry, Emma	ambiguous	     1
 Dry, John	NA	     2
@@ -13821,7 +13788,7 @@ Ducrest, Charles-louis (1747-1824)	NA	     1
 Duddell, Benedict	male	     3
 Dudgeon, Robert	ambiguous	     1
 Dudgeon, Thomas	NA	     2
-Dudgeon, William (1765-NA)	ambiguous	    10
+Dudgeon, William (1765-NA)	ambiguous	     1
 Dudley And Ward Of Dudley, William Ward (1750-1823)	ambiguous	     1
 Dudley And Ward, John Ward (1700-1774)	ambiguous	     2
 Dudley And Ward, William Ward (NA-1740)	ambiguous	     2
@@ -13882,7 +13849,7 @@ Duggan, Hugo	NA	     1
 Duggan, Michael (1766-1768)	NA	     3
 Dugmore, Thomas	NA	     1
 Dugravet, 	NA	     1
-Dugrès, Gabriel (1643-NA)	ambiguous	     6
+Dugrès, Gabriel (1643-NA)	ambiguous	     4
 Duguay-trouin, René (1673-1736)	NA	     3
 Dugud, Patricius	male	     2
 Dugud, William	ambiguous	     4
@@ -13996,7 +13963,7 @@ Duncombe, D	NA	     2
 Duncombe, Giles	male	    17
 Duncombe, Henry (1728-1818)	ambiguous	     1
 Duncombe, John (1729-1786)	NA	    14
-Duncombe, William (1683-NA)	ambiguous	     2
+Duncombe, William (1683-NA)	ambiguous	     1
 Duncombe, William (1690-1769)	ambiguous	     4
 Duncombe, William (1737-1819)	ambiguous	     1
 Duncon, Eleazar (1597-1660)	ambiguous	     4
@@ -14069,7 +14036,7 @@ Dunn, Field (1675-1738)	NA	     1
 Dunn, James	NA	     2
 Dunn, James (NA-1792)	NA	     1
 Dunn, James (NA-1797)	NA	     2
-Dunn, John (1750-NA)	NA	     2
+Dunn, John	NA	     1
 Dunn, Larry	ambiguous	     2
 Dunn, Patrick (1642-1713)	NA	     4
 Dunn, Samuel (NA-1794)	NA	    66
@@ -14223,9 +14190,7 @@ Dyer, Robert (1602-1763)	ambiguous	     2
 Dyer, Robert (1602-NA)	ambiguous	     1
 Dyer, Thomas	NA	     1
 Dyer, W	NA	     1
-Dyer, William (1632-1696)	ambiguous	    37
-Dyer, William (1696-1696)	ambiguous	     1
-Dyer, William (NA-1696)	ambiguous	    44
+Dyer, William (1632-1696)	ambiguous	    81
 Dyke, Ann	NA	     1
 Dyke, Daniel (NA-1614)	ambiguous	    27
 Dyke, Jeremiah (1584-1639)	NA	    40
@@ -14275,7 +14240,6 @@ Eades, Elizabeth	ambiguous	     1
 Eades, John	NA	     1
 Eadmer,  (NA-1124)	NA	     2
 Eadon, John	NA	     4
-Eager,  (1796-NA)	ambiguous	     1
 Eagle,  (1762-NA)	male	     1
 Eagleston, John	NA	     1
 Eales, Mary	ambiguous	     7
@@ -14563,14 +14527,13 @@ Elder, George	ambiguous	     2
 Elder, John (1542-1565)	NA	     2
 Elder, John (1692-1779)	NA	     2
 Elder, Thomas (1737-1799)	NA	     2
-Elder, William (1680-1700)	ambiguous	     4
+Elder, William (1680-1700)	ambiguous	     3
 Elderfield, Christopher (1607-1652)	ambiguous	     4
 Elderton, Edward	NA	     2
-Elderton, William (1592-1592)	ambiguous	    18
+Elderton, William (NA-1592)	ambiguous	    15
 Eldin, John Clerk (1757-1832)	male	     5
 Eldred, Thomas (1615-NA)	NA	     1
 Eldred, William (1563-NA)	ambiguous	     1
-Eldridge, Daniel (1808-1809)	ambiguous	     1
 Eldridge, Tho	male	     3
 Elector, M a	NA	     2
 Elencticus, Mercurius	NA	     1
@@ -14852,7 +14815,6 @@ English, George	ambiguous	     2
 English, Harriet	NA	     3
 English, J	NA	     1
 English, Jack	NA	     1
-English, John (1959-NA)	NA	     1
 English, Peter	NA	     1
 English, Rebecca	ambiguous	     1
 English, Robert (1722-1784)	ambiguous	     5
@@ -14878,7 +14840,7 @@ Entwisle, Joseph (1767-1841)	ambiguous	     2
 Enty, John (1675-1743)	NA	     9
 Eon De Beaumont, Charles Geneviève Louis Auguste André Timothée D' (1728-1810)	ambiguous	    20
 Eon De Beaumont, Charles Geneviève Louis Auguste André Timothée D' (1728-1810)	ambiguous	     2
-Ephelia,  (1679-NA)	female	     5
+Ephelia,  (1679-NA)	female	     4
 Ephraem, 	male	     3
 Epictetus, 	NA	    77
 Epicurus, 	NA	     5
@@ -15021,7 +14983,7 @@ Etheridge, William	ambiguous	     1
 Etherington, C	NA	     1
 Etherington, Christopher (1757-1777)	ambiguous	     2
 Etherington, G (1722-1802)	NA	     1
-Etherington, John (1641-1645)	NA	     6
+Etherington, John (1641-1645)	NA	     4
 Etherington, Rich	NA	     1
 Etherington, Thomas (1758-1759)	NA	     1
 Eton, William	ambiguous	     2
@@ -15093,9 +15055,7 @@ Evans, Henry	ambiguous	     1
 Evans, Hugh (1712-1781)	NA	     2
 Evans, Hugo	NA	     1
 Evans, Israel (1747-1807)	NA	     6
-Evans, J	NA	     1
-Evans, J (1795-NA)	NA	     1
-Evans, J (1812-NA)	NA	     2
+Evans, J (1795-NA)	NA	     2
 Evans, James	NA	     1
 Evans, John	NA	     9
 Evans, John (1613-1659)	NA	    10
@@ -15108,7 +15068,6 @@ Evans, John (NA-1770)	NA	     1
 Evans, John (NA-1779)	NA	     1
 Evans, John (NA-1807)	NA	     1
 Evans, Katharine (NA-1692)	NA	     5
-Evans, Lewis (1574-1756)	ambiguous	     6
 Evans, Lewis (1700-1756)	ambiguous	     6
 Evans, Nathaniel (1742-1767)	NA	     7
 Evans, Oliver (1755-1819)	ambiguous	     3
@@ -15152,7 +15111,7 @@ Everard, John (NA-1650)	NA	     3
 Everard, Margaret	ambiguous	     1
 Everard, Mary	ambiguous	     2
 Everard, Redmond (NA-1740)	male	     3
-Everard, Robert (1664-NA)	ambiguous	     7
+Everard, Robert (1664-NA)	ambiguous	     2
 Everard, Thomas (1683-1684)	NA	    14
 Everard, W	NA	     1
 Everardt, Job	NA	     1
@@ -15353,7 +15312,7 @@ Falconet, Etienne (1716-1791)	ambiguous	     1
 Faldo, John (1633-1690)	NA	     8
 Faldo, Thomas	NA	     1
 Faldo, W	NA	     2
-Fale, Thomas (1604-NA)	NA	     6
+Fale, Thomas (1604-NA)	NA	     5
 Faleev, Mikhail	NA	     3
 Falgate, Israel	NA	     3
 Faliscus, Gratius	NA	     1
@@ -15388,7 +15347,7 @@ Fancan, François Dorval-langlois (1576-1628)	NA	     1
 Fanch, James	NA	     6
 Fancourt, Samuel (1678-1768)	NA	    22
 Fancourt, William Lowfield (1766-1840)	ambiguous	     2
-Fancy, P (1675-NA)	NA	     4
+Fancy, P (1675-NA)	NA	     1
 Fane, Francis (NA-1689)	ambiguous	     8
 Fannant, Thomas	NA	     4
 Fanning, Robert	ambiguous	     1
@@ -15695,7 +15654,6 @@ Fenouillot De Falbaire, Charles-georges (1727-1800)	NA	     3
 Fenton,  (1746-1821)	NA	     3
 Fenton, Edward (1621-NA)	NA	    14
 Fenton, Elijah (1683-1730)	NA	    29
-Fenton, Elijah (1795-1730)	NA	     1
 Fenton, Roger (1565-1616)	NA	     8
 Fenton, Thomas (1687-1688)	NA	     4
 Fenton, W	NA	     1
@@ -15735,7 +15693,7 @@ Ferguson, James (1710-1776)	NA	    69
 Ferguson, James (1735-1820)	NA	     3
 Ferguson, John	NA	     5
 Ferguson, Niel (1748-1803)	NA	     3
-Ferguson, Robert (1714-1714)	ambiguous	    64
+Ferguson, Robert (NA-1714)	ambiguous	    63
 Ferguson, T	NA	     1
 Ferguson, Walter	ambiguous	     4
 Ferguson, William (NA-1810)	ambiguous	     3
@@ -16261,7 +16219,7 @@ Fletcher, Nath	NA	     2
 Fletcher, Philip (1706-1765)	NA	     1
 Fletcher, Philippus	male	     1
 Fletcher, Phineas (1582-1650)	NA	    11
-Fletcher, R (1676-1677)	NA	    10
+Fletcher, R (1676-1677)	NA	     9
 Fletcher, Reuben (1720-NA)	NA	     1
 Fletcher, Richard	ambiguous	     1
 Fletcher, Robert (1738-1776)	ambiguous	     5
@@ -16441,7 +16399,7 @@ Forbes, John	NA	    10
 Forbes, John (1568-1634)	NA	     8
 Forbes, John (1593-1648)	NA	     9
 Forbes, John (1631-NA)	NA	     1
-Forbes, John (1685-NA)	NA	     4
+Forbes, John (1685-NA)	NA	     1
 Forbes, John (1688-1769)	NA	     4
 Forbes, John (1712-1781)	NA	     1
 Forbes, John (1714-1796)	NA	     5
@@ -16525,7 +16483,7 @@ Forester, Brooke	ambiguous	     5
 Forester, James (1559-1560)	NA	     1
 Forester, Thomas	NA	     1
 Forman, Catherine	ambiguous	     1
-Forman, Charles (1728-NA)	ambiguous	    20
+Forman, Charles (1728-NA)	ambiguous	    18
 Forman, Simon (1552-1611)	ambiguous	     1
 Forman, Thomas Marsh (1758-1845)	ambiguous	     1
 Formby, R	NA	     3
@@ -16632,7 +16590,7 @@ Foster, Benjamin (1750-1798)	ambiguous	     5
 Foster, Dan (1748-1810)	ambiguous	     4
 Foster, Daniel (1750-1795)	ambiguous	     5
 Foster, Dwight (1757-1823)	NA	     1
-Foster, E M (1795-1803)	NA	    10
+Foster, E M (1795-1803)	NA	     9
 Foster, Edmund (1752-1826)	NA	     3
 Foster, Edward (NA-1780)	NA	     5
 Foster, Francis	ambiguous	     2
@@ -16716,7 +16674,7 @@ Fourquevaux, Raimond De Beccarie De Pavie (1509-1574)		     1
 Foushee, John H	NA	     1
 Fovargue, Stephen (NA-1775)	NA	     1
 Fowke, Elizabeth	ambiguous	     1
-Fowke, Francis (1773-NA)	ambiguous	     3
+Fowke, Francis (1773-NA)	ambiguous	     1
 Fowke, John (NA-1662)	NA	     2
 Fowke, Joseph	ambiguous	     2
 Fowke, Martha	ambiguous	     6
@@ -16766,20 +16724,18 @@ Fox, Edward (1496-1538)	NA	     6
 Fox, Edward Long (1761-1835)	NA	     2
 Fox, Francis (1642-1686)	ambiguous	     1
 Fox, Francis (1675-1738)	ambiguous	    22
-Fox, George	ambiguous	     6
-Fox, George (1624-1661)	ambiguous	   377
-Fox, George (1661-NA)	ambiguous	     2
-Fox, George (NA-1661)	ambiguous	    40
+Fox, George (1624-1661)	ambiguous	   417
+Fox, George (1624-NA)	ambiguous	     6
 Fox, Godfrey	male	     1
 Fox, Henry (1769-NA)	ambiguous	     1
 Fox, Isaac (1654-1655)	NA	     1
 Fox, James	NA	     1
 Fox, John	NA	     3
-Fox, John (1676-NA)	NA	    32
+Fox, John (1676-NA)	NA	    26
 Fox, John (1678-1756)	NA	     1
-Fox, John (1704-1735)	NA	     3
+Fox, John (1704-1735)	NA	     2
 Fox, John (1728-1729)	NA	     1
-Fox, John (1796-NA)	NA	     2
+Fox, John (1796-NA)	NA	     1
 Fox, Joseph (NA-1789)	ambiguous	     9
 Fox, Margaret Askew Fell (1614-1702)	ambiguous	     1
 Fox, Reynard	male	     1
@@ -16932,7 +16888,7 @@ Fraser, James (1700-1769)	NA	     2
 Fraser, James (1713-1754)	NA	     7
 Fraser, James (1715-1763)	NA	     1
 Fraser, James (1740-NA)	NA	     2
-Fraser, Jane (1771-NA)	ambiguous	     2
+Fraser, Jane (1771-NA)	ambiguous	     1
 Fraser, John	NA	     8
 Fraser, John (1750-1811)	NA	     4
 Fraser, John (1757-NA)	NA	     1
@@ -17015,7 +16971,7 @@ Freeman, Isaac	NA	     1
 Freeman, James (1759-1835)	NA	     2
 Freeman, James (1784-1835)	NA	     1
 Freeman, John	NA	     3
-Freeman, John (1611-NA)	NA	     4
+Freeman, John (1611-NA)	NA	     1
 Freeman, John (1681-NA)	NA	     1
 Freeman, Jonathan (1765-1822)	NA	     1
 Freeman, Joshua	ambiguous	     1
@@ -17172,7 +17128,7 @@ Fry, John	NA	     4
 Fry, John (1609-1657)	NA	     2
 Fry, John (1699-1775)	NA	    19
 Fry, John (1794-1797)	NA	     2
-Fry, Richard (1800-NA)	ambiguous	     6
+Fry, Richard (1800-NA)	ambiguous	     3
 Fry, Samuel (NA-1769)	NA	     3
 Fry, Thomas (NA-1769)	NA	     1
 Fry, William	ambiguous	     2
@@ -17254,7 +17210,7 @@ Fulton, John	NA	     1
 Fulton, John Williamson	NA	     2
 Fulton, Robert (1765-1815)	ambiguous	     5
 Fulwar, Thomas (1593-1667)	NA	     1
-Fulwell, Ulpian (1586-NA)	NA	     7
+Fulwell, Ulpian (1586-NA)	NA	     1
 Fulwood, Christopher	ambiguous	     1
 Fulwood, William	ambiguous	     4
 Fumée, Martin (1540-1590)	ambiguous	     1
@@ -17306,7 +17262,7 @@ G H V d m, 	NA	     1
 G J J B D D O P S M B D J C, 	NA	     1
 G T D M, 	NA	     1
 G, 	NA	   212
-G,  (1592-1597)	NA	     3
+G,  (1592-1597)	NA	     2
 G,  (1594-1668)	NA	     1
 G,  (1595-1675)	NA	    13
 G,  (1600-NA)	NA	     1
@@ -17315,7 +17271,7 @@ G,  (1663-NA)	NA	     1
 G,  (1695-NA)	NA	     1
 G,  (1708-NA)	NA	     1
 G,  (1714-NA)	NA	     1
-G,  (1734-1741)	NA	     9
+G,  (1734-1741)	NA	     3
 G,  (NA-1696)	NA	     8
 G, G G	NA	     2
 Gabay, Jonas	NA	     1
@@ -17611,7 +17567,6 @@ Garret, T	NA	     2
 Garretson, J	NA	    23
 Garrett, Jeremiah Learnoult	NA	     1
 Garrett, Walter	ambiguous	    13
-Garrett, William (1674-1675)	ambiguous	     1
 Garrettson, Freeborn (1752-1827)	male	     3
 Garrick, David (1717-1779)	ambiguous	   286
 Garrigues, Samuel	NA	     1
@@ -17653,7 +17608,6 @@ Gataker, Charles (1614-1680)	ambiguous	     6
 Gataker, Thomas	NA	     1
 Gataker, Thomas (1574-1654)	NA	    61
 Gataker, Thomas (1730-NA)	NA	     1
-Gataker, Thomas (1769-NA)	NA	     1
 Gataker, Thomas (NA-1769)	NA	    12
 Gatchel, Samuel	NA	     2
 Gatchell, Edward	NA	     2
@@ -17694,7 +17648,7 @@ Gautier, J	NA	     2
 Gautier, Joseph (1714-1776)	ambiguous	     4
 Gautruche, Pierre (1602-1681)	NA	    17
 Gaven, George	ambiguous	     1
-Gavin, Antonio (1726-NA)	NA	    24
+Gavin, Antonio (1726-NA)	NA	     5
 Gavin, Hector (1738-1814)	ambiguous	     1
 Gawen, Nicholas	NA	     1
 Gawen, Thomas (1610-1684)	NA	     1
@@ -17806,7 +17760,6 @@ Gence, John	NA	     1
 Generation, Aged	NA	     1
 Generides, 	NA	     1
 Generosus, 	NA	     2
-Genet, Edme Jacques (1781-NA)	ambiguous	     1
 Genet, Edmond Charles (1763-1834)	ambiguous	     6
 Genevois, Jean Alexandre	ambiguous	     1
 Geninges, John (NA-1660)	NA	     1
@@ -17968,7 +17921,7 @@ Gibbes, Phoebe	NA	     8
 Gibbes, Reynold	male	     1
 Gibbings, Thomas	NA	     1
 Gibbins, Richard	ambiguous	     1
-Gibbon, Charles (1589-1604)	ambiguous	     8
+Gibbon, Charles (1589-1604)	ambiguous	     7
 Gibbon, Edward (1666-1737)	NA	     1
 Gibbon, Edward (1737-1794)	NA	    45
 Gibbon, John (1629-1718)	NA	    12
@@ -18410,7 +18363,7 @@ Godbolt, John (1581-1648)	NA	     1
 Goddaeus, Conradus (NA-1658)	male	     1
 Goddard, Edward (1675-1754)	NA	     1
 Goddard, Ezekiel	ambiguous	     2
-Goddard, John (1645-1671)	NA	     6
+Goddard, John	NA	     5
 Goddard, Jonathan (1617-1675)	NA	     2
 Goddard, Mary (1717-1752)	ambiguous	     1
 Goddard, Peter Stephen (1705-1781)	NA	     4
@@ -18470,7 +18423,7 @@ Godwin, Francis (1562-1633)	ambiguous	    21
 Godwin, Henry	ambiguous	     1
 Godwin, Joseph	ambiguous	     1
 Godwin, William (1756-1836)	ambiguous	    40
-Godwyn, Morgan (1685-NA)	ambiguous	     4
+Godwyn, Morgan (1685-NA)	ambiguous	     1
 Godwyn, Thomas	NA	     3
 Goedaert, Johannes (1617-1668)	male	     2
 Goeree, Willem (1635-1711)	NA	     2
@@ -18522,7 +18475,7 @@ Goldney, Eli	ambiguous	     2
 Goldney, Thomas	NA	     1
 Goldoni, Carlo (1707-1793)	NA	    57
 Goldsborough, Charles W (1779-1843)	ambiguous	     1
-Goldsmith, John (1656-1656)	NA	    80
+Goldsmith, John (1656-1656)	NA	    79
 Goldsmith, Oliver (1728-1774)	ambiguous	   523
 Goldsmith, Oliver (1730-1774)	ambiguous	     6
 Goldson, William	ambiguous	     2
@@ -18764,11 +18717,11 @@ Gordon, Kenneth (1703-NA)	ambiguous	     5
 Gordon, Lewis	ambiguous	     1
 Gordon, Lockhart (NA-1788)	male	     1
 Gordon, Lodovick	NA	     1
-Gordon, Margaret (1763-NA)	ambiguous	     2
+Gordon, Margaret	ambiguous	     1
 Gordon, Mary (1716-1795)	ambiguous	     2
 Gordon, Patrick	NA	     1
-Gordon, Patrick (1615-1650)	NA	     5
-Gordon, Patrick (1700-NA)	NA	    25
+Gordon, Patrick (1615-1650)	NA	     4
+Gordon, Patrick (1700-NA)	NA	    22
 Gordon, Patrick (NA-1744)	NA	     1
 Gordon, Peter (1745-1835)	NA	     1
 Gordon, Robert	ambiguous	     4
@@ -18784,7 +18737,7 @@ Gordon, Robert Home	ambiguous	     5
 Gordon, Thomas	NA	     2
 Gordon, Thomas (1685-1769)	NA	     4
 Gordon, Thomas (1721-1784)	NA	     1
-Gordon, Thomas (1786-NA)	NA	     2
+Gordon, Thomas (1786-NA)	NA	     1
 Gordon, Thomas (NA-1750)	NA	   153
 Gordon, W (NA-1794)	NA	     9
 Gordon, Walter	ambiguous	     3
@@ -19209,7 +19162,6 @@ Gray, Jeffery	NA	     4
 Gray, John	NA	    10
 Gray, John (1716-1782)	NA	     5
 Gray, John (1724-1811)	NA	    16
-Gray, John (1732-1741)	NA	     1
 Gray, John (1757-1768)	NA	     2
 Gray, John (NA-1769)	NA	     1
 Gray, Joseph	ambiguous	     1
@@ -19260,7 +19212,7 @@ Green, Anne Catharine (NA-1775)	ambiguous	     1
 Green, Ashbel (1762-1848)	male	     5
 Green, Bartholomew (1667-1732)	male	     2
 Green, Charles (1714-1734)	ambiguous	     2
-Green, Christopher (1691-NA)	ambiguous	     2
+Green, Christopher (1691-NA)	ambiguous	     1
 Green, Dick	NA	     1
 Green, Edward	NA	     5
 Green, Enoch (1734-1776)	NA	     1
@@ -19435,7 +19387,7 @@ Gregory, Robert (1729-1810)	ambiguous	     3
 Gregory, Saint	ambiguous	     1
 Gregory, Susanna	female	     1
 Gregory, Thomas (1668-1706)	NA	     6
-Gregory, William (1800-NA)	ambiguous	     2
+Gregory, William (1800-NA)	ambiguous	     1
 Gregson, Gregory (1790-NA)	ambiguous	     1
 Gregson, Moses	ambiguous	     2
 Greig, Agnes (1768-NA)	NA	     2
@@ -19597,7 +19549,7 @@ Grifoni, Giovanni Andrea	ambiguous	     2
 Grigg, Henry	ambiguous	     2
 Grigg, J (NA-1768)	NA	     4
 Grigg, John (1789-1814)	NA	     1
-Grigg, William (1765-1790)	ambiguous	     4
+Grigg, William (1765-1790)	ambiguous	     3
 Grigge, William	ambiguous	     1
 Griggs, 	male	     1
 Grigman, Stephen (1694-NA)	NA	     1
@@ -19757,7 +19709,7 @@ Guidi, Louis (1710-1780)	ambiguous	     1
 Guido, 	male	     7
 Guido, De Monte Rocherii		     1
 Guidot, 	NA	     1
-Guidott, Thomas (1698-NA)	NA	    18
+Guidott, Thomas (1698-NA)	NA	     5
 Guidott, William	ambiguous	     1
 Guiffardière, Charles De (NA-1810)		     1
 Guigoud-pigalle, Pierre (1748-1816)	NA	     1
@@ -19850,7 +19802,7 @@ Gutheridge, James	NA	     1
 Gutheridge, William (NA-1706)	ambiguous	     3
 Guthrie, Henry (1600-1676)	ambiguous	     1
 Guthrie, James (1612-1661)	NA	    15
-Guthrie, James (1727-1746)	NA	    52
+Guthrie, James (1727-1746)	NA	    46
 Guthrie, James (NA-1737)	NA	     1
 Guthrie, John (1632-1669)	NA	     6
 Guthrie, Patrick	NA	     3
@@ -19928,7 +19880,7 @@ H,  (1588-NA)	NA	     1
 H,  (1593-NA)	NA	     1
 H,  (1603-NA)	NA	     2
 H,  (1604-1672)	NA	     9
-H,  (1616-NA)	NA	     4
+H,  (1616-NA)	NA	     2
 H,  (1618-NA)	NA	     2
 H,  (1625-NA)	NA	     1
 H,  (1637-NA)	NA	     1
@@ -20001,7 +19953,7 @@ Haggerston, George (NA-1792)	ambiguous	     1
 Haggerston, John	NA	     1
 Haggitt, Francis (1759-1825)	ambiguous	     1
 Haggitt, George (1757-1795)	ambiguous	     6
-Haggitt, John (1794-NA)	NA	     3
+Haggitt, John (1794-NA)	NA	     2
 Ḥagiz, Moses (1671-1750)	ambiguous	     1
 Hagthorpe, John	NA	     3
 Hague, A	NA	     4
@@ -20145,7 +20097,7 @@ Hall, John (1575-1635)	NA	     4
 Hall, John (1627-1656)	NA	    16
 Hall, John (1695-NA)	NA	     1
 Hall, John (1707-NA)	NA	     3
-Hall, John (1726-NA)	NA	     2
+Hall, John (1726-NA)	NA	     1
 Hall, John (1733-1793)	NA	     3
 Hall, John (1760-NA)	NA	     1
 Hall, John (1765-NA)	NA	     1
@@ -20183,7 +20135,7 @@ Hall, Thomas	NA	    12
 Hall, Thomas (1610-1665)	NA	    22
 Hall, Thomas (1687-1762)	NA	     7
 Hall, Thomas (1723-1735)	NA	     5
-Hall, Thomas (1789-NA)	NA	     2
+Hall, Thomas (1789-NA)	NA	     1
 Hall, Thomas (1792-NA)	NA	     1
 Hall, Timothy (1637-1690)	NA	     2
 Hall, Westley (1711-1776)	ambiguous	     4
@@ -20354,7 +20306,7 @@ Hamilton, Margaret (1709-1736)	ambiguous	     1
 Hamilton, Margaret (1735-NA)	ambiguous	     1
 Hamilton, Margaret (1744-1757)	ambiguous	     4
 Hamilton, Mariamne (1795-NA)	female	     1
-Hamilton, Newburgh (1712-1759)	NA	    44
+Hamilton, Newburgh (1712-1759)	NA	    43
 Hamilton, Nicholas	NA	     1
 Hamilton, Patrick (1504-1528)	NA	     5
 Hamilton, Patrick (1504-1716)	NA	     1
@@ -20422,7 +20374,7 @@ Hamond, George (1620-1705)	ambiguous	     3
 Hamond, J	NA	     2
 Hamond, John	NA	     1
 Hamond, Thomas (1605-NA)	NA	     2
-Hamond, Walter (1643-NA)	ambiguous	     2
+Hamond, Walter (1643-NA)	ambiguous	     1
 Hamond, William (1663-1741)	ambiguous	     1
 Hamor, Ralph (NA-1626)	ambiguous	     1
 Hampden, 	male	    15
@@ -20637,7 +20589,7 @@ Haren, Onno Zwier Van (1713-1779)	ambiguous	     6
 Haren, Willem Van	ambiguous	     1
 Hareward, John	NA	     1
 Harewood, Edwin Lascelles (1713-1795)	male	     1
-Harflete, Henry (1653-NA)	ambiguous	    10
+Harflete, Henry (1653-NA)	ambiguous	     6
 Harford, 	NA	     1
 Harford, Emanuel (1640-1706)	NA	     1
 Harford, Ralph	ambiguous	     2
@@ -20731,7 +20683,7 @@ Harrington, James (1607-1680)	NA	     4
 Harrington, James (1611-1677)	NA	    28
 Harrington, James (1664-1693)	NA	     8
 Harrington, John (1713-1757)	NA	     2
-Harrington, Joseph (1714-NA)	ambiguous	     4
+Harrington, Joseph (1714-NA)	ambiguous	     3
 Harrington, Richard	ambiguous	     1
 Harrington, Robert (1751-1837)	ambiguous	     8
 Harrington, S	NA	     5
@@ -20742,7 +20694,7 @@ Harrington, William (NA-1523)	ambiguous	     4
 Harrington, William Stanhope (1690-1756)	ambiguous	     1
 Harriot, Thomas (1560-1621)	NA	     3
 Harriott, John (1745-1817)	NA	     3
-Harris,  (1775-NA)	ambiguous	    17
+Harris,  (1775-NA)	ambiguous	    12
 Harris, Ann	NA	     1
 Harris, Anthony	NA	     1
 Harris, B	NA	     1
@@ -20800,7 +20752,7 @@ Harris, Thomas	NA	     5
 Harris, Thomas (1593-1614)	NA	     1
 Harris, Thomas (1712-1755)	NA	     5
 Harris, Thomas (NA-1820)	NA	     5
-Harris, Timothy (1715-1722)	NA	    12
+Harris, Timothy (1715-1722)	NA	    11
 Harris, Tucker (1747-1821)	NA	     1
 Harris, W	NA	     1
 Harris, Walter	ambiguous	     4
@@ -20867,7 +20819,7 @@ Harrison, Thomas (1619-1682)	NA	    14
 Harrison, Thomas (1667-1702)	NA	     1
 Harrison, Thomas (1693-1745)	NA	    14
 Harrison, Thomas (1699-1765)	NA	     2
-Harrison, Thomas (1700-NA)	NA	     3
+Harrison, Thomas (1700-NA)	NA	     1
 Harrison, Walter	ambiguous	     3
 Harrison, William	ambiguous	     3
 Harrison, William (1701-NA)	ambiguous	     1
@@ -20897,7 +20849,7 @@ Hart, Cheney (1726-1784)	ambiguous	     2
 Hart, Christian	ambiguous	     1
 Hart, Edward (1672-1798)	NA	     4
 Hart, Edward (1782-1798)	NA	     1
-Hart, Henry (1549-NA)	ambiguous	     5
+Hart, Henry (1549-NA)	ambiguous	     4
 Hart, J (1712-1768)	NA	    22
 Hart, James (1663-1729)	NA	     7
 Hart, John	NA	   116
@@ -20982,7 +20934,7 @@ Harvey, Samuel	NA	     1
 Harvey, William	ambiguous	     2
 Harvey, William (1578-1657)	ambiguous	    13
 Harvey, William (1647-NA)	ambiguous	     1
-Harvey, William (1657-1705)	ambiguous	     3
+Harvey, William (1657-1705)	ambiguous	     2
 Harvey, William (1750-1819)	ambiguous	     1
 Harvie, Elizabeth	ambiguous	     1
 Harvie, John (1710-1770)	NA	     1
@@ -21128,7 +21080,7 @@ Hawes, John (1754-NA)	NA	     2
 Hawes, Nathanael	NA	     1
 Hawes, Richard (1767-NA)	ambiguous	     2
 Hawes, Robert (1665-1731)	ambiguous	     2
-Hawes, Robert (1774-1793)	ambiguous	    10
+Hawes, Robert (1774-1793)	ambiguous	     9
 Hawes, Stephen (NA-1523)	NA	    14
 Hawes, Thomas	NA	     1
 Hawes, William (1698-1710)	ambiguous	     7
@@ -21168,7 +21120,7 @@ Hawkins, Moses	ambiguous	     2
 Hawkins, Richard (1562-1622)	ambiguous	     1
 Hawkins, Robert	ambiguous	     3
 Hawkins, T (NA-1838)	NA	     2
-Hawkins, Thomas (1695-NA)	NA	     3
+Hawkins, Thomas	NA	     2
 Hawkins, W	NA	     7
 Hawkins, William	ambiguous	     2
 Hawkins, William (1673-1746)	ambiguous	    10
@@ -21191,7 +21143,7 @@ Hawling, Francis (1723-1751)	ambiguous	     4
 Hawney, William (1710-1750)	ambiguous	    26
 Haworth, Adrian Hardy (1768-1833)	ambiguous	     1
 Haworth, Rich	NA	     1
-Haworth, Samuel (1683-NA)	NA	     3
+Haworth, Samuel (1683-NA)	NA	     2
 Haworth, William	ambiguous	     6
 ḣawqal, Ibn (943-977)	male	     1
 Hawtayne, William (1680-1748)	ambiguous	     6
@@ -21264,13 +21216,12 @@ Hayes, John (1757-1822)	NA	     1
 Hayes, Phil (1738-1797)	ambiguous	     3
 Hayes, Richard	ambiguous	    48
 Hayes, Samuel (1749-1795)	NA	    15
-Hayes, Samuel (1779-1795)	NA	    21
+Hayes, Samuel (1779-1795)	NA	    20
 Hayes, Samuel (NA-1795)	NA	     2
 Hayes, Thomas (1715-1767)	NA	     1
 Hayes, Thomas (1783-1786)	NA	     6
 Hayes, W (1706-1777)	NA	     5
-Hayes, W (1775-1800)	NA	     5
-Hayes, Walter (1678-NA)	ambiguous	     1
+Hayes, W (1775-1800)	NA	     4
 Hayes, William (1595-1596)	ambiguous	     1
 Haygarth, John (1740-1827)	NA	     7
 Hayler, James	NA	     2
@@ -21320,7 +21271,7 @@ Hayward, Samuel (1718-1757)	NA	     6
 Hayward, William (NA-1763)	ambiguous	     1
 Haywood, Eliza Fowler (1693-1755)	NA	     2
 Haywood, Eliza Fowler (1693-1756)	NA	   179
-Haywood, James (1793-1800)	NA	     2
+Haywood, James (1793-1800)	NA	     1
 Haywood, John (1762-1826)	NA	     2
 Haywood, Luke (1775-NA)	NA	     1
 Haywood, Valentine	ambiguous	     1
@@ -21463,7 +21414,7 @@ Hehl, Matthaeus Gottfried (1705-1787)	male	     3
 Heiberg, Peter Andreas (1758-1841)	ambiguous	     3
 Heidegger, John James (1659-1748)	NA	     2
 Heigham, Clement (NA-1714)	ambiguous	     1
-Heigham, John (1639-NA)	NA	    22
+Heigham, John (1639-NA)	NA	    12
 Heighway, Richard (1763-1847)	ambiguous	     1
 Heimbach, Petrus Ab	male	     1
 Heineccius, Johann Gottlieb (1681-1741)	ambiguous	     4
@@ -21514,7 +21465,7 @@ Helwys, Thomas (1550-1616)	NA	     5
 Hely-hutchinson, John (1724-1794)	NA	     7
 Hemenway, Samuel (1777-1823)	NA	     2
 Hemet, John	NA	     1
-Heming, Edmund (1695-NA)	NA	     7
+Heming, Edmund (1695-NA)	NA	     2
 Heming, Joseph	ambiguous	     2
 Heming, William	ambiguous	     1
 Hemings, William (1602-NA)	ambiguous	     6
@@ -21747,7 +21698,7 @@ Hermit, Lunar	ambiguous	     1
 Hernández, Jaime	ambiguous	     1
 Herne, John	NA	     1
 Herne, John (1644-NA)	NA	     1
-Herne, John (1660-NA)	NA	     7
+Herne, John (1660-NA)	NA	     2
 Herne, John (1678-NA)	NA	     1
 Herne, Paston	ambiguous	     2
 Herne, Samuel	NA	     2
@@ -21770,7 +21721,7 @@ Heron, Mary	ambiguous	     4
 Heron, Patrick (1672-1761)	NA	     3
 Heron, Patrick (1735-1803)	NA	     6
 Heron, Richard (1726-1805)	ambiguous	     1
-Heron, Robert (1764-1807)	ambiguous	    22
+Heron, Robert (1764-1807)	ambiguous	    21
 Heron, William	ambiguous	     4
 Herport, 	NA	     1
 Herr, Franz	NA	     2
@@ -21861,7 +21812,7 @@ Hewitt, 	NA	     8
 Hewitt, Henry (NA-1791)	ambiguous	     1
 Hewitt, James (1770-1827)	NA	     1
 Hewitt, John (1719-1802)	NA	    30
-Hewlett, Ebenezer (1738-1747)	ambiguous	    23
+Hewlett, Ebenezer (1738-1747)	ambiguous	    21
 Hewlett, James (1644-1645)	NA	     2
 Hewlett, John (1762-1844)	NA	    11
 Hewlett, William (1625-1630)	ambiguous	     5
@@ -21887,7 +21838,6 @@ Heydon, C	NA	     3
 Heydon, Christopher (NA-1623)	ambiguous	     2
 Heydon, J	NA	     3
 Heydon, John (1629-NA)	NA	    15
-Heydon, John (1667-NA)	NA	     1
 Heydon, Sir Christopher (NA-1623)	ambiguous	     1
 Heylin, John	NA	     1
 Heylyn, John (1684-1759)	NA	    11
@@ -22054,7 +22004,7 @@ Hill, Henrietta	NA	     3
 Hill, Henry (1643-1608)	ambiguous	     2
 Hill, Henry (1643-1707)	ambiguous	     1
 Hill, Henry (1643-NA)	ambiguous	     1
-Hill, Hugh (1684-1686)	NA	     2
+Hill, Hugh (1684-1686)	NA	     1
 Hill, J S (1715-1757)	NA	     1
 Hill, James	NA	     3
 Hill, James (1676-1743)	NA	     4
@@ -22065,7 +22015,7 @@ Hill, Jeremiah	NA	     1
 Hill, John	NA	    39
 Hill, John (1710-NA)	NA	     1
 Hill, John (1711-1746)	NA	     7
-Hill, John (1712-NA)	NA	    16
+Hill, John (1712-NA)	NA	    11
 Hill, John (1714-1775)	NA	   179
 Hill, John (1740-1824)	NA	     1
 Hill, John (NA-1709)	NA	     2
@@ -22100,7 +22050,6 @@ Hill, T F	NA	     1
 Hill, The (1682-1746)		     1
 Hill, Tho (1734-NA)	male	     1
 Hill, Thomas (1528-1653)	NA	    34
-Hill, Thomas (1680-1653)	NA	     4
 Hill, Thomas (1790-1653)	NA	     1
 Hill, Thomas (NA-1653)	NA	     8
 Hill, W	NA	     1
@@ -22160,7 +22109,7 @@ Hinde, Mary	ambiguous	     2
 Hinde, Nathaniel	NA	     1
 Hinde, Robert (1785-NA)	ambiguous	     2
 Hinde, Samuel (1634-NA)	NA	     7
-Hinde, Thomas (1673-NA)	NA	     3
+Hinde, Thomas (1673-NA)	NA	     2
 Hinde, William (1569-1629)	ambiguous	     7
 Hindersam, Arthur (1563-1632)	NA	     1
 Hinderwell, Thomas (1744-1825)	NA	     3
@@ -22270,7 +22219,7 @@ Hockin, George (1569-1570)	ambiguous	     1
 Hockin, John (1708-1778)	NA	     1
 Hockin, Thomas	NA	     1
 Hodden, Richard	ambiguous	     1
-Hodder, James (1661-NA)	NA	    32
+Hodder, James (1661-NA)	NA	    31
 Hoddesdon, Henry (1583-1618)	ambiguous	     4
 Hoddesdon, John (1650-NA)	NA	     5
 Hodge, 	NA	     1
@@ -22284,7 +22233,7 @@ Hodges,  (NA-1797)	male	     2
 Hodges, Anthony	NA	     2
 Hodges, James (NA-1774)	NA	    23
 Hodges, John	NA	     1
-Hodges, John (1672-1674)	NA	     5
+Hodges, John (1672-1674)	NA	     4
 Hodges, John (1736-1737)	NA	     1
 Hodges, Moses (1663-1724)	ambiguous	     1
 Hodges, Nathaniel (1629-1688)	NA	    10
@@ -22569,7 +22518,7 @@ Holmes, Walter	ambiguous	     1
 Holmes, William (1689-1748)	ambiguous	    13
 Holmes, William (1732-1739)	ambiguous	     3
 Holmes, William (1746-NA)	ambiguous	     2
-Holmes, William (1795-1800)	ambiguous	     4
+Holmes, William (1795-1800)	ambiguous	     3
 Holmesby, John	NA	     2
 Holney, John (NA-1706)	NA	     2
 Holoway, Richard	ambiguous	     1
@@ -22700,7 +22649,7 @@ Hooke, Robert (1635-1703)	ambiguous	    16
 Hooke, Thomas	NA	     1
 Hooke, William (1600-1678)	ambiguous	     7
 Hooker, John (1526-1601)	NA	     8
-Hooker, John (1695-NA)	NA	     2
+Hooker, John (1695-NA)	NA	     1
 Hooker, John (1729-1777)	NA	     2
 Hooker, Nathaniel (1737-1770)	NA	     3
 Hooker, Richard (1553-1600)	ambiguous	    45
@@ -22771,7 +22720,7 @@ Hopkins, Ezekiel (1634-1690)	ambiguous	    29
 Hopkins, Francis (1752-NA)	ambiguous	     1
 Hopkins, George (1620-1666)	ambiguous	     1
 Hopkins, John (1604-1609)	NA	     3
-Hopkins, John (1700-NA)	NA	     5
+Hopkins, John (1700-NA)	NA	     2
 Hopkins, John (1715-1785)	NA	     1
 Hopkins, Joseph (1733-1768)	ambiguous	     2
 Hopkins, Lemuel (1750-1801)	NA	    12
@@ -22889,7 +22838,6 @@ Horsley, Samuel (1733-1806)	NA	    38
 Horsley, Thomas (1702-1754)	NA	     3
 Horsley, William (1701-1776)	ambiguous	     3
 Horsman, John (1698-NA)	NA	     1
-Horsman, Nicholas (1689-NA)	NA	     2
 Horsman, Robert (1615-NA)	ambiguous	     2
 Horsmanden, Daniel (1694-1778)	ambiguous	     4
 Horsmanden, Samuel (1698-1699)	NA	     2
@@ -22933,7 +22881,6 @@ Hotchkiss, James	NA	     1
 Hotham, Charles (1615-1672)	ambiguous	     8
 Hotham, Charles (1729-1794)	ambiguous	     1
 Hotham, Durant (1617-1691)	male	     2
-Hotham, John (1645-NA)	NA	     6
 Hotham, Richard (1722-1799)	ambiguous	     6
 Hotman, François (1524-1590)	NA	    12
 Hotman, Jean (1552-1636)	ambiguous	     2
@@ -22942,7 +22889,7 @@ Houdet, René	NA	     1
 Houdin, Michael Gabriel (NA-1802)	ambiguous	     2
 Houdlston, Thomas	NA	     1
 Hough, Edward	NA	     1
-Hough, J (1778-NA)	NA	     2
+Hough, J (1778-NA)	NA	     1
 Hough, John (1651-1743)	NA	    13
 Hough, Margaret (1657-NA)	ambiguous	     1
 Hough, Nathaniel (NA-1737)	NA	     8
@@ -23240,7 +23187,7 @@ Hughes, John (NA-1729)	NA	     3
 Hughes, John (NA-1773)	NA	     1
 Hughes, Jonathan (1721-1805)	NA	     2
 Hughes, Joseph	ambiguous	     1
-Hughes, Lewes (1620-NA)	male	    14
+Hughes, Lewes (1620-NA)	male	    12
 Hughes, Lewis (1747-1824)	ambiguous	     2
 Hughes, Michael	NA	     3
 Hughes, Obadiah (1695-1751)	male	    26
@@ -23274,7 +23221,7 @@ Hull, Samuel	NA	     2
 Hull, Thomas (1728-1808)	NA	    39
 Hull, William (1753-1618)	ambiguous	     4
 Hull, William (1753-1825)	ambiguous	     2
-Hullin, Mr (1705-NA)	NA	     3
+Hullin, Mr (1705-NA)	NA	     1
 Hullock, John (1767-1829)	NA	     3
 Hulls, Jonathan (1699-NA)	NA	     1
 Hulme, James	NA	     1
@@ -23371,13 +23318,13 @@ Hunt, J	NA	     1
 Hunt, James	NA	    12
 Hunt, Jeremiah (1678-1744)	NA	    25
 Hunt, John	NA	     4
-Hunt, John (1704-NA)	NA	     2
+Hunt, John (1704-NA)	NA	     1
 Hunt, John (1744-1775)	NA	     2
 Hunt, John (1785-1800)	NA	     1
 Hunt, Joseph	ambiguous	     1
 Hunt, Nicolas (1596-1648)	NA	     7
 Hunt, Raphael	ambiguous	     1
-Hunt, Richard (1594-1662)	ambiguous	     2
+Hunt, Richard (1594-1662)	ambiguous	     1
 Hunt, Robert	ambiguous	     1
 Hunt, Rowland	male	     8
 Hunt, Samuel (1703-NA)	NA	     2
@@ -23542,7 +23489,7 @@ Hutchie, Janet (NA-1721)	ambiguous	     1
 Hutchin, John (1654-1689)	NA	     2
 Hutchings, John	NA	     1
 Hutchings, Richard (NA-1804)	ambiguous	     1
-Hutchins,  (1779-1789)	male	    54
+Hutchins,  (1779-1789)	male	    47
 Hutchins, Anthony	NA	     1
 Hutchins, Edward (1558-1629)	NA	    11
 Hutchins, Gabriel (1758-1831)	ambiguous	     1
@@ -23673,7 +23620,6 @@ I,  (1605-NA)	NA	     1
 I,  (1607-NA)	NA	     2
 I,  (1611-NA)	NA	     1
 I,  (1615-NA)	NA	     3
-I,  (1616-NA)	NA	     1
 I,  (1617-NA)	NA	     1
 I,  (1621-NA)	NA	     1
 I,  (1625-NA)	NA	     2
@@ -23737,7 +23683,7 @@ Impartialis,  (1768-NA)	NA	     1
 Imperiale, Michele (1673-1738)	ambiguous	     1
 Impey, Elijah (1732-1809)	NA	     3
 Impey, John (NA-1829)	NA	    20
-Imrie, David (1754-NA)	ambiguous	     7
+Imrie, David (1754-NA)	ambiguous	     6
 Imrie, Ninian	NA	     1
 Ince, Peter (1614-1615)	NA	     1
 Ince, William (NA-1635)	ambiguous	     1
@@ -24003,17 +23949,15 @@ J,  (1634-NA)	NA	     1
 J,  (1635-1640)	NA	     1
 J,  (1636-1700)	NA	    13
 J,  (1636-1702)	NA	     4
-J,  (1640-NA)	NA	    21
+J,  (1640-NA)	NA	    20
 J,  (1641-1717)	NA	     2
 J,  (1642-1643)	NA	     3
 J,  (1644-1725)	NA	     1
 J,  (1646-NA)	NA	     1
 J,  (1647-1696)	NA	     2
-J,  (1648-1654)	NA	    10
+J,  (1648-1654)	NA	     7
 J,  (1664-1688)	NA	     3
-J,  (1665-NA)	NA	     1
-J,  (1680-1702)	NA	    44
-J,  (1688-NA)	NA	     1
+J,  (1680-1702)	NA	    40
 J,  (1689-1703)	NA	     1
 J,  (1693-NA)	NA	     1
 J,  (1708-1775)	NA	     2
@@ -24084,7 +24028,7 @@ Jackson, John (NA-1807)	NA	     1
 Jackson, John Baptist (1701-1780)	NA	     2
 Jackson, Jonathan (1743-1810)	NA	     1
 Jackson, Joseph (1695-1792)	ambiguous	     1
-Jackson, Joseph (1702-1792)	ambiguous	     2
+Jackson, Joseph (1702-1792)	ambiguous	     1
 Jackson, Joseph (1733-1792)	ambiguous	     2
 Jackson, Joseph (1736-1792)	ambiguous	     1
 Jackson, Joseph (1797-1792)	ambiguous	     1
@@ -24297,7 +24241,6 @@ Jaubert, P (1715-1780)	NA	     2
 Jaudon, Daniel (1767-1826)	ambiguous	     4
 Jauncey, James (NA-1790)	NA	     1
 Jaunice, Claude	ambiguous	     1
-Jáuregui Y Aguilar, Juan De (1583-1641)		     2
 Jay, Frederick	NA	     2
 Jay, George (1597-1598)	ambiguous	     2
 Jay, James (1732-1815)	NA	     5
@@ -24346,7 +24289,6 @@ Jeffery, John (1647-1720)	NA	    19
 Jeffery, Robert	ambiguous	     1
 Jeffery, Thomas (1700-1728)	NA	     4
 Jeffery, William (1616-1693)	ambiguous	     4
-Jeffery, William (1791-1693)	ambiguous	     1
 Jefferys, Jeffery (1651-1709)	NA	     1
 Jefferys, John	NA	     1
 Jefferys, Thomas (NA-1771)	NA	    30
@@ -24413,7 +24355,6 @@ Jenkins, Richard	ambiguous	     3
 Jenkins, Walter (1625-1661)	ambiguous	     1
 Jenkinson, Charles (1727-1808)	ambiguous	    15
 Jenkinson, Daniel	ambiguous	     1
-Jenkinson, James (1775-NA)	NA	     1
 Jenkinson, Richard (1685-1686)	ambiguous	     1
 Jenkinson, William	ambiguous	     1
 Jenkison, John (1674-1730)	NA	     1
@@ -24435,7 +24376,7 @@ Jenner, Edward (1749-1823)	NA	     7
 Jenner, Henry	ambiguous	     1
 Jenner, Thomas (1606-1676)	NA	     1
 Jenner, Thomas (1623-1668)	NA	     1
-Jenner, Thomas (1631-1656)	NA	    10
+Jenner, Thomas (1631-1656)	NA	     9
 Jenner, Thomas (1687-1768)	NA	     1
 Jenney, George (1626-NA)	ambiguous	     1
 Jenney, Henry (1607-1608)	ambiguous	     1
@@ -24687,10 +24628,10 @@ Johnson, Thomas (1675-1750)	NA	     1
 Johnson, Thomas (1677-1735)	NA	     1
 Johnson, Thomas (1696-NA)	NA	     1
 Johnson, Thomas (1702-1737)	NA	     6
-Johnson, Thomas (1718-NA)	NA	     2
+Johnson, Thomas (1718-NA)	NA	     1
 Johnson, Thomas (1766-1831)	NA	     1
 Johnson, Thomas (1773-1798)	NA	     1
-Johnson, Thomas (1788-NA)	NA	     3
+Johnson, Thomas (1788-NA)	NA	     2
 Johnson, Thomas (NA-1644)	NA	     8
 Johnson, Thomas (NA-1722)	NA	     1
 Johnson, Thos (1714-1778)	male	     1
@@ -24741,11 +24682,10 @@ Johnston, Nathaniel (1627-1705)	NA	    10
 Johnston, Patrick (NA-1736)	NA	     4
 Johnston, Peter (1749-1837)	NA	     3
 Johnston, Ralph Fl	ambiguous	     1
-Johnston, Robert	ambiguous	     5
 Johnston, Robert (1567-1639)	ambiguous	     2
-Johnston, Robert (1729-NA)	ambiguous	     2
-Johnston, Robert (NA-1728)	ambiguous	     1
-Johnston, Robert (NA-1808)	ambiguous	     1
+Johnston, Robert (1567-1728)	ambiguous	     1
+Johnston, Robert (1567-1808)	ambiguous	     1
+Johnston, Robert (1567-NA)	ambiguous	     5
 Johnston, Roger	NA	     1
 Johnston, Sam	ambiguous	     2
 Johnston, Sibilla	female	     1
@@ -24794,14 +24734,12 @@ Jonas,  (1767-1788)	NA	     1
 Jonas, Justus (1493-1555)	ambiguous	     1
 Jonas, Runjlf	NA	     1
 Jonathan, Dean	ambiguous	     1
-Jones, 	NA	     9
-Jones,  (1716-NA)	NA	     1
-Jones,  (1725-NA)	NA	     1
+Jones,  (1716-NA)	NA	    10
 Jones, A (1773-NA)	NA	     1
 Jones, Abraham	ambiguous	     1
 Jones, Absalom (1746-1818)	male	     2
 Jones, Adam	ambiguous	     1
-Jones, Andrew (1682-1687)	NA	    56
+Jones, Andrew (1682-1687)	NA	    24
 Jones, Anna Maria	ambiguous	     1
 Jones, Anthony (1622-NA)	NA	     1
 Jones, Archibald	NA	     1
@@ -24811,7 +24749,7 @@ Jones, Benjamin (1756-1823)	ambiguous	     1
 Jones, Calvin (1775-1846)	ambiguous	     1
 Jones, Catherine (1729-NA)	ambiguous	     1
 Jones, Ch	ambiguous	     1
-Jones, Charles (1800-1724)	ambiguous	     8
+Jones, Charles (NA-1724)	ambiguous	     7
 Jones, Christopher	ambiguous	     2
 Jones, D (1676-1720)	NA	    45
 Jones, Da (NA-1736)	ambiguous	     1
@@ -24835,7 +24773,7 @@ Jones, Edward Thomas	NA	     5
 Jones, Elizabeth	ambiguous	     1
 Jones, Erasmus (NA-1740)	male	    16
 Jones, Evan (1709-1780)	ambiguous	     1
-Jones, Evan (1773-1780)	ambiguous	     2
+Jones, Evan (1773-1780)	ambiguous	     1
 Jones, Evan (NA-1780)	ambiguous	     1
 Jones, F	NA	     1
 Jones, Frederic Coningesby	NA	     3
@@ -24906,7 +24844,7 @@ Jones, Meriwether (1766-1806)	ambiguous	     1
 Jones, Michael (NA-1649)	NA	     3
 Jones, Morgan (1768-1835)	ambiguous	     2
 Jones, Nathaniel	NA	     1
-Jones, Philip (1589-NA)	NA	     6
+Jones, Philip	NA	     5
 Jones, Rees	ambiguous	     1
 Jones, Richard	ambiguous	     8
 Jones, Richard (1564-1602)	ambiguous	     1
@@ -24914,7 +24852,7 @@ Jones, Richard (1603-1673)	ambiguous	     3
 Jones, Richard (1710-1792)	ambiguous	     1
 Jones, Richard (1718-NA)	ambiguous	     1
 Jones, Richard (1727-1800)	ambiguous	     7
-Jones, Richard (1793-NA)	ambiguous	     2
+Jones, Richard (1793-NA)	ambiguous	     1
 Jones, Robert	ambiguous	    13
 Jones, Robert (1597-1615)	ambiguous	     7
 Jones, Robert (1728-NA)	ambiguous	     1
@@ -24947,7 +24885,7 @@ Jones, Thomas (1756-NA)	NA	     1
 Jones, Thomas (1763-1846)	NA	     1
 Jones, Thomas (1765-1811)	NA	     2
 Jones, Thomas (1768-1828)	NA	     1
-Jones, Thomas (1798-NA)	NA	     2
+Jones, Thomas (1798-NA)	NA	     1
 Jones, Thomas (NA-1692)	NA	     1
 Jones, Thomas (NA-1731)	NA	     1
 Jones, Thomas (NA-1788)	NA	     2
@@ -25164,9 +25102,8 @@ Kearney, John (1741-1813)	NA	     5
 Kearney, Michael (1733-1814)	NA	     2
 Kearny, Michael (1669-1741)	NA	     1
 Kearsley, Catharine	NA	    12
-Kearsley, George (1790-NA)	ambiguous	     1
-Kearsley, George (1791-1813)	ambiguous	    19
-Kearsley, George (NA-1790)	ambiguous	    34
+Kearsley, George (1791-1790)	ambiguous	    34
+Kearsley, George (1791-1813)	ambiguous	    18
 Kearsley, John (1684-1772)	NA	     2
 Kearsley, John (1684-1777)	NA	     2
 Keary, Patrick	NA	     1
@@ -25375,7 +25312,6 @@ Kennedy, Donald	NA	     1
 Kennedy, Duncan (1767-NA)	NA	     1
 Kennedy, Gilbert (1678-1745)	NA	     5
 Kennedy, Gilbert (1680-1780)	NA	     1
-Kennedy, Gilbert (1788-NA)	NA	     1
 Kennedy, Gilbert (NA-1773)	NA	     1
 Kennedy, H (1724-NA)	NA	     1
 Kennedy, Henry	ambiguous	     2
@@ -25385,7 +25321,7 @@ Kennedy, Hugh (1698-1764)	NA	     4
 Kennedy, Hugh Alexander (NA-1795)	ambiguous	     1
 Kennedy, James	NA	     3
 Kennedy, James (1759-NA)	NA	     1
-Kennedy, James (1769-NA)	NA	    11
+Kennedy, James (1769-NA)	NA	     8
 Kennedy, John	NA	     2
 Kennedy, John (1626-NA)	NA	     3
 Kennedy, John (1698-1782)	NA	    12
@@ -25438,7 +25374,7 @@ Kent, Elizabeth Grey (1581-1651)	ambiguous	    26
 Kent, Henry (1732-1771)	ambiguous	    33
 Kent, James (1763-1847)	NA	     2
 Kent, John (1723-1724)	NA	     1
-Kent, John (1785-1724)	NA	     3
+Kent, John (1785-1724)	NA	     1
 Kent, Nathaniel (1737-1810)	NA	    10
 Kent, Robert (1721-NA)	ambiguous	     1
 Kent, Samuel	NA	     9
@@ -25488,13 +25424,13 @@ Ker, John	NA	     2
 Ker, John (1648-NA)	NA	     4
 Ker, John (1673-1726)	NA	    14
 Ker, John (1673-1741)	NA	     4
-Ker, John (1723-NA)	NA	     2
+Ker, John (1723-NA)	NA	     1
 Ker, John Bellenden (1765-1842)	NA	     2
 Ker, John-charles	NA	     1
 Ker, L (1723-NA)	NA	     1
 Ker, Margaret	ambiguous	     4
 Ker, Marion	ambiguous	     2
-Ker, Patrick (1691-NA)	NA	    11
+Ker, Patrick (1691-NA)	NA	     4
 Ker, Robert (NA-1735)	ambiguous	    16
 Ker, Walter	ambiguous	     2
 Ker, William	ambiguous	     4
@@ -25528,7 +25464,7 @@ Kerry, Francis Thomas Fitzmaurice (1740-1813)	ambiguous	     1
 Kerry, Thomas Fitzmaurice (1668-1742)	NA	     2
 Kersaint, Armand-guy (1742-1793)	NA	     1
 Kersey, John (1616-1690)	NA	    11
-Kersey, John (1720-1690)	NA	    12
+Kersey, John (1720-1690)	NA	     8
 Kersey, John (NA-1690)	NA	     2
 Kershaw, James (1730-1797)	NA	     7
 Kersteman, William	ambiguous	     2
@@ -25608,7 +25544,7 @@ Kilgour, James	NA	     1
 Kilham, Alexander (1762-1798)	ambiguous	    23
 Kilkenny, Matthew	ambiguous	     1
 Kill-care, 	NA	     1
-Killam, Margaret (1672-1672)	ambiguous	     2
+Killam, Margaret (NA-1672)	ambiguous	     1
 Killcop, Thomas	NA	     5
 Killegrew, Ferdinando	NA	     1
 Killegrew, Tom	ambiguous	     2
@@ -25638,7 +25574,7 @@ Kilty, William (1757-1821)	ambiguous	     1
 Kilvert, Richard (NA-1649)	ambiguous	     2
 Kilwarden, Arthur Wolfe (1739-1803)	male	     3
 Kimball, Jacob (1761-1826)	NA	     2
-Kimber, Edward (1719-1769)	NA	    44
+Kimber, Edward (1719-1769)	NA	    43
 Kimber, Isaac (1692-1755)	NA	    20
 Kimber, John	NA	     8
 Kimberley, Jonathan (1650-1720)	NA	     2
@@ -25672,7 +25608,7 @@ King, Adam	ambiguous	     1
 King, Anthony	NA	     6
 King, Arnold (1712-1771)	NA	     6
 King, Benjamin (1611-1612)	ambiguous	     1
-King, Charles (1721-NA)	ambiguous	     5
+King, Charles (1721-NA)	ambiguous	     4
 King, Charlotte	female	     1
 King, Cyrus (1772-1817)	ambiguous	     1
 King, Daniel (1650-1660)	ambiguous	     4
@@ -25716,7 +25652,7 @@ King, Richard	ambiguous	    13
 King, Richard (1705-1783)	ambiguous	     3
 King, Richard (1730-1806)	ambiguous	     4
 King, Robert (1664-1557)	ambiguous	     1
-King, Robert (1664-1728)	ambiguous	     4
+King, Robert (1664-1728)	ambiguous	     3
 King, Robert (1664-NA)	ambiguous	     1
 King, Robert J	ambiguous	     1
 King, Samuel (1749-NA)	NA	     2
@@ -25728,7 +25664,7 @@ King, Thomas (1781-1822)	NA	    14
 King, Thomas (1791-NA)	NA	     1
 King, W	NA	     1
 King, Walker (1751-1827)	NA	     1
-King, Walter (1758-1815)	ambiguous	     8
+King, Walter (1758-1815)	ambiguous	     7
 King, William	ambiguous	    15
 King, William (1605-1606)	ambiguous	     1
 King, William (1624-1680)	ambiguous	     1
@@ -25845,7 +25781,6 @@ Kirkpatrick, James	NA	     4
 Kirkpatrick, James (1699-1744)	NA	     1
 Kirkpatrick, James (1728-1818)	NA	     2
 Kirkpatrick, James (NA-1743)	NA	    10
-Kirkpatrick, John (1799-NA)	NA	     2
 Kirkpatrick, Martin	ambiguous	     1
 Kirkpatrick, Robert	ambiguous	     1
 Kirkpatrick, Thomas (1798-NA)	NA	     3
@@ -25856,7 +25791,7 @@ Kirkwall, John Fitzmaurice (1778-1820)	NA	     2
 Kirkwood, James	NA	     3
 Kirkwood, James (1650-1708)	NA	     4
 Kirkwood, James (1650-1709)	NA	     2
-Kirkwood, James (1698-NA)	NA	    21
+Kirkwood, James (1698-NA)	NA	     8
 Kirle, Robert	ambiguous	     2
 Kirshaw, Samuel (NA-1786)	NA	     1
 Kirsopp, Matthew	ambiguous	     1
@@ -25890,7 +25825,6 @@ Knap, J	NA	     2
 Knaplock, Robert (NA-1737)	ambiguous	     1
 Knapp, Coghill (1691-1743)	NA	     1
 Knapp, Francis (1672-NA)	ambiguous	     1
-Knapp, Francis (1772-NA)	ambiguous	     1
 Knapp, Henry Ryder (1756-1817)	ambiguous	     1
 Knapp, John	NA	    16
 Knapp, Robert	ambiguous	     1
@@ -25925,7 +25859,7 @@ Knight, Nicholas (1675-1677)	NA	     2
 Knight, R (1768-1855)	NA	     3
 Knight, Richard (1729-NA)	ambiguous	     2
 Knight, Richard Payne (1750-1824)	ambiguous	     5
-Knight, Robert (1722-1747)	ambiguous	     2
+Knight, Robert (NA-1747)	ambiguous	     1
 Knight, Samuel (1677-1746)	NA	    10
 Knight, Samuel (1754-1829)	NA	     3
 Knight, Samuel (1759-1827)	NA	     1
@@ -25960,7 +25894,7 @@ Knowles, Charles (1704-1777)	ambiguous	    17
 Knowles, Charles Henry (1754-1831)	ambiguous	     1
 Knowles, Gilbert (1674-NA)	NA	     1
 Knowles, John (1646-1668)	NA	     3
-Knowles, John (1796-1668)	NA	     2
+Knowles, John (1796-1668)	NA	     1
 Knowles, John Chorley (NA-1793)	male	     1
 Knowles, Mary (1733-1807)	ambiguous	     7
 Knowles, Thomas (1723-1802)	NA	    20
@@ -25971,7 +25905,7 @@ Knox, George (1765-1827)	ambiguous	     1
 Knox, Henry (1640-1716)	ambiguous	     1
 Knox, Henry (1750-1806)	ambiguous	     5
 Knox, Hugh (1727-1790)	NA	    12
-Knox, James (1605-NA)	NA	     4
+Knox, James (1605-NA)	NA	     3
 Knox, John	NA	     3
 Knox, John (1514-1572)	NA	    29
 Knox, John (1720-1790)	NA	     9
@@ -25981,7 +25915,7 @@ Knox, John (NA-1778)	NA	     1
 Knox, Robert (1640-1720)	ambiguous	     2
 Knox, Samuel (1755-1832)	NA	     4
 Knox, T	NA	     2
-Knox, Thomas (1708-1771)	NA	     3
+Knox, Thomas (1708-1771)	NA	     2
 Knox, Thomas (1738-1771)	NA	     1
 Knox, Thomas (1770-1771)	NA	     1
 Knox, Vicesimus (1752-1821)	NA	    68
@@ -26018,7 +25952,6 @@ Kroll, Adam	ambiguous	     1
 Kromer, Martin (1512-1589)	ambiguous	     2
 Krueger, Johann Gottlob	ambiguous	     1
 Krüger, Rudolph August	ambiguous	     1
-Krünitz, J G (1728-1796)	NA	     1
 Krusinśki, Judas Thaddaeus	male	     1
 Krusiński, Judas Thaddaeus	male	     3
 Krusínski, Judas Thaddaeus	male	     1
@@ -26164,8 +26097,8 @@ La Mothe, Claude Grostête (1647-1713)	ambiguous	     1
 La Motte, Barbarie De		     3
 La Motte, François De		     2
 La Motte, François De		     1
-La Motte, Jeanne De Saint-rémy De Valois (1756-1791)		    22
-La Motte, Jeanne De Saint-rémy De Valois (1756-1791)		    11
+La Motte, Jeanne De Saint-rémy De Valois (1756-1791)		    21
+La Motte, Jeanne De Saint-rémy De Valois (1756-1791)		    10
 La Motte, Philémon De		     4
 La Motte, Yves-joseph	NA	     5
 La Mottraye, Aubry De (1674-1743)		    13
@@ -26183,7 +26116,7 @@ La Peyrère, Isaac De (1594-1676)		     2
 La Pilonnière, François De (1680-NA)		     9
 La Place, Pierre Antoine De (1707-1793)		     7
 La Place, Pierre De (1520-1572)		     5
-La Placette, Jean (1629-1718)	ambiguous	     6
+La Placette, Jean (1629-1718)	ambiguous	     5
 La Planche, Louis Régnier De (1530-1580)		     1
 La Platière, Sulpice Imbert	male	     1
 La Popelinière, Lancelot-voisin (1541-1608)	NA	     1
@@ -26273,13 +26206,13 @@ Ladbroke, Robert (1739-1814)	ambiguous	     1
 Ladd, Joseph Brown (1764-1786)	ambiguous	     2
 Ladevèze, Abel-rodolphe De		     1
 Lady Of St James's, 	female	     1
-Lady,  (1701-NA)	female	   250
+Lady,  (1701-NA)	female	   248
 Ladyman, Samuel (1625-1684)	NA	     1
 Laertius, Diogenes	male	     3
 Laet, Alphonsus	NA	     2
 Laet, Gaspar	male	     5
 Laet, Jaspar (1492-1530)	male	    10
-Laet, Jaspar (1530-1544)	male	    13
+Laet, Jaspar (1530-1544)	male	    12
 Laet, Jasper (1485-1532)	NA	     1
 Lafaye, L R	NA	     1
 Lafayette, Marie Joseph Paul Yves Roch Gilbert Du Motier (1757-1834)	ambiguous	     1
@@ -26386,7 +26319,6 @@ Lambert, James (1741-1823)	NA	     1
 Lambert, Johann Heinrich (1728-1777)	ambiguous	     1
 Lambert, John	NA	     5
 Lambert, John (1619-1683)	NA	    12
-Lambert, John (1722-1723)	NA	     6
 Lambert, John (1746-1823)	NA	     1
 Lambert, John (1792-NA)	NA	     1
 Lambert, John (NA-1538)	NA	     1
@@ -26501,7 +26433,7 @@ Langdon, Chauncy (1763-1830)	ambiguous	     3
 Langdon, John	NA	     3
 Langdon, Richard (1730-1803)	ambiguous	     2
 Langdon, Samuel (1723-1797)	NA	    16
-Langdon, Thomas (1534-NA)	NA	     2
+Langdon, Thomas	NA	     1
 Langdon, Timothy (1758-1801)	NA	     2
 Langdon, William	ambiguous	     1
 Lange, Joachim (1670-1744)	NA	     3
@@ -26599,7 +26531,7 @@ Lara, Benjamin (1770-1848)	ambiguous	     2
 Lara, Catherine	ambiguous	     1
 Larcher, Andrew	NA	     1
 Larcomb, J	NA	     1
-Lardner, James (1670-NA)	NA	     2
+Lardner, James (1670-NA)	NA	     1
 Lardner, Nathaniel (1684-1768)	NA	    38
 Large, George	ambiguous	     1
 Largue, George (1698-1771)	ambiguous	     1
@@ -26994,7 +26926,7 @@ Le Wright, R	NA	     1
 Le-hunt, Alexander	ambiguous	     3
 Lea, Charles Augustine	ambiguous	     1
 Lea, Francis	ambiguous	     3
-Lea, Philip (1683-1700)	NA	     3
+Lea, Philip (1683-1700)	NA	     2
 Leach, 	ambiguous	     1
 Leach, Charles (1698-NA)	ambiguous	     2
 Leach, Edmund	NA	     5
@@ -27015,7 +26947,7 @@ Lead, Jane Ward (1623-1704)	ambiguous	     1
 Leadbeater, J	NA	     3
 Leadbeater, Mary (1758-1826)	ambiguous	     1
 Leadbetter, Arthur	NA	     1
-Leadbetter, Charles (1728-NA)	ambiguous	    23
+Leadbetter, Charles (1728-NA)	ambiguous	    20
 Leader, Henry	ambiguous	     1
 Leader, Nicholas Philpot (NA-1836)	NA	     4
 Leader, Thomas	NA	     2
@@ -27031,7 +26963,7 @@ Leake, Richard	ambiguous	     2
 Leake, Stephen Martin (1702-1773)	ambiguous	     4
 Leake, William Martin (1746-1801)	ambiguous	     2
 Leaming, Jeremiah (1717-1804)	NA	    10
-Leanerd, John (1679-NA)	NA	     6
+Leanerd, John (1679-NA)	NA	     3
 Leapor,  (1722-1746)	NA	     2
 Lear, Tobias (1762-1816)	NA	     2
 Leard, John	NA	     1
@@ -27119,7 +27051,7 @@ Lee, Joseph (1742-1819)	ambiguous	     4
 Lee, Leonard	ambiguous	     1
 Lee, Ludwell (1760-1836)	NA	     1
 Lee, Matthew (1694-1755)	ambiguous	     1
-Lee, Nathaniel (1653-1692)	NA	   166
+Lee, Nathaniel (1653-1692)	NA	   165
 Lee, Obadiah (1636-1700)	male	     1
 Lee, R G (1793-NA)	NA	     2
 Lee, Richard	ambiguous	    10
@@ -27191,7 +27123,7 @@ Legard, Digby (NA-1773)	male	     1
 Legatus,  (1792-NA)	NA	     1
 Legaux, Peter (1748-1827)	NA	     1
 Legg, John	NA	     5
-Legg, Thomas (1755-NA)	NA	     4
+Legg, Thomas (1755-NA)	NA	     3
 Legge, Thomas (1779-NA)	NA	     1
 Leggett, Richard	ambiguous	     5
 Legh, George (1693-1775)	ambiguous	    12
@@ -27241,7 +27173,7 @@ Leigh, Robert	ambiguous	     1
 Leigh, Samuel Egerton (1770-1796)	male	     2
 Leigh, Thomas (1633-1686)	NA	     1
 Leigh, Thomas (1698-1704)	NA	     1
-Leigh, Valentine (1562-NA)	ambiguous	     8
+Leigh, Valentine (1562-NA)	ambiguous	     6
 Leigh, W	NA	     1
 Leigh, William (1550-1639)	ambiguous	     8
 Leigh, William (1734-NA)	ambiguous	     2
@@ -27333,7 +27265,7 @@ Lenthall, Sir John (1625-1681)	male	     1
 Lenthall, William	ambiguous	     1
 Lenthall, William (1591-1662)	ambiguous	    33
 Lenthall, William (1654-1655)	ambiguous	     1
-Lenton, Francis (1630-1640)	ambiguous	    10
+Lenton, Francis (1630-1640)	ambiguous	     9
 Lenton, John (1657-1719)	NA	     1
 Lentulo, Scipione (1525-1599)	NA	     4
 Lentulus, Publius	male	     3
@@ -27445,9 +27377,9 @@ Leveck, Joseph	ambiguous	     1
 Leven, Alexander Leslie (1580-1661)	ambiguous	     3
 Leven, Alexander Leslie (1699-1754)	ambiguous	     1
 Leven, David Leslie (1722-1802)	ambiguous	     1
-Levens, Peter (1587-NA)	NA	     8
+Levens, Peter (1587-NA)	NA	     6
 Lever, Ashton (1729-1788)	ambiguous	     4
-Lever, Christopher (1627-NA)	ambiguous	     7
+Lever, Christopher (1627-NA)	ambiguous	     2
 Lever, James Darcy (1704-1742)	ambiguous	     1
 Lever, John	NA	     3
 Lever, Ralph (NA-1584)	ambiguous	     2
@@ -27530,9 +27462,9 @@ Lewis, John (1746-1792)	NA	     1
 Lewis, John (1755-NA)	NA	     3
 Lewis, John (NA-1747)	NA	    67
 Lewis, Josiah (1759-1775)	NA	     2
-Lewis, M (1678-NA)	NA	    11
+Lewis, M (1678-NA)	NA	     3
 Lewis, M G (1775-1818)	NA	    50
-Lewis, Mark (1678-NA)	ambiguous	     3
+Lewis, Mark (1678-NA)	ambiguous	     2
 Lewis, Maurice (1689-1690)	ambiguous	     2
 Lewis, Mayer	ambiguous	     1
 Lewis, Oliver (1757-1784)	ambiguous	     1
@@ -27737,7 +27669,6 @@ Lineall, John	NA	     3
 Linfield, James	NA	     1
 Ling, John (1648-NA)	NA	     1
 Ling, Nicholas	NA	     2
-Lingard, John (1695-NA)	NA	     1
 Lingard, R (1598-1670)	NA	     6
 Lingen, Thomas	NA	     1
 Lingham, John	NA	     1
@@ -27859,7 +27790,7 @@ Liveryman, Brother	NA	     1
 Livesay, Richard (NA-1823)	ambiguous	     1
 Livesey, James (1625-1682)	NA	     4
 Livesey, John	NA	     1
-Livie, John (1654-1659)	NA	     3
+Livie, John (1654-1659)	NA	     2
 Livie, John (1791-1659)	NA	     1
 Livigni, Filippo	male	    13
 Livingston, Alexander (NA-1795)	ambiguous	     2
@@ -27950,7 +27881,7 @@ Lloyd, Thomas (1701-NA)	NA	     1
 Lloyd, Thomas (1750-1821)	NA	     1
 Lloyd, Thomas (1750-1828)	NA	     3
 Lloyd, Thomas (1756-1827)	NA	     1
-Lloyd, Thomas (1794-NA)	NA	     3
+Lloyd, Thomas (1794-NA)	NA	     2
 Lloyd, Thomas Augustus	ambiguous	     1
 Lloyd, Walter	ambiguous	     1
 Lloyd, William	ambiguous	     3
@@ -27973,7 +27904,7 @@ Loaisel-tréogate, J -m (1752-1812)	NA	     2
 Loarte, Gaspar	male	     2
 Loarte, Gaspar De (1498-1578)		     1
 Loarte, Gaspare	male	     7
-Lobb, Richard (1749-1750)	ambiguous	     2
+Lobb, Richard	ambiguous	     1
 Lobb, Samuel (NA-1760)	NA	     1
 Lobb, Stephen (NA-1699)	NA	    15
 Lobb, Stephen (NA-1720)	NA	     1
@@ -28119,9 +28050,9 @@ London, Genevan	NA	     1
 London, Gentleman (1746-NA)	NA	    13
 London, George (NA-1713)	ambiguous	     2
 London, John	NA	     6
-London, Liveryman (1795-NA)	NA	     2
+London, Liveryman (1795-NA)	NA	     1
 London, Thomas	NA	     1
-London, William (1658-NA)	ambiguous	     4
+London, William (1658-NA)	ambiguous	     2
 Londonderry, Robert Ridgeway (1656-1714)	ambiguous	     1
 Lonergan, Edward	NA	     1
 Long, 	NA	     1
@@ -28168,7 +28099,7 @@ Lookup, George	ambiguous	     1
 Lookup, John	NA	     1
 Lookup, John (1675-1758)	NA	     2
 Lookup, John (1710-1757)	NA	     1
-Lookup, John (1740-NA)	NA	     2
+Lookup, John (1740-NA)	NA	     1
 Lookup, Mary Milton	ambiguous	     1
 Loop, George	ambiguous	     1
 Loper, Christian	ambiguous	     1
@@ -28291,7 +28222,7 @@ Lovel, Henry	ambiguous	     1
 Lovelace, Francis (1594-1664)	ambiguous	     2
 Lovelace, Richard (1618-1658)	ambiguous	     2
 Lovelass, Jack	NA	     1
-Lovelass, Peter (1786-1812)	NA	    17
+Lovelass, Peter (1786-1812)	NA	    16
 Loveling, Benjamin (1672-1727)	ambiguous	    11
 Loveling, Benjamin (1710-1711)	ambiguous	     2
 Lovell, Archibald	NA	     1
@@ -28995,7 +28926,7 @@ Machiavelli, Niccolò (1469-1527)	NA	    42
 Machiavelli, Niccolò (1469-1527)	NA	     1
 Machiavelli, Nicholas	NA	     1
 Machin, 	female	     1
-Machin, Richard (1740-NA)	ambiguous	     2
+Machin, Richard (1740-NA)	ambiguous	     1
 Machrie, William	ambiguous	     2
 Machutcheon, Helen	ambiguous	     1
 Macintosh, Aeneas	NA	     3
@@ -29205,7 +29136,7 @@ Macmanus, Henry (NA-1746)	ambiguous	     1
 Macmaster, Robert	ambiguous	     2
 Macmath, James (1648-1696)	NA	     1
 Macmillan, Alexander (NA-1770)	ambiguous	     4
-Macmillan, Anthony (1786-NA)	NA	     7
+Macmillan, Anthony (1786-NA)	NA	     6
 Macmillan, Malcolm	NA	     1
 Macnab, Alexander	ambiguous	     1
 Macnab, Francis	ambiguous	     2
@@ -29249,7 +29180,7 @@ Macpherson, Lachlan	NA	     1
 Macpherson, Laurence	ambiguous	     2
 Macpherson, Mary Ann	ambiguous	     1
 Macpherson, R	NA	     1
-Macpherson, Robert (1765-NA)	ambiguous	     2
+Macpherson, Robert (1765-NA)	ambiguous	     1
 Macquarry, Lauchlan	male	     1
 Macqueen, Archibald	NA	     1
 Macqueen, Columbus (NA-1829)	NA	     1
@@ -29569,7 +29500,7 @@ Manley, John (1786-NA)	NA	     1
 Manley, Roger (1626-1688)	NA	     8
 Manley, Thomas (1628-1690)	NA	    10
 Manlius, 	male	     1
-Manlove, Edward (1667-NA)	NA	     3
+Manlove, Edward (1667-NA)	NA	     1
 Manlove, Timothy (NA-1699)	NA	     2
 Manly, 	NA	     1
 Manly, J	NA	     1
@@ -29856,7 +29787,7 @@ Marsh, Edward	NA	     1
 Marsh, George (1674-1737)	ambiguous	     1
 Marsh, George (1674-1760)	ambiguous	     1
 Marsh, Henry (1663-1664)	ambiguous	     6
-Marsh, Henry (1720-1664)	ambiguous	     2
+Marsh, Henry (1720-1664)	ambiguous	     1
 Marsh, Herbert (1757-1839)	NA	     8
 Marsh, John (1742-1821)	NA	     8
 Marsh, Jonathan (1685-1747)	NA	     3
@@ -29879,7 +29810,7 @@ Marshall,  (NA-1818)	NA	     1
 Marshall, Benjamin (1682-1683)	ambiguous	     6
 Marshall, Charles (1637-1698)	ambiguous	    22
 Marshall, Charles (1637-1818)	ambiguous	     7
-Marshall, David (1764-NA)	ambiguous	     5
+Marshall, David (1764-NA)	ambiguous	     2
 Marshall, E	NA	     1
 Marshall, Edmund (1770-1771)	NA	     5
 Marshall, Elizabeth	ambiguous	     1
@@ -29977,7 +29908,7 @@ Martin, John (1725-NA)	NA	     1
 Martin, John (1741-1820)	NA	    42
 Martin, John (1744-NA)	NA	     1
 Martin, John (1794-1795)	NA	     1
-Martin, Joseph (1685-1700)	ambiguous	     4
+Martin, Joseph (1685-1700)	ambiguous	     3
 Martin, Joseph (1760-1700)	ambiguous	     1
 Martin, Joseph (NA-1700)	ambiguous	     1
 Martin, Josiah (1683-1747)	NA	    10
@@ -29989,7 +29920,7 @@ Martin, Richard	ambiguous	     1
 Martin, Richard (1570-1618)	ambiguous	     3
 Martin, Richard (1678-1725)	ambiguous	     2
 Martin, Richard (1754-1834)	ambiguous	     3
-Martin, Robert (1635-1641)	ambiguous	     7
+Martin, Robert (1635-1641)	ambiguous	     6
 Martin, Robert (1735-1641)	ambiguous	     1
 Martin, Robert (NA-1641)	ambiguous	     4
 Martin, Samuel	NA	    11
@@ -30194,7 +30125,7 @@ Mather, Samuel (1651-1728)	NA	     4
 Mather, Samuel (1674-1733)	NA	    11
 Mather, Samuel (1706-1785)	NA	    24
 Mather, Thomas	NA	     1
-Mather, W (1695-NA)	NA	    31
+Mather, W (1695-NA)	NA	    26
 Mather, Warham (1666-1745)	male	     1
 Mather, William	ambiguous	     1
 Mathers, Wilsey	NA	     1
@@ -30374,7 +30305,6 @@ Maxwell, James (1581-NA)	NA	    11
 Maxwell, James (1720-1800)	NA	    51
 Maxwell, James (1735-1785)	NA	     4
 Maxwell, James (NA-1827)	NA	     1
-Maxwell, Janet (1721-NA)	ambiguous	     1
 Maxwell, John	NA	    21
 Maxwell, John (1590-1647)	NA	    11
 Maxwell, John (1705-1784)	NA	     2
@@ -30477,7 +30407,7 @@ Mayo, Charles (1750-1829)	ambiguous	     2
 Mayo, Daniel (1672-1733)	ambiguous	    16
 Mayo, Henry (1733-1793)	ambiguous	     5
 Mayo, John	NA	     2
-Mayo, John (1607-1629)	NA	     4
+Mayo, John (1607-1629)	NA	     3
 Mayo, John (1761-1818)	NA	     1
 Mayo, Richard (1631-1695)	ambiguous	    25
 Mayo, Richard (1690-1727)	ambiguous	    10
@@ -31070,7 +31000,7 @@ Mervault, Pierre (1608-NA)	NA	     3
 Merveilleux, David-françois De (NA-1748)		     1
 Mervin, Hugh	NA	     1
 Mervyn, Arthur	NA	     1
-Mervyn, Audley (1675-1675)	ambiguous	    24
+Mervyn, Audley (NA-1675)	ambiguous	    23
 Mervyn, Sir Audeley	male	     1
 Mervyn, Sir Audley (NA-1675)	ambiguous	     1
 Meryon, Lewis	ambiguous	     1
@@ -31083,7 +31013,7 @@ Messer, Benjamin (1727-1772)	ambiguous	     1
 Messinck, James (1701-1789)	NA	     9
 Messinger, Rosewell (1775-1844)	male	     3
 Messingham, Thomas (NA-1638)	NA	     1
-Mestayer, Henry (1716-NA)	ambiguous	     3
+Mestayer, Henry (1716-NA)	ambiguous	     2
 Mestine, Robert	ambiguous	     1
 Meston, William (1688-1745)	ambiguous	    22
 Mestrezat, Jean (1592-1657)	ambiguous	     2
@@ -31096,14 +31026,13 @@ Metcalfe, Lascelles (NA-1781)	male	     1
 Metcalfe, Lister	NA	     2
 Metcalfe, Phil	ambiguous	     1
 Metcalfe, Robert (1590-1652)	ambiguous	     1
-Metcalfe, Theophilus (1649-NA)	NA	    17
+Metcalfe, Theophilus (1649-NA)	NA	    15
 Meteren, Emmanuel Van (1535-1612)	ambiguous	     3
 Metford, Ellis Button	ambiguous	     1
 Metford, James	NA	     4
 Methuen, John (1650-1706)	NA	     1
 Metivier, P	NA	     2
 Metonicus, 	NA	    22
-Metternich,  (1808-NA)	NA	     2
 Metternich, Wolf (NA-1731)	male	     2
 Metyard, Sarah (NA-1762)	ambiguous	     1
 Metz, C M (1755-1827)	NA	     2
@@ -31253,7 +31182,7 @@ Miles, William Augustus (1753-1817)	ambiguous	    45
 Milesian, 	NA	     1
 Mill, Alexander	ambiguous	     1
 Mill, Henry	ambiguous	     1
-Mill, Humphrey (1646-NA)	NA	     4
+Mill, Humphrey (1646-NA)	NA	     2
 Mill, Job	NA	     2
 Mill, John (1645-1707)	NA	     1
 Mill, John (1712-1805)	NA	     1
@@ -31265,7 +31194,7 @@ Millar, Andrew (1705-1768)	NA	     3
 Millar, David (1687-1757)	ambiguous	    16
 Millar, George Henry	ambiguous	     5
 Millar, Henry (NA-1771)	ambiguous	     1
-Millar, James (1762-1827)	NA	     2
+Millar, James (1762-1827)	NA	     1
 Millar, John (1733-1805)	NA	    10
 Millar, John (1735-1801)	NA	    23
 Millar, John (1760-1796)	NA	     2
@@ -31326,7 +31255,7 @@ Miller, Samuel (1769-1850)	NA	     8
 Miller, Samuel (1781-1850)	NA	     1
 Miller, Simon (1653-1684)	ambiguous	     1
 Miller, Thomas (1717-1789)	NA	    14
-Miller, Vincent (1752-NA)	NA	     3
+Miller, Vincent (1752-NA)	NA	     2
 Miller, W Edward	NA	     1
 Miller, William	ambiguous	     3
 Miller, William (1592-1593)	ambiguous	     1
@@ -31520,7 +31449,7 @@ Mitchell, John (1697-NA)	NA	     2
 Mitchell, John (1711-1768)	NA	     3
 Mitchell, John (NA-1784)	NA	     2
 Mitchell, John Livingston	ambiguous	     1
-Mitchell, Joseph (1706-NA)	ambiguous	     5
+Mitchell, Joseph (1706-NA)	ambiguous	     3
 Mitchell, M (1796-NA)	NA	     1
 Mitchell, Mary	ambiguous	     1
 Mitchell, Matthaeus	male	     1
@@ -31731,7 +31660,6 @@ Monro, James (1680-1752)	NA	     1
 Monro, John	NA	     5
 Monro, John (1686-NA)	NA	     1
 Monro, John (1715-1791)	NA	     2
-Monro, John (1719-NA)	NA	     1
 Monro, John (NA-1719)	NA	     4
 Monro, Robert (NA-1696)	ambiguous	     5
 Monro, Thomas (1759-1833)	NA	     1
@@ -31864,7 +31792,7 @@ Moody, Elizabeth (1798-NA)	ambiguous	     1
 Moody, James	NA	     1
 Moody, James (1693-1772)	NA	     2
 Moody, James (1744-1809)	NA	     2
-Moody, James (1745-1764)	NA	     5
+Moody, James (1745-1764)	NA	     4
 Moody, R	NA	     3
 Moody, Samuel (1726-1751)	NA	     6
 Moody, Samuel (1726-1795)	NA	     1
@@ -31874,7 +31802,7 @@ Moon, Elizabeth (1782-NA)	ambiguous	     1
 Moon, John (1657-1685)	NA	     4
 Moon, John (1774-1801)	NA	     2
 Moon, Joseph	ambiguous	     3
-Moon, Man (1715-NA)	ambiguous	    10
+Moon, Man (1715-NA)	ambiguous	     9
 Moon, Paul	ambiguous	     1
 Moon, William	ambiguous	     1
 Moone, Peter	NA	     3
@@ -31927,7 +31855,6 @@ Moore, James Lovell	ambiguous	     3
 Moore, Jane Elizabeth (1738-NA)	ambiguous	     3
 Moore, John	NA	     8
 Moore, John (1595-1657)	NA	     4
-Moore, John (1619-NA)	NA	     1
 Moore, John (1620-1702)	NA	     2
 Moore, John (1621-NA)	NA	     1
 Moore, John (1646-1714)	NA	    28
@@ -31936,7 +31863,7 @@ Moore, John (1669-NA)	NA	     2
 Moore, John (1672-1748)	NA	     2
 Moore, John (1695-1704)	NA	     1
 Moore, John (1696-1704)	NA	     1
-Moore, John (1729-1802)	NA	    68
+Moore, John (1729-1802)	NA	    67
 Moore, John (1730-1805)	NA	     4
 Moore, John (1742-1821)	NA	     2
 Moore, John (1761-1809)	NA	     2
@@ -31965,7 +31892,7 @@ Moore, Richard Channing (1762-1841)	ambiguous	     1
 Moore, Robert	ambiguous	     3
 Moore, Robert (1570-NA)	ambiguous	     1
 Moore, Robert (1647-NA)	ambiguous	     1
-Moore, Robert (1729-NA)	ambiguous	     2
+Moore, Robert (1729-NA)	ambiguous	     1
 Moore, Samuel (1617-1810)	NA	     3
 Moore, Samuel (1737-1810)	NA	     1
 Moore, Samuel (NA-1810)	NA	     3
@@ -32100,10 +32027,9 @@ Morgan, Einon (1693-NA)	male	     1
 Morgan, George (1621-NA)	ambiguous	     3
 Morgan, George Cadogan (1754-1798)	ambiguous	     3
 Morgan, H	NA	     1
-Morgan, Hill (1724-1801)	NA	     2
+Morgan, Hill (1724-1801)	NA	     1
 Morgan, Hugh (1752-1809)	NA	     3
-Morgan, J (1739-NA)	NA	     4
-Morgan, J (1752-NA)	NA	     2
+Morgan, J (1752-NA)	NA	     1
 Morgan, J (1798-NA)	NA	     1
 Morgan, James (1709-1772)	NA	     9
 Morgan, James Jones	NA	     1
@@ -32317,7 +32243,6 @@ Morton, Arthur	NA	     1
 Morton, Charles (1627-1698)	ambiguous	     7
 Morton, Charles (1659-1731)	ambiguous	     1
 Morton, Charles (1716-1799)	ambiguous	     2
-Morton, Charles (1819-1904)	ambiguous	     1
 Morton, Christopher	ambiguous	     1
 Morton, David (1663-NA)	ambiguous	     1
 Morton, Ebenezer	ambiguous	     1
@@ -32481,7 +32406,7 @@ Moyes, Laurence	ambiguous	     1
 Moylan, Francis (1735-1815)	ambiguous	     7
 Moyle, John	NA	     6
 Moyle, Robert (1647-NA)	ambiguous	     1
-Moyle, Walter (1672-1721)	ambiguous	    10
+Moyle, Walter (1672-1721)	ambiguous	     9
 Moysant, François	NA	     2
 Moysie, David	ambiguous	     1
 Mozard, M	NA	     1
@@ -32699,7 +32624,7 @@ Murray, John (1706-1778)	NA	     3
 Murray, John (1715-1777)	NA	     1
 Murray, John (1726-1800)	NA	     4
 Murray, John (1726-1823)	NA	     4
-Murray, John (1732-NA)	NA	     5
+Murray, John (1732-NA)	NA	     3
 Murray, John (1737-1793)	NA	    15
 Murray, John (1741-1815)	NA	     4
 Murray, John (1742-1793)	NA	    18
@@ -32710,7 +32635,7 @@ Murray, Joseph (1694-1757)	ambiguous	     2
 Murray, Judith Sargent (1751-1820)	ambiguous	     3
 Murray, L	NA	     1
 Murray, Lindley (1745-1826)	ambiguous	    48
-Murray, Margaret (1760-1767)	ambiguous	     4
+Murray, Margaret (1760-1767)	ambiguous	     3
 Murray, Margaret (1766-1767)	ambiguous	     1
 Murray, Mary (1766-1767)	ambiguous	     2
 Murray, Mary Lindley	ambiguous	     1
@@ -32723,7 +32648,7 @@ Murray, Robert	ambiguous	     6
 Murray, Robert (1635-1725)	ambiguous	    16
 Murray, Robert (1721-1786)	ambiguous	     3
 Murray, Robert (1755-NA)	ambiguous	     1
-Murray, Robert (1779-NA)	ambiguous	     2
+Murray, Robert (1779-NA)	ambiguous	     1
 Murray, Sarah (1744-1811)	ambiguous	     1
 Murray, Sophia	ambiguous	     1
 Murray, T Augustus	ambiguous	     1
@@ -32750,7 +32675,7 @@ Muses, Post	ambiguous	     1
 Musgrave, Agnes	NA	     4
 Musgrave, Christopher (1621-1736)	ambiguous	     2
 Musgrave, Christopher (1688-1736)	ambiguous	     1
-Musgrave, John (1654-NA)	NA	    11
+Musgrave, John (1654-NA)	NA	     4
 Musgrave, Mary (1635-1664)	ambiguous	     1
 Musgrave, Richard (1757-1818)	ambiguous	    10
 Musgrave, Samuel (1732-1780)	NA	     8
@@ -33041,7 +32966,7 @@ Nelme, Lemuel Dole (NA-1786)	ambiguous	     4
 Nelson, A D	NA	     1
 Nelson, Abraham	ambiguous	     1
 Nelson, D (1752-1829)	NA	     1
-Nelson, Gilbert (1728-1748)	NA	    10
+Nelson, Gilbert (1728-1748)	NA	     9
 Nelson, Henry (1650-1719)	ambiguous	     2
 Nelson, Henry (1725-1734)	ambiguous	    14
 Nelson, Horatio (1758-1805)	male	     1
@@ -33164,7 +33089,7 @@ Newburgh, Frances (NA-1736)	ambiguous	     1
 Newburgh, Henry	ambiguous	     3
 Newburgh, Thomas	NA	     5
 Newbury, Nathanael	NA	     1
-Newby, Peter (1790-NA)	NA	     3
+Newby, Peter (1790-NA)	NA	     1
 Newcastle, Henry Fiennes Pelham-clinton (1720-1794)	ambiguous	     1
 Newcastle, Margaret Cavendish (1624-1674)	ambiguous	    26
 Newcastle, Margaret Holles (NA-1715)	ambiguous	     1
@@ -33339,14 +33264,14 @@ Nicholson,  (1787-1789)	male	     4
 Nicholson,  (1800-1789)	male	     1
 Nicholson, Andrew (1769-1770)	NA	     1
 Nicholson, Benjamin	ambiguous	     4
-Nicholson, Edward (1708-NA)	NA	    11
+Nicholson, Edward (1708-NA)	NA	     9
 Nicholson, Francis (1655-1680)	ambiguous	     3
 Nicholson, Francis (1655-1728)	ambiguous	     2
 Nicholson, George (1760-1825)	ambiguous	     7
 Nicholson, Henry (1681-1733)	ambiguous	     8
 Nicholson, Isaac (1770-1839)	NA	     1
 Nicholson, Isaac Francis (1686-NA)	ambiguous	     1
-Nicholson, James (1800-NA)	NA	     2
+Nicholson, James	NA	     1
 Nicholson, John	NA	     1
 Nicholson, John (1730-1796)	NA	     2
 Nicholson, John (1757-1800)	NA	     2
@@ -33577,14 +33502,14 @@ Norman, J	NA	     1
 Norman, John (1622-1669)	NA	     5
 Norman, John (1703-1757)	NA	    21
 Norman, John (1748-1817)	NA	     4
-Norman, Robert (1590-NA)	ambiguous	     6
+Norman, Robert (1590-NA)	ambiguous	     4
 Norman, Samuel	NA	     3
 Norman, William (NA-1807)	ambiguous	     1
 Norris,  (1790-NA)	NA	     2
-Norris, Charles (1718-NA)	ambiguous	     3
+Norris, Charles (1718-NA)	ambiguous	     2
 Norris, Edward (1584-1659)	NA	     3
 Norris, Henry (1665-1731)	ambiguous	     1
-Norris, Henry (1774-1731)	ambiguous	     2
+Norris, Henry (1774-1731)	ambiguous	     1
 Norris, Isaac (1671-1735)	NA	     4
 Norris, James (1682-1684)	NA	     3
 Norris, John	NA	     4
@@ -33599,7 +33524,7 @@ Norris, Robert (1766-1832)	ambiguous	     1
 Norris, Robert (NA-1791)	ambiguous	     4
 Norris, Sir John	male	     1
 Norris, Sylvester (1572-1630)	ambiguous	     1
-Norris, Thomas (1780-NA)	NA	     7
+Norris, Thomas (1780-NA)	NA	     4
 Norris, William	ambiguous	     2
 Norry, Charles (1756-1832)	ambiguous	     1
 Nortcliffe, 	NA	     1
@@ -33706,7 +33631,7 @@ Novell, John	NA	     2
 Novell, Matthew	ambiguous	     1
 Noverre, Jean Georges (1727-1810)	ambiguous	     8
 Nowell, Alexander (1507-1602)	ambiguous	    70
-Nowell, Alexander (1645-1672)	ambiguous	     7
+Nowell, Alexander (1645-1672)	ambiguous	     3
 Nowell, Alexandra	ambiguous	     1
 Nowell, Charles	ambiguous	     4
 Nowell, John (1784-NA)	NA	     1
@@ -33794,12 +33719,12 @@ O'connell, Galfridus	NA	     1
 O'connell, Maurice	ambiguous	     1
 O'conner, Patrick	NA	     5
 O'connor, 	NA	     2
-O'connor, Arthur (1763-1852)	NA	    36
+O'connor, Arthur (1763-1852)	NA	    35
 O'connor, Arthur James	NA	     1
 O'connor, Bonaventura	male	     1
 O'connor, Dermod	NA	     1
 O'connor, John	NA	     2
-O'connor, Martin (1762-NA)	ambiguous	     3
+O'connor, Martin	ambiguous	     1
 O'connor, Murroghoh	NA	     5
 O'connor, Roger (1762-1834)	NA	     4
 O'connor, William (1795-NA)	ambiguous	     2
@@ -33902,7 +33827,6 @@ Obrian, Charles (NA-1688)	ambiguous	     1
 Obscreation, Timothy	NA	     2
 Observer, Attentive	NA	     1
 Observer, Calm	ambiguous	     1
-Observer, Impartial (1817-NA)	NA	     7
 Ocane, Donell	ambiguous	     1
 Occom, Samson (1723-1792)	NA	    19
 Ochino, Bernardino (1487-1564)	NA	     9
@@ -33941,7 +33865,7 @@ Offley, Henry Francis (1776-NA)	ambiguous	     1
 Offley, Joseph (1706-NA)	ambiguous	     1
 Offley, Joseph (1736-NA)	ambiguous	     1
 Offley, Walter (1681-1721)	ambiguous	     2
-Offley, William (1659-1724)	ambiguous	     5
+Offley, William (1659-1724)	ambiguous	     4
 Ofwod, Stephen	NA	     2
 Ogborne, David (NA-1801)	ambiguous	     1
 Ogden, Bernard (1767-NA)	ambiguous	     1
@@ -34155,7 +34079,7 @@ Orendayn, Juan Bautista De		     3
 Orestes, 	NA	     1
 Orford, Edward Russell (1653-1727)	ambiguous	    12
 Orford, George Walpole (1730-1791)	ambiguous	     3
-Organ, Richard (1696-NA)	ambiguous	     2
+Organ, Richard (1696-NA)	ambiguous	     1
 Orgill, N T (1759-1837)	NA	     1
 Orhart, John	NA	     1
 Oriel, John Foster (1740-1828)	NA	    16
@@ -34313,7 +34237,7 @@ Ottolenghe, Joseph Solomon (1711-1775)	ambiguous	     2
 Otway, Henry (NA-1815)	ambiguous	     1
 Otway, Thomas (1652-1685)	NA	   225
 Ouchterlony, George (NA-1764)	ambiguous	     2
-Ouchterlony, John (1772-NA)	NA	     4
+Ouchterlony, John (1772-NA)	NA	     1
 Oudenaarde, Hendrick	NA	     2
 Oudin, César (NA-1625)	NA	     2
 Oughton, Thomas	NA	     5
@@ -34346,7 +34270,7 @@ Overton, John	NA	     1
 Overton, John (1640-1708)	NA	     1
 Overton, John (1763-1838)	NA	     1
 Overton, Mary	ambiguous	     1
-Overton, Richard (1646-NA)	ambiguous	    34
+Overton, Richard (1646-NA)	ambiguous	    21
 Overton, Robert (1609-1668)	ambiguous	     4
 Overton, Samuel (1768-1832)	NA	     1
 Overton, Thomas Collins	ambiguous	     3
@@ -34397,9 +34321,7 @@ Owen, Thomas (1557-1618)	NA	     2
 Owen, Thomas (1678-1679)	NA	     1
 Owen, Thomas (NA-1774)	NA	     1
 Owen, Vin	ambiguous	     4
-Owen, W (1733-1793)	NA	     1
-Owen, W (1793-1793)	NA	     1
-Owen, W (NA-1793)	NA	    36
+Owen, W (1733-1793)	NA	    37
 Owen, William	ambiguous	     1
 Owens, Evan	ambiguous	     1
 Owens, Gabriel	ambiguous	     1
@@ -34596,7 +34518,7 @@ Palmer, John (1650-1700)	NA	     3
 Palmer, John (1729-1790)	NA	    13
 Palmer, John (1742-1798)	NA	     3
 Palmer, John (1742-1818)	NA	     5
-Palmer, John (1774-NA)	NA	     4
+Palmer, John (1774-NA)	NA	     2
 Palmer, John Fyshe	NA	     1
 Palmer, Joseph	ambiguous	     1
 Palmer, Joseph (1749-1829)	ambiguous	     2
@@ -34618,7 +34540,7 @@ Palmer, Thomas (1620-1626)	NA	     3
 Palmer, Thomas (NA-1626)	NA	     1
 Palmer, Thomas Fyshe (1747-1802)	NA	     9
 Palmer, W	NA	     2
-Palmer, William (1702-NA)	ambiguous	     6
+Palmer, William	ambiguous	     5
 Palmerston, Henry Temple (1739-1802)	ambiguous	     1
 Palmes, William	ambiguous	     1
 Palomba, Antonio (1705-1769)	NA	     4
@@ -34779,7 +34701,7 @@ Parker, John (NA-1681)	NA	     1
 Parker, John Dewye	NA	     1
 Parker, Margaret	ambiguous	     1
 Parker, Martha (1690-NA)	ambiguous	     1
-Parker, Martin (1674-NA)	ambiguous	     8
+Parker, Martin	ambiguous	     7
 Parker, Mary Ann (1760-NA)	ambiguous	     1
 Parker, Mary Elizabeth	ambiguous	     2
 Parker, Matthew (1504-1575)	ambiguous	    22
@@ -34809,7 +34731,6 @@ Parker, Timothy	NA	     1
 Parker, William	ambiguous	     1
 Parker, William (1651-1658)	ambiguous	     3
 Parker, William (1714-1802)	ambiguous	    27
-Parker, William (1748-1749)	ambiguous	     1
 Parker, Wilmot	ambiguous	     1
 Parkerson, J	NA	     1
 Parkes, 	male	     1
@@ -34821,7 +34742,7 @@ Parkhurst, Ferdinando	NA	     5
 Parkhurst, Jabez (1764-1829)	male	     1
 Parkhurst, John (1512-1575)	NA	     1
 Parkhurst, John (1728-1797)	NA	    11
-Parkhurst, John (1741-NA)	NA	     3
+Parkhurst, John (1741-NA)	NA	     2
 Parkhurst, Nathaniel (1643-1707)	NA	     8
 Parkhurst, Nathaniel (1675-1715)	NA	     1
 Parkhurst, Robert (NA-1636)	ambiguous	     1
@@ -34859,12 +34780,11 @@ Parmyter, Paroculus	NA	     1
 Parnam, William	ambiguous	     1
 Parne, Thomas (1693-1751)	NA	     6
 Parnell, James (1637-1656)	NA	    20
-Parnell, John (1779-NA)	NA	     1
 Parnell, Thomas (1679-1718)	NA	    55
 Parnell, William	ambiguous	     1
 Parnham, John	NA	     1
 Parnther, John (1706-1707)	NA	     1
-Parny, évariste Désiré De Forges (1753-1814)		     4
+Parny, évariste Désiré De Forges (1753-1814)		     3
 Parquot, P D	NA	     1
 Parr, Bartholomew (1750-1810)	male	     1
 Parr, Catharine (1512-1548)	NA	    16
@@ -35025,7 +34945,7 @@ Paterson, Francis	ambiguous	     1
 Paterson, George	ambiguous	     1
 Paterson, J W	NA	     1
 Paterson, James	NA	    25
-Paterson, James (1685-1692)	NA	     7
+Paterson, James (1685-1692)	NA	     6
 Paterson, James (1685-NA)	NA	     1
 Paterson, James (1704-1789)	NA	     1
 Paterson, James (NA-1729)	NA	     1
@@ -35167,18 +35087,17 @@ Payne, Henry (1759-1832)	ambiguous	     1
 Payne, Henry (1759-NA)	ambiguous	     2
 Payne, Henry Neville (1672-1710)	ambiguous	    10
 Payne, J	NA	     1
-Payne, James (1786-NA)	NA	     2
+Payne, James (1786-NA)	NA	     1
 Payne, James Theobald	male	     1
 Payne, John	NA	     2
 Payne, John (1597-NA)	NA	     1
 Payne, John (1731-NA)	NA	     1
 Payne, John (1793-NA)	NA	     1
-Payne, John (1800-NA)	NA	    14
 Payne, John (NA-1647)	NA	     1
 Payne, John (NA-1787)	NA	     9
 Payne, Nicholas	NA	     1
 Payne, Olive (1731-1739)	NA	    30
-Payne, Robert (1589-NA)	ambiguous	     7
+Payne, Robert (1589-NA)	ambiguous	     6
 Payne, Squier	male	     1
 Payne, Thomas	NA	    11
 Payne, Thomas (1688-1759)	NA	     3
@@ -35208,7 +35127,7 @@ Peacham, Henry (1546-1634)	ambiguous	     3
 Peacham, Henry (1576-1643)	ambiguous	    45
 Peachey, James	NA	     1
 Peachey, John	NA	     1
-Peachi, John (1683-NA)	NA	    17
+Peachi, John (1683-NA)	NA	    13
 Peachie, John	NA	     1
 Peachum, Henry	ambiguous	     1
 Peacock, Alexander (NA-1743)	ambiguous	     1
@@ -35242,11 +35161,11 @@ Pearce, Henry	ambiguous	     1
 Pearce, J	NA	     1
 Pearce, John	NA	     1
 Pearce, Samuel (1766-1799)	NA	     6
-Pearce, Thomas (1755-NA)	NA	     7
+Pearce, Thomas (1755-NA)	NA	     2
 Pearce, Wililam (1785-1796)	male	     1
 Pearce, William	ambiguous	     1
 Pearce, William (1744-1820)	ambiguous	     1
-Pearce, William (1785-1796)	ambiguous	    24
+Pearce, William (1785-1796)	ambiguous	    22
 Pearce, Zachary (1690-1774)	NA	    55
 Pearl, Stephen (1747-1816)	NA	     1
 Pearle, Richard	ambiguous	     3
@@ -35534,7 +35453,7 @@ Perceval, Spencer	NA	     4
 Percey, William	ambiguous	     1
 Percival, John	NA	     1
 Percival, Philip	NA	     1
-Percival, Thomas (1696-1697)	NA	     3
+Percival, Thomas (1696-1697)	NA	     2
 Percival, Thomas (1719-1762)	NA	     1
 Percival, Thomas (1740-1804)	NA	    56
 Percival, Thomas Bassnet (1766-1794)	NA	     1
@@ -35872,7 +35791,7 @@ Philipps, John (1700-1764)	NA	     3
 Philipps, John (1724-1728)	NA	     2
 Philipps, Michael	NA	     2
 Philipps, Philip (1676-1677)	NA	     4
-Philipps, Samuel (1786-NA)	NA	     3
+Philipps, Samuel (1786-NA)	NA	     2
 Philipps, Thomas	NA	     1
 Philips, 	NA	     1
 Philips, Ambrose (1674-1749)	NA	   102
@@ -35880,10 +35799,10 @@ Philips, David (1644-1645)	ambiguous	     2
 Philips, Diana	ambiguous	     1
 Philips, Edward	NA	     2
 Philips, Erasmus (NA-1743)	male	     7
-Philips, George (1599-1696)	ambiguous	    11
+Philips, George (1599-1696)	ambiguous	    10
 Philips, Gillam	male	     1
 Philips, Henry (NA-1789)	ambiguous	     2
-Philips, J (1716-1717)	NA	     8
+Philips, J (1716-1717)	NA	     5
 Philips, James	NA	     1
 Philips, John	NA	     2
 Philips, John (1668-1669)	NA	     1
@@ -35896,7 +35815,7 @@ Philips, Miles (1568-1582)	NA	     1
 Philips, Nicholas (1621-1622)	NA	     4
 Philips, Robert (NA-1650)	ambiguous	     4
 Philips, Thomas	NA	     1
-Philips, William (1734-1734)	ambiguous	    10
+Philips, William (NA-1734)	ambiguous	     9
 Phillimore, Joseph (1750-1831)	ambiguous	     1
 Phillip, Arthur (1738-1814)	NA	     2
 Phillippes, Henry (NA-1677)	ambiguous	    30
@@ -35912,11 +35831,11 @@ Phillips, Edward (1730-1740)	NA	    21
 Phillips, Elizabeth (1692-NA)	ambiguous	     1
 Phillips, G (1800-NA)	NA	     1
 Phillips, George (1593-1644)	ambiguous	     1
-Phillips, George (1597-1644)	ambiguous	     8
+Phillips, George (1597-1644)	ambiguous	     5
 Phillips, George (NA-1644)	ambiguous	     1
 Phillips, H	NA	    15
 Phillips, Henry	ambiguous	     9
-Phillips, J (1792-NA)	NA	     7
+Phillips, J (1792-NA)	NA	     5
 Phillips, James	NA	    11
 Phillips, Jerome (NA-1648)	ambiguous	     1
 Phillips, John	NA	    14
@@ -36342,7 +36261,7 @@ Platt, William Francis	ambiguous	     2
 Platte, T	NA	     2
 Platter, Felix (1536-1614)	NA	     2
 Plattes, Gabriel (1638-1640)	ambiguous	    12
-Platts, John (1716-1719)	NA	     7
+Platts, John (1716-1719)	NA	     6
 Platus Or Piatti, Hieronymus	male	     1
 Plautus, Titus Maccius	ambiguous	    19
 Plaw, John (1744-1820)	NA	     8
@@ -36601,7 +36520,7 @@ Pope, Alexander (1763-1835)	ambiguous	     2
 Pope, Amos (1772-1837)	ambiguous	     6
 Pope, Beata	female	     1
 Pope, Charles (1690-NA)	ambiguous	     1
-Pope, James (1675-NA)	NA	     2
+Pope, James (1675-NA)	NA	     1
 Pope, John (1743-1802)	NA	     5
 Pope, John (1749-1802)	NA	     1
 Pope, John (NA-1806)	NA	     1
@@ -36745,9 +36664,7 @@ Potter, Francis (1709-1767)	ambiguous	     2
 Potter, Henry (1733-NA)	ambiguous	     2
 Potter, Humphry Tristram (1747-1790)	male	     5
 Potter, Isaiah (1746-1817)	ambiguous	     1
-Potter, James (1686-1804)	NA	     1
-Potter, James (1736-1804)	NA	     1
-Potter, James (NA-1804)	NA	     3
+Potter, James (1736-1804)	NA	     4
 Potter, John	NA	     2
 Potter, John (1673-1747)	NA	    26
 Potter, John (1675-1739)	NA	     3
@@ -36828,7 +36745,7 @@ Powell, Rees	ambiguous	     1
 Powell, Richard (1767-1834)	ambiguous	     1
 Powell, Richard (1769-1795)	ambiguous	     1
 Powell, Robert	ambiguous	     3
-Powell, Robert (1636-1652)	ambiguous	     4
+Powell, Robert (1636-1652)	ambiguous	     3
 Powell, Robert (1771-1772)	ambiguous	     1
 Powell, Samuel (NA-1766)	NA	     1
 Powell, Sir Nathaniel	male	     1
@@ -36896,7 +36813,7 @@ Practice, Brewer	NA	     1
 Practitioner, Able	NA	     2
 Prade, Jean Le Royer	ambiguous	     1
 Pradt,  (1759-1837)	NA	     4
-Praed, John (1711-NA)	NA	     7
+Praed, John (1711-NA)	NA	     5
 Praissac, Du	NA	     4
 Pralins, 	NA	     1
 Prall, Thomas	NA	     1
@@ -37191,7 +37108,7 @@ Proprietor, Landed	NA	     2
 Prosser, Jacob	NA	     1
 Prosser, M Radclyffe	ambiguous	     1
 Prosser, Richard (1747-1839)	ambiguous	     1
-Prosser, Thomas (1790-NA)	NA	     6
+Prosser, Thomas (1790-NA)	NA	     2
 Prossor, James	NA	     1
 Prossor, M	NA	     2
 Prossor, Michael (1784-1785)	NA	     1
@@ -37423,7 +37340,7 @@ Quearmoode, Humphrey	NA	     1
 Queely, 	NA	     1
 Queensberry, Catherine Douglas (1700-1777)	ambiguous	     2
 Queensberry, Charles Douglas (1698-1778)	ambiguous	    19
-Queensberry, James Douglas (1662-1711)	ambiguous	     5
+Queensberry, James Douglas (1662-1711)	ambiguous	     4
 Queensberry, William Douglas (1725-1810)	ambiguous	    18
 Queirós, Pedro Fernandes De (NA-1615)		     2
 Quelch, John (1665-1704)	NA	     1
@@ -37508,8 +37425,7 @@ R,  (1632-1725)	NA	   108
 R,  (1635-NA)	NA	     1
 R,  (1648-1674)	NA	     1
 R,  (1649-NA)	NA	     2
-R,  (1666-NA)	NA	     1
-R,  (1705-1728)	NA	    39
+R,  (1705-1728)	NA	    25
 R,  (1714-NA)	NA	     1
 R,  (1721-NA)	NA	     1
 R,  (1727-NA)	NA	     1
@@ -37616,7 +37532,7 @@ Raleigh, Walter (1552-1618)	ambiguous	    94
 Raleigh, Walter (1586-1646)	ambiguous	     2
 Raley, William	ambiguous	     3
 Ralling, John	NA	     5
-Ralph, Benjamin (1763-1770)	ambiguous	     3
+Ralph, Benjamin (1763-1770)	ambiguous	     2
 Ralph, James (NA-1762)	NA	    31
 Ralston, Gavin	ambiguous	     2
 Ralston, Walter	ambiguous	     1
@@ -37710,7 +37626,7 @@ Randall, William (1703-1789)	ambiguous	     1
 Randall, William (1703-NA)	ambiguous	     2
 Randes, John	NA	     1
 Randie, David (1726-NA)	ambiguous	     1
-Randolph,  (1735-NA)	NA	     3
+Randolph,  (1735-NA)	NA	     2
 Randolph, Bathurst	NA	     1
 Randolph, Bernard (1643-NA)	ambiguous	     4
 Randolph, Edmund (1753-1813)	NA	    10
@@ -37753,7 +37669,7 @@ Ranson, William (1644-NA)	ambiguous	     1
 Rant, William (1563-1627)	ambiguous	     1
 Rapaway, Bryan	ambiguous	     1
 Raper, Matthew (NA-1778)	ambiguous	     2
-Raphson, Joseph (1715-1716)	ambiguous	     8
+Raphson, Joseph (1715-1716)	ambiguous	     3
 Rapin, René (1621-1687)	NA	     9
 Rapin, René (1621-1687)	NA	    30
 Rappitt, John	NA	     1
@@ -38203,7 +38119,7 @@ Reynolds, Henry (1627-1632)	ambiguous	     1
 Reynolds, Jacobus	NA	     1
 Reynolds, John	NA	    19
 Reynolds, John (1584-1614)	NA	     2
-Reynolds, John (1621-1650)	NA	    44
+Reynolds, John (1621-1650)	NA	    43
 Reynolds, John (1667-1727)	NA	    36
 Reynolds, John (1671-1758)	NA	     4
 Reynolds, John (NA-1693)	NA	     1
@@ -38233,7 +38149,7 @@ Rhodes, Benjamin (1743-1816)	ambiguous	     5
 Rhodes, Christopher (1741-NA)	ambiguous	     1
 Rhodes, Ebenezer (1762-1839)	ambiguous	     1
 Rhodes, Henry	ambiguous	     1
-Rhodes, Hugh (1550-NA)	NA	     6
+Rhodes, Hugh (1550-NA)	NA	     5
 Rhodes, John (1588-1606)	NA	     5
 Rhodes, John (1755-1606)	NA	     2
 Rhodes, Math	NA	     1
@@ -38281,7 +38197,7 @@ Rich, Barnabe (1540-1617)	NA	    37
 Rich, Charles (1706-1707)	ambiguous	     1
 Rich, Elisha (1740-1804)	ambiguous	     8
 Rich, Francis	ambiguous	     1
-Rich, Jeremiah (1664-1660)	NA	    29
+Rich, Jeremiah (1664-1660)	NA	    28
 Rich, John (1661-1761)	NA	     3
 Rich, John (1682-1761)	NA	    14
 Rich, Nathaniel (NA-1701)	NA	     1
@@ -38601,7 +38517,7 @@ Rizzetti, Giovanni (NA-1751)	ambiguous	     2
 Ro Bl, 	ambiguous	     1
 Roabard, John	NA	     1
 Roach, John (1748-NA)	NA	     5
-Roach, John (1796-NA)	NA	     6
+Roach, John (1796-NA)	NA	     5
 Roach, Richard (1662-1730)	ambiguous	     4
 Roake, John	NA	     1
 Roane, 	NA	     1
@@ -38696,7 +38612,7 @@ Robertson, Alexander (NA-1790)	ambiguous	     3
 Robertson, Andrew (NA-1817)	NA	     3
 Robertson, Archibald (1745-1813)	NA	     2
 Robertson, Arthur Grant	ambiguous	     1
-Robertson, Bartholomew (1620-NA)	male	     7
+Robertson, Bartholomew (1620-NA)	male	     3
 Robertson, Charles	ambiguous	     1
 Robertson, Daniel	ambiguous	     1
 Robertson, David	ambiguous	     2
@@ -38705,7 +38621,7 @@ Robertson, David (1794-NA)	ambiguous	     3
 Robertson, Duncan (1695-NA)	NA	     1
 Robertson, F J	NA	     1
 Robertson, George	ambiguous	     2
-Robertson, George (1633-NA)	ambiguous	     2
+Robertson, George (1633-NA)	ambiguous	     1
 Robertson, George (1750-1832)	ambiguous	     4
 Robertson, George (1770-NA)	ambiguous	     1
 Robertson, George (NA-1791)	ambiguous	     4
@@ -38773,7 +38689,7 @@ Robins, Henry	ambiguous	     3
 Robins, John	NA	     1
 Robins, Richard (NA-1702)	ambiguous	     1
 Robins, Robert	ambiguous	     3
-Robins, Thomas (1672-1685)	NA	    45
+Robins, Thomas (1672-1685)	NA	    26
 Robinson, 	NA	     4
 Robinson,  (1717-NA)	NA	     2
 Robinson,  (1755-NA)	NA	     1
@@ -38856,7 +38772,7 @@ Robinson, William	ambiguous	     9
 Robinson, William (1678-NA)	ambiguous	     1
 Robinson, William (1733-1736)	ambiguous	     1
 Robinson, William (1738-NA)	ambiguous	     2
-Robinson, William (1744-NA)	ambiguous	     4
+Robinson, William (1744-NA)	ambiguous	     2
 Robinson, William (1758-NA)	ambiguous	     1
 Robinson, William (1762-NA)	ambiguous	     1
 Robinson, William (1777-1848)	ambiguous	     1
@@ -38867,7 +38783,7 @@ Robison, John (1739-1805)	NA	    15
 Robles, M	NA	     1
 Roborough, Henry (NA-1649)	ambiguous	     3
 Robotham, Charles (1625-1700)	ambiguous	     9
-Robotham, John (1654-NA)	NA	     9
+Robotham, John (1654-NA)	NA	     5
 Robson, 	male	     2
 Robson, Charles (1598-1638)	ambiguous	     1
 Robson, Edward	NA	     1
@@ -38898,7 +38814,7 @@ Roche, John	NA	     2
 Roche, Jordan	ambiguous	     3
 Roche, Regina Maria (1764-1845)	ambiguous	    13
 Roche, Robert (1575-1629)	ambiguous	     1
-Roche, Thomas (1676-NA)	NA	     3
+Roche, Thomas (1676-NA)	NA	     2
 Rochead, Kathrine (1695-NA)	female	     1
 Rochead, Thomas	NA	     1
 Rochefort Or Rogeford, Henry	ambiguous	     1
@@ -39238,7 +39154,7 @@ Ross, David (1728-1790)	ambiguous	     9
 Ross, David (1755-1800)	ambiguous	     2
 Ross, Duncan (1764-NA)	NA	     1
 Ross, Elisabeth (1761-1763)	ambiguous	     3
-Ross, Elizabeth (1771-NA)	ambiguous	     4
+Ross, Elizabeth (1771-NA)	ambiguous	     1
 Ross, Ezra (1761-1778)	NA	     2
 Ross, George	ambiguous	     3
 Ross, George (1681-1754)	ambiguous	     2
@@ -39271,9 +39187,7 @@ Ross, Thomas (1768-1843)	NA	     1
 Ross, Thomas (1768-NA)	NA	     1
 Ross, Walter (1726-1789)	ambiguous	     1
 Ross, Walter (1738-1789)	ambiguous	     7
-Ross, William (1735-1765)	ambiguous	     2
-Ross, William (1764-1765)	ambiguous	     5
-Ross, William (NA-1765)	ambiguous	     5
+Ross, William (1735-NA)	ambiguous	     7
 Ross, William Morrey (NA-1818)	ambiguous	     1
 Ross, William-george-simon-david	NA	     1
 Ross, Zephaniah	ambiguous	     2
@@ -39338,7 +39252,6 @@ Rous, George (1744-1802)	ambiguous	    22
 Rous, J	NA	     1
 Rous, John (1411-1491)	NA	     3
 Rous, John (1655-1730)	NA	     1
-Rous, John (1695-NA)	NA	     1
 Rous, John (NA-1695)	NA	     3
 Rous, Thomas (1620-1690)	NA	     1
 Rous, Thomas Bates	NA	     5
@@ -39370,7 +39283,7 @@ Row, Henry	ambiguous	     1
 Row, James	NA	    15
 Row, John (1598-1672)	NA	     4
 Row, Mary	ambiguous	     1
-Row, Peter (1662-NA)	NA	     2
+Row, Peter (1662-NA)	NA	     1
 Row, William	ambiguous	     2
 Rowan, Archibald Hamilton (1751-1834)	NA	     6
 Rowan, Bessy	NA	     1
@@ -39452,7 +39365,6 @@ Royle, Thomas	NA	     1
 Royon, 	NA	     1
 Roys, Job (1633-1663)	NA	     1
 Royse, George (1654-1708)	ambiguous	     3
-Royse, George (1708-1708)	ambiguous	     1
 Royston, Thomas	NA	     1
 Rozea, J	NA	     1
 Rozea, Jassintour	NA	     2
@@ -39578,7 +39490,6 @@ Russel, Robert (1692-NA)	ambiguous	   106
 Russel, Thomas (1765-NA)	NA	     5
 Russel, William	ambiguous	     2
 Russel, William (1690-1761)	ambiguous	     2
-Russel, William (1702-NA)	ambiguous	     1
 Russel, William (1793-NA)	ambiguous	     2
 Russel, William (NA-1702)	ambiguous	     7
 Russel, William Augustus	ambiguous	     4
@@ -39604,7 +39515,7 @@ Russell, James (1799-1836)	NA	     1
 Russell, James (NA-1836)	NA	     2
 Russell, John	NA	    20
 Russell, John (1660-1723)	NA	     2
-Russell, John (1660-NA)	NA	     2
+Russell, John (1660-NA)	NA	     1
 Russell, John (1693-1694)	NA	     2
 Russell, John (1710-1796)	NA	     7
 Russell, John (1740-1817)	NA	     1
@@ -39682,7 +39593,7 @@ Rutland, John Manners (1604-1679)	NA	     1
 Rutland, John Manners (1638-1711)	NA	     2
 Rutland, John Manners (1696-1779)	NA	     1
 Rutland, Mary Isabella Manners (1756-1831)	ambiguous	     1
-Rutledge, Jean Jacques (1742-1794)	ambiguous	    16
+Rutledge, Jean Jacques (1742-1794)	ambiguous	    15
 Rutledge, Thomas (1744-1818)	NA	     3
 Rutt, John Towill (1760-1841)	NA	     1
 Rutter, John (1711-1772)	NA	     2
@@ -39820,7 +39731,7 @@ Sadler, John (1615-1674)	NA	     8
 Sadler, Michael Thomas (1780-1835)	NA	     2
 Sadler, Ralph (1507-1587)	ambiguous	     2
 Sadler, Robert (1754-1839)	ambiguous	     4
-Sadler, Thomas (1766-1768)	NA	    10
+Sadler, Thomas (1766-1768)	NA	     9
 Sael, George (1760-1799)	ambiguous	     7
 Saer, Richard	ambiguous	     1
 Saffin, John (1632-1710)	NA	     1
@@ -39909,7 +39820,7 @@ Sales, W	NA	     1
 Sales, William	ambiguous	     1
 Salesbury, Henry (1561-1637)	ambiguous	     1
 Salesbury, William (1520-1600)	ambiguous	     5
-Salgado, James (1680-NA)	NA	    14
+Salgado, James (1680-NA)	NA	    13
 ṣalībī, Dionysius (1171-NA)	male	     1
 Salignac, Bernard	ambiguous	     1
 Salis Marschlins, Karl Ulysses Von (1762-1818)	ambiguous	     1
@@ -39978,7 +39889,7 @@ Salthouse, Thomas (1630-1691)	NA	     7
 Saltmarsh, Edward (1656-1737)	NA	     1
 Saltmarsh, John (NA-1647)	NA	    39
 Saltonstall,  (1782-NA)	NA	     1
-Saltonstall, Charles (1642-NA)	ambiguous	     3
+Saltonstall, Charles (1642-NA)	ambiguous	     2
 Saltonstall, Gurdon (1666-1724)	male	     2
 Saltonstall, Walter	ambiguous	     1
 Saltonstall, Winthrop (1775-1802)	NA	     1
@@ -40035,7 +39946,7 @@ Samuel, Edward (1647-1748)	NA	     2
 Samuel, John (1742-NA)	NA	     1
 Samuel, Keimer	NA	     1
 Samuel, Richard (NA-1787)	ambiguous	     1
-Samuel, William (1551-1569)	ambiguous	     5
+Samuel, William (1551-1569)	ambiguous	     3
 Samuells, Paul Stevens	ambiguous	     1
 Samwayes, Richard (1614-1669)	ambiguous	     1
 Samways, Peter (1615-1693)	NA	     3
@@ -40192,14 +40103,13 @@ Sauce-pan, Susan	ambiguous	     1
 Saugnier, 	NA	     1
 Saul, Arthur	NA	     6
 Saul, Edward (1677-1754)	NA	     3
-Saul, Joseph (1797-NA)	ambiguous	     4
+Saul, Joseph (1797-NA)	ambiguous	     3
 Saul, Samuel	NA	     1
 Saulnier, John	NA	     2
 Sault, Richard (NA-1702)	ambiguous	    16
 Saumaise, Claude (1588-1653)	ambiguous	     6
 Saumarez, Richard (1764-1835)	ambiguous	     3
 Saumières, Jacques De Langlade (1620-1680)		     1
-Saunder, Richard (1735-1736)	ambiguous	     3
 Saunders,  (1744-NA)	NA	     1
 Saunders, C (1681-NA)	NA	     1
 Saunders, Charles (1713-1775)	ambiguous	     1
@@ -40512,17 +40422,17 @@ Scortreth, George (1612-1613)	ambiguous	     4
 Scory, John (NA-1585)	NA	     1
 Scoryer, Richard (1648-1715)	ambiguous	     4
 Scostrop, Richard	ambiguous	     1
-Scot, Alexander (1785-NA)	ambiguous	     5
+Scot, Alexander (1785-NA)	ambiguous	     3
 Scot, Andrew	NA	     1
 Scot, Archibald	NA	     1
 Scot, Charles (1763-1794)	ambiguous	     2
 Scot, David	ambiguous	     6
 Scot, George (1776-1685)	ambiguous	     3
 Scot, Hercules	male	     1
-Scot, Isabella (1748-NA)	NA	     3
+Scot, Isabella (1748-NA)	NA	     2
 Scot, James	NA	     8
 Scot, James (1696-NA)	NA	     1
-Scot, James (1774-NA)	NA	     2
+Scot, James (1774-NA)	NA	     1
 Scot, Jean	ambiguous	     1
 Scot, John (1748-1749)	NA	    19
 Scot, Marion	ambiguous	     1
@@ -40537,12 +40447,10 @@ Scot, Robert (1744-1823)	ambiguous	     1
 Scot, Robert (1744-NA)	ambiguous	     1
 Scot, Tho (1605-NA)	male	     7
 Scot, Thomas (1721-1790)	NA	     5
-Scot, Walter	ambiguous	     2
-Scot, Walter (1614-1694)	ambiguous	     4
-Scot, Walter (1686-1691)	ambiguous	     1
+Scot, Walter (1614-1694)	ambiguous	     6
 Scot, William	ambiguous	     8
 Scot, William (1718-NA)	ambiguous	     1
-Scot, William (1723-NA)	ambiguous	     3
+Scot, William (1723-NA)	ambiguous	     2
 Scotcher, Richard	ambiguous	     2
 Scoticus, 	NA	     1
 Scotius, Junius	male	     1
@@ -40575,7 +40483,6 @@ Scott, Gregory (1532-1576)	ambiguous	     1
 Scott, Gulielmus	male	     1
 Scott, Helen (1756-1791)	ambiguous	     1
 Scott, Helenus (1760-1821)	male	     8
-Scott, J (1831-1832)	NA	     2
 Scott, James	NA	    11
 Scott, James (1699-1782)	NA	     1
 Scott, James (1733-1814)	NA	    25
@@ -40621,7 +40528,7 @@ Scott, Robert (NA-1774)	ambiguous	     1
 Scott, Robert B (1774-1841)	ambiguous	     1
 Scott, Sarah (1723-1795)	ambiguous	    22
 Scott, T	NA	     1
-Scott, Tho (1605-NA)	male	     2
+Scott, Tho (1605-NA)	male	     1
 Scott, Thomas	NA	     6
 Scott, Thomas (1580-1626)	NA	    52
 Scott, Thomas (1580-1660)	NA	     1
@@ -40665,7 +40572,7 @@ Screven, Richard Bedon (1778-1856)	ambiguous	     1
 Scribble, Timothy	NA	     1
 Scribblewit, Humphry	male	     1
 Scriblerius, 	NA	     1
-Scriblerus,  (1748-NA)	NA	     4
+Scriblerus,  (1748-NA)	NA	     3
 Scriblerus, Andrew	NA	     2
 Scriblerus, Galfridus	NA	     1
 Scriblerus, Simon	ambiguous	     1
@@ -40732,8 +40639,8 @@ Seale, John (1790-NA)	NA	     2
 Seale, John Barlow (1753-1838)	NA	     6
 Seall, Robert	ambiguous	     1
 Seally, John (1747-1795)	NA	    19
-Seaman,  (1745-NA)	NA	     7
-Seaman, Henry (1675-NA)	ambiguous	     4
+Seaman,  (1745-NA)	NA	     5
+Seaman, Henry (1675-NA)	ambiguous	     3
 Seaman, Lazarus (NA-1675)	male	     6
 Seaman, Robert (1795-NA)	ambiguous	     1
 Seaman, Valentine (1770-1817)	ambiguous	     4
@@ -40944,7 +40851,6 @@ Service, John Paterson	male	     1
 Serviés, F	NA	     1
 Serviez, Emmanuel-gervais Roergas De (1755-1804)		     1
 Serviez, Jacques Roergas De (1679-1727)		     2
-Serviez, Jaques Roergas De (1755-1804)		     2
 Servis, Peter	NA	     1
 Sessions, Darius	ambiguous	     2
 Sestini, Domenico (1750-1832)	NA	     1
@@ -41046,7 +40952,7 @@ Shaftesbury, Anthony Ashly Cooper (1621-1683)	ambiguous	     1
 Shaftoe, Frances	ambiguous	     7
 Shafton, Benjamin	ambiguous	     1
 Shakelton, Francis	ambiguous	     1
-Shakerley, Jeremy (1651-NA)	ambiguous	     3
+Shakerley, Jeremy (1651-NA)	ambiguous	     2
 Shakespear, Edward (NA-1748)	NA	     2
 Shakespear, John	NA	     3
 Shakespeare, John	NA	     1
@@ -41201,7 +41107,7 @@ Sheddan, John	NA	     1
 Sheddan, Robert	ambiguous	     1
 Sheddan, Thomas	NA	     1
 Shee, Peter (NA-1767)	NA	     1
-Shee, Richard (1713-NA)	ambiguous	     2
+Shee, Richard (1713-NA)	ambiguous	     1
 Sheehan, John (1764-1787)	NA	     1
 Sheehen, Bryan (1732-1772)	ambiguous	     1
 Sheehy, Edmond (NA-1766)	NA	     1
@@ -41229,14 +41135,14 @@ Sheldon, John (1752-1808)	NA	     4
 Sheldon, Richard (NA-1642)	ambiguous	    10
 Sheldon, W	NA	     1
 Sheldrake, Timothy (1783-1770)	NA	     5
-Sheldrake, Timothy (1783-1806)	NA	     5
+Sheldrake, Timothy (1783-1806)	NA	     4
 Sheldrake, William	ambiguous	     1
 Shelford, Robert (1562-1627)	ambiguous	     5
 Shelley, George (1666-1736)	ambiguous	    12
 Shelley, Peter (1650-1651)	NA	     2
 Shelley, Richard (1513-1589)	ambiguous	     1
 Shelton, Joseph (1691-1696)	ambiguous	    16
-Shelton, Maurice (1718-NA)	ambiguous	     7
+Shelton, Maurice (1718-NA)	ambiguous	     6
 Shelton, S	NA	     1
 Shelton, Thomas (1601-1650)	NA	    42
 Shelton, William (NA-1699)	ambiguous	     7
@@ -41253,7 +41159,7 @@ Shepard, Thomas (1635-1677)	NA	     2
 Shepheard, James (NA-1718)	NA	    11
 Shepheard, John (1652-NA)	NA	     2
 Shepheard, Richard (1619-NA)	ambiguous	     1
-Shepheard, Samuel (1702-NA)	NA	     2
+Shepheard, Samuel (1702-NA)	NA	     1
 Shepheard, William (1696-1697)	ambiguous	     1
 Shepherd, 	NA	     1
 Shepherd, A	NA	     1
@@ -41564,7 +41470,7 @@ Sime, Robertus	ambiguous	     1
 Sime, Walter	ambiguous	     1
 Simēon,  (1710-1780)	NA	     1
 Simeon,  (NA-1130)	ambiguous	     2
-Simeon, Charles (1759-1836)	ambiguous	     9
+Simeon, Charles (1759-1836)	ambiguous	     8
 Simeon, John (1756-1824)	NA	     3
 Simes, Thomas (1757-1780)	NA	    20
 Simiana, Carlo Emanuele Filiberto Giacinto Da (1608-1677)	ambiguous	     1
@@ -41727,7 +41633,7 @@ Sitwell, Elkanah	NA	     1
 Sivertsen, Jens	NA	     3
 Sivret, Thomas (1751-1790)	NA	     1
 Six, James (1731-1793)	NA	     2
-Sixmith, Bryan (1679-1679)	ambiguous	     3
+Sixmith, Bryan (NA-1679)	ambiguous	     2
 Sixmith, William (1655-1677)	ambiguous	     3
 Sixtus,  (1521-1590)	male	     1
 Sixtus, Quartus Quintus	male	     1
@@ -41835,7 +41741,7 @@ Slashthem, Drawcansir	NA	     1
 Slater, 	NA	     2
 Slater, Henry	ambiguous	     1
 Slater, John (1663-NA)	NA	     1
-Slater, Samuel (1704-1704)	NA	    26
+Slater, Samuel (NA-1704)	NA	    25
 Slater, Thomas (NA-1721)	NA	     1
 Slater, W	NA	     1
 Slatholm, William	ambiguous	     1
@@ -41974,7 +41880,7 @@ Smith, Benjamin (1642-1714)	ambiguous	     2
 Smith, Benjamin (1750-1829)	ambiguous	     1
 Smith, Brabazon	NA	     1
 Smith, Caleb (1723-1762)	NA	     3
-Smith, Caleb (1740-1762)	NA	     3
+Smith, Caleb (1740-1762)	NA	     1
 Smith, Charles (1713-1777)	ambiguous	     7
 Smith, Charles (1715-1762)	ambiguous	    15
 Smith, Charles (1749-1824)	ambiguous	     2
@@ -42031,7 +41937,6 @@ Smith, George (1713-1776)	ambiguous	     2
 Smith, George (1718-NA)	ambiguous	     1
 Smith, George (1737-1808)	ambiguous	     1
 Smith, George (1754-NA)	ambiguous	     1
-Smith, George (1758-NA)	ambiguous	     1
 Smith, George (1763-1817)	ambiguous	     6
 Smith, George (1790-NA)	ambiguous	     1
 Smith, Godfrey	male	    11
@@ -42059,7 +41964,7 @@ Smith, Horace (1779-1849)	ambiguous	     1
 Smith, Hugh	NA	     2
 Smith, Hugh (1730-1790)	NA	     8
 Smith, Hugh (1736-1789)	NA	    21
-Smith, Humphrey (1663-1663)	NA	    51
+Smith, Humphrey (1663-1663)	NA	    48
 Smith, Humphry (1654-1655)	male	    17
 Smith, Is	ambiguous	     2
 Smith, Isaac	NA	     1
@@ -42127,7 +42032,7 @@ Smith, John (1755-NA)	NA	     3
 Smith, John (1763-NA)	NA	     2
 Smith, John (1766-1831)	NA	     2
 Smith, John (1798-1804)	NA	     1
-Smith, John (1800-NA)	NA	     2
+Smith, John (1800-NA)	NA	     1
 Smith, John (NA-1684)	NA	     1
 Smith, John (NA-1704)	NA	     1
 Smith, John (NA-1718)	NA	     1
@@ -42168,7 +42073,6 @@ Smith, Nathaniel (1730-1794)	NA	    12
 Smith, Nicholas (NA-1680)	NA	     5
 Smith, Noah (1756-1812)	ambiguous	     1
 Smith, Patrick	NA	     4
-Smith, Peter (1652-NA)	NA	     1
 Smith, Peter (1787-NA)	NA	     1
 Smith, Philip (NA-1664)	NA	     5
 Smith, Preserved (1759-1834)	male	     2
@@ -42245,7 +42149,6 @@ Smith, William (1615-1616)	ambiguous	     7
 Smith, William (1616-1696)	ambiguous	     1
 Smith, William (1651-1735)	ambiguous	     3
 Smith, William (1660-1686)	ambiguous	    11
-Smith, William (1673-NA)	ambiguous	     6
 Smith, William (1697-1769)	ambiguous	     1
 Smith, William (1701-NA)	ambiguous	     1
 Smith, William (1711-1787)	ambiguous	     5
@@ -42255,7 +42158,7 @@ Smith, William (1728-1793)	ambiguous	    22
 Smith, William (1731-1753)	ambiguous	     1
 Smith, William (1754-1821)	ambiguous	     9
 Smith, William (1758-1812)	ambiguous	    20
-Smith, William (1770-NA)	ambiguous	     2
+Smith, William (1770-NA)	ambiguous	     1
 Smith, William (1787-NA)	ambiguous	     1
 Smith, William (NA-1673)	ambiguous	    73
 Smith, William (NA-1750)	ambiguous	     4
@@ -42279,7 +42182,7 @@ Smollet, Alexander	ambiguous	     2
 Smollet, George (NA-1744)	ambiguous	     2
 Smollet, James (1683-1714)	NA	     1
 Smollett, T (1721-1771)	NA	     1
-Smollett, Tobias George (1721-1771)	ambiguous	   232
+Smollett, Tobias George (1721-1771)	ambiguous	   228
 Smoult, Thomas	NA	     2
 Smut, 	NA	     1
 Smyth, Agnes (NA-1783)	NA	     2
@@ -42324,7 +42227,7 @@ Smythe, John (1534-1607)	NA	     2
 Smythe, John (1727-1769)	NA	     2
 Smythies,  (1753-1759)	NA	    12
 Smythies, Humphry (1723-1806)	male	     1
-Smythies, William (1715-1715)	ambiguous	    31
+Smythies, William (NA-1715)	ambiguous	    30
 Smythies, Yorick (1737-1824)	male	     1
 Smythson, Hugh	NA	     2
 Smyton, David	ambiguous	     2
@@ -42342,7 +42245,7 @@ Snawsel, Robert	ambiguous	     3
 Snelgrave, William (NA-1763)	ambiguous	     2
 Snell, Charles (1667-1733)	ambiguous	    25
 Snell, George (NA-1656)	ambiguous	     3
-Snell, John (1793-NA)	NA	     2
+Snell, John (1793-NA)	NA	     1
 Snell, Vyner	NA	     2
 Snelling, Thomas (1712-1713)	NA	     1
 Snelling, Thomas (1712-1773)	NA	    15
@@ -42403,7 +42306,6 @@ Solvyns, Balt (1760-1824)	male	     2
 Some, David	ambiguous	     5
 Some, Robert (1542-1609)	ambiguous	     9
 Some, Thomas (1510-NA)	NA	     1
-Somebody,  (1908-NA)	NA	     2
 Somer, Paulus Van	ambiguous	     1
 Somers, 	NA	     3
 Somers, Edmund Sigismund (1759-1824)	male	     1
@@ -42579,7 +42481,7 @@ Sparrman, Anders (1748-1820)	NA	     5
 Sparrow, Anthony (1612-1685)	NA	    18
 Sparrow, George	ambiguous	     1
 Sparrow, Henry	ambiguous	     2
-Sparrow, John (1799-NA)	NA	     9
+Sparrow, John (1799-NA)	NA	     6
 Sparrow, Samuel (NA-1776)	NA	     1
 Sparrow, Thomas	NA	     1
 Sparrow, William (1743-1816)	ambiguous	     2
@@ -42599,7 +42501,7 @@ Speckman, Charles (NA-1763)	ambiguous	     1
 Spectator, Sad	ambiguous	     1
 Spedding, Thomas	NA	     1
 Speechly, William	ambiguous	     8
-Speed, Adolphus (1652-1659)	male	     2
+Speed, Adolphus (1652-1659)	male	     1
 Speed, John	NA	     2
 Speed, John (1552-1629)	NA	   112
 Speed, John (1628-1711)	NA	    10
@@ -42632,7 +42534,6 @@ Spence, James (1721-1786)	NA	     5
 Spence, Janet (1796-NA)	ambiguous	     1
 Spence, John (NA-1790)	NA	     5
 Spence, Joseph (1699-1768)	ambiguous	    27
-Spence, Robert (1629-NA)	ambiguous	     1
 Spence, Sarah	ambiguous	     1
 Spence, Thomas (1750-1814)	NA	    31
 Spence, William	ambiguous	     3
@@ -42715,7 +42616,7 @@ Spooner, Gulielmus (1760-1836)	male	     1
 Spooner, Henry (1692-NA)	ambiguous	     1
 Spooner, John Jones (1757-1799)	NA	     1
 Spooner, Lawrence	ambiguous	     2
-Spooner, Thomas (1762-NA)	NA	     9
+Spooner, Thomas (1762-NA)	NA	     8
 Sportarivs, T	NA	     1
 Spotiswood, James	NA	     1
 Spotiswood, John (1667-1728)	NA	    17
@@ -42818,7 +42719,7 @@ St Paul, P	NA	     1
 St Pierre, Paul De		     2
 St Quentin, Dominique De		     4
 St Ruth, Charles Chalmont (NA-1691)	ambiguous	     2
-St Serfe, Thomas (1668-NA)	NA	     6
+St Serfe, Thomas (1668-NA)	NA	     1
 St,  (1720-1782)	NA	     1
 St, C	NA	     3
 St⁰ahlberg, Georg Georgson	ambiguous	     1
@@ -42841,7 +42742,7 @@ Stackhouse, Thomas (1756-1836)	NA	     7
 Stacpoole, George	ambiguous	     3
 Stacpoole, Joseph	ambiguous	     1
 Stacpoole, Massey	ambiguous	     1
-Stacy, Edmund (1710-1715)	NA	    29
+Stacy, Edmund (1710-1715)	NA	    28
 Stacy, Francis	ambiguous	     1
 Stacy, H P	NA	     2
 Stacy, John	NA	     1
@@ -43036,7 +42937,7 @@ Staveley, Christopher (1759-1833)	ambiguous	     1
 Staveley, Leonard	ambiguous	     1
 Staveley, Luke	NA	     1
 Staveley, Thomas (1626-1684)	NA	     5
-Stavely, William (1796-NA)	ambiguous	     3
+Stavely, William (1796-NA)	ambiguous	     1
 Stavorinus, Johan Splinter (1739-1788)	ambiguous	     1
 Stawell, John (1599-1622)	NA	     1
 Stawell, John (1599-1662)	NA	    11
@@ -43094,7 +42995,7 @@ Steele, Joshua	ambiguous	     4
 Steele, Peter (1748-NA)	NA	     1
 Steele, Richard (1629-1692)	ambiguous	    19
 Steele, Richard (1672-1729)	ambiguous	   266
-Steele, Richard (1793-NA)	ambiguous	     3
+Steele, Richard (1793-NA)	ambiguous	     2
 Steele, William (NA-1680)	ambiguous	     3
 Steell, Isaac	NA	     1
 Steell, Robert (NA-1726)	ambiguous	     2
@@ -43149,7 +43050,7 @@ Stephen, Thomas	NA	     4
 Stephens, D	NA	     1
 Stephens, David	ambiguous	     1
 Stephens, Edward (1640-1660)	NA	     1
-Stephens, Edward (1747-1765)	NA	     6
+Stephens, Edward (1747-1765)	NA	     5
 Stephens, Edward (NA-1706)	NA	    89
 Stephens, Francis (1693-NA)	ambiguous	     2
 Stephens, George (1685-1751)	ambiguous	     2
@@ -43293,7 +43194,7 @@ Stevenson, Andrew (1588-1664)	NA	     8
 Stevenson, Archibald (NA-1784)	NA	     2
 Stevenson, B (NA-1756)	NA	     1
 Stevenson, Catherine	ambiguous	     1
-Stevenson, George (1738-1741)	ambiguous	     3
+Stevenson, George (1738-1741)	ambiguous	     2
 Stevenson, George Pitt (1760-1819)	ambiguous	     1
 Stevenson, Helen	ambiguous	     1
 Stevenson, Henry	ambiguous	     9
@@ -43377,7 +43278,7 @@ Stewart, John (1687-1764)	NA	     1
 Stewart, John (1704-1763)	NA	     1
 Stewart, John (1726-1797)	NA	     2
 Stewart, John (1749-1822)	NA	    12
-Stewart, John (1757-NA)	NA	     4
+Stewart, John (1757-NA)	NA	     2
 Stewart, John (1762-NA)	NA	     2
 Stewart, John (1778-1797)	NA	     1
 Stewart, John (NA-1722)	NA	     1
@@ -43395,7 +43296,7 @@ Stewart, Michael (1711-1796)	NA	     7
 Stewart, Peter	NA	     1
 Stewart, Rachel	ambiguous	     1
 Stewart, Robert	ambiguous	    13
-Stewart, Robert (1742-NA)	ambiguous	     3
+Stewart, Robert (1742-NA)	ambiguous	     2
 Stewart, Robert (1746-NA)	ambiguous	     7
 Stewart, Sir James	male	     1
 Stewart, Thomas (1772-1802)	NA	    12
@@ -43575,7 +43476,7 @@ Stonhouse, James (1716-1795)	NA	    85
 Stonhouse, John	NA	     2
 Stonor, John Talbot (1678-1756)	ambiguous	     1
 Stooke, Francis	ambiguous	     1
-Stooks, Richard (1651-1652)	ambiguous	     6
+Stooks, Richard (1651-1652)	ambiguous	     5
 Stoot, William	ambiguous	     1
 Stopes, Leonard (1540-1587)	ambiguous	     1
 Stopford, James (NA-1759)	NA	     2
@@ -43608,7 +43509,7 @@ Story, Christopher (1648-1720)	ambiguous	     2
 Story, Enoch (NA-1779)	NA	     1
 Story, Enoch (NA-1807)	NA	     1
 Story, G (1738-1818)	NA	     1
-Story, George Warter (1721-1721)	ambiguous	     9
+Story, George Warter (NA-1721)	ambiguous	     8
 Story, Isaac (1749-1816)	NA	     3
 Story, Isaac (1774-1803)	NA	     3
 Story, John (1792-1681)	NA	     4
@@ -43625,7 +43526,7 @@ Stoughton, Anthony	NA	     1
 Stoughton, John (NA-1639)	NA	    20
 Stoughton, Richard (1665-1716)	ambiguous	     4
 Stoughton, Thomas	NA	     5
-Stoughton, William (1584-NA)	ambiguous	     4
+Stoughton, William (1584-NA)	ambiguous	     3
 Stoughton, William (1632-1702)	ambiguous	     3
 Stoughton, William (NA-1718)	ambiguous	     4
 Stouppe, James	NA	     1
@@ -43701,7 +43602,7 @@ Stratford, Euseby	NA	     1
 Stratford, Ferdinando	NA	     5
 Stratford, Francis Paul	ambiguous	     1
 Stratford, Nicholas (1633-1707)	NA	    12
-Stratford, Thomas (1784-NA)	NA	     4
+Stratford, Thomas (1784-NA)	NA	     2
 Strathmore And Kinghorne, Thomas Lyon (1704-1753)	NA	     3
 Strathmore, John Bowes (1769-1820)	male	     1
 Strathmore, John Lyon (1737-1776)	NA	     3
@@ -43801,7 +43702,7 @@ Stuart, Andrew (1725-1801)	NA	    15
 Stuart, C (1777-1791)	NA	    10
 Stuart, C (1794-1791)	NA	     4
 Stuart, Charles	ambiguous	     5
-Stuart, Charles (1743-NA)	ambiguous	     2
+Stuart, Charles (1743-NA)	ambiguous	     1
 Stuart, Charles (1745-1826)	ambiguous	     2
 Stuart, Charles (1757-1828)	ambiguous	     1
 Stuart, Daniel (1766-1846)	ambiguous	     6
@@ -43843,7 +43744,7 @@ Stubbs, Richard	ambiguous	     1
 Stubbs, Thomas (NA-1673)	NA	     3
 Stubbs, W	NA	     9
 Stubs, Philip (1665-1738)	NA	    39
-Stuckey, John (1742-1783)	NA	     2
+Stuckey, John (1742-1783)	NA	     1
 Stuckey, John (1753-1783)	NA	     1
 Stuckley, Lewis (1621-1687)	ambiguous	     4
 Stucley, Lewis (NA-1620)	ambiguous	     1
@@ -43859,7 +43760,7 @@ Sturch, John (NA-1794)	NA	    10
 Sturch, William (1753-1838)	ambiguous	     1
 Sturgeon, Robert	ambiguous	     1
 Sturges, Charles (1776-1802)	ambiguous	     2
-Sturges, John (1736-1807)	NA	    12
+Sturges, John (1736-1807)	NA	    11
 Sturges, Joshua (NA-1813)	ambiguous	     1
 Sturges, Samuel	NA	     1
 Sturgion, John	NA	     1
@@ -44080,7 +43981,7 @@ Sweetnam, John (1581-1622)	NA	     2
 Sweft, Jirah	ambiguous	     1
 Swendsen, Haagen (NA-1702)	male	     4
 Swetenham, Edmund (1654-NA)	NA	     1
-Swetnam, Joseph (1617-NA)	ambiguous	    22
+Swetnam, Joseph (1617-NA)	ambiguous	    19
 Swieten, Gerard (1700-1772)	ambiguous	    21
 Swieten, Gottfried Van (1734-1803)	ambiguous	     3
 Swift-sight, Patrick	NA	     1
@@ -44261,7 +44162,7 @@ T,  (1548-NA)	NA	     1
 T,  (1549-1608)	NA	    17
 T,  (1560-NA)	NA	     2
 T,  (1573-1595)	NA	     1
-T,  (1579-NA)	NA	    13
+T,  (1579-NA)	NA	    12
 T,  (1587-1638)	NA	     2
 T,  (1587-NA)	NA	     2
 T,  (1588-NA)	NA	     1
@@ -44280,9 +44181,9 @@ T,  (1629-NA)	NA	     1
 T,  (1630-NA)	NA	     1
 T,  (1631-1683)	NA	     5
 T,  (1638-NA)	NA	     1
-T,  (1640-NA)	NA	     6
+T,  (1640-NA)	NA	     4
 T,  (1660-1694)	NA	     7
-T,  (1668-NA)	NA	     4
+T,  (1668-NA)	NA	     3
 T,  (1672-1680)	NA	     2
 T,  (1676-NA)	NA	     1
 T,  (1681-1688)	NA	     1
@@ -44436,7 +44337,7 @@ Taswell, William (1708-1775)	ambiguous	     2
 Tate, J (1687-NA)	NA	     1
 Tate, James	NA	     1
 Tate, Joseph	ambiguous	     1
-Tate, Nahum (1652-1715)	NA	   123
+Tate, Nahum (1652-1715)	NA	   122
 Tate, Robert	ambiguous	     2
 Tatem, William	ambiguous	     1
 Tatersal, Robert	ambiguous	     2
@@ -44482,7 +44383,7 @@ Tayler, W	NA	     3
 Tayleur, William	ambiguous	     1
 Taylor, 	ambiguous	     6
 Taylor, Abdias (NA-1746)	male	     1
-Taylor, Abraham (1727-1740)	ambiguous	    19
+Taylor, Abraham (1727-1740)	ambiguous	    18
 Taylor, Adam (NA-1832)	ambiguous	     3
 Taylor, Amos (1748-NA)	ambiguous	     2
 Taylor, Archibald	NA	     1
@@ -44508,7 +44409,7 @@ Taylor, Frances (NA-1685)	ambiguous	     1
 Taylor, Francis (1590-1656)	ambiguous	    13
 Taylor, G	NA	     1
 Taylor, Geo	ambiguous	     1
-Taylor, George (1778-NA)	ambiguous	     9
+Taylor, George (1778-NA)	ambiguous	     8
 Taylor, George Keith (1769-1815)	ambiguous	     1
 Taylor, H (1790-NA)	NA	     1
 Taylor, Hannah (1760-1776)	ambiguous	     1
@@ -44931,13 +44832,12 @@ Thomond, Henry O'brien (1688-1741)	ambiguous	     3
 Thompkins, Edward	NA	     2
 Thompson,  (1786-NA)	male	     1
 Thompson, Abraham	ambiguous	     1
-Thompson, Anthony (1665-1666)	NA	     1
 Thompson, Archer (NA-1805)	ambiguous	     2
 Thompson, Benjamin (1776-1816)	ambiguous	     1
 Thompson, C (1780-NA)	NA	     1
 Thompson, Charles	ambiguous	     1
 Thompson, Charles (1710-NA)	ambiguous	     8
-Thompson, Charles (1750-NA)	ambiguous	    12
+Thompson, Charles (1750-NA)	ambiguous	     7
 Thompson, Edward (1738-1786)	NA	    27
 Thompson, Eliza	NA	     1
 Thompson, Francis (1665-1666)	ambiguous	     2
@@ -44950,7 +44850,7 @@ Thompson, Henry (NA-1658)	ambiguous	     1
 Thompson, Henry Fred	ambiguous	     1
 Thompson, Isaac (1703-1776)	NA	     7
 Thompson, J	NA	    17
-Thompson, J (1763-NA)	NA	     4
+Thompson, J (1763-NA)	NA	     3
 Thompson, J (1772-NA)	NA	     1
 Thompson, James (1797-NA)	NA	     5
 Thompson, John (1740-1805)	NA	     2
@@ -44999,7 +44899,7 @@ Thompson, William (1759-1811)	ambiguous	     4
 Thompson, William (NA-1649)	ambiguous	     4
 Thomson,  (1681-1851)	NA	     1
 Thomson,  (1757-1851)	NA	     4
-Thomson,  (1788-1851)	NA	     4
+Thomson,  (1788-1851)	NA	     3
 Thomson, Adam (NA-1767)	ambiguous	     3
 Thomson, Alexander	ambiguous	    10
 Thomson, Alexander (1722-1800)	ambiguous	     1
@@ -45039,12 +44939,11 @@ Thomson, John (1733-1807)	NA	    14
 Thomson, John (1741-1822)	NA	     4
 Thomson, John (1754-1799)	NA	     8
 Thomson, John (1765-1846)	NA	     1
-Thomson, John (1773-1807)	NA	     1
 Thomson, John (1776-1799)	NA	     1
 Thomson, John (NA-1753)	NA	     5
 Thomson, Kate	NA	     1
 Thomson, Katharine (1793-NA)	NA	     1
-Thomson, Margaret (1774-NA)	ambiguous	     3
+Thomson, Margaret (1774-NA)	ambiguous	     2
 Thomson, Nicolas	NA	     1
 Thomson, P	NA	     1
 Thomson, Patrick	NA	     1
@@ -45126,7 +45025,7 @@ Thornycroft, John	NA	     1
 Thorogood, B	NA	     1
 Thorogood, Stephen	NA	     1
 Thorold, John (1703-1775)	NA	     8
-Thorold, Thomas (1766-NA)	NA	     6
+Thorold, Thomas (1766-NA)	NA	     3
 Thoroton, Robert (1623-1678)	ambiguous	     3
 Thorowgood, Edmund	NA	     1
 Thorowgood, G	NA	     1
@@ -45223,7 +45122,6 @@ Ticwhit, G	NA	     1
 Tidcombe, Jeremiah (NA-1740)	NA	     4
 Tidcombe, John	NA	     1
 Tidd, William (1760-1847)	ambiguous	     6
-Tidd, William (1847-1847)	ambiguous	     1
 Tide-waiter, At Cove	ambiguous	     1
 Tielke, Johann Gottlieb (1731-1787)	ambiguous	     2
 Tierney, George (1731-1830)	ambiguous	     1
@@ -45300,7 +45198,7 @@ Tinney, John (1706-1761)	NA	     3
 Tinning, Francis	ambiguous	     1
 Tinwald, Charles Erskine (1680-1763)	ambiguous	     3
 Tinwell, William	ambiguous	     1
-Tiphaigne De La Roche, Charles-françois (1722-1774)	NA	     3
+Tiphaigne De La Roche, Charles-françois (1722-1774)	NA	     2
 Tipper, Elizabeth	ambiguous	     2
 Tipper, John (NA-1713)	NA	     5
 Tippet, Edward (1769-1840)	NA	     1
@@ -45344,7 +45242,7 @@ Tod, Elisabeth	ambiguous	     3
 Tod, George	ambiguous	     1
 Tod, James	NA	     2
 Tod, John (1773-1856)	NA	     3
-Tod, T (1781-NA)	NA	     7
+Tod, T (1781-NA)	NA	     5
 Tod, Thomas	NA	     1
 Tod, William	ambiguous	     1
 Todd, Ambrose (1764-1809)	NA	     1
@@ -45384,7 +45282,6 @@ Tollett, Thomas (NA-1696)	NA	     1
 Tolman, Thomas (1756-1842)	NA	     1
 Tolmie, Andrew	NA	     2
 Tolomei, Claudio (1492-1555)	ambiguous	     2
-Tolson, Francis (1745-1746)	ambiguous	     5
 Tolson, John (1575-1644)	NA	     1
 Tolson, Ri	ambiguous	     1
 Tolver, A	NA	     3
@@ -45488,7 +45385,6 @@ Topham, Francis (1712-1770)	ambiguous	     3
 Topham, George (NA-1694)	ambiguous	     3
 Topham, John (1746-1803)	NA	     2
 Topham, Thomas	NA	     2
-Topham, William (1700-1709)	ambiguous	     1
 Toplady, Augustus (1740-1778)	ambiguous	    42
 Toplady, Augustus Montague	ambiguous	     1
 Toplis, Samuel	NA	     1
@@ -45698,7 +45594,7 @@ Trapnel, Anna	ambiguous	     6
 Trapp, John (1601-1669)	NA	    14
 Trapp, Joseph	ambiguous	     1
 Trapp, Joseph (1748-1749)	ambiguous	     2
-Trapp, Joseph (1749-1747)	ambiguous	   131
+Trapp, Joseph (1749-1747)	ambiguous	   130
 Trapwit, Tommy	ambiguous	     8
 Traquair, John Stewart (NA-1659)	ambiguous	     2
 Traske, John (NA-1638)	NA	     6
@@ -45876,7 +45772,7 @@ Trowell, Samuel	NA	    10
 Trowell, Thomas (1728-NA)	NA	     1
 Troy, John Thomas (1739-1823)	NA	    14
 Trublet, Nicolas-charles-joseph (1697-1770)	NA	     5
-True, Patrick (1666-NA)	NA	     2
+True, Patrick (1666-NA)	NA	     1
 Trueman, Abraham	ambiguous	     2
 Trueman, C	NA	     1
 Trueman, John	NA	     1
@@ -46023,7 +45919,7 @@ Turnbull, John (NA-1818)	NA	     3
 Turnbull, Patrick	NA	     2
 Turnbull, Richard (NA-1593)	ambiguous	     4
 Turnbull, Robert	ambiguous	     1
-Turnbull, Robert J (1775-1833)	ambiguous	     5
+Turnbull, Robert J (1775-1833)	ambiguous	     4
 Turnbull, Thomas	NA	     5
 Turnbull, Walter (1746-NA)	ambiguous	     1
 Turnbull, William (1729-1796)	ambiguous	     5
@@ -46205,7 +46101,7 @@ Tym, Martha	ambiguous	     1
 Tymbs, John (1750-1835)	NA	     2
 Tymme, Thomas (NA-1620)	NA	    25
 Tyndal, Thomas	NA	     1
-Tyndale, William (1536-1536)	ambiguous	    40
+Tyndale, William (1536-1536)	ambiguous	    39
 Tyner, George	ambiguous	     1
 Tyng, Dudley Atkins (1760-1829)	ambiguous	     1
 Tynley, Robert (1561-1616)	ambiguous	     1
@@ -46231,7 +46127,7 @@ Tyrwhitt, Thomas (1730-1786)	NA	     6
 Tyso, John (NA-1700)	NA	     4
 Tyson, Edward (1650-1708)	NA	     6
 Tyson, Michael (1740-1780)	NA	     1
-Tyson, Richard (1796-NA)	ambiguous	     5
+Tyson, Richard (1796-NA)	ambiguous	     4
 Tyssot De Patot, Simon (1655-NA)	ambiguous	     3
 Tyte, G	NA	     1
 Tytler, James (1745-1805)	NA	    10
@@ -46463,7 +46359,7 @@ Vane, Henry (1612-1662)	ambiguous	    19
 Vane, Henry (1613-1662)	ambiguous	     1
 Vane, Henry (1726-1792)	ambiguous	     1
 Vane, Lionel (1724-1793)	ambiguous	     1
-Vane, Thomas (1652-NA)	NA	    10
+Vane, Thomas (1652-NA)	NA	     4
 Vane, William Holles (1714-1789)	ambiguous	     1
 Vanel, M	NA	     1
 Vanforce, 	NA	     1
@@ -46533,14 +46429,14 @@ Vaughan, Rice	NA	     8
 Vaughan, Richard	ambiguous	     3
 Vaughan, Robert (1592-1667)	ambiguous	     2
 Vaughan, Rowland (1610-NA)	male	     1
-Vaughan, Rowland (1696-NA)	male	     2
+Vaughan, Rowland (1696-NA)	male	     1
 Vaughan, Samuel	NA	     3
 Vaughan, Tho	male	     1
 Vaughan, Thomas	NA	     2
 Vaughan, Thomas (1622-1666)	NA	    14
 Vaughan, Thomas (1669-1696)	NA	     2
 Vaughan, Thomas (1689-1790)	NA	     3
-Vaughan, Thomas (1772-1820)	NA	     9
+Vaughan, Thomas (1772-1820)	NA	     8
 Vaughan, W	NA	     1
 Vaughan, Walter (1764-1828)	ambiguous	     6
 Vaughan, William (1577-1641)	ambiguous	    21
@@ -46672,7 +46568,7 @@ Vernon, George (1637-1720)	ambiguous	     8
 Vernon, Henry (1633-NA)	ambiguous	     1
 Vernon, James	NA	     1
 Vernon, Jane	ambiguous	     2
-Vernon, John (1666-NA)	NA	    23
+Vernon, John (1666-NA)	NA	    22
 Vernon, Joseph (1737-1782)	ambiguous	     1
 Vernon, Samuel	NA	     4
 Vernon, T	NA	     2
@@ -46731,7 +46627,7 @@ Vicary, Thomas (NA-1561)	NA	    12
 Viccars, John (1604-1660)	NA	     4
 Vicinus, 	NA	     1
 Vickers, Jeremiah	NA	     1
-Vickers, William (1707-1711)	ambiguous	   142
+Vickers, William (1707-1711)	ambiguous	   141
 Vickery, William	ambiguous	     5
 Vickris, Richard (NA-1700)	ambiguous	     4
 Victor,  (505-NA)	ambiguous	     1
@@ -46791,7 +46687,7 @@ Villiers, 	ambiguous	     2
 Villiers, Claude Deschamps (1600-1681)	ambiguous	     3
 Villiers, George (1690-1748)	ambiguous	     1
 Villiers, George (1759-1827)	ambiguous	     3
-Villiers, George (1785-1790)	ambiguous	    87
+Villiers, George (1785-1790)	ambiguous	    85
 Villiers, Jacob	NA	     1
 Villiers, Pierre (1648-1728)	NA	     3
 Villiers, Pierre De (1648-1728)		     2
@@ -46915,7 +46811,6 @@ W,  (1549-1603)	NA	     1
 W,  (1559-1603)	NA	     1
 W,  (1577-1582)	NA	     3
 W,  (1584-1660)	NA	     4
-W,  (1592-NA)	NA	     1
 W,  (1593-NA)	NA	     6
 W,  (1595-NA)	NA	     1
 W,  (1601-NA)	NA	     1
@@ -46973,7 +46868,7 @@ Wade, Edward	NA	     2
 Wade, George (1673-1748)	ambiguous	     1
 Wade, George (1691-1738)	ambiguous	     4
 Wade, John (1643-1680)	NA	     3
-Wade, John (1660-1680)	NA	    42
+Wade, John (1660-1680)	NA	    34
 Wade, John (NA-1680)	NA	     6
 Wade, John Peter (NA-1802)	NA	     4
 Wade, Luke	NA	     1
@@ -47029,7 +46924,7 @@ Wainman, Oglethorp	NA	     1
 Wainwright, James (1726-NA)	NA	     1
 Wainwright, Robert (1748-1782)	ambiguous	     1
 Wait, Thomas Baker (1762-1830)	ambiguous	     1
-Waite, John (1666-NA)	NA	     3
+Waite, John (1666-NA)	NA	     1
 Waite, Joseph	ambiguous	     2
 Waite, Mary	ambiguous	     1
 Waite, Richard	ambiguous	     1
@@ -47100,7 +46995,7 @@ Wales, William (1734-1796)	ambiguous	     4
 Wales, William (1734-1798)	ambiguous	     2
 Wales, William (1734-NA)	ambiguous	     1
 Walford, 	NA	     1
-Walford, Benjamin (1710-1710)	ambiguous	    12
+Walford, Benjamin (NA-1710)	ambiguous	    11
 Walford, Edward (1675-NA)	NA	     1
 Walford, Hugh (1707-1708)	NA	     2
 Walford, William (1687-NA)	ambiguous	     1
@@ -47129,7 +47024,7 @@ Walker, George (1692-1771)	ambiguous	     2
 Walker, George (1734-1807)	ambiguous	    13
 Walker, George (1772-1847)	ambiguous	    16
 Walker, George (NA-1795)	ambiguous	     1
-Walker, Henry (1643-1730)	ambiguous	     8
+Walker, Henry (1643-1730)	ambiguous	     7
 Walker, Henry (1646-1730)	ambiguous	     2
 Walker, Henry (NA-1730)	ambiguous	    28
 Walker, Hernry	male	     1
@@ -47150,7 +47045,7 @@ Walker, John (1732-1807)	NA	    17
 Walker, John (1758-1759)	NA	     1
 Walker, John (1759-1830)	NA	    12
 Walker, John (1768-1833)	NA	     8
-Walker, John (1781-1817)	NA	     7
+Walker, John (1781-1817)	NA	     6
 Walker, John (1782-NA)	NA	     2
 Walker, John (1789-NA)	NA	     1
 Walker, John (1791-NA)	NA	     1
@@ -47217,7 +47112,7 @@ Wall, Martin (1747-1824)	ambiguous	     9
 Wall, Rachel (1760-1789)	ambiguous	     1
 Wall, Richard	ambiguous	     1
 Wall, Samuel	NA	     1
-Wall, Thomas (1703-NA)	NA	    18
+Wall, Thomas (1703-NA)	NA	    17
 Wall, W (1696-NA)	NA	     1
 Wall, William (1647-1728)	ambiguous	    17
 Wall, William Cuthbert (1625-1704)	ambiguous	     2
@@ -47353,7 +47248,7 @@ Walter, Thomas (1696-1725)	NA	    13
 Walter, Thomas (1740-1788)	NA	     1
 Walter, William (1520-1800)	ambiguous	     1
 Walter, William (1737-1800)	ambiguous	     1
-Walter, William (1763-1800)	ambiguous	     2
+Walter, William (1763-1800)	ambiguous	     1
 Walters, Henry (1766-1829)	ambiguous	     1
 Walters, John (1721-1797)	NA	     4
 Walters, John (1759-1789)	NA	     4
@@ -47363,7 +47258,7 @@ Waltham, John	NA	     1
 Walther, Christoph Theodosius (1699-1741)	NA	     5
 Walthoe, John (1657-1744)	NA	    17
 Walthoe, John (1657-1778)	NA	     6
-Walton, Brian (1600-1661)	ambiguous	     8
+Walton, Brian (1600-1661)	ambiguous	     7
 Walton, George (1749-1804)	ambiguous	     1
 Walton, H	NA	     1
 Walton, Isaac (1593-1683)	NA	     2
@@ -47448,7 +47343,7 @@ Ward, John	NA	     5
 Ward, John (1571-1638)	NA	     1
 Ward, John (1642-1643)	NA	     3
 Ward, John (1679-1758)	NA	    11
-Ward, John (1698-1709)	NA	    29
+Ward, John (1698-1709)	NA	    27
 Ward, John (1706-NA)	NA	     1
 Ward, John (1713-1797)	NA	     2
 Ward, John (1725-1726)	NA	     1
@@ -47553,7 +47448,7 @@ Warneford, Samuel (1768-1808)	NA	     1
 Warner-dunbar, Charles	ambiguous	     1
 Warner,  (1730-NA)	NA	     3
 Warner, Anne (1708-NA)	ambiguous	     1
-Warner, Daniel (1711-1719)	ambiguous	     4
+Warner, Daniel (1711-1719)	ambiguous	     3
 Warner, Edmund	NA	     1
 Warner, Effingham (1775-1796)	male	     1
 Warner, Eliz	NA	     1
@@ -47597,7 +47492,7 @@ Warren, Charles (1765-NA)	ambiguous	     1
 Warren, E	NA	     1
 Warren, Ebenezer	ambiguous	     1
 Warren, Edmund	NA	     1
-Warren, Edward (1735-NA)	NA	     3
+Warren, Edward (1735-NA)	NA	     2
 Warren, Elizabeth	ambiguous	     5
 Warren, Erasmus	male	    16
 Warren, George	ambiguous	     2
@@ -47768,7 +47663,7 @@ Watson, Isabel	ambiguous	     1
 Watson, J	NA	     3
 Watson, James	NA	     9
 Watson, James (1713-1783)	NA	     1
-Watson, James (1770-NA)	NA	     2
+Watson, James (1770-NA)	NA	     1
 Watson, James (NA-1722)	NA	    11
 Watson, Janet (1766-NA)	ambiguous	     1
 Watson, Joannes	male	     1
@@ -47786,7 +47681,7 @@ Watson, Lion	NA	     1
 Watson, Mary (1797-NA)	ambiguous	     2
 Watson, Matthew	ambiguous	     1
 Watson, Richard (1612-1685)	ambiguous	    14
-Watson, Richard (1737-1816)	ambiguous	   160
+Watson, Richard (1737-1816)	ambiguous	   159
 Watson, Robert	ambiguous	     7
 Watson, Robert (1555-NA)	ambiguous	     1
 Watson, Robert (1581-1605)	ambiguous	     5
@@ -48156,7 +48051,7 @@ Wemyss, Alexander	ambiguous	     1
 Wemyss, Betsy	ambiguous	     1
 Wemyss, David	ambiguous	     4
 Wemyss, Elizabeth (NA-1803)	ambiguous	     1
-Wemyss, George (1635-NA)	ambiguous	     2
+Wemyss, George (1635-NA)	ambiguous	     1
 Wemyss, James	NA	     7
 Wemyss, James (1726-1786)	NA	     2
 Wemyss, James (1750-1822)	NA	     1
@@ -48211,7 +48106,7 @@ Wesley, Samuel (1662-1735)	NA	    30
 Wesley, Samuel (1691-1739)	NA	    27
 Wessels, Joseph	ambiguous	     1
 West-lothian, Heretor	NA	     1
-West,  (1794-NA)	male	     2
+West,  (1794-NA)	male	     1
 West, Aaron	NA	     1
 West, Anne (1755-NA)	ambiguous	     1
 West, Benjamin	ambiguous	     1
@@ -48427,7 +48322,6 @@ Whichcot, John	NA	     1
 Whichcote, Benjamin (1609-1683)	ambiguous	    15
 Whichcote, Francis	ambiguous	     1
 Whichcote, Paul (1643-1721)	ambiguous	     2
-Whichcote, Samuel (1764-NA)	NA	     1
 Whiddon, Francis (1656-1657)	ambiguous	     1
 Whig, Black	ambiguous	     1
 Whincop, John (NA-1647)	NA	     5
@@ -48435,7 +48329,7 @@ Whincop, Thomas (NA-1710)	NA	     2
 Whincop, Thomas (NA-1730)	NA	     2
 Whinery, John	NA	     2
 Whinnell, James	NA	     1
-Whinnell, Thomas (1699-NA)	NA	     2
+Whinnell, Thomas (1699-NA)	NA	     1
 Whipcord, Jasper Canonicus	NA	     1
 Whippey, George (1576-1577)	ambiguous	     1
 Whipple, Enoch (1755-1840)	NA	     1
@@ -48534,14 +48428,13 @@ White, John (1685-1755)	NA	    25
 White, John (1716-1717)	NA	     1
 White, John (1757-1832)	NA	     2
 White, John (1760-NA)	NA	     1
-White, John (1789-1799)	NA	     4
+White, John (1789-1799)	NA	     3
 White, John (NA-1671)	NA	    16
-White, John Campbell (1785-NA)	ambiguous	     1
 White, Joseph (1745-1791)	ambiguous	     7
 White, Joseph (1745-1814)	ambiguous	    17
 White, Joseph (1745-NA)	ambiguous	     3
 White, Josias	male	     2
-White, L (1676-NA)	NA	     7
+White, L (1676-NA)	NA	     2
 White, Law	NA	     1
 White, Luke	NA	     6
 White, Mary (1696-1704)	ambiguous	     3
@@ -48558,8 +48451,8 @@ White, Robert	ambiguous	     5
 White, Robert (1643-NA)	ambiguous	     2
 White, Robert (1693-1773)	ambiguous	    51
 White, Robert (1749-1776)	ambiguous	     1
-White, Robert (1781-1793)	ambiguous	     5
-White, Robert (1786-1792)	ambiguous	    11
+White, Robert (1781-1793)	ambiguous	     3
+White, Robert (1786-1792)	ambiguous	     6
 White, Robert (NA-1657)	ambiguous	     1
 White, Rodolph	male	     1
 White, Samuel	NA	     1
@@ -48640,7 +48533,6 @@ Whitelocke, James (1570-1632)	NA	     5
 Whiter, Walter (1758-1832)	ambiguous	     2
 Whiteside, John	NA	     2
 Whitestone, James	NA	     1
-Whitewood, Thomas (1767-1768)	NA	     3
 Whitfeld, Francis (1742-1810)	ambiguous	     1
 Whitfeld, John (1704-1783)	NA	     2
 Whitfeld, Raphe	male	     1
@@ -48742,7 +48634,7 @@ Whitwell, William (1737-1781)	ambiguous	     2
 Whitworth, Charles (1675-1725)	ambiguous	     2
 Whitworth, Charles (1721-1778)	ambiguous	    14
 Whitworth, R	NA	     2
-Whitworth, Robert (1773-1797)	ambiguous	    14
+Whitworth, Robert (1773-1797)	ambiguous	    12
 Whorwood, Thomas (1618-1680)	NA	     1
 Whyle, Humphrey	NA	     1
 Whyman, Thomas	NA	     1
@@ -48774,7 +48666,6 @@ Wickens, Robert (1614-1682)	ambiguous	     1
 Wicker, Charlotte	female	     1
 Wicker, Francis	ambiguous	     1
 Wickes, John Wight (1768-1810)	male	     1
-Wickes, Thomas (1733-1767)	NA	     1
 Wickham, John (1763-1839)	NA	     1
 Wickham, Moses	ambiguous	     2
 Wickins, Nathaniel	NA	     2
@@ -48833,7 +48724,7 @@ Wightman, Elisabeth	ambiguous	     1
 Wightman, Gilbert	NA	     1
 Wightman, James	NA	     1
 Wightman, John	NA	     1
-Wightman, Robert (1734-1843)	ambiguous	     3
+Wightman, Robert (1734-1843)	ambiguous	     2
 Wightman, Robert (1756-1843)	ambiguous	     1
 Wightman, Robert (NA-1843)	ambiguous	     3
 Wightman, Valentine (1681-1747)	ambiguous	     3
@@ -48986,7 +48877,7 @@ Will, Brother	NA	     1
 Will, James (1760-1818)	NA	     1
 Willan, Edward	NA	     6
 Willan, Leonard	ambiguous	     4
-Willan, Robert (1746-1757)	ambiguous	     3
+Willan, Robert (1746-1757)	ambiguous	     2
 Willan, Robert (1757-1812)	ambiguous	     8
 Willan, Robert (NA-1630)	ambiguous	     3
 Willan, Sam	ambiguous	     1
@@ -49089,7 +48980,7 @@ Williams, John (1730-1795)	NA	     6
 Williams, John (1745-1783)	NA	     1
 Williams, John (1749-NA)	NA	     3
 Williams, John (1767-1772)	NA	     1
-Williams, John (1783-NA)	NA	     2
+Williams, John (1783-NA)	NA	     1
 Williams, John (1794-NA)	NA	     1
 Williams, John (NA-1613)	NA	     1
 Williams, John (NA-1674)	NA	     1
@@ -49154,7 +49045,7 @@ Williams, Thomas (1718-1775)	NA	     1
 Williams, Thomas (1755-1839)	NA	    16
 Williams, Thomas (NA-1802)	NA	     1
 Williams, Thomas Walter (1763-1833)	ambiguous	     7
-Williams, Walter (1690-NA)	ambiguous	    15
+Williams, Walter (1690-NA)	ambiguous	    14
 Williams, Watkin (NA-1808)	male	     1
 Williams, Will (1727-NA)	ambiguous	     1
 Williams, William	ambiguous	    16
@@ -49317,7 +49208,7 @@ Wilson, Alexander (1714-1786)	ambiguous	     2
 Wilson, Alexander (1766-1813)	ambiguous	    17
 Wilson, Alexander (1766-1830)	ambiguous	     1
 Wilson, Andrew (1718-1792)	NA	    23
-Wilson, Ann (1783-NA)	NA	     2
+Wilson, Ann (1783-NA)	NA	     1
 Wilson, Arthur (1595-1652)	NA	     3
 Wilson, Benjamin (1721-1788)	ambiguous	    13
 Wilson, Bernard (1689-1772)	ambiguous	     8
@@ -49328,7 +49219,7 @@ Wilson, Charles Henry (NA-1808)	ambiguous	     3
 Wilson, Christopher	ambiguous	     2
 Wilson, Christopher (1579-1624)	ambiguous	     1
 Wilson, Christopher (1713-1792)	ambiguous	     2
-Wilson, D (1701-NA)	NA	     3
+Wilson, D (1701-NA)	NA	     2
 Wilson, Daniel (1749-1774)	ambiguous	     1
 Wilson, David (1760-1784)	ambiguous	     7
 Wilson, David (1760-1813)	ambiguous	     1
@@ -49383,7 +49274,7 @@ Wilson, John (1785-NA)	NA	     1
 Wilson, John (1786-NA)	NA	     1
 Wilson, John (1792-NA)	NA	     1
 Wilson, John (1795-NA)	NA	     1
-Wilson, John (1799-NA)	NA	     3
+Wilson, John (1799-NA)	NA	     1
 Wilson, John (1800-NA)	NA	     1
 Wilson, John (NA-1630)	NA	     5
 Wilson, John (NA-1746)	NA	     4
@@ -49466,7 +49357,7 @@ Winchell, Jacob (1739-NA)	NA	     1
 Winchell, John (NA-1794)	NA	     1
 Winchelsea, Heneage Finch	NA	     1
 Winchester, B (1798-NA)	NA	     1
-Winchester, Elhanan (1751-1797)	male	    64
+Winchester, Elhanan (1751-1797)	male	    63
 Winchester, James	NA	     2
 Winchester, Thomas (1713-1780)	NA	     2
 Winchester, William Paulet (1535-1598)	ambiguous	     2
@@ -49894,7 +49785,7 @@ Woodyer, John	NA	     1
 Woofe, Abraham	ambiguous	     2
 Wooffendale, Robert (1743-1812)	ambiguous	     1
 Woolaghan, Hugh	NA	     2
-Wooler, John (1772-NA)	NA	     2
+Wooler, John (1772-NA)	NA	     1
 Wooley, Charles	ambiguous	     2
 Woolfe, John (NA-1793)	NA	     1
 Woolfield, Benjamin	ambiguous	     1
@@ -49911,7 +49802,7 @@ Woollery, Edward	NA	     1
 Woollett, William (1735-1785)	ambiguous	     2
 Woolley, Benjamin	ambiguous	     1
 Woolley, Charles	ambiguous	     1
-Woolley, Hannah (1670-NA)	ambiguous	    10
+Woolley, Hannah (1670-NA)	ambiguous	     6
 Woolley, John (1645-1646)	NA	     1
 Woolley, Richard	ambiguous	     2
 Woolley, Thomas	NA	     1
@@ -50065,7 +49956,7 @@ Wright, Henry (1616-NA)	ambiguous	     1
 Wright, Isobel	NA	     1
 Wright, J	NA	     1
 Wright, J (1681-NA)	NA	     1
-Wright, J (1720-1744)	NA	     8
+Wright, J (1720-1744)	NA	     7
 Wright, J (1761-1765)	NA	     6
 Wright, J (1770-1844)	NA	     2
 Wright, James	NA	    11
@@ -50268,15 +50159,14 @@ Yateman, Francis	ambiguous	     1
 Yates, Jam	NA	     3
 Yates, James	NA	     2
 Yates, Jemmy	ambiguous	     1
-Yates, John (1622-1658)	NA	     1
-Yates, John (1622-1660)	NA	     9
+Yates, John (NA-1660)	NA	     9
 Yates, Margaret (1737-NA)	ambiguous	     2
 Yates, Peter Waldron (1747-1826)	NA	     2
 Yates, Stephen	NA	     1
 Yates, William	ambiguous	     1
 Yates, William (1738-1802)	ambiguous	     1
 Yates, William (1791-1798)	ambiguous	     1
-Yates, William (1797-NA)	ambiguous	     3
+Yates, William (1797-NA)	ambiguous	     2
 Yaxlee, Henry	ambiguous	     1
 Yea, William (NA-1806)	ambiguous	     1
 Yeaman, George	ambiguous	     2
@@ -50370,7 +50260,7 @@ Young, John (NA-1798)	NA	     1
 Young, John (NA-1825)	NA	     2
 Young, Joseph (1733-1814)	ambiguous	     4
 Young, Katharine	NA	     1
-Young, Kenneth (1720-NA)	ambiguous	     4
+Young, Kenneth (1720-NA)	ambiguous	     2
 Young, Margaret (1754-1760)	ambiguous	     3
 Young, Mary (1724-NA)	ambiguous	     1
 Young, Mary Julia	ambiguous	     9
@@ -50381,7 +50271,7 @@ Young, Richard (1700-NA)	ambiguous	     3
 Young, Richard Nash (1781-1789)	ambiguous	     1
 Young, Robert	ambiguous	    11
 Young, Robert (1657-1700)	ambiguous	     5
-Young, Robert (1674-NA)	ambiguous	     2
+Young, Robert (1674-NA)	ambiguous	     1
 Young, Robert (1749-1779)	ambiguous	     4
 Young, S (1757-1790)	NA	     2
 Young, Sam	ambiguous	     1
@@ -50486,4 +50376,4 @@ Zype, Frans Van Den (1580-1650)	ambiguous	     2
 þórðarson, Sturla (1214-1284)	male	     3
 ʿalī, Abū (1273-1331)	NA	     2
 ʿāmir, Manṣūr (939-1002)	NA	     1
-NA	NA	192150
+NA	NA	192149

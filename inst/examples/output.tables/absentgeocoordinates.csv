@@ -1,26 +1,26 @@
 name	count
-New York NY	4696
+New York NY	4695
 Birmingham	1283
-Bath	1119
+Bath	1118
 New London Ct	1013
-Providence RI	965
-Salisbury	846
-Exeter	837
-Belfast	797
-Cork	722
+Providence RI	964
+Salisbury	842
+Exeter	835
+Belfast	794
+Cork	721
 Newport RI	653
 Charleston SC	638
-Shrewsbury	597
-Liverpool	550
-Nottingham	530
-Canterbury	510
+Shrewsbury	596
+Liverpool	546
+Nottingham	529
 Quebec	509
+Canterbury	509
 Coventry	499
 Halifax	493
 Annapolis Md	493
 Portsmouth NH	485
 Worcester Ma	470
-Royal Tunbridge Wells	451
+Royal Tunbridge Wells	450
 Williamsburg Va	409
 Newburyport Ma	399
 Germantown Pa	389
@@ -28,30 +28,30 @@ Chester	369
 Northampton	368
 Lancaster Pa	352
 Albany NY	350
-Ipswich	348
+Ipswich	345
 Salem Ma	327
 Cambridge Ma	325
 Norwich Ct	319
-Maidstone	309
+Maidstone	308
 Hull	306
 Eton	303
 Warrington	290
-Calcutta	283
+Calcutta	281
 Perth	275
 Exeter NH	273
 Trenton	254
-Reading	253
+Reading	251
 Berwick-upon-Tweed	247
 Falkirk	234
-Omer	233
-Sheffield	207
+Omer	229
+Sheffield	206
 Caerfyrddin	179
 Leicester	176
-Bury	175
+Bury	173
 Warwick	168
 Bennington Vt	162
-Derby	160
 Kingston	159
+Derby	158
 Windsor Vt	156
 Tharangampadi	155
 Sherborne	155
@@ -61,49 +61,49 @@ New Bern NC	149
 Burlington NJ	148
 Wolverhampton	147
 Darlington	145
-Preston	144
 Montreal	144
-Kendal	143
+Preston	143
 Middelburg	140
+Kendal	140
 Downpatrick	135
 Tewkesbury	132
 Whitehaven	131
 Winchester	128
 Lewes	128
 Southampton	123
-Newark	123
+Newark	122
 Amwythig	122
-St Omer	119
 Colchester	119
 Limerick	118
 Woodbridge NJ	115
 Carlisle	114
+St Omer	113
 Ephrata Pa	113
 Portsmouth	106
-Newry	106
-Hereford	106
+Newry	105
 Newark NJ	105
+Hereford	104
 Halifax NS	102
 Yarmouth	98
-Taunton	96
+Taunton	95
 Elizabeth NJ	94
 Springfield Ma	93
-Portland Me	92
+Portland Me	91
 Madras India	91
 Dumfries	90
 Gainsborough	88
 Waterford	87
 Poughkeepsie NY	83
-Richmond Va	81
 Ludlow	81
 Lexington KY	81
+Richmond Va	80
 Twickenham	78
 Rutland Vt	77
-Carmarthen	77
 Banbury	77
 Concord NH	76
-Chelmsford	74
+Carmarthen	74
 Windsor	72
+Chelmsford	72
 Aldershot	72
 Wrexham	70
 New Brunswick NJ	69
@@ -116,23 +116,23 @@ Huddersfield	63
 Sunderland	62
 Northampton Ma	62
 Leominster Ma	62
-Brentford	62
 New Orleans La	61
+Brentford	61
 Ayr	61
 Alnwick	61
 Bridgetown	60
-Cirencester	59
 Peterborough	58
 Middletown Ct	58
 Dover NH	58
+Cirencester	58
 Penrith	57
 Kilkenny	57
 Bury St Edmunds	57
 Warren RI	55
 Trefeca	55
 Stafford	55
-St Johns Antiqua	55
 Stockport	54
+St Johns Antiqua	54
 Stockbridge Ma	53
 Hanover NH	53
 Stockton	52
@@ -147,8 +147,8 @@ South carolina town	49
 Trenton nj	48
 Guildford	48
 Kidderminster	47
-Aberhonddu	47
 Keene NH	46
+Aberhonddu	46
 Wisbech	45
 Windham Ct	45
 Walpole NH	45
@@ -160,9 +160,9 @@ Dunbar	44
 Port-au-Prince	43
 Edenton NC	43
 Carlisle Pa	42
-New Bedford Ma	41
 Macclesfield	41
 Trefriw	40
+New Bedford Ma	40
 Alexandria Va	40
 Huntingdon	39
 Kingstown	37
@@ -196,8 +196,8 @@ Dedham Ma	29
 St Helier	28
 Londonderry	28
 Armagh	28
-Wigan	27
 Spalding	27
+Wigan	26
 Spanish Town	26
 Petersburg Va	26
 Chestnut Hill Pa	26
@@ -221,7 +221,6 @@ Newfield Ct	21
 Dorchester	21
 Winton	20
 West Springfield Ma	20
-Sudbury	20
 Raleigh	20
 Market harborough	20
 Fairhaven vt	20
@@ -235,6 +234,7 @@ Hamilton	19
 Columbia SC	19
 Clipstone	19
 Whitehall Pa	18
+Sudbury	18
 Pontefract	18
 Nantwich	18
 Leuven	18
@@ -293,7 +293,6 @@ Northumberland Pa	12
 Medford Ma	12
 Wiscasset me	11
 Ramsgate	11
-Newmarket	11
 Mullingar	11
 Loughborough	11
 Hawick	11
@@ -311,6 +310,7 @@ Rochdale	10
 Pondicherry	10
 Peacham Vt	10
 Oswestry	10
+Newmarket	10
 Natchez Ms	10
 Harrisburgh pa	10
 Grantham	10
@@ -332,7 +332,6 @@ Montego Bay	9
 Hillsborough NC	9
 Hemel Hempstead	9
 Galway	9
-Chippenham	9
 Charlotte town island john	9
 Bungay	9
 Berkhamsted	9
@@ -345,6 +344,7 @@ Honiton	8
 Greenock	8
 Fayetteville NC	8
 Clonmel	8
+Chippenham	8
 Carlow	8
 Bridgewater Ma	8
 Stratford-upon-Avon	7
@@ -447,7 +447,6 @@ Fairfield Ct	4
 Epsom	4
 Dereham	4
 Crewkerne	4
-Cheshunt	4
 Carrick	4
 Cap-Haitien	4
 Canaan NY	4
@@ -513,6 +512,7 @@ Dungannon	3
 Dunfermline	3
 Dun Laoghaire	3
 Chillicothe Oh	3
+Cheshunt	3
 Chesham	3
 Chertsey	3
 Charlottesville va	3
@@ -588,7 +588,6 @@ Enniskillen	2
 Elizabethtown Md	2
 Eastbourne	2
 Duns	2
-Dunkalk	2
 Dorking	2
 Dieppe	2
 Dewsbury	2
@@ -631,7 +630,6 @@ Versailles	1
 Verdun	1
 Vatican	1
 Valencia	1
-Tivoli	1
 Thurles	1
 Thetford	1
 Thame	1
@@ -815,6 +813,7 @@ East grinstead	1
 Eartham	1
 Dunstable	1
 Dunkeld	1
+Dunkalk	1
 Duncannon	1
 Dresden Me	1
 Downham	1
@@ -885,7 +884,6 @@ Ballston saratoga county spa ny	1
 Balfron	1
 Bakewell	1
 Axminster	1
-Avranches	1
 Au port prince haiti	1
 Ashby la zouch	1
 Ashby	1

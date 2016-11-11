@@ -12,7 +12,7 @@ output: markdown_document
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
-Publication year is available for 481463 documents (100%). The publication years span 1462-1826.
+Publication year is available for 480279 documents (100%). The publication years span 1473-1826.
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 
@@ -29,7 +29,7 @@ Publication frequency information is available for 105 documents (0%). The links
 
 ### Publication interval
 
-Publication interval is available for 3508 documents (1%). 
+Publication interval is available for 3507 documents (1%). 
 
 [Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
@@ -47,13 +47,22 @@ are multiple instances from the same earliest year, they are all
 marked as potential first editions. Later need to check if this
 information is readily available in MARC.
 
-There are 369870 unique
+There are 368892 unique
 documents with an identical title and author and
-44472
+44358
 of those have multiple occurrences, sometimes with different publication
 years.  The earliest occurrence is suggested as the first edition.
 
 This figure shows the number of first editions per decade.
+
+
+```
+## Error in match.names(clabs, names(xi)): names do not match previous names
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'variable' not found
+```
 
 ![plot of chunk firsteditions](figure/firsteditions-1.png)
 

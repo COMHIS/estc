@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 219114 [unique publishers](output.tables/publisher_accepted.csv)
+ * 218473 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 370519 documents have unambiguous publisher information (77%). 
+ * 369567 documents have unambiguous publisher information (77%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -47,8 +47,8 @@ Title count versus paper consumption (top publishers):
 |printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|     0|
 |printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|     0|
 |printed for T. Cadell, in the Strand                                                     |    517|     0|
-|printed for the author                                                                   |   1291|     0|
-|printed in the year                                                                      |   2953|     0|
-|Printed in the year                                                                      |   1779|     0|
+|printed for the author                                                                   |   1286|     0|
+|printed in the year                                                                      |   2950|     0|
+|Printed in the year                                                                      |   1778|     0|
 
 
