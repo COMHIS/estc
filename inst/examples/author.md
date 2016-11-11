@@ -46,8 +46,26 @@ Ordered by productivity (number of documents))
 
 ![plot of chunk author_age](figure/author_age-1.png)
 
+```
+## Warning in grid.Call.graphics(L_polygon, x$x, x$y, index): semi-
+## transparency is not supported on this device: reported only once per page
+```
 
+![plot of chunk author_age](figure/author_age-2.png)
 
+```
+## $title
+## [1] "Author age on the publication year"
+## 
+## attr(,"class")
+## [1] "labels"
+```
+
+```
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+```
+
+![plot of chunk author_age](figure/author_age-3.png)
 
 
 
