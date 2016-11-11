@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-10"
+date: "2016-11-11"
 output: markdown_document
 ---
 
@@ -37,6 +37,19 @@ Should also add living year information from supporting sources later.
 Ordered by productivity (number of documents))
 
 ![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png)
+
+
+### Author age
+
+ * 0 documents have author age at the publication year (0%). These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
+
+
+![plot of chunk author_age](figure/author_age-1.png)
+
+
+
+
+
 
 
 ### Author productivity
