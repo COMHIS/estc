@@ -1,6 +1,28 @@
 publication_frequency_text	publication_frequency_annual	Count
 Total count: 	480279	
-daily	NA	     1
+number	NA	     2
+day	NA	     1
 irregular	NA	     1
-Irregular	NA	   103
-NA	NA	480174
+issue	NA	     2
+weekly	NA	     2
+Irregular	NA	   133
+NA	NA	477004
+Daily	365.00	   169
+Three per Week	156.00	   225
+Two per Week	104.00	   391
+Two per Week	 96.00	     2
+Weekly	 52.00	  1644
+Three per Month	 36.50	     1
+Three per Month	 36.00	     1
+Every three Weeks	 18.00	     1
+Monthly	 12.00	   323
+Eight per Year	  8.00	     6
+Every two Months	  6.00	    18
+Every three Months	  4.00	    42
+Every four Months	  3.00	     7
+Two per Year	  2.00	   116
+Two per Year	  1.50	     1
+Annual	  1.00	   180
+Annual	  0.75	     1
+Every two Years	  0.50	     5
+Every five Years	  0.20	     1

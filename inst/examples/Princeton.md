@@ -1,7 +1,7 @@
 ---
 title: "Princeton summary"
 author: "Leo Lahti"
-date: "2016-11-11"
+date: "2016-11-21"
 output: markdown_document
 ---
 
@@ -11,11 +11,11 @@ output: markdown_document
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'topic' not found
+## Error in eval(substitute(expr), envir, enclos): object 'topic' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown variable to group by : topic
+## Error in eval(substitute(expr), envir, enclos): unknown variable to group by : topic
 ```
 
 ```

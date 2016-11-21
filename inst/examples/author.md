@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-11"
+date: "2016-11-21"
 output: markdown_document
 ---
 
@@ -36,7 +36,7 @@ Should also add living year information from supporting sources later.
 
 Ordered by productivity (number of documents))
 
-![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png)
+![plot of chunk summaryauthorslife](figure_slides/summaryauthorslife-1.png)
 
 
 ### Author age
@@ -44,28 +44,26 @@ Ordered by productivity (number of documents))
  * 135858 documents have author age at the publication year (28%). These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
 
 
-![plot of chunk author_age](figure/author_age-1.png)
+![plot of chunk author_age](figure_slides/author_age-1.png)
 
 ```
-## Warning in grid.Call.graphics(L_polygon, x$x, x$y, index): semi-
-## transparency is not supported on this device: reported only once per page
+## `geom_smooth()` using method = 'loess'
 ```
 
-![plot of chunk author_age](figure/author_age-2.png)
+![plot of chunk author_age](figure_slides/author_age-2.png)
 
 ```
 ## $title
 ## [1] "Author age on the publication year"
 ## 
+## $subtitle
+## NULL
+## 
 ## attr(,"class")
 ## [1] "labels"
 ```
 
-```
-## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
-```
-
-![plot of chunk author_age](figure/author_age-3.png)
+![plot of chunk author_age](figure_slides/author_age-3.png)
 
 
 
@@ -80,7 +78,7 @@ Title count versus paper consumption (all authors):
 ```
 
 
-![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)
+![plot of chunk summaryTop10authorstimeline](figure_slides/summaryTop10authorstimeline-1.png)
 
 
 

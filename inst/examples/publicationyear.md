@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-11-11"
+date: "2016-11-21"
 output: markdown_document
 ---
 
@@ -18,7 +18,7 @@ Publication year is available for 480279 documents (100%). The publication years
 
 ### Publication frequency
 
-Publication frequency information is available for 105 documents (0%). The links are invalid if the lists are empty. The (estimated annual) frequencies are converted to plain text according to their closest match in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/frequency_conversions.csv).
+Publication frequency information is available for 3275 documents (1%). The links are invalid if the lists are empty. The (estimated annual) frequencies are converted to plain text according to their closest match in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/frequency_conversions.csv).
 
 [Publication frequency accepted](output.tables/publication_frequency_accepted.csv)
 
@@ -54,15 +54,6 @@ of those have multiple occurrences, sometimes with different publication
 years.  The earliest occurrence is suggested as the first edition.
 
 This figure shows the number of first editions per decade.
-
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'variable' not found
-```
 
 ![plot of chunk firsteditions](figure/firsteditions-1.png)
 

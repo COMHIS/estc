@@ -2,6 +2,7 @@ library(devtools)
 library(dplyr)
 library(sorvi)
 library(bibliographica)
+#load_all("~/Rpackages/bibliographica")
 library(estc)
 
 # I/O definitions

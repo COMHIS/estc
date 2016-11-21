@@ -1,11 +1,10 @@
 region;country;X
 Bath;England|USA;NA
-Blandford;England|USA;NA
 Cambridge;England|USA;NA
 Canterbury;England|USA;NA
 Carlisle;England|USA;NA
-Carrick;Ambiguous;NA
 Charlottetown;Canada|USA;NA
+Chatham;England;NA
 Chatham;England|USA;NA
 Chelmsford;England|USA;NA
 Dumfries;Scotland|USA;NA
@@ -14,8 +13,10 @@ Exeter;England|USA;NA
 Geneva;Switzerland|USA;NA
 Gloucester;England|USA;NA
 Halifax;England|USA|Canada;NA
+Keene;England;NA
 Keene;England|USA;NA
 Kingston;Jamaica|England|USA;NA
+Leominster;England;NA
 Leominster;England|USA;NA
 Monmouth;England|USA;NA
 Newark;England|USA;NA

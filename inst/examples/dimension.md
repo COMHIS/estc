@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-11"
+date: "2016-11-21"
 output: markdown_document
 ---
 
@@ -43,11 +43,6 @@ The estimated dimensions are based on the following auxiliary information sheets
 Left: final gatherings vs. final document dimension (width x height). Right: original gatherings versus original heights where both are available. The point size indicates the number of documents for each case. The red dots indicate the estimated height that is used when only gathering information is available. 
 
 
-
-```
-## Error in data.frame(indices, value = values): arguments imply differing number of rows: 56, 0
-```
-
 <img src="figure/dimension-summary-1.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" /><img src="figure/dimension-summary-2.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" /><img src="figure/dimension-summary-3.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" />
 
 
@@ -67,22 +62,12 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 
 
 ```
-## Error in `[.data.frame`(x, , c("publication_time", group)): undefined columns selected
+## NULL
 ```
 
 ```
-## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
+## NULL
 ```
-
-```
-## Error in `[.data.frame`(x, , c("publication_time", group)): undefined columns selected
-```
-
-```
-## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
-```
-
-<img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
 
 
 ### Title count versus paper consumption

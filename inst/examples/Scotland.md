@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-11-11"
+date: "2016-11-21"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40135 documents from Scotland.
+We have 40083 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -142,7 +142,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34404 documents from Scotland and 204846 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34346 documents from Scotland and 204846 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
@@ -154,7 +154,7 @@ We have 34404 documents from Scotland and 204846 documents from London during 17
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown variable to group by : publication_place2
+## Error in eval(substitute(expr), envir, enclos): unknown variable to group by : publication_place2
 ```
 
 ```
@@ -179,16 +179,14 @@ We have 34404 documents from Scotland and 204846 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 6034 rows containing missing values (geom_point).
+## Warning: Removed 21019 rows containing missing values (geom_point).
+```
+
+```
+## Error in grid.Call(L_stringMetric, as.graphicsAnnot(x$label)): invalid use of -61 < 0 in 'X11_MetricInfo'
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
-
-```
-## Warning: Removed 1978 rows containing missing values (geom_point).
-```
-
-![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
 
 ## Authors from different periods publishing in 1750-1799
 
