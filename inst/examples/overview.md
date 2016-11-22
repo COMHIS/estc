@@ -46,7 +46,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |paper                                |       100.0|           0.0|             0|          1|
 |document.items                       |       100.0|           0.0|             0|          1|
 |publication_frequency_annual         |        99.3|           0.7|          3139|         23|
-|publication_frequency_text           |        99.3|           0.7|          3273|         19|
+|publication_frequency_text           |        99.3|           0.7|          3273|         20|
 |publication_interval_from            |        99.3|           0.7|          3493|        364|
 |publication_interval_till            |        99.3|           0.7|          3507|        316|
 |width.original                       |        99.2|           0.8|          3729|         72|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2781043 148.6    6861544  366.5   6861544  366.5
-## Vcells 93579084 714.0  268975342 2052.2 268939974 2051.9
+## Ncells  2781045 148.6    6861544  366.5   6861544  366.5
+## Vcells 93579084 714.0  268975342 2052.2 268939975 2051.9
 ```
 
 
