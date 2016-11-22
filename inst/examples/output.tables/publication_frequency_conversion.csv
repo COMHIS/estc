@@ -565,8 +565,6 @@ Irregular	NA	irregular	number i. [wednesday, january 20, 1720]- numb. liii (wedn
 Irregular	NA	irregular	began in 1798?	<1798>	1
 Irregular	NA	no determinable frequency	began with no.1, 17 oct. 1767	mdcclxvii [1767]	1
 Irregular	NA	irregular	no. iii (saturday, november 7, 1767)-no.xviii (saturday, april 16, 1768)	[1767]	1
-issue	NA	every eight issues (collected issues)	1795. [no. i. (le samedi 6 juin.)-no. viii. (le samedi 25 juillet.)]-;ceased with: vol. xxxv. (1802)	1795-	1
-issue	NA	every nine issues	vol. i. [no. 1 (1791)-no. 9]-;ceased in 1819? with v. iii, no. 26	1795-	1
 Monthly	 12.00	monthly	this for march. [1701, [vol. i.], numb. iii.]-;ceased with: vol. 4, no. 2 (sept. 1702)	1701-1702	1
 Monthly	 12.00	monthly	no. 1 (april, 1799)-	<1799>	1
 Monthly	 12.00	monthly	august, 1793.-january, 1794	[1793-1794]	1
@@ -575,6 +573,7 @@ Monthly	 12.00	monthly	jan. 1776-december 1776	mdcclxxvi [1776]]	1
 Monthly	 12.00	monthly	september, 1792-;ceased with no. 28 (june? 1795)	[1792-	1
 Monthly	 12.00	monthly	numb. 1. (july, 1704.)-	1704-	1
 Monthly	 12.00	monthly	january, 1686. [i.e. 1687]-march, 1686. [i.e. 1687]	1687-	1
+Monthly	 12.00	monthly (collected three times a year)	january, 1795-;ceased with: dec. 1795	[1795]	1
 Monthly	 12.00	monthly	number i. (saturday, june 20, 1789.)-number x. (for november, 1789.)	mdcclxxxix. [1789]	1
 Monthly	 12.00	monthly	began in 1795	<1797-	1
 Monthly	 12.00	monthly	january, 1775.[numb. i.]-march, 1775. (numb. iii.)	1775]	1
@@ -607,6 +606,7 @@ Monthly	 12.00	monthly, with annual cumulations	march, 1746-;ceased in may, 1751
 Monthly	 12.00	monthly	june 1793-december 1795	[1793-1795]	1
 Monthly	 12.00	monthly	january 1797-december 1798	[1797]-	1
 Monthly	 12.00	monthly	number i.-number xv.; february, 1790. number xviii.-;ceased with: no. 50 (dec. 1792)	1788]-	1
+Monthly	 12.00	monthly, with cumulation in one volume	february, 1799.-february, 1800	[1799-1800]]	1
 Monthly	 12.00	monthly	may 1793. (numb. i. volume i.)-;ceased in 1826	[1793]-	1
 Monthly	 12.00	monthly	january 1784.-may 1785	[1784-1785]	1
 Monthly	 12.00	monthly	vol. 1 (january 1725.)-vol. vi. (december 1727.)	m dcc xxv.-m dcc xxvii. [1725-1727]	1
@@ -890,8 +890,6 @@ Monthly	 12.00	monthly	[numb. i. for the month of oct. (1722)]-;ceased in 1723?	
 Monthly	 12.00	monthly	no. i (october 1798)-no. xii (september 1799)	[1798-1799]	1
 Monthly	 12.00	monthly	book i. [april 1744]-book xxiv. [may 1746]	1744-m,dcc,xlvi [1746]	1
 Monthly	 12.00	monthly	no.1 (july 1750)-[no.10] (april 1751)	[1750]-mdccli [1751]	1
-number	NA	every ten numbers	vol. i. [july, 1783.-dec. 1783. + suppl.]-vol. vi. [no. li.-no. lx.]	1783-[1785]	1
-number	NA	every twenty numbers	vol. i. [number i.-number xx. (wednesday, january 1, 1794-saturday, may 10, 1794.)]-vol. ii. [number xxi.-number xl. (saturday, may 17, 1794-saturday, march 21, 1795.]	[1795]	1
 Three per Month	 36.00	three times a month	numb. 1 (monday, april 12th, 1708)-;ceased in mar.? 1710	1708-	1
 Three per Month	 36.50	every ten days	june 11 to june 21. [1794]-december 15 to december 31. [1795]	m.dcc.xciv. [1794]-[1795]	1
 Three per Week	156.00	three times a week	began with no. 1 (19 jan. 1708); ceased in 1712?	[1708-1712?]	1
@@ -908,6 +906,8 @@ Three per Week	156.00	three times a week	began: july 14. 1791; ceased: 1806?	<17
 Three per Week	156.00	three times a week	began in 1705;ceased 1922	1705-[1922]	1
 Three per Week	156.00	three times a week	number i. (tuesday, october the 9th, 1759.)-number xii. (saturday, november the 3d, 1759.)	1759]	1
 Three per Week	156.00	three times a week	numb. 1. (tuesday, may 26. 1713.)-numb. 181. (from saturday, july 17. to tuesday, july 20. 1714.)	[1713-1714]	1
+Three per Week	156.00	three times weekly	began with no.1, sept. 29, 1769	[1769]-	1
+Three per Week	156.00	three times weekly	began with no 1, 29 sept 1769; ceased with no. 101, 21 may 1770?	[1769-1770]	1
 Three per Week	156.00	three times a week	began in sept. 1794; ceased in 1799	[1794-1799]	1
 Three per Week	156.00	three times a week	began with: numb. 122 (22-25 feb. 1696).;ceased with: no. 6081 (25 dec. 1733)	[1696-1733]	1
 Three per Week	156.00	triweekly	numb. i. (monday march 22. 1714.)-numb. cxxv. (from thursday january 20. to saturday january 22. 1715.)	[1714-1715]	1
@@ -1628,8 +1628,6 @@ Two per Year	  2.00	semiannual	vol. i.[no. 1-6, jan.-june 1781]-vol. 4 [no. 19-2
 Two per Year	  2.00	semiannual	[january and february, 1760.-june, 1760.]	[1760]	1
 Two per Year	  2.00	semiannual (collected issues)	the first week in april, to the fourth in september. mdcclxxxvi [1786]. ... volume i.-the fourth week in september, mdcclxxxvii. [1787] to the first week in april [i.e. 'the fourth week in march'] mdcclxxxviii. [1788] ... volume iv	mdcclxxxvi. [1786]-mdcclxxxviii. [1788]	1
 Two per Year	  2.00	semiannually	volume the first, from january to june mdccxcviii, inclusive.-	[1798]-	1
-weekly	NA	three times weekly	began with no.1, sept. 29, 1769	[1769]-	1
-weekly	NA	three times weekly	began with no 1, 29 sept 1769; ceased with no. 101, 21 may 1770?	[1769-1770]	1
 Weekly	 52.00	weekly	vol. i. (wednesday, july 11. 1787.) no. 1-vol. iii. (wednesday, december 30, 1789.) no	[1787]-	1
 Weekly	 52.00	weekly	vol. iii. no. 131. (wednesday, january 6, 1790.)-(saturday, nov. 26, 1791.) vol. iv. no. 291 [i.e. no. 231]	[1790-	1
 Weekly	 52.00	weekly	began: 20 mar. 1790; ceased: sept. 1790	[1790]	1
@@ -3272,7 +3270,9 @@ Weekly	 52.00	weekly	began: jan. 3, 1751; ceased 4 dec. 1778	1751-1778]	1
 Weekly	 52.00	weekly	numb. 1. (the whole week past, ending saturday aprill 26. 1645.)	1645	1
 Weekly	 52.00	weekly	[ser. 1] numb. 2. (from friday the 24th of may, till friday the 31. of may. 1644.)-[ser. 2] num. 6. (from thursday the 25. of february, to thursday the 5. of march. 1645 [i.e. 1646])	[1644-1646]	1
 Weekly	 52.00	weekly	no. i (tuesday, march 9, 1784)-	[1784]-	1
-NA	NA	monthly (collected three times a year)	january, 1795-;ceased with: dec. 1795	[1795]	1
-NA	NA	monthly, with cumulation in one volume	february, 1799.-february, 1800	[1799-1800]]	1
+NA	NA	every eight issues (collected issues)	1795. [no. i. (le samedi 6 juin.)-no. viii. (le samedi 25 juillet.)]-;ceased with: vol. xxxv. (1802)	1795-	1
 NA	NA	during the law terms	no. i. vol. i. (easter term, 1761. i geo. iii. [i.e. 4 apr.-8 may 1761])-;ceased in 1762	mdcclxi. [1761]-	1
+NA	NA	every ten numbers	vol. i. [july, 1783.-dec. 1783. + suppl.]-vol. vi. [no. li.-no. lx.]	1783-[1785]	1
+NA	NA	every twenty numbers	vol. i. [number i.-number xx. (wednesday, january 1, 1794-saturday, may 10, 1794.)]-vol. ii. [number xxi.-number xl. (saturday, may 17, 1794-saturday, march 21, 1795.]	[1795]	1
+NA	NA	every nine issues	vol. i. [no. 1 (1791)-no. 9]-;ceased in 1819? with v. iii, no. 26	1795-	1
 NA	NA	no. 1. (monday, march 13, 1797.) vol. i.-vol. i. (wednesday, september 13, 1797.) no. 80	NA	[1797]	1

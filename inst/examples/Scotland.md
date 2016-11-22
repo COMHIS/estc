@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-11-21"
+date: "2016-11-22"
 output: markdown_document
 ---
 
@@ -183,7 +183,7 @@ We have 34346 documents from Scotland and 204846 documents from London during 17
 ```
 
 ```
-## Error in grid.Call(L_stringMetric, as.graphicsAnnot(x$label)): invalid use of -52 < 0 in 'X11_MetricInfo'
+## Error in grid.Call(L_stringMetric, as.graphicsAnnot(x$label)): invalid use of -61 < 0 in 'X11_MetricInfo'
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
