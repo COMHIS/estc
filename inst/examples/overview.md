@@ -45,7 +45,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount.orig                       |       100.0|           0.0|             0|          1|
 |paper                                |       100.0|           0.0|             0|          1|
 |document.items                       |       100.0|           0.0|             0|          1|
-|publication_frequency_annual         |        99.3|           0.7|          3138|         20|
+|publication_frequency_annual         |        99.3|           0.7|          3139|         23|
 |publication_frequency_text           |        99.3|           0.7|          3273|         19|
 |publication_interval_from            |        99.3|           0.7|          3493|        364|
 |publication_interval_till            |        99.3|           0.7|          3507|        316|
@@ -70,7 +70,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
 |area                                 |         2.3|          97.7|        469339|        628|
-|country                              |         0.6|          99.4|        477196|         54|
+|country                              |         0.6|          99.4|        477197|         54|
 |publication_place                    |         0.6|          99.4|        477637|       1039|
 |publication_year_from                |         0.2|          99.8|        479405|        347|
 |language                             |         0.0|         100.0|        480213|         50|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2779109 148.5    6861544  366.5   6861544  366.5
-## Vcells 93575463 714.0  268970123 2052.1 268936347 2051.9
+## Ncells  2781043 148.6    6861544  366.5   6861544  366.5
+## Vcells 93579084 714.0  268975342 2052.2 268939974 2051.9
 ```
 
 
