@@ -1,11 +1,3 @@
-### Gaud artsu
-
-Vaasa-kuva voisi pysyä samana -> Vähän suttuisen näköinen mutta
-menköön nyt. Voin viilata sitten review-kierroksella.
-
-Publishing activity in Edinburgh: voitaisiin viilata niin että mukana
-on koko data verrattuna historia-dataan. 
-
 
 ### Technical
 
@@ -313,6 +305,19 @@ df[which(df$subject.geography == "NA"), "subject.geography"] <- NA
 some available country information might lost during filtering?
 
 map towns to gis coordinates, then gis to country?
+
+
+
+## Publication frequency
+
+
+Many documents have more detailed frequency information in time
+fields. This could be utilized in more detail by designing functions
+to interpret such formats. This would affect relatively few total
+documents in ESTC but might be also more widely applicable (?). Hence
+postponed for now.
+- no. 1 (thursday, april 22, 1714)-no. 47 ([saturday], august 7, 1714)
+- vol. 2, no. 1 (july 2, 1793)-v. 8, no. 53 (dec. 30, 1796)
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-11-22"
+date: "2016-11-24"
 output: markdown_document
 ---
 
@@ -154,7 +154,7 @@ We have 34346 documents from Scotland and 204846 documents from London during 17
 ```
 
 ```
-## Error in eval(substitute(expr), envir, enclos): unknown variable to group by : publication_place2
+## Error in resolve_vars(new_groups, tbl_vars(.data)): unknown variable to group by : publication_place2
 ```
 
 ```
@@ -182,11 +182,13 @@ We have 34346 documents from Scotland and 204846 documents from London during 17
 ## Warning: Removed 21019 rows containing missing values (geom_point).
 ```
 
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
+
 ```
-## Error in grid.Call(L_stringMetric, as.graphicsAnnot(x$label)): invalid use of -52 < 0 in 'X11_MetricInfo'
+## Warning: Removed 13912 rows containing missing values (geom_point).
 ```
 
-![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
+![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
 
 ## Authors from different periods publishing in 1750-1799
 
