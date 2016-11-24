@@ -305,6 +305,15 @@ df[which(df$subject.geography == "NA"), "subject.geography"] <- NA
 some available country information might lost during filtering?
 
 map towns to gis coordinates, then gis to country?
+Check the new R ropensci/geonames package
+the GNsrtm3() function in geonames, which uses Shuttle Radar
+Topography Mission elevation data, to fill in missing or incorrect
+elevation values in their dataset.
+
+    geoparser (Geoparser.io client for place names) (on CRAN)
+    osmplotr (OpenStreeMap data and vizualization) (on CRAN)
+    rnaturalearth (Natural Earth data)
+    geonames (Access Geonames.org API) (on CRAN)
 
 
 
