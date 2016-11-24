@@ -70,7 +70,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
 |area                                 |         2.3|          97.7|        469339|        628|
-|country                              |         0.6|          99.4|        477197|         54|
+|country                              |         0.6|          99.4|        477240|         54|
 |publication_place                    |         0.6|          99.4|        477637|       1039|
 |publication_year_from                |         0.2|          99.8|        479405|        347|
 |language                             |         0.0|         100.0|        480213|         50|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2780865 148.6    6861544  366.5   6861544  366.5
-## Vcells 93578679 714.0  268974764 2052.2 268939574 2051.9
+## Ncells  2780963 148.6    6861544  366.5   6861544  366.5
+## Vcells 93578874 714.0  268975040 2052.2 268939765 2051.9
 ```
 
 
