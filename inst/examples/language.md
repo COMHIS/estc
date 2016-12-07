@@ -1,7 +1,7 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-12-07"
 output: markdown_document
 ---
 
@@ -27,10 +27,10 @@ see [accepted languages](output.tables/language_accepted.csv).
 
 |Language      | Documents (n)| Fraction (%)|
 |:-------------|-------------:|------------:|
-|English       |        451789|         93.9|
-|Latin         |         16078|          3.3|
-|French        |          7791|          1.6|
+|English       |        450668|         93.9|
+|Latin         |         16026|          3.3|
+|French        |          7782|          1.6|
 |German        |          1649|          0.3|
 |Welsh         |           952|          0.2|
-|Romance Other |           772|          0.2|
+|Romance Other |           771|          0.2|
 

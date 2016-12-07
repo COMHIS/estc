@@ -1,15 +1,15 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-12-07"
 output: markdown_document
 ---
 
 ### Publication places
 
- * 1041 [publication places](output.tables/publication_place_accepted.csv); available for 478809 documents (99%). 
- * 54 [publication countries](output.tables/country_accepted.csv); available for 478366 documents (99%).
- * 91.4% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``8.6``% of the documents have missing geocoordinates.
+ * 1025 [publication places](output.tables/publication_place_accepted.csv); available for 477560 documents (99%). 
+ * 54 [publication countries](output.tables/country_accepted.csv); available for 477559 documents (99%).
+ * 91.4% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``8.59``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv); some of these can be possibly resolved by checking that the the [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) does not contain multiple versions of the final name (case sensitive). 
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first). NOTE: possible improvements should not be done in this output summary but instead in the [country mapping file](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv).
@@ -25,13 +25,15 @@ Top-20 publication places are shown together with the number of documents.
 
 ### Top publication countries	
 
+The complete list is available [here](output.tables/publication_place_accepted.csv).
+
 
 |Country     | Documents (n)| Fraction (%)|
 |:-----------|-------------:|------------:|
-|England     |        358277|         74.4|
-|USA         |         41264|          8.6|
-|Scotland    |         40187|          8.3|
-|Ireland     |         27420|          5.7|
-|France      |          3736|          0.8|
-|Netherlands |          2036|          0.4|
+|England     |        357335|         74.4|
+|USA         |         41268|          8.6|
+|Scotland    |         40132|          8.4|
+|Ireland     |         27532|          5.7|
+|France      |          3718|          0.8|
+|Netherlands |          2035|          0.4|
 

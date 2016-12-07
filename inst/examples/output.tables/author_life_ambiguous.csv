@@ -170,11 +170,6 @@ Ambrose, John	1705	1771
 Ambrose, John	1780	1771
 Ames, Nathaniel	1708	1764
 Ames, Nathaniel	1741	1822
-Ames, William	1576	1633
-Ames, William	1662	NA
-Ames, William	NA	1662
-Ames, William	NA	1689
-Ames, William	NA	NA
 Amory, Thomas	1684	1710
 Amory, Thomas	1691	1788
 Amory, Thomas	1701	1774
@@ -472,7 +467,6 @@ Barker, Thomas	1664	1665
 Barker, Thomas	1722	1809
 Barker, Thomas	1769	1847
 Barker, Thomas	NA	NA
-Barker, William	1572	NA
 Barker, William	1651	1719
 Barker, William	1677	1746
 Barker, William	NA	NA
@@ -533,8 +527,6 @@ Basset, William	1703	1765
 Bateman, Christopher	1689	1730
 Bateman, Christopher	1698	1730
 Bateman, Christopher	NA	1730
-Bathurst, Henry	1714	1794
-Bathurst, Henry	1814	1794
 Battie, William	1634	1706
 Battie, William	1704	1776
 Bayley, John	1763	1841
@@ -545,9 +537,6 @@ Baylies, William	1776	1865
 Bayly, John	1595	1633
 Bayly, John	1735	1815
 Bayly, John	1749	NA
-Beard, Thomas	1632	NA
-Beard, Thomas	1693	1710
-Beard, Thomas	NA	1632
 Bede	635	735
 Bede	673	735
 Bedford, Arthur	1668	1745
@@ -839,7 +828,6 @@ Briggs, John	NA	NA
 Brinsley, John	1531	1624
 Brinsley, John	1581	1624
 Brinsley, John	1600	1665
-Brinsley, John	1660	1665
 Brinsley, John	NA	NA
 Brocklesby, Richard	1636	1714
 Brocklesby, Richard	1722	1797
@@ -1103,7 +1091,6 @@ C	1623	NA
 C	1624	NA
 C	1674	1675
 C	1773	NA
-C	1978	NA
 C	NA	1709
 C	NA	NA
 Calamy, Edmund	1600	1666
@@ -1213,9 +1200,6 @@ Cant, Andrew	1590	1663
 Cant, Andrew	1648	1730
 Caraccioli, Louis-antoine	1719	1803
 Caraccioli, Louis-antoine	1721	1803
-Carew, Richard	1555	1620
-Carew, Richard	1703	1704
-Carew, Richard	NA	1643
 Carew, Thomas	1595	1639
 Carew, Thomas	1702	1766
 Carew, Thomas	NA	NA
@@ -1329,7 +1313,6 @@ Charles	1600	1649
 Charles	1622	1660
 Charles	1630	1685
 Charles	1643	1690
-Charles	1660	1685
 Charles	1661	1700
 Charles	1685	1740
 Charles	1697	1745
@@ -1631,13 +1614,6 @@ Cooke, William	NA	NA
 Cook, James	1571	1611
 Cook, James	1728	1779
 Cook, James	NA	NA
-Cook, John	1660	NA
-Cook, John	1705	1777
-Cook, John	NA	1660
-Cook, John	NA	NA
-Cooper	1737	NA
-Cooper	1770	NA
-Cooper	NA	NA
 Cooper, David	1691	1751
 Cooper, David	1725	1795
 Cooper, John	1725	1845
@@ -1932,8 +1908,6 @@ Deacon, John	1757	1821
 Deacon, John	NA	NA
 Dean, Richard	1693	1778
 Dean, Richard	1727	1778
-Delamain, Richard	1631	NA
-Delamain, Richard	1654	NA
 De Lancey, James	1703	1760
 De Lancey, James	1732	1800
 Denne, John	1693	1767
@@ -2046,7 +2020,6 @@ Dowdeswell, William	1721	1775
 Dowdeswell, William	1761	1828
 Downes, John	1657	1736
 Downes, John	1661	1719
-Downes, John	1666	NA
 Downes, John	1690	1760
 Downie, John	1727	1811
 Downie, John	1764	1765
@@ -2143,9 +2116,6 @@ Dunton, John	NA	NA
 Dyer, John	1652	1713
 Dyer, John	1700	1758
 Dyer, John	NA	1729
-Dyer, William	1632	1696
-Dyer, William	1696	NA
-Dyer, William	NA	1696
 E	1582	NA
 E	1588	NA
 E	1592	NA
@@ -2273,9 +2243,6 @@ Evans, David	NA	NA
 Evans, Edward	1573	1798
 Evans, Edward	1716	1798
 Evans, Edward	NA	1798
-Evans, J	1795	NA
-Evans, J	1812	NA
-Evans, J	NA	NA
 Evans, John	1613	1659
 Evans, John	1680	1730
 Evans, John	1693	1715
@@ -2286,8 +2253,6 @@ Evans, John	NA	1770
 Evans, John	NA	1779
 Evans, John	NA	1807
 Evans, John	NA	NA
-Evans, Lewis	1574	1756
-Evans, Lewis	1700	1756
 Evans, William	1598	1599
 Evans, William	1768	1776
 Evans, William	NA	NA
@@ -2344,8 +2309,6 @@ Fell, John	NA	NA
 Felton, Henry	1656	1701
 Felton, Henry	1679	1740
 Felton, Henry	NA	NA
-Fenton, Elijah	1683	1730
-Fenton, Elijah	1795	1730
 Fenwick, John	1618	1683
 Fenwick, John	1645	1697
 Fenwick, John	1739	1823
@@ -2515,10 +2478,6 @@ Fowler, John	1797	1798
 Fowler, John	NA	NA
 Fox, Francis	1642	1686
 Fox, Francis	1675	1738
-Fox, George	1624	1661
-Fox, George	1661	NA
-Fox, George	NA	1661
-Fox, George	NA	NA
 Fox, John	1676	NA
 Fox, John	1678	1756
 Fox, John	1704	1735
@@ -2658,7 +2617,6 @@ Garencières, Theophilus	1610	1680
 Garencières, Theophilus	1682	1750
 Gataker, Thomas	1574	1654
 Gataker, Thomas	1730	NA
-Gataker, Thomas	1769	NA
 Gataker, Thomas	NA	1769
 Gataker, Thomas	NA	NA
 Gaunt, John	1701	1797
@@ -2943,7 +2901,6 @@ Gray, James	NA	1810
 Gray, James	NA	NA
 Gray, John	1716	1782
 Gray, John	1724	1811
-Gray, John	1732	1741
 Gray, John	1757	1768
 Gray, John	NA	1769
 Gray, John	NA	NA
@@ -3510,8 +3467,6 @@ Heron, Patrick	1672	1761
 Heron, Patrick	1735	1803
 Hervey, Elizabeth	1697	1820
 Hervey, Elizabeth	1748	1820
-Heydon, John	1629	NA
-Heydon, John	1667	NA
 Hey, John	1734	1815
 Hey, John	1783	1806
 Heylyn, John	1684	1759
@@ -3565,7 +3520,6 @@ Hill, Samuel	1648	1716
 Hill, Samuel	1766	1804
 Hill, Samuel	NA	NA
 Hill, Thomas	1528	1653
-Hill, Thomas	1680	1653
 Hill, Thomas	1790	1653
 Hill, Thomas	NA	1653
 Hill, William	1618	1667
@@ -3868,7 +3822,6 @@ I	1605	NA
 I	1607	NA
 I	1611	NA
 I	1615	NA
-I	1616	NA
 I	1617	NA
 I	1621	NA
 I	1625	NA
@@ -3950,9 +3903,7 @@ J	1646	NA
 J	1647	1696
 J	1648	1654
 J	1664	1688
-J	1665	NA
 J	1680	1702
-J	1688	NA
 J	1689	1703
 J	1693	NA
 J	1708	1775
@@ -4056,8 +4007,6 @@ Jebb, Richard	1729	1787
 Jebb, Richard	1766	1834
 Jefferson, Joseph	1759	1821
 Jefferson, Joseph	1766	1824
-Jeffery, William	1616	1693
-Jeffery, William	1791	1693
 Jeffreys, George	1645	1689
 Jeffreys, George	1678	1755
 Jenison, Robert	1584	1652
@@ -4201,18 +4150,10 @@ Johnston, John	1776	NA
 Johnston, John	1794	NA
 Johnston, John	NA	1690
 Johnston, John	NA	NA
-Johnston, Robert	1567	1639
-Johnston, Robert	1729	NA
-Johnston, Robert	NA	1728
-Johnston, Robert	NA	1808
-Johnston, Robert	NA	NA
 Johnston, William	1635	1750
 Johnston, William	1675	1750
 Johnston, William	1795	1750
 Johnston, William	NA	1750
-Jones	1716	NA
-Jones	1725	NA
-Jones	NA	NA
 Jones, Benjamin	1754	1823
 Jones, Benjamin	1756	1823
 Jones, David	1663	1724
@@ -4331,9 +4272,6 @@ Kaye, Richard	1608	1632
 Kaye, Richard	1736	1809
 Kearney, John	1686	1771
 Kearney, John	1741	1813
-Kearsley, George	1790	NA
-Kearsley, George	1791	1813
-Kearsley, George	NA	1790
 Keckermann, Bartholomäus	1571	NA
 Keckermann, Bartholomäus	1573	NA
 Keith, James	1643	1719
@@ -4358,7 +4296,6 @@ Kemp, William	1600	NA
 Kemp, William	1755	NA
 Kennedy, Gilbert	1678	1745
 Kennedy, Gilbert	1680	1780
-Kennedy, Gilbert	1788	NA
 Kennedy, Gilbert	NA	1773
 Kennedy, James	1759	NA
 Kennedy, James	1769	NA
@@ -4449,8 +4386,6 @@ Kirkwood, James	1650	1708
 Kirkwood, James	1650	1709
 Kirkwood, James	1698	NA
 Kirkwood, James	NA	NA
-Knapp, Francis	1672	NA
-Knapp, Francis	1772	NA
 Knight, John	1651	1712
 Knight, John	1795	1799
 Knight, John	NA	1718
@@ -4497,7 +4432,6 @@ Lambert, James	1725	1788
 Lambert, James	1741	1823
 Lambert, James	NA	NA
 Lambert, John	1619	1683
-Lambert, John	1722	1723
 Lambert, John	1746	1823
 Lambert, John	1792	NA
 Lambert, John	NA	1538
@@ -5237,7 +5171,6 @@ Monro, Donald	1550	1802
 Monro, Donald	1727	1802
 Monro, John	1686	NA
 Monro, John	1715	1791
-Monro, John	1719	NA
 Monro, John	NA	1719
 Monro, John	NA	NA
 Monro, Thomas	1759	1833
@@ -5277,7 +5210,6 @@ Moore, Henry	1732	1802
 Moore, Henry	1751	1844
 Moore, Henry	NA	NA
 Moore, John	1595	1657
-Moore, John	1619	NA
 Moore, John	1620	1702
 Moore, John	1621	NA
 Moore, John	1646	1714
@@ -5322,7 +5254,6 @@ More, Henry	1614	1687
 More, Henry	NA	NA
 Morgan, Abel	1673	1722
 Morgan, Abel	1713	1785
-Morgan, J	1739	NA
 Morgan, J	1752	NA
 Morgan, J	1798	NA
 Morgan, John	1588	NA
@@ -5374,7 +5305,6 @@ Morris, William	NA	NA
 Morton, Charles	1627	1698
 Morton, Charles	1659	1731
 Morton, Charles	1716	1799
-Morton, Charles	1819	1904
 Morton, James Douglas	1652	1715
 Morton, James Douglas	1702	1768
 Morton, John	1671	1726
@@ -5661,9 +5591,6 @@ Owen, Thomas	1557	1618
 Owen, Thomas	1678	1679
 Owen, Thomas	NA	1774
 Owen, Thomas	NA	NA
-Owen, W	1733	1793
-Owen, W	1793	NA
-Owen, W	NA	1793
 Packe, Christopher	1670	1711
 Packe, Christopher	1686	1749
 Packe, Christopher	1728	1800
@@ -5752,7 +5679,6 @@ Parker, Thomas	1728	1809
 Parker, Thomas	NA	NA
 Parker, William	1651	1658
 Parker, William	1714	1802
-Parker, William	1748	1749
 Parker, William	NA	NA
 Parkhurst, John	1512	1575
 Parkhurst, John	1728	1797
@@ -5835,7 +5761,6 @@ Pawson, John	1737	1806
 Payne, John	1597	NA
 Payne, John	1731	NA
 Payne, John	1793	NA
-Payne, John	1800	NA
 Payne, John	NA	1647
 Payne, John	NA	1787
 Payne, John	NA	NA
@@ -6024,9 +5949,6 @@ Posselius, Johannes	1528	1591
 Posselius, Johannes	1565	1623
 Potter, Francis	1594	1678
 Potter, Francis	1709	1767
-Potter, James	1686	1804
-Potter, James	1736	1804
-Potter, James	NA	1804
 Potter, John	1673	1747
 Potter, John	1675	1739
 Potter, John	1742	1753
@@ -6163,7 +6085,6 @@ R	1632	1725
 R	1635	NA
 R	1648	1674
 R	1649	NA
-R	1666	NA
 R	1705	1728
 R	1714	NA
 R	1721	NA
@@ -6548,9 +6469,6 @@ Ross, Robert	1741	1799
 Ross, Robert	NA	1799
 Ross, Walter	1726	1789
 Ross, Walter	1738	1789
-Ross, William	1735	1765
-Ross, William	1764	1765
-Ross, William	NA	1765
 Rotheram, John	1725	1789
 Rotheram, John	1751	1804
 Rothes, John Leslie	1698	1767
@@ -6560,7 +6478,6 @@ Rous, Francis	1615	1659
 Rous, Francis	NA	1659
 Rous, John	1411	1491
 Rous, John	1655	1730
-Rous, John	1695	NA
 Rous, John	NA	1695
 Rowe, John	1626	1677
 Rowe, John	1709	1726
@@ -6575,8 +6492,6 @@ Roxburghe, John Ker	1680	1741
 Roxburghe, John Ker	1740	1804
 Roxburghe, Robert Ker	1677	1696
 Roxburghe, Robert Ker	1709	1755
-Royse, George	1654	1708
-Royse, George	1708	NA
 Roy, William	1527	1531
 Roy, William	1726	1790
 Rudd, Thomas	1584	1656
@@ -6636,7 +6551,6 @@ Russell, William	1773	1839
 Russell, William	1777	NA
 Russell, William	NA	NA
 Russel, William	1690	1761
-Russel, William	1702	NA
 Russel, William	1793	NA
 Russel, William	NA	1702
 Russel, William	NA	NA
@@ -6772,9 +6686,6 @@ Scott, William	NA	1707
 Scott, William	NA	1741
 Scott, William	NA	1788
 Scott, William	NA	NA
-Scot, Walter	1614	1694
-Scot, Walter	1686	1691
-Scot, Walter	NA	NA
 Scot, William	1718	NA
 Scot, William	1723	NA
 Scot, William	NA	NA
@@ -6977,7 +6888,6 @@ Smith, George	1713	1776
 Smith, George	1718	NA
 Smith, George	1737	1808
 Smith, George	1754	NA
-Smith, George	1758	NA
 Smith, George	1763	1817
 Smith, George	1790	NA
 Smith, George	NA	NA
@@ -7067,8 +6977,6 @@ Smith, Joseph	NA	NA
 Smith, Matthew	1650	1736
 Smith, Matthew	1696	1736
 Smith, Matthew	NA	1736
-Smith, Peter	1652	NA
-Smith, Peter	1787	NA
 Smith, Richard	1500	1561
 Smith, Richard	1500	1563
 Smith, Richard	1566	1655
@@ -7123,7 +7031,6 @@ Smith, William	1615	1616
 Smith, William	1616	1696
 Smith, William	1651	1735
 Smith, William	1660	1686
-Smith, William	1673	NA
 Smith, William	1697	1769
 Smith, William	1701	NA
 Smith, William	1711	1787
@@ -7670,7 +7577,6 @@ Thomson, John	1733	1807
 Thomson, John	1741	1822
 Thomson, John	1754	1799
 Thomson, John	1765	1846
-Thomson, John	1773	1807
 Thomson, John	1776	1799
 Thomson, John	NA	1753
 Thomson, John	NA	NA
@@ -7701,8 +7607,6 @@ Thornton, William	1759	1828
 Thornton, William	NA	1769
 Thurlow, Thomas	1731	1806
 Thurlow, Thomas	1737	1791
-Tidd, William	1760	1847
-Tidd, William	1847	NA
 Tierney, George	1731	1830
 Tierney, George	1761	1830
 Tilly, William	1641	1717
@@ -7846,7 +7750,6 @@ W	1549	1603
 W	1559	1603
 W	1577	1582
 W	1584	1660
-W	1592	NA
 W	1593	NA
 W	1595	NA
 W	1601	NA
