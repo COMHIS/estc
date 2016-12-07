@@ -8,6 +8,9 @@ output: markdown_document
 Read the preprocessed ESTC data table and load tools:
 
 
+```
+## Warning: package 'reshape' was built under R version 3.3.2
+```
 
 
 ```r

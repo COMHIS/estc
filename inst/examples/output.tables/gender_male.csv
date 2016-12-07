@@ -353,8 +353,8 @@ Reay	5
 Redmond	5
 Robt	5
 Roderic	5
-Samuel Waller	5
 S Ferrand	5
+Samuel Waller	5
 Sir Hugh	5
 Sydenham	5
 Thomas O'brien	5
@@ -400,8 +400,8 @@ Nikolaus	4
 Nils	4
 Obed	4
 Patricius	4
-Philipp Jakob	4
 Philip Stanhope	4
+Philipp Jakob	4
 Reynold Gideon	4
 Sacheverell	4
 Sauveur	4
@@ -590,19 +590,19 @@ James Roper	2
 James Rutherford	2
 Jan Janszn	2
 Jeffries	2
+Joh Aug	2
 Johannes D'	2
 Johannes Jakob	2
 Johannes Maximilian	2
 Johannis	2
-Joh Aug	2
 John Chancellor	2
 John Cleves	2
 John Jervis White	2
 John Montagu	2
 John Polus	2
 John Redman	2
-Johnson Atkinson	2
 John Stafford	2
+Johnson Atkinson	2
 Karl Gottlieb	2
 Kilborn	2
 Konrad Engelbert	2
@@ -686,11 +686,11 @@ Admiral	1
 Aesop	1
 Agostinho	1
 Ahmad Ibn Muhammad	1
+Al-ḥusayn Ibn ʿalī	1
 Albigence	1
 Albrecht	1
 Aleksandr Mikhaĭlovich	1
 Alexr	1
-Al-ḥusayn Ibn ʿalī	1
 Allexander	1
 Alvan	1
 Amateur	1
@@ -742,6 +742,7 @@ Brodrick	1
 Burges	1
 Buxton	1
 Byam	1
+C Hristopher	1
 Caesar A	1
 Caius Vettius Aquilinus	1
 Called Severus	1
@@ -755,7 +756,6 @@ Christianus	1
 Christianus Mathias	1
 Christiern	1
 Christlieb Ehregott	1
-C Hristopher	1
 Christoph Ludwig	1
 Claes Jansz	1
 Clerk	1
@@ -773,10 +773,10 @@ Creswell	1
 Crompton	1
 Culmer	1
 Cushing	1
+D Haymon	1
 Daddy	1
 Dāwūd Ibn ʿumar	1
 Dermond	1
-D Haymon	1
 Dionysius Petrus	1
 Dirk	1
 Doctor Of Coventry	1
@@ -815,9 +815,9 @@ Fortunatus Antonius	1
 Franciszek	1
 Frantz Siegmund	1
 Franz Ambrosius	1
+Frederic Theodor	1
 Frederick Polydore	1
 Frederick Reinard	1
-Frederic Theodor	1
 Fredric	1
 Fredrik	1
 Fridericus	1
@@ -830,8 +830,8 @@ Friedrich Wilhelm Peter	1
 Friedrich Willhelm	1
 Fulgenzio	1
 Fulke Greville	1
-Gaspard	1
 Gaspar Gil	1
+Gaspard	1
 Gaven	1
 Geffry	1
 Gerat	1
@@ -897,10 +897,12 @@ Ireton	1
 Isabella Fitzroy	1
 Isac	1
 Ishmael Zaphnaphpaaniah	1
-Israell	1
 Israel Meshullam	1
+Israell	1
 Issachar	1
 Ithiel	1
+J J Sebastien	1
+J Ohn	1
 Jacob Rodrigues	1
 Jahleel	1
 James Bladen	1
@@ -937,7 +939,6 @@ Jean-baptiste Sauvé	1
 Jean-marie	1
 Jehu	1
 Jessop	1
-J J Sebastien	1
 Joannes à	1
 Joannes Butt	1
 Joannes Franklyn	1
@@ -950,16 +951,15 @@ Joannes Heathfield	1
 Joannes Hermannus	1
 Joannes Irvine	1
 Joannes Jacobus	1
-Joannes Randolph	1
 Joannes R B	1
+Joannes Randolph	1
 Joannes Warroch	1
+Joh Friedrich Guillus	1
 Johannes Casparus	1
 Johannes Jacobus	1
 Johannes Michael	1
 Johannes Scotus	1
 Johannes Theodorus Van Der	1
-Joh Friedrich Guillus	1
-J Ohn	1
 John Bligh	1
 John Boswell	1
 John Bowes	1
@@ -1027,8 +1027,8 @@ Monsieur	1
 Montagu Venables-bertie	1
 Moreton	1
 Mosheh	1
-Muḥammad Ibn ʻabd Al-malik	1
 Muḥammad Ibn Áli	1
+Muḥammad Ibn ʻabd Al-malik	1
 National	1
 Nevill	1
 Newly	1
@@ -1050,6 +1050,7 @@ Othniel	1
 Ottiwell	1
 Ottwell	1
 Ozias	1
+P Gulielmus	1
 Pardon	1
 Patriarch Of Constantinople	1
 Patrick Davidson	1
@@ -1060,7 +1061,6 @@ Peregrin	1
 Perseval	1
 Petrus Ab	1
 Petrus Sachariae	1
-P Gulielmus	1
 Philip Godfrid	1
 Philotheus Elianus	1
 Phocion	1
@@ -1098,8 +1098,8 @@ Rolston	1
 Romanus	1
 Rooke	1
 Rudjer Josip	1
-Saluste	1
 S Amuel	1
+Saluste	1
 Samuel Byam	1
 Samuel Dinsmore	1
 Samuel Forman	1
@@ -1119,7 +1119,6 @@ Sigismond	1
 Sigismund	1
 Simpson	1
 Sir	1
-Sirāj Al-dīn Muḥammad Ibn Muḥammad	1
 Sir Anthony	1
 Sir Arthur	1
 Sir Audeley	1
@@ -1134,6 +1133,7 @@ Sir Patience	1
 Sir Peter	1
 Sir Philip	1
 Sir Samuel	1
+Sirāj Al-dīn Muḥammad Ibn Muḥammad	1
 Sixtus	1
 Smithson	1
 Sollom	1
@@ -1148,13 +1148,13 @@ Sulpice Imbert	1
 Sulpicius	1
 Supply	1
 Swithun	1
+T Homas	1
 Tebaldo	1
 Th	1
 Theobald Richard	1
 Theophelus	1
 Theophilos	1
 Tho B	1
-T Homas	1
 Thomas Benge	1
 Thomas Cadogan	1
 Thomas Chamberlayne	1
@@ -1194,12 +1194,12 @@ Vittorio Amadeo	1
 Volkert	1
 Volrath	1
 Vortigern	1
+W Beauchamp	1
 Waller	1
 Walsingham	1
 Wanley	1
 Warham	1
 Watson	1
-W Beauchamp	1
 Whig	1
 Whitmore	1
 Wilfride	1

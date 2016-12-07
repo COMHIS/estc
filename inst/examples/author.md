@@ -44,11 +44,20 @@ Ordered by productivity (number of documents))
  * 135858 documents have author age at the publication year (28%). These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
 
 
-![plot of chunk author_age](figure_slides/author_age-1.png)![plot of chunk author_age](figure_slides/author_age-2.png)
+![plot of chunk author_age](figure_slides/author_age-1.png)
+
+```
+## `geom_smooth()` using method = 'loess'
+```
+
+![plot of chunk author_age](figure_slides/author_age-2.png)
 
 ```
 ## $title
 ## [1] "Author age on the publication year"
+## 
+## $subtitle
+## NULL
 ## 
 ## attr(,"class")
 ## [1] "labels"

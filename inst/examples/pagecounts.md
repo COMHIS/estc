@@ -22,18 +22,7 @@ Page count: distribution of document sizes
 
 Note: there are 0 documents that have some dimensions information but sheet area information could not be calculated for some reason. 
 
-
-```
-## Error in eval(expr, envir, enclos): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/paperconsumption-1.png)
-
-```
-## Error in eval(expr, envir, enclos): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/paperconsumption-2.png)
+![plot of chunk paperconsumption](figure/paperconsumption-1.png)![plot of chunk paperconsumption](figure/paperconsumption-2.png)
 
 ![plot of chunk paperconsumption2b](figure/paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/paperconsumption2b-2.png)
 ![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-2.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-3.png)

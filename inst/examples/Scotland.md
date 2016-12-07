@@ -154,7 +154,7 @@ We have 34394 documents from Scotland and 204846 documents from London during 17
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown variable to group by : publication_place2
+## Error in resolve_vars(new_groups, tbl_vars(.data)): unknown variable to group by : publication_place2
 ```
 
 ```
@@ -179,13 +179,13 @@ We have 34394 documents from Scotland and 204846 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 6032 rows containing missing values (geom_point).
+## Warning: Removed 21033 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 1974 rows containing missing values (geom_point).
+## Warning: Removed 13918 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
