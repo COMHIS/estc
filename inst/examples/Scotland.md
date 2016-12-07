@@ -44,16 +44,10 @@ Authors born before 500 AD: paper consumption per decade in Scotland and globall
 
 
 ```
-## Warning: Removed 16 rows containing missing values (position_stack).
+## Warning: Removed 4 rows containing missing values (position_stack).
 ```
 
-![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
-
-![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)
+![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)
 
 
 List of authors born before 500AD:

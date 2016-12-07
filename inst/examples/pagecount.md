@@ -12,7 +12,7 @@ output: markdown_document
 
   * Page count missing and estimated for 0 documents (0%).
 
-  * Page count missing and could not be estimated for 480279 documents (100%).
+  * Page count missing and could not be estimated for 32261 documents (6.7%).
 
   * Page count updated for 0 documents.
   

@@ -25,7 +25,7 @@ Top-20 publication places are shown together with the number of documents.
 
 ### Top publication countries	
 
-The complete list is available [here](output.tables/publication_place_accepted.csv).
+The complete list is available [here](output.tables/country_accepted.csv).
 
 
 |Country     | Documents (n)| Fraction (%)|

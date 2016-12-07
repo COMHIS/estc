@@ -72,10 +72,7 @@ Ordered by productivity (number of documents))
 
 Title count versus paper consumption (all authors):
 
-
-```
-## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
-```
+![plot of chunk authortitlespapers](figure_slides/authortitlespapers-1.png)
 
 
 ![plot of chunk summaryTop10authorstimeline](figure_slides/summaryTop10authorstimeline-1.png)

@@ -38,12 +38,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                           | missing (%)| available (%)| available (n)| unique (n)|
 |:------------------------------------|-----------:|-------------:|-------------:|----------:|
-|pagecount                            |       100.0|           0.0|             0|          1|
 |volnumber                            |       100.0|           0.0|             0|          1|
 |volcount                             |       100.0|           0.0|             0|          1|
 |parts                                |       100.0|           0.0|             0|          1|
-|pagecount.orig                       |       100.0|           0.0|             0|          1|
-|paper                                |       100.0|           0.0|             0|          1|
 |document.items                       |       100.0|           0.0|             0|          1|
 |publication_frequency_annual         |        99.3|           0.7|          3139|         23|
 |publication_frequency_text           |        99.3|           0.7|          3273|         20|
@@ -64,8 +61,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                          |        40.0|          60.0|        288129|      47927|
 |author                               |        40.0|          60.0|        288129|      54979|
 |publisher                            |        23.1|          76.9|        369567|     218473|
+|paper                                |         8.9|          91.1|        437517|       6952|
 |latitude                             |         8.6|          91.4|        439032|        189|
 |longitude                            |         8.6|          91.4|        439032|        189|
+|pagecount                            |         6.7|          93.3|        448018|       1721|
+|pagecount.orig                       |         6.7|          93.3|        448018|       1721|
 |obl                                  |         3.5|          96.5|        463306|          3|
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2781030 148.6    6861544  366.5   6861544  366.5
-## Vcells 93578667 714.0  268974741 2052.2 268939544 2051.9
+## Ncells  2781085 148.6    6861544  366.5   6861544  366.5
+## Vcells 91481519 698.0  265976445 2029.3 265913556 2028.8
 ```
 
 

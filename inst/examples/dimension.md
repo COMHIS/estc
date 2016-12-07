@@ -74,11 +74,6 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 
 
 
-
-```
-## Error in seq.default(min, max, by = by): 'from' cannot be NA, NaN or infinite
-```
-
 ![plot of chunk title_vs_paper](figure/dimension-title_vs_paper-1.png)
 
 <!--
