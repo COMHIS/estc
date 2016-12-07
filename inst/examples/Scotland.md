@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-11-03"
+date: "2016-12-07"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40187 documents from Scotland.
+We have 40132 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -44,10 +44,16 @@ Authors born before 500 AD: paper consumption per decade in Scotland and globall
 
 
 ```
+## Warning: Removed 16 rows containing missing values (position_stack).
+```
+
+![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)
+
+```
 ## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
-![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)
+![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)
 
 
 List of authors born before 500AD:
@@ -162,7 +168,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 ```
 
 ```
-## Error: Insufficient values in manual scale. 40 needed but only 5 provided.
+## Error: Insufficient values in manual scale. 51 needed but only 5 provided.
 ```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
@@ -172,7 +178,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 
 
-We have 34410 documents from Scotland and 205127 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
+We have 34394 documents from Scotland and 204846 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 
 ```
@@ -209,13 +215,13 @@ We have 34410 documents from Scotland and 205127 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 6077 rows containing missing values (geom_point).
+## Warning: Removed 6032 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
 
 ```
-## Warning: Removed 1977 rows containing missing values (geom_point).
+## Warning: Removed 1974 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-3.png)![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-4.png)
