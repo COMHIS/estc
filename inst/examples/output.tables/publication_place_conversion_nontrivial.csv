@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	221689	
+Total count: 	221702	
 [London	London	55214
 [London]	London	21000
 [London?	London	15245
@@ -698,6 +698,7 @@ Bristol [England]	Bristol	   13
 Winchester [Va.]	Winchester Va	   13
 [Londini]	London	   13
 Amstelodami	Amsterdam	   13
+Leominster	Leominster NH	   13
 Portsea	Portsmouth	   13
 [Chelmsford?	Chelmsford	   13
 London?	London	   13
@@ -1723,7 +1724,7 @@ Norton, near Taunton	Taunton Ma	    4
 [Poole]	Poole	    4
 Londres [i.e. Neuchâtel]	Neuchatel	    4
 New Castle	Newcastle	    4
-[Leominster]	Leominster	    4
+[Leominster]	Leominster NH	    4
 Londou [sic]	London	    4
 [Londini?	London	    4
 [Mwythig]	Amwythig	    4
@@ -2648,7 +2649,7 @@ Taraṅkaṉpāṭi	Tharangampadi	    2
 Leida, et in Londra	London	    2
 [Nantwich	Nantwich	    2
 Trankebar	Tharangampadi	    2
-[Hoogly]	Hoogly	    2
+[Hoogly]	Hooghly	    2
 Pondichery	Pondicherry	    2
 V Sanktpeterburgı︠e︡	St Petersburg	    2
 Tranquebar, em India Oriental na costa de Coromandel	Tharangampadi	    2
@@ -4671,7 +4672,7 @@ Middleborough: (County of Plymouth,) [Mass.]	Middleborough Ma	    1
 [Annapolis, Md.]	Annapolis Md	    1
 Reprinted at Providence	Providence RI	    1
 [Newbury-Port, Mass.]	Newburyport Ma	    1
-Re-printed at Lichfield [sic] [Conn.]	Conn	    1
+Re-printed at Lichfield [sic] [Conn.]	New Haven Ct	    1
 Printed at Dover, New-Hampshire	Dover NH	    1
 State of Massachusetts-Bay. Boston	Boston Ma	    1
 Printed in the city of Albany [N.Y.]	Albany NY	    1
@@ -5722,7 +5723,7 @@ London [i.e. Rome]	Rome	    1
 Isle of Man [i.e. Dublin?]	Dublin	    1
 Bury [St. Edmund's]	Bury	    1
 [North Yarmouth	North Yarmouth Me	    1
-[Leominster?]	Leominster	    1
+[Leominster?]	Leominster NH	    1
 Coloniæ Agrippinæ [i.e. Kilkenny?]	Kilkenny	    1
 [Tunbridge Wells?]	Tunbridge Wells	    1
 Bishopstone. Sussex	Bishopstone	    1
@@ -5790,7 +5791,7 @@ Bberdeen [i.e. Aberdeen]	Aberdeen	    1
 Nowich	Norwich	    1
 [Sevenoaks?	Sevenoaks	    1
 [Brecon?	Aberhonddu	    1
-[Leominster?	Leominster	    1
+[Leominster?	Leominster NH	    1
 [London, i.e. Dublin?]	Dublin	    1
 (London?	London	    1
 [London i.e. Rotterdam?]	Rotterdam	    1

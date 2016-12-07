@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-11-24"
+date: "2016-12-07"
 output: markdown_document
 ---
 

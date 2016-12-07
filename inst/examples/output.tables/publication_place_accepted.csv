@@ -32,7 +32,7 @@ Annapolis Md	USA	   491
 Antwerp	Belgium	   380
 Appelby-in-Westmorland	England	     1
 Arezzo	Italy	     1
-Armagh	NA	    28
+Armagh	Northern Ireland	    28
 Arnhem	Netherlands	     1
 Ashburton	England	     1
 Ashby-de-la-Zouch	England	     2
@@ -228,14 +228,13 @@ Columbia SC	USA	    19
 Concord Ma	USA	     5
 Concord NH	USA	    84
 Congleton	England	    23
-Conn	NA	     1
 Constance	Germany	     1
 Cooperstown NY	USA	    13
 Copenhagen	Denmark	    36
 Cork	Ireland	   721
 Coventry	England	   499
 Coxheath	England	     1
-Cranbrook	NA	     5
+Cranbrook	Canada	     5
 Crewkerne	England	     4
 Cricklade	England	     1
 Crieff	Scotland	     1
@@ -458,7 +457,7 @@ Hindolverston	England	     1
 Hitchin	England	     3
 Holt	Germany	     1
 Honiton	England	     8
-Hoogly	NA	     2
+Hooghly	India	     2
 Horncastle	England	    14
 Horsham	England	     5
 Houghton Park	England	     2
@@ -537,8 +536,8 @@ Leicester	England	   176
 Leiden	Netherlands	   111
 Leipzig	Germany	   120
 Lemgo	Germany	     1
-Leominster	England	    19
 Leominster Ma	USA	    62
+Leominster NH	USA	    19
 Leuven	Belgium	    18
 Lewes	England	   128
 Lexington KY	USA	    81
@@ -549,7 +548,7 @@ Limerick	Ireland	   118
 Lincoln	England	   147
 Lincolnton Nc	USA	     2
 Lisbon	Portugal	     9
-Lisburn	NA	     1
+Lisburn	Northern Ireland	     1
 Litchfield Ct	USA	   181
 Liverpool	England	   546
 Livorno	Italy	    63
@@ -638,7 +637,7 @@ New Bern NC	USA	   149
 New Britain Pa	USA	     1
 New Brunswick NJ	USA	    73
 New Castle De	USA	    15
-New Haven Ct	USA	   771
+New Haven Ct	USA	   772
 New London Ct	USA	  1013
 New Milford Ct	USA	     1
 New Orleans La	USA	    62

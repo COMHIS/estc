@@ -310,6 +310,7 @@ the GNsrtm3() function in geonames, which uses Shuttle Radar
 Topography Mission elevation data, to fill in missing or incorrect
 elevation values in their dataset.
 
+    opencage ! geocoding/reverse
     geoparser (Geoparser.io client for place names) (on CRAN)
     osmplotr (OpenStreeMap data and vizualization) (on CRAN)
     rnaturalearth (Natural Earth data)

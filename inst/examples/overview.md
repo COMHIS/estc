@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-11-24"
+date: "2016-12-07"
 output: markdown_document
 ---
 
@@ -64,14 +64,14 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                          |        40.0|          60.0|        288129|      47927|
 |author                               |        40.0|          60.0|        288129|      54979|
 |publisher                            |        23.1|          76.9|        369567|     218473|
-|latitude                             |         8.6|          91.4|        439031|        189|
-|longitude                            |         8.6|          91.4|        439031|        189|
+|latitude                             |         8.6|          91.4|        439032|        189|
+|longitude                            |         8.6|          91.4|        439032|        189|
 |obl                                  |         3.5|          96.5|        463306|          3|
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
 |area                                 |         2.3|          97.7|        469339|        628|
-|country                              |         0.6|          99.4|        477523|         55|
-|publication_place                    |         0.6|          99.4|        477560|       1026|
+|publication_place                    |         0.6|          99.4|        477560|       1025|
+|country                              |         0.6|          99.4|        477560|         55|
 |publication_year_from                |         0.2|          99.8|        479405|        347|
 |language                             |         0.0|         100.0|        480213|         50|
 |system_control_number                |         0.0|         100.0|        480263|     480254|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2780855 148.6    6861544  366.5   6861544  366.5
-## Vcells 93578641 714.0  268974698 2052.2 268939516 2051.9
+## Ncells  2780888 148.6    6861544  366.5   6861544  366.5
+## Vcells 93578650 714.0  268974717 2052.2 268939528 2051.9
 ```
 
 
