@@ -1,5 +1,9 @@
 publication_place	country	Count
+<<<<<<< HEAD
 Total count: 	477560	
+=======
+Total count: 	480279	
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Aachen	Germany	     1
 Abartawe	England	    14
 Abbeville	France	     4
@@ -117,8 +121,8 @@ Bouillon	Belgium	     4
 Boulogne-sur-Mer	France	     1
 Brackley	England	     1
 Bradford	England	    45
-Brattleborough Vt	USA	     4
 Brattleboro Vt	USA	     7
+Brattleborough Vt	USA	     4
 Braunschweig	Germany	     2
 Brearley Hall	England	     3
 Bremen	Germany	     9
@@ -171,14 +175,18 @@ Canaan NY	USA	     4
 Canandaigua Ny	USA	     1
 Canterbury	England	   509
 Canterbury NH	USA	     1
-Cape Town	South Africa	     4
 Cap-Haitien	Haiti	     4
+Cape Town	South Africa	     4
 Carlisle	England	   114
 Carlisle Pa	USA	    42
 Carlow	Ireland	     8
 Carmarthen	England	    74
+<<<<<<< HEAD
 Carrickfergus	Northern Ireland	     5
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Carrick-on-Suir	Ireland	     1
+Carrickfergus	Northern Ireland	     5
 Carron	Scotland	     2
 Cashel	Ireland	     2
 Castine Me	USA	     5
@@ -287,6 +295,7 @@ Dublin	Ireland	 26143
 Dudley	England	    20
 Dumfries	Scotland	    85
 Dumfries Va	USA	     5
+Dun Laoghaire	Ireland	     3
 Dunbar	Scotland	    44
 Duncannon	Ireland	     1
 Dundee	Scotland	   140
@@ -295,14 +304,13 @@ Dungannon	Northern Ireland	     3
 Dunkalk	Ireland	     1
 Dunkeld	Scotland	     1
 Dunkirk	France	     7
-Dun Laoghaire	Ireland	     3
 Duns	Scotland	     2
 Dunstable	England	     1
 Durham	England	   177
 Düsseldorf	Germany	     1
 Eartham	England	     1
-Eastbourne	England	     2
 East Grinstead	England	     1
+Eastbourne	England	     2
 Easton Pa	USA	    10
 Edenhall	England	     1
 Edenton NC	USA	    43
@@ -364,7 +372,11 @@ Fryeburg Me	USA	     7
 Gainsborough	England	    88
 Galway	Ireland	     9
 Gateside	Scotland	     2
+<<<<<<< HEAD
 Gaunt	NA	     1
+=======
+Gaunt	unknown	     1
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Gaznah	Iraq	     1
 Gdansk	Poland	     2
 Gdańsk	Poland	     1
@@ -411,8 +423,8 @@ Halesworth	England	     1
 Halifax	England	   446
 Halifax NC	USA	    48
 Halifax NS	Canada	   102
-Halle	Germany	    30
 Hall England	England	     2
+Halle	Germany	    30
 Hallowell Me	USA	    14
 Hamburg	Germany	   151
 Hamilton	England	    19
@@ -426,8 +438,8 @@ Harderwijk	Netherlands	     3
 Harford Md	USA	     1
 Harlech	England	     3
 Harlow	England	     2
-Harrisburgh Pa	USA	    10
 Harrisburg Pa	USA	    18
+Harrisburgh Pa	USA	    10
 Harrogate	England	     4
 Hartford Ct	USA	   963
 Hastings	England	     1
@@ -518,20 +530,24 @@ Knoxville TN	USA	    31
 Knutsford	England	     1
 Koningsberg	Germany	     2
 Krakow	Poland	     1
+La Rochelle	France	     6
+La Trinite	Martinique	     1
 Lanark	Scotland	     1
 Lancaster NJ	USA	     1
 Lancaster Pa	USA	   351
 Lancester Pa	USA	     1
 Langport	England	     1
 Lansingburgh NY	USA	    32
-La Rochelle	France	     6
-La Trinite	Martinique	     1
 Launceston	England	     3
 Lausanne	Switzerland	    31
+Le Havre	France	     1
 Lebanon Pa	USA	     1
 Leeds	England	   633
 Leek	England	     4
+<<<<<<< HEAD
 Le Havre	France	     1
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Leicester	England	   176
 Leiden	Netherlands	   111
 Leipzig	Germany	   120
@@ -632,16 +648,28 @@ Nassau	Bahamas	    24
 Natchez Ms	USA	    10
 Neuchatel	Switzerland	    16
 Neustadt an der Weinstraße	Germany	     1
+<<<<<<< HEAD
 Newark	England	   122
 Newark NJ	USA	   105
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 New Bedford Ma	USA	    40
 New Bern NC	USA	   149
 New Britain Pa	USA	     1
 New Brunswick NJ	USA	    73
+New Castle De	USA	    15
+New Haven Ct	USA	   772
+New London Ct	USA	  1013
+New Milford Ct	USA	     1
+New Orleans La	USA	    62
+New Windsor NY	USA	     2
+New York NY	USA	  4695
+Newark	England	   122
+Newark NJ	USA	   105
 Newburgh NY	USA	    14
 Newbury	England	    10
-Newburyport Ma	USA	   399
 Newbury Vt	USA	     6
+<<<<<<< HEAD
 Newcastle	England	  2711
 New Castle De	USA	    15
 Newfield Ct	USA	    21
@@ -651,6 +679,13 @@ New London Ct	USA	  1013
 Newmarket	England	    10
 New Milford Ct	USA	     1
 New Orleans La	USA	    62
+=======
+Newburyport Ma	USA	   399
+Newcastle	England	  2711
+Newfield Ct	USA	    21
+Newington Ct	USA	     1
+Newmarket	England	    10
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Newport	England	    50
 Newport Pagnell	England	     2
 Newport RI	USA	   654
@@ -659,8 +694,11 @@ Newton Abbot	England	     3
 Newton NJ	USA	     2
 Newton Stewart	Scotland	     1
 Newtown Pa	USA	     1
+<<<<<<< HEAD
 New Windsor NY	USA	     2
 New York NY	USA	  4695
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Niagara	Canada	    31
 Nice	France	     4
 Nijmegen	Netherlands	     1
@@ -670,13 +708,13 @@ Norfolk	England	     5
 Norfolk Va	USA	    30
 Norristown Pa	USA	     7
 Norrköping	Sweden	     1
+North Shields	England	    25
+North Yarmouth Me	USA	     1
 Northallerton	England	     4
 Northampton	England	   368
 Northampton Ma	USA	    62
-North Shields	England	    25
 Northumberland Pa	USA	    12
 Northwich	England	     1
-North Yarmouth Me	USA	     1
 Norton	England	     6
 Norton Fitzwarren	England	     1
 Norwich	England	   948
@@ -739,9 +777,14 @@ Pondicherry	India	    10
 Pontefract	England	    18
 Poole	England	     9
 Port-au-Prince	Haiti	    48
+<<<<<<< HEAD
 Portland Me	USA	    91
 Porto	Portugal	     1
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Port-of-Spain	Trinidad and Tobago	     4
+Portland Me	USA	    91
+Porto	Portugal	     1
 Portsmouth	England	   106
 Portsmouth NH	USA	   485
 Potsdam	Germany	     1
@@ -795,8 +838,8 @@ Rye	England	     4
 Saarbrücken	Germany	     1
 Saffron Walden	England	     2
 Sag Harbour NY	USA	     8
-Saint-Germain-en-Laye	France	     6
 Saint John	Canada	     7
+Saint-Germain-en-Laye	France	     6
 Salamanca	Spain	     1
 Salem	USA	    12
 Salem Ma	USA	   327
@@ -809,8 +852,8 @@ Salisbury NC	USA	    12
 Sandhurst	England	     2
 Sandwich	England	     1
 Sanquhar	Scotland	     1
-Savannah Ga	USA	   150
 Savanna-la-Mar Jamaica	Jamaica	     1
+Savannah Ga	USA	   150
 Saxmundham	England	     2
 Scarborough	England	    16
 Schenectady NY	USA	    12
@@ -839,32 +882,41 @@ Sienna	Italy	     1
 Simsbury Ct	USA	     1
 Sligo	Ireland	     2
 Slough	England	     1
-Southampton	England	   123
 South Molton	England	     5
 South Shields	England	    10
+Southampton	England	   123
 Spalding	England	    27
 Spanish Town	Jamaica	    97
 Springfield Ma	USA	    93
+<<<<<<< HEAD
 Stabroek	Belgium	    15
 Stafford	England	    55
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 St Albans	England	    15
-Stamford	England	    96
 St Andrews	Scotland	    45
 St Augustine Fl	USA	     8
-Staunton Va	USA	     5
 St Austell	England	     2
 St Croix	USA	     1
-Sterling	Scotland	     3
 St Eustatius	St Eustatius	     1
 St George	Grenada	    30
 St Germans	England	     1
 St Helier	England	    28
-Stirling	Scotland	   159
 St Ives	England	    23
 St John New Brunswick	Canada	     8
 St Johns Antiqua	Antiqua	    54
 St Mary's Md	USA	     1
 St Neots	England	     5
+St Omer	France	   343
+St Peter Port	Guernsey	    11
+St Petersburg	Russia	    25
+St Pierre	Martinique	     5
+Stabroek	Belgium	    15
+Stafford	England	    55
+Stamford	England	    96
+Staunton Va	USA	     5
+Sterling	Scotland	     3
+Stirling	Scotland	   159
 Stockbridge Ma	USA	    53
 Stockholm	Sweden	     7
 Stockport	England	    54
@@ -872,15 +924,15 @@ Stockton	England	    52
 Stoke Newington	England	     2
 Stoke-on-Trent	England	     1
 Stokesley	England	     2
+<<<<<<< HEAD
 St Omer	France	   343
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Stonington Ct	USA	    10
 Stonor	England	     3
 Stourbridge	England	    23
 Stow	England	     1
 Stowmarket	England	     2
-St Peter Port	Guernsey	    11
-St Petersburg	Russia	    25
-St Pierre	Martinique	     5
 Strabane	Northern Ireland	    19
 Strahane	England	     2
 Strasbourg	France	    36
@@ -967,9 +1019,9 @@ Weißenfels	Germany	     1
 Wellingborough	England	     3
 Wells	England	     5
 Wesel	Germany	    44
+West Springfield Ma	USA	    20
 Westminster Vt	USA	    23
 Westport Ct	USA	     1
-West Springfield Ma	USA	    20
 Wexford	England	    17
 Weymouth	England	    17
 Whitburn	Scotland	     3
@@ -1010,9 +1062,9 @@ Worms	Germany	     2
 Wotton-under-Edge	England	     9
 Wrexham	England	    70
 Wycombe	England	     3
+Y Bont-Faen	England	     2
 Yarm	England	     1
 Yarmouth	England	    98
-Y Bont-Faen	England	     2
 Yeovil	England	     4
 York	England	  1752
 York Pa	USA	    48
@@ -1024,3 +1076,7 @@ Zittau	Germany	     1
 Zürich	Germany	    23
 Zutphen	Netherlands	     2
 Zweibrücken	Germany	     1
+<<<<<<< HEAD
+=======
+NA	NA	  2719
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3

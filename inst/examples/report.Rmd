@@ -415,7 +415,7 @@ if (params$document.type == "All") {
 
   p <- ggplot(df2, aes(x = publication_year, y = paper, group = document_type, color = document_type))
   p <- p + geom_point() + scale_y_log10() 
-  p <- p + geom_smooth(method = "loess")
+  p <- p + geom_smooth(method = "loess", span = 0.1)
   p <- p + xlab("Year")
   p <- p + ylab("Paper (sheets)")
   print(p)

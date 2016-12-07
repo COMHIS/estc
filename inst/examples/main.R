@@ -1,10 +1,9 @@
 library(devtools)
 library(dplyr)
 library(sorvi)
-load_all("../../../bibliographica/")
 library(bibliographica)
-load_all()
-
+#load_all("~/Rpackages/bibliographica")
+library(estc)
 
 # I/O definitions
 # make daily output folders TODO convert into function -vv
@@ -36,7 +35,7 @@ catalog <- "estc"
 # TODO: recognize the necessary languages automatically ?
 languages <- c("english", "latin")
 
-# Cores
+# Cores: does not seem to work at the moment
 mc.cores <- 4
 
 # Update selected fields only -
@@ -119,6 +118,7 @@ source("enrich.estc.R") # load function: enrich_estc
 data.enriched.estc <- enrich_estc(data.enriched)
 
 df.preprocessed <- data.enriched.estc$df.preprocessed
+
 # ----------------------------------------------------
 
 print("Saving updates on preprocessed data")

@@ -259,8 +259,8 @@ Scarborough	16
 Haddington	16
 Fredicksburg Va	16
 Caerleon	16
-St Albans	15
 Stabroek	15
+St Albans	15
 New Castle De	15
 Machynlleth	15
 Inverness	15
@@ -396,9 +396,9 @@ Windsor Ct	5
 Wells	5
 Totnes	5
 Taunton Ma	5
+Staunton Va	5
 St Pierre	5
 St Neots	5
-Staunton Va	5
 South Molton	5
 Salem NY	5
 Prescot	5
@@ -493,9 +493,9 @@ Harbor Oh	3
 Gillingham	3
 Georgetown Va	3
 Elizabethtown Md	3
-Dun Laoghaire	3
 Dungannon	3
 Dunfermline	3
+Dun Laoghaire	3
 Chillicothe Oh	3
 Cheshunt	3
 Chesham	3
@@ -546,9 +546,9 @@ Oranjestad	2
 Octorara Pa	2
 Nuneaton	2
 Nordhausen	2
-New Windsor NY	2
 Newton NJ	2
 Newport Pagnell	2
+New Windsor NY	2
 Minorca	2
 Milton	2
 Milborne Port	2
@@ -676,12 +676,12 @@ Oldham	1
 Offenbach	1
 Oberwesel	1
 Norton Fitzwarren	1
-North Yarmouth Me	1
 Northwich	1
+North Yarmouth Me	1
 Newtown Pa	1
 Newton Stewart	1
-New Milford Ct	1
 Newington Ct	1
+New Milford Ct	1
 New Britain Pa	1
 Neustadt an der Weinstraße	1
 Naas	1
@@ -700,13 +700,17 @@ Lynchburg Va	1
 Long Buckby	1
 Lisburn	1
 Libanon Pa	1
+<<<<<<< HEAD
 Le Havre	1
+=======
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
 Lebanon Pa	1
-La Trinite	1
+Le Havre	1
 Langport	1
 Lancester Pa	1
 Lancaster NJ	1
 Lanark	1
+La Trinite	1
 Knutsford	1
 Knoxville Oh	1
 Kirkham	1

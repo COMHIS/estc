@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name	Count	Percentage_excluding_NA	Percentage_Total
 Total count: 	477559		
 England	357335	74.83	74.40
@@ -53,3 +54,61 @@ Saint Lucia	     1	 0.00	 0.00
 Sierra Leone	     1	 0.00	 0.00
 St Eustatius	     1	 0.00	 0.00
 Turkey	     1	 0.00	 0.00
+=======
+Name	Count
+Total count: 	477560
+England	357335
+USA	 41268
+Scotland	 40132
+Ireland	 27532
+France	  3718
+Netherlands	  2035
+Canada	  1152
+Germany	   893
+Northern Ireland	   883
+Belgium	   619
+India	   580
+Switzerland	   289
+Jamaica	   265
+Italy	   233
+Barbados	    60
+Antiqua	    54
+Haiti	    53
+Dominica	    45
+Austria	    39
+Denmark	    38
+St Vincent	    37
+Saint Kitts and Nevis	    36
+Sweden	    36
+Grenada	    31
+Russia	    26
+Bahamas	    24
+Isle of Man	    18
+Spain	    15
+Guernesey	    13
+Poland	    12
+Guernsey	    11
+Martinique	    11
+Portugal	    11
+Malta	    10
+Guadaloupe	     5
+Cuba	     4
+Iraq	     4
+South Africa	     4
+Trinidad and Tobago	     4
+Australia	     3
+Czech Republic	     3
+Latvia	     3
+Ambiguous	     2
+Aruba	     2
+Sri Lanka	     2
+Suriname	     2
+Hungary	     1
+Israel	     1
+Mexico	     1
+Saint Lucia	     1
+Sierra Leone	     1
+St Eustatius	     1
+Turkey	     1
+unknown	     1
+>>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3
