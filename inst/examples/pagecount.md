@@ -10,19 +10,23 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count missing and estimated for 18914 documents (3.9%).
+  * Page count available for 457123 documents (95.2%). 
+
+  * Page count estimated for 18914 documents (3.9%).
+
+  * Page count available for total 476037 documents (99.1%). This includes both immediately available and estimated page counts.
 
   * Page count missing and could not be estimated for 4242 documents (0.9%).
 
   * Page count updated for 0 documents.
   
-  * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversion_nontrivial.csv)
+  * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
 <!--[Page conversions from raw data to final page count estimates with volume info](output.tables/page_conversion_table_full.csv)-->
 
-  * [Discarded pagecount info](output.tables/pagecount_discarded.csv) For these cases the missing/discarded page count was estimated based on average page count estimates for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where original pagecount info is available.
+  * [Discarded pagecount info](output.tables/pagecount_discarded.csv) For these cases the missing/discarded page count is estimated based on average page count estimates for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where original pagecount info is available.
 
-  * [Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
+  * [Automated unit tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
 
 
 Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18914 documents that have missing pagecount info in the original data):
