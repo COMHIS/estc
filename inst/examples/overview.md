@@ -63,13 +63,13 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                            |        23.1|          76.9|        369567|     218473|
 |latitude                             |         8.6|          91.4|        439032|        189|
 |longitude                            |         8.6|          91.4|        439032|        189|
-|pagecount.orig                       |         4.8|          95.2|        457123|       1461|
+|pagecount.orig                       |         4.8|          95.2|        457391|       1488|
 |obl                                  |         3.5|          96.5|        463306|          3|
-|paper                                |         3.0|          97.0|        465639|       6696|
+|paper                                |         2.8|          97.2|        466707|       6835|
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
 |area                                 |         2.3|          97.7|        469339|        628|
-|pagecount                            |         0.9|          99.1|        476037|       1706|
+|pagecount                            |         0.6|          99.4|        477206|       1745|
 |country                              |         0.6|          99.4|        477559|         54|
 |publication_place                    |         0.6|          99.4|        477560|       1025|
 |publication_year_from                |         0.2|          99.8|        479405|        347|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2781164 148.6    6861544  366.5   6861544  366.5
-## Vcells 93578552 714.0  269000271 2052.4 268959214 2052.0
+## Ncells  2781024 148.6    6861544  366.5   6861544  366.5
+## Vcells 93575265 714.0  268996074 2052.3 268956339 2052.0
 ```
 
 

@@ -35,15 +35,15 @@ Title count versus paper consumption (top publishers):
 
 |publisher                                                                                | titles|    paper|
 |:----------------------------------------------------------------------------------------|------:|--------:|
-|printed by Charles Eyre and Andrew Strahan                                               |    918|  8357441|
-|printed by Charles Eyre and William Strahan                                              |   1566| 12005503|
+|printed by Charles Eyre and Andrew Strahan                                               |    918|  8389081|
+|printed by Charles Eyre and William Strahan                                              |   1566| 12080186|
 |printed by George Eyre and Andrew Strahan                                                |    940|  4633455|
-|printed by John Baskett                                                                  |    707|  3487501|
-|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1972313|
-|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6384062|
-|printed for T. Cadell, in the Strand                                                     |    517|  2432658|
-|printed for the author                                                                   |   1286|  6660670|
-|printed in the year                                                                      |   2950|  5699735|
-|Printed in the year                                                                      |   1778|  4679837|
+|printed by John Baskett                                                                  |    707|  3819328|
+|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  2044457|
+|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6764961|
+|printed for T. Cadell, in the Strand                                                     |    517|  2449357|
+|printed for the author                                                                   |   1286|  9937619|
+|printed in the year                                                                      |   2950|  5830550|
+|Printed in the year                                                                      |   1778|  4715576|
 
 
