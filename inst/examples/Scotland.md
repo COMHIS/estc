@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2016-12-07"
+date: "2016-12-08"
 output: markdown_document
 ---
 
@@ -44,7 +44,7 @@ Authors born before 500 AD: paper consumption per decade in Scotland and globall
 
 
 ```
-## Warning: Removed 4 rows containing missing values (position_stack).
+## Warning: Removed 1 rows containing missing values (position_stack).
 ```
 
 ![plot of chunk Scotlandad500](figure/Scotlandad500-1.png)![plot of chunk Scotlandad500](figure/Scotlandad500-2.png)

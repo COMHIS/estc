@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-07"
+date: "2016-12-08"
 output: markdown_document
 ---
 
@@ -10,9 +10,9 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count missing and estimated for 0 documents (0%).
+  * Page count missing and estimated for 18914 documents (3.9%).
 
-  * Page count missing and could not be estimated for 32261 documents (6.7%).
+  * Page count missing and could not be estimated for 4242 documents (0.9%).
 
   * Page count updated for 0 documents.
   
@@ -25,7 +25,7 @@ output: markdown_document
   * [Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
 
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 0 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18914 documents that have missing pagecount info in the original data):
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 

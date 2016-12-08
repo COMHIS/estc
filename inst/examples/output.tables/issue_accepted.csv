@@ -1,2 +1,4 @@
-X.Total.count..480279.	Name	Count
-Total count: 480279	FALSE	480279
+Name	Count
+Total count (na.rm TRUE): 	480279
+FALSE	479234
+TRUE	  1045
