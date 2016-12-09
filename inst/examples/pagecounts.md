@@ -6,6 +6,17 @@ output: markdown_document
 ---
 
 
+## ESTC/ECCO comparison
+
+
+
+There are 62980 ECCO documents (39.8%) with a match in ESTC in our data based on the system control number.
+
+Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
+
+![plot of chunk ecco2](figure/ecco2-1.png)
+
+
 ## Page counts
 
 Page count: distribution of document sizes
