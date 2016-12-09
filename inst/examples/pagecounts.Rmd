@@ -15,6 +15,10 @@ df <- df.preprocessed
 # Read ECCO dump
 ecco <- read.csv("ecco.csv.gz")
 
+# Polish doc ID
+df$id <- df.preprocessed$system_control_number
+df$id <- gsub("\\(CU-RivES\\)", "", df$id)
+
 # Add ECCO page counts to our data
 df$pagecount.ecco <- ecco[match(df$id, as.character(ecco$ESTCID)), "totalPages"]
 # Add info on whether the page count was estimated or not
@@ -28,7 +32,7 @@ Comparison between the page counts available in ESTC and ECCO can be used to val
 ```{r ecco2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8, out.width="230px"}
 library(ggplot2)
 theme_set(theme_bw(20))
-dfs <- filter(df, !is.na(pagecount.ecco) & !is.na(pagecount))
+dfs <- subset(df, !is.na(pagecount.ecco) & !is.na(pagecount))
 p <- ggplot(dfs, aes(x = pagecount, y = pagecount.ecco)) +
        geom_point(aes(color = pagecount.estimated)) +
        scale_x_log10() +
