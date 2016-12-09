@@ -9,12 +9,24 @@ output: markdown_document
 ## ESTC/ECCO comparison
 
 
+```
+## Error in `$<-.data.frame`(`*tmp*`, "pagecount.ecco", value = integer(0)): replacement has 0 rows, data has 480279
+```
 
-There are 62980 ECCO documents (39.8%) with a match in ESTC in our data based on the system control number.
+There are 0 ECCO documents (0%) with a direct match in ESTC in our data based on the system control number.
 
 Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
 
-![plot of chunk ecco2](figure/ecco2-1.png)
+
+```
+## Error in filter_impl(.data, dots): object 'pagecount.ecco' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'pagecount.estimated' not found
+```
+
+<img src="figure/ecco2-1.png" title="plot of chunk ecco2" alt="plot of chunk ecco2" width="230px" />
 
 
 ## Page counts

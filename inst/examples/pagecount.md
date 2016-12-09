@@ -22,7 +22,7 @@ output: markdown_document
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
-  * [Discarded pagecount info](output.tables/pagecount_discarded.csv) For these cases the missing/discarded page count is estimated based on average page count estimates for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where original pagecount info is available.
+  * [Augmented pagecounts](output.tables/pagecount_discarded.csv) For these cases the page count is missing (or discarded) in the original data, and estimated based on median page counts for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where page count info was available.
 
   * [Automated unit tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
 
@@ -37,11 +37,11 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 Mean and median page counts calculated based on the documents where
 the page count information was readily available. Also see the
-correponding numerical tables:
+correponding numerical tables with page count estimates:
 
- * [single volume](mean_pagecounts_singlevol.csv)
- * [multi-volume](mean_pagecounts_multivol.csv)
- * [issues](mean_pagecounts_issue.csv)
+ * [Single volume](mean_pagecounts_singlevol.csv)
+ * [Multi-volume](mean_pagecounts_multivol.csv)
+ * [Issue](mean_pagecounts_issue.csv)
 
 These estimates are used to fill in page count info for the remaining
 documents where page count info is missing.

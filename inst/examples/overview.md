@@ -65,7 +65,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |longitude                            |         8.6|          91.4|        439032|        189|
 |pagecount.orig                       |         4.8|          95.2|        457391|       1488|
 |obl                                  |         3.5|          96.5|        463306|          3|
-|paper                                |         2.8|          97.2|        466707|       6802|
+|paper                                |         2.8|          97.2|        466707|       6797|
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
 |area                                 |         2.3|          97.7|        469339|        628|
@@ -139,8 +139,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2780984 148.6    6861544  366.5   6861544  366.5
-## Vcells 93575357 714.0  268991097 2052.3 268952853 2052.0
+## Ncells  2781011 148.6    6861544  366.5   6861544  366.5
+## Vcells 93575361 714.0  268991088 2052.3 268952847 2052.0
 ```
 
 
