@@ -29,7 +29,7 @@ There are `r sum(as.character(ecco$ESTCID) %in% df$id)` ECCO documents (`r round
 
 Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
 
-```{r ecco2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8, out.width="230px"}
+```{r ecco2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=9, out.width="500px"}
 library(ggplot2)
 theme_set(theme_bw(20))
 dfs <- subset(df, !is.na(pagecount.ecco) & !is.na(pagecount))

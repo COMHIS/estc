@@ -14,7 +14,7 @@ There are 62980 ECCO documents (39.8%) with a direct match in ESTC in our data b
 
 Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
 
-<img src="figure/ecco2-1.png" title="plot of chunk ecco2" alt="plot of chunk ecco2" width="230px" />
+<img src="figure/ecco2-1.png" title="plot of chunk ecco2" alt="plot of chunk ecco2" width="500px" />
 
 
 ## Page counts
