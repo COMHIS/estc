@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-09"
+date: "2016-12-11"
 output: markdown_document
 ---
 
@@ -36,14 +36,14 @@ Title count versus paper consumption (top publishers):
 |publisher                                                                                | titles|    paper|
 |:----------------------------------------------------------------------------------------|------:|--------:|
 |printed by Charles Eyre and Andrew Strahan                                               |    918|  8389081|
-|printed by Charles Eyre and William Strahan                                              |   1566| 12080186|
+|printed by Charles Eyre and William Strahan                                              |   1566| 12081123|
 |printed by George Eyre and Andrew Strahan                                                |    940|  4633455|
 |printed by John Baskett                                                                  |    707|  3819328|
 |printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  2044457|
 |printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6764961|
-|printed for T. Cadell, in the Strand                                                     |    517|  2449357|
-|printed for the author                                                                   |   1286|  9937619|
-|printed in the year                                                                      |   2950|  5830550|
-|Printed in the year                                                                      |   1778|  4715576|
+|printed for T. Cadell, in the Strand                                                     |    517|  2487308|
+|printed for the author                                                                   |   1286| 13453727|
+|printed in the year                                                                      |   2950|  5900403|
+|Printed in the year                                                                      |   1778|  4729827|
 
 
