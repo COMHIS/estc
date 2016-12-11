@@ -28,9 +28,14 @@ df$id <- gsub("\\(CU-RivES\\)", "", df$id)
 df$pagecount.ecco <- ecco[match(df$id, as.character(ecco$id)), "totalPages"]
 # Add info on whether the page count was estimated or not
 df$pagecount.estimated <- !is.na(df$pagecount) & is.na(df$pagecount.orig)
+
+# Percentage of total ESTC pages vs. ECCO pages
+# across the shared docs
+coms <- intersect(ecco$id, df$id)
+total.match <- sum(subset(df, id %in% coms)$pagecount, na.rm = TRUE) / sum(subset(ecco, id %in% coms)$totalPages, na.rm = TRUE)
 ```
 
-There are `r sum(as.character(ecco$id) %in% df$id)` ECCO documents (`r round(100*mean(as.character(ecco$id) %in% df$id), 1)`%) with a direct match in ESTC in our data based on the system control number.
+There are `r sum(as.character(ecco$id) %in% df$id)` ECCO documents (`r round(100*mean(as.character(ecco$id) %in% df$id), 1)`%) with a direct match in ESTC in our data based on the system control number. The total page count for the matched ESTC documents is `r round(100 * total.match, 1)`% of the total page count over the same ECCO documents.
 
 Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
 
