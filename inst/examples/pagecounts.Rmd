@@ -28,6 +28,16 @@ df$id <- gsub("\\(CU-RivES\\)", "", df$id)
 df$pagecount.ecco <- ecco[match(df$id, as.character(ecco$id)), "totalPages"]
 # Add info on whether the page count was estimated or not
 df$pagecount.estimated <- !is.na(df$pagecount) & is.na(df$pagecount.orig)
+
+
+# The most differing pagecounts in ESTC/ECCO
+#o <- df$original_row[order(abs(df$pagecount.ecco - df$pagecount) / (df$pagecount.ecco + df$pagecount), decreasing = TRUE)[1:10000]];
+#comptab <- cbind(
+#	physical_extent = df.orig[match(o, df.orig$original_row),"physical_extent"],
+#	estc = df[match(o, df$original_row),"pagecount"],
+#	ecco = df[match(o, df$original_row),"pagecount.ecco"]
+#	)
+#write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv", quote = F, row.names = F)	
 ```
 
 There are `r sum(as.character(ecco$id) %in% df$id)` ECCO documents (`r round(100*mean(as.character(ecco$id) %in% df$id), 1)`%) with a direct match in ESTC in our data based on the system control number.
