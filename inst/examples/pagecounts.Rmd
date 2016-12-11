@@ -31,13 +31,16 @@ df$pagecount.estimated <- !is.na(df$pagecount) & is.na(df$pagecount.orig)
 
 
 # The most differing pagecounts in ESTC/ECCO
-#o <- df$original_row[order(abs(df$pagecount.ecco - df$pagecount) / (df$pagecount.ecco + df$pagecount), decreasing = TRUE)[1:10000]];
-#comptab <- cbind(
-#	physical_extent = df.orig[match(o, df.orig$original_row),"physical_extent"],
-#	estc = df[match(o, df$original_row),"pagecount"],
-#	ecco = df[match(o, df$original_row),"pagecount.ecco"]
-#	)
-#write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv", quote = F, row.names = F)	
+o <- df$original_row[order(abs(df$pagecount.ecco - df$pagecount) / (df$pagecount.ecco + df$pagecount), decreasing = TRUE)[1:200]];
+comptab <- cbind(
+	physical_extent = df.orig[match(o, df.orig$original_row),"physical_extent"],
+	estc = df[match(o, df$original_row),"pagecount"],
+	ecco = df[match(o, df$original_row),"pagecount.ecco"],
+	year = df[match(o, df$original_row),"publication_year"],	
+	author = df[match(o, df$original_row),"author"],	
+	title = df[match(o, df$original_row),"title"]	
+	)
+write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv", quote = F, row.names = F, sep = "\t")	
 ```
 
 There are `r sum(as.character(ecco$id) %in% df$id)` ECCO documents (`r round(100*mean(as.character(ecco$id) %in% df$id), 1)`%) with a direct match in ESTC in our data based on the system control number.
