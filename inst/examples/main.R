@@ -118,7 +118,15 @@ rm(data.validated)
 source("enrich.estc.R") # load function: enrich_estc
 data.enriched.estc <- enrich_estc(data.enriched)
 
-df.preprocessed <- data.enriched.estc$df.preprocessed
+# ----------------------------------------------------
+
+# Validate enriched data one more time
+data.validated2 <- validate_preprocessed_data(data.enriched.estc)
+
+# -----------------------------------------------------
+
+# Pick the final data
+df.preprocessed <- data.validated2$df.preprocessed
 
 # ----------------------------------------------------
 

@@ -29,7 +29,6 @@ df$pagecount.ecco <- ecco[match(df$id, as.character(ecco$id)), "totalPages"]
 # Add info on whether the page count was estimated or not
 df$pagecount.estimated <- !is.na(df$pagecount) & is.na(df$pagecount.orig)
 
-
 # The most differing pagecounts in ESTC/ECCO
 o <- df$original_row[order(abs(df$pagecount.ecco - df$pagecount) / (df$pagecount.ecco + df$pagecount), decreasing = TRUE)[1:200]];
 comptab <- cbind(
@@ -41,9 +40,14 @@ comptab <- cbind(
 	title = df[match(o, df$original_row),"title"]	
 	)
 write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv", quote = F, row.names = F, sep = "\t")	
+
+# Percentage of total ESTC pages vs. ECCO pages
+# across the shared docs
+coms <- intersect(ecco$id, df$id)
+total.match <- sum(subset(df, id %in% coms)$pagecount, na.rm = TRUE) / sum(subset(ecco, id %in% coms)$totalPages, na.rm = TRUE)
 ```
 
-There are `r sum(as.character(ecco$id) %in% df$id)` ECCO documents (`r round(100*mean(as.character(ecco$id) %in% df$id), 1)`%) with a direct match in ESTC in our data based on the system control number.
+There are `r sum(as.character(ecco$id) %in% df$id)` ECCO documents (`r round(100*mean(as.character(ecco$id) %in% df$id), 1)`%) with a direct match in ESTC in our data based on the system control number. The total page count for the matched ESTC documents is `r round(100 * total.match, 1)`% of the total page count over the same ECCO documents.
 
 Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
 
@@ -171,14 +175,6 @@ p <- p + xlab("Year")
 p <- p + ylab("Paper consumption")
 print(p)
 
-# Year vs paper with text
-#p <- ggplot(df2, aes(y = paper, x = publication_year))
-#p <- p + geom_text(aes(label = publication_year))
-#p <- p + ggtitle("Total annual paper consumption")
-#p <- p + xlab("Year")
-#p <- p + ylab("Paper consumption")
-#print(p)
-
 p <- regression_plot(n ~ publication_year, df2) 
 p <- p + ggtitle("Total annual documents")
 p <- p + xlab("Year")
@@ -192,8 +188,6 @@ df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(p
 df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
 p <- ggplot(df2, aes(y = paper, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
-#p <- p + geom_line()
-#p <- p + scale_y_log10()
 p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Annual paper consumption by gatherings")
 p <- p + xlab("Year")
@@ -203,8 +197,6 @@ print(p)
 
 p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
-#p <- p + geom_line()
-#p <- p + scale_y_log10()
 p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Annual title count by gatherings")
 p <- p + xlab("Year")
@@ -229,8 +221,6 @@ print(p)
 
 p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
 p <- p + geom_point()
-#p <- p + geom_line()
-#p <- p + scale_y_log10()
 p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Annual title count by gatherings")
 p <- p + xlab("Year")
@@ -314,7 +304,6 @@ df2 <- df %>% filter(author %in% top.authors) %>% group_by(publication_year, aut
 p <- ggplot(df2, aes(x = publication_year, y = paper, group = author, color = author))
 p <- p + geom_point()
 p <- p + geom_line()
-#p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Paper consumption per author")
 p <- p + xlab("Year")
 p <- p + ylab("Paper consumption")
@@ -323,7 +312,6 @@ print(p)
 p <- ggplot(df2, aes(x = publication_year, y = n, group = author, color = author))
 p <- p + geom_point()
 p <- p + geom_line()
-#p <- p + geom_smooth(method = "loess", size = 1)
 p <- p + ggtitle("Documents per author")
 p <- p + xlab("Year")
 p <- p + ylab("Documents (n)")
