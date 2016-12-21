@@ -120,7 +120,6 @@ data.enriched.estc <- enrich_estc(data.enriched)
 
 # ----------------------------------------------------
 
-# Validate enriched data one more time
 data.validated2 <- validate_preprocessed_data(data.enriched.estc)
 
 # -----------------------------------------------------

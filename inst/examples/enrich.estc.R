@@ -7,15 +7,15 @@ enrich_estc <- function (data.enriched) {
   update.fields   <- data.enriched$update.fields
   conversions     <- data.enriched$conversions
 
-  print("Estimate the number of physical items for each document")
+  message("Estimate the number of physical items for each document")
 
   df.preprocessed$document.items <- estimate_document_items(df.preprocessed) # "Physical items per document"
 
-  print("add manually checked pages for some documents") 
+  message("add manually checked pages for some documents") 
   source("add.manual.pagecounts.R") # load function: add_manual_pagecounts_estc
   df.preprocessed <- add_manual_pagecounts_estc(df.preprocessed)
 
-  # Add ECCO page counts
+  message("Augment with ECCO page counts where appropriate")
   df.preprocessed <- add_ecco_pagecounts(df.preprocessed)
 
   # Form the final data
@@ -50,9 +50,12 @@ add_ecco_pagecounts <- function (df) {
   # 2) ESTC pagecount very low and ECCO clearly higher
   # The latter is often cases where ESTC just gives the plates info and fails to record the actual pagecount
   # This was manually investigated.
-  inds <- (is.na(pages.estc) & !is.na(pages.ecco)) | (pages.estc < 10 & pages.ecco > 100)
+  inds <- (is.na(pages.estc) & !is.na(pages.ecco)) | (pages.estc < 20 & pages.ecco > 100)
+  inds <- which(inds)
+  df$pagecount.from.ecco <- FALSE
   if (any(inds)) {
     df$pagecount[inds] <- pages.ecco[inds]
+    df$pagecount.from.ecco[inds] <- TRUE
   }  
 
   df

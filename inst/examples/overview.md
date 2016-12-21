@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-12-11"
+date: "2016-12-21"
 output: markdown_document
 ---
 
@@ -39,42 +39,43 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |field name                           | missing (%)| available (%)| available (n)| unique (n)|
 |:------------------------------------|-----------:|-------------:|-------------:|----------:|
 |parts                                |       100.0|           0.0|           239|         57|
-|volnumber                            |        99.8|           0.2|           934|         31|
+|volnumber                            |        99.8|           0.2|           930|         31|
 |publication_frequency_annual         |        99.3|           0.7|          3139|         23|
 |publication_frequency_text           |        99.3|           0.7|          3273|         20|
 |publication_interval_from            |        99.3|           0.7|          3493|        364|
 |publication_interval_till            |        99.3|           0.7|          3507|        316|
 |width.original                       |        99.2|           0.8|          3729|         72|
 |height.original                      |        98.3|           1.7|          8161|         88|
-|publication_year_till                |        97.6|           2.4|         11730|        368|
-|volcount                             |        96.3|           3.7|         17718|        151|
-|document.items                       |        96.3|           3.7|         17952|        155|
+|publication_year_till                |        97.6|           2.4|         11708|        368|
 |publication_topic                    |        81.7|          18.3|         87736|       5052|
 |author_age                           |        71.7|          28.3|        135858|        365|
 |publication_geography                |        71.6|          28.4|        136258|      12672|
 |author_gender                        |        70.4|          29.6|        142208|          5|
 |first_edition                        |        67.6|          32.4|        155768|          3|
-|author_birth                         |        57.6|          42.4|        203564|        493|
-|author_death                         |        55.3|          44.7|        214504|        533|
+|author_birth                         |        58.3|          41.7|        200350|        493|
+|author_death                         |        55.8|          44.2|        212221|        532|
 |self_published                       |        50.2|          49.8|        239118|          2|
 |subject_topic                        |        44.9|          55.1|        264575|      55621|
-|author_name                          |        40.0|          60.0|        288129|      47927|
+|author_name                          |        40.0|          60.0|        288083|      47889|
 |author                               |        40.0|          60.0|        288129|      54979|
 |publisher                            |        23.1|          76.9|        369567|     218473|
 |latitude                             |         8.6|          91.4|        439032|        189|
 |longitude                            |         8.6|          91.4|        439032|        189|
-|pagecount.orig                       |         4.8|          95.2|        457338|       1488|
+|pagecount.orig                       |         5.1|          94.9|        455666|       1490|
+|volcount                             |         4.0|          96.0|        460891|        151|
+|document.items                       |         4.0|          96.0|        460892|        155|
 |obl                                  |         3.5|          96.5|        463306|          3|
-|paper                                |         2.8|          97.2|        466692|       6805|
+|paper                                |         2.8|          97.2|        466951|       6817|
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
 |area                                 |         2.3|          97.7|        469339|        628|
-|pagecount                            |         0.6|          99.4|        477191|       1725|
+|publication_year_from                |         0.6|          99.4|        477548|        347|
 |country                              |         0.6|          99.4|        477559|         54|
 |publication_place                    |         0.6|          99.4|        477560|       1025|
-|publication_year_from                |         0.2|          99.8|        479405|        347|
+|pagecount                            |         0.4|          99.6|        478208|       1540|
 |language                             |         0.0|         100.0|        480213|         50|
 |system_control_number                |         0.0|         100.0|        480263|     480254|
+|id                                   |         0.0|         100.0|        480263|     480254|
 |title                                |         0.0|         100.0|        480277|     359847|
 |control_number                       |         0.0|         100.0|        480279|     480279|
 |language.English                     |         0.0|         100.0|        480279|          2|
@@ -136,11 +137,12 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |singlevol                            |         0.0|         100.0|        480279|          2|
 |multivol                             |         0.0|         100.0|        480279|          2|
 |issue                                |         0.0|         100.0|        480279|          2|
+|pagecount.from.ecco                  |         0.0|         100.0|        480279|          2|
 
 ```
 ##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  2779128 148.5    6861544  366.5   6861544  366.5
-## Vcells 93571744 713.9  268985904 2052.2 268949256 2052.0
+## Ncells  3264980 174.4    6861544  366.5   6861544  366.5
+## Vcells 98890695 754.5  278720045 2126.5 278693554 2126.3
 ```
 
 

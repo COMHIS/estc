@@ -53,17 +53,7 @@ Tarkistin tän ja toi 226 pitää paikkaansa yhden volumen osalta, mutta niitä 
 
 -------------------------------------
 
-miksi täällä osa on NA ja osa jolla pienempi N niin on arvioidut sivut?
-https://github.com/rOpenGov/estc/blob/master/inst/examples/mean_pagecounts_singlevol.csv
-
-single volume page count average painuu aika korkeaksi. Pitää tsiigata
-että onko siellä ne "superpitkät" dokkarit mukana vai ei painamassa
-esim. 12mo yli600 sivuiseksi.
-
-# ----------------------------------
-
 näistä pitäisi tulla *multivolumearviosivut plateksien päälle:
-
 4to      2v.,100 plates            = 200
 2fo      3v.,400 plates =         800
 

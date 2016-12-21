@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-11"
+date: "2016-12-21"
 output: markdown_document
 ---
 
@@ -10,15 +10,15 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 477191 documents in total (99.4%), including both readily available and estimated page counts.
+  * Page count available for 478208 documents in total (99.6%), including both readily available and estimated page counts.
 
-  * Page count readily available for 457338 documents (95.2%). 
+  * Page count readily available for 455666 documents (94.9%). 
 
-  * Page count estimated for 19853 documents (4.1%).
+  * Page count estimated for 22542 documents (4.7%).
 
-  * Page count missing and could not be estimated for 3088 documents (0.6%).
+  * Page count missing and could not be estimated for 2071 documents (0.4%).
 
-  * Page count updated for 0 documents in the validation phase.
+  * Page count updated for 64 documents in the validation phase.
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
@@ -27,7 +27,7 @@ output: markdown_document
   * [Automated unit tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
 
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 19853 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 22542 documents that have missing pagecount info in the original data):
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
