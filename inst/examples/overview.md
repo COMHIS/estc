@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-12-21"
+date: "2016-12-25"
 output: markdown_document
 ---
 
@@ -61,18 +61,19 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                            |        23.1|          76.9|        369567|     218473|
 |latitude                             |         8.6|          91.4|        439032|        189|
 |longitude                            |         8.6|          91.4|        439032|        189|
-|pagecount.orig                       |         5.1|          94.9|        455666|       1490|
-|volcount                             |         4.0|          96.0|        460891|        151|
-|document.items                       |         4.0|          96.0|        460892|        155|
-|obl                                  |         3.5|          96.5|        463306|          3|
-|paper                                |         2.8|          97.2|        466951|       6817|
+|volcount                             |         4.0|          96.0|        460925|        151|
+|document.items                       |         4.0|          96.0|        460926|        155|
+|pagecount.orig                       |         4.0|          96.0|        460963|       1490|
+|gatherings                           |         3.8|          96.2|        461806|         19|
+|obl                                  |         2.8|          97.2|        466731|          3|
+|paper                                |         2.5|          97.5|        468116|       6390|
 |width                                |         2.3|          97.7|        469339|         78|
 |height                               |         2.3|          97.7|        469339|         95|
 |area                                 |         2.3|          97.7|        469339|        628|
+|pagecount                            |         1.3|          98.7|        474088|       2576|
 |publication_year_from                |         0.6|          99.4|        477548|        347|
 |country                              |         0.6|          99.4|        477559|         54|
 |publication_place                    |         0.6|          99.4|        477560|       1025|
-|pagecount                            |         0.4|          99.6|        478208|       1540|
 |language                             |         0.0|         100.0|        480213|         50|
 |system_control_number                |         0.0|         100.0|        480263|     480254|
 |id                                   |         0.0|         100.0|        480263|     480254|
@@ -127,22 +128,27 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Arawak                      |         0.0|         100.0|        480279|          2|
 |language.Scottish Gaelix             |         0.0|         100.0|        480279|          2|
 |multilingual                         |         0.0|         100.0|        480279|          2|
+|pagecount.multiplier                 |         0.0|         100.0|        480279|          2|
+|pagecount.squarebracket              |         0.0|         100.0|        480279|        886|
+|pagecount.plate                      |         0.0|         100.0|        480279|        148|
+|pagecount.arabic                     |         0.0|         100.0|        480279|       1392|
+|pagecount.roman                      |         0.0|         100.0|        480279|        313|
+|pagecount.sheet                      |         0.0|         100.0|        480279|        630|
 |gatherings.original                  |         0.0|         100.0|        480279|         18|
 |obl.original                         |         0.0|         100.0|        480279|          2|
 |original_row                         |         0.0|         100.0|        480279|     480279|
 |author_pseudonyme                    |         0.0|         100.0|        480279|          2|
 |publication_year                     |         0.0|         100.0|        480279|        347|
 |publication_decade                   |         0.0|         100.0|        480279|         36|
-|gatherings                           |         0.0|         100.0|        480279|         18|
 |singlevol                            |         0.0|         100.0|        480279|          2|
 |multivol                             |         0.0|         100.0|        480279|          2|
 |issue                                |         0.0|         100.0|        480279|          2|
 |pagecount.from.ecco                  |         0.0|         100.0|        480279|          2|
 
 ```
-##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells  3264980 174.4    6861544  366.5   6861544  366.5
-## Vcells 98890695 754.5  278720045 2126.5 278693554 2126.3
+##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   4684509  250.2    8273852  441.9   8273852  441.9
+## Vcells 135150678 1031.2  351628793 2682.8 292861037 2234.4
 ```
 
 

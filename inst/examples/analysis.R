@@ -2,6 +2,9 @@ source("analysis.init.R")
 
 df.preprocessed.orig <- df.preprocessed
 
+df <- df.preprocessed <- df.preprocessed.orig
+knit("pagecounts.Rmd")
+
 # ---------------------------------
 
 print("Generic summaries") # Markdown
@@ -34,9 +37,6 @@ df <- df.preprocessed <- df.preprocessed.orig
 knit("Princeton.Rmd")
 
 df <- df.preprocessed <- df.preprocessed.orig
-knit("pagecounts.Rmd")
-
-df <- df.preprocessed <- df.preprocessed.orig
 
 # Archived - done with history data
 # do not work (yet) with the full data
@@ -52,9 +52,6 @@ df <- df.preprocessed <- df.preprocessed.orig
 # Frozen analyses are commented out.
 # Not tested with newer package versions.
 # source("20151023-LIBER.R") 
-
-# Data for Tue
-source("Tue.R")
 
 # Interactive reports
 source("report.R")

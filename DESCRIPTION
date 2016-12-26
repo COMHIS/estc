@@ -1,8 +1,7 @@
 Package: estc
 Type: Package
 Title: English Short Title Catalogue (ESTC) Metadata Toolkit
-Version: 0.1.44
-Date: 2016-06-13
+Version: 0.1.45
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
     person("Ilomaki", "Niko" , role = "aut"),
@@ -22,6 +21,7 @@ Depends:
 Imports:
     ggplot2,
     dplyr,
+    rjson,    
     utils,
     stats
 Suggests:

@@ -1,7 +1,7 @@
 ---
 title: "Page count summary"
 author: "Leo Lahti"
-date: "2016-12-21"
+date: "2016-12-25"
 output: markdown_document
 ---
 
@@ -10,7 +10,7 @@ output: markdown_document
 
 
 
-There are 157643 ECCO documents (99.7%) with a direct match in ESTC in our data based on the system control number. The total page count for the matched ESTC documents is 79.5% of the total page count over the same ECCO documents.
+There are 157643 ECCO documents (99.7%) with a direct match in ESTC in our data based on the system control number. The total page count for the matched ESTC documents is 90.7% of the total page count over the same ECCO documents.
 
 Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
 
@@ -64,7 +64,7 @@ Estimated paper consumption by document size
 ![plot of chunk 20150611paris-paper6](figure/20150611paris-paper6-1.png)
 
 
-Gatherings height: does it change over time (1600's)? How increased printing activity is related to book size trends? Instead, we could use area (height x width), or simply calculate median over time but let's discuss this later.
+Gatherings height: does it change over time (1600's)? How increased printing activity is related to book size trends? Alternatively, we could use area (height x width), or median over time. Note that only original (not augmented) dimension info is being used here.
 
 ![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-1.png)![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-2.png)![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-3.png)![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-4.png)
 

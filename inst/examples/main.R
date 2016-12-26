@@ -2,7 +2,6 @@ library(devtools)
 library(dplyr)
 library(sorvi)
 library(bibliographica)
-#load_all("~/Rpackages/bibliographica")
 library(estc)
 
 # I/O definitions
@@ -52,7 +51,6 @@ ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
 #            LOAD DATA FOR PREPROCESSING
 # ----------------------------------------------------
 
-
 # reload.data <- FALSE
 source(system.file("extdata/init.R", package = "bibliographica"))
 # all the source calls just load functions now
@@ -98,7 +96,7 @@ rm(data.preprocessing)
 #           VALIDATE PREPROCESSED DATA
 # ----------------------------------------------------
 
-source(system.file("extdata/validation.R", package = "bibliographica"))
+#source(system.file("extdata/validation.R", package = "bibliographica"))
 data.validated <- validate_preprocessed_data(data.preprocessed)
 # returns list of 3 (df.preprocessed, update.fields, conversions)
 rm(data.preprocessed)
@@ -109,11 +107,11 @@ rm(data.preprocessed)
 
 # print(dirname(sys.frame(1)$ofile))
 
-source(system.file("extdata/enrich.R", package = "bibliographica"))
+#source(system.file("extdata/enrich.R", package = "bibliographica"))
 data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
 # returns list of 3 (df.preprocessed, update.fields, conversions)
 # some function(s) need df.orig. Should tidy that up? -vv
-rm(data.validated)
+#rm(data.validated)
 
 source("enrich.estc.R") # load function: enrich_estc
 data.enriched.estc <- enrich_estc(data.enriched)
