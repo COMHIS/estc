@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-12-25"
+date: "2016-12-28"
 output: markdown_document
 ---
 
@@ -61,19 +61,18 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                            |        23.1|          76.9|        369567|     218473|
 |latitude                             |         8.6|          91.4|        439032|        189|
 |longitude                            |         8.6|          91.4|        439032|        189|
-|volcount                             |         4.0|          96.0|        460925|        151|
-|document.items                       |         4.0|          96.0|        460926|        155|
-|pagecount.orig                       |         4.0|          96.0|        460963|       1490|
-|gatherings                           |         3.8|          96.2|        461806|         19|
+|pagecount.orig                       |         4.0|          96.0|        460962|       1490|
 |obl                                  |         2.8|          97.2|        466731|          3|
-|paper                                |         2.5|          97.5|        468116|       6390|
-|width                                |         2.3|          97.7|        469339|         78|
-|height                               |         2.3|          97.7|        469339|         95|
-|area                                 |         2.3|          97.7|        469339|        628|
-|pagecount                            |         1.3|          98.7|        474088|       2576|
+|paper                                |         2.3|          97.7|        469019|       6937|
+|width                                |         2.3|          97.7|        469339|         77|
+|height                               |         2.3|          97.7|        469339|         94|
+|area                                 |         2.3|          97.7|        469339|        625|
 |publication_year_from                |         0.6|          99.4|        477548|        347|
 |country                              |         0.6|          99.4|        477559|         54|
 |publication_place                    |         0.6|          99.4|        477560|       1025|
+|volcount                             |         0.3|          99.7|        478874|        151|
+|document.items                       |         0.3|          99.7|        478874|        155|
+|pagecount                            |         0.1|          99.9|        479996|       2660|
 |language                             |         0.0|         100.0|        480213|         50|
 |system_control_number                |         0.0|         100.0|        480263|     480254|
 |id                                   |         0.0|         100.0|        480263|     480254|
@@ -140,6 +139,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_pseudonyme                    |         0.0|         100.0|        480279|          2|
 |publication_year                     |         0.0|         100.0|        480279|        347|
 |publication_decade                   |         0.0|         100.0|        480279|         36|
+|gatherings                           |         0.0|         100.0|        480279|         19|
 |singlevol                            |         0.0|         100.0|        480279|          2|
 |multivol                             |         0.0|         100.0|        480279|          2|
 |issue                                |         0.0|         100.0|        480279|          2|
@@ -147,8 +147,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   4684509  250.2    8273852  441.9   8273852  441.9
-## Vcells 135150678 1031.2  351628793 2682.8 292861037 2234.4
+## Ncells   5065163  270.6    9968622  532.4   9968622  532.4
+## Vcells 135896667 1036.9  351636371 2682.8 292889784 2234.6
 ```
 
 

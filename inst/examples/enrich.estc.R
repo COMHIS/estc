@@ -52,8 +52,14 @@ add_ecco_pagecounts <- function (df, ecco.version = 2) {
   # Where ESTC has a single multi-volume document, and ECCO lists more detailed
   # info for the individual volumes, in thos cases sum up the ECCO pagecounts
   # to get the total page count for ESTC
-  inds <- c(which((df$id %in% ecco$id) & df$multivol & is.na(pages.estc.orig) & !is.na(pages.ecco)), 
-            which((df$id %in% ecco$id) & df$multivol & pages.estc.orig < 20 & pages.ecco > 100))
+  inds <- c(
+            # ECCO docs where ESTC pagecount is NA
+            which((df$id %in% ecco$id) & is.na(pages.estc.orig) & !is.na(pages.ecco)),
+            # ECCO docs where ESTC pagecount is <20 but ECCO is >100	    
+            which((df$id %in% ecco$id) & pages.estc.orig < 20 & pages.ecco > 100),
+            # ECCO docs where ESTC pagecount only consists of plates	    
+            which((df$id %in% ecco$id) & df$pagecount.orig == df$pagecount.plate)	    
+	    )
   inds <- sort(unique(inds))
   inds1 <- inds
   for (i in inds) {
@@ -66,7 +72,7 @@ add_ecco_pagecounts <- function (df, ecco.version = 2) {
     # Then we conclude that the ECCO lists detailed info for each individual volume
     # Therefore, sum up the pagecounts over the individual volumes
     # to get the overall estimate for ESTC
-    if (length(hits) == df[i, "volcount"]) {
+    if (!is.na(df[i, "volcount"]) && length(hits) == df[i, "volcount"]) {
       df[i, "pagecount"] <- sum(ecco[hits,"totalPages"])
       df[i, "pagecount.from.ecco"] <- TRUE      
     } else {
@@ -115,7 +121,7 @@ add_ecco_pagecounts <- function (df, ecco.version = 2) {
   if (length(inds)>0) {
     df$pagecount[inds] <- pages.ecco[inds]
     df$pagecount.from.ecco[inds] <- TRUE
-  }  
+  }
 
   df
 

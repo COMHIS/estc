@@ -1,7 +1,7 @@
 ---
 title: "Page count summary"
 author: "Leo Lahti"
-date: "2016-12-25"
+date: "2016-12-28"
 output: markdown_document
 ---
 
@@ -10,7 +10,7 @@ output: markdown_document
 
 
 
-There are 157643 ECCO documents (99.7%) with a direct match in ESTC in our data based on the system control number. The total page count for the matched ESTC documents is 90.7% of the total page count over the same ECCO documents.
+There are 154499 ECCO documents (74.4%) with a direct match in ESTC in our data based on the system control number. The total page count for the matched ESTC documents is 98.1% of the total page count over the same ECCO documents.
 
 Comparison between the page counts available in ESTC and ECCO can be used to validate our automated page count cleaning and estimation procedure.
 

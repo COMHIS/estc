@@ -1,8 +1,12 @@
+pagecount.arabic_accepted.csv
+pagecount.from.ecco_accepted.csv
+pagecount.multiplier_accepted.csv
+pagecount.plate_accepted.csv
+pagecount.roman_accepted.csv
+pagecount.sheet_accepted.csv
+pagecount.squarebracket_accepted.csv
+id_accepted.csv
 title_*.csv
 *conversion*.csv
 missinggeocoordinates.csv
 author_age_accepted.csv
-<<<<<<< HEAD
-
-=======
->>>>>>> bf0e73d2769b04e43b7343f3b82f9f0f0dd8a7e3

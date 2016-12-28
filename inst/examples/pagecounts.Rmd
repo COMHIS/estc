@@ -11,6 +11,7 @@ output: markdown_document
 ```{r ecco, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 # Compare page count info between ESTC and ECCO
 df <- df.preprocessed
+df.orig <- readRDS("df.raw.Rds")
 
 # Read ECCO dump
 ecco <- read_ecco(version = 2)
@@ -38,30 +39,76 @@ comptab <- cbind(
 	author = df[match(o, df$original_row),"author"],	
 	title = as.character(df[match(o, df$original_row),"title"])
 	)
+# Exclude cases with no ECCO ID	
+comptab[which(comptab[, "ecco.id"] == "NA"), "ecco.id"] <- NA
+comptab <- comptab[!is.na(comptab[, "ecco.id"]),]	
+# Sum up ECCO hits
+for (i in 1:nrow(comptab)) {
+  myid <- comptab[i,"ecco.id"]
+  dfs <- subset(df, id == myid)
+  if (is.na(dfs$volcount) & !is.na(dfs$volnumber)) {
+    # Pick the ecco pages just for this particular volume (volcount NA; volnumber given)
+    # assuming that the ECCO hits are in same order as the real volumes
+    # (this can be assumed to be a good approximation anyway)
+    comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages[dfs$volnumber], na.rm = TRUE)
+  } else {
+    comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages, na.rm = TRUE)
+  }
+}
+
 write.table(comptab, file = "~/tmp/estc_ecco_augmented.csv", quote = F, row.names = F, sep = "\t")
 
+# -------------------------------------------------------------------
 
 # The differing pagecounts in ESTC/ECCO
 df2 <- df
 df2 <- subset(df, !pagecount.from.ecco)
-o <- df2$original_row[order(abs(df2$pagecount.ecco - df2$pagecount) / (df2$pagecount.ecco + df2$pagecount), decreasing = TRUE)];
 comptab <- cbind(
-	estc.id = as.character(df2[match(o, df2$original_row),"system_control_number"]),
-	ecco.id = as.character(df2[match(o, df2$original_row), "ecco.id"]),	
-	gatherings = df2[match(o, df2$original_row),"gatherings"],
-	physical_extent = df.orig[match(o, df.orig$original_row), "physical_extent"],	
-	estc = df2[match(o, df2$original_row),"pagecount"],
-	ecco = df2[match(o, df2$original_row),"pagecount.ecco"],	
-	year = df2[match(o, df2$original_row),"publication_year"],	
-	author = df2[match(o, df2$original_row),"author"],	
-	title = df2[match(o, df2$original_row),"title"]	
+	estc.id = as.character(df2[,"system_control_number"]),
+	ecco.id = as.character(df2[, "ecco.id"]),	
+	gatherings = df2[,"gatherings"],
+	physical_extent = df.orig[match(df2$original_row, df.orig$original_row), "physical_extent"],	
+	estc = df2[,"pagecount"],
+	ecco = df2[,"pagecount.ecco"],	
+	year = df2[,"publication_year"],	
+	author = df2[,"author"],	
+	title = df2[,"title"]	
 	)
+# Exclude cases with no ECCO ID	
+comptab[which(comptab[, "ecco.id"] == "NA"), "ecco.id"] <- NA
+comptab <- comptab[!is.na(comptab[, "ecco.id"]),]
 # Sum up all ECCO hits
 for (i in 1:nrow(comptab)) {
-  comptab[i, "ecco"] <- sum(subset(ecco, id == comptab[i,"ecco.id"])$totalPages, na.rm = TRUE)
+  myid <- comptab[i,"ecco.id"]
+  dfs <- subset(df2, id == myid)
+  if (is.na(dfs$volcount) & !is.na(dfs$volnumber)) {
+    # Pick the ecco pages just for this particular volume (volcount NA; volnumber given)
+    # assuming that the ECCO hits are in same order as the real volumes
+    # (this can be assumed to be a good approximation anyway)
+    ecco.set <- subset(ecco, id == myid)
+    #if (nrow(ecco.set) == 1) {
+    #  # If ECCO only lists a single volume then use that pagecount
+    #  comptab[i, "ecco"] <- ecco.set$totalPages
+    #} else {
+      # If ECCO lists multiple volumes then try to pick the indicated volume
+      comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
+    #}
+  } else {
+    comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages, na.rm = TRUE)
+  }
+
+  #if (comptab[i, "ecco"] == 0) {
+  #  comptab[i, "ecco"] <- NA
+  #}
+
+
 }
-comptab <- comptab[order(abs(comptab[, "estc"] - comptab[, "ecco"]), decreasing = TRUE),]
-write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv", quote = F, row.names = F, sep = "\t")
+comptab <- comptab[!comptab[, "estc"] == comptab[, "ecco"],]
+o <- order(abs(comptab[, "estc"] - comptab[, "ecco"]), decreasing = TRUE)
+comptab <- comptab[o,]
+
+write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv",
+		     quote = F, row.names = F, sep = "\t")
 
 #------------------------------------------------------------------------
 

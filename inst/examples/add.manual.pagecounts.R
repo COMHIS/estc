@@ -1,5 +1,3 @@
-#nas <- sapply(split(df.preprocessed$pagecount, df.preprocessed$gatherings), function (x) {mean(is.na(x))})
-
 add_manual_pagecounts_estc <- function (df.preprocessed) {
 
   library(dplyr)
@@ -39,7 +37,3 @@ add_manual_pagecounts_estc <- function (df.preprocessed) {
   return (df.preprocessed)
 }
 
-#nas2 <- sapply(split(df.preprocessed$pagecount, df.preprocessed$gatherings), function (x) {mean(is.na(x))})
-
-# Compare missing page counts before and after this operation
-#print(cbind(nas, nas2))

@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-25"
+date: "2016-12-28"
 output: markdown_document
 ---
 
@@ -35,15 +35,15 @@ Title count versus paper consumption (top publishers):
 
 |publisher                                                                                | titles|    paper|
 |:----------------------------------------------------------------------------------------|------:|--------:|
-|printed by Charles Eyre and Andrew Strahan                                               |    918|  8822910|
-|printed by Charles Eyre and William Strahan                                              |   1566| 11900665|
-|printed by George Eyre and Andrew Strahan                                                |    940|  4633455|
-|printed by John Baskett                                                                  |    707|  3295408|
-|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1969088|
-|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6362975|
-|printed for T. Cadell, in the Strand                                                     |    517|  1458353|
-|printed for the author                                                                   |   1286|  4307043|
-|printed in the year                                                                      |   2950|  4685623|
-|Printed in the year                                                                      |   1778|  4198151|
+|printed by Charles Eyre and Andrew Strahan                                               |    918|  8791972|
+|printed by Charles Eyre and William Strahan                                              |   1566| 11915666|
+|printed by George Eyre and Andrew Strahan                                                |    940|  4591268|
+|printed by John Baskett                                                                  |    707|  3251693|
+|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1915655|
+|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6327018|
+|printed for T. Cadell, in the Strand                                                     |    517|  2062802|
+|printed for the author                                                                   |   1286| 10571093|
+|printed in the year                                                                      |   2950|  5455954|
+|Printed in the year                                                                      |   1778|  4517898|
 
 
