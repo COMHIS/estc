@@ -27,6 +27,8 @@ read_ecco <- function (version = 1) {
     # Ignore column 11 "containsGraphicOfType" which is hierarchical
     ecco <- as.data.frame(sapply(ecco[1:10], function (x) {unlist(x)}))
 
+  }
+
     # Polish ecco ID
     ecco$id <- as.character(ecco$ESTCID)
     ecco$documentID <- as.character(ecco$documentID)
@@ -34,9 +36,7 @@ read_ecco <- function (version = 1) {
     ecco$totalPages <- as.numeric(as.character(ecco$totalPages))
     # Remove leading zeroes (T012345 -> T12345)
     ecco$id <- sapply(ecco$id, function (x) {paste(substr(x, 1, 1), gsub("^0+", "", substr(x, 2, nchar(x))), sep = "")}, USE.NAMES = FALSE)
-
-  }
-  
+ 
   ecco 
 }
 
