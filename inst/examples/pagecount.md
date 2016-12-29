@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-28"
+date: "2016-12-29"
 output: markdown_document
 ---
 
@@ -56,4 +56,58 @@ count estimate.
 
 ![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
 
+
+
+### Document size distribution
+
+![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
+
+
+## Documents with missing pages over years 
+
+![plot of chunk missingpages](figure/pagecount-missingpages-1.png)![plot of chunk missingpages](figure/pagecount-missingpages-2.png)
+
+
+## Estimated paper consumption
+
+Note: there are 10940 documents that have some dimension info but sheet area information could not be calculated for some reason. 
+
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+
+![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
+![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-2.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-3.png)
+
+![plot of chunk paperconsumption2](figure/pagecount-paperconsumption2-1.png)
+
+
+
+## Pamphlets vs. Books
+
+![plot of chunk doctypes](figure/pagecount-doctypes-1.png)![plot of chunk doctypes](figure/pagecount-doctypes-2.png)
+
+
+![plot of chunk doctypes2](figure/pagecount-doctypes2-1.png)![plot of chunk doctypes2](figure/pagecount-doctypes2-2.png)
+
+
+
+## Nature of the documents over time
+
+Estimated paper consumption by document size
+
+![plot of chunk 20150611paris-paper6](figure/pagecount-20150611paris-paper6-1.png)
+
+
+Gatherings height: does it change over time? How increased printing activity is related to book size trends? Alternatively, we could use area (height x width), or median over time. Note that only original (not augmented) dimension info is being used here.
+
+![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-1.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-2.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-3.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-4.png)
+
+
+Page counts: does it change over time? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
+
+![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-4.png)
+
+
+Same for documents that have a sufficient number of pages:
+
+![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-4.png)
 

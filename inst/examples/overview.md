@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-12-28"
+date: "2016-12-29"
 output: markdown_document
 ---
 
@@ -26,8 +26,8 @@ This documents the conversions from raw data to the final preprocessed version (
 
 ## Annotated documents
 
-  * 480279 documents in the original raw data
-  * 480279 documents in the final preprocessed data (100%)
+  * 483344 documents in the original raw data
+  * 480279 documents in the final preprocessed data (99.37%)
 
 Fraction of documents with data:
 
@@ -146,9 +146,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount.from.ecco                  |         0.0|         100.0|        480279|          2|
 
 ```
-##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   5065163  270.6    9968622  532.4   9968622  532.4
-## Vcells 135896667 1036.9  351636371 2682.8 292889784 2234.6
+##             used  (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   3802465 203.1    9968622  532.4   9968622  532.4
+## Vcells 121167801 924.5  322123414 2457.7 302438680 2307.5
 ```
 
 

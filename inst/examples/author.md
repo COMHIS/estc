@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-28"
+date: "2016-12-29"
 output: markdown_document
 ---
 
@@ -76,6 +76,9 @@ Title count versus paper consumption (all authors):
 
 
 ![plot of chunk summaryTop10authorstimeline](figure_slides/summaryTop10authorstimeline-1.png)
+
+
+![plot of chunk topauth](figure_slides/topauth-1.png)![plot of chunk topauth](figure_slides/topauth-2.png)
 
 
 

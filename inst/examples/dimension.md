@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-28"
+date: "2016-12-29"
 output: markdown_document
 ---
 
@@ -9,7 +9,7 @@ output: markdown_document
 
 ## Document size comparisons
 
-  * Some dimension info is provided in the original raw data for altogether 472641 documents (98.4%) but could not be interpreted for 13143 documents (ie. dimension info was successfully estimated for 97.2 % of the documents where this field was not empty).
+  * Some dimension info is provided in the original raw data for altogether 475613 documents (99%) but could not be interpreted for 8882 documents (ie. dimension info was successfully estimated for 98.1 % of the documents where this field was not empty).
 
   * Document size (area) info was obtained in the final preprocessed data for altogether 469339 documents (98%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](output.tables/physical_dimension_incomplete.csv)
 
