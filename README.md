@@ -9,12 +9,11 @@ This is an algorithmic toolkit for [R](http://r-project.org), designed for trans
 An overview of knowledge production between 1477-1800 based on the ESTC metadata on almost half million documents is provided in the following automatically generated files. This is work in progress. The analyses may contain errors but we provide the complete source code and results already at this preliminary stage to improve the transparency of our work. 
 
  * [Overall summary of the ESTC catalogue](https://github.com/rOpenGov/estc/blob/master/inst/examples/overview.md)
- * [Document sizes across time](https://github.com/rOpenGov/estc/blob/master/inst/examples/pagecounts.md)
+ * [ESTC/ECCO Comparison](https://github.com/rOpenGov/estc/blob/master/inst/examples/pagecounts.md) 
  * [Edinburgh summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Edinburgh.md)
  * [North America summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/NorthAmerica.md)
  * [Princeton summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Princeton.md)
  * [Scotland summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/Scotland.md)
- * [Page count summaries](https://github.com/rOpenGov/estc/blob/master/inst/examples/pagecounts.md)
  * Various [summary tables](https://github.com/rOpenGov/estc/tree/master/inst/examples/output.tables) of the data. 
 
 The steps to reproduce these summaries from the raw data are fully
