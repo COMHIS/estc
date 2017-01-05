@@ -8,7 +8,7 @@
 #' @references See citation("estc")
 #' @examples \dontrun{ecco <- read_ecco(version = 2)}
 #' @keywords utilities
-read_ecco <- function (version = 1) {
+read_ecco <- function (version = 2) {
 
   # ECCOI	  
   if (version == 1) {
@@ -29,13 +29,13 @@ read_ecco <- function (version = 1) {
 
   }
 
-    # Polish ecco ID
-    ecco$id <- as.character(ecco$ESTCID)
-    ecco$documentID <- as.character(ecco$documentID)
-    ecco$ESTCID <- as.character(ecco$ESTCID)
-    ecco$totalPages <- as.numeric(as.character(ecco$totalPages))
-    # Remove leading zeroes (T012345 -> T12345)
-    ecco$id <- sapply(ecco$id, function (x) {paste(substr(x, 1, 1), gsub("^0+", "", substr(x, 2, nchar(x))), sep = "")}, USE.NAMES = FALSE)
+  # Polish ecco ID
+  ecco$id <- as.character(ecco$ESTCID)
+  ecco$documentID <- as.character(ecco$documentID)
+  ecco$ESTCID <- as.character(ecco$ESTCID)
+  ecco$totalPages <- as.numeric(as.character(ecco$totalPages))
+  # Remove leading zeroes (T012345 -> T12345)
+  ecco$id <- sapply(ecco$id, function (x) {paste(substr(x, 1, 1), gsub("^0+", "", substr(x, 2, nchar(x))), sep = "")}, USE.NAMES = FALSE)
  
   ecco 
 }

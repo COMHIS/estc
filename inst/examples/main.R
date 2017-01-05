@@ -114,7 +114,7 @@ data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
 #rm(data.validated)
 
 source("enrich.estc.R") # load function: enrich_estc
-data.enriched.estc <- enrich_estc(data.enriched)
+data.enriched.estc <- enrich_estc(data.enriched, df.orig)
 
 # ----------------------------------------------------
 

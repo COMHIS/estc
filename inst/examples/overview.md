@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-12-29"
+date: "2017-01-03"
 output: markdown_document
 ---
 
@@ -72,7 +72,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_place                    |         0.6|          99.4|        477560|       1025|
 |volcount                             |         0.3|          99.7|        478874|        151|
 |document.items                       |         0.3|          99.7|        478874|        155|
-|pagecount                            |         0.1|          99.9|        479996|       2660|
+|pagecount                            |         0.1|          99.9|        480003|       2667|
 |language                             |         0.0|         100.0|        480213|         50|
 |system_control_number                |         0.0|         100.0|        480263|     480254|
 |id                                   |         0.0|         100.0|        480263|     480254|
@@ -146,9 +146,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount.from.ecco                  |         0.0|         100.0|        480279|          2|
 
 ```
-##             used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   3802465 203.1    9968622  532.4   9968622  532.4
-## Vcells 121167801 924.5  322123414 2457.7 302438680 2307.5
+##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   4330972  231.3    9968622  532.4   9968622  532.4
+## Vcells 164612518 1255.9  351636716 2682.8 351607038 2682.6
 ```
 
 

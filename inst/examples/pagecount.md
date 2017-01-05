@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti"
-date: "2016-12-29"
+date: "2017-01-03"
 output: markdown_document
 ---
 
@@ -10,15 +10,15 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 479996 documents in total (99.9%), including both readily available and estimated page counts.
+  * Page count available for 480003 documents in total (99.9%), including both readily available and estimated page counts.
 
   * Page count readily available for 460962 documents (96%). 
 
-  * Page count estimated for 19034 documents (4%).
+  * Page count estimated for 19041 documents (4%).
 
-  * Page count missing and could not be estimated for 281 documents (0.1%).
+  * Page count missing and could not be estimated for 275 documents (0.1%).
 
-  * Page count updated for 5498 documents in the validation phase.
+  * Page count updated for 5655 documents in the validation phase.
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
@@ -26,10 +26,6 @@ output: markdown_document
 
   * [Automated unit tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
 
-
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 19034 documents that have missing pagecount info in the original data):
-
-<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
 
@@ -62,6 +58,11 @@ count estimate.
 
 ![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 19041 documents that have missing pagecount info in the original data):
+
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
+
+
 
 ## Documents with missing pages over years 
 
@@ -70,12 +71,38 @@ count estimate.
 
 ## Estimated paper consumption
 
-Note: there are 10940 documents that have some dimension info but sheet area information could not be calculated for some reason. 
+Note: there are 10940 documents that have some dimension info but sheet area information could not be calculated. 
 
 ![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
-![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
-![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-2.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-3.png)
+
+```
+## Error in filter_impl(.data, dots): incorrect length (1041), expecting: 1
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'gatherings' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'gatherings' not found
+```
+
+![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)
+
+```
+## Error in filter_impl(.data, dots): incorrect length (1041), expecting: 2
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_decade' not found
+```
+
+![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)
 
 ![plot of chunk paperconsumption2](figure/pagecount-paperconsumption2-1.png)
 

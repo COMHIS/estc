@@ -35,6 +35,9 @@ comptab <- cbind(
 	physical_extent = df.orig[match(o, df.orig$original_row),"physical_extent"],	
 	estc = df[match(o, df$original_row),"pagecount"],
 	ecco = df[match(o, df$original_row),"pagecount.ecco"],
+	estc.volcount = df[match(o, df$original_row),"volcount"],
+	estc.volnumber = df[match(o, df$original_row),"volnumber"],
+	ecco.hits = rep(NA, length(o)),
 	year = df[match(o, df$original_row),"publication_year"],	
 	author = df[match(o, df$original_row),"author"],	
 	title = as.character(df[match(o, df$original_row),"title"])
@@ -46,14 +49,16 @@ comptab <- comptab[!is.na(comptab[, "ecco.id"]),]
 for (i in 1:nrow(comptab)) {
   myid <- comptab[i,"ecco.id"]
   dfs <- subset(df, id == myid)
+  ecco.set <- subset(ecco, id == myid)  
   if (is.na(dfs$volcount) & !is.na(dfs$volnumber)) {
     # Pick the ecco pages just for this particular volume (volcount NA; volnumber given)
     # assuming that the ECCO hits are in same order as the real volumes
     # (this can be assumed to be a good approximation anyway)
-    comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages[dfs$volnumber], na.rm = TRUE)
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
   } else {
-    comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages, na.rm = TRUE)
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages, na.rm = TRUE)
   }
+  comptab[i, "ecco.hits"] <- nrow(ecco.set)
 }
 
 write.table(comptab, file = "~/tmp/estc_ecco_augmented.csv", quote = F, row.names = F, sep = "\t")
@@ -69,7 +74,10 @@ comptab <- cbind(
 	gatherings = df2[,"gatherings"],
 	physical_extent = df.orig[match(df2$original_row, df.orig$original_row), "physical_extent"],	
 	estc = df2[,"pagecount"],
-	ecco = df2[,"pagecount.ecco"],	
+	ecco = df2[,"pagecount.ecco"],
+	estc.volcount = df2[,"volcount"],
+	estc.volnumber = df2[,"volnumber"],
+	ecco.hits = rep(NA, nrow(df2)),	
 	year = df2[,"publication_year"],	
 	author = df2[,"author"],	
 	title = df2[,"title"]	
@@ -86,22 +94,13 @@ for (i in 1:nrow(comptab)) {
     # assuming that the ECCO hits are in same order as the real volumes
     # (this can be assumed to be a good approximation anyway)
     ecco.set <- subset(ecco, id == myid)
-    #if (nrow(ecco.set) == 1) {
-    #  # If ECCO only lists a single volume then use that pagecount
-    #  comptab[i, "ecco"] <- ecco.set$totalPages
-    #} else {
-      # If ECCO lists multiple volumes then try to pick the indicated volume
-      comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
-    #}
+    # If ECCO lists multiple volumes then try to pick the indicated volume
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
+    comptab[i, "ecco.hits"] <- nrow(ecco.set)
+
   } else {
     comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages, na.rm = TRUE)
   }
-
-  #if (comptab[i, "ecco"] == 0) {
-  #  comptab[i, "ecco"] <- NA
-  #}
-
-
 }
 comptab <- comptab[!comptab[, "estc"] == comptab[, "ecco"],]
 o <- order(abs(comptab[, "estc"] - comptab[, "ecco"]), decreasing = TRUE)

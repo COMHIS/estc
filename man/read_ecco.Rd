@@ -4,7 +4,7 @@
 \alias{read_ecco}
 \title{Read ECCO}
 \usage{
-read_ecco(version = 1)
+read_ecco(version = 2)
 }
 \arguments{
 \item{version}{Version number 1: ECCOI; 2: ECCOII}
