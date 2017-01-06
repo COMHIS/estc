@@ -1,7 +1,7 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "2017-01-03"
+date: "2017-01-06"
 output: markdown_document
 ---
 

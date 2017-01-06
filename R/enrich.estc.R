@@ -22,7 +22,7 @@ enrich_estc <- function (data.enriched, df.orig, ecco.version = 2) {
   df.preprocessed$document.items <- estimate_document_items(df.preprocessed) 
 
   # Note the source of page counts. ESTC by default.
-  df$pagecount_from <- rep("estc", nrow(df))
+  df.preprocessed$pagecount_from <- rep("estc", nrow(df.preprocessed))
 
   message("Augment with ECCO page counts where appropriate")
   df.preprocessed <- add_ecco_pagecounts(df.preprocessed, df.orig, ecco.version)
