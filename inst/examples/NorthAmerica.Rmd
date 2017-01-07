@@ -21,6 +21,7 @@ library(bibliographica)
 # Pick USA documents only
 sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
+df$unity <- rep(1, nrow(df))
 ```
 
 We have `r nrow(df)` documents from `r sel.country`.
