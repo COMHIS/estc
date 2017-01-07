@@ -1,7 +1,7 @@
 ---
 title: "Page count summary"
 author: "Leo Lahti"
-date: "2017-01-05"
+date: "2017-01-06"
 output: markdown_document
 ---
 
@@ -11,26 +11,6 @@ output: markdown_document
 
 ```
 ## Error in eval(expr, envir, enclos): object 'pagecount.from.ecco' not found
-```
-
-```
-## Error in match(o, df$original_row): object 'o' not found
-```
-
-```
-## Error in comptab[which(comptab[, "ecco.id"] == "NA"), "ecco.id"] <- NA: object 'comptab' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'comptab' not found
-```
-
-```
-## Error in nrow(comptab): object 'comptab' not found
-```
-
-```
-## Error in is.data.frame(x): object 'comptab' not found
 ```
 
 ```

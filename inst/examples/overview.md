@@ -146,9 +146,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount_from                       |         0.0|         100.0|        480279|          3|
 
 ```
-##             used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   4410779 235.6    9968622  532.4   9968622  532.4
-## Vcells 130467905 995.4  292962714 2235.2 292913575 2234.8
+##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   4480235  239.3    9968622  532.4   9968622  532.4
+## Vcells 328480450 2506.2  649799460 4957.6 593104741 4525.1
 ```
 
 

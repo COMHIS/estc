@@ -1,4 +1,5 @@
 library(ggplot2)
+library(devtools)
 library(tidyr)
 library(dplyr)
 library(stringr)
@@ -10,6 +11,7 @@ library(reshape2)
 library(gridExtra)
 library(knitr)
 library(magrittr)
+#load_all("~/Rpackages/bibliographica")
 
 # Set global parameters
 author <- "Leo Lahti"

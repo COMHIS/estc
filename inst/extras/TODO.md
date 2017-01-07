@@ -1,3 +1,10 @@
+### Analyses
+
+aloitetaan siitä, että blokataan ESTCstä subject field: poetry +
+tehdään pari analyysiä ja printataan top-100 listat. Vaikka subject
+field on yleisesti epäluotettava, niin tästä voidaan hyvin lähteä
+liikkeelle ja saadaan sitten tietoa miten epäluotettava se tosiaan on.
+
 ### Pagecount
 
 1) liitteenä ESTC:n putsatussa datassa tunnistetut issuet (mn =
