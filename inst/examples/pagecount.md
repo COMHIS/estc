@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti"
-date: "2017-01-09"
+date: "2017-01-10"
 output: markdown_document
 ---
 
@@ -10,15 +10,15 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 482697 documents in total (99.9%), including both readily available and estimated page counts.
+  * Page count available for 479650 documents in total (99.9%), including both readily available and estimated page counts.
 
-  * Page count readily available for 463358 documents (95.9%). 
+  * Page count readily available for 460962 documents (96%). 
 
-  * Page count estimated for 19339 documents (4%).
+  * Page count estimated for 18688 documents (3.9%).
 
-  * Page count missing and could not be estimated for 613 documents (0.1%).
+  * Page count missing and could not be estimated for 598 documents (0.1%).
 
-  * Page count updated for 5618 documents in the validation phase.
+  * Page count updated for 5588 documents in the validation phase.
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
@@ -57,7 +57,7 @@ count estimate.
 
 ![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 19339 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18688 documents that have missing pagecount info in the original data):
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
@@ -70,7 +70,7 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 ## Estimated paper consumption
 
-Note: there are 11216 documents that have some dimension info but sheet area information could not be calculated. 
+Note: there are 10940 documents that have some dimension info but sheet area information could not be calculated. 
 
 ![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
