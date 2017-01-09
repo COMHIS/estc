@@ -21,21 +21,21 @@ library(bibliographica)
 # Complete data
 df <- df.preprocessed
 selected.topics <- c("Thirty Years' War, 1618-1648", "Popish Plot, 1678")
-dfs <- filter(df, subject_topic %in% selected.topics)
+dfs <- filter(df, topic %in% selected.topics)
    
-dfs <- dfs %>% group_by(subject_topic, publication_decade) %>% summarize(paper = sum(paper, na.rm = TRUE), documents = n())
+dfs <- dfs %>% group_by(topic, publication_decade) %>% summarize(paper = sum(paper, na.rm = TRUE), documents = n())
 
 theme_set(theme_bw(20))
-p <- ggplot(dfs, aes(x = publication_decade, y = documents, group = subject_topic))
-p <- p + geom_point(aes(col = subject_topic))
-p <- p + geom_line(aes(col = subject_topic))
+p <- ggplot(dfs, aes(x = publication_decade, y = documents, group = topic))
+p <- p + geom_point(aes(col = topic))
+p <- p + geom_line(aes(col = topic))
 p <- p + xlab("Publication Decade")
 p <- p + ylab("Documents (n)")
 p1 <- p
 
-p <- ggplot(dfs, aes(x = publication_decade, y = paper, group = subject_topic))
-p <- p + geom_point(aes(col = subject_topic))
-p <- p + geom_line(aes(col = subject_topic))
+p <- ggplot(dfs, aes(x = publication_decade, y = paper, group = topic))
+p <- p + geom_point(aes(col = topic))
+p <- p + geom_line(aes(col = topic))
 p <- p + xlab("Publication Decade")
 p <- p + ylab("Paper")
 p2 <- p

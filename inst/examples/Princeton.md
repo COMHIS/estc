@@ -9,14 +9,9 @@ output: markdown_document
 
 
 
-![plot of chunk princeton](figure/princeton-1.png)
+![plot of chunk princeton](figure_20151023_LIBER/princeton-1.png)
 
 
-
-```
-## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "character"
-```
-
-![plot of chunk princeton2](figure/princeton2-1.png)
+![plot of chunk princeton2](figure_20151023_LIBER/princeton2-1.png)
 
 
