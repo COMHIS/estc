@@ -25,6 +25,7 @@ library(bibliographica)
 # Pick Scotland documents only
 sel.country <- "Scotland"
 dfo <- filter(df.preprocessed, country == sel.country)
+dfo$unity <- rep(1, nrow(dfo))
 ```
 
 We have `r nrow(dfo)` documents from `r sel.country`.

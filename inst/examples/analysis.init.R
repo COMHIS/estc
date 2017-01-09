@@ -16,7 +16,7 @@ library(magrittr)
 # Set global parameters
 author <- "Leo Lahti"
 ntop <- 20
-timespan <- c(1460, 1830)
+timespan <- c(1460, 1800)
 datafile.preprocessed <- "df.Rds"
 datafile.orig <- "df.raw.Rds"
 

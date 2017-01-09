@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40132 documents from Scotland.
+We have 40134 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -63,30 +63,12 @@ authors born before 500 AD who have published in Scotland.
 
 Average annual output for each decade are indicated by lines, the annual document counts are shown by points. 
 
-
-```
-## Error in tapply(df$unity, list(df$publication_decade, df$publication_place), : arguments must have same length
-```
-
-```
-## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
-```
-
 ![plot of chunk Scotlandaveout](figure/Scotlandaveout-1.png)
 
 
 ## Historical publication volumes for top-5 publication places in Scotland
 
 Average annual output for each decade are indicated by lines, the annual document counts are shown by points. 
-
-
-```
-## Error in tapply(df$unity, list(df$publication_decade, df$publication_place), : arguments must have same length
-```
-
-```
-## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
-```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)
 
@@ -128,7 +110,7 @@ We have 34394 documents from Scotland and 0 documents from London during 1700-18
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 21033 rows containing missing values (geom_point).
+## Warning: Removed 21035 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
