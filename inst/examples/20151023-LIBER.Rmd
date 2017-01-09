@@ -21,10 +21,14 @@ library(dplyr)
 df <- readRDS("estc.history.Rds")
 timespan <- c(1470, 1830)
 
-df.preprocessed <- filter(df, publication_year >=  min(timespan) & publication_year <= max(timespan))
-df.preprocessed <- filter(df, author_death >=  min(timespan) & author_birth <= max(timespan))
+df <- df %>%
+		filter(publication_year >=  min(timespan) &
+		       publication_year <= max(timespan)) %>%
+		filter(author_death >=  min(timespan) &
+			   author_birth <= max(timespan)) %>%
+		dplyr::rename(paper = paper.consumption.km2)
 
-df <- df.preprocessed
+dfo <- df
 ```
 
 This document provides a reproducible summary of the ESTC history data set (roughly 50,000 documents) used in [Lahti, Ilomaki, Tolonen (2015); Liber Quarterly 25(2), pp.87–116](http://doi.org/10.18352/lq.10112). For details on the data and analysis, see the manuscript. The figures presented on this page are not identical to the original article due to improvements in the analysis pipeline after the article publication (we have checked that qualitative results remain the same). The exact original figures and code can be retrieved upon request.
@@ -64,7 +68,7 @@ Specific authors are highlighted:
 ```{r 20151023LIBER-1, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
 library(ggplot2)
 library(dplyr)
-dfs <- filter(df.preprocessed, !is.na(author_birth) & !is.na(author_death))
+dfs <- filter(dfo, !is.na(author_birth) & !is.na(author_death))
 theme_set(theme_bw(50))
 selected.authors <- c("Prynne, William (1600-1669)", "Defoe, Daniel (1661-1731)", "Hume, David (1711-1776)", "Hume, David (1560-1630)")
 top <- na.omit(names(rev(sort(table(dfs$author)))))[1:20]
@@ -111,7 +115,7 @@ William Prynne, Daniel Defoe and David Hume (highlighted in Figures 1 and 2) pro
 
 ```{r 20151023LIBER-3, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=10}
 theme_set(theme_bw(20))
-dfs <- df.preprocessed %>%
+dfs <- dfo %>%
          filter(author %in% selected.authors) %>%
 	 group_by(author, publication_decade) %>%
 	 tally() %>%
@@ -139,17 +143,16 @@ The visualization reveals the nature of the author’s publications, distinguish
 
 ```{r 20151023LIBER-4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=7}
 theme_set(theme_bw(20))
-dfs <- df.preprocessed
+dfs <- dfo
 top <- names(rev(sort(table(dfs$author))))[1:20]
 top <- c(top, "Hume, david (1560-1630)")
 top <- setdiff(top, "Caesar, Julius (NA-NA)")
 topa <- top
 dfs <- dfs %>% filter(author %in% topa) %>%
        	   filter(!is.na(author_birth) & !is.na(author_death))
-dfs <- dfs %>%
-       	        group_by(author) %>%
+dfs <- dfs %>% group_by(author) %>%
 	        summarize(titles = n(),
-	        paper = sum(paper, na.rm = T))
+	                  paper = sum(paper, na.rm = T))
 dfs$highlight <- rep("darkgray", nrow(dfs))
 dfs$highlight[dfs$author %in% selected.authors] <- "black"
 p <- ggplot(dfs, aes(x = titles, y = paper, color = highlight)) 
@@ -172,7 +175,7 @@ The gender is inferred automatically from the first names
 
 ```{r 20151023LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
 theme_set(theme_bw(20))
-dfs <- df.preprocessed %>% filter(author_gender == "female")
+dfs <- dfo %>% filter(author_gender == "female")
 rm.inds <- c(grep("Jean", dfs$author), grep("Pierre", dfs$author), grep("Capriata", dfs$author), grep("Mesurier", dfs$author), grep("Bouhours", dfs$author))
 dfs <- dfs[-rm.inds,]
 
@@ -232,7 +235,7 @@ print(p)
 The current country of origin is indicated.
 
 ```{r 20151023LIBER-8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
-df <- df.preprocessed
+df <- dfo
 theme_set(theme_bw(20))
 top <- names(rev(sort(table(df$publication_place))))[1:50]
 dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_place) %>% summarize(titles = n(), paper = sum(paper, na.rm = T))
@@ -255,7 +258,7 @@ print(p)
 
 ```{r 20150611paris-places4, message=FALSE, fig.height=5, fig.width=10, echo=FALSE}
 theme_set(theme_bw(20))
-df2 <- df.preprocessed %>%
+df2 <- dfo %>%
     filter(!is.na(country)) %>%
     group_by(country) %>%
     summarize(paper = sum(paper, na.rm = TRUE),
@@ -307,7 +310,7 @@ A comparison between the title count for history publications and for all docume
 # Compare to overall publication stats
 # 1470 - 1790
 library(gdata)
-pubstat <- read.xls("data/Simons-ESTC-1477-1800.xlsx")
+pubstat <- read.xls("Simons-ESTC-1477-1800.xlsx")
 
 # Remove duplicated titles
 tmp <- df[, c("publication_year", "title")]
@@ -339,7 +342,7 @@ print(p2)
 
 ```{r 20151023LIBER-10a, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 library(sorvi)
-dfs <- df.preprocessed %>% filter(publication_year >= 1470) %>% 
+dfs <- dfo %>% filter(publication_year >= 1470) %>% 
          group_by(publication_year) %>%
          summarize(titles = n(), paper = sum(paper, na.rm = T))
 #p1 <- regression_plot(titles ~ publication_year, data = dfs)
@@ -437,10 +440,10 @@ print(p)
 
 ```{r 20151023LIBER-3b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=7}
 library(tidyr)
-dfs <- df.preprocessed
+dfs <- dfo
 
 # 2long/2fo/2small -> folio; 8vo -> octavo
-dfs$gatherings <- harmonize_names(dfs$gatherings, gatherings_table(),
+dfs$gatherings <- map(dfs$gatherings, gatherings_table(),
 	       	  		from = "Standard", to = "Name")
 dfs <- dfs %>% filter(author %in% topa &
 	        gatherings %in% c("folio", "octavo")) %>%
@@ -480,7 +483,6 @@ library(bibliographica)
 library(dplyr)
 
 # Complete data
-dfo <- df.preprocessed
 # Pick Scotland documents only
 selected_place <- "Edinburgh"
 sel.country <- "Scotland"
