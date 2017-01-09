@@ -207,8 +207,9 @@ m1$publish('Scatterplot', host = 'gist')
 
 ```{r Scotlandpub1700, echo=FALSE}
 # Pick Scotland and London documents
-df1700 <- filter(dfo, publication_year >= 1700 & publication_year <= 1800) 
-df.scotland <- filter(df1700, country == "Scotland")
+df1700 <- filter(df.preprocessed, publication_year >= 1700 &
+                                  publication_year < 1800) 
+df.scotland <- filter(df1700, country == sel.country)
 df.london <- filter(df1700, publication_place == "London")
 ```
 
