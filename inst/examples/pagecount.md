@@ -10,15 +10,15 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 12434 documents in total (99.9%), including both readily available and estimated page counts.
+  * Page count available for 482697 documents in total (99.9%), including both readily available and estimated page counts.
 
-  * Page count readily available for 11453 documents (92.1%). 
+  * Page count readily available for 463358 documents (95.9%). 
 
-  * Page count estimated for 981 documents (7.9%).
+  * Page count estimated for 19339 documents (4%).
 
-  * Page count missing and could not be estimated for 8 documents (0.1%).
+  * Page count missing and could not be estimated for 613 documents (0.1%).
 
-  * Page count updated for 257 documents in the validation phase.
+  * Page count updated for 5618 documents in the validation phase.
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
@@ -48,30 +48,8 @@ information is added separately for each document on top of the page
 count estimate.
 
 
-```
-## Error in `$<-.data.frame`(`*tmp*`, "pagecount", value = numeric(0)): replacement has 0 rows, data has 12442
-```
 
-
-```
-## Error in eval(expr, envir, enclos): object 'mean.pagecounts' not found
-```
-
-```
-## Error in `colnames<-`(`*tmp*`, value = character(0)): attempt to set 'colnames' on an object with less than two dimensions
-```
-
-```
-## Error in `[[<-.data.frame`(`*tmp*`, var, value = "doctype"): replacement has 1 row, data has 0
-```
-
-```
-## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "NULL"
-```
-
-```
-## Error in pics[[2]]: subscript out of bounds
-```
+![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
 
 
 
@@ -79,7 +57,7 @@ count estimate.
 
 ![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 981 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 19339 documents that have missing pagecount info in the original data):
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
@@ -92,7 +70,7 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 ## Estimated paper consumption
 
-Note: there are 163 documents that have some dimension info but sheet area information could not be calculated. 
+Note: there are 11216 documents that have some dimension info but sheet area information could not be calculated. 
 
 ![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
