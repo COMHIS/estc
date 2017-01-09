@@ -10,22 +10,21 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 479650 documents in total (99.9%), including both readily available and estimated page counts.
+  * Page count available for 12434 documents in total (99.9%), including both readily available and estimated page counts.
 
-  * Page count readily available for 460962 documents (96%). 
+  * Page count readily available for 11453 documents (92.1%). 
 
-  * Page count estimated for 18688 documents (3.9%).
+  * Page count estimated for 981 documents (7.9%).
 
-  * Page count missing and could not be estimated for 598 documents (0.1%).
+  * Page count missing and could not be estimated for 8 documents (0.1%).
 
-  * Page count updated for 5588 documents in the validation phase.
+  * Page count updated for 257 documents in the validation phase.
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
   * [Augmented pagecounts](output.tables/pagecount_discarded.csv) For these cases the page count is missing (or discarded) in the original data, and estimated based on median page counts for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where page count info was available.
 
   * [Automated unit tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
-
 
 
 
@@ -49,8 +48,30 @@ information is added separately for each document on top of the page
 count estimate.
 
 
+```
+## Error in `$<-.data.frame`(`*tmp*`, "pagecount", value = numeric(0)): replacement has 0 rows, data has 12442
+```
 
-![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
+
+```
+## Error in eval(expr, envir, enclos): object 'mean.pagecounts' not found
+```
+
+```
+## Error in `colnames<-`(`*tmp*`, value = character(0)): attempt to set 'colnames' on an object with less than two dimensions
+```
+
+```
+## Error in `[[<-.data.frame`(`*tmp*`, var, value = "doctype"): replacement has 1 row, data has 0
+```
+
+```
+## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "NULL"
+```
+
+```
+## Error in pics[[2]]: subscript out of bounds
+```
 
 
 
@@ -58,7 +79,7 @@ count estimate.
 
 ![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18688 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 981 documents that have missing pagecount info in the original data):
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
@@ -71,7 +92,7 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 ## Estimated paper consumption
 
-Note: there are 10940 documents that have some dimension info but sheet area information could not be calculated. 
+Note: there are 163 documents that have some dimension info but sheet area information could not be calculated. 
 
 ![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
@@ -79,20 +100,7 @@ Note: there are 10940 documents that have some dimension info but sheet area inf
 
 
 
-
-```
-## Error in filter_impl(.data, dots): incorrect length (10540), expecting: 2
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
-
-![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)
+![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-2.png)
 
 ![plot of chunk paperconsumption2](figure/pagecount-paperconsumption2-1.png)
 
