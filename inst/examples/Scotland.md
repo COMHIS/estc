@@ -1,7 +1,7 @@
 ---
 title: "Scotland"
 author: "Leo Lahti"
-date: "2017-01-06"
+date: "2017-01-09"
 output: markdown_document
 ---
 
@@ -77,22 +77,6 @@ Average annual output for each decade are indicated by lines, the annual documen
 ## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
 ```
 
-```
-## Error in publications.annual[is.na(publications.annual)] <- 0: object 'publications.annual' not found
-```
-
-```
-## Error in melt(publications.annual): object 'publications.annual' not found
-```
-
-```
-## Error in names(dfm.annual) <- c("Time", "Place", "Documents"): object 'dfm.annual' not found
-```
-
-```
-## Error in fortify(data): object 'dfm.annual' not found
-```
-
 ![plot of chunk Scotlandaveout](figure/Scotlandaveout-1.png)
 
 
@@ -107,26 +91,6 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 ```
 ## Error in tapply(df$unity, list(df$publication_year, df$publication_place), : arguments must have same length
-```
-
-```
-## Error in publications.annual[is.na(publications.annual)] <- 0: object 'publications.annual' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publications.annual' not found
-```
-
-```
-## Error in melt(publications.annual): object 'publications.annual' not found
-```
-
-```
-## Error in names(dfm.annual) <- c("Time", "Place", "Documents"): object 'dfm.annual' not found
-```
-
-```
-## Error in fortify(data): object 'dfm.annual' not found
 ```
 
 ![plot of chunk Scotlandaveout2](figure/Scotlandaveout2-1.png)

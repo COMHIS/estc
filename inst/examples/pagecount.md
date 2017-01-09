@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti"
-date: "2017-01-06"
+date: "2017-01-09"
 output: markdown_document
 ---
 
@@ -10,15 +10,15 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 480003 documents in total (99.9%), including both readily available and estimated page counts.
+  * Page count available for 479650 documents in total (99.9%), including both readily available and estimated page counts.
 
   * Page count readily available for 460962 documents (96%). 
 
-  * Page count estimated for 19041 documents (4%).
+  * Page count estimated for 18688 documents (3.9%).
 
-  * Page count missing and could not be estimated for 275 documents (0.1%).
+  * Page count missing and could not be estimated for 598 documents (0.1%).
 
-  * Page count updated for 5655 documents in the validation phase.
+  * Page count updated for 5588 documents in the validation phase.
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
@@ -58,7 +58,7 @@ count estimate.
 
 ![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 19041 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18688 documents that have missing pagecount info in the original data):
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
@@ -75,23 +75,13 @@ Note: there are 10940 documents that have some dimension info but sheet area inf
 
 ![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
+![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
+
+
+
 
 ```
-## Error in filter_impl(.data, dots): incorrect length (1041), expecting: 1
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'gatherings' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'gatherings' not found
-```
-
-![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)
-
-```
-## Error in filter_impl(.data, dots): incorrect length (1041), expecting: 2
+## Error in filter_impl(.data, dots): incorrect length (10540), expecting: 2
 ```
 
 ```

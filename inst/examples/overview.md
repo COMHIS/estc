@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2017-01-06"
+date: "2017-01-09"
 output: markdown_document
 ---
 
@@ -61,9 +61,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                            |        23.1|          76.9|        369567|     218473|
 |latitude                             |         8.6|          91.4|        439032|        189|
 |longitude                            |         8.6|          91.4|        439032|        189|
-|pagecount.orig                       |         4.0|          96.0|        460962|       1490|
+|pagecount.orig                       |         4.0|          96.0|        460962|       1487|
 |obl                                  |         2.8|          97.2|        466731|          3|
-|paper                                |         2.3|          97.7|        469019|       6937|
+|paper                                |         2.4|          97.6|        468631|       6615|
 |width                                |         2.3|          97.7|        469339|         77|
 |height                               |         2.3|          97.7|        469339|         94|
 |area                                 |         2.3|          97.7|        469339|        625|
@@ -72,7 +72,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_place                    |         0.6|          99.4|        477560|       1025|
 |volcount                             |         0.3|          99.7|        478874|        151|
 |document.items                       |         0.3|          99.7|        478874|        155|
-|pagecount                            |         0.1|          99.9|        480003|       2659|
+|pagecount                            |         0.1|          99.9|        479650|       2630|
 |language                             |         0.0|         100.0|        480213|         50|
 |system_control_number                |         0.0|         100.0|        480263|     480254|
 |id                                   |         0.0|         100.0|        480263|     480254|
@@ -130,12 +130,13 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount.multiplier                 |         0.0|         100.0|        480279|          2|
 |pagecount.squarebracket              |         0.0|         100.0|        480279|        886|
 |pagecount.plate                      |         0.0|         100.0|        480279|        148|
-|pagecount.arabic                     |         0.0|         100.0|        480279|       1392|
+|pagecount.arabic                     |         0.0|         100.0|        480279|       1390|
 |pagecount.roman                      |         0.0|         100.0|        480279|        313|
-|pagecount.sheet                      |         0.0|         100.0|        480279|        630|
+|pagecount.sheet                      |         0.0|         100.0|        480279|        629|
 |gatherings.original                  |         0.0|         100.0|        480279|         18|
 |obl.original                         |         0.0|         100.0|        480279|          2|
 |original_row                         |         0.0|         100.0|        480279|     480279|
+|pagecount_from                       |         0.0|         100.0|        480279|          6|
 |author_pseudonyme                    |         0.0|         100.0|        480279|          2|
 |publication_year                     |         0.0|         100.0|        480279|        347|
 |publication_decade                   |         0.0|         100.0|        480279|         36|
@@ -143,12 +144,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |singlevol                            |         0.0|         100.0|        480279|          2|
 |multivol                             |         0.0|         100.0|        480279|          2|
 |issue                                |         0.0|         100.0|        480279|          2|
-|pagecount_from                       |         0.0|         100.0|        480279|          3|
 
 ```
-##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   4480235  239.3    9968622  532.4   9968622  532.4
-## Vcells 328480450 2506.2  649799460 4957.6 593104741 4525.1
+##             used  (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   4409391 235.5    9968622  532.4   9968622  532.4
+## Vcells 130949112 999.1  299314995 2283.6 299284123 2283.4
 ```
 
 

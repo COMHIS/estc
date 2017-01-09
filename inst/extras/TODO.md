@@ -1,62 +1,40 @@
 ### Analyses
 
-aloitetaan siitä, että blokataan ESTCstä subject field: poetry +
-tehdään pari analyysiä ja printataan top-100 listat. Vaikka subject
-field on yleisesti epäluotettava, niin tästä voidaan hyvin lähteä
-liikkeelle ja saadaan sitten tietoa miten epäluotettava se tosiaan on.
+Blokataan ESTCstä subject field: poetry + tehdään pari analyysiä ja
+printataan top-100 listat. Vaikka subject field on yleisesti
+epäluotettava, niin tästä voidaan hyvin lähteä liikkeelle ja saadaan
+sitten tietoa miten epäluotettava se tosiaan on.
+
 
 ### Pagecount
 
-1) liitteenä ESTC:n putsatussa datassa tunnistetut issuet (mn =
-1110). Näitten tunnistushan vielä kesken eli en tiedä miten tarkka tai
-kattava tämä on. Mutta tämän hetkiset siis listattu.  MT: ok, eli
-tässä meillä taitaa säännöt olla, että poimitaan issueiksi kaikki
-sellaiset jotka julkaistu tietyllä aikavälillä ja/tai publication
-frequency jotain muuta kuin NA? Näistä tuo publication frequency
-jotain muuta kuin NA näyttäisi toimivan hyvin niin että tulee vain
-issue-tapauksia mukaan. Mutta sitten kun tuo julkaisuväli jotain muuta
-kuin yksi vuosi (ja publication frequency NA), niin se näyttää sitten
-poimivan mukaan paljon esim. tietosanakirjoja yms. joita julkaistiin
-osissa eri vuosina sekä ihan tavallisia multivolume tekstejä. Näitä
-tapauksia joissa julkaisu tapahtuu muuten kuin yhden vuoden aikana
-kyseisessä listassa (sekä publication frequency NA), niin näitä
-tapauksia on vähän yli 600. Näistä yli 90% on tavallisia
-multivolumetapauksia. Mukana on kyllä myös joitain oikeita issue
-tapauksia, mutta näitä on vähän.
+- Consider publication_interval field to be used in is.issue
+  function. That is sometimes available; not added with ESTC yet.
 
-kehitetään issue-tapausten tunnistamista, mutta poimitaan ainoastaan
-tapaukset joissa "publication frequency" kentässä joku muu merkintä
-kuin NA. Samalla siirretään tapaukset joissa julkaisuvuosi jotain
-muuta kuin yksi vuosi multivolumetapauksiin.
+- ECCO-pagecountit mukaan lopullisiin pagecount-estimaatteihin? 
+
+- Switch from mean.pages and median.pages to mean and median for simplicity
 
 ----------------------------------
 
-Lisäksi onko nyt niin, että näyttäisi siltä, että meidän ESTC
-sivumäärät on suurempia kuin ECCOssa yleisesti ottaen? Tässä ei mitään
-ongelmaa, kunhan heitto ei ole kauhean iso tarkoittaen että ei
-tehtäisi liioiteltuja oletuksia tekstien koosta. Voihan toki olla,
-että puuttuvien tekstien osalta on biasta lyhyempiin teksteihin tai
-vastaavaa. Tämä kuitenkin erinomainen tämä kuva jossa verrataan näitä
-datoja.
+Joku häikkä: 
+                 <chr>
+1       (CU-RivES)P1940
+2       (CU-RivES)P1970
+3       (CU-RivES)P2164
+4       (CU-RivES)P2184
+5       (CU-RivES)P2186
+6       (CU-RivES)P2286
+7     (CU-RivES)N471226
+> df.orig[which(df.orig$physical_extent == "18 v., plates"),"system_control_number"]
 
-Hmm, joo näin se näyttää olevan. Suurin osa noista tapauksista näyttää
-olevan noita jälkikäteen estimoituja sivuja (eri väri) ja voidaan
-sanoa että olemme juuri näitten kimpussa muttei valmistunut vielä
-tähän.
+-> Noista viimeisellä on pagecount.orig 8 pages ja muilla NA. Vaikka kaikilla sama alkuperäinen merkintä.
+   Ei selittynyt ECCO/Custom listoilla.
 
-MT: ok, tässä saattaisi ehkä auttaa, että jos ECCO keskiarvot
-ei vielä ole näissä jälkikäteen ESTCn osalta estimoiduissa, niin jos
-ne ottaa mukaan? Mutta tätä varmasti järkevä työstää eteenpäin ajan
-kanssa.
 
----------------------------------------------- 
-
-konversioitten onnistumista:
-https://github.com/rOpenGov/estc/blob/master/inst/examples/output.tables/pagecount_conversions.csv
-  
-MT: miten multivolume-konversiot tulee tähän konversiolistaan? Löytyy
-tapauksia joissa ei lasketa voluumeja, vaan pelkästään plate tieto
-sivumääränä:
+MT: miten multivolume-konversiot tulee konversiolistaan
+output.tables/pagecount_conversions.csv? Löytyy tapauksia joissa ei
+lasketa voluumeja, vaan pelkästään plate tieto sivumääränä:
 
 8vo      18 v., plates    4          4
 12mo  12v.,plates      4          3
@@ -93,22 +71,12 @@ koodista että nämä heittelee?
 2fo      2v.,plates        514     85
 4to      2v.,plates        224     67
 
-Huomasin myös muutaman merkinnän joita voi täydentää:
+---------------------------------------------------------------------
 
-2fo      *22-*31, [1] p.           32       1
-2fo      *15-*21 p.      21       1
-2fo      *13-*14 p.      14       1
-2fo      *8-*12 p.        12       1
-2fo      *1-*7 p.           7          1
-
-Eli tämä varmasti triviaali, nuo * merkityt sivuvälinä.
-
-Lisäksi on tapauksia joissa sivuvälikirjauksessa on luetteloinnissa virhe:
-
-2fo      399-395,[1]p.            400     1
 2fo      [2],1731-1726p.       1733   1
 - eli nämä joko NA tai sitten korjaa nuo sivut toisinpäin (eli 395-399).
 
+-----------------------------------------------------
 
 Sitten tällaiset yksittäistapaukset:
 2fo      [2],923-1384[sic]p.   1386   1

@@ -9,13 +9,7 @@ output: markdown_document
 
 
 
-![plot of chunk EdinburghPubs](figure/EdinburghPubs-1.png)
-
-```
-## Error in tapply(df$unity, list(df$publication.timeunit, df$publication_place), : arguments must have same length
-```
-
-![plot of chunk EdinburghPubs](figure/EdinburghPubs-2.png)![plot of chunk EdinburghPubs](figure/EdinburghPubs-3.png)
+![plot of chunk EdinburghPubs](figure/EdinburghPubs-1.png)![plot of chunk EdinburghPubs](figure/EdinburghPubs-2.png)![plot of chunk EdinburghPubs](figure/EdinburghPubs-3.png)
 
 
 
