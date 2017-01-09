@@ -81,7 +81,7 @@ Authors born before 500 AD: paper consumption per decade in Scotland and globall
 
 ```{r Scotlandad500, echo=FALSE, fig.width=20, fig.height=10}
 year <- 500
-dfs <- filter(df.preprocessed, author_birth < year)
+dfs <- filter(dfo, author_birth < year)
 
 tab <- table(dfs$author)
 top <- names(rev(sort(tab))[1:10])
@@ -93,7 +93,7 @@ p <- ggplot(dfss, aes(x = publication_decade, y = paper, fill = author)) + geom_
 print(p)
 
 
-dfs <- df.preprocessed %>%
+dfs <- dfo %>%
        filter(author_birth < year) %>%
        filter(country %in% sel.country)
 tab <- table(dfs$author)
@@ -206,7 +206,7 @@ m1$publish('Scatterplot', host = 'gist')
 
 ```{r Scotlandpub1700, echo=FALSE}
 # Pick Scotland and London documents
-df1700 <- filter(df.preprocessed, publication_year >= 1700 & publication_year <= 1800) 
+df1700 <- filter(dfo, publication_year >= 1700 & publication_year <= 1800) 
 df.scotland <- filter(df1700, country == "Scotland")
 df.london <- filter(df1700, publication_place == "London")
 ```
@@ -250,7 +250,7 @@ print(p)
 ```{r Scotlandselectedauthors, echo=FALSE, fig.width=15, fig.height=7}
 authors <- c("Hume, David (1711-1776)", "Robertson, William (1721-1793)", "Gibbon, Edward (1737-1794)")
 cols <- c("red", "blue", "darkgreen"); names(cols) <- authors
-dfa <- filter(df.preprocessed, author %in% authors) 
+dfa <- filter(dfo, author %in% authors) 
 lims <- range(dfa$publication_year)
 
 dfs <- group_by(dfa, author, publication_year) %>% summarize(ndoc = n())
@@ -263,7 +263,7 @@ p <- p + xlim(limits = lims)
 print(p)
 
 for (ctr in c("Scotland", "USA")) {
-  dfs <- df.preprocessed %>% filter(country == ctr) %>% 
+  dfs <- dfo %>% filter(country == ctr) %>% 
     group_by(author, publication_year) %>% 
     summarize(ndoc = n())
   p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
@@ -291,7 +291,7 @@ ctr <- "London"
 ## Authors from different periods publishing in 1750-1799
 
 ```{r Scotlandselectedperiods, echo=FALSE, fig.width=15, fig.height=7}
-df <- df.preprocessed %>% filter(publication_year >= 1750 & publication_year <= 1799)
+df <- dfo %>% filter(publication_year >= 1750 & publication_year <= 1799)
 lims <- range(df$publication_year)
 df$author_birth.period <- cut(as.numeric(df$author_birth), breaks = c(-Inf, 501, 1500, 1600, 1650, 1700, 1730), right = FALSE, labels = c("-500AD", "501-1500", "1501-1600", "1601-1650", "1651-1700", "1701-1730"))
 dfs <- filter(df, !is.na(author_birth.period))
