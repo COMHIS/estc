@@ -253,6 +253,7 @@ print(p)
 ```{r Scotlandselectedauthors, echo=FALSE, fig.width=15, fig.height=7}
 authors <- c("Hume, David (1711-1776)", "Robertson, William (1721-1793)", "Gibbon, Edward (1737-1794)")
 cols <- c("red", "blue", "darkgreen"); names(cols) <- authors
+dfo <- df.preprocessed
 dfa <- filter(dfo, author %in% authors) 
 lims <- range(dfa$publication_year)
 
@@ -266,7 +267,7 @@ p <- p + xlim(limits = lims)
 print(p)
 
 for (ctr in c("Scotland", "USA")) {
-  dfs <- dfo %>% filter(country == ctr) %>% 
+  dfs <- dfa %>% filter(country == ctr) %>% 
     group_by(author, publication_year) %>% 
     summarize(ndoc = n())
   p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
@@ -279,7 +280,8 @@ for (ctr in c("Scotland", "USA")) {
 }
 
 ctr <- "London"
-  dfs <- dfa %>% filter(publication_place == ctr) %>% 
+  dfs <- df.preprocessed %>%
+      filter(publication_place == ctr & author %in% authors) %>% 
     group_by(author, publication_year) %>% 
     summarize(ndoc = n())
   p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
@@ -312,11 +314,13 @@ sel.country <- "Scotland"
 df <- filter(dfs, country == sel.country)
 df <- group_by(df, author_birth.period, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(df, aes(x = publication_year, y = ndoc, fill = author_birth.period)) 
-p <- p + geom_bar(stat = "identity", position = "stack")
+p <- p + geom_bar(stat = "identity", position = "fill")
 p <- p + ylab("Documents")
 p <- p + xlab("Publication Year")
 p <- p + ggtitle(paste("Documents from authors from different periods (", sel.country, ")", sep = ""))
-p <- p + xlim(limits = lims)
+p <- p + xlim(limits = lims) +
+         ylab("Fraction (%)") +
+	 scale_y_continuous(labels = scales::percent)
 p <- p + guides(fill = guide_legend(reverse=TRUE))
 print(p)
 ```
