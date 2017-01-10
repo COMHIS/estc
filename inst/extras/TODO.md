@@ -8,15 +8,6 @@ sitten tietoa miten epäluotettava se tosiaan on.
 
 ### Pagecount
 
-- Consider publication_interval field to be used in is.issue
-  function. That is sometimes available; not added with ESTC yet.
-
-- ECCO-pagecountit mukaan lopullisiin pagecount-estimaatteihin? 
-
-- Switch from mean.pages and median.pages to mean and median for simplicity
-
-----------------------------------
-
 Joku häikkä: 
                  <chr>
 1       (CU-RivES)P1940
@@ -31,6 +22,7 @@ Joku häikkä:
 -> Noista viimeisellä on pagecount.orig 8 pages ja muilla NA. Vaikka kaikilla sama alkuperäinen merkintä.
    Ei selittynyt ECCO/Custom listoilla.
 
+------------------------------------------------------
 
 MT: miten multivolume-konversiot tulee konversiolistaan
 output.tables/pagecount_conversions.csv? Löytyy tapauksia joissa ei
@@ -97,23 +89,6 @@ muut säännöt:
 
 --------------------------------------------------------------------------
 
-Tällä konversiolistalla _ei_ pitäisi olla mukana ECCO:sta
-täydennettyjä tapauksia koska ne ei aina istu tähän logiikkaan ja
-siten sotkisi tämän automatisoidun konversiolistan tarkistusta. Eli
-ECCO-jutut katsotaan erikseen ja siitä on eri meiliketju.
-
-MT: mutta tuleeko ECCOn sivumäärät kuitenkin vaikuttamaan
-keskiarvoihin/mediaaneihin?
-
-Ja kandee myös katsoa onko sivumäärien keskiarvot kohdillaan (tai
-mediaania me itse asiassa ollaan nyt käytetty puuttuvien sivujen
-täydentämiseen).
-
-MT: kommentoin tätä lyhyesti edellisessä meilissä. Mutta tässä siis
-hyvä jos ECCO keskiarvot mukana mun mielestä.
-
-# ---------------------------------------------------------------------------
-
 estc_ecco_augmented.csv listaa tapaukset joissa ESTC täydennetty
 ECCOsta
 
@@ -176,7 +151,6 @@ selvää, että kyseisen teoksen sivumäärä on 549+515
 2) Muutenkin kandee vähintään jotain pistotarkistuksia tehdä, ECCO:n
    sivut on monessa tapauksessa saatu summaamalla useampi ECCO-hitti
    jotka vastaa saman teoksen eri voluumeja.
-
 
 Tein reippaasti pistotarkastuksia. Suurin osa näyttäisi menevän hyvin
 ja oikein (tai vähintään oikeaan suuntaan eli ollaan varmaan 90%
@@ -351,13 +325,15 @@ nää on tapauksia joissa sivumäärä aidosti puuttuu näistä
 merkinnöistä):
 https://github.com/rOpenGov/estc/blob/master/inst/examples/output.tables/pagecount_discarded.csv
 
-Suurin osa sellaisia joiden pitäisikin mennä arvioilla. Toisaalta, en saa kiinni logiikasta eli sivumäärät heittelee saman formaatin ja volumemäärän sisällä esimerkiksi kuten aikaisemmin puhuttu.
+Suurin osa sellaisia joiden pitäisikin mennä arvioilla. Toisaalta, en
+saa kiinni logiikasta eli sivumäärät heittelee saman formaatin ja
+volumemäärän sisällä esimerkiksi kuten aikaisemmin puhuttu.
 
- 
+-----------------------------------------------------------
 
-Lisäksi löysin seuraavat joiden pitäisi ainakin olla mukana laskuissa, näissä siis muutamia erilaisia tapauksia, listasin näitä nyt tähän sen mukaan kun löytyi:
+Lisäksi seuraavat joiden pitäisi olla mukana laskuissa
 
- 2fo      106pt.(478p.)           118        1
+2fo      106pt.(478p.)           118        1
 2fo      128pt.(462p.)           118        1
 2fo      160pt.(502p.)           118        1
 2fo      87pt.(296p.)  118        1
@@ -392,155 +368,75 @@ Lisäksi löysin seuraavat joiden pitäisi ainakin olla mukana laskuissa, näiss
 2fo      83pt.(180p.)  118        1
 2fo      146pt.(326p.)           118        1
 2fo      109pt.(232p.)           118        1
-
-
-
 12mo 81[ie.80]p. 81 1
-
- 
-
 4to 1 sheet ([1] p. :ill. (woodcut) 66 1
-
- 
-
 NA 14p.c4⁰. 74 1
-
- 
-
 NA 8p.c12⁰. 74 1
-
- 
-
 NA [2]p.1/2⁰. 2 1
-
- 
-
 NA 36p.12⁰. 74 1
-
- 
-
 12mo 12p.23 leaves 164 1
-
- 
-
 8vo 42[ie.72]p. 92 1
-
- 
-
 12mo 16[ie.14]p. 164 1
-
- 
-
 8vo 42[ie24]p 22 1
-
- 
-
 2fo 1 sheet ([1] p.) : 1 ill. 118 1
-
- 
-
 8vo 98p.2 fold.tables 92 1
-
- 
-
 8vo 6 v. of music (142 p.) 1350 1
-
- 
-
 4to ccvii.+ leaves 66 1
-
-
 2fo      viii. leaves       118        1
-
 2fo      [1] pasted sheet ([1] p.)       118        1
-
 8vo      cclvj leaves     92          1
-
 16mo  [360] folios    129        1
-
 16mo  2 pts bb          129        1
-
 2fo      [72] leaves of plates ([8] folded)    118        1
-
 2fo      [20] engraved plates            118        1
-
 4to      38 p. bb          66          1
-
 NA       1/2⁰.   74          1
-
 4to      [244] p. :ill. (woodcuts)        66          1
-
 4to      35 p.c  66          1
-
 4to      ca. 1248 p. in various foliations.      66          1
-
 2fo      xxvi [26, i.e. 52] p.     118        1
-
 NA       xviii [18, i.e. 36] p.     74          1
-
 2fo      xv [15, i.e. 30] p.        118        1
-
 2fo      x [10, i.e. 20] p.          118        1
-
 NA       1 v. (various pagings)           74          1
-
 2fo      xvii [i.e. 54] p.            118        1
-
 2fo      1 sheet ([1] p.) :ill. (woodcut)         118        1
-
 8vo      [208] l.            92          1
-
 8vo      134 l.  92          1
-
 2fo      [4+] p. :ill. (woodcuts)          118        1
-
 4to      [44] p. plates 66          1
-
 NA       xxix [i.e. 54] p.           74          1
-
 2fo      viii [i.e. 15] p. 118        1
-
 2fo      xxxi [i.e. 60] p.           118        1
-
 2fo      viij [i.e. 16] p. 118        1
-
- 
-
 2fo      xxvj leaves     118        1
-
 8vo      6 parts            92          1
-
 2fo      1 map on two plates 118        1
-
 2fo      xvj leaves       118        1
-
 4to      a-t leaves        66          1
-
 2fo      2 1/2 p.          118        1
-
 4to      [4] lxxiiij leaves         66          1
-
 2fo      lj leaves          118        1
-
 2fo      lxx. leaves       118        1
-
 2fo      xiii [xiiii] leaves          118        1
-
 NA       [36] p.c8⁰.      74          1
-
 4to      [232] l.            66          1
-
 4to      CC.v leaves     66          1
-
 NA       [C.lxxxvi] leaves         74          1
-
 4to      cxix [21] p.     66          1
 
- 
+Eli ainakin näissä sivumäärä annettu tuossa eli ei pitäisi olla
+discard listalla.
 
-Eli ainakin näissä toi sivumäärä annettu tuossa eli ei pitäisi olla discard listalla.
+# ---------------------------------------------------------------------------
 
+- Consider publication_interval field to be used in is.issue
+  function. That is sometimes available; not added with ESTC yet.
 
+- ECCO-pagecountit mukaan lopullisiin pagecount-estimaatteihin? 
 
+- Switch from mean.pages and median.pages to mean and median for simplicity
+
+# ---------------------------------------------------------------------------
 
 
