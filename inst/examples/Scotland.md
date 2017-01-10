@@ -15,7 +15,7 @@ Read the preprocessed ESTC data table and load tools:
 
 
 
-We have 40134 documents from Scotland.
+We have 40124 documents from Scotland.
 
 
 ## Most common authors from Scotland
@@ -79,32 +79,7 @@ Average annual output for each decade are indicated by lines, the annual documen
 
 We have 33447 documents from Scotland and 200035 documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
-
-```
-## Error in UseMethod("droplevels"): no applicable method for 'droplevels' applied to an object of class "character"
-```
-
-```
-## Error in rbind(deparse.level, ...): numbers of columns of arguments do not match
-```
-
-```
-## Error in resolve_vars(new_groups, tbl_vars(.data)): unknown variable to group by : publication_place2
-```
-
-```
-## Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_decade' not found
-```
-
-![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)
+![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-1.png)![plot of chunk Scotlandpub1700b](figure/Scotlandpub1700b-2.png)
 
 
 
@@ -114,7 +89,7 @@ We have 33447 documents from Scotland and 200035 documents from London during 17
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-1.png)
 
 ```
-## Warning: Removed 21035 rows containing missing values (geom_point).
+## Warning: Removed 21026 rows containing missing values (geom_point).
 ```
 
 ![plot of chunk Scotlandselectedauthors](figure/Scotlandselectedauthors-2.png)
