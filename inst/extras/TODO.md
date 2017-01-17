@@ -1,3 +1,12 @@
+### Cleanup
+
+
+- Make the workflow structure more clear and collaborative
+- Decide final field names
+- Decide all key MARC fields to be included
+- Add MARC reading in R
+- More complete unit tests?
+
 ### Analyses
 
 Blokataan ESTCstä subject field: poetry + tehdään pari analyysiä ja
@@ -439,4 +448,8 @@ discard listalla.
 
 # ---------------------------------------------------------------------------
 
+
+### Title
+
+Associate abbreviations (Cicero\ abbreviations*.csv/xlsx from CERL folder) to title cleanup. The list has a more general purpose and could hence be used also more widely in cleaning up catalog title fields. It is made as a general help for students and scholars within classics so it includes all kinds of relevant abbreviations. But since the OCD is a standard work within the field and the list is now (since Sep. 2016) publicly available I was thinking that we could use these abbreviations and then link to the OCD site: http://classics.oxfordre.com/page/abbreviation-list/
 
