@@ -21,7 +21,7 @@ today.str <- as.character(Sys.Date())
 #    tables for instance from the github summary pages.
 # -> However we can discuss and change these policies if you have
 #    good arguments.
-#output.folder <- paste("output.tables/", today.str, "/", sep = '')
+# output.folder <- paste("output.tables/", today.str, "/", sep = '')
 # old version:
 output.folder <- "output.tables/"
 dir.create(output.folder)
