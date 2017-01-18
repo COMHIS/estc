@@ -1,11 +1,79 @@
-### Cleanup
+### Cleanup & analysis action plan
 
+0 Supervise progress (Leo & Mikko) - also including finalizing the
+  fields that are already nearly complete; polish the preprocessing
+  summary pages.
 
-- Make the workflow structure more clear and collaborative
-- Decide final field names
-- Decide all key MARC fields to be included
-- Add MARC reading in R
-- More complete unit tests?
+1 Add remaining MARC fields (Hege & Mikko) - Decide the final key MARC
+  fields to be included as well as their final names. Add the new MARC
+  fields to the parser and/or cleanup workflow (edition,
+  note_dissertation, note_granter, many other fields). Check the
+  available MARC fields systematically, incorporate in the pipeline,
+  create minimal initial polishing functions.
+
+2 Newspaper metadata: analysis for Gothenburg 3/2017 (Ville/Mikko/Leo)
+  and later as a journal article.
+
+3 Overall workflow (Ville & Leo & Hege & Eetu) - Polish the complete
+  data analysis workflow. Should me more intuitive and supportive of
+  collaboration. More complete unit tests? MARC reading in R?
+  Relational databases or not for author/place/etc? See also
+  bibliographica/inst/extras/TODO.md
+
+4 Pagecount (Leo): Good progress but still many
+  technicalities. Includes the identification of
+  issues/singlevol/multivol docs.
+  See also bibliographica/inst/extras/TODO.md
+  
+5 Authors (Hege/Leo/Eetu) - Cleanup, harmonize and enrich author
+  names, life years, gender, and other author info (if
+  available?). VIAF should help considerably. Also include CERL
+  Luther, Voltaire, Cicero with the help of Eetu's tools for Tue ? We
+  could manually combine VIAF and the Finnish author file to achieve a
+  harmonized set(?). See also bibliographica/inst/extras/TODO.md
+  VIAFissa on kait elinvuodet, synnyin- ja kuolinpaikka, gender,
+  kieli..
+
+6 Titles (Hege?) - Harmonization (abbreviations; synonymes,
+  editions..?). Also part of the MSc thesis ? Also for Fennica and the
+  CERL/Tue subset? See also bibliographica/inst/extras/TODO.md 
+
+7 Geocoordinates (Ville/Eetu) - Systematic mapping of places to
+  geocoordinates. This will affect publication_place;
+  publication_geography; subject_geography. Can also check if
+  publication place harmonization and place-country mappings can be
+  streamlined compared to the current implementation. And could
+  synonyme harmonization be supported by initial string clustering of
+  the names? Can also include Fennica + Kungliga at the same go. Also
+  Place name harmonization for CERL/Tue subset.  See also
+  bibliographica/inst/extras/TODO.md
+  
+8 Publishers (Mika?) - Publisher for/by/sold. Mika Koistinen has made
+  good progress; needs to be finalized. VIAF can be utilized also with
+  publishers! See also bibliographica/inst/extras/TODO.md
+  
+9 Fennica cleanup:
+  - Publishers (Hege) - Fennica nearly complete - Do also Kungliga at
+    the same go?
+  - Authors (simultaneously with ESTC? - Finnish author file also
+    available ~/data/Fennica/asteri_dead_before_1950_20161118.xml)
+  - Titles (Hege) - to be harmonized ?
+  - Geocoordinates (simultaneously with ESTC?)  
+  - New fields (Ville/Hege/Leo; full title, edition..): to be added
+    (simultaneously with ESTC?)
+
+10 Edition field: add and clean up (Eetu/Hege?)
+
+11 CERL Cicero analysis for Tue (Leo + others helping see above)
+
+12 Fennican datasetin julkaisu Kansalliskirjaston kanssa syksyllä
+
+13 GALE ?
+
+14 Subject classifications. See bibliographica/inst/extras/TODO.md
+
+15 Kungliga cleanup. TODO after ESTC & Fennica are ready.
+
 
 ### Analyses
 
@@ -14,6 +82,10 @@ printataan top-100 listat. Vaikka subject field on yleisesti
 epäluotettava, niin tästä voidaan hyvin lähteä liikkeelle ja saadaan
 sitten tietoa miten epäluotettava se tosiaan on.
 
+
+### Title
+
+Associate abbreviations (Cicero\ abbreviations*.csv/xlsx from CERL folder) to title cleanup. The list has a more general purpose and could hence be used also more widely in cleaning up catalog title fields. It is made as a general help for students and scholars within classics so it includes all kinds of relevant abbreviations. But since the OCD is a standard work within the field and the list is now (since Sep. 2016) publicly available I was thinking that we could use these abbreviations and then link to the OCD site: http://classics.oxfordre.com/page/abbreviation-list/
 
 ### Pagecount
 
@@ -437,8 +509,6 @@ NA       [C.lxxxvi] leaves         74          1
 Eli ainakin näissä sivumäärä annettu tuossa eli ei pitäisi olla
 discard listalla.
 
-# ---------------------------------------------------------------------------
-
 - Consider publication_interval field to be used in is.issue
   function. That is sometimes available; not added with ESTC yet.
 
@@ -446,10 +516,22 @@ discard listalla.
 
 - Switch from mean.pages and median.pages to mean and median for simplicity
 
-# ---------------------------------------------------------------------------
+
+### Duplicates
+
+Duplikaattien vähentäminen, niin järkevästi tästä mahtavasta
+aineistosta voidaan yrittää isompaa artikkelia.
 
 
-### Title
+### Preprocessing scale up
 
-Associate abbreviations (Cicero\ abbreviations*.csv/xlsx from CERL folder) to title cleanup. The list has a more general purpose and could hence be used also more widely in cleaning up catalog title fields. It is made as a general help for students and scholars within classics so it includes all kinds of relevant abbreviations. But since the OCD is a standard work within the field and the list is now (since Sep. 2016) publicly available I was thinking that we could use these abbreviations and then link to the OCD site: http://classics.oxfordre.com/page/abbreviation-list/
+- Koneoppimisen rooli: neuroverkoilla ym voi(si) oppia
+  automatisoidusti datan putsaussääntöjä ym ? -> Vähintään diskussioon
+  isossa artussa. Show with ESTC that machine learning (deep learning
+  ?) can achieve for raw ESTC data very fast the same or better
+  accuracy than we could during our very time-consuming manual
+  work. After this validation, scale up the effort to CERL.
+
+
+
 
