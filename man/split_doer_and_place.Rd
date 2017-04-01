@@ -21,11 +21,10 @@ split_doer_and_place
 \examples{
 # split_does_and_place("printed and sold by R. Marchbank")
 }
-\author{
-Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

@@ -21,11 +21,10 @@ Assumes that the working directory includes the source data file.
 \examples{
 \dontrun{ecco <- read_ecco(version = 2)}
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

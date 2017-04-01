@@ -23,11 +23,10 @@ For the data fields descriptions, see: http://download.geonames.org/export/dump/
 \examples{
 \dontrun{geonames <- get_geonames("cities1000")}
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

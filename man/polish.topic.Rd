@@ -18,11 +18,10 @@ Polish topic
 \examples{
 \dontrun{x2 <- polish.topic(x)}
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

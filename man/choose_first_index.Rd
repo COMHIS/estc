@@ -23,11 +23,10 @@ finds the first index of the splitting token arrays in a string
 \examples{
 # choose_first_index("printed and sold by R. Marchbank") #  split_w=c(" and ", " by ") -> " and "
 }
-\author{
-Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

@@ -18,11 +18,10 @@ Augment the ESTC data with manually insertred page counts.
 \examples{
 \dontrun{df2 <- add_manual_pagecounts_estc(df)}
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

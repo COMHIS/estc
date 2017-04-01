@@ -22,11 +22,10 @@ Augment the ESTC data with ECCO page counts.
 \examples{
 \dontrun{df2 <- add_ecco_pagecounts(df)}
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

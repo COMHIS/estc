@@ -20,11 +20,10 @@ Pick print fields from publisher vector.
 \examples{
 \dontrun{x2 <- pick_print_fields(x, field)}
 }
-\author{
-Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

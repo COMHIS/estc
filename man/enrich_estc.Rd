@@ -22,11 +22,10 @@ Enrich preprocessed ESTC data.
 \examples{
 \dontrun{df2 <- enrich_estc(data.enriched, df.orig, ecco.version = 2)}
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-
