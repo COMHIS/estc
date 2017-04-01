@@ -30,9 +30,10 @@ pick_print_fields <- function (x, fields2){
         # "sold by" "printed for" "printed by" inside
         # then choose the shorter one
         if (field == "printed and sold by "){
-          txt3 = sapply(strsplit(txt, "printed for "), function (x) {x[[1]]}) 
-          txt = txt3
-        } else if (field=="printed by " ){
+          txt = sapply(strsplit(txt, "printed and sold by"), function (x) {x[[1]]}) 
+        }else if (field=="printed for sold by " ){
+          txt = sapply(strsplit(txt, "printed for sold by"), function (x) {x[[1]]}) 
+        }else if (field=="printed by " ){
           txt2 = sapply(strsplit(txt, "sold by "), function (x) {x[[1]]}) 
           txt3 = sapply(strsplit(txt, "printed for "), function (x) {x[[1]]}) 
           txt = sapply(pick_shortest_text(c(txt2,txt3)), function (x) {x[[1]]})
@@ -44,7 +45,13 @@ pick_print_fields <- function (x, fields2){
           txt2 = sapply(strsplit(txt, "sold by "), function (x) {x[[1]]}) 
           txt3 = sapply(strsplit(txt, "printed by "), function (x) {x[[1]]}) 
           txt = sapply(pick_shortest_text(c(txt2,txt3)), function (x) {x[[1]]})
+        } else if(field=="re-printed ") {
+          txt = sapply(strsplit(txt, "re-printed "), function (x) {x[[1]]}) 
+          #txt3 = sapply(strsplit(txt, "printed by "), function (x) {x[[1]]}) 
+          #txt = sapply(pick_shortest_text(c(txt2,txt3)), function (x) {x[[1]]})
         }
+        
+        
         
         #avoid empty string problem
         if(length(txt) == 0){
