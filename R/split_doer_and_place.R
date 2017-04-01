@@ -16,15 +16,17 @@ split_doer_and_place <- function(data){
     text2=data[ind2]
     if(text2!="" | !is.na(text2) | !is.null(text2)) {
       #these are used in for split to the xfor_1st and xfor_at, 
-      #only "no" and "  is no removed from beginning of xfor_at
-      split_w <- c(" in "," at ",", at ","; at ", ",at", ",in", ", in",", near ",",no. ",", no. ")
+      #only "no" and "  is not removed from beginning of xfor_at
+      split_w <- c(" in "," at ",", at ","; at ", ",at", ",in", ", in",", near "," near ",",no. ",", no. "," \\(no. "," no. ", "rue de la ", ", dwelling ", "opposite ", "within ","corner of ", "facing ","over-against ","against ",", pater-noster row ")
       smallest_w=choose_first_index(text2,split_w)
       
       if(grepl(smallest_w,text2)==TRUE & smallest_w!=""){
         x_doer[ind2]=strsplit(text2,smallest_w)[[1]][1]
         x_place[ind2]=strsplit(text2,smallest_w)[[1]][2] 
-        if(smallest_w==",no. " | smallest_w==", no. "){
+        if(smallest_w==",no. " | smallest_w==", no. "| smallest_w==" no. "| smallest_w==" \\(no.\\) "){
           x_place[ind2]=paste("no.",x_place[ind2],sep=" ")
+        } else if (smallest_w==", pater-noster row "){
+          x_place[ind2]=paste("pater-noster row ",x_place[ind2],sep=" ")
         }
       }
       else{
