@@ -1,5 +1,5 @@
 Name	Count
-Total count (na.rm TRUE): 	145921
+Total count (na.rm TRUE): 	145914
 wesley, john (1703-1791)	1195
 j,	 928
 watts, isaac (1674-1748)	 773
@@ -558,7 +558,6 @@ warton, thomas (1728-1790)	  40
 white, thomas (1593-1676)	  40
 brinsley, john (1600-1665)	  39
 caussin, nicolas (1583-1651)	  39
-clergyman	  39
 debrett, john (na-1822)	  39
 freeman, (na-1802)	  39
 genlis, stéphanie félicité (1746-1830)	  39
@@ -584,6 +583,7 @@ topham, edward (1751-1820)	  39
 white, john (1613-1651)	  39
 appleton, nathaniel (1693-1784)	  38
 boyse, samuel (1708-1749)	  38
+clergyman	  38
 conybeare, john (1692-1755)	  38
 felltham, owen (1602-1668)	  38
 hayward, john (1564-1627)	  38
@@ -773,12 +773,10 @@ sheffield, john holroyd (1735-1821)	  31
 smith, james	  31
 smith, thomas (1638-1710)	  31
 somers, john (1651-1716)	  31
-spence, thomas (1750-1814)	  31
 stevenson, john (na-1728)	  31
 turner, john (1649-1650)	  31
 atkinson, james (1667-1715)	  30
 bedford, arthur (1668-1745)	  30
-bellamy, d (1687-1788)	  30
 bicheno, j (na-1831)	  30
 brown, john (1610-1679)	  30
 browne, peter (1666-1735)	  30
@@ -806,11 +804,13 @@ reeve, john (1608-1658)	  30
 rymer, thomas (1641-1713)	  30
 sharp, james (1613-1783)	  30
 shipley, jonathan (1714-1788)	  30
+spence, thomas (1750-1814)	  30
 tapp, john (1596-1615)	  30
 thomas, (1380-1471)	  30
 wesley, samuel (1662-1735)	  30
 anacreon	  29
 barruel, (1741-1820)	  29
+bellamy, d (1687-1788)	  29
 bower, archibald (1686-1766)	  29
 burgess, anthony (na-1664)	  29
 callender, james thomson (1758-1803)	  29
@@ -899,7 +899,6 @@ hurdis, james (1763-1801)	  27
 john, (1195-1272)	  27
 leland, thomas (1722-1785)	  27
 macaulay, catharine (1731-1791)	  27
-mann, isaac (1711-1788)	  27
 marshall, nathaniel (na-1730)	  27
 merchant	  27
 milner, john (1718-1779)	  27
@@ -946,6 +945,7 @@ knollys, hanserd (1599-1691)	  26
 la rochefoucauld, françois (1613-1680)	  26
 leedes, edward (1627-1707)	  26
 lucan,	  26
+mann, isaac (1711-1788)	  26
 mather, w (1695-na)	  26
 moore, jonas (1617-1679)	  26
 moore, thomas (1737-na)	  26
@@ -1483,7 +1483,6 @@ clarkson, thomas (1760-1846)	  17
 cook, john (1705-1660)	  17
 craig, thomas (1538-1608)	  17
 cranmer, thomas (1489-1556)	  17
-creighton, james (1736-1819)	  17
 crull, j (na-1713)	  17
 cuninghame, john (1717-1740)	  17
 curteis, thomas (1660-1747)	  17
@@ -1588,6 +1587,7 @@ cobb, samuel (1675-1713)	  16
 cooper, john (na-1845)	  16
 cowell, john (1554-1611)	  16
 cradock, samuel (1621-1706)	  16
+creighton, james (1736-1819)	  16
 crisp, samuel (1669-1704)	  16
 crokatt, gilbert (1692-1708)	  16
 cruso, timothy (1656-1697)	  16
@@ -8100,7 +8100,6 @@ lischy, jacob (1719-1781)	   3
 lisle, edward (1666-1722)	   3
 litten, anthony	   3
 little, otis (1712-1754)	   3
-littlejohn, p	   3
 litton, edmund	   3
 livingston, philip (1716-1778)	   3
 livingstone, john (1603-1672)	   3
@@ -11380,6 +11379,7 @@ liptrott, john (1702-1778)	   2
 lithgow, john	   2
 litle, j	   2
 litten, dick	   2
+littlejohn, p	   2
 littleton, edmund	   2
 lively, edward (1545-1605)	   2
 lively, luke	   2
@@ -26107,7 +26107,6 @@ wilson, thomas (1790-na)	   1
 wilson, thomas (1795-na)	   1
 wily, john	   1
 wimon, sally	   1
-wimpffen, alexandre-stanislas	   1
 winchell, jacob (1739-na)	   1
 winchell, john (na-1794)	   1
 winchelsea, heneage finch	   1

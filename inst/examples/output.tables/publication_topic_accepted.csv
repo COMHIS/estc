@@ -1,10 +1,10 @@
 Name	Count
-Total count (na.rm TRUE): 	87736
-18th century.	20675
+Total count (na.rm TRUE): 	87727
+18th century.	20670
 17th century.	 9282
 Civil War, 1642-1649	 4380
 17th century	 2748
-18th century	 1642
+18th century	 1641
 Charles II, 1660-1685	 1608
 Commonwealth and Protectorate, 1649-1660	 1529
 Revolution, 1775-1783	 1491
@@ -66,7 +66,7 @@ Charles II, 1660-1685;1660-1688	  175
 1517-1648	  150
 William and Mary, 1689-1702;1689-1702	  149
 1603-1714	  147
-George III, 1760-1820	  147
+George III, 1760-1820	  146
 1727-1760	  144
 17th century;17th century	  144
 Puritan Revolution, 1642-1660	  138
@@ -1239,7 +1239,6 @@ William I, 1066-1087.	    4
 18th century;18th century;1760-1820	    3
 18th century;18th century;18th century;18th century;18th century	    3
 18th century;18th century;18th century;Revolution, 1775-1783	    3
-18th century;Constitutional period, 1789-1809;18th century	    3
 18th century;Constitutional period, 1789-1809;Constitutional period, 1789-1809	    3
 18th century;George I, 1714-1727;18th century	    3
 18th century;George III, 1760-1820;1760-1820;18th century	    3
@@ -1708,7 +1707,6 @@ William and Mary, 1689-1720	    3
 1792	    2
 1792-1815.;1789-1797.	    2
 1792-1815.;1789-1815.	    2
-1793-1815;18th century	    2
 1795-1815.	    2
 1796.	    2
 1797-1798.	    2
@@ -1784,6 +1782,7 @@ William and Mary, 1689-1720	    3
 18th century;Anglo-French War, 1755-1763	    2
 18th century;British occupation 1765-1947	    2
 18th century;Colonial period, ca. 1600-1775	    2
+18th century;Constitutional period, 1789-1809;18th century	    2
 18th century;Early modern (to 1700)	    2
 18th century;George II, 1727-1760;18th century	    2
 18th century;George II, 1727-1760;George III, 1760-1820;1727-1760;1760-1820	    2
@@ -3139,6 +3138,7 @@ William III, 1689-1702.	    2
 1792-1815.;1789-1820.	    1
 1792-1815.;Reign of Terror, 1793-1794.;1789-1820.	    1
 1792.;1775-1865.	    1
+1793-1815;18th century	    1
 1794-1798.	    1
 1794-1814.	    1
 1794;1794	    1

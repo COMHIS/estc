@@ -1,5 +1,5 @@
 original_name	original_date	final_author_id	final_author_birth	final_author_death	Count
-Total count (na.rm TRUE): 	219133				
+Total count (na.rm TRUE): 	219116				
 Wesley, John	1703-1791.	Wesley, John (1703-1791)	1703	1791	1195
 Shakespeare, William	1564-1616.	Shakespeare, William (1564-1616)	1564	1616	1071
 Defoe, Daniel	1661?-1731.	Defoe, Daniel (1661-1731)	1661	1731	1047
@@ -19,7 +19,7 @@ Gay, John	1685-1732.	Gay, John (1685-1732)	1685	1732	 463
 Whitefield, George	1714-1770.	Whitefield, George (1714-1770)	1714	1770	 454
 Lily, William	1468?-1522.	Lily, William (1468-1522)	1468	1522	 441
 Paine, Thomas	1737-1809.	Paine, Thomas (1737-1809)	1737	1809	 420
-More, Hannah	1745-1833.	More, Hannah (1745-1833)	1745	1833	 418
+More, Hannah	1745-1833.	More, Hannah (1745-1833)	1745	1833	 413
 Burnet, Gilbert	1643-1715.	Burnet, Gilbert (1643-1715)	1643	1715	 409
 Ovid	43 B.C.-17 A.D. or 18 A.D.	Ovid, 	NA	NA	 408
 Ward, Edward	1667-1731.	Ward, Edward (1667-1731)	1667	1731	 400
@@ -77,7 +77,7 @@ Willison, John	1680-1750.	Willison, John (1680-1750)	1680	1750	 194
 Fénelon, François de Salignac de La Mothe-	1651-1715.	Fénelon, François De Salignac De La Mothe- (1651-1715)	1651	1715	 194
 Foote, Samuel	1720-1777.	Foote, Samuel (1720-1777)	1720	1777	 194
 Winstanley, William	1628?-1698.	Winstanley, William (1628-1698)	1628	1698	 191
-Sheridan, Richard Brinsley	1751-1816.	Sheridan, Richard Brinsley (1751-1816)	1751	1816	 190
+Sheridan, Richard Brinsley	1751-1816.	Sheridan, Richard Brinsley (1751-1816)	1751	1816	 189
 Settle, Elkanah	1648-1724.	Settle, Elkanah (1648-1724)	1648	1724	 189
 Whittington, Robert	-approximately 1560.	Whittington, Robert (1490-1560)	1490	1560	 187
 Henry, Matthew	1662-1714.	Henry, Matthew (1662-1714)	1662	1714	 186
@@ -176,9 +176,9 @@ Fox, Charles James	1749-1806.	Fox, Charles James (1749-1806)	1749	1806	 117
 Millington, Edward	approximately 1636-1703.	Millington, Edward (1636-1703)	1636	1703	 116
 Sheridan, Thomas	1719-1788.	Sheridan, Thomas (1719-1788)	1719	1788	 116
 Behn, Aphra	1640-1689.	Behn, Aphra (1640-1689)	1640	1689	 116
-Dalrymple, Alexander	1737-1808.	Dalrymple, Alexander (1737-1808)	1737	1808	 115
 Heylyn, Peter	1600-1662.	Heylyn, Peter (1600-1662)	1600	1662	 115
 Prior, Matthew	1664-1721.	Prior, Matthew (1664-1721)	1664	1721	 115
+Dalrymple, Alexander	1737-1808.	Dalrymple, Alexander (1737-1808)	1737	1808	 114
 Wells, Edward	1667-1727.	Wells, Edward (1667-1727)	1667	1727	 114
 Stebbing, Henry	1687-1763.	Stebbing, Henry (1687-1763)	1687	1763	 113
 Grotius, Hugo	1583-1645.	Grotius, Hugo (1583-1645)	1583	1645	 113
@@ -489,7 +489,6 @@ Howe, John	1630-1705.	Howe, John (1630-1705)	1630	1705	  63
 Waller, Edmund	1606-1687.	Waller, Edmund (1606-1687)	1606	1687	  63
 Paley, William	1743-1805.	Paley, William (1743-1805)	1743	1805	  63
 Wakefield, Gilbert	1756-1801.	Wakefield, Gilbert (1756-1801)	1756	1801	  63
-Winchester, Elhanan	1751-1797.	Winchester, Elhanan (1751-1797)	1751	1797	  63
 Cullen, William	1710-1790.	Cullen, William (1710-1790)	1710	1790	  63
 Comenius, Johann Amos	1592-1670.	Comenius, Johann Amos (1592-1670)	1592	1670	  62
 William	1650-1702.	William,  (1650-1702)	1650	1702	  62
@@ -509,6 +508,7 @@ Shenstone, William	1714-1763.	Shenstone, William (1714-1763)	1714	1763	  62
 Holbach, Paul Henri Thiry	1723-1789.	Holbach, Paul Henri Thiry (1723-1789)	1723	1789	  62
 Owen, Charles	-1746.	Owen, Charles (NA-1746)	NA	1746	  62
 Mackworth, Humphrey	1657-1727.	Mackworth, Humphrey (1657-1727)	1657	1727	  62
+Winchester, Elhanan	1751-1797.	Winchester, Elhanan (1751-1797)	1751	1797	  62
 Benezet, Anthony	1713-1784.	Benezet, Anthony (1713-1784)	1713	1784	  62
 Bèze, Théodore de	1519-1605.	Bèze, Théodore De (1519-1605)	1519	1605	  61
 Cromwell, Oliver	1599-1658.	Cromwell, Oliver (1599-1658)	1599	1658	  61
@@ -1267,7 +1267,6 @@ Jenkyn, William	1613-1685.	Jenkyn, William (1613-1685)	1613	1685	  31
 Boydell, John	1720-1804.	Boydell, John (1720-1804)	1720	1804	  31
 Hay, George	1729-1811.	Hay, George (1729-1811)	1729	1811	  31
 Newton, Thomas	1704-1782.	Newton, Thomas (1704-1782)	1704	1782	  31
-Spence, Thomas	1750-1814.	Spence, Thomas (1750-1814)	1750	1814	  31
 Andrews, John	1736-1809.	Andrews, John (1736-1809)	1736	1809	  31
 Jones, Thomas	1729?-1762.	Jones, Thomas (1729-1762)	1729	1762	  31
 Hawker, Robert	1753-1827.	Hawker, Robert (1753-1827)	1753	1827	  31
@@ -1318,6 +1317,7 @@ Fisher, John	1469-1535.	Fisher, John (1469-1535)	1469	1535	  30
 Tans'ur, William	1699?-1783.	Tans'ur, William (1699-1783)	1699	1783	  30
 Clowes, J	1743-1831.	Clowes, J (1743-1831)	1743	1831	  30
 Pote, Joseph	1704-1787.	Pote, Joseph (1704-1787)	1704	1787	  30
+Spence, Thomas	1750-1814.	Spence, Thomas (1750-1814)	1750	1814	  30
 Brown, John	1610?-1679.	Brown, John (1610-1679)	1610	1679	  30
 Fife, James Duff	1729-1809.	Fife, James Duff (1729-1809)	1729	1809	  30
 Turberville, Henry	-1678.	Turberville, Henry (NA-1678)	NA	1678	  30
@@ -1498,7 +1498,6 @@ Gurnall, William	1617-1679.	Gurnall, William (1617-1679)	1617	1679	  27
 Bryant, Jacob	1715-1804.	Bryant, Jacob (1715-1804)	1715	1804	  27
 Gent, Thomas	1693-1778.	Gent, Thomas (1693-1778)	1693	1778	  27
 Nichols, Francis	active 18th century.	Nichols, Francis	NA	NA	  27
-Mann, Isaac	1711 or 1712-1788.	Mann, Isaac (1711-1788)	1711	1788	  27
 James	1394-1437.	James,  (1394-1437)	1394	1437	  27
 Hutchinson, William	1732-1814.	Hutchinson, William (1732-1814)	1732	1814	  27
 Simpson, David	1745-1799.	Simpson, David (1745-1799)	1745	1799	  27
@@ -1571,6 +1570,7 @@ Chamberlayne, John	1666-1723.	Chamberlayne, John (1666-1723)	1666	1723	  26
 Lucan	39-65.	Lucan, 	NA	NA	  26
 Dalton, Michael	-1648?.	Dalton, Michael (NA-1648)	NA	1648	  26
 La Rochefoucauld, François	1613-1680.	La Rochefoucauld, François (1613-1680)	1613	1680	  26
+Mann, Isaac	1711 or 1712-1788.	Mann, Isaac (1711-1788)	1711	1788	  26
 Hales, John	1584-1656.	Hales, John (1584-1656)	1584	1656	  26
 Montaigne, Michel de	1533-1592.	Montaigne, Michel De (1533-1592)	1533	1592	  26
 Williamson, John	1751?-1801.	Williamson, John (1751-1801)	1751	1801	  26
@@ -1950,7 +1950,6 @@ Stillman, Samuel	1738-1807.	Stillman, Samuel (1738-1807)	1738	1807	  21
 Harris, Thaddeus Mason	1768-1842.	Harris, Thaddeus Mason (1768-1842)	1768	1842	  21
 Sprange, J	1746-1823.	Sprange, J (1746-1823)	1746	1823	  21
 Hewlett, Ebenezer	active 1738-1747.	Hewlett, Ebenezer (1738-1747)	1738	1747	  21
-More, Hannah	1745-1833	More, Hannah (1745-1833)	1745	1833	  21
 Ascham, Roger	1515-1568.	Ascham, Roger (1515-1568)	1515	1568	  21
 Hemmingsen, Niels	1513-1600.	Hemmingsen, Niels (1513-1600)	1513	1600	  21
 Dade, John	active 1589-1614.	Dade, John (1589-1614)	1589	1614	  21
@@ -2052,6 +2051,7 @@ Coxe, Tench	1755-1824.	Coxe, Tench (1755-1824)	1755	1824	  20
 Dwight, Timothy	1752-1817.	Dwight, Timothy (1752-1817)	1752	1817	  20
 Bate, Julius	1711-1771.	Bate, Julius (1711-1771)	1711	1771	  20
 Fuller, Andrew	1754-1815.	Fuller, Andrew (1754-1815)	1754	1815	  20
+More, Hannah	1745-1833	More, Hannah (1745-1833)	1745	1833	  20
 Blundeville, Thomas	active 1561.	Blundeville, Thomas (1561-NA)	1561	NA	  20
 Wilson, Thomas	1525?-1581.	Wilson, Thomas (1525-1581)	1525	1581	  20
 Bell, Thomas	active 1593-1610.	Bell, Thomas (1593-1610)	1593	1610	  20
@@ -2561,7 +2561,6 @@ Adams, George	1709-1772.	Adams, George (1709-1772)	1709	1772	  17
 Dimsdale, Thomas	1712-1800.	Dimsdale, Thomas (1712-1800)	1712	1800	  17
 Higgins, Francis	1669-1728.	Higgins, Francis (1669-1728)	1669	1728	  17
 Reed, Joseph	1723-1787.	Reed, Joseph (1723-1787)	1723	1787	  17
-Creighton, James	1736-1819.	Creighton, James (1736-1819)	1736	1819	  17
 Rocque, John	-1762.	Rocque, John (NA-1762)	NA	1762	  17
 Fergusson, Robert	1750-1774.	Fergusson, Robert (1750-1774)	1750	1774	  17
 West, Jane	1758-1852.	West, Jane (1758-1852)	1758	1852	  17
@@ -2734,6 +2733,7 @@ Watts, Robert	1683-1726.	Watts, Robert (1683-1726)	1683	1726	  16
 Ludlam, William	1717-1788.	Ludlam, William (1717-1788)	1717	1788	  16
 Sedaine	1719-1797.	Sedaine,  (1719-1797)	1719	1797	  16
 White, John	-1671.	White, John (NA-1671)	NA	1671	  16
+Creighton, James	1736-1819.	Creighton, James (1736-1819)	1736	1819	  16
 Wilberforce, William	1759-1833.	Wilberforce, William (1759-1833)	1759	1833	  16
 Lesuire, Robert Martin	1737-1815.	Lesuire, Robert Martin (1737-1815)	1737	1815	  16
 Turnbull, George	1698-1748.	Turnbull, George (1698-1748)	1698	1748	  16
@@ -4475,7 +4475,6 @@ Chalmers, James	1727?-1806.	Chalmers, James (1727-1806)	1727	1806	  10
 Houlton, Robert	1693 or 1694-	Houlton, Robert (1693-1694)	1693	1694	  10
 Ferrar, John	1743-	Ferrar, John (1743-NA)	1743	NA	  10
 Keppel, Augustus Keppel	1725-1786.	Keppel, Augustus (1725-1786)	1725	1786	  10
-Bellamy, D	-1788.	Bellamy, D (1687-1788)	1687	1788	  10
 Thomas, Elizabeth	1677-1731.	Thomas, Elizabeth (1677-1731)	1677	1731	  10
 C. D	-1709.	C,  (NA-1709)	NA	1709	  10
 Hugo, Herman	1588-1629.	Hugo, Herman (1588-1629)	1588	1629	  10
@@ -4942,6 +4941,7 @@ Tandy, James Napper	1740-1803.	Tandy, James Napper (1740-1803)	1740	1803	   9
 Copley, John Singleton	1738-1815.	Copley, John Singleton (1738-1815)	1738	1815	   9
 Weld, Catherine Elizabeth	1708?-	Weld, Catherine Elizabeth (1708-NA)	1708	NA	   9
 Bonnefons, Jean	1554-1614.	Bonnefons, Jean (1554-1614)	1554	1614	   9
+Bellamy, D	-1788.	Bellamy, D (1687-1788)	1687	1788	   9
 Oldisworth, William	1680-1734.	Oldisworth, William (1680-1734)	1680	1734	   9
 Weaver, John	1673-1760.	Weaver, John (1673-1760)	1673	1760	   9
 Lorimer, William	-1721.	Lorimer, William (NA-1721)	NA	1721	   9
@@ -7032,7 +7032,6 @@ Hill, T	1682 or 1683-1758.	Hill, T (1682-1758)	1682	1758	   6
 Beresford, John	1738-1805.	Beresford, John (1738-1805)	1738	1805	   6
 Pentycross, Thomas	1748-1808.	Pentycross, Thomas (1748-1808)	1748	1808	   6
 Rennie, John	1761-1821.	Rennie, John (1761-1821)	1761	1821	   6
-Dalgliesh, William	1733-1807.	Dalgliesh, William (1733-1807)	1733	1807	   6
 Clater, Francis	1756-1823.	Clater, Francis (1756-1823)	1756	1823	   6
 Rice, John	active 1765.	Rice, John (1765-1707)	NA	NA	   6
 Hastings, Francis Rawdon-Hastings	1754-1826.	Hastings, Francis Rawdon-hastings (1754-1826)	1754	1826	   6
@@ -8127,6 +8126,7 @@ Ewer, John	-1774.	Ewer, John (NA-1774)	NA	1774	   5
 George, William	1697-1756.	George, William (1697-1756)	1697	1756	   5
 Johnston, James	1655-1737.	Johnston, James (1655-1737)	1655	1737	   5
 Benson, Martin	1689-1752.	Benson, Martin (1689-1752)	1689	1752	   5
+Dalgliesh, William	1733-1807.	Dalgliesh, William (1733-1807)	1733	1807	   5
 Bell, George	1683 or 1684-1734.	Bell, George (1683-1734)	1683	1734	   5
 Hannay, Patrick	-1629?.	Hannay, Patrick (NA-1629)	NA	1629	   5
 Bisset, Robert	1759-1805.	Bisset, Robert (1759-1805)	1759	1805	   5
@@ -22516,7 +22516,6 @@ Campbell, Mary	active 1764.	Campbell, Mary (1764-NA)	1764	NA	   1
 Dickie, John	1711 or 1712-1755.	Dickie, John (1711-1755)	1711	1755	   1
 Small, Charles	active 1790.	Small, Charles (1790-NA)	1790	NA	   1
 Rogers, Thomas	1660-1694.	Rogers, Thomas (1660-1694)	1660	1694	   1
-Schröder, Friedrich Ludwig	1744-1816.	Schröder, Friedrich Ludwig (1744-1816)	1744	1816	   1
 Reitzenstein, Karl	active 1792.	Reitzenstein, Karl (1792-NA)	1792	NA	   1
 Miller, Joseph	1668 or 1669-1748.	Miller, Joseph (1668-1748)	1668	1748	   1
 Porterfield, William	1695-1771.	Porterfield, William (1695-1771)	1695	1771	   1
@@ -24125,7 +24124,6 @@ Coyte, Tobias	1714 or 1715-1759.	Coyte, Tobias (1714-1759)	1714	1759	   1
 Palmer, George	1772-1853.	Palmer, George (1772-1853)	1772	1853	   1
 Guthrie, James	-1737.	Guthrie, James (NA-1737)	NA	1737	   1
 Nowlan, James	-1717.	Nowlan, James (NA-1717)	NA	1717	   1
-Greenshields, John Boyd	-1845.	Greenshields, John Boyd (NA-1845)	NA	1845	   1
 Stonehouse, George	1713 or 1714-1793.	Stonehouse, George (1713-1793)	1713	1793	   1
 Williams, William	active 1709.	Williams, William (1709-NA)	1709	NA	   1
 Glandore, John Crosbie	1752-1815.	Glandore, John Crosbie (1752-1815)	1752	1815	   1
@@ -26798,7 +26796,6 @@ Seton, Alexander	-1542.	Seton, Alexander (1639-1542)	NA	NA	   1
 Ridley, Nicholas	-1576.	Ridley, Nicholas (1500-1576)	1500	1576	   1
 Mac Aingil, Aodh	1571-1626.	Mac Aingil, Aodh (1571-1626)	1571	1626	   1
 Loarte, Gaspar de	1498-1578.	Loarte, Gaspar De (1498-1578)	1498	1578	   1
-Armin, Robert	active 1610.	Armin, Robert (1610-NA)	1610	NA	   1
 Isidore, Saint	-636.	Isidore, Saint (636-NA)	636	NA	   1
 Selden, John	1584-1654	Selden, John (1584-1654)	1584	1654	   1
 Gybson, Thomas	active 1583.	Gybson, Thomas (1583-1562)	NA	NA	   1

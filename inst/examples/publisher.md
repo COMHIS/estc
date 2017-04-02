@@ -1,16 +1,18 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2017-01-10"
+date: "2017-04-02"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 218473 [unique publishers](output.tables/publisher_accepted.csv)
+ * 218423 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 369567 documents have unambiguous publisher information (77%). 
+ * 369502 documents have unambiguous publisher information (76.9%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+
+ * 0 documents are identified as self-published (0%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -45,5 +47,24 @@ Title count versus paper consumption (top publishers):
 |printed for the author                                                                   |   1286|  4780073|
 |printed in the year                                                                      |   2950|  5465342|
 |Printed in the year                                                                      |   1778|  4525905|
+
+
+### Corporates
+
+Summaries of the corporate field.
+
+ * 0 [unique corporates](output.tables/corporate_accepted.csv)
+
+ * 0 documents have unambiguous corporate information (NaN%). 
+
+ * [Discarded corporate entries](output.tables/corporate_discarded.csv)
+
+ * [Conversions from original to final names](output.tables/corporate_conversion_nontrivial.csv) (only non-trivial conversions shown)
+
+
+The 20 most common corporates are shown with the number of documents. 
+
+![plot of chunk summarycorporate2](figure/summarycorporate2-1.png)
+
 
 

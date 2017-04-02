@@ -1,13 +1,13 @@
 Name	Count	Percentage
-Total count (na.rm TRUE): 	477559	
-England	357335	74.83
-USA	 41268	 8.64
-Scotland	 40132	 8.40
-Ireland	 27532	 5.77
+Total count (na.rm TRUE): 	477488	
+England	357303	74.83
+USA	 41246	 8.64
+Scotland	 40124	 8.40
+Ireland	 27525	 5.76
 France	  3718	 0.78
 Netherlands	  2035	 0.43
 Canada	  1152	 0.24
-Germany	   893	 0.19
+Germany	   892	 0.19
 Northern Ireland	   883	 0.18
 Belgium	   619	 0.13
 India	   580	 0.12
@@ -25,7 +25,7 @@ Saint Kitts and Nevis	    36	 0.01
 Sweden	    36	 0.01
 Grenada	    31	 0.01
 Russia	    26	 0.01
-Bahamas	    24	 0.01
+Bahamas	    23	 0.00
 Isle of Man	    18	 0.00
 Spain	    15	 0.00
 Guernesey	    13	 0.00

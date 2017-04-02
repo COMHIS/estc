@@ -1,14 +1,14 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2017-01-10"
+date: "2017-04-02"
 output: markdown_document
 ---
 
 ## Authors
 
- * 54979 [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv).
- * 288129 documents have unambiguous author information (60%). 
+ * 54974 [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv).
+ * 288108 documents have unambiguous author information (60%). 
  * 4603 [unique pseudonymes](output.tables/pseudonyme_accepted.csv) are recognized based on [custom pseudonyme lists](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv).
  * [Discarded author names](output.tables/author_discarded.csv) This list should not include any real authors (if it does, please send a note). The following stopword lists are considered when discarding names:
   * [Stopwords for names](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_names.csv)
@@ -41,7 +41,7 @@ Ordered by productivity (number of documents))
 
 ### Author age
 
- * 135858 documents have author age at the publication year (28%). These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
+ * 135846 documents have author age at the publication year (28%). These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
 
 
 ![plot of chunk author_age](figure_slides/author_age-1.png)

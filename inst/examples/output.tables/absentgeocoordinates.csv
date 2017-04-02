@@ -1,9 +1,9 @@
 name	count
-New York NY	4695
+New York NY	4692
 Birmingham	1283
 Bath	1118
 New London Ct	1013
-Providence RI	964
+Providence RI	963
 Salisbury	842
 Exeter	835
 Belfast	794
@@ -11,13 +11,13 @@ Cork	721
 Charleston SC	683
 Newport RI	654
 Shrewsbury	596
-Liverpool	546
+Liverpool	541
 Nottingham	529
 Quebec	510
 Canterbury	509
 Coventry	499
 Annapolis Md	491
-Portsmouth NH	485
+Portsmouth NH	484
 Worcester Ma	470
 Tunbridge Wells	448
 Halifax	446
@@ -27,7 +27,7 @@ Germantown Pa	389
 Chester	369
 Northampton	368
 Lancaster Pa	351
-Albany NY	350
+Albany NY	349
 Ipswich	345
 St Omer	343
 Salem Ma	327
@@ -87,7 +87,7 @@ Yarmouth	98
 Spanish Town	97
 Taunton	95
 Elizabeth NJ	94
-Springfield Ma	93
+Springfield Ma	92
 Portland Me	91
 Madras India	91
 Gainsborough	88
@@ -97,7 +97,7 @@ Concord NH	84
 Poughkeepsie NY	83
 Ludlow	81
 Lexington KY	81
-Richmond Va	80
+Richmond Va	79
 Twickenham	78
 Rutland Vt	77
 Banbury	77
@@ -107,16 +107,16 @@ Windsor	72
 Chelmsford	72
 Aldershot	72
 Wrexham	70
-Hudson NY	69
+Hudson NY	68
 Doncaster	64
 Danbury Ct	64
 Chichester	64
 Wakefield	63
 Huddersfield	63
 Sunderland	62
-Northampton Ma	62
 New Orleans La	62
 Leominster Ma	62
+Northampton Ma	61
 Brentford	61
 Ayr	61
 Alnwick	61
@@ -169,7 +169,7 @@ Alexandria Va	40
 Huntingdon	38
 Kingstown	37
 Emden	37
-Greenfield Ma	36
+Greenfield Ma	35
 Chesterfield	35
 Blackburn	35
 Knaresborough	34
@@ -203,14 +203,14 @@ Catskill NY	26
 Troy NY	25
 North Shields	25
 Monaghan	25
-Fredericktown Md	25
 Washington Pa	24
-Nassau	24
+Fredericktown Md	24
 Deptford	24
 Danvers Ma	24
 Westminster Vt	23
 Stourbridge	23
 St Ives	23
+Nassau	23
 Hagerstown Md	23
 Devizes	23
 Congleton	23
@@ -246,13 +246,13 @@ Harrisburg Pa	18
 Egham	18
 Douglas	18
 Chatham Nj	18
-Winchester Va	17
 Weymouth	17
 Wexford	17
 Ripon	17
 Goshen Ny	17
 Caernarfon	17
 Buckingham	17
+Winchester Va	16
 Truru	16
 Sevenoaks	16
 Scarborough	16
@@ -327,7 +327,6 @@ Shelburne	9
 Romsey	9
 Putney Vt	9
 Poole	9
-Pittsburgh Pa	9
 Morristown NJ	9
 Montego Bay	9
 Hillsborough NC	9
@@ -340,6 +339,7 @@ Strood	8
 St John New Brunswick	8
 St Augustine Fl	8
 Sag Harbour NY	8
+Pittsburgh Pa	8
 Lymington	8
 Honiton	8
 Greenock	8
@@ -419,7 +419,6 @@ Daventry	5
 Dartmouth	5
 Cranbrook	5
 Concord Ma	5
-Castine Me	5
 Carrickfergus	5
 Bödingen	5
 Basseterre	5
@@ -427,7 +426,6 @@ Ballston Spa NY	5
 Athlone	5
 Yeovil	4
 Whitchurch	4
-Utica Ny	4
 Rye	4
 Port-of-Spain	4
 Penzance	4
@@ -445,6 +443,7 @@ Fairfield Ct	4
 Epsom	4
 Dereham	4
 Crewkerne	4
+Castine Me	4
 Cap-Haitien	4
 Canaan NY	4
 Cádiz	4
@@ -464,6 +463,7 @@ Whitburn	3
 Wellingborough	3
 Watford	3
 Waltham Ma	3
+Utica Ny	3
 Trevoux	3
 Torrington Ct	3
 Tetbury	3
@@ -480,7 +480,6 @@ Pembroke	3
 Ormskirk	3
 Nothampton	3
 Newton Abbot	3
-Nashville TN	3
 Lugano	3
 Loreto	3
 Launceston	3
@@ -549,6 +548,7 @@ Nordhausen	2
 Newton NJ	2
 Newport Pagnell	2
 New Windsor NY	2
+Nashville TN	2
 Minorca	2
 Milton	2
 Milborne Port	2
@@ -634,7 +634,6 @@ Simsbury Ct	1
 Sienna	1
 Shippensburg Pa	1
 Sheerness	1
-Sharon Ct	1
 Seville	1
 Sedbergh	1
 Scipio NY	1
@@ -741,7 +740,6 @@ Greenlaw	1
 Goa	1
 Gloucester Ma	1
 Glastonbury	1
-Gettysburg Pa	1
 Gaznah	1
 Gaunt	1
 Friedensthal Pa	1

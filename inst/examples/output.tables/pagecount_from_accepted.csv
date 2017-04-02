@@ -1,8 +1,8 @@
 Name	Count
-Total count (na.rm TRUE): 	480279
-original	455698
-ecco-2	  9124
-estimate_singlevolume_median.pages	  8194
-estimate_multivolume_median.pages	  6438
+Total count (na.rm TRUE): 	480208
+original	455466
+ecco-2	 11814
+estimate_singlevolume_median.pages	  7571
+estimate_multivolume_median.pages	  4567
 custom	   552
-estimate_issue_median.pages	   273
+estimate_issue_median.pages	   238

@@ -23,9 +23,9 @@ read_ecco <- function (version = 2) {
     message(paste("Reading file", f))
 
     ecco <- fromJSON(file = f, method = "C")
-    ecco <- as.data.frame(t(sapply(ecco, identity)), stringsAsFactors = FALSE)
-    # Ignore column 11 "containsGraphicOfType" which is hierarchical
-    ecco <- as.data.frame(sapply(ecco[1:10], function (x) {unlist(x)}))
+    # Ignore column 11 "containsGraphicOfType" which is hierarchical    
+    ecco <- as.data.frame(t(sapply(ecco, function (x) {x[setdiff(names(x), "containsGraphicOfType")]})), stringsAsFactors = FALSE)
+    ecco <- as.data.frame(sapply(ecco, function (x) {unlist(x)}))
 
   }
 

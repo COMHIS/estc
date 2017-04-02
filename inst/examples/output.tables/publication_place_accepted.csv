@@ -1,17 +1,17 @@
 publication_place	country	Count	Percentage
-Total count (na.rm TRUE): 	477560		
+Total count (na.rm TRUE): 	477489		
 Aachen	Germany	     1	0
 Abartawe	England	    14	0
 Abbeville	France	     4	0
 Aberdaugleddau	England	     1	0
-Aberdeen	Scotland	  1136	0.24
+Aberdeen	Scotland	  1135	0.24
 Aberhonddu	England	    46	0.01
 Abermaw	England	     1	0
 Aberystwyth	England	     1	0
 Abingdon	England	    14	0
 Adpar	England	     2	0
 Aix-en-Provence	France	     2	0
-Albany NY	USA	   350	0.07
+Albany NY	USA	   349	0.07
 Alcester	England	     4	0
 Aldershot	England	    72	0.02
 Alexandria Va	USA	    40	0.01
@@ -181,7 +181,7 @@ Carrick-on-Suir	Ireland	     1	0
 Carrickfergus	Northern Ireland	     5	0
 Carron	Scotland	     2	0
 Cashel	Ireland	     2	0
-Castine Me	USA	     5	0
+Castine Me	USA	     4	0
 Castlebar	Ireland	     1	0
 Castleford	England	     1	0
 Castries	Saint Lucia	     1	0
@@ -283,7 +283,7 @@ Dresden	Germany	    20	0
 Dresden Me	USA	     1	0
 Drogheda	Ireland	    20	0
 Drumfries	Scotland	    10	0
-Dublin	Ireland	 26143	5.47
+Dublin	Ireland	 26136	5.47
 Dudley	England	    20	0
 Dumfries	Scotland	    85	0.02
 Dumfries Va	USA	     5	0
@@ -306,7 +306,7 @@ Eastbourne	England	     2	0
 Easton Pa	USA	    10	0
 Edenhall	England	     1	0
 Edenton NC	USA	    43	0.01
-Edinburgh	Scotland	 31984	6.7
+Edinburgh	Scotland	 31979	6.7
 Egham	England	    18	0
 Elbingen	Germany	     1	0
 Elgin	Scotland	     1	0
@@ -354,7 +354,7 @@ Fort McHenry Ms	USA	     1	0
 Fort Royal	Martinique	     5	0
 Frankfort Ky	USA	    34	0.01
 Frankfurt	Germany	    72	0.02
-Fredericktown Md	USA	    25	0.01
+Fredericktown Md	USA	    24	0.01
 Fredericton	Canada	    10	0
 Fredicksburg Va	USA	    16	0
 Freetown	Sierra Leone	     1	0
@@ -375,11 +375,10 @@ Georgetown Va	USA	     3	0
 Georgetown Washington DC	USA	    22	0
 Gera	Germany	     2	0
 Germantown Pa	USA	   389	0.08
-Gettysburg Pa	USA	     1	0
 Ghent	Belgium	    18	0
 Gillingham	England	     3	0
 Gilmanton NH	USA	     6	0
-Glasgow	Scotland	  5338	1.12
+Glasgow	Scotland	  5337	1.12
 Glastonbury	England	     1	0
 Gloucester	England	   315	0.07
 Gloucester Ma	USA	     1	0
@@ -396,7 +395,7 @@ Gravesend	England	    13	0
 Great Marlow	England	     2	0
 Great Yarnmouth	England	     2	0
 Greenfield	England	     7	0
-Greenfield Ma	USA	    36	0.01
+Greenfield Ma	USA	    35	0.01
 Greenlaw	Scotland	     1	0
 Greenock	Scotland	     8	0
 Greensburg Pa	USA	     1	0
@@ -463,7 +462,7 @@ Horsham	England	     5	0
 Houghton Park	England	     2	0
 Howden	England	     2	0
 Huddersfield	England	    63	0.01
-Hudson NY	USA	    69	0.01
+Hudson NY	USA	    68	0.01
 Hull	England	   306	0.06
 Hungerford	England	     5	0
 Huntingdon	England	    38	0.01
@@ -534,7 +533,7 @@ Leeds	England	   633	0.13
 Leek	England	     4	0
 Leicester	England	   176	0.04
 Leiden	Netherlands	   111	0.02
-Leipzig	Germany	   120	0.03
+Leipzig	Germany	   119	0.02
 Lemgo	Germany	     1	0
 Leominster Ma	USA	    62	0.01
 Leominster NH	USA	    19	0
@@ -550,11 +549,11 @@ Lincolnton Nc	USA	     2	0
 Lisbon	Portugal	     9	0
 Lisburn	Northern Ireland	     1	0
 Litchfield Ct	USA	   181	0.04
-Liverpool	England	   546	0.11
+Liverpool	England	   541	0.11
 Livorno	Italy	    63	0.01
 Llanymddyfri	England	     7	0
 Llwydlo	England	     5	0
-London	England	316872	66.35
+London	England	316846	66.36
 Londonderry	Northern Ireland	    28	0.01
 Long Buckby	England	     1	0
 Loreto	Italy	     3	0
@@ -627,8 +626,8 @@ Nancy	France	     3	0
 Nantes	France	    11	0
 Nantwich	England	    18	0
 Naples	Italy	     8	0
-Nashville TN	USA	     3	0
-Nassau	Bahamas	    24	0.01
+Nashville TN	USA	     2	0
+Nassau	Bahamas	    23	0
 Natchez Ms	USA	    10	0
 Neuchatel	Switzerland	    16	0
 Neustadt an der Weinstraße	Germany	     1	0
@@ -637,12 +636,12 @@ New Bern NC	USA	   149	0.03
 New Britain Pa	USA	     1	0
 New Brunswick NJ	USA	    73	0.02
 New Castle De	USA	    15	0
-New Haven Ct	USA	   772	0.16
+New Haven Ct	USA	   771	0.16
 New London Ct	USA	  1013	0.21
 New Milford Ct	USA	     1	0
 New Orleans La	USA	    62	0.01
 New Windsor NY	USA	     2	0
-New York NY	USA	  4695	0.98
+New York NY	USA	  4692	0.98
 Newark	England	   122	0.03
 Newark NJ	USA	   105	0.02
 Newburgh NY	USA	    14	0
@@ -674,7 +673,7 @@ North Shields	England	    25	0.01
 North Yarmouth Me	USA	     1	0
 Northallerton	England	     4	0
 Northampton	England	   368	0.08
-Northampton Ma	USA	    62	0.01
+Northampton Ma	USA	    61	0.01
 Northumberland Pa	USA	    12	0
 Northwich	England	     1	0
 Norton	England	     6	0
@@ -729,7 +728,7 @@ Petersfield	England	     2	0
 Petworth	England	     1	0
 Philadelphia Pa	USA	 10227	2.14
 Pisa	Italy	     2	0
-Pittsburgh Pa	USA	     9	0
+Pittsburgh Pa	USA	     8	0
 Pittsfield Ma	USA	     1	0
 Plymouth	England	   151	0.03
 Plymouth Ma	USA	     7	0
@@ -743,7 +742,7 @@ Port-of-Spain	Trinidad and Tobago	     4	0
 Portland Me	USA	    91	0.02
 Porto	Portugal	     1	0
 Portsmouth	England	   106	0.02
-Portsmouth NH	USA	   485	0.1
+Portsmouth NH	USA	   484	0.1
 Potsdam	Germany	     1	0
 Poughkeepsie NY	USA	    83	0.02
 Poulton-le-Fylde	England	     1	0
@@ -751,7 +750,7 @@ Prague	Czech Republic	     3	0
 Prescot	England	     5	0
 Preston	England	   143	0.03
 Princeton NJ	USA	     6	0
-Providence RI	USA	   964	0.2
+Providence RI	USA	   963	0.2
 Putney Vt	USA	     9	0
 Quebec	Canada	   510	0.11
 Raleigh NC	USA	    20	0
@@ -767,7 +766,7 @@ Rennes	France	     1	0
 Retford	England	     7	0
 Rhaglan	England	     1	0
 Richmond	England	   348	0.07
-Richmond Va	USA	    80	0.02
+Richmond Va	USA	    79	0.02
 Riga	Latvia	     3	0
 Ringwood	England	     1	0
 Ripon	England	    17	0
@@ -823,7 +822,6 @@ Selkirk	Scotland	     2	0
 Settle	England	     2	0
 Sevenoaks	England	    16	0
 Seville	Spain	     1	0
-Sharon Ct	USA	     1	0
 Sheerness	England	     1	0
 Sheffield	England	   206	0.04
 Shelburne	Canada	     9	0
@@ -844,7 +842,7 @@ South Shields	England	    10	0
 Southampton	England	   123	0.03
 Spalding	England	    27	0.01
 Spanish Town	Jamaica	    97	0.02
-Springfield Ma	USA	    93	0.02
+Springfield Ma	USA	    92	0.02
 St Albans	England	    15	0
 St Andrews	Scotland	    45	0.01
 St Augustine Fl	USA	     8	0
@@ -868,7 +866,7 @@ Stafford	England	    55	0.01
 Stamford	England	    96	0.02
 Staunton Va	USA	     5	0
 Sterling	Scotland	     3	0
-Stirling	Scotland	   159	0.03
+Stirling	Scotland	   158	0.03
 Stockbridge Ma	USA	    53	0.01
 Stockholm	Sweden	     7	0
 Stockport	England	    54	0.01
@@ -930,7 +928,7 @@ Ulm	Germany	     1	0
 Ulverston	England	     6	0
 Uppsala	Sweden	     7	0
 USA	USA	   305	0.06
-Utica Ny	USA	     4	0
+Utica Ny	USA	     3	0
 Utrecht	Netherlands	    31	0.01
 Uttoxeter	England	     6	0
 Valencia	Spain	     1	0
@@ -958,7 +956,7 @@ Warren RI	USA	    55	0.01
 Warrington	England	   290	0.06
 Warsaw	Poland	     1	0
 Warwick	England	   168	0.04
-Washington DC	USA	    54	0.01
+Washington DC	USA	    53	0.01
 Washington Pa	USA	    24	0.01
 Waterford	Ireland	    87	0.02
 Watertown Ma	USA	   136	0.03
@@ -983,10 +981,10 @@ Wigan	England	    26	0.01
 Wigton	England	     1	0
 Wilkes-Barre Pa	USA	     2	0
 Williamsburg Va	USA	   409	0.09
-Wilmington De	USA	   393	0.08
+Wilmington De	USA	   392	0.08
 Wilmington NC	USA	    14	0
 Winchester	England	   111	0.02
-Winchester Va	USA	    17	0
+Winchester Va	USA	    16	0
 Windham Ct	USA	    45	0.01
 Windsor	England	    72	0.02
 Windsor Ct	USA	     5	0
@@ -1014,7 +1012,7 @@ Y Bont-Faen	England	     2	0
 Yarm	England	     1	0
 Yarmouth	England	    98	0.02
 Yeovil	England	     4	0
-York	England	  1752	0.37
+York	England	  1751	0.37
 York Pa	USA	    48	0.01
 Youghal	Ireland	     1	0
 Yr Wyddgrug	England	     1	0

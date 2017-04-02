@@ -54,7 +54,8 @@ df <- df.preprocessed <- df.preprocessed.orig
 # source("20151023-LIBER.R") 
 
 # Interactive reports
-source("report.R")
+library(rmarkdown)
+rmarkdown::render("report.Rmd", params = list(min.year = 1470, max.year = 1880, place = "All", language = "any", subtitle = "My subtitle", idsource = "freewill.txt", update.bibliographica = FALSE, time.window = 10, document.type = "All"), envir = new.env())
 
 # -------------------------------------------------
 

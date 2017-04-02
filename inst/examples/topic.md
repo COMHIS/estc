@@ -1,7 +1,7 @@
 ---
 title: "Subject topic preprocessing summaries"
 author: "Leo Lahti"
-date: "2017-01-10"
+date: "2017-04-02"
 output: markdown_document
 ---
 
@@ -12,9 +12,9 @@ several assigned topics.
 
 
 
-  * 55621 [unique accepted subject topics](output.tables/subject_topic_accepted.csv)
+  * 55618 [unique accepted subject topics](output.tables/subject_topic_accepted.csv)
   * [List of discarded subject topics](output.tables/subject_topic_discarded.csv)
-  * 264575 documents (55%) are assigned one or more subject topics 
+  * 264549 documents (55%) are assigned one or more subject topics 
 
 
 Top-20 subject topics and number of documents for each.
@@ -29,7 +29,7 @@ The publication_topic field is also available in some catalogs. The links are in
 
   * 5052 [unique accepted publication topics](output.tables/publication_topic_accepted.csv)
   * [List of discarded publication topics](output.tables/publication_topic_discarded.csv)
-  * 87736 documents (18%) are assigned a publication topic 
+  * 87727 documents (18%) are assigned a publication topic 
 
 Top-20 publication topics and number of documents for each, in
 case the field is available:

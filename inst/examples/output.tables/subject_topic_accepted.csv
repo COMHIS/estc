@@ -1,7 +1,7 @@
 Name	Count
-Total count (na.rm TRUE): 	393965
+Total count (na.rm TRUE): 	393921
 Sermons, English	10915
-English poetry	 7553
+English poetry	 7550
 Christian life	 4975
 Latin language	 3660
 English language	 3344
@@ -12,32 +12,32 @@ Astrology	 2892
 Songs, English	 2875
 Society of Friends	 2694
 Dissenters, Religious	 2408
-English fiction	 2390
+English fiction	 2388
 Conduct of life	 2370
 Church and state	 2308
-Broadsides	 2258
+Broadsides	 2257
 Law	 2150
 English drama.	 2092
 Taxation	 2090
-Quakers	 2081
-Christianity	 1907
+Quakers	 2080
+Christianity	 1906
 Lord's Supper	 1866
 Ephemerides	 1813
-Elections	 1809
+Elections	 1808
 Theology, Doctrinal	 1674
 Prayers	 1670
 Inheritance and succession	 1615
-English drama (Comedy)	 1604
+English drama (Comedy)	 1603
 Funeral sermons	 1519
 English drama	 1413
 Women	 1338
 God	 1318
 Law reports, digests, etc.	 1266
 Real property	 1251
-Agriculture	 1248
+Agriculture	 1246
 Land tenure	 1233
 Operas	 1222
-Catechisms, English	 1217
+Catechisms, English	 1216
 Almanacs, English.	 1203
 Christian life.	 1195
 Finance, Public	 1165
@@ -55,7 +55,7 @@ Murder	  928
 Executions and executioners	  904
 English drama (Tragedy)	  872
 Indians of North America	  846
-Hymns, English	  845
+Hymns, English	  844
 Arithmetic	  841
 Catalogs, Booksellers'	  835
 Popish Plot, 1678	  834
@@ -64,7 +64,7 @@ Geography	  821
 Inclosures.	  796
 Poor	  796
 Advertising	  788
-Chapbooks, English	  787
+Chapbooks, English	  786
 Wool industry	  785
 Congregational churches	  781
 Meditations	  754
@@ -91,11 +91,11 @@ English poetry.	  657
 Conduct of life.	  649
 Devotional exercises	  649
 Booksellers and bookselling	  648
-Music	  644
 Prayer	  644
+Music	  643
 Astronomy	  631
 Latin poetry	  629
-Theater	  628
+Theater	  626
 Repentance	  605
 Nobility	  598
 Education	  596
@@ -176,8 +176,8 @@ Philosophy	  383
 Conversion	  381
 Spanish Succession, War of, 1701-1714	  380
 Opera	  379
-Banks and banking	  378
 Christian poetry, English	  378
+Banks and banking	  377
 English wit and humor	  376
 Smallpox	  375
 Inclosures	  368
@@ -230,8 +230,8 @@ Family	  306
 Prize law	  306
 Jacobite Rebellion, 1715.	  304
 Geometry	  301
-Judgment Day	  301
 Grand Alliance, War of the, 1689-1697	  300
+Judgment Day	  300
 Merchants	  300
 Sexually transmitted diseases	  300
 Missions	  294
@@ -361,10 +361,10 @@ French poetry	  193
 Recipes	  193
 Aphorisms and apothegms	  192
 Psalms (Music)	  192
-Maritime law	  191
 Predestination	  191
 Trials (Libel)	  191
 Epic poetry, English	  190
+Maritime law	  190
 Writs	  190
 Dissenters	  189
 Heaven	  189
@@ -534,11 +534,11 @@ Christian moral exhortation	  128
 Corporations	  128
 Pastoral poetry, English	  128
 Pleading	  128
-Poetry, English	  128
 Popish Plot, 1678.	  128
 Conspiracies	  127
 Lutheran Church	  127
 Oratorios	  127
+Poetry, English	  127
 Devotional literature, English	  126
 Dutch War, 1672-1678	  126
 Inquisition	  126
@@ -556,7 +556,6 @@ Counterfeits and counterfeiting	  124
 Curiosities and wonders	  124
 Linen industry	  124
 Natural theology	  124
-Prophecy	  124
 Therapeutics	  124
 Usury	  124
 Woolen goods industry	  124
@@ -566,6 +565,7 @@ Logarithms	  123
 Medicine, popular	  123
 Natural theology.	  123
 Naval battles	  123
+Prophecy	  123
 Prostitution	  123
 Robbery	  123
 Sermons, American.	  123
@@ -602,13 +602,13 @@ Drowning	  115
 Judges	  115
 Tax collection	  115
 Virtue	  115
-Chapbooks, English.	  114
 Antinomianism	  113
 Epigrams, English	  113
 Etiquette	  113
 Sermons.	  113
 Slaves	  113
 Storms	  113
+Chapbooks, English.	  112
 Future life.	  112
 Language and languages	  112
 Presbyterianism.	  112
@@ -719,7 +719,6 @@ Lords Supper	   95
 Medals	   95
 Pardon	   95
 Reformed Church	   95
-Temperance	   95
 Toleration	   95
 Catholic Church	   94
 Chronology, Historical	   94
@@ -730,6 +729,7 @@ Education of princes	   94
 Food supply	   94
 Hydrotherapy	   94
 Pharmacists	   94
+Temperance	   94
 Trials (Fraud)	   94
 Canning and preserving	   93
 Christian education	   93
@@ -948,7 +948,6 @@ Newspaper publishing	   67
 Parishes	   67
 Syphilis	   67
 Tariff on tea	   67
-Utopias	   67
 Visions	   67
 Anthems	   66
 Atonement	   66
@@ -964,6 +963,7 @@ Revelation.	   66
 Romances, English	   66
 Separatists	   66
 Sugar	   66
+Utopias	   66
 Apparitions.	   65
 Blacks as authors	   65
 Brewing industry	   65
@@ -1130,7 +1130,6 @@ Price regulation	   54
 Religion and state	   54
 Restraint of trade	   54
 Scottish drama.	   54
-Singing	   54
 Success.	   54
 Urinary organs	   54
 Anglo-French War, 1793-1802	   53
@@ -1146,13 +1145,13 @@ Manufactures	   53
 Purgatory	   53
 Redemption.	   53
 Religious education of children.	   53
+Singing	   53
 Veterinary medicine.	   53
 Bee culture	   52
 Disasters	   52
 English drama (Tragicomedy)	   52
 Epistolary poetry, Latin	   52
 Fear of God	   52
-Glees, catches, rounds, etc.	   52
 Imprisonment	   52
 Independent churches	   52
 Industries	   52
@@ -1181,6 +1180,7 @@ Covenants	   51
 Devil.	   51
 Embargo.	   51
 Future punishment.	   51
+Glees, catches, rounds, etc.	   51
 Heaven.	   51
 Income tax	   51
 Law reform	   51
@@ -1490,10 +1490,8 @@ Monasteries	   38
 Murderers	   38
 Pageants	   38
 Patience	   38
-Religious poetry	   38
 Royal touch	   38
 Rye House Plot, 1683.	   38
-Scottish poetry.	   38
 Sinking-funds	   38
 Socinianism.	   38
 Songs, Scots	   38
@@ -1518,7 +1516,9 @@ Moravians	   37
 Old age	   37
 Pantomimes with music	   37
 Rape	   37
+Religious poetry	   37
 Rheumatism	   37
+Scottish poetry.	   37
 Sumptuary laws	   37
 Trials (Divorce)	   37
 Worship.	   37
@@ -1869,7 +1869,6 @@ Aids to navigation	   27
 Altars	   27
 Antisemitism	   27
 Apostles' Creed	   27
-Ballads	   27
 Catechetics	   27
 Civil list	   27
 Classical biography.	   27
@@ -1916,6 +1915,7 @@ Waste lands	   27
 Zoology.	   27
 Algebra.	   26
 Ambassadors	   26
+Ballads	   26
 Balloon ascensions.	   26
 Bank notes	   26
 Benefices, Ecclesiastical	   26
@@ -2017,7 +2017,6 @@ Aramaic language	   24
 Assault and battery	   24
 Atonement.	   24
 Battles	   24
-Bible stories	   24
 Body, Human	   24
 Briefs	   24
 Business education	   24
@@ -2073,6 +2072,7 @@ Whiskey Rebellion, Pa., 1794.	   24
 Almanacs, British	   23
 Anatomy.	   23
 Benevolence	   23
+Bible stories	   23
 Calendars.	   23
 Cherokee Indians	   23
 Child rearing	   23
@@ -2366,7 +2366,6 @@ Dictionaries, polyglot	   19
 Dream interpretation	   19
 Eclipses	   19
 Eyeglasses	   19
-Farm management	   19
 Flax industry	   19
 Freedom of speech	   19
 Friendship.	   19
@@ -2448,6 +2447,7 @@ Dano-Swedish Wars, 1657-1660	   18
 Engraving, Dutch.	   18
 Epistolary poetry	   18
 Equality.	   18
+Farm management	   18
 Fees, Administrative	   18
 Free trade.	   18
 Freedom (Theology)	   18
@@ -2580,7 +2580,6 @@ Paganism	   17
 Pamphleteers	   17
 Paradise	   17
 Pathology.	   17
-Poaching	   17
 Political ballads and songs, English.	   17
 Premiums (Retail trade)	   17
 Private revelations	   17
@@ -2689,6 +2688,7 @@ Pacifism	   16
 Patriotic poetry, English	   16
 Patriotic societies	   16
 Piquet (Game)	   16
+Poaching	   16
 Police regulations	   16
 Political poetry, English.	   16
 Polygamy	   16
@@ -3268,7 +3268,6 @@ Allegories.	   11
 Almanac publishing	   11
 Andronicus, Titus (Legendary character)	   11
 Angina maligna.	   11
-Animal husbandry	   11
 Articles of incorporation	   11
 Autographs	   11
 Ballads, German	   11
@@ -3639,6 +3638,7 @@ Algonquian languages.	    9
 Almanacs, Irish	    9
 Alum industry	    9
 American drama.	    9
+Animal husbandry	    9
 Antidotes	    9
 Apocalyptic literature.	    9
 Apportionment (Election law)	    9
@@ -4429,7 +4429,6 @@ Shells	    7
 Ship handling	    7
 Ship trials	    7
 Sick.	    7
-Sight-singing	    7
 Sign language	    7
 Silence	    7
 Silk manufacturers	    7
@@ -4745,7 +4744,6 @@ Landscape painting	    6
 Language, Universal	    6
 Languages	    6
 Law (Scotland)	    6
-Laziness	    6
 Life-preservers	    6
 Lisbon Expedition, 1589	    6
 Literary quarrels	    6
@@ -4891,6 +4889,7 @@ Sexual ethics for youth.	    6
 Sheep industry	    6
 Sheet-lead	    6
 Shrubs	    6
+Sight-singing	    6
 Snakes	    6
 Songs with guitar.	    6
 Songs with lute.	    6
@@ -5257,6 +5256,7 @@ Land reform	    5
 Latin	    5
 Latin language, Colloquial	    5
 Latin language.	    5
+Laziness	    5
 Leather workers	    5
 Legitimacy of governments	    5
 Levees	    5
@@ -5865,7 +5865,6 @@ Gauging	    4
 Gavelkind	    4
 Gems, Classical.	    4
 Geodetic astronomy	    4
-Geographical myths	    4
 Geomancy	    4
 Geomentry	    4
 Geometry, Plane	    4
@@ -5882,7 +5881,6 @@ Gold.	    4
 Gowrie Conspiracy, 1600.	    4
 Grace at meals	    4
 Gravity	    4
-Great Fire, London, England, 1666.	    4
 Gregorian chants.	    4
 Grinding and polishing	    4
 Groceries	    4
@@ -6781,7 +6779,6 @@ Farm buildings	    3
 Farm equipment	    3
 Farm income	    3
 Farm law	    3
-Farm magagement	    3
 Farm produce	    3
 Farms	    3
 Farms, Size of	    3
@@ -6834,6 +6831,7 @@ Gates.	    3
 General intercessions	    3
 Generosity	    3
 Genius.	    3
+Geographical myths	    3
 Geographical perception in childern	    3
 Geographical positions	    3
 Geographical positions.	    3
@@ -6857,6 +6855,7 @@ Gold mines and mining	    3
 Good Friday	    3
 Governesses	    3
 Great Bridge (Va.), Battle of, 1775.	    3
+Great Fire, London, England, 1666.	    3
 Greek fiction.	    3
 Greenhouse gardening.	    3
 Grievance procedures	    3
@@ -7500,7 +7499,6 @@ Theater management	    3
 Theaters.	    3
 Theatres	    3
 Theatrical managers	    3
-Theatrical performances	    3
 Theatrical posters	    3
 Thermometers and thermometry	    3
 Threats	    3
@@ -7554,7 +7552,6 @@ Virginia	    3
 Virginity in literature	    3
 Visitations, ecclesiastical	    3
 Vocal duets with instrumental ensemble	    3
-Vocal duets, Unaccompanied	    3
 Vocational guidance	    3
 Voyages	    3
 Waldenses.	    3
@@ -8330,6 +8327,7 @@ Fancy work	    2
 Farewell Sermons	    2
 Farm buildings.	    2
 Farm life.	    2
+Farm magagement	    2
 Farm manure	    2
 Farm produce.	    2
 Farmhouses	    2
@@ -9584,6 +9582,7 @@ Theater audiences	    2
 Theater in art.	    2
 Theater.	    2
 Theatrical performance	    2
+Theatrical performances	    2
 Theatrical production	    2
 Theft.	    2
 Theists	    2
@@ -9715,6 +9714,7 @@ Vision disorders	    2
 Visiting the sick	    2
 Vistations, Ecclesiastical	    2
 Vital statistics	    2
+Vocal duets, Unaccompanied	    2
 Vocation	    2
 Vocational education	    2
 Voice culture.	    2

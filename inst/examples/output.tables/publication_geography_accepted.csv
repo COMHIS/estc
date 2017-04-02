@@ -1,12 +1,12 @@
 Name	Count
-Total count (na.rm TRUE): 	136258
-Great Britain	26210
+Total count (na.rm TRUE): 	136243
+Great Britain	26205
 England	12237
-Great Britain;Great Britain	 6772
-Great Britain.	 6475
+Great Britain;Great Britain	 6771
+Great Britain.	 6474
 England;England	 3716
-Ireland	 3580
-Scotland	 3539
+Ireland	 3579
+Scotland	 3538
 United States	 2759
 England;Great Britain	 2751
 France	 1978
@@ -27,7 +27,7 @@ Ireland;Ireland;Ireland	  694
 Ireland.	  622
 Massachusetts	  559
 United States;United States	  559
-England;Great Britain;Great Britain	  503
+England;Great Britain;Great Britain	  502
 Scotland.	  464
 France;France	  447
 New York (State)	  373
@@ -169,8 +169,8 @@ United States;Massachusetts	   56
 England.;Great Britain;Great Britain	   55
 New York (State);New York (State);New York (State)	   55
 England;Ireland	   54
-England;London;England;England	   54
 United States;Great Britain	   54
+England;London;England;England	   53
 Netherlands;Great Britain	   53
 New Jersey.	   52
 Ireland;Dublin.	   51
@@ -339,7 +339,6 @@ Great Britain;Ireland;Ireland	   22
 Great Britain;Spain;Spain.;Great Britain.	   22
 Great Britain;United States;America	   22
 Great Britain;York (England)	   22
-Haiti	   22
 Holy Roman Empire	   22
 India.	   22
 Ireland.;Great Britain	   22
@@ -363,6 +362,7 @@ France;France;Great Britain;Great Britain.;France.	   21
 Great Britain;Great Britain;England	   21
 Great Britain;London (England);Great Britain	   21
 Great Britain;Scotland;Great Britain	   21
+Haiti	   21
 Ireland;Ireland;Ireland;Great Britain	   21
 Ireland;Londonderry (Northern Ireland)	   21
 Ireland.;Great Britain.	   21
@@ -2666,7 +2666,6 @@ Darien (Panama and Colombia);New Caledonia (Colony)	    2
 Dartmouth (England);Great Britain	    2
 Dedham (Mass.)	    2
 Dee River (England and Wales);Chester (England)	    2
-Delaware;United States;Delaware	    2
 Delaware;Wilmington.	    2
 Delaware;Wilmington.;Wilmington (Del.)	    2
 Delaware.;Delaware.;Delaware	    2
@@ -3955,7 +3954,6 @@ Scotland;England and Wales	    2
 Scotland;England and Wales;England;Scotland	    2
 Scotland;England;Great Britain;Scotland	    2
 Scotland;England;London;Scotland;Scotland	    2
-Scotland;England;Scotland;England;Scotland;England	    2
 Scotland;England;Scotland;Scotland;Scotland	    2
 Scotland;Ferintosh;Ferintosh (Scotland)	    2
 Scotland;Fife;Scotland;Fife	    2
@@ -5165,6 +5163,7 @@ Delaware;New Castle County.;Delaware;New Castle.;Delaware;New Castle.	    1
 Delaware;New Castle County.;New Castle County (Del.)	    1
 Delaware;New Castle County.;Pennsylvania.	    1
 Delaware;New Castle.;Delaware;New Castle.	    1
+Delaware;United States;Delaware	    1
 Delaware;Wilmington.;Delaware;Wilmington.;Wilmington (Del.)	    1
 Delaware;Wilmington.;Scandinavia	    1
 Delaware.;Delaware;Maryland;Maryland.;Delaware.	    1
@@ -7141,7 +7140,6 @@ Europe;Switzerland;Italy;Europe;Germany	    1
 Europe;Turkey;Scotland	    1
 Europe;Turkey;Turkey	    1
 Europe;United States;West Indies	    1
-Europe;United States;Winchester (Va.)	    1
 Europe;Wolfenbüttel (Germany)	    1
 Europe.;Europe.;Europe.;Great Britain.	    1
 Europe.;Europe.;United States.;Europe;United States	    1
@@ -11425,6 +11423,7 @@ Scotland;England;Great Britain	    1
 Scotland;England;London;Great Britain;Scotland	    1
 Scotland;England;London;Scotland	    1
 Scotland;England;Scotland;England;Scotland	    1
+Scotland;England;Scotland;England;Scotland;England	    1
 Scotland;England;Scotland;Great Britain;Scotland;England	    1
 Scotland;England;Scotland;Great Britain;Scotland.;England.	    1
 Scotland;England;Scotland;Scotland	    1
