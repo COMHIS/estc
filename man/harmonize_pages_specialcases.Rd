@@ -18,11 +18,10 @@ Harmonize pages (special cases)
 \examples{
 # harmonize_pages_specialcases("Caption title 2")
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

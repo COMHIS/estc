@@ -15,11 +15,10 @@ shortest string
 \description{
 returns text which is shortest from vector of strings
 }
-\author{
-Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

@@ -21,11 +21,10 @@ Polish publisher field.
 \examples{
 # polish_publisher("printed and sold by R. Marchbank")
 }
-\author{
-Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Mika Koistinen \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

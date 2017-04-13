@@ -1,4 +1,5 @@
 library(ggplot2)
+library(devtools)
 library(tidyr)
 library(dplyr)
 library(stringr)
@@ -10,11 +11,12 @@ library(reshape2)
 library(gridExtra)
 library(knitr)
 library(magrittr)
+#load_all("~/Rpackages/bibliographica")
 
 # Set global parameters
 author <- "Leo Lahti"
 ntop <- 20
-timespan <- c(1460, 1830)
+timespan <- c(1460, 1800)
 datafile.preprocessed <- "df.Rds"
 datafile.orig <- "df.raw.Rds"
 

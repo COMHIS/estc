@@ -25,6 +25,7 @@ library(bibliographica)
 # Pick Scotland documents only
 sel.country <- "Scotland"
 dfo <- filter(df.preprocessed, country == sel.country)
+dfo$unity <- rep(1, nrow(dfo))
 ```
 
 We have `r nrow(dfo)` documents from `r sel.country`.
@@ -81,7 +82,7 @@ Authors born before 500 AD: paper consumption per decade in Scotland and globall
 
 ```{r Scotlandad500, echo=FALSE, fig.width=20, fig.height=10}
 year <- 500
-dfs <- filter(df.preprocessed, author_birth < year)
+dfs <- filter(dfo, author_birth < year)
 
 tab <- table(dfs$author)
 top <- names(rev(sort(tab))[1:10])
@@ -93,7 +94,7 @@ p <- ggplot(dfss, aes(x = publication_decade, y = paper, fill = author)) + geom_
 print(p)
 
 
-dfs <- df.preprocessed %>%
+dfs <- dfo %>%
        filter(author_birth < year) %>%
        filter(country %in% sel.country)
 tab <- table(dfs$author)
@@ -206,16 +207,18 @@ m1$publish('Scatterplot', host = 'gist')
 
 ```{r Scotlandpub1700, echo=FALSE}
 # Pick Scotland and London documents
-df1700 <- filter(df.preprocessed, publication_year >= 1700 & publication_year <= 1800) 
-df.scotland <- filter(df1700, country == "Scotland")
+df1700 <- filter(df.preprocessed, publication_year >= 1700 &
+                                  publication_year < 1800) 
+df.scotland <- filter(df1700, country == sel.country)
 df.london <- filter(df1700, publication_place == "London")
 ```
 
 We have `r nrow(df.scotland)` documents from Scotland and `r nrow(df.london)` documents from London during 1700-1800. Average annual output for each decade are indicated by lines (passing through the middle point at each decade 1705, 1715 etc), the annual document counts are shown by points.
 
 ```{r Scotlandpub1700b, echo=FALSE, fig.width=15, fig.height=7}
-df.london$publication_place2 <- droplevels(df.london$publication_place)
-df.scotland$publication_place2 <- droplevels(df.scotland$country)
+df.london$publication_place2 <- df.london$publication_place
+df.scotland$publication_place2 <- df.scotland$country
+df.scotland$publication_place2 <- factor(df.scotland$publication_place2)
 df <- rbind(df.london, df.scotland)
 # use average annual output therefore divide by 10
 dfm <- df %>% group_by(publication_decade, publication_place2) %>% summarize(paper = sum(paper, na.rm = T)/10, n = n()/10)
@@ -250,7 +253,8 @@ print(p)
 ```{r Scotlandselectedauthors, echo=FALSE, fig.width=15, fig.height=7}
 authors <- c("Hume, David (1711-1776)", "Robertson, William (1721-1793)", "Gibbon, Edward (1737-1794)")
 cols <- c("red", "blue", "darkgreen"); names(cols) <- authors
-dfa <- filter(df.preprocessed, author %in% authors) 
+dfo <- df.preprocessed
+dfa <- filter(dfo, author %in% authors) 
 lims <- range(dfa$publication_year)
 
 dfs <- group_by(dfa, author, publication_year) %>% summarize(ndoc = n())
@@ -263,7 +267,7 @@ p <- p + xlim(limits = lims)
 print(p)
 
 for (ctr in c("Scotland", "USA")) {
-  dfs <- df.preprocessed %>% filter(country == ctr) %>% 
+  dfs <- dfa %>% filter(country == ctr) %>% 
     group_by(author, publication_year) %>% 
     summarize(ndoc = n())
   p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
@@ -276,7 +280,8 @@ for (ctr in c("Scotland", "USA")) {
 }
 
 ctr <- "London"
-  dfs <- dfa %>% filter(publication_place == ctr) %>% 
+  dfs <- df.preprocessed %>%
+      filter(publication_place == ctr & author %in% authors) %>% 
     group_by(author, publication_year) %>% 
     summarize(ndoc = n())
   p <- ggplot(dfs, aes(x = publication_year, y = ndoc, col = author)) 
@@ -291,7 +296,7 @@ ctr <- "London"
 ## Authors from different periods publishing in 1750-1799
 
 ```{r Scotlandselectedperiods, echo=FALSE, fig.width=15, fig.height=7}
-df <- df.preprocessed %>% filter(publication_year >= 1750 & publication_year <= 1799)
+df <- dfo %>% filter(publication_year >= 1750 & publication_year <= 1799)
 lims <- range(df$publication_year)
 df$author_birth.period <- cut(as.numeric(df$author_birth), breaks = c(-Inf, 501, 1500, 1600, 1650, 1700, 1730), right = FALSE, labels = c("-500AD", "501-1500", "1501-1600", "1601-1650", "1651-1700", "1701-1730"))
 dfs <- filter(df, !is.na(author_birth.period))
@@ -309,11 +314,13 @@ sel.country <- "Scotland"
 df <- filter(dfs, country == sel.country)
 df <- group_by(df, author_birth.period, publication_year) %>% summarize(ndoc = n())
 p <- ggplot(df, aes(x = publication_year, y = ndoc, fill = author_birth.period)) 
-p <- p + geom_bar(stat = "identity", position = "stack")
+p <- p + geom_bar(stat = "identity", position = "fill")
 p <- p + ylab("Documents")
 p <- p + xlab("Publication Year")
 p <- p + ggtitle(paste("Documents from authors from different periods (", sel.country, ")", sep = ""))
-p <- p + xlim(limits = lims)
+p <- p + xlim(limits = lims) +
+         ylab("Fraction (%)") +
+	 scale_y_continuous(labels = scales::percent)
 p <- p + guides(fill = guide_legend(reverse=TRUE))
 print(p)
 ```

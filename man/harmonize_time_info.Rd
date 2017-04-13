@@ -21,11 +21,10 @@ Harmonize month names
 \examples{
 \dontrun{x2 <- harmonize_time_info(x)}
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

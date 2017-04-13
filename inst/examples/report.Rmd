@@ -286,8 +286,10 @@ if (!selected.place == "All") {
 # Standard timeline
 # If place selection is applied then show both the
 # selected place and total data
-p1 <- plot_timeline(df0, df1, field = myfield, nmin = 0, mode = "absolute") +
-        ylab("Title count (n)") + ggtitle("Total title count timeline ()") 
+p1 <- plot_timeline(df0, x = "publication_decade", y = myfield,
+        nmin = 0, mode = "absolute") +
+        ylab("Title count (n)") +
+	ggtitle("Total title count timeline ()") 
 	#guides(fill = "none") 
 
 if (!selected.place == "All") {
@@ -353,8 +355,10 @@ if (!params$place == "All") {
 # Standard timeline
 # If place selection is applied then show both the
 # selected place and total data
-p1 <- plot_timeline(df0, df1, field = myfield, nmin = 0, mode = "absolute") +
-        ylab("Paper (sheets)") + ggtitle("Total paper consumption timeline ()") 
+p1 <- plot_timeline(df0, x = "publication_decade", y = myfield,
+        nmin = 0, mode = "absolute") +
+        ylab("Paper (sheets)") +
+	ggtitle("Total paper consumption timeline ()") 
 #	guides(fill = "none")	
 
 if (!is.null(df1)) {

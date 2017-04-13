@@ -2,7 +2,6 @@ library(devtools)
 library(dplyr)
 library(sorvi)
 library(bibliographica)
-#load_all("~/Rpackages/bibliographica")
 library(estc)
 
 # I/O definitions
@@ -22,7 +21,7 @@ today.str <- as.character(Sys.Date())
 #    tables for instance from the github summary pages.
 # -> However we can discuss and change these policies if you have
 #    good arguments.
-#output.folder <- paste("output.tables/", today.str, "/", sep = '')
+# output.folder <- paste("output.tables/", today.str, "/", sep = '')
 # old version:
 output.folder <- "output.tables/"
 dir.create(output.folder)
@@ -51,7 +50,6 @@ ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
 # ----------------------------------------------------
 #            LOAD DATA FOR PREPROCESSING
 # ----------------------------------------------------
-
 
 # reload.data <- FALSE
 source(system.file("extdata/init.R", package = "bibliographica"))
@@ -86,6 +84,7 @@ data.preprocessing <- get_preprocessing_data(df.orig,
 # ----------------------------------------------------
 
 source(system.file("extdata/preprocessing.R", package = "bibliographica"))
+
 data.preprocessed <- preprocess_data(data.preprocessing, 
                                      df.orig,
                                      languages, 
@@ -97,7 +96,6 @@ rm(data.preprocessing)
 #           VALIDATE PREPROCESSED DATA
 # ----------------------------------------------------
 
-source(system.file("extdata/validation.R", package = "bibliographica"))
 data.validated <- validate_preprocessed_data(data.preprocessed)
 # returns list of 3 (df.preprocessed, update.fields, conversions)
 rm(data.preprocessed)
@@ -106,18 +104,23 @@ rm(data.preprocessed)
 #           ENRICH VALIDATED DATA
 # ----------------------------------------------------
 
-# print(dirname(sys.frame(1)$ofile))
-
-source(system.file("extdata/enrich.R", package = "bibliographica"))
 data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
 # returns list of 3 (df.preprocessed, update.fields, conversions)
 # some function(s) need df.orig. Should tidy that up? -vv
-rm(data.validated)
+# -> would be nice but might prove challenging - welcome to implement if possible -LL
+# rm(data.validated)
 
-source("enrich.estc.R") # load function: enrich_estc
-data.enriched.estc <- enrich_estc(data.enriched)
+# Custom enrich for ESTC
+data.enriched.estc <- enrich_estc(data.enriched, df.orig)
 
-df.preprocessed <- data.enriched.estc$df.preprocessed
+# ----------------------------------------------------
+
+data.validated2 <- validate_preprocessed_data(data.enriched.estc)
+
+# -----------------------------------------------------
+
+# Pick the final data
+df.preprocessed <- data.validated2$df.preprocessed
 
 # ----------------------------------------------------
 

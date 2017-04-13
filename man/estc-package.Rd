@@ -2,8 +2,8 @@
 % Please edit documentation in R/estc-package.R
 \docType{package}
 \name{estc-package}
-\alias{estc}
 \alias{estc-package}
+\alias{estc}
 \title{British Library Data Toolkit}
 \description{
 Brief summary of the estc package
@@ -23,12 +23,11 @@ R Tools for British Library Data
 \examples{
 library(estc)
 }
-\author{
-Leo Lahti, Niko Ilomaki, Mikko Tolonen \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 \url{http://ropengov.github.com/estc}
 }
+\author{
+Leo Lahti, Niko Ilomaki, Mikko Tolonen \email{leo.lahti@iki.fi}
+}
 \keyword{package}
-

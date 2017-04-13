@@ -6,350 +6,140 @@ output: markdown_document
 ---
 
 
-## Page counts
+## ESTC/ECCO comparison
 
-Page count: distribution of document sizes
-
-```{r pagecountstat, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+```{r ecco, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+# Compare page count info between ESTC and ECCO
 df <- df.preprocessed
+df.orig <- readRDS("df.raw.Rds")
 
-  theme_set(theme_bw(15))
+# Read ECCO dump
+ecco <- read_ecco(version = 2)
 
-  # Single-volume docs
-  dff <- filter(df, volcount == 1 & is.na(volnumber))
+# Polish doc ID
+df$id <- df$system_control_number
+df$id <- gsub("\\(CU-RivES\\)", "", df$id)
 
-  dff2 <- dff %>% group_by(gatherings, 
-		    	     pagecount) %>%
-			     tally()
+# Add ECCO page counts to our data
+df$pagecount.ecco <- ecco[match(df$id, as.character(ecco$id)), "totalPages"]
+df$ecco.id <- ecco[match(df$id, as.character(ecco$id)), "id"]
+# Add info on whether the page count was estimated or not
+df$pagecount.estimated <- !is.na(df$pagecount) & is.na(df$pagecount.orig)
 
-  dff3 <- dff %>% group_by(gatherings) %>%
-		    summarize(mean = mean(pagecount, na.rm = T), 
-		              median = median(pagecount, na.rm = T))
-
-  p <- ggplot(dff2, aes(y = gatherings, x = pagecount)) 
-  p <- p + geom_point(aes(size = n))
-  p <- p + geom_point(data = dff3, aes(y = gatherings, x = mean), col = "red", size = 3)
-  p <- p + geom_point(data = dff3, aes(y = gatherings, x = median), col = "blue", size = 3)
-  p <- p + scale_x_log10(breaks = c(1, 10, 100, 1000))
-  p <- p + xlab("Total page count (blue: median; red: mean)")
-  p <- p + ylab("Document size")
-  p <- p + ggtitle(paste("Pages: single-volume documents (n=", nrow(dff), ")", sep = ""))
-  p1 <- p 
-
-  # Multi-volume docs
-  theme_set(theme_bw(15))
-  dff <- filter(df, 
- 	   (volcount > 1 | 
-	   #(items == 1 & !is.na(volnumber))) # include when items info is again available
-	   (!is.na(volnumber)))	   
-	   #pagecount > 10
-	   )
-  dff2 <- dff %>% group_by(gatherings, 
-		    	     pagecount) %>%
-		    	     tally()
-
-  dff3 <- dff %>% group_by(gatherings) %>%
-		    summarize(mean = mean(pagecount, na.rm = T), 
-		     median = median(pagecount, na.rm = T))
-
-  p <- ggplot(dff2, aes(y = gatherings, x = pagecount)) 
-  p <- p + geom_point(aes(size = n))
-  p <- p + geom_point(data = dff3, aes(y = gatherings, x = mean), col = "red", size = 3)
-  p <- p + geom_point(data = dff3, aes(y = gatherings, x = median), col = "blue", size = 3)
-  p <- p + scale_x_log10(breaks = c(1, 10, 100, 1000))
-  p <- p + xlab("Total page count (blue: median; red: mean)")
-  p <- p + ylab("Document size")
-  p <- p + ggtitle(paste("Pages: multi-volume documents (n=", nrow(dff), ")", sep = ""))
-  p2 <- p 
-
-library(gridExtra)
-grid.arrange(p1, p2, nrow = 1)
-```
-
-
-## Documents with missing pages over years 
-
-```{r missingpages, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=4}
-library(dplyr)
-df2 <- df %>% group_by(publication_decade, gatherings) %>% summarize(na = sum(is.na(pagecount.orig) | (!pagecount.orig == pagecount)))
-df2$na[df2$na == 0] <- NA
-library(ggplot2)
-theme_set(theme_bw(15))
-p <- ggplot(df2, aes(x = publication_decade, y = gatherings, size = na))
-p <- p + geom_point()
-p <- p + xlim(c(min(na.omit(df$publication_decade)), 1800))
-p <- p + ggtitle(paste("Documents with missing page counts (original; n=", sum(na.omit(df2$na)), ")", sep = ""))
-p <- p + xlab("Publication decade")
-p <- p + ylab("Document dimension (estimated)")
-print(p)
-
-library(dplyr)
-df2b <- df %>% group_by(publication_decade, gatherings) %>% summarize(na = sum(is.na(pagecount)))
-df2b$na[df2b$na == 0] <- NA
-library(ggplot2)
-theme_set(theme_bw(15))
-p <- ggplot(df2b, aes(x = publication_decade, y = gatherings, size = na))
-p <- p + geom_point()
-p <- p + xlim(c(min(na.omit(df$publication_decade)), 1800))
-p <- p + ggtitle(paste("Documents with missing page counts (after adding averages; n=", sum(na.omit(df2b$na)), ")", sep = ""))
-p <- p + xlab("Publication decade")
-p <- p + ylab("Document dimension (estimated)")
-print(p)
-```
-
-
-## Estimated paper consumption
-
-Note: there are `r length(which(is.na(df$cm2) & (!is.na(df$gatherings.original) | !is.na(df$width.original) | !is.na(df$height.original))))` documents that have some dimensions information but sheet area information could not be calculated for some reason. 
-
-```{r paperconsumption, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=12, fig.height=6}
-library(dplyr)
-library(ggplot2)
-df <- df.preprocessed
-df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-library(sorvi)
-p <- regression_plot(paper ~ publication_year, df2) 
-p <- p + ggtitle("Total annual paper consumption")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption")
-print(p)
-
-# Year vs paper with text
-#p <- ggplot(df2, aes(y = paper, x = publication_year))
-#p <- p + geom_text(aes(label = publication_year))
-#p <- p + ggtitle("Total annual paper consumption")
-#p <- p + xlab("Year")
-#p <- p + ylab("Paper consumption")
-#print(p)
-
-p <- regression_plot(n ~ publication_year, df2) 
-p <- p + ggtitle("Total annual documents")
-p <- p + xlab("Year")
-p <- p + ylab("Documents (n)")
-print(p)
-```
-
-```{r paperconsumption2b, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
-df <- df.preprocessed
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
-p <- ggplot(df2, aes(y = paper, x = publication_year, group = gatherings, color = gatherings))
-p <- p + geom_point()
-#p <- p + geom_line()
-#p <- p + scale_y_log10()
-p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Annual paper consumption by gatherings")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption")
-p <- p + scale_color_discrete(guide = guide_legend(title = "Doc. Size"))
-print(p)
-
-p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
-p <- p + geom_point()
-#p <- p + geom_line()
-#p <- p + scale_y_log10()
-p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Annual title count by gatherings")
-p <- p + xlab("Year")
-p <- p + ylab("Documents (n)")
-print(p)
-
-
-
-
-```{r pagecounts-gatherings-relab, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5}
-df <- df.preprocessed
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
-
-p <- ggplot(df2, aes(x = publication_year, fill = gatherings)) + geom_bar(position = "stack", stat = "bin")
-p <- p + ggtitle("Gatherings counts over time")
-print(p)
-
-p <- ggplot(df2, aes(x = publication_year, fill = gatherings)) + geom_bar(position = "fill")
-p <- p + ggtitle("Gatherings proportions over time")
-print(p)    
-
-p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
-p <- p + geom_point()
-#p <- p + geom_line()
-#p <- p + scale_y_log10()
-p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Annual title count by gatherings")
-p <- p + xlab("Year")
-p <- p + ylab("Documents (n)")
-print(p)
-```
-
-```{r paperconsumption2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
-df <- df.preprocessed
-df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_year, y = paper/n))
-p <- p + geom_point()
-p <- p + geom_line()
-p <- p + ggtitle("Average paper consumption per document")
-p <- p + xlab("Year")
-p <- p + ylab("Average paper consumption per document")
-print(p)
-```
-
-
-
-## Pamphlets vs. Books
-
-```{r doctypes, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
-library(ggplot2)
-library(dplyr)
-df <- df.preprocessed
-df$type <- rep(NA, nrow(df))
-df$type[df$pagecount > 32] <- "book"
-df$type[df$pagecount <= 32] <- "pamphlet"
-df$type <- factor(df$type)
-
-df2 <- df %>% group_by(publication_year, type) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_year, y = paper, group = type, color = type))
-p <- p + geom_point()
-p <- p + geom_smooth(method = "loess")
-p <- p + ggtitle("Paper consumption per document type")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption")
-print(p)
-
-p <- ggplot(df2, aes(x = publication_year, y = n, group = type, color = type))
-p <- p + geom_point()
-p <- p + geom_smooth(method = "loess")
-p <- p + ggtitle("Documents per document type")
-p <- p + xlab("Year")
-p <- p + ylab("Documents (n)")
-print(p)
-```
-
-
-```{r doctypes2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
-df <- mutate(df, length = cut(pagecount, c(0, 32, 72, 148, 250, 450, 800, 2000, 5000, Inf)))
-
-df2 <- df %>% group_by(publication_decade, length) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_decade, y = paper, group = length, color = length))
-p <- p + geom_point()
-p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Paper consumption per document type")
-p <- p + xlab("Decade")
-p <- p + ylab("Paper consumption")
-print(p)
-
-p <- ggplot(df2, aes(x = publication_decade, y = n, group = length, color = length))
-p <- p + geom_point()
-p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Documents per document type")
-p <- p + xlab("Decade")
-p <- p + ylab("Documents (n)")
-print(p)
-```
-
-
-## Top authors
-
-```{r topauth, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
-df <- df.preprocessed
-top.authors <- names(rev(sort(table(df.preprocessed$author))))[1:10]
-df2 <- df %>% filter(author %in% top.authors) %>% group_by(publication_year, author) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-
-p <- ggplot(df2, aes(x = publication_year, y = paper, group = author, color = author))
-p <- p + geom_point()
-p <- p + geom_line()
-#p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Paper consumption per author")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption")
-print(p)
-
-p <- ggplot(df2, aes(x = publication_year, y = n, group = author, color = author))
-p <- p + geom_point()
-p <- p + geom_line()
-#p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Documents per author")
-p <- p + xlab("Year")
-p <- p + ylab("Documents (n)")
-print(p)
-```
-
-
-
-
-## Nature of the documents over time
-
-Estimated paper consumption by document size
-
-```{r 20150611paris-paper6, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=7}
-df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
-p <- ggplot(df2, aes(y = paper, x = publication_year, group = gatherings, color = gatherings))
-p <- p + geom_point()
-p <- p + geom_smooth(method = "loess", size = 1)
-p <- p + ggtitle("Annual paper consumption by gatherings")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption")
-print(p)
-```
-
-
-Gatherings height: does it change over time (1600's)? How increased printing activity is related to book size trends? Instead, we could use area (height x width), or simply calculate median over time but let's discuss this later.
-
-```{r pagecounts-gatsize, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7}
-df <- df.preprocessed
-for (g in c("1to", "2fo", "4to", "8vo")) {
-  df2 <- filter(df, publication_year >=1600 & publication_year < 1700 &
-       		  !is.na(gatherings.original) &
-		  !is.na(height.original) &
-		  gatherings.original == g) %>%
-       group_by(publication_year, height.original) %>%
-       tally()
-
-  p <- ggplot(df2, aes(x = publication_year, y = height.original)) + geom_point(aes(size = n)) 
-  p <- p + ggtitle(paste(g, "heights over time"))
-  print(p)
+# Augmented pagecounts 
+o <- subset(df, pagecount.from.ecco)$original_row
+comptab <- cbind(
+	estc.id = as.character(df[match(o, df$original_row),"system_control_number"]),
+	ecco.id = as.character(df[match(o, df$original_row), "ecco.id"]),	
+	gatherings = as.character(df[match(o, df$original_row),"gatherings"]),
+	physical_extent = df.orig[match(o, df.orig$original_row),"physical_extent"],	
+	estc = df[match(o, df$original_row),"pagecount"],
+	ecco = df[match(o, df$original_row),"pagecount.ecco"],
+	estc.volcount = df[match(o, df$original_row),"volcount"],
+	estc.volnumber = df[match(o, df$original_row),"volnumber"],
+	ecco.hits = rep(NA, length(o)),
+	year = df[match(o, df$original_row),"publication_year"],	
+	author = df[match(o, df$original_row),"author"],	
+	title = as.character(df[match(o, df$original_row),"title"])
+	)
+# Exclude cases with no ECCO ID	
+comptab[which(comptab[, "ecco.id"] == "NA"), "ecco.id"] <- NA
+comptab <- comptab[!is.na(comptab[, "ecco.id"]),]	
+# Sum up ECCO hits
+for (i in 1:nrow(comptab)) {
+  myid <- comptab[i,"ecco.id"]
+  dfs <- subset(df, id == myid)
+  ecco.set <- subset(ecco, id == myid)  
+  if (is.na(dfs$volcount) & !is.na(dfs$volnumber)) {
+    # Pick the ecco pages just for this particular volume (volcount NA; volnumber given)
+    # assuming that the ECCO hits are in same order as the real volumes
+    # (this can be assumed to be a good approximation anyway)
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
+  } else {
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages, na.rm = TRUE)
+  }
+  comptab[i, "ecco.hits"] <- nrow(ecco.set)
 }
-```
 
+write.table(comptab, file = "~/tmp/estc_ecco_augmented.csv", quote = F, row.names = F, sep = "\t")
 
-Page counts: does it change over time (1600's)? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
+# -------------------------------------------------------------------
 
-```{r pagecounts-gatsize2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7}
-df <- df.preprocessed
-for (g in c("1to", "2fo", "4to", "8vo")) {
-  df2 <- filter(df, publication_year >=1600 & publication_year < 1700 &
-       		  !is.na(gatherings.original) &
-		  !is.na(pagecount.orig) &
-		  gatherings.original == g)
-  df3 <- df2 %>%
-       group_by(publication_year, pagecount.orig) %>%
-       tally()
+# The differing pagecounts in ESTC/ECCO
+df2 <- df
+df2 <- subset(df, !pagecount.from.ecco)
+comptab <- cbind(
+	estc.id = as.character(df2[,"system_control_number"]),
+	ecco.id = as.character(df2[, "ecco.id"]),	
+	gatherings = df2[,"gatherings"],
+	physical_extent = df.orig[match(df2$original_row, df.orig$original_row), "physical_extent"],	
+	estc = df2[,"pagecount"],
+	ecco = df2[,"pagecount.ecco"],
+	estc.volcount = df2[,"volcount"],
+	estc.volnumber = df2[,"volnumber"],
+	ecco.hits = rep(NA, nrow(df2)),	
+	year = df2[,"publication_year"],	
+	author = df2[,"author"],	
+	title = df2[,"title"]	
+	)
+# Exclude cases with no ECCO ID	
+comptab[which(comptab[, "ecco.id"] == "NA"), "ecco.id"] <- NA
+comptab <- comptab[!is.na(comptab[, "ecco.id"]),]
+# Sum up all ECCO hits
+for (i in 1:nrow(comptab)) {
+  myid <- comptab[i,"ecco.id"]
+  dfs <- subset(df2, id == myid)
+  if (is.na(dfs$volcount) & !is.na(dfs$volnumber)) {
+    # Pick the ecco pages just for this particular volume (volcount NA; volnumber given)
+    # assuming that the ECCO hits are in same order as the real volumes
+    # (this can be assumed to be a good approximation anyway)
+    ecco.set <- subset(ecco, id == myid)
+    # If ECCO lists multiple volumes then try to pick the indicated volume
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
+    comptab[i, "ecco.hits"] <- nrow(ecco.set)
 
-  p <- ggplot(df3, aes(x = publication_year, y = pagecount.orig)) + geom_point(aes(size = n))
-  p <- p + geom_smooth(data = df2, aes(x = publication_year, y = pagecount.orig))
-  p <- p + ggtitle(paste(g, "pagecount over time"))
-  print(p)
+  } else {
+    comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages, na.rm = TRUE)
+  }
 }
+comptab <- comptab[!comptab[, "estc"] == comptab[, "ecco"],]
+o <- order(abs(comptab[, "estc"] - comptab[, "ecco"]), decreasing = TRUE)
+comptab <- comptab[o,]
+
+write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv",
+		     quote = F, row.names = F, sep = "\t")
+
+#------------------------------------------------------------------------
+
+# Percentage of total ESTC pages vs. ECCO pages
+# across the shared docs
+coms <- intersect(ecco$id, df$id)
+total.match <- sum(subset(df, id %in% coms)$pagecount, na.rm = TRUE) / sum(subset(ecco, id %in% coms)$totalPages, na.rm = TRUE)
+
+# Prepare for the figure below
+dfs <- subset(df, !is.na(pagecount.ecco) & !is.na(pagecount))
+```
+
+There are `r nrow(ecco)` ECCO documents and `r sum(!ecco$id == "", na.rm = TRUE)` have an ESTCID. Some of the ECCO entries refer to the same ESTCID; `r sum(as.character(ecco$id) %in% df$id)` ECCO documents have a direct match in ESTC. The number of unique ECCO documents that have ESTC ID  is `r length(unique(as.character(ecco$id)))` and `r round(100*mean(unique(as.character(ecco$id)) %in% df$id), 1)`% of these have a match in ESTC.
+
+Total page count for the matched ESTC documents is `r round(100 * total.match, 1)`% of the total page count over the same ECCO documents. This quantifies the correspondence between ESTC and ECCO.
+
+Comparison between the page counts available in ESTC and ECCO helps to quantify the accuracy our automated page count cleaning and estimation procedure. Some ESTC page counts are missing in the original data and have been augmented based on predefined estimates for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where original page count info is available. In the ESTC/ECCO comparison, where pagecounts are available for both data sets, `r round(100 * mean(dfs$pagecount.estimated),2)`% of the pagecounts are based on estimates; pagecount for `r sum(df$pagecount.from.ecco, na.rm = TRUE)` ESTC documents has been replaced or augmented from ECCO, improving the correlation.
+
+
+```{r ecco2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=9, out.width="500px"}
+library(ggplot2)
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = pagecount, y = pagecount.ecco)) +
+       geom_point(aes(color = pagecount.estimated)) +
+       scale_x_log10() +
+       scale_y_log10() +       
+       xlab("Page count ESTC") +
+       ylab("Page count ECCO") +
+       ggtitle(paste("ECCO/ESTC page count comparison (n = ", nrow(dfs), ")", sep = "")) +
+       geom_abline(intercept = 0, slope = 1)
+print(p)
 ```
 
 
-Same for documents that have a sufficient number of pages:
 
-```{r pagecounts-gatsize3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=7}
-df <- df.preprocessed
-minpages <- 60
-for (g in c("1to", "2fo", "4to", "8vo")) {
-  df2 <- filter(df, pagecount >= minpages &
-       		  !is.na(gatherings.original) &
-		  !is.na(pagecount.orig) &
-		  gatherings.original == g)
-  df3 <- df2 %>%
-       group_by(publication_year, pagecount.orig) %>%
-       tally()
-
-  p <- ggplot(df3, aes(x = publication_year, y = pagecount.orig)) + geom_point(aes(size = n))
-  p <- p + geom_smooth(data = df2, aes(x = publication_year, y = pagecount.orig))
-  p <- p + ggtitle(paste(g, "pagecount over time (books with over", minpages, "pages)"))
-  print(p)
-}
-```

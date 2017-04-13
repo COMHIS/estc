@@ -2,6 +2,9 @@ source("analysis.init.R")
 
 df.preprocessed.orig <- df.preprocessed
 
+df <- df.preprocessed <- df.preprocessed.orig
+knit("pagecounts.Rmd")
+
 # ---------------------------------
 
 print("Generic summaries") # Markdown
@@ -34,9 +37,6 @@ df <- df.preprocessed <- df.preprocessed.orig
 knit("Princeton.Rmd")
 
 df <- df.preprocessed <- df.preprocessed.orig
-knit("pagecounts.Rmd")
-
-df <- df.preprocessed <- df.preprocessed.orig
 
 # Archived - done with history data
 # do not work (yet) with the full data
@@ -53,16 +53,14 @@ df <- df.preprocessed <- df.preprocessed.orig
 # Not tested with newer package versions.
 # source("20151023-LIBER.R") 
 
-# Data for Tue
-source("Tue.R")
-
 # Interactive reports
-source("report.R")
+library(rmarkdown)
+rmarkdown::render("report.Rmd", params = list(min.year = 1470, max.year = 1880, place = "All", language = "any", subtitle = "My subtitle", idsource = "freewill.txt", update.bibliographica = FALSE, time.window = 10, document.type = "All"), envir = new.env())
 
 # -------------------------------------------------
 
 # system("git add -f figure/*.png")
 # # system("git add -f output.tables/*.csv")
 # system("git add output.tables/*.csv")
-# system("git commit -a -m'Rmd update'")
-# system("git push")
+#system("git commit -a -m'Rmd update'")
+#system("git push")

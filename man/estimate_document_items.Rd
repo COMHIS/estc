@@ -18,11 +18,10 @@ Estimate number of physical items for a document
 \examples{
 # x <- estimate_document_items(df)
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See citation("estc")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

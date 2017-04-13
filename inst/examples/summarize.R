@@ -110,18 +110,16 @@ write_xtable(subset(tab, gender == "male")[,-2], file = paste(output.folder, "ge
 write_xtable(subset(tab, gender == "female")[,-2], file = paste(output.folder, "gender_female.csv", sep = ""))
 write_xtable(unname(pick_firstname(df.preprocessed$author_name)[is.na(df.preprocessed$author_gender)]), file = paste(output.folder, "gender_unknown.csv", sep = ""))
 
+# TODO remove from here
 # Mean page counts
-print("Average pagecounts")
-mean.pagecounts.multivol <- mean_pagecounts_multivol(df.preprocessed) 
-mean.pagecounts.univol <- mean_pagecounts_univol(df.preprocessed) 
-mean.pagecounts.issue <- mean_pagecounts_issue(df.preprocessed) 
-mean.pagecounts <- full_join(mean.pagecounts.univol, mean.pagecounts.multivol, by = "doc.dimension")
-mean.pagecounts <- full_join(mean.pagecounts, mean.pagecounts.issue, by = "doc.dimension")
-mean.pagecounts$doc.dimension <- factor(mean.pagecounts$doc.dimension, levels = levels(mean.pagecounts.univol$doc.dimension))
-write.table(mean.pagecounts, file = paste(output.folder, "mean_page_counts.csv", sep = ""), quote = F, row.names = F, sep = ",")
+#print("Average pagecounts")
+#estimated.pagecounts <- get_mean_pagecounts(df.preprocessed)
+#mean.pagecounts <- full_join(estimated.pagecounts$singlevol, estimated.pagecounts$multivol, by = "doc.dimension")
+#mean.pagecounts <- full_join(mean.pagecounts, estimated.pagecounts$issue, by = "doc.dimension")
+#mean.pagecounts$doc.dimension <- factor(mean.pagecounts$doc.dimension, levels = levels(mean.pagecounts.univol$doc.dimension))
+#write.table(mean.pagecounts, file = paste(output.folder, "mean_page_counts.csv", sep = ""), quote = F, row.names = F, sep = ",")
 
 print("Write places with missing geolocation to file")
-
 tab <- rev(sort(table(df.preprocessed$publication_place[is.na(df.preprocessed$latitude) | is.na(df.preprocessed$longitude)])))
 tab <- tab[tab > 0]
 tab <- cbind(names(tab), tab)

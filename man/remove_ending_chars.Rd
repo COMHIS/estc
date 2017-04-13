@@ -2,7 +2,7 @@
 % Please edit documentation in R/remove_ending_chars.R
 \name{remove_ending_chars}
 \alias{remove_ending_chars}
-\title{Remove ending chars}
+\title{Remove Ending Chars}
 \usage{
 remove_ending_chars(x)
 }
@@ -19,13 +19,12 @@ remove ending characters (and , ;) from every string in a vector.
 removes ending characters and , ; from every string in a vector.
 }
 \examples{
-# remove_ending_comma("printed and sold by R. Marchbank,")
-}
-\author{
-Mika Koistinen, Leo Lahti \email{leo.lahti@iki.fi}
+# remove_ending_chars("printed and sold by R. Marchbank,")
 }
 \references{
 See citation("bibliographica")
 }
+\author{
+Mika Koistinen \email{leo.lahti@iki.fi}
+}
 \keyword{utilities}
-

@@ -42,7 +42,6 @@ p2 <- p
 
 library(gridExtra)
 grid.arrange(p1, p2, nrow = 2)
-
 ```
 
 

@@ -1,12 +1,12 @@
-#' @title Remove ending chars
+#' @title Remove Ending Chars
 #' @description remove ending characters (and , ;) from every string in a vector.
 #' @param x vector of strings
 #' @return vector cleaned 
 #' @export
 #' @details removes ending characters and , ; from every string in a vector.
-#' @author Mika Koistinen, Leo Lahti \email{leo.lahti@@iki.fi}
+#' @author Mika Koistinen \email{leo.lahti@@iki.fi}
 #' @references See citation("bibliographica")
-#' @examples # remove_ending_comma("printed and sold by R. Marchbank,")
+#' @examples # remove_ending_chars("printed and sold by R. Marchbank,")
 #' @keywords utilities
 remove_ending_chars <- function (x) {
   #remove ending spaces
