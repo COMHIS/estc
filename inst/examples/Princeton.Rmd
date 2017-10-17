@@ -1,0 +1,76 @@
+---
+title: "Princeton summary"
+author: "`r author`"
+date: "`r Sys.Date()`"
+output: markdown_document
+---
+
+# Princeton summaries
+
+```{r PrincetonInit, echo=FALSE, message=FALSE}
+# Load libraries
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(reshape)
+library(estc)
+library(bibliographica)
+```
+
+```{r princeton, echo=FALSE, fig.width=10, fig.height=5}
+# Complete data
+df <- df.preprocessed
+selected.topics <- c("Thirty Years' War, 1618-1648", "Popish Plot, 1678")
+dfs <- filter(df, topic %in% selected.topics)
+   
+dfs <- dfs %>% group_by(topic, publication_decade) %>% summarize(paper = sum(paper, na.rm = TRUE), documents = n())
+
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = publication_decade, y = documents, group = topic))
+p <- p + geom_point(aes(col = topic))
+p <- p + geom_line(aes(col = topic))
+p <- p + xlab("Publication Decade")
+p <- p + ylab("Documents (n)")
+p1 <- p
+
+p <- ggplot(dfs, aes(x = publication_decade, y = paper, group = topic))
+p <- p + geom_point(aes(col = topic))
+p <- p + geom_line(aes(col = topic))
+p <- p + xlab("Publication Decade")
+p <- p + ylab("Paper")
+p2 <- p
+
+library(gridExtra)
+grid.arrange(p1, p2, nrow = 2)
+```
+
+
+```{r princeton2, echo=FALSE, fig.width=10, fig.height=5, warning=FALSE, message=FALSE}
+#selected.countries <- c("England", "Ireland", "Scotland", "Wales")
+selected.countries <- c("France", "Netherlands", "Germany", "Swizerland", "Belgium")
+dfs <- filter(df, country %in% selected.countries)
+dfs <- dfs %>% filter(!is.na(country))
+dfs$country <- droplevels(dfs$country)
+
+dfs <- dfs %>% group_by(country, publication_decade) %>% summarize(paper = sum(paper, na.rm = TRUE), documents = n())
+theme_set(theme_bw(20))
+
+p <- ggplot(dfs, aes(x = publication_decade, y = documents, group = country))
+p <- p + geom_point(aes(col = country))
+p <- p + geom_line(aes(col = country))
+p <- p + xlab("Publication Decade")
+p <- p + ylab("Documents (n)")
+p1 <- p
+
+p <- ggplot(dfs, aes(x = publication_decade, y = paper, group = country))
+p <- p + geom_point(aes(col = country))
+p <- p + geom_line(aes(col = country))
+p <- p + xlab("Publication Decade")
+p <- p + ylab("Paper")
+p2 <- p
+
+library(gridExtra)
+grid.arrange(p1, p2, nrow = 2)
+```
+
+

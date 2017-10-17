@@ -1,0 +1,147 @@
+---
+title: "Edinburgh publishing timelines: alternative versions"
+author: "Leo Lahti"
+output: markdown_document
+---
+
+```{r EdinburghInit, echo=FALSE, message=FALSE}
+# Scotland publishing summaries
+# Read the preprocessed ESTC data table and load tools:
+# Load libraries
+library(ggplot2)
+library(tidyr)
+library(reshape2)
+library(estc)
+library(bibliographica)
+library(dplyr)
+```
+
+```{r EdinburghRead, echo=FALSE}
+# Complete data
+dfo <- df.preprocessed
+dfo$unity <- rep(1, nrow(dfo))
+
+# Pick Scotland documents only
+selected_place <- "Edinburgh"
+sel.country <- "Scotland"
+df <- filter(dfo, country == sel.country & publication_year >= 1470)
+```
+
+
+```{r EdinburghPubs, echo=FALSE, fig.width=12, fig.height=5}
+publications <- tapply(df$unity, list(df$publication_decade, df$publication_place), sum)
+publications[is.na(publications)] <- 0 # Set NAs to 0
+publications <- publications/10 # Instead of decadal sum, use average annual output 
+dfm <- melt(publications) 
+names(dfm) <- c("Time", "Place", "Documents")
+dfm <- filter(dfm, Place == selected_place)
+
+df <- transform(dfm, date = as.character(Time))
+varname <- selected_place
+dfs <- spread(df, Place, Documents)
+dfs$date <- as.numeric(as.character(dfs$date))
+dfs$varname <- dfs[[varname]]
+p <- ggplot(dfs, aes(x = date, y = varname))
+p <- p + geom_bar(stat = "identity", fill = "darkgray", col = "black")
+p <- p + scale_x_continuous(breaks=seq(min(dfm$Time), max(dfm$Time), 20))
+p <- p + ggtitle(paste("Documents published in ", varname))
+p <- p + ylab("Documents / Year")
+print(p)
+
+# ------------------------------------------------------------
+
+# Use 5 year intervals
+df <- filter(dfo, country == sel.country & publication_year >= 1470)
+timeinterval <- 5
+df$publication.timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+publications <- tapply(df$unity, list(df$publication.timeunit, df$publication_place), sum)
+publications[is.na(publications)] <- 0 # Set NAs to 0
+publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+dfm <- melt(publications) 
+names(dfm) <- c("Time", "Place", "Documents")
+dfm <- filter(dfm, Place == selected_place)
+dfm <- transform(dfm, date = as.character(Time))
+dfs <- spread(dfm, Place, Documents)
+dfs$date <- as.numeric(as.character(dfs$date))
+dfs$varname <- dfs[[selected_place]]
+
+# Custom highlight for specific time intervals
+rect_left <- c(min(na.omit(dfs$date)),
+               1642, 1651+1, 
+               1660, 1660+1,
+               1688, 1689+1,
+               1706, 1707+1,
+               1776, 1776+1,
+               max(na.omit(dfs$date)))
+  rectangles <- data.frame(
+    xmin = rect_left[-length(rect_left)],
+    xmax = rect_left[-1],
+    ymin = min(dfs$varname),
+    ymax = max(dfs$varname))
+  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
+
+
+# Draw Figure
+theme_set(theme_bw(20))
+p <- ggplot()
+p <- p + geom_rect(data = rectangles, 
+	   aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=shade), alpha=0.8) + 
+         scale_fill_manual(values = c("gray", "white")) +
+         guides(fill = "none") 
+p <- p + geom_line(data = dfs, aes(x = date, y = varname), col = "black")
+p <- p + geom_point(data = dfs, aes(x = date, y = varname), col = "black")
+p <- p + scale_x_continuous(breaks=seq(min(dfs$date), max(dfs$date), 20))
+p <- p + ggtitle(paste("Publishing activity in ", selected_place))
+p <- p + ylab("Documents / Year")
+print(p)
+
+
+# -----------------------------------------------------------------------
+
+highlight_years <- c(1642:1651, 1660, 1688:1689, 1706:1707, 1776)
+df$highlight <- df$publication_year %in% highlight_years
+hits <- c()
+for (i in 1:nrow(dfs)) {
+  hits[[i]] <- any((dfs$date[[i]] - round(timeinterval/2)):(dfs$date[[i]] + round(timeinterval/2)) %in% highlight_years)
+}
+dfs$highlight <- hits
+
+theme_set(theme_bw(20))
+p <- ggplot()
+p <- p + geom_bar(data = dfs, aes(x = date, y = varname, fill = highlight), stat = "identity", alpha = 0.5, col = "black")
+p <- p + scale_x_continuous(breaks=seq(min(dfs$date), max(dfs$date), 20))
+p <- p + ggtitle(paste("Publishing activity in ", selected_place))
+p <- p + ylab("Documents / Year")
+p <- p + guides(fill = "none") 
+p <- p + scale_fill_manual(values = c("gray", "black"))
+print(p)
+```
+
+
+
+```{r Edinburgh2, echo=FALSE, fig.width=12, fig.height=5, warning=FALSE, message=FALSE}
+# use average annual output therefore divide by 10
+dfm <- df %>% group_by(publication_decade, publication_place) %>% summarize(paper = sum(paper, na.rm = T)/10, n = n()/10)
+
+theme_set(theme_bw(20))
+p <- ggplot(dfm, aes(x = publication_decade, y = n, color = publication_place))
+p <- p + geom_point()
+p <- p + geom_line()
+#p <- p + geom_smooth(method = "loess")
+p <- p + xlab("Decade") + ylab("Publications per year (n)")
+p <- p + ggtitle("Published documents")
+#p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
+p <- p + guides(color = guide_legend(title="Publication place"))
+print(p)
+
+theme_set(theme_bw(20))
+p <- ggplot(dfm, aes(x = publication_decade, y = paper, color = publication_place))
+p <- p + geom_point()
+p <- p + geom_line()
+#p <- p + geom_smooth(method = "loess")
+p <- p + xlab("Decade") + ylab("Annual paper consumption")
+p <- p + ggtitle("Paper consumption")
+#p <- p + scale_color_manual(values=c("red", "blue", "darkgreen", "black", "pink"))
+p <- p + guides(color = guide_legend(title="Publication place"))
+print(p)
+```

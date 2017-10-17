@@ -1,0 +1,22 @@
+---
+title: "Test"
+author: "Leo Lahti"
+date: "16/05/2015"
+output: markdown_document
+---
+
+
+```{r test, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=7}
+# Load package
+library(networkD3)
+
+# Create fake data
+src <- c("A", "A", "A", "A",
+        "B", "B", "C", "C", "D")
+target <- c("B", "C", "D", "J",
+            "E", "F", "G", "H", "I")
+networkData <- data.frame(src, target)
+
+# Plot
+simpleNetwork(networkData)
+```

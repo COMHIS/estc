@@ -1,0 +1,145 @@
+---
+title: "ESTC vignette"
+author: "Leo Lahti, Niko Ilomaki, Mikko Tolonen"
+date: "`r Sys.Date()`"
+bibliography: 
+- bibliography.bib
+- references.bib
+output: html_document
+---
+<!--
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{estc vignette}
+  %\usepackage[utf8]{inputenc}
+-->
+
+ESTC toolkit for R
+===========
+
+This [R package](http://r-project.org/) provides tools to extract and analyse textual annotation fields from the British Library [ESTC library catalogue](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc). Summaries of the ESTC data analysis are linked at the [README file](../README.md)
+
+Your [contributions](http://ropengov.github.com/contact.html), [bug
+reports and feedback](https://github.com/ropengov/estc) are welcome!
+
+
+## Available tools
+
+  * [Installation](#installation)  
+  * [Reproducing the ESTC analysis](#preprocessing)  
+  * [Analysis tools](#tools)  
+
+
+## <a name="installation"></a>Installation
+
+We assume you have installed [R](http://www.r-project.org/). If you
+use [RStudio](http://www.rstudio.com/ide/download/desktop), change the
+default encoding to UTF-8. 
+
+Installing the development version in R:
+
+```{r install, eval=FALSE}
+library(devtools)
+install_github("ropengov/estc")
+```
+
+Load the ESTC tools
+
+```{r test, message=FALSE, warning=FALSE, eval=TRUE}
+library(estc)
+```
+
+Set UTF-8 encoding
+
+```{r locale, eval=FALSE}
+Sys.setlocale(locale="UTF-8") 
+```
+
+For further help with R, see [this page](Rhelp.md)
+
+
+## <a name="preprocessing"></a>Reproducing the ESTC analysis
+
+The ESTC data collection is not publicly available at the moment. The
+examples assume you have access to this data.
+
+### Parser
+
+We use [MARCdata](https://github.com/rOpenGov/MARCdata) parser to pick selected fields from the source XML files and convert these into a CSV file.
+
+
+### Analysis
+
+To repeat the analysis, run [main.R](../inst/examples/main.R). This
+will execute the complete analysis from raw data to the final summary
+documents. It has two main parts:
+
+ * [preprocessing.R](../inst/examples/preprocessing.R) loads and
+   preprocesses the parsed SQL data tables. It cleans up the raw data
+   fields with the support of various synonyme and mapping lists, and
+   publicly available data sources (check the source code for full
+   details). This produces the final preprocessed data matrix that can
+   be used for further analysis. This data is confidential so we
+   cannot share it here. 
+
+ * [analysis.R](../inst/examples/analysis.R) reads and analyzes the
+   final preprocessed data table, and produces the final statistical
+   summaries and visualizations of the data. These include several
+   [markdown (.md) files](../inst/examples/) listed in the [README
+   file](https://github.com/rOpenGov/estc).
+
+
+
+## <a name="tools"></a>Tools
+
+Some examples of the ESTC-specific analysis tools provided in this
+package are listed below.
+
+### Harmonizing manual fields data
+
+Harmonize publisher information:
+
+```{r publisher, message=FALSE, eval=TRUE}
+polish_publisher(c("printed by John Marshall, at No. 4, Bow-Lane", 
+		   "printed and sold by John Marshall, Aldermary Church Yard"))
+```
+
+Mapping places to countries
+
+```{r place2country, message=FALSE, warning=FALSE, eval=TRUE}
+get_country(c("Middelburg", "Newcastle"))
+```
+
+Gender information
+
+```{r gender, message=FALSE, warning=FALSE, eval=FALSE}
+gendermap <- read_mapping(system.file("extdata/gendermap.csv",
+           package = "bibliographica"),
+	   sep = "\t", from = "name", to = "gender")
+get_gender(c("margaret"), gendermapp)
+```
+
+
+## Related work
+
+Whereas this package focuses on the ESTC data, it utilizes additional
+tools from the more generic
+[bibliographica](https://github.com/rOpenGov/bibliographica) and many
+other R packages.
+
+
+## Licensing and Citations
+
+This work can be freely used, modified and distributed under the 
+[Two-clause BSD license](http://en.wikipedia.org/wiki/BSD\_licenses).
+
+```{r citation, message=FALSE, eval=TRUE}
+citation("estc")
+```
+
+## Session info
+
+This vignette was created with
+
+```{r sessioninfo, message=FALSE, warning=FALSE}
+sessionInfo()
+```

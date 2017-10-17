@@ -1,0 +1,12 @@
+pagecount.arabic_accepted.csv
+pagecount.from.ecco_accepted.csv
+pagecount.multiplier_accepted.csv
+pagecount.plate_accepted.csv
+pagecount.roman_accepted.csv
+pagecount.sheet_accepted.csv
+pagecount.squarebracket_accepted.csv
+id_accepted.csv
+title_*.csv
+*conversion*.csv
+missinggeocoordinates.csv
+author_age_accepted.csv

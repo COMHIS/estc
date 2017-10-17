@@ -1,0 +1,19 @@
+# For more, see http://docs.travis-ci.com/user/languages/r/
+
+language: r
+sudo: true
+notifications:
+  email:
+      - leo.lahti@iki.fi
+      
+warnings_are_errors: false
+r_binary_packages:
+  - testthat
+
+# Install the bleeding edge version of a package from github (eg to pick
+# up a not-yet-released bugfix)
+r_github_packages:
+ - hadley/httr
+ - ropengov/bibliographica
+
+ 

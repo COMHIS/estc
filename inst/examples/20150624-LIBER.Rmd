@@ -1,0 +1,236 @@
+
+mc <- df[unique(c(grep("Magna", df$publication.title),grep("Carta", df$publication.title), grep("Chart", df$publication.title))),]
+
+
+```{r 20150624LIBER-1, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=6}
+library(ggplot2)
+library(dplyr)
+theme_set(theme_bw(50))
+selected.authors <- c("prynne, william (1600-1669)", "defoe, daniel (1661-1731)", "hume, david (1711-1776)", "hume, david (1560-1630)")
+top <- names(rev(sort(table(df$author.unique))))[1:20]
+top <- c(top, "hume, david (1560-1630)")
+top <- setdiff(top, "caesar, julius (-100- -44)")
+dfs <- filter(df, author.unique %in% top)
+p <- top_plot(dfs, "author.unique", ntop = 30, highlight = selected.authors)
+p <- p + guides(fill = "none")
+p <- p + ylab("Title count")
+p <- p + scale_fill_manual(values = c("darkgray", "red"))
+print(p)
+```
+
+```{r 20150624LIBER-2, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=7}
+theme_set(theme_bw(20))
+dfa <- dfs[, c("author.name", "author.unique", "author.birth", "author.death")]
+dfa <- dfa[!duplicated(dfa), ]
+#dfa <- dfa[match(names(a), dfa$author.name),]
+dfa <- arrange(dfa, author.birth)
+# Order authors by birth year
+dfa$author.name <- factor(dfa$author.name, levels = dfa$author.name)
+dfa$index <- sample(factor(1:nrow(dfa)))
+dfa$fill <- rep("black", nrow(dfa))
+dfa$fill[dfa$author.unique %in% selected.authors] <- "red"
+
+p <- ggplot(dfa)
+p <- p + geom_segment(aes(y = author.name, yend = author.name, x = author.birth, xend = author.death, color = fill), size = 2) 
+p <- p + theme(axis.text.y = element_text(size = 14))
+p <- p + xlab("Author life span (year)") + ylab("")
+p <- p + guides(color = FALSE)
+p <- p + scale_color_manual(values = c("darkgray", "red"))
+print(p)
+```
+
+
+```{r 20150624LIBER-3, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=10}
+theme_set(theme_bw(20))
+dfs <- df %>%
+         filter(author.unique %in% selected.authors) %>%
+	 group_by(author.unique, publication.year) %>%
+	 tally() %>%
+	 arrange(publication.year)
+theme_set(theme_bw(20))
+
+# Barplot version
+p2 <- ggplot(dfs, aes(x = publication.year, y = n, fill = author.unique)) +
+       geom_bar(stat = "identity", position = "stack") +
+       xlab("Publication Year") +
+       ylab("Title Count")       
+p2
+```
+
+
+```{r 20150624LIBER-3b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=7, fig.width=7}
+library(tidyr)
+dfs <- df
+dfs$gatherings <- dfs$document.dimension.gatherings.estimated
+dfs$gatherings <- gsub("2long", "folio", dfs$gatherings)
+dfs$gatherings <- gsub("2to", "folio", dfs$gatherings)
+dfs$gatherings <- gsub("2small", "folio", dfs$gatherings)
+dfs$gatherings <- gsub("8to", "octavo", dfs$gatherings)
+
+top <- names(rev(sort(table(df$author.unique))))[1:20]
+top <- c(top, "hume, david (1560-1630)")
+top <- setdiff(top, "caesar, julius (-100- -44)")
+
+dfs <- dfs %>%
+         filter(author.unique %in% top &
+	        gatherings %in% c("folio", "octavo")) %>%
+	 group_by(author.unique, gatherings) %>%
+	 tally() %>%
+	 spread(gatherings, n)
+dfs$highlight <- dfs$author.unique %in% c(selected.authors, "burke, edmund (1729-1797)")
+dfs[is.na(dfs)] <- 0
+dfs[dfs$author.unique == "hume, david (1560-1630)","highlight"] <- FALSE
+dfs$size <- 2 + 1*as.numeric(dfs$highlight)
+
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = folio, y = octavo)) +
+       geom_text(aes(label = author.unique, color = highlight, size = size)) +       
+       xlab("Folio") + ylab("Octavo") +
+       guides(color = "none", size = "none") + 
+       scale_color_manual(values = c("darkgray", "red")) +
+       xlim(-12,max(dfs$folio) + 8) +
+       scale_size(range = c(4,7))       
+print(p)
+
+theme_set(theme_bw(11))
+p <- ggplot(dfs, aes(x = publication.year, y = n)) +
+       geom_bar(stat = "identity") +
+       facet_grid(author.unique ~ .) 
+print(p)	 
+
+```
+
+
+```{r 20150624LIBER-4, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=6}
+theme_set(theme_bw(20))
+dfs <- df %>% group_by(author.unique) %>% summarize(titles = n(), paper = sum(paper, na.rm = T))
+dfs$highlight <- rep("darkgray", nrow(dfs))
+dfs$highlight[dfs$author.unique %in% selected.authors] <- "red"
+dfs <- dfs %>% filter(as.character(author.unique) %in% top)
+p <- ggplot(dfs, aes(x = titles, y = paper, color = highlight)) +
+       geom_text(aes(label = author.unique)) +
+       scale_color_manual(values = c("darkgray", "red")) +
+       #scale_x_log10() + scale_y_log10() +
+       guides(color = "none") +
+       xlim(c(-35, 180)) +
+       xlab("Title Count") +
+       ylab("Paper consumption")
+       
+print(p)	 
+```
+
+
+
+
+```{r 20150624LIBER-5, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=5}
+theme_set(theme_bw(20))
+dfs <- df %>% filter(author.gender == "female")
+dfs <- dfs[-c(grep("jean", dfs$author.unique), grep("pierre", dfs$author.unique)),]
+p <- top_plot(dfs, "author.unique", ntop = 20)
+p <- p + scale_fill_manual(values = "black")
+p <- p + guides(fill = "none")
+p <- p + ylab("Title Count")
+print(p)	 
+```
+
+
+
+```{r 20150624LIBER-6, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=5}
+theme_set(theme_bw(20))
+p <- top_plot(df, "publication.place", ntop = 20)
+p <- p + scale_fill_manual(values = "black")
+p <- p + guides(fill = "none")
+p <- p + ylab("Title Count")
+p <- p + scale_y_log10()
+print(p)	 
+```
+
+
+
+```{r 20150624LIBER-7, echo=FALSE, message=FALSE, cache=FALSE, fig.height=5, fig.width=8}
+dfs <- df %>% filter(publication.country == "Scotland")
+p <- top_plot(dfs, "author.unique", ntop = 20, highlight = selected.authors)
+p <- p + scale_fill_manual(values = c("darkgray", "red"))
+p <- p + ylab("Title count")
+p <- p + guides(fill = "none")
+print(p)
+```
+
+
+```{r 20150624LIBER-8, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=8}
+theme_set(theme_bw(20))
+top <- names(rev(sort(table(df$publication.place))))[1:50]
+#dfs <- df %>% filter(publication.place %in% top) %>% group_by(publication.place) %>% summarize(titles = n(), paper = sum(paper, na.rm = T))
+#dfs <- dfs %>% filter(as.character(author.unique) %in% top)
+#p <- ggplot(dfs, aes(x = log10(titles), y = log10(paper), color = country)) +
+#       geom_text(aes(label = publication.place, color = country), size = 5)
+
+theme_set(theme_bw(20))
+top <- names(rev(sort(table(df$publication.place))))[1:50]
+dfs <- df %>% filter(publication.place %in% top) %>% group_by(publication.place) %>% summarize(titles = n(), paper = sum(paper, na.rm = T))
+dfs$country <- get_country(dfs$publication.place)$country
+#dfs <- dfs %>% filter(as.character(author.unique) %in% top)
+p <- ggplot(dfs, aes(x = log10(titles), y = log10(paper))) +
+       geom_text(aes(label = publication.place, color = country), size = 5) +
+       xlim(c(1.2, log10(max(na.omit(dfs$titles[!is.infinite(dfs$titles)])))))
+       xlab("Title Count") +
+       ylab("Paper consumption")
+       
+print(p)	 
+```
+
+
+
+```{r 20150624LIBER-9, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+dfs <- df %>%
+         filter(subject.topic == "Broadsides") %>%
+	 group_by(publication.year) %>%
+	 tally() %>%
+	 arrange(publication.year)
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = publication.year, y = n)) +
+       geom_point() +
+       geom_line() +       
+       xlab("Publication Year") +
+       ylab("Title Count")
+print(p)	 
+```
+
+
+
+```{r 20150624LIBER-10a, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=7}
+library(sorvi)
+dfs <- df %>% group_by(publication.year) %>%
+         summarize(titles = n(), paper = sum(paper, na.rm = T))
+	 
+p1 <- regression_plot(titles ~ publication.year, data = dfs)
+p1 <- p1 + xlab("Publication Year") + ylab("Title Count") 
+p1 <- p1 + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15))
+p1 <- p1 + theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+print(p1)
+```
+
+```{r 20150624LIBER-10b, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=7}
+p2 <- regression_plot(paper ~ publication.year, data = dfs) +
+       xlab("Publication Year") +
+       ylab("Paper Consumption") 
+p2 <- p2 + theme(axis.text.x = element_text(size = 15), axis.text.y = element_text(size = 15))
+p2 <- p2 + theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+
+print(p2)
+```
+
+
+```{r 20150624LIBER-11, echo=FALSE, message=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+theme_set(theme_bw(20))
+library(sorvi)
+dfs <- df %>% group_by(publication.year) %>%
+         summarize(paper.per.doc = mean(paper, na.rm = T))
+
+p <- ggplot(dfs, aes(y = paper.per.doc, x = publication.year)) +
+       geom_line() + geom_point() +
+       #geom_bar(stat = "identity") +
+       xlab("Publication Year") + ylab("Paper per document")
+       
+print(p)
+```

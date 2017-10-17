@@ -1,0 +1,42 @@
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = paper))
+p <- p + geom_histogram()
+p <- p + scale_x_log10()
+p <- p + ggtitle("Paper consumption per document")
+p <- p + xlab("Paper consumption")
+p <- p + ylab("Frequency")
+#print(p)
+
+
+# There is a problem with plyr apparently, the gather function works properly only after
+# restarting R
+library(tidyr)
+df2 <- gather(mean.pagecounts.multivol, variable, value, 2:3)
+df2$variable <- gsub("mean.pages.multivol", "mean.multi", df2$variable)
+df2$variable <- gsub("median.pages.multivol", "median.multi", df2$variable)
+df2$variable <- factor(df2$variable)
+colnames(df2) <- c("size", "n", "variable", "value")
+df3 <- gather(mean.pagecounts.univol, variable, value, 2:3)
+df3$variable <- gsub("mean.pages.singlevol", "mean.single", df3$variable)
+df3$variable <- gsub("median.pages.singlevol", "median.single", df3$variable)
+df3$variable <- factor(df3$variable)
+colnames(df3) <- c("size", "n", "variable", "value")
+
+df4 <- gather(mean.pagecounts.issue, variable, value, 2:3)
+df4$variable <- gsub("mean.pages.issue", "mean.issue", df4$variable)
+df4$variable <- gsub("median.pages.issue", "median.issue", df4$variable)
+df4$variable <- factor(df4$variable)
+colnames(df4) <- c("size", "n", "variable", "value")
+
+dff <- bind_rows(df2, df3, df4)
+dff$size <- factor(dff$size)
+
+theme_set(theme_bw(20))
+p <- ggplot(dff, aes(x = size, y = value, fill = variable))
+p <- p + geom_bar(stat = "identity", position = "dodge")
+p <- p + ggtitle("Estimated mean and median page counts")
+p <- p + xlab("Document size (gatherings)")
+p <- p + ylab("Pages")
+#p <- p + scale_y_log10()
+p <- p + coord_flip()
+print(p)

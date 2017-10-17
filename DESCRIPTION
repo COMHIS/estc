@@ -1,0 +1,31 @@
+Package: estc
+Type: Package
+Title: English Short Title Catalogue (ESTC) Metadata Toolkit
+Version: 0.1.46
+Authors@R: c(
+    person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
+    person("Ilomaki", "Niko" , role = "ctb"),
+    person("Koistinen", "Mika" , role = "ctb"),    
+    person("Tolonen", "Mikko", role = "aut"))
+MailingList: rOpenGov <ropengov-forum@googlegroups.com>
+Description: Algorithms for British Library ESTC data collection.
+License: GPL-3 + file LICENSE
+VignetteBuilder: knitr
+Encoding: UTF-8
+BugReports: https://github.com/ropengov/estc/issues
+URL: http://ropengov.github.com/estc
+Depends:
+    R (>= 3.0.2),
+    bibliographica,    
+    stringr
+Imports:
+    ggplot2,
+    dplyr,
+    rjson,    
+    utils,
+    stats
+Suggests:
+    knitr,
+    rmarkdown
+LazyLoad: yes
+RoxygenNote: 6.0.1
