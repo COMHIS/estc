@@ -1,5 +1,8 @@
 .RData
 .Rproj.user
+.Rbuildignore
+.Rhistory
+estc.Rproj
 *Rcheck*
 inst/extras
 inst/extras/..Rcheck
@@ -19,4 +22,7 @@ inst/examples/*.Rproj
 
 inst/examples/Scotland.R
 inst/examples/tmp.R
-.Rhistory
+
+inst/examples/ecco2.json.gz
+inst/examples/output.tables.history
+inst/examples/output.tables

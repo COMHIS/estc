@@ -1,5 +1,6 @@
 Name	Count
-Total count: 	18891
-ambiguous	17421
-male	 1362
-female	  108
+Total count (na.rm TRUE): 	142194
+ambiguous	119231
+male	 15289
+	  5846
+female	  1828
