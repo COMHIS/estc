@@ -90,6 +90,9 @@ set_expect_person_flag <- function(current_token_type, prev_token_type, old_valu
     return(TRUE)
   } else if (current_token_type == "person_title") {
     return(TRUE)
+  # addition
+  } else if (current_token_type == "initial") {
+    return(TRUE)
   } else if (old_value == FALSE & current_token_type == "comma") {
     return(TRUE)
   } else {
@@ -109,7 +112,7 @@ set_accept_roles_flag <- function(current_token_type, prev_token_type, actor_tok
 }
 
 
-get_next_actor <- function(target_tokens, stop_on_verb = FALSE, accept_roles = TRUE) {
+get_next_actor <- function(target_tokens, stop_on_verb = FALSE, accept_roles = TRUE, actors_found = FALSE) {
   actor_tokens <- list()
   tokens_processed <- 0
   accept_initials <- TRUE
@@ -141,6 +144,14 @@ get_next_actor <- function(target_tokens, stop_on_verb = FALSE, accept_roles = T
       if (current_token$type == "verb" |
           # current_token$type == "location_prefix" |
           current_token$type == "person_prefix") {
+        tokens_processed <- tokens_processed - 1
+        break
+      }
+    }
+    
+    # handle "sold at"
+    if (!actors_found) {
+      if (current_token$token == "at") {
         tokens_processed <- tokens_processed - 1
         break
       }
@@ -272,7 +283,8 @@ loc_eval_end_subpart <- function(token) {
   if (type == "comma" |
       type == "ender" |
       type == "person_prefix" |
-      type == "location_prefix" ) {
+      type == "location_prefix" |
+      type == "initial") {
     return(TRUE)
   }
   return(FALSE)
@@ -288,7 +300,12 @@ loc_eval_search_complete <- function(token, prev_token, found_locations_n) {
   if (type == "joiner" & prev_type == "comma" & found_locations_n > 0) {
     return(TRUE)
   }
-  if (type == "initial" & prev_type == "comma" & found_locations_n > 0) {
+  # was:
+  # if (type == "initial" & prev_type == "comma" & found_locations_n > 0) {
+  if (type == "initial" & found_locations_n > 0) {
+    return(TRUE)
+  }
+  if (prev_type == "initial" & found_locations_n > 0) {
     return(TRUE)
   }
   if (type == "person_role" & found_locations_n > 0) {
@@ -315,11 +332,28 @@ loc_eval_add_token_strong <- function(token, is_first_token) {
 
 loc_eval_add_token_weak <- function(token) {
   type <- token$type
+  # joiner = & and
   if (type == "joiner" |
       type == "other") {
     return(TRUE)
   }
   return(FALSE)
+}
+
+
+get_placename_candidate_string <- function(placename_candidate_tokens) {
+  placename_candidate_string <- ""
+  if (length(placename_candidate_tokens) == 0) {
+    return(placename_candidate_string)
+  }
+  # if last token in placename candidate is joiner (& and), remove it
+  if (placename_candidate_tokens[[length(placename_candidate_tokens)]]$type == "joiner") {
+    placename_candidate_tokens <- placename_candidate_tokens[1:(length(placename_candidate_tokens) - 1)]
+  }
+  for (token in placename_candidate_tokens) {
+    placename_candidate_string <- trimws(paste(placename_candidate_string, token$token, collapse = " "))
+  }
+  return(placename_candidate_string)
 }
 
 
@@ -330,7 +364,8 @@ get_next_location <- function(target_tokens, locations_accepted) {
 
   prefix_string <- ""
   prefix_string_final <- NA
-  placename_candidate <- ""
+  # placename_candidate <- ""
+  placename_candidate_tokens <- list()
   found_locations <- list()
   expect_location_flag <- FALSE
   first_token_index <- integer()
@@ -360,14 +395,15 @@ get_next_location <- function(target_tokens, locations_accepted) {
     # --- SAVING ---
     # if parsing for location part complete: evaluate, (add) and reset candidate
     if (end_subpart_flag | search_complete_flag) {
-      if (evaluate_location(placename_candidate, locations_accepted) |
-          prev_expect_location_flag) {
+      placename_candidate <- get_placename_candidate_string(placename_candidate_tokens)
+      if (evaluate_location(placename_candidate, locations_accepted) | prev_expect_location_flag) {
         if (nchar(placename_candidate) > 0) {
           found_locations[[length(found_locations) + 1]] <- placename_candidate
           first_token_index[length(first_token_index) + 1] <- first_token_index_candidate
         }
       }
-      placename_candidate <- ""
+      # placename_candidate <- ""
+      placename_candidate_tokens <- list()
     }
     
     # --- FLOW CONTROL ---
@@ -384,7 +420,8 @@ get_next_location <- function(target_tokens, locations_accepted) {
     # --- LOCATION STRING --- 
     # if add_token_strong set, add token to candidate
     if (add_token_strong_flag) {
-      placename_candidate <- trimws(paste(placename_candidate, current_token$token, collapse = " "))
+      placename_candidate_tokens[[length(placename_candidate_tokens) + 1]] <- current_token
+      # placename_candidate <- trimws(paste(placename_candidate, current_token$token, collapse = " "))
       if (is_first_token) {
         first_token_index_candidate <- current_token$order
         is_first_token <- FALSE
@@ -392,7 +429,8 @@ get_next_location <- function(target_tokens, locations_accepted) {
     }
     # add weak tokens if expect location set
     if (add_token_weak_flag & expect_location_flag) {
-      placename_candidate <- trimws(paste(placename_candidate, current_token$token, collapse = " "))
+      placename_candidate_tokens[[length(placename_candidate_tokens) + 1]] <- current_token
+      # placename_candidate <- trimws(paste(placename_candidate, current_token$token, collapse = " "))
       if (is_first_token) {
         first_token_index_candidate <- current_token$order
         is_first_token <- FALSE
@@ -402,7 +440,9 @@ get_next_location <- function(target_tokens, locations_accepted) {
   
   # everything finished. check if there is something left in placename_candidate
   # check if it validates, if yes, save
-  if (nchar(placename_candidate) > 0) {
+  # if (nchar(placename_candidate) > 0) {
+  if (length(placename_candidate_tokens) > 0) {
+    placename_candidate <- get_placename_candidate_string(placename_candidate_tokens)
     if (evaluate_location(placename_candidate, locations_accepted) | expect_location_flag) {
       found_locations[[length(found_locations) + 1]] <- placename_candidate
       first_token_index[length(first_token_index) + 1] <- first_token_index_candidate
@@ -411,7 +451,6 @@ get_next_location <- function(target_tokens, locations_accepted) {
 
   prefix_string_final <- prefix_string
   locations_string <- paste(found_locations, collapse = " @@ ", sep = " @@ ")
-  
   return(list('prefix_string' = prefix_string_final, 'locations_string' = locations_string, 'location_index' = first_token_index))
 }
 
@@ -479,13 +518,17 @@ get_all_actors <- function(target_tokens, locations_accepted) {
   actors <- list()
   accept_person_roles <- TRUE
   finished <- FALSE
+  actors_found <- FALSE
   
   tokens_to_search <- target_tokens
   stop_on_verb <- FALSE
 
   while (!finished) {
     # print(tokens_to_search)
-    next_actor <- get_next_actor(tokens_to_search, stop_on_verb, accept_person_roles)
+    next_actor <- get_next_actor(tokens_to_search, stop_on_verb, accept_person_roles, actors_found)
+    # this is to work the cases with "sold at" etc. where the first actor needs to be a blank one
+    # to catch the whole target string for location detection
+    actors_found <- TRUE
     # returns:
     # return(list('target_tokens' = new_target_tokens, 'actor_string' = actor_token_text))
     # either or both can be NA'
@@ -498,9 +541,7 @@ get_all_actors <- function(target_tokens, locations_accepted) {
     }
     # if no actor is found, finish the loop
     if (is.na(next_actor$actor_string)) {
-      # print("no actor string")
       if (length(actors) == 0) {
-        # print("1")
         actors[[1]] <- list()
         actors[[1]]$actor_string <- NA
         actors[[1]]$target_tokens <- target_tokens
@@ -508,7 +549,6 @@ get_all_actors <- function(target_tokens, locations_accepted) {
         finished <- TRUE
       }
       if (length(actors) > 0) {
-        # print("2")
         finished <- TRUE
       }
     # save found actor
@@ -518,6 +558,7 @@ get_all_actors <- function(target_tokens, locations_accepted) {
       tokens_to_search <- next_actor$target_tokens
       stop_on_verb <- TRUE
       accept_person_roles <- FALSE
+      actors_found <- TRUE
     }
   }
   return(actors)  

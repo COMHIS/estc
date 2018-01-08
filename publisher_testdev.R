@@ -10,7 +10,7 @@ fullstop_keeplist <- as.character(read.csv("inst/extdata/tokens_keep_fullstop.cs
 
 publisher_strings <- as.character((readRDS(file = "~/projects/comhis/data-output-temp/testdata_estc.RDS"))$publisher)
 # pubdata <- readRDS(file = "~/projects/comhis/data-output-temp/testdata_estc.RDS")
-
+# sold_at_set <- estc_df[grepl("sold at", estc_df$publisher), ]$publisher
 
 test_pub_string <- function(publisher_string, reload_funcs = TRUE) {
   if (reload_funcs) {
@@ -80,18 +80,18 @@ publisher_string <- "printed for M. Cooper, at the Globe, in Pater noster Row"
 publisher_string <- "Printed by T. Bensley, London"
 # location filtering bug
 publisher_string <- "printed for J. Lackington, Chiswell street, Finsbury square, Moorfields"
+# location not detected correctly
+publisher_string <- "Sold at no. 3. Moors-court-catharine, Wheel alley [sic], White chapel"
+# location not detected correctly 3
+publisher_string <- "printed by S. Powell, for G. and A. Ewing, and W. Smith, in Dame-Street and G. Faulkner, in Essex-Street, Booksellers"
 
 
 # not working:
 
 # Son
 publisher_string <- "printed for T. Longman, B. Law and Son, H. Baldwin, C. Dilly, G. G. and J. Robinson, T. Cadell, J. Nichols, F. and C. Rivington, W. Goldsmith, H. Murray, W. Otridge, W. Lowndes, S. Hayes, R. Faulder, G. and T. Wilkie, P. Macqueen, B. Collins, Hookham and Carpenter, Darton and Harvey, Vernor and Hood, Cadell jun. and Davies, and R. Jameson"
-# location not detected correctly 3
-publisher_string <- "printed by S. Powell, for G. and A. Ewing, and W. Smith, in Dame-Street and G. Faulkner, in Essex-Street, Booksellers"
 # location not detected correctly 2
 publisher_string <- "printed for D. Browne, without Temple-Bar A. Millar, in the Strand J. Whiston and B. White, in Fleet-Street R. and J. Dodsley, in Pall-Mall and W. Sandby, in Fleet-Street"
-# location not detected correctly
-publisher_string <- "Sold at no. 3. Moors-court-catharine, Wheel alley [sic], White chapel"
 # bug with location detection: St. Paul's Church-Yard Deighton
 publisher_string <- "printed by T. Bloom; and sold by J. Johnson, St. Paul's Church-Yard J. Deighton, Holborn, London; and by the booksellers in Cambridge, Oxford and Canterbury"
 # [location] printed
@@ -103,6 +103,9 @@ publisher_string <- "Printed for T. Lowndes, in Fleet-street; T. Davies, in Russ
 # assigns of x
 publisher_string <- "In the Savoy: printed by Eliz. Nutt and R. Gosling, (assigns of Edw. Sayer, Esq;) for J. Walthoe, R. Gosling, W. Innys, J. Osborn and T. Longman, J. Hooke, B. Williamson, A. Ward, D. Browne, and T. Osborn"
 
+
+publisher_string <- "printed by David Paterson, and sold by him at his printing-office, lawn-market; and by the booksellers"
+publisher_string <- "printed by W. Wilkins, at the Dolphin in Little-Britain"
 
 # -----------------------
 # method 2
