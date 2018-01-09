@@ -1,16 +1,13 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2017-10-08"
+date: "2018-01-09"
 output: markdown_document
 ---
 
 # Preprocessing summary
 
-The data spanning years 1460-1800 has been
-included and contains 480208 documents (also other
-filter may apply depending on the data collection, see the source code
-for details.
+The data spanning years 1473-1800 has been included and contains 480208 documents (also other filter may apply depending on the data collection, see the source code for details.
 
 
 
@@ -27,9 +24,6 @@ for details.
   * [Document and subject topics](topic.md)
   * [Languages](language.md)
 
-## Field conversions
-
-This documents the conversions from raw data to the final preprocessed version (accepted, discarded, conversions). Only some of the key tables are explicitly linked below. The complete list of all summary tables is [here](output.tables/).
 
 ## Annotated documents
 
@@ -153,11 +147,21 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |issue                                |         0.0|         100.0|        480208|          2|
 
 ```
-##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   4593098  245.3   12002346  641.0  12002346  641.0
-## Vcells 170268236 1299.1  373533796 2849.9 373322216 2848.3
+##             used  (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   3968893 212.0    9968622  532.4   9968622  532.4
+## Vcells 123947478 945.7  305561775 2331.3 305474759 2330.6
 ```
 
+
+## Field conversions
+
+This documents the conversions from raw data to the final preprocessed version (accepted, discarded, conversions). Only some of the key tables are explicitly linked below. The complete list of all summary tables is [here](output.tables/).
+
+Brief description of the fields:
+
+ * [Description of the original MARC fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldnames.csv)
+
+ * [Description of the preprocessed fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldnames_polished.csv)
 
 
 ## Histograms of all entries for numeric variables

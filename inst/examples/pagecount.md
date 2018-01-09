@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti"
-date: "2017-10-08"
+date: "2018-01-09"
 output: markdown_document
 ---
 
@@ -72,18 +72,7 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 Note: there are 10931 documents that have some dimension info but sheet area information could not be calculated. 
 
-
-```
-## Error in regression_plot(paper ~ publication_year, df2): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)
-
-```
-## Error in regression_plot(n ~ publication_year, df2): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
 ![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
 
