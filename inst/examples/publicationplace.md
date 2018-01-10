@@ -1,6 +1,6 @@
 ---
 title: "Publication place preprocessing summary"
-author: "Leo Lahti"
+author: "Leo Lahti / Computational History Group"
 date: "2018-01-10"
 output: markdown_document
 ---
@@ -9,7 +9,8 @@ output: markdown_document
 
  * 1023 [publication places](output.tables/publication_place_accepted.csv); available for 477489 documents (99%). 
  * 54 [publication countries](output.tables/country_accepted.csv); available for 477488 documents (99%).
- * 91.4% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``8.58``% of the documents have missing geocoordinates.
+ * 91.4% of the documents were matched to geographic coordinates (based on [Geonames](http://download.geonames.org/export/dump/)).
+ * 834 unique places (81.5% of all unique places) are missing geocoordinates. See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether 8.58% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv); some of these can be possibly resolved by checking that the the [synonyme list](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) does not contain multiple versions of the final name (case sensitive). 
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first). NOTE: possible improvements should not be done in this output summary but instead in the [country mapping file](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv).

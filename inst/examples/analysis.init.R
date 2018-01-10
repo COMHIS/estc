@@ -11,10 +11,10 @@ library(reshape2)
 library(gridExtra)
 library(knitr)
 library(magrittr)
-#load_all("~/Rpackages/bibliographica")
+# load_all("~/Rpackages/bibliographica")
 
 # Set global parameters
-author <- "Leo Lahti"
+author <- "Leo Lahti / Computational History Group"
 ntop <- 20
 timespan <- c(1460, 1800)
 datafile.preprocessed <- "df.Rds"

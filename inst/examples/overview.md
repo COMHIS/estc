@@ -1,6 +1,6 @@
 ---
 title: "Preprocessing overview"
-author: "Leo Lahti"
+author: "Leo Lahti / Computational History Group"
 date: "2018-01-10"
 output: markdown_document
 ---
@@ -147,9 +147,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |issue                                |         0.0|         100.0|        480208|          2|
 
 ```
-##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   4496090  240.2   12002346  641.0  12002346  641.0
-## Vcells 167926408 1281.2  373539795 2849.9 373522497 2849.8
+##             used  (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   3968892 212.0    9968622  532.4   9968622  532.4
+## Vcells 123947488 945.7  305561828 2331.3 305474769 2330.6
 ```
 
 
