@@ -147,9 +147,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |issue                                |         0.0|         100.0|        480208|          2|
 
 ```
-##             used  (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   3968713 212.0    9968622  532.4   9968622  532.4
-## Vcells 123947325 945.7  305561828 2331.3 305474606 2330.6
+##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   6447608  344.4   14442815  771.4  14442815  771.4
+## Vcells 202748363 1546.9  440185031 3358.4 440184949 3358.4
 ```
 
 
