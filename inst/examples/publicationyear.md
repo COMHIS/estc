@@ -55,15 +55,6 @@ years.  The earliest occurrence is suggested as the first edition.
 
 This figure shows the number of first editions per decade.
 
-
-```
-## Error in match.names(clabs, names(xi)): names do not match previous names
-```
-
-```
-## Error in FUN(X[[i]], ...): object 'variable' not found
-```
-
 ![plot of chunk firsteditions](figure/firsteditions-1.png)
 
 
