@@ -1,4 +1,14 @@
 
+clean_publisher_datastring_brackets <- function(publisher_data_string) {
+  publisher_data_string <- gsub("(\\()([1-9])", " no\\. \\2", publisher_data_string)
+  publisher_data_string <- gsub("([1-9])(\\))", "\\1, ", publisher_data_string)
+  publisher_data_string <- gsub("\\(", ", ", publisher_data_string)
+  publisher_data_string <- gsub("\\)", ", ", publisher_data_string)
+  publisher_data_string <- gsub(", *,", ", ", publisher_data_string)
+  publisher_data_string <- gsub(", *$", "", publisher_data_string)
+  return(publisher_data_string)
+}
+
 
 clean_publisher_datastring <- function(publisher_data_string) {
   publisher_data_string <- gsub("\\[sic\\]", "", publisher_data_string)
@@ -7,6 +17,9 @@ clean_publisher_datastring <- function(publisher_data_string) {
   publisher_data_string <- gsub("\\b([A-Z])\\[([a-z]+)\\]\\. ", "\\1\\2 ", publisher_data_string, ignore.case = FALSE)
   publisher_data_string <- gsub("\\[", "", publisher_data_string)
   publisher_data_string <- gsub("\\]", "", publisher_data_string)
+  
+  # brackets
+  publisher_data_string <- clean_publisher_datastring_brackets(publisher_data_string)
   
   # printed
   publisher_data_string <- gsub("printen ", "printed ", publisher_data_string, ignore.case = TRUE)

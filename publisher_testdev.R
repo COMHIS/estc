@@ -3,21 +3,24 @@ load_all()
 
 source("get_publisher_functions.R")
 source("get_publisher_tokens_functions.R")
-locations_accepted <- read.csv("inst/extdata/publisher_locations.csv",
-                               header = TRUE, stringsAsFactors = FALSE)$location
+# locations_accepted <- read.csv("inst/extdata/publisher_locations.csv",
+#                                header = TRUE, stringsAsFactors = FALSE)$location
+publisher_location_table <- read.csv("inst/extdata/publisher_locations.csv", header = TRUE, stringsAsFactors = FALSE)
 tokentype_data <- read.csv("inst/extdata/tokentype_data.csv", header = TRUE, stringsAsFactors = FALSE)
 fullstop_keeplist <- as.character(read.csv("inst/extdata/tokens_keep_fullstop.csv")$tokens)
 
 publisher_strings <- as.character((readRDS(file = "~/projects/comhis/data-output-temp/testdata_estc.RDS"))$publisher)
 # pubdata <- readRDS(file = "~/projects/comhis/data-output-temp/testdata_estc.RDS")
 # sold_at_set <- estc_df[grepl("sold at", estc_df$publisher), ]$publisher
+# estc_df <- readRDS(file = "~/projects/comhis/data-output-temp/testdata_estc.RDS")
 
 test_pub_string <- function(publisher_string, reload_funcs = TRUE) {
   if (reload_funcs) {
     source("get_publisher_functions.R")
     source("get_publisher_tokens_functions.R")
-    locations_accepted <- read.csv("inst/extdata/publisher_locations.csv",
-                                   header = TRUE, stringsAsFactors = FALSE)$location
+    # locations_accepted <- read.csv("inst/extdata/publisher_locations.csv",
+    #                                header = TRUE, stringsAsFactors = FALSE)$location
+    publisher_location_table <- read.csv("inst/extdata/publisher_locations.csv", header = TRUE, stringsAsFactors = FALSE)
     tokentype_data <- read.csv("inst/extdata/tokentype_data.csv", header = TRUE, stringsAsFactors = FALSE)
     fullstop_keeplist <- as.character(read.csv("inst/extdata/tokens_keep_fullstop.csv")$tokens)
   }
@@ -25,8 +28,8 @@ test_pub_string <- function(publisher_string, reload_funcs = TRUE) {
   tokens <- tokenize_publisher_string(cleaned_publisher_string, fullstop_keeplist)
   print(tokens)
   tokens_and_types <- get_tokens_types(tokens, tokentype_data)
-  verbs <- get_verbs(tokens_and_types)
-  verbs_final <- add_verbs_actors(verbs, locations_accepted)
+  verbs <- get_verbs(tokens_and_types, publisher_location_table)
+  verbs_final <- add_verbs_actors(verbs, publisher_location_table)
   verbs_final_filtered <- filter_pubdata_actors(verbs_final)
   verbs_df <- get_verbs_df(verbs_final_filtered, publisher_string)
   View(verbs_df)
@@ -84,28 +87,41 @@ publisher_string <- "printed for J. Lackington, Chiswell street, Finsbury square
 publisher_string <- "Sold at no. 3. Moors-court-catharine, Wheel alley [sic], White chapel"
 # location not detected correctly 3
 publisher_string <- "printed by S. Powell, for G. and A. Ewing, and W. Smith, in Dame-Street and G. Faulkner, in Essex-Street, Booksellers"
-
-
-# not working:
-
-# Son
-publisher_string <- "printed for T. Longman, B. Law and Son, H. Baldwin, C. Dilly, G. G. and J. Robinson, T. Cadell, J. Nichols, F. and C. Rivington, W. Goldsmith, H. Murray, W. Otridge, W. Lowndes, S. Hayes, R. Faulder, G. and T. Wilkie, P. Macqueen, B. Collins, Hookham and Carpenter, Darton and Harvey, Vernor and Hood, Cadell jun. and Davies, and R. Jameson"
 # location not detected correctly 2
 publisher_string <- "printed for D. Browne, without Temple-Bar A. Millar, in the Strand J. Whiston and B. White, in Fleet-Street R. and J. Dodsley, in Pall-Mall and W. Sandby, in Fleet-Street"
 # bug with location detection: St. Paul's Church-Yard Deighton
 publisher_string <- "printed by T. Bloom; and sold by J. Johnson, St. Paul's Church-Yard J. Deighton, Holborn, London; and by the booksellers in Cambridge, Oxford and Canterbury"
+publisher_string <- "printed by W. Wilkins, at the Dolphin in Little-Britain"
+publisher_string <- "printed by David Paterson, and sold by him at his printing-office, lawn-market; and by the booksellers"
 # [location] printed
 publisher_string <- "Dublin printed: London reprinted, and sold by T. Cooper; and A. Dodd"
+publisher_string <- "Dublin printed. London: re-printed for A. Moore"
+publisher_string <- "London printed, and Dublin re-printed for James Kelburn"
 # successor to x
 publisher_string <- "Printed for the author. And sold by J. Scatcherd and I. Whitaker, successor to E. Johnson, Ave-Mary-Lane"
+# successor to
+publisher_string <- "printed by H. Reynell, (successor to the late Mr. Towers,)"
+publisher_string <- "printed for F. Wingrave, successor to Mr. Nourse"
+publisher_string <- "printed for John Churchill (executor of Charles Churchill) and William Flexney"
+
+# test:
+# initial without dot
+publisher_string <- "printed for A. Millar, at Buchanan's Head, over-against St. Clement's Church in the Strand; and sold by J Roberts at the Oxford-Arms in Warwick-Lane"
+
+# not working:
+# Son
+publisher_string <- "printed for T. Longman, B. Law and Son, H. Baldwin, C. Dilly, G. G. and J. Robinson, T. Cadell, J. Nichols, F. and C. Rivington, W. Goldsmith, H. Murray, W. Otridge, W. Lowndes, S. Hayes, R. Faulder, G. and T. Wilkie, P. Macqueen, B. Collins, Hookham and Carpenter, Darton and Harvey, Vernor and Hood, Cadell jun. and Davies, and R. Jameson"
+# [location] printed - also refers to person with same verb
+publisher_string <- "London printed for J. Tonson, 1706. Dublin: printed for M. Gunne, Bookseller in Essex-Street"
+# printed in [location] for
+publisher_string <- "London printed: and re-printed in Dublin, for G. Risk"
 # x and company
 publisher_string <- "Printed for T. Lowndes, in Fleet-street; T. Davies, in Russel-street, Covent-Garden; T. Becket and P.A. De Hondt, in the Strand; F. Newbery, at the Corner of Ludgate-street; and Mess. Carnan and Newbery, in St. Paul's Church Yard, London; W. Jackson, in Oxford; and A. Kincaid, and Company, in Edinburgh"
 # assigns of x
 publisher_string <- "In the Savoy: printed by Eliz. Nutt and R. Gosling, (assigns of Edw. Sayer, Esq;) for J. Walthoe, R. Gosling, W. Innys, J. Osborn and T. Longman, J. Hooke, B. Williamson, A. Ward, D. Browne, and T. Osborn"
+# lost token
+publisher_string <- "W. J[ones,] sold by ["
 
-
-publisher_string <- "printed by David Paterson, and sold by him at his printing-office, lawn-market; and by the booksellers"
-publisher_string <- "printed by W. Wilkins, at the Dolphin in Little-Britain"
 
 # -----------------------
 # method 2
@@ -126,8 +142,8 @@ print(tokens)
 tokens_and_types <- get_tokens_types(tokens, tokentype_data)
 print(tokens_and_types)
 
-verbs <- get_verbs(tokens_and_types)
-verbs_final <- add_verbs_actors(verbs, locations_accepted)
+verbs <- get_verbs(tokens_and_types, publisher_location_table)
+verbs_final <- add_verbs_actors(verbs, publisher_location_table)
 verbs_final_filtered <- filter_pubdata_actors(verbs_final)
 verbs_df <- get_verbs_df(verbs_final_filtered, publisher_string)
 View(verbs_df)
