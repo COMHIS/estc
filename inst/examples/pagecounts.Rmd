@@ -11,7 +11,7 @@ output: markdown_document
 ```{r ecco, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 # Compare page count info between ESTC and ECCO
 df <- df.preprocessed
-df.orig <- readRDS("df.raw.Rds")
+df.orig <- readRDS("data/unified/polished/df.raw.Rds")
 
 # Read ECCO dump
 ecco <- read_ecco(version = 2)

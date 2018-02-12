@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti / Computational History Group"
-date: "2018-01-10"
+date: "2018-02-12"
 output: markdown_document
 ---
 
@@ -12,13 +12,13 @@ output: markdown_document
 
   * Page count available for 479670 documents in total (99.9%), including both readily available and estimated page counts.
 
-  * Page count readily available for 460916 documents (96%). 
+  * Page count readily available for 460912 documents (96%). 
 
-  * Page count estimated for 18754 documents (3.9%).
+  * Page count estimated for 18758 documents (3.9%).
 
   * Page count missing and could not be estimated for 511 documents (0.1%).
 
-  * Page count updated for 5716 documents in the validation phase.
+  * Page count updated for 5722 documents in the validation phase.
   
   * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
@@ -55,11 +55,23 @@ count estimate.
 
 ### Document size distribution
 
-![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18754 documents that have missing pagecount info in the original data):
+```
+## Error in FUN(X[[i]], ...): object '.group' not found
+```
 
-<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18758 documents that have missing pagecount info in the original data):
+
+
+```
+## Error in grouped_indices_grouped_df_impl(.data): Column `pagecount` is unknown
+```
+
+```
+## Error in FUN(X[[i]], ...): object '.group' not found
+```
+
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
 
@@ -107,10 +119,20 @@ Gatherings height: does it change over time? How increased printing activity is 
 
 Page counts: does it change over time? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
 
-![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-4.png)
+
+```
+## Error in FUN(X[[i]], ...): object '.group' not found
+```
+
+![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)
 
 
 Same for documents that have a sufficient number of pages:
 
-![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-4.png)
+
+```
+## Error in FUN(X[[i]], ...): object '.group' not found
+```
+
+![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)
 

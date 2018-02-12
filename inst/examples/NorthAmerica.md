@@ -1,7 +1,7 @@
 ---
 title: "Summaries on North America"
 author: "Leo Lahti"
-date: "2018-01-10"
+date: "2018-02-12"
 output: markdown_document
 ---
 
@@ -14,10 +14,17 @@ Read the preprocessed ESTC data table and load tools:
 # Pick USA documents only
 sel.country <- "USA"
 df <- filter(df.preprocessed, country == sel.country)
+```
+
+```
+## Error in filter_impl(.data, quo): Evaluation error: object 'country' not found.
+```
+
+```r
 df$unity <- rep(1, nrow(df))
 ```
 
-We have 41246 documents from USA.
+We have 480208 documents from USA.
 
 
 ## Most common authors from USA

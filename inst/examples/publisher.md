@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti / Computational History Group"
-date: "2018-01-10"
+date: "2018-02-12"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 218423 [unique publishers](output.tables/publisher_accepted.csv)
+ * 187447 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 369502 documents have unambiguous publisher information (76.9%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 374461 documents have unambiguous publisher information (78%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
  * 0 documents are identified as self-published (0%). 
 
@@ -27,7 +27,7 @@ The 20 most common publishers are shown with the number of documents.
 
 Title count
 
-![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
+
 
 
 
@@ -35,18 +35,18 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                                                                                | titles|    paper|
-|:----------------------------------------------------------------------------------------|------:|--------:|
-|printed by Charles Eyre and Andrew Strahan                                               |    918|  8500292|
-|printed by Charles Eyre and William Strahan                                              |   1566| 11313322|
-|printed by George Eyre and Andrew Strahan                                                |    940|  4363924|
-|printed by John Baskett                                                                  |    707|  3249584|
-|printed by John Baskett, and by the assigns of Thomas Newcomb, and Henry Hills, deceas'd |    538|  1915186|
-|printed by Thomas Baskett; and by the assigns of Robert Baskett                          |   1047|  6207252|
-|printed for T. Cadell, in the Strand                                                     |    517|  2062802|
-|printed for the author                                                                   |   1286|  4780073|
-|printed in the year                                                                      |   2950|  5465342|
-|Printed in the year                                                                      |   1778|  4525905|
+|publisher                                                       | titles|    paper|
+|:---------------------------------------------------------------|------:|--------:|
+|]                                                               |   5504| 12516668|
+|printed by Charles Eyre and Andrew Strahan                      |    918|  8500292|
+|printed by Charles Eyre and William Strahan                     |   1566| 11313556|
+|printed by George Eyre and Andrew Strahan                       |    940|  4363924|
+|printed by John Baskett                                         |    707|  3250639|
+|printed by Thomas Baskett; and by the assigns of Robert Baskett |   1047|  6208541|
+|printed for the author                                          |   1288|  4780571|
+|printed in the year                                             |   2952|  5474930|
+|Printed in the year                                             |   1788|  4533479|
+|s.n                                                             |  39047| 34384522|
 
 
 ### Corporates

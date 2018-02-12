@@ -1,7 +1,6 @@
 source("analysis.init.R")
 
 df.preprocessed.orig <- df.preprocessed
-
 df <- df.preprocessed <- df.preprocessed.orig
 knit("pagecounts.Rmd")
 
@@ -24,14 +23,16 @@ print("Dataset-specific analyses")
 # Custom definitions
 source("general.R") # See estc TODO file
 
-df <- df.preprocessed <- df.preprocessed.orig
-knit("Edinburgh.Rmd")
+# Takes long time to run (Edinburgh2); not updated every time
+# df <- df.preprocessed <- df.preprocessed.orig
+# knit("Edinburgh.Rmd")
 
 df <- df.preprocessed <- df.preprocessed.orig
 knit("NorthAmerica.Rmd")
 
-df <- df.preprocessed <- df.preprocessed.orig
-knit("Scotland.Rmd")
+# Slow:
+#df <- df.preprocessed <- df.preprocessed.orig
+#knit("Scotland.Rmd")
 
 df <- df.preprocessed <- df.preprocessed.orig
 knit("Princeton.Rmd")

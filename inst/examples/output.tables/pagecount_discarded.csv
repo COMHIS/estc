@@ -1,15 +1,15 @@
 gatherings	physical_extent	estimated_pagecount	Count
-Total count (na.rm TRUE): 	19292		
-2fo	[No pagination provided]	116	1367
+Total count (na.rm TRUE): 	19296		
+2fo	[No pagination provided]	117	1367
 4to	[No pagination provided]	66	1207
 8vo	[No pagination provided]	92	1156
-2fo	v.	116	 942
+2fo	v.	117	 942
 12mo	2v.	264	 871
 8vo	2v.	316	 605
 12mo	[No pagination provided]	164	 596
-NA	[No pagination provided]	74	 322
+NA	[No pagination provided]	73	 322
 4to	v.	66	 252
-NA	v.	74	 231
+NA	v.	73	 231
 12mo	3v.	396	 200
 12mo	4v.	528	 162
 8vo	3v.	474	 126
@@ -17,8 +17,8 @@ NA	v.	74	 231
 4to	1 v.	66	 119
 16mo	[No pagination provided]	129	 100
 8vo	4v.	632	  94
-2fo	NA	116	  79
-2fo	1 v.	116	  78
+2fo	NA	117	  79
+2fo	1 v.	117	  78
 4to	2 v.	216	  76
 8vo	2 v.	316	  68
 2fo	2v.	506	  64
@@ -27,9 +27,9 @@ NA	v.	74	 231
 4to	3 v.	324	  53
 24mo	[No pagination provided]	136	  51
 12mo	2 v.	264	  49
-NA	1 v.	74	  43
+NA	1 v.	73	  43
 4to	NA	66	  39
-NA	2 v.	30	  39
+NA	2 v.	32	  39
 2fo	3 v.	759	  36
 18mo	2v.	160	  34
 8vo	1 v.	92	  30
@@ -38,16 +38,16 @@ NA	2 v.	30	  39
 2fo	4 v.	1012	  27
 8vo	3 v.	474	  27
 8vo	6v.	948	  26
-NA	3 v.	45	  24
+NA	3 v.	48	  24
 8vo	NA	92	  24
 8vo	???	92	  23
 2fo	5 v.	1265	  22
 4to	4 v.	432	  20
-NA	4 v.	60	  18
+NA	4 v.	64	  18
 12mo	8v.	1056	  18
 12mo	6v.	792	  18
 4to	5 v.	540	  17
-NA	NA	74	  16
+NA	NA	73	  16
 2fo	7 v.	1771	  16
 8vo	5v.	790	  16
 8vo	8v.	1264	  16
@@ -57,7 +57,7 @@ NA	NA	74	  16
 2fo	8 v.	2024	  14
 2fo	9 v.	2277	  14
 12mo	2v.	600	  14
-NA	5 v.	75	  13
+NA	5 v.	80	  13
 4to	7 v.	756	  12
 4to	6 v.	648	  12
 12mo	2v.	631	  12
@@ -74,7 +74,7 @@ NA	5 v.	75	  13
 4to	3v.	324	  11
 2fo	3v.	759	  11
 12mo	2v.	501	  11
-NA	6 v.	90	  10
+NA	6 v.	96	  10
 2fo	v.	2	  10
 4to	11 v.	NA	  10
 12mo	2v.	528	  10
@@ -99,7 +99,7 @@ NA	6 v.	90	  10
 2fo	v.	6	   8
 2fo	20 v.	NA	   8
 8vo	5 v.	790	   8
-NA	9 v.	135	   8
+NA	9 v.	144	   8
 8vo	10 v.	NA	   8
 12mo	2v.	366	   8
 12mo	2v.	587	   8
@@ -118,7 +118,7 @@ NA	9 v.	135	   8
 12mo	2v.	486	   8
 12mo	2v.	605	   8
 12mo	2v.	442	   8
-NA	1v. (various pagings)	74	   7
+NA	1v. (various pagings)	73	   7
 12mo	2v.	634	   7
 12mo	2v.	443	   7
 12mo	2v.	494	   7
@@ -126,7 +126,7 @@ NA	1v. (various pagings)	74	   7
 12mo	2v.	445	   7
 12mo	2v.	536	   7
 8vo	2v.	686	   7
-NA	7 v.	105	   7
+NA	7 v.	112	   7
 8vo	8 v.	1264	   7
 8vo	12 v.	NA	   7
 2fo	13 v.	NA	   7
@@ -159,7 +159,7 @@ NA	7 v.	105	   7
 8vo	2v.	907	   7
 12mo	2v.	454	   7
 12mo	2v.	620	   7
-NA	? p.	74	   6
+NA	? p.	73	   6
 12mo	2v.	540	   6
 12mo	2v.	511	   6
 8vo	2v.	978	   6
@@ -266,7 +266,7 @@ NA	11 v.	NA	   6
 8vo	2v.	435	   5
 12mo	1 v. (unpaged)	164	   5
 NA	14 v.	NA	   5
-2fo	v. :bill.	116	   5
+2fo	v. :bill.	117	   5
 2long	v.	NA	   5
 2fo	23 v.	NA	   5
 2fo	28 v.	NA	   5
@@ -382,7 +382,7 @@ NA	14 v.	NA	   5
 12mo	2v.	422	   4
 8vo	2v.	924	   4
 12mo	2v.	703	   4
-NA	2v.	30	   4
+NA	2v.	32	   4
 8vo	2v.	552	   4
 8vo	2v.	828	   4
 12mo	2v.	737	   4
@@ -421,8 +421,8 @@ NA	2v.	30	   4
 8vo	2v.	414	   4
 8vo	2v.	356	   4
 12mo	2v.	566	   4
-2fo	4 parts	116	   4
-NA	quarto	74	   4
+2fo	4 parts	117	   4
+NA	quarto	73	   4
 12mo	6 v.	792	   4
 2fo	16 v.	NA	   4
 8vo	13 v.	NA	   4
@@ -705,12 +705,13 @@ NA	quarto	74	   4
 12mo	2v.	524	   3
 8vo	2v.	862	   3
 8vo	Unpaged	92	   3
+2fo	xli [1] leaves	117	   3
 64mo	[No pagination provided]	64	   3
-NA	4⁰.	74	   3
-NA	v. ; 42 cm (2⁾	74	   3
+NA	4⁰.	73	   3
+NA	v. ; 42 cm (2⁾	73	   3
 NA	10 v.	NA	   3
-NA	no.	74	   3
-NA	8 v.	120	   3
+NA	no.	73	   3
+NA	8 v.	128	   3
 4to	v.	4	   3
 2fo	29 v.	NA	   3
 8vo	11 v.	NA	   3
@@ -872,7 +873,7 @@ NA	8 v.	120	   3
 4to	4 vol.	432	   2
 8vo	2 v. in 1	316	   2
 8vo	1 vol.	92	   2
-2fo	? p.	116	   2
+2fo	? p.	117	   2
 4to	? p.	66	   2
 12mo	13 v.	NA	   2
 12mo	3 vol.	396	   2
@@ -880,10 +881,10 @@ NA	8 v.	120	   3
 2fo	112 v.	NA	   2
 8vo	? p.	92	   2
 12mo	2 v.	674	   2
-NA	1atlas	74	   2
+NA	1atlas	73	   2
 12mo	1v. (various pagings)	164	   2
 8vo	6v.	3079	   2
-2fo	1atlas	116	   2
+2fo	1atlas	117	   2
 12mo	[No pagination provided]	372	   2
 12mo	8 v.	1056	   2
 2fo	8v.	5000	   2
@@ -1357,25 +1358,26 @@ NA	1atlas	74	   2
 12mo	v.5-6	264	   2
 8vo	2v.	428	   2
 12mo	2v.	372	   2
-NA	[London	74	   2
+NA	[London	73	   2
 8vo	2v.	566	   2
 12long	2 v.	226	   2
-2fo	1 vol.	116	   2
+2fo	1 vol.	117	   2
 12long	[No pagination provided]	144	   2
 12mo	1 vol.	164	   2
+2fo	xxvii [1] leaves	117	   2
 4to	p.	66	   2
-NA	8⁰.	74	   2
+NA	8⁰.	73	   2
 2fo	2 vol.	506	   2
-NA	1 sheet ([2] p.)1/2⁰.	74	   2
-NA	duodecimo	74	   2
-NA	8 p.4⁰.	74	   2
+NA	1 sheet ([2] p.)1/2⁰.	73	   2
+NA	duodecimo	73	   2
+NA	8 p.4⁰.	73	   2
 4to	2 v. in 1	216	   2
 4to	[10] l.	66	   2
-NA	[48] p.8⁰.	74	   2
-NA	1 v. in various pagings.	74	   2
+NA	[48] p.8⁰.	73	   2
+NA	1 v. in various pagings.	73	   2
 16mo	1 v.	129	   2
-NA	2 no.	74	   2
-2fo	26 no.	116	   2
+NA	2 no.	73	   2
+2fo	26 no.	117	   2
 NA	12 v.	NA	   2
 NA	40 v.	NA	   2
 2fo	64 v.	NA	   2
@@ -1387,7 +1389,7 @@ NA	15 v.	NA	   2
 2fo	2 v.	4	   2
 8vo	40 v.	NA	   2
 8vo	v.	48	   2
-2fo	v. :ill.	116	   2
+2fo	v. :ill.	117	   2
 12mo	v.	12	   2
 2fo	v.	52	   2
 8vo	23 v.	NA	   2
@@ -1425,7 +1427,7 @@ NA	15 v.	NA	   2
 12mo	2 v.	575	   2
 12mo	4 vol.	528	   2
 8vo	10 v.	5000	   2
-2fo	1v.	116	   2
+2fo	1v.	117	   2
 8vo	2v.	679	   2
 2fo	2v.	645	   2
 4to	2v.	866	   2
@@ -1473,7 +1475,7 @@ NA	15 v.	NA	   2
 12mo	3v.	798	   2
 8vo	2v.	1140	   2
 8vo	5v.	3871	   2
-NA	3v.	45	   2
+NA	3v.	48	   2
 12mo	3v.	941	   2
 8vo	9v.	1422	   2
 12mo	2v.	707	   2
@@ -1656,22 +1658,21 @@ NA	3v.	45	   2
 12mo	2v.	362	   2
 12mo	3v.	728	   2
 8vo	2 pt.	92	   1
-NA	p.	74	   1
-2fo	1 v. (approximately 74 leaves)	116	   1
+NA	p.	73	   1
+2fo	1 v. (approximately 74 leaves)	117	   1
 12mo	16 v.	NA	   1
 4to	1 v. (various paginations)	66	   1
 12mo	60 p. : Front.	164	   1
 8vo	2 parts	92	   1
-2fo	1 sheet ([1] p.) : tables	116	   1
+2fo	1 sheet ([1] p.) : tables	117	   1
 4to	[xvi] 40 p.	66	   1
-2fo	1 sheet ([2] p.0	116	   1
-2fo	3 parts in 1 v.	116	   1
-2fo	1 sheet ([1] p.) : coat of arms	116	   1
-2fo	{4?} p.	116	   1
+2fo	1 sheet ([2] p.0	117	   1
+2fo	3 parts in 1 v.	117	   1
+2fo	1 sheet ([1] p.) : coat of arms	117	   1
 8vo	2 v.	758	   1
 12mo	18 v.	NA	   1
 12mo	2 v. in 1 ([ca. 1240 p.])	264	   1
-2fo	12 pts.	116	   1
+2fo	12 pts.	117	   1
 8vo	74 v.	NA	   1
 4to	20 v.	32	   1
 2fo	v.	416	   1
@@ -1682,7 +1683,7 @@ NA	p.	74	   1
 8vo	[25] l.	92	   1
 8vo	[11] l.	92	   1
 12mo	1 v. (unnumbered)	164	   1
-2fo	2 parts in 1 vol.	116	   1
+2fo	2 parts in 1 vol.	117	   1
 4to	1 sheet ([2] p.0	66	   1
 8vo	14 v.	NA	   1
 8vo	4 pts. [in 1 v.]	92	   1
@@ -1692,7 +1693,7 @@ NA	p.	74	   1
 4to	13 numbered leaves	66	   1
 8vo	3 pts. in 1 v.	92	   1
 8vo	2 pts. in 1 v. (pt. 1: 21 leaves; pt. 2: 42 p.)	92	   1
-2fo	2 nos. in 1 v.	116	   1
+2fo	2 nos. in 1 v.	117	   1
 4to	3 parts in 1 vol.	66	   1
 2fo	2 vol. in 1	506	   1
 4to	2 pts. in 1 v.	66	   1
@@ -1701,27 +1702,25 @@ NA	p.	74	   1
 8vo	60 l.	92	   1
 4to	5 vol. in 4	540	   1
 4to	19 p. 12 p.l.	66	   1
-12mo	20 col. double plates	164	   1
 16mo	3 pts. in 1 v.	129	   1
 24mo	1 v. (unpaged)	136	   1
-2fo	4 plates (incl. plan.)	116	   1
-2fo	4 v. in 2, plates (part col.)	1012	   1
+2fo	4 plates (incl. plan.)	117	   1
 18mo	6 v.	480	   1
 18mo	4 v.	320	   1
-2fo	unpaginated	116	   1
+2fo	unpaginated	117	   1
 16mo	v. 3-4	384	   1
 8vo	2 parts in 1 v.	92	   1
 12mo	1 sheet ([1] p.) : ill. (woodcut)	164	   1
 8vo	2 v. in 1 vol.	316	   1
 8vo	2 v. in 1.	316	   1
-2fo	v. 3	116	   1
-2fo	?	116	   1
+2fo	v. 3	117	   1
+2fo	?	117	   1
 4to	1 album (6 engravings)	66	   1
 4to	1 condensed score (30 p.)	66	   1
 4to	?p.	66	   1
-2fo	[4] p. (last 3 p. blank)	116	   1
+2fo	[4] p. (last 3 p. blank)	117	   1
 4to	[?]	66	   1
-2fo	[ ] p.	116	   1
+2fo	[ ] p.	117	   1
 4to	4 v. (various pagings)	432	   1
 8vo	44 v.	NA	   1
 12mo	14 numbers	164	   1
@@ -1735,7 +1734,7 @@ NA	p.	74	   1
 18mo	4v.	765	   1
 12mo	2v. in 1	264	   1
 8vo	2v. in 62 numbers	316	   1
-NA	1vol. (various pagings)	74	   1
+NA	1vol. (various pagings)	73	   1
 16mo	4v.	768	   1
 24mo	1v. (various pagings)	136	   1
 12mo	2v.	313	   1
@@ -1785,7 +1784,7 @@ NA	4v.	925	   1
 12mo	2 v.	299	   1
 8vo	2 v.	101	   1
 16mo	2v.	542	   1
-2fo	1 sheet ([1] sheet)	116	   1
+2fo	1 sheet ([1] sheet)	117	   1
 12mo	2 v.	523	   1
 2fo	2v.	402	   1
 32mo	2v.	192	   1
@@ -1835,7 +1834,7 @@ NA	1v. (various pagings)	17	   1
 12mo	2 v.	464	   1
 12mo	4v.	2062	   1
 12mo	2v.	291	   1
-NA	381cards in box	74	   1
+NA	381cards in box	73	   1
 8vo	8 v.	3940	   1
 8vo	4v.	2044	   1
 8vo	3vol.	474	   1
@@ -1858,7 +1857,7 @@ NA	381cards in box	74	   1
 8vo	4v.	2250	   1
 12mo	3v.	262	   1
 8vo	2v.	873	   1
-NA	1 atlas	74	   1
+NA	1 atlas	73	   1
 12mo	[44+] p.. [2] leaves of plates (1 folded)	47	   1
 12mo	4v.	1384	   1
 12mo	4v.	1536	   1
@@ -2054,7 +2053,7 @@ NA	2v.	867	   1
 8vo	2v.	573	   1
 8vo	3v.	1988	   1
 8vo	2v.	1146	   1
-2fo	1 fan	116	   1
+2fo	1 fan	117	   1
 8vo	4v.	1044	   1
 12mo	8v.	3928	   1
 8vo	v.12-13	937	   1
@@ -2344,7 +2343,7 @@ NA	2v.	867	   1
 18mo	2v.	419	   1
 8vo	2v.	245	   1
 12mo	4v.	1187	   1
-2fo	6 parts	116	   1
+2fo	6 parts	117	   1
 8vo	4v.	828	   1
 18mo	2v.	248	   1
 8vo	3v.	949	   1
@@ -2575,8 +2574,8 @@ NA	2v.	867	   1
 8vo	3v.	1332	   1
 NA	2v.	1343	   1
 12mo	2v.	267	   1
-2fo	13pts.	116	   1
-2fo	111pt.	116	   1
+2fo	13pts.	117	   1
+2fo	111pt.	117	   1
 8vo	3v.	1508	   1
 12mo	4v.	1923	   1
 8vo	3v.	850	   1
@@ -3688,7 +3687,7 @@ NA	19v.	4288	   1
 2fo	63pts.	88	   1
 2fo	10pts.	16	   1
 2fo	57pts.	87	   1
-2fo	89pts.	116	   1
+2fo	89pts.	117	   1
 8vo	2v.	1458	   1
 8vo	2v	915	   1
 8vo	2v.	1152	   1
@@ -3829,41 +3828,41 @@ NA	19v.	4288	   1
 8vo	4v.	2449	   1
 8vo	4v.	2681	   1
 8vo	4v.	2264	   1
-2fo	106pt.(478p.)	116	   1
-2fo	128pt.(462p.)	116	   1
-2fo	160pt.(502p.)	116	   1
-2fo	87pt.(296p.)	116	   1
-2fo	120pt.(500p.)	116	   1
-2fo	99pt.(370p.)	116	   1
-2fo	101pt.(296p.)	116	   1
-2fo	90pt.(354p.)	116	   1
-2fo	74pt.(328p.)	116	   1
-2fo	96pt.(328p.)	116	   1
-2fo	87pt.(366p.)	116	   1
-2fo	77pt.(256p.)	116	   1
-2fo	62pt.(178p.)	116	   1
-2fo	98pt.(296p.)	116	   1
-2fo	100pt. (292p.)	116	   1
-2fo	76pt.(234p.)	116	   1
-2fo	89pt.(242p.)	116	   1
-2fo	89pt.(224p.)	116	   1
-2fo	17pt.(38p.)	116	   1
-2fo	89pt.(200p.)	116	   1
-2fo	98pt.(216p.)	116	   1
-2fo	136pt.(282p.)	116	   1
-2fo	79pt.(164p.)	116	   1
-2fo	150pt.(318p.)	116	   1
-2fo	96pt.(196p.)	116	   1
-2fo	8pt.(20p.)	116	   1
-2fo	170pt.(348p.)	116	   1
-2fo	142pt.(292p.)	116	   1
-2fo	117pt.(244p.)	116	   1
-2fo	80pt.(170p.)	116	   1
-2fo	106pt.(226p.)	116	   1
-2fo	16pt.(36p.)	116	   1
-2fo	83pt.(180p.)	116	   1
-2fo	146pt.(326p.)	116	   1
-2fo	109pt.(232p.)	116	   1
+2fo	106pt.(478p.)	117	   1
+2fo	128pt.(462p.)	117	   1
+2fo	160pt.(502p.)	117	   1
+2fo	87pt.(296p.)	117	   1
+2fo	120pt.(500p.)	117	   1
+2fo	99pt.(370p.)	117	   1
+2fo	101pt.(296p.)	117	   1
+2fo	90pt.(354p.)	117	   1
+2fo	74pt.(328p.)	117	   1
+2fo	96pt.(328p.)	117	   1
+2fo	87pt.(366p.)	117	   1
+2fo	77pt.(256p.)	117	   1
+2fo	62pt.(178p.)	117	   1
+2fo	98pt.(296p.)	117	   1
+2fo	100pt. (292p.)	117	   1
+2fo	76pt.(234p.)	117	   1
+2fo	89pt.(242p.)	117	   1
+2fo	89pt.(224p.)	117	   1
+2fo	17pt.(38p.)	117	   1
+2fo	89pt.(200p.)	117	   1
+2fo	98pt.(216p.)	117	   1
+2fo	136pt.(282p.)	117	   1
+2fo	79pt.(164p.)	117	   1
+2fo	150pt.(318p.)	117	   1
+2fo	96pt.(196p.)	117	   1
+2fo	8pt.(20p.)	117	   1
+2fo	170pt.(348p.)	117	   1
+2fo	142pt.(292p.)	117	   1
+2fo	117pt.(244p.)	117	   1
+2fo	80pt.(170p.)	117	   1
+2fo	106pt.(226p.)	117	   1
+2fo	16pt.(36p.)	117	   1
+2fo	83pt.(180p.)	117	   1
+2fo	146pt.(326p.)	117	   1
+2fo	109pt.(232p.)	117	   1
 8vo	2v.	1267	   1
 8vo	3v.	1512	   1
 8vo	4 v.	1850	   1
@@ -4161,7 +4160,7 @@ NA	19v.	4288	   1
 8vo	4v.	2369	   1
 8vo	416p.ill.,music	415	   1
 12mo	4v.	1258	   1
-NA	A slip-song - 'When Fanny blooming fair:'.	74	   1
+NA	A slip-song - 'When Fanny blooming fair:'.	73	   1
 12mo	2v.	743	   1
 12mo	8 parts	164	   1
 12mo	2 v.	595	   1
@@ -4267,7 +4266,7 @@ NA	A slip-song - 'When Fanny blooming fair:'.	74	   1
 12mo	6v.	1103	   1
 8vo	8v.	3692	   1
 8vo	8v.	4759	   1
-NA	14p.c4⁰.	74	   1
+NA	14p.c4⁰.	73	   1
 2fo	2v.	35	   1
 2fo	2v.	65	   1
 12mo	2v.	386	   1
@@ -4363,7 +4362,7 @@ NA	8p.c12⁰.	8	   1
 12mo	5v.	1741	   1
 12mo	2v.	1030	   1
 8vo	2v.	642	   1
-2fo	8pts.	116	   1
+2fo	8pts.	117	   1
 2fo	8pts.	80	   1
 8vo	2v.	1254	   1
 8vo	2v.	471	   1
@@ -4453,7 +4452,7 @@ NA	8p.c12⁰.	8	   1
 12mo	v.7-8	167	   1
 8vo	4v.	1208	   1
 12mo	4v.	564	   1
-2fo	1 v. (52 pts.)	116	   1
+2fo	1 v. (52 pts.)	117	   1
 8vo	2v.	1233	   1
 NA	[2]p.1/2⁰.	2	   1
 4to	4v.	2190	   1
@@ -4506,7 +4505,7 @@ NA	[2]p.1/2⁰.	2	   1
 12mo	2v.	1046	   1
 12mo	2v.	677	   1
 12mo	2v.	1108	   1
-2fo	7 parts	116	   1
+2fo	7 parts	117	   1
 18mo	3v.	1003	   1
 12mo	4v.	1207	   1
 12mo	2v.	280	   1
@@ -4518,7 +4517,7 @@ NA	36p.8⁰.	35	   1
 12mo	4v.	1338	   1
 8vo	13 parts	245	   1
 12mo	13 parts	164	   1
-NA	[2]p.1/8⁰.	74	   1
+NA	[2]p.1/8⁰.	73	   1
 2fo	2v.	1665	   1
 8vo	[No pagination provided]	82	   1
 12mo	[No pagination provided]	423	   1
@@ -4616,7 +4615,7 @@ NA	[2]p.1/8⁰.	74	   1
 8vo	3v.	1348	   1
 12mo	2v.	307	   1
 12mo	v.1-3	646	   1
-2fo	30 parts	116	   1
+2fo	30 parts	117	   1
 8vo	2v.	567	   1
 12mo	5v.	1518	   1
 8vo	3v.	556	   1
@@ -4718,7 +4717,7 @@ NA	[2]p.1/8⁰.	74	   1
 12mo	4v.	1315	   1
 12mo	3v.	1031	   1
 8vo	4v.	1501	   1
-2fo	1 sheet ([1] p.) : 1 ill.	116	   1
+2fo	1 sheet ([1] p.) : 1 ill.	117	   1
 12mo	2v.	855	   1
 18mo	3v.	906	   1
 12mo	8pts.	295	   1
@@ -4768,10 +4767,10 @@ NA	[2]p.1/8⁰.	74	   1
 2fo	4 parts	89	   1
 4to	2 parts (2 v.)	216	   1
 8vo	6 v. of music (142 p.)	948	   1
-NA	Arr. on two staves for voice and keyboard; with a version for the flute.	30	   1
+NA	Arr. on two staves for voice and keyboard; with a version for the flute.	32	   1
 4to	v. of music (166+ p.)	66	   1
-2fo	v. of music	116	   1
-2fo	4 p. of music	116	   1
+2fo	v. of music	117	   1
+2fo	4 p. of music	117	   1
 16mo	v.	72	   1
 24mo	2 v.	81	   1
 18mo	5 v.	400	   1
@@ -4782,112 +4781,117 @@ NA	Arr. on two staves for voice and keyboard; with a version for the flute.	30	 
 8vo	412 l.	92	   1
 8vo	unpaged	92	   1
 8vo	16 folios	92	   1
-NA	s.sh.fol.	74	   1
-2fo	viii. leaves	116	   1
-2fo	[1] pasted sheet ([1] p.)	116	   1
+NA	s.sh.fol.	73	   1
+2fo	viii. leaves	117	   1
+2fo	[1] pasted sheet ([1] p.)	117	   1
 8vo	cclvj leaves	92	   1
 16mo	[360] folios	129	   1
 16mo	2 pts bb	129	   1
-2fo	[72] leaves of plates ([8] folded)	116	   1
-2fo	[20] engraved plates	116	   1
+2fo	[72] leaves of plates ([8] folded)	117	   1
+2fo	[20] engraved plates	117	   1
 4to	38 p. bb	66	   1
-NA	1/2⁰.	74	   1
+NA	1/2⁰.	73	   1
 4to	[244] p. :ill. (woodcuts)	66	   1
 4to	35 p.c	66	   1
 4to	ca. 1248 p. in various foliations.	66	   1
-2fo	xxvi [26, i.e. 52] p.	116	   1
-NA	xviii [18, i.e. 36] p.	74	   1
-2fo	xv [15, i.e. 30] p.	116	   1
-2fo	x [10, i.e. 20] p.	116	   1
-NA	1 v. (various pagings)	74	   1
-2fo	xvii [i.e. 54] p.	116	   1
-2fo	1 sheet ([1] p.) :ill. (woodcut)	116	   1
+2fo	xxvi [26, i.e. 52] p.	117	   1
+NA	xviii [18, i.e. 36] p.	73	   1
+2fo	xv [15, i.e. 30] p.	117	   1
+2fo	x [10, i.e. 20] p.	117	   1
+NA	1 v. (various pagings)	73	   1
+2fo	xvii [i.e. 54] p.	117	   1
+2fo	1 sheet ([1] p.) :ill. (woodcut)	117	   1
 8vo	[208] l.	92	   1
 8vo	134 l.	92	   1
-2fo	[4+] p. :ill. (woodcuts)	116	   1
+2fo	[4+] p. :ill. (woodcuts)	117	   1
 4to	[44] p. plates	66	   1
-NA	xxix [i.e. 54] p.	74	   1
-2fo	viii [i.e. 15] p.	116	   1
-2fo	xxxi [i.e. 60] p.	116	   1
-2fo	viij [i.e. 16] p.	116	   1
-NA	9 pts.	74	   1
-2fo	xxvj leaves	116	   1
+NA	xxix [i.e. 54] p.	73	   1
+2fo	viii [i.e. 15] p.	117	   1
+2fo	xxxi [i.e. 60] p.	117	   1
+2fo	viij [i.e. 16] p.	117	   1
+NA	9 pts.	73	   1
+2fo	xxvj leaves	117	   1
 8vo	6 parts	92	   1
-2fo	1 map on two plates	116	   1
-2fo	xvj leaves	116	   1
+2fo	1 map on two plates	117	   1
+2fo	xvj leaves	117	   1
 4to	a-t leaves	66	   1
-2fo	2 1/2 p.	116	   1
+2fo	2 1/2 p.	117	   1
 4to	[4] lxxiiij leaves	66	   1
-2fo	lj leaves	116	   1
-2fo	lxx. leaves	116	   1
-2fo	xiii [xiiii] leaves	116	   1
-NA	[36] p.c8⁰.	74	   1
+2fo	lj leaves	117	   1
+2fo	lxx. leaves	117	   1
+2fo	lxix [1] leaves	117	   1
+2fo	xlvii [1] leaves	117	   1
+2fo	[1] xj [1] leaves	117	   1
+2fo	xxxi [1] leaves	117	   1
+2fo	xxi [1] leaves	117	   1
+2fo	xiii [xiiii] leaves	117	   1
+2fo	lvii [1] leaves	117	   1
+NA	[36] p.c8⁰.	73	   1
 4to	[232] l.	66	   1
 4to	CC.v leaves	66	   1
-NA	[C.lxxxvi] leaves	74	   1
+NA	[C.lxxxvi] leaves	73	   1
 4to	cxix [21] p.	66	   1
 4to	3 parts	66	   1
-NA	octavo.	74	   1
-2fo	1 sheet ([1] p.) :ill. (woodcuts)	116	   1
-8vo	{16] p.	92	   1
-NA	[octavo]	74	   1
+2fo	xliiij [44] leaves	117	   1
+NA	octavo.	73	   1
+2fo	1 sheet ([1] p.) :ill. (woodcuts)	117	   1
+NA	[octavo]	73	   1
 4to	[24] p. 31 leaves of plates	66	   1
 8vo	12 p. (extent of DFo copy)	92	   1
 4to	30 engraved plates	66	   1
-2fo	8 p. : coat of arms.	116	   1
+2fo	8 p. : coat of arms.	117	   1
 48mo	[No pagination provided]	80	   1
-2fo	[fewer than 50 pages]	116	   1
+2fo	[fewer than 50 pages]	117	   1
 18mo	NA	156	   1
 8vo	[Pagination not given]	92	   1
 4to	1 sheet ([1] p.) : ill. (woodcut)	66	   1
 8vo	in 4s	92	   1
-NA	sixes	74	   1
+NA	sixes	73	   1
 12long	[ii] 12 p.	144	   1
-16mo	1 p.l., 3 col. plates, 129 col. maps (part. fold.)	129	   1
-2fo	1 sheet ([1] p.) :ill., (woodcuts)	116	   1
-2fo	6 pts.	116	   1
+2fo	1 sheet ([1] p.) :ill., (woodcuts)	117	   1
+2fo	6 pts.	117	   1
 24mo	? p.	136	   1
-NA	1 sheet ([1] p.) : 1/4⁰.	74	   1
-NA	1⁰.	74	   1
+NA	1 sheet ([1] p.) : 1/4⁰.	73	   1
+NA	1⁰.	73	   1
 8vo	3 vol.	474	   1
 4to	18 engraved plates	66	   1
-NA	[12] leaves of plates (1 folded)	74	   1
-NA	coctavo	74	   1
-2fo	1 sheeet ([1] p.)	116	   1
-2fo	1 sheet ([2] recto p.)	116	   1
-NA	c8⁰.	74	   1
-2fo	[No pagination recorded]	116	   1
+NA	[12] leaves of plates (1 folded)	73	   1
+NA	coctavo	73	   1
+2fo	1 sheeet ([1] p.)	117	   1
+2fo	1 sheet ([2] recto p.)	117	   1
+NA	c8⁰.	73	   1
+2fo	[No pagination recorded]	117	   1
 24mo	NA	136	   1
-2fo	1 sheet 9[1] p.)	116	   1
+2fo	1 sheet 9[1] p.)	117	   1
 8vo	[Pagination not provided]	92	   1
-NA	12⁰.	74	   1
+NA	12⁰.	73	   1
 8vo	p.	92	   1
 16mo	NA	129	   1
 12mo	23v.	NA	   1
-NA	1 sheet ([1] p.).m.	74	   1
-NA	2 ¹.	74	   1
-NA	2 l.	74	   1
+NA	1 sheet ([1] p.).m.	73	   1
+NA	2 ¹.	73	   1
+NA	2 l.	73	   1
 2fo	6 v.	2096	   1
-NA	[34] leaves of plates (2 folded)	74	   1
-2fo	1 sheet +	116	   1
+NA	[34] leaves of plates (2 folded)	73	   1
+2fo	1 sheet +	117	   1
 4to	357 p. in various paginations.	66	   1
 8vo	2 v.	1544	   1
-2fo	1 sheet ([1] p.) :b.ill.	116	   1
-2fo	1 sheet ([1] pg.)	116	   1
+2fo	1 sheet ([1] p.) :b.ill.	117	   1
+2fo	1 sheet ([1] pg.)	117	   1
 4to	[ ]	66	   1
-NA	Date of publication from Wing.	74	   1
-NA	1 sheet ([1] p.)1/2⁰.	74	   1
+NA	Date of publication from Wing.	73	   1
+NA	1 sheet ([1] p.)1/2⁰.	73	   1
 8vo	39 (i.e. 51) p.	92	   1
-NA	16 p.4⁰.	74	   1
-2fo	63 parts	116	   1
-NA	[40] p.8⁰.	74	   1
-2fo	864 p. in various paginations.	116	   1
+NA	16 p.4⁰.	73	   1
+2fo	63 parts	117	   1
+NA	[40] p.8⁰.	73	   1
+2fo	864 p. in various paginations.	117	   1
 4to	32t p.	66	   1
 4to	1 v. in various pagings	66	   1
-NA	[2] p.1/2⁰.	74	   1
+NA	[2] p.1/2⁰.	73	   1
 4to	34 (i.e. 36) p.	66	   1
 4to	[13] leaves of plates (incl. t.p.)	66	   1
-2fo	[8] p. 44, 4008 col.	116	   1
+2fo	[8] p. 44, 4008 col.	117	   1
 2fo	347 v.	NA	   1
 2fo	57 v.	NA	   1
 8vo	v.	16	   1
@@ -4937,48 +4941,48 @@ NA	v.	90	   1
 8vo	10 v.	60	   1
 8vo	v.	1220	   1
 4to	5 v.	36	   1
-NA	153 no.	74	   1
-NA	12 no.	74	   1
+NA	153 no.	73	   1
+NA	12 no.	73	   1
 NA	27 v.	NA	   1
 NA	16 v.	NA	   1
-NA	v. ; 49 cm.	74	   1
+NA	v. ; 49 cm.	73	   1
 NA	24 v.	NA	   1
-NA	6 no.	74	   1
-NA	v. ; 46 cm.	74	   1
+NA	6 no.	73	   1
+NA	v. ; 46 cm.	73	   1
 NA	30 v.	NA	   1
-NA	2 v. : ill. (chiefly advertisements)	30	   1
+NA	2 v. : ill. (chiefly advertisements)	32	   1
 NA	32 v.	NA	   1
 16mo	16 v.	NA	   1
-NA	1 no.	74	   1
-NA	82 no.	74	   1
-2fo	88 nos.	116	   1
-NA	130 no.	74	   1
+NA	1 no.	73	   1
+NA	82 no.	73	   1
+2fo	88 nos.	117	   1
+NA	130 no.	73	   1
 NA	20 v.	NA	   1
-NA	41 no.	74	   1
+NA	41 no.	73	   1
 NA	23 v.	NA	   1
-NA	21 nos.	74	   1
+NA	21 nos.	73	   1
 NA	138 v.	NA	   1
-NA	738 no.	74	   1
-NA	3 v. ; 47 cm.	45	   1
-NA	53 no.	74	   1
-NA	126 no.	74	   1
-2fo	529 no.	116	   1
-2fo	12 no.	116	   1
+NA	738 no.	73	   1
+NA	3 v. ; 47 cm.	48	   1
+NA	53 no.	73	   1
+NA	126 no.	73	   1
+2fo	529 no.	117	   1
+2fo	12 no.	117	   1
 NA	35 v.	457	   1
-2fo	8 no.	116	   1
-2fo	2 no.	116	   1
-2fo	14 no.	116	   1
-2fo	18 no.	116	   1
-2fo	1 no.	116	   1
+2fo	8 no.	117	   1
+2fo	2 no.	117	   1
+2fo	14 no.	117	   1
+2fo	18 no.	117	   1
+2fo	1 no.	117	   1
 NA	98 v.	NA	   1
 NA	v.	76	   1
 8vo	2 v.	632	   1
 4to	v.	711	   1
 8vo	65 v.	NA	   1
 2fo	32 v.	NA	   1
-2fo	429 no.	116	   1
+2fo	429 no.	117	   1
 8vo	27 v.	NA	   1
-NA	309 no.	74	   1
+NA	309 no.	73	   1
 2fo	1 v.	6	   1
 2fo	v.	88	   1
 4to	18 v.	NA	   1
@@ -4990,16 +4994,15 @@ NA	309 no.	74	   1
 8vo	11 v.	175	   1
 12mo	1 v.	267	   1
 2fo	156 v.	NA	   1
-12mo	v., plate (fol.)	164	   1
 4long	v.	38	   1
 NA	104 v.	NA	   1
 NA	28 v.	NA	   1
-NA	25 no.	74	   1
+NA	25 no.	73	   1
 8vo	1 v.	460	   1
 8vo	v.	760	   1
 2fo	v.	13	   1
 2fo	17v.	34	   1
-2fo	1 v	116	   1
+2fo	1 v	117	   1
 2fo	10 v.	20	   1
 2fo	5 v.	10	   1
 2fo	13v.	NA	   1
@@ -5085,7 +5088,7 @@ NA	v.	603	   1
 8vo	6 v.	970	   1
 8vo	1 v.	543	   1
 4to	v.	30	   1
-NA	1v.	74	   1
+NA	1v.	73	   1
 12mo	1 v.	519	   1
 8vo	1 v.	416	   1
 12mo	5 v.	660	   1
@@ -5095,7 +5098,6 @@ NA	1v.	74	   1
 12mo	6 v.	1783	   1
 8vo	5 v.	208	   1
 8vo	1 v.	68	   1
-12mo	8 v., col. plates	1898	   1
 8vo	25 v.	NA	   1
 8vo	1 v.	24	   1
 12mo	12 v.	121	   1
@@ -5147,7 +5149,7 @@ NA	1v.	74	   1
 4to	v.	596	   1
 8vo	v.	191	   1
 8vo	3 v.	62	   1
-NA	v. ;2⁰.	74	   1
+NA	v. ;2⁰.	73	   1
 8vo	v.	878	   1
 8vo	v.	69	   1
 8vo	v.	214	   1
@@ -5191,7 +5193,7 @@ NA	v. ;2⁰.	74	   1
 4to	v.	16	   1
 4long	1 v.	24	   1
 8vo	8 v.	208	   1
-2fo	1 v. :bill.	116	   1
+2fo	1 v. :bill.	117	   1
 8vo	168 v.	NA	   1
 8vo	2 v.	1217	   1
 4to	10 v.	8	   1
@@ -5256,7 +5258,6 @@ NA	v. ;2⁰.	74	   1
 8vo	19 v.	NA	   1
 NA	5 v.	2615	   1
 8vo	59 v.	5000	   1
-8vo	6 v., plates (col.)	948	   1
 8vo	1 v.	268	   1
 2fo	19 v.	66	   1
 4to	2 v.	116	   1
@@ -5481,12 +5482,12 @@ NA	81 v.	NA	   1
 2fo	[No pagination provided]	916	   1
 12mo	2v	384	   1
 8vo	2v.	1132	   1
-2fo	[29]l.	116	   1
+2fo	[29]l.	117	   1
 8vo	2v.	239	   1
 12mo	6v.	2207	   1
 8vo	3v.	1166	   1
 12mo	v.3-4	347	   1
-2fo	3pt. in 1v. ([2]p.	116	   1
+2fo	3pt. in 1v. ([2]p.	117	   1
 4to	2v.	841	   1
 12mo	2 v.	662	   1
 12mo	2v.	846	   1
@@ -5495,14 +5496,14 @@ NA	81 v.	NA	   1
 8vo	13 parts	299	   1
 12mo	v.3-5	396	   1
 8vo	20v.	NA	   1
-2fo	9 parts	116	   1
+2fo	9 parts	117	   1
 12mo	v.3-4	343	   1
 12mo	3v.	1178	   1
 12mo	4v.	1307	   1
 12mo	4v.	1287	   1
 8vo	3v.	597	   1
 8vo	2v.	1817	   1
-2fo	1 fold. sheet	116	   1
+2fo	1 fold. sheet	117	   1
 8vo	7 pts. in 1v.	92	   1
 8vo	3v.	1268	   1
 8vo	v.1-3	1151	   1
@@ -5514,7 +5515,7 @@ NA	81 v.	NA	   1
 12mo	vols.19-21	962	   1
 8vo	2v.	1110	   1
 12mo	4v.	1136	   1
-2fo	??p.	116	   1
+2fo	??p.	117	   1
 12mo	3v.	812	   1
 12mo	4v.	1103	   1
 2fo	5v.	2980	   1
@@ -5562,16 +5563,16 @@ NA	81 v.	NA	   1
 8vo	2v.	1327	   1
 4to	9 parts	138	   1
 4to	10 parts	162	   1
-NA	Caption title; with a docket title that reads 'Memorial of the agent for the province of Massachussetts-Bay against a duty of 3d. per gallon on foreign molasses.'. - Dated in MS '9th February, 1764' and signed J. Mauduit.	30	   1
+NA	Caption title; with a docket title that reads 'Memorial of the agent for the province of Massachussetts-Bay against a duty of 3d. per gallon on foreign molasses.'. - Dated in MS '9th February, 1764' and signed J. Mauduit.	32	   1
 12mo	2vols.	567	   1
 8vo	20pt.	92	   1
 12mo	2v.	332	   1
 12mo	3v.	943	   1
 8vo	2v.	712	   1
-2fo	⁰ sheet	116	   1
+2fo	⁰ sheet	117	   1
 12mo	4v.	426	   1
-2fo	5 shhets	116	   1
-2fo	[z] p.	116	   1
+2fo	5 shhets	117	   1
+2fo	[z] p.	117	   1
 2fo	[No pagination provided]	1153	   1
 12mo	2v.	783	   1
 12mo	4v.	2128	   1
@@ -5584,7 +5585,7 @@ NA	Caption title; with a docket title that reads 'Memorial of the agent for the 
 12mo	4v.	2035	   1
 8vo	[No pagination provided]	569	   1
 12mo	10v.	3605	   1
-NA	64p.c12⁰	74	   1
+NA	64p.c12⁰	73	   1
 8vo	2v.	208	   1
 12mo	3v.	933	   1
 2fo	2v.	1682	   1
@@ -5597,7 +5598,7 @@ NA	64p.c12⁰	74	   1
 8vo	3 parts	92	   1
 8vo	14v.	348	   1
 8vo	3v.	1221	   1
-2fo	2 columns	116	   1
+2fo	2 columns	117	   1
 12mo	3v.	765	   1
 8vo	3v.	873	   1
 4to	2 pts.	554	   1
@@ -5723,7 +5724,7 @@ NA	64p.c12⁰	74	   1
 8vo	12 parts	278	   1
 8vo	2v.	262	   1
 8vo	4v.	2245	   1
-2fo	14 parts	116	   1
+2fo	14 parts	117	   1
 8vo	2 parts	1363	   1
 12mo	2v.	839	   1
 8vo	v.21	158	   1
@@ -5855,7 +5856,7 @@ NA	64p.c12⁰	74	   1
 12mo	4v.	1246	   1
 8vo	3v.	1437	   1
 8vo	2v.	284	   1
-2fo	3l.	116	   1
+2fo	3l.	117	   1
 12mo	4v.	1317	   1
 8vo	3v.	988	   1
 12mo	4v.	896	   1

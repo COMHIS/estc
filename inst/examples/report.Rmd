@@ -132,7 +132,7 @@ ntop <- 20
 ## SELECT AND AUGMENT THE COMPLETE DATA SET (df.orig)
 
 # Read the preprocessed data
-df.orig <- readRDS("df.Rds") # Keep the complete data
+df.orig <- readRDS(datafile.preprocessed) # Keep the complete data
 
 # Add Metadata ID field 
 idfield <- "system_control_number"

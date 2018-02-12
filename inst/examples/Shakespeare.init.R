@@ -16,7 +16,7 @@ author <- "Leo Lahti"
 ntop <- 20
 timespan <- c(1460, 1830)
 datafile.preprocessed <- "df.Rds"
-datafile.orig <- "df.raw.Rds"
+datafile.orig <- "data/unified/polished/df.raw.Rds"
 output.folder <- "output.tables/"
 
 # ---------------------------------

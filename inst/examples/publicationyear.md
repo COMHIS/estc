@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2018-01-10"
+date: "2018-02-12"
 output: markdown_document
 ---
 
@@ -29,7 +29,7 @@ Publication frequency information is available for 3251 documents (1%). The link
 
 ### Publication interval
 
-Publication interval is available for 3485 documents (1%). 
+Publication interval is available for 3483 documents (1%). 
 
 [Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
@@ -54,6 +54,15 @@ of those have multiple occurrences, sometimes with different publication
 years.  The earliest occurrence is suggested as the first edition.
 
 This figure shows the number of first editions per decade.
+
+
+```
+## Error in match.names(clabs, names(xi)): names do not match previous names
+```
+
+```
+## Error in FUN(X[[i]], ...): object 'variable' not found
+```
 
 ![plot of chunk firsteditions](figure/firsteditions-1.png)
 
