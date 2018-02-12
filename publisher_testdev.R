@@ -121,7 +121,9 @@ publisher_string <- "Printed for T. Lowndes, in Fleet-street; T. Davies, in Russ
 publisher_string <- "In the Savoy: printed by Eliz. Nutt and R. Gosling, (assigns of Edw. Sayer, Esq;) for J. Walthoe, R. Gosling, W. Innys, J. Osborn and T. Longman, J. Hooke, B. Williamson, A. Ward, D. Browne, and T. Osborn"
 # lost token
 publisher_string <- "W. J[ones,] sold by ["
-
+# Error
+publisher_string <- "printed for John Whiston, and Charles Bathurst; Lockyer Davis; Benjamin White; and John Nichols (successor to W.Bowyer)"
+publisher_string <- "printed for J. Mozley, Gainsbrough"
 
 # -----------------------
 # method 2

@@ -1,4 +1,5 @@
 token,type,unified
+son,role,_son_
 author,role,
 book-binder,role,
 book-seller,role,_bookseller_
@@ -73,8 +74,16 @@ sold,verb,
 mess.,person_title,
 mrs.,person_title,
 messrs.,person_title,
+messrs,person_title,
 esq,person_title,
 mr.,person_title,
+mr,person_title,
+miss,person_title,
+messieurs,person_title,
+messeurs,person_title,
+messers.,person_title,
+messers,person_title,
+mrs,person_title,
 street,location_component,
 square,location_component,
 alley,location_component,
@@ -86,4 +95,7 @@ Senior,person_attribute,_senior_
 Sen.,person_attribute,_senior_
 junior,person_attribute,_junior_
 senior,person_attribute,_senior_
+Jun'r,person_attribute,_junior_
+Ju.,person_attribute,_junior_
+Iunior,person_attribute,_junior_
 _in_the_year_,timestamp_prefix,

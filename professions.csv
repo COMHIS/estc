@@ -1,0 +1,8 @@
+verb,suffix,profession,alternative_term
+printed,by,printer,stationer
+printed,for,publisher,stationer
+published,by,publisher,stationer
+reprinted,by,printer,stationer
+reprinted,for,publisher,stationer
+sold,by,bookseller,stationer
+sold,for,bookseller,stationer

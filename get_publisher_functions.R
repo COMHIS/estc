@@ -163,7 +163,10 @@ set_skip_result_flag <- function(current_token, prev_token, flag_prev_value) {
 }
 
 
-get_next_actor <- function(target_tokens, stop_on_verb = FALSE, accept_roles = TRUE, actors_found = FALSE) {
+get_next_actor <- function(target_tokens, firstnames_table,
+                           stop_on_verb = FALSE,
+                           accept_roles = TRUE,
+                           actors_found = FALSE) {
   actor_tokens <- list()
   tokens_processed <- 0
   accept_initials <- TRUE
@@ -228,7 +231,7 @@ get_next_actor <- function(target_tokens, stop_on_verb = FALSE, accept_roles = T
         }
         next
       }
-      # hand titles (mr., mrs., ...)
+      # handle titles (mr., mrs., ...)
       if (current_token$type == "person_title") {
         actor_tokens[[length(actor_tokens) + 1]] <- current_token
         if (is.na(actor_index)) {
@@ -297,14 +300,6 @@ get_next_actor <- function(target_tokens, stop_on_verb = FALSE, accept_roles = T
     }
   }
   
-  actor_token_text <- ""
-  for (actor_token in actor_tokens) {
-    actor_token_text <- trimws(paste(actor_token_text, actor_token$token, sep = " ", collapse = " "))
-  }
-  if (actor_token_text == "") {
-    actor_token_text <- NA
-  }
-
   if (multipart_cutoff > 0 & multipart_cutoff < length(target_tokens)) {
     new_target_tokens <- target_tokens[multipart_cutoff:length(target_tokens)]
   } else if (tokens_processed == length(target_tokens)) {
@@ -316,9 +311,21 @@ get_next_actor <- function(target_tokens, stop_on_verb = FALSE, accept_roles = T
   if (skip_result) {
     actor_index <- NA
     actor_token_text <- NA
+    actor_title_text <- NA
+    actor_attribute_text <- NA
+  } else {
+    actor_strings <- get_actor_strings(actor_tokens)
+    actor_token_text <- actor_strings$name_string
+    actor_title_text <- actor_strings$title_string
+    actor_attribute_text <- actor_strings$attribute_string
   }
   
-  return(list('target_tokens' = new_target_tokens, 'actor_string' = actor_token_text, 'actor_index' = actor_index, 'skip_result' = skip_result))
+  # actor_nameparts = list with:  first_name, last_name
+  actor_nameparts <- get_actor_nameparts(actor_token_text, firstnames_table)
+  
+  return(list('target_tokens' = new_target_tokens, 'actor_string' = actor_token_text, 'first_name' = actor_nameparts$first_name,
+              'last_name' = actor_nameparts$last_name, 'actor_title' = actor_title_text, 'actor_attribute' = actor_attribute_text, 
+              'actor_index' = actor_index, 'skip_result' = skip_result))
 }
 
 
@@ -576,6 +583,10 @@ get_verb_df <- function(verb_final, publisher_string) {
                          verb = verb_string,
                          verb_suffix = verb_suffix_string,
                          actor = NA,
+                         actor_last_name = NA,
+                         actor_first_name = NA,
+                         actor_title = NA,
+                         actor_attribute = NA,
                          location = NA,
                          actor_relation_type = NA,
                          actor_relation_target = NA
@@ -590,21 +601,28 @@ get_verb_df <- function(verb_final, publisher_string) {
       df_row <- data.frame(publisher_string = publisher_string,
                            verb = verb_string,
                            verb_suffix = verb_suffix_string,
+                           actor_last_name = actor$last_name,
+                           actor_first_name = actor$first_name,
+                           actor_title = actor$actor_title,
+                           actor_attribute = actor$actor_attribute,
                            actor = actor_string,
                            location = location_string,
                            actor_relation_type = actor$relation$type,
-                           actor_relation_target = actor$relation$target
+                           actor_relation_target = actor$relation$target,
                            # location_prefix = location_prefix_string
-                           )
+                           stringsAsFactors = FALSE)
       verb_df <- rbind(df_row, verb_df)
     }
   }
+  # for (colname in colnames(verb_df)) {
+  #   verb_df[, colname] <- 
+  # }
   return(verb_df)
 }
 
 
 # get actors and their target tokens. loop through target tokens to get locations 
-get_all_actors <- function(target_tokens, publisher_location_table, stop_on_verb = FALSE) {
+get_all_actors <- function(target_tokens, firstnames_table, publisher_location_table, stop_on_verb = FALSE) {
   # if (typeof(target_tokens) != "list") {
   #   return(NA)
   # }
@@ -619,7 +637,7 @@ get_all_actors <- function(target_tokens, publisher_location_table, stop_on_verb
 
   while (!finished) {
     # print(tokens_to_search)
-    next_actor <- get_next_actor(tokens_to_search, stop_on_verb, accept_person_roles, actors_found)
+    next_actor <- get_next_actor(tokens_to_search, firstnames_table, stop_on_verb, accept_person_roles, actors_found)
     # this is to work the cases with "sold at" etc. where the first actor needs to be a blank one
     # to catch the whole target string for location detection
     actors_found <- TRUE
@@ -641,6 +659,10 @@ get_all_actors <- function(target_tokens, publisher_location_table, stop_on_verb
         actors[[1]]$actor_string <- NA
         actors[[1]]$target_tokens <- target_tokens
         actors[[1]]$actor_index <- NA
+        actors[[1]]$first_name <- NA
+        actors[[1]]$last_name <- NA
+        actors[[1]]$actor_title <- NA
+        actors[[1]]$actor_attribute <- NA
         finished <- TRUE
       }
       if (length(actors) > 0) {
@@ -660,14 +682,17 @@ get_all_actors <- function(target_tokens, publisher_location_table, stop_on_verb
 }
 
 
-add_additional_data_to_actor_list <- function(actor_list, publisher_location_table, verb_pre_location = NA) {
+add_additional_data_to_actor_list <- function(actor_list,
+                                              firstnames_table,
+                                              publisher_location_table,
+                                              verb_pre_location = NA) {
   if (typeof(actor_list) != "list") {
     return(NA)
   } else {
     actors_with_locations <- list()
     for (actor in actor_list) {
       actor_location <- get_next_location(actor$target_tokens, publisher_location_table, verb_pre_location)
-      actor_relation <- get_actor_relation_data(actor$target_tokens)
+      actor_relation <- get_actor_relation_data(actor$target_tokens, firstnames_table)
       # add verb_prelocation to actor_location string if present
       if (!is.na(verb_pre_location)) {
         if (is.na(actor_location$locations_string)) {
@@ -685,10 +710,10 @@ add_additional_data_to_actor_list <- function(actor_list, publisher_location_tab
 }
 
 
-add_verbs_actors <- function(verbs, publisher_location_table) {
+add_verbs_actors <- function(verbs, firstnames_table, publisher_location_table) {
   retlist <- list()
   if (length(verbs) == 0) {
-    print("No verbs found.")
+    # print("No verbs found.")
     return(verbs)
   } else {
     for (verb in verbs) {
@@ -696,8 +721,8 @@ add_verbs_actors <- function(verbs, publisher_location_table) {
       # if (!is.na(verb$pre_location)) {
       #   stop_on_verb <- TRUE
       # }
-      verb_actors <- get_all_actors(verb$target_tokens, publisher_location_table, stop_on_verb)
-      verb_actors_with_additional_data <- add_additional_data_to_actor_list(verb_actors, publisher_location_table, verb$pre_location)
+      verb_actors <- get_all_actors(verb$target_tokens, firstnames_table, publisher_location_table, stop_on_verb)
+      verb_actors_with_additional_data <- add_additional_data_to_actor_list(verb_actors, firstnames_table, publisher_location_table, verb$pre_location)
       verb$actors <- verb_actors_with_additional_data
       retlist[[length(retlist) + 1]] <- verb
     }
@@ -765,7 +790,6 @@ filter_pubdata_actors <- function(verbs_final) {
   }
   return(verbs_filtered)
 }
-
 
 
 get_verbs_df <- function(verbs_final, publisher_string) {

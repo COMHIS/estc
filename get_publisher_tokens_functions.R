@@ -66,14 +66,46 @@ clean_publisher_datastring <- function(publisher_data_string) {
   publisher_data_string <- gsub("esq", "esq", publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\bmap and print-seller\\b", " _map_and_print_seller_ ", publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\b(his)? ?(majesty)?'?s? law.?printers\\b", " _law_printers_ ", publisher_data_string, ignore.case = TRUE)
-  publisher_data_string <- gsub("\\b(law printer)+ ?(to)? ?(the)? ?(king)?'?s? ?(most excellent)? ?(majesty)?\\b", " _law_printer_ ",
+  publisher_data_string <- gsub("\\b(law printer)+ ?(to)? ?(the)? ?(king|(queen))?'?s? ?(most excellent)? ?(majesty)?\\b", " _law_printer_ ",
                                 publisher_data_string, ignore.case = TRUE)
-  publisher_data_string <- gsub("\\b(law)+( |-)?(printers)+ ?(to)? ?(the)? ?(king)?'?s? ?(most excellent)? ?(majesty)?\\b", " _law_printers_ ",
+  publisher_data_string <- gsub("\\b(law)+( |-)?(printers)+ ?(to)? ?(the)? ?((king)|(queen))?'?s? ?(most excellent)? ?(majesty)?\\b", " _law_printers_ ",
                                 publisher_data_string, ignore.case = TRUE)
-  publisher_data_string <- gsub("\\b(law)+( |-)?(bookseller)+", " law-bookseller ",
+  publisher_data_string <- gsub("\\b(law)+( |-)?(bookseller)+", " _law-bookseller_ ",
                                 publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\b(his)? ?(royal highness)+", " _royal_highness_ ",
                                 publisher_data_string, ignore.case = TRUE)
+  # Honourables
+  publisher_data_string <- gsub("\\bprinter to the honou?rable house of commons", " _printer_to_house_of_commons_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  publisher_data_string <- gsub("\\bprinter to the honou?rable commons-house of assembly", " _printer_to_house_of_commons_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  publisher_data_string <- gsub("\\bprinter to the honou?rable cit(y|ie) of london", " _printer_to_city_of_london_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  publisher_data_string <- gsub("\\bprinter to the honou?rable cit(y|ie) of dublin", " _printer_to_city_of_dublin_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  publisher_data_string <- gsub("\\bhonou?rable his majestys council\\b", " _privy_council_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  publisher_data_string <- gsub("\\b(and)|&|, council\\b", " _council_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  
+  # excellencies etc.
+  # "Kings's and Queen's Most Excellent Majesties"
+  publisher_data_string <- gsub("\\b(king)?'?s? ? (and)? ?(queen)?'?s? ?(most)? ?(excellent)? ?(majesties)+", " _majesty_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  # "Queen's Most Excellent Majesty", "King's Most Excellent Majesty"
+  publisher_data_string <- gsub("\\b((queen)|(king))?'?s? ?(most)? ?(excellent)? ?(majesty)+", " _majesty_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  # "Queen's Most Excellent Majestie", "King's Most Excellent Majestie"
+  publisher_data_string <- gsub("\\b((queen)|(king))?'?s? ?(most)? ?(excellent)? ?(majestie)+", " _majesty_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  # "His Excellency the governo(u)r"
+  publisher_data_string <- gsub("\\bhis excellency the governou?r\\b", " _governor_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  publisher_data_string <- gsub("\\bhouse of representatives\\b", " _house_of_representatives_ ",
+                                publisher_data_string, ignore.case = TRUE)
+  publisher_data_string <- gsub("\\broyal society\\b", " _royal_society_ ",
+                                publisher_data_string, ignore.case = TRUE)
+
   # "the Duke of Clarence"
   publisher_data_string <- gsub("\\b(duke)+ (of)+ ([A-Z]+[a-z\\.'`]+)( |\\W)", " _duke_of_ _\\3 \\4",
                                 publisher_data_string, ignore.case = TRUE)
@@ -81,15 +113,20 @@ clean_publisher_datastring <- function(publisher_data_string) {
                                 publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\bbook sellers( |\\b)", " booksellers ", publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\bco(\\.)?( |\\b)", " booksellers ", publisher_data_string, ignore.case = TRUE)
+  # "printed for the Companie of Stationers"
+  publisher_data_string <- gsub("\\b(company)|(companie) of stationers\\b", " _company_of_stationers_ ", publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\bcompany of stationers\\b", " _company_of_stationers_ ", publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\bcompany(\\b| )", " company ", publisher_data_string, ignore.case = TRUE)
   publisher_data_string <- gsub("\\bnews( |-)?carriers(\\b| )", " news-carriers ", publisher_data_string, ignore.case = TRUE)
-
+  publisher_data_string <- gsub("\\bnews( |-)?carriers(\\b| )", " news-carriers ", publisher_data_string, ignore.case = TRUE)
+  
   # -- names, initials --
   # "and H . Mozley," <- bring separated initials and full stops together again.
   publisher_data_string <- gsub("([A-Z]){1} \\. ", "\\1\\. ", publisher_data_string)
   # nonseparated intials: "J.J. Kugelberg"
   publisher_data_string <- gsub("\\b([A-Z])\\.([A-Z])\\. ", "\\1\\. \\2\\. ", publisher_data_string)
+  # nonseparated intials: "J.Kugelberg"
+  publisher_data_string <- gsub("\\b([A-Z])\\.([A-Z]){1}([a-z])+", "\\1\\. \\2\\3", publisher_data_string)
   
   # street number prefixes (no.)
   publisher_data_string <- gsub("\\bnumb\\. ", "\\no\\. ", publisher_data_string, ignore.case = TRUE)
