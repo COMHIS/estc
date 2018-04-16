@@ -83,6 +83,13 @@ epäluotettava, niin tästä voidaan hyvin lähteä liikkeelle ja saadaan
 sitten tietoa miten epäluotettava se tosiaan on.
 
 
+### Years
+
+`"6079680",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"English","(CU-RivES)R13940",NA,NA,NA,"Remarkeable passages: first, a prayer for the Parliament",15,1642,8,NA,NA,NA,"4to",NA,NA,FALSE,NA,NA,NA,NA,NA,"1625-1649","Ireland",79647,"Printed for W.G",51.50853,-0.12574,"London","England",FALSE,NA,NA,15,10,NA,NA,"4to",22,28,0,616,8,TRUE,FALSE,FALSE,427.777777777778,0.0002464,NA,"R13940","Pamphlets",10` is an example where publication_year (and publication_year_from) are `15`. publication_year_till is `1642`. Why?
+(there are also `publication_year`s of 19, 20, 24, 166, 654 and so on..) (edited)
+Original MARC has `<marc:subfield code="c">1642. Iuly 15.</marc:subfield>`. Is the date getting picked up as a year?
+
+
 ### Title
 
 Associate abbreviations (Cicero\ abbreviations*.csv/xlsx from CERL folder) to title cleanup. The list has a more general purpose and could hence be used also more widely in cleaning up catalog title fields. It is made as a general help for students and scholars within classics so it includes all kinds of relevant abbreviations. But since the OCD is a standard work within the field and the list is now (since Sep. 2016) publicly available I was thinking that we could use these abbreviations and then link to the OCD site: http://classics.oxfordre.com/page/abbreviation-list/
