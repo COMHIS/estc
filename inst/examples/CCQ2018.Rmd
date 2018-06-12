@@ -1,0 +1,24 @@
+---
+title: "CCQ 2018 Figures and Tables"
+author: "`r author`"
+date: "`r Sys.Date()`"
+output: markdown_document
+---
+
+# CCQ
+
+```{r init, echo=FALSE, message=FALSE}
+# Load libraries
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(reshape)
+library(estc)
+library(bibliographica)
+```
+
+```{r princeton, echo=FALSE, fig.width=10, fig.height=5}
+# Complete data
+df <- df.preprocessed
+```
+
