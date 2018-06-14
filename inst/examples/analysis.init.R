@@ -15,3 +15,6 @@ rm(df)
 
 # Ensure compatibility			
 df.orig <- df.orig[match(df.preprocessed$original_row, df.orig$original_row),]
+
+df.preprocessed.orig <- df.preprocessed
+df <- df.preprocessed <- df.preprocessed.orig
