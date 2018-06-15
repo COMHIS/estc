@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti / Computational History Group"
-date: "2018-02-12"
+date: "2018-06-15"
 output: markdown_document
 ---
 
@@ -19,25 +19,4 @@ Top-20 publication places are shown together with the number of documents.
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 
 
-### Publication countries	
 
- * 54 [unique publication countries](output.tables/publication_country_accepted.csv); available for 477488 documents (99%).
- * 1 [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (0.1% of the unique places; can be added to [country mappings](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv))
- * 0 [potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first). NOTE: possible improvements should not be done in this output summary but instead in the [country mapping file](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv).
-
-
-|Country     | Documents (n)| Fraction (%)|
-|:-----------|-------------:|------------:|
-|England     |        357303|         74.4|
-|USA         |         41246|          8.6|
-|Scotland    |         40124|          8.4|
-|Ireland     |         27525|          5.7|
-|France      |          3718|          0.8|
-|Netherlands |          2035|          0.4|
-
-
-### Geocoordinates
-
- * NaN% of the documents were matched to geographic coordinates (based on [Geonames](http://download.geonames.org/export/dump/)).
- * 0 unique places (0% of all unique places and NaN% of all documents) are missing geocoordinates. See [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv).
- 

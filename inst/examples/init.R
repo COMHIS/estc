@@ -41,8 +41,8 @@ library(magrittr)
 author <- "Leo Lahti / Computational History Group"
 ntop <- 20
 timespan <- c(1460, 1800)
-datafile.preprocessed <- "data/unified/df.Rds"
-datafile.orig         <- "data/unified/df.raw.Rds"
+datafile.preprocessed <- "data/unified/polished/df.Rds"
+datafile.orig         <- "data/unified/polished/df.raw.Rds"
 
 # I/O definitions
 # make daily output folders TODO convert into function -vv

@@ -27,15 +27,15 @@ source("general.R") # See estc TODO file
 # df <- df.preprocessed <- df.preprocessed.orig
 # knit("Edinburgh.Rmd")
 
-df <- df.preprocessed <- df.preprocessed.orig
-knit("NorthAmerica.Rmd")
+#df <- df.preprocessed <- df.preprocessed.orig
+#knit("NorthAmerica.Rmd")
 
 # Slow:
 #df <- df.preprocessed <- df.preprocessed.orig
 #knit("Scotland.Rmd")
 
-df <- df.preprocessed <- df.preprocessed.orig
-knit("Princeton.Rmd")
+#df <- df.preprocessed <- df.preprocessed.orig
+#knit("Princeton.Rmd")
 
 df <- df.preprocessed <- df.preprocessed.orig
 knit("CCQ2018.Rmd")
