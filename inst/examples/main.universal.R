@@ -95,7 +95,9 @@ df.preprocessed <- data.enriched.specific$df.preprocessed
 # ----------------------------------------------------
 
 print("Saving updates on preprocessed data")
-saveRDS(df.preprocessed, file = "df.Rds", compress = TRUE)
+data.path <- "data/unified/polished/"
+data.file <- paste(data.path, "df.Rds", sep = "")
+saveRDS(df.preprocessed, file = data.file, compress = TRUE)
 
 # ----------------------------------------------------
 

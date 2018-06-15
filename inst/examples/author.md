@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti / Computational History Group"
-date: "2018-02-12"
+date: "2018-06-15"
 output: markdown_document
 ---
 

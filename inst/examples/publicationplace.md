@@ -19,8 +19,8 @@ Top-20 publication places are shown together with the number of documents.
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 
 
-### Publication countries	
 
+<<<<<<< HEAD
  * 54 [unique publication countries](output.tables/publication_country_accepted.csv); available for 480566 documents (99%).
  * 3 [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (0.3% of the unique places; can be added to [country mappings](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * 0 [potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first). NOTE: possible improvements should not be done in this output summary but instead in the [country mapping file](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv).
@@ -49,3 +49,5 @@ Top-20 publication places are shown together with the number of documents.
 
 
 
+=======
+>>>>>>> a5e39433a300987baf604343146516c1d289be20
