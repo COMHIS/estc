@@ -36,10 +36,6 @@ source("general.R") # See estc TODO file
 
 #df <- df.preprocessed <- df.preprocessed.orig
 #knit("Princeton.Rmd")
-
-df <- df.preprocessed <- df.preprocessed.orig
-knit("CCQ2018.Rmd")
-
 df <- df.preprocessed <- df.preprocessed.orig
 
 # Archived - done with history data

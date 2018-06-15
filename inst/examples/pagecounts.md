@@ -9,6 +9,9 @@ output: markdown_document
 ## ESTC/ECCO comparison
 
 
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
 
 There are 207613 ECCO documents and 207613 have an ESTCID. Some of the ECCO entries refer to the same ESTCID; 206911 ECCO documents have a direct match in ESTC. The number of unique ECCO documents that have ESTC ID  is 184327 and 99.7% of these have a match in ESTC.
 
