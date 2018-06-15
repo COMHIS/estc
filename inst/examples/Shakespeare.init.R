@@ -15,7 +15,7 @@ library(magrittr)
 author <- "Leo Lahti"
 ntop <- 20
 timespan <- c(1460, 1830)
-datafile.preprocessed <- "df.Rds"
+datafile.preprocessed <- "data/unified/polished/df.Rds"
 datafile.orig <- "data/unified/polished/df.raw.Rds"
 output.folder <- "output.tables/"
 
