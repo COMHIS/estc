@@ -1,55 +1,55 @@
-Name	Count
-Total count (na.rm TRUE): 	477488
-England	357303
-USA	 41246
-Scotland	 40124
-Ireland	 27525
-France	  3718
-Netherlands	  2035
-Canada	  1152
-Germany	   892
-Northern Ireland	   883
-Belgium	   619
-India	   580
-Switzerland	   289
-Jamaica	   265
-Italy	   233
-Barbados	    60
-Antiqua	    54
-Haiti	    53
-Dominica	    45
-Austria	    39
-Denmark	    38
-St Vincent	    37
-Saint Kitts and Nevis	    36
-Sweden	    36
-Grenada	    31
-Russia	    26
-Bahamas	    23
-Isle of Man	    18
-Spain	    15
-Guernesey	    13
-Poland	    12
-Guernsey	    11
-Martinique	    11
-Portugal	    11
-Malta	    10
-Guadaloupe	     5
-Cuba	     4
-Iraq	     4
-South Africa	     4
-Trinidad and Tobago	     4
-Australia	     3
-Czech Republic	     3
-Latvia	     3
-Ambiguous	     2
-Aruba	     2
-Sri Lanka	     2
-Suriname	     2
-Hungary	     1
-Israel	     1
-Mexico	     1
-Saint Lucia	     1
-Sierra Leone	     1
-St Eustatius	     1
-Turkey	     1
+Name	Count	Percentage
+Total count (na.rm TRUE): 	480566	
+England	359450	74.80
+USA	 41719	 8.68
+Scotland	 40336	 8.39
+Ireland	 27677	 5.76
+France	  3750	 0.78
+Netherlands	  2044	 0.43
+Canada	  1161	 0.24
+Germany	   896	 0.19
+Northern Ireland	   890	 0.19
+Belgium	   629	 0.13
+India	   591	 0.12
+Switzerland	   289	 0.06
+Jamaica	   269	 0.06
+Italy	   236	 0.05
+Barbados	    60	 0.01
+Antiqua	    55	 0.01
+Haiti	    54	 0.01
+Dominica	    45	 0.01
+Austria	    39	 0.01
+Denmark	    38	 0.01
+St Vincent	    37	 0.01
+Saint Kitts and Nevis	    36	 0.01
+Sweden	    36	 0.01
+Grenada	    33	 0.01
+Russia	    26	 0.01
+Bahamas	    24	 0.00
+Isle of Man	    18	 0.00
+Spain	    15	 0.00
+Guernesey	    13	 0.00
+Poland	    12	 0.00
+Guernsey	    11	 0.00
+Martinique	    11	 0.00
+Portugal	    11	 0.00
+Malta	    10	 0.00
+Guadaloupe	     5	 0.00
+Cuba	     4	 0.00
+Iraq	     4	 0.00
+South Africa	     4	 0.00
+Trinidad and Tobago	     4	 0.00
+Australia	     3	 0.00
+Czech Republic	     3	 0.00
+Latvia	     3	 0.00
+Ambiguous	     2	 0.00
+Aruba	     2	 0.00
+Sri Lanka	     2	 0.00
+Suriname	     2	 0.00
+Hungary	     1	 0.00
+Israel	     1	 0.00
+Mexico	     1	 0.00
+Saint Lucia	     1	 0.00
+Sierra Leone	     1	 0.00
+St Eustatius	     1	 0.00
+Turkey	     1	 0.00
