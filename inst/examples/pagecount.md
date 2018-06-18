@@ -1,7 +1,13 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti / Computational History Group"
+<<<<<<< HEAD
 date: "2018-04-26"
+||||||| merged common ancestors
+date: "2018-02-12"
+=======
+date: "2018-06-16"
+>>>>>>> 840b441b681e9bee99cadd4e49cdb2da6e7f7eae
 output: markdown_document
 ---
 
@@ -84,7 +90,18 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 Note: there are 10931 documents that have some dimension info but sheet area information could not be calculated. 
 
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+
+```
+## Error in regression_plot(paper ~ publication_year, df2): could not find function "regression_plot"
+```
+
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)
+
+```
+## Error in regression_plot(n ~ publication_year, df2): could not find function "regression_plot"
+```
+
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
 ![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
 
