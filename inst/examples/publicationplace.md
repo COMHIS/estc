@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti / Computational History Group"
-date: "2018-02-12"
+date: "2018-04-26"
 output: markdown_document
 ---
 
@@ -41,3 +41,11 @@ Top-20 publication places are shown together with the number of documents.
  * NaN% of the documents were matched to geographic coordinates (based on [Geonames](http://download.geonames.org/export/dump/)).
  * 0 unique places (0% of all unique places and NaN% of all documents) are missing geocoordinates. See [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv).
  
+
+### Publication geography
+
+ * 16 [unique countries](output.tables/publication_geography_country_accepted.csv) on geographical region considered in the publication; available for 22942 documents (5%).
+ * 12671 [unique places](output.tables/publication_geography_place_accepted.csv) on geographical region considered in the publication; available for 136243 documents (28%).
+
+
+
