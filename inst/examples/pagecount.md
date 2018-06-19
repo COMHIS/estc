@@ -1,13 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti / Computational History Group"
-<<<<<<< HEAD
-date: "2018-04-26"
-||||||| merged common ancestors
-date: "2018-02-12"
-=======
-date: "2018-06-16"
->>>>>>> 840b441b681e9bee99cadd4e49cdb2da6e7f7eae
+date: "2018-06-19"
 output: markdown_document
 ---
 
@@ -61,23 +55,11 @@ count estimate.
 
 ### Document size distribution
 
-
-```
-## Error in FUN(X[[i]], ...): object '.group' not found
-```
+![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
 Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18758 documents that have missing pagecount info in the original data):
 
-
-```
-## Error in grouped_indices_grouped_df_impl(.data): Column `pagecount` is unknown
-```
-
-```
-## Error in FUN(X[[i]], ...): object '.group' not found
-```
-
-<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
 
@@ -90,18 +72,7 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 Note: there are 10931 documents that have some dimension info but sheet area information could not be calculated. 
 
-
-```
-## Error in regression_plot(paper ~ publication_year, df2): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)
-
-```
-## Error in regression_plot(n ~ publication_year, df2): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
 ![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
 
@@ -136,20 +107,10 @@ Gatherings height: does it change over time? How increased printing activity is 
 
 Page counts: does it change over time? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
 
-
-```
-## Error in FUN(X[[i]], ...): object '.group' not found
-```
-
-![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)
+![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-4.png)
 
 
 Same for documents that have a sufficient number of pages:
 
-
-```
-## Error in FUN(X[[i]], ...): object '.group' not found
-```
-
-![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)
+![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-4.png)
 
