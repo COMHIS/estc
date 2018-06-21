@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Leo Lahti / Computational History Group"
-date: "2018-06-19"
+date: "2018-06-21"
 output: markdown_document
 ---
 
@@ -59,7 +59,16 @@ count estimate.
 
 Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18758 documents that have missing pagecount info in the original data):
 
-<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
+
+```
+## Error in grouped_indices_grouped_df_impl(.data): Column `pagecount` is unknown
+```
+
+```
+## Error in FUN(X[[i]], ...): object 'documents' not found
+```
+
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
 

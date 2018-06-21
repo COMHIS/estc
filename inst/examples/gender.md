@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Leo Lahti / Computational History Group"
-date: "2018-06-19"
+date: "2018-06-21"
 output: markdown_document
 ---
 
