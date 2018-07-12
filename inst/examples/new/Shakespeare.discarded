@@ -1,0 +1,12 @@
+#- Publisher timelines.
+# - Miten Worksien julkaisijat muuttuvat ajassa.
+# df <- subset(tabs$Shakespeare, type == "Works")
+# nrow(df) -> 78
+#
+#dfs <- df %>% group_by(publication_decade, publisher) %>% select(publication_decade, publisher) %>% tally() %>% spread(key = publication_decade, value = n, fill = 0)
+# dfs <- dfs[rowSums(dfs[, -1]) > 1,]
+# Dataa on liian vähän. Vain muutama julkaisu per julkaisija-
+
+# - Yksi vaihtoehto olisi yhdistää paper consumption Top Publishereihin.
+#
+

@@ -1,0 +1,714 @@
+---
+title	    : Library catalogues and open quantification of knowledge production 1470-1800
+author	    : Mikko Tolonen, Leo Lahti
+job         : University of Helsinki
+license     : by-sa
+date	    : June 12, 2015
+github      : {user: ropengov, repo: slides}
+framework   : shower # {io2012, html5slides, shower, dzslides, ...}
+highlighter : prettify  # {highlight.js, prettify, highlight}
+hitheme     : solarized_light # 
+widgets     : [bootstrap, quiz, shiny, interactive, mathjax] 
+mode        : selfcontained # {standalone, draft}
+ext_widgets : {rCharts: [libraries/nvd3, libraries/highcharts]}
+output: 
+  slidy_presentation: 
+    duration: 45
+    footer: "Copyright (C) 2015, Leo Lahti"
+---
+
+
+```{r, echo=FALSE, message=FALSE}
+library(rmarkdown)
+library(knitr)
+library(ggplot2)
+library(estc)
+library(bibliographica)
+opts_chunk$set(cache=TRUE)
+library(dplyr)
+library(ggthemes)
+#ggplot_set(theme_bw(20))
+df <- df.preprocessed
+```
+
+
+## Open analytical ecosystems for digital humanities
+
+### Open science principles
+
+ * Emphasis on research process
+
+ * Transparency (data, methods, reporting)
+
+ * Reproducibility
+
+ * Openness (unlimited access and reuse)
+
+ * New modes of collaboration and initiatives
+
+ * Access to data is an institutional question. Using and tidying up
+   the data is a research question
+
+ * Automation vs. point-n-click ?
+
+
+## Library catalogues: the data
+
+### https://github.com/rOpenGov/estc
+
+ * English Short Title Collection (ESTC) from British Library
+ * `r nrow(df)` documents on history (~10% of the ESTC)
+ * Finland (Fennica), Europe (other catalogues), etc. etc.
+ * New use for old databases
+ * Quantitative knowledge production: book sizes, publishers, authors..
+
+```{r 20150611paris-intro, echo=FALSE, message=FALSE, cache=TRUE, fig.height=5, fig.width=12}
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+library(sorvi)
+p <- regression_plot(paper ~ publication_year, df2) 
+p <- p + ggtitle("Total annual paper consumption")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption")
+print(p)
+```
+
+
+
+## 
+
+![ecosystem](pics2/omat/CompSocSci/ecosystem.png)
+
+
+
+
+
+## Publishing “history” in Britain and North America 1470-1800
+
+### Research questions
+
+ 1. **Who** wrote history?  
+ 1. **Where** was it published? 
+ 1. **How** does the publishing of history change over the early modern period?
+
+
+
+## ESTC raw data
+
+Hierarchical information, only some fields relevant for our study
+  
+![estcraw](pics2/omat/history/estcraw.png)
+
+
+
+
+## Workflow, step by step
+
+ * Retrieve -> Parse -> Tidy up 
+ * Enrich & Analyse
+ * Report & Use
+
+![workflow](pics2/omat/Louhos/workflow.png)
+
+
+## Load the data and tools
+
+Load the data and tools in R:
+
+```{r 20150611paris-init2, message=FALSE, eval=TRUE, cache=TRUE}
+#load("df.RData")
+library(bibliographica)
+#kable(t(df.orig[22495, ]))
+```
+
+## Polishing page counts
+
+Raw page counts
+
+```{r 20150611paris-pagecount, message=FALSE}
+rawpages <- as.character(unique(df.orig[sample(nrow(df.orig), 6), "physical_extent"]))
+#kable(rawpages)
+```
+
+
+Polish page counts 
+
+```{r 20150611paris-pageount3, message=FALSE}
+polish_pages(rawpages)$total.pages
+```
+
+
+## Document dimension field
+
+```{r 20150611paris-docdim1, message=FALSE}
+#kable(as.character(sample(unique(df.orig$physical_dimension), 6)))
+```
+
+## Polish document dimensions
+
+Pick dimension information
+
+```{r 20150611paris-docdim2, message=FALSE, warning=FALSE}
+#kable(polish_dimensions("10 cm (12⁰)"))
+```
+
+## Fill missing dimensions
+
+Estimate missing dimensions
+
+```{r 20150611paris-docdim3, message=FALSE, warning=FALSE}
+#kable(polish_dimensions("10 cm (12⁰)", fill = TRUE))
+```
+
+
+
+## Publication place
+
+Many versions of London:
+
+```{r 20150611paris-pubplace2, message=FALSE}
+x <- as.character(df.orig[, "publication_place"])
+top_plot(x[grep("London", x)], ntop = 20)
+```
+
+In total `r length(unique(x[grep("London", x)]))` unique places with the string
+London - tidying up and synonyme lists !
+
+
+## Ambiguous authors
+
+```{r 20150611paris-authors12, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
+a <- which(sapply(split(df$author_birth, df$author_name), function (x) {length(unique(x))}) > 2)
+dfa <- df[, c("author_name", "author_birth", "author_death")]
+dfa <- filter(dfa, !is.na(author_name) & (author_name %in% names(a)))
+dfa <- dfa[!duplicated(dfa), ]
+#dfa <- dfa[match(names(a), dfa$author_name),]
+dfa <- arrange(dfa, author_birth)
+# Order authors by birth year
+#dfa$author_name <- factor(dfa$author_name, levels = dfa$author_name)
+dfa$index <- sample(factor(1:nrow(dfa)))
+
+p <- ggplot(dfa)
+p <- p + geom_segment(aes(y = author_name, yend = author_name, x = author_birth, xend = author_death, color = index), size = 2) 
+p <- p + theme(axis.text.y = element_text(size = 9))
+p <- p + xlab("Author life span (year)") + ylab("")
+p <- p + guides(color = FALSE)
+print(p)
+```
+
+## Author gender 
+
+Enriching data by external information
+
+```{r 20150611paris-authorgender1, message=FALSE}
+as.matrix(get_gender(polish_author(sample(unique(df$author_name), 20))$names$first)$gender)
+```
+
+## Workflow
+
+![workflow](pics2/omat/Louhos/workflow.png)
+
+
+## Who wrote history?
+
+ * Authors (number of titles / paper use / life years)
+
+ * Times 1470 - 1800 ?
+
+ * Places: London, Ireland, Scotland, North America.. ?
+
+ * Language ?
+
+ * Gender ?
+
+
+## Who wrote history?
+
+### Top-10 authors (number of titles)
+
+```{r 20150611paris-, message=FALSE}
+top_plot(df, "author.unique", 20)
+```
+
+## Who wrote history?
+
+### Top-10 female authors (number of titles)
+
+
+```{r 20150611-topauthfemale, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=6}
+df2 <- df %>% filter(author_gender == "female")
+top_plot(df2, "author.unique", 20)
+```
+
+
+## Who wrote history?
+
+### Title count vs. paper consumption 
+
+```{r 20150611paris-authorpaper1, message=FALSE, echo=FALSE}
+library(dplyr)
+df2 <- df %>%
+    filter(!is.na(author.unique)) %>%
+    group_by(author.unique) %>%
+    summarize(paper = sum(paper, na.rm = TRUE),
+	      docs = n()) %>%
+    arrange(desc(docs))
+```
+
+Document count vs. paper for top authors
+
+```{r 20150611paris-authorpaper2, message=FALSE, fig.width=8, fig.height=8}
+ggplot(df2, aes(x = docs, y = paper)) + geom_text(aes(label = author.unique), size = 4)
+```
+
+
+## Who wrote history?
+
+Gender distribution for authors over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
+
+```{r summarygender, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- table(df$author_gender)
+round(tab/sum(tab), 3)
+```
+
+```{r summarygendertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+dfd <- df %>% group_by(publication_decade) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
+dfy <- df %>% group_by(publication_year) %>% summarize(n.male = sum(author_gender == "male", na.rm = T), n.female = sum(author_gender == "female", na.rm = T), n.total = n()) %>% mutate(p.male = 100*n.male/n.total, p.female = 100*n.female/n.total) %>% filter(n.total > 25) 
+library(sorvi)
+p <- regression_plot(p.female ~ publication_decade, dfd, main = "Female authors proportion")
+p <- p + ylab("Female authors (%)")
+print(p)
+```
+
+
+
+
+
+## Who wrote history?
+
+### Other questions to explore
+
+ * Publishing times 1470 - 1800 ?
+
+ * Places: London, Ireland, Scotland, North America.. ?
+
+ * Language ?
+
+
+```{r 20150611paris-places1, message=FALSE, eval = FALSE}
+df2 <- df %>% filter(publication.place == "London")
+df2 <- df %>% filter(language == "French")
+df2 <- df %>% filter(publication_year >= 1700 & publication_year < 1800)
+top_plot(df2, "author.unique", 10)
+```
+
+
+## 2. **Where** was history published ?
+
+### Top-10 places (number of titles)
+
+```{r 20150611paris-places1b, message=FALSE}
+top_plot(df, "publication_place", 10)
+```
+
+
+## **Where** was history published ?
+
+```{r 20150611paris-places1bc, message=FALSE}
+df2 <- df %>% filter(publication_country %in% c("France", "Germany")) %>%
+    group_by(publication_decade, publication_country) %>%
+    summarize(paper = sum(paper, na.rm = TRUE), docs = n()) 
+p <- ggplot(df2, aes(x = publication_decade, y = docs, color = publication_country)) +
+     geom_point() + geom_smooth()
+print(p)     
+```
+
+
+## **Where** was history published ?
+
+### Title count vs. paper 
+
+
+```{r 20150611paris-places2, message=FALSE, echo=FALSE}
+df2 <- df %>%
+    filter(!is.na(publication_place)) %>%
+    group_by(publication_place) %>%
+    summarize(paper = sum(paper, na.rm = TRUE),
+	      docs = n()) %>%
+    arrange(desc(docs))
+kable(df2)
+```
+
+```{r 20150611paris-places3, message=FALSE}
+ggplot(df2,
+     aes(x = log10(1 + docs), y = log10(1 + paper))) +
+     geom_text(aes(label = publication_place), size = 3) +
+     scale_x_log10() + scale_y_log10() 
+```
+
+## **Where** was history published ?
+
+Scotland, Ireland, US comparison:
+
+```{r 20150611paris-places4, message=FALSE}
+df2 <- df %>%
+    filter(!is.na(publication_country)) %>%
+    group_by(publication_country) %>%
+    summarize(paper = sum(paper, na.rm = TRUE),
+	      docs = n()) %>%
+    arrange(desc(docs)) %>%
+    filter(publication_country %in% c("Scotland", "Ireland", "USA"))
+
+p1 <- ggplot(df2, aes(x = publication_country, y = docs)) + geom_bar(stat = "identity") + ggtitle("Title count")
+p2 <- ggplot(df2, aes(x = publication_country, y = paper)) + geom_bar(stat = "identity") + ggtitle("Paper consumption")
+grid.arrange(p1, p2, nrow = 1)
+```        
+
+## **Where** was history published ?
+
+```{r 20150611paris-places5, message=FALSE, fig.width=14, fig.height=6}
+#p1 <- ggplot(subset(melt(df2), variable == "paper"), aes(y = value, x = publication_country)) + geom_bar(stat = "identity") + ylab("Paper consumption")
+#p2 <- ggplot(subset(melt(df2), variable == "docs"), aes(y = value, x = publication_country)) + geom_bar(stat = "identity") + ylab("Title count")
+#grid.arrange(p1, p2, nrow = 1)
+```
+
+## 3. How does the history publishing change in the early modern period ?
+
+What can we say about the nature of the documents? Pamphlets (<32
+   pages) vs. Books (>120 pages) ? Book size statistics and
+   development over time
+ 
+```{r 20150611paris-time1, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+df$document.type <- rep(NA, nrow(df))
+df$document.type[df$pagecount > 32] <- "book"
+df$document.type[df$pagecount <= 32] <- "pamphlet"
+df$document.type <- factor(df$document.type)
+
+df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = document.type, color = document.type))
+p <- p + geom_point()
+p <- p + geom_smooth(method = "loess")
+p <- p + ggtitle("Paper consumption per document document.type")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption")
+print(p)
+```
+
+
+
+
+
+
+## Nature of the documents
+
+```{r 20150611paris-paper2b, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=14, fig.height=6, cache=TRUE}
+library(dplyr)
+library(ggplot2)
+
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+library(sorvi)
+p <- regression_plot(n ~ publication_year, df2) 
+p <- p + ggtitle("Title count")
+p <- p + xlab("Year")
+p <- p + ylab("Documents (n)")
+p1 <- p
+
+p <- regression_plot(paper ~ publication_year, df2) 
+p <- p + ggtitle("Paper consumption")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption")
+p2 <- p
+
+grid.arrange(p1, p2, nrow = 1)
+```
+
+
+## Nature of the documents
+
+Estimated paper consumption by document size
+
+```{r 20150611paris-paper6, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=7}
+df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
+p <- ggplot(df2, aes(y = paper, x = publication_year, group = gatherings, color = gatherings))
+p <- p + geom_point()
+p <- p + geom_smooth(method = "loess", size = 1)
+p <- p + ggtitle("Annual paper consumption by gatherings")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption")
+print(p)
+```
+
+
+## Nature of the documents
+
+### Document sizes over time
+
+```{r 20150611paris-paper3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=7}
+
+df2 <- df %>% group_by(publication_year) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper/n))
+p <- p + geom_point()
+p <- p + geom_line()
+p <- p + ggtitle("Average paper consumption per document")
+p <- p + xlab("Year")
+p <- p + ylab("Average paper consumption per document")
+p1 <- p
+
+df2 <- filter(df, !is.na(gatherings.original) & (!is.na(height.original) | !is.na(width.original))) %>% group_by(gatherings.original, publication_decade) %>% 
+  summarize(mean.height = mean(height.original, na.rm = T),
+    	    mean.width = mean(width.original, na.rm = T), n = n())
+
+p <- ggplot(df2, aes(x = publication_decade, y = mean.height, group = gatherings.original, color = gatherings.original))
+p <- p + geom_point(aes(size = n))
+p <- p + geom_line(method = "loess")
+p <- p + ggtitle("Height")
+p2 <- p
+
+grid.arrange(p1, p2, nrow = 1)
+```
+
+
+
+
+## Serious statistical analysis (also in the Humanities)
+
+ * ~80 % of statistical analysis is tidying up of the data. Too often
+   neglected and implicitly assumed by many tools. We provide new
+   efficient tools also for this
+
+ * With open data principles, no need to reinvent the wheel for the
+   same (or similar) datasets
+
+ * Things become stable. The research tool is corrected and perfected
+   when it is transparent & potentially used also by others
+
+ * Possibilities of reuse with similar datasets is great
+
+ * Automatization allows reporting with minimal human intervention
+
+
+
+## Open science in (digital?) humanities
+
+ * Innovative use of computational and statistical methods
+
+ * New tools for old questions derived from the discipline itself
+
+ * Vast amounts of useful data not being shared or utilized
+
+ * Open access not enough. We need open sharing of research data and
+   methods to study “traditional” questions
+
+
+##
+
+![ioannidis](pics2/OpenAccess/Ioannidisslide.png)
+
+## These slides are automatically generated as well
+
+![workflow](pics2/omat/Louhos/workflow.png)
+
+
+## Barriers to open science in the humanities
+
+ * Institutions that hold the raw data are reluctant to give full
+   access to data (even to researchers of the same institution). Why?
+
+ * Research process is not opened and research data is not shared in
+   the Humanities. Transparency, reproduction, collaboration, new
+   initiatives are missing. Why?
+
+ * Short answer: Cultural change takes time. We need concrete examples
+   in the core field of the Humanities that actually prove OPEN DATA
+   PRINCIPLES as useful.
+
+
+##
+
+![ropengov](pics2/omat/Louhos/ropengovfrontpage.png)
+
+ * Statistical software for computational social sciences & humanities
+ * Open source / Fully transparent
+ * Reproducible workflows
+ * Preprocessing, enrichment, integration, analysis, visualization, reporting..
+ * Strong developer community (Finland + International)
+ * Practical & low-cost research tools rather than polished software product
+ * Based on analogous ecosystems from other fields (bioinformatics, ecology..)
+
+
+
+
+
+## Thomason tracts 1640-1660
+
+```{r summarypublicationyear, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+p <- ggplot(df, aes(x = publication_year)) 
+p <- p + geom_histogram(binwidth = 5)
+p <- p + ggtitle("Publication year")
+print(p)
+```
+
+## Gatherings and page counts
+
+```{r summarysizecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+dfs <- df[, c("width", "height", "gatherings", "area")] %>%
+          filter(!is.na(area) & !is.na(gatherings))
+dfs <- dfs[, c("gatherings", "area")]
+dfm <- melt(table(dfs))
+names(dfm) <- c("gatherings", "area", "documents")
+dfm$gatherings <- factor(dfm$gatherings, levels = levels(df$gatherings))
+p <- ggplot(dfm, aes(x = gatherings, y = area)) 
+p <- p + scale_y_continuous(trans = "log2")
+p <- p + geom_point(aes(size = documents))
+p <- p + scale_size(trans="log10")
+p <- p + ggtitle("Document size distribution: gatherings vs. area")
+p <- p + xlab("Size (gatherings)")
+p <- p + ylab("Size (area)")
+p <- p + coord_flip()
+print(p)
+```
+
+
+## Page counts
+
+Page count: distribution for documents with different sizes. 
+
+```{r pagecountstat, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+
+  theme_set(theme_bw(15))
+
+  # Single-volume docs
+  dff <- filter(df, volcount == 1 & is.na(volnumber))
+
+  dff2 <- dff %>% group_by(gatherings, 
+		    	     pagecount) %>%
+			     tally()
+
+  dff3 <- dff %>% group_by(gatherings) %>%
+		    summarize(mean = mean(pagecount, na.rm = T), 
+		              median = median(pagecount, na.rm = T))
+
+  p <- ggplot(dff2, aes(y = gatherings, x = pagecount)) 
+  p <- p + geom_point(aes(size = n))
+  p <- p + geom_point(data = dff3, aes(y = gatherings, x = mean), col = "red", size = 3)
+  p <- p + geom_point(data = dff3, aes(y = gatherings, x = median), col = "blue", size = 3)
+  p <- p + scale_x_log10(breaks = c(1, 10, 100, 1000))
+  p <- p + xlab("Total page count (blue: median; red: mean)")
+  p <- p + ylab("Document size")
+  p <- p + ggtitle(paste("Pages: single-volume documents (n=", nrow(dff), ")", sep = ""))
+  p1 <- p 
+
+  # Multi-volume docs
+  theme_set(theme_bw(15))
+  dff <- filter(df, 
+ 	   (volcount > 1 | 
+	   (!is.na(volnumber)))
+	   #(items == 1 & !is.na(volnumber)))
+	   #pagecount > 10
+	   )
+  dff2 <- dff %>% group_by(gatherings, 
+		    	     pagecount) %>%
+		    	     tally()
+
+  dff3 <- dff %>% group_by(gatherings) %>%
+		    summarize(mean = mean(pagecount, na.rm = T), 
+		     median = median(pagecount, na.rm = T))
+
+  p <- ggplot(dff2, aes(y = gatherings, x = pagecount)) 
+  p <- p + geom_point(aes(size = n))
+  p <- p + geom_point(data = dff3, aes(y = gatherings, x = mean), col = "red", size = 3)
+  p <- p + geom_point(data = dff3, aes(y = gatherings, x = median), col = "blue", size = 3)
+  p <- p + scale_x_log10(breaks = c(1, 10, 100, 1000))
+  p <- p + xlab("Total page count (blue: median; red: mean)")
+  p <- p + ylab("Document size")
+  p <- p + ggtitle(paste("Pages: multi-volume documents (n=", nrow(dff), ")", sep = ""))
+  p2 <- p 
+
+library(gridExtra)
+grid.arrange(p1, p2, nrow = 1)
+```
+
+## How does the history publishing change in the early modern period ?
+
+```{r 20150611paris-time2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+df2 <- df %>% group_by(publication_year, document.type) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = n, group = document.type, color = document.type))
+p <- p + geom_point()
+p <- p + geom_smooth(method = "loess")
+p <- p + ggtitle("Documents per document type")
+p <- p + xlab("Year")
+p <- p + ylab("Documents (n)")
+print(p)
+```
+
+## Nature of the documents
+
+Estimated title count by document size
+
+```{r 20150611paris-paper7, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+df2 <- df %>% group_by(publication_year, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+df2 <- filter(df2, gatherings %in% names(which(table(df2$gatherings) >= 50)))
+p <- ggplot(df2, aes(y = n, x = publication_year, group = gatherings, color = gatherings))
+p <- p + geom_point()
+p <- p + geom_smooth(method = "loess", size = 1)
+p <- p + ggtitle("Annual document count by size")
+p <- p + xlab("Year")
+p <- p + ylab("Documents (n)")
+print(p)
+```
+
+## Nature of the documents
+### Top authors
+
+```{r 20150611-topauth1, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+top.authors <- names(rev(sort(table(df$author.unique))))[1:10]
+df2 <- df %>% filter(author.unique %in% top.authors) %>% group_by(publication_year, author.unique) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = author.unique, color = author.unique))
+p <- p + geom_point()
+p <- p + geom_line()
+#p <- p + geom_smooth(method = "loess", size = 1)
+p <- p + ggtitle("Paper consumption per author")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption")
+print(p)
+```
+
+
+## Nature of the documents
+
+### Top authors title count
+
+```{r 20150611paris-paper8, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+p <- ggplot(df2, aes(x = publication_year, y = n, group = author.unique, color = author.unique))
+p <- p + geom_point()
+p <- p + geom_line()
+p <- p + ggtitle("Title count per author")
+p <- p + xlab("Year")
+p <- p + ylab("Documents (n)")
+print(p)
+```
+
+##
+
+![ropengov](pics2/OpenAccess/BlackBoxes.png)
+
+## How does the history publishing change in the early modern period ?
+
+ * Map visualization ?
+
+
+## How does the history publishing change in the early modern period ?
+
+Top-4 places (title count), mean page count over time.
+
+```{r 20150611paris-paper2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+df2 <- df %>% group_by(publication_place) %>% tally() %>% arrange(desc(n))
+top.places <- df2$publication_place[1:4]
+df2 <- df %>% filter(publication_place %in% top.places) %>%
+       group_by(publication_decade, publication_place) %>%
+       summarize(paper = sum(paper, na.rm = TRUE), n = n(), mean.pagecount = mean(pagecount, na.rm = TRUE)) %>%
+       arrange(desc(mean.pagecount))
+p <- ggplot(df2, aes(x = publication_decade, y = mean.pagecount, color = publication_place))
+p <- p + geom_point() + geom_smooth()
+print(p)
+```

@@ -1,0 +1,160 @@
+---
+title: "Page count summary"
+author: "`r author`"
+date: "`r Sys.Date()`"
+output: markdown_document
+---
+
+
+## ESTC/ECCO comparison
+
+```{r ecco, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
+# Compare page count info between ESTC and ECCO
+df <- df.preprocessed
+df.orig <- readRDS("data/unified/polished/df.raw.Rds")
+
+# Read ECCO dump
+ecco <- read_ecco(version = 2)
+
+# Polish doc ID
+df$id <- df$system_control_number
+df$id <- gsub("\\(CU-RivES\\)", "", df$id)
+
+# Add ECCO page counts to our data
+df$pagecount.ecco <- ecco[match(df$id, as.character(ecco$id)), "totalPages"]
+df$ecco.id <- ecco[match(df$id, as.character(ecco$id)), "id"]
+# Add info on whether the page count was estimated or not
+df$pagecount.estimated <- !is.na(df$pagecount) & is.na(df$pagecount.orig)
+
+# Augmented pagecounts 
+o <- subset(df, pagecount.estimated)$original_row
+comptab <- cbind(
+	estc.id = as.character(df[match(o, df$original_row),"system_control_number"]),
+	ecco.id = as.character(df[match(o, df$original_row), "ecco.id"]),	
+	gatherings = as.character(df[match(o, df$original_row),"gatherings"]),
+	physical_extent = df.orig[match(o, df.orig$original_row),"physical_extent"],	
+	estc = df[match(o, df$original_row),"pagecount"],
+	ecco = df[match(o, df$original_row),"pagecount.ecco"],
+	estc.volcount = df[match(o, df$original_row),"volcount"],
+	estc.volnumber = df[match(o, df$original_row),"volnumber"],
+	ecco.hits = rep(NA, length(o)),
+	year = df[match(o, df$original_row),"publication_year"],	
+	author = df[match(o, df$original_row),"author"],	
+	title = as.character(df[match(o, df$original_row),"title"])
+	)
+# Exclude cases with no ECCO ID	
+comptab[which(comptab[, "ecco.id"] == "NA"), "ecco.id"] <- NA
+comptab <- comptab[!is.na(comptab[, "ecco.id"]),]	
+# Sum up ECCO hits
+for (i in 1:nrow(comptab)) {
+  myid <- comptab[i,"ecco.id"]
+  dfs <- subset(df, id == myid)
+  ecco.set <- subset(ecco, id == myid)  
+  if (is.na(dfs$volcount) & !is.na(dfs$volnumber)) {
+    # Pick the ecco pages just for this particular volume (volcount NA; volnumber given)
+    # assuming that the ECCO hits are in same order as the real volumes
+    # (this can be assumed to be a good approximation anyway)
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
+  } else {
+    comptab[i, "ecco"] <- sum(ecco.set$totalPages, na.rm = TRUE)
+  }
+  comptab[i, "ecco.hits"] <- nrow(ecco.set)
+}
+
+write.table(comptab, file = "~/tmp/estc_ecco_augmented.csv", quote = F, row.names = F, sep = "\t")
+
+# -------------------------------------------------------------------
+
+# The differing pagecounts in ESTC/ECCO
+df2 <- df
+df2 <- subset(df, !pagecount.estimated)
+
+
+# This takes long time to run, so only do once
+skip <- TRUE
+# TODO: should be streamlined, this whole Rmd doc
+if (!skip) {
+  comptab <- cbind(
+	estc.id = as.character(df2[,"system_control_number"]),
+	ecco.id = as.character(df2[, "ecco.id"]),	
+	gatherings = df2[,"gatherings"],
+	physical_extent = df.orig[match(df2$original_row, df.orig$original_row), "physical_extent"],	
+	estc = df2[,"pagecount"],
+	ecco = df2[,"pagecount.ecco"],
+	estc.volcount = df2[,"volcount"],
+	estc.volnumber = df2[,"volnumber"],
+	ecco.hits = rep(NA, nrow(df2)),	
+	year = df2[,"publication_year"],	
+	author = df2[,"author"],	
+	title = df2[,"title"]	
+	)
+  # Exclude cases with no ECCO ID	
+  comptab[which(comptab[, "ecco.id"] == "NA"), "ecco.id"] <- NA
+  comptab <- comptab[!is.na(comptab[, "ecco.id"]),]
+
+  # Sum up all ECCO hits
+  for (i in 1:nrow(comptab)) {
+    myid <- comptab[i,"ecco.id"]
+    dfs <- subset(df2, id == myid)
+    if (is.na(dfs$volcount) & !is.na(dfs$volnumber)) {
+      # Pick the ecco pages just for this particular volume (volcount NA; volnumber given)
+      # assuming that the ECCO hits are in same order as the real volumes
+      # (this can be assumed to be a good approximation anyway)
+      ecco.set <- subset(ecco, id == myid)
+      # If ECCO lists multiple volumes then try to pick the indicated volume
+      comptab[i, "ecco"] <- sum(ecco.set$totalPages[dfs$volnumber], na.rm = TRUE)
+      comptab[i, "ecco.hits"] <- nrow(ecco.set)
+
+    } else {
+      comptab[i, "ecco"] <- sum(subset(ecco, id == myid)$totalPages, na.rm = TRUE)
+    }
+  }
+  comptab <- comptab[!comptab[, "estc"] == comptab[, "ecco"],]
+  o <- order(abs(comptab[, "estc"] - comptab[, "ecco"]), decreasing = TRUE)
+  comptab <- comptab[o,]
+
+  write.table(comptab, file = "~/tmp/estc_ecco_pagecount_mismatches.csv",
+		     quote = F, row.names = F, sep = "\t")
+
+  saveRDS(comptab, file = "comptab.Rds")
+  
+} else {
+
+  comptab <- readRDS("comptab.Rds")
+
+}
+
+#------------------------------------------------------------------------
+
+# Percentage of total ESTC pages vs. ECCO pages
+# across the shared docs
+coms <- intersect(ecco$id, df$id)
+total.match <- sum(subset(df, id %in% coms)$pagecount, na.rm = TRUE) / sum(subset(ecco, id %in% coms)$totalPages, na.rm = TRUE)
+
+# Prepare for the figure below
+dfs <- subset(df, !is.na(pagecount.ecco) & !is.na(pagecount))
+```
+
+There are `r nrow(ecco)` ECCO documents and `r sum(!ecco$id == "", na.rm = TRUE)` have an ESTCID. Some of the ECCO entries refer to the same ESTCID; `r sum(as.character(ecco$id) %in% df$id)` ECCO documents have a direct match in ESTC. The number of unique ECCO documents that have ESTC ID  is `r length(unique(as.character(ecco$id)))` and `r round(100*mean(unique(as.character(ecco$id)) %in% df$id), 1)`% of these have a match in ESTC.
+
+Total page count for the matched ESTC documents is `r round(100 * total.match, 1)`% of the total page count over the same ECCO documents. This quantifies the correspondence between ESTC and ECCO.
+
+Comparison between the page counts available in ESTC and ECCO helps to quantify the accuracy our automated page count cleaning and estimation procedure. Some ESTC page counts are missing in the original data and have been augmented based on predefined estimates for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where original page count info is available. In the ESTC/ECCO comparison, where pagecounts are available for both data sets, `r round(100 * mean(dfs$pagecount.estimated),2)`% of the pagecounts are based on estimates; pagecount for `r sum(df$pagecount.from.ecco, na.rm = TRUE)` ESTC documents has been replaced or augmented from ECCO, improving the correlation.
+
+
+```{r ecco2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=9, out.width="500px"}
+library(ggplot2)
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = pagecount, y = pagecount.ecco)) +
+       geom_point(aes(color = pagecount.estimated)) +
+       scale_x_log10() +
+       scale_y_log10() +       
+       xlab("Page count ESTC") +
+       ylab("Page count ECCO") +
+       ggtitle(paste("ECCO/ESTC page count comparison (n = ", nrow(dfs), ")", sep = "")) +
+       geom_abline(intercept = 0, slope = 1)
+print(p)
+```
+
+
+
