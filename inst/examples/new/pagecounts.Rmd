@@ -71,7 +71,7 @@ df2 <- subset(df, !pagecount.estimated)
 
 
 # This takes long time to run, so only do once
-skip <- TRUE
+skip <- FALSE
 # TODO: should be streamlined, this whole Rmd doc
 if (!skip) {
   comptab <- cbind(

@@ -18,7 +18,7 @@ add_ecco_pagecounts <- function (df, df.orig, ecco.version = 2) {
   manually.accepted <- c("N24575", "P2750", "P2626", "P2938", "P2831")
 
   # Polish doc ID
-  df$id <- df$system_control_number
+  df$id <- df.orig$system_control_number
   df$id <- gsub("\\(CU-RivES\\)", "", df$id)
 
   # Augment with ECCO page counts

@@ -15,5 +15,5 @@ source(system.file("extdata/init.R", package = "bibliographica")) # all the sour
 df.orig <- load_initial_datafile(fs, ignore.fields, reload.data = FALSE)
 
 # Test with small data test set
-# df.orig <- df.orig[sample(1:nrow(df.orig), 1000),] # random 1000
+# df.orig <- df.orig[sample(1:nrow(df.orig), 1e4),] # random 1000
 

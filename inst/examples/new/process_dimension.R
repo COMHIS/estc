@@ -7,9 +7,9 @@ df <- df.orig
 # FIXME: this includes filling entries which
 # should go after initial polishing (enrich section)
 
-    # Fill in missing entries where estimates can be obtained:
-    # area, width, height, gatherings
-    # (also keep pure originals before fill in)
+# Fill in missing entries where estimates can be obtained:
+# area, width, height, gatherings
+# (also keep pure originals before fill in)
 df.tmp <- polish_dimensions(df[[field]],
 		fill = FALSE, verbose = verbose)
 df.tmp$original.row <- df.orig$original_row
@@ -19,6 +19,8 @@ df.preprocessed <- enrich_dimensions(df.tmp)
 
 print("Saving updates on preprocessed data")
 saveRDS(df.preprocessed, paste("data/unified/polished/", field, ".Rds", sep = ""), compress = TRUE)
+
+# -------------------------------------------------
 
 df <- df.preprocessed
 id <- field

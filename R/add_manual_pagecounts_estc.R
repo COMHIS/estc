@@ -18,10 +18,18 @@ add_manual_pagecounts_estc <- function (df) {
   # MissingPages-12mo.csv:1794	A journal during a residence in France	2 v. ;	1129 p.
   # MissingPages-12mo.csv:1794	A journal during a residence in France	2 v. ;	674 p.
 
+  # Ensure that all pagecount entries are found in ESTC
+  # otherwise the rest of this function will fail
+  rmind <- which(!pagecount$system_control_number %in% df$system_control_number)
+  if (length(rmind) > 0) {
+    warning(paste("The following system control numbers were not found from ESTC but have been listed for manual page number corrections:", paste(pagecount$system_control_number, collapse = ", ")))
+    pagecount <- pagecount[-rmind,]
+  }
+
   # Add manual page counts
   inds <- match(pagecount$system_control_number, df$system_control_number)
-  df[inds, "pagecount"] <- as.numeric(as.character(pagecount$pagecount))
 
+  df[inds, "pagecount"] <- as.numeric(as.character(pagecount$pagecount))
   # Add custom page counts and note their manual origin
   df[inds, "pagecount_from"] <- "custom"
   df[inds, "pagecount"] <- as.numeric(as.character(pagecount$pagecount))
