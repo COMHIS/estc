@@ -4,7 +4,6 @@ catalog <- "estc"
 summary.folder <- "summaries"
 this.folder <- getwd()
 
-
 # Languages to consider in cleanup.
 # TODO: recognize the necessary languages automatically ?
 languages <- c("english", "latin")
@@ -12,18 +11,11 @@ languages <- c("english", "latin")
 # Initialize the list of processed fields
 preprocessed <- list()
 
-# -----------------------
-
 # Update selected fields only - comment out if not needed
-# update.fields <- c("publication_place", "author_name", "author_date")
 update.fields <- NULL
 
 # Remove selected fields
 ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
-
-# reload.data <- FALSE
-
-# ------------------------
 
 library(ggplot2)
 library(devtools)
@@ -38,7 +30,6 @@ library(reshape2)
 library(gridExtra)
 library(knitr)
 library(magrittr)
-# load_all("~/Rpackages/bibliographica")
 
 # Set global parameters
 author <- "Leo Lahti / Computational History Group"
