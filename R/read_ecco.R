@@ -12,11 +12,11 @@ read_ecco <- function (version = 2) {
 
   # ECCOI	  
   if (version == 1) {
-
+  
     f <- "ecco.csv.gz"
     message(paste("Reading file", f))
     ecco <- read.csv(f) # Old dump CSV
-    
+  
   } else if (version == 2) {
 
     f <- "ecco2.json.gz"
