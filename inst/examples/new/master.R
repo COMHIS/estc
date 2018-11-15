@@ -1,7 +1,9 @@
-# common.R start point
 
+# Migrated
+# process_dimension.R # Indepdedent / Runs through with test set -> now migrated to COMHIS/estc-physicaldimension
+
+# common.R start point
 # note: order matters
-# process_dimension.R # Indepdedent / Runs through with test set -> now migrating to COMHIS/estc-physicaldimension
 process_pagecount.R # Depends: physical_dimension / Runs through with test set
 
 process_language.R  # Indepdedent / Runs through with test set
