@@ -11,10 +11,13 @@ output: markdown_document
 ```{r ecco, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 # Compare page count info between ESTC and ECCO
 df <- df.preprocessed
-df.orig <- readRDS("data/unified/polished/df.raw.Rds")
+#df.orig <- readRDS("data/unified/polished/df.raw.Rds")
+df.orig <- readRDS("df.raw.Rds")
 
 # Read ECCO dump
-ecco <- read_ecco(version = 2)
+if (!exists(ecco)) {
+  ecco <- read_ecco(version = 2)
+}
 
 # Polish doc ID
 df$id <- df$system_control_number
@@ -133,11 +136,15 @@ total.match <- sum(subset(df, id %in% coms)$pagecount, na.rm = TRUE) / sum(subse
 
 # Prepare for the figure below
 dfs <- subset(df, !is.na(pagecount.ecco) & !is.na(pagecount))
+cc <- cor(dfs$pagecount, dfs$pagecount.ecco, method = "spearman")
 ```
 
 There are `r nrow(ecco)` ECCO documents and `r sum(!ecco$id == "", na.rm = TRUE)` have an ESTCID. Some of the ECCO entries refer to the same ESTCID; `r sum(as.character(ecco$id) %in% df$id)` ECCO documents have a direct match in ESTC. The number of unique ECCO documents that have ESTC ID  is `r length(unique(as.character(ecco$id)))` and `r round(100*mean(unique(as.character(ecco$id)) %in% df$id), 1)`% of these have a match in ESTC.
 
 Total page count for the matched ESTC documents is `r round(100 * total.match, 1)`% of the total page count over the same ECCO documents. This quantifies the correspondence between ESTC and ECCO.
+
+The Spearman correlation between the ESTC and ECCO page counts is `r round(cc, 2)`. This includes also the augmented page count information that is based on estimates.
+
 
 Comparison between the page counts available in ESTC and ECCO helps to quantify the accuracy our automated page count cleaning and estimation procedure. Some ESTC page counts are missing in the original data and have been augmented based on predefined estimates for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where original page count info is available. In the ESTC/ECCO comparison, where pagecounts are available for both data sets, `r round(100 * mean(dfs$pagecount.estimated),2)`% of the pagecounts are based on estimates; pagecount for `r sum(df$pagecount.from.ecco, na.rm = TRUE)` ESTC documents has been replaced or augmented from ECCO, improving the correlation.
 
@@ -148,10 +155,47 @@ theme_set(theme_bw(20))
 p <- ggplot(dfs, aes(x = pagecount, y = pagecount.ecco)) +
        geom_point(aes(color = pagecount.estimated)) +
        scale_x_log10() +
-       scale_y_log10() +       
+       scale_y_log10() +
+       scale_color_manual(values = c("darkblue", "darkred")) +
        xlab("Page count ESTC") +
        ylab("Page count ECCO") +
        ggtitle(paste("ECCO/ESTC page count comparison (n = ", nrow(dfs), ")", sep = "")) +
+       geom_abline(intercept = 0, slope = 1)
+print(p)
+```
+
+
+
+
+
+
+Comparison without highlighting specific works. Showing the density of the points as well.
+
+```{r ecco3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=9, out.width="500px"}
+library(ggplot2)
+theme_set(theme_bw(25))
+dfss <- dfs %>% filter(!pagecount.estimated) %>%
+                mutate(diff = pagecount - pagecount.ecco)
+
+cc <- cor(dfss$pagecount, dfss$pagecount.ecco, method = "spearman")
+p <- ggplot(dfss, aes(x = pagecount, y = pagecount.ecco)) +
+       geom_point(size = 1) +
+       #geom_bin2d(bins = 50) +
+       #geom_hex(bins = 70) +
+       #geom_density_2d() +
+       # stat_density_2d(aes(fill = ..level..), geom = "polygon", colour = "white") +
+
+    #stat_density_2d(aes(fill = ..density..), geom = "raster", contour = FALSE) +
+    #  scale_x_continuous(expand = c(0, 0)) +
+    #  scale_y_continuous(expand = c(0, 0)) +
+    #theme(legend.position='none') + 
+
+       scale_x_log10() +
+       scale_y_log10() +       
+       xlab("Page count (ESTC)") +
+       ylab("Page count (ECCO)") +
+       #ggtitle(paste("ECCO/ESTC page count comparison (n = ", nrow(dfss), ")", sep = "")) +
+       ggtitle(paste("n = ", nrow(dfss), sep = "")) +       
        geom_abline(intercept = 0, slope = 1)
 print(p)
 ```
