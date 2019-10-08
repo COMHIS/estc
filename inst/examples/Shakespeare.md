@@ -6,6 +6,13 @@ output: markdown_document
 ---
 
 
+```
+## Error in library(theme): there is no package called 'theme'
+```
+
+```
+## Error in sorvi_set(theme_bw(20)): could not find function "sorvi_set"
+```
 
 
 We are a team of an early modern intellectual historian ([Mikko
