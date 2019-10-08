@@ -10,10 +10,6 @@ output: markdown_document
 ## Error in library(theme): there is no package called 'theme'
 ```
 
-```
-## Error in sorvi_set(theme_bw(20)): could not find function "sorvi_set"
-```
-
 
 We are a team of an early modern intellectual historian ([Mikko
 Tolonen](https://twitter.com/mikko_tolonen)) and a computational
@@ -86,15 +82,6 @@ What is telling when comparing Cervantes on the continent and his popularity in 
  
 On this timeline we see a very interesting contest. Don Quixote’s train-like rise throughout the early modern era is impressive indeed. Hamlet sees an interesting peak in English-speaking world in 1750s to be followed by the rise of the comedies and rapid sinking of the publishing of the Danish prince. Same thing happens to Romeo and Juliet shortly after. Macbeth on the other hand seems to follow a different, upward path towards the late eighteenth century. 
 
-
-
-```
-## Error in attr(x, "names") <- as.character(value): 'names' attribute [3] must be the same length as the vector [2]
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, title, value = structure(integer(0), .Label = character(0), class = "factor")): replacement has 0 rows, data has 105
-```
 
 <img src="figure/shakespeare-titles2-1.png" title="plot of chunk shakespeare-titles2" alt="plot of chunk shakespeare-titles2" width="700px" />
 

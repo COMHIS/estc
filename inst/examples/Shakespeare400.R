@@ -10,6 +10,8 @@ load_all()
 # source("Shakespeare.init.R")
 
 # Summary document
+library(knitr)
+
 knit("Shakespeare.Rmd")
 
 # Shakespearen kontinenttianalyysi
