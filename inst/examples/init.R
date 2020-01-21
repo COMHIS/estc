@@ -1,5 +1,5 @@
 # List preprocessed data files
-# fs <- "estc_parsed.csv.gz"
+fs <- "estc_parsed.csv.gz"
 catalog <- "estc"
 
 # Languages to consider in cleanup.
