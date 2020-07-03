@@ -28,4 +28,4 @@ Suggests:
     knitr,
     rmarkdown
 LazyLoad: yes
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
