@@ -1,5 +1,6 @@
 # List preprocessed data files
-fs <- "estc_parsed.csv.gz"
+#fs <- "estc_parsed.csv.gz"
+fs <- "estc_raw.csv.gz" # estc-data-originals/estc-csv-raw/estc_raw.csv 9/2020
 catalog <- "estc"
 
 # Languages to consider in cleanup.
@@ -20,6 +21,15 @@ ignore.fields <- c("title_uniform", "title_uniform2") # ESTC
 
 # reload.data <- FALSE
 
+# Set global parameters
+author <- "Leo Lahti / Computational History Group"
+ntop <- 20
+timespan <- c(1460, 1800)
+#datafile.preprocessed <- "data/unified/polished/df.Rds"
+#datafile.orig         <- "data/unified/polished/df.raw.Rds"
+datafile.preprocessed <- "df.Rds"
+datafile.orig         <- "df.raw.Rds"
+
 # ------------------------
 
 library(ggplot2)
@@ -36,13 +46,6 @@ library(gridExtra)
 library(knitr)
 library(magrittr)
 # load_all("~/Rpackages/bibliographica")
-
-# Set global parameters
-author <- "Leo Lahti / Computational History Group"
-ntop <- 20
-timespan <- c(1460, 1800)
-datafile.preprocessed <- "data/unified/polished/df.Rds"
-datafile.orig         <- "data/unified/polished/df.raw.Rds"
 
 # I/O definitions
 # make daily output folders TODO convert into function -vv
