@@ -11,7 +11,7 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 library(bibliographica)
-library(sorvi)
+library(theme)
 theme_set(theme_bw(20))
 ```
 
@@ -178,7 +178,8 @@ df <- rbind_all(list(df1, df2))
 dfs <- df %>% group_by(publication_decade, title) %>% tally()
 dfs <- dfs %>% spread(title, n, fill = 0)
 dfs[,-1] <- t(apply(dfs[, -1], 1, function(x) {x/sum(x)}))
-dfs <- gather(dfs, publication_decade)
+library(reshape2)
+dfs <- melt(dfs, "publication_decade")
 names(dfs) <- c("publication_decade", "title", "freq")
 dfs$title <- factor(dfs$title, levels = unique(dfs$title))
 

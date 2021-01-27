@@ -1,6 +1,6 @@
 # List preprocessed data files
 #fs <- "estc_parsed.csv.gz"
-fs <- "estc_raw.csv.gz" # estc-data-originals/estc-csv-raw/estc_raw.csv 9/2020
+fs <- "estc_raw.csv" # estc-data-originals/estc-csv-raw/estc_raw.csv 9/2020
 catalog <- "estc"
 
 # Languages to consider in cleanup.
@@ -72,6 +72,7 @@ today.str <- as.character(Sys.Date())
 # more time-consuming and sometimes we only like to update the final
 # analyses. It is therefore handy that the analysis.R can run independently,
 # although it is also run as part of the main workflow in main.R
-output.folder <- "output.tables/"
-dir.create(output.folder)
+
+#output.folder <- "output.tables/"
+#dir.create(output.folder)
 
